@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.ope_invhdr">F53A7424F3BEF6BD46B6940B29F57F46</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ope_invhdr">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ope_invhdr">20090501</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ope_invhdr">20100706</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ope_invhdr">20100706</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ope_invhdr">222354</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ope_invhdr">20100823</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ope_invhdr">20100823</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ope_invhdr">223208</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ope_invhdr">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ope_invhdr">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.ope_invhdr">zzzz</DD_ATTR_SLEV>
@@ -53,15 +53,15 @@
 		<RECORD id="ddm_table_aopt.ope_invhdr04">
 			<DD_TABLE_ALIAS id="ddm_table_aopt.ope_invhdr04">OPE_INVHDR      </DD_TABLE_ALIAS>
 			<DD_ATTR_SEQ id="ddm_table_aopt.ope_invhdr04">04</DD_ATTR_SEQ>
-			<DD_ATTR_AOPT id="ddm_table_aopt.ope_invhdr04">Credit Action</DD_ATTR_AOPT>
-			<DD_ATTR_AOPT_CD id="ddm_table_aopt.ope_invhdr04">CRAT</DD_ATTR_AOPT_CD>
+			<DD_ATTR_AOPT id="ddm_table_aopt.ope_invhdr04">Make Invoice</DD_ATTR_AOPT>
+			<DD_ATTR_AOPT_CD id="ddm_table_aopt.ope_invhdr04">MINV</DD_ATTR_AOPT_CD>
 			<DD_ATTR_AOPT_FM id="ddm_table_aopt.ope_invhdr04">F</DD_ATTR_AOPT_FM>
 		</RECORD>
 		<RECORD id="ddm_table_aopt.ope_invhdr05">
 			<DD_TABLE_ALIAS id="ddm_table_aopt.ope_invhdr05">OPE_INVHDR      </DD_TABLE_ALIAS>
 			<DD_ATTR_SEQ id="ddm_table_aopt.ope_invhdr05">05</DD_ATTR_SEQ>
-			<DD_ATTR_AOPT id="ddm_table_aopt.ope_invhdr05">Make Invoice</DD_ATTR_AOPT>
-			<DD_ATTR_AOPT_CD id="ddm_table_aopt.ope_invhdr05">MINV</DD_ATTR_AOPT_CD>
+			<DD_ATTR_AOPT id="ddm_table_aopt.ope_invhdr05">Undo Invoice</DD_ATTR_AOPT>
+			<DD_ATTR_AOPT_CD id="ddm_table_aopt.ope_invhdr05">UINV</DD_ATTR_AOPT_CD>
 			<DD_ATTR_AOPT_FM id="ddm_table_aopt.ope_invhdr05">F</DD_ATTR_AOPT_FM>
 		</RECORD>
 		<RECORD id="ddm_table_aopt.ope_invhdr06">
@@ -85,13 +85,6 @@
 			<DD_ATTR_AOPT_CD id="ddm_table_aopt.ope_invhdr08">CASH</DD_ATTR_AOPT_CD>
 			<DD_ATTR_AOPT_FM id="ddm_table_aopt.ope_invhdr08">F</DD_ATTR_AOPT_FM>
 		</RECORD>
-		<RECORD id="ddm_table_aopt.ope_invhdr09">
-			<DD_TABLE_ALIAS id="ddm_table_aopt.ope_invhdr09">OPE_INVHDR      </DD_TABLE_ALIAS>
-			<DD_ATTR_SEQ id="ddm_table_aopt.ope_invhdr09">09</DD_ATTR_SEQ>
-			<DD_ATTR_AOPT id="ddm_table_aopt.ope_invhdr09">Totals</DD_ATTR_AOPT>
-			<DD_ATTR_AOPT_CD id="ddm_table_aopt.ope_invhdr09">TTLS</DD_ATTR_AOPT_CD>
-			<DD_ATTR_AOPT_FM id="ddm_table_aopt.ope_invhdr09">F</DD_ATTR_AOPT_FM>
-		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_cpro">
 		<ID id="ddm_table_cpro">DDM_TABLE_CPRO</ID>
@@ -109,7 +102,7 @@
 		</RECORD>
 		<RECORD id="ddm_table_cpro.ope_invhdraopt">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.ope_invhdraopt">OPE_INVHDR      </DD_TABLE_ALIAS>
-			<DD_ATTR_CPRO id="ddm_table_cpro.ope_invhdraopt">AOPT-TTLS</DD_ATTR_CPRO>
+			<DD_ATTR_CPRO id="ddm_table_cpro.ope_invhdraopt">AOPT-UINV</DD_ATTR_CPRO>
 		</RECORD>
 		<RECORD id="ddm_table_cpro.ope_invhdrapfe">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.ope_invhdrapfe">OPE_INVHDR      </DD_TABLE_ALIAS>
@@ -1509,13 +1502,6 @@
 			<DD_ATTR_LDAT id="ddm_column_ldat.ope_invhdrinvoice_type01">S</DD_ATTR_LDAT>
 			<DD_ATTR_LDAT_DS id="ddm_column_ldat.ope_invhdrinvoice_type01">Sale</DD_ATTR_LDAT_DS>
 		</RECORD>
-		<RECORD id="ddm_column_ldat.ope_invhdrinvoice_type02">
-			<DD_TABLE_ALIAS id="ddm_column_ldat.ope_invhdrinvoice_type02">OPE_INVHDR      </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_ldat.ope_invhdrinvoice_type02">INVOICE_TYPE    </DD_DVAR_NAME>
-			<DD_ATTR_SEQ id="ddm_column_ldat.ope_invhdrinvoice_type02">02</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT id="ddm_column_ldat.ope_invhdrinvoice_type02">V</DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS id="ddm_column_ldat.ope_invhdrinvoice_type02">Void</DD_ATTR_LDAT_DS>
-		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">
 		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
@@ -1618,16 +1604,6 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.ope_invhdrtax_amountc">OPE_INVHDR      </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ope_invhdrtax_amountc">TAX_AMOUNT      </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ope_invhdrtax_amountc">C</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD id="ddm_column_opts.ope_invhdrfreight_amtc">
-			<DD_TABLE_ALIAS id="ddm_column_opts.ope_invhdrfreight_amtc">OPE_INVHDR      </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.ope_invhdrfreight_amtc">FREIGHT_AMT     </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.ope_invhdrfreight_amtc">C</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD id="ddm_column_opts.ope_invhdrdiscount_amtc">
-			<DD_TABLE_ALIAS id="ddm_column_opts.ope_invhdrdiscount_amtc">OPE_INVHDR      </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.ope_invhdrdiscount_amtc">DISCOUNT_AMT    </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.ope_invhdrdiscount_amtc">C</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.ope_invhdrcomm_percentc">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ope_invhdrcomm_percentc">OPE_INVHDR      </DD_TABLE_ALIAS>

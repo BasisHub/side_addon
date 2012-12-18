@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.ope_ordhdr">F53A7424F3BEF6BD46B6940B29F57F46</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ope_ordhdr">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ope_ordhdr">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ope_ordhdr">20100702</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ope_ordhdr">20100702</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ope_ordhdr">170118</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ope_ordhdr">20100823</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ope_ordhdr">20100819</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ope_ordhdr">222312</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ope_ordhdr">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ope_ordhdr">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.ope_ordhdr">zzzz</DD_ATTR_SLEV>
@@ -71,13 +71,6 @@
 			<DD_ATTR_AOPT_CD id="ddm_table_aopt.ope_ordhdr06">PRNT</DD_ATTR_AOPT_CD>
 			<DD_ATTR_AOPT_FM id="ddm_table_aopt.ope_ordhdr06">F</DD_ATTR_AOPT_FM>
 		</RECORD>
-		<RECORD id="ddm_table_aopt.ope_ordhdr07">
-			<DD_TABLE_ALIAS id="ddm_table_aopt.ope_ordhdr07">OPE_ORDHDR      </DD_TABLE_ALIAS>
-			<DD_ATTR_SEQ id="ddm_table_aopt.ope_ordhdr07">07</DD_ATTR_SEQ>
-			<DD_ATTR_AOPT id="ddm_table_aopt.ope_ordhdr07">Totals</DD_ATTR_AOPT>
-			<DD_ATTR_AOPT_CD id="ddm_table_aopt.ope_ordhdr07">TTLS</DD_ATTR_AOPT_CD>
-			<DD_ATTR_AOPT_FM id="ddm_table_aopt.ope_ordhdr07">F</DD_ATTR_AOPT_FM>
-		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_cpro">
 		<ID id="ddm_table_cpro">DDM_TABLE_CPRO</ID>
@@ -95,7 +88,7 @@
 		</RECORD>
 		<RECORD id="ddm_table_cpro.ope_ordhdraopt">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.ope_ordhdraopt">OPE_ORDHDR      </DD_TABLE_ALIAS>
-			<DD_ATTR_CPRO id="ddm_table_cpro.ope_ordhdraopt">AOPT-TTLS</DD_ATTR_CPRO>
+			<DD_ATTR_CPRO id="ddm_table_cpro.ope_ordhdraopt">AOPT-RPRT</DD_ATTR_CPRO>
 		</RECORD>
 		<RECORD id="ddm_table_cpro.ope_ordhdrapfe">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.ope_ordhdrapfe">OPE_ORDHDR      </DD_TABLE_ALIAS>
@@ -1575,13 +1568,6 @@
 			<DD_ATTR_LDAT id="ddm_column_ldat.ope_ordhdrinvoice_type02">P</DD_ATTR_LDAT>
 			<DD_ATTR_LDAT_DS id="ddm_column_ldat.ope_ordhdrinvoice_type02">Quote</DD_ATTR_LDAT_DS>
 		</RECORD>
-		<RECORD id="ddm_column_ldat.ope_ordhdrinvoice_type03">
-			<DD_TABLE_ALIAS id="ddm_column_ldat.ope_ordhdrinvoice_type03">OPE_ORDHDR      </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_ldat.ope_ordhdrinvoice_type03">INVOICE_TYPE    </DD_DVAR_NAME>
-			<DD_ATTR_SEQ id="ddm_column_ldat.ope_ordhdrinvoice_type03">03</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT id="ddm_column_ldat.ope_ordhdrinvoice_type03">V</DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS id="ddm_column_ldat.ope_ordhdrinvoice_type03">Void</DD_ATTR_LDAT_DS>
-		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">
 		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
@@ -1689,16 +1675,6 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.ope_ordhdrtax_amountc">OPE_ORDHDR      </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ope_ordhdrtax_amountc">TAX_AMOUNT      </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ope_ordhdrtax_amountc">C</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD id="ddm_column_opts.ope_ordhdrfreight_amtc">
-			<DD_TABLE_ALIAS id="ddm_column_opts.ope_ordhdrfreight_amtc">OPE_ORDHDR      </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.ope_ordhdrfreight_amtc">FREIGHT_AMT     </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.ope_ordhdrfreight_amtc">C</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD id="ddm_column_opts.ope_ordhdrdiscount_amtc">
-			<DD_TABLE_ALIAS id="ddm_column_opts.ope_ordhdrdiscount_amtc">OPE_ORDHDR      </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.ope_ordhdrdiscount_amtc">DISCOUNT_AMT    </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.ope_ordhdrdiscount_amtc">C</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.ope_ordhdrcomm_percentc">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ope_ordhdrcomm_percentc">OPE_ORDHDR      </DD_TABLE_ALIAS>
