@@ -1,314 +1,321 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <GLM_FINHEADING>
-	<ALIAS>
-		<ID>DDM_TABLES</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_FINHEADING  </DD_TABLE_ALIAS>
-			<DD_ALIAS_DESC>Financial Report Headings</DD_ALIAS_DESC>
-			<DD_FILE_NAME>glm-13</DD_FILE_NAME>
-			<DD_TABLE_PATH>[+GLDATA]</DD_TABLE_PATH>
-			<DD_ALIAS_TYPE>X</DD_ALIAS_TYPE>
-			<DD_KEY_LENGTH>0</DD_KEY_LENGTH>
-			<DD_NBR_RECORD>0</DD_NBR_RECORD>
-			<DD_RECORD_LEN>160</DD_RECORD_LEN>
-			<DD_SYSTEM_REC>N</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>GL </ASC_PROD_ID>
-			<ASC_LICENSE_ID>360B2D831F5F908BDA12C016E46FCF54</ASC_LICENSE_ID>
-			<DD_EXPORT_DATA>Y</DD_EXPORT_DATA>
-			<DD_CREATE_DATE>20060609</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080701</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE>20080701</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME>155342</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM>[+DIR_CPP]glm_finheading_cpt.bbj</DD_ATTR_CPGM>
-			<DD_ATTR_FTYP>T</DD_ATTR_FTYP>
-			<DD_ATTR_SLEV>zzzz</DD_ATTR_SLEV>
-			<DD_ATTR_WINT>Financial Report Headings</DD_ATTR_WINT>
+	<ALIAS id="ddm_tables">
+		<ID id="ddm_tables">DDM_TABLES</ID>
+		<RECORD id="ddm_tables.glm_finheading">
+			<DD_TABLE_ALIAS id="ddm_tables.glm_finheading">GLM_FINHEADING  </DD_TABLE_ALIAS>
+			<DD_ALIAS_DESC id="ddm_tables.glm_finheading">Financial Report Headings</DD_ALIAS_DESC>
+			<DD_FILE_NAME id="ddm_tables.glm_finheading">glm-13</DD_FILE_NAME>
+			<DD_TABLE_PATH id="ddm_tables.glm_finheading">[+GLDATA]</DD_TABLE_PATH>
+			<DD_ALIAS_TYPE id="ddm_tables.glm_finheading">X</DD_ALIAS_TYPE>
+			<DD_KEY_LENGTH id="ddm_tables.glm_finheading">0</DD_KEY_LENGTH>
+			<DD_NBR_RECORD id="ddm_tables.glm_finheading">0</DD_NBR_RECORD>
+			<DD_RECORD_LEN id="ddm_tables.glm_finheading">0</DD_RECORD_LEN>
+			<DD_SYSTEM_REC id="ddm_tables.glm_finheading">N</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_tables.glm_finheading">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_tables.glm_finheading">GL </ASC_PROD_ID>
+			<ASC_LICENSE_ID id="ddm_tables.glm_finheading">360B2D831F5F908BDA12C016E46FCF54</ASC_LICENSE_ID>
+			<DD_EXPORT_DATA id="ddm_tables.glm_finheading">Y</DD_EXPORT_DATA>
+			<DD_CREATE_DATE id="ddm_tables.glm_finheading">20060609</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_tables.glm_finheading">20081203</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.glm_finheading">20081203</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.glm_finheading">111712</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.glm_finheading">/dev/apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_FTYP id="ddm_tables.glm_finheading">T</DD_ATTR_FTYP>
+			<DD_ATTR_SLEV id="ddm_tables.glm_finheading">zzzz</DD_ATTR_SLEV>
+			<DD_ATTR_WINT id="ddm_tables.glm_finheading">Financial Report Headings</DD_ATTR_WINT>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_CPRO</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_FINHEADING  </DD_TABLE_ALIAS>
-			<DD_ATTR_CPRO>ADIS</DD_ATTR_CPRO>
+	<ALIAS id="ddm_table_cpro">
+		<ID id="ddm_table_cpro">DDM_TABLE_CPRO</ID>
+		<RECORD id="ddm_table_cpro.glm_finheadingadis">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.glm_finheadingadis">GLM_FINHEADING  </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.glm_finheadingadis">ADIS</DD_ATTR_CPRO>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_FINHEADING  </DD_TABLE_ALIAS>
-			<DD_ATTR_CPRO>AREC</DD_ATTR_CPRO>
+		<RECORD id="ddm_table_cpro.glm_finheadingarec">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.glm_finheadingarec">GLM_FINHEADING  </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.glm_finheadingarec">AREC</DD_ATTR_CPRO>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_FINHEADING  </DD_TABLE_ALIAS>
-			<DD_ATTR_CPRO>BSHO</DD_ATTR_CPRO>
-		</RECORD>
-	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_OPTS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_FINHEADING  </DD_TABLE_ALIAS>
-			<DD_ATTR_OPTS>L</DD_ATTR_OPTS>
+		<RECORD id="ddm_table_cpro.glm_finheadingawin">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.glm_finheadingawin">GLM_FINHEADING  </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.glm_finheadingawin">AWIN</DD_ATTR_CPRO>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_TPLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_FINHEADING  </DD_TABLE_ALIAS>
-			<DD_FILE_NAME>glm-13</DD_FILE_NAME>
-			<DD_TABLE_TPL>firm_id:c(2),heading_no:c(2),sequence_no:c(3*),rpt_heading:c(132*)</DD_TABLE_TPL>
+	<ALIAS id="ddm_table_opts">
+		<ID id="ddm_table_opts">DDM_TABLE_OPTS</ID>
+		<RECORD id="ddm_table_opts.glm_finheadingl">
+			<DD_TABLE_ALIAS id="ddm_table_opts.glm_finheadingl">GLM_FINHEADING  </DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.glm_finheadingl">L</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_KEYS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_FINHEADING  </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_KEY_DESC>Primary</DD_KEY_DESC>
-			<DD_KEY_ID>PRIMARY         </DD_KEY_ID>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_FINHEADING  </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>01</DD_KEY_NUMBER>
-			<DD_KEY_ID>                </DD_KEY_ID>
+	<ALIAS id="ddm_table_tpls">
+		<ID id="ddm_table_tpls">DDM_TABLE_TPLS</ID>
+		<RECORD id="ddm_table_tpls.glm_finheading">
+			<DD_TABLE_ALIAS id="ddm_table_tpls.glm_finheading">GLM_FINHEADING  </DD_TABLE_ALIAS>
+			<DD_FILE_NAME id="ddm_table_tpls.glm_finheading">glm-13</DD_FILE_NAME>
+			<DD_TABLE_TPL id="ddm_table_tpls.glm_finheading">firm_id:c(2),heading_no:c(2),sequence_no:c(3*),rpt_heading:c(132*)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_KEY_SEGS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_FINHEADING  </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>01</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>FIRM_ID         </DD_SEGMENT_COL>
-			<DD_SEGMENT_POS>0</DD_SEGMENT_POS>
-			<DD_SEGMENT_OFF>0</DD_SEGMENT_OFF>
-			<DD_SEGMENT_LEN>0</DD_SEGMENT_LEN>
+	<ALIAS id="ddm_keys">
+		<ID id="ddm_keys">DDM_KEYS</ID>
+		<RECORD id="ddm_keys.glm_finheading00">
+			<DD_TABLE_ALIAS id="ddm_keys.glm_finheading00">GLM_FINHEADING  </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_keys.glm_finheading00">00</DD_KEY_NUMBER>
+			<DD_KEY_DESC id="ddm_keys.glm_finheading00">Primary</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.glm_finheading00">PRIMARY         </DD_KEY_ID>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_FINHEADING  </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>02</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>HEADING_NO      </DD_SEGMENT_COL>
-			<DD_SEGMENT_POS>0</DD_SEGMENT_POS>
-			<DD_SEGMENT_OFF>0</DD_SEGMENT_OFF>
-			<DD_SEGMENT_LEN>0</DD_SEGMENT_LEN>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_FINHEADING  </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>03</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>SEQUENCE_NO     </DD_SEGMENT_COL>
-			<DD_SEGMENT_POS>0</DD_SEGMENT_POS>
-			<DD_SEGMENT_OFF>0</DD_SEGMENT_OFF>
-			<DD_SEGMENT_LEN>0</DD_SEGMENT_LEN>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_FINHEADING  </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>01</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>01</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>FIRM_ID         </DD_SEGMENT_COL>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_FINHEADING  </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>01</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>02</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>HEADING_NO      </DD_SEGMENT_COL>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_FINHEADING  </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>01</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>03</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>SEQUENCE_NO     </DD_SEGMENT_COL>
+		<RECORD id="ddm_keys.glm_finheading01">
+			<DD_TABLE_ALIAS id="ddm_keys.glm_finheading01">GLM_FINHEADING  </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_keys.glm_finheading01">01</DD_KEY_NUMBER>
+			<DD_KEY_ID id="ddm_keys.glm_finheading01">                </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_COLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_FINHEADING  </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>001</DD_SEQUENCE>
-			<DD_DATA_NAME>FIRM_ID         </DD_DATA_NAME>
-			<DD_DVAR_NAME>FIRM_ID         </DD_DVAR_NAME>
-			<DD_COL_REPEATS>1</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL>2</DD_ATTR_MAXL>
-			<DD_ATTR_PROM>Firm ID</DD_ATTR_PROM>
-			<DD_ATTR_TIND>1</DD_ATTR_TIND>
+	<ALIAS id="ddm_key_segs">
+		<ID id="ddm_key_segs">DDM_KEY_SEGS</ID>
+		<RECORD id="ddm_key_segs.glm_finheading0001">
+			<DD_TABLE_ALIAS id="ddm_key_segs.glm_finheading0001">GLM_FINHEADING  </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.glm_finheading0001">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.glm_finheading0001">01</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.glm_finheading0001">FIRM_ID         </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.glm_finheading0001">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.glm_finheading0001">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.glm_finheading0001">0</DD_SEGMENT_LEN>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_FINHEADING  </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>002</DD_SEQUENCE>
-			<DD_DATA_NAME>HEADING_NO      </DD_DATA_NAME>
-			<DD_DVAR_NAME>HEADING_NO      </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW>35</DD_ATTR_CTLW>
-			<DD_ATTR_MAXL>2</DD_ATTR_MAXL>
-			<DD_ATTR_PROM>Heading Number</DD_ATTR_PROM>
-			<DD_ATTR_TIND>2</DD_ATTR_TIND>
+		<RECORD id="ddm_key_segs.glm_finheading0002">
+			<DD_TABLE_ALIAS id="ddm_key_segs.glm_finheading0002">GLM_FINHEADING  </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.glm_finheading0002">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.glm_finheading0002">02</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.glm_finheading0002">HEADING_NO      </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.glm_finheading0002">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.glm_finheading0002">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.glm_finheading0002">0</DD_SEGMENT_LEN>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_FINHEADING  </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>003</DD_SEQUENCE>
-			<DD_DATA_NAME>SEQUENCE_NO     </DD_DATA_NAME>
-			<DD_DVAR_NAME>SEQUENCE_NO     </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL>3</DD_ATTR_MAXL>
-			<DD_ATTR_PROM>Sequence Number</DD_ATTR_PROM>
-			<DD_ATTR_TIND>3</DD_ATTR_TIND>
+		<RECORD id="ddm_key_segs.glm_finheading0003">
+			<DD_TABLE_ALIAS id="ddm_key_segs.glm_finheading0003">GLM_FINHEADING  </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.glm_finheading0003">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.glm_finheading0003">03</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.glm_finheading0003">SEQUENCE_NO     </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.glm_finheading0003">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.glm_finheading0003">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.glm_finheading0003">0</DD_SEGMENT_LEN>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_FINHEADING  </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>004</DD_SEQUENCE>
-			<DD_DATA_NAME>RPT_HEADING     </DD_DATA_NAME>
-			<DD_DVAR_NAME>RPT_HEADING     </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW>940</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_LABL>Heading</DD_ATTR_LABL>
-			<DD_ATTR_MAXL>132</DD_ATTR_MAXL>
-			<DD_ATTR_PROM>Report Heading</DD_ATTR_PROM>
-			<DD_ATTR_TIND>5</DD_ATTR_TIND>
+		<RECORD id="ddm_key_segs.glm_finheading0101">
+			<DD_TABLE_ALIAS id="ddm_key_segs.glm_finheading0101">GLM_FINHEADING  </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.glm_finheading0101">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.glm_finheading0101">01</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.glm_finheading0101">FIRM_ID         </DD_SEGMENT_COL>
+		</RECORD>
+		<RECORD id="ddm_key_segs.glm_finheading0102">
+			<DD_TABLE_ALIAS id="ddm_key_segs.glm_finheading0102">GLM_FINHEADING  </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.glm_finheading0102">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.glm_finheading0102">02</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.glm_finheading0102">HEADING_NO      </DD_SEGMENT_COL>
+		</RECORD>
+		<RECORD id="ddm_key_segs.glm_finheading0103">
+			<DD_TABLE_ALIAS id="ddm_key_segs.glm_finheading0103">GLM_FINHEADING  </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.glm_finheading0103">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.glm_finheading0103">03</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.glm_finheading0103">SEQUENCE_NO     </DD_SEGMENT_COL>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_DISP</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_FINHEADING  </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>001</DD_SEQUENCE>
-			<DD_DATA_NAME>DISP_TEXT_LONG  </DD_DATA_NAME>
-			<DD_CTRL_NAME>GUIDE           </DD_CTRL_NAME>
-			<DD_ATTR_CTLX>0</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY>0</DD_ATTR_CTLY>
-			<DD_ATTR_CTLW>940</DD_ATTR_CTLW>
-			<DD_ATTR_TIND>4</DD_ATTR_TIND>
+	<ALIAS id="ddm_table_cols">
+		<ID id="ddm_table_cols">DDM_TABLE_COLS</ID>
+		<RECORD id="ddm_table_cols.glm_finheading001">
+			<DD_TABLE_ALIAS id="ddm_table_cols.glm_finheading001">GLM_FINHEADING  </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.glm_finheading001">001</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.glm_finheading001">FIRM_ID         </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.glm_finheading001">FIRM_ID         </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.glm_finheading001">1</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.glm_finheading001">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.glm_finheading001">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.glm_finheading001">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.glm_finheading001">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.glm_finheading001">2</DD_ATTR_MAXL>
+			<DD_ATTR_PROM id="ddm_table_cols.glm_finheading001">Firm ID</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.glm_finheading001">1</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.glm_finheading002">
+			<DD_TABLE_ALIAS id="ddm_table_cols.glm_finheading002">GLM_FINHEADING  </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.glm_finheading002">002</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.glm_finheading002">HEADING_NO      </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.glm_finheading002">HEADING_NO      </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.glm_finheading002">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.glm_finheading002">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.glm_finheading002">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.glm_finheading002">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.glm_finheading002">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.glm_finheading002">35</DD_ATTR_CTLW>
+			<DD_ATTR_MAXL id="ddm_table_cols.glm_finheading002">2</DD_ATTR_MAXL>
+			<DD_ATTR_PROM id="ddm_table_cols.glm_finheading002">Heading Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.glm_finheading002">2</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.glm_finheading003">
+			<DD_TABLE_ALIAS id="ddm_table_cols.glm_finheading003">GLM_FINHEADING  </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.glm_finheading003">003</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.glm_finheading003">GENERIC_SEQ     </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.glm_finheading003">SEQUENCE_NO     </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.glm_finheading003">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.glm_finheading003">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.glm_finheading003">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.glm_finheading003">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.glm_finheading003">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.glm_finheading003">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.glm_finheading003">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.glm_finheading003">0</DD_ATTR_CTLH>
+			<DD_ATTR_LABL id="ddm_table_cols.glm_finheading003">Sequence Number</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_table_cols.glm_finheading003">Seq No</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_table_cols.glm_finheading003">3</DD_ATTR_MAXL>
+			<DD_ATTR_MINV id="ddm_table_cols.glm_finheading003">000</DD_ATTR_MINV>
+			<DD_ATTR_MAXV id="ddm_table_cols.glm_finheading003">004</DD_ATTR_MAXV>
+			<DD_ATTR_PROM id="ddm_table_cols.glm_finheading003">Sequence Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.glm_finheading003">3</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.glm_finheading004">
+			<DD_TABLE_ALIAS id="ddm_table_cols.glm_finheading004">GLM_FINHEADING  </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.glm_finheading004">004</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.glm_finheading004">RPT_HEADING     </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.glm_finheading004">RPT_HEADING     </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.glm_finheading004">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.glm_finheading004">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.glm_finheading004">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.glm_finheading004">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.glm_finheading004">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.glm_finheading004">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.glm_finheading004">940</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.glm_finheading004">0</DD_ATTR_CTLH>
+			<DD_ATTR_LABL id="ddm_table_cols.glm_finheading004">Heading</DD_ATTR_LABL>
+			<DD_ATTR_MAXL id="ddm_table_cols.glm_finheading004">132</DD_ATTR_MAXL>
+			<DD_ATTR_PROM id="ddm_table_cols.glm_finheading004">Report Heading</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.glm_finheading004">5</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_COLUMN_OPTS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_FINHEADING  </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>FIRM_ID         </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>O</DD_ATTR_OPTS>
+	<ALIAS id="ddm_table_disp">
+		<ID id="ddm_table_disp">DDM_TABLE_DISP</ID>
+		<RECORD id="ddm_table_disp.glm_finheading001">
+			<DD_TABLE_ALIAS id="ddm_table_disp.glm_finheading001">GLM_FINHEADING  </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.glm_finheading001">001</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.glm_finheading001">DISP_TEXT_LONG  </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.glm_finheading001">GUIDE           </DD_CTRL_NAME>
+			<DD_ATTR_CTLX id="ddm_table_disp.glm_finheading001">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.glm_finheading001">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.glm_finheading001">940</DD_ATTR_CTLW>
+			<DD_ATTR_TIND id="ddm_table_disp.glm_finheading001">4</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_ELEMENTS</ID>
-		<RECORD>
-			<DD_DATA_NAME>FIRM_ID         </DD_DATA_NAME>
-			<DD_DESCRIPTION>Firm ID</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>2</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SYSTEM_REC>Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060425</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>H</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Firm ID</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Firm ID</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>00</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>00</DD_ATTR_MSKO>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>R</DD_ATTR_PADJ>
-			<DD_ATTR_PVAL>stbl("+FIRM_ID")</DD_ATTR_PVAL>
+	<ALIAS id="ddm_column_opts">
+		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
+		<RECORD id="ddm_column_opts.glm_finheadingfirm_ido">
+			<DD_TABLE_ALIAS id="ddm_column_opts.glm_finheadingfirm_ido">GLM_FINHEADING  </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.glm_finheadingfirm_ido">FIRM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.glm_finheadingfirm_ido">O</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>HEADING_NO      </DD_DATA_NAME>
-			<DD_DESCRIPTION>Heading Number                </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>2</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Heading Number</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Heading No</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>00</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>00</DD_ATTR_MSKO>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>R</DD_ATTR_PADJ>
+	</ALIAS>
+	<ALIAS id="ddm_elements">
+		<ID id="ddm_elements">DDM_ELEMENTS</ID>
+		<RECORD id="ddm_elements.firm_id">
+			<DD_DATA_NAME id="ddm_elements.firm_id">FIRM_ID         </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.firm_id">Firm ID</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.firm_id">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.firm_id">2</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.firm_id"> </DD_MASK_TYPE>
+			<DD_SYSTEM_REC id="ddm_elements.firm_id">Y</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.firm_id">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.firm_id">BAR</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.firm_id">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.firm_id">20060425</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.firm_id">H</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.firm_id">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.firm_id">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABS>
+			<DD_ATTR_MSKI id="ddm_elements.firm_id">00</DD_ATTR_MSKI>
+			<DD_ATTR_MSKO id="ddm_elements.firm_id">00</DD_ATTR_MSKO>
+			<DD_ATTR_PADC id="ddm_elements.firm_id">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.firm_id">R</DD_ATTR_PADJ>
+			<DD_ATTR_PVAL id="ddm_elements.firm_id">stbl("+FIRM_ID")</DD_ATTR_PVAL>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>SEQUENCE_NO     </DD_DATA_NAME>
-			<DD_DESCRIPTION>Sequence Number               </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>3</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SYSTEM_REC>Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060504</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Sequence Number</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Seq No</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>000</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>000</DD_ATTR_MSKO>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>R</DD_ATTR_PADJ>
-			<DD_ATTR_STYP>S</DD_ATTR_STYP>
+		<RECORD id="ddm_elements.heading_no">
+			<DD_DATA_NAME id="ddm_elements.heading_no">HEADING_NO      </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.heading_no">Heading Number                </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.heading_no">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.heading_no">2</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.heading_no"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.heading_no">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.heading_no">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.heading_no">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.heading_no">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.heading_no">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.heading_no">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.heading_no">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.heading_no">Heading Number</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.heading_no">Heading No</DD_ATTR_LABS>
+			<DD_ATTR_MSKI id="ddm_elements.heading_no">00</DD_ATTR_MSKI>
+			<DD_ATTR_MSKO id="ddm_elements.heading_no">00</DD_ATTR_MSKO>
+			<DD_ATTR_PADC id="ddm_elements.heading_no">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.heading_no">R</DD_ATTR_PADJ>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>RPT_HEADING     </DD_DATA_NAME>
-			<DD_DESCRIPTION>Report Heading</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>132</DD_DATA_LENGTH>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20071206</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Report Heading</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Rpt Heading</DD_ATTR_LABS>
-			<DD_ATTR_MAXL>0</DD_ATTR_MAXL>
-			<DD_ATTR_MAXR>0</DD_ATTR_MAXR>
-			<DD_ATTR_MINL>0</DD_ATTR_MINL>
-			<DD_ATTR_PREC>0</DD_ATTR_PREC>
+		<RECORD id="ddm_elements.generic_seq">
+			<DD_DATA_NAME id="ddm_elements.generic_seq">GENERIC_SEQ     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.generic_seq">Generic Sequence Number</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.generic_seq">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.generic_seq">3</DD_DATA_LENGTH>
+			<ASC_COMP_ID id="ddm_elements.generic_seq">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.generic_seq">AD </ASC_PROD_ID>
+			<LOCALIZATION_EX id="ddm_elements.generic_seq">N</LOCALIZATION_EX>
+			<DD_CREATE_DATE id="ddm_elements.generic_seq">20081203</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.generic_seq">20081203</DD_LSTREV_DATE>
+			<DD_ATTR_BLNK id="ddm_elements.generic_seq">N</DD_ATTR_BLNK>
+			<DD_ATTR_CTLW id="ddm_elements.generic_seq">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.generic_seq">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.generic_seq">E</DD_ATTR_CTYP>
+			<DD_ATTR_LABL id="ddm_elements.generic_seq">Generic Sequence Number</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.generic_seq">Generic Sequence Num</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.generic_seq">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.generic_seq">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.generic_seq">0</DD_ATTR_MINL>
+			<DD_ATTR_MSKI id="ddm_elements.generic_seq">000</DD_ATTR_MSKI>
+			<DD_ATTR_MSKO id="ddm_elements.generic_seq">000</DD_ATTR_MSKO>
+			<DD_ATTR_PREC id="ddm_elements.generic_seq">0</DD_ATTR_PREC>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>DISP_TEXT_LONG  </DD_DATA_NAME>
-			<DD_DESCRIPTION>Long Text Display</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>135</DD_DATA_LENGTH>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20080206</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080206</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_LABL>Long Text Display</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Long Text Display</DD_ATTR_LABS>
-			<DD_ATTR_MAXL>0</DD_ATTR_MAXL>
-			<DD_ATTR_MAXR>0</DD_ATTR_MAXR>
-			<DD_ATTR_MINL>0</DD_ATTR_MINL>
-			<DD_ATTR_PREC>0</DD_ATTR_PREC>
+		<RECORD id="ddm_elements.rpt_heading">
+			<DD_DATA_NAME id="ddm_elements.rpt_heading">RPT_HEADING     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.rpt_heading">Report Heading</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.rpt_heading">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.rpt_heading">132</DD_DATA_LENGTH>
+			<ASC_COMP_ID id="ddm_elements.rpt_heading">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.rpt_heading">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.rpt_heading">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.rpt_heading">20071206</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.rpt_heading">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.rpt_heading">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.rpt_heading">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.rpt_heading">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.rpt_heading">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.rpt_heading">Report Heading</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.rpt_heading">Rpt Heading</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.rpt_heading">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.rpt_heading">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.rpt_heading">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.rpt_heading">0</DD_ATTR_PREC>
+		</RECORD>
+		<RECORD id="ddm_elements.disp_text_long">
+			<DD_DATA_NAME id="ddm_elements.disp_text_long">DISP_TEXT_LONG  </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.disp_text_long">Long Text Display</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.disp_text_long">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.disp_text_long">135</DD_DATA_LENGTH>
+			<ASC_COMP_ID id="ddm_elements.disp_text_long">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.disp_text_long">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.disp_text_long">20080206</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.disp_text_long">20080206</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.disp_text_long">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.disp_text_long">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.disp_text_long">E</DD_ATTR_CTYP>
+			<DD_ATTR_LABL id="ddm_elements.disp_text_long">Long Text Display</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.disp_text_long">Long Text Display</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.disp_text_long">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.disp_text_long">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.disp_text_long">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.disp_text_long">0</DD_ATTR_PREC>
 		</RECORD>
 	</ALIAS>
 </GLM_FINHEADING>

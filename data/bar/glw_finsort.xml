@@ -1,236 +1,234 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <GLW_FINSORT>
-	<ALIAS>
-		<ID>DDM_TABLES</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLW_FINSORT     </DD_TABLE_ALIAS>
-			<DD_ALIAS_DESC>GL Financial Sort File</DD_ALIAS_DESC>
-			<DD_FILE_NAME>glw-02</DD_FILE_NAME>
-			<DD_TABLE_PATH>[+GLDATA]</DD_TABLE_PATH>
-			<DD_ALIAS_TYPE>X</DD_ALIAS_TYPE>
-			<DD_KEY_LENGTH>0</DD_KEY_LENGTH>
-			<DD_NBR_RECORD>0</DD_NBR_RECORD>
-			<DD_RECORD_LEN>26</DD_RECORD_LEN>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>GL </ASC_PROD_ID>
-			<ASC_LICENSE_ID>E117CC707692E264556768DC2D0CC5D1</ASC_LICENSE_ID>
-			<DD_CREATE_DATE>20060522</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080130</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE>20080327</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME>150130</DD_LSTSYNC_TIME>
-			<DD_ATTR_FTYP>X</DD_ATTR_FTYP>
-			<DD_ATTR_WINT>GL Financial Sort File</DD_ATTR_WINT>
+	<ALIAS id="ddm_tables">
+		<ID id="ddm_tables">DDM_TABLES</ID>
+		<RECORD id="ddm_tables.glw_finsort">
+			<DD_TABLE_ALIAS id="ddm_tables.glw_finsort">GLW_FINSORT     </DD_TABLE_ALIAS>
+			<DD_ALIAS_DESC id="ddm_tables.glw_finsort">GL Financial Sort File</DD_ALIAS_DESC>
+			<DD_FILE_NAME id="ddm_tables.glw_finsort">glw-02</DD_FILE_NAME>
+			<DD_TABLE_PATH id="ddm_tables.glw_finsort">[+GLDATA]</DD_TABLE_PATH>
+			<DD_ALIAS_TYPE id="ddm_tables.glw_finsort">X</DD_ALIAS_TYPE>
+			<DD_KEY_LENGTH id="ddm_tables.glw_finsort">0</DD_KEY_LENGTH>
+			<DD_NBR_RECORD id="ddm_tables.glw_finsort">0</DD_NBR_RECORD>
+			<DD_RECORD_LEN id="ddm_tables.glw_finsort">26</DD_RECORD_LEN>
+			<ASC_COMP_ID id="ddm_tables.glw_finsort">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_tables.glw_finsort">GL </ASC_PROD_ID>
+			<ASC_LICENSE_ID id="ddm_tables.glw_finsort">E117CC707692E264556768DC2D0CC5D1</ASC_LICENSE_ID>
+			<DD_CREATE_DATE id="ddm_tables.glw_finsort">20060522</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_tables.glw_finsort">20080130</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.glw_finsort">20081208</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.glw_finsort">103204</DD_LSTSYNC_TIME>
+			<DD_ATTR_FTYP id="ddm_tables.glw_finsort">X</DD_ATTR_FTYP>
+			<DD_ATTR_WINT id="ddm_tables.glw_finsort">GL Financial Sort File</DD_ATTR_WINT>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_TPLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLW_FINSORT     </DD_TABLE_ALIAS>
-			<DD_FILE_NAME>glw-02</DD_FILE_NAME>
-			<DD_TABLE_TPL>firm_id:c(2),gl_acct_type:c(1),acct_no_brk:c(10),gl_account:c(10*)</DD_TABLE_TPL>
+	<ALIAS id="ddm_table_tpls">
+		<ID id="ddm_table_tpls">DDM_TABLE_TPLS</ID>
+		<RECORD id="ddm_table_tpls.glw_finsort">
+			<DD_TABLE_ALIAS id="ddm_table_tpls.glw_finsort">GLW_FINSORT     </DD_TABLE_ALIAS>
+			<DD_FILE_NAME id="ddm_table_tpls.glw_finsort">glw-02</DD_FILE_NAME>
+			<DD_TABLE_TPL id="ddm_table_tpls.glw_finsort">firm_id:c(2),gl_acct_type:c(1),acct_no_brk:c(10),gl_account:c(10*)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_KEYS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLW_FINSORT     </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_KEY_ID>                </DD_KEY_ID>
+	<ALIAS id="ddm_keys">
+		<ID id="ddm_keys">DDM_KEYS</ID>
+		<RECORD id="ddm_keys.glw_finsort00">
+			<DD_TABLE_ALIAS id="ddm_keys.glw_finsort00">GLW_FINSORT     </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_keys.glw_finsort00">00</DD_KEY_NUMBER>
+			<DD_KEY_ID id="ddm_keys.glw_finsort00">                </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_KEY_SEGS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLW_FINSORT     </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>01</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>FIRM_ID         </DD_SEGMENT_COL>
+	<ALIAS id="ddm_key_segs">
+		<ID id="ddm_key_segs">DDM_KEY_SEGS</ID>
+		<RECORD id="ddm_key_segs.glw_finsort0001">
+			<DD_TABLE_ALIAS id="ddm_key_segs.glw_finsort0001">GLW_FINSORT     </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.glw_finsort0001">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.glw_finsort0001">01</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.glw_finsort0001">FIRM_ID         </DD_SEGMENT_COL>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLW_FINSORT     </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>02</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>GL_ACCT_TYPE    </DD_SEGMENT_COL>
+		<RECORD id="ddm_key_segs.glw_finsort0002">
+			<DD_TABLE_ALIAS id="ddm_key_segs.glw_finsort0002">GLW_FINSORT     </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.glw_finsort0002">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.glw_finsort0002">02</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.glw_finsort0002">GL_ACCT_TYPE    </DD_SEGMENT_COL>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLW_FINSORT     </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>03</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>ACCT_NO_BRK     </DD_SEGMENT_COL>
+		<RECORD id="ddm_key_segs.glw_finsort0003">
+			<DD_TABLE_ALIAS id="ddm_key_segs.glw_finsort0003">GLW_FINSORT     </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.glw_finsort0003">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.glw_finsort0003">03</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.glw_finsort0003">ACCT_NO_BRK     </DD_SEGMENT_COL>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLW_FINSORT     </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>04</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>GL_ACCOUNT      </DD_SEGMENT_COL>
-		</RECORD>
-	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_COLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLW_FINSORT     </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>001</DD_SEQUENCE>
-			<DD_DATA_NAME>FIRM_ID         </DD_DATA_NAME>
-			<DD_DVAR_NAME>FIRM_ID         </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060522</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060522</DD_LSTREV_DATE>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLW_FINSORT     </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>002</DD_SEQUENCE>
-			<DD_DATA_NAME>GL_ACCT_TYPE    </DD_DATA_NAME>
-			<DD_DVAR_NAME>GL_ACCT_TYPE    </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060522</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060522</DD_LSTREV_DATE>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLW_FINSORT     </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>003</DD_SEQUENCE>
-			<DD_DATA_NAME>ACCT_NO_BRK     </DD_DATA_NAME>
-			<DD_DVAR_NAME>ACCT_NO_BRK     </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060522</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060522</DD_LSTREV_DATE>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLW_FINSORT     </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>004</DD_SEQUENCE>
-			<DD_DATA_NAME>GL_ACCOUNT      </DD_DATA_NAME>
-			<DD_DVAR_NAME>GL_ACCOUNT      </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060522</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060522</DD_LSTREV_DATE>
+		<RECORD id="ddm_key_segs.glw_finsort0004">
+			<DD_TABLE_ALIAS id="ddm_key_segs.glw_finsort0004">GLW_FINSORT     </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.glw_finsort0004">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.glw_finsort0004">04</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.glw_finsort0004">GL_ACCOUNT      </DD_SEGMENT_COL>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_ELEMENTS</ID>
-		<RECORD>
-			<DD_DATA_NAME>FIRM_ID         </DD_DATA_NAME>
-			<DD_DESCRIPTION>Firm ID</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>2</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SYSTEM_REC>Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060425</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>H</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Firm ID</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Firm ID</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>00</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>00</DD_ATTR_MSKO>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>R</DD_ATTR_PADJ>
-			<DD_ATTR_PVAL>stbl("+FIRM_ID")</DD_ATTR_PVAL>
+	<ALIAS id="ddm_table_cols">
+		<ID id="ddm_table_cols">DDM_TABLE_COLS</ID>
+		<RECORD id="ddm_table_cols.glw_finsort001">
+			<DD_TABLE_ALIAS id="ddm_table_cols.glw_finsort001">GLW_FINSORT     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.glw_finsort001">001</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.glw_finsort001">FIRM_ID         </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.glw_finsort001">FIRM_ID         </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.glw_finsort001">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.glw_finsort001">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.glw_finsort001">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.glw_finsort001">20060522</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.glw_finsort001">20060522</DD_LSTREV_DATE>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>GL_ACCT_TYPE    </DD_DATA_NAME>
-			<DD_DESCRIPTION>GL Account Type [A/L/I/C/E]</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>1</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060321</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>L</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Account Type</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Acct Type</DD_ATTR_LABS>
+		<RECORD id="ddm_table_cols.glw_finsort002">
+			<DD_TABLE_ALIAS id="ddm_table_cols.glw_finsort002">GLW_FINSORT     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.glw_finsort002">002</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.glw_finsort002">GL_ACCT_TYPE    </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.glw_finsort002">GL_ACCT_TYPE    </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.glw_finsort002">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.glw_finsort002">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.glw_finsort002">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.glw_finsort002">20060522</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.glw_finsort002">20060522</DD_LSTREV_DATE>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>ACCT_NO_BRK     </DD_DATA_NAME>
-			<DD_DESCRIPTION>Account Number Break</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>10</DD_DATA_LENGTH>
-			<DD_MASK_TYPE>I</DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>GL </ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20081014</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Account Number Break</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Acct No Break</DD_ATTR_LABS>
-			<DD_ATTR_MAXL>0</DD_ATTR_MAXL>
-			<DD_ATTR_MAXR>0</DD_ATTR_MAXR>
-			<DD_ATTR_MINL>0</DD_ATTR_MINL>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>L</DD_ATTR_PADJ>
-			<DD_ATTR_PREC>0</DD_ATTR_PREC>
+		<RECORD id="ddm_table_cols.glw_finsort003">
+			<DD_TABLE_ALIAS id="ddm_table_cols.glw_finsort003">GLW_FINSORT     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.glw_finsort003">003</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.glw_finsort003">ACCT_NO_BRK     </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.glw_finsort003">ACCT_NO_BRK     </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.glw_finsort003">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.glw_finsort003">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.glw_finsort003">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.glw_finsort003">20060522</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.glw_finsort003">20060522</DD_LSTREV_DATE>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>GL_ACCOUNT      </DD_DATA_NAME>
-			<DD_DESCRIPTION>GL Account Number</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>10</DD_DATA_LENGTH>
-			<DD_MASK_TYPE>I</DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>GL </ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20061018</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOL>GL_ACCT_DESC    </DD_ATTR_DCOL>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_DKEY>[+FIRM_ID]+@</DD_ATTR_DKEY>
-			<DD_ATTR_DTAB>GLM_ACCT        </DD_ATTR_DTAB>
-			<DD_ATTR_LABL>GL Account</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Account</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>UUUUUUUUUU</DD_ATTR_MSKI>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>L</DD_ATTR_PADJ>
+		<RECORD id="ddm_table_cols.glw_finsort004">
+			<DD_TABLE_ALIAS id="ddm_table_cols.glw_finsort004">GLW_FINSORT     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.glw_finsort004">004</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.glw_finsort004">GL_ACCOUNT      </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.glw_finsort004">GL_ACCOUNT      </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.glw_finsort004">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.glw_finsort004">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.glw_finsort004">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.glw_finsort004">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.glw_finsort004">20060522</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.glw_finsort004">20060522</DD_LSTREV_DATE>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_ELEMENT_LDAT</ID>
-		<RECORD>
-			<DD_DATA_NAME>GL_ACCT_TYPE    </DD_DATA_NAME>
-			<DD_ATTR_SEQ>01</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>A   </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Asset</DD_ATTR_LDAT_DS>
+	<ALIAS id="ddm_elements">
+		<ID id="ddm_elements">DDM_ELEMENTS</ID>
+		<RECORD id="ddm_elements.firm_id">
+			<DD_DATA_NAME id="ddm_elements.firm_id">FIRM_ID         </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.firm_id">Firm ID</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.firm_id">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.firm_id">2</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.firm_id"> </DD_MASK_TYPE>
+			<DD_SYSTEM_REC id="ddm_elements.firm_id">Y</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.firm_id">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.firm_id">BAR</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.firm_id">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.firm_id">20060425</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.firm_id">H</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.firm_id">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.firm_id">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABS>
+			<DD_ATTR_MSKI id="ddm_elements.firm_id">00</DD_ATTR_MSKI>
+			<DD_ATTR_MSKO id="ddm_elements.firm_id">00</DD_ATTR_MSKO>
+			<DD_ATTR_PADC id="ddm_elements.firm_id">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.firm_id">R</DD_ATTR_PADJ>
+			<DD_ATTR_PVAL id="ddm_elements.firm_id">stbl("+FIRM_ID")</DD_ATTR_PVAL>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>GL_ACCT_TYPE    </DD_DATA_NAME>
-			<DD_ATTR_SEQ>02</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>L   </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Liability</DD_ATTR_LDAT_DS>
+		<RECORD id="ddm_elements.gl_acct_type">
+			<DD_DATA_NAME id="ddm_elements.gl_acct_type">GL_ACCT_TYPE    </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.gl_acct_type">GL Account Type [A/L/I/C/E]</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.gl_acct_type">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.gl_acct_type">1</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.gl_acct_type"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.gl_acct_type">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.gl_acct_type">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.gl_acct_type">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.gl_acct_type">20060321</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.gl_acct_type">L</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.gl_acct_type">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.gl_acct_type">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.gl_acct_type">Account Type</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.gl_acct_type">Acct Type</DD_ATTR_LABS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>GL_ACCT_TYPE    </DD_DATA_NAME>
-			<DD_ATTR_SEQ>03</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>C   </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Capital</DD_ATTR_LDAT_DS>
+		<RECORD id="ddm_elements.acct_no_brk">
+			<DD_DATA_NAME id="ddm_elements.acct_no_brk">ACCT_NO_BRK     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.acct_no_brk">Account Number Break</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.acct_no_brk">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.acct_no_brk">10</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.acct_no_brk">I</DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.acct_no_brk">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.acct_no_brk">GL </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.acct_no_brk">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.acct_no_brk">20081215</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.acct_no_brk">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.acct_no_brk">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.acct_no_brk">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.acct_no_brk">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.acct_no_brk">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.acct_no_brk">Account Number Break</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.acct_no_brk">Acct No Break</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.acct_no_brk">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.acct_no_brk">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.acct_no_brk">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.acct_no_brk">0</DD_ATTR_PREC>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>GL_ACCT_TYPE    </DD_DATA_NAME>
-			<DD_ATTR_SEQ>04</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>I   </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Income</DD_ATTR_LDAT_DS>
+		<RECORD id="ddm_elements.gl_account">
+			<DD_DATA_NAME id="ddm_elements.gl_account">GL_ACCOUNT      </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.gl_account">GL Account Number</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.gl_account">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.gl_account">10</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.gl_account">I</DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.gl_account">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.gl_account">GL </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.gl_account">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.gl_account">20061018</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.gl_account">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOL id="ddm_elements.gl_account">GL_ACCT_DESC    </DD_ATTR_DCOL>
+			<DD_ATTR_DCOM id="ddm_elements.gl_account">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.gl_account">            </DD_ATTR_DEXP>
+			<DD_ATTR_DKEY id="ddm_elements.gl_account">[+FIRM_ID]+@</DD_ATTR_DKEY>
+			<DD_ATTR_DTAB id="ddm_elements.gl_account">GLM_ACCT        </DD_ATTR_DTAB>
+			<DD_ATTR_LABL id="ddm_elements.gl_account">GL Account</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.gl_account">Account</DD_ATTR_LABS>
+			<DD_ATTR_MSKI id="ddm_elements.gl_account">UUUUUUUUUU</DD_ATTR_MSKI>
+			<DD_ATTR_PADC id="ddm_elements.gl_account">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.gl_account">L</DD_ATTR_PADJ>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>GL_ACCT_TYPE    </DD_DATA_NAME>
-			<DD_ATTR_SEQ>05</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>E   </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Expense</DD_ATTR_LDAT_DS>
+	</ALIAS>
+	<ALIAS id="ddm_element_ldat">
+		<ID id="ddm_element_ldat">DDM_ELEMENT_LDAT</ID>
+		<RECORD id="ddm_element_ldat.gl_acct_type01">
+			<DD_DATA_NAME id="ddm_element_ldat.gl_acct_type01">GL_ACCT_TYPE    </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.gl_acct_type01">01</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.gl_acct_type01">A   </DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.gl_acct_type01">Asset</DD_ATTR_LDAT_DS>
+		</RECORD>
+		<RECORD id="ddm_element_ldat.gl_acct_type02">
+			<DD_DATA_NAME id="ddm_element_ldat.gl_acct_type02">GL_ACCT_TYPE    </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.gl_acct_type02">02</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.gl_acct_type02">L   </DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.gl_acct_type02">Liability</DD_ATTR_LDAT_DS>
+		</RECORD>
+		<RECORD id="ddm_element_ldat.gl_acct_type03">
+			<DD_DATA_NAME id="ddm_element_ldat.gl_acct_type03">GL_ACCT_TYPE    </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.gl_acct_type03">03</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.gl_acct_type03">C   </DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.gl_acct_type03">Capital</DD_ATTR_LDAT_DS>
+		</RECORD>
+		<RECORD id="ddm_element_ldat.gl_acct_type04">
+			<DD_DATA_NAME id="ddm_element_ldat.gl_acct_type04">GL_ACCT_TYPE    </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.gl_acct_type04">04</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.gl_acct_type04">I   </DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.gl_acct_type04">Income</DD_ATTR_LDAT_DS>
+		</RECORD>
+		<RECORD id="ddm_element_ldat.gl_acct_type05">
+			<DD_DATA_NAME id="ddm_element_ldat.gl_acct_type05">GL_ACCT_TYPE    </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.gl_acct_type05">05</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.gl_acct_type05">E   </DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.gl_acct_type05">Expense</DD_ATTR_LDAT_DS>
 		</RECORD>
 	</ALIAS>
 </GLW_FINSORT>

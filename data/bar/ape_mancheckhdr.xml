@@ -1,816 +1,813 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <APE_MANCHECKHDR>
-	<ALIAS>
-		<ID>DDM_TABLES</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_ALIAS_DESC>Manual Check Entry Header</DD_ALIAS_DESC>
-			<DD_FILE_NAME>ape-02</DD_FILE_NAME>
-			<DD_TABLE_PATH>[+APDATA]</DD_TABLE_PATH>
-			<DD_ALIAS_TYPE>K</DD_ALIAS_TYPE>
-			<DD_NBR_RECORD>0</DD_NBR_RECORD>
-			<DD_RECORD_LEN>84</DD_RECORD_LEN>
-			<DD_SYSTEM_REC>N</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AP </ASC_PROD_ID>
-			<ASC_LICENSE_ID>A0B7B345EE56D927E09A408E6C1DFFC4</ASC_LICENSE_ID>
-			<DD_EXPORT_DATA>Y</DD_EXPORT_DATA>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20081103</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE>20081029</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME>112206</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM>[+DIR_CPP]ape_mancheckhdr_cpt.bbj</DD_ATTR_CPGM>
-			<DD_ATTR_FTYP>T</DD_ATTR_FTYP>
-			<DD_ATTR_SLEV>zzzz</DD_ATTR_SLEV>
-			<DD_ATTR_WINT>Manual Check Entry Header</DD_ATTR_WINT>
+	<ALIAS id="ddm_tables">
+		<ID id="ddm_tables">DDM_TABLES</ID>
+		<RECORD id="ddm_tables.ape_mancheckhdr">
+			<DD_TABLE_ALIAS id="ddm_tables.ape_mancheckhdr">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_ALIAS_DESC id="ddm_tables.ape_mancheckhdr">Manual Check Entry Header</DD_ALIAS_DESC>
+			<DD_FILE_NAME id="ddm_tables.ape_mancheckhdr">ape-02</DD_FILE_NAME>
+			<DD_TABLE_PATH id="ddm_tables.ape_mancheckhdr">[+APDATA]</DD_TABLE_PATH>
+			<DD_ALIAS_TYPE id="ddm_tables.ape_mancheckhdr">K</DD_ALIAS_TYPE>
+			<DD_NBR_RECORD id="ddm_tables.ape_mancheckhdr">0</DD_NBR_RECORD>
+			<DD_RECORD_LEN id="ddm_tables.ape_mancheckhdr">84</DD_RECORD_LEN>
+			<DD_SYSTEM_REC id="ddm_tables.ape_mancheckhdr">N</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_tables.ape_mancheckhdr">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_tables.ape_mancheckhdr">AP </ASC_PROD_ID>
+			<ASC_LICENSE_ID id="ddm_tables.ape_mancheckhdr">A0B7B345EE56D927E09A408E6C1DFFC4</ASC_LICENSE_ID>
+			<DD_EXPORT_DATA id="ddm_tables.ape_mancheckhdr">Y</DD_EXPORT_DATA>
+			<DD_CREATE_DATE id="ddm_tables.ape_mancheckhdr">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_tables.ape_mancheckhdr">20081209</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ape_mancheckhdr">20081209</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ape_mancheckhdr">142802</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.ape_mancheckhdr">/devel/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_FTYP id="ddm_tables.ape_mancheckhdr">T</DD_ATTR_FTYP>
+			<DD_ATTR_SLEV id="ddm_tables.ape_mancheckhdr">zzzz</DD_ATTR_SLEV>
+			<DD_ATTR_WINT id="ddm_tables.ape_mancheckhdr">Manual Check Entry Header</DD_ATTR_WINT>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_AOPT</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_ATTR_SEQ>01</DD_ATTR_SEQ>
-			<DD_ATTR_AOPT>Open Invoices</DD_ATTR_AOPT>
-			<DD_ATTR_AOPT_CD>OINV</DD_ATTR_AOPT_CD>
-			<DD_ATTR_AOPT_FM>B</DD_ATTR_AOPT_FM>
+	<ALIAS id="ddm_table_aopt">
+		<ID id="ddm_table_aopt">DDM_TABLE_AOPT</ID>
+		<RECORD id="ddm_table_aopt.ape_mancheckhdr01">
+			<DD_TABLE_ALIAS id="ddm_table_aopt.ape_mancheckhdr01">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_ATTR_SEQ id="ddm_table_aopt.ape_mancheckhdr01">01</DD_ATTR_SEQ>
+			<DD_ATTR_AOPT id="ddm_table_aopt.ape_mancheckhdr01">Open Invoices</DD_ATTR_AOPT>
+			<DD_ATTR_AOPT_CD id="ddm_table_aopt.ape_mancheckhdr01">OINV</DD_ATTR_AOPT_CD>
+			<DD_ATTR_AOPT_FM id="ddm_table_aopt.ape_mancheckhdr01">B</DD_ATTR_AOPT_FM>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_CPRO</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_ATTR_CPRO>AABO</DD_ATTR_CPRO>
+	<ALIAS id="ddm_table_cpro">
+		<ID id="ddm_table_cpro">DDM_TABLE_CPRO</ID>
+		<RECORD id="ddm_table_cpro.ape_mancheckhdraabo">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.ape_mancheckhdraabo">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.ape_mancheckhdraabo">AABO</DD_ATTR_CPRO>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_ATTR_CPRO>ADIS</DD_ATTR_CPRO>
+		<RECORD id="ddm_table_cpro.ape_mancheckhdradis">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.ape_mancheckhdradis">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.ape_mancheckhdradis">ADIS</DD_ATTR_CPRO>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_ATTR_CPRO>AOPT</DD_ATTR_CPRO>
+		<RECORD id="ddm_table_cpro.ape_mancheckhdraopt">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.ape_mancheckhdraopt">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.ape_mancheckhdraopt">AOPT-VCMT</DD_ATTR_CPRO>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_ATTR_CPRO>AREA</DD_ATTR_CPRO>
+		<RECORD id="ddm_table_cpro.ape_mancheckhdrarea">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.ape_mancheckhdrarea">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.ape_mancheckhdrarea">AREA</DD_ATTR_CPRO>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_ATTR_CPRO>AREC</DD_ATTR_CPRO>
+		<RECORD id="ddm_table_cpro.ape_mancheckhdrarec">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.ape_mancheckhdrarec">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.ape_mancheckhdrarec">AREC</DD_ATTR_CPRO>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_ATTR_CPRO>ARNF</DD_ATTR_CPRO>
+		<RECORD id="ddm_table_cpro.ape_mancheckhdrarnf">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.ape_mancheckhdrarnf">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.ape_mancheckhdrarnf">ARNF</DD_ATTR_CPRO>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_ATTR_CPRO>AWIN</DD_ATTR_CPRO>
+		<RECORD id="ddm_table_cpro.ape_mancheckhdrawin">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.ape_mancheckhdrawin">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.ape_mancheckhdrawin">AWIN</DD_ATTR_CPRO>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_ATTR_CPRO>BSHO</DD_ATTR_CPRO>
-		</RECORD>
-	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_DTLD</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_ATTR_DTLD>APE_MANCHECKDET </DD_ATTR_DTLD>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_ATTR_DTLD>APE_MANCHECKDIST</DD_ATTR_DTLD>
+		<RECORD id="ddm_table_cpro.ape_mancheckhdrbsho">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.ape_mancheckhdrbsho">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.ape_mancheckhdrbsho">BSHO</DD_ATTR_CPRO>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_DTLG</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_ATTR_DTLG>APE_MANCHECKDET </DD_ATTR_DTLG>
-			<DD_ATTR_DTLG_TAB>0</DD_ATTR_DTLG_TAB>
+	<ALIAS id="ddm_table_dtld">
+		<ID id="ddm_table_dtld">DDM_TABLE_DTLD</ID>
+		<RECORD id="ddm_table_dtld.ape_mancheckhdrape_mancheckdet">
+			<DD_TABLE_ALIAS id="ddm_table_dtld.ape_mancheckhdrape_mancheckdet">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_ATTR_DTLD id="ddm_table_dtld.ape_mancheckhdrape_mancheckdet">APE_MANCHECKDET </DD_ATTR_DTLD>
+		</RECORD>
+		<RECORD id="ddm_table_dtld.ape_mancheckhdrape_mancheckdist">
+			<DD_TABLE_ALIAS id="ddm_table_dtld.ape_mancheckhdrape_mancheckdist">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_ATTR_DTLD id="ddm_table_dtld.ape_mancheckhdrape_mancheckdist">APE_MANCHECKDIST</DD_ATTR_DTLD>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_LABL</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>001</DD_SEQUENCE>
-			<DD_CTRL_NAME>TOTS            </DD_CTRL_NAME>
-			<DD_ATTR_LABL>Totals</DD_ATTR_LABL>
-			<DD_ATTR_CTLX>+35</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY>-5</DD_ATTR_CTLY>
-			<DD_ATTR_TIND>8</DD_ATTR_TIND>
+	<ALIAS id="ddm_table_dtlg">
+		<ID id="ddm_table_dtlg">DDM_TABLE_DTLG</ID>
+		<RECORD id="ddm_table_dtlg.ape_mancheckhdrape_mancheckdet">
+			<DD_TABLE_ALIAS id="ddm_table_dtlg.ape_mancheckhdrape_mancheckdet">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_ATTR_DTLG id="ddm_table_dtlg.ape_mancheckhdrape_mancheckdet">APE_MANCHECKDET </DD_ATTR_DTLG>
+			<DD_ATTR_DTLG_TAB id="ddm_table_dtlg.ape_mancheckhdrape_mancheckdet">0</DD_ATTR_DTLG_TAB>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_OPTS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_ATTR_OPTS>0</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_ATTR_OPTS>O</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_ATTR_OPTS>R</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_ATTR_OPTS>W</DD_ATTR_OPTS>
+	<ALIAS id="ddm_table_labl">
+		<ID id="ddm_table_labl">DDM_TABLE_LABL</ID>
+		<RECORD id="ddm_table_labl.ape_mancheckhdr001">
+			<DD_TABLE_ALIAS id="ddm_table_labl.ape_mancheckhdr001">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_labl.ape_mancheckhdr001">001</DD_SEQUENCE>
+			<DD_CTRL_NAME id="ddm_table_labl.ape_mancheckhdr001">TOTS            </DD_CTRL_NAME>
+			<DD_ATTR_LABL id="ddm_table_labl.ape_mancheckhdr001">Totals</DD_ATTR_LABL>
+			<DD_ATTR_CTLX id="ddm_table_labl.ape_mancheckhdr001">+35</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_labl.ape_mancheckhdr001">-5</DD_ATTR_CTLY>
+			<DD_ATTR_TIND id="ddm_table_labl.ape_mancheckhdr001">8</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_TPLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_FILE_NAME>ape-02</DD_FILE_NAME>
-			<DD_TABLE_TPL>firm_id:c(2),ap_type:c(2),check_no:c(7),vendor_id:c(6),reserved_str:c(13),trans_type:c(1),check_date:c(8*),vendor_name:c(30*),reserved_num:n(1*),reserved_num_02:n(1*),reserved_num_03:n(1*)</DD_TABLE_TPL>
+	<ALIAS id="ddm_table_opts">
+		<ID id="ddm_table_opts">DDM_TABLE_OPTS</ID>
+		<RECORD id="ddm_table_opts.ape_mancheckhdr0">
+			<DD_TABLE_ALIAS id="ddm_table_opts.ape_mancheckhdr0">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.ape_mancheckhdr0">0</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_table_opts.ape_mancheckhdrr">
+			<DD_TABLE_ALIAS id="ddm_table_opts.ape_mancheckhdrr">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.ape_mancheckhdrr">R</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_table_opts.ape_mancheckhdrw">
+			<DD_TABLE_ALIAS id="ddm_table_opts.ape_mancheckhdrw">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.ape_mancheckhdrw">W</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_KEYS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_KEY_DESC>Primary</DD_KEY_DESC>
-			<DD_KEY_ID>PRIMARY         </DD_KEY_ID>
+	<ALIAS id="ddm_table_tpls">
+		<ID id="ddm_table_tpls">DDM_TABLE_TPLS</ID>
+		<RECORD id="ddm_table_tpls.ape_mancheckhdr">
+			<DD_TABLE_ALIAS id="ddm_table_tpls.ape_mancheckhdr">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_FILE_NAME id="ddm_table_tpls.ape_mancheckhdr">ape-02</DD_FILE_NAME>
+			<DD_TABLE_TPL id="ddm_table_tpls.ape_mancheckhdr">firm_id:c(2),ap_type:c(2),check_no:c(7),vendor_id:c(6),reserved_str:c(13),trans_type:c(1),check_date:c(8*),vendor_name:c(30*),reserved_num:n(1*),reserved_num_02:n(1*),reserved_num_03:n(1*)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_KEY_SEGS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>01</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>FIRM_ID         </DD_SEGMENT_COL>
-			<DD_SEGMENT_POS>0</DD_SEGMENT_POS>
-			<DD_SEGMENT_OFF>0</DD_SEGMENT_OFF>
-			<DD_SEGMENT_LEN>0</DD_SEGMENT_LEN>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>02</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>AP_TYPE         </DD_SEGMENT_COL>
-			<DD_SEGMENT_POS>0</DD_SEGMENT_POS>
-			<DD_SEGMENT_OFF>0</DD_SEGMENT_OFF>
-			<DD_SEGMENT_LEN>0</DD_SEGMENT_LEN>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>03</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>CHECK_NO        </DD_SEGMENT_COL>
-			<DD_SEGMENT_POS>0</DD_SEGMENT_POS>
-			<DD_SEGMENT_OFF>0</DD_SEGMENT_OFF>
-			<DD_SEGMENT_LEN>0</DD_SEGMENT_LEN>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>04</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>VENDOR_ID       </DD_SEGMENT_COL>
+	<ALIAS id="ddm_keys">
+		<ID id="ddm_keys">DDM_KEYS</ID>
+		<RECORD id="ddm_keys.ape_mancheckhdr00">
+			<DD_TABLE_ALIAS id="ddm_keys.ape_mancheckhdr00">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_keys.ape_mancheckhdr00">00</DD_KEY_NUMBER>
+			<DD_KEY_DESC id="ddm_keys.ape_mancheckhdr00">Primary</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.ape_mancheckhdr00">PRIMARY         </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_COLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>001</DD_SEQUENCE>
-			<DD_DATA_NAME>FIRM_ID         </DD_DATA_NAME>
-			<DD_DVAR_NAME>FIRM_ID         </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL>2</DD_ATTR_MAXL>
-			<DD_ATTR_PROM>Firm ID</DD_ATTR_PROM>
-			<DD_ATTR_TIND>1</DD_ATTR_TIND>
+	<ALIAS id="ddm_key_segs">
+		<ID id="ddm_key_segs">DDM_KEY_SEGS</ID>
+		<RECORD id="ddm_key_segs.ape_mancheckhdr0001">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ape_mancheckhdr0001">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ape_mancheckhdr0001">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ape_mancheckhdr0001">01</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ape_mancheckhdr0001">FIRM_ID         </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ape_mancheckhdr0001">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ape_mancheckhdr0001">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ape_mancheckhdr0001">0</DD_SEGMENT_LEN>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>002</DD_SEQUENCE>
-			<DD_DATA_NAME>AP_TYPE         </DD_DATA_NAME>
-			<DD_DVAR_NAME>AP_TYPE         </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW>35</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_MAXL>2</DD_ATTR_MAXL>
-			<DD_ATTR_PROM>AP Type</DD_ATTR_PROM>
-			<DD_ATTR_TIND>2</DD_ATTR_TIND>
+		<RECORD id="ddm_key_segs.ape_mancheckhdr0002">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ape_mancheckhdr0002">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ape_mancheckhdr0002">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ape_mancheckhdr0002">02</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ape_mancheckhdr0002">AP_TYPE         </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ape_mancheckhdr0002">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ape_mancheckhdr0002">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ape_mancheckhdr0002">0</DD_SEGMENT_LEN>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>003</DD_SEQUENCE>
-			<DD_DATA_NAME>CHECK_NO        </DD_DATA_NAME>
-			<DD_DVAR_NAME>CHECK_NO        </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW>70</DD_ATTR_CTLW>
-			<DD_ATTR_LABL>Check No</DD_ATTR_LABL>
-			<DD_ATTR_MINL>1</DD_ATTR_MINL>
-			<DD_ATTR_MAXL>7</DD_ATTR_MAXL>
-			<DD_ATTR_PROM>Check Number</DD_ATTR_PROM>
-			<DD_ATTR_TIND>3</DD_ATTR_TIND>
+		<RECORD id="ddm_key_segs.ape_mancheckhdr0003">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ape_mancheckhdr0003">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ape_mancheckhdr0003">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ape_mancheckhdr0003">03</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ape_mancheckhdr0003">CHECK_NO        </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ape_mancheckhdr0003">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ape_mancheckhdr0003">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ape_mancheckhdr0003">0</DD_SEGMENT_LEN>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>004</DD_SEQUENCE>
-			<DD_DATA_NAME>VENDOR_ID       </DD_DATA_NAME>
-			<DD_DVAR_NAME>VENDOR_ID       </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM>[+DIR_CPP]ape_mancheckhdr_cpt.bbj</DD_ATTR_CPGM>
-			<DD_ATTR_CTLW>48</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_LABL>Vendor</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Vendor Num</DD_ATTR_LABS>
-			<DD_ATTR_MAXL>6</DD_ATTR_MAXL>
-			<DD_ATTR_PROM>Vendor Number</DD_ATTR_PROM>
-			<DD_ATTR_TIND>4</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>005</DD_SEQUENCE>
-			<DD_DATA_NAME>RESERVED_STR    </DD_DATA_NAME>
-			<DD_DVAR_NAME>RESERVED_STR    </DD_DVAR_NAME>
-			<DD_COL_REPEATS>13</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Reserved For Addon Use</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>006</DD_SEQUENCE>
-			<DD_DATA_NAME>TRANS_TYPE      </DD_DATA_NAME>
-			<DD_DVAR_NAME>TRANS_TYPE      </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM>[+DIR_CPP]ape_mancheckhdr_cpt.bbj</DD_ATTR_CPGM>
-			<DD_ATTR_CTLW>72</DD_ATTR_CTLW>
-			<DD_ATTR_DFLT>M</DD_ATTR_DFLT>
-			<DD_ATTR_LABL>Trans Type</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Transactio</DD_ATTR_LABS>
-			<DD_ATTR_MAXL>1</DD_ATTR_MAXL>
-			<DD_ATTR_PROM>Transaction Type</DD_ATTR_PROM>
-			<DD_ATTR_TIND>5</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>007</DD_SEQUENCE>
-			<DD_DATA_NAME>CHECK_DATE      </DD_DATA_NAME>
-			<DD_DVAR_NAME>CHECK_DATE      </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM>[+DIR_CPP]ape_mancheckhdr_cpt.bbj</DD_ATTR_CPGM>
-			<DD_ATTR_CTLW>70</DD_ATTR_CTLW>
-			<DD_ATTR_DFLT>[+SYSTEM_DATE]</DD_ATTR_DFLT>
-			<DD_ATTR_MINL>1</DD_ATTR_MINL>
-			<DD_ATTR_MAXL>8</DD_ATTR_MAXL>
-			<DD_ATTR_PROM>Check Date</DD_ATTR_PROM>
-			<DD_ATTR_TIND>6</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>008</DD_SEQUENCE>
-			<DD_DATA_NAME>VENDOR_NAME     </DD_DATA_NAME>
-			<DD_DVAR_NAME>VENDOR_NAME     </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW>240</DD_ATTR_CTLW>
-			<DD_ATTR_MAXL>30</DD_ATTR_MAXL>
-			<DD_ATTR_PROM>Temporary Vendor Name</DD_ATTR_PROM>
-			<DD_ATTR_TIND>7</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>009</DD_SEQUENCE>
-			<DD_DATA_NAME>RESERVED_NUM    </DD_DATA_NAME>
-			<DD_DVAR_NAME>RESERVED_NUM    </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Reserved For Addon Use</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>010</DD_SEQUENCE>
-			<DD_DATA_NAME>RESERVED_NUM    </DD_DATA_NAME>
-			<DD_DVAR_NAME>RESERVED_NUM    </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Reserved For Addon Use</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>011</DD_SEQUENCE>
-			<DD_DATA_NAME>RESERVED_NUM    </DD_DATA_NAME>
-			<DD_DVAR_NAME>RESERVED_NUM    </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Reserved For Addon Use</DD_ATTR_PROM>
+		<RECORD id="ddm_key_segs.ape_mancheckhdr0004">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ape_mancheckhdr0004">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ape_mancheckhdr0004">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ape_mancheckhdr0004">04</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ape_mancheckhdr0004">VENDOR_ID       </DD_SEGMENT_COL>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_DISP</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>001</DD_SEQUENCE>
-			<DD_DATA_NAME>BALANCE_AMT     </DD_DATA_NAME>
-			<DD_CTRL_NAME>DISP_TOT_INV    </DD_CTRL_NAME>
-			<DD_ATTR_LABL>Invoices</DD_ATTR_LABL>
-			<DD_ATTR_CTLX>-1</DD_ATTR_CTLX>
-			<DD_ATTR_CTLW>56</DD_ATTR_CTLW>
-			<DD_ATTR_TIND>9</DD_ATTR_TIND>
+	<ALIAS id="ddm_table_cols">
+		<ID id="ddm_table_cols">DDM_TABLE_COLS</ID>
+		<RECORD id="ddm_table_cols.ape_mancheckhdr001">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ape_mancheckhdr001">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ape_mancheckhdr001">001</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ape_mancheckhdr001">FIRM_ID         </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ape_mancheckhdr001">FIRM_ID         </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ape_mancheckhdr001">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ape_mancheckhdr001">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ape_mancheckhdr001">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.ape_mancheckhdr001">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ape_mancheckhdr001">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ape_mancheckhdr001">2</DD_ATTR_MAXL>
+			<DD_ATTR_PROM id="ddm_table_cols.ape_mancheckhdr001">Firm ID</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ape_mancheckhdr001">1</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>002</DD_SEQUENCE>
-			<DD_DATA_NAME>BALANCE_AMT     </DD_DATA_NAME>
-			<DD_CTRL_NAME>DISP_TOT_DISC   </DD_CTRL_NAME>
-			<DD_ATTR_LABL>Discounts</DD_ATTR_LABL>
-			<DD_ATTR_CTLW>56</DD_ATTR_CTLW>
-			<DD_ATTR_TIND>10</DD_ATTR_TIND>
+		<RECORD id="ddm_table_cols.ape_mancheckhdr002">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ape_mancheckhdr002">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ape_mancheckhdr002">002</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ape_mancheckhdr002">AP_TYPE         </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ape_mancheckhdr002">AP_TYPE         </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ape_mancheckhdr002">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ape_mancheckhdr002">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ape_mancheckhdr002">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.ape_mancheckhdr002">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ape_mancheckhdr002">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.ape_mancheckhdr002">35</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.ape_mancheckhdr002">0</DD_ATTR_CTLH>
+			<DD_ATTR_MAXL id="ddm_table_cols.ape_mancheckhdr002">2</DD_ATTR_MAXL>
+			<DD_ATTR_PROM id="ddm_table_cols.ape_mancheckhdr002">AP Type</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ape_mancheckhdr002">2</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>003</DD_SEQUENCE>
-			<DD_DATA_NAME>BALANCE_AMT     </DD_DATA_NAME>
-			<DD_CTRL_NAME>DISP_TOT_RETEN  </DD_CTRL_NAME>
-			<DD_ATTR_LABL>Retention</DD_ATTR_LABL>
-			<DD_ATTR_CTLW>56</DD_ATTR_CTLW>
-			<DD_ATTR_TIND>11</DD_ATTR_TIND>
+		<RECORD id="ddm_table_cols.ape_mancheckhdr003">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ape_mancheckhdr003">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ape_mancheckhdr003">003</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ape_mancheckhdr003">CHECK_NO        </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ape_mancheckhdr003">CHECK_NO        </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ape_mancheckhdr003">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ape_mancheckhdr003">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ape_mancheckhdr003">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.ape_mancheckhdr003">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ape_mancheckhdr003">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.ape_mancheckhdr003">70</DD_ATTR_CTLW>
+			<DD_ATTR_LABL id="ddm_table_cols.ape_mancheckhdr003">Check No</DD_ATTR_LABL>
+			<DD_ATTR_MINL id="ddm_table_cols.ape_mancheckhdr003">1</DD_ATTR_MINL>
+			<DD_ATTR_MAXL id="ddm_table_cols.ape_mancheckhdr003">7</DD_ATTR_MAXL>
+			<DD_ATTR_MINV id="ddm_table_cols.ape_mancheckhdr003">1</DD_ATTR_MINV>
+			<DD_ATTR_PROM id="ddm_table_cols.ape_mancheckhdr003">Check Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ape_mancheckhdr003">3</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>004</DD_SEQUENCE>
-			<DD_DATA_NAME>BALANCE_AMT     </DD_DATA_NAME>
-			<DD_CTRL_NAME>DISP_TOT_CHECK  </DD_CTRL_NAME>
-			<DD_ATTR_LABL>Check</DD_ATTR_LABL>
-			<DD_ATTR_CTLW>56</DD_ATTR_CTLW>
-			<DD_ATTR_TIND>12</DD_ATTR_TIND>
+		<RECORD id="ddm_table_cols.ape_mancheckhdr004">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ape_mancheckhdr004">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ape_mancheckhdr004">004</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ape_mancheckhdr004">VENDOR_ID       </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ape_mancheckhdr004">VENDOR_ID       </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ape_mancheckhdr004">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ape_mancheckhdr004">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ape_mancheckhdr004">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.ape_mancheckhdr004">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ape_mancheckhdr004">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CPGM id="ddm_table_cols.ape_mancheckhdr004">/devel/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CTLW id="ddm_table_cols.ape_mancheckhdr004">48</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.ape_mancheckhdr004">0</DD_ATTR_CTLH>
+			<DD_ATTR_LABL id="ddm_table_cols.ape_mancheckhdr004">Vendor</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_table_cols.ape_mancheckhdr004">Vendor Num</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_table_cols.ape_mancheckhdr004">6</DD_ATTR_MAXL>
+			<DD_ATTR_PROM id="ddm_table_cols.ape_mancheckhdr004">Vendor Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ape_mancheckhdr004">4</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>005</DD_SEQUENCE>
-			<DD_DATA_NAME>RECORD_TEXT     </DD_DATA_NAME>
-			<DD_CTRL_NAME>COMMENTS        </DD_CTRL_NAME>
-			<DD_ATTR_LABL>Comments</DD_ATTR_LABL>
-			<DD_ATTR_CTLX>+14</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY>-4</DD_ATTR_CTLY>
-			<DD_ATTR_CTLW>260</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>80</DD_ATTR_CTLH>
-			<DD_ATTR_TIND>13</DD_ATTR_TIND>
+		<RECORD id="ddm_table_cols.ape_mancheckhdr005">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ape_mancheckhdr005">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ape_mancheckhdr005">005</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ape_mancheckhdr005">RESERVED_STR    </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ape_mancheckhdr005">RESERVED_STR    </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ape_mancheckhdr005">13</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ape_mancheckhdr005">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ape_mancheckhdr005">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.ape_mancheckhdr005">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ape_mancheckhdr005">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.ape_mancheckhdr005">Reserved For Addon Use</DD_ATTR_PROM>
 		</RECORD>
-	</ALIAS>
-	<ALIAS>
-		<ID>DDM_COLUMN_CMTS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>VENDOR_ID       </DD_DVAR_NAME>
-			<DD_COMM_SEQ>001</DD_COMM_SEQ>
-			<DD_COMM_TEXT>If "TEMP  ", then vendor is verified in apm-03              </DD_COMM_TEXT>
+		<RECORD id="ddm_table_cols.ape_mancheckhdr006">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ape_mancheckhdr006">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ape_mancheckhdr006">006</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ape_mancheckhdr006">TRANS_TYPE      </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ape_mancheckhdr006">TRANS_TYPE      </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ape_mancheckhdr006">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ape_mancheckhdr006">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ape_mancheckhdr006">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.ape_mancheckhdr006">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ape_mancheckhdr006">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CPGM id="ddm_table_cols.ape_mancheckhdr006">/devel/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CTLW id="ddm_table_cols.ape_mancheckhdr006">72</DD_ATTR_CTLW>
+			<DD_ATTR_DFLT id="ddm_table_cols.ape_mancheckhdr006">M</DD_ATTR_DFLT>
+			<DD_ATTR_LABL id="ddm_table_cols.ape_mancheckhdr006">Trans Type</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_table_cols.ape_mancheckhdr006">Transactio</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_table_cols.ape_mancheckhdr006">1</DD_ATTR_MAXL>
+			<DD_ATTR_PROM id="ddm_table_cols.ape_mancheckhdr006">Transaction Type</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ape_mancheckhdr006">5</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>TRANS_TYPE      </DD_DVAR_NAME>
-			<DD_COMM_SEQ>001</DD_COMM_SEQ>
-			<DD_COMM_TEXT>M = Manual, V = Void, R = Reversal                          </DD_COMM_TEXT>
+		<RECORD id="ddm_table_cols.ape_mancheckhdr007">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ape_mancheckhdr007">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ape_mancheckhdr007">007</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ape_mancheckhdr007">CHECK_DATE      </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ape_mancheckhdr007">CHECK_DATE      </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ape_mancheckhdr007">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ape_mancheckhdr007">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ape_mancheckhdr007">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.ape_mancheckhdr007">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.ape_mancheckhdr007">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ape_mancheckhdr007">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CPGM id="ddm_table_cols.ape_mancheckhdr007">/devel/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CTLW id="ddm_table_cols.ape_mancheckhdr007">70</DD_ATTR_CTLW>
+			<DD_ATTR_DFLT id="ddm_table_cols.ape_mancheckhdr007">[+SYSTEM_DATE]</DD_ATTR_DFLT>
+			<DD_ATTR_MINL id="ddm_table_cols.ape_mancheckhdr007">1</DD_ATTR_MINL>
+			<DD_ATTR_MAXL id="ddm_table_cols.ape_mancheckhdr007">8</DD_ATTR_MAXL>
+			<DD_ATTR_PROM id="ddm_table_cols.ape_mancheckhdr007">Check Date</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ape_mancheckhdr007">6</DD_ATTR_TIND>
 		</RECORD>
-	</ALIAS>
-	<ALIAS>
-		<ID>DDM_COLUMN_CPRO</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>VENDOR_ID       </DD_DVAR_NAME>
-			<DD_ATTR_CPRO>AVAL</DD_ATTR_CPRO>
+		<RECORD id="ddm_table_cols.ape_mancheckhdr008">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ape_mancheckhdr008">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ape_mancheckhdr008">008</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ape_mancheckhdr008">VENDOR_NAME     </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ape_mancheckhdr008">VENDOR_NAME     </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ape_mancheckhdr008">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ape_mancheckhdr008">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ape_mancheckhdr008">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.ape_mancheckhdr008">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.ape_mancheckhdr008">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ape_mancheckhdr008">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.ape_mancheckhdr008">240</DD_ATTR_CTLW>
+			<DD_ATTR_MAXL id="ddm_table_cols.ape_mancheckhdr008">30</DD_ATTR_MAXL>
+			<DD_ATTR_PROM id="ddm_table_cols.ape_mancheckhdr008">Temporary Vendor Name</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ape_mancheckhdr008">7</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>TRANS_TYPE      </DD_DVAR_NAME>
-			<DD_ATTR_CPRO>AVAL</DD_ATTR_CPRO>
+		<RECORD id="ddm_table_cols.ape_mancheckhdr009">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ape_mancheckhdr009">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ape_mancheckhdr009">009</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ape_mancheckhdr009">RESERVED_NUM    </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ape_mancheckhdr009">RESERVED_NUM    </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ape_mancheckhdr009">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ape_mancheckhdr009">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ape_mancheckhdr009">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.ape_mancheckhdr009">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.ape_mancheckhdr009">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ape_mancheckhdr009">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.ape_mancheckhdr009">Reserved For Addon Use</DD_ATTR_PROM>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>CHECK_DATE      </DD_DVAR_NAME>
-			<DD_ATTR_CPRO>AVAL</DD_ATTR_CPRO>
+		<RECORD id="ddm_table_cols.ape_mancheckhdr010">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ape_mancheckhdr010">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ape_mancheckhdr010">010</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ape_mancheckhdr010">RESERVED_NUM    </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ape_mancheckhdr010">RESERVED_NUM    </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ape_mancheckhdr010">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ape_mancheckhdr010">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ape_mancheckhdr010">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.ape_mancheckhdr010">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.ape_mancheckhdr010">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ape_mancheckhdr010">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.ape_mancheckhdr010">Reserved For Addon Use</DD_ATTR_PROM>
 		</RECORD>
-	</ALIAS>
-	<ALIAS>
-		<ID>DDM_COLUMN_LDAT</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>TRANS_TYPE      </DD_DVAR_NAME>
-			<DD_ATTR_SEQ>01</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>M</DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Manual</DD_ATTR_LDAT_DS>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>TRANS_TYPE      </DD_DVAR_NAME>
-			<DD_ATTR_SEQ>02</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>R</DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Reversal</DD_ATTR_LDAT_DS>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>TRANS_TYPE      </DD_DVAR_NAME>
-			<DD_ATTR_SEQ>03</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>V</DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Void</DD_ATTR_LDAT_DS>
-		</RECORD>
-	</ALIAS>
-	<ALIAS>
-		<ID>DDM_COLUMN_OPTS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>FIRM_ID         </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>O</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>AP_TYPE         </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>D</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>APE_MANCHECKHDR </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>VENDOR_NAME     </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>O</DD_ATTR_OPTS>
-		</RECORD>
-	</ALIAS>
-	<ALIAS>
-		<ID>DDM_ELEMENTS</ID>
-		<RECORD>
-			<DD_DATA_NAME>FIRM_ID         </DD_DATA_NAME>
-			<DD_DESCRIPTION>Firm ID</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>2</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SYSTEM_REC>Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060425</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>H</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Firm ID</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Firm ID</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>00</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>00</DD_ATTR_MSKO>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>R</DD_ATTR_PADJ>
-			<DD_ATTR_PVAL>stbl("+FIRM_ID")</DD_ATTR_PVAL>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>AP_TYPE         </DD_DATA_NAME>
-			<DD_DESCRIPTION>AP Type</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>2</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AP </ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080806</DD_LSTREV_DATE>
-			<DD_ATTR_BLNK>N</DD_ATTR_BLNK>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOL>CODE_DESC       </DD_ATTR_DCOL>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_DKEY>[+FIRM_ID]+"A"+@</DD_ATTR_DKEY>
-			<DD_ATTR_DTAB>APC_TYPECODE    </DD_ATTR_DTAB>
-			<DD_ATTR_LABL>AP Type</DD_ATTR_LABL>
-			<DD_ATTR_LABS>AP Type</DD_ATTR_LABS>
-			<DD_ATTR_MAXL>0</DD_ATTR_MAXL>
-			<DD_ATTR_MAXR>0</DD_ATTR_MAXR>
-			<DD_ATTR_MINL>0</DD_ATTR_MINL>
-			<DD_ATTR_MSKI>UU</DD_ATTR_MSKI>
-			<DD_ATTR_PADC>20</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>L</DD_ATTR_PADJ>
-			<DD_ATTR_PREC>0</DD_ATTR_PREC>
-			<DD_ATTR_PROM>Enter A Valid AP Type</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>CHECK_NO        </DD_DATA_NAME>
-			<DD_DESCRIPTION>Check Number                  </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>7</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Check Number</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Chk No</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>0000000</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>0000000</DD_ATTR_MSKO>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>R</DD_ATTR_PADJ>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>VENDOR_ID       </DD_DATA_NAME>
-			<DD_DESCRIPTION>Vendor Number</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>6</DD_DATA_LENGTH>
-			<DD_MASK_TYPE>I</DD_MASK_TYPE>
-			<DD_SYSTEM_REC>N</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AP </ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20071024</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOL>VENDOR_NAME     </DD_ATTR_DCOL>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_DKEY>[+FIRM_ID]+@</DD_ATTR_DKEY>
-			<DD_ATTR_DTAB>APM_VENDMAST    </DD_ATTR_DTAB>
-			<DD_ATTR_LABL>Vendor ID</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Vend ID</DD_ATTR_LABS>
-			<DD_ATTR_MAXL>0</DD_ATTR_MAXL>
-			<DD_ATTR_MAXR>0</DD_ATTR_MAXR>
-			<DD_ATTR_MINL>0</DD_ATTR_MINL>
-			<DD_ATTR_MSKI>UUUUUU</DD_ATTR_MSKI>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>R</DD_ATTR_PADJ>
-			<DD_ATTR_PREC>0</DD_ATTR_PREC>
-			<DD_ATTR_PROM>Enter A Valid Vendor</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>RESERVED_STR    </DD_DATA_NAME>
-			<DD_DESCRIPTION>Reserved For Addon Use        </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>1</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SYSTEM_REC>Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>X</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Reserved For Addon Use</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Res For Addon Use</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>TRANS_TYPE      </DD_DATA_NAME>
-			<DD_DESCRIPTION>Transaction Type</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>1</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060501</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>L</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Transaction Type</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Trans Type</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>U</DD_ATTR_MSKI>
-			<DD_ATTR_PROM>Enter a valid inventory transaction type</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>CHECK_DATE      </DD_DATA_NAME>
-			<DD_DESCRIPTION>Check Date                    </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>8</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>D</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Check Date</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Chk Date</DD_ATTR_LABS>
-			<DD_ATTR_STYP>1</DD_ATTR_STYP>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>VENDOR_NAME     </DD_DATA_NAME>
-			<DD_DESCRIPTION>Vendor Name                   </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>30</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Vendor Name</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Vend Name</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>RESERVED_NUM    </DD_DATA_NAME>
-			<DD_DESCRIPTION>Reserved For Addon Use        </DD_DESCRIPTION>
-			<DD_DATA_TYPE>N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>1</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SYSTEM_REC>Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>X</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Reserved For Addon Use</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Res For Addon Use</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>RESERVED_NUM    </DD_DATA_NAME>
-			<DD_DESCRIPTION>Reserved For Addon Use        </DD_DESCRIPTION>
-			<DD_DATA_TYPE>N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>1</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SYSTEM_REC>Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>X</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Reserved For Addon Use</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Res For Addon Use</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>RESERVED_NUM    </DD_DATA_NAME>
-			<DD_DESCRIPTION>Reserved For Addon Use        </DD_DESCRIPTION>
-			<DD_DATA_TYPE>N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>1</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SYSTEM_REC>Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>X</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Reserved For Addon Use</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Res For Addon Use</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>BALANCE_AMT     </DD_DATA_NAME>
-			<DD_DESCRIPTION>Balance Remaining</DD_DESCRIPTION>
-			<DD_DATA_TYPE>N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>7</DD_DATA_LENGTH>
-			<DD_MASK_TYPE>A</DD_MASK_TYPE>
-			<DD_SYSTEM_REC>N</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AR </ASC_PROD_ID>
-			<DD_CREATE_DATE>20070112</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20070112</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>N</DD_ATTR_CTYP>
-			<DD_ATTR_LABL>Balance Remaining</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Balance Remaining</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>BALANCE_AMT     </DD_DATA_NAME>
-			<DD_DESCRIPTION>Balance Remaining</DD_DESCRIPTION>
-			<DD_DATA_TYPE>N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>7</DD_DATA_LENGTH>
-			<DD_MASK_TYPE>A</DD_MASK_TYPE>
-			<DD_SYSTEM_REC>N</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AR </ASC_PROD_ID>
-			<DD_CREATE_DATE>20070112</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20070112</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>N</DD_ATTR_CTYP>
-			<DD_ATTR_LABL>Balance Remaining</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Balance Remaining</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>BALANCE_AMT     </DD_DATA_NAME>
-			<DD_DESCRIPTION>Balance Remaining</DD_DESCRIPTION>
-			<DD_DATA_TYPE>N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>7</DD_DATA_LENGTH>
-			<DD_MASK_TYPE>A</DD_MASK_TYPE>
-			<DD_SYSTEM_REC>N</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AR </ASC_PROD_ID>
-			<DD_CREATE_DATE>20070112</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20070112</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>N</DD_ATTR_CTYP>
-			<DD_ATTR_LABL>Balance Remaining</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Balance Remaining</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>BALANCE_AMT     </DD_DATA_NAME>
-			<DD_DESCRIPTION>Balance Remaining</DD_DESCRIPTION>
-			<DD_DATA_TYPE>N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>7</DD_DATA_LENGTH>
-			<DD_MASK_TYPE>A</DD_MASK_TYPE>
-			<DD_SYSTEM_REC>N</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AR </ASC_PROD_ID>
-			<DD_CREATE_DATE>20070112</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20070112</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>N</DD_ATTR_CTYP>
-			<DD_ATTR_LABL>Balance Remaining</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Balance Remaining</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>RECORD_TEXT     </DD_DATA_NAME>
-			<DD_DESCRIPTION>Record Text</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>512</DD_DATA_LENGTH>
-			<DD_SYSTEM_REC>N</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060424</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080506</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_CTYP>U</DD_ATTR_CTYP>
-			<DD_ATTR_LABL>Record Text</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Text</DD_ATTR_LABS>
-			<DD_ATTR_MAXL>0</DD_ATTR_MAXL>
-			<DD_ATTR_MAXR>0</DD_ATTR_MAXR>
-			<DD_ATTR_MINL>0</DD_ATTR_MINL>
-			<DD_ATTR_PREC>0</DD_ATTR_PREC>
+		<RECORD id="ddm_table_cols.ape_mancheckhdr011">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ape_mancheckhdr011">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ape_mancheckhdr011">011</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ape_mancheckhdr011">RESERVED_NUM    </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ape_mancheckhdr011">RESERVED_NUM    </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ape_mancheckhdr011">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ape_mancheckhdr011">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ape_mancheckhdr011">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.ape_mancheckhdr011">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.ape_mancheckhdr011">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ape_mancheckhdr011">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.ape_mancheckhdr011">Reserved For Addon Use</DD_ATTR_PROM>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_ELEMENT_CMTS</ID>
-		<RECORD>
-			<DD_DATA_NAME>VENDOR_ID       </DD_DATA_NAME>
-			<DD_COMM_SEQ>001</DD_COMM_SEQ>
-			<DD_COMM_TEXT>this is a test comment</DD_COMM_TEXT>
+	<ALIAS id="ddm_table_disp">
+		<ID id="ddm_table_disp">DDM_TABLE_DISP</ID>
+		<RECORD id="ddm_table_disp.ape_mancheckhdr001">
+			<DD_TABLE_ALIAS id="ddm_table_disp.ape_mancheckhdr001">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.ape_mancheckhdr001">001</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.ape_mancheckhdr001">BALANCE_AMT     </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.ape_mancheckhdr001">DISP_TOT_INV    </DD_CTRL_NAME>
+			<DD_ATTR_LABL id="ddm_table_disp.ape_mancheckhdr001">Invoices</DD_ATTR_LABL>
+			<DD_ATTR_CTLX id="ddm_table_disp.ape_mancheckhdr001">-1</DD_ATTR_CTLX>
+			<DD_ATTR_CTLW id="ddm_table_disp.ape_mancheckhdr001">56</DD_ATTR_CTLW>
+			<DD_ATTR_TIND id="ddm_table_disp.ape_mancheckhdr001">9</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.ape_mancheckhdr002">
+			<DD_TABLE_ALIAS id="ddm_table_disp.ape_mancheckhdr002">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.ape_mancheckhdr002">002</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.ape_mancheckhdr002">BALANCE_AMT     </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.ape_mancheckhdr002">DISP_TOT_DISC   </DD_CTRL_NAME>
+			<DD_ATTR_LABL id="ddm_table_disp.ape_mancheckhdr002">Discounts</DD_ATTR_LABL>
+			<DD_ATTR_CTLW id="ddm_table_disp.ape_mancheckhdr002">56</DD_ATTR_CTLW>
+			<DD_ATTR_TIND id="ddm_table_disp.ape_mancheckhdr002">10</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.ape_mancheckhdr003">
+			<DD_TABLE_ALIAS id="ddm_table_disp.ape_mancheckhdr003">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.ape_mancheckhdr003">003</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.ape_mancheckhdr003">BALANCE_AMT     </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.ape_mancheckhdr003">DISP_TOT_RETEN  </DD_CTRL_NAME>
+			<DD_ATTR_LABL id="ddm_table_disp.ape_mancheckhdr003">Retention</DD_ATTR_LABL>
+			<DD_ATTR_CTLW id="ddm_table_disp.ape_mancheckhdr003">56</DD_ATTR_CTLW>
+			<DD_ATTR_TIND id="ddm_table_disp.ape_mancheckhdr003">11</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.ape_mancheckhdr004">
+			<DD_TABLE_ALIAS id="ddm_table_disp.ape_mancheckhdr004">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.ape_mancheckhdr004">004</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.ape_mancheckhdr004">BALANCE_AMT     </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.ape_mancheckhdr004">DISP_TOT_CHECK  </DD_CTRL_NAME>
+			<DD_ATTR_LABL id="ddm_table_disp.ape_mancheckhdr004">Check</DD_ATTR_LABL>
+			<DD_ATTR_CTLW id="ddm_table_disp.ape_mancheckhdr004">56</DD_ATTR_CTLW>
+			<DD_ATTR_TIND id="ddm_table_disp.ape_mancheckhdr004">12</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.ape_mancheckhdr005">
+			<DD_TABLE_ALIAS id="ddm_table_disp.ape_mancheckhdr005">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.ape_mancheckhdr005">005</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.ape_mancheckhdr005">RECORD_TEXT     </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.ape_mancheckhdr005">COMMENTS        </DD_CTRL_NAME>
+			<DD_ATTR_LABL id="ddm_table_disp.ape_mancheckhdr005">Comments</DD_ATTR_LABL>
+			<DD_ATTR_CTLX id="ddm_table_disp.ape_mancheckhdr005">+14</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.ape_mancheckhdr005">-4</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.ape_mancheckhdr005">260</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.ape_mancheckhdr005">80</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.ape_mancheckhdr005">13</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_ELEMENT_LDAT</ID>
-		<RECORD>
-			<DD_DATA_NAME>TRANS_TYPE      </DD_DATA_NAME>
-			<DD_ATTR_SEQ>01</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>A   </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Adjustment</DD_ATTR_LDAT_DS>
+	<ALIAS id="ddm_column_cmts">
+		<ID id="ddm_column_cmts">DDM_COLUMN_CMTS</ID>
+		<RECORD id="ddm_column_cmts.ape_mancheckhdrvendor_id001">
+			<DD_TABLE_ALIAS id="ddm_column_cmts.ape_mancheckhdrvendor_id001">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cmts.ape_mancheckhdrvendor_id001">VENDOR_ID       </DD_DVAR_NAME>
+			<DD_COMM_SEQ id="ddm_column_cmts.ape_mancheckhdrvendor_id001">001</DD_COMM_SEQ>
+			<DD_COMM_TEXT id="ddm_column_cmts.ape_mancheckhdrvendor_id001">If "TEMP  ", then vendor is verified in apm-03              </DD_COMM_TEXT>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>TRANS_TYPE      </DD_DATA_NAME>
-			<DD_ATTR_SEQ>02</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>C   </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Committment</DD_ATTR_LDAT_DS>
+		<RECORD id="ddm_column_cmts.ape_mancheckhdrtrans_type001">
+			<DD_TABLE_ALIAS id="ddm_column_cmts.ape_mancheckhdrtrans_type001">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cmts.ape_mancheckhdrtrans_type001">TRANS_TYPE      </DD_DVAR_NAME>
+			<DD_COMM_SEQ id="ddm_column_cmts.ape_mancheckhdrtrans_type001">001</DD_COMM_SEQ>
+			<DD_COMM_TEXT id="ddm_column_cmts.ape_mancheckhdrtrans_type001">M = Manual, V = Void, R = Reversal                          </DD_COMM_TEXT>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>TRANS_TYPE      </DD_DATA_NAME>
-			<DD_ATTR_SEQ>03</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>I   </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Issue</DD_ATTR_LDAT_DS>
+	</ALIAS>
+	<ALIAS id="ddm_column_cpro">
+		<ID id="ddm_column_cpro">DDM_COLUMN_CPRO</ID>
+		<RECORD id="ddm_column_cpro.ape_mancheckhdrvendor_idaval">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.ape_mancheckhdrvendor_idaval">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.ape_mancheckhdrvendor_idaval">VENDOR_ID       </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.ape_mancheckhdrvendor_idaval">AVAL</DD_ATTR_CPRO>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>TRANS_TYPE      </DD_DATA_NAME>
-			<DD_ATTR_SEQ>04</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>R   </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Receipt</DD_ATTR_LDAT_DS>
+		<RECORD id="ddm_column_cpro.ape_mancheckhdrtrans_typeaval">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.ape_mancheckhdrtrans_typeaval">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.ape_mancheckhdrtrans_typeaval">TRANS_TYPE      </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.ape_mancheckhdrtrans_typeaval">AVAL</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_column_cpro.ape_mancheckhdrcheck_dateaval">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.ape_mancheckhdrcheck_dateaval">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.ape_mancheckhdrcheck_dateaval">CHECK_DATE      </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.ape_mancheckhdrcheck_dateaval">AVAL</DD_ATTR_CPRO>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_column_ldat">
+		<ID id="ddm_column_ldat">DDM_COLUMN_LDAT</ID>
+		<RECORD id="ddm_column_ldat.ape_mancheckhdrtrans_type01">
+			<DD_TABLE_ALIAS id="ddm_column_ldat.ape_mancheckhdrtrans_type01">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_ldat.ape_mancheckhdrtrans_type01">TRANS_TYPE      </DD_DVAR_NAME>
+			<DD_ATTR_SEQ id="ddm_column_ldat.ape_mancheckhdrtrans_type01">01</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_column_ldat.ape_mancheckhdrtrans_type01">M</DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_column_ldat.ape_mancheckhdrtrans_type01">Manual</DD_ATTR_LDAT_DS>
+		</RECORD>
+		<RECORD id="ddm_column_ldat.ape_mancheckhdrtrans_type02">
+			<DD_TABLE_ALIAS id="ddm_column_ldat.ape_mancheckhdrtrans_type02">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_ldat.ape_mancheckhdrtrans_type02">TRANS_TYPE      </DD_DVAR_NAME>
+			<DD_ATTR_SEQ id="ddm_column_ldat.ape_mancheckhdrtrans_type02">02</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_column_ldat.ape_mancheckhdrtrans_type02">R</DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_column_ldat.ape_mancheckhdrtrans_type02">Reversal</DD_ATTR_LDAT_DS>
+		</RECORD>
+		<RECORD id="ddm_column_ldat.ape_mancheckhdrtrans_type03">
+			<DD_TABLE_ALIAS id="ddm_column_ldat.ape_mancheckhdrtrans_type03">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_ldat.ape_mancheckhdrtrans_type03">TRANS_TYPE      </DD_DVAR_NAME>
+			<DD_ATTR_SEQ id="ddm_column_ldat.ape_mancheckhdrtrans_type03">03</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_column_ldat.ape_mancheckhdrtrans_type03">V</DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_column_ldat.ape_mancheckhdrtrans_type03">Void</DD_ATTR_LDAT_DS>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_column_opts">
+		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
+		<RECORD id="ddm_column_opts.ape_mancheckhdrfirm_ido">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ape_mancheckhdrfirm_ido">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ape_mancheckhdrfirm_ido">FIRM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ape_mancheckhdrfirm_ido">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ape_mancheckhdrap_typed">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ape_mancheckhdrap_typed">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ape_mancheckhdrap_typed">AP_TYPE         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ape_mancheckhdrap_typed">D</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ape_mancheckhdrvendor_nameo">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ape_mancheckhdrvendor_nameo">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ape_mancheckhdrvendor_nameo">VENDOR_NAME     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ape_mancheckhdrvendor_nameo">O</DD_ATTR_OPTS>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_elements">
+		<ID id="ddm_elements">DDM_ELEMENTS</ID>
+		<RECORD id="ddm_elements.firm_id">
+			<DD_DATA_NAME id="ddm_elements.firm_id">FIRM_ID         </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.firm_id">Firm ID</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.firm_id">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.firm_id">2</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.firm_id"> </DD_MASK_TYPE>
+			<DD_SYSTEM_REC id="ddm_elements.firm_id">Y</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.firm_id">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.firm_id">BAR</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.firm_id">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.firm_id">20060425</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.firm_id">H</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.firm_id">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.firm_id">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABS>
+			<DD_ATTR_MSKI id="ddm_elements.firm_id">00</DD_ATTR_MSKI>
+			<DD_ATTR_MSKO id="ddm_elements.firm_id">00</DD_ATTR_MSKO>
+			<DD_ATTR_PADC id="ddm_elements.firm_id">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.firm_id">R</DD_ATTR_PADJ>
+			<DD_ATTR_PVAL id="ddm_elements.firm_id">stbl("+FIRM_ID")</DD_ATTR_PVAL>
+		</RECORD>
+		<RECORD id="ddm_elements.ap_type">
+			<DD_DATA_NAME id="ddm_elements.ap_type">AP_TYPE         </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.ap_type">AP Type</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.ap_type">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.ap_type">2</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.ap_type"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.ap_type">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.ap_type">AP </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.ap_type">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.ap_type">20080806</DD_LSTREV_DATE>
+			<DD_ATTR_BLNK id="ddm_elements.ap_type">N</DD_ATTR_BLNK>
+			<DD_ATTR_CTLW id="ddm_elements.ap_type">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.ap_type">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.ap_type">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOL id="ddm_elements.ap_type">CODE_DESC       </DD_ATTR_DCOL>
+			<DD_ATTR_DCOM id="ddm_elements.ap_type">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.ap_type">            </DD_ATTR_DEXP>
+			<DD_ATTR_DKEY id="ddm_elements.ap_type">[+FIRM_ID]+"A"+@</DD_ATTR_DKEY>
+			<DD_ATTR_DTAB id="ddm_elements.ap_type">APC_TYPECODE    </DD_ATTR_DTAB>
+			<DD_ATTR_LABL id="ddm_elements.ap_type">AP Type</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.ap_type">AP Type</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.ap_type">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.ap_type">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.ap_type">0</DD_ATTR_MINL>
+			<DD_ATTR_MSKI id="ddm_elements.ap_type">UU</DD_ATTR_MSKI>
+			<DD_ATTR_PADC id="ddm_elements.ap_type">20</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.ap_type">L</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.ap_type">0</DD_ATTR_PREC>
+			<DD_ATTR_PROM id="ddm_elements.ap_type">Enter A Valid AP Type</DD_ATTR_PROM>
+		</RECORD>
+		<RECORD id="ddm_elements.check_no">
+			<DD_DATA_NAME id="ddm_elements.check_no">CHECK_NO        </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.check_no">Check Number                  </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.check_no">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.check_no">7</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.check_no"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.check_no">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.check_no">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.check_no">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.check_no">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.check_no">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.check_no">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.check_no">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.check_no">Check Number</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.check_no">Chk No</DD_ATTR_LABS>
+			<DD_ATTR_MSKI id="ddm_elements.check_no">0000000</DD_ATTR_MSKI>
+			<DD_ATTR_MSKO id="ddm_elements.check_no">0000000</DD_ATTR_MSKO>
+			<DD_ATTR_PADC id="ddm_elements.check_no">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.check_no">R</DD_ATTR_PADJ>
+		</RECORD>
+		<RECORD id="ddm_elements.vendor_id">
+			<DD_DATA_NAME id="ddm_elements.vendor_id">VENDOR_ID       </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.vendor_id">Vendor Number</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.vendor_id">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.vendor_id">6</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.vendor_id">I</DD_MASK_TYPE>
+			<DD_SYSTEM_REC id="ddm_elements.vendor_id">N</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.vendor_id">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.vendor_id">AP </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.vendor_id">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.vendor_id">20071024</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.vendor_id">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.vendor_id">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.vendor_id">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOL id="ddm_elements.vendor_id">VENDOR_NAME     </DD_ATTR_DCOL>
+			<DD_ATTR_DCOM id="ddm_elements.vendor_id">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.vendor_id">            </DD_ATTR_DEXP>
+			<DD_ATTR_DKEY id="ddm_elements.vendor_id">[+FIRM_ID]+@</DD_ATTR_DKEY>
+			<DD_ATTR_DTAB id="ddm_elements.vendor_id">APM_VENDMAST    </DD_ATTR_DTAB>
+			<DD_ATTR_LABL id="ddm_elements.vendor_id">Vendor ID</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.vendor_id">Vend ID</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.vendor_id">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.vendor_id">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.vendor_id">0</DD_ATTR_MINL>
+			<DD_ATTR_MSKI id="ddm_elements.vendor_id">UUUUUU</DD_ATTR_MSKI>
+			<DD_ATTR_PADC id="ddm_elements.vendor_id">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.vendor_id">R</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.vendor_id">0</DD_ATTR_PREC>
+			<DD_ATTR_PROM id="ddm_elements.vendor_id">Enter A Valid Vendor</DD_ATTR_PROM>
+		</RECORD>
+		<RECORD id="ddm_elements.reserved_str">
+			<DD_DATA_NAME id="ddm_elements.reserved_str">RESERVED_STR    </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.reserved_str">Reserved For Addon Use        </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.reserved_str">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.reserved_str">1</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.reserved_str"> </DD_MASK_TYPE>
+			<DD_SYSTEM_REC id="ddm_elements.reserved_str">Y</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.reserved_str">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.reserved_str">BAR</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.reserved_str">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.reserved_str">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.reserved_str">X</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.reserved_str">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.reserved_str">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.reserved_str">Reserved For Addon Use</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.reserved_str">Res For Addon Use</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.trans_type">
+			<DD_DATA_NAME id="ddm_elements.trans_type">TRANS_TYPE      </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.trans_type">Transaction Type</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.trans_type">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.trans_type">1</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.trans_type"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.trans_type">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.trans_type">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.trans_type">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.trans_type">20060501</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.trans_type">L</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.trans_type">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.trans_type">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.trans_type">Transaction Type</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.trans_type">Trans Type</DD_ATTR_LABS>
+			<DD_ATTR_MSKI id="ddm_elements.trans_type">U</DD_ATTR_MSKI>
+			<DD_ATTR_PROM id="ddm_elements.trans_type">Enter a valid inventory transaction type</DD_ATTR_PROM>
+		</RECORD>
+		<RECORD id="ddm_elements.check_date">
+			<DD_DATA_NAME id="ddm_elements.check_date">CHECK_DATE      </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.check_date">Check Date                    </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.check_date">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.check_date">8</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.check_date"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.check_date">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.check_date">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.check_date">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.check_date">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.check_date">D</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.check_date">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.check_date">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.check_date">Check Date</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.check_date">Chk Date</DD_ATTR_LABS>
+			<DD_ATTR_STYP id="ddm_elements.check_date">1</DD_ATTR_STYP>
+		</RECORD>
+		<RECORD id="ddm_elements.vendor_name">
+			<DD_DATA_NAME id="ddm_elements.vendor_name">VENDOR_NAME     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.vendor_name">Vendor Name                   </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.vendor_name">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.vendor_name">30</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.vendor_name"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.vendor_name">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.vendor_name">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.vendor_name">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.vendor_name">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.vendor_name">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.vendor_name">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.vendor_name">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.vendor_name">Vendor Name</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.vendor_name">Vend Name</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.reserved_num">
+			<DD_DATA_NAME id="ddm_elements.reserved_num">RESERVED_NUM    </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.reserved_num">Reserved For Addon Use        </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.reserved_num">N</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.reserved_num">1</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.reserved_num"> </DD_MASK_TYPE>
+			<DD_SYSTEM_REC id="ddm_elements.reserved_num">Y</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.reserved_num">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.reserved_num">BAR</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.reserved_num">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.reserved_num">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.reserved_num">X</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.reserved_num">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.reserved_num">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.reserved_num">Reserved For Addon Use</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.reserved_num">Res For Addon Use</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.reserved_num">
+			<DD_DATA_NAME id="ddm_elements.reserved_num">RESERVED_NUM    </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.reserved_num">Reserved For Addon Use        </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.reserved_num">N</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.reserved_num">1</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.reserved_num"> </DD_MASK_TYPE>
+			<DD_SYSTEM_REC id="ddm_elements.reserved_num">Y</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.reserved_num">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.reserved_num">BAR</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.reserved_num">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.reserved_num">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.reserved_num">X</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.reserved_num">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.reserved_num">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.reserved_num">Reserved For Addon Use</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.reserved_num">Res For Addon Use</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.reserved_num">
+			<DD_DATA_NAME id="ddm_elements.reserved_num">RESERVED_NUM    </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.reserved_num">Reserved For Addon Use        </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.reserved_num">N</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.reserved_num">1</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.reserved_num"> </DD_MASK_TYPE>
+			<DD_SYSTEM_REC id="ddm_elements.reserved_num">Y</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.reserved_num">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.reserved_num">BAR</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.reserved_num">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.reserved_num">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.reserved_num">X</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.reserved_num">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.reserved_num">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.reserved_num">Reserved For Addon Use</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.reserved_num">Res For Addon Use</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.balance_amt">
+			<DD_DATA_NAME id="ddm_elements.balance_amt">BALANCE_AMT     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.balance_amt">Balance Remaining</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.balance_amt">N</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.balance_amt">7</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.balance_amt">A</DD_MASK_TYPE>
+			<DD_SYSTEM_REC id="ddm_elements.balance_amt">N</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.balance_amt">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.balance_amt">AR </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.balance_amt">20070112</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.balance_amt">20070112</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.balance_amt">N</DD_ATTR_CTYP>
+			<DD_ATTR_LABL id="ddm_elements.balance_amt">Balance Remaining</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.balance_amt">Balance Remaining</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.balance_amt">
+			<DD_DATA_NAME id="ddm_elements.balance_amt">BALANCE_AMT     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.balance_amt">Balance Remaining</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.balance_amt">N</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.balance_amt">7</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.balance_amt">A</DD_MASK_TYPE>
+			<DD_SYSTEM_REC id="ddm_elements.balance_amt">N</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.balance_amt">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.balance_amt">AR </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.balance_amt">20070112</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.balance_amt">20070112</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.balance_amt">N</DD_ATTR_CTYP>
+			<DD_ATTR_LABL id="ddm_elements.balance_amt">Balance Remaining</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.balance_amt">Balance Remaining</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.balance_amt">
+			<DD_DATA_NAME id="ddm_elements.balance_amt">BALANCE_AMT     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.balance_amt">Balance Remaining</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.balance_amt">N</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.balance_amt">7</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.balance_amt">A</DD_MASK_TYPE>
+			<DD_SYSTEM_REC id="ddm_elements.balance_amt">N</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.balance_amt">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.balance_amt">AR </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.balance_amt">20070112</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.balance_amt">20070112</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.balance_amt">N</DD_ATTR_CTYP>
+			<DD_ATTR_LABL id="ddm_elements.balance_amt">Balance Remaining</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.balance_amt">Balance Remaining</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.balance_amt">
+			<DD_DATA_NAME id="ddm_elements.balance_amt">BALANCE_AMT     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.balance_amt">Balance Remaining</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.balance_amt">N</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.balance_amt">7</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.balance_amt">A</DD_MASK_TYPE>
+			<DD_SYSTEM_REC id="ddm_elements.balance_amt">N</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.balance_amt">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.balance_amt">AR </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.balance_amt">20070112</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.balance_amt">20070112</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.balance_amt">N</DD_ATTR_CTYP>
+			<DD_ATTR_LABL id="ddm_elements.balance_amt">Balance Remaining</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.balance_amt">Balance Remaining</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.record_text">
+			<DD_DATA_NAME id="ddm_elements.record_text">RECORD_TEXT     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.record_text">Record Text</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.record_text">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.record_text">512</DD_DATA_LENGTH>
+			<DD_SYSTEM_REC id="ddm_elements.record_text">N</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.record_text">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.record_text">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.record_text">20060424</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.record_text">20080506</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.record_text">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.record_text">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.record_text">U</DD_ATTR_CTYP>
+			<DD_ATTR_LABL id="ddm_elements.record_text">Record Text</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.record_text">Text</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.record_text">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.record_text">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.record_text">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.record_text">0</DD_ATTR_PREC>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_element_cmts">
+		<ID id="ddm_element_cmts">DDM_ELEMENT_CMTS</ID>
+		<RECORD id="ddm_element_cmts.vendor_id001">
+			<DD_DATA_NAME id="ddm_element_cmts.vendor_id001">VENDOR_ID       </DD_DATA_NAME>
+			<DD_COMM_SEQ id="ddm_element_cmts.vendor_id001">001</DD_COMM_SEQ>
+			<DD_COMM_TEXT id="ddm_element_cmts.vendor_id001">this is a test comment</DD_COMM_TEXT>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_element_ldat">
+		<ID id="ddm_element_ldat">DDM_ELEMENT_LDAT</ID>
+		<RECORD id="ddm_element_ldat.trans_type01">
+			<DD_DATA_NAME id="ddm_element_ldat.trans_type01">TRANS_TYPE      </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.trans_type01">01</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.trans_type01">A   </DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.trans_type01">Adjustment</DD_ATTR_LDAT_DS>
+		</RECORD>
+		<RECORD id="ddm_element_ldat.trans_type02">
+			<DD_DATA_NAME id="ddm_element_ldat.trans_type02">TRANS_TYPE      </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.trans_type02">02</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.trans_type02">C   </DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.trans_type02">Committment</DD_ATTR_LDAT_DS>
+		</RECORD>
+		<RECORD id="ddm_element_ldat.trans_type03">
+			<DD_DATA_NAME id="ddm_element_ldat.trans_type03">TRANS_TYPE      </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.trans_type03">03</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.trans_type03">I   </DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.trans_type03">Issue</DD_ATTR_LDAT_DS>
+		</RECORD>
+		<RECORD id="ddm_element_ldat.trans_type04">
+			<DD_DATA_NAME id="ddm_element_ldat.trans_type04">TRANS_TYPE      </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.trans_type04">04</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.trans_type04">R   </DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.trans_type04">Receipt</DD_ATTR_LDAT_DS>
 		</RECORD>
 	</ALIAS>
 </APE_MANCHECKHDR>

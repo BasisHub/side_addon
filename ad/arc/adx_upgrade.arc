@@ -1,3 +1,5 @@
+//#charset: windows-1252
+
 VERSION "4.0"
 
 WINDOW 1001 "AddonSoftware v8.x Upgrade" 260 180 500 445
@@ -75,3 +77,4 @@ BEGIN
         NAME "txtCount" 
     END
 END
+

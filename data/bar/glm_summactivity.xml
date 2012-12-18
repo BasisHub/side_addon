@@ -1,332 +1,332 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <GLM_SUMMACTIVITY>
-	<ALIAS>
-		<ID>DDM_TABLES</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_SUMMACTIVITY</DD_TABLE_ALIAS>
-			<DD_ALIAS_DESC>Summary Activity Inquiry</DD_ALIAS_DESC>
-			<DD_TABLE_PATH>[+GLDATA]</DD_TABLE_PATH>
-			<DD_ALIAS_TYPE>P</DD_ALIAS_TYPE>
-			<DD_KEY_LENGTH>0</DD_KEY_LENGTH>
-			<DD_NBR_RECORD>0</DD_NBR_RECORD>
-			<DD_RECORD_LEN>0</DD_RECORD_LEN>
-			<RESTRICT_CREATE>Y</RESTRICT_CREATE>
-			<RESTRICT_REBUILD>Y</RESTRICT_REBUILD>
-			<RESTRICT_AUTOADD>N</RESTRICT_AUTOADD>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>GL </ASC_PROD_ID>
-			<ASC_LICENSE_ID>8B98A1AD174945471E61F238B580AC8F</ASC_LICENSE_ID>
-			<DD_EXPORT_DATA>N</DD_EXPORT_DATA>
-			<DD_CREATE_DATE>20071130</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080729</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE>20080721</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME>172720</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM>[+DIR_CPP]glm_summactivity_cpt.bbj</DD_ATTR_CPGM>
-			<DD_ATTR_FTYP>S</DD_ATTR_FTYP>
-			<DD_ATTR_PCAL>[+DIR_PGM]adx_dummy.aon</DD_ATTR_PCAL>
-			<DD_ATTR_WINT>Summary Activity Inquiry</DD_ATTR_WINT>
+	<ALIAS id="ddm_tables">
+		<ID id="ddm_tables">DDM_TABLES</ID>
+		<RECORD id="ddm_tables.glm_summactivity">
+			<DD_TABLE_ALIAS id="ddm_tables.glm_summactivity">GLM_SUMMACTIVITY</DD_TABLE_ALIAS>
+			<DD_ALIAS_DESC id="ddm_tables.glm_summactivity">Summary Activity Inquiry</DD_ALIAS_DESC>
+			<DD_TABLE_PATH id="ddm_tables.glm_summactivity">[+GLDATA]</DD_TABLE_PATH>
+			<DD_ALIAS_TYPE id="ddm_tables.glm_summactivity">P</DD_ALIAS_TYPE>
+			<DD_KEY_LENGTH id="ddm_tables.glm_summactivity">0</DD_KEY_LENGTH>
+			<DD_NBR_RECORD id="ddm_tables.glm_summactivity">0</DD_NBR_RECORD>
+			<DD_RECORD_LEN id="ddm_tables.glm_summactivity">0</DD_RECORD_LEN>
+			<RESTRICT_CREATE id="ddm_tables.glm_summactivity">Y</RESTRICT_CREATE>
+			<RESTRICT_REBUILD id="ddm_tables.glm_summactivity">Y</RESTRICT_REBUILD>
+			<RESTRICT_AUTOADD id="ddm_tables.glm_summactivity">N</RESTRICT_AUTOADD>
+			<ASC_COMP_ID id="ddm_tables.glm_summactivity">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_tables.glm_summactivity">GL </ASC_PROD_ID>
+			<ASC_LICENSE_ID id="ddm_tables.glm_summactivity">8B98A1AD174945471E61F238B580AC8F</ASC_LICENSE_ID>
+			<DD_EXPORT_DATA id="ddm_tables.glm_summactivity">N</DD_EXPORT_DATA>
+			<DD_CREATE_DATE id="ddm_tables.glm_summactivity">20071130</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_tables.glm_summactivity">20081203</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.glm_summactivity">20081202</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.glm_summactivity">132452</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.glm_summactivity">/dev/apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_FTYP id="ddm_tables.glm_summactivity">S</DD_ATTR_FTYP>
+			<DD_ATTR_PCAL id="ddm_tables.glm_summactivity">[+DIR_PGM]adx_dummy.aon</DD_ATTR_PCAL>
+			<DD_ATTR_WINT id="ddm_tables.glm_summactivity">Summary Activity Inquiry</DD_ATTR_WINT>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_AOPT</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_SUMMACTIVITY</DD_TABLE_ALIAS>
-			<DD_ATTR_SEQ>01</DD_ATTR_SEQ>
-			<DD_ATTR_AOPT>Replicate</DD_ATTR_AOPT>
-			<DD_ATTR_AOPT_CD>REPL</DD_ATTR_AOPT_CD>
-			<DD_ATTR_AOPT_FM>F</DD_ATTR_AOPT_FM>
+	<ALIAS id="ddm_table_aopt">
+		<ID id="ddm_table_aopt">DDM_TABLE_AOPT</ID>
+		<RECORD id="ddm_table_aopt.glm_summactivity01">
+			<DD_TABLE_ALIAS id="ddm_table_aopt.glm_summactivity01">GLM_SUMMACTIVITY</DD_TABLE_ALIAS>
+			<DD_ATTR_SEQ id="ddm_table_aopt.glm_summactivity01">01</DD_ATTR_SEQ>
+			<DD_ATTR_AOPT id="ddm_table_aopt.glm_summactivity01">Replicate</DD_ATTR_AOPT>
+			<DD_ATTR_AOPT_CD id="ddm_table_aopt.glm_summactivity01">REPL</DD_ATTR_AOPT_CD>
+			<DD_ATTR_AOPT_FM id="ddm_table_aopt.glm_summactivity01">F</DD_ATTR_AOPT_FM>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_CPRO</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_SUMMACTIVITY</DD_TABLE_ALIAS>
-			<DD_ATTR_CPRO>ACUS</DD_ATTR_CPRO>
+	<ALIAS id="ddm_table_cpro">
+		<ID id="ddm_table_cpro">DDM_TABLE_CPRO</ID>
+		<RECORD id="ddm_table_cpro.glm_summactivityacus">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.glm_summactivityacus">GLM_SUMMACTIVITY</DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.glm_summactivityacus">ACUS</DD_ATTR_CPRO>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_SUMMACTIVITY</DD_TABLE_ALIAS>
-			<DD_ATTR_CPRO>AOPT</DD_ATTR_CPRO>
+		<RECORD id="ddm_table_cpro.glm_summactivityaopt">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.glm_summactivityaopt">GLM_SUMMACTIVITY</DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.glm_summactivityaopt">AOPT-REPL</DD_ATTR_CPRO>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_SUMMACTIVITY</DD_TABLE_ALIAS>
-			<DD_ATTR_CPRO>AREC</DD_ATTR_CPRO>
+		<RECORD id="ddm_table_cpro.glm_summactivityarec">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.glm_summactivityarec">GLM_SUMMACTIVITY</DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.glm_summactivityarec">AREC</DD_ATTR_CPRO>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_SUMMACTIVITY</DD_TABLE_ALIAS>
-			<DD_ATTR_CPRO>ASIZ</DD_ATTR_CPRO>
+		<RECORD id="ddm_table_cpro.glm_summactivityasiz">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.glm_summactivityasiz">GLM_SUMMACTIVITY</DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.glm_summactivityasiz">ASIZ</DD_ATTR_CPRO>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_SUMMACTIVITY</DD_TABLE_ALIAS>
-			<DD_ATTR_CPRO>BSHO</DD_ATTR_CPRO>
-		</RECORD>
-	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_OPTS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_SUMMACTIVITY</DD_TABLE_ALIAS>
-			<DD_ATTR_OPTS>F</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_SUMMACTIVITY</DD_TABLE_ALIAS>
-			<DD_ATTR_OPTS>H</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_SUMMACTIVITY</DD_TABLE_ALIAS>
-			<DD_ATTR_OPTS>W</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_SUMMACTIVITY</DD_TABLE_ALIAS>
-			<DD_ATTR_OPTS>d</DD_ATTR_OPTS>
+		<RECORD id="ddm_table_cpro.glm_summactivityawin">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.glm_summactivityawin">GLM_SUMMACTIVITY</DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.glm_summactivityawin">AWIN</DD_ATTR_CPRO>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_TPLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_SUMMACTIVITY</DD_TABLE_ALIAS>
-			<DD_TABLE_TPL>firm_id:c(2),gl_account:c(10),gl_acct_type:c(1),detail_flag:c(1)</DD_TABLE_TPL>
+	<ALIAS id="ddm_table_opts">
+		<ID id="ddm_table_opts">DDM_TABLE_OPTS</ID>
+		<RECORD id="ddm_table_opts.glm_summactivityf">
+			<DD_TABLE_ALIAS id="ddm_table_opts.glm_summactivityf">GLM_SUMMACTIVITY</DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.glm_summactivityf">F</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_table_opts.glm_summactivityh">
+			<DD_TABLE_ALIAS id="ddm_table_opts.glm_summactivityh">GLM_SUMMACTIVITY</DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.glm_summactivityh">H</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_table_opts.glm_summactivityw">
+			<DD_TABLE_ALIAS id="ddm_table_opts.glm_summactivityw">GLM_SUMMACTIVITY</DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.glm_summactivityw">W</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_table_opts.glm_summactivityd">
+			<DD_TABLE_ALIAS id="ddm_table_opts.glm_summactivityd">GLM_SUMMACTIVITY</DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.glm_summactivityd">d</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_KEYS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_SUMMACTIVITY</DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_KEY_DESC>primary</DD_KEY_DESC>
-			<DD_KEY_ID>PRIMARY         </DD_KEY_ID>
+	<ALIAS id="ddm_table_tpls">
+		<ID id="ddm_table_tpls">DDM_TABLE_TPLS</ID>
+		<RECORD id="ddm_table_tpls.glm_summactivity">
+			<DD_TABLE_ALIAS id="ddm_table_tpls.glm_summactivity">GLM_SUMMACTIVITY</DD_TABLE_ALIAS>
+			<DD_TABLE_TPL id="ddm_table_tpls.glm_summactivity">firm_id:c(2),gl_account:c(10),gl_acct_type:c(1),detail_flag:c(1)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_KEY_SEGS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_SUMMACTIVITY</DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>01</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>FIRM_ID</DD_SEGMENT_COL>
-			<DD_SEGMENT_SORT>N</DD_SEGMENT_SORT>
-			<DD_SEGMENT_UNIQ>N</DD_SEGMENT_UNIQ>
-			<DD_SEGMENT_MATH>N</DD_SEGMENT_MATH>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_SUMMACTIVITY</DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>02</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>GL_ACCOUNT</DD_SEGMENT_COL>
-			<DD_SEGMENT_SORT>N</DD_SEGMENT_SORT>
-			<DD_SEGMENT_UNIQ>N</DD_SEGMENT_UNIQ>
-			<DD_SEGMENT_MATH>N</DD_SEGMENT_MATH>
+	<ALIAS id="ddm_keys">
+		<ID id="ddm_keys">DDM_KEYS</ID>
+		<RECORD id="ddm_keys.glm_summactivity00">
+			<DD_TABLE_ALIAS id="ddm_keys.glm_summactivity00">GLM_SUMMACTIVITY</DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_keys.glm_summactivity00">00</DD_KEY_NUMBER>
+			<DD_KEY_DESC id="ddm_keys.glm_summactivity00">primary</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.glm_summactivity00">PRIMARY         </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_COLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_SUMMACTIVITY</DD_TABLE_ALIAS>
-			<DD_SEQUENCE>001</DD_SEQUENCE>
-			<DD_DATA_NAME>FIRM_ID         </DD_DATA_NAME>
-			<DD_DVAR_NAME>FIRM_ID         </DD_DVAR_NAME>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20071124</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20071124</DD_LSTREV_DATE>
-			<DD_ATTR_CTLX>0</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY>0</DD_ATTR_CTLY>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_MLAN>N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL>2</DD_ATTR_MAXL>
-			<DD_ATTR_TIND>1</DD_ATTR_TIND>
+	<ALIAS id="ddm_key_segs">
+		<ID id="ddm_key_segs">DDM_KEY_SEGS</ID>
+		<RECORD id="ddm_key_segs.glm_summactivity0001">
+			<DD_TABLE_ALIAS id="ddm_key_segs.glm_summactivity0001">GLM_SUMMACTIVITY</DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.glm_summactivity0001">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.glm_summactivity0001">01</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.glm_summactivity0001">FIRM_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_SORT id="ddm_key_segs.glm_summactivity0001">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.glm_summactivity0001">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.glm_summactivity0001">N</DD_SEGMENT_MATH>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_SUMMACTIVITY</DD_TABLE_ALIAS>
-			<DD_SEQUENCE>002</DD_SEQUENCE>
-			<DD_DATA_NAME>GL_ACCOUNT      </DD_DATA_NAME>
-			<DD_DVAR_NAME>GL_ACCOUNT      </DD_DVAR_NAME>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20071124</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20071124</DD_LSTREV_DATE>
-			<DD_ATTR_CTLX>0</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY>0</DD_ATTR_CTLY>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_MLAN>N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL>10</DD_ATTR_MAXL>
-			<DD_ATTR_TIND>2</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_SUMMACTIVITY</DD_TABLE_ALIAS>
-			<DD_SEQUENCE>003</DD_SEQUENCE>
-			<DD_DATA_NAME>GL_ACCT_TYPE    </DD_DATA_NAME>
-			<DD_DVAR_NAME>GL_ACCT_TYPE    </DD_DVAR_NAME>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20071124</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20071124</DD_LSTREV_DATE>
-			<DD_ATTR_CTLX>0</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY>0</DD_ATTR_CTLY>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_MLAN>N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL>1</DD_ATTR_MAXL>
-			<DD_ATTR_TIND>3</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_SUMMACTIVITY</DD_TABLE_ALIAS>
-			<DD_SEQUENCE>004</DD_SEQUENCE>
-			<DD_DATA_NAME>DETAIL_FLAG     </DD_DATA_NAME>
-			<DD_DVAR_NAME>DETAIL_FLAG     </DD_DVAR_NAME>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20071124</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20071124</DD_LSTREV_DATE>
-			<DD_ATTR_CTLX>0</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY>0</DD_ATTR_CTLY>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_MLAN>N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL>1</DD_ATTR_MAXL>
-			<DD_ATTR_TIND>4</DD_ATTR_TIND>
+		<RECORD id="ddm_key_segs.glm_summactivity0002">
+			<DD_TABLE_ALIAS id="ddm_key_segs.glm_summactivity0002">GLM_SUMMACTIVITY</DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.glm_summactivity0002">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.glm_summactivity0002">02</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.glm_summactivity0002">GL_ACCOUNT</DD_SEGMENT_COL>
+			<DD_SEGMENT_SORT id="ddm_key_segs.glm_summactivity0002">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.glm_summactivity0002">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.glm_summactivity0002">N</DD_SEGMENT_MATH>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_COLUMN_OPTS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_SUMMACTIVITY</DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>GL_ACCOUNT      </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>C</DD_ATTR_OPTS>
+	<ALIAS id="ddm_table_cols">
+		<ID id="ddm_table_cols">DDM_TABLE_COLS</ID>
+		<RECORD id="ddm_table_cols.glm_summactivity001">
+			<DD_TABLE_ALIAS id="ddm_table_cols.glm_summactivity001">GLM_SUMMACTIVITY</DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.glm_summactivity001">001</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.glm_summactivity001">FIRM_ID         </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.glm_summactivity001">FIRM_ID         </DD_DVAR_NAME>
+			<DD_FIELD_DELIM id="ddm_table_cols.glm_summactivity001">N</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.glm_summactivity001">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.glm_summactivity001">20071124</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.glm_summactivity001">20071124</DD_LSTREV_DATE>
+			<DD_ATTR_CTLX id="ddm_table_cols.glm_summactivity001">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_cols.glm_summactivity001">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_cols.glm_summactivity001">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.glm_summactivity001">0</DD_ATTR_CTLH>
+			<DD_ATTR_MLAN id="ddm_table_cols.glm_summactivity001">N</DD_ATTR_MLAN>
+			<DD_ATTR_MAXL id="ddm_table_cols.glm_summactivity001">2</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.glm_summactivity001">1</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_SUMMACTIVITY</DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>GL_ACCT_TYPE    </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>A</DD_ATTR_OPTS>
+		<RECORD id="ddm_table_cols.glm_summactivity002">
+			<DD_TABLE_ALIAS id="ddm_table_cols.glm_summactivity002">GLM_SUMMACTIVITY</DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.glm_summactivity002">002</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.glm_summactivity002">GL_ACCOUNT      </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.glm_summactivity002">GL_ACCOUNT      </DD_DVAR_NAME>
+			<DD_FIELD_DELIM id="ddm_table_cols.glm_summactivity002">N</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.glm_summactivity002">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.glm_summactivity002">20071124</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.glm_summactivity002">20071124</DD_LSTREV_DATE>
+			<DD_ATTR_CTLX id="ddm_table_cols.glm_summactivity002">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_cols.glm_summactivity002">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_cols.glm_summactivity002">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.glm_summactivity002">0</DD_ATTR_CTLH>
+			<DD_ATTR_MLAN id="ddm_table_cols.glm_summactivity002">N</DD_ATTR_MLAN>
+			<DD_ATTR_MAXL id="ddm_table_cols.glm_summactivity002">10</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.glm_summactivity002">2</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_SUMMACTIVITY</DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>GL_ACCT_TYPE    </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>B</DD_ATTR_OPTS>
+		<RECORD id="ddm_table_cols.glm_summactivity003">
+			<DD_TABLE_ALIAS id="ddm_table_cols.glm_summactivity003">GLM_SUMMACTIVITY</DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.glm_summactivity003">003</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.glm_summactivity003">GL_ACCT_TYPE    </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.glm_summactivity003">GL_ACCT_TYPE    </DD_DVAR_NAME>
+			<DD_FIELD_DELIM id="ddm_table_cols.glm_summactivity003">N</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.glm_summactivity003">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.glm_summactivity003">20071124</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.glm_summactivity003">20071124</DD_LSTREV_DATE>
+			<DD_ATTR_CTLX id="ddm_table_cols.glm_summactivity003">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_cols.glm_summactivity003">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_cols.glm_summactivity003">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.glm_summactivity003">0</DD_ATTR_CTLH>
+			<DD_ATTR_MLAN id="ddm_table_cols.glm_summactivity003">N</DD_ATTR_MLAN>
+			<DD_ATTR_MAXL id="ddm_table_cols.glm_summactivity003">1</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.glm_summactivity003">3</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_SUMMACTIVITY</DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>GL_ACCT_TYPE    </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>C</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_SUMMACTIVITY</DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>DETAIL_FLAG     </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>C</DD_ATTR_OPTS>
-		</RECORD>
-	</ALIAS>
-	<ALIAS>
-		<ID>DDM_ELEMENTS</ID>
-		<RECORD>
-			<DD_DATA_NAME>FIRM_ID         </DD_DATA_NAME>
-			<DD_DESCRIPTION>Firm ID</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>2</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SYSTEM_REC>Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060425</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>H</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Firm ID</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Firm ID</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>00</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>00</DD_ATTR_MSKO>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>R</DD_ATTR_PADJ>
-			<DD_ATTR_PVAL>stbl("+FIRM_ID")</DD_ATTR_PVAL>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>GL_ACCOUNT      </DD_DATA_NAME>
-			<DD_DESCRIPTION>GL Account Number</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>10</DD_DATA_LENGTH>
-			<DD_MASK_TYPE>I</DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>GL </ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20061018</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOL>GL_ACCT_DESC    </DD_ATTR_DCOL>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_DKEY>[+FIRM_ID]+@</DD_ATTR_DKEY>
-			<DD_ATTR_DTAB>GLM_ACCT        </DD_ATTR_DTAB>
-			<DD_ATTR_LABL>GL Account</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Account</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>UUUUUUUUUU</DD_ATTR_MSKI>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>L</DD_ATTR_PADJ>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>GL_ACCT_TYPE    </DD_DATA_NAME>
-			<DD_DESCRIPTION>GL Account Type [A/L/I/C/E]</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>1</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060321</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>L</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Account Type</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Acct Type</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>DETAIL_FLAG     </DD_DATA_NAME>
-			<DD_DESCRIPTION>Post Detail [Y/N]?</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>1</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060331</DD_LSTREV_DATE>
-			<DD_ATTR_CDAT>Y;N</DD_ATTR_CDAT>
-			<DD_ATTR_CTYP>C</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Post Detail?</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Post Dtl?</DD_ATTR_LABS>
-			<DD_ATTR_PROM>Y=Detailed Postings From Subsystems  N=Summarized Postings</DD_ATTR_PROM>
+		<RECORD id="ddm_table_cols.glm_summactivity004">
+			<DD_TABLE_ALIAS id="ddm_table_cols.glm_summactivity004">GLM_SUMMACTIVITY</DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.glm_summactivity004">004</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.glm_summactivity004">DETAIL_FLAG     </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.glm_summactivity004">DETAIL_FLAG     </DD_DVAR_NAME>
+			<DD_FIELD_DELIM id="ddm_table_cols.glm_summactivity004">N</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.glm_summactivity004">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.glm_summactivity004">20071124</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.glm_summactivity004">20071124</DD_LSTREV_DATE>
+			<DD_ATTR_CTLX id="ddm_table_cols.glm_summactivity004">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_cols.glm_summactivity004">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_cols.glm_summactivity004">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.glm_summactivity004">0</DD_ATTR_CTLH>
+			<DD_ATTR_MLAN id="ddm_table_cols.glm_summactivity004">N</DD_ATTR_MLAN>
+			<DD_ATTR_MAXL id="ddm_table_cols.glm_summactivity004">1</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.glm_summactivity004">4</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_ELEMENT_LDAT</ID>
-		<RECORD>
-			<DD_DATA_NAME>GL_ACCT_TYPE    </DD_DATA_NAME>
-			<DD_ATTR_SEQ>01</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>A   </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Asset</DD_ATTR_LDAT_DS>
+	<ALIAS id="ddm_column_opts">
+		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
+		<RECORD id="ddm_column_opts.glm_summactivitygl_accountc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.glm_summactivitygl_accountc">GLM_SUMMACTIVITY</DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.glm_summactivitygl_accountc">GL_ACCOUNT      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.glm_summactivitygl_accountc">C</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>GL_ACCT_TYPE    </DD_DATA_NAME>
-			<DD_ATTR_SEQ>02</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>L   </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Liability</DD_ATTR_LDAT_DS>
+		<RECORD id="ddm_column_opts.glm_summactivitygl_acct_typea">
+			<DD_TABLE_ALIAS id="ddm_column_opts.glm_summactivitygl_acct_typea">GLM_SUMMACTIVITY</DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.glm_summactivitygl_acct_typea">GL_ACCT_TYPE    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.glm_summactivitygl_acct_typea">A</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>GL_ACCT_TYPE    </DD_DATA_NAME>
-			<DD_ATTR_SEQ>03</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>C   </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Capital</DD_ATTR_LDAT_DS>
+		<RECORD id="ddm_column_opts.glm_summactivitygl_acct_typeb">
+			<DD_TABLE_ALIAS id="ddm_column_opts.glm_summactivitygl_acct_typeb">GLM_SUMMACTIVITY</DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.glm_summactivitygl_acct_typeb">GL_ACCT_TYPE    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.glm_summactivitygl_acct_typeb">B</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>GL_ACCT_TYPE    </DD_DATA_NAME>
-			<DD_ATTR_SEQ>04</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>I   </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Income</DD_ATTR_LDAT_DS>
+		<RECORD id="ddm_column_opts.glm_summactivitygl_acct_typec">
+			<DD_TABLE_ALIAS id="ddm_column_opts.glm_summactivitygl_acct_typec">GLM_SUMMACTIVITY</DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.glm_summactivitygl_acct_typec">GL_ACCT_TYPE    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.glm_summactivitygl_acct_typec">C</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>GL_ACCT_TYPE    </DD_DATA_NAME>
-			<DD_ATTR_SEQ>05</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>E   </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Expense</DD_ATTR_LDAT_DS>
+		<RECORD id="ddm_column_opts.glm_summactivitydetail_flagc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.glm_summactivitydetail_flagc">GLM_SUMMACTIVITY</DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.glm_summactivitydetail_flagc">DETAIL_FLAG     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.glm_summactivitydetail_flagc">C</DD_ATTR_OPTS>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_elements">
+		<ID id="ddm_elements">DDM_ELEMENTS</ID>
+		<RECORD id="ddm_elements.firm_id">
+			<DD_DATA_NAME id="ddm_elements.firm_id">FIRM_ID         </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.firm_id">Firm ID</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.firm_id">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.firm_id">2</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.firm_id"> </DD_MASK_TYPE>
+			<DD_SYSTEM_REC id="ddm_elements.firm_id">Y</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.firm_id">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.firm_id">BAR</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.firm_id">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.firm_id">20060425</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.firm_id">H</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.firm_id">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.firm_id">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABS>
+			<DD_ATTR_MSKI id="ddm_elements.firm_id">00</DD_ATTR_MSKI>
+			<DD_ATTR_MSKO id="ddm_elements.firm_id">00</DD_ATTR_MSKO>
+			<DD_ATTR_PADC id="ddm_elements.firm_id">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.firm_id">R</DD_ATTR_PADJ>
+			<DD_ATTR_PVAL id="ddm_elements.firm_id">stbl("+FIRM_ID")</DD_ATTR_PVAL>
+		</RECORD>
+		<RECORD id="ddm_elements.gl_account">
+			<DD_DATA_NAME id="ddm_elements.gl_account">GL_ACCOUNT      </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.gl_account">GL Account Number</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.gl_account">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.gl_account">10</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.gl_account">I</DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.gl_account">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.gl_account">GL </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.gl_account">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.gl_account">20061018</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.gl_account">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOL id="ddm_elements.gl_account">GL_ACCT_DESC    </DD_ATTR_DCOL>
+			<DD_ATTR_DCOM id="ddm_elements.gl_account">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.gl_account">            </DD_ATTR_DEXP>
+			<DD_ATTR_DKEY id="ddm_elements.gl_account">[+FIRM_ID]+@</DD_ATTR_DKEY>
+			<DD_ATTR_DTAB id="ddm_elements.gl_account">GLM_ACCT        </DD_ATTR_DTAB>
+			<DD_ATTR_LABL id="ddm_elements.gl_account">GL Account</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.gl_account">Account</DD_ATTR_LABS>
+			<DD_ATTR_MSKI id="ddm_elements.gl_account">UUUUUUUUUU</DD_ATTR_MSKI>
+			<DD_ATTR_PADC id="ddm_elements.gl_account">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.gl_account">L</DD_ATTR_PADJ>
+		</RECORD>
+		<RECORD id="ddm_elements.gl_acct_type">
+			<DD_DATA_NAME id="ddm_elements.gl_acct_type">GL_ACCT_TYPE    </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.gl_acct_type">GL Account Type [A/L/I/C/E]</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.gl_acct_type">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.gl_acct_type">1</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.gl_acct_type"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.gl_acct_type">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.gl_acct_type">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.gl_acct_type">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.gl_acct_type">20060321</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.gl_acct_type">L</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.gl_acct_type">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.gl_acct_type">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.gl_acct_type">Account Type</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.gl_acct_type">Acct Type</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.detail_flag">
+			<DD_DATA_NAME id="ddm_elements.detail_flag">DETAIL_FLAG     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.detail_flag">Post Detail [Y/N]?</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.detail_flag">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.detail_flag">1</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.detail_flag"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.detail_flag">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.detail_flag">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.detail_flag">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.detail_flag">20060331</DD_LSTREV_DATE>
+			<DD_ATTR_CDAT id="ddm_elements.detail_flag">Y;N</DD_ATTR_CDAT>
+			<DD_ATTR_CTYP id="ddm_elements.detail_flag">C</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.detail_flag">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.detail_flag">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.detail_flag">Post Detail?</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.detail_flag">Post Dtl?</DD_ATTR_LABS>
+			<DD_ATTR_PROM id="ddm_elements.detail_flag">Y=Detailed Postings From Subsystems  N=Summarized Postings</DD_ATTR_PROM>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_element_ldat">
+		<ID id="ddm_element_ldat">DDM_ELEMENT_LDAT</ID>
+		<RECORD id="ddm_element_ldat.gl_acct_type01">
+			<DD_DATA_NAME id="ddm_element_ldat.gl_acct_type01">GL_ACCT_TYPE    </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.gl_acct_type01">01</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.gl_acct_type01">A   </DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.gl_acct_type01">Asset</DD_ATTR_LDAT_DS>
+		</RECORD>
+		<RECORD id="ddm_element_ldat.gl_acct_type02">
+			<DD_DATA_NAME id="ddm_element_ldat.gl_acct_type02">GL_ACCT_TYPE    </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.gl_acct_type02">02</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.gl_acct_type02">L   </DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.gl_acct_type02">Liability</DD_ATTR_LDAT_DS>
+		</RECORD>
+		<RECORD id="ddm_element_ldat.gl_acct_type03">
+			<DD_DATA_NAME id="ddm_element_ldat.gl_acct_type03">GL_ACCT_TYPE    </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.gl_acct_type03">03</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.gl_acct_type03">C   </DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.gl_acct_type03">Capital</DD_ATTR_LDAT_DS>
+		</RECORD>
+		<RECORD id="ddm_element_ldat.gl_acct_type04">
+			<DD_DATA_NAME id="ddm_element_ldat.gl_acct_type04">GL_ACCT_TYPE    </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.gl_acct_type04">04</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.gl_acct_type04">I   </DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.gl_acct_type04">Income</DD_ATTR_LDAT_DS>
+		</RECORD>
+		<RECORD id="ddm_element_ldat.gl_acct_type05">
+			<DD_DATA_NAME id="ddm_element_ldat.gl_acct_type05">GL_ACCT_TYPE    </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.gl_acct_type05">05</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.gl_acct_type05">E   </DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.gl_acct_type05">Expense</DD_ATTR_LDAT_DS>
 		</RECORD>
 	</ALIAS>
 </GLM_SUMMACTIVITY>

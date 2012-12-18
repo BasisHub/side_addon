@@ -1,330 +1,307 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <SFR_WODET>
-	<ALIAS>
-		<ID>DDM_TABLES</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>SFR_WODET       </DD_TABLE_ALIAS>
-			<DD_ALIAS_DESC>Test OE form for Shop Floor WO Detail</DD_ALIAS_DESC>
-			<DD_TABLE_PATH>[+SFDATA]</DD_TABLE_PATH>
-			<DD_ALIAS_TYPE>P</DD_ALIAS_TYPE>
-			<DD_KEY_LENGTH>0</DD_KEY_LENGTH>
-			<DD_NBR_RECORD>0</DD_NBR_RECORD>
-			<DD_RECORD_LEN>0</DD_RECORD_LEN>
-			<DD_SYSTEM_ID>SF</DD_SYSTEM_ID>
-			<RESTRICT_REBUILD>Y</RESTRICT_REBUILD>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_EXPORT_DATA>N</DD_EXPORT_DATA>
-			<DD_CREATE_DATE>20080221</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080223</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE>20080223</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME>093528</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM>[+DIR_CPP]sfr_wodet_cpt.bbj</DD_ATTR_CPGM>
-			<DD_ATTR_FTYP>S</DD_ATTR_FTYP>
-			<DD_ATTR_WINT>Test OE form for Shop Floor WO Detail</DD_ATTR_WINT>
+	<ALIAS id="ddm_tables">
+		<ID id="ddm_tables">DDM_TABLES</ID>
+		<RECORD id="ddm_tables.sfr_wodet">
+			<DD_TABLE_ALIAS id="ddm_tables.sfr_wodet">SFR_WODET       </DD_TABLE_ALIAS>
+			<DD_ALIAS_DESC id="ddm_tables.sfr_wodet">Test OE form for Shop Floor WO Detail</DD_ALIAS_DESC>
+			<DD_TABLE_PATH id="ddm_tables.sfr_wodet">[+SFDATA]</DD_TABLE_PATH>
+			<DD_ALIAS_TYPE id="ddm_tables.sfr_wodet">P</DD_ALIAS_TYPE>
+			<DD_KEY_LENGTH id="ddm_tables.sfr_wodet">0</DD_KEY_LENGTH>
+			<DD_NBR_RECORD id="ddm_tables.sfr_wodet">0</DD_NBR_RECORD>
+			<DD_RECORD_LEN id="ddm_tables.sfr_wodet">0</DD_RECORD_LEN>
+			<RESTRICT_CREATE id="ddm_tables.sfr_wodet">Y</RESTRICT_CREATE>
+			<RESTRICT_REBUILD id="ddm_tables.sfr_wodet">Y</RESTRICT_REBUILD>
+			<RESTRICT_AUTOADD id="ddm_tables.sfr_wodet">Y</RESTRICT_AUTOADD>
+			<ASC_COMP_ID id="ddm_tables.sfr_wodet">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_tables.sfr_wodet">SF </ASC_PROD_ID>
+			<DD_EXPORT_DATA id="ddm_tables.sfr_wodet">N</DD_EXPORT_DATA>
+			<DD_CREATE_DATE id="ddm_tables.sfr_wodet">20080221</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_tables.sfr_wodet">20090106</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.sfr_wodet">20081208</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.sfr_wodet">103204</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.sfr_wodet">[+DIR_CPP]sfr_wodet_cpt.bbj</DD_ATTR_CPGM>
+			<DD_ATTR_FTYP id="ddm_tables.sfr_wodet">S</DD_ATTR_FTYP>
+			<DD_ATTR_WINT id="ddm_tables.sfr_wodet">Test OE form for Shop Floor WO Detail</DD_ATTR_WINT>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_CPRO</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>SFR_WODET       </DD_TABLE_ALIAS>
-			<DD_ATTR_CPRO>BSHO</DD_ATTR_CPRO>
+	<ALIAS id="ddm_table_cpro">
+		<ID id="ddm_table_cpro">DDM_TABLE_CPRO</ID>
+		<RECORD id="ddm_table_cpro.sfr_wodetbsho">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.sfr_wodetbsho">SFR_WODET       </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.sfr_wodetbsho">BSHO</DD_ATTR_CPRO>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_TPLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>SFR_WODET       </DD_TABLE_ALIAS>
-			<DD_TABLE_TPL>report_seq:c(1),wo_type_01:c(2),wo_type_02:c(2),wo_no_01:c(7),wo_no_02:c(7),customer_id_01:c(6),customer_id_02:c(6),bill_no_01:c(20),bill_no_02:c(20)</DD_TABLE_TPL>
+	<ALIAS id="ddm_table_tpls">
+		<ID id="ddm_table_tpls">DDM_TABLE_TPLS</ID>
+		<RECORD id="ddm_table_tpls.sfr_wodet">
+			<DD_TABLE_ALIAS id="ddm_table_tpls.sfr_wodet">SFR_WODET       </DD_TABLE_ALIAS>
+			<DD_TABLE_TPL id="ddm_table_tpls.sfr_wodet">report_seq:c(1),wo_type_01:c(2),wo_type_02:c(2),wo_no_01:c(7),wo_no_02:c(7),customer_id_01:c(6),customer_id_02:c(6),bill_no_01:c(20),bill_no_02:c(20)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_COLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>SFR_WODET       </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>001</DD_SEQUENCE>
-			<DD_DATA_NAME>REPORT_SEQ      </DD_DATA_NAME>
-			<DD_DVAR_NAME>REPORT_SEQ      </DD_DVAR_NAME>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20080221</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080221</DD_LSTREV_DATE>
-			<DD_ATTR_CTLX>0</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY>0</DD_ATTR_CTLY>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_MLAN>N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL>1</DD_ATTR_MAXL>
-			<DD_ATTR_TIND>1</DD_ATTR_TIND>
+	<ALIAS id="ddm_table_cols">
+		<ID id="ddm_table_cols">DDM_TABLE_COLS</ID>
+		<RECORD id="ddm_table_cols.sfr_wodet001">
+			<DD_TABLE_ALIAS id="ddm_table_cols.sfr_wodet001">SFR_WODET       </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.sfr_wodet001">001</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.sfr_wodet001">REPORT_SEQ      </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.sfr_wodet001">REPORT_SEQ      </DD_DVAR_NAME>
+			<DD_FIELD_DELIM id="ddm_table_cols.sfr_wodet001">N</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.sfr_wodet001">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.sfr_wodet001">20080221</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.sfr_wodet001">20080221</DD_LSTREV_DATE>
+			<DD_ATTR_CTLX id="ddm_table_cols.sfr_wodet001">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_cols.sfr_wodet001">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_cols.sfr_wodet001">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.sfr_wodet001">0</DD_ATTR_CTLH>
+			<DD_ATTR_MLAN id="ddm_table_cols.sfr_wodet001">N</DD_ATTR_MLAN>
+			<DD_ATTR_MAXL id="ddm_table_cols.sfr_wodet001">1</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.sfr_wodet001">1</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>SFR_WODET       </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>002</DD_SEQUENCE>
-			<DD_DATA_NAME>WO_TYPE         </DD_DATA_NAME>
-			<DD_DVAR_NAME>WO_TYPE         </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>2</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20080223</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080223</DD_LSTREV_DATE>
-			<DD_ATTR_ABLC>SFR_WODET.REPORT_SEQ</DD_ATTR_ABLC>
-			<DD_ATTR_ABLV>T</DD_ATTR_ABLV>
-			<DD_ATTR_CTLX>0</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY>0</DD_ATTR_CTLY>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_LABL>Work Order Tp</DD_ATTR_LABL>
-			<DD_ATTR_MLAN>N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL>2</DD_ATTR_MAXL>
-			<DD_ATTR_TIND>2</DD_ATTR_TIND>
+		<RECORD id="ddm_table_cols.sfr_wodet002">
+			<DD_TABLE_ALIAS id="ddm_table_cols.sfr_wodet002">SFR_WODET       </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.sfr_wodet002">002</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.sfr_wodet002">WO_TYPE         </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.sfr_wodet002">WO_TYPE         </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.sfr_wodet002">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.sfr_wodet002">2</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.sfr_wodet002">N</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.sfr_wodet002">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.sfr_wodet002">20080223</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.sfr_wodet002">20080223</DD_LSTREV_DATE>
+			<DD_ATTR_ABLC id="ddm_table_cols.sfr_wodet002">SFR_WODET.REPORT_SEQ</DD_ATTR_ABLC>
+			<DD_ATTR_ABLV id="ddm_table_cols.sfr_wodet002">T</DD_ATTR_ABLV>
+			<DD_ATTR_CTLX id="ddm_table_cols.sfr_wodet002">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_cols.sfr_wodet002">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_cols.sfr_wodet002">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.sfr_wodet002">0</DD_ATTR_CTLH>
+			<DD_ATTR_LABL id="ddm_table_cols.sfr_wodet002">Work Order Tp</DD_ATTR_LABL>
+			<DD_ATTR_MLAN id="ddm_table_cols.sfr_wodet002">N</DD_ATTR_MLAN>
+			<DD_ATTR_MAXL id="ddm_table_cols.sfr_wodet002">2</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.sfr_wodet002">2</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>SFR_WODET       </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>003</DD_SEQUENCE>
-			<DD_DATA_NAME>WO_NO           </DD_DATA_NAME>
-			<DD_DVAR_NAME>WO_NO           </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>2</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20080223</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080223</DD_LSTREV_DATE>
-			<DD_ATTR_ABLC>SFR_WODET.REPORT_SEQ</DD_ATTR_ABLC>
-			<DD_ATTR_ABLV>W</DD_ATTR_ABLV>
-			<DD_ATTR_CTLX>0</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY>0</DD_ATTR_CTLY>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_LABL>Work Order No</DD_ATTR_LABL>
-			<DD_ATTR_MLAN>N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL>7</DD_ATTR_MAXL>
-			<DD_ATTR_TIND>3</DD_ATTR_TIND>
+		<RECORD id="ddm_table_cols.sfr_wodet003">
+			<DD_TABLE_ALIAS id="ddm_table_cols.sfr_wodet003">SFR_WODET       </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.sfr_wodet003">003</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.sfr_wodet003">WO_NO           </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.sfr_wodet003">WO_NO           </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.sfr_wodet003">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.sfr_wodet003">2</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.sfr_wodet003">N</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.sfr_wodet003">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.sfr_wodet003">20080223</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.sfr_wodet003">20080223</DD_LSTREV_DATE>
+			<DD_ATTR_ABLC id="ddm_table_cols.sfr_wodet003">SFR_WODET.REPORT_SEQ</DD_ATTR_ABLC>
+			<DD_ATTR_ABLV id="ddm_table_cols.sfr_wodet003">W</DD_ATTR_ABLV>
+			<DD_ATTR_CTLX id="ddm_table_cols.sfr_wodet003">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_cols.sfr_wodet003">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_cols.sfr_wodet003">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.sfr_wodet003">0</DD_ATTR_CTLH>
+			<DD_ATTR_LABL id="ddm_table_cols.sfr_wodet003">Work Order No</DD_ATTR_LABL>
+			<DD_ATTR_MLAN id="ddm_table_cols.sfr_wodet003">N</DD_ATTR_MLAN>
+			<DD_ATTR_MAXL id="ddm_table_cols.sfr_wodet003">7</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.sfr_wodet003">3</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>SFR_WODET       </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>004</DD_SEQUENCE>
-			<DD_DATA_NAME>CUSTOMER_ID     </DD_DATA_NAME>
-			<DD_DVAR_NAME>CUSTOMER_ID     </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>2</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20080223</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080223</DD_LSTREV_DATE>
-			<DD_ATTR_ABLC>SFR_WODET.REPORT_SEQ</DD_ATTR_ABLC>
-			<DD_ATTR_ABLV>C</DD_ATTR_ABLV>
-			<DD_ATTR_CTLX>0</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY>0</DD_ATTR_CTLY>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_MLAN>N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL>6</DD_ATTR_MAXL>
-			<DD_ATTR_TIND>4</DD_ATTR_TIND>
+		<RECORD id="ddm_table_cols.sfr_wodet004">
+			<DD_TABLE_ALIAS id="ddm_table_cols.sfr_wodet004">SFR_WODET       </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.sfr_wodet004">004</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.sfr_wodet004">CUSTOMER_ID     </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.sfr_wodet004">CUSTOMER_ID     </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.sfr_wodet004">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.sfr_wodet004">2</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.sfr_wodet004">N</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.sfr_wodet004">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.sfr_wodet004">20080223</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.sfr_wodet004">20080223</DD_LSTREV_DATE>
+			<DD_ATTR_ABLC id="ddm_table_cols.sfr_wodet004">SFR_WODET.REPORT_SEQ</DD_ATTR_ABLC>
+			<DD_ATTR_ABLV id="ddm_table_cols.sfr_wodet004">C</DD_ATTR_ABLV>
+			<DD_ATTR_CTLX id="ddm_table_cols.sfr_wodet004">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_cols.sfr_wodet004">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_cols.sfr_wodet004">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.sfr_wodet004">0</DD_ATTR_CTLH>
+			<DD_ATTR_MLAN id="ddm_table_cols.sfr_wodet004">N</DD_ATTR_MLAN>
+			<DD_ATTR_MAXL id="ddm_table_cols.sfr_wodet004">6</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.sfr_wodet004">4</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>SFR_WODET       </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>005</DD_SEQUENCE>
-			<DD_DATA_NAME>BILL_NO         </DD_DATA_NAME>
-			<DD_DVAR_NAME>BILL_NO         </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>2</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20080223</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080223</DD_LSTREV_DATE>
-			<DD_ATTR_ABLC>SFR_WODET.REPORT_SEQ</DD_ATTR_ABLC>
-			<DD_ATTR_ABLV>B</DD_ATTR_ABLV>
-			<DD_ATTR_CTLX>0</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY>0</DD_ATTR_CTLY>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_LABL>Bill No</DD_ATTR_LABL>
-			<DD_ATTR_MLAN>N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL>20</DD_ATTR_MAXL>
-			<DD_ATTR_TIND>5</DD_ATTR_TIND>
-		</RECORD>
-	</ALIAS>
-	<ALIAS>
-		<ID>DDM_COLUMN_LDAT</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>SFR_WODET       </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>REPORT_SEQ      </DD_DVAR_NAME>
-			<DD_ATTR_SEQ>01</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>W</DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Work Order</DD_ATTR_LDAT_DS>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>SFR_WODET       </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>REPORT_SEQ      </DD_DVAR_NAME>
-			<DD_ATTR_SEQ>02</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>T</DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Work Order Type</DD_ATTR_LDAT_DS>
+		<RECORD id="ddm_table_cols.sfr_wodet005">
+			<DD_TABLE_ALIAS id="ddm_table_cols.sfr_wodet005">SFR_WODET       </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.sfr_wodet005">005</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.sfr_wodet005">BILL_NO         </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.sfr_wodet005">BILL_NO         </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.sfr_wodet005">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.sfr_wodet005">2</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.sfr_wodet005">N</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.sfr_wodet005">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.sfr_wodet005">20080223</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.sfr_wodet005">20080223</DD_LSTREV_DATE>
+			<DD_ATTR_ABLC id="ddm_table_cols.sfr_wodet005">SFR_WODET.REPORT_SEQ</DD_ATTR_ABLC>
+			<DD_ATTR_ABLV id="ddm_table_cols.sfr_wodet005">B</DD_ATTR_ABLV>
+			<DD_ATTR_CTLX id="ddm_table_cols.sfr_wodet005">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_cols.sfr_wodet005">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_cols.sfr_wodet005">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.sfr_wodet005">0</DD_ATTR_CTLH>
+			<DD_ATTR_LABL id="ddm_table_cols.sfr_wodet005">Bill No</DD_ATTR_LABL>
+			<DD_ATTR_MLAN id="ddm_table_cols.sfr_wodet005">N</DD_ATTR_MLAN>
+			<DD_ATTR_MAXL id="ddm_table_cols.sfr_wodet005">20</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.sfr_wodet005">5</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_COLUMN_OPTS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>SFR_WODET       </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>WO_TYPE         </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>1</DD_ATTR_OPTS>
+	<ALIAS id="ddm_column_ldat">
+		<ID id="ddm_column_ldat">DDM_COLUMN_LDAT</ID>
+		<RECORD id="ddm_column_ldat.sfr_wodetreport_seq01">
+			<DD_TABLE_ALIAS id="ddm_column_ldat.sfr_wodetreport_seq01">SFR_WODET       </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_ldat.sfr_wodetreport_seq01">REPORT_SEQ      </DD_DVAR_NAME>
+			<DD_ATTR_SEQ id="ddm_column_ldat.sfr_wodetreport_seq01">01</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_column_ldat.sfr_wodetreport_seq01">W</DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_column_ldat.sfr_wodetreport_seq01">Work Order</DD_ATTR_LDAT_DS>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>SFR_WODET       </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>WO_TYPE         </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>2</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>SFR_WODET       </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>WO_NO           </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>1</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>SFR_WODET       </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>WO_NO           </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>2</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>SFR_WODET       </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>CUSTOMER_ID     </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>1</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>SFR_WODET       </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>CUSTOMER_ID     </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>2</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>SFR_WODET       </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>BILL_NO         </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>1</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>SFR_WODET       </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>BILL_NO         </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>2</DD_ATTR_OPTS>
+		<RECORD id="ddm_column_ldat.sfr_wodetreport_seq02">
+			<DD_TABLE_ALIAS id="ddm_column_ldat.sfr_wodetreport_seq02">SFR_WODET       </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_ldat.sfr_wodetreport_seq02">REPORT_SEQ      </DD_DVAR_NAME>
+			<DD_ATTR_SEQ id="ddm_column_ldat.sfr_wodetreport_seq02">02</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_column_ldat.sfr_wodetreport_seq02">T</DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_column_ldat.sfr_wodetreport_seq02">Work Order Type</DD_ATTR_LDAT_DS>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_ELEMENTS</ID>
-		<RECORD>
-			<DD_DATA_NAME>REPORT_SEQ      </DD_DATA_NAME>
-			<DD_DESCRIPTION>Report Sequence</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>1</DD_DATA_LENGTH>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20070727</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20070727</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>L</DD_ATTR_CTYP>
-			<DD_ATTR_LABL>Report Sequence</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Report Sequence</DD_ATTR_LABS>
+	<ALIAS id="ddm_column_opts">
+		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
+		<RECORD id="ddm_column_opts.sfr_wodetwo_type1">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_wodetwo_type1">SFR_WODET       </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfr_wodetwo_type1">WO_TYPE         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfr_wodetwo_type1">1</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>WO_TYPE         </DD_DATA_NAME>
-			<DD_DESCRIPTION>Work Order Type</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>2</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080223</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOL>CODE_DESC</DD_ATTR_DCOL>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_DKEY>[+FIRM_ID]+"A"+@</DD_ATTR_DKEY>
-			<DD_ATTR_DTAB>SFC_WOTYPECD    </DD_ATTR_DTAB>
-			<DD_ATTR_LABL>Work Order Type</DD_ATTR_LABL>
-			<DD_ATTR_LABS>WO Type</DD_ATTR_LABS>
-			<DD_ATTR_MAXL>0</DD_ATTR_MAXL>
-			<DD_ATTR_MAXR>0</DD_ATTR_MAXR>
-			<DD_ATTR_MINL>0</DD_ATTR_MINL>
-			<DD_ATTR_PREC>0</DD_ATTR_PREC>
+		<RECORD id="ddm_column_opts.sfr_wodetwo_type2">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_wodetwo_type2">SFR_WODET       </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfr_wodetwo_type2">WO_TYPE         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfr_wodetwo_type2">2</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>WO_NO           </DD_DATA_NAME>
-			<DD_DESCRIPTION>Work Order Number             </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>7</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Work Order Number</DD_ATTR_LABL>
-			<DD_ATTR_LABS>WO No</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>0000000</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>0000000</DD_ATTR_MSKO>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>R</DD_ATTR_PADJ>
+		<RECORD id="ddm_column_opts.sfr_wodetwo_no1">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_wodetwo_no1">SFR_WODET       </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfr_wodetwo_no1">WO_NO           </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfr_wodetwo_no1">1</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>CUSTOMER_ID     </DD_DATA_NAME>
-			<DD_DESCRIPTION>Customer ID</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>6</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>AR</DD_SYSTEM_ID>
-			<DD_MASK_TYPE>I</DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20070703</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOL>CUSTOMER_NAME</DD_ATTR_DCOL>
-			<DD_ATTR_DKEY>[+FIRM_ID]+@</DD_ATTR_DKEY>
-			<DD_ATTR_DTAB>ARM_CUSTMAST    </DD_ATTR_DTAB>
-			<DD_ATTR_LABL>Customer ID</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Cust ID</DD_ATTR_LABS>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>R</DD_ATTR_PADJ>
+		<RECORD id="ddm_column_opts.sfr_wodetwo_no2">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_wodetwo_no2">SFR_WODET       </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfr_wodetwo_no2">WO_NO           </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfr_wodetwo_no2">2</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>BILL_NO         </DD_DATA_NAME>
-			<DD_DESCRIPTION>Bill of Materials Number</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>20</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080215</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOL>ITEM_DESC</DD_ATTR_DCOL>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_DKEY>[+FIRM_ID]+@</DD_ATTR_DKEY>
-			<DD_ATTR_DTAB>IVM_ITEMMAST    </DD_ATTR_DTAB>
-			<DD_ATTR_LABL>Bill of Materials Number</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Bill of Mats No</DD_ATTR_LABS>
-			<DD_ATTR_MAXL>0</DD_ATTR_MAXL>
-			<DD_ATTR_MAXR>0</DD_ATTR_MAXR>
-			<DD_ATTR_MINL>0</DD_ATTR_MINL>
-			<DD_ATTR_PADC>20</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>L</DD_ATTR_PADJ>
-			<DD_ATTR_PREC>0</DD_ATTR_PREC>
+		<RECORD id="ddm_column_opts.sfr_wodetcustomer_id1">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_wodetcustomer_id1">SFR_WODET       </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfr_wodetcustomer_id1">CUSTOMER_ID     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfr_wodetcustomer_id1">1</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sfr_wodetcustomer_id2">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_wodetcustomer_id2">SFR_WODET       </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfr_wodetcustomer_id2">CUSTOMER_ID     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfr_wodetcustomer_id2">2</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sfr_wodetbill_no1">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_wodetbill_no1">SFR_WODET       </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfr_wodetbill_no1">BILL_NO         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfr_wodetbill_no1">1</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sfr_wodetbill_no2">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_wodetbill_no2">SFR_WODET       </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfr_wodetbill_no2">BILL_NO         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfr_wodetbill_no2">2</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>ADS_MASKS</ID>
-		<RECORD>
-			<FIRM_ID>01</FIRM_ID>
-			<DD_SYSTEM_ID>AR</DD_SYSTEM_ID>
-			<DD_MASK_TYPE>I</DD_MASK_TYPE>
-			<DD_ATTR_MSKI>00-0000</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>00-0000</DD_ATTR_MSKO>
+	<ALIAS id="ddm_elements">
+		<ID id="ddm_elements">DDM_ELEMENTS</ID>
+		<RECORD id="ddm_elements.report_seq">
+			<DD_DATA_NAME id="ddm_elements.report_seq">REPORT_SEQ      </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.report_seq">Report Sequence</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.report_seq">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.report_seq">1</DD_DATA_LENGTH>
+			<ASC_COMP_ID id="ddm_elements.report_seq">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.report_seq">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.report_seq">20070727</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.report_seq">20070727</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.report_seq">L</DD_ATTR_CTYP>
+			<DD_ATTR_LABL id="ddm_elements.report_seq">Report Sequence</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.report_seq">Report Sequence</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.wo_type">
+			<DD_DATA_NAME id="ddm_elements.wo_type">WO_TYPE         </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.wo_type">Work Order Type               </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.wo_type">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.wo_type">2</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.wo_type"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.wo_type">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.wo_type">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.wo_type">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.wo_type">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.wo_type">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.wo_type">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.wo_type">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.wo_type">Work Order Type</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.wo_type">WO Type</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.wo_no">
+			<DD_DATA_NAME id="ddm_elements.wo_no">WO_NO           </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.wo_no">Work Order Number             </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.wo_no">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.wo_no">7</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.wo_no"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.wo_no">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.wo_no">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.wo_no">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.wo_no">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.wo_no">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.wo_no">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.wo_no">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.wo_no">Work Order Number</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.wo_no">WO No</DD_ATTR_LABS>
+			<DD_ATTR_MSKI id="ddm_elements.wo_no">0000000</DD_ATTR_MSKI>
+			<DD_ATTR_MSKO id="ddm_elements.wo_no">0000000</DD_ATTR_MSKO>
+			<DD_ATTR_PADC id="ddm_elements.wo_no">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.wo_no">R</DD_ATTR_PADJ>
+		</RECORD>
+		<RECORD id="ddm_elements.customer_id">
+			<DD_DATA_NAME id="ddm_elements.customer_id">CUSTOMER_ID     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.customer_id">Customer ID</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.customer_id">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.customer_id">6</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.customer_id">I</DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.customer_id">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.customer_id">AR </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.customer_id">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.customer_id">20070703</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.customer_id">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOL id="ddm_elements.customer_id">CUSTOMER_NAME</DD_ATTR_DCOL>
+			<DD_ATTR_DKEY id="ddm_elements.customer_id">[+FIRM_ID]+@</DD_ATTR_DKEY>
+			<DD_ATTR_DTAB id="ddm_elements.customer_id">ARM_CUSTMAST    </DD_ATTR_DTAB>
+			<DD_ATTR_LABL id="ddm_elements.customer_id">Customer ID</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.customer_id">Cust ID</DD_ATTR_LABS>
+			<DD_ATTR_PADC id="ddm_elements.customer_id">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.customer_id">R</DD_ATTR_PADJ>
+		</RECORD>
+		<RECORD id="ddm_elements.bill_no">
+			<DD_DATA_NAME id="ddm_elements.bill_no">BILL_NO         </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.bill_no">Bill of Materials Number</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.bill_no">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.bill_no">20</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.bill_no"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.bill_no">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.bill_no">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.bill_no">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.bill_no">20080215</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.bill_no">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.bill_no">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.bill_no">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOL id="ddm_elements.bill_no">ITEM_DESC</DD_ATTR_DCOL>
+			<DD_ATTR_DCOM id="ddm_elements.bill_no">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.bill_no">            </DD_ATTR_DEXP>
+			<DD_ATTR_DKEY id="ddm_elements.bill_no">[+FIRM_ID]+@</DD_ATTR_DKEY>
+			<DD_ATTR_DTAB id="ddm_elements.bill_no">IVM_ITEMMAST    </DD_ATTR_DTAB>
+			<DD_ATTR_LABL id="ddm_elements.bill_no">Bill of Materials Number</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.bill_no">Bill of Mats No</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.bill_no">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.bill_no">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.bill_no">0</DD_ATTR_MINL>
+			<DD_ATTR_PADC id="ddm_elements.bill_no">20</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.bill_no">L</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.bill_no">0</DD_ATTR_PREC>
 		</RECORD>
 	</ALIAS>
 </SFR_WODET>

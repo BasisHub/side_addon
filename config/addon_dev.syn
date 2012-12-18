@@ -1,7 +1,7 @@
 // Barista Application Framework - Application Synchronization File
 // Proprietary Information. BASIS International Ltd. All rights reserved.
 ACOMP=01007514;BASIS International Ltd.
-SYS=ADDON_DEV;AddonSoftware 8.30^Copyright (C) 2007-2008.  BASIS International Ltd.^All rights reserved.^Version 8.30 - [BUILD_DATE]^AddonSoftware is protected by copyright law and international treaties. Unauthorized reproduction or distribution may result in severe civil and criminal penalties.^
+SYS=ADDON_DEV;AddonSoftware 8.31^Copyright (C) 2007-2009.  BASIS International Ltd.^All rights reserved.^Version 8.31 - [BUILD_DATE]^AddonSoftware is protected by copyright law and international treaties. Unauthorized reproduction or distribution may result in severe civil and criminal penalties.^
 DIR=/apps/aon/
 MENU=addon
 APROD=AD;AddonSoftware Administration;[+AON_IMAGES]addon_logo32.png;AddonHelp.hs;;;ENU,ESP;
@@ -18,8 +18,6 @@ APROD=PR;AddonSoftware Payroll;[+AON_IMAGES]addon_logo32.png;AddonHelp.hs;;;ENU;
 APROD=SA;AddonSoftware Sales Analysis;[+AON_IMAGES]addon_logo32.png;AddonHelp.hs;;;ENU;
 APROD=SF;AddonSoftware Shop Floor;[+AON_IMAGES]addon_logo32.png;AddonHelp.hs;;;ENU;
 APROD=SY;AddonSoftware System Admin;[+AON_IMAGES]addon_logo32.png;AddonHelp.hs;;;ENU;
-STBL=SET +DEFAULT_ASC_COMP_ID=01007514
-STBL=SET +DEFAULT_ASC_PROD_ID=AON
 STBL=SET +SHOW_PRINTERS=YES
 STBL=SET +MULTI_COMPANY=YES
 STBL=SET +AON_IMAGES=/apps/aon/images/
@@ -50,6 +48,7 @@ STBL=SET +DATAPORT_LOGS=/apps/aon/util/dataport/logs/
 STBL=SET +CODEPORT_FILES=/apps/aon/util/codeport/files/
 STBL=SET +CODEPORT_LOGS=/apps/aon/util/codeport/logs/
 STBL=SET +CODEPORT_LIB=/apps/aon/util/codeport/lib/
+STBL=SET +DIR_REPORTS=/apps/aon/reports/
 PREFIX=/apps/aon/ad/src/
 PREFIX=/apps/aon/ap/src/
 PREFIX=/apps/aon/ar/src/
@@ -79,6 +78,8 @@ CFG=+SADATA=/apps/aon/data/
 CFG=+SFDATA=/apps/aon/data/
 CFG=+SYDATA=/apps/aon/data/
 CFG=+ADDATA=/apps/aon/data/
+CFG=+DIR_REPORTS=/apps/aon/reports/
+
 LANG=ENU
 LANG=ESP
 

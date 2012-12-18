@@ -1,656 +1,620 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <IVE_PHYSICAL>
-	<ALIAS>
-		<ID>DDM_TABLES</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_PHYSICAL    </DD_TABLE_ALIAS>
-			<DD_ALIAS_DESC>Physical Inventory Entry</DD_ALIAS_DESC>
-			<DD_FILE_NAME>ive-03</DD_FILE_NAME>
-			<DD_TABLE_PATH>[+IVDATA]</DD_TABLE_PATH>
-			<DD_ALIAS_TYPE>K</DD_ALIAS_TYPE>
-			<DD_KEY_LENGTH>0</DD_KEY_LENGTH>
-			<DD_NBR_RECORD>0</DD_NBR_RECORD>
-			<DD_RECORD_LEN>160</DD_RECORD_LEN>
-			<DD_SYSTEM_REC>N</DD_SYSTEM_REC>
-			<DD_SYSTEM_ID>IV</DD_SYSTEM_ID>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>IV </ASC_PROD_ID>
-			<ASC_LICENSE_ID>71454F80DC9ADB4C1C29BA05F82C6786</ASC_LICENSE_ID>
-			<DD_EXPORT_DATA>Y</DD_EXPORT_DATA>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080130</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE>20080130</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME>135120</DD_LSTSYNC_TIME>
-			<DD_ATTR_FTYP>T</DD_ATTR_FTYP>
-			<DD_ATTR_SLEV>zzzz</DD_ATTR_SLEV>
-			<DD_ATTR_WINT>Physical Inventory Entry</DD_ATTR_WINT>
+	<ALIAS id="ddm_tables">
+		<ID id="ddm_tables">DDM_TABLES</ID>
+		<RECORD id="ddm_tables.ive_physical">
+			<DD_TABLE_ALIAS id="ddm_tables.ive_physical">IVE_PHYSICAL    </DD_TABLE_ALIAS>
+			<DD_ALIAS_DESC id="ddm_tables.ive_physical">Physical Inventory Entry</DD_ALIAS_DESC>
+			<DD_FILE_NAME id="ddm_tables.ive_physical">ive-03</DD_FILE_NAME>
+			<DD_TABLE_PATH id="ddm_tables.ive_physical">[+IVDATA]</DD_TABLE_PATH>
+			<DD_ALIAS_TYPE id="ddm_tables.ive_physical">K</DD_ALIAS_TYPE>
+			<DD_KEY_LENGTH id="ddm_tables.ive_physical">0</DD_KEY_LENGTH>
+			<DD_NBR_RECORD id="ddm_tables.ive_physical">0</DD_NBR_RECORD>
+			<DD_RECORD_LEN id="ddm_tables.ive_physical">160</DD_RECORD_LEN>
+			<DD_SYSTEM_REC id="ddm_tables.ive_physical">N</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_tables.ive_physical">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_tables.ive_physical">IV </ASC_PROD_ID>
+			<ASC_LICENSE_ID id="ddm_tables.ive_physical">71454F80DC9ADB4C1C29BA05F82C6786</ASC_LICENSE_ID>
+			<DD_EXPORT_DATA id="ddm_tables.ive_physical">Y</DD_EXPORT_DATA>
+			<DD_CREATE_DATE id="ddm_tables.ive_physical">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_tables.ive_physical">20080130</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ive_physical">20080130</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ive_physical">145318</DD_LSTSYNC_TIME>
+			<DD_ATTR_FTYP id="ddm_tables.ive_physical">T</DD_ATTR_FTYP>
+			<DD_ATTR_SLEV id="ddm_tables.ive_physical">zzzz</DD_ATTR_SLEV>
+			<DD_ATTR_WINT id="ddm_tables.ive_physical">Physical Inventory Entry</DD_ATTR_WINT>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_TPLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_PHYSICAL    </DD_TABLE_ALIAS>
-			<DD_FILE_NAME>ive-03</DD_FILE_NAME>
-			<DD_TABLE_TPL>firm_id:c(2),warehouse_id:c(2),cycle_code:c(2),location:c(10),item_id:c(20),lotser_no:c(20*),reserved_str:c(3),entered_flag:c(1),lotser_item:c(1),reserved_str_02:c(4),count_string:c(50),cutoff_date:c(8*),freeze_qty:n(7*),act_phys_cnt:n(7*),reserved_num:n(1*)</DD_TABLE_TPL>
+	<ALIAS id="ddm_table_tpls">
+		<ID id="ddm_table_tpls">DDM_TABLE_TPLS</ID>
+		<RECORD id="ddm_table_tpls.ive_physical">
+			<DD_TABLE_ALIAS id="ddm_table_tpls.ive_physical">IVE_PHYSICAL    </DD_TABLE_ALIAS>
+			<DD_FILE_NAME id="ddm_table_tpls.ive_physical">ive-03</DD_FILE_NAME>
+			<DD_TABLE_TPL id="ddm_table_tpls.ive_physical">firm_id:c(2),warehouse_id:c(2),cycle_code:c(2),location:c(10),item_id:c(20),lotser_no:c(20*),reserved_str:c(3),entered_flag:c(1),lotser_item:c(1),reserved_str_02:c(4),count_string:c(50),cutoff_date:c(8*),freeze_qty:n(7*),act_phys_cnt:n(7*),reserved_num:n(1*)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_KEYS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_PHYSICAL    </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_KEY_DESC>Primary</DD_KEY_DESC>
-			<DD_KEY_ID>PRIMARY         </DD_KEY_ID>
+	<ALIAS id="ddm_keys">
+		<ID id="ddm_keys">DDM_KEYS</ID>
+		<RECORD id="ddm_keys.ive_physical00">
+			<DD_TABLE_ALIAS id="ddm_keys.ive_physical00">IVE_PHYSICAL    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_keys.ive_physical00">00</DD_KEY_NUMBER>
+			<DD_KEY_DESC id="ddm_keys.ive_physical00">Primary</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.ive_physical00">PRIMARY         </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_KEY_SEGS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_PHYSICAL    </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>01</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>FIRM_ID         </DD_SEGMENT_COL>
-			<DD_SEGMENT_POS>0</DD_SEGMENT_POS>
-			<DD_SEGMENT_OFF>0</DD_SEGMENT_OFF>
-			<DD_SEGMENT_LEN>0</DD_SEGMENT_LEN>
+	<ALIAS id="ddm_key_segs">
+		<ID id="ddm_key_segs">DDM_KEY_SEGS</ID>
+		<RECORD id="ddm_key_segs.ive_physical0001">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ive_physical0001">IVE_PHYSICAL    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ive_physical0001">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ive_physical0001">01</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ive_physical0001">FIRM_ID         </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ive_physical0001">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ive_physical0001">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ive_physical0001">0</DD_SEGMENT_LEN>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_PHYSICAL    </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>02</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>WAREHOUSE_ID    </DD_SEGMENT_COL>
-			<DD_SEGMENT_POS>0</DD_SEGMENT_POS>
-			<DD_SEGMENT_OFF>0</DD_SEGMENT_OFF>
-			<DD_SEGMENT_LEN>0</DD_SEGMENT_LEN>
+		<RECORD id="ddm_key_segs.ive_physical0002">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ive_physical0002">IVE_PHYSICAL    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ive_physical0002">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ive_physical0002">02</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ive_physical0002">WAREHOUSE_ID    </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ive_physical0002">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ive_physical0002">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ive_physical0002">0</DD_SEGMENT_LEN>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_PHYSICAL    </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>03</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>CYCLE_CODE      </DD_SEGMENT_COL>
-			<DD_SEGMENT_POS>0</DD_SEGMENT_POS>
-			<DD_SEGMENT_OFF>0</DD_SEGMENT_OFF>
-			<DD_SEGMENT_LEN>0</DD_SEGMENT_LEN>
+		<RECORD id="ddm_key_segs.ive_physical0003">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ive_physical0003">IVE_PHYSICAL    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ive_physical0003">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ive_physical0003">03</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ive_physical0003">CYCLE_CODE      </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ive_physical0003">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ive_physical0003">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ive_physical0003">0</DD_SEGMENT_LEN>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_PHYSICAL    </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>04</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>LOCATION        </DD_SEGMENT_COL>
-			<DD_SEGMENT_POS>0</DD_SEGMENT_POS>
-			<DD_SEGMENT_OFF>0</DD_SEGMENT_OFF>
-			<DD_SEGMENT_LEN>0</DD_SEGMENT_LEN>
+		<RECORD id="ddm_key_segs.ive_physical0004">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ive_physical0004">IVE_PHYSICAL    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ive_physical0004">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ive_physical0004">04</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ive_physical0004">LOCATION        </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ive_physical0004">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ive_physical0004">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ive_physical0004">0</DD_SEGMENT_LEN>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_PHYSICAL    </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>05</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>ITEM_ID         </DD_SEGMENT_COL>
-			<DD_SEGMENT_POS>0</DD_SEGMENT_POS>
-			<DD_SEGMENT_OFF>0</DD_SEGMENT_OFF>
-			<DD_SEGMENT_LEN>0</DD_SEGMENT_LEN>
+		<RECORD id="ddm_key_segs.ive_physical0005">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ive_physical0005">IVE_PHYSICAL    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ive_physical0005">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ive_physical0005">05</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ive_physical0005">ITEM_ID         </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ive_physical0005">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ive_physical0005">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ive_physical0005">0</DD_SEGMENT_LEN>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_PHYSICAL    </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>06</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>LOTSER_NO       </DD_SEGMENT_COL>
-			<DD_SEGMENT_POS>0</DD_SEGMENT_POS>
-			<DD_SEGMENT_OFF>0</DD_SEGMENT_OFF>
-			<DD_SEGMENT_LEN>0</DD_SEGMENT_LEN>
-		</RECORD>
-	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_COLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_PHYSICAL    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>001</DD_SEQUENCE>
-			<DD_DATA_NAME>FIRM_ID         </DD_DATA_NAME>
-			<DD_DVAR_NAME>FIRM_ID         </DD_DVAR_NAME>
-			<DD_COL_REPEATS>1</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Firm ID</DD_ATTR_PROM>
-			<DD_ATTR_TIND>1</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_PHYSICAL    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>002</DD_SEQUENCE>
-			<DD_DATA_NAME>WAREHOUSE_ID    </DD_DATA_NAME>
-			<DD_DVAR_NAME>WAREHOUSE_ID    </DD_DVAR_NAME>
-			<DD_COL_REPEATS>1</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Warehouse ID</DD_ATTR_PROM>
-			<DD_ATTR_TIND>2</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_PHYSICAL    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>003</DD_SEQUENCE>
-			<DD_DATA_NAME>CYCLE_CODE      </DD_DATA_NAME>
-			<DD_DVAR_NAME>CYCLE_CODE      </DD_DVAR_NAME>
-			<DD_COL_REPEATS>1</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Cycle Code</DD_ATTR_PROM>
-			<DD_ATTR_TIND>3</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_PHYSICAL    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>004</DD_SEQUENCE>
-			<DD_DATA_NAME>LOCATION        </DD_DATA_NAME>
-			<DD_DVAR_NAME>LOCATION        </DD_DVAR_NAME>
-			<DD_COL_REPEATS>1</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Warehouse Location</DD_ATTR_PROM>
-			<DD_ATTR_TIND>10</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_PHYSICAL    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>005</DD_SEQUENCE>
-			<DD_DATA_NAME>ITEM_ID         </DD_DATA_NAME>
-			<DD_DVAR_NAME>ITEM_ID         </DD_DVAR_NAME>
-			<DD_COL_REPEATS>1</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_GHDR>Physical Count</DD_ATTR_GHDR>
-			<DD_ATTR_LABS>Inventory</DD_ATTR_LABS>
-			<DD_ATTR_PROM>Inventory Item Number</DD_ATTR_PROM>
-			<DD_ATTR_TIND>5</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_PHYSICAL    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>006</DD_SEQUENCE>
-			<DD_DATA_NAME>LOTSER_NO       </DD_DATA_NAME>
-			<DD_DVAR_NAME>LOTSER_NO       </DD_DVAR_NAME>
-			<DD_COL_REPEATS>1</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Lot/Serial Number</DD_ATTR_PROM>
-			<DD_ATTR_TIND>6</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_PHYSICAL    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>007</DD_SEQUENCE>
-			<DD_DATA_NAME>RESERVED_STR    </DD_DATA_NAME>
-			<DD_DVAR_NAME>RESERVED_STR    </DD_DVAR_NAME>
-			<DD_COL_REPEATS>3</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Reserved For Addon Use</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_PHYSICAL    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>008</DD_SEQUENCE>
-			<DD_DATA_NAME>ENTERED_FLAG    </DD_DATA_NAME>
-			<DD_DVAR_NAME>ENTERED_FLAG    </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Physical Count Entered?</DD_ATTR_PROM>
-			<DD_ATTR_TIND>11</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_PHYSICAL    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>009</DD_SEQUENCE>
-			<DD_DATA_NAME>LOTSER_ITEM     </DD_DATA_NAME>
-			<DD_DVAR_NAME>LOTSER_ITEM     </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Lotted or Serialized Item?</DD_ATTR_PROM>
-			<DD_ATTR_TIND>12</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_PHYSICAL    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>010</DD_SEQUENCE>
-			<DD_DATA_NAME>RESERVED_STR    </DD_DATA_NAME>
-			<DD_DVAR_NAME>RESERVED_STR    </DD_DVAR_NAME>
-			<DD_COL_REPEATS>4</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Reserved For Addon Use</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_PHYSICAL    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>011</DD_SEQUENCE>
-			<DD_DATA_NAME>COUNT_STRING    </DD_DATA_NAME>
-			<DD_DVAR_NAME>COUNT_STRING    </DD_DVAR_NAME>
-			<DD_COL_REPEATS>1</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_LABL>Count Total</DD_ATTR_LABL>
-			<DD_ATTR_PROM>Count String</DD_ATTR_PROM>
-			<DD_ATTR_TIND>9</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_PHYSICAL    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>012</DD_SEQUENCE>
-			<DD_DATA_NAME>CUTOFF_DATE     </DD_DATA_NAME>
-			<DD_DVAR_NAME>CUTOFF_DATE     </DD_DVAR_NAME>
-			<DD_COL_REPEATS>1</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Cutoff Date</DD_ATTR_PROM>
-			<DD_ATTR_TIND>4</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_PHYSICAL    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>013</DD_SEQUENCE>
-			<DD_DATA_NAME>FREEZE_QTY      </DD_DATA_NAME>
-			<DD_DVAR_NAME>FREEZE_QTY      </DD_DVAR_NAME>
-			<DD_COL_REPEATS>1</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_LABL>System Quantity</DD_ATTR_LABL>
-			<DD_ATTR_PROM>Freeze Quantity</DD_ATTR_PROM>
-			<DD_ATTR_TIND>7</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_PHYSICAL    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>014</DD_SEQUENCE>
-			<DD_DATA_NAME>ACT_PHYS_CNT    </DD_DATA_NAME>
-			<DD_DVAR_NAME>ACT_PHYS_CNT    </DD_DVAR_NAME>
-			<DD_COL_REPEATS>1</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Actual Physical Count</DD_ATTR_PROM>
-			<DD_ATTR_TIND>8</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_PHYSICAL    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>015</DD_SEQUENCE>
-			<DD_DATA_NAME>RESERVED_NUM    </DD_DATA_NAME>
-			<DD_DVAR_NAME>RESERVED_NUM    </DD_DVAR_NAME>
-			<DD_COL_REPEATS>1</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Reserved For Addon Use</DD_ATTR_PROM>
+		<RECORD id="ddm_key_segs.ive_physical0006">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ive_physical0006">IVE_PHYSICAL    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ive_physical0006">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ive_physical0006">06</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ive_physical0006">LOTSER_NO       </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ive_physical0006">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ive_physical0006">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ive_physical0006">0</DD_SEGMENT_LEN>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_COLUMN_CMTS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_PHYSICAL    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>LOTSER_NO       </DD_DVAR_NAME>
-			<DD_COMM_SEQ>001</DD_COMM_SEQ>
-			<DD_COMM_TEXT>When "Missing", do NOT adjust Actual Physical Count.        </DD_COMM_TEXT>
+	<ALIAS id="ddm_table_cols">
+		<ID id="ddm_table_cols">DDM_TABLE_COLS</ID>
+		<RECORD id="ddm_table_cols.ive_physical001">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ive_physical001">IVE_PHYSICAL    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ive_physical001">001</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ive_physical001">FIRM_ID         </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ive_physical001">FIRM_ID         </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ive_physical001">1</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ive_physical001">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ive_physical001">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.ive_physical001">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ive_physical001">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.ive_physical001">Firm ID</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ive_physical001">1</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.ive_physical002">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ive_physical002">IVE_PHYSICAL    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ive_physical002">002</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ive_physical002">WAREHOUSE_ID    </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ive_physical002">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ive_physical002">1</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ive_physical002">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ive_physical002">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.ive_physical002">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ive_physical002">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.ive_physical002">Warehouse ID</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ive_physical002">2</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.ive_physical003">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ive_physical003">IVE_PHYSICAL    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ive_physical003">003</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ive_physical003">CYCLE_CODE      </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ive_physical003">CYCLE_CODE      </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ive_physical003">1</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ive_physical003">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ive_physical003">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.ive_physical003">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ive_physical003">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.ive_physical003">Cycle Code</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ive_physical003">3</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.ive_physical004">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ive_physical004">IVE_PHYSICAL    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ive_physical004">004</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ive_physical004">LOCATION        </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ive_physical004">LOCATION        </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ive_physical004">1</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ive_physical004">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ive_physical004">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.ive_physical004">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ive_physical004">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.ive_physical004">Warehouse Location</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ive_physical004">10</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.ive_physical005">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ive_physical005">IVE_PHYSICAL    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ive_physical005">005</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ive_physical005">ITEM_ID         </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ive_physical005">ITEM_ID         </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ive_physical005">1</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ive_physical005">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ive_physical005">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.ive_physical005">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ive_physical005">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_GHDR id="ddm_table_cols.ive_physical005">Physical Count</DD_ATTR_GHDR>
+			<DD_ATTR_LABS id="ddm_table_cols.ive_physical005">Inventory</DD_ATTR_LABS>
+			<DD_ATTR_PROM id="ddm_table_cols.ive_physical005">Inventory Item Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ive_physical005">5</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.ive_physical006">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ive_physical006">IVE_PHYSICAL    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ive_physical006">006</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ive_physical006">LOTSER_NO       </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ive_physical006">LOTSER_NO       </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ive_physical006">1</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ive_physical006">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ive_physical006">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.ive_physical006">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.ive_physical006">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ive_physical006">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.ive_physical006">Lot/Serial Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ive_physical006">6</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.ive_physical007">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ive_physical007">IVE_PHYSICAL    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ive_physical007">007</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ive_physical007">RESERVED_STR    </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ive_physical007">RESERVED_STR    </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ive_physical007">3</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ive_physical007">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ive_physical007">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.ive_physical007">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ive_physical007">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.ive_physical007">Reserved For Addon Use</DD_ATTR_PROM>
+		</RECORD>
+		<RECORD id="ddm_table_cols.ive_physical008">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ive_physical008">IVE_PHYSICAL    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ive_physical008">008</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ive_physical008">ENTERED_FLAG    </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ive_physical008">ENTERED_FLAG    </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ive_physical008">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ive_physical008">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ive_physical008">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.ive_physical008">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ive_physical008">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.ive_physical008">Physical Count Entered?</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ive_physical008">11</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.ive_physical009">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ive_physical009">IVE_PHYSICAL    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ive_physical009">009</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ive_physical009">LOTSER_ITEM     </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ive_physical009">LOTSER_ITEM     </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ive_physical009">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ive_physical009">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ive_physical009">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.ive_physical009">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ive_physical009">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.ive_physical009">Lotted or Serialized Item?</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ive_physical009">12</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.ive_physical010">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ive_physical010">IVE_PHYSICAL    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ive_physical010">010</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ive_physical010">RESERVED_STR    </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ive_physical010">RESERVED_STR    </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ive_physical010">4</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ive_physical010">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ive_physical010">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.ive_physical010">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ive_physical010">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.ive_physical010">Reserved For Addon Use</DD_ATTR_PROM>
+		</RECORD>
+		<RECORD id="ddm_table_cols.ive_physical011">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ive_physical011">IVE_PHYSICAL    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ive_physical011">011</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ive_physical011">COUNT_STRING    </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ive_physical011">COUNT_STRING    </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ive_physical011">1</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ive_physical011">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ive_physical011">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.ive_physical011">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ive_physical011">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_LABL id="ddm_table_cols.ive_physical011">Count Total</DD_ATTR_LABL>
+			<DD_ATTR_PROM id="ddm_table_cols.ive_physical011">Count String</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ive_physical011">9</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.ive_physical012">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ive_physical012">IVE_PHYSICAL    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ive_physical012">012</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ive_physical012">CUTOFF_DATE     </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ive_physical012">CUTOFF_DATE     </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ive_physical012">1</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ive_physical012">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ive_physical012">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.ive_physical012">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.ive_physical012">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ive_physical012">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.ive_physical012">Cutoff Date</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ive_physical012">4</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.ive_physical013">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ive_physical013">IVE_PHYSICAL    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ive_physical013">013</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ive_physical013">FREEZE_QTY      </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ive_physical013">FREEZE_QTY      </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ive_physical013">1</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ive_physical013">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ive_physical013">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.ive_physical013">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.ive_physical013">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ive_physical013">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_LABL id="ddm_table_cols.ive_physical013">System Quantity</DD_ATTR_LABL>
+			<DD_ATTR_PROM id="ddm_table_cols.ive_physical013">Freeze Quantity</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ive_physical013">7</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.ive_physical014">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ive_physical014">IVE_PHYSICAL    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ive_physical014">014</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ive_physical014">ACT_PHYS_CNT    </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ive_physical014">ACT_PHYS_CNT    </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ive_physical014">1</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ive_physical014">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ive_physical014">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.ive_physical014">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.ive_physical014">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ive_physical014">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.ive_physical014">Actual Physical Count</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ive_physical014">8</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.ive_physical015">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ive_physical015">IVE_PHYSICAL    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ive_physical015">015</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ive_physical015">RESERVED_NUM    </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ive_physical015">RESERVED_NUM    </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ive_physical015">1</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ive_physical015">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ive_physical015">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.ive_physical015">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.ive_physical015">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ive_physical015">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.ive_physical015">Reserved For Addon Use</DD_ATTR_PROM>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_COLUMN_OPTS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_PHYSICAL    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>FIRM_ID         </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>O</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_PHYSICAL    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>LOCATION        </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>W</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_PHYSICAL    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>ENTERED_FLAG    </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>W</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_PHYSICAL    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>LOTSER_ITEM     </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>W</DD_ATTR_OPTS>
+	<ALIAS id="ddm_column_cmts">
+		<ID id="ddm_column_cmts">DDM_COLUMN_CMTS</ID>
+		<RECORD id="ddm_column_cmts.ive_physicallotser_no001">
+			<DD_TABLE_ALIAS id="ddm_column_cmts.ive_physicallotser_no001">IVE_PHYSICAL    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cmts.ive_physicallotser_no001">LOTSER_NO       </DD_DVAR_NAME>
+			<DD_COMM_SEQ id="ddm_column_cmts.ive_physicallotser_no001">001</DD_COMM_SEQ>
+			<DD_COMM_TEXT id="ddm_column_cmts.ive_physicallotser_no001">When "Missing", do NOT adjust Actual Physical Count.        </DD_COMM_TEXT>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_ELEMENTS</ID>
-		<RECORD>
-			<DD_DATA_NAME>FIRM_ID         </DD_DATA_NAME>
-			<DD_DESCRIPTION>Firm ID</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>2</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<DD_SYSTEM_REC>Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060425</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>H</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Firm ID</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Firm ID</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>00</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>00</DD_ATTR_MSKO>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>R</DD_ATTR_PADJ>
-			<DD_ATTR_PVAL>stbl("+FIRM_ID")</DD_ATTR_PVAL>
+	<ALIAS id="ddm_column_opts">
+		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
+		<RECORD id="ddm_column_opts.ive_physicalfirm_ido">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ive_physicalfirm_ido">IVE_PHYSICAL    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ive_physicalfirm_ido">FIRM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ive_physicalfirm_ido">O</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>WAREHOUSE_ID    </DD_DATA_NAME>
-			<DD_DESCRIPTION>Warehouse ID</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>2</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20061107</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOL>SHORT_NAME      </DD_ATTR_DCOL>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_DKEY>[+FIRM_ID]+"C"+@</DD_ATTR_DKEY>
-			<DD_ATTR_DTAB>IVC_WHSECODE    </DD_ATTR_DTAB>
-			<DD_ATTR_LABL>Warehouse ID</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Whse ID</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>UU</DD_ATTR_MSKI>
-			<DD_ATTR_PROM>Enter a two-digit warehouse ID</DD_ATTR_PROM>
+		<RECORD id="ddm_column_opts.ive_physicallocationw">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ive_physicallocationw">IVE_PHYSICAL    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ive_physicallocationw">LOCATION        </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ive_physicallocationw">W</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>CYCLE_CODE      </DD_DATA_NAME>
-			<DD_DESCRIPTION>Cycle Code</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>2</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060428</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOL>CODE_DESC       </DD_ATTR_DCOL>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_DKEY>[+FIRM_ID]+@</DD_ATTR_DKEY>
-			<DD_ATTR_DTAB>GLC_CYCLECODE   </DD_ATTR_DTAB>
-			<DD_ATTR_LABL>Cycle Code</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Code</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>UU</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>UU</DD_ATTR_MSKO>
+		<RECORD id="ddm_column_opts.ive_physicalentered_flagw">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ive_physicalentered_flagw">IVE_PHYSICAL    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ive_physicalentered_flagw">ENTERED_FLAG    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ive_physicalentered_flagw">W</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>LOCATION        </DD_DATA_NAME>
-			<DD_DESCRIPTION>Warehouse Location            </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>10</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Warehouse Location</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Whse Loc</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>ITEM_ID         </DD_DATA_NAME>
-			<DD_DESCRIPTION>Inventory Item ID</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>20</DD_DATA_LENGTH>
-			<DD_SYSTEM_REC>N</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060613</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOL>ITEM_DESC       </DD_ATTR_DCOL>
-			<DD_ATTR_DKEY>[+FIRM_ID]+@</DD_ATTR_DKEY>
-			<DD_ATTR_DTAB>IVM_ITEMMAST    </DD_ATTR_DTAB>
-			<DD_ATTR_LABL>Inventory Item ID</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Item ID</DD_ATTR_LABS>
-			<DD_ATTR_MAXL>0</DD_ATTR_MAXL>
-			<DD_ATTR_MAXR>0</DD_ATTR_MAXR>
-			<DD_ATTR_MINL>0</DD_ATTR_MINL>
-			<DD_ATTR_MSKI>UUUUUUUUUUUUUUUUUUUU</DD_ATTR_MSKI>
-			<DD_ATTR_PADC>20</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>L</DD_ATTR_PADJ>
-			<DD_ATTR_PROM>Enter a valid inventory item</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>LOTSER_NO       </DD_DATA_NAME>
-			<DD_DESCRIPTION>Lot/Serial Number</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>20</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20070715</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOL>LOTSER_NO</DD_ATTR_DCOL>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_DKNM>ALT_KEY_03      </DD_ATTR_DKNM>
-			<DD_ATTR_DTAB>IVM_LSMASTER    </DD_ATTR_DTAB>
-			<DD_ATTR_LABL>Lot/Serial Number</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Lot/Serial No</DD_ATTR_LABS>
-			<DD_ATTR_MINL>0</DD_ATTR_MINL>
-			<DD_ATTR_PADC>20</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>L</DD_ATTR_PADJ>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>RESERVED_STR    </DD_DATA_NAME>
-			<DD_DESCRIPTION>Reserved For Addon Use        </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>1</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<DD_SYSTEM_REC>Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>X</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Reserved For Addon Use</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Res For Addon Use</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>ENTERED_FLAG    </DD_DATA_NAME>
-			<DD_DESCRIPTION>Physical Count Entered?       </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>1</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CDAT>Y;N</DD_ATTR_CDAT>
-			<DD_ATTR_CTYP>C</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Physical Count Entered?</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Phys Count Entered?</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>LOTSER_ITEM     </DD_DATA_NAME>
-			<DD_DESCRIPTION>Lotted or Serialized Item?    </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>1</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CDAT>Y;N</DD_ATTR_CDAT>
-			<DD_ATTR_CTYP>C</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Lotted or Serialized Item?</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Lot/Ser Item?</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>RESERVED_STR    </DD_DATA_NAME>
-			<DD_DESCRIPTION>Reserved For Addon Use        </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>1</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<DD_SYSTEM_REC>Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>X</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Reserved For Addon Use</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Res For Addon Use</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>COUNT_STRING    </DD_DATA_NAME>
-			<DD_DESCRIPTION>Count String                  </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>50</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Count String</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Count String</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>CUTOFF_DATE     </DD_DATA_NAME>
-			<DD_DESCRIPTION>Cutoff Date                   </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>8</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>YYYYMMDD       </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>D</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Cutoff Date</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Cutoff Date</DD_ATTR_LABS>
-			<DD_ATTR_STYP>1</DD_ATTR_STYP>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>FREEZE_QTY      </DD_DATA_NAME>
-			<DD_DESCRIPTION>Freeze Quantity               </DD_DESCRIPTION>
-			<DD_DATA_TYPE>N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>7</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>IV</DD_SYSTEM_ID>
-			<DD_MASK_TYPE>U</DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>N</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Freeze Quantity</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Freeze Qty</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>ACT_PHYS_CNT    </DD_DATA_NAME>
-			<DD_DESCRIPTION>Actual Physical Count         </DD_DESCRIPTION>
-			<DD_DATA_TYPE>N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>7</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>IV</DD_SYSTEM_ID>
-			<DD_MASK_TYPE>U</DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>N</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Actual Physical Count</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Act Phys Count</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>RESERVED_NUM    </DD_DATA_NAME>
-			<DD_DESCRIPTION>Reserved For Addon Use        </DD_DESCRIPTION>
-			<DD_DATA_TYPE>N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>1</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<DD_SYSTEM_REC>Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>X</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Reserved For Addon Use</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Res For Addon Use</DD_ATTR_LABS>
+		<RECORD id="ddm_column_opts.ive_physicallotser_itemw">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ive_physicallotser_itemw">IVE_PHYSICAL    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ive_physicallotser_itemw">LOTSER_ITEM     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ive_physicallotser_itemw">W</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>ADS_MASKS</ID>
-		<RECORD>
-			<FIRM_ID>01</FIRM_ID>
-			<DD_SYSTEM_ID>IV</DD_SYSTEM_ID>
-			<DD_MASK_TYPE>U</DD_MASK_TYPE>
-			<DD_ATTR_MSKI>#,##0.0000-</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>#,##0.0000-</DD_ATTR_MSKO>
+	<ALIAS id="ddm_elements">
+		<ID id="ddm_elements">DDM_ELEMENTS</ID>
+		<RECORD id="ddm_elements.firm_id">
+			<DD_DATA_NAME id="ddm_elements.firm_id">FIRM_ID         </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.firm_id">Firm ID</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.firm_id">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.firm_id">2</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.firm_id"> </DD_MASK_TYPE>
+			<DD_SYSTEM_REC id="ddm_elements.firm_id">Y</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.firm_id">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.firm_id">BAR</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.firm_id">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.firm_id">20060425</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.firm_id">H</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.firm_id">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.firm_id">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABS>
+			<DD_ATTR_MSKI id="ddm_elements.firm_id">00</DD_ATTR_MSKI>
+			<DD_ATTR_MSKO id="ddm_elements.firm_id">00</DD_ATTR_MSKO>
+			<DD_ATTR_PADC id="ddm_elements.firm_id">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.firm_id">R</DD_ATTR_PADJ>
+			<DD_ATTR_PVAL id="ddm_elements.firm_id">stbl("+FIRM_ID")</DD_ATTR_PVAL>
+		</RECORD>
+		<RECORD id="ddm_elements.warehouse_id">
+			<DD_DATA_NAME id="ddm_elements.warehouse_id">WAREHOUSE_ID    </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.warehouse_id">Warehouse ID</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.warehouse_id">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.warehouse_id">2</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.warehouse_id"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.warehouse_id">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.warehouse_id">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.warehouse_id">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.warehouse_id">20061107</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.warehouse_id">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOL id="ddm_elements.warehouse_id">SHORT_NAME      </DD_ATTR_DCOL>
+			<DD_ATTR_DCOM id="ddm_elements.warehouse_id">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.warehouse_id">            </DD_ATTR_DEXP>
+			<DD_ATTR_DKEY id="ddm_elements.warehouse_id">[+FIRM_ID]+"C"+@</DD_ATTR_DKEY>
+			<DD_ATTR_DTAB id="ddm_elements.warehouse_id">IVC_WHSECODE    </DD_ATTR_DTAB>
+			<DD_ATTR_LABL id="ddm_elements.warehouse_id">Warehouse ID</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.warehouse_id">Whse ID</DD_ATTR_LABS>
+			<DD_ATTR_MSKI id="ddm_elements.warehouse_id">UU</DD_ATTR_MSKI>
+			<DD_ATTR_PROM id="ddm_elements.warehouse_id">Enter a two-digit warehouse ID</DD_ATTR_PROM>
+		</RECORD>
+		<RECORD id="ddm_elements.cycle_code">
+			<DD_DATA_NAME id="ddm_elements.cycle_code">CYCLE_CODE      </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.cycle_code">Cycle Code</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.cycle_code">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.cycle_code">2</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.cycle_code"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.cycle_code">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.cycle_code">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.cycle_code">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.cycle_code">20060428</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.cycle_code">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOL id="ddm_elements.cycle_code">CODE_DESC       </DD_ATTR_DCOL>
+			<DD_ATTR_DCOM id="ddm_elements.cycle_code">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.cycle_code">            </DD_ATTR_DEXP>
+			<DD_ATTR_DKEY id="ddm_elements.cycle_code">[+FIRM_ID]+@</DD_ATTR_DKEY>
+			<DD_ATTR_DTAB id="ddm_elements.cycle_code">GLC_CYCLECODE   </DD_ATTR_DTAB>
+			<DD_ATTR_LABL id="ddm_elements.cycle_code">Cycle Code</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.cycle_code">Code</DD_ATTR_LABS>
+			<DD_ATTR_MSKI id="ddm_elements.cycle_code">UU</DD_ATTR_MSKI>
+			<DD_ATTR_MSKO id="ddm_elements.cycle_code">UU</DD_ATTR_MSKO>
+		</RECORD>
+		<RECORD id="ddm_elements.location">
+			<DD_DATA_NAME id="ddm_elements.location">LOCATION        </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.location">Warehouse Location            </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.location">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.location">10</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.location"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.location">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.location">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.location">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.location">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.location">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.location">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.location">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.location">Warehouse Location</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.location">Whse Loc</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.item_id">
+			<DD_DATA_NAME id="ddm_elements.item_id">ITEM_ID         </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.item_id">Inventory Item ID</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.item_id">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.item_id">20</DD_DATA_LENGTH>
+			<DD_SYSTEM_REC id="ddm_elements.item_id">N</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.item_id">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.item_id">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.item_id">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.item_id">20060613</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.item_id">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOL id="ddm_elements.item_id">ITEM_DESC       </DD_ATTR_DCOL>
+			<DD_ATTR_DKEY id="ddm_elements.item_id">[+FIRM_ID]+@</DD_ATTR_DKEY>
+			<DD_ATTR_DTAB id="ddm_elements.item_id">IVM_ITEMMAST    </DD_ATTR_DTAB>
+			<DD_ATTR_LABL id="ddm_elements.item_id">Inventory Item ID</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.item_id">Item ID</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.item_id">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.item_id">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.item_id">0</DD_ATTR_MINL>
+			<DD_ATTR_MSKI id="ddm_elements.item_id">UUUUUUUUUUUUUUUUUUUU</DD_ATTR_MSKI>
+			<DD_ATTR_PADC id="ddm_elements.item_id">20</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.item_id">L</DD_ATTR_PADJ>
+			<DD_ATTR_PROM id="ddm_elements.item_id">Enter a valid inventory item</DD_ATTR_PROM>
+		</RECORD>
+		<RECORD id="ddm_elements.lotser_no">
+			<DD_DATA_NAME id="ddm_elements.lotser_no">LOTSER_NO       </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.lotser_no">Lot/Serial Number</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.lotser_no">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.lotser_no">20</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.lotser_no"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.lotser_no">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.lotser_no">IV </ASC_PROD_ID>
+			<LOCALIZATION_EX id="ddm_elements.lotser_no">N</LOCALIZATION_EX>
+			<DD_CREATE_DATE id="ddm_elements.lotser_no">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.lotser_no">20081202</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.lotser_no">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.lotser_no">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.lotser_no">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.lotser_no">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.lotser_no">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.lotser_no">Lot/Serial Number</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.lotser_no">Lot/Serial No</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.lotser_no">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.lotser_no">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.lotser_no">0</DD_ATTR_MINL>
+			<DD_ATTR_PADC id="ddm_elements.lotser_no">20</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.lotser_no">L</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.lotser_no">0</DD_ATTR_PREC>
+		</RECORD>
+		<RECORD id="ddm_elements.reserved_str">
+			<DD_DATA_NAME id="ddm_elements.reserved_str">RESERVED_STR    </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.reserved_str">Reserved For Addon Use        </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.reserved_str">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.reserved_str">1</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.reserved_str"> </DD_MASK_TYPE>
+			<DD_SYSTEM_REC id="ddm_elements.reserved_str">Y</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.reserved_str">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.reserved_str">BAR</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.reserved_str">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.reserved_str">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.reserved_str">X</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.reserved_str">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.reserved_str">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.reserved_str">Reserved For Addon Use</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.reserved_str">Res For Addon Use</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.entered_flag">
+			<DD_DATA_NAME id="ddm_elements.entered_flag">ENTERED_FLAG    </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.entered_flag">Physical Count Entered?       </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.entered_flag">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.entered_flag">1</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.entered_flag"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.entered_flag">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.entered_flag">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.entered_flag">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.entered_flag">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CDAT id="ddm_elements.entered_flag">Y;N</DD_ATTR_CDAT>
+			<DD_ATTR_CTYP id="ddm_elements.entered_flag">C</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.entered_flag">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.entered_flag">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.entered_flag">Physical Count Entered?</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.entered_flag">Phys Count Entered?</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.lotser_item">
+			<DD_DATA_NAME id="ddm_elements.lotser_item">LOTSER_ITEM     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.lotser_item">Lotted or Serialized Item?    </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.lotser_item">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.lotser_item">1</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.lotser_item"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.lotser_item">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.lotser_item">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.lotser_item">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.lotser_item">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CDAT id="ddm_elements.lotser_item">Y;N</DD_ATTR_CDAT>
+			<DD_ATTR_CTYP id="ddm_elements.lotser_item">C</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.lotser_item">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.lotser_item">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.lotser_item">Lotted or Serialized Item?</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.lotser_item">Lot/Ser Item?</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.reserved_str">
+			<DD_DATA_NAME id="ddm_elements.reserved_str">RESERVED_STR    </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.reserved_str">Reserved For Addon Use        </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.reserved_str">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.reserved_str">1</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.reserved_str"> </DD_MASK_TYPE>
+			<DD_SYSTEM_REC id="ddm_elements.reserved_str">Y</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.reserved_str">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.reserved_str">BAR</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.reserved_str">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.reserved_str">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.reserved_str">X</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.reserved_str">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.reserved_str">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.reserved_str">Reserved For Addon Use</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.reserved_str">Res For Addon Use</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.count_string">
+			<DD_DATA_NAME id="ddm_elements.count_string">COUNT_STRING    </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.count_string">Count String                  </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.count_string">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.count_string">50</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.count_string"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.count_string">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.count_string">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.count_string">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.count_string">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.count_string">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.count_string">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.count_string">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.count_string">Count String</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.count_string">Count String</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.cutoff_date">
+			<DD_DATA_NAME id="ddm_elements.cutoff_date">CUTOFF_DATE     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.cutoff_date">Cutoff Date                   </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.cutoff_date">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.cutoff_date">8</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.cutoff_date"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.cutoff_date">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.cutoff_date">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.cutoff_date">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.cutoff_date">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.cutoff_date">D</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.cutoff_date">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.cutoff_date">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.cutoff_date">Cutoff Date</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.cutoff_date">Cutoff Date</DD_ATTR_LABS>
+			<DD_ATTR_STYP id="ddm_elements.cutoff_date">1</DD_ATTR_STYP>
+		</RECORD>
+		<RECORD id="ddm_elements.freeze_qty">
+			<DD_DATA_NAME id="ddm_elements.freeze_qty">FREEZE_QTY      </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.freeze_qty">Freeze Quantity               </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.freeze_qty">N</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.freeze_qty">7</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.freeze_qty">U</DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.freeze_qty">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.freeze_qty">IV </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.freeze_qty">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.freeze_qty">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.freeze_qty">N</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.freeze_qty">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.freeze_qty">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.freeze_qty">Freeze Quantity</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.freeze_qty">Freeze Qty</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.act_phys_cnt">
+			<DD_DATA_NAME id="ddm_elements.act_phys_cnt">ACT_PHYS_CNT    </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.act_phys_cnt">Actual Physical Count         </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.act_phys_cnt">N</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.act_phys_cnt">7</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.act_phys_cnt">U</DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.act_phys_cnt">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.act_phys_cnt">IV </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.act_phys_cnt">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.act_phys_cnt">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.act_phys_cnt">N</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.act_phys_cnt">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.act_phys_cnt">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.act_phys_cnt">Actual Physical Count</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.act_phys_cnt">Act Phys Count</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.reserved_num">
+			<DD_DATA_NAME id="ddm_elements.reserved_num">RESERVED_NUM    </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.reserved_num">Reserved For Addon Use        </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.reserved_num">N</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.reserved_num">1</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.reserved_num"> </DD_MASK_TYPE>
+			<DD_SYSTEM_REC id="ddm_elements.reserved_num">Y</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.reserved_num">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.reserved_num">BAR</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.reserved_num">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.reserved_num">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.reserved_num">X</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.reserved_num">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.reserved_num">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.reserved_num">Reserved For Addon Use</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.reserved_num">Res For Addon Use</DD_ATTR_LABS>
 		</RECORD>
 	</ALIAS>
 </IVE_PHYSICAL>

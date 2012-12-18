@@ -1,0 +1,81 @@
+// Barista Application Framework - Application Synchronization File
+// Proprietary Information. BASIS International Ltd. All rights reserved.
+ACOMP=01007514;BASIS International Ltd.
+SYS=ADDON_DEV;AddonSoftware 8.31^Copyright (C) 2007-2009.  BASIS International Ltd.^All rights reserved.^Version 8.31 - [BUILD_DATE]^AddonSoftware is protected by copyright law and international treaties. Unauthorized reproduction or distribution may result in severe civil and criminal penalties.^
+DIR=../apps/aon/
+MENU=addon
+APROD=AD;AddonSoftware Administration;[+AON_IMAGES]addon_logo32.png;AddonHelp.hs;;;ENU,ESP;
+APROD=AP;AddonSoftware Accts Payable;[+AON_IMAGES]addon_logo32.png;AddonHelp.hs;;;ENU,ESP;
+APROD=AR;AddonSoftware Accts Receivable;[+AON_IMAGES]addon_logo32.png;AddonHelp.hs;;;ENU,ESP;
+APROD=BM;AddonSoftware Bill of Materials;[+AON_IMAGES]addon_logo32.png;AddonHelp.hs;;;ENU;
+APROD=CR;AddonSoftware CRM;[+AON_IMAGES]addon_logo32.png;AddonHelp.hs;;;ENU;
+APROD=GL;AddonSoftware General Ledger;[+AON_IMAGES]addon_logo32.png;AddonHelp.hs;;;ENU,ESP;
+APROD=IV;AddonSoftware Inventory;[+AON_IMAGES]addon_logo32.png;AddonHelp.hs;;;ENU;
+APROD=MP;AddonSoftware Materials Planning;[+AON_IMAGES]addon_logo32.png;AddonHelp.hs;;;ENU;
+APROD=OP;AddonSoftware Order Processing;[+AON_IMAGES]addon_logo32.png;AddonHelp.hs;;;ENU;
+APROD=PO;AddonSoftware Purchase Orders;[+AON_IMAGES]addon_logo32.png;AddonHelp.hs;;;ENU;
+APROD=PR;AddonSoftware Payroll;[+AON_IMAGES]addon_logo32.png;AddonHelp.hs;;;ENU;
+APROD=SA;AddonSoftware Sales Analysis;[+AON_IMAGES]addon_logo32.png;AddonHelp.hs;;;ENU;
+APROD=SF;AddonSoftware Shop Floor;[+AON_IMAGES]addon_logo32.png;AddonHelp.hs;;;ENU;
+APROD=SY;AddonSoftware System Admin;[+AON_IMAGES]addon_logo32.png;AddonHelp.hs;;;ENU;
+STBL=SET +SHOW_PRINTERS=YES
+STBL=SET +MULTI_COMPANY=YES
+STBL=SET +AON_IMAGES=../apps/aon/images/
+STBL=SET +CUST_IMAGES=../apps/aon/cust_images/
+STBL=SET +FORM_LOGO=basislogo.jpg
+STBL=SET +AON_APPCOMPANY=01007514
+STBL=SET +FILE_HLA=../apps/aon/help/WebHelp/AddonHelp.htm
+STBL=SET +DIR_PGM=
+STBL=SET +BATCH_NO=
+STBL=SET +UT_ARC=../apps/aon/util/arc/enu/
+STBL=SET +DIR_DAT=../apps/aon/data/
+STBL=SET +ADDATA=../apps/aon/data/
+STBL=SET +APDATA=../apps/aon/data/
+STBL=SET +ARDATA=../apps/aon/data/
+STBL=SET +BMDATA=../apps/aon/data/
+STBL=SET +CRDATA=../apps/aon/data/
+STBL=SET +GLDATA=../apps/aon/data/
+STBL=SET +IVDATA=../apps/aon/data/
+STBL=SET +MPDATA=../apps/aon/data/
+STBL=SET +OPDATA=../apps/aon/data/
+STBL=SET +PODATA=../apps/aon/data/
+STBL=SET +PRDATA=../apps/aon/data/
+STBL=SET +SADATA=../apps/aon/data/
+STBL=SET +SFDATA=../apps/aon/data/
+STBL=SET +SYDATA=../apps/aon/data/
+STBL=SET +DATAPORT_FILES=../apps/aon/util/dataport/files/
+STBL=SET +DATAPORT_LOGS=../apps/aon/util/dataport/logs/
+STBL=SET +CODEPORT_FILES=../apps/aon/util/codeport/files/
+STBL=SET +CODEPORT_LOGS=../apps/aon/util/codeport/logs/
+STBL=SET +CODEPORT_LIB=../apps/aon/util/codeport/lib/
+PREFIX=../apps/aon/ad/src/
+PREFIX=../apps/aon/ap/src/
+PREFIX=../apps/aon/ar/src/
+PREFIX=../apps/aon/bm/src/
+PREFIX=../apps/aon/gl/src/
+PREFIX=../apps/aon/iv/src/
+PREFIX=../apps/aon/mp/src/
+PREFIX=../apps/aon/op/src/
+PREFIX=../apps/aon/po/src/
+PREFIX=../apps/aon/pr/src/
+PREFIX=../apps/aon/sa/src/
+PREFIX=../apps/aon/sf/src/
+PREFIX=../apps/aon/util/dataport/
+PREFIX=../apps/aon/util/codeport/
+CFG=+ADDATA=../apps/aon/data/
+CFG=+APDATA=../apps/aon/data/
+CFG=+ARDATA=../apps/aon/data/
+CFG=+BMDATA=../apps/aon/data/
+CFG=+CRDATA=../apps/aon/data/
+CFG=+GLDATA=../apps/aon/data/
+CFG=+IVDATA=../apps/aon/data/
+CFG=+MPDATA=../apps/aon/data/
+CFG=+OPDATA=../apps/aon/data/
+CFG=+PODATA=../apps/aon/data/
+CFG=+PRDATA=../apps/aon/data/
+CFG=+SADATA=../apps/aon/data/
+CFG=+SFDATA=../apps/aon/data/
+CFG=+SYDATA=../apps/aon/data/
+CFG=+ADDATA=../apps/aon/data/
+LANG=ENU
+LANG=ESP

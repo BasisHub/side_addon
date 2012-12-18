@@ -1,597 +1,616 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <IVE_TRANSHDR>
-	<ALIAS>
-		<ID>DDM_TABLES</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_TRANSHDR    </DD_TABLE_ALIAS>
-			<DD_ALIAS_DESC>Inventory Transaction Header</DD_ALIAS_DESC>
-			<DD_FILE_NAME>ive-01</DD_FILE_NAME>
-			<DD_TABLE_PATH>[+IVDATA]</DD_TABLE_PATH>
-			<DD_ALIAS_TYPE>X</DD_ALIAS_TYPE>
-			<DD_KEY_LENGTH>0</DD_KEY_LENGTH>
-			<DD_NBR_RECORD>0</DD_NBR_RECORD>
-			<DD_RECORD_LEN>63</DD_RECORD_LEN>
-			<DD_SYSTEM_REC>N</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>IV </ASC_PROD_ID>
-			<ASC_LICENSE_ID>A7D80C57EE6682D2E7539089483B3C60</ASC_LICENSE_ID>
-			<DD_EXPORT_DATA>Y</DD_EXPORT_DATA>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20081023</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE>20081023</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME>151918</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM>[+DIR_CPP]ive_transhdr_cpt.bbj</DD_ATTR_CPGM>
-			<DD_ATTR_FTYP>T</DD_ATTR_FTYP>
-			<DD_ATTR_SLEV>zzzz</DD_ATTR_SLEV>
-			<DD_ATTR_WINT>Inventory Transaction Header</DD_ATTR_WINT>
+	<ALIAS id="ddm_tables">
+		<ID id="ddm_tables">DDM_TABLES</ID>
+		<RECORD id="ddm_tables.ive_transhdr">
+			<DD_TABLE_ALIAS id="ddm_tables.ive_transhdr">IVE_TRANSHDR    </DD_TABLE_ALIAS>
+			<DD_ALIAS_DESC id="ddm_tables.ive_transhdr">Inventory Transaction Header</DD_ALIAS_DESC>
+			<DD_FILE_NAME id="ddm_tables.ive_transhdr">ive-01</DD_FILE_NAME>
+			<DD_TABLE_PATH id="ddm_tables.ive_transhdr">[+IVDATA]</DD_TABLE_PATH>
+			<DD_ALIAS_TYPE id="ddm_tables.ive_transhdr">X</DD_ALIAS_TYPE>
+			<DD_KEY_LENGTH id="ddm_tables.ive_transhdr">0</DD_KEY_LENGTH>
+			<DD_NBR_RECORD id="ddm_tables.ive_transhdr">0</DD_NBR_RECORD>
+			<DD_RECORD_LEN id="ddm_tables.ive_transhdr">63</DD_RECORD_LEN>
+			<DD_SYSTEM_REC id="ddm_tables.ive_transhdr">N</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_tables.ive_transhdr">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_tables.ive_transhdr">IV </ASC_PROD_ID>
+			<ASC_LICENSE_ID id="ddm_tables.ive_transhdr">A7D80C57EE6682D2E7539089483B3C60</ASC_LICENSE_ID>
+			<DD_EXPORT_DATA id="ddm_tables.ive_transhdr">Y</DD_EXPORT_DATA>
+			<DD_CREATE_DATE id="ddm_tables.ive_transhdr">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_tables.ive_transhdr">20090105</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ive_transhdr">20090102</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ive_transhdr">102616</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.ive_transhdr">/devel/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_FTYP id="ddm_tables.ive_transhdr">T</DD_ATTR_FTYP>
+			<DD_ATTR_SLEV id="ddm_tables.ive_transhdr">zzzz</DD_ATTR_SLEV>
+			<DD_ATTR_WINT id="ddm_tables.ive_transhdr">Inventory Transaction Header</DD_ATTR_WINT>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_CPRO</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_TRANSHDR    </DD_TABLE_ALIAS>
-			<DD_ATTR_CPRO>ARAR</DD_ATTR_CPRO>
+	<ALIAS id="ddm_table_cpro">
+		<ID id="ddm_table_cpro">DDM_TABLE_CPRO</ID>
+		<RECORD id="ddm_table_cpro.ive_transhdradeq">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.ive_transhdradeq">IVE_TRANSHDR    </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.ive_transhdradeq">ADEQ</DD_ATTR_CPRO>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_TRANSHDR    </DD_TABLE_ALIAS>
-			<DD_ATTR_CPRO>AREA</DD_ATTR_CPRO>
+		<RECORD id="ddm_table_cpro.ive_transhdradis">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.ive_transhdradis">IVE_TRANSHDR    </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.ive_transhdradis">ADIS</DD_ATTR_CPRO>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_TRANSHDR    </DD_TABLE_ALIAS>
-			<DD_ATTR_CPRO>AREC</DD_ATTR_CPRO>
+		<RECORD id="ddm_table_cpro.ive_transhdrarar">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.ive_transhdrarar">IVE_TRANSHDR    </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.ive_transhdrarar">ARAR</DD_ATTR_CPRO>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_TRANSHDR    </DD_TABLE_ALIAS>
-			<DD_ATTR_CPRO>ARER</DD_ATTR_CPRO>
+		<RECORD id="ddm_table_cpro.ive_transhdrarea">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.ive_transhdrarea">IVE_TRANSHDR    </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.ive_transhdrarea">AREA</DD_ATTR_CPRO>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_TRANSHDR    </DD_TABLE_ALIAS>
-			<DD_ATTR_CPRO>AWRI</DD_ATTR_CPRO>
+		<RECORD id="ddm_table_cpro.ive_transhdrarec">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.ive_transhdrarec">IVE_TRANSHDR    </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.ive_transhdrarec">AREC</DD_ATTR_CPRO>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_TRANSHDR    </DD_TABLE_ALIAS>
-			<DD_ATTR_CPRO>BREC</DD_ATTR_CPRO>
+		<RECORD id="ddm_table_cpro.ive_transhdrarer">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.ive_transhdrarer">IVE_TRANSHDR    </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.ive_transhdrarer">ARER</DD_ATTR_CPRO>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_TRANSHDR    </DD_TABLE_ALIAS>
-			<DD_ATTR_CPRO>BSHO</DD_ATTR_CPRO>
+		<RECORD id="ddm_table_cpro.ive_transhdrawri">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.ive_transhdrawri">IVE_TRANSHDR    </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.ive_transhdrawri">AWRI</DD_ATTR_CPRO>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_TRANSHDR    </DD_TABLE_ALIAS>
-			<DD_ATTR_CPRO>BWAR</DD_ATTR_CPRO>
+		<RECORD id="ddm_table_cpro.ive_transhdrbdel">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.ive_transhdrbdel">IVE_TRANSHDR    </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.ive_transhdrbdel">BDEL</DD_ATTR_CPRO>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_TRANSHDR    </DD_TABLE_ALIAS>
-			<DD_ATTR_CPRO>BWRI</DD_ATTR_CPRO>
+		<RECORD id="ddm_table_cpro.ive_transhdrbdeq">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.ive_transhdrbdeq">IVE_TRANSHDR    </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.ive_transhdrbdeq">BDEQ</DD_ATTR_CPRO>
 		</RECORD>
-	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_DTLD</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_TRANSHDR    </DD_TABLE_ALIAS>
-			<DD_ATTR_DTLD>IVE_TRANSDET    </DD_ATTR_DTLD>
+		<RECORD id="ddm_table_cpro.ive_transhdrbove">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.ive_transhdrbove">IVE_TRANSHDR    </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.ive_transhdrbove">BOVE</DD_ATTR_CPRO>
 		</RECORD>
-	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_DTLG</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_TRANSHDR    </DD_TABLE_ALIAS>
-			<DD_ATTR_DTLG>IVE_TRANSDET    </DD_ATTR_DTLG>
-			<DD_ATTR_DTLG_TAB>0</DD_ATTR_DTLG_TAB>
+		<RECORD id="ddm_table_cpro.ive_transhdrbsho">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.ive_transhdrbsho">IVE_TRANSHDR    </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.ive_transhdrbsho">BSHO</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_table_cpro.ive_transhdrbwri">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.ive_transhdrbwri">IVE_TRANSHDR    </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.ive_transhdrbwri">BWRI</DD_ATTR_CPRO>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_TPLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_TRANSHDR    </DD_TABLE_ALIAS>
-			<DD_FILE_NAME>ive-01</DD_FILE_NAME>
-			<DD_TABLE_TPL>firm_id:c(2),iv_trans_no:c(7),sequence_000:c(3),trans_code:c(2),reserved_str:c(3),trans_cmt:c(20),reserved_str_02:c(12),trans_date:c(8*)</DD_TABLE_TPL>
+	<ALIAS id="ddm_table_dtld">
+		<ID id="ddm_table_dtld">DDM_TABLE_DTLD</ID>
+		<RECORD id="ddm_table_dtld.ive_transhdrive_transdet">
+			<DD_TABLE_ALIAS id="ddm_table_dtld.ive_transhdrive_transdet">IVE_TRANSHDR    </DD_TABLE_ALIAS>
+			<DD_ATTR_DTLD id="ddm_table_dtld.ive_transhdrive_transdet">IVE_TRANSDET    </DD_ATTR_DTLD>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_KEYS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_TRANSHDR    </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_KEY_DESC>Primary</DD_KEY_DESC>
-			<DD_KEY_ID>PRIMARY         </DD_KEY_ID>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_TRANSHDR    </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>01</DD_KEY_NUMBER>
-			<DD_KEY_DESC>by Trans_code</DD_KEY_DESC>
-			<DD_KEY_ID>ALT_KEY_01      </DD_KEY_ID>
+	<ALIAS id="ddm_table_dtlg">
+		<ID id="ddm_table_dtlg">DDM_TABLE_DTLG</ID>
+		<RECORD id="ddm_table_dtlg.ive_transhdrive_transdet">
+			<DD_TABLE_ALIAS id="ddm_table_dtlg.ive_transhdrive_transdet">IVE_TRANSHDR    </DD_TABLE_ALIAS>
+			<DD_ATTR_DTLG id="ddm_table_dtlg.ive_transhdrive_transdet">IVE_TRANSDET    </DD_ATTR_DTLG>
+			<DD_ATTR_DTLG_TAB id="ddm_table_dtlg.ive_transhdrive_transdet">0</DD_ATTR_DTLG_TAB>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_KEY_SEGS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_TRANSHDR    </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>01</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>FIRM_ID         </DD_SEGMENT_COL>
-			<DD_SEGMENT_POS>0</DD_SEGMENT_POS>
-			<DD_SEGMENT_OFF>0</DD_SEGMENT_OFF>
-			<DD_SEGMENT_LEN>0</DD_SEGMENT_LEN>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_TRANSHDR    </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>02</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>IV_TRANS_NO     </DD_SEGMENT_COL>
-			<DD_SEGMENT_POS>0</DD_SEGMENT_POS>
-			<DD_SEGMENT_OFF>0</DD_SEGMENT_OFF>
-			<DD_SEGMENT_LEN>0</DD_SEGMENT_LEN>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_TRANSHDR    </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>01</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>01</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>FIRM_ID</DD_SEGMENT_COL>
-			<DD_SEGMENT_SORT>N</DD_SEGMENT_SORT>
-			<DD_SEGMENT_UNIQ>N</DD_SEGMENT_UNIQ>
-			<DD_SEGMENT_MATH>N</DD_SEGMENT_MATH>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_TRANSHDR    </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>01</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>02</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>TRANS_CODE</DD_SEGMENT_COL>
-			<DD_SEGMENT_SORT>N</DD_SEGMENT_SORT>
-			<DD_SEGMENT_UNIQ>N</DD_SEGMENT_UNIQ>
-			<DD_SEGMENT_MATH>N</DD_SEGMENT_MATH>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_TRANSHDR    </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>01</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>03</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>IV_TRANS_NO</DD_SEGMENT_COL>
-			<DD_SEGMENT_SORT>N</DD_SEGMENT_SORT>
-			<DD_SEGMENT_UNIQ>N</DD_SEGMENT_UNIQ>
-			<DD_SEGMENT_MATH>N</DD_SEGMENT_MATH>
+	<ALIAS id="ddm_table_opts">
+		<ID id="ddm_table_opts">DDM_TABLE_OPTS</ID>
+		<RECORD id="ddm_table_opts.ive_transhdrs">
+			<DD_TABLE_ALIAS id="ddm_table_opts.ive_transhdrs">IVE_TRANSHDR    </DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.ive_transhdrs">S</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_COLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_TRANSHDR    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>001</DD_SEQUENCE>
-			<DD_DATA_NAME>FIRM_ID         </DD_DATA_NAME>
-			<DD_DVAR_NAME>FIRM_ID         </DD_DVAR_NAME>
-			<DD_COL_REPEATS>1</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL>2</DD_ATTR_MAXL>
-			<DD_ATTR_PROM>Firm ID</DD_ATTR_PROM>
-			<DD_ATTR_TIND>1</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_TRANSHDR    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>002</DD_SEQUENCE>
-			<DD_DATA_NAME>IV_TRANS_NO     </DD_DATA_NAME>
-			<DD_DVAR_NAME>IV_TRANS_NO     </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_LABL>Reference Number</DD_ATTR_LABL>
-			<DD_ATTR_MINL>1</DD_ATTR_MINL>
-			<DD_ATTR_MAXL>7</DD_ATTR_MAXL>
-			<DD_ATTR_PROM>Transaction Entry Number</DD_ATTR_PROM>
-			<DD_ATTR_TIND>2</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_TRANSHDR    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>003</DD_SEQUENCE>
-			<DD_DATA_NAME>SEQUENCE_000    </DD_DATA_NAME>
-			<DD_DVAR_NAME>SEQUENCE_000    </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>"000"</DD_ATTR_PROM>
-			<DD_ATTR_TIND>3</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_TRANSHDR    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>004</DD_SEQUENCE>
-			<DD_DATA_NAME>TRANS_CODE      </DD_DATA_NAME>
-			<DD_DVAR_NAME>TRANS_CODE      </DD_DVAR_NAME>
-			<DD_COL_REPEATS>1</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM>[+DIR_CPP]ive_transhdr_cpt.bbj</DD_ATTR_CPGM>
-			<DD_ATTR_CTLX>+20</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY>-2</DD_ATTR_CTLY>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_MINL>1</DD_ATTR_MINL>
-			<DD_ATTR_MAXL>2</DD_ATTR_MAXL>
-			<DD_ATTR_PROM>Transaction Code</DD_ATTR_PROM>
-			<DD_ATTR_TIND>5</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_TRANSHDR    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>005</DD_SEQUENCE>
-			<DD_DATA_NAME>RESERVED_STR    </DD_DATA_NAME>
-			<DD_DVAR_NAME>RESERVED_STR    </DD_DVAR_NAME>
-			<DD_COL_REPEATS>3</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Reserved For Addon Use</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_TRANSHDR    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>006</DD_SEQUENCE>
-			<DD_DATA_NAME>TRANS_CMT       </DD_DATA_NAME>
-			<DD_DVAR_NAME>TRANS_CMT       </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_LABL>Comment</DD_ATTR_LABL>
-			<DD_ATTR_MAXL>20</DD_ATTR_MAXL>
-			<DD_ATTR_PROM>Transaction Comment</DD_ATTR_PROM>
-			<DD_ATTR_TIND>6</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_TRANSHDR    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>007</DD_SEQUENCE>
-			<DD_DATA_NAME>RESERVED_STR    </DD_DATA_NAME>
-			<DD_DVAR_NAME>RESERVED_STR    </DD_DVAR_NAME>
-			<DD_COL_REPEATS>12</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Reserved For Addon Use</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_TRANSHDR    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>008</DD_SEQUENCE>
-			<DD_DATA_NAME>TRANS_DATE      </DD_DATA_NAME>
-			<DD_DVAR_NAME>TRANS_DATE      </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM>[+DIR_CPP]ive_transhdr_cpt.bbj</DD_ATTR_CPGM>
-			<DD_ATTR_MINL>6</DD_ATTR_MINL>
-			<DD_ATTR_MAXL>8</DD_ATTR_MAXL>
-			<DD_ATTR_PROM>Transaction Date</DD_ATTR_PROM>
-			<DD_ATTR_TIND>4</DD_ATTR_TIND>
+	<ALIAS id="ddm_table_tpls">
+		<ID id="ddm_table_tpls">DDM_TABLE_TPLS</ID>
+		<RECORD id="ddm_table_tpls.ive_transhdr">
+			<DD_TABLE_ALIAS id="ddm_table_tpls.ive_transhdr">IVE_TRANSHDR    </DD_TABLE_ALIAS>
+			<DD_FILE_NAME id="ddm_table_tpls.ive_transhdr">ive-01</DD_FILE_NAME>
+			<DD_TABLE_TPL id="ddm_table_tpls.ive_transhdr">firm_id:c(2),iv_trans_no:c(7),sequence_000:c(3),trans_code:c(2),reserved_str:c(3),trans_cmt:c(20),reserved_str_02:c(12),trans_date:c(8*)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_DISP</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_TRANSHDR    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>001</DD_SEQUENCE>
-			<DD_DATA_NAME>LOCATION        </DD_DATA_NAME>
-			<DD_CTRL_NAME>LOCATION        </DD_CTRL_NAME>
-			<DD_ATTR_LABL>Location</DD_ATTR_LABL>
-			<DD_ATTR_CTLX>-27</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY>+1</DD_ATTR_CTLY>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_GHDR>Item Warehouse Values</DD_ATTR_GHDR>
-			<DD_ATTR_TIND>7</DD_ATTR_TIND>
+	<ALIAS id="ddm_keys">
+		<ID id="ddm_keys">DDM_KEYS</ID>
+		<RECORD id="ddm_keys.ive_transhdr00">
+			<DD_TABLE_ALIAS id="ddm_keys.ive_transhdr00">IVE_TRANSHDR    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_keys.ive_transhdr00">00</DD_KEY_NUMBER>
+			<DD_KEY_DESC id="ddm_keys.ive_transhdr00">Primary</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.ive_transhdr00">PRIMARY         </DD_KEY_ID>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_TRANSHDR    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>002</DD_SEQUENCE>
-			<DD_DATA_NAME>QTY_ON_HAND     </DD_DATA_NAME>
-			<DD_CTRL_NAME>QTY_ON_HAND     </DD_CTRL_NAME>
-			<DD_ATTR_LABL>On Hand</DD_ATTR_LABL>
-			<DD_ATTR_CTLX>+18</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY>-1</DD_ATTR_CTLY>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_TIND>8</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_TRANSHDR    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>003</DD_SEQUENCE>
-			<DD_DATA_NAME>QTY_COMMIT      </DD_DATA_NAME>
-			<DD_CTRL_NAME>QTY_COMMIT      </DD_CTRL_NAME>
-			<DD_ATTR_LABL>Committed</DD_ATTR_LABL>
-			<DD_ATTR_CTLX>+14</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY>-1</DD_ATTR_CTLY>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_TIND>9</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_TRANSHDR    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>004</DD_SEQUENCE>
-			<DD_DATA_NAME>QTY_AVAIL       </DD_DATA_NAME>
-			<DD_CTRL_NAME>QTY_AVAIL       </DD_CTRL_NAME>
-			<DD_ATTR_LABL>Available</DD_ATTR_LABL>
-			<DD_ATTR_CTLX>+14</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY>-1</DD_ATTR_CTLY>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_TIND>10</DD_ATTR_TIND>
+		<RECORD id="ddm_keys.ive_transhdr01">
+			<DD_TABLE_ALIAS id="ddm_keys.ive_transhdr01">IVE_TRANSHDR    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_keys.ive_transhdr01">01</DD_KEY_NUMBER>
+			<DD_KEY_DESC id="ddm_keys.ive_transhdr01">by Trans_code</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.ive_transhdr01">ALT_KEY_01      </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_COLUMN_CPRO</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_TRANSHDR    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>TRANS_CODE      </DD_DVAR_NAME>
-			<DD_ATTR_CPRO>AINP</DD_ATTR_CPRO>
+	<ALIAS id="ddm_key_segs">
+		<ID id="ddm_key_segs">DDM_KEY_SEGS</ID>
+		<RECORD id="ddm_key_segs.ive_transhdr0001">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ive_transhdr0001">IVE_TRANSHDR    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ive_transhdr0001">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ive_transhdr0001">01</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ive_transhdr0001">FIRM_ID         </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ive_transhdr0001">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ive_transhdr0001">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ive_transhdr0001">0</DD_SEGMENT_LEN>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_TRANSHDR    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>TRANS_CODE      </DD_DVAR_NAME>
-			<DD_ATTR_CPRO>AVAL</DD_ATTR_CPRO>
+		<RECORD id="ddm_key_segs.ive_transhdr0002">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ive_transhdr0002">IVE_TRANSHDR    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ive_transhdr0002">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ive_transhdr0002">02</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ive_transhdr0002">IV_TRANS_NO     </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ive_transhdr0002">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ive_transhdr0002">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ive_transhdr0002">0</DD_SEGMENT_LEN>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_TRANSHDR    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>TRANS_DATE      </DD_DVAR_NAME>
-			<DD_ATTR_CPRO>AVAL</DD_ATTR_CPRO>
+		<RECORD id="ddm_key_segs.ive_transhdr0101">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ive_transhdr0101">IVE_TRANSHDR    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ive_transhdr0101">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ive_transhdr0101">01</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ive_transhdr0101">FIRM_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_SORT id="ddm_key_segs.ive_transhdr0101">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.ive_transhdr0101">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.ive_transhdr0101">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.ive_transhdr0102">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ive_transhdr0102">IVE_TRANSHDR    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ive_transhdr0102">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ive_transhdr0102">02</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ive_transhdr0102">TRANS_CODE</DD_SEGMENT_COL>
+			<DD_SEGMENT_SORT id="ddm_key_segs.ive_transhdr0102">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.ive_transhdr0102">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.ive_transhdr0102">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.ive_transhdr0103">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ive_transhdr0103">IVE_TRANSHDR    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ive_transhdr0103">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ive_transhdr0103">03</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ive_transhdr0103">IV_TRANS_NO</DD_SEGMENT_COL>
+			<DD_SEGMENT_SORT id="ddm_key_segs.ive_transhdr0103">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.ive_transhdr0103">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.ive_transhdr0103">N</DD_SEGMENT_MATH>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_COLUMN_OPTS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_TRANSHDR    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>FIRM_ID         </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>O</DD_ATTR_OPTS>
+	<ALIAS id="ddm_table_cols">
+		<ID id="ddm_table_cols">DDM_TABLE_COLS</ID>
+		<RECORD id="ddm_table_cols.ive_transhdr001">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ive_transhdr001">IVE_TRANSHDR    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ive_transhdr001">001</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ive_transhdr001">FIRM_ID         </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ive_transhdr001">FIRM_ID         </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ive_transhdr001">1</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ive_transhdr001">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ive_transhdr001">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.ive_transhdr001">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ive_transhdr001">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ive_transhdr001">2</DD_ATTR_MAXL>
+			<DD_ATTR_PROM id="ddm_table_cols.ive_transhdr001">Firm ID</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ive_transhdr001">1</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVE_TRANSHDR    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>SEQUENCE_000    </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>W</DD_ATTR_OPTS>
+		<RECORD id="ddm_table_cols.ive_transhdr002">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ive_transhdr002">IVE_TRANSHDR    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ive_transhdr002">002</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ive_transhdr002">IV_TRANS_NO     </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ive_transhdr002">IV_TRANS_NO     </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ive_transhdr002">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ive_transhdr002">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ive_transhdr002">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.ive_transhdr002">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ive_transhdr002">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.ive_transhdr002">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.ive_transhdr002">0</DD_ATTR_CTLH>
+			<DD_ATTR_LABL id="ddm_table_cols.ive_transhdr002">Reference Number</DD_ATTR_LABL>
+			<DD_ATTR_MINL id="ddm_table_cols.ive_transhdr002">1</DD_ATTR_MINL>
+			<DD_ATTR_MAXL id="ddm_table_cols.ive_transhdr002">7</DD_ATTR_MAXL>
+			<DD_ATTR_PROM id="ddm_table_cols.ive_transhdr002">Transaction Entry Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ive_transhdr002">2</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.ive_transhdr003">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ive_transhdr003">IVE_TRANSHDR    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ive_transhdr003">003</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ive_transhdr003">SEQUENCE_000    </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ive_transhdr003">SEQUENCE_000    </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ive_transhdr003">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ive_transhdr003">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ive_transhdr003">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.ive_transhdr003">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ive_transhdr003">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.ive_transhdr003">"000"</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ive_transhdr003">3</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.ive_transhdr004">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ive_transhdr004">IVE_TRANSHDR    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ive_transhdr004">004</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ive_transhdr004">TRANS_CODE      </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ive_transhdr004">TRANS_CODE      </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ive_transhdr004">1</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ive_transhdr004">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ive_transhdr004">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.ive_transhdr004">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ive_transhdr004">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CPGM id="ddm_table_cols.ive_transhdr004">/devel/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CTLX id="ddm_table_cols.ive_transhdr004">+20</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_cols.ive_transhdr004">-2</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_cols.ive_transhdr004">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.ive_transhdr004">0</DD_ATTR_CTLH>
+			<DD_ATTR_MINL id="ddm_table_cols.ive_transhdr004">1</DD_ATTR_MINL>
+			<DD_ATTR_MAXL id="ddm_table_cols.ive_transhdr004">2</DD_ATTR_MAXL>
+			<DD_ATTR_PROM id="ddm_table_cols.ive_transhdr004">Transaction Code</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ive_transhdr004">5</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.ive_transhdr005">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ive_transhdr005">IVE_TRANSHDR    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ive_transhdr005">005</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ive_transhdr005">RESERVED_STR    </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ive_transhdr005">RESERVED_STR    </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ive_transhdr005">3</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ive_transhdr005">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ive_transhdr005">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.ive_transhdr005">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ive_transhdr005">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.ive_transhdr005">Reserved For Addon Use</DD_ATTR_PROM>
+		</RECORD>
+		<RECORD id="ddm_table_cols.ive_transhdr006">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ive_transhdr006">IVE_TRANSHDR    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ive_transhdr006">006</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ive_transhdr006">TRANS_CMT       </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ive_transhdr006">TRANS_CMT       </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ive_transhdr006">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ive_transhdr006">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ive_transhdr006">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.ive_transhdr006">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ive_transhdr006">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_LABL id="ddm_table_cols.ive_transhdr006">Comment</DD_ATTR_LABL>
+			<DD_ATTR_MAXL id="ddm_table_cols.ive_transhdr006">20</DD_ATTR_MAXL>
+			<DD_ATTR_PROM id="ddm_table_cols.ive_transhdr006">Transaction Comment</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ive_transhdr006">6</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.ive_transhdr007">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ive_transhdr007">IVE_TRANSHDR    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ive_transhdr007">007</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ive_transhdr007">RESERVED_STR    </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ive_transhdr007">RESERVED_STR    </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ive_transhdr007">12</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ive_transhdr007">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ive_transhdr007">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.ive_transhdr007">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ive_transhdr007">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.ive_transhdr007">Reserved For Addon Use</DD_ATTR_PROM>
+		</RECORD>
+		<RECORD id="ddm_table_cols.ive_transhdr008">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ive_transhdr008">IVE_TRANSHDR    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ive_transhdr008">008</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ive_transhdr008">TRANS_DATE      </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ive_transhdr008">TRANS_DATE      </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ive_transhdr008">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ive_transhdr008">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ive_transhdr008">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.ive_transhdr008">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.ive_transhdr008">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ive_transhdr008">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CPGM id="ddm_table_cols.ive_transhdr008">/devel/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_MINL id="ddm_table_cols.ive_transhdr008">6</DD_ATTR_MINL>
+			<DD_ATTR_MAXL id="ddm_table_cols.ive_transhdr008">8</DD_ATTR_MAXL>
+			<DD_ATTR_PROM id="ddm_table_cols.ive_transhdr008">Transaction Date</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ive_transhdr008">4</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_ELEMENTS</ID>
-		<RECORD>
-			<DD_DATA_NAME>FIRM_ID         </DD_DATA_NAME>
-			<DD_DESCRIPTION>Firm ID</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>2</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SYSTEM_REC>Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060425</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>H</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Firm ID</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Firm ID</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>00</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>00</DD_ATTR_MSKO>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>R</DD_ATTR_PADJ>
-			<DD_ATTR_PVAL>stbl("+FIRM_ID")</DD_ATTR_PVAL>
+	<ALIAS id="ddm_table_disp">
+		<ID id="ddm_table_disp">DDM_TABLE_DISP</ID>
+		<RECORD id="ddm_table_disp.ive_transhdr001">
+			<DD_TABLE_ALIAS id="ddm_table_disp.ive_transhdr001">IVE_TRANSHDR    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.ive_transhdr001">001</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.ive_transhdr001">LOCATION        </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.ive_transhdr001">LOCATION        </DD_CTRL_NAME>
+			<DD_ATTR_LABL id="ddm_table_disp.ive_transhdr001">Location</DD_ATTR_LABL>
+			<DD_ATTR_CTLX id="ddm_table_disp.ive_transhdr001">-27</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.ive_transhdr001">+1</DD_ATTR_CTLY>
+			<DD_ATTR_CTLH id="ddm_table_disp.ive_transhdr001">0</DD_ATTR_CTLH>
+			<DD_ATTR_GHDR id="ddm_table_disp.ive_transhdr001">Item Warehouse Values</DD_ATTR_GHDR>
+			<DD_ATTR_TIND id="ddm_table_disp.ive_transhdr001">7</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>IV_TRANS_NO     </DD_DATA_NAME>
-			<DD_DESCRIPTION>Transaction Entry Number</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>7</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>IV </ASC_PROD_ID>
-			<LOCALIZATION_EX>N</LOCALIZATION_EX>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20081002</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Transaction Entry Number</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Trans Entry No</DD_ATTR_LABS>
-			<DD_ATTR_MAXL>0</DD_ATTR_MAXL>
-			<DD_ATTR_MAXR>0</DD_ATTR_MAXR>
-			<DD_ATTR_MINL>0</DD_ATTR_MINL>
-			<DD_ATTR_MSKI>0000000</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>0000000</DD_ATTR_MSKO>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>R</DD_ATTR_PADJ>
-			<DD_ATTR_PREC>0</DD_ATTR_PREC>
+		<RECORD id="ddm_table_disp.ive_transhdr002">
+			<DD_TABLE_ALIAS id="ddm_table_disp.ive_transhdr002">IVE_TRANSHDR    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.ive_transhdr002">002</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.ive_transhdr002">QTY_ON_HAND     </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.ive_transhdr002">QTY_ON_HAND     </DD_CTRL_NAME>
+			<DD_ATTR_LABL id="ddm_table_disp.ive_transhdr002">On Hand</DD_ATTR_LABL>
+			<DD_ATTR_CTLX id="ddm_table_disp.ive_transhdr002">+18</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.ive_transhdr002">-1</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.ive_transhdr002">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.ive_transhdr002">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.ive_transhdr002">8</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>SEQUENCE_000    </DD_DATA_NAME>
-			<DD_DESCRIPTION>"000"</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>3</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060623</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>X</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>0</DD_ATTR_LABL>
-			<DD_ATTR_LABS>0</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>000</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>000</DD_ATTR_MSKO>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>R</DD_ATTR_PADJ>
-			<DD_ATTR_PVAL>"000"</DD_ATTR_PVAL>
+		<RECORD id="ddm_table_disp.ive_transhdr003">
+			<DD_TABLE_ALIAS id="ddm_table_disp.ive_transhdr003">IVE_TRANSHDR    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.ive_transhdr003">003</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.ive_transhdr003">QTY_COMMIT      </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.ive_transhdr003">QTY_COMMIT      </DD_CTRL_NAME>
+			<DD_ATTR_LABL id="ddm_table_disp.ive_transhdr003">Committed</DD_ATTR_LABL>
+			<DD_ATTR_CTLX id="ddm_table_disp.ive_transhdr003">+14</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.ive_transhdr003">-1</DD_ATTR_CTLY>
+			<DD_ATTR_CTLH id="ddm_table_disp.ive_transhdr003">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.ive_transhdr003">9</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>TRANS_CODE      </DD_DATA_NAME>
-			<DD_DESCRIPTION>Transaction Code</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>2</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20071125</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOL>CODE_DESC       </DD_ATTR_DCOL>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_DKEY>[+FIRM_ID]+"B"+@</DD_ATTR_DKEY>
-			<DD_ATTR_DTAB>IVC_TRANCODE    </DD_ATTR_DTAB>
-			<DD_ATTR_LABL>Transaction Code</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Trans Cd</DD_ATTR_LABS>
-			<DD_ATTR_MAXL>0</DD_ATTR_MAXL>
-			<DD_ATTR_MAXR>0</DD_ATTR_MAXR>
-			<DD_ATTR_MINL>0</DD_ATTR_MINL>
-			<DD_ATTR_MSKI>UU</DD_ATTR_MSKI>
-			<DD_ATTR_PADC>20</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>L</DD_ATTR_PADJ>
-			<DD_ATTR_PREC>0</DD_ATTR_PREC>
+		<RECORD id="ddm_table_disp.ive_transhdr004">
+			<DD_TABLE_ALIAS id="ddm_table_disp.ive_transhdr004">IVE_TRANSHDR    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.ive_transhdr004">004</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.ive_transhdr004">QTY_AVAIL       </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.ive_transhdr004">QTY_AVAIL       </DD_CTRL_NAME>
+			<DD_ATTR_LABL id="ddm_table_disp.ive_transhdr004">Available</DD_ATTR_LABL>
+			<DD_ATTR_CTLX id="ddm_table_disp.ive_transhdr004">+14</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.ive_transhdr004">-1</DD_ATTR_CTLY>
+			<DD_ATTR_CTLH id="ddm_table_disp.ive_transhdr004">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.ive_transhdr004">10</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>RESERVED_STR    </DD_DATA_NAME>
-			<DD_DESCRIPTION>Reserved For Addon Use        </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>1</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SYSTEM_REC>Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>X</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Reserved For Addon Use</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Res For Addon Use</DD_ATTR_LABS>
+	</ALIAS>
+	<ALIAS id="ddm_column_cpro">
+		<ID id="ddm_column_cpro">DDM_COLUMN_CPRO</ID>
+		<RECORD id="ddm_column_cpro.ive_transhdrtrans_codeainp">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.ive_transhdrtrans_codeainp">IVE_TRANSHDR    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.ive_transhdrtrans_codeainp">TRANS_CODE      </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.ive_transhdrtrans_codeainp">AINP</DD_ATTR_CPRO>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>TRANS_CMT       </DD_DATA_NAME>
-			<DD_DESCRIPTION>Transaction Comment           </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>20</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Transaction Comment</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Trans Cmt</DD_ATTR_LABS>
+		<RECORD id="ddm_column_cpro.ive_transhdrtrans_codeaval">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.ive_transhdrtrans_codeaval">IVE_TRANSHDR    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.ive_transhdrtrans_codeaval">TRANS_CODE      </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.ive_transhdrtrans_codeaval">AVAL</DD_ATTR_CPRO>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>RESERVED_STR    </DD_DATA_NAME>
-			<DD_DESCRIPTION>Reserved For Addon Use        </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>1</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SYSTEM_REC>Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>X</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Reserved For Addon Use</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Res For Addon Use</DD_ATTR_LABS>
+		<RECORD id="ddm_column_cpro.ive_transhdrtrans_dateaval">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.ive_transhdrtrans_dateaval">IVE_TRANSHDR    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.ive_transhdrtrans_dateaval">TRANS_DATE      </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.ive_transhdrtrans_dateaval">AVAL</DD_ATTR_CPRO>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>TRANS_DATE      </DD_DATA_NAME>
-			<DD_DESCRIPTION>Transaction Date</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>8</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SYSTEM_REC>Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060929</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>D</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Transaction Date</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Trans Date</DD_ATTR_LABS>
-			<DD_ATTR_STYP>1</DD_ATTR_STYP>
+	</ALIAS>
+	<ALIAS id="ddm_column_opts">
+		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
+		<RECORD id="ddm_column_opts.ive_transhdrfirm_ido">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ive_transhdrfirm_ido">IVE_TRANSHDR    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ive_transhdrfirm_ido">FIRM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ive_transhdrfirm_ido">O</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>LOCATION        </DD_DATA_NAME>
-			<DD_DESCRIPTION>Warehouse Location            </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>10</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Warehouse Location</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Whse Loc</DD_ATTR_LABS>
+		<RECORD id="ddm_column_opts.ive_transhdrsequence_000w">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ive_transhdrsequence_000w">IVE_TRANSHDR    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ive_transhdrsequence_000w">SEQUENCE_000    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ive_transhdrsequence_000w">W</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>QTY_ON_HAND     </DD_DATA_NAME>
-			<DD_DESCRIPTION>Quantity On-Hand</DD_DESCRIPTION>
-			<DD_DATA_TYPE>N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>7</DD_DATA_LENGTH>
-			<DD_MASK_TYPE>U</DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>IV </ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080912</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_CTYP>N</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Quantity On-Hand</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Qty On-Hand</DD_ATTR_LABS>
-			<DD_ATTR_MAXL>0</DD_ATTR_MAXL>
-			<DD_ATTR_MAXR>0</DD_ATTR_MAXR>
-			<DD_ATTR_MINL>0</DD_ATTR_MINL>
-			<DD_ATTR_PREC>0</DD_ATTR_PREC>
+	</ALIAS>
+	<ALIAS id="ddm_elements">
+		<ID id="ddm_elements">DDM_ELEMENTS</ID>
+		<RECORD id="ddm_elements.firm_id">
+			<DD_DATA_NAME id="ddm_elements.firm_id">FIRM_ID         </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.firm_id">Firm ID</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.firm_id">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.firm_id">2</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.firm_id"> </DD_MASK_TYPE>
+			<DD_SYSTEM_REC id="ddm_elements.firm_id">Y</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.firm_id">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.firm_id">BAR</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.firm_id">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.firm_id">20060425</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.firm_id">H</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.firm_id">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.firm_id">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABS>
+			<DD_ATTR_MSKI id="ddm_elements.firm_id">00</DD_ATTR_MSKI>
+			<DD_ATTR_MSKO id="ddm_elements.firm_id">00</DD_ATTR_MSKO>
+			<DD_ATTR_PADC id="ddm_elements.firm_id">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.firm_id">R</DD_ATTR_PADJ>
+			<DD_ATTR_PVAL id="ddm_elements.firm_id">stbl("+FIRM_ID")</DD_ATTR_PVAL>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>QTY_COMMIT      </DD_DATA_NAME>
-			<DD_DESCRIPTION>Quantity Committed            </DD_DESCRIPTION>
-			<DD_DATA_TYPE>N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>7</DD_DATA_LENGTH>
-			<DD_MASK_TYPE>U</DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>IV </ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>N</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Quantity Committed</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Qty Committed</DD_ATTR_LABS>
+		<RECORD id="ddm_elements.iv_trans_no">
+			<DD_DATA_NAME id="ddm_elements.iv_trans_no">IV_TRANS_NO     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.iv_trans_no">Transaction Entry Number</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.iv_trans_no">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.iv_trans_no">7</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.iv_trans_no"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.iv_trans_no">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.iv_trans_no">IV </ASC_PROD_ID>
+			<LOCALIZATION_EX id="ddm_elements.iv_trans_no">N</LOCALIZATION_EX>
+			<DD_CREATE_DATE id="ddm_elements.iv_trans_no">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.iv_trans_no">20081002</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.iv_trans_no">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.iv_trans_no">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.iv_trans_no">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.iv_trans_no">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.iv_trans_no">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.iv_trans_no">Transaction Entry Number</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.iv_trans_no">Trans Entry No</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.iv_trans_no">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.iv_trans_no">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.iv_trans_no">0</DD_ATTR_MINL>
+			<DD_ATTR_MSKI id="ddm_elements.iv_trans_no">0000000</DD_ATTR_MSKI>
+			<DD_ATTR_MSKO id="ddm_elements.iv_trans_no">0000000</DD_ATTR_MSKO>
+			<DD_ATTR_PADC id="ddm_elements.iv_trans_no">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.iv_trans_no">R</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.iv_trans_no">0</DD_ATTR_PREC>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>QTY_AVAIL       </DD_DATA_NAME>
-			<DD_DESCRIPTION>Available Quantity            </DD_DESCRIPTION>
-			<DD_DATA_TYPE>N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>7</DD_DATA_LENGTH>
-			<DD_MASK_TYPE>U</DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>IV </ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>N</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Available Quantity</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Available Qty</DD_ATTR_LABS>
+		<RECORD id="ddm_elements.sequence_000">
+			<DD_DATA_NAME id="ddm_elements.sequence_000">SEQUENCE_000    </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.sequence_000">"000"</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.sequence_000">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.sequence_000">3</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.sequence_000"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.sequence_000">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.sequence_000">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.sequence_000">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.sequence_000">20060623</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.sequence_000">X</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.sequence_000">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.sequence_000">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.sequence_000">0</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.sequence_000">0</DD_ATTR_LABS>
+			<DD_ATTR_MSKI id="ddm_elements.sequence_000">000</DD_ATTR_MSKI>
+			<DD_ATTR_MSKO id="ddm_elements.sequence_000">000</DD_ATTR_MSKO>
+			<DD_ATTR_PADC id="ddm_elements.sequence_000">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.sequence_000">R</DD_ATTR_PADJ>
+			<DD_ATTR_PVAL id="ddm_elements.sequence_000">"000"</DD_ATTR_PVAL>
+		</RECORD>
+		<RECORD id="ddm_elements.trans_code">
+			<DD_DATA_NAME id="ddm_elements.trans_code">TRANS_CODE      </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.trans_code">Transaction Code</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.trans_code">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.trans_code">2</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.trans_code"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.trans_code">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.trans_code">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.trans_code">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.trans_code">20071125</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.trans_code">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.trans_code">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.trans_code">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOL id="ddm_elements.trans_code">CODE_DESC       </DD_ATTR_DCOL>
+			<DD_ATTR_DCOM id="ddm_elements.trans_code">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.trans_code">            </DD_ATTR_DEXP>
+			<DD_ATTR_DKEY id="ddm_elements.trans_code">[+FIRM_ID]+"B"+@</DD_ATTR_DKEY>
+			<DD_ATTR_DTAB id="ddm_elements.trans_code">IVC_TRANCODE    </DD_ATTR_DTAB>
+			<DD_ATTR_LABL id="ddm_elements.trans_code">Transaction Code</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.trans_code">Trans Cd</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.trans_code">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.trans_code">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.trans_code">0</DD_ATTR_MINL>
+			<DD_ATTR_MSKI id="ddm_elements.trans_code">UU</DD_ATTR_MSKI>
+			<DD_ATTR_PADC id="ddm_elements.trans_code">20</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.trans_code">L</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.trans_code">0</DD_ATTR_PREC>
+		</RECORD>
+		<RECORD id="ddm_elements.reserved_str">
+			<DD_DATA_NAME id="ddm_elements.reserved_str">RESERVED_STR    </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.reserved_str">Reserved For Addon Use        </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.reserved_str">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.reserved_str">1</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.reserved_str"> </DD_MASK_TYPE>
+			<DD_SYSTEM_REC id="ddm_elements.reserved_str">Y</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.reserved_str">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.reserved_str">BAR</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.reserved_str">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.reserved_str">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.reserved_str">X</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.reserved_str">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.reserved_str">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.reserved_str">Reserved For Addon Use</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.reserved_str">Res For Addon Use</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.trans_cmt">
+			<DD_DATA_NAME id="ddm_elements.trans_cmt">TRANS_CMT       </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.trans_cmt">Transaction Comment           </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.trans_cmt">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.trans_cmt">20</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.trans_cmt"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.trans_cmt">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.trans_cmt">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.trans_cmt">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.trans_cmt">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.trans_cmt">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.trans_cmt">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.trans_cmt">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.trans_cmt">Transaction Comment</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.trans_cmt">Trans Cmt</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.reserved_str">
+			<DD_DATA_NAME id="ddm_elements.reserved_str">RESERVED_STR    </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.reserved_str">Reserved For Addon Use        </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.reserved_str">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.reserved_str">1</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.reserved_str"> </DD_MASK_TYPE>
+			<DD_SYSTEM_REC id="ddm_elements.reserved_str">Y</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.reserved_str">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.reserved_str">BAR</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.reserved_str">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.reserved_str">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.reserved_str">X</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.reserved_str">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.reserved_str">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.reserved_str">Reserved For Addon Use</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.reserved_str">Res For Addon Use</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.trans_date">
+			<DD_DATA_NAME id="ddm_elements.trans_date">TRANS_DATE      </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.trans_date">Transaction Date</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.trans_date">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.trans_date">8</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.trans_date"> </DD_MASK_TYPE>
+			<DD_SYSTEM_REC id="ddm_elements.trans_date">Y</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.trans_date">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.trans_date">BAR</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.trans_date">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.trans_date">20060929</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.trans_date">D</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.trans_date">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.trans_date">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.trans_date">Transaction Date</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.trans_date">Trans Date</DD_ATTR_LABS>
+			<DD_ATTR_STYP id="ddm_elements.trans_date">1</DD_ATTR_STYP>
+		</RECORD>
+		<RECORD id="ddm_elements.location">
+			<DD_DATA_NAME id="ddm_elements.location">LOCATION        </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.location">Warehouse Location            </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.location">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.location">10</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.location"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.location">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.location">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.location">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.location">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.location">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.location">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.location">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.location">Warehouse Location</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.location">Whse Loc</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.qty_on_hand">
+			<DD_DATA_NAME id="ddm_elements.qty_on_hand">QTY_ON_HAND     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.qty_on_hand">Quantity On-Hand</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.qty_on_hand">N</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.qty_on_hand">7</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.qty_on_hand">U</DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.qty_on_hand">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.qty_on_hand">IV </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.qty_on_hand">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.qty_on_hand">20080912</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.qty_on_hand">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.qty_on_hand">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.qty_on_hand">N</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.qty_on_hand">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.qty_on_hand">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.qty_on_hand">Quantity On-Hand</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.qty_on_hand">Qty On-Hand</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.qty_on_hand">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.qty_on_hand">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.qty_on_hand">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.qty_on_hand">0</DD_ATTR_PREC>
+		</RECORD>
+		<RECORD id="ddm_elements.qty_commit">
+			<DD_DATA_NAME id="ddm_elements.qty_commit">QTY_COMMIT      </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.qty_commit">Quantity Committed            </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.qty_commit">N</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.qty_commit">7</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.qty_commit">U</DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.qty_commit">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.qty_commit">IV </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.qty_commit">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.qty_commit">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.qty_commit">N</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.qty_commit">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.qty_commit">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.qty_commit">Quantity Committed</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.qty_commit">Qty Committed</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.qty_avail">
+			<DD_DATA_NAME id="ddm_elements.qty_avail">QTY_AVAIL       </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.qty_avail">Available Quantity            </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.qty_avail">N</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.qty_avail">7</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.qty_avail">U</DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.qty_avail">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.qty_avail">IV </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.qty_avail">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.qty_avail">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.qty_avail">N</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.qty_avail">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.qty_avail">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.qty_avail">Available Quantity</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.qty_avail">Available Qty</DD_ATTR_LABS>
 		</RECORD>
 	</ALIAS>
 </IVE_TRANSHDR>

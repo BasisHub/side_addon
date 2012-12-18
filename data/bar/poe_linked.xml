@@ -1,377 +1,428 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <POE_LINKED>
-	<ALIAS>
-		<ID>DDM_TABLES</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>POE_LINKED      </DD_TABLE_ALIAS>
-			<DD_ALIAS_DESC>Purchase Orders Linked to O/P</DD_ALIAS_DESC>
-			<DD_FILE_NAME>poe-08</DD_FILE_NAME>
-			<DD_TABLE_PATH>[+PODATA]</DD_TABLE_PATH>
-			<DD_ALIAS_TYPE>X</DD_ALIAS_TYPE>
-			<DD_KEY_LENGTH>0</DD_KEY_LENGTH>
-			<DD_NBR_RECORD>0</DD_NBR_RECORD>
-			<DD_RECORD_LEN>39</DD_RECORD_LEN>
-			<DD_SYSTEM_REC>N</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>PO </ASC_PROD_ID>
-			<ASC_LICENSE_ID>043E581917E9775AFCA41FC070492E1F</ASC_LICENSE_ID>
-			<DD_EXPORT_DATA>Y</DD_EXPORT_DATA>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080221</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE>20080306</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME>142940</DD_LSTSYNC_TIME>
-			<DD_ATTR_FTYP>T</DD_ATTR_FTYP>
-			<DD_ATTR_SLEV>zzzz</DD_ATTR_SLEV>
-			<DD_ATTR_WINT>Purchase Orders Linked to O/P</DD_ATTR_WINT>
+	<ALIAS id="ddm_tables">
+		<ID id="ddm_tables">DDM_TABLES</ID>
+		<RECORD id="ddm_tables.poe_linked">
+			<DD_TABLE_ALIAS id="ddm_tables.poe_linked">POE_LINKED      </DD_TABLE_ALIAS>
+			<DD_ALIAS_DESC id="ddm_tables.poe_linked">Purchase Orders Linked to O/P</DD_ALIAS_DESC>
+			<DD_FILE_NAME id="ddm_tables.poe_linked">poe-08</DD_FILE_NAME>
+			<DD_TABLE_PATH id="ddm_tables.poe_linked">[+PODATA]</DD_TABLE_PATH>
+			<DD_ALIAS_TYPE id="ddm_tables.poe_linked">X</DD_ALIAS_TYPE>
+			<DD_KEY_LENGTH id="ddm_tables.poe_linked">0</DD_KEY_LENGTH>
+			<DD_NBR_RECORD id="ddm_tables.poe_linked">0</DD_NBR_RECORD>
+			<DD_RECORD_LEN id="ddm_tables.poe_linked">0</DD_RECORD_LEN>
+			<DD_SYSTEM_REC id="ddm_tables.poe_linked">N</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_tables.poe_linked">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_tables.poe_linked">PO </ASC_PROD_ID>
+			<ASC_LICENSE_ID id="ddm_tables.poe_linked">043E581917E9775AFCA41FC070492E1F</ASC_LICENSE_ID>
+			<DD_EXPORT_DATA id="ddm_tables.poe_linked">Y</DD_EXPORT_DATA>
+			<DD_CREATE_DATE id="ddm_tables.poe_linked">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_tables.poe_linked">20081209</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.poe_linked">20081209</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.poe_linked">210936</DD_LSTSYNC_TIME>
+			<DD_ATTR_FTYP id="ddm_tables.poe_linked">T</DD_ATTR_FTYP>
+			<DD_ATTR_SLEV id="ddm_tables.poe_linked">zzzz</DD_ATTR_SLEV>
+			<DD_ATTR_WINT id="ddm_tables.poe_linked">Purchase Orders Linked to O/P</DD_ATTR_WINT>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_CMTS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>POE_LINKED      </DD_TABLE_ALIAS>
-			<DD_COMM_SEQ>001</DD_COMM_SEQ>
-			<DD_COMM_TEXT>Multi-key creation info is in syc_ma:                       </DD_COMM_TEXT>
+	<ALIAS id="ddm_table_cmts">
+		<ID id="ddm_table_cmts">DDM_TABLE_CMTS</ID>
+		<RECORD id="ddm_table_cmts.poe_linked001">
+			<DD_TABLE_ALIAS id="ddm_table_cmts.poe_linked001">POE_LINKED      </DD_TABLE_ALIAS>
+			<DD_COMM_SEQ id="ddm_table_cmts.poe_linked001">001</DD_COMM_SEQ>
+			<DD_COMM_TEXT id="ddm_table_cmts.poe_linked001">Multi-key creation info is in syc_ma:                       </DD_COMM_TEXT>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>POE_LINKED      </DD_TABLE_ALIAS>
-			<DD_COMM_SEQ>002</DD_COMM_SEQ>
-			<DD_COMM_TEXT>[1:1:2]+[1:3:6]+[1:9:7]+[1:16:3],                           </DD_COMM_TEXT>
+		<RECORD id="ddm_table_cmts.poe_linked002">
+			<DD_TABLE_ALIAS id="ddm_table_cmts.poe_linked002">POE_LINKED      </DD_TABLE_ALIAS>
+			<DD_COMM_SEQ id="ddm_table_cmts.poe_linked002">002</DD_COMM_SEQ>
+			<DD_COMM_TEXT id="ddm_table_cmts.poe_linked002">[1:1:2]+[1:3:6]+[1:9:7]+[1:16:3],                           </DD_COMM_TEXT>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>POE_LINKED      </DD_TABLE_ALIAS>
-			<DD_COMM_SEQ>003</DD_COMM_SEQ>
-			<DD_COMM_TEXT>[1:1:2]+[2:1:6]+[2:7:7]+[2:14:3]                            </DD_COMM_TEXT>
+		<RECORD id="ddm_table_cmts.poe_linked003">
+			<DD_TABLE_ALIAS id="ddm_table_cmts.poe_linked003">POE_LINKED      </DD_TABLE_ALIAS>
+			<DD_COMM_SEQ id="ddm_table_cmts.poe_linked003">003</DD_COMM_SEQ>
+			<DD_COMM_TEXT id="ddm_table_cmts.poe_linked003">[1:1:2]+[2:1:6]+[2:7:7]+[2:14:3]                            </DD_COMM_TEXT>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>POE_LINKED      </DD_TABLE_ALIAS>
-			<DD_COMM_SEQ>004</DD_COMM_SEQ>
-			<DD_COMM_TEXT>This is a true multi-keyed key with two keys.               </DD_COMM_TEXT>
-		</RECORD>
-	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_TPLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>POE_LINKED      </DD_TABLE_ALIAS>
-			<DD_FILE_NAME>poe-08</DD_FILE_NAME>
-			<DD_TABLE_TPL>firm_id:c(2),vendor_id:c(6),po_no:c(7),po_line_no:c(3*),customer_id:c(6),order_no:c(7),line_no:c(3*)</DD_TABLE_TPL>
+		<RECORD id="ddm_table_cmts.poe_linked004">
+			<DD_TABLE_ALIAS id="ddm_table_cmts.poe_linked004">POE_LINKED      </DD_TABLE_ALIAS>
+			<DD_COMM_SEQ id="ddm_table_cmts.poe_linked004">004</DD_COMM_SEQ>
+			<DD_COMM_TEXT id="ddm_table_cmts.poe_linked004">This is a true multi-keyed key with two keys.               </DD_COMM_TEXT>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_KEYS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>POE_LINKED      </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_KEY_DESC>Primary</DD_KEY_DESC>
-			<DD_KEY_ID>PRIMARY         </DD_KEY_ID>
+	<ALIAS id="ddm_table_tpls">
+		<ID id="ddm_table_tpls">DDM_TABLE_TPLS</ID>
+		<RECORD id="ddm_table_tpls.poe_linked">
+			<DD_TABLE_ALIAS id="ddm_table_tpls.poe_linked">POE_LINKED      </DD_TABLE_ALIAS>
+			<DD_FILE_NAME id="ddm_table_tpls.poe_linked">poe-08</DD_FILE_NAME>
+			<DD_TABLE_TPL id="ddm_table_tpls.poe_linked">firm_id:c(2),vendor_id:c(6),po_no:c(7),po_line_no:c(3),customer_id:c(6),order_no:c(7),opedet_seq_ref:c(12)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_KEY_SEGS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>POE_LINKED      </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>01</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>FIRM_ID</DD_SEGMENT_COL>
-			<DD_SEGMENT_SORT>N</DD_SEGMENT_SORT>
-			<DD_SEGMENT_UNIQ>N</DD_SEGMENT_UNIQ>
-			<DD_SEGMENT_MATH>N</DD_SEGMENT_MATH>
+	<ALIAS id="ddm_keys">
+		<ID id="ddm_keys">DDM_KEYS</ID>
+		<RECORD id="ddm_keys.poe_linked00">
+			<DD_TABLE_ALIAS id="ddm_keys.poe_linked00">POE_LINKED      </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_keys.poe_linked00">00</DD_KEY_NUMBER>
+			<DD_KEY_DESC id="ddm_keys.poe_linked00">Primary</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.poe_linked00">PRIMARY         </DD_KEY_ID>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>POE_LINKED      </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>02</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>VENDOR_ID</DD_SEGMENT_COL>
-			<DD_SEGMENT_SORT>N</DD_SEGMENT_SORT>
-			<DD_SEGMENT_UNIQ>N</DD_SEGMENT_UNIQ>
-			<DD_SEGMENT_MATH>N</DD_SEGMENT_MATH>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>POE_LINKED      </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>03</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>PO_NO</DD_SEGMENT_COL>
-			<DD_SEGMENT_SORT>N</DD_SEGMENT_SORT>
-			<DD_SEGMENT_UNIQ>N</DD_SEGMENT_UNIQ>
-			<DD_SEGMENT_MATH>N</DD_SEGMENT_MATH>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>POE_LINKED      </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>04</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>PO_LINE_NO</DD_SEGMENT_COL>
-			<DD_SEGMENT_SORT>N</DD_SEGMENT_SORT>
-			<DD_SEGMENT_UNIQ>N</DD_SEGMENT_UNIQ>
-			<DD_SEGMENT_MATH>N</DD_SEGMENT_MATH>
+		<RECORD id="ddm_keys.poe_linked01">
+			<DD_TABLE_ALIAS id="ddm_keys.poe_linked01">POE_LINKED      </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_keys.poe_linked01">01</DD_KEY_NUMBER>
+			<DD_KEY_DESC id="ddm_keys.poe_linked01">By Cust Order</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.poe_linked01">ALT_KEY_01      </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_COLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>POE_LINKED      </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>001</DD_SEQUENCE>
-			<DD_DATA_NAME>FIRM_ID         </DD_DATA_NAME>
-			<DD_DVAR_NAME>FIRM_ID         </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Firm ID</DD_ATTR_PROM>
+	<ALIAS id="ddm_key_segs">
+		<ID id="ddm_key_segs">DDM_KEY_SEGS</ID>
+		<RECORD id="ddm_key_segs.poe_linked0001">
+			<DD_TABLE_ALIAS id="ddm_key_segs.poe_linked0001">POE_LINKED      </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.poe_linked0001">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.poe_linked0001">01</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.poe_linked0001">FIRM_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_SORT id="ddm_key_segs.poe_linked0001">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.poe_linked0001">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.poe_linked0001">N</DD_SEGMENT_MATH>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>POE_LINKED      </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>002</DD_SEQUENCE>
-			<DD_DATA_NAME>VENDOR_ID       </DD_DATA_NAME>
-			<DD_DVAR_NAME>VENDOR_ID       </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_LABS>Vendor Num</DD_ATTR_LABS>
-			<DD_ATTR_PROM>Vendor Number</DD_ATTR_PROM>
+		<RECORD id="ddm_key_segs.poe_linked0002">
+			<DD_TABLE_ALIAS id="ddm_key_segs.poe_linked0002">POE_LINKED      </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.poe_linked0002">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.poe_linked0002">02</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.poe_linked0002">VENDOR_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_SORT id="ddm_key_segs.poe_linked0002">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.poe_linked0002">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.poe_linked0002">N</DD_SEGMENT_MATH>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>POE_LINKED      </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>003</DD_SEQUENCE>
-			<DD_DATA_NAME>PO_NO           </DD_DATA_NAME>
-			<DD_DVAR_NAME>PO_NO           </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Purchase Order Number</DD_ATTR_PROM>
+		<RECORD id="ddm_key_segs.poe_linked0003">
+			<DD_TABLE_ALIAS id="ddm_key_segs.poe_linked0003">POE_LINKED      </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.poe_linked0003">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.poe_linked0003">03</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.poe_linked0003">PO_NO</DD_SEGMENT_COL>
+			<DD_SEGMENT_SORT id="ddm_key_segs.poe_linked0003">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.poe_linked0003">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.poe_linked0003">N</DD_SEGMENT_MATH>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>POE_LINKED      </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>004</DD_SEQUENCE>
-			<DD_DATA_NAME>PO_LINE_NO      </DD_DATA_NAME>
-			<DD_DVAR_NAME>PO_LINE_NO      </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Purchase Order Line Number</DD_ATTR_PROM>
+		<RECORD id="ddm_key_segs.poe_linked0004">
+			<DD_TABLE_ALIAS id="ddm_key_segs.poe_linked0004">POE_LINKED      </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.poe_linked0004">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.poe_linked0004">04</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.poe_linked0004">PO_LINE_NO</DD_SEGMENT_COL>
+			<DD_SEGMENT_SORT id="ddm_key_segs.poe_linked0004">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.poe_linked0004">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.poe_linked0004">N</DD_SEGMENT_MATH>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>POE_LINKED      </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>005</DD_SEQUENCE>
-			<DD_DATA_NAME>CUSTOMER_ID     </DD_DATA_NAME>
-			<DD_DVAR_NAME>CUSTOMER_ID     </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_LABS>Customer N</DD_ATTR_LABS>
-			<DD_ATTR_PROM>Customer Number</DD_ATTR_PROM>
+		<RECORD id="ddm_key_segs.poe_linked0101">
+			<DD_TABLE_ALIAS id="ddm_key_segs.poe_linked0101">POE_LINKED      </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.poe_linked0101">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.poe_linked0101">01</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.poe_linked0101">FIRM_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.poe_linked0101">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.poe_linked0101">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.poe_linked0101">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.poe_linked0101">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.poe_linked0101">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.poe_linked0101">N</DD_SEGMENT_MATH>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>POE_LINKED      </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>006</DD_SEQUENCE>
-			<DD_DATA_NAME>ORDER_NO        </DD_DATA_NAME>
-			<DD_DVAR_NAME>ORDER_NO        </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Sales Order Number</DD_ATTR_PROM>
+		<RECORD id="ddm_key_segs.poe_linked0102">
+			<DD_TABLE_ALIAS id="ddm_key_segs.poe_linked0102">POE_LINKED      </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.poe_linked0102">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.poe_linked0102">02</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.poe_linked0102">CUSTOMER_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.poe_linked0102">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.poe_linked0102">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.poe_linked0102">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.poe_linked0102">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.poe_linked0102">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.poe_linked0102">N</DD_SEGMENT_MATH>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>POE_LINKED      </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>007</DD_SEQUENCE>
-			<DD_DATA_NAME>LINE_NO         </DD_DATA_NAME>
-			<DD_DVAR_NAME>LINE_NO         </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Detail Line Item Number</DD_ATTR_PROM>
+		<RECORD id="ddm_key_segs.poe_linked0103">
+			<DD_TABLE_ALIAS id="ddm_key_segs.poe_linked0103">POE_LINKED      </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.poe_linked0103">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.poe_linked0103">03</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.poe_linked0103">ORDER_NO</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.poe_linked0103">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.poe_linked0103">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.poe_linked0103">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.poe_linked0103">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.poe_linked0103">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.poe_linked0103">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.poe_linked0104">
+			<DD_TABLE_ALIAS id="ddm_key_segs.poe_linked0104">POE_LINKED      </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.poe_linked0104">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.poe_linked0104">04</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.poe_linked0104">OPEDET_SEQ_REF</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.poe_linked0104">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.poe_linked0104">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.poe_linked0104">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.poe_linked0104">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.poe_linked0104">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.poe_linked0104">N</DD_SEGMENT_MATH>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_COLUMN_OPTS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>POE_LINKED      </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>FIRM_ID         </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>O</DD_ATTR_OPTS>
+	<ALIAS id="ddm_table_cols">
+		<ID id="ddm_table_cols">DDM_TABLE_COLS</ID>
+		<RECORD id="ddm_table_cols.poe_linked001">
+			<DD_TABLE_ALIAS id="ddm_table_cols.poe_linked001">POE_LINKED      </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.poe_linked001">001</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.poe_linked001">FIRM_ID         </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.poe_linked001">FIRM_ID         </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.poe_linked001">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.poe_linked001">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.poe_linked001">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.poe_linked001">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.poe_linked001">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.poe_linked001">Firm ID</DD_ATTR_PROM>
+		</RECORD>
+		<RECORD id="ddm_table_cols.poe_linked002">
+			<DD_TABLE_ALIAS id="ddm_table_cols.poe_linked002">POE_LINKED      </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.poe_linked002">002</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.poe_linked002">VENDOR_ID       </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.poe_linked002">VENDOR_ID       </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.poe_linked002">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.poe_linked002">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.poe_linked002">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.poe_linked002">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.poe_linked002">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_LABS id="ddm_table_cols.poe_linked002">Vendor Num</DD_ATTR_LABS>
+			<DD_ATTR_PROM id="ddm_table_cols.poe_linked002">Vendor Number</DD_ATTR_PROM>
+		</RECORD>
+		<RECORD id="ddm_table_cols.poe_linked003">
+			<DD_TABLE_ALIAS id="ddm_table_cols.poe_linked003">POE_LINKED      </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.poe_linked003">003</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.poe_linked003">PO_NO           </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.poe_linked003">PO_NO           </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.poe_linked003">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.poe_linked003">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.poe_linked003">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.poe_linked003">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.poe_linked003">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.poe_linked003">Purchase Order Number</DD_ATTR_PROM>
+		</RECORD>
+		<RECORD id="ddm_table_cols.poe_linked004">
+			<DD_TABLE_ALIAS id="ddm_table_cols.poe_linked004">POE_LINKED      </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.poe_linked004">004</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.poe_linked004">SEQ_REF         </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.poe_linked004">POEDET_SEQ_REF  </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.poe_linked004">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.poe_linked004">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.poe_linked004">N</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.poe_linked004">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.poe_linked004">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.poe_linked004">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.poe_linked004">Purchase Order Line Number</DD_ATTR_PROM>
+		</RECORD>
+		<RECORD id="ddm_table_cols.poe_linked005">
+			<DD_TABLE_ALIAS id="ddm_table_cols.poe_linked005">POE_LINKED      </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.poe_linked005">005</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.poe_linked005">CUSTOMER_ID     </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.poe_linked005">CUSTOMER_ID     </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.poe_linked005">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.poe_linked005">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.poe_linked005">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.poe_linked005">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.poe_linked005">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_LABS id="ddm_table_cols.poe_linked005">Customer N</DD_ATTR_LABS>
+			<DD_ATTR_PROM id="ddm_table_cols.poe_linked005">Customer Number</DD_ATTR_PROM>
+		</RECORD>
+		<RECORD id="ddm_table_cols.poe_linked006">
+			<DD_TABLE_ALIAS id="ddm_table_cols.poe_linked006">POE_LINKED      </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.poe_linked006">006</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.poe_linked006">ORDER_NO        </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.poe_linked006">ORDER_NO        </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.poe_linked006">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.poe_linked006">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.poe_linked006">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.poe_linked006">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.poe_linked006">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.poe_linked006">Sales Order Number</DD_ATTR_PROM>
+		</RECORD>
+		<RECORD id="ddm_table_cols.poe_linked007">
+			<DD_TABLE_ALIAS id="ddm_table_cols.poe_linked007">POE_LINKED      </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.poe_linked007">007</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.poe_linked007">SEQ_REF         </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.poe_linked007">OPEDET_SEQ_REF  </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.poe_linked007">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.poe_linked007">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.poe_linked007">N</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.poe_linked007">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.poe_linked007">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.poe_linked007">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.poe_linked007">Detail Line Item Number</DD_ATTR_PROM>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_ELEMENTS</ID>
-		<RECORD>
-			<DD_DATA_NAME>FIRM_ID         </DD_DATA_NAME>
-			<DD_DESCRIPTION>Firm ID</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>2</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SYSTEM_REC>Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060425</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>H</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Firm ID</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Firm ID</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>00</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>00</DD_ATTR_MSKO>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>R</DD_ATTR_PADJ>
-			<DD_ATTR_PVAL>stbl("+FIRM_ID")</DD_ATTR_PVAL>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>VENDOR_ID       </DD_DATA_NAME>
-			<DD_DESCRIPTION>Vendor Number</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>6</DD_DATA_LENGTH>
-			<DD_MASK_TYPE>I</DD_MASK_TYPE>
-			<DD_SYSTEM_REC>N</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AP </ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20071024</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOL>VENDOR_NAME     </DD_ATTR_DCOL>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_DKEY>[+FIRM_ID]+@</DD_ATTR_DKEY>
-			<DD_ATTR_DTAB>APM_VENDMAST    </DD_ATTR_DTAB>
-			<DD_ATTR_LABL>Vendor ID</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Vend ID</DD_ATTR_LABS>
-			<DD_ATTR_MAXL>0</DD_ATTR_MAXL>
-			<DD_ATTR_MAXR>0</DD_ATTR_MAXR>
-			<DD_ATTR_MINL>0</DD_ATTR_MINL>
-			<DD_ATTR_MSKI>UUUUUU</DD_ATTR_MSKI>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>R</DD_ATTR_PADJ>
-			<DD_ATTR_PREC>0</DD_ATTR_PREC>
-			<DD_ATTR_PROM>Enter A Valid Vendor</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>PO_NO           </DD_DATA_NAME>
-			<DD_DESCRIPTION>Purchase Order Number         </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>7</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Purchase Order Number</DD_ATTR_LABL>
-			<DD_ATTR_LABS>PO No</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>0000000</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>0000000</DD_ATTR_MSKO>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>R</DD_ATTR_PADJ>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>PO_LINE_NO      </DD_DATA_NAME>
-			<DD_DESCRIPTION>Purchase Order Line Number</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>3</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>PO </ASC_PROD_ID>
-			<LOCALIZATION_EX>N</LOCALIZATION_EX>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080911</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Purchase Order Line Number</DD_ATTR_LABL>
-			<DD_ATTR_LABS>PO Line No</DD_ATTR_LABS>
-			<DD_ATTR_MAXL>0</DD_ATTR_MAXL>
-			<DD_ATTR_MAXR>0</DD_ATTR_MAXR>
-			<DD_ATTR_MINL>0</DD_ATTR_MINL>
-			<DD_ATTR_MSKI>000</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>000</DD_ATTR_MSKO>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>R</DD_ATTR_PADJ>
-			<DD_ATTR_PREC>0</DD_ATTR_PREC>
-			<DD_ATTR_STYP>S</DD_ATTR_STYP>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>CUSTOMER_ID     </DD_DATA_NAME>
-			<DD_DESCRIPTION>Customer ID</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>6</DD_DATA_LENGTH>
-			<DD_MASK_TYPE>I</DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AR </ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20070703</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOL>CUSTOMER_NAME</DD_ATTR_DCOL>
-			<DD_ATTR_DKEY>[+FIRM_ID]+@</DD_ATTR_DKEY>
-			<DD_ATTR_DTAB>ARM_CUSTMAST    </DD_ATTR_DTAB>
-			<DD_ATTR_LABL>Customer ID</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Cust ID</DD_ATTR_LABS>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>R</DD_ATTR_PADJ>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>ORDER_NO        </DD_DATA_NAME>
-			<DD_DESCRIPTION>Sales Order Number            </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>7</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Sales Order Number</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Sales Ord No</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>0000000</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>0000000</DD_ATTR_MSKO>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>R</DD_ATTR_PADJ>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>LINE_NO         </DD_DATA_NAME>
-			<DD_DESCRIPTION>Detail Line Item Number</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>3</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060504</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Detail Line Item Number</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Dtl Line Item No</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>000</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>000</DD_ATTR_MSKO>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>R</DD_ATTR_PADJ>
-			<DD_ATTR_STYP>S</DD_ATTR_STYP>
+	<ALIAS id="ddm_column_opts">
+		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
+		<RECORD id="ddm_column_opts.poe_linkedfirm_ido">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poe_linkedfirm_ido">POE_LINKED      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poe_linkedfirm_ido">FIRM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poe_linkedfirm_ido">O</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_ELEMENT_CMTS</ID>
-		<RECORD>
-			<DD_DATA_NAME>VENDOR_ID       </DD_DATA_NAME>
-			<DD_COMM_SEQ>001</DD_COMM_SEQ>
-			<DD_COMM_TEXT>this is a test comment</DD_COMM_TEXT>
+	<ALIAS id="ddm_elements">
+		<ID id="ddm_elements">DDM_ELEMENTS</ID>
+		<RECORD id="ddm_elements.firm_id">
+			<DD_DATA_NAME id="ddm_elements.firm_id">FIRM_ID         </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.firm_id">Firm ID</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.firm_id">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.firm_id">2</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.firm_id"> </DD_MASK_TYPE>
+			<DD_SYSTEM_REC id="ddm_elements.firm_id">Y</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.firm_id">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.firm_id">BAR</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.firm_id">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.firm_id">20060425</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.firm_id">H</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.firm_id">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.firm_id">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABS>
+			<DD_ATTR_MSKI id="ddm_elements.firm_id">00</DD_ATTR_MSKI>
+			<DD_ATTR_MSKO id="ddm_elements.firm_id">00</DD_ATTR_MSKO>
+			<DD_ATTR_PADC id="ddm_elements.firm_id">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.firm_id">R</DD_ATTR_PADJ>
+			<DD_ATTR_PVAL id="ddm_elements.firm_id">stbl("+FIRM_ID")</DD_ATTR_PVAL>
+		</RECORD>
+		<RECORD id="ddm_elements.vendor_id">
+			<DD_DATA_NAME id="ddm_elements.vendor_id">VENDOR_ID       </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.vendor_id">Vendor Number</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.vendor_id">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.vendor_id">6</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.vendor_id">I</DD_MASK_TYPE>
+			<DD_SYSTEM_REC id="ddm_elements.vendor_id">N</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.vendor_id">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.vendor_id">AP </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.vendor_id">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.vendor_id">20071024</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.vendor_id">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.vendor_id">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.vendor_id">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOL id="ddm_elements.vendor_id">VENDOR_NAME     </DD_ATTR_DCOL>
+			<DD_ATTR_DCOM id="ddm_elements.vendor_id">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.vendor_id">            </DD_ATTR_DEXP>
+			<DD_ATTR_DKEY id="ddm_elements.vendor_id">[+FIRM_ID]+@</DD_ATTR_DKEY>
+			<DD_ATTR_DTAB id="ddm_elements.vendor_id">APM_VENDMAST    </DD_ATTR_DTAB>
+			<DD_ATTR_LABL id="ddm_elements.vendor_id">Vendor ID</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.vendor_id">Vend ID</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.vendor_id">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.vendor_id">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.vendor_id">0</DD_ATTR_MINL>
+			<DD_ATTR_MSKI id="ddm_elements.vendor_id">UUUUUU</DD_ATTR_MSKI>
+			<DD_ATTR_PADC id="ddm_elements.vendor_id">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.vendor_id">R</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.vendor_id">0</DD_ATTR_PREC>
+			<DD_ATTR_PROM id="ddm_elements.vendor_id">Enter A Valid Vendor</DD_ATTR_PROM>
+		</RECORD>
+		<RECORD id="ddm_elements.po_no">
+			<DD_DATA_NAME id="ddm_elements.po_no">PO_NO           </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.po_no">Purchase Order Number         </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.po_no">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.po_no">7</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.po_no"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.po_no">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.po_no">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.po_no">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.po_no">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.po_no">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.po_no">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.po_no">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.po_no">Purchase Order Number</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.po_no">PO No</DD_ATTR_LABS>
+			<DD_ATTR_MSKI id="ddm_elements.po_no">0000000</DD_ATTR_MSKI>
+			<DD_ATTR_MSKO id="ddm_elements.po_no">0000000</DD_ATTR_MSKO>
+			<DD_ATTR_PADC id="ddm_elements.po_no">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.po_no">R</DD_ATTR_PADJ>
+		</RECORD>
+		<RECORD id="ddm_elements.seq_ref">
+			<DD_DATA_NAME id="ddm_elements.seq_ref">SEQ_REF         </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.seq_ref">Sequence Reference Number</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.seq_ref">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.seq_ref">12</DD_DATA_LENGTH>
+			<ASC_COMP_ID id="ddm_elements.seq_ref">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.seq_ref">AD </ASC_PROD_ID>
+			<LOCALIZATION_EX id="ddm_elements.seq_ref">N</LOCALIZATION_EX>
+			<DD_CREATE_DATE id="ddm_elements.seq_ref">20081124</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.seq_ref">20081124</DD_LSTREV_DATE>
+			<DD_ATTR_BLNK id="ddm_elements.seq_ref">N</DD_ATTR_BLNK>
+			<DD_ATTR_CTLW id="ddm_elements.seq_ref">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.seq_ref">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.seq_ref">E</DD_ATTR_CTYP>
+			<DD_ATTR_LABL id="ddm_elements.seq_ref">Sequence Ref Number</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.seq_ref">Sequence Ref Number</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.seq_ref">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.seq_ref">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.seq_ref">0</DD_ATTR_MINL>
+			<DD_ATTR_PADC id="ddm_elements.seq_ref">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.seq_ref">R</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.seq_ref">0</DD_ATTR_PREC>
+		</RECORD>
+		<RECORD id="ddm_elements.customer_id">
+			<DD_DATA_NAME id="ddm_elements.customer_id">CUSTOMER_ID     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.customer_id">Customer ID</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.customer_id">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.customer_id">6</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.customer_id">I</DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.customer_id">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.customer_id">AR </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.customer_id">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.customer_id">20070703</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.customer_id">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOL id="ddm_elements.customer_id">CUSTOMER_NAME</DD_ATTR_DCOL>
+			<DD_ATTR_DKEY id="ddm_elements.customer_id">[+FIRM_ID]+@</DD_ATTR_DKEY>
+			<DD_ATTR_DTAB id="ddm_elements.customer_id">ARM_CUSTMAST    </DD_ATTR_DTAB>
+			<DD_ATTR_LABL id="ddm_elements.customer_id">Customer ID</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.customer_id">Cust ID</DD_ATTR_LABS>
+			<DD_ATTR_PADC id="ddm_elements.customer_id">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.customer_id">R</DD_ATTR_PADJ>
+		</RECORD>
+		<RECORD id="ddm_elements.order_no">
+			<DD_DATA_NAME id="ddm_elements.order_no">ORDER_NO        </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.order_no">Sales Order Number            </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.order_no">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.order_no">7</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.order_no"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.order_no">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.order_no">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.order_no">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.order_no">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.order_no">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.order_no">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.order_no">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.order_no">Sales Order Number</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.order_no">Sales Ord No</DD_ATTR_LABS>
+			<DD_ATTR_MSKI id="ddm_elements.order_no">0000000</DD_ATTR_MSKI>
+			<DD_ATTR_MSKO id="ddm_elements.order_no">0000000</DD_ATTR_MSKO>
+			<DD_ATTR_PADC id="ddm_elements.order_no">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.order_no">R</DD_ATTR_PADJ>
+		</RECORD>
+		<RECORD id="ddm_elements.seq_ref">
+			<DD_DATA_NAME id="ddm_elements.seq_ref">SEQ_REF         </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.seq_ref">Sequence Reference Number</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.seq_ref">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.seq_ref">12</DD_DATA_LENGTH>
+			<ASC_COMP_ID id="ddm_elements.seq_ref">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.seq_ref">AD </ASC_PROD_ID>
+			<LOCALIZATION_EX id="ddm_elements.seq_ref">N</LOCALIZATION_EX>
+			<DD_CREATE_DATE id="ddm_elements.seq_ref">20081124</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.seq_ref">20081124</DD_LSTREV_DATE>
+			<DD_ATTR_BLNK id="ddm_elements.seq_ref">N</DD_ATTR_BLNK>
+			<DD_ATTR_CTLW id="ddm_elements.seq_ref">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.seq_ref">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.seq_ref">E</DD_ATTR_CTYP>
+			<DD_ATTR_LABL id="ddm_elements.seq_ref">Sequence Ref Number</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.seq_ref">Sequence Ref Number</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.seq_ref">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.seq_ref">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.seq_ref">0</DD_ATTR_MINL>
+			<DD_ATTR_PADC id="ddm_elements.seq_ref">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.seq_ref">R</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.seq_ref">0</DD_ATTR_PREC>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_element_cmts">
+		<ID id="ddm_element_cmts">DDM_ELEMENT_CMTS</ID>
+		<RECORD id="ddm_element_cmts.vendor_id001">
+			<DD_DATA_NAME id="ddm_element_cmts.vendor_id001">VENDOR_ID       </DD_DATA_NAME>
+			<DD_COMM_SEQ id="ddm_element_cmts.vendor_id001">001</DD_COMM_SEQ>
+			<DD_COMM_TEXT id="ddm_element_cmts.vendor_id001">this is a test comment</DD_COMM_TEXT>
 		</RECORD>
 	</ALIAS>
 </POE_LINKED>
