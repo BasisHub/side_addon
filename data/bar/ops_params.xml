@@ -19,9 +19,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.ops_params">6C86E4DEC7C6B455A88D2DC7EC930ABC</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ops_params">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ops_params">20080429</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ops_params">20101230</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ops_params">20110310</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ops_params">204340</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ops_params">20111013</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ops_params">20111013</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ops_params">220710</DD_LSTSYNC_TIME>
 			<DD_ATTR_ATAB id="ddm_tables.ops_params">ARS_PARAMS      </DD_ATTR_ATAB>
 			<DD_ATTR_CPGM id="ddm_tables.ops_params">/aon_dev/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ops_params">T</DD_ATTR_FTYP>
@@ -333,7 +333,7 @@
 			<DD_ATTR_DFLT id="ddm_table_cols.ops_params015">N</DD_ATTR_DFLT>
 			<DD_ATTR_MAXL id="ddm_table_cols.ops_params015">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ops_params015">Use Customer Job Numbers?</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.ops_params015">37</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.ops_params015">38</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ops_params016">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ops_params016">OPS_PARAMS      </DD_TABLE_ALIAS>
@@ -379,7 +379,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.ops_params018">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_MAXL id="ddm_table_cols.ops_params018">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ops_params018">Cash Sale?</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.ops_params018">38</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.ops_params018">25</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ops_params019">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ops_params019">OPS_PARAMS      </DD_TABLE_ALIAS>
@@ -391,10 +391,12 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ops_params019">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ops_params019">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ops_params019">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_ABLC id="ddm_table_cols.ops_params019">OPS_PARAMS.CASH_SALE</DD_ATTR_ABLC>
+			<DD_ATTR_ABLV id="ddm_table_cols.ops_params019">Y</DD_ATTR_ABLV>
 			<DD_ATTR_LABS id="ddm_table_cols.ops_params019">Cust ID</DD_ATTR_LABS>
 			<DD_ATTR_MAXL id="ddm_table_cols.ops_params019">6</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ops_params019">Customer Number</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.ops_params019">25</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.ops_params019">26</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ops_params020">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ops_params020">OPS_PARAMS      </DD_TABLE_ALIAS>
@@ -423,7 +425,7 @@
 			<DD_ATTR_CPGM id="ddm_table_cols.ops_params021">/aon_dev/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_MAXL id="ddm_table_cols.ops_params021">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ops_params021">Starting Comments Line Number</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.ops_params021">26</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.ops_params021">27</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ops_params022">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ops_params022">OPS_PARAMS      </DD_TABLE_ALIAS>
@@ -438,7 +440,7 @@
 			<DD_ATTR_CPGM id="ddm_table_cols.ops_params022">/aon_dev/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_MAXL id="ddm_table_cols.ops_params022">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ops_params022">Ending Comments Line Number</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.ops_params022">27</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.ops_params022">28</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ops_params023">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ops_params023">OPS_PARAMS      </DD_TABLE_ALIAS>
@@ -468,7 +470,7 @@
 			<DD_ATTR_CTLH id="ddm_table_cols.ops_params024">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.ops_params024">5</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ops_params024">Minimum Order Amount</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.ops_params024">30</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.ops_params024">31</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ops_params025">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ops_params025">OPS_PARAMS      </DD_TABLE_ALIAS>
@@ -484,7 +486,7 @@
 			<DD_ATTR_CTLH id="ddm_table_cols.ops_params025">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.ops_params025">5</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ops_params025">Minimum Line Amount</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.ops_params025">32</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.ops_params025">33</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ops_params026">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ops_params026">OPS_PARAMS      </DD_TABLE_ALIAS>
@@ -502,7 +504,7 @@
 			<DD_ATTR_CTLH id="ddm_table_cols.ops_params026">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.ops_params026">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ops_params026">Skip Line Code Entry?</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.ops_params026">34</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.ops_params026">35</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ops_params027">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ops_params027">OPS_PARAMS      </DD_TABLE_ALIAS>
@@ -518,7 +520,7 @@
 			<DD_ATTR_CTLH id="ddm_table_cols.ops_params027">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.ops_params027">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ops_params027">Line Code</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.ops_params027">35</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.ops_params027">36</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ops_params028">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ops_params028">OPS_PARAMS      </DD_TABLE_ALIAS>
@@ -582,7 +584,7 @@
 			<DD_ATTR_CTLH id="ddm_table_cols.ops_params031">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.ops_params031">5</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ops_params031">Minimum Cash Sale</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.ops_params031">33</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.ops_params031">34</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ops_params032">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ops_params032">OPS_PARAMS      </DD_TABLE_ALIAS>
@@ -713,7 +715,7 @@
 			<DD_ATTR_CTLH id="ddm_table_cols.ops_params040">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.ops_params040">3</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ops_params040"># of Days/Commit into Future</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.ops_params040">28</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.ops_params040">29</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ops_params041">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ops_params041">OPS_PARAMS      </DD_TABLE_ALIAS>
@@ -745,7 +747,7 @@
 			<DD_ATTR_LABS id="ddm_table_cols.ops_params042">Avg Lead Time</DD_ATTR_LABS>
 			<DD_ATTR_MAXL id="ddm_table_cols.ops_params042">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ops_params042">Default Number of Ship Days</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.ops_params042">31</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.ops_params042">32</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ops_params043">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ops_params043">OPS_PARAMS      </DD_TABLE_ALIAS>
@@ -788,7 +790,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.ops_params045">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_MAXL id="ddm_table_cols.ops_params045">8</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ops_params045">Last Committed Date</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.ops_params045">29</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.ops_params045">30</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ops_params046">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ops_params046">OPS_PARAMS      </DD_TABLE_ALIAS>
@@ -898,7 +900,7 @@
 			<DD_ATTR_CTLH id="ddm_table_cols.ops_params052">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABL id="ddm_table_cols.ops_params052">Default POS Station</DD_ATTR_LABL>
 			<DD_ATTR_MAXL id="ddm_table_cols.ops_params052">16</DD_ATTR_MAXL>
-			<DD_ATTR_TIND id="ddm_table_cols.ops_params052">36</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.ops_params052">37</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ops_params053">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ops_params053">OPS_PARAMS      </DD_TABLE_ALIAS>
@@ -913,7 +915,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.ops_params053">20100824</DD_LSTREV_DATE>
 			<DD_ATTR_COLW id="ddm_table_cols.ops_params053">0</DD_ATTR_COLW>
 			<DD_ATTR_CTLX id="ddm_table_cols.ops_params053">-29</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY id="ddm_table_cols.ops_params053">+1</DD_ATTR_CTLY>
+			<DD_ATTR_CTLY id="ddm_table_cols.ops_params053">+3</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.ops_params053">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ops_params053">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.ops_params053">N</DD_ATTR_MLAN>
@@ -1279,11 +1281,6 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.ops_paramsrate_maskw">OPS_PARAMS      </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ops_paramsrate_maskw">RATE_MASK       </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ops_paramsrate_maskw">W</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD id="ddm_column_opts.ops_paramsop_totals_warnk">
-			<DD_TABLE_ALIAS id="ddm_column_opts.ops_paramsop_totals_warnk">OPS_PARAMS      </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.ops_paramsop_totals_warnk">OP_TOTALS_WARN  </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.ops_paramsop_totals_warnk">k</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

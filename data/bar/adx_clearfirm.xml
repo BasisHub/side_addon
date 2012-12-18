@@ -18,10 +18,10 @@
 			<ASC_VERSION_ID id="ddm_tables.adx_clearfirm">11.0      </ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.adx_clearfirm">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.adx_clearfirm">20100423</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.adx_clearfirm">20110120</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.adx_clearfirm">20110310</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.adx_clearfirm">204342</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.adx_clearfirm">/aon_dev/aon/;</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.adx_clearfirm">20111017</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.adx_clearfirm">20111017</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.adx_clearfirm">222816</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.adx_clearfirm">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.adx_clearfirm">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.adx_clearfirm">[+DIR_PGM]adx_dummy.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.adx_clearfirm">Clear Firm from System</DD_ATTR_WINT>
@@ -99,7 +99,7 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.adx_clearfirm001">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.adx_clearfirm001">20100428</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.adx_clearfirm001">20100428</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.adx_clearfirm001">/aon_dev/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.adx_clearfirm001">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_COLW id="ddm_table_cols.adx_clearfirm001">0</DD_ATTR_COLW>
 			<DD_ATTR_CTLX id="ddm_table_cols.adx_clearfirm001">0</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_cols.adx_clearfirm001">0</DD_ATTR_CTLY>
@@ -120,7 +120,7 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.adx_clearfirm002">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.adx_clearfirm002">20100423</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.adx_clearfirm002">20100423</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.adx_clearfirm002">/aon_dev/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.adx_clearfirm002">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_COLW id="ddm_table_cols.adx_clearfirm002">0</DD_ATTR_COLW>
 			<DD_ATTR_CTLX id="ddm_table_cols.adx_clearfirm002">0</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_cols.adx_clearfirm002">0</DD_ATTR_CTLY>
@@ -141,7 +141,7 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.adx_clearfirm003">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.adx_clearfirm003">20100423</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.adx_clearfirm003">20100423</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.adx_clearfirm003">/aon_dev/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.adx_clearfirm003">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_COLW id="ddm_table_cols.adx_clearfirm003">0</DD_ATTR_COLW>
 			<DD_ATTR_CTLX id="ddm_table_cols.adx_clearfirm003">0</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_cols.adx_clearfirm003">0</DD_ATTR_CTLY>
@@ -168,19 +168,6 @@
 			<DD_TABLE_ALIAS id="ddm_column_cpro.adx_clearfirmfirm_id_entryaval">ADX_CLEARFIRM   </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_cpro.adx_clearfirmfirm_id_entryaval">FIRM_ID_ENTRY   </DD_DVAR_NAME>
 			<DD_ATTR_CPRO id="ddm_column_cpro.adx_clearfirmfirm_id_entryaval">AVAL</DD_ATTR_CPRO>
-		</RECORD>
-	</ALIAS>
-	<ALIAS id="ddm_column_opts">
-		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
-		<RECORD id="ddm_column_opts.adx_clearfirmasc_comp_idh">
-			<DD_TABLE_ALIAS id="ddm_column_opts.adx_clearfirmasc_comp_idh">ADX_CLEARFIRM   </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.adx_clearfirmasc_comp_idh">ASC_COMP_ID     </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.adx_clearfirmasc_comp_idh">H</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD id="ddm_column_opts.adx_clearfirmasc_prod_idh">
-			<DD_TABLE_ALIAS id="ddm_column_opts.adx_clearfirmasc_prod_idh">ADX_CLEARFIRM   </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.adx_clearfirmasc_prod_idh">ASC_PROD_ID     </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.adx_clearfirmasc_prod_idh">H</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

@@ -6,30 +6,78 @@
 			<DD_TABLE_ALIAS id="ddm_tables.sfs_params">SFS_PARAMS      </DD_TABLE_ALIAS>
 			<DD_ALIAS_DESC id="ddm_tables.sfs_params">Work Order Parameters</DD_ALIAS_DESC>
 			<DD_TABLE_PATH id="ddm_tables.sfs_params">[+SFDATA]</DD_TABLE_PATH>
-			<DD_ALIAS_TYPE id="ddm_tables.sfs_params">K</DD_ALIAS_TYPE>
+			<DD_ALIAS_TYPE id="ddm_tables.sfs_params">V</DD_ALIAS_TYPE>
 			<DD_KEY_LENGTH id="ddm_tables.sfs_params">0</DD_KEY_LENGTH>
 			<DD_NBR_RECORD id="ddm_tables.sfs_params">0</DD_NBR_RECORD>
 			<DD_RECORD_LEN id="ddm_tables.sfs_params">0</DD_RECORD_LEN>
 			<DD_SYSTEM_REC id="ddm_tables.sfs_params">N</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_tables.sfs_params">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.sfs_params">AD </ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.sfs_params">11.0      </ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.sfs_params">11.0</ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.sfs_params">BEA652722CD93E15234CED554BC1BE32</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.sfs_params">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.sfs_params">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.sfs_params">20110208</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.sfs_params">20110310</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.sfs_params">204338</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.sfs_params">20110930</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.sfs_params">20110930</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.sfs_params">223450</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.sfs_params">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.sfs_params">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.sfs_params">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.sfs_params">Work Order Parameters</DD_ATTR_WINT>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_cpro">
+		<ID id="ddm_table_cpro">DDM_TABLE_CPRO</ID>
+		<RECORD id="ddm_table_cpro.sfs_paramsadis">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.sfs_paramsadis">SFS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.sfs_paramsadis">ADIS</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_table_cpro.sfs_paramsarar">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.sfs_paramsarar">SFS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.sfs_paramsarar">ARAR</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_table_cpro.sfs_paramsarer">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.sfs_paramsarer">SFS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.sfs_paramsarer">ARER</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_table_cpro.sfs_paramsbsho">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.sfs_paramsbsho">SFS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.sfs_paramsbsho">BSHO</DD_ATTR_CPRO>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_tabg">
+		<ID id="ddm_table_tabg">DDM_TABLE_TABG</ID>
+		<RECORD id="ddm_table_tabg.sfs_params01">
+			<DD_TABLE_ALIAS id="ddm_table_tabg.sfs_params01">SFS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_ATTR_SEQ id="ddm_table_tabg.sfs_params01">01</DD_ATTR_SEQ>
+			<DD_ATTR_TABG id="ddm_table_tabg.sfs_params01">Interface Options</DD_ATTR_TABG>
+		</RECORD>
+		<RECORD id="ddm_table_tabg.sfs_params02">
+			<DD_TABLE_ALIAS id="ddm_table_tabg.sfs_params02">SFS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_ATTR_SEQ id="ddm_table_tabg.sfs_params02">02</DD_ATTR_SEQ>
+			<DD_ATTR_TABG id="ddm_table_tabg.sfs_params02">Payroll</DD_ATTR_TABG>
+		</RECORD>
+		<RECORD id="ddm_table_tabg.sfs_params03">
+			<DD_TABLE_ALIAS id="ddm_table_tabg.sfs_params03">SFS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_ATTR_SEQ id="ddm_table_tabg.sfs_params03">03</DD_ATTR_SEQ>
+			<DD_ATTR_TABG id="ddm_table_tabg.sfs_params03">Values</DD_ATTR_TABG>
+		</RECORD>
+		<RECORD id="ddm_table_tabg.sfs_params04">
+			<DD_TABLE_ALIAS id="ddm_table_tabg.sfs_params04">SFS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_ATTR_SEQ id="ddm_table_tabg.sfs_params04">04</DD_ATTR_SEQ>
+			<DD_ATTR_TABG id="ddm_table_tabg.sfs_params04">Employee</DD_ATTR_TABG>
+		</RECORD>
+		<RECORD id="ddm_table_tabg.sfs_params05">
+			<DD_TABLE_ALIAS id="ddm_table_tabg.sfs_params05">SFS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_ATTR_SEQ id="ddm_table_tabg.sfs_params05">05</DD_ATTR_SEQ>
+			<DD_ATTR_TABG id="ddm_table_tabg.sfs_params05">Labels</DD_ATTR_TABG>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_tpls">
 		<ID id="ddm_table_tpls">DDM_TABLE_TPLS</ID>
 		<RECORD id="ddm_table_tpls.sfs_params">
 			<DD_TABLE_ALIAS id="ddm_table_tpls.sfs_params">SFS_PARAMS      </DD_TABLE_ALIAS>
-			<DD_TABLE_TPL id="ddm_table_tpls.sfs_params">firm_id:c(2),sf:c(2),sequence_00:c(2*),empl_input:c(12*),empl_no_len:c(2),max_empl_no:c(2*),bm_interface:c(1),ar_interface:c(1),po_interface:c(1),pr_interface:c(1),label_across:c(2),label_length:c(2),label_width:c(2),pay_actstd:c(1),overhd_type:c(1),time_clk_flg:c(1),reserved_str:c(5),def_ovd_rate:c(6),time_entry_s:c(1),max_op_codes:c(2),print_costs:c(1),reserved_str_02:c(5*),current_per:c(2),current_year:c(4*),empl_output:c(12*),amount_mask:c(15*),unit_mask:c(12*),rate_mask:c(12*)</DD_TABLE_TPL>
+			<DD_TABLE_TPL id="ddm_table_tpls.sfs_params">firm_id:c(2),sf:c(2),sequence_00:c(2*),empl_input:c(12*),empl_no_len:c(2),max_empl_no:c(2*),bm_interface:c(1),ap_interface:c(1),po_interface:c(1),pr_interface:c(1),label_across:c(2),label_length:c(2),label_width:c(2),pay_actstd:c(1),overhd_type:c(1),time_clk_flg:c(1),reserved_str:c(5),def_ovd_rate:c(6),time_entry_s:c(1),max_op_codes:c(2),print_costs:c(1),reserved_str_02:c(5*),current_per:c(2),current_year:c(4*),empl_output:c(12*),amount_mask:c(15*),unit_mask:c(12*),rate_mask:c(12*)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_keys">
@@ -129,10 +177,11 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.sfs_params004">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.sfs_params004">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfs_params004">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_GHDR id="ddm_table_cols.sfs_params004">Employee</DD_ATTR_GHDR>
+			<DD_ATTR_CTLX id="ddm_table_cols.sfs_params004">+4</DD_ATTR_CTLX>
 			<DD_ATTR_LABL id="ddm_table_cols.sfs_params004">Employee # Mask - Input</DD_ATTR_LABL>
 			<DD_ATTR_MAXL id="ddm_table_cols.sfs_params004">12</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.sfs_params004">Employee Number Mask [Input]</DD_ATTR_PROM>
+			<DD_ATTR_TABG id="ddm_table_cols.sfs_params004">4</DD_ATTR_TABG>
 			<DD_ATTR_TIND id="ddm_table_cols.sfs_params004">17</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.sfs_params005">
@@ -174,22 +223,23 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.sfs_params007">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.sfs_params007">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfs_params007">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTLX id="ddm_table_cols.sfs_params007">+14</DD_ATTR_CTLX>
-			<DD_ATTR_GHDR id="ddm_table_cols.sfs_params007">Interface Options</DD_ATTR_GHDR>
 			<DD_ATTR_MAXL id="ddm_table_cols.sfs_params007">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.sfs_params007">Bill of Mat Interface Enabled?</DD_ATTR_PROM>
+			<DD_ATTR_TABG id="ddm_table_cols.sfs_params007">1</DD_ATTR_TABG>
 			<DD_ATTR_TIND id="ddm_table_cols.sfs_params007">4</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.sfs_params008">
 			<DD_TABLE_ALIAS id="ddm_table_cols.sfs_params008">SFS_PARAMS      </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_cols.sfs_params008">008</DD_SEQUENCE>
-			<DD_DATA_NAME id="ddm_table_cols.sfs_params008">AR_INTERFACE    </DD_DATA_NAME>
-			<DD_DVAR_NAME id="ddm_table_cols.sfs_params008">AR_INTERFACE    </DD_DVAR_NAME>
+			<DD_DATA_NAME id="ddm_table_cols.sfs_params008">AP_INTERFACE    </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.sfs_params008">AP_INTERFACE    </DD_DVAR_NAME>
 			<DD_COL_REPEATS id="ddm_table_cols.sfs_params008">0</DD_COL_REPEATS>
 			<DD_COL_OCCURS id="ddm_table_cols.sfs_params008">0</DD_COL_OCCURS>
 			<DD_FIELD_DELIM id="ddm_table_cols.sfs_params008">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.sfs_params008">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfs_params008">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.sfs_params008">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.sfs_params008">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.sfs_params008">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.sfs_params008">Accts Rec Interface Enabled?</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.sfs_params008">5</DD_ATTR_TIND>
@@ -232,9 +282,10 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.sfs_params011">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.sfs_params011">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfs_params011">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_GHDR id="ddm_table_cols.sfs_params011">Labels</DD_ATTR_GHDR>
+			<DD_ATTR_CTLX id="ddm_table_cols.sfs_params011">+2</DD_ATTR_CTLX>
 			<DD_ATTR_MAXL id="ddm_table_cols.sfs_params011">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.sfs_params011">Number of Labels Across</DD_ATTR_PROM>
+			<DD_ATTR_TABG id="ddm_table_cols.sfs_params011">5</DD_ATTR_TABG>
 			<DD_ATTR_TIND id="ddm_table_cols.sfs_params011">24</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.sfs_params012">
@@ -275,15 +326,16 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.sfs_params014">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.sfs_params014">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfs_params014">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLX id="ddm_table_cols.sfs_params014">+2</DD_ATTR_CTLX>
 			<DD_ATTR_CTLW id="ddm_table_cols.sfs_params014">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.sfs_params014">0</DD_ATTR_CTLH>
 			<DD_ATTR_DFLT id="ddm_table_cols.sfs_params014">A</DD_ATTR_DFLT>
-			<DD_ATTR_GHDR id="ddm_table_cols.sfs_params014">Payroll</DD_ATTR_GHDR>
 			<DD_ATTR_LABL id="ddm_table_cols.sfs_params014">Use Std or Actual PR</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_table_cols.sfs_params014">Use Std or Act PR</DD_ATTR_LABS>
 			<DD_ATTR_MINL id="ddm_table_cols.sfs_params014">1</DD_ATTR_MINL>
 			<DD_ATTR_MAXL id="ddm_table_cols.sfs_params014">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.sfs_params014">Use Payroll At Actual Or Std</DD_ATTR_PROM>
+			<DD_ATTR_TABG id="ddm_table_cols.sfs_params014">2</DD_ATTR_TABG>
 			<DD_ATTR_TIND id="ddm_table_cols.sfs_params014">8</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.sfs_params015">
@@ -312,6 +364,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.sfs_params016">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.sfs_params016">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfs_params016">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CPGM id="ddm_table_cols.sfs_params016">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_MAXL id="ddm_table_cols.sfs_params016">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.sfs_params016">Use Time Clock In Entry?</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.sfs_params016">10</DD_ATTR_TIND>
@@ -354,6 +407,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.sfs_params019">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.sfs_params019">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfs_params019">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CPGM id="ddm_table_cols.sfs_params019">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.sfs_params019">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.sfs_params019">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.sfs_params019">1</DD_ATTR_MAXL>
@@ -370,10 +424,11 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.sfs_params020">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.sfs_params020">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfs_params020">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_GHDR id="ddm_table_cols.sfs_params020">Values</DD_ATTR_GHDR>
+			<DD_ATTR_CTLX id="ddm_table_cols.sfs_params020">+3</DD_ATTR_CTLX>
 			<DD_ATTR_LABL id="ddm_table_cols.sfs_params020">Max Nbr of Op Codes per WO</DD_ATTR_LABL>
 			<DD_ATTR_MAXL id="ddm_table_cols.sfs_params020">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.sfs_params020">Max Nbr of Op Codes/Work Order</DD_ATTR_PROM>
+			<DD_ATTR_TABG id="ddm_table_cols.sfs_params020">3</DD_ATTR_TABG>
 			<DD_ATTR_TIND id="ddm_table_cols.sfs_params020">13</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.sfs_params021">
@@ -415,6 +470,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.sfs_params023">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.sfs_params023">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfs_params023">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CPGM id="ddm_table_cols.sfs_params023">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.sfs_params023">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.sfs_params023">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.sfs_params023">2</DD_ATTR_MAXL>
@@ -465,7 +521,6 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.sfs_params026">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.sfs_params026">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfs_params026">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_GHDR id="ddm_table_cols.sfs_params026">Masks</DD_ATTR_GHDR>
 			<DD_ATTR_MAXL id="ddm_table_cols.sfs_params026">15</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.sfs_params026">Amount Mask</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.sfs_params026">21</DD_ATTR_TIND>
@@ -501,6 +556,24 @@
 			<DD_ATTR_TIND id="ddm_table_cols.sfs_params028">23</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
+	<ALIAS id="ddm_column_cpro">
+		<ID id="ddm_column_cpro">DDM_COLUMN_CPRO</ID>
+		<RECORD id="ddm_column_cpro.sfs_paramstime_clk_flgbinp">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.sfs_paramstime_clk_flgbinp">SFS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.sfs_paramstime_clk_flgbinp">TIME_CLK_FLG    </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.sfs_paramstime_clk_flgbinp">BINP</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_column_cpro.sfs_paramstime_entry_saval">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.sfs_paramstime_entry_saval">SFS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.sfs_paramstime_entry_saval">TIME_ENTRY_S    </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.sfs_paramstime_entry_saval">AVAL</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_column_cpro.sfs_paramscurrent_peraval">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.sfs_paramscurrent_peraval">SFS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.sfs_paramscurrent_peraval">CURRENT_PER     </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.sfs_paramscurrent_peraval">AVAL</DD_ATTR_CPRO>
+		</RECORD>
+	</ALIAS>
 	<ALIAS id="ddm_column_opts">
 		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
 		<RECORD id="ddm_column_opts.sfs_paramsfirm_ido">
@@ -518,25 +591,25 @@
 			<DD_DVAR_NAME id="ddm_column_opts.sfs_paramssequence_00o">SEQUENCE_00     </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.sfs_paramssequence_00o">O</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD id="ddm_column_opts.sfs_paramspay_actstdo">
-			<DD_TABLE_ALIAS id="ddm_column_opts.sfs_paramspay_actstdo">SFS_PARAMS      </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.sfs_paramspay_actstdo">PAY_ACTSTD      </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.sfs_paramspay_actstdo">o</DD_ATTR_OPTS>
-		</RECORD>
 		<RECORD id="ddm_column_opts.sfs_paramsoverhd_typeo">
 			<DD_TABLE_ALIAS id="ddm_column_opts.sfs_paramsoverhd_typeo">SFS_PARAMS      </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.sfs_paramsoverhd_typeo">OVERHD_TYPE     </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.sfs_paramsoverhd_typeo">O</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD id="ddm_column_opts.sfs_paramsoverhd_typeo">
-			<DD_TABLE_ALIAS id="ddm_column_opts.sfs_paramsoverhd_typeo">SFS_PARAMS      </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.sfs_paramsoverhd_typeo">OVERHD_TYPE     </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.sfs_paramsoverhd_typeo">o</DD_ATTR_OPTS>
+		<RECORD id="ddm_column_opts.sfs_paramsamount_masko">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfs_paramsamount_masko">SFS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfs_paramsamount_masko">AMOUNT_MASK     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfs_paramsamount_masko">O</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD id="ddm_column_opts.sfs_paramstime_entry_so">
-			<DD_TABLE_ALIAS id="ddm_column_opts.sfs_paramstime_entry_so">SFS_PARAMS      </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.sfs_paramstime_entry_so">TIME_ENTRY_S    </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.sfs_paramstime_entry_so">o</DD_ATTR_OPTS>
+		<RECORD id="ddm_column_opts.sfs_paramsunit_masko">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfs_paramsunit_masko">SFS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfs_paramsunit_masko">UNIT_MASK       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfs_paramsunit_masko">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sfs_paramsrate_masko">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfs_paramsrate_masko">SFS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfs_paramsrate_masko">RATE_MASK       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfs_paramsrate_masko">O</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">
@@ -679,22 +752,27 @@
 			<DD_ATTR_LABL id="ddm_elements.bm_interface">Bill of Mat Interface Enabled?</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.bm_interface">BOM Interface?</DD_ATTR_LABS>
 		</RECORD>
-		<RECORD id="ddm_elements.ar_interface">
-			<DD_DATA_NAME id="ddm_elements.ar_interface">AR_INTERFACE    </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.ar_interface">Accts Rec Interface Enabled?  </DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.ar_interface">C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.ar_interface">1</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.ar_interface"> </DD_MASK_TYPE>
-			<ASC_COMP_ID id="ddm_elements.ar_interface">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.ar_interface">SF </ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.ar_interface">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.ar_interface">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CDAT id="ddm_elements.ar_interface">Y;N</DD_ATTR_CDAT>
-			<DD_ATTR_CTYP id="ddm_elements.ar_interface">C</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM id="ddm_elements.ar_interface">            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP id="ddm_elements.ar_interface">            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL id="ddm_elements.ar_interface">Accts Rec Interface Enabled?</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.ar_interface">AR Interface?</DD_ATTR_LABS>
+		<RECORD id="ddm_elements.ap_interface">
+			<DD_DATA_NAME id="ddm_elements.ap_interface">AP_INTERFACE    </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.ap_interface">Accts Pay Interface Enabled?</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.ap_interface">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.ap_interface">1</DD_DATA_LENGTH>
+			<ASC_COMP_ID id="ddm_elements.ap_interface">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.ap_interface">SF </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.ap_interface">20110916</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.ap_interface">20110916</DD_LSTREV_DATE>
+			<DD_ATTR_CDAT id="ddm_elements.ap_interface">Y;N</DD_ATTR_CDAT>
+			<DD_ATTR_CTLW id="ddm_elements.ap_interface">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.ap_interface">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.ap_interface">C</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.ap_interface">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.ap_interface">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.ap_interface">Accts Pay Interface Enabled?</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.ap_interface">AP Interface?</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.ap_interface">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.ap_interface">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.ap_interface">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.ap_interface">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.po_interface">
 			<DD_DATA_NAME id="ddm_elements.po_interface">PO_INTERFACE    </DD_DATA_NAME>

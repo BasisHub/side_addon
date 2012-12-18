@@ -16,9 +16,9 @@
 			<ASC_VERSION_ID id="ddm_tables.bmr_detaillist">11.0      </ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.bmr_detaillist">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.bmr_detaillist">20080212</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.bmr_detaillist">20110627</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.bmr_detaillist">20110627</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.bmr_detaillist">131302</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.bmr_detaillist">20110913</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.bmr_detaillist">20110913</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.bmr_detaillist">141334</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.bmr_detaillist">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.bmr_detaillist">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.bmr_detaillist">[+DIR_PGM]bmr_detail.aon</DD_ATTR_PRUN>
@@ -27,9 +27,17 @@
 	</ALIAS>
 	<ALIAS id="ddm_table_cpro">
 		<ID id="ddm_table_cpro">DDM_TABLE_CPRO</ID>
+		<RECORD id="ddm_table_cpro.bmr_detaillistarec">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.bmr_detaillistarec">BMR_DETAILLIST  </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.bmr_detaillistarec">AREC</DD_ATTR_CPRO>
+		</RECORD>
 		<RECORD id="ddm_table_cpro.bmr_detaillistasva">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.bmr_detaillistasva">BMR_DETAILLIST  </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.bmr_detaillistasva">ASVA</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_table_cpro.bmr_detaillistbsho">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.bmr_detaillistbsho">BMR_DETAILLIST  </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.bmr_detaillistbsho">BSHO</DD_ATTR_CPRO>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_opts">
@@ -59,6 +67,7 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.bmr_detaillist001">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.bmr_detaillist001">20080212</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.bmr_detaillist001">20080212</DD_LSTREV_DATE>
+			<DD_ATTR_CPGM id="ddm_table_cols.bmr_detaillist001">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLX id="ddm_table_cols.bmr_detaillist001">0</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_cols.bmr_detaillist001">0</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.bmr_detaillist001">160</DD_ATTR_CTLW>
@@ -108,6 +117,35 @@
 			<DD_ATTR_TIND id="ddm_table_cols.bmr_detaillist003">3</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
+	<ALIAS id="ddm_table_disp">
+		<ID id="ddm_table_disp">DDM_TABLE_DISP</ID>
+		<RECORD id="ddm_table_disp.bmr_detaillist001">
+			<DD_TABLE_ALIAS id="ddm_table_disp.bmr_detaillist001">BMR_DETAILLIST  </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.bmr_detaillist001">001</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.bmr_detaillist001">ITEM_DESC       </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.bmr_detaillist001">BEG_DESC        </DD_CTRL_NAME>
+			<DD_ATTR_CTLX id="ddm_table_disp.bmr_detaillist001">+17</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.bmr_detaillist001">-4</DD_ATTR_CTLY>
+			<DD_ATTR_CTLH id="ddm_table_disp.bmr_detaillist001">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.bmr_detaillist001">4</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.bmr_detaillist002">
+			<DD_TABLE_ALIAS id="ddm_table_disp.bmr_detaillist002">BMR_DETAILLIST  </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.bmr_detaillist002">002</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.bmr_detaillist002">ITEM_DESC       </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.bmr_detaillist002">END_DESC        </DD_CTRL_NAME>
+			<DD_ATTR_CTLH id="ddm_table_disp.bmr_detaillist002">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.bmr_detaillist002">5</DD_ATTR_TIND>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_column_cpro">
+		<ID id="ddm_column_cpro">DDM_COLUMN_CPRO</ID>
+		<RECORD id="ddm_column_cpro.bmr_detaillistbill_noaval">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.bmr_detaillistbill_noaval">BMR_DETAILLIST  </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.bmr_detaillistbill_noaval">BILL_NO         </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.bmr_detaillistbill_noaval">AVAL</DD_ATTR_CPRO>
+		</RECORD>
+	</ALIAS>
 	<ALIAS id="ddm_column_opts">
 		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
 		<RECORD id="ddm_column_opts.bmr_detaillistbill_no1">
@@ -130,6 +168,16 @@
 			<DD_DVAR_NAME id="ddm_column_opts.bmr_detaillistprod_date3">PROD_DATE       </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.bmr_detaillistprod_date3">3</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.bmr_detaillistbeg_descc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.bmr_detaillistbeg_descc">BMR_DETAILLIST  </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.bmr_detaillistbeg_descc">BEG_DESC        </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.bmr_detaillistbeg_descc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.bmr_detaillistend_descc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.bmr_detaillistend_descc">BMR_DETAILLIST  </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.bmr_detaillistend_descc">END_DESC        </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.bmr_detaillistend_descc">C</DD_ATTR_OPTS>
+		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">
 		<ID id="ddm_elements">DDM_ELEMENTS</ID>
@@ -138,16 +186,14 @@
 			<DD_DESCRIPTION id="ddm_elements.rpt_bill_no">Bill of Materials Number</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.rpt_bill_no">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.rpt_bill_no">20</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.rpt_bill_no"> </DD_MASK_TYPE>
 			<ASC_COMP_ID id="ddm_elements.rpt_bill_no">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_elements.rpt_bill_no">BM </ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.rpt_bill_no">20080312</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.rpt_bill_no">20080314</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.rpt_bill_no">20110913</DD_LSTREV_DATE>
 			<DD_AUTO_COMP id="ddm_elements.rpt_bill_no">N</DD_AUTO_COMP>
 			<DD_ATTR_CTLW id="ddm_elements.rpt_bill_no">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_elements.rpt_bill_no">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.rpt_bill_no">E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOL id="ddm_elements.rpt_bill_no">BILL_NO</DD_ATTR_DCOL>
 			<DD_ATTR_DCOM id="ddm_elements.rpt_bill_no">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.rpt_bill_no">            </DD_ATTR_DEXP>
 			<DD_ATTR_DKEY id="ddm_elements.rpt_bill_no">[+FIRM_ID]+@</DD_ATTR_DKEY>
@@ -194,6 +240,28 @@
 			<DD_ATTR_DEXP id="ddm_elements.include_comm">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.include_comm">Include Committed?</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.include_comm">Include Committed?</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.item_desc">
+			<DD_DATA_NAME id="ddm_elements.item_desc">ITEM_DESC       </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.item_desc">Inventory Item Description</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.item_desc">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.item_desc">60</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.item_desc"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.item_desc">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.item_desc">IV </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.item_desc">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.item_desc">20061030</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.item_desc">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.item_desc">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.item_desc">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.item_desc">Inventory Item Description</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.item_desc">IV Item Desc</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.item_desc">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.item_desc">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.item_desc">0</DD_ATTR_MINL>
+			<DD_ATTR_PADC id="ddm_elements.item_desc">20</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.item_desc">L</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.item_desc">0</DD_ATTR_PREC>
 		</RECORD>
 	</ALIAS>
 </BMR_DETAILLIST>

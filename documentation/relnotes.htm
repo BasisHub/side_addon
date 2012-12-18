@@ -63,7 +63,7 @@
 		<a name="TOP" id="TOP"></a>
 		<center>
 			<br />
-            <span class="title">RELNOTES for AddonSoftware 11.10</span>
+            <span class="title">RELNOTES for AddonSoftware 11.11</span>
 		</center>
 		<br />
 
@@ -115,10 +115,10 @@
 		<br />
 		<div class="indent1">
 			<br />
-			Version 11.10 takes advantage of the technological advancements provided by Barista&reg; and BBj&reg; to deliver an innovative software package known for its structural quality. Together with Barista, Version 11.10 offers a leap forward in the efficiency of software customization and the creation of vertical applications. AddonSoftware
+			Version 11.11 takes advantage of the technological advancements provided by Barista&reg; and BBj&reg; to deliver an innovative software package known for its structural quality. Together with Barista, Version 11.11 offers a leap forward in the efficiency of software customization and the creation of vertical applications. AddonSoftware
 continues its 25-year history of constant improvement - additional features, increased functionality, and updated technology - in this release.
 			<ul>
-			<li>New for version 11.10
+			<li>New for version 11.11
 			<br />
 				<ul>
 				<li>Three new graphical reports have been added to the Accounts Receivable => Reports menu. These reports are all graphical, but each one takes a different approach, demonstrating how you can harness the power of BBj, java and JasperReports. </li>
@@ -133,7 +133,6 @@ continues its 25-year history of constant improvement - additional features, inc
                 <li>Enhanced AR Invoice drilldown in Customer Master that takes advantage of Barista drilldown filtering capability to display only open invoices.</li>
                 <li>The AddonSoftware Installation and Upgrade Wizard (AIUW) automates the install and upgrade process, eliminating manual copy/pasting and configuration file edits. All of these programs are located in the AddonSoftware Administration => Utilities => Install/Upgrade Utilities menu. </li>
 					<ul>
-                        <li>Graphical Front-end to the AIUW for new Addon Installations: For new Addon installations, the Install Wizard saves time by consolidating the Copy aon Directory, Update addon.syn File, and Update sync XML Files utilities into one seamless step.</li>                    
 						<li>Copy aon Directory: Copies the aon directory from the download location to a specified new location.</li>
 						<li>Update addon.syn File: Updates paths in the specified .syn file to reflect the new aon location and location of data files.</li>
 						<li>Update sync XML Files: Recovers administrative data (masks, messages, sequence numbers, etc.) previously backed up into the sync directory, and updates paths in admin_modules*.xml files to the new location.</li>
@@ -146,6 +145,16 @@ continues its 25-year history of constant improvement - additional features, inc
 			<li>Preview for version 12.00
 			<br />
 				<ul>
+                    <li>AddonSoftware Install and Upgrade Wizard: New Graphical Interfaces</li>
+                    <ul>
+                        <li>Install Wizard: For new Addon installations, the Install Wizard saves time by consolidating the Copy aon Directory, Update addon.syn File, and Update sync XML Files utilities into one seamless step.</li>                    
+                        <li>Upgrade Wizard: For upgrading existing Addon Installations, the Upgrade Wizard consolidates the Copy aon Directory, Update addon.syn File, and Update sync XML Files utilities, merging in data from the prior installation to preserve settings. It also installs a new copy of Barista and runs the Auto-Sync process.</li>
+                    </ul>
+                    <li>Order/Invoice Entry - A new field in the Sales Order Processing parameter record provides control over whether or not users are warned or focus is forced onto the Totals tab to re-evaluate Freight and Discount amounts when changing existing line items.</li>
+                    <li>GL Report Format Listing - Prints a listing of heading and detail information for a financial report. It can be used for reference or as a worksheet for maintaining a financial report.</li>
+                    <li>Demo/Eval "nag" - Uses a Barista Auto-launch process to warn when Addon is launched from the BASIS product download location. Addon should only be launched/run from the BASIS product download location for demos/evals.</li>
+                    <li>Inventory Costing Report -  Provides an exploded listing of Bills of Materials, including costs rolled up from the lowest level component to the highest assembly.</li>
+                    <li>Inventory Costing Update - Updates Inventory Master and Bill of Material costs by first updating component costs and then using those costs to update higher levels through to the highest assembly.</li>
                     <li>Bill of Materials Module</li>
                     <ul>
                         <li>Inventory Production Entry – Allows input of items that are assembled or produced according to the BOM Master file.</li>
@@ -167,8 +176,10 @@ continues its 25-year history of constant improvement - additional features, inc
                             <li>Comments – Allows entry of comments associated with the BOM.</li>
                             <li>Subcontracts – Allows entry of information of any outside contracting work associated with the BOM.</li>
                         </ul>
-                        <li>Purge Obsolete Detail Lines – Purges detail lines from each BOM that have an Obsolete date prior, or equal to, the Purge Date selected.</li>                    
-                    </ul>
+                        <li>Purge Obsolete Detail Lines – Purges detail lines from each BOM that have an Obsolete date prior, or equal to, the Purge Date selected.</li> 
+                        <li>Bill Detail Exception Report - Lists linkage anomalies between material component lines and operation or subcontractor lines (e.g., a subcontract line linking to a comment instead of to an item.</li>
+                        <li>Component Item Replacement - Replaces a specified component, for a bill or range of bills, with another component based on effective and obsolete dates.</li>
+                   </ul>
 				</ul>
 			</li>            
 			<br />				
@@ -181,7 +192,7 @@ continues its 25-year history of constant improvement - additional features, inc
 		<span class="style1"><a name="KNOWNISSUES" id="KNOWNISSUES">3. KNOWN ISSUES</a></span><span class="style6"><a href="#TOP">(top of page)</a></span>
 		<div class="indent1">
 			<ul>
-				<li>BBj version 11.10 or higher and the Barista Application Framework version 11.10 or higher are both required to run AddonSoftware version 11.10. Earlier versions may produce unexpected results</li>
+				<li>BBj version 11.11 or higher and the Barista Application Framework version 11.11 or higher are both required to run AddonSoftware version 11.11. Earlier versions may produce unexpected results</li>
 				<li>When running under Linux, the KDE desktop environment must be used.</li>
 			</ul>
 
@@ -193,7 +204,7 @@ continues its 25-year history of constant improvement - additional features, inc
 		If you purchased your AddonSoftware product from a distributor, reseller, or OEM, please contact them for technical support. They will answer your question or contact us on your behalf.	
 		<br />
 		<br />
-		Technical support for version 11.10 is available via e-mail at <a href="mailto:addon-developer@addonsoftware.com">addon-developer@addonsoftware.com</a>.
+		Technical support for version 11.11 is available via e-mail at <a href="mailto:addon-developer@addonsoftware.com">addon-developer@addonsoftware.com</a>.
 		<br />
 		<br />
 		When submitting a technical support question, please provide the following information: 	

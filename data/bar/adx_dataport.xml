@@ -18,10 +18,10 @@
 			<ASC_VERSION_ID id="ddm_tables.adx_dataport">11.0      </ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.adx_dataport">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.adx_dataport">20100121</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.adx_dataport">20100225</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.adx_dataport">20110310</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.adx_dataport">204344</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.adx_dataport">/apps/aon/;</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.adx_dataport">20111026</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.adx_dataport">20110425</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.adx_dataport">111458</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.adx_dataport">C:/aon_dev/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.adx_dataport">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.adx_dataport">[+DIR_PGM]DataPort_main.bbj</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.adx_dataport">Dataport Utility</DD_ATTR_WINT>
@@ -102,7 +102,7 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.adx_dataport002">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.adx_dataport002">20100121</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.adx_dataport002">20100121</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.adx_dataport002">/apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.adx_dataport002">C:/aon_dev/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_COLW id="ddm_table_cols.adx_dataport002">0</DD_ATTR_COLW>
 			<DD_ATTR_CTLX id="ddm_table_cols.adx_dataport002">0</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_cols.adx_dataport002">0</DD_ATTR_CTLY>
@@ -126,7 +126,7 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.adx_dataport003">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.adx_dataport003">20100121</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.adx_dataport003">20100121</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.adx_dataport003">/apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.adx_dataport003">C:/aon_dev/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_COLW id="ddm_table_cols.adx_dataport003">0</DD_ATTR_COLW>
 			<DD_ATTR_CTLX id="ddm_table_cols.adx_dataport003">0</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_cols.adx_dataport003">0</DD_ATTR_CTLY>
@@ -151,14 +151,6 @@
 			<DD_TABLE_ALIAS id="ddm_column_cpro.adx_dataporttarget_diraval">ADX_DATAPORT    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_cpro.adx_dataporttarget_diraval">TARGET_DIR      </DD_DVAR_NAME>
 			<DD_ATTR_CPRO id="ddm_column_cpro.adx_dataporttarget_diraval">AVAL</DD_ATTR_CPRO>
-		</RECORD>
-	</ALIAS>
-	<ALIAS id="ddm_column_opts">
-		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
-		<RECORD id="ddm_column_opts.adx_dataportaddon_versionk">
-			<DD_TABLE_ALIAS id="ddm_column_opts.adx_dataportaddon_versionk">ADX_DATAPORT    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.adx_dataportaddon_versionk">ADDON_VERSION   </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.adx_dataportaddon_versionk">k</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

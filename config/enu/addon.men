@@ -31,7 +31,7 @@ Accounts Payable^APMENU^M^^^im_menua_accts_payable.png^N^01007514^AP^Accounts_Pa
 		Buyer Codes^IVC_BUYCODEAP^T^IVC_BUYCODE^^im_menui_table.png^^01007514^AP^Buyer_Code_Maintenance^11.0^^
 		Recurring Invoice Entry^APE_RECURRINGHDR^T^APE_RECURRINGHDR^^im_menui_table.png^N^01007514^AP^Recurring_Invoice_Entry7^11.0^^
 		Recurring Invoice Register^APR_RECURRING^T^APR_RECURRING^^im_menui_report.png^N^01007514^AP^Recurring_Invoice_Register^11.0^^
-		Parameters^APMENU_PARAMS^G^APS_PARAMS^^im_node_col.png^N^01007514^AP^AP_Parameter_Maintenance^11.0^^
+		Parameters^APMENU_PARAMS^G^^^im_node_col.png^N^01007514^AP^AP_Parameter_Maintenance^11.0^^
 			Application Parameters^APS_PARAMS^T^APS_PARAMS^^im_menui_parameter.png^N^01007514^AP^Application_Parameters^11.0^^
 			Report Parameters^APS_REPORT^T^APS_REPORT^^im_menui_parameter.png^N^01007514^AP^Report_Parameters^11.0^^
 Accounts Receivable^ARMENU^M^^^im_menua_accts_receivable.png^N^01007514^AR^Accounts_Receivable_Main_Menu^11.0^^
@@ -78,7 +78,7 @@ Accounts Receivable^ARMENU^M^^^im_menua_accts_receivable.png^N^01007514^AR^Accou
 		Sales Discount Codes^OPC_DISCCODEAR^T^OPC_DISCCODE^^im_menui_table.png^N^01007514^AR^Sale_Discount_Code_Maintenance13^11.0^^
 		Cash Receipt Codes^ARC_CASHCODE^T^ARC_CASHCODE^^im_menui_table.png^N^01007514^AR^Cash_Receipts_Code_Maintenance7^11.0^^
 		Cycle Codes^ARM_CYCLECOD^T^ARM_CYCLECOD^^im_menui_table.png^N^01007514^AR^Cycle_Codes_Maintenance^11.0^^
-		Parameters^ARMENU_PARAMS^G^ARS_PARAMS^^im_node_col.png^N^01007514^AR^AR_Parameter_Maintenance_Main_Menu^11.0^^
+		Parameters^ARMENU_PARAMS^G^^^im_node_col.png^N^01007514^AR^AR_Parameter_Maintenance_Main_Menu^11.0^^
 			Application Parameters^ARS_PARAMS^T^ARS_PARAMS^^im_menui_parameter.png^N^01007514^AR^Application_Parameters1^11.0^^
 			Report Parameters^ARS_REPORT^T^ARS_REPORT^^im_menui_parameter.png^N^01007514^AR^Report_Parameters15^11.0^^
 			New Customer Defaults^ARS_CUSTDFLT^T^ARS_CUSTDFLT^^im_menui_parameter.png^N^01007514^AR^New_Customer_Defaults^11.0^^
@@ -89,26 +89,26 @@ Accounts Receivable^ARMENU^M^^^im_menua_accts_receivable.png^N^01007514^AR^Accou
 		Invoice Date Modification Entry^ARE_DATECHANGE^T^ARE_DATECHANGE^^im_menui_table.png^N^01007514^AR^Invoice_Date_Modification_Entry7^11.0^^
 		Invoice Date Modification Register^ARR_DATEREGISTER^A^ARR_DATEREGISTER^[+DIR_PGM]arr_dateregister.aon^im_menui_report.png^N^01007514^AR^Invoice_Date_Modification_Register7^11.0^^
 Bill Of Materials^BMMENU^M^^^im_menua_bill_of_materials.png^N^01007514^BM^^11.0^^
-	Production Entry^BME_PRODUCT^T^BME_PRODUCT^bme_aa.aon^im_menui_table.png^^01007514^BM^^11.0^^
-	Inventory Production Register^BMR_HA^T^^bmr_ha.aon^im_menui_report.png^N^01007514^BM^^11.0^^
+	Inventory Production Entry^BME_PRODUCT^T^BME_PRODUCT^bme_aa.aon^im_menui_table.png^^01007514^BM^^11.0^^
+	Inventory Production Register^BMR_HA^A^^bmr_invproduction.aon^im_menui_report.png^^01007514^BM^^11.0^^
 	Order Production Entry^BME_ORDER^T^BME_ORDER^bme_ba.aon^im_menui_table.png^^01007514^BM^^11.0^^
-	Order Production Register^BMR_JA^T^^bmr_ja.aon^im_menui_report.png^N^01007514^BM^^11.0^^
+	Order Production Register^BMR_ORDPRODUCTION^A^^bmr_ordproduction.aon^im_menui_report.png^^01007514^BM^^11.0^^
 	Reports^BMMENU_REPORTS^G^^^im_node_col.png^Y^01007514^BM^^11.0^^
 		Packing List^BMR_PACKINGLIST^T^BMR_PACKINGLIST^bmr_packinglist.aon^im_menui_report.png^^01007514^BM^BMR_PACKINGLIST^11.0^^
 		Material Where Used Listing^BMR_MATERIALUSED^T^BMR_MATERIALUSED^bmr_ba.aon^im_menui_report.png^^01007514^BM^^11.0^^
 		Operations Where Used Listing^BMR_OPLIST^T^BMR_OPLIST^bmr_da.aon^im_menui_report.png^^01007514^BM^^11.0^^
 		Bill of Materials Indented Bills^BMR_INDENTEDBILL^T^BMR_INDENTEDBILL^bmr_za.aon^im_menui_report.png^^01007514^BM^^11.0^^
 		Bill of Materials Detail Listing^BMR_DETAILLIST^T^BMR_DETAILLIST^bmr_aa.aon^im_menui_report.png^^01007514^BM^^11.0^^
-		Inventory Costing^BMR_INVCOST^T^BMR_INVCOST^bmr_fa.aon^im_menui_report.png^^01007514^BM^^11.0^^
+		BOM Costing Report^BMR_COSTING^T^BMR_COSTING^bmr_fa.aon^im_menui_report.png^^01007514^BM^^1.0^^
 	Maintenance^BMMENU_MAINT^G^^^im_node_col.png^Y^01007514^BM^^11.0^^
 		Bill Of Materials Masters^BMM_BILLMAST^T^BMM_BILLMAST^^im_menui_table.png^N^01007514^BM^^11.0^^
+		BOM Inventory Costing Update^BMU_IVCOSTING^T^BMU_IVCOSTING^^im_menui_update.png^^01007514^BM^^1.0^^
 		Operation Codes^BMC_OPCODES^T^BMC_OPCODES^^im_menui_table.png^N^01007514^BM^^11.0^^
 		Purge Obsolete Lines^BMU_PRGOBSDET^T^BMU_PRGOBSDET^bmu_ba.aon^im_menui_update.png^^01007514^BM^^11.0^^
-		Component Item Replacement^BMU_DA^T^^bmu_da.aon^im_menui_table.png^N^01007514^BM^^11.0^^
-		BM  System Parameters^BMS_PARAMS^T^BMS_PARAMS^bmp_aa.aon^im_menui_parameter.png^^01007514^AD^^11.0^^
+		Component Item Replacement^BMU_COMPREPLACE^T^BMU_COMPREPLACE^bmu_compreplace.aon^im_menui_update.png^^01007514^BM^^11.0^^
+		Parameters^0000002840^G^^^im_node_col.png^^01007514^BM^^11.0^^
+			Application Parameters^BMS_PARAMS^T^BMS_PARAMS^^im_menui_parameter.png^^01007514^AD^^11.0^^
 	Utilities^BMMENU_UTILITIES^G^^^im_menua_miscellaneous.png^N^01007514^BM^^11.0^^
-		Rebuild Cross References^BMX_CROSSREF^A^BMX_CROSSREF^^im_menui_utility.png^N^01007514^BM^^11.0^^
-		Resequence Detail Lines^BMX_RESEQDTL^T^BMX_RESEQDTL^^im_menui_utility.png^N^01007514^BM^^11.0^^
 		Detail Exception Report^BMR_DTLEXCEPT^T^BMR_DTLEXCEPT^^im_menui_report.png^^01007514^BM^^11.0^^
 General Ledger^GLMENU^M^^^im_menua_gen_ledger.png^N^01007514^GL^General_Ledger_Main_Menu^11.0^^
 	Journal Entry^GLE_JRNLHDR^T^GLE_JRNLHDR^^im_menui_table.png^N^01007514^GL^Journal_Entry7^11.0^^
@@ -155,7 +155,7 @@ General Ledger^GLMENU^M^^^im_menua_gen_ledger.png^N^01007514^GL^General_Ledger_M
 		Cycle Codes^GLC_CYCLECODE^T^GLC_CYCLECODE^^im_menui_table.png^N^01007514^GL^Cycle_Code_Maintenance7^11.0^^
 		Recurring Journal Entry^GLE_RECJEHDR^T^GLE_RECJEHDR^^im_menui_table.png^^01007514^GL^Recurring_Journal_Entry_Header7^11.0^^
 		Recurring Journal Entry Register^GLR_RECURRING^T^GLR_RECURRING^^im_menui_report.png^N^01007514^GL^Recurring_Journal_Entry_Register7^11.0^^
-		Parameters^GLMENU_PARAMS^G^ARS_PARAMS^^im_node_col.png^N^01007514^GL^GL_Parameters_Main_Menu^11.0^^
+		Parameters^GLMENU_PARAMS^G^^^im_node_col.png^N^01007514^GL^GL_Parameters_Main_Menu^11.0^^
 			Application Parameters^GLS_PARAMS^T^GLS_PARAMS^^im_menui_parameter.png^N^01007514^GL^Application_Parameters2^11.0^^
 			Fiscal Calendar^GLS_CALENDAR^T^GLS_CALENDAR^^im_menui_parameter.png^N^01007514^GL^Fiscal_Calendar^11.0^^
 			Suspense Account^GLS_SUSPENSE^T^GLS_SUSPENSE^^im_menui_parameter.png^N^01007514^GL^Suspense_Account^11.0^^
@@ -223,7 +223,7 @@ Inventory Control^IVMENU^M^^^im_menua_inventory.png^N^01007514^IV^Inventory_Cont
 		Warehouses^IVC_WHSECODE^T^IVC_WHSECODE^^im_menui_table.png^N^01007514^IV^Warehouse_Code_Maintenance^11.0^^
 		Item Classes^IVC_CLASCODE^T^IVC_CLASCODE^^im_menui_table.png^^01007514^IV^Item_Class_Maintenance^11.0^^
 		Item Types^IVC_TYPECODE^T^IVC_TYPECODE^ivm_ga.aon^im_menui_table.png^^01007514^IV^Item_Type_Maintenance^11.0^^
-		Parameters^IVMENU_PARAMS^G^ARS_PARAMS^^im_node_col.png^N^01007514^IV^Inventory_Control_Parameter_Maintenance^11.0^^
+		Parameters^IVMENU_PARAMS^G^^^im_node_col.png^N^01007514^IV^Inventory_Control_Parameter_Maintenance^11.0^^
 			Application Parameters^IV_APPPARAMS^T^IVS_PARAMS^^im_menui_parameter.png^N^01007514^IV^Application_Parameters3^11.0^^
 			Inventory Factors^IVS_SETCARRY^T^IVS_SETCARRY^^im_menui_parameter.png^N^01007514^IV^Inventory_Factors^11.0^^
 			Item Default Values^IVS_DEFAULTS^T^IVS_DEFAULTS^^im_menui_parameter.png^N^01007514^IV^Item_Default_Values^11.0^^
@@ -315,7 +315,7 @@ Payroll^PRMENU^M^^^im_menua_payroll.png^N^01007514^PR^^11.0^^
 		Title Codes^PRC_TITLCODE^T^PRC_TITLCODE^^im_menui_table.png^N^01007514^PR^^11.0^^
 		Total Codes^PRC_TOTLCODE^T^PRC_TOTLCODE^^im_menui_table.png^N^01007514^PR^^11.0^^
 		Union Code^PRC_UNNCODE^T^PRC_UNNCODE^prm_ja.aon^im_menui_table.png^N^01007514^PR^^11.0^^
-		Parameters^PRMENU_MPARAMS^G^ARS_PARAMS^^im_node_col.png^N^01007514^PR^^11.0^^
+		Parameters^PRMENU_MPARAMS^G^^^im_node_col.png^N^01007514^PR^^11.0^^
 			Application Parameters^PRS_PARAMS^T^PRS_PARAMS^^im_menui_parameter.png^N^01007514^PR^^11.0^^
 			Report Parameters^PRS_REPORT^T^PRS_REPORT^^im_menui_parameter.png^N^01007514^PR^^11.0^^
 		Employee Conversion Entry^PRX_EMPLCONV^T^PRX_EMPLCONV^^im_menui_table.png^N^01007514^PR^^11.0^^
@@ -357,7 +357,7 @@ Purchase Order Processing^POMENU^M^^^im_menua_purch_orders.png^N^01007514^PO^Pur
 		Purchase Order Line Codes^POC_LINECODE^T^POC_LINECODE^ope_ca.aon^im_menui_table.png^N^01007514^PO^Purchase_Order_Line_Code_Maintenance^11.0^^
 		Message Codes^POC_MSGCODE^T^POC_MSGCODE^^im_menui_table.png^N^01007514^PO^Message_Code_Maintenance^11.0^^
 		QA Receipt Rejection Codes^POC_REJCTCOD^T^POC_REJCTCOD^pom_fa.aon^im_menui_table.png^N^01007514^PO^Rejection_Code_Maintenance^11.0^^
-		Parameters^POMENU_PARAMS^G^ARS_PARAMS^^im_node_col.png^N^01007514^PO^Parameter_Maintenance1^11.0^^
+		Parameters^POMENU_PARAMS^G^^^im_node_col.png^N^01007514^PO^Parameter_Maintenance1^11.0^^
 			Application Parameters^PO_APP_PARAMS^T^POS_PARAMS^^im_menui_parameter.png^N^01007514^PO^^11.0^^
 	Utilities^POMENU_UTILITIES^G^^^im_menua_miscellaneous.png^N^01007514^PO^^11.0^^
 		Remove Unlinked Detail Lines^POX_UNLINKED^A^^[+DIR_PGM]pox_unlinked.aon^im_menui_utility.png^N^01007514^PO^^11.0^^
@@ -410,9 +410,6 @@ Sales Order Processing^OPMENU^M^^^im_menua_order_proc.png^N^01007514^OP^Sales_Or
 		Order Status Report By Item^OPR_ITEMSTATUS^T^OPR_ITEMSTATUS^^im_menui_report.png^N^01007514^OP^Order_Status_Report_By_Item^11.0^^
 		Shipping Schedule Report^OPR_SHIPPINGR^T^OPR_SHIPPINGR^^im_menui_report.png^N^01007514^OP^Shipping_Schedule_Report^11.0^^
 		Customer Job Report^OPR_CUSTJOBS^T^OPR_CUSTJOBS^^im_menui_report.png^N^01007514^OP^Customer_Job_Report^11.0^^
-		Sales Tax Report^TEMP_OPR_SALESTAX^T^OPR_SALESTAX^opr_ta.aon^im_menui_report.png^N^01007514^OP^Sales_Tax_Report^11.0^^
-		Monthly Sales Report^TEMP_OPR_MONTHSALES^T^OPR_MONTHSALES^opr_ea.aon^im_menui_report.png^N^01007514^OP^Monthly_Sales_Report^11.0^^
-		Invoice History Report^OPR_HISTORY_RPT^T^OPR_HISTORY^opr_ka.aon^im_menui_report.png^N^01007514^OP^Invoice_History_Report^11.0^^
 	Period End Processing^OPMENU_PEND^G^^^im_menua_miscellaneous.png^N^01007514^OP^Period_End_Processing_Menu^11.0^^
 		Sales Tax Report^OPR_SALESTAX^T^OPR_SALESTAX^^im_menui_report.png^N^01007514^OP^Sales_Tax_Report^11.0^^
 		Sales Commission Report^TEMP_OPR_SALESCOMM^T^OPR_SALESCOMM^^im_menui_report.png^N^01007514^OP^Sales_Commission_Report^11.0^^
@@ -431,7 +428,7 @@ Sales Order Processing^OPMENU^M^^^im_menua_order_proc.png^N^01007514^OP^Sales_Or
 		Pricing Table^IVC_PRICCODE^T^IVC_PRICCODE^opm_ca.aon^im_menui_table.png^N^01007514^OP^Pricing_Table_Maintenance^11.0^^
 		Contract Pricing^IVM_ITEMPRIC^T^IVM_ITEMPRIC^^im_menui_table.png^N^01007514^OP^ContractPricing_Maintenance^11.0^^
 		Freight Terms Codes^OPM_FRTTERMS^T^OPM_FRTTERMS^^im_menui_table.png^N^01007514^OP^Freight_Terms_Code_Maintenance^11.0^^
-		Parameters^OPMENU_PARAMS^G^^opp_aa.aon^im_node_col.png^N^01007514^OP^Parameter_Maintenance^11.0^^
+		Parameters^OPMENU_PARAMS^G^^^im_node_col.png^N^01007514^OP^Parameter_Maintenance^11.0^^
 			OP Parameters^OPS_PARAMS^T^OPS_PARAMS^^im_menui_parameter.png^N^01007514^OP^Order_Processing_Parameters^11.0^^
 			Credit Management Parameters^ARS_CREDIT_OP^T^ARS_CREDIT^^im_menui_parameter.png^N^01007514^OP^Credit_Management_Parameters^11.0^^
 			New Customer Defaults^ARS_CUSTDFLT_OP^T^ARS_CUSTDFLT^^im_menui_parameter.png^N^01007514^OP^New_Customer_Defaults^11.0^^
@@ -475,19 +472,20 @@ Shop Floor Control^SFMENU^M^^^im_menua_shop_floor_cont.png^N^01007514^SF^^11.0^^
 		Closed Recurring WO Summary Report^SFR_RA^T^^sfr_ra.aon^im_menui_report.png^N^01007514^SF^^11.0^^
 		Closed Work Order Variance Report^SFR_OA^T^^sfr_oa.aon^im_menui_report.png^N^01007514^SF^^11.0^^
 		Period End Update^SFU_EA^T^^sfu_ea.aon^im_menui_update.png^N^01007514^SF^^11.0^^
-		Closed Work Order Purge^SFU_FA^T^^sfu_fa.aon^im_menui_update.png^N^01007514^SF^^11.0^^
+		Closed Work Order Purge^SFU_PURGECLSDWO^T^SFU_PURGECLSDWO^^im_menui_update.png^^01007514^SF^^11.0^^
 	Maintenance^SFMENU_MAINT^G^^^im_node_col.png^N^01007514^SF^^11.0^^
 		Type Codes^SFC_WOTYPECD^T^SFC_WOTYPECD^^im_menui_table.png^N^01007514^SF^^11.0^^
 		Operation Codes^SFC_OPRTNCOD^T^SFC_OPRTNCOD^^im_menui_table.png^N^01007514^SF^^11.0^^
 		Employees^SFM_EMPLMAST^T^SFM_EMPLMAST^^im_menui_table.png^N^01007514^SF^^11.0^^
-		Create Shop Floor Calendar^SFM_DA^T^^sfm_da.aon^im_menui_table.png^N^01007514^SF^^11.0^^
-		Operations Calendar Maintenance^SFM_OPCALNDR^T^SFM_OPCALNDR^^im_menui_table.png^N^01007514^SF^^11.0^^
-		Copy Shop Floor Calendar^SFM_EA^T^^sfm_ea.aon^im_menui_table.png^N^01007514^SF^^11.0^^
+		Create Shop Floor Calendar^SFM_CAL_CREATE^T^SFM_CAL_CREATE^sfm_da.aon^im_menui_table.png^^01007514^SF^^1.0^^
+		Shop Floor Calendar Maintenance^SFM_OPCALNDR^A^SFM_OPCALNDR^sfm_calendar.aon^im_menui_table.png^^01007514^SF^^11.0^^
+		Copy Shop Floor Calendar^SFM_CAL_COPY^T^SFM_CAL_COPY^sfm_ea.aon^im_menui_update.png^^01007514^SF^^1.0^^
 		Print Shop Floor Calendar^SFR_QA^T^^sfr_qa.aon^im_menui_report.png^N^01007514^SF^^11.0^^
 		Purge Shop Floor Calendar^SFU_HA^T^^sfu_ha.aon^im_menui_update.png^N^01007514^SF^^11.0^^
 		Batch Rescheduling Of Work Orders^SFR_UA^T^^sfr_ua.aon^im_menui_update.png^N^01007514^SF^^11.0^^
-		Work Order Parameters^SFS_PARAMS^T^SFS_PARAMS^sfp_aa.aon^im_menui_parameter.png^^01007514^AD^^11.0^^
-		Work Order Number^SFS_NUMBERS^T^SFS_NUMBERS^^im_menui_parameter.png^^01007514^AD^^11.0^^
+		Parameters^SFMENU_PARAMS^G^^^im_node_col.png^^01007514^SF^^11.0^^
+			Application Parameters^SFS_PARAMS^T^SFS_PARAMS^^im_menui_parameter.png^^01007514^AD^^11.0^^
+			Work Order Number^SFS_NUMBERS^T^SFS_NUMBERS^^im_menui_parameter.png^^01007514^AD^^11.0^^
 	Utilities^SFMENU_UTILITIES^G^^^im_menua_miscellaneous.png^N^01007514^SF^^11.0^^
 		Rebuild Cross References^SF_BLDXREF^A^^^im_menui_utility.png^N^01007514^SF^^11.0^^
 		Rebuild PO Cross References^SF_BLDXREFPO^T^^^im_menui_utility.png^N^01007514^SF^^11.0^^
@@ -518,6 +516,7 @@ AddonSoftware Administration^AONADMIN^M^^^im_menua_system_admin.png^N^01007514^A
 			Update Physical Invent Cycle Code^AON_UTIL_PI_CYCLE^A^^ivx_loadcyclecode.aon^im_menui_utility.png^N^01007514^AD^^11.0^^
 		Install/Upgrade Utilities^INST_UPGRD_UTIL_MENU^G^^^im_node_col.png^^01007514^AD^^11.0^^
 			Install Wizard^ADX_INSTALLWIZ^T^ADX_INSTALLWIZ^^im_menui_utility.png^^01007514^AD^^11.0^^
+			Upgrade Wizard^ADX_UPGRADEWIZ^T^ADX_UPGRADEWIZ^^im_menui_utility.png^^01007514^AD^^11.0^^
 			Copy aon Directory^ADX_COPYAON^T^ADX_COPYAON^^im_menui_utility.png^N^01007514^AD^^11.0^^
 			Update addon.syn File^ADX_UPDATESYN^T^ADX_UPDATESYN^^im_menui_utility.png^N^01007514^AD^^11.0^^
 			Update sync XML Files^ADX_UPDATEXML^T^ADX_UPDATEXML^^im_menui_utility.png^^01007514^AD^^11.0^^

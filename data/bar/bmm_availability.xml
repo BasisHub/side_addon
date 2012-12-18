@@ -18,9 +18,9 @@
 			<ASC_VERSION_ID id="ddm_tables.bmm_availability">1.0</ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.bmm_availability">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.bmm_availability">20110505</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.bmm_availability">20110525</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_tables.bmm_availability">20110725</DD_LSTREV_DATE>
 			<DD_LSTSYNC_DATE id="ddm_tables.bmm_availability">20110525</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.bmm_availability">221620</DD_LSTSYNC_TIME>
+			<DD_LSTSYNC_TIME id="ddm_tables.bmm_availability">224122</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.bmm_availability">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.bmm_availability">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.bmm_availability">[+DIR_PGM]adx_dummy.aon</DD_ATTR_PRUN>
@@ -63,6 +63,10 @@
 		<RECORD id="ddm_table_opts.bmm_availabilityv">
 			<DD_TABLE_ALIAS id="ddm_table_opts.bmm_availabilityv">BMM_AVAILABILITY</DD_TABLE_ALIAS>
 			<DD_ATTR_OPTS id="ddm_table_opts.bmm_availabilityv">V</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_table_opts.bmm_availabilityx">
+			<DD_TABLE_ALIAS id="ddm_table_opts.bmm_availabilityx">BMM_AVAILABILITY</DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.bmm_availabilityx">X</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_tpls">

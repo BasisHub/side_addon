@@ -18,12 +18,24 @@
 			<ASC_LICENSE_ID id="ddm_tables.bms_params">88705C93650889BECB2673BBD78492E3</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.bms_params">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.bms_params">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.bms_params">20110622</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.bms_params">20110622</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.bms_params">104624</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.bms_params">20110831</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.bms_params">20110812</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.bms_params">215810</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.bms_params">C:/Dev_aon/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.bms_params">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.bms_params">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.bms_params">BM Parameters</DD_ATTR_WINT>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_cpro">
+		<ID id="ddm_table_cpro">DDM_TABLE_CPRO</ID>
+		<RECORD id="ddm_table_cpro.bms_paramsadis">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.bms_paramsadis">BMS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.bms_paramsadis">ADIS</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_table_cpro.bms_paramsbsho">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.bms_paramsbsho">BMS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.bms_paramsbsho">BSHO</DD_ATTR_CPRO>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_tpls">
@@ -131,6 +143,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.bms_params004">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.bms_params004">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.bms_params004">0</DD_ATTR_CTLH>
+			<DD_ATTR_MINL id="ddm_table_cols.bms_params004">1</DD_ATTR_MINL>
 			<DD_ATTR_MAXL id="ddm_table_cols.bms_params004">10</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.bms_params004">GL Work In Process Account</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.bms_params004">4</DD_ATTR_TIND>
@@ -147,6 +160,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.bms_params005">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.bms_params005">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.bms_params005">0</DD_ATTR_CTLH>
+			<DD_ATTR_MINL id="ddm_table_cols.bms_params005">1</DD_ATTR_MINL>
 			<DD_ATTR_MAXL id="ddm_table_cols.bms_params005">10</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.bms_params005">GL Purchase To Account</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.bms_params005">5</DD_ATTR_TIND>
@@ -164,6 +178,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.bms_params006">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.bms_params006">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.bms_params006">0</DD_ATTR_CTLH>
+			<DD_ATTR_MINL id="ddm_table_cols.bms_params006">1</DD_ATTR_MINL>
 			<DD_ATTR_MAXL id="ddm_table_cols.bms_params006">10</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.bms_params006">GL Production Variance Acct</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.bms_params006">6</DD_ATTR_TIND>
@@ -181,7 +196,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.bms_params007">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_MAXL id="ddm_table_cols.bms_params007">10</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.bms_params007">Hour/Quantity Mask</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.bms_params007">7</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.bms_params007">8</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.bms_params008">
 			<DD_TABLE_ALIAS id="ddm_table_cols.bms_params008">BMS_PARAMS      </DD_TABLE_ALIAS>
@@ -196,7 +211,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.bms_params008">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_MAXL id="ddm_table_cols.bms_params008">10</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.bms_params008">Material Factor Mask</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.bms_params008">8</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.bms_params008">9</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.bms_params009">
 			<DD_TABLE_ALIAS id="ddm_table_cols.bms_params009">BMS_PARAMS      </DD_TABLE_ALIAS>
@@ -211,7 +226,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.bms_params009">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_MAXL id="ddm_table_cols.bms_params009">10</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.bms_params009">Overhead Factor Mask</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.bms_params009">9</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.bms_params009">10</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.bms_params010">
 			<DD_TABLE_ALIAS id="ddm_table_cols.bms_params010">BMS_PARAMS      </DD_TABLE_ALIAS>
@@ -226,7 +241,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.bms_params010">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_MAXL id="ddm_table_cols.bms_params010">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.bms_params010">Reserved For Addon Use</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.bms_params010">12</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.bms_params010">11</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.bms_params011">
 			<DD_TABLE_ALIAS id="ddm_table_cols.bms_params011">BMS_PARAMS      </DD_TABLE_ALIAS>
@@ -242,8 +257,9 @@
 			<DD_ATTR_LABL id="ddm_table_cols.bms_params011">Hour Precision</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_table_cols.bms_params011">Hour Precision</DD_ATTR_LABS>
 			<DD_ATTR_MAXL id="ddm_table_cols.bms_params011">1</DD_ATTR_MAXL>
+			<DD_ATTR_MAXV id="ddm_table_cols.bms_params011">9</DD_ATTR_MAXV>
 			<DD_ATTR_PROM id="ddm_table_cols.bms_params011">Hour/Quantity Precision</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.bms_params011">11</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.bms_params011">7</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">

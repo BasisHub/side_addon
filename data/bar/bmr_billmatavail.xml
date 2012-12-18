@@ -16,12 +16,24 @@
 			<ASC_VERSION_ID id="ddm_tables.bmr_billmatavail">11.0      </ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.bmr_billmatavail">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.bmr_billmatavail">20080215</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.bmr_billmatavail">20100607</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.bmr_billmatavail">20110419</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.bmr_billmatavail">145438</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.bmr_billmatavail">20110913</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.bmr_billmatavail">20110913</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.bmr_billmatavail">221608</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.bmr_billmatavail">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.bmr_billmatavail">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.bmr_billmatavail">[+DIR_PGM]bmr_billmatavail.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.bmr_billmatavail">Bill of Material Availability Inquiry</DD_ATTR_WINT>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_cpro">
+		<ID id="ddm_table_cpro">DDM_TABLE_CPRO</ID>
+		<RECORD id="ddm_table_cpro.bmr_billmatavailarec">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.bmr_billmatavailarec">BMR_BILLMATAVAIL</DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.bmr_billmatavailarec">AREC</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_table_cpro.bmr_billmatavailbsho">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.bmr_billmatavailbsho">BMR_BILLMATAVAIL</DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.bmr_billmatavailbsho">BSHO</DD_ATTR_CPRO>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_tpls">
@@ -44,6 +56,7 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.bmr_billmatavail001">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.bmr_billmatavail001">20080304</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.bmr_billmatavail001">20080304</DD_LSTREV_DATE>
+			<DD_ATTR_CPGM id="ddm_table_cols.bmr_billmatavail001">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLX id="ddm_table_cols.bmr_billmatavail001">0</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_cols.bmr_billmatavail001">0</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.bmr_billmatavail001">160</DD_ATTR_CTLW>
@@ -51,6 +64,7 @@
 			<DD_ATTR_LABL id="ddm_table_cols.bmr_billmatavail001">Bill Number</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_table_cols.bmr_billmatavail001">Bill No</DD_ATTR_LABS>
 			<DD_ATTR_MLAN id="ddm_table_cols.bmr_billmatavail001">N</DD_ATTR_MLAN>
+			<DD_ATTR_MINL id="ddm_table_cols.bmr_billmatavail001">1</DD_ATTR_MINL>
 			<DD_ATTR_MAXL id="ddm_table_cols.bmr_billmatavail001">20</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.bmr_billmatavail001">1</DD_ATTR_TIND>
 		</RECORD>
@@ -110,6 +124,27 @@
 			<DD_ATTR_TIND id="ddm_table_cols.bmr_billmatavail004">4</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
+	<ALIAS id="ddm_table_disp">
+		<ID id="ddm_table_disp">DDM_TABLE_DISP</ID>
+		<RECORD id="ddm_table_disp.bmr_billmatavail001">
+			<DD_TABLE_ALIAS id="ddm_table_disp.bmr_billmatavail001">BMR_BILLMATAVAIL</DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.bmr_billmatavail001">001</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.bmr_billmatavail001">ITEM_DESC       </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.bmr_billmatavail001">BILL_DESC       </DD_CTRL_NAME>
+			<DD_ATTR_CTLX id="ddm_table_disp.bmr_billmatavail001">+17</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.bmr_billmatavail001">-4</DD_ATTR_CTLY>
+			<DD_ATTR_CTLH id="ddm_table_disp.bmr_billmatavail001">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.bmr_billmatavail001">5</DD_ATTR_TIND>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_column_cpro">
+		<ID id="ddm_column_cpro">DDM_COLUMN_CPRO</ID>
+		<RECORD id="ddm_column_cpro.bmr_billmatavailbill_noaval">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.bmr_billmatavailbill_noaval">BMR_BILLMATAVAIL</DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.bmr_billmatavailbill_noaval">BILL_NO         </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.bmr_billmatavailbill_noaval">AVAL</DD_ATTR_CPRO>
+		</RECORD>
+	</ALIAS>
 	<ALIAS id="ddm_column_opts">
 		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
 		<RECORD id="ddm_column_opts.bmr_billmatavailbill_nou">
@@ -142,6 +177,11 @@
 			<DD_DVAR_NAME id="ddm_column_opts.bmr_billmatavailwarehouse_idu">WAREHOUSE_ID    </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.bmr_billmatavailwarehouse_idu">u</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.bmr_billmatavailbill_descc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.bmr_billmatavailbill_descc">BMR_BILLMATAVAIL</DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.bmr_billmatavailbill_descc">BILL_DESC       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.bmr_billmatavailbill_descc">C</DD_ATTR_OPTS>
+		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">
 		<ID id="ddm_elements">DDM_ELEMENTS</ID>
@@ -150,16 +190,14 @@
 			<DD_DESCRIPTION id="ddm_elements.rpt_bill_no">Bill of Materials Number</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.rpt_bill_no">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.rpt_bill_no">20</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.rpt_bill_no"> </DD_MASK_TYPE>
 			<ASC_COMP_ID id="ddm_elements.rpt_bill_no">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_elements.rpt_bill_no">BM </ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.rpt_bill_no">20080312</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.rpt_bill_no">20080314</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.rpt_bill_no">20110913</DD_LSTREV_DATE>
 			<DD_AUTO_COMP id="ddm_elements.rpt_bill_no">N</DD_AUTO_COMP>
 			<DD_ATTR_CTLW id="ddm_elements.rpt_bill_no">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_elements.rpt_bill_no">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.rpt_bill_no">E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOL id="ddm_elements.rpt_bill_no">BILL_NO</DD_ATTR_DCOL>
 			<DD_ATTR_DCOM id="ddm_elements.rpt_bill_no">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.rpt_bill_no">            </DD_ATTR_DEXP>
 			<DD_ATTR_DKEY id="ddm_elements.rpt_bill_no">[+FIRM_ID]+@</DD_ATTR_DKEY>
@@ -241,6 +279,28 @@
 			<DD_ATTR_PADJ id="ddm_elements.warehouse_id">L</DD_ATTR_PADJ>
 			<DD_ATTR_PREC id="ddm_elements.warehouse_id">0</DD_ATTR_PREC>
 			<DD_ATTR_PROM id="ddm_elements.warehouse_id">Enter a two-digit warehouse ID</DD_ATTR_PROM>
+		</RECORD>
+		<RECORD id="ddm_elements.item_desc">
+			<DD_DATA_NAME id="ddm_elements.item_desc">ITEM_DESC       </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.item_desc">Inventory Item Description</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.item_desc">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.item_desc">60</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.item_desc"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.item_desc">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.item_desc">IV </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.item_desc">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.item_desc">20061030</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.item_desc">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.item_desc">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.item_desc">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.item_desc">Inventory Item Description</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.item_desc">IV Item Desc</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.item_desc">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.item_desc">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.item_desc">0</DD_ATTR_MINL>
+			<DD_ATTR_PADC id="ddm_elements.item_desc">20</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.item_desc">L</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.item_desc">0</DD_ATTR_PREC>
 		</RECORD>
 	</ALIAS>
 </BMR_BILLMATAVAIL>

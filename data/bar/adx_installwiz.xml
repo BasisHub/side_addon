@@ -18,9 +18,9 @@
 			<ASC_VERSION_ID id="ddm_tables.adx_installwiz">11.0      </ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.adx_installwiz">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.adx_installwiz">20110413</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.adx_installwiz">20110427</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.adx_installwiz">20110427</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.adx_installwiz">131114</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.adx_installwiz">20111025</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.adx_installwiz">20111025</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.adx_installwiz">165726</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.adx_installwiz">C:/aon_dev/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.adx_installwiz">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.adx_installwiz">[+DIR_PGM]adx_installwiz.aon</DD_ATTR_PRUN>
@@ -29,6 +29,10 @@
 	</ALIAS>
 	<ALIAS id="ddm_table_cpro">
 		<ID id="ddm_table_cpro">DDM_TABLE_CPRO</ID>
+		<RECORD id="ddm_table_cpro.adx_installwizasho">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.adx_installwizasho">ADX_INSTALLWIZ  </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.adx_installwizasho">ASHO</DD_ATTR_CPRO>
+		</RECORD>
 		<RECORD id="ddm_table_cpro.adx_installwizasva">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.adx_installwizasva">ADX_INSTALLWIZ  </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.adx_installwizasva">ASVA</DD_ATTR_CPRO>
