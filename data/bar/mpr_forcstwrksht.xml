@@ -18,9 +18,9 @@
 			<ASC_VERSION_ID id="ddm_tables.mpr_forcstwrksht">9.0</ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.mpr_forcstwrksht">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.mpr_forcstwrksht">20080215</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.mpr_forcstwrksht">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.mpr_forcstwrksht">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.mpr_forcstwrksht">141522</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.mpr_forcstwrksht">20100520</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.mpr_forcstwrksht">20090709</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.mpr_forcstwrksht">115940</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.mpr_forcstwrksht">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.mpr_forcstwrksht">[+DIR_PGM]mpr_forcastwrksht.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.mpr_forcstwrksht">Production Forecast Worksheet</DD_ATTR_WINT>
@@ -114,10 +114,20 @@
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">
 		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
-		<RECORD id="ddm_column_opts.mpr_forcstwrkshtforecasth">
-			<DD_TABLE_ALIAS id="ddm_column_opts.mpr_forcstwrkshtforecasth">MPR_FORCSTWRKSHT</DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.mpr_forcstwrkshtforecasth">FORECAST        </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.mpr_forcstwrkshtforecasth">H</DD_ATTR_OPTS>
+		<RECORD id="ddm_column_opts.mpr_forcstwrkshtforecastu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.mpr_forcstwrkshtforecastu">MPR_FORCSTWRKSHT</DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.mpr_forcstwrkshtforecastu">FORECAST        </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.mpr_forcstwrkshtforecastu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.mpr_forcstwrkshtwarehouse_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.mpr_forcstwrkshtwarehouse_idu">MPR_FORCSTWRKSHT</DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.mpr_forcstwrkshtwarehouse_idu">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.mpr_forcstwrkshtwarehouse_idu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.mpr_forcstwrkshtproduct_typeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.mpr_forcstwrkshtproduct_typeu">MPR_FORCSTWRKSHT</DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.mpr_forcstwrkshtproduct_typeu">PRODUCT_TYPE    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.mpr_forcstwrkshtproduct_typeu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

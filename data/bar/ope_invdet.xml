@@ -18,11 +18,11 @@
 			<ASC_LICENSE_ID id="ddm_tables.ope_invdet">542B8DFCA2BA161BC1197B18828F0134</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ope_invdet">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ope_invdet">20090501</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ope_invdet">20100226</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ope_invdet">20100210</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ope_invdet">160912</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.ope_invdet">../apps/aon/;</DD_ATTR_CPGM>
-			<DD_ATTR_DKNM id="ddm_tables.ope_invdet">ALT_KEY_03</DD_ATTR_DKNM>
+			<DD_LSTREV_DATE id="ddm_tables.ope_invdet">20100520</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ope_invdet">20100415</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ope_invdet">221646</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.ope_invdet">/apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_DKNM id="ddm_tables.ope_invdet">AO_CUST_ORD_LN</DD_ATTR_DKNM>
 			<DD_ATTR_FTYP id="ddm_tables.ope_invdet">G</DD_ATTR_FTYP>
 			<DD_ATTR_PTAB id="ddm_tables.ope_invdet">OPE_INVHDR      </DD_ATTR_PTAB>
 			<DD_ATTR_SLEV id="ddm_tables.ope_invdet">zzzz</DD_ATTR_SLEV>
@@ -146,19 +146,19 @@
 			<DD_TABLE_ALIAS id="ddm_keys.ope_invdet01">OPE_INVDET      </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.ope_invdet01">01</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.ope_invdet01">Open Orders By Item</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.ope_invdet01">ALT_KEY_01      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.ope_invdet01">AO_WH_ITEM_ORD  </DD_KEY_ID>
 		</RECORD>
 		<RECORD id="ddm_keys.ope_invdet02">
 			<DD_TABLE_ALIAS id="ddm_keys.ope_invdet02">OPE_INVDET      </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.ope_invdet02">02</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.ope_invdet02">Firm_Item_WH</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.ope_invdet02">ALT_KEY_02      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.ope_invdet02">AO_ITEM_WH_CUST </DD_KEY_ID>
 		</RECORD>
 		<RECORD id="ddm_keys.ope_invdet03">
 			<DD_TABLE_ALIAS id="ddm_keys.ope_invdet03">OPE_INVDET      </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.ope_invdet03">03</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.ope_invdet03">Display Sequence</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.ope_invdet03">ALT_KEY_03      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.ope_invdet03">AO_CUST_ORD_LN  </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_key_segs">
@@ -443,7 +443,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ope_invdet006">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ope_invdet006">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ope_invdet006">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.ope_invdet006">../apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ope_invdet006">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLX id="ddm_table_cols.ope_invdet006">-1</DD_ATTR_CTLX>
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_invdet006">35</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ope_invdet006">0</DD_ATTR_CTLH>
@@ -507,7 +507,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ope_invdet010">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ope_invdet010">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ope_invdet010">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.ope_invdet010">../apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ope_invdet010">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_invdet010">35</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ope_invdet010">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.ope_invdet010">2</DD_ATTR_MAXL>
@@ -527,7 +527,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.ope_invdet011">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_ABLC id="ddm_table_cols.ope_invdet011"><<CALLPOINT>></DD_ATTR_ABLC>
 			<DD_ATTR_ABLV id="ddm_table_cols.ope_invdet011">S;P</DD_ATTR_ABLV>
-			<DD_ATTR_CPGM id="ddm_table_cols.ope_invdet011">../apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ope_invdet011">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_invdet011">160</DD_ATTR_CTLW>
 			<DD_ATTR_LABS id="ddm_table_cols.ope_invdet011">Item No.</DD_ATTR_LABS>
 			<DD_ATTR_MAXL id="ddm_table_cols.ope_invdet011">20</DD_ATTR_MAXL>
@@ -725,7 +725,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.ope_invdet023">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_ABLC id="ddm_table_cols.ope_invdet023"><<CALLPOINT>></DD_ATTR_ABLC>
 			<DD_ATTR_ABLV id="ddm_table_cols.ope_invdet023">N;S;P</DD_ATTR_ABLV>
-			<DD_ATTR_CPGM id="ddm_table_cols.ope_invdet023">../apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ope_invdet023">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_invdet023">56</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ope_invdet023">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.ope_invdet023">7</DD_ATTR_MAXL>
@@ -745,7 +745,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.ope_invdet024">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_ABLC id="ddm_table_cols.ope_invdet024"><<CALLPOINT>></DD_ATTR_ABLC>
 			<DD_ATTR_ABLV id="ddm_table_cols.ope_invdet024">N;S;P</DD_ATTR_ABLV>
-			<DD_ATTR_CPGM id="ddm_table_cols.ope_invdet024">../apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ope_invdet024">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_invdet024">56</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ope_invdet024">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.ope_invdet024">7</DD_ATTR_MAXL>
@@ -765,7 +765,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.ope_invdet025">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_ABLC id="ddm_table_cols.ope_invdet025"><<CALLPOINT>></DD_ATTR_ABLC>
 			<DD_ATTR_ABLV id="ddm_table_cols.ope_invdet025">N;S;P</DD_ATTR_ABLV>
-			<DD_ATTR_CPGM id="ddm_table_cols.ope_invdet025">../apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ope_invdet025">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_invdet025">56</DD_ATTR_CTLW>
 			<DD_ATTR_MAXL id="ddm_table_cols.ope_invdet025">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ope_invdet025">Back-Order Quantity</DD_ATTR_PROM>
@@ -784,7 +784,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.ope_invdet026">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_ABLC id="ddm_table_cols.ope_invdet026"><<CALLPOINT>></DD_ATTR_ABLC>
 			<DD_ATTR_ABLV id="ddm_table_cols.ope_invdet026">N;S;P</DD_ATTR_ABLV>
-			<DD_ATTR_CPGM id="ddm_table_cols.ope_invdet026">../apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ope_invdet026">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_invdet026">56</DD_ATTR_CTLW>
 			<DD_ATTR_MAXL id="ddm_table_cols.ope_invdet026">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ope_invdet026">Quantity Shipped</DD_ATTR_PROM>
@@ -801,7 +801,7 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.ope_invdet027">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.ope_invdet027">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ope_invdet027">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.ope_invdet027">../apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ope_invdet027">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_invdet027">56</DD_ATTR_CTLW>
 			<DD_ATTR_MAXL id="ddm_table_cols.ope_invdet027">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ope_invdet027">Standard List Price</DD_ATTR_PROM>
@@ -820,7 +820,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.ope_invdet028">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_ABLC id="ddm_table_cols.ope_invdet028"><<CALLPOINT>></DD_ATTR_ABLC>
 			<DD_ATTR_ABLV id="ddm_table_cols.ope_invdet028">O</DD_ATTR_ABLV>
-			<DD_ATTR_CPGM id="ddm_table_cols.ope_invdet028">../apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ope_invdet028">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_invdet028">56</DD_ATTR_CTLW>
 			<DD_ATTR_MAXL id="ddm_table_cols.ope_invdet028">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ope_invdet028">Extended Price</DD_ATTR_PROM>
@@ -977,6 +977,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_cpro.ope_invdetwarehouse_idbinp">OPE_INVDET      </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_cpro.ope_invdetwarehouse_idbinp">WAREHOUSE_ID    </DD_DVAR_NAME>
 			<DD_ATTR_CPRO id="ddm_column_cpro.ope_invdetwarehouse_idbinp">BINP</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_column_cpro.ope_invdetitem_idainv">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.ope_invdetitem_idainv">OPE_INVDET      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.ope_invdetitem_idainv">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.ope_invdetitem_idainv">AINV</DD_ATTR_CPRO>
 		</RECORD>
 		<RECORD id="ddm_column_cpro.ope_invdetitem_idaval">
 			<DD_TABLE_ALIAS id="ddm_column_cpro.ope_invdetitem_idaval">OPE_INVDET      </DD_TABLE_ALIAS>

@@ -18,10 +18,10 @@
 			<ASC_LICENSE_ID id="ddm_tables.ivm_itemact">0AE6BF4570A4AC70D0B5A126034A7075</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ivm_itemact">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ivm_itemact">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ivm_itemact">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivm_itemact">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivm_itemact">141536</DD_LSTSYNC_TIME>
-			<DD_ATTR_DKNM id="ddm_tables.ivm_itemact">ALT_KEY_01      </DD_ATTR_DKNM>
+			<DD_LSTREV_DATE id="ddm_tables.ivm_itemact">20100402</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivm_itemact">20100401</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivm_itemact">225750</DD_LSTSYNC_TIME>
+			<DD_ATTR_DKNM id="ddm_tables.ivm_itemact">AO_ITM_WH_YR_PER</DD_ATTR_DKNM>
 			<DD_ATTR_FTYP id="ddm_tables.ivm_itemact">G</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.ivm_itemact">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.ivm_itemact">Warehouse Period History</DD_ATTR_WINT>
@@ -47,7 +47,7 @@
 			<DD_TABLE_ALIAS id="ddm_keys.ivm_itemact01">IVM_ITEMACT     </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.ivm_itemact01">01</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.ivm_itemact01">Firm_itm_wh_yr_per</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.ivm_itemact01">ALT_KEY_01      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.ivm_itemact01">AO_ITM_WH_YR_PER</DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_key_segs">
@@ -155,6 +155,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.ivm_itemact002">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivm_itemact002">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_itemact002">35</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.ivm_itemact002">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemact002">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemact002">Warehouse ID</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemact002">3</DD_ATTR_TIND>
@@ -217,7 +218,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.ivm_itemact006">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.ivm_itemact006">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivm_itemact006">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemact006">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemact006">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemact006">15</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivm_itemact007">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivm_itemact007">IVM_ITEMACT     </DD_TABLE_ALIAS>
@@ -230,7 +233,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.ivm_itemact007">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.ivm_itemact007">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivm_itemact007">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemact007">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemact007">Reserved For Dealer Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemact007">16</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivm_itemact008">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivm_itemact008">IVM_ITEMACT     </DD_TABLE_ALIAS>
@@ -387,7 +392,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.ivm_itemact017">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.ivm_itemact017">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivm_itemact017">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemact017">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemact017">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemact017">17</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivm_itemact018">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivm_itemact018">IVM_ITEMACT     </DD_TABLE_ALIAS>
@@ -400,7 +407,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.ivm_itemact018">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.ivm_itemact018">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivm_itemact018">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemact018">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemact018">Reserved For Dealer Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemact018">18</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">

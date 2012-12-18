@@ -14,9 +14,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.ads_system">4ADF09C50E4A6EDC84FB141B0D8AF590</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ads_system">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ads_system">20060404</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ads_system">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ads_system">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ads_system">141602</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ads_system">20100203</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ads_system">20100203</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ads_system">222108</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.ads_system">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.ads_system">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.ads_system">System Definition</DD_ATTR_WINT>
@@ -63,7 +63,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.ads_system001">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.ads_system001">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ads_system001">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ads_system001">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ads_system001">"S"</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ads_system001">1</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ads_system002">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ads_system002">ADS_SYSTEM      </DD_TABLE_ALIAS>
@@ -76,7 +78,10 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.ads_system002">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.ads_system002">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ads_system002">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLX id="ddm_table_cols.ads_system002">+6</DD_ATTR_CTLX>
+			<DD_ATTR_MAXL id="ddm_table_cols.ads_system002">8</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ads_system002">Source Code Password</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ads_system002">2</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ads_system003">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ads_system003">ADS_SYSTEM      </DD_TABLE_ALIAS>
@@ -89,7 +94,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.ads_system003">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.ads_system003">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ads_system003">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ads_system003">8</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ads_system003">Computer Manufacturer</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ads_system003">3</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ads_system004">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ads_system004">ADS_SYSTEM      </DD_TABLE_ALIAS>
@@ -102,7 +109,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.ads_system004">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.ads_system004">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ads_system004">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ads_system004">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ads_system004">Operating System [U/D]</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ads_system004">4</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ads_system005">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ads_system005">ADS_SYSTEM      </DD_TABLE_ALIAS>
@@ -115,7 +124,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.ads_system005">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.ads_system005">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ads_system005">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ads_system005">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ads_system005">O/S Pathname Separator</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ads_system005">5</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ads_system006">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ads_system006">ADS_SYSTEM      </DD_TABLE_ALIAS>
@@ -128,7 +139,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.ads_system006">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.ads_system006">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ads_system006">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ads_system006">30</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ads_system006">O/S Shell Command</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ads_system006">6</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ads_system007">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ads_system007">ADS_SYSTEM      </DD_TABLE_ALIAS>
@@ -141,7 +154,17 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.ads_system007">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.ads_system007">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ads_system007">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ads_system007">60</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ads_system007">W2 Mag Media Copy Command</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ads_system007">7</DD_ATTR_TIND>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_column_opts">
+		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
+		<RECORD id="ddm_column_opts.ads_systemrecord_id_so">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ads_systemrecord_id_so">ADS_SYSTEM      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ads_systemrecord_id_so">RECORD_ID_S     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ads_systemrecord_id_so">O</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

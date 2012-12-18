@@ -22,8 +22,8 @@
 			<DD_EXPORT_DATA id="ddm_tables.adm_auditcontrol">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.adm_auditcontrol">20070306</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_tables.adm_auditcontrol">20090723</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.adm_auditcontrol">20090915</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.adm_auditcontrol">140914</DD_LSTSYNC_TIME>
+			<DD_LSTSYNC_DATE id="ddm_tables.adm_auditcontrol">20100401</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.adm_auditcontrol">130112</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.adm_auditcontrol">[+DIR_CPP]adm_auditcontrol_cpt.bbj</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.adm_auditcontrol">T</DD_ATTR_FTYP>
 			<DD_ATTR_IKEY id="ddm_tables.adm_auditcontrol">N</DD_ATTR_IKEY>
@@ -65,13 +65,13 @@
 			<DD_TABLE_ALIAS id="ddm_keys.adm_auditcontrol01">ADM_AUDITCONTROL</DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.adm_auditcontrol01">01</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.adm_auditcontrol01">by Alias</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.adm_auditcontrol01">ALT_KEY_01      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.adm_auditcontrol01">AO_ALIAS_PROCESS</DD_KEY_ID>
 		</RECORD>
 		<RECORD id="ddm_keys.adm_auditcontrol02">
 			<DD_TABLE_ALIAS id="ddm_keys.adm_auditcontrol02">ADM_AUDITCONTROL</DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.adm_auditcontrol02">02</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.adm_auditcontrol02">by Program Name</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.adm_auditcontrol02">ALT_KEY_02      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.adm_auditcontrol02">AO_PROG_PROCESS </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_key_segs">
@@ -538,16 +538,17 @@
 			<DD_DESCRIPTION id="ddm_elements.process_alias">Process Alias/Table Name</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.process_alias">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.process_alias">16</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.process_alias">T</DD_MASK_TYPE>
 			<ASC_COMP_ID id="ddm_elements.process_alias">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.process_alias">AON</ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.process_alias">AD </ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.process_alias">20080321</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.process_alias">20080321</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.process_alias">20100401</DD_LSTREV_DATE>
 			<DD_AUTO_COMP id="ddm_elements.process_alias">N</DD_AUTO_COMP>
 			<DD_ATTR_CTLW id="ddm_elements.process_alias">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_elements.process_alias">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.process_alias">E</DD_ATTR_CTYP>
 			<DD_ATTR_DCOL id="ddm_elements.process_alias">DESCRIPTION</DD_ATTR_DCOL>
-			<DD_ATTR_DKNM id="ddm_elements.process_alias">ALT_KEY_01      </DD_ATTR_DKNM>
+			<DD_ATTR_DKNM id="ddm_elements.process_alias">AO_TABLE_PROCESS</DD_ATTR_DKNM>
 			<DD_ATTR_DKEY id="ddm_elements.process_alias">@+[PROCESS_ID]+[SEQUENCE_NO]</DD_ATTR_DKEY>
 			<DD_ATTR_DTAB id="ddm_elements.process_alias">ADM_PROCDETAIL  </DD_ATTR_DTAB>
 			<DD_ATTR_LABL id="ddm_elements.process_alias">Process Alias/Table Name</DD_ATTR_LABL>
@@ -564,18 +565,18 @@
 			<DD_DESCRIPTION id="ddm_elements.process_program">Process Program Name</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.process_program">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.process_program">24</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.process_program"> </DD_MASK_TYPE>
 			<ASC_COMP_ID id="ddm_elements.process_program">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.process_program">AON</ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.process_program">AD </ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.process_program">20070306</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.process_program">20080321</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.process_program">20100401</DD_LSTREV_DATE>
+			<DD_AUTO_COMP id="ddm_elements.process_program">N</DD_AUTO_COMP>
 			<DD_ATTR_CTLW id="ddm_elements.process_program">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_elements.process_program">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.process_program">E</DD_ATTR_CTYP>
 			<DD_ATTR_DCOL id="ddm_elements.process_program">DESCRIPTION</DD_ATTR_DCOL>
 			<DD_ATTR_DCOM id="ddm_elements.process_program">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.process_program">            </DD_ATTR_DEXP>
-			<DD_ATTR_DKNM id="ddm_elements.process_program">ALT_KEY_02      </DD_ATTR_DKNM>
+			<DD_ATTR_DKNM id="ddm_elements.process_program">AO_PROG_PROCESS </DD_ATTR_DKNM>
 			<DD_ATTR_DKEY id="ddm_elements.process_program">@+[PROCESS_ID]+[SEQUENCE_NO]</DD_ATTR_DKEY>
 			<DD_ATTR_DTAB id="ddm_elements.process_program">ADM_PROCDETAIL  </DD_ATTR_DTAB>
 			<DD_ATTR_LABL id="ddm_elements.process_program">Program Name</DD_ATTR_LABL>

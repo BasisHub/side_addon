@@ -19,11 +19,11 @@
 			<ASC_LICENSE_ID id="ddm_tables.ivm_itemwhse">46A8D21149542FF2287ED5E9A98B817C</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ivm_itemwhse">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ivm_itemwhse">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ivm_itemwhse">20100325</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivm_itemwhse">20100325</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivm_itemwhse">224804</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ivm_itemwhse">20100402</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivm_itemwhse">20100402</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivm_itemwhse">083128</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ivm_itemwhse">/apps/aon/;</DD_ATTR_CPGM>
-			<DD_ATTR_DKNM id="ddm_tables.ivm_itemwhse">ALT_KEY_02</DD_ATTR_DKNM>
+			<DD_ATTR_DKNM id="ddm_tables.ivm_itemwhse">AO_ITEM_WH</DD_ATTR_DKNM>
 			<DD_ATTR_FTYP id="ddm_tables.ivm_itemwhse">T</DD_ATTR_FTYP>
 			<DD_ATTR_PTAB id="ddm_tables.ivm_itemwhse">IVM_ITEMMAST    </DD_ATTR_PTAB>
 			<DD_ATTR_SLEV id="ddm_tables.ivm_itemwhse">zzzz</DD_ATTR_SLEV>
@@ -128,19 +128,19 @@
 			<DD_TABLE_ALIAS id="ddm_keys.ivm_itemwhse01">IVM_ITEMWHSE    </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.ivm_itemwhse01">01</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.ivm_itemwhse01">Whse_Cycle_Loc_Item</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.ivm_itemwhse01">ALT_KEY_01      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.ivm_itemwhse01">AO_WH_CYCLE_LOC </DD_KEY_ID>
 		</RECORD>
 		<RECORD id="ddm_keys.ivm_itemwhse02">
 			<DD_TABLE_ALIAS id="ddm_keys.ivm_itemwhse02">IVM_ITEMWHSE    </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.ivm_itemwhse02">02</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.ivm_itemwhse02">Firm_Item_Whse</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.ivm_itemwhse02">ALT_KEY_02      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.ivm_itemwhse02">AO_ITEM_WH      </DD_KEY_ID>
 		</RECORD>
 		<RECORD id="ddm_keys.ivm_itemwhse03">
 			<DD_TABLE_ALIAS id="ddm_keys.ivm_itemwhse03">IVM_ITEMWHSE    </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.ivm_itemwhse03">03</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.ivm_itemwhse03">Buyer/Vendor</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.ivm_itemwhse03">ALT_KEY_03      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.ivm_itemwhse03">AO_BUYER_VEND_WH</DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_key_segs">

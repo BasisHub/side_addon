@@ -19,9 +19,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.sam_territry">889202A26031A02844BEB06767E938DE</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.sam_territry">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.sam_territry">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.sam_territry">20090826</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.sam_territry">20090803</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.sam_territry">123852</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.sam_territry">20100519</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.sam_territry">20100304</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.sam_territry">222656</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.sam_territry">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.sam_territry">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.sam_territry">zzzz</DD_ATTR_SLEV>
@@ -343,6 +343,11 @@
 			<DD_DVAR_NAME id="ddm_column_cpro.sam_territryproduct_typeaval">PRODUCT_TYPE    </DD_DVAR_NAME>
 			<DD_ATTR_CPRO id="ddm_column_cpro.sam_territryproduct_typeaval">AVAL</DD_ATTR_CPRO>
 		</RECORD>
+		<RECORD id="ddm_column_cpro.sam_territryitem_idainv">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.sam_territryitem_idainv">SAM_TERRITRY    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.sam_territryitem_idainv">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.sam_territryitem_idainv">AINV</DD_ATTR_CPRO>
+		</RECORD>
 		<RECORD id="ddm_column_cpro.sam_territryitem_idaval">
 			<DD_TABLE_ALIAS id="ddm_column_cpro.sam_territryitem_idaval">SAM_TERRITRY    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_cpro.sam_territryitem_idaval">ITEM_ID         </DD_DVAR_NAME>
@@ -355,6 +360,21 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.sam_territryfirm_ido">SAM_TERRITRY    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.sam_territryfirm_ido">FIRM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.sam_territryfirm_ido">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_territryterritoryu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_territryterritoryu">SAM_TERRITRY    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_territryterritoryu">TERRITORY       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_territryterritoryu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_territryproduct_typeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_territryproduct_typeu">SAM_TERRITRY    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_territryproduct_typeu">PRODUCT_TYPE    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_territryproduct_typeu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_territryitem_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_territryitem_idu">SAM_TERRITRY    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_territryitem_idu">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_territryitem_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.sam_territryqty_shippeda">
 			<DD_TABLE_ALIAS id="ddm_column_opts.sam_territryqty_shippeda">SAM_TERRITRY    </DD_TABLE_ALIAS>

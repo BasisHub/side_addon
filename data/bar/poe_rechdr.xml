@@ -18,10 +18,10 @@
 			<ASC_LICENSE_ID id="ddm_tables.poe_rechdr">B4EF7697B3177406A17214903B053944</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.poe_rechdr">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.poe_rechdr">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.poe_rechdr">20091221</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.poe_rechdr">20091014</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.poe_rechdr">110444</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.poe_rechdr">../apps/aon/;</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.poe_rechdr">20100409</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.poe_rechdr">20100401</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.poe_rechdr">225750</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.poe_rechdr">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.poe_rechdr">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.poe_rechdr">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.poe_rechdr">PO Receipt Header</DD_ATTR_WINT>
@@ -117,13 +117,13 @@
 			<DD_TABLE_ALIAS id="ddm_keys.poe_rechdr01">POE_RECHDR      </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.poe_rechdr01">01</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.poe_rechdr01">PO No/Vend/Receiver</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.poe_rechdr01">ALT_KEY_01      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.poe_rechdr01">AO_VEND_RCVR_PO </DD_KEY_ID>
 		</RECORD>
 		<RECORD id="ddm_keys.poe_rechdr02">
 			<DD_TABLE_ALIAS id="ddm_keys.poe_rechdr02">POE_RECHDR      </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.poe_rechdr02">02</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.poe_rechdr02">Receiver/Vend/PO No</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.poe_rechdr02">ALT_KEY_02      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.poe_rechdr02">AO_RCVR_VEND_PO </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_key_segs">
@@ -222,7 +222,7 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_rechdr002">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_rechdr002">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_rechdr002">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.poe_rechdr002">../apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.poe_rechdr002">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_MAXL id="ddm_table_cols.poe_rechdr002">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_rechdr002">Receiver Number</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.poe_rechdr002">2</DD_ATTR_TIND>
@@ -238,7 +238,7 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_rechdr003">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_rechdr003">20081014</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_rechdr003">20081014</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.poe_rechdr003">../apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.poe_rechdr003">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_COLW id="ddm_table_cols.poe_rechdr003">0</DD_ATTR_COLW>
 			<DD_ATTR_CTLX id="ddm_table_cols.poe_rechdr003">0</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_cols.poe_rechdr003">0</DD_ATTR_CTLY>
@@ -259,7 +259,7 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_rechdr004">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_rechdr004">20081014</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_rechdr004">20081014</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.poe_rechdr004">../apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.poe_rechdr004">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_COLW id="ddm_table_cols.poe_rechdr004">0</DD_ATTR_COLW>
 			<DD_ATTR_CTLX id="ddm_table_cols.poe_rechdr004">0</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_cols.poe_rechdr004">0</DD_ATTR_CTLY>
@@ -280,7 +280,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_rechdr005">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_rechdr005">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_rechdr005">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.poe_rechdr005">../apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.poe_rechdr005">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.poe_rechdr005">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.poe_rechdr005">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.poe_rechdr005">2</DD_ATTR_MAXL>
@@ -299,7 +299,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_rechdr006">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_ABLC id="ddm_table_cols.poe_rechdr006">POE_RECHDR.RECEIVER_NO</DD_ATTR_ABLC>
 			<DD_ATTR_ABLV id="ddm_table_cols.poe_rechdr006">!</DD_ATTR_ABLV>
-			<DD_ATTR_CPGM id="ddm_table_cols.poe_rechdr006">../apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.poe_rechdr006">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLX id="ddm_table_cols.poe_rechdr006">+30</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_cols.poe_rechdr006">-10</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.poe_rechdr006">0</DD_ATTR_CTLW>
@@ -564,7 +564,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_rechdr022">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_ABLC id="ddm_table_cols.poe_rechdr022">POE_RECHDR.RECEIVER_NO</DD_ATTR_ABLC>
 			<DD_ATTR_ABLV id="ddm_table_cols.poe_rechdr022">!</DD_ATTR_ABLV>
-			<DD_ATTR_CPGM id="ddm_table_cols.poe_rechdr022">../apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.poe_rechdr022">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_LABL id="ddm_table_cols.poe_rechdr022">Delivery Promised By</DD_ATTR_LABL>
 			<DD_ATTR_MAXL id="ddm_table_cols.poe_rechdr022">8</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_rechdr022">Delivery Promised By Date</DD_ATTR_PROM>
@@ -582,7 +582,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_rechdr023">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_ABLC id="ddm_table_cols.poe_rechdr023">POE_RECHDR.RECEIVER_NO</DD_ATTR_ABLC>
 			<DD_ATTR_ABLV id="ddm_table_cols.poe_rechdr023">!</DD_ATTR_ABLV>
-			<DD_ATTR_CPGM id="ddm_table_cols.poe_rechdr023">../apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.poe_rechdr023">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_LABL id="ddm_table_cols.poe_rechdr023">Don't Deliver Before</DD_ATTR_LABL>
 			<DD_ATTR_MAXL id="ddm_table_cols.poe_rechdr023">8</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_rechdr023">Don't Deliver Before Date</DD_ATTR_PROM>
@@ -600,7 +600,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_rechdr024">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_ABLC id="ddm_table_cols.poe_rechdr024">POE_RECHDR.RECEIVER_NO</DD_ATTR_ABLC>
 			<DD_ATTR_ABLV id="ddm_table_cols.poe_rechdr024">!</DD_ATTR_ABLV>
-			<DD_ATTR_CPGM id="ddm_table_cols.poe_rechdr024">../apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.poe_rechdr024">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_MAXL id="ddm_table_cols.poe_rechdr024">8</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_rechdr024">Date Required</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.poe_rechdr024">15</DD_ATTR_TIND>
@@ -618,7 +618,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_rechdr025">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_ABLC id="ddm_table_cols.poe_rechdr025">POE_RECHDR.RECEIVER_NO</DD_ATTR_ABLC>
 			<DD_ATTR_ABLV id="ddm_table_cols.poe_rechdr025">!</DD_ATTR_ABLV>
-			<DD_ATTR_CPGM id="ddm_table_cols.poe_rechdr025">../apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.poe_rechdr025">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_MINL id="ddm_table_cols.poe_rechdr025">1</DD_ATTR_MINL>
 			<DD_ATTR_MAXL id="ddm_table_cols.poe_rechdr025">8</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_rechdr025">Receipt Date</DD_ATTR_PROM>
@@ -635,7 +635,7 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_rechdr026">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_rechdr026">20081013</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_rechdr026">20081013</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.poe_rechdr026">../apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.poe_rechdr026">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_COLW id="ddm_table_cols.poe_rechdr026">0</DD_ATTR_COLW>
 			<DD_ATTR_CTLW id="ddm_table_cols.poe_rechdr026">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.poe_rechdr026">0</DD_ATTR_CTLH>
@@ -656,7 +656,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_rechdr027">20081013</DD_LSTREV_DATE>
 			<DD_ATTR_ABLC id="ddm_table_cols.poe_rechdr027">POE_RECHDR.DROPSHIP</DD_ATTR_ABLC>
 			<DD_ATTR_ABLV id="ddm_table_cols.poe_rechdr027">Y</DD_ATTR_ABLV>
-			<DD_ATTR_CPGM id="ddm_table_cols.poe_rechdr027">../apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.poe_rechdr027">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_COLW id="ddm_table_cols.poe_rechdr027">0</DD_ATTR_COLW>
 			<DD_ATTR_CTLW id="ddm_table_cols.poe_rechdr027">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.poe_rechdr027">0</DD_ATTR_CTLH>
@@ -678,7 +678,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_rechdr028">20081013</DD_LSTREV_DATE>
 			<DD_ATTR_ABLC id="ddm_table_cols.poe_rechdr028">POE_RECHDR.DROPSHIP</DD_ATTR_ABLC>
 			<DD_ATTR_ABLV id="ddm_table_cols.poe_rechdr028">Y</DD_ATTR_ABLV>
-			<DD_ATTR_CPGM id="ddm_table_cols.poe_rechdr028">../apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.poe_rechdr028">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_COLW id="ddm_table_cols.poe_rechdr028">0</DD_ATTR_COLW>
 			<DD_ATTR_CTLX id="ddm_table_cols.poe_rechdr028">0</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_cols.poe_rechdr028">0</DD_ATTR_CTLY>

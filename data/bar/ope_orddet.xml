@@ -18,11 +18,11 @@
 			<ASC_LICENSE_ID id="ddm_tables.ope_orddet">542B8DFCA2BA161BC1197B18828F0134</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ope_orddet">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ope_orddet">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ope_orddet">20100226</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ope_orddet">20100210</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ope_orddet">160920</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ope_orddet">20100430</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ope_orddet">20100429</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ope_orddet">134438</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ope_orddet">../apps/aon/;</DD_ATTR_CPGM>
-			<DD_ATTR_DKNM id="ddm_tables.ope_orddet">ALT_KEY_03</DD_ATTR_DKNM>
+			<DD_ATTR_DKNM id="ddm_tables.ope_orddet">AO_CUST_ORD_LINE</DD_ATTR_DKNM>
 			<DD_ATTR_FTYP id="ddm_tables.ope_orddet">G</DD_ATTR_FTYP>
 			<DD_ATTR_PTAB id="ddm_tables.ope_orddet">OPE_ORDHDR      </DD_ATTR_PTAB>
 			<DD_ATTR_SLEV id="ddm_tables.ope_orddet">zzzz</DD_ATTR_SLEV>
@@ -142,19 +142,19 @@
 			<DD_TABLE_ALIAS id="ddm_keys.ope_orddet01">OPE_ORDDET      </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.ope_orddet01">01</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.ope_orddet01">Open Orders By Item</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.ope_orddet01">ALT_KEY_01      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.ope_orddet01">AO_WH_ITEM_ORD  </DD_KEY_ID>
 		</RECORD>
 		<RECORD id="ddm_keys.ope_orddet02">
 			<DD_TABLE_ALIAS id="ddm_keys.ope_orddet02">OPE_ORDDET      </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.ope_orddet02">02</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.ope_orddet02">Firm_Item_WH</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.ope_orddet02">ALT_KEY_02      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.ope_orddet02">AO_ITEM_WH_CUST </DD_KEY_ID>
 		</RECORD>
 		<RECORD id="ddm_keys.ope_orddet03">
 			<DD_TABLE_ALIAS id="ddm_keys.ope_orddet03">OPE_ORDDET      </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.ope_orddet03">03</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.ope_orddet03">Display Sequence</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.ope_orddet03">ALT_KEY_03      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.ope_orddet03">AO_CUST_ORD_LINE</DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_key_segs">
@@ -974,6 +974,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_cpro.ope_orddetwarehouse_idbinp">OPE_ORDDET      </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_cpro.ope_orddetwarehouse_idbinp">WAREHOUSE_ID    </DD_DVAR_NAME>
 			<DD_ATTR_CPRO id="ddm_column_cpro.ope_orddetwarehouse_idbinp">BINP</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_column_cpro.ope_orddetitem_idainv">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.ope_orddetitem_idainv">OPE_ORDDET      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.ope_orddetitem_idainv">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.ope_orddetitem_idainv">AINV</DD_ATTR_CPRO>
 		</RECORD>
 		<RECORD id="ddm_column_cpro.ope_orddetitem_idaval">
 			<DD_TABLE_ALIAS id="ddm_column_cpro.ope_orddetitem_idaval">OPE_ORDDET      </DD_TABLE_ALIAS>

@@ -21,8 +21,8 @@
 			<DD_EXPORT_DATA id="ddm_tables.crm_custdet">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.crm_custdet">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_tables.crm_custdet">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.crm_custdet">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.crm_custdet">141546</DD_LSTSYNC_TIME>
+			<DD_LSTSYNC_DATE id="ddm_tables.crm_custdet">20100331</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.crm_custdet">224016</DD_LSTSYNC_TIME>
 			<DD_ATTR_ATAB id="ddm_tables.crm_custdet">ARM_CUSTDET     </DD_ATTR_ATAB>
 			<DD_ATTR_FTYP id="ddm_tables.crm_custdet">T</DD_ATTR_FTYP>
 			<DD_ATTR_IKEY id="ddm_tables.crm_custdet">N</DD_ATTR_IKEY>
@@ -49,49 +49,49 @@
 			<DD_TABLE_ALIAS id="ddm_keys.crm_custdet01">CRM_CUSTDET     </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.crm_custdet01">01</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.crm_custdet01">Salesperson/Cust</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.crm_custdet01">ALT_KEY_01      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.crm_custdet01">AO_SLSMN_CUST   </DD_KEY_ID>
 		</RECORD>
 		<RECORD id="ddm_keys.crm_custdet02">
 			<DD_TABLE_ALIAS id="ddm_keys.crm_custdet02">CRM_CUSTDET     </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.crm_custdet02">02</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.crm_custdet02">Territory/Cust</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.crm_custdet02">ALT_KEY_02      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.crm_custdet02">AO_TERR_CUST    </DD_KEY_ID>
 		</RECORD>
 		<RECORD id="ddm_keys.crm_custdet03">
 			<DD_TABLE_ALIAS id="ddm_keys.crm_custdet03">CRM_CUSTDET     </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.crm_custdet03">03</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.crm_custdet03">Terms Code/Cust</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.crm_custdet03">ALT_KEY_03      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.crm_custdet03">AO_TERMS_CUST   </DD_KEY_ID>
 		</RECORD>
 		<RECORD id="ddm_keys.crm_custdet04">
 			<DD_TABLE_ALIAS id="ddm_keys.crm_custdet04">CRM_CUSTDET     </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.crm_custdet04">04</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.crm_custdet04">Sales Discount/Cust</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.crm_custdet04">ALT_KEY_04      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.crm_custdet04">AO_DISCNT_CUST  </DD_KEY_ID>
 		</RECORD>
 		<RECORD id="ddm_keys.crm_custdet05">
 			<DD_TABLE_ALIAS id="ddm_keys.crm_custdet05">CRM_CUSTDET     </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.crm_custdet05">05</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.crm_custdet05">Distribution/Cust</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.crm_custdet05">ALT_KEY_05      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.crm_custdet05">AO_DIST_CUST    </DD_KEY_ID>
 		</RECORD>
 		<RECORD id="ddm_keys.crm_custdet06">
 			<DD_TABLE_ALIAS id="ddm_keys.crm_custdet06">CRM_CUSTDET     </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.crm_custdet06">06</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.crm_custdet06">Pricing Code/Cust</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.crm_custdet06">ALT_KEY_06      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.crm_custdet06">AO_PRCCD_CUST   </DD_KEY_ID>
 		</RECORD>
 		<RECORD id="ddm_keys.crm_custdet07">
 			<DD_TABLE_ALIAS id="ddm_keys.crm_custdet07">CRM_CUSTDET     </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.crm_custdet07">07</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.crm_custdet07">Tax Code/Cust</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.crm_custdet07">ALT_KEY_07      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.crm_custdet07">AO_TAX_CUST     </DD_KEY_ID>
 		</RECORD>
 		<RECORD id="ddm_keys.crm_custdet08">
 			<DD_TABLE_ALIAS id="ddm_keys.crm_custdet08">CRM_CUSTDET     </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.crm_custdet08">08</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.crm_custdet08">Cust Type</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.crm_custdet08">ALT_KEY_08      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.crm_custdet08">AO_TYPE_CUST    </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_key_segs">

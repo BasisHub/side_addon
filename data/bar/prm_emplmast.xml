@@ -19,8 +19,8 @@
 			<DD_EXPORT_DATA id="ddm_tables.prm_emplmast">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.prm_emplmast">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_tables.prm_emplmast">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.prm_emplmast">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.prm_emplmast">141504</DD_LSTSYNC_TIME>
+			<DD_LSTSYNC_DATE id="ddm_tables.prm_emplmast">20100401</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.prm_emplmast">130112</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.prm_emplmast">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.prm_emplmast">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.prm_emplmast">Employee Master</DD_ATTR_WINT>
@@ -54,13 +54,13 @@
 			<DD_TABLE_ALIAS id="ddm_keys.prm_emplmast01">PRM_EMPLMAST    </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.prm_emplmast01">01</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.prm_emplmast01">Empl Name/Empl ID</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.prm_emplmast01">ALT_KEY_01      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.prm_emplmast01">AO_SURNAME_EMP  </DD_KEY_ID>
 		</RECORD>
 		<RECORD id="ddm_keys.prm_emplmast02">
 			<DD_TABLE_ALIAS id="ddm_keys.prm_emplmast02">PRM_EMPLMAST    </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.prm_emplmast02">02</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.prm_emplmast02">Alt Sequence, Emp No</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.prm_emplmast02">ALT_KEY_02      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.prm_emplmast02">AO_ALTSEQ_EMP   </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_key_segs">

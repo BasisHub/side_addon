@@ -16,10 +16,10 @@
 			<ASC_LICENSE_ID id="ddm_tables.glm_acct">7BF72C176100CB915982E0D83A98F97E</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.glm_acct">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.glm_acct">20060703</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.glm_acct">20100219</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.glm_acct">20100208</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.glm_acct">120058</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.glm_acct">/dev/apps/aon/;</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.glm_acct">20100408</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.glm_acct">20100401</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.glm_acct">225750</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.glm_acct">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.glm_acct">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.glm_acct">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.glm_acct">Account Master</DD_ATTR_WINT>
@@ -122,13 +122,13 @@
 			<DD_TABLE_ALIAS id="ddm_keys.glm_acct01">GLM_ACCT        </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.glm_acct01">01</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.glm_acct01">Description/GL Account</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.glm_acct01">ALT_KEY_01      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.glm_acct01">AO_DESC_ACCT    </DD_KEY_ID>
 		</RECORD>
 		<RECORD id="ddm_keys.glm_acct02">
 			<DD_TABLE_ALIAS id="ddm_keys.glm_acct02">GLM_ACCT        </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.glm_acct02">02</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.glm_acct02">Account, Firm</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.glm_acct02">ACCOUNT_FIRM    </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.glm_acct02">AO_ACCT_FIRM    </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_key_segs">

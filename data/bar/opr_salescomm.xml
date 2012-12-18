@@ -17,9 +17,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.opr_salescomm">63816F40CC17A62950DC02913323CC9C</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.opr_salescomm">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.opr_salescomm">20080122</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.opr_salescomm">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.opr_salescomm">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.opr_salescomm">141516</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.opr_salescomm">20100520</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.opr_salescomm">20090709</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.opr_salescomm">115946</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.opr_salescomm">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.opr_salescomm">[+DIR_PGM]opr_salescomm.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.opr_salescomm">Sales Commission Report</DD_ATTR_WINT>
@@ -168,6 +168,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.opr_salescommsalesperson2">OPR_SALESCOMM   </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.opr_salescommsalesperson2">SALESPERSON     </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.opr_salescommsalesperson2">2</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.opr_salescommsalespersonu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.opr_salescommsalespersonu">OPR_SALESCOMM   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.opr_salescommsalespersonu">SALESPERSON     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.opr_salescommsalespersonu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

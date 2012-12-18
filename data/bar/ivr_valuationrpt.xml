@@ -18,10 +18,10 @@
 			<ASC_LICENSE_ID id="ddm_tables.ivr_valuationrpt">FB353A5645084299D49C0AF2F1294D34</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ivr_valuationrpt">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ivr_valuationrpt">20080302</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ivr_valuationrpt">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivr_valuationrpt">20090709</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivr_valuationrpt">115946</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.ivr_valuationrpt">[+DIR_CPP]ivr_valuationrpt_cpt.bbj</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.ivr_valuationrpt">20100519</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivr_valuationrpt">20090715</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivr_valuationrpt">134940</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.ivr_valuationrpt">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ivr_valuationrpt">S</DD_ATTR_FTYP>
 			<DD_ATTR_IKEY id="ddm_tables.ivr_valuationrpt">N</DD_ATTR_IKEY>
 			<DD_ATTR_PRUN id="ddm_tables.ivr_valuationrpt">[+DIR_PGM]ivr_valuation.aon</DD_ATTR_PRUN>
@@ -107,6 +107,7 @@
 			<DD_COL_OCCURS id="ddm_table_cols.ivr_valuationrpt004">2</DD_COL_OCCURS>
 			<DD_FIELD_DELIM id="ddm_table_cols.ivr_valuationrpt004">N</DD_FIELD_DELIM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivr_valuationrpt004">35</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.ivr_valuationrpt004">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABL id="ddm_table_cols.ivr_valuationrpt004">Warehouse</DD_ATTR_LABL>
 			<DD_ATTR_MAXL id="ddm_table_cols.ivr_valuationrpt004">2</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ivr_valuationrpt004">3</DD_ATTR_TIND>
@@ -129,6 +130,7 @@
 			<DD_DVAR_NAME id="ddm_table_cols.ivr_valuationrpt006">ITEM_ID         </DD_DVAR_NAME>
 			<DD_COL_OCCURS id="ddm_table_cols.ivr_valuationrpt006">2</DD_COL_OCCURS>
 			<DD_FIELD_DELIM id="ddm_table_cols.ivr_valuationrpt006">N</DD_FIELD_DELIM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ivr_valuationrpt006">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivr_valuationrpt006">160</DD_ATTR_CTLW>
 			<DD_ATTR_LABL id="ddm_table_cols.ivr_valuationrpt006">Item ID</DD_ATTR_LABL>
 			<DD_ATTR_MAXL id="ddm_table_cols.ivr_valuationrpt006">20</DD_ATTR_MAXL>
@@ -141,6 +143,7 @@
 			<DD_DVAR_NAME id="ddm_table_cols.ivr_valuationrpt007">ITEM_TYPE       </DD_DVAR_NAME>
 			<DD_FIELD_DELIM id="ddm_table_cols.ivr_valuationrpt007">N</DD_FIELD_DELIM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivr_valuationrpt007">35</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.ivr_valuationrpt007">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.ivr_valuationrpt007">3</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ivr_valuationrpt007">6</DD_ATTR_TIND>
 		</RECORD>
@@ -184,6 +187,14 @@
 			<DD_ATTR_MLAN id="ddm_table_cols.ivr_valuationrpt009">N</DD_ATTR_MLAN>
 			<DD_ATTR_MAXL id="ddm_table_cols.ivr_valuationrpt009">1</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ivr_valuationrpt009">8</DD_ATTR_TIND>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_column_cpro">
+		<ID id="ddm_column_cpro">DDM_COLUMN_CPRO</ID>
+		<RECORD id="ddm_column_cpro.ivr_valuationrptitem_idainv">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.ivr_valuationrptitem_idainv">IVR_VALUATIONRPT</DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.ivr_valuationrptitem_idainv">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.ivr_valuationrptitem_idainv">AINV</DD_ATTR_CPRO>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_ldat">
@@ -264,6 +275,11 @@
 			<DD_DVAR_NAME id="ddm_column_opts.ivr_valuationrptwarehouse_id2">WAREHOUSE_ID    </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ivr_valuationrptwarehouse_id2">2</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.ivr_valuationrptwarehouse_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_valuationrptwarehouse_idu">IVR_VALUATIONRPT</DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivr_valuationrptwarehouse_idu">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivr_valuationrptwarehouse_idu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.ivr_valuationrptproduct_type1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_valuationrptproduct_type1">IVR_VALUATIONRPT</DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ivr_valuationrptproduct_type1">PRODUCT_TYPE    </DD_DVAR_NAME>
@@ -273,6 +289,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_valuationrptproduct_type2">IVR_VALUATIONRPT</DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ivr_valuationrptproduct_type2">PRODUCT_TYPE    </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ivr_valuationrptproduct_type2">2</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivr_valuationrptproduct_typeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_valuationrptproduct_typeu">IVR_VALUATIONRPT</DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivr_valuationrptproduct_typeu">PRODUCT_TYPE    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivr_valuationrptproduct_typeu">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.ivr_valuationrptitem_id1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_valuationrptitem_id1">IVR_VALUATIONRPT</DD_TABLE_ALIAS>
@@ -284,10 +305,20 @@
 			<DD_DVAR_NAME id="ddm_column_opts.ivr_valuationrptitem_id2">ITEM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ivr_valuationrptitem_id2">2</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.ivr_valuationrptitem_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_valuationrptitem_idu">IVR_VALUATIONRPT</DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivr_valuationrptitem_idu">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivr_valuationrptitem_idu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.ivr_valuationrptitem_type3">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_valuationrptitem_type3">IVR_VALUATIONRPT</DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ivr_valuationrptitem_type3">ITEM_TYPE       </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ivr_valuationrptitem_type3">3</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivr_valuationrptitem_typeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_valuationrptitem_typeu">IVR_VALUATIONRPT</DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivr_valuationrptitem_typeu">ITEM_TYPE       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivr_valuationrptitem_typeu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

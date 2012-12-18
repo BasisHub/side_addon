@@ -14,10 +14,10 @@
 			<ASC_VERSION_ID id="ddm_tables.ivr_transhist">9.0</ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.ivr_transhist">4BB3CDE3E4C7A1E8B349911A49F018D8</ASC_LICENSE_ID>
 			<DD_CREATE_DATE id="ddm_tables.ivr_transhist">20061026</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ivr_transhist">20100128</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivr_transhist">20090701</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivr_transhist">141140</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.ivr_transhist">[+DIR_CPP]ivr_transhist_cpt.bbj</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.ivr_transhist">20100519</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivr_transhist">20100128</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivr_transhist">220136</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.ivr_transhist">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ivr_transhist">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.ivr_transhist">[+DIR_PGM]ivr_transhist.aon                      </DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.ivr_transhist">Item Transaction History</DD_ATTR_WINT>
@@ -85,6 +85,7 @@
 			<DD_COL_OCCURS id="ddm_table_cols.ivr_transhist004">2</DD_COL_OCCURS>
 			<DD_FIELD_DELIM id="ddm_table_cols.ivr_transhist004">Y</DD_FIELD_DELIM>
 			<DD_DELIM_CHAR id="ddm_table_cols.ivr_transhist004">0A</DD_DELIM_CHAR>
+			<DD_ATTR_CPGM id="ddm_table_cols.ivr_transhist004">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivr_transhist004">160</DD_ATTR_CTLW>
 			<DD_ATTR_LABL id="ddm_table_cols.ivr_transhist004">Item ID</DD_ATTR_LABL>
 			<DD_ATTR_MAXL id="ddm_table_cols.ivr_transhist004">20</DD_ATTR_MAXL>
@@ -109,7 +110,7 @@
 			<DD_DVAR_NAME id="ddm_table_cols.ivr_transhist006">TRAN_HST_ALL    </DD_DVAR_NAME>
 			<DD_FIELD_DELIM id="ddm_table_cols.ivr_transhist006">Y</DD_FIELD_DELIM>
 			<DD_DELIM_CHAR id="ddm_table_cols.ivr_transhist006">0A</DD_DELIM_CHAR>
-			<DD_ATTR_CPGM id="ddm_table_cols.ivr_transhist006">[+DIR_CPP]ivr_transhist_cpt.bbj</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ivr_transhist006">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLX id="ddm_table_cols.ivr_transhist006">-10</DD_ATTR_CTLX>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivr_transhist006">30</DD_ATTR_CTLW>
 			<DD_ATTR_DFLT id="ddm_table_cols.ivr_transhist006">Y</DD_ATTR_DFLT>
@@ -123,7 +124,7 @@
 			<DD_SEQUENCE id="ddm_table_cols.ivr_transhist007">007</DD_SEQUENCE>
 			<DD_DATA_NAME id="ddm_table_cols.ivr_transhist007">TRAN_HST_PO     </DD_DATA_NAME>
 			<DD_DVAR_NAME id="ddm_table_cols.ivr_transhist007">TRAN_HST_PO     </DD_DVAR_NAME>
-			<DD_ATTR_CPGM id="ddm_table_cols.ivr_transhist007">[+DIR_CPP]ivr_transhist_cpt.bbj</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ivr_transhist007">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLY id="ddm_table_cols.ivr_transhist007">+1</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivr_transhist007">30</DD_ATTR_CTLW>
 			<DD_ATTR_DFLT id="ddm_table_cols.ivr_transhist007">Y</DD_ATTR_DFLT>
@@ -138,7 +139,7 @@
 			<DD_DVAR_NAME id="ddm_table_cols.ivr_transhist008">TRAN_HST_OP     </DD_DVAR_NAME>
 			<DD_FIELD_DELIM id="ddm_table_cols.ivr_transhist008">Y</DD_FIELD_DELIM>
 			<DD_DELIM_CHAR id="ddm_table_cols.ivr_transhist008">0A</DD_DELIM_CHAR>
-			<DD_ATTR_CPGM id="ddm_table_cols.ivr_transhist008">[+DIR_CPP]ivr_transhist_cpt.bbj</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ivr_transhist008">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivr_transhist008">30</DD_ATTR_CTLW>
 			<DD_ATTR_DFLT id="ddm_table_cols.ivr_transhist008">Y</DD_ATTR_DFLT>
 			<DD_ATTR_LABL id="ddm_table_cols.ivr_transhist008">Sales</DD_ATTR_LABL>
@@ -152,7 +153,7 @@
 			<DD_DVAR_NAME id="ddm_table_cols.ivr_transhist009">TRAN_HST_IT     </DD_DVAR_NAME>
 			<DD_FIELD_DELIM id="ddm_table_cols.ivr_transhist009">Y</DD_FIELD_DELIM>
 			<DD_DELIM_CHAR id="ddm_table_cols.ivr_transhist009">0A</DD_DELIM_CHAR>
-			<DD_ATTR_CPGM id="ddm_table_cols.ivr_transhist009">[+DIR_CPP]ivr_transhist_cpt.bbj</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ivr_transhist009">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivr_transhist009">30</DD_ATTR_CTLW>
 			<DD_ATTR_DFLT id="ddm_table_cols.ivr_transhist009">Y</DD_ATTR_DFLT>
 			<DD_ATTR_LABL id="ddm_table_cols.ivr_transhist009">Inventory Trans</DD_ATTR_LABL>
@@ -166,7 +167,7 @@
 			<DD_DVAR_NAME id="ddm_table_cols.ivr_transhist010">TRAN_HST_PH     </DD_DVAR_NAME>
 			<DD_FIELD_DELIM id="ddm_table_cols.ivr_transhist010">Y</DD_FIELD_DELIM>
 			<DD_DELIM_CHAR id="ddm_table_cols.ivr_transhist010">0A</DD_DELIM_CHAR>
-			<DD_ATTR_CPGM id="ddm_table_cols.ivr_transhist010">[+DIR_CPP]ivr_transhist_cpt.bbj</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ivr_transhist010">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLX id="ddm_table_cols.ivr_transhist010">+16</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_cols.ivr_transhist010">-3</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivr_transhist010">30</DD_ATTR_CTLW>
@@ -182,7 +183,7 @@
 			<DD_DVAR_NAME id="ddm_table_cols.ivr_transhist011">TRAN_HST_TI     </DD_DVAR_NAME>
 			<DD_FIELD_DELIM id="ddm_table_cols.ivr_transhist011">Y</DD_FIELD_DELIM>
 			<DD_DELIM_CHAR id="ddm_table_cols.ivr_transhist011">0A</DD_DELIM_CHAR>
-			<DD_ATTR_CPGM id="ddm_table_cols.ivr_transhist011">[+DIR_CPP]ivr_transhist_cpt.bbj</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ivr_transhist011">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivr_transhist011">30</DD_ATTR_CTLW>
 			<DD_ATTR_DFLT id="ddm_table_cols.ivr_transhist011">Y</DD_ATTR_DFLT>
 			<DD_ATTR_LABL id="ddm_table_cols.ivr_transhist011">Transfers In</DD_ATTR_LABL>
@@ -196,7 +197,7 @@
 			<DD_DVAR_NAME id="ddm_table_cols.ivr_transhist012">TRAN_HST_TO     </DD_DVAR_NAME>
 			<DD_FIELD_DELIM id="ddm_table_cols.ivr_transhist012">Y</DD_FIELD_DELIM>
 			<DD_DELIM_CHAR id="ddm_table_cols.ivr_transhist012">0A</DD_DELIM_CHAR>
-			<DD_ATTR_CPGM id="ddm_table_cols.ivr_transhist012">[+DIR_CPP]ivr_transhist_cpt.bbj</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ivr_transhist012">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivr_transhist012">30</DD_ATTR_CTLW>
 			<DD_ATTR_DFLT id="ddm_table_cols.ivr_transhist012">Y</DD_ATTR_DFLT>
 			<DD_ATTR_LABL id="ddm_table_cols.ivr_transhist012">Transfers Out</DD_ATTR_LABL>
@@ -210,7 +211,7 @@
 			<DD_DVAR_NAME id="ddm_table_cols.ivr_transhist013">TRAN_HST_WI     </DD_DVAR_NAME>
 			<DD_FIELD_DELIM id="ddm_table_cols.ivr_transhist013">Y</DD_FIELD_DELIM>
 			<DD_DELIM_CHAR id="ddm_table_cols.ivr_transhist013">0A</DD_DELIM_CHAR>
-			<DD_ATTR_CPGM id="ddm_table_cols.ivr_transhist013">[+DIR_CPP]ivr_transhist_cpt.bbj</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ivr_transhist013">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLX id="ddm_table_cols.ivr_transhist013">+16</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_cols.ivr_transhist013">-3</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivr_transhist013">30</DD_ATTR_CTLW>
@@ -226,7 +227,7 @@
 			<DD_DVAR_NAME id="ddm_table_cols.ivr_transhist014">TRAN_HST_WO     </DD_DVAR_NAME>
 			<DD_FIELD_DELIM id="ddm_table_cols.ivr_transhist014">Y</DD_FIELD_DELIM>
 			<DD_DELIM_CHAR id="ddm_table_cols.ivr_transhist014">0A</DD_DELIM_CHAR>
-			<DD_ATTR_CPGM id="ddm_table_cols.ivr_transhist014">[+DIR_CPP]ivr_transhist_cpt.bbj</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ivr_transhist014">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivr_transhist014">30</DD_ATTR_CTLW>
 			<DD_ATTR_DFLT id="ddm_table_cols.ivr_transhist014">Y</DD_ATTR_DFLT>
 			<DD_ATTR_LABL id="ddm_table_cols.ivr_transhist014">WO Receipt</DD_ATTR_LABL>
@@ -240,7 +241,7 @@
 			<DD_DVAR_NAME id="ddm_table_cols.ivr_transhist015">TRAN_HST_BM     </DD_DVAR_NAME>
 			<DD_FIELD_DELIM id="ddm_table_cols.ivr_transhist015">Y</DD_FIELD_DELIM>
 			<DD_DELIM_CHAR id="ddm_table_cols.ivr_transhist015">0A</DD_DELIM_CHAR>
-			<DD_ATTR_CPGM id="ddm_table_cols.ivr_transhist015">[+DIR_CPP]ivr_transhist_cpt.bbj</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ivr_transhist015">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivr_transhist015">30</DD_ATTR_CTLW>
 			<DD_ATTR_DFLT id="ddm_table_cols.ivr_transhist015">Y</DD_ATTR_DFLT>
 			<DD_ATTR_LABL id="ddm_table_cols.ivr_transhist015">Bill of Materials Prod</DD_ATTR_LABL>
@@ -250,6 +251,11 @@
 	</ALIAS>
 	<ALIAS id="ddm_column_cpro">
 		<ID id="ddm_column_cpro">DDM_COLUMN_CPRO</ID>
+		<RECORD id="ddm_column_cpro.ivr_transhistitem_idainv">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.ivr_transhistitem_idainv">IVR_TRANSHIST   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.ivr_transhistitem_idainv">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.ivr_transhistitem_idainv">AINV</DD_ATTR_CPRO>
+		</RECORD>
 		<RECORD id="ddm_column_cpro.ivr_transhisttran_hst_allaval">
 			<DD_TABLE_ALIAS id="ddm_column_cpro.ivr_transhisttran_hst_allaval">IVR_TRANSHIST   </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_cpro.ivr_transhisttran_hst_allaval">TRAN_HST_ALL    </DD_DVAR_NAME>
@@ -323,6 +329,11 @@
 			<DD_DVAR_NAME id="ddm_column_opts.ivr_transhistwarehouse_id2">WAREHOUSE_ID    </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ivr_transhistwarehouse_id2">2</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.ivr_transhistwarehouse_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_transhistwarehouse_idu">IVR_TRANSHIST   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivr_transhistwarehouse_idu">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivr_transhistwarehouse_idu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.ivr_transhistproduct_type1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_transhistproduct_type1">IVR_TRANSHIST   </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ivr_transhistproduct_type1">PRODUCT_TYPE    </DD_DVAR_NAME>
@@ -332,6 +343,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_transhistproduct_type2">IVR_TRANSHIST   </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ivr_transhistproduct_type2">PRODUCT_TYPE    </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ivr_transhistproduct_type2">2</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivr_transhistproduct_typeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_transhistproduct_typeu">IVR_TRANSHIST   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivr_transhistproduct_typeu">PRODUCT_TYPE    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivr_transhistproduct_typeu">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.ivr_transhistitem_id1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_transhistitem_id1">IVR_TRANSHIST   </DD_TABLE_ALIAS>
@@ -343,10 +359,20 @@
 			<DD_DVAR_NAME id="ddm_column_opts.ivr_transhistitem_id2">ITEM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ivr_transhistitem_id2">2</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.ivr_transhistitem_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_transhistitem_idu">IVR_TRANSHIST   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivr_transhistitem_idu">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivr_transhistitem_idu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.ivr_transhistitem_type3">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_transhistitem_type3">IVR_TRANSHIST   </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ivr_transhistitem_type3">ITEM_TYPE       </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ivr_transhistitem_type3">3</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivr_transhistitem_typeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_transhistitem_typeu">IVR_TRANSHIST   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivr_transhistitem_typeu">ITEM_TYPE       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivr_transhistitem_typeu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

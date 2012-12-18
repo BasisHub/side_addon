@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.sar_salespsn">A179F535CDF83800D5E93F31A8BFF8C2</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.sar_salespsn">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.sar_salespsn">20070722</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.sar_salespsn">20090805</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.sar_salespsn">20090805</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.sar_salespsn">220742</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.sar_salespsn">20100520</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.sar_salespsn">20100225</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.sar_salespsn">223524</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.sar_salespsn">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.sar_salespsn">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.sar_salespsn">[+DIR_PGM]sar_salespsn.aon</DD_ATTR_PRUN>
@@ -147,6 +147,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.sar_salespsn007">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.sar_salespsn007">20070722</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sar_salespsn007">20070722</DD_LSTREV_DATE>
+			<DD_ATTR_CPGM id="ddm_table_cols.sar_salespsn007">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.sar_salespsn007">160</DD_ATTR_CTLW>
 			<DD_ATTR_LABL id="ddm_table_cols.sar_salespsn007">Item ID</DD_ATTR_LABL>
 			<DD_ATTR_MAXL id="ddm_table_cols.sar_salespsn007">20</DD_ATTR_MAXL>
@@ -260,6 +261,11 @@
 	</ALIAS>
 	<ALIAS id="ddm_column_cpro">
 		<ID id="ddm_column_cpro">DDM_COLUMN_CPRO</ID>
+		<RECORD id="ddm_column_cpro.sar_salespsnitem_idainv">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.sar_salespsnitem_idainv">SAR_SALESPSN    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.sar_salespsnitem_idainv">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.sar_salespsnitem_idainv">AINV</DD_ATTR_CPRO>
+		</RECORD>
 		<RECORD id="ddm_column_cpro.sar_salespsntwlve_per_reportaval">
 			<DD_TABLE_ALIAS id="ddm_column_cpro.sar_salespsntwlve_per_reportaval">SAR_SALESPSN    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_cpro.sar_salespsntwlve_per_reportaval">TWLVE_PER_REPORT</DD_DVAR_NAME>
@@ -337,6 +343,11 @@
 			<DD_DVAR_NAME id="ddm_column_opts.sar_salespsnsalesperson2">SALESPERSON     </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.sar_salespsnsalesperson2">2</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.sar_salespsnsalespersonu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sar_salespsnsalespersonu">SAR_SALESPSN    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sar_salespsnsalespersonu">SALESPERSON     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sar_salespsnsalespersonu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.sar_salespsnproduct_type1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.sar_salespsnproduct_type1">SAR_SALESPSN    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.sar_salespsnproduct_type1">PRODUCT_TYPE    </DD_DVAR_NAME>
@@ -347,6 +358,11 @@
 			<DD_DVAR_NAME id="ddm_column_opts.sar_salespsnproduct_type2">PRODUCT_TYPE    </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.sar_salespsnproduct_type2">2</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.sar_salespsnproduct_typeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sar_salespsnproduct_typeu">SAR_SALESPSN    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sar_salespsnproduct_typeu">PRODUCT_TYPE    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sar_salespsnproduct_typeu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.sar_salespsnitem_id1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.sar_salespsnitem_id1">SAR_SALESPSN    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.sar_salespsnitem_id1">ITEM_ID         </DD_DVAR_NAME>
@@ -356,6 +372,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.sar_salespsnitem_id2">SAR_SALESPSN    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.sar_salespsnitem_id2">ITEM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.sar_salespsnitem_id2">2</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sar_salespsnitem_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sar_salespsnitem_idu">SAR_SALESPSN    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sar_salespsnitem_idu">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sar_salespsnitem_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

@@ -16,9 +16,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.por_billunbill">1EA5410697F76B35DE77ECFCB35330CC</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.por_billunbill">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.por_billunbill">20071115</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.por_billunbill">20090709</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.por_billunbill">20090710</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.por_billunbill">132838</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.por_billunbill">20100520</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.por_billunbill">20090715</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.por_billunbill">134940</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.por_billunbill">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.por_billunbill">[+DIR_PGM]por_billunbill.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.por_billunbill">PO Billed Unbilled Report</DD_ATTR_WINT>
@@ -159,6 +159,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.por_billunbillvendor_id2">POR_BILLUNBILL  </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.por_billunbillvendor_id2">VENDOR_ID       </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.por_billunbillvendor_id2">2</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.por_billunbillvendor_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.por_billunbillvendor_idu">POR_BILLUNBILL  </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.por_billunbillvendor_idu">VENDOR_ID       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.por_billunbillvendor_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.por_billunbillpick_date1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.por_billunbillpick_date1">POR_BILLUNBILL  </DD_TABLE_ALIAS>

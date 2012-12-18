@@ -18,11 +18,11 @@
 			<ASC_LICENSE_ID id="ddm_tables.ivm_lsmaster">9D58FC3C7E8294649A704129391993F7</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ivm_lsmaster">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ivm_lsmaster">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ivm_lsmaster">20090701</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivm_lsmaster">20090701</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivm_lsmaster">141140</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ivm_lsmaster">20100402</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivm_lsmaster">20100402</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivm_lsmaster">083128</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ivm_lsmaster">../apps/aon/;</DD_ATTR_CPGM>
-			<DD_ATTR_DKNM id="ddm_tables.ivm_lsmaster">ALT_KEY_03</DD_ATTR_DKNM>
+			<DD_ATTR_DKNM id="ddm_tables.ivm_lsmaster">AO_ITEM_WH_LOT</DD_ATTR_DKNM>
 			<DD_ATTR_FTYP id="ddm_tables.ivm_lsmaster">T</DD_ATTR_FTYP>
 			<DD_ATTR_PTAB id="ddm_tables.ivm_lsmaster">IVM_ITEMWHSE    </DD_ATTR_PTAB>
 			<DD_ATTR_SLEV id="ddm_tables.ivm_lsmaster">zzzz</DD_ATTR_SLEV>
@@ -83,26 +83,26 @@
 		<RECORD id="ddm_keys.ivm_lsmaster01">
 			<DD_TABLE_ALIAS id="ddm_keys.ivm_lsmaster01">IVM_LSMASTER    </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.ivm_lsmaster01">01</DD_KEY_NUMBER>
-			<DD_KEY_DESC id="ddm_keys.ivm_lsmaster01">Lot_Serial No Xref </DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.ivm_lsmaster01">ALT_KEY_01      </DD_KEY_ID>
+			<DD_KEY_DESC id="ddm_keys.ivm_lsmaster01">Lot_Serial No Xref</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.ivm_lsmaster01">AO_LOT_WH_ITEM  </DD_KEY_ID>
 		</RECORD>
 		<RECORD id="ddm_keys.ivm_lsmaster02">
 			<DD_TABLE_ALIAS id="ddm_keys.ivm_lsmaster02">IVM_LSMASTER    </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.ivm_lsmaster02">02</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.ivm_lsmaster02">Lots by Item</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.ivm_lsmaster02">ALT_KEY_2       </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.ivm_lsmaster02">AO_ITEM_LOT_WH  </DD_KEY_ID>
 		</RECORD>
 		<RECORD id="ddm_keys.ivm_lsmaster03">
 			<DD_TABLE_ALIAS id="ddm_keys.ivm_lsmaster03">IVM_LSMASTER    </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.ivm_lsmaster03">03</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.ivm_lsmaster03">Lots by Item_Whse</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.ivm_lsmaster03">ALT_KEY_03      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.ivm_lsmaster03">AO_ITEM_WH_LOT  </DD_KEY_ID>
 		</RECORD>
 		<RECORD id="ddm_keys.ivm_lsmaster04">
 			<DD_TABLE_ALIAS id="ddm_keys.ivm_lsmaster04">IVM_LSMASTER    </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.ivm_lsmaster04">04</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.ivm_lsmaster04">By Closed Flag</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.ivm_lsmaster04">ALT_KEY_04      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.ivm_lsmaster04">AO_WH_ITM_FLAG  </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_key_segs">

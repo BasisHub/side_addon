@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.ivr_itemdetail">ED0A369B5114538F4B772AAF42F34E7F</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ivr_itemdetail">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ivr_itemdetail">20071110</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ivr_itemdetail">20090807</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivr_itemdetail">20090709</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivr_itemdetail">115940</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ivr_itemdetail">20100517</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivr_itemdetail">20090807</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivr_itemdetail">225418</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.ivr_itemdetail">S</DD_ATTR_FTYP>
 			<DD_ATTR_IKEY id="ddm_tables.ivr_itemdetail">N</DD_ATTR_IKEY>
 			<DD_ATTR_PRUN id="ddm_tables.ivr_itemdetail">[+DIR_PGM]ivr_itemdetail.aon                      </DD_ATTR_PRUN>
@@ -75,6 +75,7 @@
 			<DD_DVAR_NAME id="ddm_table_cols.ivr_itemdetail003">ITEM_ID         </DD_DVAR_NAME>
 			<DD_COL_OCCURS id="ddm_table_cols.ivr_itemdetail003">2</DD_COL_OCCURS>
 			<DD_FIELD_DELIM id="ddm_table_cols.ivr_itemdetail003">N</DD_FIELD_DELIM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ivr_itemdetail003">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivr_itemdetail003">160</DD_ATTR_CTLW>
 			<DD_ATTR_LABL id="ddm_table_cols.ivr_itemdetail003">Item ID</DD_ATTR_LABL>
 			<DD_ATTR_MAXL id="ddm_table_cols.ivr_itemdetail003">20</DD_ATTR_MAXL>
@@ -92,6 +93,14 @@
 			<DD_ATTR_TIND id="ddm_table_cols.ivr_itemdetail004">5</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
+	<ALIAS id="ddm_column_cpro">
+		<ID id="ddm_column_cpro">DDM_COLUMN_CPRO</ID>
+		<RECORD id="ddm_column_cpro.ivr_itemdetailitem_idainv">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.ivr_itemdetailitem_idainv">IVR_ITEMDETAIL  </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.ivr_itemdetailitem_idainv">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.ivr_itemdetailitem_idainv">AINV</DD_ATTR_CPRO>
+		</RECORD>
+	</ALIAS>
 	<ALIAS id="ddm_column_opts">
 		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
 		<RECORD id="ddm_column_opts.ivr_itemdetailproduct_type1">
@@ -104,6 +113,11 @@
 			<DD_DVAR_NAME id="ddm_column_opts.ivr_itemdetailproduct_type2">PRODUCT_TYPE    </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ivr_itemdetailproduct_type2">2</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.ivr_itemdetailproduct_typeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_itemdetailproduct_typeu">IVR_ITEMDETAIL  </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivr_itemdetailproduct_typeu">PRODUCT_TYPE    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivr_itemdetailproduct_typeu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.ivr_itemdetailitem_id1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_itemdetailitem_id1">IVR_ITEMDETAIL  </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ivr_itemdetailitem_id1">ITEM_ID         </DD_DVAR_NAME>
@@ -113,6 +127,16 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_itemdetailitem_id2">IVR_ITEMDETAIL  </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ivr_itemdetailitem_id2">ITEM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ivr_itemdetailitem_id2">2</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivr_itemdetailitem_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_itemdetailitem_idu">IVR_ITEMDETAIL  </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivr_itemdetailitem_idu">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivr_itemdetailitem_idu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivr_itemdetailitem_typeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_itemdetailitem_typeu">IVR_ITEMDETAIL  </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivr_itemdetailitem_typeu">ITEM_TYPE       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivr_itemdetailitem_typeu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

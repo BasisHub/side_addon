@@ -14,10 +14,10 @@
 			<ASC_VERSION_ID id="ddm_tables.ivr_lifofifo">9.0</ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.ivr_lifofifo">1952E87707EF5F378A0C5797E018416E</ASC_LICENSE_ID>
 			<DD_CREATE_DATE id="ddm_tables.ivr_lifofifo">20061023</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ivr_lifofifo">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivr_lifofifo">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivr_lifofifo">141534</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.ivr_lifofifo">/devel/aon/;</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.ivr_lifofifo">20100517</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivr_lifofifo">20090709</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivr_lifofifo">115944</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.ivr_lifofifo">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ivr_lifofifo">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.ivr_lifofifo">[+DIR_PGM]ivr_lifofifo.aon </DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.ivr_lifofifo">LIFO/FIFO Tier Inquiry</DD_ATTR_WINT>
@@ -78,6 +78,7 @@
 			<DD_COL_OCCURS id="ddm_table_cols.ivr_lifofifo004">2</DD_COL_OCCURS>
 			<DD_FIELD_DELIM id="ddm_table_cols.ivr_lifofifo004">Y</DD_FIELD_DELIM>
 			<DD_DELIM_CHAR id="ddm_table_cols.ivr_lifofifo004">0A</DD_DELIM_CHAR>
+			<DD_ATTR_CPGM id="ddm_table_cols.ivr_lifofifo004">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivr_lifofifo004">160</DD_ATTR_CTLW>
 			<DD_ATTR_LABL id="ddm_table_cols.ivr_lifofifo004">Item ID</DD_ATTR_LABL>
 			<DD_ATTR_MAXL id="ddm_table_cols.ivr_lifofifo004">20</DD_ATTR_MAXL>
@@ -91,8 +92,17 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ivr_lifofifo005">Y</DD_FIELD_DELIM>
 			<DD_DELIM_CHAR id="ddm_table_cols.ivr_lifofifo005">0A</DD_DELIM_CHAR>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivr_lifofifo005">35</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.ivr_lifofifo005">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.ivr_lifofifo005">3</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ivr_lifofifo005">5</DD_ATTR_TIND>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_column_cpro">
+		<ID id="ddm_column_cpro">DDM_COLUMN_CPRO</ID>
+		<RECORD id="ddm_column_cpro.ivr_lifofifoitem_idainv">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.ivr_lifofifoitem_idainv">IVR_LIFOFIFO    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.ivr_lifofifoitem_idainv">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.ivr_lifofifoitem_idainv">AINV</DD_ATTR_CPRO>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">
@@ -117,6 +127,11 @@
 			<DD_DVAR_NAME id="ddm_column_opts.ivr_lifofifowarehouse_id2">WAREHOUSE_ID    </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ivr_lifofifowarehouse_id2">2</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.ivr_lifofifowarehouse_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_lifofifowarehouse_idu">IVR_LIFOFIFO    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivr_lifofifowarehouse_idu">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivr_lifofifowarehouse_idu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.ivr_lifofifoproduct_type1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_lifofifoproduct_type1">IVR_LIFOFIFO    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ivr_lifofifoproduct_type1">PRODUCT_TYPE    </DD_DVAR_NAME>
@@ -126,6 +141,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_lifofifoproduct_type2">IVR_LIFOFIFO    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ivr_lifofifoproduct_type2">PRODUCT_TYPE    </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ivr_lifofifoproduct_type2">2</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivr_lifofifoproduct_typeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_lifofifoproduct_typeu">IVR_LIFOFIFO    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivr_lifofifoproduct_typeu">PRODUCT_TYPE    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivr_lifofifoproduct_typeu">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.ivr_lifofifoitem_id1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_lifofifoitem_id1">IVR_LIFOFIFO    </DD_TABLE_ALIAS>
@@ -137,10 +157,20 @@
 			<DD_DVAR_NAME id="ddm_column_opts.ivr_lifofifoitem_id2">ITEM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ivr_lifofifoitem_id2">2</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.ivr_lifofifoitem_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_lifofifoitem_idu">IVR_LIFOFIFO    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivr_lifofifoitem_idu">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivr_lifofifoitem_idu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.ivr_lifofifoitem_type3">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_lifofifoitem_type3">IVR_LIFOFIFO    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ivr_lifofifoitem_type3">ITEM_TYPE       </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ivr_lifofifoitem_type3">3</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivr_lifofifoitem_typeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_lifofifoitem_typeu">IVR_LIFOFIFO    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivr_lifofifoitem_typeu">ITEM_TYPE       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivr_lifofifoitem_typeu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

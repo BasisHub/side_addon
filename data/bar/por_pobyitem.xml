@@ -17,10 +17,10 @@
 			<ASC_LICENSE_ID id="ddm_tables.por_pobyitem">BB490D57DC6A8679F26100FD2A42F9BE</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.por_pobyitem">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.por_pobyitem">20071009</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.por_pobyitem">20090706</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.por_pobyitem">20090709</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.por_pobyitem">115948</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.por_pobyitem">[+DIR_CPP]por_pobyitem_cpt.bbj</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.por_pobyitem">20100520</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.por_pobyitem">20090715</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.por_pobyitem">134940</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.por_pobyitem">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.por_pobyitem">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.por_pobyitem">[+DIR_PGM]por_pobyitem.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.por_pobyitem">Purchase Orders By Item</DD_ATTR_WINT>
@@ -110,6 +110,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.por_pobyitem005">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.por_pobyitem005">20071009</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.por_pobyitem005">20071009</DD_LSTREV_DATE>
+			<DD_ATTR_CPGM id="ddm_table_cols.por_pobyitem005">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_MAXL id="ddm_table_cols.por_pobyitem005">20</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.por_pobyitem005">2</DD_ATTR_TIND>
 		</RECORD>
@@ -145,6 +146,14 @@
 			<DD_ATTR_MLAN id="ddm_table_cols.por_pobyitem007">N</DD_ATTR_MLAN>
 			<DD_ATTR_MAXL id="ddm_table_cols.por_pobyitem007">1</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.por_pobyitem007">7</DD_ATTR_TIND>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_column_cpro">
+		<ID id="ddm_column_cpro">DDM_COLUMN_CPRO</ID>
+		<RECORD id="ddm_column_cpro.por_pobyitemitem_idainv">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.por_pobyitemitem_idainv">POR_POBYITEM    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.por_pobyitemitem_idainv">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.por_pobyitemitem_idainv">AINV</DD_ATTR_CPRO>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_ldat">
@@ -190,6 +199,11 @@
 			<DD_DVAR_NAME id="ddm_column_opts.por_pobyitemvendor_id2">VENDOR_ID       </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.por_pobyitemvendor_id2">2</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.por_pobyitemvendor_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.por_pobyitemvendor_idu">POR_POBYITEM    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.por_pobyitemvendor_idu">VENDOR_ID       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.por_pobyitemvendor_idu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.por_pobyitempick_date1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.por_pobyitempick_date1">POR_POBYITEM    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.por_pobyitempick_date1">PICK_DATE       </DD_DVAR_NAME>
@@ -210,6 +224,11 @@
 			<DD_DVAR_NAME id="ddm_column_opts.por_pobyitemwarehouse_id2">WAREHOUSE_ID    </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.por_pobyitemwarehouse_id2">2</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.por_pobyitemwarehouse_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.por_pobyitemwarehouse_idu">POR_POBYITEM    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.por_pobyitemwarehouse_idu">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.por_pobyitemwarehouse_idu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.por_pobyitemitem_id1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.por_pobyitemitem_id1">POR_POBYITEM    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.por_pobyitemitem_id1">ITEM_ID         </DD_DVAR_NAME>
@@ -219,6 +238,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.por_pobyitemitem_id2">POR_POBYITEM    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.por_pobyitemitem_id2">ITEM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.por_pobyitemitem_id2">2</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.por_pobyitemitem_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.por_pobyitemitem_idu">POR_POBYITEM    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.por_pobyitemitem_idu">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.por_pobyitemitem_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.por_pobyitempo_no1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.por_pobyitempo_no1">POR_POBYITEM    </DD_TABLE_ALIAS>

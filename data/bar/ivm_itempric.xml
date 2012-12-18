@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.ivm_itempric">E92404A45FCE0334A18ADBC27EBB9FB3</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ivm_itempric">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ivm_itempric">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ivm_itempric">20090903</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivm_itempric">20090918</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivm_itempric">083242</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ivm_itempric">20100519</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivm_itempric">20100119</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivm_itempric">215950</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ivm_itempric">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ivm_itempric">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.ivm_itempric">zzzz</DD_ATTR_SLEV>
@@ -216,6 +216,7 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.ivm_itempric003">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.ivm_itempric003">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivm_itempric003">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CPGM id="ddm_table_cols.ivm_itempric003">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_LABS id="ddm_table_cols.ivm_itempric003">Inventory</DD_ATTR_LABS>
 			<DD_ATTR_MINL id="ddm_table_cols.ivm_itempric003">1</DD_ATTR_MINL>
 			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itempric003">20</DD_ATTR_MAXL>
@@ -707,6 +708,14 @@
 			<DD_ATTR_MLAN id="ddm_table_cols.ivm_itempric027">N</DD_ATTR_MLAN>
 			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itempric027">7</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itempric027">26</DD_ATTR_TIND>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_column_cpro">
+		<ID id="ddm_column_cpro">DDM_COLUMN_CPRO</ID>
+		<RECORD id="ddm_column_cpro.ivm_itempricitem_idainv">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.ivm_itempricitem_idainv">IVM_ITEMPRIC    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.ivm_itempricitem_idainv">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.ivm_itempricitem_idainv">AINV</DD_ATTR_CPRO>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">

@@ -16,9 +16,9 @@
 			<ASC_VERSION_ID id="ddm_tables.opr_oderstatitem">9.0</ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.opr_oderstatitem">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.opr_oderstatitem">20080227</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.opr_oderstatitem">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.opr_oderstatitem">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.opr_oderstatitem">141518</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.opr_oderstatitem">20100520</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.opr_oderstatitem">20090709</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.opr_oderstatitem">115934</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.opr_oderstatitem">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.opr_oderstatitem">[+DIR_PGM]opr_oderstatitem.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.opr_oderstatitem">Order Status Report By Item</DD_ATTR_WINT>
@@ -156,6 +156,19 @@
 			<DD_ATTR_SEQ id="ddm_column_ldat.opr_oderstatitemsummary_detail02">02</DD_ATTR_SEQ>
 			<DD_ATTR_LDAT id="ddm_column_ldat.opr_oderstatitemsummary_detail02">D</DD_ATTR_LDAT>
 			<DD_ATTR_LDAT_DS id="ddm_column_ldat.opr_oderstatitemsummary_detail02">Detail</DD_ATTR_LDAT_DS>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_column_opts">
+		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
+		<RECORD id="ddm_column_opts.opr_oderstatitemproduct_typeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.opr_oderstatitemproduct_typeu">OPR_ODERSTATITEM</DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.opr_oderstatitemproduct_typeu">PRODUCT_TYPE    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.opr_oderstatitemproduct_typeu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.opr_oderstatitemwarehouse_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.opr_oderstatitemwarehouse_idu">OPR_ODERSTATITEM</DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.opr_oderstatitemwarehouse_idu">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.opr_oderstatitemwarehouse_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

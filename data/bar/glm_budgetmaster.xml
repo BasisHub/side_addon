@@ -18,10 +18,10 @@
 			<ASC_LICENSE_ID id="ddm_tables.glm_budgetmaster">4C95D78CC6C85129F1F40097AA869C7A</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.glm_budgetmaster">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.glm_budgetmaster">20060523</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.glm_budgetmaster">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.glm_budgetmaster">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.glm_budgetmaster">141544</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.glm_budgetmaster">[+DIR_CPP]glm_budgetmaster_cpt.bbj</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.glm_budgetmaster">20100224</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.glm_budgetmaster">20090709</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.glm_budgetmaster">115944</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.glm_budgetmaster">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.glm_budgetmaster">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.glm_budgetmaster">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.glm_budgetmaster">Budget Revisions</DD_ATTR_WINT>
@@ -45,7 +45,7 @@
 		</RECORD>
 		<RECORD id="ddm_table_cpro.glm_budgetmasteraopt">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.glm_budgetmasteraopt">GLM_BUDGETMASTER</DD_TABLE_ALIAS>
-			<DD_ATTR_CPRO id="ddm_table_cpro.glm_budgetmasteraopt">AOPT</DD_ATTR_CPRO>
+			<DD_ATTR_CPRO id="ddm_table_cpro.glm_budgetmasteraopt">AOPT-BREV</DD_ATTR_CPRO>
 		</RECORD>
 		<RECORD id="ddm_table_cpro.glm_budgetmasterasho">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.glm_budgetmasterasho">GLM_BUDGETMASTER</DD_TABLE_ALIAS>
@@ -144,7 +144,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.glm_budgetmaster002">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.glm_budgetmaster002">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.glm_budgetmaster002">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.glm_budgetmaster002">[+DIR_CPP]glm_budgetmaster_cpt.bbj</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.glm_budgetmaster002">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.glm_budgetmaster002">35</DD_ATTR_CTLW>
 			<DD_ATTR_LABL id="ddm_table_cols.glm_budgetmaster002">Revision Code</DD_ATTR_LABL>
 			<DD_ATTR_MAXL id="ddm_table_cols.glm_budgetmaster002">1</DD_ATTR_MAXL>
@@ -211,7 +211,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.glm_budgetmaster006">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.glm_budgetmaster006">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.glm_budgetmaster006">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.glm_budgetmaster006">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.glm_budgetmaster006">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.glm_budgetmaster006">16</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.glm_budgetmaster007">
 			<DD_TABLE_ALIAS id="ddm_table_cols.glm_budgetmaster007">GLM_BUDGETMASTER</DD_TABLE_ALIAS>
@@ -222,7 +224,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.glm_budgetmaster007">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.glm_budgetmaster007">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.glm_budgetmaster007">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.glm_budgetmaster007">[+DIR_CPP]glm_budgetmaster_cpt.bbj</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.glm_budgetmaster007">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.glm_budgetmaster007">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.glm_budgetmaster007">0</DD_ATTR_CTLH>
 			<DD_ATTR_GHDR id="ddm_table_cols.glm_budgetmaster007">Additional Information</DD_ATTR_GHDR>
@@ -294,7 +296,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.glm_budgetmaster011">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.glm_budgetmaster011">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.glm_budgetmaster011">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.glm_budgetmaster011">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.glm_budgetmaster011">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.glm_budgetmaster011">17</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.glm_budgetmaster012">
 			<DD_TABLE_ALIAS id="ddm_table_cols.glm_budgetmaster012">GLM_BUDGETMASTER</DD_TABLE_ALIAS>
@@ -375,7 +379,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.glm_budgetmaster016">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.glm_budgetmaster016">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.glm_budgetmaster016">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.glm_budgetmaster016">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.glm_budgetmaster016">Reserved For Dealer Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.glm_budgetmaster016">18</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.glm_budgetmaster017">
 			<DD_TABLE_ALIAS id="ddm_table_cols.glm_budgetmaster017">GLM_BUDGETMASTER</DD_TABLE_ALIAS>
@@ -406,7 +412,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.glm_budgetmaster018">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.glm_budgetmaster018">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.glm_budgetmaster018">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.glm_budgetmaster018">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.glm_budgetmaster018">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.glm_budgetmaster018">19</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.glm_budgetmaster019">
 			<DD_TABLE_ALIAS id="ddm_table_cols.glm_budgetmaster019">GLM_BUDGETMASTER</DD_TABLE_ALIAS>
@@ -419,7 +427,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.glm_budgetmaster019">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.glm_budgetmaster019">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.glm_budgetmaster019">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.glm_budgetmaster019">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.glm_budgetmaster019">Reserved For Dealer Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.glm_budgetmaster019">20</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_cpro">

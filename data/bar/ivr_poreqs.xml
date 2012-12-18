@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.ivr_poreqs">87329D4CEB990F0FA61DF3CA375A6178</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ivr_poreqs">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ivr_poreqs">20080108</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ivr_poreqs">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivr_poreqs">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivr_poreqs">141532</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ivr_poreqs">20100517</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivr_poreqs">20090709</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivr_poreqs">115940</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.ivr_poreqs">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.ivr_poreqs">[+DIR_PGM]ivr_poreqs.aon                       </DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.ivr_poreqs">Purchase Reqs this Item</DD_ATTR_WINT>
@@ -57,6 +57,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ivr_poreqs002">Y</DD_FIELD_DELIM>
 			<DD_DELIM_CHAR id="ddm_table_cols.ivr_poreqs002">0A</DD_DELIM_CHAR>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivr_poreqs002">35</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.ivr_poreqs002">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABL id="ddm_table_cols.ivr_poreqs002">Warehouse</DD_ATTR_LABL>
 			<DD_ATTR_MINL id="ddm_table_cols.ivr_poreqs002">2</DD_ATTR_MINL>
 			<DD_ATTR_MAXL id="ddm_table_cols.ivr_poreqs002">2</DD_ATTR_MAXL>
@@ -70,10 +71,19 @@
 			<DD_COL_OCCURS id="ddm_table_cols.ivr_poreqs003">1</DD_COL_OCCURS>
 			<DD_FIELD_DELIM id="ddm_table_cols.ivr_poreqs003">Y</DD_FIELD_DELIM>
 			<DD_DELIM_CHAR id="ddm_table_cols.ivr_poreqs003">0A</DD_DELIM_CHAR>
+			<DD_ATTR_CPGM id="ddm_table_cols.ivr_poreqs003">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivr_poreqs003">160</DD_ATTR_CTLW>
 			<DD_ATTR_LABL id="ddm_table_cols.ivr_poreqs003">Item ID</DD_ATTR_LABL>
 			<DD_ATTR_MAXL id="ddm_table_cols.ivr_poreqs003">20</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ivr_poreqs003">4</DD_ATTR_TIND>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_column_cpro">
+		<ID id="ddm_column_cpro">DDM_COLUMN_CPRO</ID>
+		<RECORD id="ddm_column_cpro.ivr_poreqsitem_idainv">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.ivr_poreqsitem_idainv">IVR_POREQS      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.ivr_poreqsitem_idainv">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.ivr_poreqsitem_idainv">AINV</DD_ATTR_CPRO>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">
@@ -87,6 +97,16 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_poreqspick_date2">IVR_POREQS      </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ivr_poreqspick_date2">PICK_DATE       </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ivr_poreqspick_date2">2</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivr_poreqswarehouse_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_poreqswarehouse_idu">IVR_POREQS      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivr_poreqswarehouse_idu">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivr_poreqswarehouse_idu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivr_poreqsitem_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_poreqsitem_idu">IVR_POREQS      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivr_poreqsitem_idu">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivr_poreqsitem_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

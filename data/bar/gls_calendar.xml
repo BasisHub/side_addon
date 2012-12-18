@@ -19,9 +19,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.gls_calendar">408FD371DDE61A29E2700A0FFC9AF158</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.gls_calendar">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.gls_calendar">20070915</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.gls_calendar">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.gls_calendar">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.gls_calendar">141542</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.gls_calendar">20100205</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.gls_calendar">20090709</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.gls_calendar">115946</DD_LSTSYNC_TIME>
 			<DD_ATTR_ATAB id="ddm_tables.gls_calendar">GLS_PARAMS      </DD_ATTR_ATAB>
 			<DD_ATTR_CPGM id="ddm_tables.gls_calendar">[+DIR_CPP]gls_calendar_cpt.bbj</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.gls_calendar">T</DD_ATTR_FTYP>
@@ -339,7 +339,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.gls_calendar007">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.gls_calendar007">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.gls_calendar007">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.gls_calendar007">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.gls_calendar007">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.gls_calendar007">107</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.gls_calendar008">
 			<DD_TABLE_ALIAS id="ddm_table_cols.gls_calendar008">GLS_CALENDAR    </DD_TABLE_ALIAS>
@@ -396,7 +398,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.gls_calendar011">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.gls_calendar011">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.gls_calendar011">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.gls_calendar011">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.gls_calendar011">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.gls_calendar011">108</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.gls_calendar012">
 			<DD_TABLE_ALIAS id="ddm_table_cols.gls_calendar012">GLS_CALENDAR    </DD_TABLE_ALIAS>
@@ -780,7 +784,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.gls_calendar038">30</DD_ATTR_CTLW>
 			<DD_ATTR_LABL id="ddm_table_cols.gls_calendar038">?</DD_ATTR_LABL>
 			<DD_ATTR_MAXL id="ddm_table_cols.gls_calendar038">1</DD_ATTR_MAXL>
-			<DD_ATTR_PROM id="ddm_table_cols.gls_calendar038">Locked [Y/N]?</DD_ATTR_PROM>
+			<DD_ATTR_PROM id="ddm_table_cols.gls_calendar038">Locked?</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.gls_calendar038">45</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.gls_calendar039">
@@ -972,7 +976,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.gls_calendar051">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.gls_calendar051">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.gls_calendar051">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.gls_calendar051">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.gls_calendar051">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.gls_calendar051">109</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.gls_calendar052">
 			<DD_TABLE_ALIAS id="ddm_table_cols.gls_calendar052">GLS_CALENDAR    </DD_TABLE_ALIAS>
@@ -1418,7 +1424,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.gls_calendar082">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.gls_calendar082">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.gls_calendar082">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.gls_calendar082">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.gls_calendar082">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.gls_calendar082">110</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.gls_calendar083">
 			<DD_TABLE_ALIAS id="ddm_table_cols.gls_calendar083">GLS_CALENDAR    </DD_TABLE_ALIAS>
@@ -1754,7 +1762,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.gls_calendar101">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.gls_calendar101">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.gls_calendar101">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.gls_calendar101">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.gls_calendar101">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.gls_calendar101">111</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.gls_calendar102">
 			<DD_TABLE_ALIAS id="ddm_table_cols.gls_calendar102">GLS_CALENDAR    </DD_TABLE_ALIAS>

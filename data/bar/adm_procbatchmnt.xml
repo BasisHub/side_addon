@@ -22,7 +22,7 @@
 			<DD_CREATE_DATE id="ddm_tables.adm_procbatchmnt">20090724</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_tables.adm_procbatchmnt">20091007</DD_LSTREV_DATE>
 			<DD_LSTSYNC_DATE id="ddm_tables.adm_procbatchmnt">20091007</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.adm_procbatchmnt">104044</DD_LSTSYNC_TIME>
+			<DD_LSTSYNC_TIME id="ddm_tables.adm_procbatchmnt">223138</DD_LSTSYNC_TIME>
 			<DD_ATTR_ATAB id="ddm_tables.adm_procbatchmnt">ADM_PROCBATCHES </DD_ATTR_ATAB>
 			<DD_ATTR_CPGM id="ddm_tables.adm_procbatchmnt">../apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.adm_procbatchmnt">T</DD_ATTR_FTYP>
@@ -98,7 +98,7 @@
 			<DD_TABLE_ALIAS id="ddm_keys.adm_procbatchmnt01">ADM_PROCBATCHMNT</DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.adm_procbatchmnt01">01</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.adm_procbatchmnt01">Firm/Batch/Process</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.adm_procbatchmnt01">ALT_KEY_01      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.adm_procbatchmnt01">AO_BATCH_PROCESS</DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_key_segs">
@@ -510,7 +510,7 @@
 			<DD_DATA_LENGTH id="ddm_elements.user_id">16</DD_DATA_LENGTH>
 			<DD_SYSTEM_REC id="ddm_elements.user_id">Y</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_elements.user_id">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.user_id">BAR</ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.user_id">ADB</ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.user_id">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_elements.user_id">20080110</DD_LSTREV_DATE>
 			<DD_AUTO_COMP id="ddm_elements.user_id">Y</DD_AUTO_COMP>

@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.poe_pohdr">905D4E0E43FB95DBA5F14FEBF11CCE58</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.poe_pohdr">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.poe_pohdr">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.poe_pohdr">20091203</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.poe_pohdr">20091203</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.poe_pohdr">222304</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.poe_pohdr">20100409</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.poe_pohdr">20100408</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.poe_pohdr">224850</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.poe_pohdr">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.poe_pohdr">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.poe_pohdr">zzzz</DD_ATTR_SLEV>
@@ -142,13 +142,13 @@
 			<DD_TABLE_ALIAS id="ddm_keys.poe_pohdr01">POE_POHDR       </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.poe_pohdr01">01</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.poe_pohdr01">Purch Orders By PO No</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.poe_pohdr01">ALT_KEY_01      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.poe_pohdr01">AO_VEND_PO      </DD_KEY_ID>
 		</RECORD>
 		<RECORD id="ddm_keys.poe_pohdr02">
 			<DD_TABLE_ALIAS id="ddm_keys.poe_pohdr02">POE_POHDR       </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.poe_pohdr02">02</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.poe_pohdr02">Requisition/Vend/PO No</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.poe_pohdr02">ALT_KEY_02      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.poe_pohdr02">AO_REQ_VEND_PO  </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_key_segs">

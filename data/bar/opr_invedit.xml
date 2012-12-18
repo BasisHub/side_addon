@@ -16,9 +16,9 @@
 			<ASC_VERSION_ID id="ddm_tables.opr_invedit">9.0</ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.opr_invedit">C5A6AD810B17E1DAA42A8B83B9129A5E</ASC_LICENSE_ID>
 			<DD_CREATE_DATE id="ddm_tables.opr_invedit">20060427</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.opr_invedit">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.opr_invedit">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.opr_invedit">141518</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.opr_invedit">20100520</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.opr_invedit">20090709</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.opr_invedit">115936</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.opr_invedit">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.opr_invedit">[+DIR_PGM]opr_invoiceedit.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.opr_invedit">Invoice Edit Report</DD_ATTR_WINT>
@@ -171,6 +171,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.opr_inveditcustomer_id2">OPR_INVEDIT     </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.opr_inveditcustomer_id2">CUSTOMER_ID     </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.opr_inveditcustomer_id2">2</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.opr_inveditcustomer_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.opr_inveditcustomer_idu">OPR_INVEDIT     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.opr_inveditcustomer_idu">CUSTOMER_ID     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.opr_inveditcustomer_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.opr_inveditorder_no1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.opr_inveditorder_no1">OPR_INVEDIT     </DD_TABLE_ALIAS>

@@ -16,9 +16,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.por_openpo">7F2332EC289BEF0C38F8EADFED24FF65</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.por_openpo">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.por_openpo">20071015</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.por_openpo">20090721</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.por_openpo">20090715</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.por_openpo">134940</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.por_openpo">20100520</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.por_openpo">20090721</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.por_openpo">215938</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.por_openpo">[+DIR_CPP]por_openpo_cpt.bbj</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.por_openpo">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.por_openpo">[+DIR_PGM]por_openpo.aon</DD_ATTR_PRUN>
@@ -208,6 +208,11 @@
 			<DD_DVAR_NAME id="ddm_column_opts.por_openpovendor_id2">VENDOR_ID       </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.por_openpovendor_id2">2</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.por_openpovendor_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.por_openpovendor_idu">POR_OPENPO      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.por_openpovendor_idu">VENDOR_ID       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.por_openpovendor_idu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.por_openpopick_date1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.por_openpopick_date1">POR_OPENPO      </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.por_openpopick_date1">PICK_DATE       </DD_DVAR_NAME>
@@ -222,6 +227,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.por_openpowarehouse_id3">POR_OPENPO      </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.por_openpowarehouse_id3">WAREHOUSE_ID    </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.por_openpowarehouse_id3">3</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.por_openpowarehouse_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.por_openpowarehouse_idu">POR_OPENPO      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.por_openpowarehouse_idu">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.por_openpowarehouse_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.por_openpopo_no1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.por_openpopo_no1">POR_OPENPO      </DD_TABLE_ALIAS>

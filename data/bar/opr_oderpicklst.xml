@@ -16,9 +16,9 @@
 			<ASC_VERSION_ID id="ddm_tables.opr_oderpicklst">9.0</ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.opr_oderpicklst">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.opr_oderpicklst">20080312</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.opr_oderpicklst">20100219</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.opr_oderpicklst">20100219</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.opr_oderpicklst">175810</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.opr_oderpicklst">20100520</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.opr_oderpicklst">20100225</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.opr_oderpicklst">220138</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.opr_oderpicklst">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.opr_oderpicklst">[+DIR_PGM]opr_picklist.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.opr_oderpicklst">Order Picking List</DD_ATTR_WINT>
@@ -170,10 +170,20 @@
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">
 		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
+		<RECORD id="ddm_column_opts.opr_oderpicklstcustomer_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.opr_oderpicklstcustomer_idu">OPR_ODERPICKLST </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.opr_oderpicklstcustomer_idu">CUSTOMER_ID     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.opr_oderpicklstcustomer_idu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.opr_oderpicklstwarehouse_id3">
 			<DD_TABLE_ALIAS id="ddm_column_opts.opr_oderpicklstwarehouse_id3">OPR_ODERPICKLST </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.opr_oderpicklstwarehouse_id3">WAREHOUSE_ID    </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.opr_oderpicklstwarehouse_id3">3</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.opr_oderpicklstwarehouse_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.opr_oderpicklstwarehouse_idu">OPR_ODERPICKLST </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.opr_oderpicklstwarehouse_idu">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.opr_oderpicklstwarehouse_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

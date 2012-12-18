@@ -19,9 +19,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.sam_salespsn">4E29E5375854F1355ABC44F90088E348</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.sam_salespsn">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.sam_salespsn">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.sam_salespsn">20090826</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.sam_salespsn">20090803</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.sam_salespsn">123852</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.sam_salespsn">20100519</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.sam_salespsn">20100304</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.sam_salespsn">222656</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.sam_salespsn">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.sam_salespsn">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.sam_salespsn">zzzz</DD_ATTR_SLEV>
@@ -343,6 +343,11 @@
 			<DD_DVAR_NAME id="ddm_column_cpro.sam_salespsnproduct_typeaval">PRODUCT_TYPE    </DD_DVAR_NAME>
 			<DD_ATTR_CPRO id="ddm_column_cpro.sam_salespsnproduct_typeaval">AVAL</DD_ATTR_CPRO>
 		</RECORD>
+		<RECORD id="ddm_column_cpro.sam_salespsnitem_idainv">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.sam_salespsnitem_idainv">SAM_SALESPSN    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.sam_salespsnitem_idainv">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.sam_salespsnitem_idainv">AINV</DD_ATTR_CPRO>
+		</RECORD>
 		<RECORD id="ddm_column_cpro.sam_salespsnitem_idaval">
 			<DD_TABLE_ALIAS id="ddm_column_cpro.sam_salespsnitem_idaval">SAM_SALESPSN    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_cpro.sam_salespsnitem_idaval">ITEM_ID         </DD_DVAR_NAME>
@@ -355,6 +360,21 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.sam_salespsnfirm_ido">SAM_SALESPSN    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.sam_salespsnfirm_ido">FIRM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.sam_salespsnfirm_ido">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_salespsnslspsn_codeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_salespsnslspsn_codeu">SAM_SALESPSN    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_salespsnslspsn_codeu">SLSPSN_CODE     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_salespsnslspsn_codeu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_salespsnproduct_typeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_salespsnproduct_typeu">SAM_SALESPSN    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_salespsnproduct_typeu">PRODUCT_TYPE    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_salespsnproduct_typeu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_salespsnitem_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_salespsnitem_idu">SAM_SALESPSN    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_salespsnitem_idu">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_salespsnitem_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.sam_salespsnqty_shippeda">
 			<DD_TABLE_ALIAS id="ddm_column_opts.sam_salespsnqty_shippeda">SAM_SALESPSN    </DD_TABLE_ALIAS>

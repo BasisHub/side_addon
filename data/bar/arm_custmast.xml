@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.arm_custmast">B0AE4537C94866F0AF91493A5C8B7BCB</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.arm_custmast">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.arm_custmast">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.arm_custmast">20091229</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.arm_custmast">20091021</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.arm_custmast">120036</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.arm_custmast">20100304</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.arm_custmast">20100331</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.arm_custmast">225626</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.arm_custmast">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.arm_custmast">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.arm_custmast">zzzz</DD_ATTR_SLEV>
@@ -513,43 +513,43 @@
 			<DD_TABLE_ALIAS id="ddm_keys.arm_custmast01">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.arm_custmast01">01</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.arm_custmast01">Cust Name/Cust ID</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.arm_custmast01">ALT_KEY_01      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.arm_custmast01">AO_NAME_CUST    </DD_KEY_ID>
 		</RECORD>
 		<RECORD id="ddm_keys.arm_custmast02">
 			<DD_TABLE_ALIAS id="ddm_keys.arm_custmast02">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.arm_custmast02">02</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.arm_custmast02">Alternate Seq/Cust</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.arm_custmast02">ALT_KEY_02      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.arm_custmast02">AO_ALTSEQ_CUST  </DD_KEY_ID>
 		</RECORD>
 		<RECORD id="ddm_keys.arm_custmast03">
 			<DD_TABLE_ALIAS id="ddm_keys.arm_custmast03">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.arm_custmast03">03</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.arm_custmast03">Zip Code/Cust</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.arm_custmast03">ALT_KEY_03      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.arm_custmast03">AO_ZIP_CUST     </DD_KEY_ID>
 		</RECORD>
 		<RECORD id="ddm_keys.arm_custmast04">
 			<DD_TABLE_ALIAS id="ddm_keys.arm_custmast04">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.arm_custmast04">04</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.arm_custmast04">Phone No/Cust</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.arm_custmast04">ALT_KEY_04      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.arm_custmast04">AO_PHONE_CUST   </DD_KEY_ID>
 		</RECORD>
 		<RECORD id="ddm_keys.arm_custmast05">
 			<DD_TABLE_ALIAS id="ddm_keys.arm_custmast05">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.arm_custmast05">05</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.arm_custmast05">D&B/Cust</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.arm_custmast05">ALT_KEY_05      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.arm_custmast05">AO_DB_CUST      </DD_KEY_ID>
 		</RECORD>
 		<RECORD id="ddm_keys.arm_custmast06">
 			<DD_TABLE_ALIAS id="ddm_keys.arm_custmast06">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.arm_custmast06">06</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.arm_custmast06">SIC Code/Cust</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.arm_custmast06">ALT_KEY_06      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.arm_custmast06">AO_SIC_CUST     </DD_KEY_ID>
 		</RECORD>
 		<RECORD id="ddm_keys.arm_custmast07">
 			<DD_TABLE_ALIAS id="ddm_keys.arm_custmast07">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.arm_custmast07">07</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.arm_custmast07">Contact/Cust</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.arm_custmast07">ALT_KEY_07      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.arm_custmast07">AO_CONTACT_CUST </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_key_segs">

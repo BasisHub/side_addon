@@ -18,10 +18,10 @@
 			<ASC_LICENSE_ID id="ddm_tables.ivt_itemtran">41B20713E8744975401077D66C480F2F</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ivt_itemtran">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ivt_itemtran">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ivt_itemtran">20100119</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivt_itemtran">20100119</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivt_itemtran">163146</DD_LSTSYNC_TIME>
-			<DD_ATTR_DKNM id="ddm_tables.ivt_itemtran">ALT_KEY_02      </DD_ATTR_DKNM>
+			<DD_LSTREV_DATE id="ddm_tables.ivt_itemtran">20100402</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivt_itemtran">20100401</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivt_itemtran">225750</DD_LSTSYNC_TIME>
+			<DD_ATTR_DKNM id="ddm_tables.ivt_itemtran">AO_ITEM_WH_DATE</DD_ATTR_DKNM>
 			<DD_ATTR_FTYP id="ddm_tables.ivt_itemtran">G</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.ivt_itemtran">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.ivt_itemtran">Warehouse Transaction History           </DD_ATTR_WINT>
@@ -47,13 +47,13 @@
 			<DD_TABLE_ALIAS id="ddm_keys.ivt_itemtran01">IVT_ITEMTRAN    </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.ivt_itemtran01">01</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.ivt_itemtran01">Item Sort</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.ivt_itemtran01">ITEM_DATE       </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.ivt_itemtran01">AO_ITEM_DATE    </DD_KEY_ID>
 		</RECORD>
 		<RECORD id="ddm_keys.ivt_itemtran02">
 			<DD_TABLE_ALIAS id="ddm_keys.ivt_itemtran02">IVT_ITEMTRAN    </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.ivt_itemtran02">02</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.ivt_itemtran02">Item_Whse</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.ivt_itemtran02">ALT_KEY_02      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.ivt_itemtran02">AO_ITEM_WH_DATE </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_key_segs">
@@ -1118,7 +1118,7 @@
 			<DD_DATA_LENGTH id="ddm_elements.user_id">16</DD_DATA_LENGTH>
 			<DD_SYSTEM_REC id="ddm_elements.user_id">Y</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_elements.user_id">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.user_id">BAR</ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.user_id">ADB</ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.user_id">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_elements.user_id">20080110</DD_LSTREV_DATE>
 			<DD_AUTO_COMP id="ddm_elements.user_id">Y</DD_AUTO_COMP>

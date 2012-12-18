@@ -19,8 +19,8 @@
 			<DD_EXPORT_DATA id="ddm_tables.pot_invdet">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.pot_invdet">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_tables.pot_invdet">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.pot_invdet">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.pot_invdet">141508</DD_LSTSYNC_TIME>
+			<DD_LSTSYNC_DATE id="ddm_tables.pot_invdet">20100525</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.pot_invdet">125254</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.pot_invdet">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.pot_invdet">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.pot_invdet">PO Invoice History Detail</DD_ATTR_WINT>
@@ -47,6 +47,12 @@
 			<DD_KEY_NUMBER id="ddm_keys.pot_invdet01">01</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.pot_invdet01">INVBYPO</DD_KEY_DESC>
 			<DD_KEY_ID id="ddm_keys.pot_invdet01">INVBYPO         </DD_KEY_ID>
+		</RECORD>
+		<RECORD id="ddm_keys.pot_invdet02">
+			<DD_TABLE_ALIAS id="ddm_keys.pot_invdet02">POT_INVDET      </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_keys.pot_invdet02">02</DD_KEY_NUMBER>
+			<DD_KEY_DESC id="ddm_keys.pot_invdet02">Vend, PO, Rcvr</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.pot_invdet02">AO_VEND_ORD     </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_key_segs">
@@ -152,6 +158,102 @@
 			<DD_KEY_NUMBER id="ddm_key_segs.pot_invdet0108">01</DD_KEY_NUMBER>
 			<DD_SEGMENT_SEQ id="ddm_key_segs.pot_invdet0108">08</DD_SEGMENT_SEQ>
 			<DD_SEGMENT_COL id="ddm_key_segs.pot_invdet0108">LINE_NO         </DD_SEGMENT_COL>
+		</RECORD>
+		<RECORD id="ddm_key_segs.pot_invdet0201">
+			<DD_TABLE_ALIAS id="ddm_key_segs.pot_invdet0201">POT_INVDET      </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.pot_invdet0201">02</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.pot_invdet0201">01</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.pot_invdet0201">FIRM_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.pot_invdet0201">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.pot_invdet0201">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.pot_invdet0201">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.pot_invdet0201">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.pot_invdet0201">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.pot_invdet0201">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.pot_invdet0202">
+			<DD_TABLE_ALIAS id="ddm_key_segs.pot_invdet0202">POT_INVDET      </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.pot_invdet0202">02</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.pot_invdet0202">02</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.pot_invdet0202">VENDOR_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.pot_invdet0202">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.pot_invdet0202">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.pot_invdet0202">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.pot_invdet0202">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.pot_invdet0202">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.pot_invdet0202">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.pot_invdet0203">
+			<DD_TABLE_ALIAS id="ddm_key_segs.pot_invdet0203">POT_INVDET      </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.pot_invdet0203">02</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.pot_invdet0203">03</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.pot_invdet0203">PO_NO</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.pot_invdet0203">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.pot_invdet0203">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.pot_invdet0203">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.pot_invdet0203">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.pot_invdet0203">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.pot_invdet0203">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.pot_invdet0204">
+			<DD_TABLE_ALIAS id="ddm_key_segs.pot_invdet0204">POT_INVDET      </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.pot_invdet0204">02</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.pot_invdet0204">04</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.pot_invdet0204">RECEIVER_NO</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.pot_invdet0204">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.pot_invdet0204">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.pot_invdet0204">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.pot_invdet0204">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.pot_invdet0204">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.pot_invdet0204">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.pot_invdet0205">
+			<DD_TABLE_ALIAS id="ddm_key_segs.pot_invdet0205">POT_INVDET      </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.pot_invdet0205">02</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.pot_invdet0205">05</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.pot_invdet0205">AP_TYPE</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.pot_invdet0205">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.pot_invdet0205">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.pot_invdet0205">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.pot_invdet0205">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.pot_invdet0205">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.pot_invdet0205">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.pot_invdet0206">
+			<DD_TABLE_ALIAS id="ddm_key_segs.pot_invdet0206">POT_INVDET      </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.pot_invdet0206">02</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.pot_invdet0206">06</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.pot_invdet0206">AP_INV_NO</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.pot_invdet0206">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.pot_invdet0206">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.pot_invdet0206">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.pot_invdet0206">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.pot_invdet0206">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.pot_invdet0206">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.pot_invdet0207">
+			<DD_TABLE_ALIAS id="ddm_key_segs.pot_invdet0207">POT_INVDET      </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.pot_invdet0207">02</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.pot_invdet0207">07</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.pot_invdet0207">SEQUENCE_NO</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.pot_invdet0207">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.pot_invdet0207">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.pot_invdet0207">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.pot_invdet0207">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.pot_invdet0207">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.pot_invdet0207">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.pot_invdet0208">
+			<DD_TABLE_ALIAS id="ddm_key_segs.pot_invdet0208">POT_INVDET      </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.pot_invdet0208">02</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.pot_invdet0208">08</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.pot_invdet0208">LINE_NO</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.pot_invdet0208">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.pot_invdet0208">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.pot_invdet0208">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.pot_invdet0208">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.pot_invdet0208">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.pot_invdet0208">N</DD_SEGMENT_MATH>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_cols">

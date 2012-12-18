@@ -16,8 +16,8 @@
 			<DD_EXPORT_DATA id="ddm_tables.crm_custmast">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.crm_custmast">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_tables.crm_custmast">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.crm_custmast">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.crm_custmast">141546</DD_LSTSYNC_TIME>
+			<DD_LSTSYNC_DATE id="ddm_tables.crm_custmast">20100331</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.crm_custmast">224230</DD_LSTSYNC_TIME>
 			<DD_ATTR_ATAB id="ddm_tables.crm_custmast">ARM_CUSTMAST    </DD_ATTR_ATAB>
 			<DD_ATTR_CPGM id="ddm_tables.crm_custmast">[+DIR_CPP]crm_custmast_cpt.bbj</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.crm_custmast">T</DD_ATTR_FTYP>
@@ -550,37 +550,37 @@
 			<DD_TABLE_ALIAS id="ddm_keys.crm_custmast01">CRM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.crm_custmast01">01</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.crm_custmast01">Cust Name/Cust ID</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.crm_custmast01">ALT_KEY_01      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.crm_custmast01">AO_NAME_CUST    </DD_KEY_ID>
 		</RECORD>
 		<RECORD id="ddm_keys.crm_custmast02">
 			<DD_TABLE_ALIAS id="ddm_keys.crm_custmast02">CRM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.crm_custmast02">02</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.crm_custmast02">Alternate Seq/Cust</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.crm_custmast02">ALT_KEY_02      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.crm_custmast02">AO_ALTSEQ_CUST  </DD_KEY_ID>
 		</RECORD>
 		<RECORD id="ddm_keys.crm_custmast03">
 			<DD_TABLE_ALIAS id="ddm_keys.crm_custmast03">CRM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.crm_custmast03">03</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.crm_custmast03">Zip Code/Cust</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.crm_custmast03">ALT_KEY_03      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.crm_custmast03">AO_ZIP_CUST     </DD_KEY_ID>
 		</RECORD>
 		<RECORD id="ddm_keys.crm_custmast04">
 			<DD_TABLE_ALIAS id="ddm_keys.crm_custmast04">CRM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.crm_custmast04">04</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.crm_custmast04">Phone No/Cust</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.crm_custmast04">ALT_KEY_04      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.crm_custmast04">AO_PHONE_CUST   </DD_KEY_ID>
 		</RECORD>
 		<RECORD id="ddm_keys.crm_custmast05">
 			<DD_TABLE_ALIAS id="ddm_keys.crm_custmast05">CRM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.crm_custmast05">05</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.crm_custmast05">D&B/Cust</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.crm_custmast05">ALT_KEY_05      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.crm_custmast05">AO_DB_CUST      </DD_KEY_ID>
 		</RECORD>
 		<RECORD id="ddm_keys.crm_custmast06">
 			<DD_TABLE_ALIAS id="ddm_keys.crm_custmast06">CRM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.crm_custmast06">06</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.crm_custmast06">SIC Code/Cust</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.crm_custmast06">ALT_KEY_06      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.crm_custmast06">AO_SIC_CUST     </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_key_segs">

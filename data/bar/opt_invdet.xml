@@ -19,8 +19,8 @@
 			<DD_EXPORT_DATA id="ddm_tables.opt_invdet">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.opt_invdet">20090727</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_tables.opt_invdet">20091124</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.opt_invdet">20100511</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.opt_invdet">141220</DD_LSTSYNC_TIME>
+			<DD_LSTSYNC_DATE id="ddm_tables.opt_invdet">20100401</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.opt_invdet">130112</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.opt_invdet">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.opt_invdet">T</DD_ATTR_FTYP>
 			<DD_ATTR_PTAB id="ddm_tables.opt_invdet">OPT_INVHDR      </DD_ATTR_PTAB>
@@ -88,19 +88,19 @@
 			<DD_TABLE_ALIAS id="ddm_keys.opt_invdet01">OPT_INVDET      </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.opt_invdet01">01</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.opt_invdet01">Open Invoices By Item</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.opt_invdet01">ALT_KEY_01      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.opt_invdet01">AO_WH_ITEM_INV  </DD_KEY_ID>
 		</RECORD>
 		<RECORD id="ddm_keys.opt_invdet02">
 			<DD_TABLE_ALIAS id="ddm_keys.opt_invdet02">OPT_INVDET      </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.opt_invdet02">02</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.opt_invdet02">Firm_Item_WH</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.opt_invdet02">ALT_KEY_02      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.opt_invdet02">AO_ITEM_WH_CUST </DD_KEY_ID>
 		</RECORD>
 		<RECORD id="ddm_keys.opt_invdet03">
 			<DD_TABLE_ALIAS id="ddm_keys.opt_invdet03">OPT_INVDET      </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.opt_invdet03">03</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.opt_invdet03">Display Sequence</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.opt_invdet03">ALT_KEY_03      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.opt_invdet03">AO_CUST_INV_SEQ </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_key_segs">

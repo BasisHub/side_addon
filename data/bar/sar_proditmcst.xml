@@ -18,10 +18,10 @@
 			<ASC_LICENSE_ID id="ddm_tables.sar_proditmcst">F184C6498BBE0F801425A8E387CE93B2</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.sar_proditmcst">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.sar_proditmcst">20070809</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.sar_proditmcst">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.sar_proditmcst">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.sar_proditmcst">141456</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.sar_proditmcst">[+DIR_CPP]sar_proditmcst_cpt.bbj</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.sar_proditmcst">20100520</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.sar_proditmcst">20100225</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.sar_proditmcst">223524</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.sar_proditmcst">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.sar_proditmcst">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.sar_proditmcst">[+DIR_PGM]sar_proditmcst.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.sar_proditmcst">S/A By Product/Item/Customer</DD_ATTR_WINT>
@@ -130,6 +130,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.sar_proditmcst006">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.sar_proditmcst006">20070809</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sar_proditmcst006">20070809</DD_LSTREV_DATE>
+			<DD_ATTR_CPGM id="ddm_table_cols.sar_proditmcst006">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.sar_proditmcst006">160</DD_ATTR_CTLW>
 			<DD_ATTR_LABL id="ddm_table_cols.sar_proditmcst006">Item ID</DD_ATTR_LABL>
 			<DD_ATTR_MAXL id="ddm_table_cols.sar_proditmcst006">20</DD_ATTR_MAXL>
@@ -156,7 +157,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.sar_proditmcst008">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.sar_proditmcst008">20070809</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sar_proditmcst008">20070809</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.sar_proditmcst008">[+DIR_CPP]sar_proditmcst_cpt.bbj</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.sar_proditmcst008">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.sar_proditmcst008">30</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.sar_proditmcst008">0</DD_ATTR_CTLH>
 			<DD_ATTR_DFLT id="ddm_table_cols.sar_proditmcst008">N</DD_ATTR_DFLT>
@@ -254,6 +255,19 @@
 			<DD_ATTR_TIND id="ddm_table_cols.sar_proditmcst014">14</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
+	<ALIAS id="ddm_column_cpro">
+		<ID id="ddm_column_cpro">DDM_COLUMN_CPRO</ID>
+		<RECORD id="ddm_column_cpro.sar_proditmcstitem_idainv">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.sar_proditmcstitem_idainv">SAR_PRODITMCST  </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.sar_proditmcstitem_idainv">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.sar_proditmcstitem_idainv">AINV</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_column_cpro.sar_proditmcsttwlve_per_reportaval">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.sar_proditmcsttwlve_per_reportaval">SAR_PRODITMCST  </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.sar_proditmcsttwlve_per_reportaval">TWLVE_PER_REPORT</DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.sar_proditmcsttwlve_per_reportaval">AVAL</DD_ATTR_CPRO>
+		</RECORD>
+	</ALIAS>
 	<ALIAS id="ddm_column_ldat">
 		<ID id="ddm_column_ldat">DDM_COLUMN_LDAT</ID>
 		<RECORD id="ddm_column_ldat.sar_proditmcstsa_level01">
@@ -325,6 +339,11 @@
 			<DD_DVAR_NAME id="ddm_column_opts.sar_proditmcstproduct_type2">PRODUCT_TYPE    </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.sar_proditmcstproduct_type2">2</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.sar_proditmcstproduct_typeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sar_proditmcstproduct_typeu">SAR_PRODITMCST  </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sar_proditmcstproduct_typeu">PRODUCT_TYPE    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sar_proditmcstproduct_typeu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.sar_proditmcstitem_id1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.sar_proditmcstitem_id1">SAR_PRODITMCST  </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.sar_proditmcstitem_id1">ITEM_ID         </DD_DVAR_NAME>
@@ -335,6 +354,11 @@
 			<DD_DVAR_NAME id="ddm_column_opts.sar_proditmcstitem_id2">ITEM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.sar_proditmcstitem_id2">2</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.sar_proditmcstitem_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sar_proditmcstitem_idu">SAR_PRODITMCST  </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sar_proditmcstitem_idu">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sar_proditmcstitem_idu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.sar_proditmcstcustomer_id1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.sar_proditmcstcustomer_id1">SAR_PRODITMCST  </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.sar_proditmcstcustomer_id1">CUSTOMER_ID     </DD_DVAR_NAME>
@@ -344,6 +368,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.sar_proditmcstcustomer_id2">SAR_PRODITMCST  </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.sar_proditmcstcustomer_id2">CUSTOMER_ID     </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.sar_proditmcstcustomer_id2">2</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sar_proditmcstcustomer_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sar_proditmcstcustomer_idu">SAR_PRODITMCST  </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sar_proditmcstcustomer_idu">CUSTOMER_ID     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sar_proditmcstcustomer_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

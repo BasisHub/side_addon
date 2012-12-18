@@ -18,9 +18,9 @@
 			<ASC_VERSION_ID id="ddm_tables.ivc_lotlookup">9.0</ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ivc_lotlookup">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ivc_lotlookup">20081125</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ivc_lotlookup">20090924</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivc_lotlookup">20090924</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivc_lotlookup">220330</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ivc_lotlookup">20100520</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivc_lotlookup">20100408</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivc_lotlookup">225440</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ivc_lotlookup">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ivc_lotlookup">S</DD_ATTR_FTYP>
 			<DD_ATTR_PCAL id="ddm_tables.ivc_lotlookup">[+DIR_PGM]adx_dummy.aon</DD_ATTR_PCAL>
@@ -101,6 +101,7 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.ivc_lotlookup002">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.ivc_lotlookup002">20081125</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivc_lotlookup002">20081125</DD_LSTREV_DATE>
+			<DD_ATTR_CPGM id="ddm_table_cols.ivc_lotlookup002">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_COLW id="ddm_table_cols.ivc_lotlookup002">0</DD_ATTR_COLW>
 			<DD_ATTR_CTLX id="ddm_table_cols.ivc_lotlookup002">0</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_cols.ivc_lotlookup002">0</DD_ATTR_CTLY>
@@ -156,6 +157,11 @@
 	</ALIAS>
 	<ALIAS id="ddm_column_cpro">
 		<ID id="ddm_column_cpro">DDM_COLUMN_CPRO</ID>
+		<RECORD id="ddm_column_cpro.ivc_lotlookupitem_idainv">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.ivc_lotlookupitem_idainv">IVC_LOTLOOKUP   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.ivc_lotlookupitem_idainv">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.ivc_lotlookupitem_idainv">AINV</DD_ATTR_CPRO>
+		</RECORD>
 		<RECORD id="ddm_column_cpro.ivc_lotlookuplots_to_dispaval">
 			<DD_TABLE_ALIAS id="ddm_column_cpro.ivc_lotlookuplots_to_dispaval">IVC_LOTLOOKUP   </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_cpro.ivc_lotlookuplots_to_dispaval">LOTS_TO_DISP    </DD_DVAR_NAME>
@@ -191,6 +197,19 @@
 			<DD_ATTR_SEQ id="ddm_column_ldat.ivc_lotlookuplots_to_disp04">04</DD_ATTR_SEQ>
 			<DD_ATTR_LDAT id="ddm_column_ldat.ivc_lotlookuplots_to_disp04">Z</DD_ATTR_LDAT>
 			<DD_ATTR_LDAT_DS id="ddm_column_ldat.ivc_lotlookuplots_to_disp04">>Zero</DD_ATTR_LDAT_DS>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_column_opts">
+		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
+		<RECORD id="ddm_column_opts.ivc_lotlookupitem_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivc_lotlookupitem_idu">IVC_LOTLOOKUP   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivc_lotlookupitem_idu">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivc_lotlookupitem_idu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivc_lotlookupwarehouse_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivc_lotlookupwarehouse_idu">IVC_LOTLOOKUP   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivc_lotlookupwarehouse_idu">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivc_lotlookupwarehouse_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

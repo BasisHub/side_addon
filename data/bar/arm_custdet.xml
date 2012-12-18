@@ -19,8 +19,8 @@
 			<DD_EXPORT_DATA id="ddm_tables.arm_custdet">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.arm_custdet">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_tables.arm_custdet">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.arm_custdet">20091021</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.arm_custdet">120036</DD_LSTSYNC_TIME>
+			<DD_LSTSYNC_DATE id="ddm_tables.arm_custdet">20100331</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.arm_custdet">225626</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.arm_custdet">T</DD_ATTR_FTYP>
 			<DD_ATTR_PTAB id="ddm_tables.arm_custdet">ARM_CUSTMAST    </DD_ATTR_PTAB>
 			<DD_ATTR_SLEV id="ddm_tables.arm_custdet">zzzz</DD_ATTR_SLEV>
@@ -47,49 +47,49 @@
 			<DD_TABLE_ALIAS id="ddm_keys.arm_custdet01">ARM_CUSTDET     </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.arm_custdet01">01</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.arm_custdet01">Salesperson/Cust</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.arm_custdet01">ALT_KEY_01      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.arm_custdet01">AO_SLSMN_CUST   </DD_KEY_ID>
 		</RECORD>
 		<RECORD id="ddm_keys.arm_custdet02">
 			<DD_TABLE_ALIAS id="ddm_keys.arm_custdet02">ARM_CUSTDET     </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.arm_custdet02">02</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.arm_custdet02">Territory/Cust</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.arm_custdet02">ALT_KEY_02      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.arm_custdet02">AO_TERR_CUST    </DD_KEY_ID>
 		</RECORD>
 		<RECORD id="ddm_keys.arm_custdet03">
 			<DD_TABLE_ALIAS id="ddm_keys.arm_custdet03">ARM_CUSTDET     </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.arm_custdet03">03</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.arm_custdet03">Terms Code/Cust</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.arm_custdet03">ALT_KEY_03      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.arm_custdet03">AO_TERMS_CUST   </DD_KEY_ID>
 		</RECORD>
 		<RECORD id="ddm_keys.arm_custdet04">
 			<DD_TABLE_ALIAS id="ddm_keys.arm_custdet04">ARM_CUSTDET     </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.arm_custdet04">04</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.arm_custdet04">Sales Discount/Cust</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.arm_custdet04">ALT_KEY_04      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.arm_custdet04">AO_DISCNT_CUST  </DD_KEY_ID>
 		</RECORD>
 		<RECORD id="ddm_keys.arm_custdet05">
 			<DD_TABLE_ALIAS id="ddm_keys.arm_custdet05">ARM_CUSTDET     </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.arm_custdet05">05</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.arm_custdet05">Distribution/Cust</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.arm_custdet05">ALT_KEY_05      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.arm_custdet05">AO_DIST_CUST    </DD_KEY_ID>
 		</RECORD>
 		<RECORD id="ddm_keys.arm_custdet06">
 			<DD_TABLE_ALIAS id="ddm_keys.arm_custdet06">ARM_CUSTDET     </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.arm_custdet06">06</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.arm_custdet06">Pricing Code/Cust</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.arm_custdet06">ALT_KEY_06      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.arm_custdet06">AO_PRCCD_CUST   </DD_KEY_ID>
 		</RECORD>
 		<RECORD id="ddm_keys.arm_custdet07">
 			<DD_TABLE_ALIAS id="ddm_keys.arm_custdet07">ARM_CUSTDET     </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.arm_custdet07">07</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.arm_custdet07">Tax Code/Cust</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.arm_custdet07">ALT_KEY_07      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.arm_custdet07">AO_TAX_CUST     </DD_KEY_ID>
 		</RECORD>
 		<RECORD id="ddm_keys.arm_custdet08">
 			<DD_TABLE_ALIAS id="ddm_keys.arm_custdet08">ARM_CUSTDET     </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.arm_custdet08">08</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.arm_custdet08">Cust Type</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.arm_custdet08">ALT_KEY_08      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.arm_custdet08">AO_TYPE_CUST    </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_key_segs">

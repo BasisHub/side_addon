@@ -50,7 +50,7 @@ Accounts Receivable^ARMENU^M^^^im_menua_accts_receivable.png^N^01007514^AR^Accou
 		Customer Comments Listing^ARR_COMMENTS^T^ARR_COMMENTS^^im_menui_report.png^N^01007514^AR^Customer_Comments_Listing
 		Customer Name & Address Listing^ARR_NAMEADDRESS^T^ARR_NAMEADDRESS^^im_menui_report.png^N^01007514^AR^Customer_Name_and_Address_List
 		Customer Ledger Cards^ARR_LEDGERS^T^ARR_LEDGERS^^im_menui_report.png^N^01007514^AR^Customer_Ledger_Cards
-	Period End Processing^ARMENU_PEND^G^^^im_menua_miscellaneous.png^N^01007514^AR^AR_Period_End_Processing_Main_Menu
+	Period End Processing^ARMENU_PEND^G^^^im_node_col.png^N^01007514^AR^aroperations_ar_period_end_processing_htm^1.0
 		Aging Report^ARR_AGINGREPORTPE^T^ARR_AGINGREPORT^^im_menui_report.png^N^01007514^AR^AR_Aging_Report
 		Generate Finance Charges^ARU_FINANCECHARG^T^ARU_FINANCECHARG^^im_menui_update.png^N^01007514^AR^Generate_Finance_Charges7
 		Finance Charge Entry^ARE_FINCHG^T^ARE_FINCHG^^im_menui_table.png^N^01007514^AR^Finance_Charge_Entry
@@ -167,7 +167,7 @@ Inventory Control^IVMENU^M^^^im_menua_inventory.png^N^01007514^IV^Inventory_Cont
 	Inventory Transfers Entry^IVE_TRANSFER^T^IVE_TRANSFER^^im_menui_table.png^N^01007514^IV^Inventory_Transfer_Entry
 	Inventory Transfer Register^IVR_TRANSFER^A^^ivr_transferreg.aon^im_menui_report.png^N^01007514^IV^Inventory_Transfer_Register
 	Cost Changes^IVMENU_COSTS^G^^^im_menua_miscellaneous.png^N^01007514^IV^Cost_Changes_Menu
-		Cost Change Entry^IVE_COSTCHG^T^IVE_COSTCHG^ive_ga.aon^im_menui_table.png^N^01007514^IV^Cost_Change_by_Percentage_Entry
+		Cost Change Entry^IVE_COSTCHG^T^IVE_COSTCHG^ive_ga.aon^im_menui_table.png^N^01007514^IV^Cost_Change_by_Percentage^1.0
 		Cost Change by Percentage^IVR_COSTCHGBYPCT^T^IVR_COSTCHGBYPCT^ivr_ja.aon^im_menui_update.png^N^01007514^IV^Cost_Change_by_Percentage_Entry
 		Cost Change Valuation Report^IVR_COSTCHGVALUE^T^IVR_COSTCHGVALUE^ivr_wa.aon^im_menui_report.png^N^01007514^IV^Cost_Change_Valuation_Report
 		Cost Change Register^IVR_COSTCHREG^T^IVR_COSTCHGREG^ivr_ja.aon^im_menui_report.png^N^01007514^IV^Cost_Change_Register
@@ -202,36 +202,36 @@ Inventory Control^IVMENU^M^^^im_menua_inventory.png^N^01007514^IV^Inventory_Cont
 		Item Detail Listing^IVR_ITEMDETAIL^T^IVR_ITEMDETAIL^^im_menui_report.png^N^01007514^IV^Item_Detail_Listing
 		Inventory Item Labels^IVR_ITEMLABELS^T^IVR_ITEMLABELS^ivr_1a.aon^im_menui_report.png^N^01007514^IV^Inventory_Item_Labels
 	Lotted/Serialized Inventory^IVMENU_LOTS^G^^^im_menua_miscellaneous.png^N^01007514^IV
-		Lot/Serial Number History By Item Report^IVR_LSTRANHIST^T^IVR_LSTRANHIST^^im_menui_report.png^N^01007514^IV
-		Lot/Serial Number History By Customer^IVR_LOTCUSTHIST^T^IVR_LOTCUSTHIST^^im_menui_report.png^N^01007514^IV
-		Lot/Serial Number History By Vendor^IVR_LOTVENDHIST^T^IVR_LOTVENDHIST^^im_menui_report.png^N^01007514^IV
-		Inventory Lot/Serial Number Status Report^IVR_LOTSTATUS^T^IVR_LOTSTATUS^^im_menui_report.png^N^01007514^IV
-		Inventory Lot/Serial Number Activity Report^IVR_LOTACTIVITY^T^IVR_LOTACTIVITY^^im_menui_report.png^N^01007514^IV
-	Period End Processing^IVMENU_PEND^G^^^im_menua_miscellaneous.png^N^01007514^IV
-		ABC Analysis Report^IVR_ITEMABCRPT^T^IVR_ITEMABCRPT^^im_menui_report.png^N^01007514^IV^
-		EOQ, Order Point, Safety Stock Report^IVR_ITEMEOQRPT^T^IVR_ITEMEOQRPT^^im_menui_report.png^N^01007514^IV^
-		Inventory Valuation Report^IVR_VALUATIONRP^T^IVR_VALUATIONRPT^^im_menui_report.png^N^01007514^IV^
-		Period End Update^IVU_PERIODEND^A^^ivu_periodend.aon^im_menui_update.png^N^01007514^IV^
-	Maintenance^IVMENU_MAINT^G^^^im_menua_miscellaneous.png^N^01007514^IV
-		Inventory Items^IVM_ITEMMAST^T^IVM_ITEMMAST^^im_menui_table.png^N^01007514^IV
-		Product Types^IVC_PRODCODE^T^IVC_PRODCODE^^im_menui_table.png^N^01007514^IV
-		Transaction Codes^IVC_TRANCODE^T^IVC_TRANCODE^^im_menui_table.png^N^01007514^IV
-		Buyer Codes^IVC_BUYCODE^T^IVC_BUYCODE^^im_menui_table.png^N^01007514^IV
-		Warehouses^IVC_WHSECODE^T^IVC_WHSECODE^^im_menui_table.png^N^01007514^IV
-		Item Class Master^IVC_CLASCODE^T^IVC_CLASCODE^^im_menui_table.png^N^01007514^IV
-		Item Type Master^IVC_TYPECODE^T^IVC_TYPECODE^ivm_ga.aon^im_menui_table.png^N^01007514^IV
-		Parameters^IVMENU_PARAMS^G^ARS_PARAMS^^im_node_col.png^N^01007514^IV
-			Application Parameters^IV_APPPARAMS^T^IVS_PARAMS^^im_menui_parameter.png^N^01007514^IV
-			Inventory Factors^IVS_SETCARRY^T^IVS_SETCARRY^^im_menui_parameter.png^N^01007514^IV
-			Item Default Values^IVS_DEFAULTS^T^IVS_DEFAULTS^^im_menui_parameter.png^N^01007514^IV
-			Default Display Columns^IVS_COLUMNS^T^IVS_COLUMNS^^im_menui_parameter.png^N^01007514^IV
-	Utilities^IVMENU_UTILITIES^G^^^im_menua_miscellaneous.png^N^01007514^IV
-		Rebuild Committed Quantities^IVX_COMMITTED^A^^[+DIR_PGM]ivx_committed.aon^im_menui_utility.png^N^01007514^IV^^1.0
-		Rebuild On Order Quantities^IVX_ONORDER^A^^[+DIR_PGM]ivx_onorder.aon^im_menui_utility.png^N^01007514^IV^^1.0
-		Rebuild Beginning Balances^IVX_BEGBALS^T^IVX_BEGBALS^^im_menui_utility.png^N^01007514^IV
-		LIFO/FIFO Tier Utilities^IVX_LFTIER_UTIL^T^IVX_LFTIER_UTIL^^im_menui_table.png^N^01007514^IV^
-		Copy Items to Another Warehouse^IVX_COPYITEM^T^IVX_COPYITEM^^im_menui_utility.png^N^01007514^IV
-		Rebuild Unit Costs^IVX_REBUILDCOSTS^A^^[+DIR_PGM]ivx_rebuildcosts.aon^im_menui_utility.png^N^01007514^IV
+		Lot/Serial Number History By Item Report^IVR_LSTRANHIST^T^IVR_LSTRANHIST^^im_menui_report.png^N^01007514^IV^Lot_Serial_History_Item_Inquiry^1.0
+		Lot/Serial Number History By Customer^IVR_LOTCUSTHIST^T^IVR_LOTCUSTHIST^^im_menui_report.png^N^01007514^IV^Lot_Serial_Number_History_Customer_Report^1.0
+		Lot/Serial Number History By Vendor^IVR_LOTVENDHIST^T^IVR_LOTVENDHIST^^im_menui_report.png^N^01007514^IV^Lot_Serial_Number_History_By_Vendor_Report^1.0
+		Inventory Lot/Serial Number Status Report^IVR_LOTSTATUS^T^IVR_LOTSTATUS^^im_menui_report.png^N^01007514^IV^Inventory_Lot_Serial_Number_Status_Report^1.0
+		Inventory Lot/Serial Number Activity Report^IVR_LOTACTIVITY^T^IVR_LOTACTIVITY^^im_menui_report.png^N^01007514^IV^Lot_Serial_Number_Activity_Report^1.0
+	Period End Processing^IVMENU_PEND^G^^^im_node_col.png^N^01007514^IV^Period_End_Processing_Menu1^1.0
+		ABC Analysis Report^IVR_ITEMABCRPT^T^IVR_ITEMABCRPT^^im_menui_report.png^N^01007514^IV^ABC_Analysis_Report^1.0
+		EOQ, Order Point, Safety Stock Report^IVR_ITEMEOQRPT^T^IVR_ITEMEOQRPT^^im_menui_report.png^N^01007514^IV^EOQ_Order_Point_Safety_Stock_Report^1.0
+		Inventory Valuation Report^IVR_VALUATIONRP^T^IVR_VALUATIONRPT^^im_menui_report.png^N^01007514^IV^Inventory_Valuation_Report^1.0
+		Period End Update^IVU_PERIODEND^A^^ivu_periodend.aon^im_menui_update.png^N^01007514^IV^Period_End_Update1^1.0
+	Maintenance^IVMENU_MAINT^G^^^im_node_col.png^N^01007514^IV^Inventory_Maintenance_Menu^1.0
+		Inventory Items^IVM_ITEMMAST^T^IVM_ITEMMAST^^im_menui_table.png^N^01007514^IV^Inventory_Item_Maintenance^1.0
+		Product Types^IVC_PRODCODE^T^IVC_PRODCODE^^im_menui_table.png^N^01007514^IV^Product_Types_Maintenance^1.0
+		Transaction Codes^IVC_TRANCODE^T^IVC_TRANCODE^^im_menui_table.png^N^01007514^IV^Transaction_Codes_Maintenance^1.0
+		Buyer Codes^IVC_BUYCODE^T^IVC_BUYCODE^^im_menui_table.png^N^01007514^IV^Buyer_Codes_Maintenance^1.0
+		Warehouses^IVC_WHSECODE^T^IVC_WHSECODE^^im_menui_table.png^N^01007514^IV^Warehouse_Code_Maintenance^1.0
+		Item Class Master^IVC_CLASCODE^T^IVC_CLASCODE^^im_menui_table.png^N^01007514^IV^Item_Class_Maintenance^1.0
+		Item Type Master^IVC_TYPECODE^T^IVC_TYPECODE^ivm_ga.aon^im_menui_table.png^N^01007514^IV^Item_Type_Maintenance^1.0
+		Parameters^IVMENU_PARAMS^G^ARS_PARAMS^^im_node_col.png^N^01007514^IV^Inventory_Control_Parameter_Maintenance^1.0
+			Application Parameters^IV_APPPARAMS^T^IVS_PARAMS^^im_menui_parameter.png^N^01007514^IV^Application_Parameters3^1.0
+			Inventory Factors^IVS_SETCARRY^T^IVS_SETCARRY^^im_menui_parameter.png^N^01007514^IV^Inventory_Factors^1.0
+			Item Default Values^IVS_DEFAULTS^T^IVS_DEFAULTS^^im_menui_parameter.png^N^01007514^IV^Item_Default_Values^1.0
+			Default Display Columns^IVS_COLUMNS^T^IVS_COLUMNS^^im_menui_parameter.png^N^01007514^IV^Default_Display_Columns1^1.0
+	Utilities^IVMENU_UTILITIES^G^^^im_node_col.png^N^01007514^IV^Inventory_Utilities_Menu^1.0
+		Rebuild Committed Quantities^IVX_COMMITTED^A^^[+DIR_PGM]ivx_committed.aon^im_menui_utility.png^N^01007514^IV^Rebuild_Item_Committed_Quantities^1.0
+		Rebuild On Order Quantities^IVX_ONORDER^A^^[+DIR_PGM]ivx_onorder.aon^im_menui_utility.png^N^01007514^IV^Rebuild_Item_On_Order_Quantities^1.0
+		Rebuild Beginning Balances^IVX_BEGBALS^T^IVX_BEGBALS^^im_menui_utility.png^N^01007514^IV^Rebuild_Trans_Beginning_Balances^1.0
+		LIFO/FIFO Tier Utilities^IVX_LFTIER_UTIL^T^IVX_LFTIER_UTIL^^im_menui_table.png^N^01007514^IV^LIFO_FIFO_Tier_Maintenance^1.0
+		Copy Items to Another Warehouse^IVX_COPYITEM^T^IVX_COPYITEM^^im_menui_utility.png^N^01007514^IV^Copy_Items_to_Another_Warehouse^1.0
+		Rebuild Unit Costs^IVX_REBUILDCOSTS^A^^[+DIR_PGM]ivx_rebuildcosts.aon^im_menui_utility.png^N^01007514^IV^Rebuild_Unit_Costs^1.0
 Material Requirements Planning^MPMENU^M^^^im_menua_material_plan.png^N^01007514^MP
 	Production Schedule Entry^MPE_AA^T^^mpe_aa.aon^im_menui_table.png^N^01007514^MP
 	Resource Forecast Entry^MPE_BA^T^^mpe_ba.aon^im_menui_table.png^N^01007514^MP
@@ -399,7 +399,7 @@ Sales Order Processing^OPMENU^M^^^im_menua_order_proc.png^N^01007514^OP^Sales_Or
 	Sales Register^OPR_SALESREG^T^OPR_SALESREG^^im_menui_report.png^N^01007514^OP^Sales_Register
 	Price Quote Inquiry^OPE_PRICEQUOTE^T^OPE_PRICEQUOTE^opm_pa.aon^im_menui_view.png^N^01007514^OP^Price_Quote_Inquiry
 	Credit Review and Release^OPE_CREDREV^T^OPE_CREDREV^opm_qa.aon^im_menui_table.png^N^01007514^OP^Credit_Review_and_Release
-	Invoice History Inquiry^OPT_INVHDR^T^OPT_INVHDR^^im_menui_table.png^N^01007514^OP^^9.0
+	Invoice History Inquiry^OPT_INVHDR^T^OPT_INVHDR^opt_ta.aon^im_menui_view.png^N^01007514^OP^Invoice_History_Inquiry	
 	Reports^OPMENU_REPORTS^G^^^im_menua_miscellaneous.png^N^01007514^OP
 		Open Order Detail Report^OPR_OPNORDDETAIL^T^OPR_OPNORDDETAIL^^im_menui_report.png^N^01007514^OP^Open_Order_Detail_Report
 		Order Status Report By Customer^OPR_CUSTSTATUS^T^OPR_CUSTSTATUS^^im_menui_report.png^N^01007514^OP^Order_Status_Report_By_Customer
@@ -506,8 +506,9 @@ AddonSoftware Administration^AONADMIN^M^^^im_menua_system_admin.png^N^01007514^A
 		Set Default Printer from User Defaults^DEFAULT_PRINTER^A^^[+DIR_PGM]adx_set_printer.aon -pMANUAL^im_menui_update.png^N^01007514^AD^
 		Create/Update SPROC Definitions^SPROC_UPDT^A^^[+DIR_PGM]adx_build_sproc.aon^im_menui_update.png^N^01007514^AD^
 		CodePort^AON_UTIL_CODEPORT^A^^adx_codeport.bbj^im_menui_utility.png^N^01007514^AD
+		Clear File^ADX_CLEARFILE^T^ADX_CLEARFILE^^im_menui_utility.png^N^01007514^AD^^1.0
 		DataPort^AON_UTIL_DP_MENU^G^^^im_node_col.png^N^01007514^AD^
-			DataPort Utility^AON_UTIL_DATAPORTX^A^^adx_data_port.bbj^im_menui_utility.png^N^01007514^AD^
+			Dataport Utility^ADX_DATAPORT^T^ADX_DATAPORT^adx_data_port.bbj^im_menui_utility.png^N^01007514^AD^^9.0
 			Update IV Display Description^AON_UTIL_DISC_DESC^A^^ivx_builddisplaydesc.aon^im_menui_table.png^N^01007514^AD^
 			Update Physical Invent Cycle Code^AON_UTIL_PI_CYCLE^A^^ivx_loadcyclecode.aon^im_menui_utility.png^N^01007514^AD^
 		

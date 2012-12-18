@@ -20,8 +20,8 @@
 			<DD_EXPORT_DATA id="ddm_tables.adm_proctables">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.adm_proctables">20070305</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_tables.adm_proctables">20090727</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.adm_proctables">20090727</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.adm_proctables">151612</DD_LSTSYNC_TIME>
+			<DD_LSTSYNC_DATE id="ddm_tables.adm_proctables">20100331</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.adm_proctables">225626</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.adm_proctables">G</DD_ATTR_FTYP>
 			<DD_ATTR_IKEY id="ddm_tables.adm_proctables">N</DD_ATTR_IKEY>
 			<DD_ATTR_PTAB id="ddm_tables.adm_proctables">ADM_PROCMASTER  </DD_ATTR_PTAB>
@@ -48,13 +48,13 @@
 			<DD_TABLE_ALIAS id="ddm_keys.adm_proctables01">ADM_PROCTABLES  </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.adm_proctables01">01</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.adm_proctables01">Table/Process/Seq</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.adm_proctables01">ALT_KEY_01      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.adm_proctables01">AO_TABLE_PROCESS</DD_KEY_ID>
 		</RECORD>
 		<RECORD id="ddm_keys.adm_proctables02">
 			<DD_TABLE_ALIAS id="ddm_keys.adm_proctables02">ADM_PROCTABLES  </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.adm_proctables02">02</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.adm_proctables02">File name/Process/Seq</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.adm_proctables02">ALT_KEY_02      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.adm_proctables02">AO_FILE_PROCESS </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_key_segs">

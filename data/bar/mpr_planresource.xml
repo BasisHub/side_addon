@@ -18,9 +18,9 @@
 			<ASC_VERSION_ID id="ddm_tables.mpr_planresource">9.0</ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.mpr_planresource">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.mpr_planresource">20080328</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.mpr_planresource">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.mpr_planresource">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.mpr_planresource">141522</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.mpr_planresource">20100520</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.mpr_planresource">20090709</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.mpr_planresource">115940</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.mpr_planresource">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.mpr_planresource">[+DIR_PGM]mpr_planresource.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.mpr_planresource">MPR Planned Resource</DD_ATTR_WINT>
@@ -101,6 +101,16 @@
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">
 		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
+		<RECORD id="ddm_column_opts.mpr_planresourceforecastu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.mpr_planresourceforecastu">MPR_PLANRESOURCE</DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.mpr_planresourceforecastu">FORECAST        </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.mpr_planresourceforecastu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.mpr_planresourcewarehouse_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.mpr_planresourcewarehouse_idu">MPR_PLANRESOURCE</DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.mpr_planresourcewarehouse_idu">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.mpr_planresourcewarehouse_idu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.mpr_planresourceperiod1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.mpr_planresourceperiod1">MPR_PLANRESOURCE</DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.mpr_planresourceperiod1">PERIOD          </DD_DVAR_NAME>

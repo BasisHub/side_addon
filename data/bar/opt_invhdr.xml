@@ -18,10 +18,10 @@
 			<ASC_LICENSE_ID id="ddm_tables.opt_invhdr">EB0DBEC2E6C8C30E6F7008EBB52E70A1</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.opt_invhdr">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.opt_invhdr">20090727</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.opt_invhdr">20100511</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.opt_invhdr">20100511</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.opt_invhdr">141020</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.opt_invhdr">../apps/aon/;</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.opt_invhdr">20100225</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.opt_invhdr">20100401</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.opt_invhdr">130112</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.opt_invhdr">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.opt_invhdr">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.opt_invhdr">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.opt_invhdr">Invoice History Header</DD_ATTR_WINT>
@@ -117,19 +117,19 @@
 			<DD_TABLE_ALIAS id="ddm_keys.opt_invhdr01">OPT_INVHDR      </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.opt_invhdr01">01</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.opt_invhdr01">Invoice History By Invoice</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.opt_invhdr01">ALT_KEY_01      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.opt_invhdr01">AO_INV_CUST     </DD_KEY_ID>
 		</RECORD>
 		<RECORD id="ddm_keys.opt_invhdr02">
 			<DD_TABLE_ALIAS id="ddm_keys.opt_invhdr02">OPT_INVHDR      </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.opt_invhdr02">02</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.opt_invhdr02">Invoice History by Date</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.opt_invhdr02">ALT_KEY_02      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.opt_invhdr02">AO_INVDAT_INV   </DD_KEY_ID>
 		</RECORD>
 		<RECORD id="ddm_keys.opt_invhdr03">
 			<DD_TABLE_ALIAS id="ddm_keys.opt_invhdr03">OPT_INVHDR      </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.opt_invhdr03">03</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.opt_invhdr03">By Order</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.opt_invhdr03">BY_ORDER        </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.opt_invhdr03">AO_CUST_ORD     </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_key_segs">

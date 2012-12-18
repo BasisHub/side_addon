@@ -16,10 +16,10 @@
 			<ASC_LICENSE_ID id="ddm_tables.ivr_lotvendhist">ADA0B8CF938545340F212C0C95DD10BC</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ivr_lotvendhist">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ivr_lotvendhist">20071125</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ivr_lotvendhist">20090807</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivr_lotvendhist">20090709</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivr_lotvendhist">115940</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.ivr_lotvendhist">[+DIR_CPP]ivr_lotvendhist_cpt.bbj</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.ivr_lotvendhist">20100517</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivr_lotvendhist">20090807</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivr_lotvendhist">225418</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.ivr_lotvendhist">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ivr_lotvendhist">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.ivr_lotvendhist">[+DIR_PGM]ivr_lotvendhist.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.ivr_lotvendhist">Lot/Serial Number History By Vendor</DD_ATTR_WINT>
@@ -130,6 +130,7 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.ivr_lotvendhist005">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.ivr_lotvendhist005">20071125</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivr_lotvendhist005">20071125</DD_LSTREV_DATE>
+			<DD_ATTR_CPGM id="ddm_table_cols.ivr_lotvendhist005">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLX id="ddm_table_cols.ivr_lotvendhist005">0</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_cols.ivr_lotvendhist005">0</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivr_lotvendhist005">0</DD_ATTR_CTLW>
@@ -174,6 +175,14 @@
 			<DD_ATTR_TIND id="ddm_table_cols.ivr_lotvendhist007">7</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
+	<ALIAS id="ddm_column_cpro">
+		<ID id="ddm_column_cpro">DDM_COLUMN_CPRO</ID>
+		<RECORD id="ddm_column_cpro.ivr_lotvendhistitem_idainv">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.ivr_lotvendhistitem_idainv">IVR_LOTVENDHIST </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.ivr_lotvendhistitem_idainv">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.ivr_lotvendhistitem_idainv">AINV</DD_ATTR_CPRO>
+		</RECORD>
+	</ALIAS>
 	<ALIAS id="ddm_column_opts">
 		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
 		<RECORD id="ddm_column_opts.ivr_lotvendhistvendor_id1">
@@ -185,6 +194,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_lotvendhistvendor_id2">IVR_LOTVENDHIST </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ivr_lotvendhistvendor_id2">VENDOR_ID       </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ivr_lotvendhistvendor_id2">2</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivr_lotvendhistvendor_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_lotvendhistvendor_idu">IVR_LOTVENDHIST </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivr_lotvendhistvendor_idu">VENDOR_ID       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivr_lotvendhistvendor_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.ivr_lotvendhistpick_date1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_lotvendhistpick_date1">IVR_LOTVENDHIST </DD_TABLE_ALIAS>
@@ -206,6 +220,11 @@
 			<DD_DVAR_NAME id="ddm_column_opts.ivr_lotvendhistwarehouse_id2">WAREHOUSE_ID    </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ivr_lotvendhistwarehouse_id2">2</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.ivr_lotvendhistwarehouse_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_lotvendhistwarehouse_idu">IVR_LOTVENDHIST </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivr_lotvendhistwarehouse_idu">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivr_lotvendhistwarehouse_idu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.ivr_lotvendhistproduct_type1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_lotvendhistproduct_type1">IVR_LOTVENDHIST </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ivr_lotvendhistproduct_type1">PRODUCT_TYPE    </DD_DVAR_NAME>
@@ -216,6 +235,11 @@
 			<DD_DVAR_NAME id="ddm_column_opts.ivr_lotvendhistproduct_type2">PRODUCT_TYPE    </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ivr_lotvendhistproduct_type2">2</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.ivr_lotvendhistproduct_typeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_lotvendhistproduct_typeu">IVR_LOTVENDHIST </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivr_lotvendhistproduct_typeu">PRODUCT_TYPE    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivr_lotvendhistproduct_typeu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.ivr_lotvendhistitem_id1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_lotvendhistitem_id1">IVR_LOTVENDHIST </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ivr_lotvendhistitem_id1">ITEM_ID         </DD_DVAR_NAME>
@@ -225,6 +249,16 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_lotvendhistitem_id2">IVR_LOTVENDHIST </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ivr_lotvendhistitem_id2">ITEM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ivr_lotvendhistitem_id2">2</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivr_lotvendhistitem_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_lotvendhistitem_idu">IVR_LOTVENDHIST </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivr_lotvendhistitem_idu">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivr_lotvendhistitem_idu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivr_lotvendhistitem_typeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_lotvendhistitem_typeu">IVR_LOTVENDHIST </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivr_lotvendhistitem_typeu">ITEM_TYPE       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivr_lotvendhistitem_typeu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

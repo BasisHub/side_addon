@@ -19,8 +19,8 @@
 			<DD_EXPORT_DATA id="ddm_tables.apm_vendrpt_ctl">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.apm_vendrpt_ctl">20080707</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_tables.apm_vendrpt_ctl">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.apm_vendrpt_ctl">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.apm_vendrpt_ctl">141600</DD_LSTSYNC_TIME>
+			<DD_LSTSYNC_DATE id="ddm_tables.apm_vendrpt_ctl">20100331</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.apm_vendrpt_ctl">225626</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.apm_vendrpt_ctl">[+DIR_CPP]apm_vendrpt_ctl_cpt.bbj</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.apm_vendrpt_ctl">T</DD_ATTR_FTYP>
 			<DD_ATTR_PTAB id="ddm_tables.apm_vendrpt_ctl">APM_VENDMAST    </DD_ATTR_PTAB>
@@ -38,7 +38,6 @@
 		<ID id="ddm_table_tpls">DDM_TABLE_TPLS</ID>
 		<RECORD id="ddm_table_tpls.apm_vendrpt_ctl">
 			<DD_TABLE_ALIAS id="ddm_table_tpls.apm_vendrpt_ctl">APM_VENDRPT_CTL </DD_TABLE_ALIAS>
-			<DD_FILE_NAME id="ddm_table_tpls.apm_vendrpt_ctl">adm_vendrpt_ctl.dat</DD_FILE_NAME>
 			<DD_TABLE_TPL id="ddm_table_tpls.apm_vendrpt_ctl">firm_id:c(2),vendor_id:c(6),report_alias:c(16),print_yn:c(1),fax_yn:c(1),fax_nos:c(60),from_company:c(30),from_name:c(30),vendor_name:c(30),fax_to:c(60),fax_subject:c(30),fax_message:c(30),email_yn:c(1),email_from:c(30),email_replyto:c(30),email_to:c(60),email_cc:c(60),email_bcc:c(30),email_subject:c(30),email_message:c(30)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
@@ -54,7 +53,7 @@
 			<DD_TABLE_ALIAS id="ddm_keys.apm_vendrpt_ctl01">APM_VENDRPT_CTL </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.apm_vendrpt_ctl01">01</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.apm_vendrpt_ctl01">Customers by Alias</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.apm_vendrpt_ctl01">ALT_KEY_01      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.apm_vendrpt_ctl01">AO_ALIAS_VEND   </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_key_segs">

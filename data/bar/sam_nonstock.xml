@@ -19,9 +19,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.sam_nonstock">5E19140CE15E6F558978796C9E5FCCD6</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.sam_nonstock">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.sam_nonstock">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.sam_nonstock">20090826</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.sam_nonstock">20090803</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.sam_nonstock">123852</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.sam_nonstock">20100519</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.sam_nonstock">20100304</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.sam_nonstock">222656</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.sam_nonstock">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.sam_nonstock">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.sam_nonstock">zzzz</DD_ATTR_SLEV>
@@ -323,6 +323,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.sam_nonstockfirm_ido">SAM_NONSTOCK    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.sam_nonstockfirm_ido">FIRM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.sam_nonstockfirm_ido">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_nonstockproduct_typeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_nonstockproduct_typeu">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_nonstockproduct_typeu">PRODUCT_TYPE    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_nonstockproduct_typeu">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.sam_nonstockqty_shippeda">
 			<DD_TABLE_ALIAS id="ddm_column_opts.sam_nonstockqty_shippeda">SAM_NONSTOCK    </DD_TABLE_ALIAS>

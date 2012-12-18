@@ -18,10 +18,10 @@
 			<ASC_VERSION_ID id="ddm_tables.ivr_pricechgpct">9.0</ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ivr_pricechgpct">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ivr_pricechgpct">20090126</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ivr_pricechgpct">20090731</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivr_pricechgpct">20090731</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivr_pricechgpct">124216</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.ivr_pricechgpct">/dev_aon_test/apps/aon/;</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.ivr_pricechgpct">20100517</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivr_pricechgpct">20090811</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivr_pricechgpct">212900</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.ivr_pricechgpct">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ivr_pricechgpct">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.ivr_pricechgpct">[+DIR_PGM]ivu_pricechgbypct.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.ivr_pricechgpct">Price Change by Percentage</DD_ATTR_WINT>
@@ -145,6 +145,7 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.ivr_pricechgpct005">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.ivr_pricechgpct005">20090126</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivr_pricechgpct005">20090127</DD_LSTREV_DATE>
+			<DD_ATTR_CPGM id="ddm_table_cols.ivr_pricechgpct005">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_COLW id="ddm_table_cols.ivr_pricechgpct005">0</DD_ATTR_COLW>
 			<DD_ATTR_CTLX id="ddm_table_cols.ivr_pricechgpct005">0</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_cols.ivr_pricechgpct005">0</DD_ATTR_CTLY>
@@ -186,7 +187,7 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.ivr_pricechgpct007">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.ivr_pricechgpct007">20090126</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivr_pricechgpct007">20090126</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.ivr_pricechgpct007">/dev_aon_test/apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ivr_pricechgpct007">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_COLW id="ddm_table_cols.ivr_pricechgpct007">0</DD_ATTR_COLW>
 			<DD_ATTR_CTLX id="ddm_table_cols.ivr_pricechgpct007">0</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_cols.ivr_pricechgpct007">0</DD_ATTR_CTLY>
@@ -199,6 +200,11 @@
 	</ALIAS>
 	<ALIAS id="ddm_column_cpro">
 		<ID id="ddm_column_cpro">DDM_COLUMN_CPRO</ID>
+		<RECORD id="ddm_column_cpro.ivr_pricechgpctitem_idainv">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.ivr_pricechgpctitem_idainv">IVR_PRICECHGPCT </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.ivr_pricechgpctitem_idainv">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.ivr_pricechgpctitem_idainv">AINV</DD_ATTR_CPRO>
+		</RECORD>
 		<RECORD id="ddm_column_cpro.ivr_pricechgpctpercent_changeaval">
 			<DD_TABLE_ALIAS id="ddm_column_cpro.ivr_pricechgpctpercent_changeaval">IVR_PRICECHGPCT </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_cpro.ivr_pricechgpctpercent_changeaval">PERCENT_CHANGE  </DD_DVAR_NAME>
@@ -222,6 +228,11 @@
 			<DD_DVAR_NAME id="ddm_column_opts.ivr_pricechgpctvendor_id2">VENDOR_ID       </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ivr_pricechgpctvendor_id2">2</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.ivr_pricechgpctvendor_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_pricechgpctvendor_idu">IVR_PRICECHGPCT </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivr_pricechgpctvendor_idu">VENDOR_ID       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivr_pricechgpctvendor_idu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.ivr_pricechgpctwarehouse_id1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_pricechgpctwarehouse_id1">IVR_PRICECHGPCT </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ivr_pricechgpctwarehouse_id1">WAREHOUSE_ID    </DD_DVAR_NAME>
@@ -231,6 +242,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_pricechgpctwarehouse_id2">IVR_PRICECHGPCT </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ivr_pricechgpctwarehouse_id2">WAREHOUSE_ID    </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ivr_pricechgpctwarehouse_id2">2</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivr_pricechgpctwarehouse_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_pricechgpctwarehouse_idu">IVR_PRICECHGPCT </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivr_pricechgpctwarehouse_idu">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivr_pricechgpctwarehouse_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.ivr_pricechgpctproduct_type1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_pricechgpctproduct_type1">IVR_PRICECHGPCT </DD_TABLE_ALIAS>
@@ -242,6 +258,11 @@
 			<DD_DVAR_NAME id="ddm_column_opts.ivr_pricechgpctproduct_type2">PRODUCT_TYPE    </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ivr_pricechgpctproduct_type2">2</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.ivr_pricechgpctproduct_typeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_pricechgpctproduct_typeu">IVR_PRICECHGPCT </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivr_pricechgpctproduct_typeu">PRODUCT_TYPE    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivr_pricechgpctproduct_typeu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.ivr_pricechgpctitem_id1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_pricechgpctitem_id1">IVR_PRICECHGPCT </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ivr_pricechgpctitem_id1">ITEM_ID         </DD_DVAR_NAME>
@@ -252,10 +273,20 @@
 			<DD_DVAR_NAME id="ddm_column_opts.ivr_pricechgpctitem_id2">ITEM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ivr_pricechgpctitem_id2">2</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.ivr_pricechgpctitem_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_pricechgpctitem_idu">IVR_PRICECHGPCT </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivr_pricechgpctitem_idu">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivr_pricechgpctitem_idu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.ivr_pricechgpctitem_type3">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_pricechgpctitem_type3">IVR_PRICECHGPCT </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ivr_pricechgpctitem_type3">ITEM_TYPE       </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ivr_pricechgpctitem_type3">3</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivr_pricechgpctitem_typeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_pricechgpctitem_typeu">IVR_PRICECHGPCT </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivr_pricechgpctitem_typeu">ITEM_TYPE       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivr_pricechgpctitem_typeu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

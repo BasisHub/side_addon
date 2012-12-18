@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.ope_ordhdr">F53A7424F3BEF6BD46B6940B29F57F46</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ope_ordhdr">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ope_ordhdr">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ope_ordhdr">20100312</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ope_ordhdr">20100309</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ope_ordhdr">170144</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ope_ordhdr">20100426</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ope_ordhdr">20100426</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ope_ordhdr">151714</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ope_ordhdr">../apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ope_ordhdr">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.ope_ordhdr">zzzz</DD_ATTR_SLEV>
@@ -242,19 +242,19 @@
 			<DD_TABLE_ALIAS id="ddm_keys.ope_ordhdr01">OPE_ORDHDR      </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.ope_ordhdr01">01</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.ope_ordhdr01">Open Orders By Order No</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.ope_ordhdr01">ALT_KEY_01      </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.ope_ordhdr01">AO_ORD_CUST     </DD_KEY_ID>
 		</RECORD>
 		<RECORD id="ddm_keys.ope_ordhdr02">
 			<DD_TABLE_ALIAS id="ddm_keys.ope_ordhdr02">OPE_ORDHDR      </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.ope_ordhdr02">02</DD_KEY_NUMBER>
-			<DD_KEY_DESC id="ddm_keys.ope_ordhdr02">Firm, AR_Type, Ordinv_Flag, Cust_ID</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.ope_ordhdr02">ORDINV_FLAG     </DD_KEY_ID>
+			<DD_KEY_DESC id="ddm_keys.ope_ordhdr02">Firm, AR_Type, Ordinv_Flag, Cu</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.ope_ordhdr02">AO_FLAG_CUST    </DD_KEY_ID>
 		</RECORD>
 		<RECORD id="ddm_keys.ope_ordhdr03">
 			<DD_TABLE_ALIAS id="ddm_keys.ope_ordhdr03">OPE_ORDHDR      </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.ope_ordhdr03">03</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.ope_ordhdr03">Firm, Type, Cust, OrdInv</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.ope_ordhdr03">FACO            </DD_KEY_ID>
+			<DD_KEY_ID id="ddm_keys.ope_ordhdr03">AO_CUST_FLAG    </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_key_segs">
@@ -329,19 +329,25 @@
 			<DD_TABLE_ALIAS id="ddm_key_segs.ope_ordhdr0201">OPE_ORDHDR      </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_key_segs.ope_ordhdr0201">02</DD_KEY_NUMBER>
 			<DD_SEGMENT_SEQ id="ddm_key_segs.ope_ordhdr0201">01</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL id="ddm_key_segs.ope_ordhdr0201">AR_TYPE         </DD_SEGMENT_COL>
+			<DD_SEGMENT_COL id="ddm_key_segs.ope_ordhdr0201">FIRM_ID         </DD_SEGMENT_COL>
 		</RECORD>
 		<RECORD id="ddm_key_segs.ope_ordhdr0202">
 			<DD_TABLE_ALIAS id="ddm_key_segs.ope_ordhdr0202">OPE_ORDHDR      </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_key_segs.ope_ordhdr0202">02</DD_KEY_NUMBER>
 			<DD_SEGMENT_SEQ id="ddm_key_segs.ope_ordhdr0202">02</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL id="ddm_key_segs.ope_ordhdr0202">ORDINV_FLAG     </DD_SEGMENT_COL>
+			<DD_SEGMENT_COL id="ddm_key_segs.ope_ordhdr0202">AR_TYPE         </DD_SEGMENT_COL>
 		</RECORD>
 		<RECORD id="ddm_key_segs.ope_ordhdr0203">
 			<DD_TABLE_ALIAS id="ddm_key_segs.ope_ordhdr0203">OPE_ORDHDR      </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_key_segs.ope_ordhdr0203">02</DD_KEY_NUMBER>
 			<DD_SEGMENT_SEQ id="ddm_key_segs.ope_ordhdr0203">03</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL id="ddm_key_segs.ope_ordhdr0203">CUSTOMER_ID     </DD_SEGMENT_COL>
+			<DD_SEGMENT_COL id="ddm_key_segs.ope_ordhdr0203">ORDINV_FLAG     </DD_SEGMENT_COL>
+		</RECORD>
+		<RECORD id="ddm_key_segs.ope_ordhdr0204">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ope_ordhdr0204">OPE_ORDHDR      </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ope_ordhdr0204">02</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ope_ordhdr0204">04</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ope_ordhdr0204">CUSTOMER_ID     </DD_SEGMENT_COL>
 		</RECORD>
 		<RECORD id="ddm_key_segs.ope_ordhdr0300">
 			<DD_TABLE_ALIAS id="ddm_key_segs.ope_ordhdr0300">OPE_ORDHDR      </DD_TABLE_ALIAS>
@@ -353,19 +359,25 @@
 			<DD_TABLE_ALIAS id="ddm_key_segs.ope_ordhdr0301">OPE_ORDHDR      </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_key_segs.ope_ordhdr0301">03</DD_KEY_NUMBER>
 			<DD_SEGMENT_SEQ id="ddm_key_segs.ope_ordhdr0301">01</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL id="ddm_key_segs.ope_ordhdr0301">AR_TYPE         </DD_SEGMENT_COL>
+			<DD_SEGMENT_COL id="ddm_key_segs.ope_ordhdr0301">FIRM_ID         </DD_SEGMENT_COL>
 		</RECORD>
 		<RECORD id="ddm_key_segs.ope_ordhdr0302">
 			<DD_TABLE_ALIAS id="ddm_key_segs.ope_ordhdr0302">OPE_ORDHDR      </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_key_segs.ope_ordhdr0302">03</DD_KEY_NUMBER>
 			<DD_SEGMENT_SEQ id="ddm_key_segs.ope_ordhdr0302">02</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL id="ddm_key_segs.ope_ordhdr0302">CUSTOMER_ID     </DD_SEGMENT_COL>
+			<DD_SEGMENT_COL id="ddm_key_segs.ope_ordhdr0302">AR_TYPE         </DD_SEGMENT_COL>
 		</RECORD>
 		<RECORD id="ddm_key_segs.ope_ordhdr0303">
 			<DD_TABLE_ALIAS id="ddm_key_segs.ope_ordhdr0303">OPE_ORDHDR      </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_key_segs.ope_ordhdr0303">03</DD_KEY_NUMBER>
 			<DD_SEGMENT_SEQ id="ddm_key_segs.ope_ordhdr0303">03</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL id="ddm_key_segs.ope_ordhdr0303">ORDINV_FLAG     </DD_SEGMENT_COL>
+			<DD_SEGMENT_COL id="ddm_key_segs.ope_ordhdr0303">CUSTOMER_ID     </DD_SEGMENT_COL>
+		</RECORD>
+		<RECORD id="ddm_key_segs.ope_ordhdr0304">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ope_ordhdr0304">OPE_ORDHDR      </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ope_ordhdr0304">03</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ope_ordhdr0304">04</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ope_ordhdr0304">ORDINV_FLAG     </DD_SEGMENT_COL>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_cols">

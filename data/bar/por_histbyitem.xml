@@ -16,9 +16,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.por_histbyitem">EFD2FF19C89FE07753C59422674A52B3</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.por_histbyitem">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.por_histbyitem">20071103</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.por_histbyitem">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.por_histbyitem">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.por_histbyitem">141510</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.por_histbyitem">20100520</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.por_histbyitem">20090709</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.por_histbyitem">115940</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.por_histbyitem">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.por_histbyitem">[+DIR_PGM]por_histbyitem.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.por_histbyitem">PO Receipt History By Item</DD_ATTR_WINT>
@@ -76,6 +76,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.por_histbyitem003">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.por_histbyitem003">20071103</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.por_histbyitem003">20071103</DD_LSTREV_DATE>
+			<DD_ATTR_CPGM id="ddm_table_cols.por_histbyitem003">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_MAXL id="ddm_table_cols.por_histbyitem003">20</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.por_histbyitem003">3</DD_ATTR_TIND>
 		</RECORD>
@@ -93,6 +94,14 @@
 			<DD_ATTR_TIND id="ddm_table_cols.por_histbyitem004">4</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
+	<ALIAS id="ddm_column_cpro">
+		<ID id="ddm_column_cpro">DDM_COLUMN_CPRO</ID>
+		<RECORD id="ddm_column_cpro.por_histbyitemitem_idainv">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.por_histbyitemitem_idainv">POR_HISTBYITEM  </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.por_histbyitemitem_idainv">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.por_histbyitemitem_idainv">AINV</DD_ATTR_CPRO>
+		</RECORD>
+	</ALIAS>
 	<ALIAS id="ddm_column_opts">
 		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
 		<RECORD id="ddm_column_opts.por_histbyitemwarehouse_id1">
@@ -105,6 +114,11 @@
 			<DD_DVAR_NAME id="ddm_column_opts.por_histbyitemwarehouse_id2">WAREHOUSE_ID    </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.por_histbyitemwarehouse_id2">2</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.por_histbyitemwarehouse_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.por_histbyitemwarehouse_idu">POR_HISTBYITEM  </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.por_histbyitemwarehouse_idu">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.por_histbyitemwarehouse_idu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.por_histbyitemproduct_type1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.por_histbyitemproduct_type1">POR_HISTBYITEM  </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.por_histbyitemproduct_type1">PRODUCT_TYPE    </DD_DVAR_NAME>
@@ -114,6 +128,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.por_histbyitemproduct_type2">POR_HISTBYITEM  </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.por_histbyitemproduct_type2">PRODUCT_TYPE    </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.por_histbyitemproduct_type2">2</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.por_histbyitemproduct_typeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.por_histbyitemproduct_typeu">POR_HISTBYITEM  </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.por_histbyitemproduct_typeu">PRODUCT_TYPE    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.por_histbyitemproduct_typeu">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.por_histbyitemitem_id1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.por_histbyitemitem_id1">POR_HISTBYITEM  </DD_TABLE_ALIAS>
@@ -125,10 +144,20 @@
 			<DD_DVAR_NAME id="ddm_column_opts.por_histbyitemitem_id2">ITEM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.por_histbyitemitem_id2">2</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.por_histbyitemitem_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.por_histbyitemitem_idu">POR_HISTBYITEM  </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.por_histbyitemitem_idu">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.por_histbyitemitem_idu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.por_histbyitemitem_type3">
 			<DD_TABLE_ALIAS id="ddm_column_opts.por_histbyitemitem_type3">POR_HISTBYITEM  </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.por_histbyitemitem_type3">ITEM_TYPE       </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.por_histbyitemitem_type3">3</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.por_histbyitemitem_typeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.por_histbyitemitem_typeu">POR_HISTBYITEM  </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.por_histbyitemitem_typeu">ITEM_TYPE       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.por_histbyitemitem_typeu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">
