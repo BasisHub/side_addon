@@ -18,10 +18,10 @@
 			<ASC_LICENSE_ID id="ddm_tables.are_invhdr">126314E9C5352A525AC77100B19C0FE8</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.are_invhdr">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.are_invhdr">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.are_invhdr">20100804</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.are_invhdr">20100804</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.are_invhdr">112958</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.are_invhdr">/devel/main/apps/aon/;</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.are_invhdr">20101019</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.are_invhdr">20101019</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.are_invhdr">155046</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.are_invhdr">/aon_dev/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_DKNM id="ddm_tables.are_invhdr">BATCH_KEY</DD_ATTR_DKNM>
 			<DD_ATTR_FTYP id="ddm_tables.are_invhdr">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.are_invhdr">zzzz</DD_ATTR_SLEV>
@@ -239,7 +239,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.are_invhdr005">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.are_invhdr005">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.are_invhdr005">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.are_invhdr005">/devel/main/apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.are_invhdr005">/aon_dev/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.are_invhdr005">60</DD_ATTR_CTLW>
 			<DD_ATTR_LABL id="ddm_table_cols.are_invhdr005">Customer ID</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_table_cols.are_invhdr005">Cust ID</DD_ATTR_LABS>
@@ -257,6 +257,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.are_invhdr006">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.are_invhdr006">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.are_invhdr006">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CPGM id="ddm_table_cols.are_invhdr006">/aon_dev/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLX id="ddm_table_cols.are_invhdr006">+36</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_cols.are_invhdr006">-9</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.are_invhdr006">35</DD_ATTR_CTLW>
@@ -326,7 +327,7 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.are_invhdr010">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.are_invhdr010">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.are_invhdr010">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.are_invhdr010">/devel/main/apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.are_invhdr010">/aon_dev/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.are_invhdr010">70</DD_ATTR_CTLW>
 			<DD_ATTR_DFLT id="ddm_table_cols.are_invhdr010">[+SYSTEM_DATE]</DD_ATTR_DFLT>
 			<DD_ATTR_MAXL id="ddm_table_cols.are_invhdr010">8</DD_ATTR_MAXL>
@@ -468,6 +469,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_cpro.are_invhdrcustomer_idaval">ARE_INVHDR      </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_cpro.are_invhdrcustomer_idaval">CUSTOMER_ID     </DD_DVAR_NAME>
 			<DD_ATTR_CPRO id="ddm_column_cpro.are_invhdrcustomer_idaval">AVAL</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_column_cpro.are_invhdrar_dist_codeaval">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.are_invhdrar_dist_codeaval">ARE_INVHDR      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.are_invhdrar_dist_codeaval">AR_DIST_CODE    </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.are_invhdrar_dist_codeaval">AVAL</DD_ATTR_CPRO>
 		</RECORD>
 		<RECORD id="ddm_column_cpro.are_invhdrinv_dateaval">
 			<DD_TABLE_ALIAS id="ddm_column_cpro.are_invhdrinv_dateaval">ARE_INVHDR      </DD_TABLE_ALIAS>

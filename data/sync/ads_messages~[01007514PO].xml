@@ -112,6 +112,17 @@
 		<MSG_TEXT>This Requisition number doesn't exist.  Enter an existing Requisition number, or leave blank to assign a new one.[$0a$]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              </MSG_TEXT>
 	</barista_record>
 	<barista_record>
+		<MSG_ID>PO_INVAL_REQ_LK     </MSG_ID>
+		<MSG_TITLE>AddonSoftware</MSG_TITLE>
+		<MSG_TYPE>0</MSG_TYPE>
+		<MSG_ICON>48</MSG_ICON>
+		<MSG_DEFAULT_BUT>000</MSG_DEFAULT_BUT>
+		<MSG_CODES>O</MSG_CODES>
+		<ASC_COMP_ID>01007514</ASC_COMP_ID>
+		<ASC_PROD_ID>PO </ASC_PROD_ID>
+		<MSG_TEXT>This Requisition number doesn't exist.  Enter an existing Requisition number, or [$0a$]look one up with the Create PO from Req. button.[$0a$]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             </MSG_TEXT>
+	</barista_record>
+	<barista_record>
 		<MSG_ID>PO_INV_EXISTS       </MSG_ID>
 		<MSG_TITLE>AddonSoftware</MSG_TITLE>
 		<MSG_TYPE>0</MSG_TYPE>
@@ -363,6 +374,17 @@
 		<ASC_COMP_ID>01007514</ASC_COMP_ID>
 		<ASC_PROD_ID>PO </ASC_PROD_ID>
 		<MSG_TEXT>Would you like to retain the Requisition?[$0a$]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      </MSG_TEXT>
+	</barista_record>
+	<barista_record>
+		<MSG_ID>PO_SAVE_REQUIRED    </MSG_ID>
+		<MSG_TITLE>AddonSoftware</MSG_TITLE>
+		<MSG_TYPE>0</MSG_TYPE>
+		<MSG_ICON>48</MSG_ICON>
+		<MSG_DEFAULT_BUT>000</MSG_DEFAULT_BUT>
+		<MSG_CODES>O</MSG_CODES>
+		<ASC_COMP_ID>01007514</ASC_COMP_ID>
+		<ASC_PROD_ID>PO </ASC_PROD_ID>
+		<MSG_TEXT>PO changes must be saved before using this option.[$0a$]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             </MSG_TEXT>
 	</barista_record>
 	<barista_record>
 		<MSG_ID>PO_UNREL_WO         </MSG_ID>
