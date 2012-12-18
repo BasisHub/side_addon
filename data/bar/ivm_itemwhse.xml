@@ -20,8 +20,8 @@
 			<DD_EXPORT_DATA id="ddm_tables.ivm_itemwhse">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ivm_itemwhse">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_tables.ivm_itemwhse">20120315</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivm_itemwhse">20120327</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivm_itemwhse">140924</DD_LSTSYNC_TIME>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivm_itemwhse">20120517</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivm_itemwhse">100642</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ivm_itemwhse">C:/aon_dev/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_DKNM id="ddm_tables.ivm_itemwhse">AO_ITEM_WH</DD_ATTR_DKNM>
 			<DD_ATTR_FTYP id="ddm_tables.ivm_itemwhse">T</DD_ATTR_FTYP>
@@ -146,6 +146,18 @@
 			<DD_KEY_DESC id="ddm_keys.ivm_itemwhse03">Buyer/Vendor</DD_KEY_DESC>
 			<DD_KEY_ID id="ddm_keys.ivm_itemwhse03">AO_BUYER_VEND_WH</DD_KEY_ID>
 		</RECORD>
+		<RECORD id="ddm_keys.ivm_itemwhse04">
+			<DD_TABLE_ALIAS id="ddm_keys.ivm_itemwhse04">IVM_ITEMWHSE    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_keys.ivm_itemwhse04">04</DD_KEY_NUMBER>
+			<DD_KEY_DESC id="ddm_keys.ivm_itemwhse04">Firm_Vendor</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.ivm_itemwhse04">AO_VEND         </DD_KEY_ID>
+		</RECORD>
+		<RECORD id="ddm_keys.ivm_itemwhse05">
+			<DD_TABLE_ALIAS id="ddm_keys.ivm_itemwhse05">IVM_ITEMWHSE    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_keys.ivm_itemwhse05">05</DD_KEY_NUMBER>
+			<DD_KEY_DESC id="ddm_keys.ivm_itemwhse05">Firm_Item_Vendor</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.ivm_itemwhse05">AO_ITEM_VEND    </DD_KEY_ID>
+		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_key_segs">
 		<ID id="ddm_key_segs">DDM_KEY_SEGS</ID>
@@ -268,6 +280,66 @@
 			<DD_SEGMENT_SORT id="ddm_key_segs.ivm_itemwhse0305">N</DD_SEGMENT_SORT>
 			<DD_SEGMENT_UNIQ id="ddm_key_segs.ivm_itemwhse0305">N</DD_SEGMENT_UNIQ>
 			<DD_SEGMENT_MATH id="ddm_key_segs.ivm_itemwhse0305">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.ivm_itemwhse0401">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ivm_itemwhse0401">IVM_ITEMWHSE    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ivm_itemwhse0401">04</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ivm_itemwhse0401">01</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ivm_itemwhse0401">FIRM_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ivm_itemwhse0401">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ivm_itemwhse0401">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ivm_itemwhse0401">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.ivm_itemwhse0401">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.ivm_itemwhse0401">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.ivm_itemwhse0401">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.ivm_itemwhse0402">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ivm_itemwhse0402">IVM_ITEMWHSE    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ivm_itemwhse0402">04</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ivm_itemwhse0402">02</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ivm_itemwhse0402">VENDOR_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ivm_itemwhse0402">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ivm_itemwhse0402">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ivm_itemwhse0402">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.ivm_itemwhse0402">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.ivm_itemwhse0402">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.ivm_itemwhse0402">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.ivm_itemwhse0501">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ivm_itemwhse0501">IVM_ITEMWHSE    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ivm_itemwhse0501">05</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ivm_itemwhse0501">01</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ivm_itemwhse0501">FIRM_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ivm_itemwhse0501">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ivm_itemwhse0501">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ivm_itemwhse0501">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.ivm_itemwhse0501">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.ivm_itemwhse0501">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.ivm_itemwhse0501">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.ivm_itemwhse0502">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ivm_itemwhse0502">IVM_ITEMWHSE    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ivm_itemwhse0502">05</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ivm_itemwhse0502">02</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ivm_itemwhse0502">ITEM_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ivm_itemwhse0502">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ivm_itemwhse0502">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ivm_itemwhse0502">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.ivm_itemwhse0502">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.ivm_itemwhse0502">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.ivm_itemwhse0502">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.ivm_itemwhse0503">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ivm_itemwhse0503">IVM_ITEMWHSE    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ivm_itemwhse0503">05</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ivm_itemwhse0503">03</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ivm_itemwhse0503">VENDOR_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ivm_itemwhse0503">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ivm_itemwhse0503">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ivm_itemwhse0503">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.ivm_itemwhse0503">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.ivm_itemwhse0503">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.ivm_itemwhse0503">N</DD_SEGMENT_MATH>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_cols">

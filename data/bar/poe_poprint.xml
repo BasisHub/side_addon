@@ -19,8 +19,8 @@
 			<DD_EXPORT_DATA id="ddm_tables.poe_poprint">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.poe_poprint">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_tables.poe_poprint">20100611</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.poe_poprint">20120327</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.poe_poprint">140928</DD_LSTSYNC_TIME>
+			<DD_LSTSYNC_DATE id="ddm_tables.poe_poprint">20120517</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.poe_poprint">100006</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.poe_poprint">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.poe_poprint">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.poe_poprint">Purchase Order Print File</DD_ATTR_WINT>
@@ -41,6 +41,12 @@
 			<DD_KEY_NUMBER id="ddm_keys.poe_poprint00">00</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.poe_poprint00">Primary</DD_KEY_DESC>
 			<DD_KEY_ID id="ddm_keys.poe_poprint00">PRIMARY         </DD_KEY_ID>
+		</RECORD>
+		<RECORD id="ddm_keys.poe_poprint01">
+			<DD_TABLE_ALIAS id="ddm_keys.poe_poprint01">POE_POPRINT     </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_keys.poe_poprint01">01</DD_KEY_NUMBER>
+			<DD_KEY_DESC id="ddm_keys.poe_poprint01">Firm+PO</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.poe_poprint01">AO_PO           </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_key_segs">
@@ -71,6 +77,30 @@
 			<DD_SEGMENT_POS id="ddm_key_segs.poe_poprint0003">0</DD_SEGMENT_POS>
 			<DD_SEGMENT_OFF id="ddm_key_segs.poe_poprint0003">0</DD_SEGMENT_OFF>
 			<DD_SEGMENT_LEN id="ddm_key_segs.poe_poprint0003">0</DD_SEGMENT_LEN>
+		</RECORD>
+		<RECORD id="ddm_key_segs.poe_poprint0101">
+			<DD_TABLE_ALIAS id="ddm_key_segs.poe_poprint0101">POE_POPRINT     </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.poe_poprint0101">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.poe_poprint0101">01</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.poe_poprint0101">FIRM_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.poe_poprint0101">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.poe_poprint0101">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.poe_poprint0101">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.poe_poprint0101">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.poe_poprint0101">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.poe_poprint0101">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.poe_poprint0102">
+			<DD_TABLE_ALIAS id="ddm_key_segs.poe_poprint0102">POE_POPRINT     </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.poe_poprint0102">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.poe_poprint0102">02</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.poe_poprint0102">PO_NO</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.poe_poprint0102">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.poe_poprint0102">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.poe_poprint0102">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.poe_poprint0102">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.poe_poprint0102">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.poe_poprint0102">N</DD_SEGMENT_MATH>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_cols">
