@@ -18,9 +18,9 @@
 			<ASC_VERSION_ID id="ddm_tables.ope_pricequote">11.0      </ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ope_pricequote">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ope_pricequote">20080909</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ope_pricequote">20101201</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ope_pricequote">20110310</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ope_pricequote">204336</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ope_pricequote">20110504</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ope_pricequote">20110504</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ope_pricequote">221724</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ope_pricequote">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ope_pricequote">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.ope_pricequote">[+DIR_PGM]adx_dummy.aon</DD_ATTR_PRUN>
@@ -244,8 +244,6 @@
 			<DD_ATTR_ABLC id="ddm_table_cols.ope_pricequote008">OPE_PRICEQUOTE.FIRM_ID</DD_ATTR_ABLC>
 			<DD_ATTR_ABLV id="ddm_table_cols.ope_pricequote008">z</DD_ATTR_ABLV>
 			<DD_ATTR_COLW id="ddm_table_cols.ope_pricequote008">0</DD_ATTR_COLW>
-			<DD_ATTR_CTLX id="ddm_table_cols.ope_pricequote008">+16</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY id="ddm_table_cols.ope_pricequote008">-1</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_pricequote008">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ope_pricequote008">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.ope_pricequote008">N</DD_ATTR_MLAN>
@@ -266,7 +264,7 @@
 			<DD_ATTR_ABLC id="ddm_table_cols.ope_pricequote009">OPE_PRICEQUOTE.FIRM_ID</DD_ATTR_ABLC>
 			<DD_ATTR_ABLV id="ddm_table_cols.ope_pricequote009">z</DD_ATTR_ABLV>
 			<DD_ATTR_COLW id="ddm_table_cols.ope_pricequote009">0</DD_ATTR_COLW>
-			<DD_ATTR_CTLX id="ddm_table_cols.ope_pricequote009">+16</DD_ATTR_CTLX>
+			<DD_ATTR_CTLX id="ddm_table_cols.ope_pricequote009">+20</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_cols.ope_pricequote009">-1</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_pricequote009">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ope_pricequote009">0</DD_ATTR_CTLH>
@@ -286,7 +284,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.ope_pricequote010">20080911</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ope_pricequote010">20080911</DD_LSTREV_DATE>
 			<DD_ATTR_COLW id="ddm_table_cols.ope_pricequote010">0</DD_ATTR_COLW>
-			<DD_ATTR_CTLX id="ddm_table_cols.ope_pricequote010">-2</DD_ATTR_CTLX>
+			<DD_ATTR_CTLX id="ddm_table_cols.ope_pricequote010">-5</DD_ATTR_CTLX>
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_pricequote010">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ope_pricequote010">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABL id="ddm_table_cols.ope_pricequote010">Quantity</DD_ATTR_LABL>
@@ -349,7 +347,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.ope_pricequote013">20080912</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ope_pricequote013">20080912</DD_LSTREV_DATE>
 			<DD_ATTR_COLW id="ddm_table_cols.ope_pricequote013">0</DD_ATTR_COLW>
-			<DD_ATTR_CTLX id="ddm_table_cols.ope_pricequote013">-2</DD_ATTR_CTLX>
+			<DD_ATTR_CTLX id="ddm_table_cols.ope_pricequote013">-5</DD_ATTR_CTLX>
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_pricequote013">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ope_pricequote013">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABL id="ddm_table_cols.ope_pricequote013">Quantity</DD_ATTR_LABL>
@@ -494,7 +492,7 @@
 			<DD_DATA_NAME id="ddm_table_disp.ope_pricequote011">QTY_ON_HAND     </DD_DATA_NAME>
 			<DD_CTRL_NAME id="ddm_table_disp.ope_pricequote011">QTY_AVAIL       </DD_CTRL_NAME>
 			<DD_ATTR_LABL id="ddm_table_disp.ope_pricequote011">Quantity Available</DD_ATTR_LABL>
-			<DD_ATTR_CTLX id="ddm_table_disp.ope_pricequote011">+16</DD_ATTR_CTLX>
+			<DD_ATTR_CTLX id="ddm_table_disp.ope_pricequote011">+24</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_disp.ope_pricequote011">-1</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_disp.ope_pricequote011">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_disp.ope_pricequote011">0</DD_ATTR_CTLH>
