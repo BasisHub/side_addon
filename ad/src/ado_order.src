@@ -1,0 +1,1117 @@
+rem ==========================================================================
+rem --- A class to help with creating orders and invoices in O/P
+rem --- Program ado_order.src v8.0.0 30Jul2009
+rem --- Copyright 2008-2009, BASIS International, Ltd.
+rem ==========================================================================
+
+    use ::sys/prog/bao_callpoint.bbj::Callpoint
+    use ::ado_util.src::util
+    use ::adc_array.aon::ArrayObject
+
+    use java.util.HashMap
+
+    class public OrderHelper
+        field private BBjString className$ = "OrderHelper"
+        field protected static BBjInt ALWAYS_TOTAL_OPEN_ORDERS% = 1
+        field private BBjString firm_id$
+        field private BBjInt precision% 
+        field public BBjString LotSerialFlag$
+
+    rem --- Read-only fields for calcOverCreditLimit()
+    
+        rem --- Order Credit Limit? 1=yes, 0=no, -1=has not been set
+        field protected BBjInt OverCreditLimit% = -1
+        field protected BBjString CreditHoldReason$
+        field protected BBjNumber TotalAging
+        field protected BBjNumber MaxPastDue
+        field protected BBjNumber OpenOrderAmount
+        field protected BBjNumber OpenBoAmount
+        field protected BBjNumber HeldOrderAmount
+
+        field private Callpoint callpoint!
+        field private BBjString dtl_tmpl$
+
+    rem --- Channels and templates for tables
+
+        field private BBjInt ordHeaderDev%
+        field private BBjString ordHeaderTmpl$
+        field private BBjInt lineCodeDev%
+        field private BBjString lineCodeTmpl$
+        field private BBjInt ordDetailDev%
+        field private BBjString ordDetailTmpl$
+        field private BBjInt itemMastDev%
+        field private BBjString itemMastTmpl$
+        field private BBjInt custDetailDev%
+        field private BBjString custDetailTmpl$
+        field private BBjInt taxcodeDev%
+        field private BBjString taxcodeTmpl$
+        field private BBjInt termsCodeDev%
+        field private BBjString termsCodeTmpl$
+        field private BBjInt lotSerialDev%
+        field private BBjString lotSerialTmpl$
+        field private BBjInt ivsParamsDev% 
+        field private BBjString ivsParamsTmpl$ 
+        field protected BBjInt arsCreditDev%
+        field protected BBjString arsCreditTmpl$
+        
+    rem --- Set from order
+
+        field public BBjVector DtlVect!
+        field protected BBjString Cust_id$
+        field protected BBjString Order_no$
+        field public BBjString Inv_type$
+        field public BBjString TaxCode$
+
+    rem --- Read-only fields for totalSaleDisk()
+
+        field private BBjNumber extPrice
+        field private BBjNumber taxable
+        field private BBjNumber extCost
+
+        field public BBjNumber Freight
+        field public BBjNumber Discount
+        field public BBjNumber TaxAmount
+
+        field private BBjNumber START_BLOCK = 1
+
+    rem --- New object
+
+        method public OrderHelper(BBjString p_firm_id$, ArrayObject pTableChans!, BBjInt p_precision%, Callpoint pCallpoint!, BBjString p_dtl_tmpl$)
+            #setOrderHelper(p_firm_id$, pTableChans!, p_precision%, pCallpoint!, p_dtl_tmpl$)
+        methodend
+
+        method public OrderHelper(BBjString p_firm_id$, BBjInt p_precision%, Callpoint pCallpoint!, BBjString p_dtl_tmpl$)
+            #setOrderHelper(p_firm_id$, null(), p_precision%, pCallpoint!, p_dtl_tmpl$)
+        methodend
+
+        method public OrderHelper(BBjString p_firm_id$, BBjInt p_precision%, Callpoint pCallpoint!)
+            #setOrderHelper(p_firm_id$, null(), p_precision%, pCallpoint!, "")
+        methodend
+
+        method public OrderHelper(BBjString p_firm_id$, Callpoint pCallpoint!)
+            #setOrderHelper(p_firm_id$, null(), 0, pCallpoint!, "")
+        methodend
+
+        method private void setOrderHelper(BBjString p_firm_id$, ArrayObject pTableChans!, BBjInt p_precision%, Callpoint pCallpoint!, BBjString p_dtl_tmpl$)
+
+            #firm_id$   = p_firm_id$
+            #precision% = p_precision%
+            #callpoint! = pCallpoint!
+            #dtl_tmpl$  = p_dtl_tmpl$
+
+            #forceTotalOpenOrders()
+
+            if !util.isTableChansSet() then
+                if pTableChans! = null() then
+                    throw #className$+": setOrderHelper(): Pass TableChans! or set table_chans$[all] in util object", 257
+                else
+                    util.setTableChans(pTableChans!)
+                endif
+            endif
+
+        methodend
+        
+        rem /**
+        rem  * Set this customer id.
+        rem  *
+        rem  * Sets the customer id, and signals to recalculate credit limit if
+        rem  * the customer id has changed.
+        rem  *
+        rem  * @param BBjString customer id
+        rem  */
+        method public void setCust_id(BBjString p_cust_id$)
+            if p_cust_id$ <> #Cust_id$ then
+                #forceTotalOpenOrders()
+            endif
+            #Cust_id$ = p_cust_id$
+        methodend
+        
+        rem /**
+        rem  * Get this customer id.
+        rem  *
+        rem  * @return BBjString customer id
+        rem  */
+        method public BBjString getCust_id()
+            methodret #Cust_id$
+        methodend
+        
+        rem /**
+        rem  * Set this order number.
+        rem  *
+        rem  * Sets the order number, and signals to recalculate credit limit if
+        rem  * the order number has changed.
+        rem  *
+        rem  * @parm BBjString order number
+        rem  */
+        method public void setOrder_no(BBjString p_order_no$)
+            if p_order_no$ <> #Order_no$ then
+                #forceTotalOpenOrders()
+            endif
+            #Order_no$ = p_order_no$
+        methodend
+        
+        rem /**
+        rem  * Get this order number.
+        rem  *
+        rem  * @return BBjString order number
+        rem  */
+        method public BBjString getOrder_no()
+            methodret #Order_no$
+        methodend
+
+    rem --- Total order totals from passed detail vector
+
+        method public BBjNumber totalSales(BBjVector pDtlVect!, Callpoint callpoint!)
+
+            if #dtl_tmpl$ = "" then
+                throw #className$+": totalSales(): You must pass the detail template to use this method", 258
+            endif
+
+            if #Inv_type$ = "" then
+                throw #className$+": totalSales(): You must setInv_type() (header invoice type) before you use this method", 259
+            endif
+
+            if #lineCodeDev% = 0 then
+                data_name$ = "OPC_LINECODE"
+                #lineCodeDev%  = int(util.getDev(data_name$))
+                #lineCodeTmpl$ = util.getTmpl(data_name$)
+            endif
+
+            #getPrecision()
+            precision #precision%
+            ttl_sales = 0
+
+            dim dtl_rec$:#dtl_tmpl$
+            dim linecode_rec$:#lineCodeTmpl$
+
+            if pDtlVect! <> null() and pDtlVect!.size() then
+                for i = 0 to pDtlVect!.size() - 1
+                    dtl_rec$ = str(pDtlVect!.getItem(i))
+
+                rem --- GridRowDeleteStatus() does not return the correct status because the vector it's based on isn't built
+
+                    if cvs(dtl_rec$, 2) <> "" and callpoint!.getGridRowDeleteStatus(i) <> "Y" then 
+                        read record (#lineCodeDev%, key=#firm_id$+dtl_rec.line_code$, dom=*endif) linecode_rec$
+
+                        if dtl_rec.commit_flag$ = "Y" or #Inv_type$ = "P" then
+                            if pos(linecode_rec.line_type$="SPN") then
+                                ttl_sales = ttl_sales + (dtl_rec.unit_price * dtl_rec.qty_shipped)
+                            else
+                                if linecode_rec.line_type$ = "O" then 
+                                    ttl_sales = ttl_sales + dtl_rec.ext_price
+                                endif
+                            endif    
+                        endif
+                    endif
+                next i
+            endif
+
+            methodret ttl_sales
+
+        methodend
+
+    rem --- Total cost totals from passed detail vector
+
+        method public BBjNumber totalCost(BBjVector pDtlVect!, Callpoint callpoint!)
+
+            if #dtl_tmpl$ = "" then
+                throw #className$+": totalSales(): You must pass the detail template to use this method", 258
+            endif
+
+            if #Inv_type$ = "" then
+                throw #className$+": totalSales(): You must setInv_type() (header invoice type) before you use this method", 259
+            endif
+
+            if #lineCodeDev% = 0 then
+                data_name$ = "OPC_LINECODE"
+                #lineCodeDev%  = int(util.getDev(data_name$))
+                #lineCodeTmpl$ = util.getTmpl(data_name$)
+            endif
+
+            #getPrecision()
+            precision #precision%
+            ttl_cost = 0
+
+            dim dtl_rec$:#dtl_tmpl$
+            dim linecode_rec$:#lineCodeTmpl$
+
+            if pDtlVect! <> null() and pDtlVect!.size() then
+                for i = 0 to pDtlVect!.size() - 1
+                    dtl_rec$ = str(pDtlVect!.getItem(i))
+
+                    if cvs(dtl_rec$, 2) <> "" and callpoint!.getGridRowDeleteStatus(i) <> "Y" then 
+                        read record (#lineCodeDev%, key=#firm_id$+dtl_rec.line_code$, dom=*endif) linecode_rec$
+
+                        if dtl_rec.commit_flag$ = "Y" or #Inv_type$ = "P" then
+                            if pos(linecode_rec.line_type$="SPN") then
+                                ttl_cost = ttl_cost + (dtl_rec.unit_cost * dtl_rec.qty_shipped)
+                            endif    
+                        endif
+                    endif
+                next i
+            endif
+
+            methodret ttl_cost
+
+        methodend
+
+
+rem --- Return Taxable Amount from detail line vector
+
+        method public BBjNumber totalTaxable(BBjVector pDtlVect!, Callpoint callpoint!)
+
+            if #dtl_tmpl$ = "" then
+                throw #className$+": totalSales(): You must pass the detail template to use this method", 258
+            endif
+
+            if #Inv_type$ = "" then
+                throw #className$+": totalSales(): You must setInv_type() (header invoice type) before you use this method", 259
+            endif
+
+            if #lineCodeDev% = 0 then
+                data_name$ = "OPC_LINECODE"
+                #lineCodeDev%  = int(util.getDev(data_name$))
+                #lineCodeTmpl$ = util.getTmpl(data_name$)
+            endif
+
+            if #itemMastDev% = 0 then
+                data_name$ = "IVM_ITEMMAST"
+                #itemMastDev%  = int(util.getDev(data_name$))
+                #itemMastTmpl$ = util.getTmpl(data_name$)
+            endif
+
+            #getPrecision()
+            precision #precision%
+            ttl_taxable = 0
+
+            dim dtl_rec$:#dtl_tmpl$
+            dim linecode_rec$:#lineCodeTmpl$
+            dim item_rec$:#itemMastTmpl$
+
+            if pDtlVect! <> null() and pDtlVect!.size() then
+                for i = 0 to pDtlVect!.size() - 1
+                    dtl_rec$ = str(pDtlVect!.getItem(i))
+
+                    if cvs(dtl_rec$, 2) <> "" and callpoint!.getGridRowDeleteStatus(i) <> "Y" then 
+                        read record (#lineCodeDev%, key=#firm_id$+dtl_rec.line_code$, dom=*endif) linecode_rec$
+
+                        if pos(linecode_rec.line_type$ = "SP")=0 then
+                            if linecode_rec.taxable_flag$ = "Y" then
+                                ttl_taxable = ttl_taxable + dtl_rec.ext_price
+                            endif
+                        else
+                            if #itemMastDev% then
+                                find record(#itemMastDev%,key=#firm_id$+ dtl_rec.item_id$,dom=*endif)item_rec$
+                                if item_rec.taxable_flag$="Y" then
+                                    ttl_taxable = ttl_taxable + dtl_rec.ext_price
+                                endif
+                            endif
+                        endif
+                    endif
+                next i
+            endif
+
+            methodret ttl_taxable
+
+        methodend
+
+    rem --- Total sales from set detail vector
+
+        method public BBjNumber totalSales()
+            if #DtlVect! = null() then
+                throw #className$+": totalSales(): Pass in the detail vector or use setDtlVect()", 260
+            else
+                methodret #totalSales(#DtlVect!)
+            endif
+        methodend
+
+    rem --- Order totals from disk records
+
+        method public void totalSalesDisk(BBjString p_cust_id$, BBjString p_order_no$, BBjString p_inv_type$)
+
+        rem --- Files
+
+            if #ordDetailDev% = 0 then
+                data_name$ = "OPE_ORDDET"
+                #ordDetailDev%  = int(util.getDev(data_name$))
+                #ordDetailTmpl$ = util.getTmpl(data_name$)
+            endif
+
+            if #lineCodeDev% = 0 then
+                data_name$ = "OPC_LINECODE"
+                #lineCodeDev%  = int(util.getDev(data_name$))
+                #lineCodeTmpl$ = util.getTmpl(data_name$)
+            endif
+
+            if #itemMastDev% = 0 then
+                data_name$ = "IVM_ITEMMAST"
+                #itemMastDev%  = int(util.getDev(data_name$))
+                #itemMastTmpl$ = util.getTmpl(data_name$)
+            endif
+
+        rem --- Inits
+
+            #setCust_id(p_cust_id$)
+            #setOrder_no(p_order_no$)
+            #Inv_type$ = p_inv_type$
+
+            #getPrecision()
+            precision #precision%
+
+            ext_price = 0
+            taxable   = 0
+            ext_cost  = 0
+            more      = 1
+
+            dim orddet_rec$:#ordDetailTmpl$
+            dim linecode_rec$:#lineCodeTmpl$
+            dim itemmast_rec$:#itemMastTmpl$
+
+        rem --- Begin loop
+
+            read (#ordDetailDev%, key=#firm_id$+"  "+p_cust_id$+p_order_no$, dom=*next)
+
+            while more
+                read record (#ordDetailDev%, end=*break) orddet_rec$
+                if orddet_rec.firm_id$     <> #firm_id$ then break
+                if orddet_rec.customer_id$ <> p_cust_id$ then break
+                if orddet_rec.order_no$    <> p_order_no$ then break
+                found = 0
+
+                if #START_BLOCK then
+                    find record (#lineCodeDev%, key=#firm_id$+orddet_rec.line_code$, dom=*endif) linecode_rec$
+                    found = 1
+                endif
+
+                if !found or linecode_rec.line_type$ = "M" then continue
+
+            rem --- Can't ship if not committed
+
+                if orddet_rec.commit_flag$ <> "Y" and p_inv_type$ <> "P" then 
+                    if linecode_rec.line_type$ <> "O" then
+                        orddet_rec.qty_backord = 0
+                        orddet_rec.qty_shipped = 0
+                        orddet_rec.ext_price   = 0
+                        orddet_rec.taxable_amt = 0
+                    else
+                        if orddet_rec.ext_price <> 0 then
+                            orddet_rec.unit_price  = orddet_rec.ext_price
+                            orddet_rec.ext_price   = 0
+                            orddet_rec.taxable_amt = 0
+                        endif
+                    endif
+                endif
+
+            rem --- Determine taxable amount
+
+                orddet_rec.taxable_amt = 0
+
+                if linecode_rec.line_type$ <> "S" and linecode_rec.line_type$ <> "P" then
+                    if linecode_rec.taxable_flag$ = "Y" then
+                        orddet_rec.taxable_amt = orddet_rec.ext_price
+                    endif
+                else
+
+                    if #START_BLOCK then
+                        find record (#itemMastDev%, key=#firm_id$+orddet_rec.item_id$, dom=*endif) itemmast_rec$
+
+                        if itemmast_rec.taxable_flag$ = "Y" then 
+                            orddet_rec.taxable_amt = orddet_rec.ext_price
+                        endif
+                    endif
+                endif
+
+                orddet_rec$ = field(orddet_rec$)
+                write record (#ordDetailDev%) orddet_rec$
+
+                ext_price = ext_price + orddet_rec.ext_price
+                taxable   = taxable   + orddet_rec.taxable_amt
+                ext_cost  = ext_cost  + orddet_rec.unit_cost * orddet_rec.qty_shipped
+
+            wend
+
+        rem --- Set return values as fields
+
+            #extPrice = ext_price
+            #taxable  = taxable
+            #extCost  = ext_cost 
+
+        methodend
+
+        method public void totalSalesDisk(BBjString p_cust_id$, BBjString p_order_no$)
+
+            if #Inv_type$ <> "" then
+                #totalSalesDisk(p_cust_id$, p_order_no$, #Inv_type$)
+            else
+
+                if #ordHeaderDev% = 0 then
+                    data_name$ = "OPE_ORDHDR"
+                    #ordHeaderDev%  = int(util.getDev(data_name$))
+                    #ordHeaderTmpl$ = util.getTmpl(data_name$)
+                endif
+
+                dim ordhdr_rec$:#ordHeaderTmpl$
+                found = 0
+
+                if #START_BLOCK then
+                    find record (#ordHeaderDev%, key=#firm_id$+"  "+p_cust_id$+p_order_no$, dom=*endif) ordhdr_rec$
+                    found = 1
+                endif
+
+                if found then
+                    #totalSalesDisk(p_cust_id$, p_order_no$, ordhdr_rec.invoice_type$)
+                else
+                    throw #className$+": totalSalesDisk(): Could not find order """+p_order_no$+""" for customer """+p_cust_id$+"""", 261
+                endif
+            endif
+
+        methodend
+
+        method public void totalSalesDisk()
+
+            if #Cust_id$ <> "" and #Order_no$ <> "" then
+                if #Inv_type$ <> "" then
+                    #totalSalesDisk(#Cust_id$, #Order_no$, #Inv_type$)
+                else
+                    #totalSalesDisk(#Cust_id$, #Order_no$)
+                endif
+            else
+                throw #className$+": totalSalesDisk(): You must setCust_id() and setOrder_no() before calling this method", 262
+            endif
+
+        methodend
+
+    rem --- Get total quantity of assigned lots/serial numbers for an order and line
+
+        method public BBjNumber totalLotSerialAmount(BBjString p_cust_id$, BBjString p_order_no$, BBjString p_seq_no$)
+
+            if #lotSerialDev% = 0 then
+                data_name$ = "OPE_ORDLSDET"
+                #lotSerialDev%  = int(util.getDev(data_name$))
+                #lotSerialTmpl$ = util.getTmpl(data_name$)
+            endif
+
+            #setCust_id(p_cust_id$)
+            #setOrder_no(p_order_no$)
+            ttl_lot_serial = 0
+            more = 1
+            dim ordlsdet_rec$:#lotSerialTmpl$
+
+            read (#lotSerialDev%, key=#firm_id$+"  "+p_cust_id$+p_order_no$+p_seq_no$, dom=*next)
+
+            while more
+                read record (#lotSerialDev%, end=*break) ordlsdet_rec$
+                if ordlsdet_rec.firm_id$        <> #firm_id$   then break
+                if ordlsdet_rec.customer_id$    <> p_cust_id$  then break
+                if ordlsdet_rec.order_no$       <> p_order_no$ then break
+                if ordlsdet_rec.orddet_seq_ref$ <> p_seq_no$   then break
+
+                ttl_lot_serial = ttl_lot_serial + ordlsdet_rec.qty_ordered
+            wend
+
+            methodret ttl_lot_serial
+
+        methodend
+
+        method public BBjNumber totalLotSerialAmount(BBjString p_seq_no$)
+
+            if #Cust_id$ <> "" and #Order_no$ <> "" then
+                methodret #totalLotSerialAmount(#Cust_id$, #Order_no$, p_seq_no$)
+            else
+                throw #className$+": totalLotSerialAmount(): You must setCust_id() and setOrder_no() before calling this method", 262
+            endif
+
+        methodend
+
+    rem --- Get precision
+
+        method private void getPrecision()
+
+            if #precision% = 0 then
+                data_name$ = "IVS_PARAMS"
+                dim params_rec$:util.getTmpl(data_name$)
+                find record (util.getDev(data_name$), key=#firm_id$+"IV00") params_rec$
+                #precision% = int(num(params_rec.precision$))
+            endif
+
+        methodend
+
+    rem --- Three accessor methods for the return values of totalSalesDisk()
+
+        method public BBjNumber getExtPrice()
+            methodret #extPrice
+        methodend
+
+        method public BBjNumber getTaxable()
+            methodret #taxable
+        methodend
+
+        method public BBjNumber getExtCost()
+            methodret #extCost
+        methodend
+
+    rem --- Clear values for a new order
+
+        method public void newOrder()
+            rem #Cust_id$ = ""; rem save the customer ID so some calcs don't have to be rerun
+            #setOrder_no("")
+            #Inv_type$ = ""
+            #extPrice = 0
+            #taxable = 0
+            #extCost = 0
+            #Freight = 0
+            #Discount = 0
+            #TaxAmount = 0
+        methodend
+
+    rem --- Calculate Tax Amount
+
+        method public BBjNumber calculateTax(BBjNumber p_discount_amt, BBjNumber p_freight_amt, BBjNumber p_taxable)
+
+        rem --- Files
+
+            if #taxcodeDev% = 0 then 
+                data_name$ = "OPC_TAXCODE"
+                #taxcodeDev%  = int(util.getDev(data_name$))
+                #taxcodeTmpl$ = util.getTmpl(data_name$)
+            endif
+
+        rem --- Inits
+
+            if #TaxCode$ = "" then 
+                throw #className$ + ": calculateTax(): #TaxCode is null", 263
+            endif
+
+        rem --- Get taxcode record, if necessary
+
+            dim taxcode_rec$:#taxcodeTmpl$
+            dim taxcode_rec2$:#taxcodeTmpl$
+
+            found = 0
+
+            if #START_BLOCK then
+                find record (#taxcodeDev%, key=#firm_id$+#TaxCode$, err=*endif) taxcode_rec$
+                found = 1
+            endif
+
+            if !found then
+                throw #className$ + ": calculateTax(): tax code """ + #TaxCode$ + """ not found", 11
+            endif
+
+        rem --- Changes to taxable amount
+
+            if #getTaxable() > 0 then
+                taxable_amt = max(#getTaxable() - p_discount_amt, 0)
+            else
+                if #getTaxable() < 0 then
+                    taxable_amt = min(#getTaxable() - p_discount_amt, 0)
+                else
+                    taxable_amt = 0
+                endif
+            endif
+
+        rem --- New taxable amount - jpb
+        
+            if p_taxable > 0 then
+                taxable_amt = max(p_taxable - p_discount_amt, 0)
+            else
+                if p_taxable < 0 then
+                    taxable_amt = min(p_taxable - p_discount_amt, 0)
+                else
+                    taxable_amt = 0
+                endif
+            endif
+            
+            if taxcode_rec.tax_frt_flag$ = "Y" then 
+                taxable_amt = taxable_amt + p_freight_amt
+            endif
+
+            tax_amount = 0
+            tax_calc = round(taxcode_rec.tax_rate * taxable_amt / 100, 2)
+
+            if taxcode_rec.op_max_limit <> 0 and abs(tax_calc) > taxcode_rec.op_max_limit then
+                tax_calc = taxcode_rec.op_max_limit * sgn(tax_calc)
+            endif
+
+            tax_amount = tax_calc
+
+        rem --- Do multi-level taxes
+
+            for i=1 to 10
+                tax_code$ = field(taxcode_rec$, "AR_TOT_CODE_" + str(i:"00"))
+                if cvs(tax_code$,2) = "" then continue
+                find record (#taxcodeDev%, key=firm_id$+tax_code$, dom=*continue) taxcode_rec2$
+                tax_calc = round(taxcode_rec2.tax_rate * taxable_amt / 100, 2)
+
+                if taxcode_rec2.op_max_limit <> 0 and abs(tax_calc) > taxcode_rec2.op_max_limit then
+                    tax_calc = taxcode_rec2.op_max_limit * sgn(tax_calc)
+                endif
+
+                tax_amount = tax_amount + tax_calc
+            next i
+
+            methodret tax_amount
+
+        methodend
+
+        rem /**
+        rem  * Check if this customer is on credit hold or over their credit limit.
+        rem  *
+        rem  * For this customer, sums open invoices and sums past due 
+        rem  * invoices which can be accessed using getTotalAging() and 
+        rem  * getMaxPastDue() methods. It they haven't already been totalled
+        rem  * for this customer, sums open orders, sums backorders, and sums 
+        rem  * held orders which can be accessed using getOpenOrderAmount(), 
+        rem  * getOpenBoAmount() and getHeldOrderAmount() methods. Cust_id$
+        rem  * must be set before calling this method. Setting Order_no$ is
+        rem  * optional.
+        rem  *
+        rem  * @return BBjInt 0 = not over credit limit and not on credit hold
+        rem  *                1 = over credit limit or on credit hold
+        rem  */
+        method public BBjInt calcOverCreditLimit()
+            rem --- get Total Sales Amount for this order
+            this_total_sale = #getOrderTotalSales()
+            
+            rem --- get Terms Code Credit Hold flag for this order
+            termsCreditHold$ = #getTermsCreditHold()
+
+            rem --- get Credit Limit for this customer
+            creditLimit = #getCreditLimit()
+
+            rem --- get Credit Hold flag for this customer
+            creditHold$ = #getCreditHold()
+
+            rem --- get Credit Management Parameters
+            declare HashMap map! 
+            map! = #getCreditManagementParams()
+            wgh$ = cast(BBjString, map!.get("AGING_BUCKET"))
+            agingBucket% = int(num(cast(BBjString, map!.get("AGING_BUCKET"))))
+            pastDueLimit = num(cast(BBjString, map!.get("PAST_DUE_LIM")))
+            holdAmount = num(cast(BBjString, map!.get("HOLD_AMOUNT")))
+            autoHold$ = cast(BBjString, map!.get("AUTO_HOLD"))
+
+            rem --- total open invoices for this customer
+            #totalOpenInvoices(agingBucket%)
+
+            rem --- total open orders for this customer
+            #totalOpenOrders()
+
+            rem --- check credit limit
+            batch$=""
+            batch$=stbl("!batch",err=*next)
+            #OverCreditLimit% = 0
+            #CreditHoldReason$ = "No Credit Problems"
+            aging_and_open = #TotalAging+#OpenOrderAmount+#OpenBoAmount+#HeldOrderAmount
+            
+            if  creditHold$ = "Y" or
+:               termsCreditHold$ = "Y" or            
+:               #MaxPastDue > pastDueLimit or
+:               ( this_total_sale and holdAmount and this_total_sale > holdAmount ) or
+:               ( autoHold$="Y" and creditLimit and aging_and_open > creditLimit )
+:           then
+                #OverCreditLimit% = 1
+                
+                rem --- stbl("!batch")="B" is used in opu_commrel.aon
+                if batch$<>"" then batch$="B"
+
+                if creditHold$ = "Y" then
+                    #CreditHoldReason$ = "Customer is on Credit Hold"
+                else
+                    if termsCreditHold$ = "Y" then
+                        #CreditHoldReason$ = "Credit hold from Terms Code"
+                    else
+                        if #MaxPastDue > pastDueLimit then
+                            #CreditHoldReason$ = "Past Due Amount (" + str(#MaxPastDue) + ") exceeds maximum (" + str(pastDueLimit) + ")"
+                        else
+                            if this_total_sale and holdAmount and this_total_sale > holdAmount then
+                                #CreditHoldReason$ = "This order's amount (" + str(this_total_sale) + ") exceeds the Hold Amount (" + str(holdAmount) + ")"
+                            else
+                                if autoHold$="Y" and creditLimit and aging_and_open > creditLimit then
+                                    #CreditHoldReason$ = "Aging plus Open amount (" + str(aging_and_open) + ") exceeds Credit Limit (" + str(creditLimit) + ")"
+                                endif
+                            endif
+                        endif
+                    endif
+                endif
+            endif
+
+            if batch$<>"" then ignore$=stbl("!batch",batch$)
+
+            methodret #OverCreditLimit%
+        methodend
+
+    rem --- Helper methods for calcOverCreditLimit()
+
+        rem /**
+        rem  * Get Total Sales Amount for this order.
+        rem  *
+        rem  * For this order, returns OPE_ORDHDR.TOTAL_SALES. Set Order_no$
+        rem  * before calling this method.
+        rem  *
+        rem  * @return BBjNumber Total Sales Amount
+        rem  */
+        method public BBjNumber getOrderTotalSales()
+            orderTotalSales = 0
+            
+            rem --- make sure this order has been set
+            if #Order_no$ <> "" then
+                rem --- make sure OPE_ORDHDR is available
+                if #ordHeaderDev% = 0 then
+                    data_name$ = "OPE_ORDHDR"
+                    #ordHeaderDev%  = int(util.getDev(data_name$))
+                    #ordHeaderTmpl$ = util.getTmpl(data_name$)
+                endif
+
+                rem --- get current total sales amount
+                dim ord_head_rec$:#ordHeaderTmpl$
+                find record (#ordHeaderDev%, key=#firm_id$+"  "+#Cust_id$+#Order_no$, dom=*endif) ord_head_rec$
+                orderTotalSales = ord_head_rec.total_sales 
+            endif
+
+            methodret orderTotalSales
+        methodend
+
+        rem /**
+        rem  * Get Terms Code Credit Hold flag for this order.
+        rem  *
+        rem  * For this order, returns ARC_TERMCODE.CRED_HOLD$. Set Order_no$
+        rem  * before calling this method.
+        rem  *
+        rem  * @return BBjString Terms Code Credit Hold flag
+        rem  */
+        method public BBjString getTermsCreditHold()
+            TermsCreditHold$ = ""
+            
+            rem --- make sure this order has been set
+            if #Order_no$ <> "" then
+                rem --- make sure OPE_ORDHDR is available
+                if #ordHeaderDev% = 0 then
+                    data_name$ = "OPE_ORDHDR"
+                    #ordHeaderDev%  = int(util.getDev(data_name$))
+                    #ordHeaderTmpl$ = util.getTmpl(data_name$)
+                endif
+
+                rem --- make sure ARC_TERMCODE is available
+                if #termsCodeDev% = 0 then
+                    data_name$ = "ARC_TERMCODE"
+                    #termsCodeDev%  = int(util.getDev(data_name$))
+                    #termsCodeTmpl$ = util.getTmpl(data_name$)
+                endif
+
+                rem --- get order's terms code
+                dim ord_head_rec$:#ordHeaderTmpl$
+                find record (#ordHeaderDev%, key=#firm_id$+"  "+#Cust_id$+#Order_no$, dom=*endif) ord_head_rec$
+
+                rem --- get Credit Hold flag from terms code's record
+                dim terms_code_rec$:#termsCodeTmpl$
+                find record (#termsCodeDev%, key=#firm_id$+"A"+ord_head_rec.terms_code$, dom=*endif) terms_code_rec$
+                TermsCreditHold$ = terms_code_rec.cred_hold$
+            endif
+
+            methodret TermsCreditHold$
+        methodend
+
+        rem /**
+        rem  * Get Credit Limit for this customer.
+        rem  *
+        rem  * For this customer, returns ARM_CUSTDET.CREDIT_LIMIT. Cust_id$ must
+        rem  * be set before calling this method.
+        rem  *
+        rem  * @return BBjNumber Credit Limit
+        rem  */
+        method public BBjNumber getCreditLimit()
+            rem --- make sure ARM_CUSTDET is available
+            if #custDetailDev% = 0 then
+                data_name$ = "ARM_CUSTDET"
+                #custDetailDev%  = int(util.getDev(data_name$))
+                #custDetailTmpl$ = util.getTmpl(data_name$)
+            endif
+			
+            rem --- get current up to the minute credit info
+            dim cust_det_rec$:#custDetailTmpl$
+            find record (#custDetailDev%, key=#firm_id$+#Cust_id$+"  ") cust_det_rec$
+            methodret cust_det_rec.credit_limit
+        methodend
+
+        rem /**
+        rem  * Get Credit Hold flag for this customer.
+        rem  *
+        rem  * For this customer, returns ARM_CUSTDET.CRED_HOLD. Cust_id$ must
+        rem  * be set before calling this method.
+        rem  *
+        rem  * @return BBjString Credit Hold flag
+        rem  */
+        method public BBjString getCreditHold()
+            rem --- make sure ARM_CUSTDET is available
+            if #custDetailDev% = 0 then
+                data_name$ = "ARM_CUSTDET"
+                #custDetailDev%  = int(util.getDev(data_name$))
+                #custDetailTmpl$ = util.getTmpl(data_name$)
+            endif
+			
+            rem --- get current credit info
+            dim cust_det_rec$:#custDetailTmpl$
+            find record (#custDetailDev%, key=#firm_id$+#Cust_id$+"  ") cust_det_rec$
+            methodret cust_det_rec.cred_hold$
+        methodend
+
+        rem /**
+        rem  * Get Credit Management Parameters for this firm.
+        rem  *
+        rem  * For this firm, returns ARS_CREDIT.AGING_BUCKET, 
+        rem  * ARS_CREDIT.PAST_DUE_LIM, ARS_CREDIT.HOLD_AMOUNT, and 
+        rem  * ARS_CREDIT.AUTO_HOLD in a HashMap. 
+        rem  *
+        rem  * @return HashMap [AGING_BUCKET]
+        rem  *                 [PAST_DUE_LIM]
+        rem  *                 [HOLD_AMOUNT]
+        rem  *                 [AUTO_HOLD]
+        rem  */
+        method public HashMap getCreditManagementParams()
+            declare HashMap map!
+            map! = new HashMap()
+        
+            rem --- make sure ARS_CREDIT is available
+            if #arsCreditDev% = 0 then
+                data_name$ = "ARS_CREDIT"
+                #arsCreditDev%  = int(util.getDev(data_name$))
+                #arsCreditTmpl$ = util.getTmpl(data_name$)
+            endif
+			
+            rem --- get current credit management parameters
+            dim credit_rec$:#arsCreditTmpl$
+            find record (#arsCreditDev%, key=#firm_id$+"AR01") credit_rec$
+            map!.put("AGING_BUCKET", credit_rec.aging_bucket$)
+            map!.put("PAST_DUE_LIM", credit_rec.past_due_lim$)
+            map!.put("HOLD_AMOUNT", credit_rec.hold_amount$)
+            map!.put("AUTO_HOLD", credit_rec.auto_hold$)
+            methodret map!
+        methodend
+
+        rem /**
+        rem  * Total open invoices for this customer.
+        rem  *
+        rem  * For this customer, sums open invoices and sums past due 
+        rem  * invoices from ARM_CUSTDET. Use getTotalAging() and 
+        rem  * getMaxPastDue() methods to retrieve summed amounts. Cust_id$
+        rem  * must be set before calling this method.
+        rem  *
+        rem  * @param BBjInt Aging Bucket to Hold
+        rem  */
+        method public void totalOpenInvoices(BBjInt agingBucket%)
+            rem --- make sure ARM_CUSTDET is available
+            if #custDetailDev% = 0 then
+                data_name$ = "ARM_CUSTDET"
+                #custDetailDev%  = int(util.getDev(data_name$))
+                #custDetailTmpl$ = util.getTmpl(data_name$)
+            endif
+
+            rem --- total open invoices
+            dim cust_det_rec$:#custDetailTmpl$
+            read record (#custDetailDev%, key=#firm_id$+#Cust_id$+"  ") cust_det_rec$
+            #TotalAging = cust_det_rec.aging_future+cust_det_rec.aging_cur+cust_det_rec.aging_30+cust_det_rec.aging_60+cust_det_rec.aging_90+cust_det_rec.aging_120
+
+            rem --- total past due invoices
+            if agingBucket% = 2 then #MaxPastDue = cust_det_rec.aging_30+cust_det_rec.aging_60+cust_det_rec.aging_90+cust_det_rec.aging_120
+            if agingBucket% = 3 then #MaxPastDue = cust_det_rec.aging_60+cust_det_rec.aging_90+cust_det_rec.aging_120
+            if agingBucket% = 4 then #MaxPastDue = cust_det_rec.aging_90+cust_det_rec.aging_120
+            if agingBucket% = 5 then #MaxPastDue = cust_det_rec.aging_120
+        methodend
+
+        rem /**
+        rem  * Total open orders for this customer.
+        rem  *
+        rem  * For this customer, sums open orders, sums backorders, and sums 
+        rem  * held orders from OPE_ORDHDR.TOTAL_SALES if it hasn't already been
+        rem  * done. Use getOpenOrderAmount(), getOpenBoAmount() and 
+        rem  * getHeldOrderAmount() methods to retrieve summed amounts. Cust_id$
+        rem  * must be set before calling this method.
+        rem  */
+        method public void totalOpenOrders()
+            rem --- for performance reasons, skip if open orders previously summed
+            if #OverCreditLimit% = -1 or #ALWAYS_TOTAL_OPEN_ORDERS% then
+                #OpenOrderAmount = 0
+                #OpenBoAmount = 0
+                #HeldOrderAmount = 0
+            
+                rem --- make sure OPE_ORDHDR is available
+                if #ordHeaderDev% = 0 then
+                    data_name$ = "OPE_ORDHDR"
+                    #ordHeaderDev%  = int(util.getDev(data_name$))
+                    #ordHeaderTmpl$ = util.getTmpl(data_name$)
+                endif
+
+                rem --- total current open orders
+                dim ord_head_rec$:#ordHeaderTmpl$
+                read (#ordHeaderDev%, key=#firm_id$+"  "+#Cust_id$, dom=*next)
+                while 1
+                    read record (#ordHeaderDev%, end=*break) ord_head_rec$
+                    if ord_head_rec.firm_id$ <> #firm_id$ or ord_head_rec.customer_id$ <> #Cust_id$ then
+                        break
+                    endif
+
+                    if pos(ord_head_rec.invoice_type$ = "PV") = 0 then 
+                        if ord_head_rec.invoice_type$ = "B" then 
+                            #OpenBoAmount = #OpenBoAmount + ord_head_rec.total_sales 
+                        else 
+                            if ord_head_rec.credit_flag$ = "C" then 
+                                #HeldOrderAmount = #HeldOrderAmount + ord_head_rec.total_sales 
+                            else 
+                                #OpenOrderAmount = #OpenOrderAmount + ord_head_rec.total_sales
+                            endif
+                        endif
+                    endif
+                wend
+            endif
+
+            rem --- reposition OPE_ORDHDR to this order 
+            if #Order_no$ <> "" then
+                read (#ordHeaderDev%, key=#firm_id$+"  "+#Cust_id$+#Order_no$, dom=*endif)
+            endif
+        methodend
+
+        rem /**
+        rem  * Force re-totalling of open orders.
+        rem  *
+        rem  * Forces re-totalling open orders in calcOverCreditLimit() and 
+        rem  * totalOpenOrders() even if #ALWAYS_TOTAL_OPEN_ORDERS% is turned
+        rem  * off in custom code.
+        rem  */
+        method public void forceTotalOpenOrders()
+            #OverCreditLimit% = -1
+        methodend
+
+    rem --- Accessor methods for parameter set by calcOverCreditLimit()
+
+        rem /**
+        rem  * Get credit hold reason for this customer.
+        rem  *
+        rem  * For this customer, returns reason for credit hold. Must execute 
+        rem  * calcOverCreditLimit() before calling this method.
+        rem  *
+        rem  * @return BBjString credit hold reason
+        rem  */
+        method public BBjString getCreditHoldReason()
+            methodret #CreditHoldReason$
+        methodend
+
+        rem /**
+        rem  * Get sum of open invoices for this customer.
+        rem  *
+        rem  * For this customer, returns the sums of open invoices from 
+        rem  * ARM_CUSTDET. Must execute calcOverCreditLimit() or 
+        rem  * totalOpenInvoices() before calling this method.
+        rem  *
+        rem  * @return BBjNumber sum of open invoices
+        rem  */
+        method public BBjNumber getTotalAging()
+            methodret #TotalAging
+        methodend
+
+        rem /**
+        rem  * Get sum of past due invoices for this customer.
+        rem  *
+        rem  * For this customer, returns the sums of past due invoices from 
+        rem  * ARM_CUSTDET. Must execute calcOverCreditLimit() or 
+        rem  * totalOpenInvoices() before calling this method.
+        rem  *
+        rem  * @return BBjNumber sum of past due invoices
+        rem  */
+        method public BBjNumber getMaxPastDue()
+            methodret #MaxPastDue
+        methodend
+
+        rem /**
+        rem  * Get sum of open orders for this customer.
+        rem  *
+        rem  * For this customer, returns the sums of open orders from 
+        rem  * OPE_ORDHDR.TOTAL_SALES. Must execute calcOverCreditLimit() or 
+        rem  * totalOpenOrders() before calling this method.
+        rem  *
+        rem  * @return BBjNumber sum of open orders
+        rem  */
+        method public BBjNumber getOpenOrderAmount()
+            methodret #OpenOrderAmount
+        methodend
+
+        rem /**
+        rem  * Get sum of open backorders for this customer.
+        rem  *
+        rem  * For this customer, returns the sums of open backorders from 
+        rem  * OPE_ORDHDR.TOTAL_SALES. Must execute calcOverCreditLimit() or 
+        rem  * totalOpenOrders() before calling this method.
+        rem  *
+        rem  * @return BBjNumber sum of open backorders
+        rem  */
+        method public BBjNumber getOpenBoAmount()
+            methodret #OpenBoAmount
+        methodend
+
+        rem /**
+        rem  * Get sum of held orders for this customer.
+        rem  *
+        rem  * For this customer, returns the sums of held orders from 
+        rem  * OPE_ORDHDR.TOTAL_SALES. Must execute calcOverCreditLimit() or 
+        rem  * totalOpenOrders() before calling this method.
+        rem  *
+        rem  * @return BBjNumber sum of held orders
+        rem  */
+        method public BBjNumber getHeldOrderAmount()
+            methodret #HeldOrderAmount
+        methodend
+        
+    rem --- Is this item lotted or serialized?
+    
+        method public BBjInt isLottedSerial(BBjString p_item_id$)
+        
+            lotted% = 0
+
+            if cvs(p_item_id$, 2)<>"" and pos(#getLotSerialFlag() = "LS") then 
+                if #itemMastDev% = 0 then
+                    data_name$ = "IVM_ITEMMAST"
+                    #itemMastDev%  = int(util.getDev(data_name$))
+                    #itemMastTmpl$ = util.getTmpl(data_name$)
+                endif
+                
+                dim itemMastRec$:#itemMastTmpl$
+                start_block = 1
+
+                if start_block then
+                    read record (#itemMastDev%, key=#firm_id$+p_item_id$, dom=*endif) itemMastRec$
+
+                    if itemMastRec.lotser_item$="Y" then
+                        lotted% = 1
+                    endif
+                endif
+            endif        
+            
+            methodret lotted%
+        
+        methodend
+        
+    rem --- Get Lotted/Serliazed flag from parameters
+    
+        method public BBjString getLotSerialFlag()
+        
+            if #LotSerialFlag$ <> "" then 
+                methodret #LotSerialFlag$
+            endif
+
+            if #ivsParamsDev% = 0 then
+                data_name$ = "IVS_PARAMS"
+                #ivsParamsDev%  = int(util.getDev(data_name$))
+                #ivsParamsTmpl$ = util.getTmpl(data_name$)
+            endif
+            
+            dim ivsParamsRec$:#ivsParamsTmpl$
+            
+            read record (#ivsParamsDev%, key=firm_id$+"IV00") ivsParamsRec$
+            #LotSerialFlag$ = ivsParamsRec.lotser_flag$
+            
+            methodret #LotSerialFlag$
+        
+        methodend
+
+    classend
+
