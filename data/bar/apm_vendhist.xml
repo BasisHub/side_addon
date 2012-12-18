@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.apm_vendhist">D879CB11C862689876536F5DAEAA40A8</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.apm_vendhist">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.apm_vendhist">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.apm_vendhist">20100611</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.apm_vendhist">20100601</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.apm_vendhist">171630</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.apm_vendhist">20100827</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.apm_vendhist">20100611</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.apm_vendhist">215812</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.apm_vendhist">../apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.apm_vendhist">T</DD_ATTR_FTYP>
 			<DD_ATTR_PTAB id="ddm_tables.apm_vendhist">APM_VENDMAST    </DD_ATTR_PTAB>
@@ -324,6 +324,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.apm_vendhist011">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLY id="ddm_table_cols.apm_vendhist011">+1</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.apm_vendhist011">80</DD_ATTR_CTLW>
+			<DD_ATTR_DRLE id="ddm_table_cols.apm_vendhist011">AP_INVOICES</DD_ATTR_DRLE>
 			<DD_ATTR_GHDR id="ddm_table_cols.apm_vendhist011">Purchase History Inquiry</DD_ATTR_GHDR>
 			<DD_ATTR_MAXL id="ddm_table_cols.apm_vendhist011">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.apm_vendhist011">Open Invoices</DD_ATTR_PROM>
@@ -1161,6 +1162,18 @@
 			<DD_DATA_NAME id="ddm_element_cmts.vendor_id001">VENDOR_ID       </DD_DATA_NAME>
 			<DD_COMM_SEQ id="ddm_element_cmts.vendor_id001">001</DD_COMM_SEQ>
 			<DD_COMM_TEXT id="ddm_element_cmts.vendor_id001">this is a test comment</DD_COMM_TEXT>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_drill_defs">
+		<ID id="ddm_drill_defs">DDM_DRILL_DEFS</ID>
+		<RECORD id="ddm_drill_defs.ap_invoices">
+			<DRILL_DEF_ID id="ddm_drill_defs.ap_invoices">AP_INVOICES     </DRILL_DEF_ID>
+			<DESCRIPTION id="ddm_drill_defs.ap_invoices">Open Invoices</DESCRIPTION>
+			<DD_ATTR_DTAB id="ddm_drill_defs.ap_invoices">APT_INVOICEHDR  </DD_ATTR_DTAB>
+			<DD_ATTR_DKNM id="ddm_drill_defs.ap_invoices">PRIMARY         </DD_ATTR_DKNM>
+			<DD_ATTR_DKEY id="ddm_drill_defs.ap_invoices">[+FIRM_ID]+[AP_TYPE]+[VENDOR_ID]</DD_ATTR_DKEY>
+			<ASC_COMP_ID id="ddm_drill_defs.ap_invoices">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_drill_defs.ap_invoices">AON</ASC_PROD_ID>
 		</RECORD>
 	</ALIAS>
 </APM_VENDHIST>

@@ -14,12 +14,19 @@
 			<ASC_LICENSE_ID id="ddm_tables.arr_ordinvhist">6832202387AB8BF01DAC65F53D011D94</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.arr_ordinvhist">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.arr_ordinvhist">20061115</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.arr_ordinvhist">20100607</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.arr_ordinvhist">20100601</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.arr_ordinvhist">171632</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.arr_ordinvhist">20100908</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.arr_ordinvhist">20100908</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.arr_ordinvhist">221408</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.arr_ordinvhist">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.arr_ordinvhist">[+DIR_PGM]arr_ordinvhist.aon   </DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.arr_ordinvhist">Order or Invoice Inquiry</DD_ATTR_WINT>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_opts">
+		<ID id="ddm_table_opts">DDM_TABLE_OPTS</ID>
+		<RECORD id="ddm_table_opts.arr_ordinvhistx">
+			<DD_TABLE_ALIAS id="ddm_table_opts.arr_ordinvhistx">ARR_ORDINVHIST  </DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.arr_ordinvhistx">X</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_cols">
@@ -66,10 +73,19 @@
 			<DD_DVAR_NAME id="ddm_table_cols.arr_ordinvhist004">BEG_ORD_INV     </DD_DVAR_NAME>
 			<DD_FIELD_DELIM id="ddm_table_cols.arr_ordinvhist004">Y</DD_FIELD_DELIM>
 			<DD_DELIM_CHAR id="ddm_table_cols.arr_ordinvhist004">0A</DD_DELIM_CHAR>
+			<DD_ATTR_CPGM id="ddm_table_cols.arr_ordinvhist004">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.arr_ordinvhist004">56</DD_ATTR_CTLW>
 			<DD_ATTR_LABL id="ddm_table_cols.arr_ordinvhist004">Begin Order/Invoice</DD_ATTR_LABL>
 			<DD_ATTR_MAXL id="ddm_table_cols.arr_ordinvhist004">7</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.arr_ordinvhist004">4</DD_ATTR_TIND>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_column_cpro">
+		<ID id="ddm_column_cpro">DDM_COLUMN_CPRO</ID>
+		<RECORD id="ddm_column_cpro.arr_ordinvhistbeg_ord_invaval">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.arr_ordinvhistbeg_ord_invaval">ARR_ORDINVHIST  </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.arr_ordinvhistbeg_ord_invaval">BEG_ORD_INV     </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.arr_ordinvhistbeg_ord_invaval">AVAL</DD_ATTR_CPRO>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">
