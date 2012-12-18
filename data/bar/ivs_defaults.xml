@@ -17,9 +17,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.ivs_defaults">C6A89C234C7AE0319F4860CB61D21D7E</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ivs_defaults">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ivs_defaults">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ivs_defaults">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivs_defaults">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivs_defaults">141530</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ivs_defaults">20100611</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivs_defaults">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivs_defaults">171630</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ivs_defaults">/dev/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ivs_defaults">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.ivs_defaults">zzzz</DD_ATTR_SLEV>
@@ -473,10 +473,65 @@
 			<DD_DVAR_NAME id="ddm_column_opts.ivs_defaultsrecord_id_do">RECORD_ID_D     </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ivs_defaultsrecord_id_do">O</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.ivs_defaultsproduct_typeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivs_defaultsproduct_typeu">IVS_DEFAULTS    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivs_defaultsproduct_typeu">PRODUCT_TYPE    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivs_defaultsproduct_typeu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivs_defaultsbuyer_codeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivs_defaultsbuyer_codeu">IVS_DEFAULTS    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivs_defaultsbuyer_codeu">BUYER_CODE      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivs_defaultsbuyer_codeu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivs_defaultsitem_classu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivs_defaultsitem_classu">IVS_DEFAULTS    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivs_defaultsitem_classu">ITEM_CLASS      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivs_defaultsitem_classu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.ivs_defaultsstock_levelo">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivs_defaultsstock_levelo">IVS_DEFAULTS    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ivs_defaultsstock_levelo">STOCK_LEVEL     </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ivs_defaultsstock_levelo">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivs_defaultsar_dist_codeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivs_defaultsar_dist_codeu">IVS_DEFAULTS    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivs_defaultsar_dist_codeu">AR_DIST_CODE    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivs_defaultsar_dist_codeu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivs_defaultsitem_typeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivs_defaultsitem_typeu">IVS_DEFAULTS    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivs_defaultsitem_typeu">ITEM_TYPE       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivs_defaultsitem_typeu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivs_defaultsgl_inv_acctu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivs_defaultsgl_inv_acctu">IVS_DEFAULTS    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivs_defaultsgl_inv_acctu">GL_INV_ACCT     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivs_defaultsgl_inv_acctu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivs_defaultsgl_cogs_acctu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivs_defaultsgl_cogs_acctu">IVS_DEFAULTS    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivs_defaultsgl_cogs_acctu">GL_COGS_ACCT    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivs_defaultsgl_cogs_acctu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivs_defaultsgl_inv_adju">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivs_defaultsgl_inv_adju">IVS_DEFAULTS    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivs_defaultsgl_inv_adju">GL_INV_ADJ      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivs_defaultsgl_inv_adju">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivs_defaultsgl_cogs_adju">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivs_defaultsgl_cogs_adju">IVS_DEFAULTS    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivs_defaultsgl_cogs_adju">GL_COGS_ADJ     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivs_defaultsgl_cogs_adju">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivs_defaultsgl_ppv_acctu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivs_defaultsgl_ppv_acctu">IVS_DEFAULTS    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivs_defaultsgl_ppv_acctu">GL_PPV_ACCT     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivs_defaultsgl_ppv_acctu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivs_defaultsgl_pur_acctu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivs_defaultsgl_pur_acctu">IVS_DEFAULTS    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivs_defaultsgl_pur_acctu">GL_PUR_ACCT     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivs_defaultsgl_pur_acctu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

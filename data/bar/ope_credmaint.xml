@@ -18,10 +18,10 @@
 			<ASC_VERSION_ID id="ddm_tables.ope_credmaint">9.0</ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ope_credmaint">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ope_credmaint">20090107</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ope_credmaint">20090911</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ope_credmaint">20090911</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ope_credmaint">220004</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.ope_credmaint">/devel/main/aon/;</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.ope_credmaint">20100615</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ope_credmaint">20100610</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ope_credmaint">215844</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.ope_credmaint">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ope_credmaint">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.ope_credmaint">[+DIR_PGM]adx_dummy.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.ope_credmaint">Credit Maintenance</DD_ATTR_WINT>
@@ -699,6 +699,11 @@
 			<DD_DVAR_NAME id="ddm_column_opts.ope_credmaintcustomer_idc">CUSTOMER_ID     </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ope_credmaintcustomer_idc">C</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.ope_credmaintcustomer_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ope_credmaintcustomer_idu">OPE_CREDMAINT   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ope_credmaintcustomer_idu">CUSTOMER_ID     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ope_credmaintcustomer_idu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.ope_credmaintaddr_line_1c">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ope_credmaintaddr_line_1c">OPE_CREDMAINT   </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ope_credmaintaddr_line_1c">ADDR_LINE_1     </DD_DVAR_NAME>
@@ -779,10 +784,20 @@
 			<DD_DVAR_NAME id="ddm_column_opts.ope_credmaintslspsn_codec">SLSPSN_CODE     </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ope_credmaintslspsn_codec">C</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.ope_credmaintslspsn_codeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ope_credmaintslspsn_codeu">OPE_CREDMAINT   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ope_credmaintslspsn_codeu">SLSPSN_CODE     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ope_credmaintslspsn_codeu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.ope_credmaintar_terms_codec">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ope_credmaintar_terms_codec">OPE_CREDMAINT   </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ope_credmaintar_terms_codec">AR_TERMS_CODE   </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ope_credmaintar_terms_codec">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ope_credmaintar_terms_codeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ope_credmaintar_terms_codeu">OPE_CREDMAINT   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ope_credmaintar_terms_codeu">AR_TERMS_CODE   </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ope_credmaintar_terms_codeu">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.ope_credmaintcred_holdc">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ope_credmaintcred_holdc">OPE_CREDMAINT   </DD_TABLE_ALIAS>

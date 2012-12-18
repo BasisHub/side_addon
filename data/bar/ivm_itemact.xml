@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.ivm_itemact">0AE6BF4570A4AC70D0B5A126034A7075</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ivm_itemact">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ivm_itemact">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ivm_itemact">20100402</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivm_itemact">20100401</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivm_itemact">225750</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ivm_itemact">20100611</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivm_itemact">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivm_itemact">171632</DD_LSTSYNC_TIME>
 			<DD_ATTR_DKNM id="ddm_tables.ivm_itemact">AO_ITM_WH_YR_PER</DD_ATTR_DKNM>
 			<DD_ATTR_FTYP id="ddm_tables.ivm_itemact">G</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.ivm_itemact">zzzz</DD_ATTR_SLEV>
@@ -418,6 +418,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivm_itemactfirm_ido">IVM_ITEMACT     </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ivm_itemactfirm_ido">FIRM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ivm_itemactfirm_ido">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivm_itemactwarehouse_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivm_itemactwarehouse_idu">IVM_ITEMACT     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivm_itemactwarehouse_idu">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivm_itemactwarehouse_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

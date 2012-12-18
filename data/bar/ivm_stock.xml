@@ -16,9 +16,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.ivm_stock">44CFD94BDBB2621192C313A4242B9C29</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ivm_stock">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ivm_stock">20080104</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ivm_stock">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivm_stock">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivm_stock">141534</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ivm_stock">20100610</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivm_stock">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivm_stock">171628</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.ivm_stock">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.ivm_stock">[+DIR_PGM]ivc_popstock.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.ivm_stock">Populate Stocking Info</DD_ATTR_WINT>
@@ -307,6 +307,16 @@
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">
 		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
+		<RECORD id="ddm_column_opts.ivm_stockbuyer_codeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivm_stockbuyer_codeu">IVM_STOCK       </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivm_stockbuyer_codeu">BUYER_CODE      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivm_stockbuyer_codeu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivm_stockvendor_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivm_stockvendor_idu">IVM_STOCK       </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivm_stockvendor_idu">VENDOR_ID       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivm_stockvendor_idu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.ivm_stockitem_ido">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivm_stockitem_ido">IVM_STOCK       </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ivm_stockitem_ido">ITEM_ID         </DD_DVAR_NAME>

@@ -16,9 +16,9 @@
 			<ASC_VERSION_ID id="ddm_tables.sfr_wordmat">9.0</ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.sfr_wordmat">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.sfr_wordmat">20080222</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.sfr_wordmat">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.sfr_wordmat">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.sfr_wordmat">141450</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.sfr_wordmat">20100610</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.sfr_wordmat">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.sfr_wordmat">171632</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.sfr_wordmat">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.sfr_wordmat">[+DIR_PGM]sfr_wordmat.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.sfr_wordmat">Work Order Committed Materials Report</DD_ATTR_WINT>
@@ -96,10 +96,20 @@
 			<DD_DVAR_NAME id="ddm_column_opts.sfr_wordmatwarehouse_id3">WAREHOUSE_ID    </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.sfr_wordmatwarehouse_id3">3</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.sfr_wordmatwarehouse_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_wordmatwarehouse_idu">SFR_WORDMAT     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfr_wordmatwarehouse_idu">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfr_wordmatwarehouse_idu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.sfr_wordmatproduct_type3">
 			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_wordmatproduct_type3">SFR_WORDMAT     </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.sfr_wordmatproduct_type3">PRODUCT_TYPE    </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.sfr_wordmatproduct_type3">3</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sfr_wordmatproduct_typeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_wordmatproduct_typeu">SFR_WORDMAT     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfr_wordmatproduct_typeu">PRODUCT_TYPE    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfr_wordmatproduct_typeu">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.sfr_wordmatfrom_date1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_wordmatfrom_date1">SFR_WORDMAT     </DD_TABLE_ALIAS>

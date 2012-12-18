@@ -14,9 +14,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.aru_cashjournal">9516F7E469DEE253A7F3901744B04E2A</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.aru_cashjournal">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.aru_cashjournal">20070102</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.aru_cashjournal">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.aru_cashjournal">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.aru_cashjournal">141554</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.aru_cashjournal">20100607</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.aru_cashjournal">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.aru_cashjournal">171632</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.aru_cashjournal">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.aru_cashjournal">[+DIR_PGM]aru_cashjournal.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.aru_cashjournal">Monthly Cash Receipts Journal Purge</DD_ATTR_WINT>
@@ -73,6 +73,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.aru_cashjournal004">Y</DD_FIELD_DELIM>
 			<DD_DELIM_CHAR id="ddm_table_cols.aru_cashjournal004">0A</DD_DELIM_CHAR>
 			<DD_ATTR_CTLW id="ddm_table_cols.aru_cashjournal004">35</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.aru_cashjournal004">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.aru_cashjournal004">3</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.aru_cashjournal004">4</DD_ATTR_TIND>
 		</RECORD>
@@ -89,6 +90,11 @@
 			<DD_DVAR_NAME id="ddm_column_opts.aru_cashjournalcustomer_id2">CUSTOMER_ID     </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.aru_cashjournalcustomer_id2">2</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.aru_cashjournalcustomer_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.aru_cashjournalcustomer_idu">ARU_CASHJOURNAL </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.aru_cashjournalcustomer_idu">CUSTOMER_ID     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.aru_cashjournalcustomer_idu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.aru_cashjournalreceipt_date1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.aru_cashjournalreceipt_date1">ARU_CASHJOURNAL </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.aru_cashjournalreceipt_date1">RECEIPT_DATE    </DD_DVAR_NAME>
@@ -98,6 +104,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.aru_cashjournalreceipt_date2">ARU_CASHJOURNAL </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.aru_cashjournalreceipt_date2">RECEIPT_DATE    </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.aru_cashjournalreceipt_date2">2</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.aru_cashjournalcash_rec_cdu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.aru_cashjournalcash_rec_cdu">ARU_CASHJOURNAL </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.aru_cashjournalcash_rec_cdu">CASH_REC_CD     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.aru_cashjournalcash_rec_cdu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

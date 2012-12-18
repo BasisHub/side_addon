@@ -17,9 +17,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.ivs_params">1DDE0BDD04809B06C80AB939BA04213B</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ivs_params">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ivs_params">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ivs_params">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivs_params">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivs_params">141530</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ivs_params">20100611</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivs_params">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivs_params">171628</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ivs_params">[+DIR_CPP]ivs_params_cpt.bbj</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ivs_params">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.ivs_params">zzzz</DD_ATTR_SLEV>
@@ -732,6 +732,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivs_paramsmaster_flago">IVS_PARAMS      </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ivs_paramsmaster_flago">MASTER_FLAG     </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ivs_paramsmaster_flago">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivs_paramswarehouse_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivs_paramswarehouse_idu">IVS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivs_paramswarehouse_idu">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivs_paramswarehouse_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.ivs_paramsitem_masko">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivs_paramsitem_masko">IVS_PARAMS      </DD_TABLE_ALIAS>

@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.apm_vendrepl">85445C4670BD8C98346FA9EDBA066076</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.apm_vendrepl">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.apm_vendrepl">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.apm_vendrepl">20100420</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.apm_vendrepl">20100420</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.apm_vendrepl">223738</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.apm_vendrepl">20100611</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.apm_vendrepl">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.apm_vendrepl">171630</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.apm_vendrepl">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.apm_vendrepl">T</DD_ATTR_FTYP>
 			<DD_ATTR_PTAB id="ddm_tables.apm_vendrepl">APM_VENDMAST    </DD_ATTR_PTAB>
@@ -369,6 +369,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.apm_vendrepl018">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLY id="ddm_table_cols.apm_vendrepl018">+4</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.apm_vendrepl018">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.apm_vendrepl018">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABL id="ddm_table_cols.apm_vendrepl018">Next Year Receipts</DD_ATTR_LABL>
 			<DD_ATTR_MAXL id="ddm_table_cols.apm_vendrepl018">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.apm_vendrepl018">Next Year Receipt Amount</DD_ATTR_PROM>
@@ -386,6 +387,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.apm_vendrepl019">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.apm_vendrepl019">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.apm_vendrepl019">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.apm_vendrepl019">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABL id="ddm_table_cols.apm_vendrepl019">Next Year Rcpt Weight</DD_ATTR_LABL>
 			<DD_ATTR_MAXL id="ddm_table_cols.apm_vendrepl019">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.apm_vendrepl019">Next Year Receipt Lbs</DD_ATTR_PROM>
@@ -403,6 +405,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.apm_vendrepl020">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.apm_vendrepl020">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.apm_vendrepl020">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.apm_vendrepl020">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABL id="ddm_table_cols.apm_vendrepl020">Next Year Rcpt Units</DD_ATTR_LABL>
 			<DD_ATTR_MAXL id="ddm_table_cols.apm_vendrepl020">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.apm_vendrepl020">Next Year Receipt Units</DD_ATTR_PROM>
@@ -448,6 +451,16 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.apm_vendreplvendor_idi">APM_VENDREPL    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.apm_vendreplvendor_idi">VENDOR_ID       </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.apm_vendreplvendor_idi">I</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.apm_vendreplbuyer_codeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.apm_vendreplbuyer_codeu">APM_VENDREPL    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.apm_vendreplbuyer_codeu">BUYER_CODE      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.apm_vendreplbuyer_codeu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.apm_vendreplpurch_addru">
+			<DD_TABLE_ALIAS id="ddm_column_opts.apm_vendreplpurch_addru">APM_VENDREPL    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.apm_vendreplpurch_addru">PURCH_ADDR      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.apm_vendreplpurch_addru">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.apm_vendreplpri_rev_datec">
 			<DD_TABLE_ALIAS id="ddm_column_opts.apm_vendreplpri_rev_datec">APM_VENDREPL    </DD_TABLE_ALIAS>

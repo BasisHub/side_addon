@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.bmm_billmat">46B14A353DD5EC77FA2FA141B846A6D1</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.bmm_billmat">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.bmm_billmat">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.bmm_billmat">20100520</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.bmm_billmat">20100401</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.bmm_billmat">225750</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.bmm_billmat">20100611</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.bmm_billmat">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.bmm_billmat">171630</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.bmm_billmat">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.bmm_billmat">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.bmm_billmat">Materials Detail</DD_ATTR_WINT>
@@ -471,6 +471,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.bmm_billmatfirm_ido">BMM_BILLMAT     </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.bmm_billmatfirm_ido">FIRM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.bmm_billmatfirm_ido">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.bmm_billmatitem_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.bmm_billmatitem_idu">BMM_BILLMAT     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.bmm_billmatitem_idu">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.bmm_billmatitem_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

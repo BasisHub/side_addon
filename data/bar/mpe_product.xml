@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.mpe_product">A07A1C527DBAF9A967B95C564B7D7D75</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.mpe_product">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.mpe_product">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.mpe_product">20100520</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.mpe_product">20090709</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.mpe_product">115936</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.mpe_product">20100611</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.mpe_product">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.mpe_product">171628</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.mpe_product">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.mpe_product">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.mpe_product">Production Forecast Entry</DD_ATTR_WINT>
@@ -207,6 +207,21 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.mpe_productfirm_ido">MPE_PRODUCT     </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.mpe_productfirm_ido">FIRM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.mpe_productfirm_ido">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.mpe_productforecastu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.mpe_productforecastu">MPE_PRODUCT     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.mpe_productforecastu">FORECAST        </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.mpe_productforecastu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.mpe_productwarehouse_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.mpe_productwarehouse_idu">MPE_PRODUCT     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.mpe_productwarehouse_idu">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.mpe_productwarehouse_idu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.mpe_productitem_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.mpe_productitem_idu">MPE_PRODUCT     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.mpe_productitem_idu">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.mpe_productitem_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

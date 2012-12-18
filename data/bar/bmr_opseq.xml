@@ -16,9 +16,9 @@
 			<ASC_VERSION_ID id="ddm_tables.bmr_opseq">9.0</ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.bmr_opseq">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.bmr_opseq">20080215</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.bmr_opseq">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.bmr_opseq">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.bmr_opseq">141550</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.bmr_opseq">20100607</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.bmr_opseq">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.bmr_opseq">171632</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.bmr_opseq">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.bmr_opseq">[+DIR_PGM]bmr_opseq.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.bmr_opseq">Bill of Materials Number</DD_ATTR_WINT>
@@ -65,6 +65,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.bmr_opseqbill_no2">BMR_OPSEQ       </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.bmr_opseqbill_no2">BILL_NO         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.bmr_opseqbill_no2">2</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.bmr_opseqbill_nou">
+			<DD_TABLE_ALIAS id="ddm_column_opts.bmr_opseqbill_nou">BMR_OPSEQ       </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.bmr_opseqbill_nou">BILL_NO         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.bmr_opseqbill_nou">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

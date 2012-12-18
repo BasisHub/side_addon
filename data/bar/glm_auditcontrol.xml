@@ -20,9 +20,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.glm_auditcontrol">66FED3E782AF15A92D54EE5AD69BD3ED</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.glm_auditcontrol">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.glm_auditcontrol">20080321</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.glm_auditcontrol">20100316</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.glm_auditcontrol">20100401</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.glm_auditcontrol">125532</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.glm_auditcontrol">20100611</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.glm_auditcontrol">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.glm_auditcontrol">171630</DD_LSTSYNC_TIME>
 			<DD_ATTR_ATAB id="ddm_tables.glm_auditcontrol">ADM_AUDITCONTROL</DD_ATTR_ATAB>
 			<DD_ATTR_CPGM id="ddm_tables.glm_auditcontrol">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.glm_auditcontrol">T</DD_ATTR_FTYP>
@@ -440,6 +440,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.glm_auditcontrolprocess_programc">GLM_AUDITCONTROL</DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.glm_auditcontrolprocess_programc">PROCESS_PROGRAM </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.glm_auditcontrolprocess_programc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.glm_auditcontroljournal_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.glm_auditcontroljournal_idu">GLM_AUDITCONTROL</DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.glm_auditcontroljournal_idu">JOURNAL_ID      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.glm_auditcontroljournal_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.glm_auditcontrollstuse_datec">
 			<DD_TABLE_ALIAS id="ddm_column_opts.glm_auditcontrollstuse_datec">GLM_AUDITCONTROL</DD_TABLE_ALIAS>

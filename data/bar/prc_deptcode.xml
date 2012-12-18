@@ -14,9 +14,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.prc_deptcode">A881775F5942986E530775FB0EB97FA6</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.prc_deptcode">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.prc_deptcode">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.prc_deptcode">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.prc_deptcode">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.prc_deptcode">141506</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.prc_deptcode">20100611</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.prc_deptcode">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.prc_deptcode">171630</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.prc_deptcode">[+DIR_CPP]prc_deptcode_cpt.bbj</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.prc_deptcode">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.prc_deptcode">zzzz</DD_ATTR_SLEV>
@@ -371,6 +371,26 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.prc_deptcoderecord_id_eo">PRC_DEPTCODE    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.prc_deptcoderecord_id_eo">RECORD_ID_E     </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.prc_deptcoderecord_id_eo">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.prc_deptcodegl_cash_acctu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.prc_deptcodegl_cash_acctu">PRC_DEPTCODE    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.prc_deptcodegl_cash_acctu">GL_CASH_ACCT    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.prc_deptcodegl_cash_acctu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.prc_deptcodegl_accr_acctu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.prc_deptcodegl_accr_acctu">PRC_DEPTCODE    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.prc_deptcodegl_accr_acctu">GL_ACCR_ACCT    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.prc_deptcodegl_accr_acctu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.prc_deptcodepay_codeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.prc_deptcodepay_codeu">PRC_DEPTCODE    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.prc_deptcodepay_codeu">PAY_CODE        </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.prc_deptcodepay_codeu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.prc_deptcodegl_pay_acctu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.prc_deptcodegl_pay_acctu">PRC_DEPTCODE    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.prc_deptcodegl_pay_acctu">GL_PAY_ACCT     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.prc_deptcodegl_pay_acctu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

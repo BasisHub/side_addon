@@ -18,9 +18,9 @@
 			<ASC_VERSION_ID id="ddm_tables.sfr_shpflrdsptch">9.0</ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.sfr_shpflrdsptch">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.sfr_shpflrdsptch">20080319</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.sfr_shpflrdsptch">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.sfr_shpflrdsptch">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.sfr_shpflrdsptch">141450</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.sfr_shpflrdsptch">20100610</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.sfr_shpflrdsptch">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.sfr_shpflrdsptch">171630</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.sfr_shpflrdsptch">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.sfr_shpflrdsptch">[+DIR_PGM]sfr_shpflrdsptch.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.sfr_shpflrdsptch">Shop Floor Dispatch Report</DD_ATTR_WINT>
@@ -193,6 +193,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_shpflrdsptchoper_code3">SFR_SHPFLRDSPTCH</DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.sfr_shpflrdsptchoper_code3">OPER_CODE       </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.sfr_shpflrdsptchoper_code3">3</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sfr_shpflrdsptchoper_codeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_shpflrdsptchoper_codeu">SFR_SHPFLRDSPTCH</DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfr_shpflrdsptchoper_codeu">OPER_CODE       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfr_shpflrdsptchoper_codeu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

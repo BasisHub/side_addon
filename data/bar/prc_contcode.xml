@@ -14,9 +14,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.prc_contcode">E174ED20A2A45AAAE6B1DCE00C24EA0C</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.prc_contcode">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.prc_contcode">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.prc_contcode">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.prc_contcode">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.prc_contcode">141506</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.prc_contcode">20100611</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.prc_contcode">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.prc_contcode">171630</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.prc_contcode">[+DIR_CPP]prc_contcode_cpt.bbj</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.prc_contcode">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.prc_contcode">zzzz</DD_ATTR_SLEV>
@@ -250,7 +250,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.prc_contcode011">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.prc_contcode011">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.prc_contcode011">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.prc_contcode011">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.prc_contcode011">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.prc_contcode011">16</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.prc_contcode012">
 			<DD_TABLE_ALIAS id="ddm_table_cols.prc_contcode012">PRC_CONTCODE    </DD_TABLE_ALIAS>
@@ -359,6 +361,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.prc_contcodecontrib_codek">PRC_CONTCODE    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.prc_contcodecontrib_codek">CONTRIB_CODE    </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.prc_contcodecontrib_codek">K</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.prc_contcodebasis_tot_cdu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.prc_contcodebasis_tot_cdu">PRC_CONTCODE    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.prc_contcodebasis_tot_cdu">BASIS_TOT_CD    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.prc_contcodebasis_tot_cdu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

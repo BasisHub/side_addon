@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.ope_orditem">B41850125D612D5025B9E1246EA03183</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ope_orditem">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ope_orditem">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ope_orditem">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ope_orditem">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ope_orditem">141520</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ope_orditem">20100611</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ope_orditem">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ope_orditem">171630</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.ope_orditem">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.ope_orditem">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.ope_orditem">Open Orders By Item</DD_ATTR_WINT>
@@ -121,7 +121,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ope_orditem001">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ope_orditem001">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ope_orditem001">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ope_orditem001">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ope_orditem001">Firm ID</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ope_orditem001">1</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_orditem002">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_orditem002">OPE_ORDITEM     </DD_TABLE_ALIAS>
@@ -133,7 +135,11 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ope_orditem002">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ope_orditem002">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ope_orditem002">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.ope_orditem002">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.ope_orditem002">0</DD_ATTR_CTLH>
+			<DD_ATTR_MAXL id="ddm_table_cols.ope_orditem002">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ope_orditem002">Warehouse ID</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ope_orditem002">2</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_orditem003">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_orditem003">OPE_ORDITEM     </DD_TABLE_ALIAS>
@@ -145,8 +151,10 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ope_orditem003">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ope_orditem003">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ope_orditem003">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_LABS id="ddm_table_cols.ope_orditem003">Inventory </DD_ATTR_LABS>
+			<DD_ATTR_LABS id="ddm_table_cols.ope_orditem003">Inventory</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_table_cols.ope_orditem003">20</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ope_orditem003">Inventory Item Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ope_orditem003">3</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_orditem004">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_orditem004">OPE_ORDITEM     </DD_TABLE_ALIAS>
@@ -159,7 +167,9 @@
 			<DD_CREATE_DATE id="ddm_table_cols.ope_orditem004">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ope_orditem004">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_LABS id="ddm_table_cols.ope_orditem004">AR Type [N</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_table_cols.ope_orditem004">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ope_orditem004">AR Type [Not Used]</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ope_orditem004">4</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_orditem005">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_orditem005">OPE_ORDITEM     </DD_TABLE_ALIAS>
@@ -171,7 +181,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ope_orditem005">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ope_orditem005">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ope_orditem005">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ope_orditem005">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ope_orditem005">Sales Order Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ope_orditem005">5</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_orditem006">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_orditem006">OPE_ORDITEM     </DD_TABLE_ALIAS>
@@ -183,7 +195,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ope_orditem006">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ope_orditem006">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ope_orditem006">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ope_orditem006">3</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ope_orditem006">Detail Line Item Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ope_orditem006">6</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_orditem007">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_orditem007">OPE_ORDITEM     </DD_TABLE_ALIAS>
@@ -197,7 +211,9 @@
 			<DD_CREATE_DATE id="ddm_table_cols.ope_orditem007">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ope_orditem007">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_LABS id="ddm_table_cols.ope_orditem007">Customer N</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_table_cols.ope_orditem007">6</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ope_orditem007">Customer Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ope_orditem007">7</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">
@@ -206,6 +222,16 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.ope_orditemfirm_ido">OPE_ORDITEM     </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ope_orditemfirm_ido">FIRM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ope_orditemfirm_ido">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ope_orditemwarehouse_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ope_orditemwarehouse_idu">OPE_ORDITEM     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ope_orditemwarehouse_idu">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ope_orditemwarehouse_idu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ope_orditemitem_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ope_orditemitem_idu">OPE_ORDITEM     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ope_orditemitem_idu">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ope_orditemitem_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

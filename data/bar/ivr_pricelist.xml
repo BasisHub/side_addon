@@ -17,9 +17,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.ivr_pricelist">F7CF2A422DD6D15F07F037F343D2B181</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ivr_pricelist">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ivr_pricelist">20070719</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ivr_pricelist">20100514</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivr_pricelist">20100514</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivr_pricelist">222026</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ivr_pricelist">20100610</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivr_pricelist">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivr_pricelist">171630</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ivr_pricelist">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ivr_pricelist">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.ivr_pricelist">[+DIR_PGM]ivr_pricelist.aon </DD_ATTR_PRUN>
@@ -143,6 +143,11 @@
 			<DD_DVAR_NAME id="ddm_column_opts.ivr_pricelistwarehouse_id2">WAREHOUSE_ID    </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ivr_pricelistwarehouse_id2">2</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.ivr_pricelistwarehouse_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_pricelistwarehouse_idu">IVR_PRICELIST   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivr_pricelistwarehouse_idu">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivr_pricelistwarehouse_idu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.ivr_pricelistproduct_type1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_pricelistproduct_type1">IVR_PRICELIST   </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ivr_pricelistproduct_type1">PRODUCT_TYPE    </DD_DVAR_NAME>
@@ -153,6 +158,11 @@
 			<DD_DVAR_NAME id="ddm_column_opts.ivr_pricelistproduct_type2">PRODUCT_TYPE    </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ivr_pricelistproduct_type2">2</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.ivr_pricelistproduct_typeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_pricelistproduct_typeu">IVR_PRICELIST   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivr_pricelistproduct_typeu">PRODUCT_TYPE    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivr_pricelistproduct_typeu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.ivr_pricelistitem_id1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_pricelistitem_id1">IVR_PRICELIST   </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ivr_pricelistitem_id1">ITEM_ID         </DD_DVAR_NAME>
@@ -162,6 +172,16 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_pricelistitem_id2">IVR_PRICELIST   </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ivr_pricelistitem_id2">ITEM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ivr_pricelistitem_id2">2</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivr_pricelistitem_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_pricelistitem_idu">IVR_PRICELIST   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivr_pricelistitem_idu">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivr_pricelistitem_idu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivr_pricelistitem_typeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_pricelistitem_typeu">IVR_PRICELIST   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivr_pricelistitem_typeu">ITEM_TYPE       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivr_pricelistitem_typeu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

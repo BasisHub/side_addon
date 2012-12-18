@@ -16,9 +16,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.ivm_lsitemhist">87B448A7FC0EB77C6091348072C4EA1F</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ivm_lsitemhist">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ivm_lsitemhist">20070707</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ivm_lsitemhist">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivm_lsitemhist">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivm_lsitemhist">141534</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ivm_lsitemhist">20100610</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivm_lsitemhist">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivm_lsitemhist">171630</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.ivm_lsitemhist">S</DD_ATTR_FTYP>
 			<DD_ATTR_WINT id="ddm_tables.ivm_lsitemhist">Lot/Serial Item History Inquiry</DD_ATTR_WINT>
 		</RECORD>
@@ -68,6 +68,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.ivm_lsitemhist003">20070707</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivm_lsitemhist003">20070707</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_lsitemhist003">35</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.ivm_lsitemhist003">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.ivm_lsitemhist003">2</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_lsitemhist003">3</DD_ATTR_TIND>
 		</RECORD>
@@ -81,6 +82,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.ivm_lsitemhist004">20070707</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivm_lsitemhist004">20070707</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_lsitemhist004">160</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.ivm_lsitemhist004">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.ivm_lsitemhist004">20</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_lsitemhist004">4</DD_ATTR_TIND>
 		</RECORD>
@@ -95,6 +97,16 @@
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">
 		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
+		<RECORD id="ddm_column_opts.ivm_lsitemhistitem_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivm_lsitemhistitem_idu">IVM_LSITEMHIST  </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivm_lsitemhistitem_idu">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivm_lsitemhistitem_idu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivm_lsitemhistwarehouse_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivm_lsitemhistwarehouse_idu">IVM_LSITEMHIST  </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivm_lsitemhistwarehouse_idu">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivm_lsitemhistwarehouse_idu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.ivm_lsitemhistlotser_no1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivm_lsitemhistlotser_no1">IVM_LSITEMHIST  </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ivm_lsitemhistlotser_no1">LOTSER_NO       </DD_DVAR_NAME>

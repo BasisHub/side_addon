@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.poc_linecode">CFF8A46A48FEF0EC707032A5D939201C</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.poc_linecode">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.poc_linecode">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.poc_linecode">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.poc_linecode">20090709</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.poc_linecode">115940</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.poc_linecode">20100611</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.poc_linecode">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.poc_linecode">171632</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.poc_linecode">/dev/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.poc_linecode">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.poc_linecode">zzzz</DD_ATTR_SLEV>
@@ -154,6 +154,7 @@
 			<DD_ATTR_ABLC id="ddm_table_cols.poc_linecode005">POC_LINECODE.LINE_TYPE</DD_ATTR_ABLC>
 			<DD_ATTR_ABLV id="ddm_table_cols.poc_linecode005">S;M;N;O</DD_ATTR_ABLV>
 			<DD_ATTR_CTLW id="ddm_table_cols.poc_linecode005">30</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.poc_linecode005">0</DD_ATTR_CTLH>
 			<DD_ATTR_DFLT id="ddm_table_cols.poc_linecode005">N</DD_ATTR_DFLT>
 			<DD_ATTR_LABL id="ddm_table_cols.poc_linecode005">Drop Ship?</DD_ATTR_LABL>
 			<DD_ATTR_MAXL id="ddm_table_cols.poc_linecode005">1</DD_ATTR_MAXL>
@@ -351,6 +352,16 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.poc_linecodeadd_optionsr">POC_LINECODE    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.poc_linecodeadd_optionsr">ADD_OPTIONS     </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.poc_linecodeadd_optionsr">R</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.poc_linecodegl_exp_acctu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poc_linecodegl_exp_acctu">POC_LINECODE    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poc_linecodegl_exp_acctu">GL_EXP_ACCT     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poc_linecodegl_exp_acctu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.poc_linecodegl_ppv_acctu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poc_linecodegl_ppv_acctu">POC_LINECODE    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poc_linecodegl_ppv_acctu">GL_PPV_ACCT     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poc_linecodegl_ppv_acctu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

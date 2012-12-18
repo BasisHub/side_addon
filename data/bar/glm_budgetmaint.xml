@@ -19,9 +19,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.glm_budgetmaint">4F1753C8235988B71FA83CED690E8587</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.glm_budgetmaint">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.glm_budgetmaint">20071129</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.glm_budgetmaint">20100412</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.glm_budgetmaint">20100412</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.glm_budgetmaint">230020</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.glm_budgetmaint">20100610</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.glm_budgetmaint">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.glm_budgetmaint">171632</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.glm_budgetmaint">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.glm_budgetmaint">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.glm_budgetmaint">[+DIR_PGM]adx_dummy.aon</DD_ATTR_PRUN>
@@ -195,6 +195,11 @@
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">
 		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
+		<RECORD id="ddm_column_opts.glm_budgetmaintgl_accountu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.glm_budgetmaintgl_accountu">GLM_BUDGETMAINT </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.glm_budgetmaintgl_accountu">GL_ACCOUNT      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.glm_budgetmaintgl_accountu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.glm_budgetmaintgl_acct_typea">
 			<DD_TABLE_ALIAS id="ddm_column_opts.glm_budgetmaintgl_acct_typea">GLM_BUDGETMAINT </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.glm_budgetmaintgl_acct_typea">GL_ACCT_TYPE    </DD_DVAR_NAME>

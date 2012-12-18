@@ -19,9 +19,9 @@
 			<ASC_VERSION_ID id="ddm_tables.ope_credtick">9.0</ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ope_credtick">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ope_credtick">20090911</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ope_credtick">20090914</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ope_credtick">20090914</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ope_credtick">213432</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ope_credtick">20100610</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ope_credtick">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ope_credtick">171630</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ope_credtick">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ope_credtick">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.ope_credtick">[+DIR_PGM]adx_dummy.aon</DD_ATTR_PRUN>
@@ -119,6 +119,14 @@
 			<DD_TABLE_ALIAS id="ddm_column_cpro.ope_credtickcustomer_idaval">OPE_CREDTICK    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_cpro.ope_credtickcustomer_idaval">CUSTOMER_ID     </DD_DVAR_NAME>
 			<DD_ATTR_CPRO id="ddm_column_cpro.ope_credtickcustomer_idaval">AVAL</DD_ATTR_CPRO>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_column_opts">
+		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
+		<RECORD id="ddm_column_opts.ope_credtickcustomer_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ope_credtickcustomer_idu">OPE_CREDTICK    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ope_credtickcustomer_idu">CUSTOMER_ID     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ope_credtickcustomer_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

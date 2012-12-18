@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.ive_abcitem">9E729DBEC9E4D0BF9A2081B297876570</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ive_abcitem">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ive_abcitem">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ive_abcitem">20100519</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ive_abcitem">20090709</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ive_abcitem">115946</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ive_abcitem">20100611</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ive_abcitem">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ive_abcitem">171632</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.ive_abcitem">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.ive_abcitem">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.ive_abcitem">ABC Analysis By Item</DD_ATTR_WINT>
@@ -234,6 +234,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.ive_abcitemfirm_ido">IVE_ABCITEM     </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ive_abcitemfirm_ido">FIRM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ive_abcitemfirm_ido">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ive_abcitemitem_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ive_abcitemitem_idu">IVE_ABCITEM     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ive_abcitemitem_idu">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ive_abcitemitem_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

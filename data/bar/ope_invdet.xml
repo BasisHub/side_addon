@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.ope_invdet">542B8DFCA2BA161BC1197B18828F0134</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ope_invdet">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ope_invdet">20090501</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ope_invdet">20100520</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ope_invdet">20100415</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ope_invdet">221646</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ope_invdet">20100630</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ope_invdet">20100630</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ope_invdet">165210</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ope_invdet">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_DKNM id="ddm_tables.ope_invdet">AO_CUST_ORD_LN</DD_ATTR_DKNM>
 			<DD_ATTR_FTYP id="ddm_tables.ope_invdet">G</DD_ATTR_FTYP>
@@ -1121,10 +1121,25 @@
 			<DD_DVAR_NAME id="ddm_column_opts.ope_invdetman_pricew">MAN_PRICE       </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ope_invdetman_pricew">W</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.ope_invdetproduct_typeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ope_invdetproduct_typeu">OPE_INVDET      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ope_invdetproduct_typeu">PRODUCT_TYPE    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ope_invdetproduct_typeu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ope_invdetwarehouse_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ope_invdetwarehouse_idu">OPE_INVDET      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ope_invdetwarehouse_idu">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ope_invdetwarehouse_idu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.ope_invdetitem_idv">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ope_invdetitem_idv">OPE_INVDET      </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ope_invdetitem_idv">ITEM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ope_invdetitem_idv">V</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ope_invdetitem_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ope_invdetitem_idu">OPE_INVDET      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ope_invdetitem_idu">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ope_invdetitem_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.ope_invdetcommit_flagg">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ope_invdetcommit_flagg">OPE_INVDET      </DD_TABLE_ALIAS>
@@ -1145,6 +1160,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.ope_invdetvendor_idg">OPE_INVDET      </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ope_invdetvendor_idg">VENDOR_ID       </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ope_invdetvendor_idg">G</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ope_invdetvendor_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ope_invdetvendor_idu">OPE_INVDET      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ope_invdetvendor_idu">VENDOR_ID       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ope_invdetvendor_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.ope_invdetdropshipo">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ope_invdetdropshipo">OPE_INVDET      </DD_TABLE_ALIAS>

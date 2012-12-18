@@ -16,9 +16,9 @@
 			<ASC_VERSION_ID id="ddm_tables.bmr_invcost">9.0</ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.bmr_invcost">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.bmr_invcost">20080220</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.bmr_invcost">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.bmr_invcost">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.bmr_invcost">141552</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.bmr_invcost">20100607</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.bmr_invcost">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.bmr_invcost">171630</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.bmr_invcost">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.bmr_invcost">[+DIR_PGM]bmr_invcost.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.bmr_invcost"> Inventory Costing</DD_ATTR_WINT>
@@ -167,6 +167,11 @@
 			<DD_DVAR_NAME id="ddm_column_opts.bmr_invcostbill_no2">BILL_NO         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.bmr_invcostbill_no2">2</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.bmr_invcostbill_nou">
+			<DD_TABLE_ALIAS id="ddm_column_opts.bmr_invcostbill_nou">BMR_INVCOST     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.bmr_invcostbill_nou">BILL_NO         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.bmr_invcostbill_nou">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.bmr_invcosteffect_date1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.bmr_invcosteffect_date1">BMR_INVCOST     </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.bmr_invcosteffect_date1">EFFECT_DATE     </DD_DVAR_NAME>
@@ -186,6 +191,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.bmr_invcostinclude_comm2">BMR_INVCOST     </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.bmr_invcostinclude_comm2">INCLUDE_COMM    </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.bmr_invcostinclude_comm2">2</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.bmr_invcostwarehouse_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.bmr_invcostwarehouse_idu">BMR_INVCOST     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.bmr_invcostwarehouse_idu">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.bmr_invcostwarehouse_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

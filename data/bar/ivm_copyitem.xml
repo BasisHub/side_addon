@@ -16,9 +16,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.ivm_copyitem">302E926371C550C7BEF4EA78DD8435DA</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ivm_copyitem">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ivm_copyitem">20080113</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ivm_copyitem">20100519</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivm_copyitem">20090709</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivm_copyitem">115936</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ivm_copyitem">20100610</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivm_copyitem">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivm_copyitem">171630</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ivm_copyitem">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ivm_copyitem">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.ivm_copyitem">[+DIR_PGM]ivm_copyitem.aon</DD_ATTR_PRUN>
@@ -124,6 +124,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivm_copyitemold_itemc">IVM_COPYITEM    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ivm_copyitemold_itemc">OLD_ITEM        </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ivm_copyitemold_itemc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivm_copyitemold_itemu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivm_copyitemold_itemu">IVM_COPYITEM    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivm_copyitemold_itemu">OLD_ITEM        </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivm_copyitemold_itemu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

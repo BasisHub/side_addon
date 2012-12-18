@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.poe_linked">043E581917E9775AFCA41FC070492E1F</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.poe_linked">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.poe_linked">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.poe_linked">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.poe_linked">20100401</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.poe_linked">130112</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.poe_linked">20100611</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.poe_linked">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.poe_linked">171630</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.poe_linked">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.poe_linked">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.poe_linked">Purchase Orders Linked to O/P</DD_ATTR_WINT>
@@ -162,7 +162,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_linked001">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_linked001">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_linked001">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_linked001">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_linked001">Firm ID</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_linked001">1</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_linked002">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_linked002">POE_LINKED      </DD_TABLE_ALIAS>
@@ -174,7 +176,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_linked002">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_linked002">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_linked002">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_linked002">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_linked002">Purchase Order Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_linked002">2</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_linked003">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_linked003">POE_LINKED      </DD_TABLE_ALIAS>
@@ -187,7 +191,11 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_linked003">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_linked003">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_linked003">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.poe_linked003">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.poe_linked003">0</DD_ATTR_CTLH>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_linked003">12</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_linked003">Purchase Order Line Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_linked003">3</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_linked004">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_linked004">POE_LINKED      </DD_TABLE_ALIAS>
@@ -200,7 +208,9 @@
 			<DD_CREATE_DATE id="ddm_table_cols.poe_linked004">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_linked004">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_LABS id="ddm_table_cols.poe_linked004">Customer N</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_linked004">6</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_linked004">Customer Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_linked004">4</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_linked005">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_linked005">POE_LINKED      </DD_TABLE_ALIAS>
@@ -212,7 +222,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_linked005">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_linked005">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_linked005">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_linked005">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_linked005">Sales Order Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_linked005">5</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_linked006">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_linked006">POE_LINKED      </DD_TABLE_ALIAS>
@@ -225,7 +237,11 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_linked006">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_linked006">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_linked006">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.poe_linked006">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.poe_linked006">0</DD_ATTR_CTLH>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_linked006">12</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_linked006">Detail Line Item Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_linked006">6</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">
@@ -234,6 +250,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.poe_linkedfirm_ido">POE_LINKED      </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.poe_linkedfirm_ido">FIRM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.poe_linkedfirm_ido">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.poe_linkedcustomer_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poe_linkedcustomer_idu">POE_LINKED      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poe_linkedcustomer_idu">CUSTOMER_ID     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poe_linkedcustomer_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

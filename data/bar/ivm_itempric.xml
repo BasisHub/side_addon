@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.ivm_itempric">E92404A45FCE0334A18ADBC27EBB9FB3</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ivm_itempric">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ivm_itempric">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ivm_itempric">20100519</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivm_itempric">20100119</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivm_itempric">215950</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ivm_itempric">20100611</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivm_itempric">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivm_itempric">171630</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ivm_itempric">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ivm_itempric">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.ivm_itempric">zzzz</DD_ATTR_SLEV>
@@ -724,6 +724,16 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivm_itempricfirm_ido">IVM_ITEMPRIC    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ivm_itempricfirm_ido">FIRM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ivm_itempricfirm_ido">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivm_itempriccustomer_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivm_itempriccustomer_idu">IVM_ITEMPRIC    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivm_itempriccustomer_idu">CUSTOMER_ID     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivm_itempriccustomer_idu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivm_itempricitem_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivm_itempricitem_idu">IVM_ITEMPRIC    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivm_itempricitem_idu">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivm_itempricitem_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.ivm_itempricbreak_qty_01l">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivm_itempricbreak_qty_01l">IVM_ITEMPRIC    </DD_TABLE_ALIAS>

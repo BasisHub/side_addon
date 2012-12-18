@@ -21,9 +21,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.adm_auditcontrol">66FED3E782AF15A92D54EE5AD69BD3ED</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.adm_auditcontrol">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.adm_auditcontrol">20070306</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.adm_auditcontrol">20090723</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.adm_auditcontrol">20100401</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.adm_auditcontrol">130112</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.adm_auditcontrol">20100611</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.adm_auditcontrol">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.adm_auditcontrol">171630</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.adm_auditcontrol">[+DIR_CPP]adm_auditcontrol_cpt.bbj</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.adm_auditcontrol">T</DD_ATTR_FTYP>
 			<DD_ATTR_IKEY id="ddm_tables.adm_auditcontrol">N</DD_ATTR_IKEY>
@@ -419,6 +419,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.adm_auditcontrolprocess_programc">ADM_AUDITCONTROL</DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.adm_auditcontrolprocess_programc">PROCESS_PROGRAM </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.adm_auditcontrolprocess_programc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.adm_auditcontroljournal_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.adm_auditcontroljournal_idu">ADM_AUDITCONTROL</DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.adm_auditcontroljournal_idu">JOURNAL_ID      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.adm_auditcontroljournal_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.adm_auditcontrollstuse_datec">
 			<DD_TABLE_ALIAS id="ddm_column_opts.adm_auditcontrollstuse_datec">ADM_AUDITCONTROL</DD_TABLE_ALIAS>

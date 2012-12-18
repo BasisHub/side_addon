@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.gle_dailydetail">0CAD8D458E49224EE264B3AAC16F151D</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.gle_dailydetail">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.gle_dailydetail">20060630</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.gle_dailydetail">20090723</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.gle_dailydetail">20100331</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.gle_dailydetail">225626</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.gle_dailydetail">20100611</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.gle_dailydetail">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.gle_dailydetail">171632</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.gle_dailydetail">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.gle_dailydetail">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.gle_dailydetail">Account Detail Posting Record</DD_ATTR_WINT>
@@ -232,6 +232,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.gle_dailydetail001">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.gle_dailydetail001">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.gle_dailydetail001">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.gle_dailydetail001">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.gle_dailydetail001">Firm ID</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.gle_dailydetail001">1</DD_ATTR_TIND>
 		</RECORD>
@@ -252,8 +253,8 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.gle_dailydetail002">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.gle_dailydetail002">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.gle_dailydetail002">N</DD_ATTR_MLAN>
-			<DD_ATTR_MINL id="ddm_table_cols.gle_dailydetail002">0</DD_ATTR_MINL>
-			<DD_ATTR_MAXL id="ddm_table_cols.gle_dailydetail002">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXL id="ddm_table_cols.gle_dailydetail002">16</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.gle_dailydetail002">15</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.gle_dailydetail003">
 			<DD_TABLE_ALIAS id="ddm_table_cols.gle_dailydetail003">GLE_DAILYDETAIL </DD_TABLE_ALIAS>
@@ -272,8 +273,8 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.gle_dailydetail003">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.gle_dailydetail003">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.gle_dailydetail003">N</DD_ATTR_MLAN>
-			<DD_ATTR_MINL id="ddm_table_cols.gle_dailydetail003">0</DD_ATTR_MINL>
-			<DD_ATTR_MAXL id="ddm_table_cols.gle_dailydetail003">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXL id="ddm_table_cols.gle_dailydetail003">7</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.gle_dailydetail003">16</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.gle_dailydetail004">
 			<DD_TABLE_ALIAS id="ddm_table_cols.gle_dailydetail004">GLE_DAILYDETAIL </DD_TABLE_ALIAS>
@@ -285,6 +286,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.gle_dailydetail004">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.gle_dailydetail004">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.gle_dailydetail004">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.gle_dailydetail004">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.gle_dailydetail004">0</DD_ATTR_CTLH>
+			<DD_ATTR_MAXL id="ddm_table_cols.gle_dailydetail004">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.gle_dailydetail004">Journal ID Code</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.gle_dailydetail004">2</DD_ATTR_TIND>
 		</RECORD>
@@ -298,6 +302,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.gle_dailydetail005">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.gle_dailydetail005">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.gle_dailydetail005">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.gle_dailydetail005">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.gle_dailydetail005">GL Audit Control Number</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.gle_dailydetail005">3</DD_ATTR_TIND>
 		</RECORD>
@@ -311,6 +316,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.gle_dailydetail006">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.gle_dailydetail006">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.gle_dailydetail006">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.gle_dailydetail006">4</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.gle_dailydetail006">GL Posting Year</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.gle_dailydetail006">5</DD_ATTR_TIND>
 		</RECORD>
@@ -324,6 +330,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.gle_dailydetail007">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.gle_dailydetail007">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.gle_dailydetail007">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.gle_dailydetail007">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.gle_dailydetail007">GL Posting Period</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.gle_dailydetail007">6</DD_ATTR_TIND>
 		</RECORD>
@@ -337,6 +344,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.gle_dailydetail008">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.gle_dailydetail008">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.gle_dailydetail008">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.gle_dailydetail008">8</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.gle_dailydetail008">Transaction Date</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.gle_dailydetail008">7</DD_ATTR_TIND>
 		</RECORD>
@@ -351,6 +359,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.gle_dailydetail009">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.gle_dailydetail009">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_LABS id="ddm_table_cols.gle_dailydetail009">GL Account</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_table_cols.gle_dailydetail009">10</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.gle_dailydetail009">GL Account Number</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.gle_dailydetail009">8</DD_ATTR_TIND>
 		</RECORD>
@@ -365,6 +374,7 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.gle_dailydetail010">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.gle_dailydetail010">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.gle_dailydetail010">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.gle_dailydetail010">5</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.gle_dailydetail010">Sequence Number</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.gle_dailydetail010">4</DD_ATTR_TIND>
 		</RECORD>
@@ -378,6 +388,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.gle_dailydetail011">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.gle_dailydetail011">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.gle_dailydetail011">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.gle_dailydetail011">10</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.gle_dailydetail011">Reference</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.gle_dailydetail011">9</DD_ATTR_TIND>
 		</RECORD>
@@ -391,6 +402,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.gle_dailydetail012">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.gle_dailydetail012">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.gle_dailydetail012">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.gle_dailydetail012">30</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.gle_dailydetail012">Description</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.gle_dailydetail012">10</DD_ATTR_TIND>
 		</RECORD>
@@ -404,6 +416,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.gle_dailydetail013">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.gle_dailydetail013">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.gle_dailydetail013">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.gle_dailydetail013">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.gle_dailydetail013">GL Posting Period</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.gle_dailydetail013">11</DD_ATTR_TIND>
 		</RECORD>
@@ -418,6 +431,7 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.gle_dailydetail014">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.gle_dailydetail014">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.gle_dailydetail014">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.gle_dailydetail014">4</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.gle_dailydetail014">GL Posting Year</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.gle_dailydetail014">12</DD_ATTR_TIND>
 		</RECORD>
@@ -432,7 +446,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.gle_dailydetail015">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.gle_dailydetail015">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.gle_dailydetail015">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.gle_dailydetail015">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.gle_dailydetail015">Reserved For Dealer Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.gle_dailydetail015">17</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.gle_dailydetail016">
 			<DD_TABLE_ALIAS id="ddm_table_cols.gle_dailydetail016">GLE_DAILYDETAIL </DD_TABLE_ALIAS>
@@ -445,6 +461,7 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.gle_dailydetail016">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.gle_dailydetail016">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.gle_dailydetail016">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.gle_dailydetail016">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.gle_dailydetail016">Transaction Amount</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.gle_dailydetail016">13</DD_ATTR_TIND>
 		</RECORD>
@@ -459,6 +476,7 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.gle_dailydetail017">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.gle_dailydetail017">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.gle_dailydetail017">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.gle_dailydetail017">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.gle_dailydetail017">Units</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.gle_dailydetail017">14</DD_ATTR_TIND>
 		</RECORD>
@@ -473,7 +491,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.gle_dailydetail018">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.gle_dailydetail018">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.gle_dailydetail018">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.gle_dailydetail018">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.gle_dailydetail018">Reserved For Dealer Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.gle_dailydetail018">18</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">
@@ -482,6 +502,16 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.gle_dailydetailfirm_ido">GLE_DAILYDETAIL </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.gle_dailydetailfirm_ido">FIRM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.gle_dailydetailfirm_ido">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.gle_dailydetailjournal_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.gle_dailydetailjournal_idu">GLE_DAILYDETAIL </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.gle_dailydetailjournal_idu">JOURNAL_ID      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.gle_dailydetailjournal_idu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.gle_dailydetailgl_accountu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.gle_dailydetailgl_accountu">GLE_DAILYDETAIL </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.gle_dailydetailgl_accountu">GL_ACCOUNT      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.gle_dailydetailgl_accountu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

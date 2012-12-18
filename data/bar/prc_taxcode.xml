@@ -14,9 +14,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.prc_taxcode">90049B3C7BD12E646E226D06380726D9</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.prc_taxcode">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.prc_taxcode">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.prc_taxcode">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.prc_taxcode">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.prc_taxcode">141506</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.prc_taxcode">20100611</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.prc_taxcode">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.prc_taxcode">171628</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.prc_taxcode">[+DIR_CPP]prc_taxcode_cpt.bbj</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.prc_taxcode">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.prc_taxcode">zzzz</DD_ATTR_SLEV>
@@ -324,7 +324,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.prc_taxcode016">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.prc_taxcode016">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.prc_taxcode016">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.prc_taxcode016">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.prc_taxcode016">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.prc_taxcode016">21</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.prc_taxcode017">
 			<DD_TABLE_ALIAS id="ddm_table_cols.prc_taxcode017">PRC_TAXCODE     </DD_TABLE_ALIAS>
@@ -425,6 +427,16 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.prc_taxcodetax_codek">PRC_TAXCODE     </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.prc_taxcodetax_codek">TAX_CODE        </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.prc_taxcodetax_codek">K</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.prc_taxcodebasis_tot_cdu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.prc_taxcodebasis_tot_cdu">PRC_TAXCODE     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.prc_taxcodebasis_tot_cdu">BASIS_TOT_CD    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.prc_taxcodebasis_tot_cdu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.prc_taxcodepr_total_tou">
+			<DD_TABLE_ALIAS id="ddm_column_opts.prc_taxcodepr_total_tou">PRC_TAXCODE     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.prc_taxcodepr_total_tou">PR_TOTAL_TO     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.prc_taxcodepr_total_tou">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

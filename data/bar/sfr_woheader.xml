@@ -16,9 +16,9 @@
 			<ASC_VERSION_ID id="ddm_tables.sfr_woheader">9.0</ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.sfr_woheader">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.sfr_woheader">20080305</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.sfr_woheader">20100225</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.sfr_woheader">20090709</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.sfr_woheader">115940</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.sfr_woheader">20100610</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.sfr_woheader">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.sfr_woheader">171630</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.sfr_woheader">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.sfr_woheader">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.sfr_woheader">[+DIR_PGM]sfr_woheader.aon</DD_ATTR_PRUN>
@@ -286,6 +286,11 @@
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">
 		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
+		<RECORD id="ddm_column_opts.sfr_woheaderwarehouse_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_woheaderwarehouse_idu">SFR_WOHEADER    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfr_woheaderwarehouse_idu">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfr_woheaderwarehouse_idu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.sfr_woheaderwo_no1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_woheaderwo_no1">SFR_WOHEADER    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.sfr_woheaderwo_no1">WO_NO           </DD_DVAR_NAME>
@@ -295,6 +300,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_woheaderwo_no2">SFR_WOHEADER    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.sfr_woheaderwo_no2">WO_NO           </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.sfr_woheaderwo_no2">2</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sfr_woheaderwo_nou">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_woheaderwo_nou">SFR_WOHEADER    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfr_woheaderwo_nou">WO_NO           </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfr_woheaderwo_nou">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.sfr_woheaderwo_type1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_woheaderwo_type1">SFR_WOHEADER    </DD_TABLE_ALIAS>
@@ -306,6 +316,11 @@
 			<DD_DVAR_NAME id="ddm_column_opts.sfr_woheaderwo_type2">WO_TYPE         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.sfr_woheaderwo_type2">2</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.sfr_woheaderwo_typeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_woheaderwo_typeu">SFR_WOHEADER    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfr_woheaderwo_typeu">WO_TYPE         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfr_woheaderwo_typeu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.sfr_woheadercustomer_id1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_woheadercustomer_id1">SFR_WOHEADER    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.sfr_woheadercustomer_id1">CUSTOMER_ID     </DD_DVAR_NAME>
@@ -316,6 +331,11 @@
 			<DD_DVAR_NAME id="ddm_column_opts.sfr_woheadercustomer_id2">CUSTOMER_ID     </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.sfr_woheadercustomer_id2">2</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.sfr_woheadercustomer_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_woheadercustomer_idu">SFR_WOHEADER    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfr_woheadercustomer_idu">CUSTOMER_ID     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfr_woheadercustomer_idu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.sfr_woheaderbill_no1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_woheaderbill_no1">SFR_WOHEADER    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.sfr_woheaderbill_no1">BILL_NO         </DD_DVAR_NAME>
@@ -325,6 +345,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_woheaderbill_no2">SFR_WOHEADER    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.sfr_woheaderbill_no2">BILL_NO         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.sfr_woheaderbill_no2">2</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sfr_woheaderbill_nou">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_woheaderbill_nou">SFR_WOHEADER    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfr_woheaderbill_nou">BILL_NO         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfr_woheaderbill_nou">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

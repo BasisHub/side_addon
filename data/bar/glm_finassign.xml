@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.glm_finassign">396C09A2116884F933A0AC2833C81DE1</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.glm_finassign">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.glm_finassign">20060616</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.glm_finassign">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.glm_finassign">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.glm_finassign">141544</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.glm_finassign">20100611</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.glm_finassign">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.glm_finassign">171632</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.glm_finassign">G</DD_ATTR_FTYP>
 			<DD_ATTR_PTAB id="ddm_tables.glm_finassign">GLM_ACCT        </DD_ATTR_PTAB>
 			<DD_ATTR_SLEV id="ddm_tables.glm_finassign">zzzz</DD_ATTR_SLEV>
@@ -183,15 +183,30 @@
 			<DD_DVAR_NAME id="ddm_column_opts.glm_finassigngl_accountv">GL_ACCOUNT      </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.glm_finassigngl_accountv">V</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.glm_finassigngl_accountu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.glm_finassigngl_accountu">GLM_FINASSIGN   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.glm_finassigngl_accountu">GL_ACCOUNT      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.glm_finassigngl_accountu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.glm_finassigngl_rpt_nov">
 			<DD_TABLE_ALIAS id="ddm_column_opts.glm_finassigngl_rpt_nov">GLM_FINASSIGN   </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.glm_finassigngl_rpt_nov">GL_RPT_NO       </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.glm_finassigngl_rpt_nov">V</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.glm_finassigngl_rpt_nou">
+			<DD_TABLE_ALIAS id="ddm_column_opts.glm_finassigngl_rpt_nou">GLM_FINASSIGN   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.glm_finassigngl_rpt_nou">GL_RPT_NO       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.glm_finassigngl_rpt_nou">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.glm_finassigngl_rpt_linev">
 			<DD_TABLE_ALIAS id="ddm_column_opts.glm_finassigngl_rpt_linev">GLM_FINASSIGN   </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.glm_finassigngl_rpt_linev">GL_RPT_LINE     </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.glm_finassigngl_rpt_linev">V</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.glm_finassigngl_rpt_lineu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.glm_finassigngl_rpt_lineu">GLM_FINASSIGN   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.glm_finassigngl_rpt_lineu">GL_RPT_LINE     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.glm_finassigngl_rpt_lineu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

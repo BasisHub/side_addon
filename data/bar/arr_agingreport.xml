@@ -16,9 +16,9 @@
 			<ASC_VERSION_ID id="ddm_tables.arr_agingreport">9.0</ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.arr_agingreport">AC9AF384B3785DC64DBE62D21C428B3F</ASC_LICENSE_ID>
 			<DD_CREATE_DATE id="ddm_tables.arr_agingreport">20060413</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.arr_agingreport">20091201</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.arr_agingreport">20091201</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.arr_agingreport">222252</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.arr_agingreport">20100604</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.arr_agingreport">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.arr_agingreport">134146</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.arr_agingreport">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.arr_agingreport">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.arr_agingreport">[+DIR_PGM]arr_agingreport.aon</DD_ATTR_PRUN>
@@ -647,6 +647,11 @@
 			<DD_DVAR_NAME id="ddm_column_opts.arr_agingreportcustomer_id2">CUSTOMER_ID     </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.arr_agingreportcustomer_id2">2</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.arr_agingreportcustomer_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.arr_agingreportcustomer_idu">ARR_AGINGREPORT </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.arr_agingreportcustomer_idu">CUSTOMER_ID     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.arr_agingreportcustomer_idu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.arr_agingreportsalesperson1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.arr_agingreportsalesperson1">ARR_AGINGREPORT </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.arr_agingreportsalesperson1">SALESPERSON     </DD_DVAR_NAME>
@@ -656,6 +661,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.arr_agingreportsalesperson2">ARR_AGINGREPORT </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.arr_agingreportsalesperson2">SALESPERSON     </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.arr_agingreportsalesperson2">2</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.arr_agingreportsalespersonu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.arr_agingreportsalespersonu">ARR_AGINGREPORT </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.arr_agingreportsalespersonu">SALESPERSON     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.arr_agingreportsalespersonu">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.arr_agingreportagedate_fut_fromc">
 			<DD_TABLE_ALIAS id="ddm_column_opts.arr_agingreportagedate_fut_fromc">ARR_AGINGREPORT </DD_TABLE_ALIAS>

@@ -16,9 +16,9 @@
 			<ASC_VERSION_ID id="ddm_tables.sfr_wordtrans">9.0</ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.sfr_wordtrans">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.sfr_wordtrans">20080228</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.sfr_wordtrans">20100225</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.sfr_wordtrans">20090709</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.sfr_wordtrans">115948</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.sfr_wordtrans">20100610</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.sfr_wordtrans">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.sfr_wordtrans">171632</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.sfr_wordtrans">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.sfr_wordtrans">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.sfr_wordtrans">[+DIR_PGM]sfr_wordtrans.aon</DD_ATTR_PRUN>
@@ -355,6 +355,11 @@
 			<DD_DVAR_NAME id="ddm_column_opts.sfr_wordtranswarehouse_id2">WAREHOUSE_ID    </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.sfr_wordtranswarehouse_id2">2</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.sfr_wordtranswarehouse_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_wordtranswarehouse_idu">SFR_WORDTRANS   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfr_wordtranswarehouse_idu">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfr_wordtranswarehouse_idu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.sfr_wordtranswo_type1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_wordtranswo_type1">SFR_WORDTRANS   </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.sfr_wordtranswo_type1">WO_TYPE         </DD_DVAR_NAME>
@@ -364,6 +369,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_wordtranswo_type2">SFR_WORDTRANS   </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.sfr_wordtranswo_type2">WO_TYPE         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.sfr_wordtranswo_type2">2</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sfr_wordtranswo_typeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_wordtranswo_typeu">SFR_WORDTRANS   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfr_wordtranswo_typeu">WO_TYPE         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfr_wordtranswo_typeu">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.sfr_wordtranswo_no1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_wordtranswo_no1">SFR_WORDTRANS   </DD_TABLE_ALIAS>
@@ -375,6 +385,11 @@
 			<DD_DVAR_NAME id="ddm_column_opts.sfr_wordtranswo_no2">WO_NO           </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.sfr_wordtranswo_no2">2</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.sfr_wordtranswo_nou">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_wordtranswo_nou">SFR_WORDTRANS   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfr_wordtranswo_nou">WO_NO           </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfr_wordtranswo_nou">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.sfr_wordtranscustomer_id1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_wordtranscustomer_id1">SFR_WORDTRANS   </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.sfr_wordtranscustomer_id1">CUSTOMER_ID     </DD_DVAR_NAME>
@@ -385,6 +400,11 @@
 			<DD_DVAR_NAME id="ddm_column_opts.sfr_wordtranscustomer_id2">CUSTOMER_ID     </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.sfr_wordtranscustomer_id2">2</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.sfr_wordtranscustomer_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_wordtranscustomer_idu">SFR_WORDTRANS   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfr_wordtranscustomer_idu">CUSTOMER_ID     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfr_wordtranscustomer_idu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.sfr_wordtransbill_no1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_wordtransbill_no1">SFR_WORDTRANS   </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.sfr_wordtransbill_no1">BILL_NO         </DD_DVAR_NAME>
@@ -394,6 +414,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_wordtransbill_no2">SFR_WORDTRANS   </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.sfr_wordtransbill_no2">BILL_NO         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.sfr_wordtransbill_no2">2</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sfr_wordtransbill_nou">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_wordtransbill_nou">SFR_WORDTRANS   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfr_wordtransbill_nou">BILL_NO         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfr_wordtransbill_nou">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.sfr_wordtransreport_seq11">
 			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_wordtransreport_seq11">SFR_WORDTRANS   </DD_TABLE_ALIAS>

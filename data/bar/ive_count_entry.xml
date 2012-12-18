@@ -18,9 +18,9 @@
 			<ASC_VERSION_ID id="ddm_tables.ive_count_entry">9.0</ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ive_count_entry">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ive_count_entry">20090304</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ive_count_entry">20100519</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ive_count_entry">20100408</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ive_count_entry">225440</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ive_count_entry">20100610</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ive_count_entry">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ive_count_entry">171628</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ive_count_entry">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ive_count_entry">S</DD_ATTR_FTYP>
 			<DD_ATTR_PCAL id="ddm_tables.ive_count_entry">[+DIR_PGM]adx_dummy.aon</DD_ATTR_PCAL>
@@ -299,6 +299,16 @@
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">
 		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
+		<RECORD id="ddm_column_opts.ive_count_entrywarehouse_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ive_count_entrywarehouse_idu">IVE_COUNT_ENTRY </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ive_count_entrywarehouse_idu">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ive_count_entrywarehouse_idu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ive_count_entrypi_cyclecodeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ive_count_entrypi_cyclecodeu">IVE_COUNT_ENTRY </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ive_count_entrypi_cyclecodeu">PI_CYCLECODE    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ive_count_entrypi_cyclecodeu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.ive_count_entrycutoff_datec">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ive_count_entrycutoff_datec">IVE_COUNT_ENTRY </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ive_count_entrycutoff_datec">CUTOFF_DATE     </DD_DVAR_NAME>
@@ -308,6 +318,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.ive_count_entrylocationc">IVE_COUNT_ENTRY </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ive_count_entrylocationc">LOCATION        </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ive_count_entrylocationc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ive_count_entryitem_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ive_count_entryitem_idu">IVE_COUNT_ENTRY </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ive_count_entryitem_idu">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ive_count_entryitem_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.ive_count_entryfreeze_qtyc">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ive_count_entryfreeze_qtyc">IVE_COUNT_ENTRY </DD_TABLE_ALIAS>

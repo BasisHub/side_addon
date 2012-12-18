@@ -19,9 +19,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.ivm_itemwhse">46A8D21149542FF2287ED5E9A98B817C</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ivm_itemwhse">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ivm_itemwhse">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ivm_itemwhse">20100402</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivm_itemwhse">20100402</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivm_itemwhse">083128</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ivm_itemwhse">20100611</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivm_itemwhse">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivm_itemwhse">171632</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ivm_itemwhse">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_DKNM id="ddm_tables.ivm_itemwhse">AO_ITEM_WH</DD_ATTR_DKNM>
 			<DD_ATTR_FTYP id="ddm_tables.ivm_itemwhse">T</DD_ATTR_FTYP>
@@ -1167,6 +1167,21 @@
 			<DD_DVAR_NAME id="ddm_column_opts.ivm_itemwhsewarehouse_idv">WAREHOUSE_ID    </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ivm_itemwhsewarehouse_idv">V</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.ivm_itemwhsewarehouse_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivm_itemwhsewarehouse_idu">IVM_ITEMWHSE    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivm_itemwhsewarehouse_idu">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivm_itemwhsewarehouse_idu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivm_itemwhsepi_cyclecodeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivm_itemwhsepi_cyclecodeu">IVM_ITEMWHSE    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivm_itemwhsepi_cyclecodeu">PI_CYCLECODE    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivm_itemwhsepi_cyclecodeu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivm_itemwhsear_dist_codeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivm_itemwhsear_dist_codeu">IVM_ITEMWHSE    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivm_itemwhsear_dist_codeu">AR_DIST_CODE    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivm_itemwhsear_dist_codeu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.ivm_itemwhseselect_physc">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivm_itemwhseselect_physc">IVM_ITEMWHSE    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ivm_itemwhseselect_physc">SELECT_PHYS     </DD_DVAR_NAME>
@@ -1182,10 +1197,20 @@
 			<DD_DVAR_NAME id="ddm_column_opts.ivm_itemwhsebuyer_codeg">BUYER_CODE      </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ivm_itemwhsebuyer_codeg">G</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.ivm_itemwhsebuyer_codeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivm_itemwhsebuyer_codeu">IVM_ITEMWHSE    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivm_itemwhsebuyer_codeu">BUYER_CODE      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivm_itemwhsebuyer_codeu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.ivm_itemwhsevendor_idg">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivm_itemwhsevendor_idg">IVM_ITEMWHSE    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ivm_itemwhsevendor_idg">VENDOR_ID       </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ivm_itemwhsevendor_idg">G</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivm_itemwhsevendor_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivm_itemwhsevendor_idu">IVM_ITEMWHSE    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivm_itemwhsevendor_idu">VENDOR_ID       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivm_itemwhsevendor_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.ivm_itemwhsecur_price_cdg">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivm_itemwhsecur_price_cdg">IVM_ITEMWHSE    </DD_TABLE_ALIAS>

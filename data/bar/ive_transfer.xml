@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.ive_transfer">1C8D8E9B77DD1B4EFFDB9BAD84A73775</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ive_transfer">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ive_transfer">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ive_transfer">20100519</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ive_transfer">20100224</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ive_transfer">221436</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ive_transfer">20100623</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ive_transfer">20100611</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ive_transfer">215812</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ive_transfer">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_DKNM id="ddm_tables.ive_transfer">BATCH_KEY</DD_ATTR_DKNM>
 			<DD_ATTR_FTYP id="ddm_tables.ive_transfer">T</DD_ATTR_FTYP>
@@ -510,6 +510,21 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.ive_transferfirm_ido">IVE_TRANSFER    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ive_transferfirm_ido">FIRM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ive_transferfirm_ido">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ive_transferwarehouse_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ive_transferwarehouse_idu">IVE_TRANSFER    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ive_transferwarehouse_idu">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ive_transferwarehouse_idu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ive_transferwarehouse_id_tou">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ive_transferwarehouse_id_tou">IVE_TRANSFER    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ive_transferwarehouse_id_tou">WAREHOUSE_ID_TO </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ive_transferwarehouse_id_tou">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ive_transferitem_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ive_transferitem_idu">IVE_TRANSFER    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ive_transferitem_idu">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ive_transferitem_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.ive_transferext_costc">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ive_transferext_costc">IVE_TRANSFER    </DD_TABLE_ALIAS>

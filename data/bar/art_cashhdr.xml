@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.art_cashhdr">CED2239BADBF9B3F05A1A302C2626628</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.art_cashhdr">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.art_cashhdr">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.art_cashhdr">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.art_cashhdr">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.art_cashhdr">141554</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.art_cashhdr">20100611</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.art_cashhdr">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.art_cashhdr">171632</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.art_cashhdr">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.art_cashhdr">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.art_cashhdr">Cash Receipts History Header</DD_ATTR_WINT>
@@ -159,7 +159,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.art_cashhdr003">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.art_cashhdr003">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.art_cashhdr003">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.art_cashhdr003">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.art_cashhdr003">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.art_cashhdr003">10</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.art_cashhdr004">
 			<DD_TABLE_ALIAS id="ddm_table_cols.art_cashhdr004">ART_CASHHDR     </DD_TABLE_ALIAS>
@@ -204,6 +206,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.art_cashhdr006">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.art_cashhdr006">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.art_cashhdr006">35</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.art_cashhdr006">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.art_cashhdr006">3</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.art_cashhdr006">Cash Receipts Code</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.art_cashhdr006">5</DD_ATTR_TIND>
@@ -233,7 +236,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.art_cashhdr008">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.art_cashhdr008">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.art_cashhdr008">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.art_cashhdr008">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.art_cashhdr008">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.art_cashhdr008">11</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.art_cashhdr009">
 			<DD_TABLE_ALIAS id="ddm_table_cols.art_cashhdr009">ART_CASHHDR     </DD_TABLE_ALIAS>
@@ -262,6 +267,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.art_cashhdr010">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.art_cashhdr010">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.art_cashhdr010">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.art_cashhdr010">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABS id="ddm_table_cols.art_cashhdr010">ABA Number</DD_ATTR_LABS>
 			<DD_ATTR_MAXL id="ddm_table_cols.art_cashhdr010">10</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.art_cashhdr010">ABA Number</DD_ATTR_PROM>
@@ -278,7 +284,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.art_cashhdr011">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.art_cashhdr011">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.art_cashhdr011">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.art_cashhdr011">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.art_cashhdr011">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.art_cashhdr011">12</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.art_cashhdr012">
 			<DD_TABLE_ALIAS id="ddm_table_cols.art_cashhdr012">ART_CASHHDR     </DD_TABLE_ALIAS>
@@ -303,6 +311,16 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.art_cashhdrfirm_ido">ART_CASHHDR     </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.art_cashhdrfirm_ido">FIRM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.art_cashhdrfirm_ido">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.art_cashhdrcustomer_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.art_cashhdrcustomer_idu">ART_CASHHDR     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.art_cashhdrcustomer_idu">CUSTOMER_ID     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.art_cashhdrcustomer_idu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.art_cashhdrcash_rec_cdu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.art_cashhdrcash_rec_cdu">ART_CASHHDR     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.art_cashhdrcash_rec_cdu">CASH_REC_CD     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.art_cashhdrcash_rec_cdu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.ivm_itemmast">6C5023A67CECD2E068F479C37AF5FA89</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ivm_itemmast">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ivm_itemmast">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ivm_itemmast">20100408</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivm_itemmast">20100401</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivm_itemmast">225750</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ivm_itemmast">20100611</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivm_itemmast">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivm_itemmast">171630</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ivm_itemmast">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ivm_itemmast">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.ivm_itemmast">zzzz</DD_ATTR_SLEV>
@@ -1555,6 +1555,11 @@
 			<DD_DVAR_NAME id="ddm_column_opts.ivm_itemmastitem_desco">ITEM_DESC       </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ivm_itemmastitem_desco">O</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.ivm_itemmastproduct_typeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivm_itemmastproduct_typeu">IVM_ITEMMAST    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivm_itemmastproduct_typeu">PRODUCT_TYPE    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivm_itemmastproduct_typeu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.ivm_itemmastbuyer_codeo">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivm_itemmastbuyer_codeo">IVM_ITEMMAST    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ivm_itemmastbuyer_codeo">BUYER_CODE      </DD_DVAR_NAME>
@@ -1564,6 +1569,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivm_itemmastvendor_ido">IVM_ITEMMAST    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ivm_itemmastvendor_ido">VENDOR_ID       </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ivm_itemmastvendor_ido">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivm_itemmastitem_classu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivm_itemmastitem_classu">IVM_ITEMMAST    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivm_itemmastitem_classu">ITEM_CLASS      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivm_itemmastitem_classu">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.ivm_itemmaststock_levelo">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivm_itemmaststock_levelo">IVM_ITEMMAST    </DD_TABLE_ALIAS>
@@ -1589,6 +1599,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivm_itemmastsaf_stk_codeo">IVM_ITEMMAST    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ivm_itemmastsaf_stk_codeo">SAF_STK_CODE    </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ivm_itemmastsaf_stk_codeo">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivm_itemmastitem_typeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivm_itemmastitem_typeu">IVM_ITEMMAST    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivm_itemmastitem_typeu">ITEM_TYPE       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivm_itemmastitem_typeu">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.ivm_itemmastlstrec_dateb">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivm_itemmastlstrec_dateb">IVM_ITEMMAST    </DD_TABLE_ALIAS>
@@ -1634,6 +1649,41 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivm_itemmastalt_sup_flagk">IVM_ITEMMAST    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ivm_itemmastalt_sup_flagk">ALT_SUP_FLAG    </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ivm_itemmastalt_sup_flagk">k</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivm_itemmastalt_sup_itemu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivm_itemmastalt_sup_itemu">IVM_ITEMMAST    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivm_itemmastalt_sup_itemu">ALT_SUP_ITEM    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivm_itemmastalt_sup_itemu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivm_itemmastgl_inv_acctu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivm_itemmastgl_inv_acctu">IVM_ITEMMAST    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivm_itemmastgl_inv_acctu">GL_INV_ACCT     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivm_itemmastgl_inv_acctu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivm_itemmastgl_cogs_acctu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivm_itemmastgl_cogs_acctu">IVM_ITEMMAST    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivm_itemmastgl_cogs_acctu">GL_COGS_ACCT    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivm_itemmastgl_cogs_acctu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivm_itemmastgl_pur_acctu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivm_itemmastgl_pur_acctu">IVM_ITEMMAST    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivm_itemmastgl_pur_acctu">GL_PUR_ACCT     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivm_itemmastgl_pur_acctu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivm_itemmastgl_ppv_acctu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivm_itemmastgl_ppv_acctu">IVM_ITEMMAST    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivm_itemmastgl_ppv_acctu">GL_PPV_ACCT     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivm_itemmastgl_ppv_acctu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivm_itemmastgl_inv_adju">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivm_itemmastgl_inv_adju">IVM_ITEMMAST    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivm_itemmastgl_inv_adju">GL_INV_ADJ      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivm_itemmastgl_inv_adju">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivm_itemmastgl_cogs_adju">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivm_itemmastgl_cogs_adju">IVM_ITEMMAST    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivm_itemmastgl_cogs_adju">GL_COGS_ADJ     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivm_itemmastgl_cogs_adju">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.ivm_itemmastdisplay_descc">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivm_itemmastdisplay_descc">IVM_ITEMMAST    </DD_TABLE_ALIAS>

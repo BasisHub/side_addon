@@ -18,9 +18,9 @@
 			<ASC_VERSION_ID id="ddm_tables.prr_chkprint">9.0</ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.prr_chkprint">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.prr_chkprint">20080619</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.prr_chkprint">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.prr_chkprint">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.prr_chkprint">141504</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.prr_chkprint">20100610</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.prr_chkprint">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.prr_chkprint">171630</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.prr_chkprint">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.prr_chkprint">[+DIR_PGM]prr_chkprint.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.prr_chkprint">Payroll Check Printing</DD_ATTR_WINT>
@@ -144,6 +144,14 @@
 			<DD_ATTR_SEQ id="ddm_column_ldat.prr_chkprintreport_option04">04</DD_ATTR_SEQ>
 			<DD_ATTR_LDAT id="ddm_column_ldat.prr_chkprintreport_option04">M</DD_ATTR_LDAT>
 			<DD_ATTR_LDAT_DS id="ddm_column_ldat.prr_chkprintreport_option04">Manual/Void Only</DD_ATTR_LDAT_DS>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_column_opts">
+		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
+		<RECORD id="ddm_column_opts.prr_chkprintemployee_nou">
+			<DD_TABLE_ALIAS id="ddm_column_opts.prr_chkprintemployee_nou">PRR_CHKPRINT    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.prr_chkprintemployee_nou">EMPLOYEE_NO     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.prr_chkprintemployee_nou">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

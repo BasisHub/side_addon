@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.are_cashgl">396B2A9EECEBA8C36B25A33D58BD13EE</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.are_cashgl">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.are_cashgl">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.are_cashgl">20091013</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.are_cashgl">20090811</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.are_cashgl">162744</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.are_cashgl">20100611</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.are_cashgl">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.are_cashgl">171630</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.are_cashgl">../apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.are_cashgl">G</DD_ATTR_FTYP>
 			<DD_ATTR_PTAB id="ddm_tables.are_cashgl">ARE_CASHHDR     </DD_ATTR_PTAB>
@@ -360,10 +360,20 @@
 			<DD_DVAR_NAME id="ddm_column_opts.are_cashglcustomer_idg">CUSTOMER_ID     </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.are_cashglcustomer_idg">G</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.are_cashglcustomer_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.are_cashglcustomer_idu">ARE_CASHGL      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.are_cashglcustomer_idu">CUSTOMER_ID     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.are_cashglcustomer_idu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.are_cashglcash_rec_cdg">
 			<DD_TABLE_ALIAS id="ddm_column_opts.are_cashglcash_rec_cdg">ARE_CASHGL      </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.are_cashglcash_rec_cdg">CASH_REC_CD     </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.are_cashglcash_rec_cdg">G</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.are_cashglcash_rec_cdu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.are_cashglcash_rec_cdu">ARE_CASHGL      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.are_cashglcash_rec_cdu">CASH_REC_CD     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.are_cashglcash_rec_cdu">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.are_cashglar_check_nog">
 			<DD_TABLE_ALIAS id="ddm_column_opts.are_cashglar_check_nog">ARE_CASHGL      </DD_TABLE_ALIAS>
@@ -374,6 +384,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.are_cashglgl_accountv">ARE_CASHGL      </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.are_cashglgl_accountv">GL_ACCOUNT      </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.are_cashglgl_accountv">V</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.are_cashglgl_accountu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.are_cashglgl_accountu">ARE_CASHGL      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.are_cashglgl_accountu">GL_ACCOUNT      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.are_cashglgl_accountu">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.are_cashglbatch_noo">
 			<DD_TABLE_ALIAS id="ddm_column_opts.are_cashglbatch_noo">ARE_CASHGL      </DD_TABLE_ALIAS>

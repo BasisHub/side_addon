@@ -19,9 +19,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.sam_nonstock">5E19140CE15E6F558978796C9E5FCCD6</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.sam_nonstock">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.sam_nonstock">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.sam_nonstock">20100519</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.sam_nonstock">20100304</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.sam_nonstock">222656</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.sam_nonstock">20100609</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.sam_nonstock">20100609</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.sam_nonstock">225638</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.sam_nonstock">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.sam_nonstock">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.sam_nonstock">zzzz</DD_ATTR_SLEV>
@@ -83,6 +83,33 @@
 			<DD_ATTR_CTLX id="ddm_table_labl.sam_nonstock003">+9</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_labl.sam_nonstock003">-14</DD_ATTR_CTLY>
 			<DD_ATTR_TIND id="ddm_table_labl.sam_nonstock003">7</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_labl.sam_nonstock004">
+			<DD_TABLE_ALIAS id="ddm_table_labl.sam_nonstock004">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_labl.sam_nonstock004">004</DD_SEQUENCE>
+			<DD_CTRL_NAME id="ddm_table_labl.sam_nonstock004">LYUNIT          </DD_CTRL_NAME>
+			<DD_ATTR_LABL id="ddm_table_labl.sam_nonstock004">Prior Year Units</DD_ATTR_LABL>
+			<DD_ATTR_CTLX id="ddm_table_labl.sam_nonstock004">+9</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_labl.sam_nonstock004">-15</DD_ATTR_CTLY>
+			<DD_ATTR_TIND id="ddm_table_labl.sam_nonstock004">14</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_labl.sam_nonstock005">
+			<DD_TABLE_ALIAS id="ddm_table_labl.sam_nonstock005">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_labl.sam_nonstock005">005</DD_SEQUENCE>
+			<DD_CTRL_NAME id="ddm_table_labl.sam_nonstock005">LYCOST          </DD_CTRL_NAME>
+			<DD_ATTR_LABL id="ddm_table_labl.sam_nonstock005">Prior Year Cost</DD_ATTR_LABL>
+			<DD_ATTR_CTLX id="ddm_table_labl.sam_nonstock005">+9</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_labl.sam_nonstock005">-15</DD_ATTR_CTLY>
+			<DD_ATTR_TIND id="ddm_table_labl.sam_nonstock005">29</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_labl.sam_nonstock006">
+			<DD_TABLE_ALIAS id="ddm_table_labl.sam_nonstock006">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_labl.sam_nonstock006">006</DD_SEQUENCE>
+			<DD_CTRL_NAME id="ddm_table_labl.sam_nonstock006">LYSLS           </DD_CTRL_NAME>
+			<DD_ATTR_LABL id="ddm_table_labl.sam_nonstock006">Prior Year Sales</DD_ATTR_LABL>
+			<DD_ATTR_CTLX id="ddm_table_labl.sam_nonstock006">+9</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_labl.sam_nonstock006">-15</DD_ATTR_CTLY>
+			<DD_ATTR_TIND id="ddm_table_labl.sam_nonstock006">44</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_opts">
@@ -303,6 +330,468 @@
 			<DD_ATTR_CTLW id="ddm_table_disp.sam_nonstock003">80</DD_ATTR_CTLW>
 			<DD_ATTR_TIND id="ddm_table_disp.sam_nonstock003">13</DD_ATTR_TIND>
 		</RECORD>
+		<RECORD id="ddm_table_disp.sam_nonstock004">
+			<DD_TABLE_ALIAS id="ddm_table_disp.sam_nonstock004">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.sam_nonstock004">004</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.sam_nonstock004">QTY_SHIPPED     </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.sam_nonstock004">LY_SHIP_01      </DD_CTRL_NAME>
+			<DD_ATTR_CTLX id="ddm_table_disp.sam_nonstock004">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.sam_nonstock004">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.sam_nonstock004">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.sam_nonstock004">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.sam_nonstock004">15</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.sam_nonstock005">
+			<DD_TABLE_ALIAS id="ddm_table_disp.sam_nonstock005">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.sam_nonstock005">005</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.sam_nonstock005">QTY_SHIPPED     </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.sam_nonstock005">LY_SHIP_02      </DD_CTRL_NAME>
+			<DD_ATTR_CTLX id="ddm_table_disp.sam_nonstock005">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.sam_nonstock005">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.sam_nonstock005">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.sam_nonstock005">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.sam_nonstock005">16</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.sam_nonstock006">
+			<DD_TABLE_ALIAS id="ddm_table_disp.sam_nonstock006">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.sam_nonstock006">006</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.sam_nonstock006">QTY_SHIPPED     </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.sam_nonstock006">LY_SHIP_03      </DD_CTRL_NAME>
+			<DD_ATTR_CTLX id="ddm_table_disp.sam_nonstock006">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.sam_nonstock006">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.sam_nonstock006">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.sam_nonstock006">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.sam_nonstock006">17</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.sam_nonstock007">
+			<DD_TABLE_ALIAS id="ddm_table_disp.sam_nonstock007">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.sam_nonstock007">007</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.sam_nonstock007">QTY_SHIPPED     </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.sam_nonstock007">LY_SHIP_04      </DD_CTRL_NAME>
+			<DD_ATTR_CTLX id="ddm_table_disp.sam_nonstock007">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.sam_nonstock007">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.sam_nonstock007">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.sam_nonstock007">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.sam_nonstock007">18</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.sam_nonstock008">
+			<DD_TABLE_ALIAS id="ddm_table_disp.sam_nonstock008">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.sam_nonstock008">008</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.sam_nonstock008">QTY_SHIPPED     </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.sam_nonstock008">LY_SHIP_05      </DD_CTRL_NAME>
+			<DD_ATTR_CTLX id="ddm_table_disp.sam_nonstock008">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.sam_nonstock008">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.sam_nonstock008">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.sam_nonstock008">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.sam_nonstock008">19</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.sam_nonstock009">
+			<DD_TABLE_ALIAS id="ddm_table_disp.sam_nonstock009">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.sam_nonstock009">009</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.sam_nonstock009">QTY_SHIPPED     </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.sam_nonstock009">LY_SHIP_06      </DD_CTRL_NAME>
+			<DD_ATTR_CTLX id="ddm_table_disp.sam_nonstock009">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.sam_nonstock009">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.sam_nonstock009">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.sam_nonstock009">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.sam_nonstock009">20</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.sam_nonstock010">
+			<DD_TABLE_ALIAS id="ddm_table_disp.sam_nonstock010">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.sam_nonstock010">010</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.sam_nonstock010">QTY_SHIPPED     </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.sam_nonstock010">LY_SHIP_07      </DD_CTRL_NAME>
+			<DD_ATTR_CTLX id="ddm_table_disp.sam_nonstock010">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.sam_nonstock010">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.sam_nonstock010">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.sam_nonstock010">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.sam_nonstock010">21</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.sam_nonstock011">
+			<DD_TABLE_ALIAS id="ddm_table_disp.sam_nonstock011">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.sam_nonstock011">011</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.sam_nonstock011">QTY_SHIPPED     </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.sam_nonstock011">LY_SHIP_08      </DD_CTRL_NAME>
+			<DD_ATTR_CTLX id="ddm_table_disp.sam_nonstock011">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.sam_nonstock011">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.sam_nonstock011">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.sam_nonstock011">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.sam_nonstock011">22</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.sam_nonstock012">
+			<DD_TABLE_ALIAS id="ddm_table_disp.sam_nonstock012">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.sam_nonstock012">012</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.sam_nonstock012">QTY_SHIPPED     </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.sam_nonstock012">LY_SHIP_09      </DD_CTRL_NAME>
+			<DD_ATTR_CTLX id="ddm_table_disp.sam_nonstock012">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.sam_nonstock012">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.sam_nonstock012">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.sam_nonstock012">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.sam_nonstock012">23</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.sam_nonstock013">
+			<DD_TABLE_ALIAS id="ddm_table_disp.sam_nonstock013">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.sam_nonstock013">013</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.sam_nonstock013">QTY_SHIPPED     </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.sam_nonstock013">LY_SHIP_10      </DD_CTRL_NAME>
+			<DD_ATTR_CTLX id="ddm_table_disp.sam_nonstock013">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.sam_nonstock013">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.sam_nonstock013">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.sam_nonstock013">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.sam_nonstock013">24</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.sam_nonstock014">
+			<DD_TABLE_ALIAS id="ddm_table_disp.sam_nonstock014">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.sam_nonstock014">014</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.sam_nonstock014">QTY_SHIPPED     </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.sam_nonstock014">LY_SHIP_11      </DD_CTRL_NAME>
+			<DD_ATTR_CTLX id="ddm_table_disp.sam_nonstock014">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.sam_nonstock014">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.sam_nonstock014">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.sam_nonstock014">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.sam_nonstock014">25</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.sam_nonstock015">
+			<DD_TABLE_ALIAS id="ddm_table_disp.sam_nonstock015">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.sam_nonstock015">015</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.sam_nonstock015">QTY_SHIPPED     </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.sam_nonstock015">LY_SHIP_12      </DD_CTRL_NAME>
+			<DD_ATTR_CTLX id="ddm_table_disp.sam_nonstock015">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.sam_nonstock015">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.sam_nonstock015">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.sam_nonstock015">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.sam_nonstock015">26</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.sam_nonstock016">
+			<DD_TABLE_ALIAS id="ddm_table_disp.sam_nonstock016">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.sam_nonstock016">016</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.sam_nonstock016">QTY_SHIPPED     </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.sam_nonstock016">LY_SHIP_13      </DD_CTRL_NAME>
+			<DD_ATTR_CTLX id="ddm_table_disp.sam_nonstock016">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.sam_nonstock016">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.sam_nonstock016">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.sam_nonstock016">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.sam_nonstock016">27</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.sam_nonstock017">
+			<DD_TABLE_ALIAS id="ddm_table_disp.sam_nonstock017">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.sam_nonstock017">017</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.sam_nonstock017">QTY_SHIPPED     </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.sam_nonstock017">LY_SHIP_TOT     </DD_CTRL_NAME>
+			<DD_ATTR_CTLX id="ddm_table_disp.sam_nonstock017">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.sam_nonstock017">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.sam_nonstock017">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.sam_nonstock017">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.sam_nonstock017">28</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.sam_nonstock018">
+			<DD_TABLE_ALIAS id="ddm_table_disp.sam_nonstock018">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.sam_nonstock018">018</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.sam_nonstock018">TOTAL_COST      </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.sam_nonstock018">LY_COST_01      </DD_CTRL_NAME>
+			<DD_ATTR_CTLX id="ddm_table_disp.sam_nonstock018">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.sam_nonstock018">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.sam_nonstock018">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.sam_nonstock018">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.sam_nonstock018">30</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.sam_nonstock019">
+			<DD_TABLE_ALIAS id="ddm_table_disp.sam_nonstock019">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.sam_nonstock019">019</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.sam_nonstock019">TOTAL_COST      </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.sam_nonstock019">LY_COST_02      </DD_CTRL_NAME>
+			<DD_ATTR_CTLX id="ddm_table_disp.sam_nonstock019">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.sam_nonstock019">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.sam_nonstock019">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.sam_nonstock019">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.sam_nonstock019">31</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.sam_nonstock020">
+			<DD_TABLE_ALIAS id="ddm_table_disp.sam_nonstock020">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.sam_nonstock020">020</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.sam_nonstock020">TOTAL_COST      </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.sam_nonstock020">LY_COST_03      </DD_CTRL_NAME>
+			<DD_ATTR_CTLX id="ddm_table_disp.sam_nonstock020">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.sam_nonstock020">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.sam_nonstock020">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.sam_nonstock020">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.sam_nonstock020">32</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.sam_nonstock021">
+			<DD_TABLE_ALIAS id="ddm_table_disp.sam_nonstock021">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.sam_nonstock021">021</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.sam_nonstock021">TOTAL_COST      </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.sam_nonstock021">LY_COST_04      </DD_CTRL_NAME>
+			<DD_ATTR_CTLX id="ddm_table_disp.sam_nonstock021">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.sam_nonstock021">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.sam_nonstock021">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.sam_nonstock021">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.sam_nonstock021">33</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.sam_nonstock022">
+			<DD_TABLE_ALIAS id="ddm_table_disp.sam_nonstock022">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.sam_nonstock022">022</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.sam_nonstock022">TOTAL_COST      </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.sam_nonstock022">LY_COST_05      </DD_CTRL_NAME>
+			<DD_ATTR_CTLX id="ddm_table_disp.sam_nonstock022">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.sam_nonstock022">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.sam_nonstock022">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.sam_nonstock022">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.sam_nonstock022">34</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.sam_nonstock023">
+			<DD_TABLE_ALIAS id="ddm_table_disp.sam_nonstock023">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.sam_nonstock023">023</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.sam_nonstock023">TOTAL_COST      </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.sam_nonstock023">LY_COST_06      </DD_CTRL_NAME>
+			<DD_ATTR_CTLX id="ddm_table_disp.sam_nonstock023">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.sam_nonstock023">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.sam_nonstock023">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.sam_nonstock023">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.sam_nonstock023">35</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.sam_nonstock024">
+			<DD_TABLE_ALIAS id="ddm_table_disp.sam_nonstock024">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.sam_nonstock024">024</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.sam_nonstock024">TOTAL_COST      </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.sam_nonstock024">LY_COST_07      </DD_CTRL_NAME>
+			<DD_ATTR_CTLX id="ddm_table_disp.sam_nonstock024">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.sam_nonstock024">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.sam_nonstock024">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.sam_nonstock024">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.sam_nonstock024">36</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.sam_nonstock025">
+			<DD_TABLE_ALIAS id="ddm_table_disp.sam_nonstock025">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.sam_nonstock025">025</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.sam_nonstock025">TOTAL_COST      </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.sam_nonstock025">LY_COST_08      </DD_CTRL_NAME>
+			<DD_ATTR_CTLX id="ddm_table_disp.sam_nonstock025">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.sam_nonstock025">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.sam_nonstock025">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.sam_nonstock025">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.sam_nonstock025">37</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.sam_nonstock026">
+			<DD_TABLE_ALIAS id="ddm_table_disp.sam_nonstock026">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.sam_nonstock026">026</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.sam_nonstock026">TOTAL_COST      </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.sam_nonstock026">LY_COST_09      </DD_CTRL_NAME>
+			<DD_ATTR_CTLX id="ddm_table_disp.sam_nonstock026">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.sam_nonstock026">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.sam_nonstock026">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.sam_nonstock026">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.sam_nonstock026">38</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.sam_nonstock027">
+			<DD_TABLE_ALIAS id="ddm_table_disp.sam_nonstock027">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.sam_nonstock027">027</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.sam_nonstock027">TOTAL_COST      </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.sam_nonstock027">LY_COST_10      </DD_CTRL_NAME>
+			<DD_ATTR_CTLX id="ddm_table_disp.sam_nonstock027">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.sam_nonstock027">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.sam_nonstock027">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.sam_nonstock027">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.sam_nonstock027">39</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.sam_nonstock028">
+			<DD_TABLE_ALIAS id="ddm_table_disp.sam_nonstock028">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.sam_nonstock028">028</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.sam_nonstock028">TOTAL_COST      </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.sam_nonstock028">LY_COST_11      </DD_CTRL_NAME>
+			<DD_ATTR_CTLX id="ddm_table_disp.sam_nonstock028">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.sam_nonstock028">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.sam_nonstock028">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.sam_nonstock028">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.sam_nonstock028">40</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.sam_nonstock029">
+			<DD_TABLE_ALIAS id="ddm_table_disp.sam_nonstock029">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.sam_nonstock029">029</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.sam_nonstock029">TOTAL_COST      </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.sam_nonstock029">LY_COST_12      </DD_CTRL_NAME>
+			<DD_ATTR_CTLX id="ddm_table_disp.sam_nonstock029">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.sam_nonstock029">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.sam_nonstock029">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.sam_nonstock029">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.sam_nonstock029">41</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.sam_nonstock030">
+			<DD_TABLE_ALIAS id="ddm_table_disp.sam_nonstock030">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.sam_nonstock030">030</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.sam_nonstock030">TOTAL_COST      </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.sam_nonstock030">LY_COST_13      </DD_CTRL_NAME>
+			<DD_ATTR_CTLX id="ddm_table_disp.sam_nonstock030">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.sam_nonstock030">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.sam_nonstock030">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.sam_nonstock030">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.sam_nonstock030">42</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.sam_nonstock031">
+			<DD_TABLE_ALIAS id="ddm_table_disp.sam_nonstock031">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.sam_nonstock031">031</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.sam_nonstock031">TOTAL_COST      </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.sam_nonstock031">LY_COST_TOT     </DD_CTRL_NAME>
+			<DD_ATTR_CTLX id="ddm_table_disp.sam_nonstock031">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.sam_nonstock031">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.sam_nonstock031">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.sam_nonstock031">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.sam_nonstock031">43</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.sam_nonstock032">
+			<DD_TABLE_ALIAS id="ddm_table_disp.sam_nonstock032">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.sam_nonstock032">032</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.sam_nonstock032">TOTAL_SALES     </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.sam_nonstock032">LY_SALES_01     </DD_CTRL_NAME>
+			<DD_ATTR_CTLX id="ddm_table_disp.sam_nonstock032">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.sam_nonstock032">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.sam_nonstock032">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.sam_nonstock032">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.sam_nonstock032">45</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.sam_nonstock033">
+			<DD_TABLE_ALIAS id="ddm_table_disp.sam_nonstock033">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.sam_nonstock033">033</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.sam_nonstock033">TOTAL_SALES     </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.sam_nonstock033">LY_SALES_02     </DD_CTRL_NAME>
+			<DD_ATTR_CTLX id="ddm_table_disp.sam_nonstock033">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.sam_nonstock033">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.sam_nonstock033">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.sam_nonstock033">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.sam_nonstock033">46</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.sam_nonstock034">
+			<DD_TABLE_ALIAS id="ddm_table_disp.sam_nonstock034">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.sam_nonstock034">034</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.sam_nonstock034">TOTAL_SALES     </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.sam_nonstock034">LY_SALES_03     </DD_CTRL_NAME>
+			<DD_ATTR_CTLX id="ddm_table_disp.sam_nonstock034">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.sam_nonstock034">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.sam_nonstock034">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.sam_nonstock034">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.sam_nonstock034">47</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.sam_nonstock035">
+			<DD_TABLE_ALIAS id="ddm_table_disp.sam_nonstock035">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.sam_nonstock035">035</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.sam_nonstock035">TOTAL_SALES     </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.sam_nonstock035">LY_SALES_04     </DD_CTRL_NAME>
+			<DD_ATTR_CTLX id="ddm_table_disp.sam_nonstock035">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.sam_nonstock035">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.sam_nonstock035">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.sam_nonstock035">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.sam_nonstock035">48</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.sam_nonstock036">
+			<DD_TABLE_ALIAS id="ddm_table_disp.sam_nonstock036">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.sam_nonstock036">036</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.sam_nonstock036">TOTAL_SALES     </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.sam_nonstock036">LY_SALES_05     </DD_CTRL_NAME>
+			<DD_ATTR_CTLX id="ddm_table_disp.sam_nonstock036">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.sam_nonstock036">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.sam_nonstock036">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.sam_nonstock036">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.sam_nonstock036">49</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.sam_nonstock037">
+			<DD_TABLE_ALIAS id="ddm_table_disp.sam_nonstock037">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.sam_nonstock037">037</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.sam_nonstock037">TOTAL_SALES     </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.sam_nonstock037">LY_SALES_06     </DD_CTRL_NAME>
+			<DD_ATTR_CTLX id="ddm_table_disp.sam_nonstock037">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.sam_nonstock037">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.sam_nonstock037">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.sam_nonstock037">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.sam_nonstock037">50</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.sam_nonstock038">
+			<DD_TABLE_ALIAS id="ddm_table_disp.sam_nonstock038">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.sam_nonstock038">038</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.sam_nonstock038">TOTAL_SALES     </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.sam_nonstock038">LY_SALES_07     </DD_CTRL_NAME>
+			<DD_ATTR_CTLX id="ddm_table_disp.sam_nonstock038">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.sam_nonstock038">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.sam_nonstock038">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.sam_nonstock038">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.sam_nonstock038">51</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.sam_nonstock039">
+			<DD_TABLE_ALIAS id="ddm_table_disp.sam_nonstock039">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.sam_nonstock039">039</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.sam_nonstock039">TOTAL_SALES     </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.sam_nonstock039">LY_SALES_08     </DD_CTRL_NAME>
+			<DD_ATTR_CTLX id="ddm_table_disp.sam_nonstock039">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.sam_nonstock039">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.sam_nonstock039">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.sam_nonstock039">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.sam_nonstock039">52</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.sam_nonstock040">
+			<DD_TABLE_ALIAS id="ddm_table_disp.sam_nonstock040">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.sam_nonstock040">040</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.sam_nonstock040">TOTAL_SALES     </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.sam_nonstock040">LY_SALES_09     </DD_CTRL_NAME>
+			<DD_ATTR_CTLX id="ddm_table_disp.sam_nonstock040">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.sam_nonstock040">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.sam_nonstock040">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.sam_nonstock040">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.sam_nonstock040">53</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.sam_nonstock041">
+			<DD_TABLE_ALIAS id="ddm_table_disp.sam_nonstock041">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.sam_nonstock041">041</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.sam_nonstock041">TOTAL_SALES     </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.sam_nonstock041">LY_SALES_10     </DD_CTRL_NAME>
+			<DD_ATTR_CTLX id="ddm_table_disp.sam_nonstock041">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.sam_nonstock041">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.sam_nonstock041">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.sam_nonstock041">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.sam_nonstock041">54</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.sam_nonstock042">
+			<DD_TABLE_ALIAS id="ddm_table_disp.sam_nonstock042">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.sam_nonstock042">042</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.sam_nonstock042">TOTAL_SALES     </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.sam_nonstock042">LY_SALES_11     </DD_CTRL_NAME>
+			<DD_ATTR_CTLX id="ddm_table_disp.sam_nonstock042">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.sam_nonstock042">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.sam_nonstock042">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.sam_nonstock042">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.sam_nonstock042">55</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.sam_nonstock043">
+			<DD_TABLE_ALIAS id="ddm_table_disp.sam_nonstock043">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.sam_nonstock043">043</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.sam_nonstock043">TOTAL_SALES     </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.sam_nonstock043">LY_SALES_12     </DD_CTRL_NAME>
+			<DD_ATTR_CTLX id="ddm_table_disp.sam_nonstock043">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.sam_nonstock043">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.sam_nonstock043">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.sam_nonstock043">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.sam_nonstock043">56</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.sam_nonstock044">
+			<DD_TABLE_ALIAS id="ddm_table_disp.sam_nonstock044">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.sam_nonstock044">044</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.sam_nonstock044">TOTAL_SALES     </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.sam_nonstock044">LY_SALES_13     </DD_CTRL_NAME>
+			<DD_ATTR_CTLX id="ddm_table_disp.sam_nonstock044">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.sam_nonstock044">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.sam_nonstock044">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.sam_nonstock044">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.sam_nonstock044">57</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.sam_nonstock045">
+			<DD_TABLE_ALIAS id="ddm_table_disp.sam_nonstock045">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.sam_nonstock045">045</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.sam_nonstock045">TOTAL_SALES     </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.sam_nonstock045">LY_SALES_TOT    </DD_CTRL_NAME>
+			<DD_ATTR_CTLX id="ddm_table_disp.sam_nonstock045">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.sam_nonstock045">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.sam_nonstock045">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.sam_nonstock045">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.sam_nonstock045">58</DD_ATTR_TIND>
+		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_cpro">
 		<ID id="ddm_column_cpro">DDM_COLUMN_CPRO</ID>
@@ -383,6 +872,216 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.sam_nonstocktslsc">SAM_NONSTOCK    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.sam_nonstocktslsc">TSLS            </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.sam_nonstocktslsc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_nonstockly_ship_01c">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_nonstockly_ship_01c">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_nonstockly_ship_01c">LY_SHIP_01      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_nonstockly_ship_01c">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_nonstockly_ship_02c">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_nonstockly_ship_02c">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_nonstockly_ship_02c">LY_SHIP_02      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_nonstockly_ship_02c">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_nonstockly_ship_03c">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_nonstockly_ship_03c">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_nonstockly_ship_03c">LY_SHIP_03      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_nonstockly_ship_03c">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_nonstockly_ship_04c">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_nonstockly_ship_04c">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_nonstockly_ship_04c">LY_SHIP_04      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_nonstockly_ship_04c">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_nonstockly_ship_05c">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_nonstockly_ship_05c">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_nonstockly_ship_05c">LY_SHIP_05      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_nonstockly_ship_05c">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_nonstockly_ship_06c">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_nonstockly_ship_06c">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_nonstockly_ship_06c">LY_SHIP_06      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_nonstockly_ship_06c">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_nonstockly_ship_07c">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_nonstockly_ship_07c">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_nonstockly_ship_07c">LY_SHIP_07      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_nonstockly_ship_07c">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_nonstockly_ship_08c">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_nonstockly_ship_08c">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_nonstockly_ship_08c">LY_SHIP_08      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_nonstockly_ship_08c">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_nonstockly_ship_09c">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_nonstockly_ship_09c">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_nonstockly_ship_09c">LY_SHIP_09      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_nonstockly_ship_09c">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_nonstockly_ship_10c">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_nonstockly_ship_10c">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_nonstockly_ship_10c">LY_SHIP_10      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_nonstockly_ship_10c">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_nonstockly_ship_11c">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_nonstockly_ship_11c">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_nonstockly_ship_11c">LY_SHIP_11      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_nonstockly_ship_11c">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_nonstockly_ship_12c">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_nonstockly_ship_12c">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_nonstockly_ship_12c">LY_SHIP_12      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_nonstockly_ship_12c">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_nonstockly_ship_13c">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_nonstockly_ship_13c">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_nonstockly_ship_13c">LY_SHIP_13      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_nonstockly_ship_13c">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_nonstockly_ship_totc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_nonstockly_ship_totc">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_nonstockly_ship_totc">LY_SHIP_TOT     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_nonstockly_ship_totc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_nonstockly_cost_01c">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_nonstockly_cost_01c">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_nonstockly_cost_01c">LY_COST_01      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_nonstockly_cost_01c">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_nonstockly_cost_02c">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_nonstockly_cost_02c">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_nonstockly_cost_02c">LY_COST_02      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_nonstockly_cost_02c">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_nonstockly_cost_03c">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_nonstockly_cost_03c">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_nonstockly_cost_03c">LY_COST_03      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_nonstockly_cost_03c">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_nonstockly_cost_04c">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_nonstockly_cost_04c">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_nonstockly_cost_04c">LY_COST_04      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_nonstockly_cost_04c">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_nonstockly_cost_05c">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_nonstockly_cost_05c">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_nonstockly_cost_05c">LY_COST_05      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_nonstockly_cost_05c">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_nonstockly_cost_06c">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_nonstockly_cost_06c">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_nonstockly_cost_06c">LY_COST_06      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_nonstockly_cost_06c">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_nonstockly_cost_07c">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_nonstockly_cost_07c">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_nonstockly_cost_07c">LY_COST_07      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_nonstockly_cost_07c">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_nonstockly_cost_08c">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_nonstockly_cost_08c">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_nonstockly_cost_08c">LY_COST_08      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_nonstockly_cost_08c">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_nonstockly_cost_09c">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_nonstockly_cost_09c">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_nonstockly_cost_09c">LY_COST_09      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_nonstockly_cost_09c">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_nonstockly_cost_10c">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_nonstockly_cost_10c">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_nonstockly_cost_10c">LY_COST_10      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_nonstockly_cost_10c">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_nonstockly_cost_11c">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_nonstockly_cost_11c">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_nonstockly_cost_11c">LY_COST_11      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_nonstockly_cost_11c">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_nonstockly_cost_12c">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_nonstockly_cost_12c">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_nonstockly_cost_12c">LY_COST_12      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_nonstockly_cost_12c">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_nonstockly_cost_13c">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_nonstockly_cost_13c">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_nonstockly_cost_13c">LY_COST_13      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_nonstockly_cost_13c">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_nonstockly_cost_totc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_nonstockly_cost_totc">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_nonstockly_cost_totc">LY_COST_TOT     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_nonstockly_cost_totc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_nonstockly_sales_01c">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_nonstockly_sales_01c">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_nonstockly_sales_01c">LY_SALES_01     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_nonstockly_sales_01c">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_nonstockly_sales_02c">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_nonstockly_sales_02c">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_nonstockly_sales_02c">LY_SALES_02     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_nonstockly_sales_02c">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_nonstockly_sales_03c">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_nonstockly_sales_03c">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_nonstockly_sales_03c">LY_SALES_03     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_nonstockly_sales_03c">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_nonstockly_sales_04c">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_nonstockly_sales_04c">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_nonstockly_sales_04c">LY_SALES_04     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_nonstockly_sales_04c">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_nonstockly_sales_05c">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_nonstockly_sales_05c">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_nonstockly_sales_05c">LY_SALES_05     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_nonstockly_sales_05c">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_nonstockly_sales_06c">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_nonstockly_sales_06c">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_nonstockly_sales_06c">LY_SALES_06     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_nonstockly_sales_06c">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_nonstockly_sales_07c">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_nonstockly_sales_07c">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_nonstockly_sales_07c">LY_SALES_07     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_nonstockly_sales_07c">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_nonstockly_sales_08c">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_nonstockly_sales_08c">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_nonstockly_sales_08c">LY_SALES_08     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_nonstockly_sales_08c">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_nonstockly_sales_09c">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_nonstockly_sales_09c">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_nonstockly_sales_09c">LY_SALES_09     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_nonstockly_sales_09c">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_nonstockly_sales_10c">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_nonstockly_sales_10c">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_nonstockly_sales_10c">LY_SALES_10     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_nonstockly_sales_10c">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_nonstockly_sales_11c">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_nonstockly_sales_11c">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_nonstockly_sales_11c">LY_SALES_11     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_nonstockly_sales_11c">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_nonstockly_sales_12c">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_nonstockly_sales_12c">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_nonstockly_sales_12c">LY_SALES_12     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_nonstockly_sales_12c">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_nonstockly_sales_13c">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_nonstockly_sales_13c">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_nonstockly_sales_13c">LY_SALES_13     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_nonstockly_sales_13c">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_nonstockly_sales_totc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_nonstockly_sales_totc">SAM_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_nonstockly_sales_totc">LY_SALES_TOT    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_nonstockly_sales_totc">C</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

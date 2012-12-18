@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.ape_payselect">0A768FB460EAEA4E9E25B3C94EFA7E4C</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ape_payselect">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ape_payselect">20071023</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ape_payselect">20100302</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ape_payselect">20100301</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ape_payselect">231050</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ape_payselect">20100611</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ape_payselect">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ape_payselect">171632</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ape_payselect">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ape_payselect">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.ape_payselect">[+DIR_SYP]bas_process_end.bbj</DD_ATTR_PRUN>
@@ -336,6 +336,21 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.ape_payselectsystem_dateo">APE_PAYSELECT   </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ape_payselectsystem_dateo">SYSTEM_DATE     </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ape_payselectsystem_dateo">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ape_payselectpayment_grpu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ape_payselectpayment_grpu">APE_PAYSELECT   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ape_payselectpayment_grpu">PAYMENT_GRP     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ape_payselectpayment_grpu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ape_payselectap_typeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ape_payselectap_typeu">APE_PAYSELECT   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ape_payselectap_typeu">AP_TYPE         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ape_payselectap_typeu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ape_payselectvendor_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ape_payselectvendor_idu">APE_PAYSELECT   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ape_payselectvendor_idu">VENDOR_ID       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ape_payselectvendor_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

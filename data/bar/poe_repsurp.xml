@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.poe_repsurp">23E1345ED7F3CE6B35901B0CE28CE5C0</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.poe_repsurp">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.poe_repsurp">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.poe_repsurp">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.poe_repsurp">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.poe_repsurp">141512</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.poe_repsurp">20100611</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.poe_repsurp">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.poe_repsurp">171630</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.poe_repsurp">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.poe_repsurp">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.poe_repsurp">Replenishment Whse Surplus</DD_ATTR_WINT>
@@ -85,7 +85,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_repsurp001">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_repsurp001">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_repsurp001">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_repsurp001">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_repsurp001">Firm ID</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_repsurp001">1</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_repsurp002">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_repsurp002">POE_REPSURP     </DD_TABLE_ALIAS>
@@ -97,8 +99,10 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_repsurp002">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_repsurp002">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_repsurp002">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_LABS id="ddm_table_cols.poe_repsurp002">Inventory </DD_ATTR_LABS>
+			<DD_ATTR_LABS id="ddm_table_cols.poe_repsurp002">Inventory</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_repsurp002">20</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_repsurp002">Inventory Item Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_repsurp002">2</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_repsurp003">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_repsurp003">POE_REPSURP     </DD_TABLE_ALIAS>
@@ -111,7 +115,11 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_repsurp003">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_repsurp003">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_repsurp003">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.poe_repsurp003">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.poe_repsurp003">0</DD_ATTR_CTLH>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_repsurp003">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_repsurp003">Warehouse ID</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_repsurp003">3</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_repsurp004">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_repsurp004">POE_REPSURP     </DD_TABLE_ALIAS>
@@ -124,7 +132,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_repsurp004">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_repsurp004">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_repsurp004">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_repsurp004">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_repsurp004">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_repsurp004">4</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_repsurp005">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_repsurp005">POE_REPSURP     </DD_TABLE_ALIAS>
@@ -137,7 +147,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_repsurp005">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_repsurp005">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_repsurp005">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_repsurp005">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_repsurp005">Replenishment Surplus Qty</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_repsurp005">5</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_repsurp006">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_repsurp006">POE_REPSURP     </DD_TABLE_ALIAS>
@@ -150,7 +162,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_repsurp006">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_repsurp006">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_repsurp006">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_repsurp006">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_repsurp006">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_repsurp006">6</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">
@@ -159,6 +173,16 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.poe_repsurpfirm_ido">POE_REPSURP     </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.poe_repsurpfirm_ido">FIRM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.poe_repsurpfirm_ido">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.poe_repsurpitem_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poe_repsurpitem_idu">POE_REPSURP     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poe_repsurpitem_idu">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poe_repsurpitem_idu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.poe_repsurpwarehouse_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poe_repsurpwarehouse_idu">POE_REPSURP     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poe_repsurpwarehouse_idu">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poe_repsurpwarehouse_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

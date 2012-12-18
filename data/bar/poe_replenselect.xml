@@ -18,9 +18,9 @@
 			<ASC_VERSION_ID id="ddm_tables.poe_replenselect">9.0</ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.poe_replenselect">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.poe_replenselect">20090414</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.poe_replenselect">20100128</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.poe_replenselect">20090819</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.poe_replenselect">121446</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.poe_replenselect">20100610</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.poe_replenselect">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.poe_replenselect">171630</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.poe_replenselect">/dev/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.poe_replenselect">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.poe_replenselect">[+DIR_PGM]pou_replenselect.aon</DD_ATTR_PRUN>
@@ -194,6 +194,11 @@
 			<DD_DVAR_NAME id="ddm_column_opts.poe_replenselectbuyer_code2">BUYER_CODE      </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.poe_replenselectbuyer_code2">2</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.poe_replenselectbuyer_codeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poe_replenselectbuyer_codeu">POE_REPLENSELECT</DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poe_replenselectbuyer_codeu">BUYER_CODE      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poe_replenselectbuyer_codeu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.poe_replenselectvendor_id1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.poe_replenselectvendor_id1">POE_REPLENSELECT</DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.poe_replenselectvendor_id1">VENDOR_ID       </DD_DVAR_NAME>
@@ -203,6 +208,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.poe_replenselectvendor_id2">POE_REPLENSELECT</DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.poe_replenselectvendor_id2">VENDOR_ID       </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.poe_replenselectvendor_id2">2</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.poe_replenselectvendor_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poe_replenselectvendor_idu">POE_REPLENSELECT</DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poe_replenselectvendor_idu">VENDOR_ID       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poe_replenselectvendor_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.poe_replenselectreview_date1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.poe_replenselectreview_date1">POE_REPLENSELECT</DD_TABLE_ALIAS>
@@ -223,6 +233,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.poe_replenselectwarehouse_id2">POE_REPLENSELECT</DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.poe_replenselectwarehouse_id2">WAREHOUSE_ID    </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.poe_replenselectwarehouse_id2">2</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.poe_replenselectwarehouse_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poe_replenselectwarehouse_idu">POE_REPLENSELECT</DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poe_replenselectwarehouse_idu">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poe_replenselectwarehouse_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.poe_replenselectreplen_seqo">
 			<DD_TABLE_ALIAS id="ddm_column_opts.poe_replenselectreplen_seqo">POE_REPLENSELECT</DD_TABLE_ALIAS>

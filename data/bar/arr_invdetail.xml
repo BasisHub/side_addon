@@ -14,9 +14,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.arr_invdetail">34E1C92251525D21CA3F1C6CA8B26E40</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.arr_invdetail">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.arr_invdetail">20061115</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.arr_invdetail">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.arr_invdetail">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.arr_invdetail">141554</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.arr_invdetail">20100607</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.arr_invdetail">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.arr_invdetail">171630</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.arr_invdetail">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.arr_invdetail">[+DIR_PGM]arr_invdetail.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.arr_invdetail">Invoice Detail Inquiry</DD_ATTR_WINT>
@@ -56,6 +56,14 @@
 			<DD_ATTR_LABL id="ddm_table_cols.arr_invdetail003">Paid/Unpaid/Both</DD_ATTR_LABL>
 			<DD_ATTR_MAXL id="ddm_table_cols.arr_invdetail003">1</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.arr_invdetail003">3</DD_ATTR_TIND>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_column_opts">
+		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
+		<RECORD id="ddm_column_opts.arr_invdetailcustomer_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.arr_invdetailcustomer_idu">ARR_INVDETAIL   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.arr_invdetailcustomer_idu">CUSTOMER_ID     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.arr_invdetailcustomer_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

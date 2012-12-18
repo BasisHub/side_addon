@@ -20,9 +20,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.apr_vendinv_jr">F158EABEE91A1188EC1E8894C8291392</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.apr_vendinv_jr">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.apr_vendinv_jr">20081218</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.apr_vendinv_jr">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.apr_vendinv_jr">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.apr_vendinv_jr">141600</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.apr_vendinv_jr">20100607</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.apr_vendinv_jr">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.apr_vendinv_jr">171632</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.apr_vendinv_jr">[+DIR_CPP]apr_vendinv_cpt.bbj</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.apr_vendinv_jr">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.apr_vendinv_jr">[+DIR_PGM]apr_vendinv_jr.aon</DD_ATTR_PRUN>
@@ -90,6 +90,19 @@
 			<DD_ATTR_LABL id="ddm_table_cols.apr_vendinv_jr004">Paid/Unpaid/Both</DD_ATTR_LABL>
 			<DD_ATTR_MAXL id="ddm_table_cols.apr_vendinv_jr004">1</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.apr_vendinv_jr004">4</DD_ATTR_TIND>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_column_opts">
+		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
+		<RECORD id="ddm_column_opts.apr_vendinv_jrvendor_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.apr_vendinv_jrvendor_idu">APR_VENDINV_JR  </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.apr_vendinv_jrvendor_idu">VENDOR_ID       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.apr_vendinv_jrvendor_idu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.apr_vendinv_jrap_typeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.apr_vendinv_jrap_typeu">APR_VENDINV_JR  </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.apr_vendinv_jrap_typeu">AP_TYPE         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.apr_vendinv_jrap_typeu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

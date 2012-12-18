@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.apt_invoicehdr">F135C36B75725CEAB82926D6CFC9E211</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.apt_invoicehdr">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.apt_invoicehdr">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.apt_invoicehdr">20100203</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.apt_invoicehdr">20100331</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.apt_invoicehdr">225626</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.apt_invoicehdr">20100611</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.apt_invoicehdr">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.apt_invoicehdr">171630</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.apt_invoicehdr">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.apt_invoicehdr">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.apt_invoicehdr">Invoice Header</DD_ATTR_WINT>
@@ -554,6 +554,31 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.apt_invoicehdrfirm_ido">APT_INVOICEHDR  </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.apt_invoicehdrfirm_ido">FIRM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.apt_invoicehdrfirm_ido">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.apt_invoicehdrap_typeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.apt_invoicehdrap_typeu">APT_INVOICEHDR  </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.apt_invoicehdrap_typeu">AP_TYPE         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.apt_invoicehdrap_typeu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.apt_invoicehdrvendor_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.apt_invoicehdrvendor_idu">APT_INVOICEHDR  </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.apt_invoicehdrvendor_idu">VENDOR_ID       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.apt_invoicehdrvendor_idu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.apt_invoicehdrap_dist_codeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.apt_invoicehdrap_dist_codeu">APT_INVOICEHDR  </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.apt_invoicehdrap_dist_codeu">AP_DIST_CODE    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.apt_invoicehdrap_dist_codeu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.apt_invoicehdrpayment_grpu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.apt_invoicehdrpayment_grpu">APT_INVOICEHDR  </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.apt_invoicehdrpayment_grpu">PAYMENT_GRP     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.apt_invoicehdrpayment_grpu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.apt_invoicehdrap_terms_codeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.apt_invoicehdrap_terms_codeu">APT_INVOICEHDR  </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.apt_invoicehdrap_terms_codeu">AP_TERMS_CODE   </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.apt_invoicehdrap_terms_codeu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.gle_recjedet">9E592C10245CCF7FF18BFAF7F0F2B908</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.gle_recjedet">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.gle_recjedet">20060515</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.gle_recjedet">20090818</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.gle_recjedet">20090701</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.gle_recjedet">141138</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.gle_recjedet">20100611</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.gle_recjedet">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.gle_recjedet">171630</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.gle_recjedet">/dev/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.gle_recjedet">G</DD_ATTR_FTYP>
 			<DD_ATTR_PTAB id="ddm_tables.gle_recjedet">GLE_RECJEHDR    </DD_ATTR_PTAB>
@@ -295,8 +295,9 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.gle_recjedet008">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CPGM id="ddm_table_cols.gle_recjedet008">/dev/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.gle_recjedet008">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.gle_recjedet008">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABS id="ddm_table_cols.gle_recjedet008">Debit</DD_ATTR_LABS>
-			<DD_ATTR_MAXL id="ddm_table_cols.gle_recjedet008">7</DD_ATTR_MAXL>
+			<DD_ATTR_MAXL id="ddm_table_cols.gle_recjedet008">12</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.gle_recjedet008">GL Posting Amount</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.gle_recjedet008">7</DD_ATTR_TIND>
 		</RECORD>
@@ -312,8 +313,10 @@
 			<DD_CREATE_DATE id="ddm_table_cols.gle_recjedet009">20060501</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.gle_recjedet009">20060501</DD_LSTREV_DATE>
 			<DD_ATTR_CPGM id="ddm_table_cols.gle_recjedet009">/dev/apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CTLW id="ddm_table_cols.gle_recjedet009">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.gle_recjedet009">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABS id="ddm_table_cols.gle_recjedet009">Credit</DD_ATTR_LABS>
-			<DD_ATTR_MAXL id="ddm_table_cols.gle_recjedet009">7</DD_ATTR_MAXL>
+			<DD_ATTR_MAXL id="ddm_table_cols.gle_recjedet009">12</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.gle_recjedet009">8</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.gle_recjedet010">
@@ -388,6 +391,11 @@
 			<DD_DVAR_NAME id="ddm_column_opts.gle_recjedetjournal_idg">JOURNAL_ID      </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.gle_recjedetjournal_idg">G</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.gle_recjedetjournal_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.gle_recjedetjournal_idu">GLE_RECJEDET    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.gle_recjedetjournal_idu">JOURNAL_ID      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.gle_recjedetjournal_idu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.gle_recjedetje_trans_idg">
 			<DD_TABLE_ALIAS id="ddm_column_opts.gle_recjedetje_trans_idg">GLE_RECJEDET    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.gle_recjedetje_trans_idg">JE_TRANS_ID     </DD_DVAR_NAME>
@@ -407,6 +415,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.gle_recjedetgl_accountv">GLE_RECJEDET    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.gle_recjedetgl_accountv">GL_ACCOUNT      </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.gle_recjedetgl_accountv">V</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.gle_recjedetgl_accountu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.gle_recjedetgl_accountu">GLE_RECJEDET    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.gle_recjedetgl_accountu">GL_ACCOUNT      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.gle_recjedetgl_accountu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">
@@ -572,36 +585,47 @@
 			<DD_DATA_NAME id="ddm_elements.debit_amt">DEBIT_AMT       </DD_DATA_NAME>
 			<DD_DESCRIPTION id="ddm_elements.debit_amt">Debit Posting Amount</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.debit_amt">N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.debit_amt">7</DD_DATA_LENGTH>
+			<DD_DATA_LENGTH id="ddm_elements.debit_amt">12</DD_DATA_LENGTH>
 			<DD_MASK_TYPE id="ddm_elements.debit_amt">A</DD_MASK_TYPE>
 			<DD_SYSTEM_REC id="ddm_elements.debit_amt">N</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_elements.debit_amt">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_elements.debit_amt">GL </ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.debit_amt">20060501</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.debit_amt">20061017</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.debit_amt">20100207</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_elements.debit_amt">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.debit_amt">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.debit_amt">N</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.debit_amt">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.debit_amt">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.debit_amt">Debit Amount</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.debit_amt">Debit</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.debit_amt">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.debit_amt">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.debit_amt">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.debit_amt">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.credit_amt">
 			<DD_DATA_NAME id="ddm_elements.credit_amt">CREDIT_AMT      </DD_DATA_NAME>
 			<DD_DESCRIPTION id="ddm_elements.credit_amt">Credit Posting Amount</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.credit_amt">N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.credit_amt">7</DD_DATA_LENGTH>
+			<DD_DATA_LENGTH id="ddm_elements.credit_amt">12</DD_DATA_LENGTH>
 			<DD_MASK_TYPE id="ddm_elements.credit_amt">A</DD_MASK_TYPE>
 			<DD_SYSTEM_REC id="ddm_elements.credit_amt">N</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_elements.credit_amt">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_elements.credit_amt">GL </ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.credit_amt">20060501</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.credit_amt">20061019</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.credit_amt">20100207</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.credit_amt">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.credit_amt">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.credit_amt">N</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.credit_amt">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.credit_amt">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.credit_amt">Credit Amount</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.credit_amt">Credit</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.credit_amt">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.credit_amt">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.credit_amt">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.credit_amt">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.units">
 			<DD_DATA_NAME id="ddm_elements.units">UNITS           </DD_DATA_NAME>

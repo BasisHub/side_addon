@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.mpe_matdet">05F1EA93D25E35BC986863DCE6294653</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.mpe_matdet">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.mpe_matdet">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.mpe_matdet">20100520</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.mpe_matdet">20090709</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.mpe_matdet">115942</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.mpe_matdet">20100611</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.mpe_matdet">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.mpe_matdet">171632</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.mpe_matdet">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.mpe_matdet">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.mpe_matdet">Material Requirements Detail</DD_ATTR_WINT>
@@ -2557,6 +2557,21 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.mpe_matdetfirm_ido">MPE_MATDET      </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.mpe_matdetfirm_ido">FIRM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.mpe_matdetfirm_ido">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.mpe_matdetforecastu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.mpe_matdetforecastu">MPE_MATDET      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.mpe_matdetforecastu">FORECAST        </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.mpe_matdetforecastu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.mpe_matdetwarehouse_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.mpe_matdetwarehouse_idu">MPE_MATDET      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.mpe_matdetwarehouse_idu">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.mpe_matdetwarehouse_idu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.mpe_matdetitem_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.mpe_matdetitem_idu">MPE_MATDET      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.mpe_matdetitem_idu">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.mpe_matdetitem_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.glm_cofinassign">390B8A463BFCFFD5F6FE772C7A7B10EF</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.glm_cofinassign">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.glm_cofinassign">20060616</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.glm_cofinassign">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.glm_cofinassign">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.glm_cofinassign">141544</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.glm_cofinassign">20100611</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.glm_cofinassign">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.glm_cofinassign">171630</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.glm_cofinassign">G</DD_ATTR_FTYP>
 			<DD_ATTR_PTAB id="ddm_tables.glm_cofinassign">GLM_ACCT        </DD_ATTR_PTAB>
 			<DD_ATTR_SLEV id="ddm_tables.glm_cofinassign">zzzz</DD_ATTR_SLEV>
@@ -175,15 +175,30 @@
 			<DD_DVAR_NAME id="ddm_column_opts.glm_cofinassigngl_accountv">GL_ACCOUNT      </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.glm_cofinassigngl_accountv">V</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.glm_cofinassigngl_accountu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.glm_cofinassigngl_accountu">GLM_COFINASSIGN </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.glm_cofinassigngl_accountu">GL_ACCOUNT      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.glm_cofinassigngl_accountu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.glm_cofinassigngl_co_rpt_nov">
 			<DD_TABLE_ALIAS id="ddm_column_opts.glm_cofinassigngl_co_rpt_nov">GLM_COFINASSIGN </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.glm_cofinassigngl_co_rpt_nov">GL_CO_RPT_NO    </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.glm_cofinassigngl_co_rpt_nov">V</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.glm_cofinassigngl_co_rpt_nou">
+			<DD_TABLE_ALIAS id="ddm_column_opts.glm_cofinassigngl_co_rpt_nou">GLM_COFINASSIGN </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.glm_cofinassigngl_co_rpt_nou">GL_CO_RPT_NO    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.glm_cofinassigngl_co_rpt_nou">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.glm_cofinassigngl_co_rpt_linev">
 			<DD_TABLE_ALIAS id="ddm_column_opts.glm_cofinassigngl_co_rpt_linev">GLM_COFINASSIGN </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.glm_cofinassigngl_co_rpt_linev">GL_CO_RPT_LINE  </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.glm_cofinassigngl_co_rpt_linev">V</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.glm_cofinassigngl_co_rpt_lineu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.glm_cofinassigngl_co_rpt_lineu">GLM_COFINASSIGN </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.glm_cofinassigngl_co_rpt_lineu">GL_CO_RPT_LINE  </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.glm_cofinassigngl_co_rpt_lineu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

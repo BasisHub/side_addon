@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.ive_abcwhse">9928B34D768EA2A2734C615787F62830</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ive_abcwhse">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ive_abcwhse">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ive_abcwhse">20100519</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ive_abcwhse">20100519</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ive_abcwhse">221042</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ive_abcwhse">20100611</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ive_abcwhse">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ive_abcwhse">171632</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.ive_abcwhse">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.ive_abcwhse">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.ive_abcwhse">A B C Analysis By Warehouse</DD_ATTR_WINT>
@@ -252,6 +252,16 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.ive_abcwhsefirm_ido">IVE_ABCWHSE     </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ive_abcwhsefirm_ido">FIRM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ive_abcwhsefirm_ido">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ive_abcwhsewarehouse_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ive_abcwhsewarehouse_idu">IVE_ABCWHSE     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ive_abcwhsewarehouse_idu">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ive_abcwhsewarehouse_idu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ive_abcwhseitem_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ive_abcwhseitem_idu">IVE_ABCWHSE     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ive_abcwhseitem_idu">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ive_abcwhseitem_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

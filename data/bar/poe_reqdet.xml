@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.poe_reqdet">1930AF9934EE5322C68214240B4CBC18</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.poe_reqdet">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.poe_reqdet">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.poe_reqdet">20100527</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.poe_reqdet">20100527</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.poe_reqdet">123206</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.poe_reqdet">20100611</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.poe_reqdet">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.poe_reqdet">171630</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.poe_reqdet">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_DKNM id="ddm_tables.poe_reqdet">AO_REQ_LINE</DD_ATTR_DKNM>
 			<DD_ATTR_FTYP id="ddm_tables.poe_reqdet">G</DD_ATTR_FTYP>
@@ -892,6 +892,11 @@
 			<DD_DVAR_NAME id="ddm_column_opts.poe_reqdetforecasto">FORECAST        </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.poe_reqdetforecasto">O</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.poe_reqdetpo_msg_codeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poe_reqdetpo_msg_codeu">POE_REQDET      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poe_reqdetpo_msg_codeu">PO_MSG_CODE     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poe_reqdetpo_msg_codeu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.poe_reqdetwo_noc">
 			<DD_TABLE_ALIAS id="ddm_column_opts.poe_reqdetwo_noc">POE_REQDET      </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.poe_reqdetwo_noc">WO_NO           </DD_DVAR_NAME>
@@ -912,6 +917,11 @@
 			<DD_DVAR_NAME id="ddm_column_opts.poe_reqdetwarehouse_idc">WAREHOUSE_ID    </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.poe_reqdetwarehouse_idc">C</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.poe_reqdetwarehouse_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poe_reqdetwarehouse_idu">POE_REQDET      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poe_reqdetwarehouse_idu">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poe_reqdetwarehouse_idu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.poe_reqdetitem_idb">
 			<DD_TABLE_ALIAS id="ddm_column_opts.poe_reqdetitem_idb">POE_REQDET      </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.poe_reqdetitem_idb">ITEM_ID         </DD_DVAR_NAME>
@@ -921,6 +931,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.poe_reqdetitem_idv">POE_REQDET      </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.poe_reqdetitem_idv">ITEM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.poe_reqdetitem_idv">V</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.poe_reqdetitem_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poe_reqdetitem_idu">POE_REQDET      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poe_reqdetitem_idu">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poe_reqdetitem_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.poe_reqdetdisp_ext_costc">
 			<DD_TABLE_ALIAS id="ddm_column_opts.poe_reqdetdisp_ext_costc">POE_REQDET      </DD_TABLE_ALIAS>

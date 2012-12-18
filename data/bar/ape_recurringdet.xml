@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.ape_recurringdet">180DDD9B9633EFFD3943F210BC16BE7D</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ape_recurringdet">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ape_recurringdet">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ape_recurringdet">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ape_recurringdet">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ape_recurringdet">141602</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ape_recurringdet">20100611</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ape_recurringdet">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ape_recurringdet">171630</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ape_recurringdet">/dev/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ape_recurringdet">G</DD_ATTR_FTYP>
 			<DD_ATTR_PTAB id="ddm_tables.ape_recurringdet">APE_RECURRINGHDR</DD_ATTR_PTAB>
@@ -279,10 +279,20 @@
 			<DD_DVAR_NAME id="ddm_column_opts.ape_recurringdetap_typeg">AP_TYPE         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ape_recurringdetap_typeg">G</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.ape_recurringdetap_typeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ape_recurringdetap_typeu">APE_RECURRINGDET</DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ape_recurringdetap_typeu">AP_TYPE         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ape_recurringdetap_typeu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.ape_recurringdetvendor_idg">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ape_recurringdetvendor_idg">APE_RECURRINGDET</DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ape_recurringdetvendor_idg">VENDOR_ID       </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ape_recurringdetvendor_idg">G</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ape_recurringdetvendor_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ape_recurringdetvendor_idu">APE_RECURRINGDET</DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ape_recurringdetvendor_idu">VENDOR_ID       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ape_recurringdetvendor_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.ape_recurringdetap_inv_nog">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ape_recurringdetap_inv_nog">APE_RECURRINGDET</DD_TABLE_ALIAS>
@@ -298,6 +308,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.ape_recurringdetgl_accountv">APE_RECURRINGDET</DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ape_recurringdetgl_accountv">GL_ACCOUNT      </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ape_recurringdetgl_accountv">V</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ape_recurringdetgl_accountu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ape_recurringdetgl_accountu">APE_RECURRINGDET</DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ape_recurringdetgl_accountu">GL_ACCOUNT      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ape_recurringdetgl_accountu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

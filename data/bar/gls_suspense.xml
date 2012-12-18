@@ -17,9 +17,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.gls_suspense">5FA94B624C2D27DC71895CFE675094DE</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.gls_suspense">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.gls_suspense">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.gls_suspense">20100205</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.gls_suspense">20090709</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.gls_suspense">115940</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.gls_suspense">20100611</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.gls_suspense">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.gls_suspense">171630</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.gls_suspense">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.gls_suspense">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.gls_suspense">Suspense Account Information</DD_ATTR_WINT>
@@ -230,6 +230,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.gls_suspensesequence_03o">GLS_SUSPENSE    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.gls_suspensesequence_03o">SEQUENCE_03     </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.gls_suspensesequence_03o">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.gls_suspensegl_accountu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.gls_suspensegl_accountu">GLS_SUSPENSE    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.gls_suspensegl_accountu">GL_ACCOUNT      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.gls_suspensegl_accountu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

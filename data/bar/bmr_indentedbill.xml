@@ -16,9 +16,9 @@
 			<ASC_VERSION_ID id="ddm_tables.bmr_indentedbill">9.0</ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.bmr_indentedbill">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.bmr_indentedbill">20080213</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.bmr_indentedbill">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.bmr_indentedbill">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.bmr_indentedbill">141552</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.bmr_indentedbill">20100607</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.bmr_indentedbill">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.bmr_indentedbill">171632</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.bmr_indentedbill">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.bmr_indentedbill">[+DIR_PGM]bmr_indentedbill.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.bmr_indentedbill">Bill of Materials Indented Bills</DD_ATTR_WINT>
@@ -141,6 +141,16 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.bmr_indentedbillbill_no2">BMR_INDENTEDBILL</DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.bmr_indentedbillbill_no2">BILL_NO         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.bmr_indentedbillbill_no2">2</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.bmr_indentedbillbill_nou">
+			<DD_TABLE_ALIAS id="ddm_column_opts.bmr_indentedbillbill_nou">BMR_INDENTEDBILL</DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.bmr_indentedbillbill_nou">BILL_NO         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.bmr_indentedbillbill_nou">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.bmr_indentedbillwarehouse_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.bmr_indentedbillwarehouse_idu">BMR_INDENTEDBILL</DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.bmr_indentedbillwarehouse_idu">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.bmr_indentedbillwarehouse_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.poe_invgl">A73813C29C70233C3370983B491576A3</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.poe_invgl">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.poe_invgl">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.poe_invgl">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.poe_invgl">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.poe_invgl">141514</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.poe_invgl">20100611</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.poe_invgl">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.poe_invgl">171628</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.poe_invgl">/dev/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.poe_invgl">G</DD_ATTR_FTYP>
 			<DD_ATTR_PTAB id="ddm_tables.poe_invgl">POE_INVHDR      </DD_ATTR_PTAB>
@@ -306,6 +306,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.poe_invglgl_accountv">POE_INVGL       </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.poe_invglgl_accountv">GL_ACCOUNT      </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.poe_invglgl_accountv">V</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.poe_invglgl_accountu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poe_invglgl_accountu">POE_INVGL       </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poe_invglgl_accountu">GL_ACCOUNT      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poe_invglgl_accountu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

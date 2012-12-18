@@ -18,9 +18,9 @@
 			<ASC_VERSION_ID id="ddm_tables.ivx_lftier_util">9.0</ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ivx_lftier_util">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ivx_lftier_util">20090227</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ivx_lftier_util">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivx_lftier_util">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivx_lftier_util">141528</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ivx_lftier_util">20100610</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivx_lftier_util">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivx_lftier_util">171630</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ivx_lftier_util">/devel/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ivx_lftier_util">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.ivx_lftier_util">[+DIR_PGM]ivx_lifofifotier.aon</DD_ATTR_PRUN>
@@ -88,6 +88,11 @@
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">
 		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
+		<RECORD id="ddm_column_opts.ivx_lftier_utilwarehouse_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivx_lftier_utilwarehouse_idu">IVX_LFTIER_UTIL </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivx_lftier_utilwarehouse_idu">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivx_lftier_utilwarehouse_idu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.ivx_lftier_utiliv_lf_tier_pickk">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivx_lftier_utiliv_lf_tier_pickk">IVX_LFTIER_UTIL </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ivx_lftier_utiliv_lf_tier_pickk">IV_LF_TIER_PICK </DD_DVAR_NAME>

@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.apt_invoicedet">6FA71872EDBBC8DF3F5281FF890FC8A5</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.apt_invoicedet">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.apt_invoicedet">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.apt_invoicedet">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.apt_invoicedet">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.apt_invoicedet">141558</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.apt_invoicedet">20100611</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.apt_invoicedet">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.apt_invoicedet">171628</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.apt_invoicedet">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.apt_invoicedet">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.apt_invoicedet">Invoice Detail</DD_ATTR_WINT>
@@ -118,6 +118,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.apt_invoicedet002">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.apt_invoicedet002">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.apt_invoicedet002">35</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.apt_invoicedet002">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.apt_invoicedet002">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.apt_invoicedet002">AP Type</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.apt_invoicedet002">2</DD_ATTR_TIND>
@@ -150,6 +151,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.apt_invoicedet004">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.apt_invoicedet004">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.apt_invoicedet004">100</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.apt_invoicedet004">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.apt_invoicedet004">10</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.apt_invoicedet004">AP Invoice Number</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.apt_invoicedet004">4</DD_ATTR_TIND>
@@ -196,7 +198,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.apt_invoicedet007">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.apt_invoicedet007">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.apt_invoicedet007">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.apt_invoicedet007">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.apt_invoicedet007">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.apt_invoicedet007">12</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.apt_invoicedet008">
 			<DD_TABLE_ALIAS id="ddm_table_cols.apt_invoicedet008">APT_INVOICEDET  </DD_TABLE_ALIAS>
@@ -337,6 +341,16 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.apt_invoicedetfirm_ido">APT_INVOICEDET  </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.apt_invoicedetfirm_ido">FIRM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.apt_invoicedetfirm_ido">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.apt_invoicedetap_typeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.apt_invoicedetap_typeu">APT_INVOICEDET  </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.apt_invoicedetap_typeu">AP_TYPE         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.apt_invoicedetap_typeu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.apt_invoicedetvendor_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.apt_invoicedetvendor_idu">APT_INVOICEDET  </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.apt_invoicedetvendor_idu">VENDOR_ID       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.apt_invoicedetvendor_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

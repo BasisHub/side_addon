@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.ape_invoicedet">7B1042CAD8B88161CE7392BBB19E1998</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ape_invoicedet">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ape_invoicedet">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ape_invoicedet">20090722</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ape_invoicedet">20090722</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ape_invoicedet">163404</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ape_invoicedet">20100611</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ape_invoicedet">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ape_invoicedet">171628</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ape_invoicedet">/dev_aon_test/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ape_invoicedet">G</DD_ATTR_FTYP>
 			<DD_ATTR_HELP id="ddm_tables.ape_invoicedet">Invoice_Entry</DD_ATTR_HELP>
@@ -388,10 +388,20 @@
 			<DD_DVAR_NAME id="ddm_column_opts.ape_invoicedetap_typeg">AP_TYPE         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ape_invoicedetap_typeg">G</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.ape_invoicedetap_typeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ape_invoicedetap_typeu">APE_INVOICEDET  </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ape_invoicedetap_typeu">AP_TYPE         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ape_invoicedetap_typeu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.ape_invoicedetvendor_idg">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ape_invoicedetvendor_idg">APE_INVOICEDET  </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ape_invoicedetvendor_idg">VENDOR_ID       </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ape_invoicedetvendor_idg">G</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ape_invoicedetvendor_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ape_invoicedetvendor_idu">APE_INVOICEDET  </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ape_invoicedetvendor_idu">VENDOR_ID       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ape_invoicedetvendor_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.ape_invoicedetap_inv_nog">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ape_invoicedetap_inv_nog">APE_INVOICEDET  </DD_TABLE_ALIAS>
@@ -407,6 +417,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.ape_invoicedetgl_accountv">APE_INVOICEDET  </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ape_invoicedetgl_accountv">GL_ACCOUNT      </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ape_invoicedetgl_accountv">V</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ape_invoicedetgl_accountu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ape_invoicedetgl_accountu">APE_INVOICEDET  </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ape_invoicedetgl_accountu">GL_ACCOUNT      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ape_invoicedetgl_accountu">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.ape_invoicedetbatch_nog">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ape_invoicedetbatch_nog">APE_INVOICEDET  </DD_TABLE_ALIAS>

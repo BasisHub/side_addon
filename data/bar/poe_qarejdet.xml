@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.poe_qarejdet">B3F0835C489739CDF65C546E05E38300</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.poe_qarejdet">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.poe_qarejdet">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.poe_qarejdet">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.poe_qarejdet">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.poe_qarejdet">141512</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.poe_qarejdet">20100611</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.poe_qarejdet">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.poe_qarejdet">171630</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.poe_qarejdet">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.poe_qarejdet">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.poe_qarejdet">QA Receipt Rejection Detail</DD_ATTR_WINT>
@@ -112,7 +112,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_qarejdet001">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_qarejdet001">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_qarejdet001">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qarejdet001">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_qarejdet001">Firm ID</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qarejdet001">1</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_qarejdet002">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_qarejdet002">POE_QAREJDET    </DD_TABLE_ALIAS>
@@ -124,8 +126,12 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_qarejdet002">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_qarejdet002">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_qarejdet002">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.poe_qarejdet002">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.poe_qarejdet002">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABS id="ddm_table_cols.poe_qarejdet002">Vendor Num</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qarejdet002">6</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_qarejdet002">Vendor Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qarejdet002">2</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_qarejdet003">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_qarejdet003">POE_QAREJDET    </DD_TABLE_ALIAS>
@@ -137,7 +143,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_qarejdet003">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_qarejdet003">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_qarejdet003">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qarejdet003">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_qarejdet003">Receiver Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qarejdet003">3</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_qarejdet004">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_qarejdet004">POE_QAREJDET    </DD_TABLE_ALIAS>
@@ -149,7 +157,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_qarejdet004">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_qarejdet004">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_qarejdet004">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qarejdet004">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_qarejdet004">Purchase Order Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qarejdet004">4</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_qarejdet005">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_qarejdet005">POE_QAREJDET    </DD_TABLE_ALIAS>
@@ -161,7 +171,11 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_qarejdet005">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_qarejdet005">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_qarejdet005">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.poe_qarejdet005">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.poe_qarejdet005">0</DD_ATTR_CTLH>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qarejdet005">3</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_qarejdet005">Purchase Order Line Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qarejdet005">5</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_qarejdet006">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_qarejdet006">POE_QAREJDET    </DD_TABLE_ALIAS>
@@ -174,7 +188,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_qarejdet006">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_qarejdet006">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_qarejdet006">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qarejdet006">3</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_qarejdet006">Sequence Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qarejdet006">6</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_qarejdet007">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_qarejdet007">POE_QAREJDET    </DD_TABLE_ALIAS>
@@ -186,7 +202,11 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_qarejdet007">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_qarejdet007">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_qarejdet007">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.poe_qarejdet007">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.poe_qarejdet007">0</DD_ATTR_CTLH>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qarejdet007">3</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_qarejdet007">Rejection Code</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qarejdet007">7</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_qarejdet008">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_qarejdet008">POE_QAREJDET    </DD_TABLE_ALIAS>
@@ -198,7 +218,11 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_qarejdet008">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_qarejdet008">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_qarejdet008">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.poe_qarejdet008">150</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.poe_qarejdet008">0</DD_ATTR_CTLH>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qarejdet008">16</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_qarejdet008">AON Operator ID</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qarejdet008">8</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_qarejdet009">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_qarejdet009">POE_QAREJDET    </DD_TABLE_ALIAS>
@@ -210,7 +234,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_qarejdet009">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_qarejdet009">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_qarejdet009">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qarejdet009">15</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_qarejdet009">Return Authorization Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qarejdet009">9</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_qarejdet010">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_qarejdet010">POE_QAREJDET    </DD_TABLE_ALIAS>
@@ -223,7 +249,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_qarejdet010">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_qarejdet010">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_qarejdet010">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qarejdet010">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_qarejdet010">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qarejdet010">10</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_qarejdet011">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_qarejdet011">POE_QAREJDET    </DD_TABLE_ALIAS>
@@ -236,7 +264,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_qarejdet011">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_qarejdet011">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_qarejdet011">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qarejdet011">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_qarejdet011">Reserved For Dealer Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qarejdet011">11</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_qarejdet012">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_qarejdet012">POE_QAREJDET    </DD_TABLE_ALIAS>
@@ -249,7 +279,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_qarejdet012">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_qarejdet012">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_qarejdet012">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qarejdet012">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_qarejdet012">Quantity Rejected</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qarejdet012">12</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_qarejdet013">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_qarejdet013">POE_QAREJDET    </DD_TABLE_ALIAS>
@@ -262,7 +294,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_qarejdet013">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_qarejdet013">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_qarejdet013">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qarejdet013">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_qarejdet013">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qarejdet013">13</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_qarejdet014">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_qarejdet014">POE_QAREJDET    </DD_TABLE_ALIAS>
@@ -275,7 +309,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_qarejdet014">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_qarejdet014">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_qarejdet014">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qarejdet014">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_qarejdet014">Reserved For Dealer Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qarejdet014">14</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">
@@ -284,6 +320,21 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.poe_qarejdetfirm_ido">POE_QAREJDET    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.poe_qarejdetfirm_ido">FIRM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.poe_qarejdetfirm_ido">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.poe_qarejdetvendor_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poe_qarejdetvendor_idu">POE_QAREJDET    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poe_qarejdetvendor_idu">VENDOR_ID       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poe_qarejdetvendor_idu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.poe_qarejdetreject_codeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poe_qarejdetreject_codeu">POE_QAREJDET    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poe_qarejdetreject_codeu">REJECT_CODE     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poe_qarejdetreject_codeu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.poe_qarejdetuser_idh">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poe_qarejdetuser_idh">POE_QAREJDET    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poe_qarejdetuser_idh">USER_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poe_qarejdetuser_idh">H</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

@@ -17,9 +17,9 @@
 			<ASC_VERSION_ID id="ddm_tables.sfr_worderdet">9.0</ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.sfr_worderdet">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.sfr_worderdet">20080222</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.sfr_worderdet">20100225</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.sfr_worderdet">20090709</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.sfr_worderdet">115940</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.sfr_worderdet">20100610</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.sfr_worderdet">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.sfr_worderdet">171630</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.sfr_worderdet">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.sfr_worderdet">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.sfr_worderdet">[+DIR_PGM]sfr_worderdet.aon</DD_ATTR_PRUN>
@@ -273,6 +273,11 @@
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">
 		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
+		<RECORD id="ddm_column_opts.sfr_worderdetwarehouse_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_worderdetwarehouse_idu">SFR_WORDERDET   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfr_worderdetwarehouse_idu">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfr_worderdetwarehouse_idu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.sfr_worderdetwo_no1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_worderdetwo_no1">SFR_WORDERDET   </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.sfr_worderdetwo_no1">WO_NO           </DD_DVAR_NAME>
@@ -282,6 +287,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_worderdetwo_no2">SFR_WORDERDET   </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.sfr_worderdetwo_no2">WO_NO           </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.sfr_worderdetwo_no2">2</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sfr_worderdetwo_nou">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_worderdetwo_nou">SFR_WORDERDET   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfr_worderdetwo_nou">WO_NO           </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfr_worderdetwo_nou">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.sfr_worderdetwo_type1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_worderdetwo_type1">SFR_WORDERDET   </DD_TABLE_ALIAS>
@@ -293,6 +303,11 @@
 			<DD_DVAR_NAME id="ddm_column_opts.sfr_worderdetwo_type2">WO_TYPE         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.sfr_worderdetwo_type2">2</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.sfr_worderdetwo_typeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_worderdetwo_typeu">SFR_WORDERDET   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfr_worderdetwo_typeu">WO_TYPE         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfr_worderdetwo_typeu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.sfr_worderdetbill_no1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_worderdetbill_no1">SFR_WORDERDET   </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.sfr_worderdetbill_no1">BILL_NO         </DD_DVAR_NAME>
@@ -303,6 +318,11 @@
 			<DD_DVAR_NAME id="ddm_column_opts.sfr_worderdetbill_no2">BILL_NO         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.sfr_worderdetbill_no2">2</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.sfr_worderdetbill_nou">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_worderdetbill_nou">SFR_WORDERDET   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfr_worderdetbill_nou">BILL_NO         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfr_worderdetbill_nou">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.sfr_worderdetcustomer_id1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_worderdetcustomer_id1">SFR_WORDERDET   </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.sfr_worderdetcustomer_id1">CUSTOMER_ID     </DD_DVAR_NAME>
@@ -312,6 +332,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_worderdetcustomer_id2">SFR_WORDERDET   </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.sfr_worderdetcustomer_id2">CUSTOMER_ID     </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.sfr_worderdetcustomer_id2">2</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sfr_worderdetcustomer_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_worderdetcustomer_idu">SFR_WORDERDET   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfr_worderdetcustomer_idu">CUSTOMER_ID     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfr_worderdetcustomer_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

@@ -16,9 +16,9 @@
 			<ASC_VERSION_ID id="ddm_tables.arr_cashjournal">9.0</ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.arr_cashjournal">4B254AF2F79DF70B92B4D1B3F832A374</ASC_LICENSE_ID>
 			<DD_CREATE_DATE id="ddm_tables.arr_cashjournal">20060418</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.arr_cashjournal">20091105</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.arr_cashjournal">20090709</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.arr_cashjournal">115936</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.arr_cashjournal">20100607</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.arr_cashjournal">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.arr_cashjournal">171630</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.arr_cashjournal">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.arr_cashjournal">[+DIR_PGM]arr_cashjournal.aon   </DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.arr_cashjournal">Monthly Cash Receipts Journal</DD_ATTR_WINT>
@@ -188,6 +188,11 @@
 			<DD_DVAR_NAME id="ddm_column_opts.arr_cashjournalcustomer_id2">CUSTOMER_ID     </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.arr_cashjournalcustomer_id2">2</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.arr_cashjournalcustomer_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.arr_cashjournalcustomer_idu">ARR_CASHJOURNAL </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.arr_cashjournalcustomer_idu">CUSTOMER_ID     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.arr_cashjournalcustomer_idu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.arr_cashjournalalt_sequence1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.arr_cashjournalalt_sequence1">ARR_CASHJOURNAL </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.arr_cashjournalalt_sequence1">ALT_SEQUENCE    </DD_DVAR_NAME>
@@ -212,6 +217,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.arr_cashjournalcash_rec_cd3">ARR_CASHJOURNAL </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.arr_cashjournalcash_rec_cd3">CASH_REC_CD     </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.arr_cashjournalcash_rec_cd3">3</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.arr_cashjournalcash_rec_cdu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.arr_cashjournalcash_rec_cdu">ARR_CASHJOURNAL </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.arr_cashjournalcash_rec_cdu">CASH_REC_CD     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.arr_cashjournalcash_rec_cdu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

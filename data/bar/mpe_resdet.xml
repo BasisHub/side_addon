@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.mpe_resdet">6ADF1E21B9BCEE3FAC69D7CC592366CA</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.mpe_resdet">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.mpe_resdet">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.mpe_resdet">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.mpe_resdet">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.mpe_resdet">141522</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.mpe_resdet">20100611</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.mpe_resdet">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.mpe_resdet">171632</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.mpe_resdet">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.mpe_resdet">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.mpe_resdet">Resource Requirements Detail</DD_ATTR_WINT>
@@ -94,7 +94,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.mpe_resdet001">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.mpe_resdet001">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.mpe_resdet001">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.mpe_resdet001">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.mpe_resdet001">Firm ID</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.mpe_resdet001">1</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.mpe_resdet002">
 			<DD_TABLE_ALIAS id="ddm_table_cols.mpe_resdet002">MPE_RESDET      </DD_TABLE_ALIAS>
@@ -106,7 +108,11 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.mpe_resdet002">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.mpe_resdet002">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.mpe_resdet002">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.mpe_resdet002">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.mpe_resdet002">0</DD_ATTR_CTLH>
+			<DD_ATTR_MAXL id="ddm_table_cols.mpe_resdet002">3</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.mpe_resdet002">MRP Forecast Type</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.mpe_resdet002">2</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.mpe_resdet003">
 			<DD_TABLE_ALIAS id="ddm_table_cols.mpe_resdet003">MPE_RESDET      </DD_TABLE_ALIAS>
@@ -118,7 +124,11 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.mpe_resdet003">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.mpe_resdet003">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.mpe_resdet003">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.mpe_resdet003">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.mpe_resdet003">0</DD_ATTR_CTLH>
+			<DD_ATTR_MAXL id="ddm_table_cols.mpe_resdet003">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.mpe_resdet003">Warehouse ID</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.mpe_resdet003">3</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.mpe_resdet004">
 			<DD_TABLE_ALIAS id="ddm_table_cols.mpe_resdet004">MPE_RESDET      </DD_TABLE_ALIAS>
@@ -131,7 +141,11 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.mpe_resdet004">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.mpe_resdet004">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.mpe_resdet004">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.mpe_resdet004">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.mpe_resdet004">0</DD_ATTR_CTLH>
+			<DD_ATTR_MAXL id="ddm_table_cols.mpe_resdet004">3</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.mpe_resdet004">Operation Code</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.mpe_resdet004">4</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.mpe_resdet005">
 			<DD_TABLE_ALIAS id="ddm_table_cols.mpe_resdet005">MPE_RESDET      </DD_TABLE_ALIAS>
@@ -144,7 +158,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.mpe_resdet005">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.mpe_resdet005">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.mpe_resdet005">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.mpe_resdet005">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.mpe_resdet005">Quantity Required Per Period</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.mpe_resdet005">5</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">
@@ -153,6 +169,21 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.mpe_resdetfirm_ido">MPE_RESDET      </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.mpe_resdetfirm_ido">FIRM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.mpe_resdetfirm_ido">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.mpe_resdetforecastu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.mpe_resdetforecastu">MPE_RESDET      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.mpe_resdetforecastu">FORECAST        </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.mpe_resdetforecastu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.mpe_resdetwarehouse_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.mpe_resdetwarehouse_idu">MPE_RESDET      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.mpe_resdetwarehouse_idu">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.mpe_resdetwarehouse_idu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.mpe_resdetop_codeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.mpe_resdetop_codeu">MPE_RESDET      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.mpe_resdetop_codeu">OP_CODE         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.mpe_resdetop_codeu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

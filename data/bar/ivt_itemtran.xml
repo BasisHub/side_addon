@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.ivt_itemtran">41B20713E8744975401077D66C480F2F</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ivt_itemtran">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ivt_itemtran">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ivt_itemtran">20100402</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivt_itemtran">20100401</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivt_itemtran">225750</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ivt_itemtran">20100611</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivt_itemtran">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivt_itemtran">171630</DD_LSTSYNC_TIME>
 			<DD_ATTR_DKNM id="ddm_tables.ivt_itemtran">AO_ITEM_WH_DATE</DD_ATTR_DKNM>
 			<DD_ATTR_FTYP id="ddm_tables.ivt_itemtran">G</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.ivt_itemtran">zzzz</DD_ATTR_SLEV>
@@ -661,6 +661,16 @@
 			<DD_DVAR_NAME id="ddm_column_opts.ivt_itemtranfirm_ido">FIRM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ivt_itemtranfirm_ido">O</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.ivt_itemtranwarehouse_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivt_itemtranwarehouse_idu">IVT_ITEMTRAN    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivt_itemtranwarehouse_idu">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivt_itemtranwarehouse_idu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivt_itemtranitem_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivt_itemtranitem_idu">IVT_ITEMTRAN    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivt_itemtranitem_idu">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivt_itemtranitem_idu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.ivt_itemtrantrans_ref_1g">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivt_itemtrantrans_ref_1g">IVT_ITEMTRAN    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ivt_itemtrantrans_ref_1g">TRANS_REF_1     </DD_DVAR_NAME>
@@ -1118,7 +1128,7 @@
 			<DD_DATA_LENGTH id="ddm_elements.user_id">16</DD_DATA_LENGTH>
 			<DD_SYSTEM_REC id="ddm_elements.user_id">Y</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_elements.user_id">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.user_id">ADB</ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.user_id">BAR</ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.user_id">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_elements.user_id">20080110</DD_LSTREV_DATE>
 			<DD_AUTO_COMP id="ddm_elements.user_id">Y</DD_AUTO_COMP>

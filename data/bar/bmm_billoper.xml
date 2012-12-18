@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.bmm_billoper">553BBC53C1671D660F283871212AB8C1</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.bmm_billoper">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.bmm_billoper">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.bmm_billoper">20100402</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.bmm_billoper">20100401</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.bmm_billoper">225750</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.bmm_billoper">20100611</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.bmm_billoper">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.bmm_billoper">171632</DD_LSTSYNC_TIME>
 			<DD_ATTR_DKNM id="ddm_tables.bmm_billoper">AO_BILL_OPSEQ</DD_ATTR_DKNM>
 			<DD_ATTR_FTYP id="ddm_tables.bmm_billoper">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.bmm_billoper">zzzz</DD_ATTR_SLEV>
@@ -433,6 +433,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.bmm_billoperfirm_ido">BMM_BILLOPER    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.bmm_billoperfirm_ido">FIRM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.bmm_billoperfirm_ido">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.bmm_billoperop_codeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.bmm_billoperop_codeu">BMM_BILLOPER    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.bmm_billoperop_codeu">OP_CODE         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.bmm_billoperop_codeu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

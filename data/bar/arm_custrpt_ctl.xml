@@ -18,9 +18,9 @@
 			<ASC_VERSION_ID id="ddm_tables.arm_custrpt_ctl">9.0</ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.arm_custrpt_ctl">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.arm_custrpt_ctl">20080707</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.arm_custrpt_ctl">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.arm_custrpt_ctl">20100331</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.arm_custrpt_ctl">225626</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.arm_custrpt_ctl">20100611</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.arm_custrpt_ctl">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.arm_custrpt_ctl">171630</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.arm_custrpt_ctl">[+DIR_CPP]arm_custrpt_ctl_cpt.bbj</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.arm_custrpt_ctl">T</DD_ATTR_FTYP>
 			<DD_ATTR_PTAB id="ddm_tables.arm_custrpt_ctl">ARM_CUSTMAST    </DD_ATTR_PTAB>
@@ -573,6 +573,11 @@
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">
 		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
+		<RECORD id="ddm_column_opts.arm_custrpt_ctlcustomer_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.arm_custrpt_ctlcustomer_idu">ARM_CUSTRPT_CTL </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.arm_custrpt_ctlcustomer_idu">CUSTOMER_ID     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.arm_custrpt_ctlcustomer_idu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.arm_custrpt_ctlfax_nose">
 			<DD_TABLE_ALIAS id="ddm_column_opts.arm_custrpt_ctlfax_nose">ARM_CUSTRPT_CTL </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.arm_custrpt_ctlfax_nose">FAX_NOS         </DD_DVAR_NAME>

@@ -20,9 +20,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.opc_taxcode">639F8172CD1603B94578ED720D331858</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.opc_taxcode">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.opc_taxcode">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.opc_taxcode">20091207</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.opc_taxcode">20090701</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.opc_taxcode">141148</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.opc_taxcode">20100611</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.opc_taxcode">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.opc_taxcode">171632</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.opc_taxcode">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.opc_taxcode">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.opc_taxcode">zzzz</DD_ATTR_SLEV>
@@ -728,6 +728,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.opc_taxcodeop_tax_codeb">OPC_TAXCODE     </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.opc_taxcodeop_tax_codeb">OP_TAX_CODE     </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.opc_taxcodeop_tax_codeb">b</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.opc_taxcodegl_accountu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.opc_taxcodegl_accountu">OPC_TAXCODE     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.opc_taxcodegl_accountu">GL_ACCOUNT      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.opc_taxcodegl_accountu">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.opc_taxcodetax_rate_01c">
 			<DD_TABLE_ALIAS id="ddm_column_opts.opc_taxcodetax_rate_01c">OPC_TAXCODE     </DD_TABLE_ALIAS>

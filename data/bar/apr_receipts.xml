@@ -18,9 +18,9 @@
 			<ASC_VERSION_ID id="ddm_tables.apr_receipts">9.0</ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.apr_receipts">FA4F64F4E48EF2666633076EB16B6F22</ASC_LICENSE_ID>
 			<DD_CREATE_DATE id="ddm_tables.apr_receipts">20061115</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.apr_receipts">20090910</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.apr_receipts">20090709</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.apr_receipts">115940</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.apr_receipts">20100607</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.apr_receipts">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.apr_receipts">171632</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.apr_receipts">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.apr_receipts">[+DIR_PGM]apr_receipts.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.apr_receipts">Receipt History Inquiry</DD_ATTR_WINT>
@@ -75,6 +75,14 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.apr_receipts003">56</DD_ATTR_CTLW>
 			<DD_ATTR_MAXL id="ddm_table_cols.apr_receipts003">7</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.apr_receipts003">3</DD_ATTR_TIND>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_column_opts">
+		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
+		<RECORD id="ddm_column_opts.apr_receiptsvendor_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.apr_receiptsvendor_idu">APR_RECEIPTS    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.apr_receiptsvendor_idu">VENDOR_ID       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.apr_receiptsvendor_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

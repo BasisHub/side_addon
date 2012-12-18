@@ -18,9 +18,9 @@
 			<ASC_VERSION_ID id="ddm_tables.ope_creditaction">9.0</ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ope_creditaction">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ope_creditaction">20090710</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ope_creditaction">20100226</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ope_creditaction">20100225</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ope_creditaction">131724</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ope_creditaction">20100610</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ope_creditaction">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ope_creditaction">171632</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ope_creditaction">../apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ope_creditaction">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.ope_creditaction">[+DIR_PGM]adx_dummy.aon</DD_ATTR_PRUN>
@@ -247,6 +247,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.ope_creditactionar_terms_codee">OPE_CREDITACTION</DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ope_creditactionar_terms_codee">AR_TERMS_CODE   </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ope_creditactionar_terms_codee">E</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ope_creditactionar_terms_codeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ope_creditactionar_terms_codeu">OPE_CREDITACTION</DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ope_creditactionar_terms_codeu">AR_TERMS_CODE   </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ope_creditactionar_terms_codeu">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.ope_creditactionenter_cred_pswrdp">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ope_creditactionenter_cred_pswrdp">OPE_CREDITACTION</DD_TABLE_ALIAS>

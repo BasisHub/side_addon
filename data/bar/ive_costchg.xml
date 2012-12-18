@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.ive_costchg">62B422DEA33C63453ED9B1D5FFEFE028</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ive_costchg">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ive_costchg">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ive_costchg">20100519</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ive_costchg">20091030</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ive_costchg">225126</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ive_costchg">20100623</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ive_costchg">20100611</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ive_costchg">215812</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ive_costchg">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ive_costchg">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.ive_costchg">zzzz</DD_ATTR_SLEV>
@@ -383,6 +383,16 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.ive_costchgfirm_ido">IVE_COSTCHG     </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ive_costchgfirm_ido">FIRM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ive_costchgfirm_ido">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ive_costchgwarehouse_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ive_costchgwarehouse_idu">IVE_COSTCHG     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ive_costchgwarehouse_idu">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ive_costchgwarehouse_idu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ive_costchgitem_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ive_costchgitem_idu">IVE_COSTCHG     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ive_costchgitem_idu">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ive_costchgitem_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.ive_costchgstd_costc">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ive_costchgstd_costc">IVE_COSTCHG     </DD_TABLE_ALIAS>

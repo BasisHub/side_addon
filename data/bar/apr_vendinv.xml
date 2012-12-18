@@ -13,9 +13,9 @@
 			<ASC_VERSION_ID id="ddm_tables.apr_vendinv">9.0</ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.apr_vendinv">F158EABEE91A1188EC1E8894C8291392</ASC_LICENSE_ID>
 			<DD_CREATE_DATE id="ddm_tables.apr_vendinv">20061115</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.apr_vendinv">20100112</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.apr_vendinv">20100112</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.apr_vendinv">221436</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.apr_vendinv">20100607</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.apr_vendinv">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.apr_vendinv">171630</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.apr_vendinv">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.apr_vendinv">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.apr_vendinv">[+DIR_PGM]apr_vendinv.aon</DD_ATTR_PRUN>
@@ -87,6 +87,19 @@
 			<DD_ATTR_LABL id="ddm_table_cols.apr_vendinv004">Paid/Unpaid/Both</DD_ATTR_LABL>
 			<DD_ATTR_MAXL id="ddm_table_cols.apr_vendinv004">1</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.apr_vendinv004">4</DD_ATTR_TIND>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_column_opts">
+		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
+		<RECORD id="ddm_column_opts.apr_vendinvvendor_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.apr_vendinvvendor_idu">APR_VENDINV     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.apr_vendinvvendor_idu">VENDOR_ID       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.apr_vendinvvendor_idu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.apr_vendinvap_typeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.apr_vendinvap_typeu">APR_VENDINV     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.apr_vendinvap_typeu">AP_TYPE         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.apr_vendinvap_typeu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

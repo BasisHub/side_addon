@@ -18,9 +18,9 @@
 			<ASC_VERSION_ID id="ddm_tables.sfr_wodet">9.0</ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.sfr_wodet">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.sfr_wodet">20080221</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.sfr_wodet">20100225</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.sfr_wodet">20090709</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.sfr_wodet">115936</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.sfr_wodet">20100610</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.sfr_wodet">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.sfr_wodet">171630</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.sfr_wodet">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.sfr_wodet">S</DD_ATTR_FTYP>
 			<DD_ATTR_WINT id="ddm_tables.sfr_wodet">Test OE form for Shop Floor WO Detail</DD_ATTR_WINT>
@@ -176,6 +176,11 @@
 			<DD_DVAR_NAME id="ddm_column_opts.sfr_wodetwo_type2">WO_TYPE         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.sfr_wodetwo_type2">2</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.sfr_wodetwo_typeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_wodetwo_typeu">SFR_WODET       </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfr_wodetwo_typeu">WO_TYPE         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfr_wodetwo_typeu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.sfr_wodetwo_no1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_wodetwo_no1">SFR_WODET       </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.sfr_wodetwo_no1">WO_NO           </DD_DVAR_NAME>
@@ -185,6 +190,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_wodetwo_no2">SFR_WODET       </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.sfr_wodetwo_no2">WO_NO           </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.sfr_wodetwo_no2">2</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sfr_wodetwo_nou">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_wodetwo_nou">SFR_WODET       </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfr_wodetwo_nou">WO_NO           </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfr_wodetwo_nou">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.sfr_wodetcustomer_id1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_wodetcustomer_id1">SFR_WODET       </DD_TABLE_ALIAS>
@@ -196,6 +206,11 @@
 			<DD_DVAR_NAME id="ddm_column_opts.sfr_wodetcustomer_id2">CUSTOMER_ID     </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.sfr_wodetcustomer_id2">2</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.sfr_wodetcustomer_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_wodetcustomer_idu">SFR_WODET       </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfr_wodetcustomer_idu">CUSTOMER_ID     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfr_wodetcustomer_idu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.sfr_wodetbill_no1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_wodetbill_no1">SFR_WODET       </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.sfr_wodetbill_no1">BILL_NO         </DD_DVAR_NAME>
@@ -205,6 +220,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_wodetbill_no2">SFR_WODET       </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.sfr_wodetbill_no2">BILL_NO         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.sfr_wodetbill_no2">2</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sfr_wodetbill_nou">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_wodetbill_nou">SFR_WODET       </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfr_wodetbill_nou">BILL_NO         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfr_wodetbill_nou">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

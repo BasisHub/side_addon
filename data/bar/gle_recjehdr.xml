@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.gle_recjehdr">60A5283F5606F97C10CE229FBA7FC21F</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.gle_recjehdr">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.gle_recjehdr">20060515</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.gle_recjehdr">20100223</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.gle_recjehdr">20100208</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.gle_recjehdr">120058</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.gle_recjehdr">20100611</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.gle_recjehdr">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.gle_recjehdr">171632</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.gle_recjehdr">../apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.gle_recjehdr">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.gle_recjehdr">zzzz</DD_ATTR_SLEV>
@@ -362,10 +362,20 @@
 			<DD_DVAR_NAME id="ddm_column_opts.gle_recjehdrfirm_ido">FIRM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.gle_recjehdrfirm_ido">O</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.gle_recjehdrjournal_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.gle_recjehdrjournal_idu">GLE_RECJEHDR    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.gle_recjehdrjournal_idu">JOURNAL_ID      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.gle_recjehdrjournal_idu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.gle_recjehdrje_trans_idk">
 			<DD_TABLE_ALIAS id="ddm_column_opts.gle_recjehdrje_trans_idk">GLE_RECJEHDR    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.gle_recjehdrje_trans_idk">JE_TRANS_ID     </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.gle_recjehdrje_trans_idk">K</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.gle_recjehdrcycle_codeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.gle_recjehdrcycle_codeu">GLE_RECJEHDR    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.gle_recjehdrcycle_codeu">CYCLE_CODE      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.gle_recjehdrcycle_codeu">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.gle_recjehdrdebit_amtc">
 			<DD_TABLE_ALIAS id="ddm_column_opts.gle_recjehdrdebit_amtc">GLE_RECJEHDR    </DD_TABLE_ALIAS>

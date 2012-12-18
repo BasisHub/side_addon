@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.apm_vendhist">D879CB11C862689876536F5DAEAA40A8</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.apm_vendhist">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.apm_vendhist">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.apm_vendhist">20100113</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.apm_vendhist">20100113</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.apm_vendhist">095254</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.apm_vendhist">20100611</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.apm_vendhist">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.apm_vendhist">171630</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.apm_vendhist">../apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.apm_vendhist">T</DD_ATTR_FTYP>
 			<DD_ATTR_PTAB id="ddm_tables.apm_vendhist">APM_VENDMAST    </DD_ATTR_PTAB>
@@ -587,6 +587,26 @@
 			<DD_DVAR_NAME id="ddm_column_opts.apm_vendhistvendor_idc">VENDOR_ID       </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.apm_vendhistvendor_idc">C</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.apm_vendhistap_typeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.apm_vendhistap_typeu">APM_VENDHIST    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.apm_vendhistap_typeu">AP_TYPE         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.apm_vendhistap_typeu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.apm_vendhistap_dist_codeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.apm_vendhistap_dist_codeu">APM_VENDHIST    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.apm_vendhistap_dist_codeu">AP_DIST_CODE    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.apm_vendhistap_dist_codeu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.apm_vendhistpayment_grpu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.apm_vendhistpayment_grpu">APM_VENDHIST    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.apm_vendhistpayment_grpu">PAYMENT_GRP     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.apm_vendhistpayment_grpu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.apm_vendhistap_terms_codeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.apm_vendhistap_terms_codeu">APM_VENDHIST    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.apm_vendhistap_terms_codeu">AP_TERMS_CODE   </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.apm_vendhistap_terms_codeu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.apm_vendhistlstinv_datec">
 			<DD_TABLE_ALIAS id="ddm_column_opts.apm_vendhistlstinv_datec">APM_VENDHIST    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.apm_vendhistlstinv_datec">LSTINV_DATE     </DD_DVAR_NAME>
@@ -596,6 +616,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.apm_vendhistlstpay_datec">APM_VENDHIST    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.apm_vendhistlstpay_datec">LSTPAY_DATE     </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.apm_vendhistlstpay_datec">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.apm_vendhistgl_accountu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.apm_vendhistgl_accountu">APM_VENDHIST    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.apm_vendhistgl_accountu">GL_ACCOUNT      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.apm_vendhistgl_accountu">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.apm_vendhistopen_invsc">
 			<DD_TABLE_ALIAS id="ddm_column_opts.apm_vendhistopen_invsc">APM_VENDHIST    </DD_TABLE_ALIAS>

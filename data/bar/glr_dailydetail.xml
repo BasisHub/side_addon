@@ -16,9 +16,9 @@
 			<ASC_VERSION_ID id="ddm_tables.glr_dailydetail">9.0</ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.glr_dailydetail">C6115C7111FFD30BC20148E1ABA8B7EF</ASC_LICENSE_ID>
 			<DD_CREATE_DATE id="ddm_tables.glr_dailydetail">20060522</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.glr_dailydetail">20091214</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.glr_dailydetail">20091027</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.glr_dailydetail">212142</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.glr_dailydetail">20100610</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.glr_dailydetail">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.glr_dailydetail">171630</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.glr_dailydetail">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.glr_dailydetail">[+DIR_PGM]glr_dailydetail.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.glr_dailydetail">Daily Detail Register</DD_ATTR_WINT>
@@ -160,6 +160,16 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.glr_dailydetailgl_account2">GLR_DAILYDETAIL </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.glr_dailydetailgl_account2">GL_ACCOUNT      </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.glr_dailydetailgl_account2">2</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.glr_dailydetailgl_accountu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.glr_dailydetailgl_accountu">GLR_DAILYDETAIL </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.glr_dailydetailgl_accountu">GL_ACCOUNT      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.glr_dailydetailgl_accountu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.glr_dailydetailjournal_id_entryu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.glr_dailydetailjournal_id_entryu">GLR_DAILYDETAIL </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.glr_dailydetailjournal_id_entryu">JOURNAL_ID_ENTRY</DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.glr_dailydetailjournal_id_entryu">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.glr_dailydetailgl_adt_no1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.glr_dailydetailgl_adt_no1">GLR_DAILYDETAIL </DD_TABLE_ALIAS>

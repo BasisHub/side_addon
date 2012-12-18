@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.poe_podet">CAECFA361FDD3C6AC5A607CD13BA554F</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.poe_podet">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.poe_podet">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.poe_podet">20100527</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.poe_podet">20100520</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.poe_podet">225804</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.poe_podet">20100611</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.poe_podet">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.poe_podet">171630</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.poe_podet">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_DKNM id="ddm_tables.poe_podet">DISPLAY_KEY</DD_ATTR_DKNM>
 			<DD_ATTR_FTYP id="ddm_tables.poe_podet">G</DD_ATTR_FTYP>
@@ -1107,6 +1107,11 @@
 			<DD_DVAR_NAME id="ddm_column_opts.poe_podetwarehouse_idc">WAREHOUSE_ID    </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.poe_podetwarehouse_idc">C</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.poe_podetwarehouse_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poe_podetwarehouse_idu">POE_PODET       </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poe_podetwarehouse_idu">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poe_podetwarehouse_idu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.poe_podetitem_idb">
 			<DD_TABLE_ALIAS id="ddm_column_opts.poe_podetitem_idb">POE_PODET       </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.poe_podetitem_idb">ITEM_ID         </DD_DVAR_NAME>
@@ -1116,6 +1121,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.poe_podetitem_idv">POE_PODET       </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.poe_podetitem_idv">ITEM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.poe_podetitem_idv">V</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.poe_podetitem_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poe_podetitem_idu">POE_PODET       </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poe_podetitem_idu">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poe_podetitem_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.poe_podetreq_qtyo">
 			<DD_TABLE_ALIAS id="ddm_column_opts.poe_podetreq_qtyo">POE_PODET       </DD_TABLE_ALIAS>

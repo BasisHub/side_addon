@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.poe_qadet">4C2E5EBBBCA2A8E001EB168853E5C54E</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.poe_qadet">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.poe_qadet">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.poe_qadet">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.poe_qadet">20100401</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.poe_qadet">130112</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.poe_qadet">20100611</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.poe_qadet">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.poe_qadet">171630</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.poe_qadet">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.poe_qadet">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.poe_qadet">QA Receipt Detail</DD_ATTR_WINT>
@@ -130,7 +130,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_qadet001">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_qadet001">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_qadet001">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qadet001">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_qadet001">Firm ID</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qadet001">1</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_qadet002">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_qadet002">POE_QADET       </DD_TABLE_ALIAS>
@@ -142,7 +144,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_qadet002">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_qadet002">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_qadet002">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qadet002">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_qadet002">Receiver Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qadet002">2</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_qadet003">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_qadet003">POE_QADET       </DD_TABLE_ALIAS>
@@ -154,7 +158,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_qadet003">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_qadet003">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_qadet003">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qadet003">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_qadet003">Purchase Order Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qadet003">3</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_qadet004">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_qadet004">POE_QADET       </DD_TABLE_ALIAS>
@@ -167,7 +173,11 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_qadet004">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_qadet004">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_qadet004">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.poe_qadet004">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.poe_qadet004">0</DD_ATTR_CTLH>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qadet004">3</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_qadet004">Purchase Order Line Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qadet004">4</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_qadet005">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_qadet005">POE_QADET       </DD_TABLE_ALIAS>
@@ -179,7 +189,11 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_qadet005">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_qadet005">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_qadet005">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.poe_qadet005">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.poe_qadet005">0</DD_ATTR_CTLH>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qadet005">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_qadet005">Purchase Order Line Code</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qadet005">5</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_qadet006">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_qadet006">POE_QADET       </DD_TABLE_ALIAS>
@@ -191,7 +205,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_qadet006">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_qadet006">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_qadet006">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qadet006">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_qadet006">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qadet006">6</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_qadet007">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_qadet007">POE_QADET       </DD_TABLE_ALIAS>
@@ -203,7 +219,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_qadet007">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_qadet007">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_qadet007">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qadet007">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_qadet007">Use Line for Lead Time Calc?</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qadet007">7</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_qadet008">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_qadet008">POE_QADET       </DD_TABLE_ALIAS>
@@ -215,7 +233,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_qadet008">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_qadet008">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_qadet008">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qadet008">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_qadet008">Unit of Measure</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qadet008">8</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_qadet009">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_qadet009">POE_QADET       </DD_TABLE_ALIAS>
@@ -227,7 +247,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_qadet009">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_qadet009">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_qadet009">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qadet009">10</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_qadet009">Warehouse Location</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qadet009">9</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_qadet010">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_qadet010">POE_QADET       </DD_TABLE_ALIAS>
@@ -239,7 +261,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_qadet010">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_qadet010">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_qadet010">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qadet010">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_qadet010">Source</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qadet010">10</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_qadet011">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_qadet011">POE_QADET       </DD_TABLE_ALIAS>
@@ -251,7 +275,11 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_qadet011">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_qadet011">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_qadet011">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.poe_qadet011">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.poe_qadet011">0</DD_ATTR_CTLH>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qadet011">3</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_qadet011">MRP Forecast Type</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qadet011">11</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_qadet012">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_qadet012">POE_QADET       </DD_TABLE_ALIAS>
@@ -263,7 +291,11 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_qadet012">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_qadet012">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_qadet012">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.poe_qadet012">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.poe_qadet012">0</DD_ATTR_CTLH>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qadet012">3</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_qadet012">PO Standard Message Code</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qadet012">12</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_qadet013">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_qadet013">POE_QADET       </DD_TABLE_ALIAS>
@@ -275,7 +307,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_qadet013">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_qadet013">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_qadet013">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qadet013">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_qadet013">Update Flag</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qadet013">13</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_qadet014">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_qadet014">POE_QADET       </DD_TABLE_ALIAS>
@@ -287,7 +321,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_qadet014">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_qadet014">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_qadet014">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qadet014">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_qadet014">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qadet014">14</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_qadet015">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_qadet015">POE_QADET       </DD_TABLE_ALIAS>
@@ -299,7 +335,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_qadet015">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_qadet015">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_qadet015">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qadet015">8</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_qadet015">Date Required</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qadet015">15</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_qadet016">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_qadet016">POE_QADET       </DD_TABLE_ALIAS>
@@ -311,7 +349,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_qadet016">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_qadet016">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_qadet016">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qadet016">8</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_qadet016">Delivery Promised By Date</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qadet016">16</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_qadet017">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_qadet017">POE_QADET       </DD_TABLE_ALIAS>
@@ -324,7 +364,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_qadet017">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_qadet017">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_qadet017">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qadet017">8</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_qadet017">Don't Deliver Before Date</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qadet017">17</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_qadet018">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_qadet018">POE_QADET       </DD_TABLE_ALIAS>
@@ -336,7 +378,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_qadet018">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_qadet018">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_qadet018">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qadet018">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_qadet018">Work Order Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qadet018">18</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_qadet019">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_qadet019">POE_QADET       </DD_TABLE_ALIAS>
@@ -348,7 +392,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_qadet019">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_qadet019">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_qadet019">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qadet019">3</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_qadet019">Sequence Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qadet019">19</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_qadet020">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_qadet020">POE_QADET       </DD_TABLE_ALIAS>
@@ -360,7 +406,11 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_qadet020">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_qadet020">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_qadet020">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.poe_qadet020">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.poe_qadet020">0</DD_ATTR_CTLH>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qadet020">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_qadet020">Warehouse ID</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qadet020">20</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_qadet021">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_qadet021">POE_QADET       </DD_TABLE_ALIAS>
@@ -373,8 +423,10 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_qadet021">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_qadet021">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_qadet021">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_LABS id="ddm_table_cols.poe_qadet021">Inventory </DD_ATTR_LABS>
+			<DD_ATTR_LABS id="ddm_table_cols.poe_qadet021">Inventory</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qadet021">20</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_qadet021">Inventory Item Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qadet021">21</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_qadet022">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_qadet022">POE_QADET       </DD_TABLE_ALIAS>
@@ -387,7 +439,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_qadet022">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_qadet022">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_qadet022">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qadet022">40</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_qadet022">Memo / Non-Stock Description</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qadet022">22</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_qadet023">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_qadet023">POE_QADET       </DD_TABLE_ALIAS>
@@ -400,7 +454,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_qadet023">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_qadet023">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_qadet023">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qadet023">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_qadet023">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qadet023">23</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_qadet024">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_qadet024">POE_QADET       </DD_TABLE_ALIAS>
@@ -413,7 +469,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_qadet024">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_qadet024">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_qadet024">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qadet024">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_qadet024">Reserved For Dealer Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qadet024">24</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_qadet025">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_qadet025">POE_QADET       </DD_TABLE_ALIAS>
@@ -426,7 +484,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_qadet025">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_qadet025">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_qadet025">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qadet025">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_qadet025">Conversion Factor</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qadet025">25</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_qadet026">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_qadet026">POE_QADET       </DD_TABLE_ALIAS>
@@ -439,7 +499,10 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_qadet026">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_qadet026">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_qadet026">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.poe_qadet026">0</DD_ATTR_CTLW>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qadet026">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_qadet026">Unit Cost</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qadet026">26</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_qadet027">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_qadet027">POE_QADET       </DD_TABLE_ALIAS>
@@ -452,7 +515,11 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_qadet027">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_qadet027">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_qadet027">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.poe_qadet027">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.poe_qadet027">0</DD_ATTR_CTLH>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qadet027">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_qadet027">Requisition Quantity</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qadet027">27</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_qadet028">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_qadet028">POE_QADET       </DD_TABLE_ALIAS>
@@ -465,7 +532,11 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_qadet028">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_qadet028">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_qadet028">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.poe_qadet028">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.poe_qadet028">0</DD_ATTR_CTLH>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qadet028">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_qadet028">Quantity Ordered</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qadet028">28</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_qadet029">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_qadet029">POE_QADET       </DD_TABLE_ALIAS>
@@ -478,7 +549,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_qadet029">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_qadet029">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_qadet029">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qadet029">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_qadet029">QA Work in Process Quantity</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qadet029">29</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_qadet030">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_qadet030">POE_QADET       </DD_TABLE_ALIAS>
@@ -491,7 +564,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_qadet030">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_qadet030">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_qadet030">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qadet030">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_qadet030">QA Quantity Received</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qadet030">30</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_qadet031">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_qadet031">POE_QADET       </DD_TABLE_ALIAS>
@@ -504,7 +579,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_qadet031">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_qadet031">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_qadet031">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qadet031">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_qadet031">QA Quantity Rejected</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qadet031">31</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_qadet032">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_qadet032">POE_QADET       </DD_TABLE_ALIAS>
@@ -517,7 +594,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_qadet032">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_qadet032">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_qadet032">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qadet032">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_qadet032">Quantity Received</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qadet032">32</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_qadet033">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_qadet033">POE_QADET       </DD_TABLE_ALIAS>
@@ -530,7 +609,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_qadet033">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_qadet033">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_qadet033">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qadet033">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_qadet033">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qadet033">33</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_qadet034">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_qadet034">POE_QADET       </DD_TABLE_ALIAS>
@@ -543,7 +624,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_qadet034">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_qadet034">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_qadet034">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qadet034">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_qadet034">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qadet034">34</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_qadet035">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_qadet035">POE_QADET       </DD_TABLE_ALIAS>
@@ -556,7 +639,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_qadet035">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_qadet035">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_qadet035">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qadet035">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_qadet035">Reserved For Dealer Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qadet035">35</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_qadet036">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_qadet036">POE_QADET       </DD_TABLE_ALIAS>
@@ -575,8 +660,8 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.poe_qadet036">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.poe_qadet036">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.poe_qadet036">N</DD_ATTR_MLAN>
-			<DD_ATTR_MINL id="ddm_table_cols.poe_qadet036">0</DD_ATTR_MINL>
-			<DD_ATTR_MAXL id="ddm_table_cols.poe_qadet036">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_qadet036">20</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_qadet036">36</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_cmts">
@@ -600,6 +685,26 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.poe_qadetfirm_ido">POE_QADET       </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.poe_qadetfirm_ido">FIRM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.poe_qadetfirm_ido">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.poe_qadetforecastu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poe_qadetforecastu">POE_QADET       </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poe_qadetforecastu">FORECAST        </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poe_qadetforecastu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.poe_qadetpo_msg_codeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poe_qadetpo_msg_codeu">POE_QADET       </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poe_qadetpo_msg_codeu">PO_MSG_CODE     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poe_qadetpo_msg_codeu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.poe_qadetwarehouse_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poe_qadetwarehouse_idu">POE_QADET       </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poe_qadetwarehouse_idu">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poe_qadetwarehouse_idu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.poe_qadetitem_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poe_qadetitem_idu">POE_QADET       </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poe_qadetitem_idu">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poe_qadetitem_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

@@ -19,9 +19,9 @@
 			<ASC_VERSION_ID id="ddm_tables.adm_userdefaults">9.0</ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.adm_userdefaults">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.adm_userdefaults">20090421</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.adm_userdefaults">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.adm_userdefaults">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.adm_userdefaults">141604</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.adm_userdefaults">20100611</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.adm_userdefaults">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.adm_userdefaults">171632</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.adm_userdefaults">/devel/main/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.adm_userdefaults">T</DD_ATTR_FTYP>
 			<DD_ATTR_WINT id="ddm_tables.adm_userdefaults">User Defaults by Firm</DD_ATTR_WINT>
@@ -202,10 +202,10 @@
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">
 		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
-		<RECORD id="ddm_column_opts.adm_userdefaultsuser_idh">
-			<DD_TABLE_ALIAS id="ddm_column_opts.adm_userdefaultsuser_idh">ADM_USERDEFAULTS</DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.adm_userdefaultsuser_idh">USER_ID         </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.adm_userdefaultsuser_idh">H</DD_ATTR_OPTS>
+		<RECORD id="ddm_column_opts.adm_userdefaultsuser_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.adm_userdefaultsuser_idu">ADM_USERDEFAULTS</DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.adm_userdefaultsuser_idu">USER_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.adm_userdefaultsuser_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

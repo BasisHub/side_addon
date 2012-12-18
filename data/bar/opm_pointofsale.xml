@@ -19,9 +19,9 @@
 			<ASC_VERSION_ID id="ddm_tables.opm_pointofsale">9.0</ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.opm_pointofsale">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.opm_pointofsale">20090413</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.opm_pointofsale">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.opm_pointofsale">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.opm_pointofsale">141518</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.opm_pointofsale">20100611</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.opm_pointofsale">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.opm_pointofsale">171630</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.opm_pointofsale">/devel/main/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.opm_pointofsale">T</DD_ATTR_FTYP>
 			<DD_ATTR_WINT id="ddm_tables.opm_pointofsale">Order Processing Point of Sale</DD_ATTR_WINT>
@@ -534,6 +534,14 @@
 			<DD_TABLE_ALIAS id="ddm_column_cpro.opm_pointofsalelast_mdp_hexaval">OPM_POINTOFSALE </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_cpro.opm_pointofsalelast_mdp_hexaval">LAST_MDP_HEX    </DD_DVAR_NAME>
 			<DD_ATTR_CPRO id="ddm_column_cpro.opm_pointofsalelast_mdp_hexaval">AVAL</DD_ATTR_CPRO>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_column_opts">
+		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
+		<RECORD id="ddm_column_opts.opm_pointofsalewarehouse_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.opm_pointofsalewarehouse_idu">OPM_POINTOFSALE </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.opm_pointofsalewarehouse_idu">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.opm_pointofsalewarehouse_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

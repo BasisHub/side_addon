@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.poe_orddet">3B0E3B1CEC0E4DA1DA9A1B883F7B225E</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.poe_orddet">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.poe_orddet">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.poe_orddet">20100520</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.poe_orddet">20090709</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.poe_orddet">115944</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.poe_orddet">20100611</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.poe_orddet">20100601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.poe_orddet">171632</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.poe_orddet">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.poe_orddet">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.poe_orddet">Suggested Order Detail</DD_ATTR_WINT>
@@ -530,6 +530,31 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.poe_orddetfirm_ido">POE_ORDDET      </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.poe_orddetfirm_ido">FIRM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.poe_orddetfirm_ido">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.poe_orddetbuyer_codeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poe_orddetbuyer_codeu">POE_ORDDET      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poe_orddetbuyer_codeu">BUYER_CODE      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poe_orddetbuyer_codeu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.poe_orddetvendor_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poe_orddetvendor_idu">POE_ORDDET      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poe_orddetvendor_idu">VENDOR_ID       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poe_orddetvendor_idu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.poe_orddetproduct_typeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poe_orddetproduct_typeu">POE_ORDDET      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poe_orddetproduct_typeu">PRODUCT_TYPE    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poe_orddetproduct_typeu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.poe_orddetitem_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poe_orddetitem_idu">POE_ORDDET      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poe_orddetitem_idu">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poe_orddetitem_idu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.poe_orddetwarehouse_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poe_orddetwarehouse_idu">POE_ORDDET      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poe_orddetwarehouse_idu">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poe_orddetwarehouse_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">
