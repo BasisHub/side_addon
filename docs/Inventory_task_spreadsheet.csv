@@ -28,38 +28,38 @@ Count Sheet Entry,T,,,IVE.RA,Entry,,,,,,
 Physical Inventory Register,T,,,IVR.VA,Register,,BJ-BP,,needs,,20Aug mods
 ,T,,,IVU.VA,Update,,Done SV-BP,,,,
 Reports,G,,,,,,,,,,
-Inventory Price List,T,IVR_PRICELIST,ivr_pricelist/ivr_pricelist_o1,IVR.FA/FB,Input/Report Overlay,SL,BJ-BP,CH,Done SV-BP,,IVR.FB; fa and fb converted to ivr_pricelist and ivr_pricelist_o1. Select Form built. CH.20Aug mods
-Inventory Vendor Listing,T,IVR_VENDLIST,ivr_vendlist/ivr_vendlist_o1,IVR.IA/IB,Input/Report Overlay,SL,BJ-BP,CH,Done SS-BP,,"IVR.IB; ia/ib converted to ivr_vendlist and ivr_vendlist_o1. Also converted two publics, ivc_au/wa, now ivc_usage and ivc_whseinfo. Select Form built.CH.20Aug mods"
-Inventory Item Requirements Report,T,IVR_ITEMREQUIREMT,ivr_itemrequiremt.aon & _o1,IVR.MA/MB,Input/Report Overlay,SL,BJ-BP,SL,Done SV-BP,,IVR.MB 20Aug mods; converted to ivr_itemrequiremt & _o1. Select Form built. Data tested.
-Inventory Analysis Report,T,IVR_ITEMANALYSIS,ivr_itemanalysis.aon & _o1,IVR.HA/HB,Input/Report Overlay,SL,BJ-BP,SL,Done SV-BP,,IVR.HB 20Aug mods; ha & hb converted to ivr_itemanalysis & _o1. Select Form built. Data tested.
-Inventory Stock Status Report,T,IVR_STKSTATUS,ivr_stkstatus.aon & _o1,IVR.BA/BB,Input/Report Overlay,SL,BJ-BP,SL,Done SV-BP,,IVR.BB 20Aug mods; converted to ivr_stkstatus & _o1. Select Form built. Data tested.
-Item Activity Report,T,IVR_ITEMACT,ivr_itemact.aon,IVR.EA/EB,Input/Report Overlay,SL,BJ-BP,SL,Done SV-BP,,IVR.EA/EB; converted to a single program ivr_itemact.aon. Select Form built. SL.
-Stock Movement Report,T,IVR_STKMOVEMT,ivr_stkmovemt.aon & _o1,IVR.CA/CB,Input/Report Overlay,SL,BJ-BP,SL,Done SV-BP,,IVR.CB;ca and cb converted to ivr_stkmovemt and ivr_stkmovemt.o1. Select Form built. SL. 20Aug mods. Data tested.
-Reorder & Shortage Report,T,IVR_STKREORDR,ivr_stkreordr.aon & _o1,IVR.DA/DB,Input/Report Overlay,SL,BJ-BP,SL,Done SV-BP,,IVR.DB;converted to ivr_stkreordr & _o1. Select Form built. SL.  Data tested.
-Turns Report,T,IVR_ITEMTURNS,ivr_itemturns.aon & _o1,IVR.KA/KB,Input/Report Overlay,SL,BJ-BP,SL,Done SS-BP,,IVR.KB;ka and kb converted to ivr_itemturns and _o1. Select Form built. SL.
-Yesterday's Zero Balance Report,T,IVR_ZEROBAL,ivr_zerobal.aon & _o1,IVR.ZA,Input/Report Overlay,SL,BJ-BP,SL,Done SV-BP,,IVR.ZB 20Aug mods;converted to ivr_zerobal & _o1. Select Form built. SL. Data tested.
-Transaction History Listing,T,IVR_TRANSHIST,ivr_transhist.aon,IVR.QA,Input/Report Overlay,SL,CH,CH,CH,CH,done some months ago; still contains lxxxx line labels
-LIFO/FIFO Tier Report,T,IVR_LIFOFIFO,ivr_lifofifo.aon,IVR.XA,Input/Report Overlay,SL,CH,CH,CH,CH,done some months ago; still contains lxxxx line labels and references to ivm-03
-Synonyms Listing,T,IVR_ITEMSYN,ivr_itemsyn/ivr_itemsyn_o1,IVR.SA,Input/Report Overlay,SL,BJ-BP,CH,Done SV-BP,,IVR.SB;sa/sb converted to ivr_itemsyn and ivr_itemsyn_o1; modified to use alt key on ivm-14 rather than ivm-24 xref. Select Form built.CH 20Aug mods
-Alternate/Superceded Items Listing,T,IVR_ITEMALT,ivr_itemalt.aon & _o1,IVR.2A,Input/Report Overlay,SL,BJ-BP,SL,Done SV-BP,,IVR.2B 20Aug mods converted to ivr_itemalt & _o1. Select form built. Report tested but there aren't any items to include. SL
-Inventory Description Listing,T,IVR_ITEMDESC,ivr_itemdesc/ivr_itemdesc_o1,IVR.TA,Input/Report Overlay,SL,BJ-BP,CH,Done SV-BP,,"IVR.TB; found select screen, so maybe someone did this in the past; I created ivr_itemdesc from ivr_ta, and ivr_itemdesc_o1 from ivr_tb. CH.20Aug mods"
-Item Detail Listing,T,IVR_ITEMDETAIL,ivr_itemdetail & _o1,IVR.RA,Input/Report Overlay,SL,BJ-BP,SL,Done PS-BP,,IVR.RB 20Aug mods; converted to ivr_itemdetail & _o1. Select form built. SL. Data tested.
+Inventory Price List,T,IVR_PRICELIST,ivr_pricelist/ivr_pricelist_o1,IVR.FA/FB,Input/Report Overlay,SL,BJ-BP,CH,Done SV-BP,,IVR.FB; fa and fb converted to ivr_pricelist and ivr_pricelist_o1. Select Form built. CH.20Aug mods ---- Done DocOut changes. Replaced ivm-03 file references (NV-OSI)
+Inventory Vendor Listing,T,IVR_VENDLIST,ivr_vendlist/ivr_vendlist_o1,IVR.IA/IB,Input/Report Overlay,SL,BJ-BP,CH,Done SS-BP,,"IVR.IB; ia/ib converted to ivr_vendlist and ivr_vendlist_o1. Also converted two publics, ivc_au/wa, now ivc_usage and ivc_whseinfo. Select Form built.CH.20Aug mods --- Done DocOut changes. (NV-OSI)"
+Inventory Item Requirements Report,T,IVR_ITEMREQUIREMT,ivr_itemrequiremt.aon & _o1,IVR.MA/MB,Input/Report Overlay,SL,BJ-BP,SL,Done SV-BP,,IVR.MB 20Aug mods; converted to ivr_itemrequiremt & _o1. Select Form built. Data tested.  Done DocOut changes. Replaced ivm-03 file references (NV-OSI)
+Inventory Analysis Report,T,IVR_ITEMANALYSIS,ivr_itemanalysis.aon & _o1,IVR.HA/HB,Input/Report Overlay,SL,BJ-BP,SL,Done SV-BP,,IVR.HB 20Aug mods; ha & hb converted to ivr_itemanalysis & _o1. Select Form built. Data tested. --- Done DocOut changes. Replaced ivm-03 file references (NV-OSI)
+Inventory Stock Status Report,T,IVR_STKSTATUS,ivr_stkstatus.aon & _o1,IVR.BA/BB,Input/Report Overlay,SL,BJ-BP,SL,Done SV-BP,,IVR.BB 20Aug mods; converted to ivr_stkstatus & _o1. Select Form built. Data tested. --- Done DocOut changes. Replaced ivm-03 file references (NV-OSI)
+Item Activity Report,T,IVR_ITEMACT,ivr_itemact.aon,IVR.EA/EB,Input/Report Overlay,SL,BJ-BP,SL,Done SV-BP,,IVR.EA/EB; converted to a single program ivr_itemact.aon. Select Form built. SL. --- Done DocOut changes. Replaced ivm-03 file references (NV-OSI)
+Stock Movement Report,T,IVR_STKMOVEMT,ivr_stkmovemt.aon & _o1,IVR.CA/CB,Input/Report Overlay,SL,BJ-BP,SL,Done SV-BP,,IVR.CB;ca and cb converted to ivr_stkmovemt and ivr_stkmovemt.o1. Select Form built. SL. 20Aug mods. Data tested. -- Done DocOut changes.  (NV-OSI)
+Reorder & Shortage Report,T,IVR_STKREORDR,ivr_stkreordr.aon & _o1,IVR.DA/DB,Input/Report Overlay,SL,BJ-BP,SL,Done SV-BP,,IVR.DB;converted to ivr_stkreordr & _o1. Select Form built. SL.  Data tested. --- Done DocOut changes. Replaced ivm-03 file references (NV-OSI)
+Turns Report,T,IVR_ITEMTURNS,ivr_itemturns.aon & _o1,IVR.KA/KB,Input/Report Overlay,SL,BJ-BP,SL,Done SS-BP,,IVR.KB;ka and kb converted to ivr_itemturns and _o1. Select Form built. SL. --- Done DocOut changes. Replaced ivm-03 file references (NV-OSI)
+Yesterday's Zero Balance Report,T,IVR_ZEROBAL,ivr_zerobal.aon & _o1,IVR.ZA,Input/Report Overlay,SL,BJ-BP,SL,Done SV-BP,,IVR.ZB 20Aug mods;converted to ivr_zerobal & _o1. Select Form built. SL. Data tested. -- Done DocOut changes. (NV-OSI)
+Transaction History Listing,T,IVR_TRANSHIST,ivr_transhist.aon,IVR.QA,Input/Report Overlay,SL,CH,CH,CH,CH,done some months ago; still contains lxxxx line labels --- Done DocOut changes. Removed all line number references. (NV-OSI)
+LIFO/FIFO Tier Report,T,IVR_LIFOFIFO,ivr_lifofifo.aon,IVR.XA,Input/Report Overlay,SL,CH,CH,CH,CH,done some months ago; still contains lxxxx line labels and references to ivm-03. --- Done DocOut changes. Replaced ivm-03 file references. Removed all line number references and corrected error loop. (NV-OSI)
+Synonyms Listing,T,IVR_ITEMSYN,ivr_itemsyn/ivr_itemsyn_o1,IVR.SA,Input/Report Overlay,SL,BJ-BP,CH,Done SV-BP,,IVR.SB;sa/sb converted to ivr_itemsyn and ivr_itemsyn_o1; modified to use alt key on ivm-14 rather than ivm-24 xref. Select Form built.CH 20Aug mods --- Added rep_prog$=pgm(-2) in Document initialiazation block (NV-OSI)
+Alternate/Superceded Items Listing,T,IVR_ITEMALT,ivr_itemalt.aon & _o1,IVR.2A,Input/Report Overlay,SL,BJ-BP,SL,Done SV-BP,,IVR.2B 20Aug mods converted to ivr_itemalt & _o1. Select form built. Report tested but there aren't any items to include. SL -- Done DocOut changes. Corrected the loop errors. (NV-OSI)
+Inventory Description Listing,T,IVR_ITEMDESC,ivr_itemdesc/ivr_itemdesc_o1,IVR.TA,Input/Report Overlay,SL,BJ-BP,CH,Done SV-BP,,"IVR.TB; found select screen, so maybe someone did this in the past; I created ivr_itemdesc from ivr_ta, and ivr_itemdesc_o1 from ivr_tb. CH.20Aug mods. Done DocOut changes. (NV-OSI)"
+Item Detail Listing,T,IVR_ITEMDETAIL,ivr_itemdetail & _o1,IVR.RA,Input/Report Overlay,SL,BJ-BP,SL,Done PS-BP,,IVR.RB 20Aug mods; converted to ivr_itemdetail & _o1. Select form built. SL. Data tested. Done DocOut changes. Replaced ivm-03 file references. Removed unwanted codes. (NV-OSI)
 Inventory Item Labels,T,IVR_ITEMLABELS,ivr_itemlabels & _o1.aon,IVR.1A,Input/Report Overlay,SL,BJ-BP,CH,N/A,N/A,IVR.1B;1a/1b converted to ivr_itemlabels and ivr_itemlabels_o1; Select Form built. CH. 20Aug mods; Fixed form and tested with data.
 Lotted/Serialized Inventory,G,,,,,,,,,,
 History By Item Inquiry,T,,,IVM.FA,Inquiry,,,,,,
 History By Customer Inquiry,T,,,IVM.IA,Inquiry,,,,,,
 History By Vendor Inquiry,T,,,IVM.JA,Inquiry,,,,,,
-Lot/Serial Number History By Item Report,T,IVR_LSTRANHIST,ivr_lottranhist.aon,IVR.7A/7B,Input/Report Overlay,SL,,SL,Done,SL,IVR.7A/7B; converted to ivr_lottranhist; Select Form built.  DocOut was completed earlier; tested with data.
-Lot/Serial Number History By Customer Report,T,IVR_LOTCUSTHIST,ivr_lotcusthist & _o1.aon,IVR.9A/9B,Input/Report Overlay,SL,BJ-BP,SL,Done SS-BP,,"IVR.9B 20Aug mods;data needs to be created for this report; ivt-02 was created, but needs records created from ivt-01."
-Lot/Serial Number History By Vendor Report,T,IVR_LOTVENDHIST,ivr_lotvendhist & _o1.aon,IVR.8A/8B,Input/Report Overlay,SL,BJ-BP,SL,Done SS-BP,,"IVR.8B 20Aug mods;data needs to be created for this report; ivt-03 was created, but needs records created from ivt-01."
-Lot/Serial Number Stock Status Report,T,IVR_LOTSTATUS,ivr_lotstatus.aon & _o1,IVR.YA/YB,Input/Report Overlay,SL,BJ-BP,SL,Done SV-BP,,IVR.YB 20Aug mods
-Lot/Serial Number Activity Report,T,IVR_LOTACTIVITY,ivr_lotactivity.aon & _o1,IVR.6A/6B,Input/Report Overlay,SL,BJ-BP,SL,Done SV-BP,,IVR.6B 20Aug mods;converted to ivr_lotactivity & _o1. Select Form built. SL Data tested. The lot sequence table IVX_LSXREF is empty.  The lot/serial reports could use the alternate key to IVM_LSMASTER.
+Lot/Serial Number History By Item Report,T,IVR_LSTRANHIST,ivr_lottranhist.aon,IVR.7A/7B,Input/Report Overlay,SL,,SL,Done,SL,IVR.7A/7B; converted to ivr_lottranhist; Select Form built.  DocOut was completed earlier; tested with data. --- Done DocOut changes. Corrected loop errors and removed goto statements (NV-OSI)
+Lot/Serial Number History By Customer Report,T,IVR_LOTCUSTHIST,ivr_lotcusthist & _o1.aon,IVR.9A/9B,Input/Report Overlay,SL,BJ-BP,SL,Done SS-BP,,"IVR.9B 20Aug mods;data needs to be created for this report; ivt-02 was created, but needs records created from ivt-01. ---- Done DocOut changes. Corrected errors in code (NV-OSI)"
+Lot/Serial Number History By Vendor Report,T,IVR_LOTVENDHIST,ivr_lotvendhist & _o1.aon,IVR.8A/8B,Input/Report Overlay,SL,BJ-BP,SL,Done SS-BP,,"IVR.8B 20Aug mods;data needs to be created for this report; ivt-03 was created, but needs records created from ivt-01. --- Done DocOut changes. Corrected errors and removed unwanted codes (NV-OSI)"
+Lot/Serial Number Stock Status Report,T,IVR_LOTSTATUS,ivr_lotstatus.aon & _o1,IVR.YA/YB,Input/Report Overlay,SL,BJ-BP,SL,Done SV-BP,,IVR.YB 20Aug mods --- Done DocOut changes. Corrected errors and removed unwanted codes (NV-OSI)
+Lot/Serial Number Activity Report,T,IVR_LOTACTIVITY,ivr_lotactivity.aon & _o1,IVR.6A/6B,Input/Report Overlay,SL,BJ-BP,SL,Done SV-BP,,IVR.6B 20Aug mods;converted to ivr_lotactivity & _o1. Select Form built. SL Data tested. The lot sequence table IVX_LSXREF is empty.  The lot/serial reports could use the alternate key to IVM_LSMASTER. --- Done DocOut changes. Corrected errors and removed unwanted codes (NV-OSI)
 Period End Processing,G,,,,,,,,,,
-A B C Analysis Report,T,IVR_ITEMABCRPT,ivr_itemabcrpt & _o1 & _02.aon,IVR.PA/PB/PC,Input/Gen/Report,SL,BJ-BP,SL,Ready - SL,,"IVR.PB,IVR.PC 20Aug mods;converted to ivr_itemabcrpt & _o1 & _o2. Select Form built. SL Data tested."
+A B C Analysis Report,T,IVR_ITEMABCRPT,ivr_itemabcrpt & _o1 & _02.aon,IVR.PA/PB/PC,Input/Gen/Report,SL,BJ-BP,SL,Doe NV-BP,,"IVR.PB,IVR.PC 20Aug mods;converted to ivr_itemabcrpt & _o1 & _o2. Select Form built. SL Data tested. --- DocOuted the report including new DocOut modifications (NV-OSI)"
 A B C Analysis Update,T,,ivu_itemabcupd.aon,IVU.PA,Update,,Done SV-BP,,,,
-"EOQ, Order Point & Safety Stock Report",T,IVR_ITEMEOQRPT,ivr_itemeoqrpt & _o1 & _o2.aon,IVR.OA/OB/OC,Init/Input/Report,SL,BJ-BP,SL,Ready - SL,,"IVR.OB,IVR.OC 20Aug mods;converted to ivr_itemeoqrpt & _o1 & _o2. Select Form built. SL Data tested."
+"EOQ, Order Point & Safety Stock Report",T,IVR_ITEMEOQRPT,ivr_itemeoqrpt & _o1 & _o2.aon,IVR.OA/OB/OC,Init/Input/Report,SL,BJ-BP,SL,Doe NV-BP,,"IVR.OB,IVR.OC 20Aug mods;converted to ivr_itemeoqrpt & _o1 & _o2. Select Form built. SL Data tested. --- DocOuted the report including new DocOut modifications (NV-OSI)"
 "EOQ, Order Point & Safety Stock Update",T,,ivu_itemeoqupd.aon,IVU.OA,Update,,Done SV-BP,,,,
-Inventory Valuation Report,T,IVR_VALUATIONRPT,ivr_valuationrpt & _01.aon,IVR.NA/NB,Input/Report Overlay,SL,BJ-BP,SL,Ready - SL,,IVR.NB 20Aug mods;converted to ivr_valuationrpt & _01. Select Form built. SL Data tested.
+Inventory Valuation Report,T,IVR_VALUATIONRPT,ivr_valuationrpt & _01.aon,IVR.NA/NB,Input/Report Overlay,SL,BJ-BP,SL,Doe NV-BP,,IVR.NB 20Aug mods;converted to ivr_valuationrpt & _01. Select Form built. SL Data tested. --- DocOuted the report including new DocOut modifications (NV-OSI)
 Purge Inventory Transaction History,T,,,IVU.TA,Update,,BJ-BP,,,,20Aug mods
 Purge Inventory Activity,T,,,IVU.BA,Update,,BJ-BP,,,,20Aug mods
 Purge Closed Lot/Serial Numbers,T,,,IVU.EA,Update,,BJ-BP,,,,20Aug mods
@@ -114,7 +114,7 @@ LIFO/FIFO Tier Maintenance,T,IVX_LIFOFIFO,,IVX.FA,Input,,,,,,
 Copy Items to Another Warehouse,T,IVX_COPYITEM,,IVX.DA,Update,,,,,,
 Rebuild Unit Costs,A,,ivx_rebuildcosts.aon,IVX.IA,Update,,JL?,,,,
 Inventory Publics,G,,,,,,,,,,
-Calculate Actual & Estimated Annual Usage,P,,ivc_usage,IVC.AU,Public,,CH,,,,
+Calculate Actual & Estimated Annual Usage,P,,ivc_usage,IVC.AU,Public,,CH,,,,Replaced the ivm-03 file with ivm-02 alternate key 2
 Price/Cost Change by Percentage,P,,,IVC.CA,Public,,Done SV-BP,,,,
 Delete Item and/or Warehouse,P,,,IVC.DA,Public,,Done SV-BP,,,,
 Activity Type Descriptions,P,,ivc_activity,IVC.FA,Public,,CH,,,,
@@ -131,5 +131,5 @@ Process Inventory Transaction Display Window,P,,,IVC.TA,Public,,Done SV-BP,,,,
 Process Lot/Serial Inventory Transaction Display Window,P,,,IVC.TB,Public,,Done SV-BP,,,,
 Format Standard Transaction References,P,,ivc_transdata,IVC.TD,Public,,JL,,,,
 Inventory Item Update (ATAMO),P,,ivc_itemupdt,IVC.UA,Public,,JL,,,,
-Return Warehouse Information,P,,ivc_whseinfo,IVC.WA,Public,,CH,,,,
-Return Warehouse Activity,P,,ivc_whseact,IVC.WB,Public,,JL,,,,
+Return Warehouse Information,P,,ivc_whseinfo,IVC.WA,Public,,CH,,,,Replaced the ivm-03 file with ivm-02 alternate key 2
+Return Warehouse Activity,P,,ivc_whseact,IVC.WB,Public,,JL,,,,Replaced the ivm-03 file with ivm-02 alternate key 2

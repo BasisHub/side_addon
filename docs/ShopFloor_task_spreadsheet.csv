@@ -25,11 +25,11 @@ Transaction Processing,G,,,,,,,,,,
 Create Purchase Requisitions,T,,,sfu_ia.aon,entry,,Done PS-BP,,,,
 Create Purchase Requisitions - update,T,,,sfu_ib.bbx,update,,Done PS-BP,,,,
 Material Issues Entry,T,,,sfe_da/db/dc.aon,,,,,,,
-Material Issues Register,T,,sfr_womatissue.aon,sfr_da.aon,register,,Done PPT-BP,WIP PS-BP,WIP PS-BP,,
-Material Issues - Update,T,,sfr_womatissue_o1.aon,sfu_aa.bbx,update,,Done PS-BP,WIP PS-BP,,,
+Material Issues Register,T,,sfr_womatissue.aon,sfr_da.aon,register,,Done PPT-BP,WIP PS-BP,WIP PS-BP,,Testing is incomplete due to empty data file sfe_invtrans
+Material Issues - Update,T,,sfu_womatissue.aon,sfu_aa.bbx,update,,Done PS-BP,WIP PS-BP,,,Testing is incomplete due to empty data file sfe_invtrans
 Time Sheet Entry,T,,,sfe_ba/bb.aon,,,,,,,
-Time Sheet Register,T,,sfr_timesheet.aon,sfr_ca.aon,register,,Done PPT-BP,NV-BP(01APR08),needs,,"Testing is incomplete due to empty data file sfe-11,sfe-21,sfe-31"
-Time Sheet Register - Summary,T,,sfr_timesheet_o1.aon,sfr_cb.bbx,summary register,,Done PPT-BP,NV-BP(01APR08),needs,,"Testing is incomplete due to empty data file sfe-11,sfe-21,sfe-32"
+Time Sheet Register,T,,sfr_timesheet.aon,sfr_ca.aon,register,,Done PPT-BP,NV-BP(01APR08),Done NV-BP,,
+Time Sheet Register - Summary,T,,sfr_timesheet_o1.aon,sfr_cb.bbx,summary register,,Done PPT-BP,NV-BP(01APR08),Done NV-BP,,
 Time Sheet - Update,T,,sfu_timesheet.aon,sfu_ba.bbx,update,,Done PS-BP,,,,"Testing is incomplete due to empty data file sfe-11,sfe-21,sfe-33"
 Cost Adjustment Entry,T,,,sfe_fa.aon,,,,,,,
 Cost Adjustment Register,T,,sfr_woadjustment.aon,sfr_la.aon,register,,Done PPT-BP,PS-BP(12MAY08),PS-BP(12MAY08),,Testing is incomplete due to empty data file sfe_woopradj
@@ -38,7 +38,7 @@ Work Order Close Data Entry,T,,,sfe_ea/eb.aon,,,,,,,
 Closed Work Order Detail Report,T,SFR_CLSWODET,sfr_clswodet.aon,sfr_ea.aon,report selection,,Done PPT-BP,PS-BP(25MAR08),,,Testing is incomplete due to empty data file  sfe_cmmttrans
 Closed Work Order Detail Report - overlay,T,SFR_CLSWODET,sfr_clswodet_o1.aon,sfr_eb.bbx,overlay,,Done PPT-BP,PS-BP(25MAR08),needs,,Testing is incomplete due to empty data file  sfe_cmmttrans
 Work Order Detail Printing,T,,sfr_worderdet_print.aon,sfr_xa.bbx,overlay,,Done PS-BP,PS-BP(25MAR08),needs,,Testing is incomplete due to empty data file  sfe_cmmttrans
-Closed Work Order Summary Register,T,,sfr_closeworeg.aon,sfr_ka.aon,register,,Done PPT-BP,WIP NV-BP,WIP NV-BP,,
+Closed Work Order Summary Register,T,,sfr_closeworeg.aon,sfr_ka.aon,register,,Done PPT-BP,Done NV-BP,Done NV-BP,,
 Closed Work Order Update,T,,sfu_closeworeg.aon,sfu_ca.bbx,update,,Done PS-BP,,,,
 Reports,G,,,,,,,,,,
 Work Order Header Report,T,SFR_WOHEADER,sfr_woheader.aon,sfr_ga.aon,report selection,,Done NV-BP,NV-BP(19MAR08),NV-BP(18APR08),,
@@ -60,8 +60,8 @@ Work Order Detail Report - overlay,T,SFR_WORDERDET,sfr_worderdet _o1.aon,sfr_ib.
 Work Order Detail Printing,T,,sfr_worderdet_print.aon,sfr_xa.bbx,overlay,,Done PS-BP,PS-BP(25MAR08),WIP PS-BP,,
 WO Transaction History Report,T,SFR_WORDTRANS,sfr_wordtrans.aon,sfr_ja.aon,report selection,,Done PPT-BP,NV-BP(26MAR08),NV-BP(22APR08),,
 WO Transaction History Report - overlay,T,SFR_WORDTRANS,sfr_wordtrans_o1.aon,sfr_jb.bbx,overlay,,Done PPT-BP,NV-BP(26MAR08),NV-BP(22APR08),,
-WO Committed Materials Report,T,SFR_WORDMAT,sfr_wordmat.aon,sfr_ma.aon,report selection,,Done PPT-BP,PS-BP(12MAR08),,,Testing is incomplete due to empty data file sfe-23
-WO Committed Materials Report - overlay,T,SFR_WORDMAT,sfr_wordmat_o1.aon,sfr_mb.bbx,overlay,,Done PPT-BP,PS-BP(12MAR08),,,Testing is incomplete due to empty data file sfe-24
+WO Committed Materials Report,T,SFR_WORDMAT,sfr_wordmat.aon,sfr_ma.aon,report selection,,Done PPT-BP,PS-BP(12MAR08),,,Testing is incomplete due to empty data file sfe_womatdtl
+WO Committed Materials Report - overlay,T,SFR_WORDMAT,sfr_wordmat_o1.aon,sfr_mb.bbx,overlay,,Done PPT-BP,PS-BP(12MAR08),,,Testing is incomplete due to empty data file sfe_womatdtl
 Work Order Job Status Summary,T,SFR_WORDJOBSTAT,sfr_wordjobstat.aon ,sfr_va.aon,report selection,,Done PS-BP,PS-BP(20MAR08),PS-BP(21MAY08),,
 Work Order Job Status Summary - overlay,T,SFR_WORDJOBSTAT,sfr_wordjobstat _o1.aon,sfr_vb.bbx,overlay,,Done PS-BP,PS-BP(20MAR08),PS-BP(21MAY08),,
 Period End Processing,G,,,,,,,,,,

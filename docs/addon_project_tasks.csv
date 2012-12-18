@@ -1,27 +1,27 @@
 Description,Menu ID,Type,Alias,Program,AON Equiv.,Who,Comp,Needs CodePort,Needs DocOut,DocOut Status,Normalization Mods Done,Comments
 Accounts Payable,APMENU,M,,,,,,,,,,
 Invoice Entry,APE_INVOICEHDR,T,APE_INVOICEHDR,,APE.AA,CH,Y,,,,,
-Invoice Register,APR_INVREG,A,APR_INVREG,apr_invoiceentry.aon,APR.AA,CH,Y,,Y,Done SV-BP,,
+Invoice Register,APR_INVREG,A,APR_INVREG,apr_invoiceentry.aon,APR.AA,CH,Y,,Y,Done SV-BP,,Adding rep_prog$=pgm(-2) in document initializations.
 Payment Selection,APE_EA,T,,ape_ea.aon,APE.EA,JB,P,,,,,
-Payment Selection Report,APR_PAYMENT,A,APR_PAYMENT,apr_payments.aon,APR.DA,JL/JB,P,Y,Y,Done PS-BP,,
+Payment Selection Report,APR_PAYMENT,A,APR_PAYMENT,apr_payments.aon,APR.DA,JL/JB,P,Y,Y,Done PS-BP,,Adding rep_prog$=pgm(-2) in document initializations.
 Check Printing,APR_CHECKS,T,APR_CHECKS,,APR.EA,JB,P,Y,,,,
-Check Register,APR_CHKREGISTER,A,,apr_chkregister.aon,APR.FA,JL/JB,P,,Y,Done PS-BP,,
+Check Register,APR_CHKREGISTER,A,,apr_chkregister.aon,APR.FA,JL/JB,P,,Y,Done PS-BP,,Adding rep_prog$=pgm(-2) in document initializations.
 Manual Check Entry,APE_MANCHECKHDR,T,APE_MANCHECKHDR,,APE.CA,CH,Y,,,,,
-Manual Check Register,APR_MANUALCHECKS,A,,apr_manualchecks.aon,APR.GA,JL/CH,Y,,,Done SV-BP,,
-Aging Report,APR_AGINGREPORT,T,APR_AGINGREPORT,,APR.CA,JB,Y,Y,Y,Done PS-BP,,
-Cash Requirements Report,APR_CASHREQUIRE,T,APR_CASHREQUIRE,,APR.BA,JB,P,Y,Y,Done PS-BP,,
+Manual Check Register,APR_MANUALCHECKS,A,,apr_manualchecks.aon,APR.GA,JL/CH,Y,,,Done SV-BP,,Adding rep_prog$=pgm(-2) in document initializations.
+Aging Report,APR_AGINGREPORT,T,APR_AGINGREPORT,,APR.CA,JB,Y,Y,Y,Done PS-BP,,Adding rep_prog$=pgm(-2) in document initializations.
+Cash Requirements Report,APR_CASHREQUIRE,T,APR_CASHREQUIRE,,APR.BA,JB,P,Y,Y,Done PS-BP,,Adding rep_prog$=pgm(-2) in document initializations.
 Reports,APMENU_REPORTS,G,,,,,,,,,,
 Vendor Cross Reference Listing,APR_VENDXREF,A,APR_VENDXREF,apr_vendorxref.aon,APR.IA,JL,N/A,,,,,remove from system
 Vendor Label Printing,APR_LABELS,T,APR_LABELS,,APR.KA,JB,Y,,,,,
-Vendor Detail Listing,APR_DETAIL,T,APR_DETAIL,,APR.XA,JB,Y,,Y,Done NV-BP,,
-Vendor Comments Listing,APR_COMMENTS,T,APR_COMMENTS,,APR.QA,JB,Y,,Y,Done NV-BP,,
-Vendor Name & Address Listing,APR_NAMEADDRESS,T,APR_NAMEADDRESS,,APR.PA,JB,Y,,,,,
-Vendor Ledger Cards,APR_LEDGERS,T,APR_LEDGERS,,APR.LA,JB,Y,,Y,Done NV-BP,,
+Vendor Detail Listing,APR_DETAIL,T,APR_DETAIL,,APR.XA,JB,Y,,Y,Done NV-BP,,Adding rep_prog$=pgm(-2) in document initializations.
+Vendor Comments Listing,APR_COMMENTS,T,APR_COMMENTS,,APR.QA,JB,Y,,Y,Done NV-BP,,Adding rep_prog$=pgm(-2) in document initializations.
+Vendor Name & Address Listing,APR_NAMEADDRESS,T,APR_NAMEADDRESS,,APR.PA,JB,Y,,,,,Adding rep_prog$=pgm(-2) in document initializations.
+Vendor Ledger Cards,APR_LEDGERS,T,APR_LEDGERS,,APR.LA,JB,Y,,Y,Done NV-BP,,Adding rep_prog$=pgm(-2) in document initializations.
 Temporary Vendor Listing,APR_TEMPVEND,A,APR_TEMPVEND,apr_tempvendors.aon,APR.SA,JL,N/A,,,,,No more temporary vendors
 Period End Processing,APMENU_PEND,G,,,,,,,,,,
-Purchase Journal,APR_PURCHASES,T,APR_PURCHASES,,APR.OA,JB,Y,,Y,Done NV-BP,,
-Disbursements Journal,APR_DISBURSEMNTS,T,APR_DISBURSEMNTS,,APR.MA,JB,Y,,Y,Done PS-BP,,
-Monthly Check Report,APR_CHECKREPORT,T,APR_CHECKREPORT,,APR.HA,JB,Y,,Y,,,
+Purchase Journal,APR_PURCHASES,T,APR_PURCHASES,,APR.OA,JB,Y,,Y,Done NV-BP,,Adding rep_prog$=pgm(-2) in document initializations.
+Disbursements Journal,APR_DISBURSEMNTS,T,APR_DISBURSEMNTS,,APR.MA,JB,Y,,Y,Done PS-BP,,Adding rep_prog$=pgm(-2) in document initializations.
+Monthly Check Report,APR_CHECKREPORT,T,APR_CHECKREPORT,,APR.HA,JB,Y,,Y,,,Adding rep_prog$=pgm(-2) in document initializations.
 Check & Zero Balance Invoice Purge,APR_ZEROBALANCE,T,APR_ZEROBALANCE,,APR.RA,JB,Y,,Y,,,
 Period End Update,APU_PERIODEND,T,APU_PERIODEND,,APU.DA,JB,Y,,,,,
 Export 1099 Data to Text,APX_EXPORT1099,T,APX_EXPORT1099,,v7,JB,Y,,,,,
@@ -30,42 +30,42 @@ Maintenance,APMENU_MAINT,G,,,,,,,,,,
 Vendors,APM_VENDMAST,T,APM_VENDMAST,,APM.MA,CH,Y,,,,,
 Accounts Payable Types,APC_TYPECODE,T,APC_TYPECODE,,APM.AA,SV,Y,,,,,
 Distribution Codes,APC_DISTRIBUTION,T,APC_DISTRIBUTION,,APM.BA,SV,Y,,,,,
-Payment Groups,APC_PAYMENTGROUP,T,APC_PAYMENTGROUP,,APM.DA,SV,Y,,,
-Terms Codes,APC_TERMSCODE,T,APC_TERMSCODE,,APM.CA,SV,Y,,,
-Recurring Invoice Entry,APE_DA,T,,ape_da.aon,APE.DA,CH,Y,,,
-Recurring Invoice Register,APR_RECURRING,T,APR_RECURRING,,APR.NA,JL/CH,Y,Y,Y,Done SV-BP
-Parameters,APMENU_PARAMS,G,APS_PARAMS,,,,,,,
-Application Parameters,APS_PARAMS,T,APS_PARAMS,,APP.PA,JL,Y,,,
-Report Parameters,APS_REPORT,T,APS_REPORT,,APP.PA,JL,Y,,,
-Accounts Receivable,ARMENU,M,,,,,,,,
-Invoice Entry,ARE_INVHDR,T,ARE_INVHDR,,ARE.FA,CH,Y,,,
-Invoice Printing,ARR_INVOICES,T,ARR_INVOICES,,ARR.UA,JL,Y,,,
-Invoice Register,ARR_INVOICEENTRY,A,,arr_invoiceentry.aon,ARR.VA,JL,Y,,Y,done
-Cash Receipts Entry,ARE_CASHHDR,T,ARE_CASHHDR,,ARE.AA,JB,Y,,,
-Cash Receipts Register,ARR_CASHRECEIPTS,T,ARR_CASHRECEIPTS,,ARR.AA,JB,Y,,Y,done
-Aging Report,ARR_AGINGREPORT,T,ARR_AGINGREPORT,,ARR.4A,JB,Y,,Y,Done-PPT-BP
-Aging Analysis Report,ARR_ANALYSIS,T,ARR_ANALYSIS,,ARR.5A,JB,Y,,Y,Done NV-BP
-Age Transactions,ARU_AGINGUPDATE,T,ARU_AGINGUPDATE,,ARU.EA,JB,Y,Y,,
-Credit Managers Review & Release,,,,,,,,,,
-Reports,ARMENU_REPORTS,G,,,,,,,,
-Customer Cross Reference Listing,ARR_CUSTOMERXREF,A,,arr_customerxref.aon,ARR.IA,JB,,,,remove from system
-Customer Label Printing,ARR_LABELS,T,ARR_LABELS,,ARR.EA,JB,Y,,,
-Customer Name Listing,ARR_NAMELIST,T,ARR_NAMELIST,,ARR.RA,JB,Y,,Y,Done NV-BP
-Customer Detail Listing,ARR_DETAIL,T,ARR_DETAIL,,ARM.WA,JB,Y,,Y,Done PS-BP
-Customer Comments Listing,ARR_COMMENTS,T,ARR_COMMENTS,,ARR.RC,JB,Y,,Y,Done NV-BP
-Customer Name & Address Listing,ARR_NAMEADDRESS,T,ARR_NAMEADDRESS,,ARR.DA,JB,Y,,Y,done
-Customer Ledger Cards,ARR_LEDGERS,T,ARR_LEDGERS,,ARR.9A,JB,Y,,Y,Done SV-BP
-Period End Processing,ARMENU_PEND,G,,,,,,,,
-Aging Report,ARR_AGINGREPORTPE,A,ARR_AGINGREPORT,arr_agingreport.aon,ARR.4A,SV,Y,,,
-Generate Finance Charges,ARU_FINANCECHARG,T,ARU_FINANCECHARG,,ARU.HA,JL,Y,,,
-Finance Charge Entry,ARE_FINCHG,T,ARE_FINCHG,,ARE.BA,CH,Y,,,
-Purge Finance Charge Entries,ARU_FINANCEPURGE,A,,aru_financepurge.aon,,JL,Y,,,
-Finance Charge Register,ARR_FINCHGREGISTER,A,,arr_otherentry.aon,ARR.JA,JL,Y,,Y,Done PS-BP
-Customer Statements,ARR_STATEMENTS,T,ARR_STATEMENTS,,ARR.CA,JL,Y,,,
-Monthly Cash Receipts Journal,ARR_CASHJOURNAL,T,ARR_CASHJOURNAL,,ARR.GA,JL,Y,,Y,Done SV-BP,,
+Payment Groups,APC_PAYMENTGROUP,T,APC_PAYMENTGROUP,,APM.DA,SV,Y,,,,,
+Terms Codes,APC_TERMSCODE,T,APC_TERMSCODE,,APM.CA,SV,Y,,,,,
+Recurring Invoice Entry,APE_DA,T,,ape_da.aon,APE.DA,CH,Y,,,,,
+Recurring Invoice Register,APR_RECURRING,T,APR_RECURRING,,APR.NA,JL/CH,Y,Y,Y,Done SV-BP,,Adding rep_prog$=pgm(-2) in document initializations.
+Parameters,APMENU_PARAMS,G,APS_PARAMS,,,,,,,,,
+Application Parameters,APS_PARAMS,T,APS_PARAMS,,APP.PA,JL,Y,,,,,
+Report Parameters,APS_REPORT,T,APS_REPORT,,APP.PA,JL,Y,,,,,
+Accounts Receivable,ARMENU,M,,,,,,,,,,
+Invoice Entry,ARE_INVHDR,T,ARE_INVHDR,,ARE.FA,CH,Y,,,,,
+Invoice Printing,ARR_INVOICES,T,ARR_INVOICES,,ARR.UA,JL,Y,,,,,
+Invoice Register,ARR_INVOICEENTRY,A,,arr_invoiceentry.aon,ARR.VA,JL,Y,,Y,done,,Added the line rep_prog$=pgm(-2) in Document Initializations
+Cash Receipts Entry,ARE_CASHHDR,T,ARE_CASHHDR,,ARE.AA,JB,Y,,,,,
+Cash Receipts Register,ARR_CASHRECEIPTS,T,ARR_CASHRECEIPTS,,ARR.AA,JB,Y,,Y,done,,Added the line rep_prog$=pgm(-2) in Document Initializations
+Aging Report,ARR_AGINGREPORT,T,ARR_AGINGREPORT,,ARR.4A,JB,Y,,Y,Done-PPT-BP,,Added the line rep_prog$=pgm(-2) in Document Initializations
+Aging Analysis Report,ARR_ANALYSIS,T,ARR_ANALYSIS,,ARR.5A,JB,Y,,Y,Done NV-BP,,Added the line rep_prog$=pgm(-2) in Document Initializations
+Age Transactions,ARU_AGINGUPDATE,T,ARU_AGINGUPDATE,,ARU.EA,JB,Y,Y,,,,
+Credit Managers Review & Release,,,,,,,,,,,,
+Reports,ARMENU_REPORTS,G,,,,,,,,,,
+Customer Cross Reference Listing,ARR_CUSTOMERXREF,A,,arr_customerxref.aon,ARR.IA,JB,,,,remove from system,,
+Customer Label Printing,ARR_LABELS,T,ARR_LABELS,,ARR.EA,JB,Y,,,,,
+Customer Name Listing,ARR_NAMELIST,T,ARR_NAMELIST,,ARR.RA,JB,Y,,Y,Done NV-BP,,Added the line rep_prog$=pgm(-2) in Document Initializations
+Customer Detail Listing,ARR_DETAIL,T,ARR_DETAIL,,ARM.WA,JB,Y,,Y,Done PS-BP,,Added the line rep_prog$=pgm(-2) in Document Initializations
+Customer Comments Listing,ARR_COMMENTS,T,ARR_COMMENTS,,ARR.RC,JB,Y,,Y,Done NV-BP,,Added the line rep_prog$=pgm(-2) in Document Initializations
+Customer Name & Address Listing,ARR_NAMEADDRESS,T,ARR_NAMEADDRESS,,ARR.DA,JB,Y,,Y,done,,Added the line rep_prog$=pgm(-2) in Document Initializations
+Customer Ledger Cards,ARR_LEDGERS,T,ARR_LEDGERS,,ARR.9A,JB,Y,,Y,Done SV-BP,,Added the line rep_prog$=pgm(-2) in Document Initializations
+Period End Processing,ARMENU_PEND,G,,,,,,,,,,
+Aging Report,ARR_AGINGREPORTPE,A,ARR_AGINGREPORT,arr_agingreport.aon,ARR.4A,SV,Y,,,,,
+Generate Finance Charges,ARU_FINANCECHARG,T,ARU_FINANCECHARG,,ARU.HA,JL,Y,,,,,
+Finance Charge Entry,ARE_FINCHG,T,ARE_FINCHG,,ARE.BA,CH,Y,,,,,
+Purge Finance Charge Entries,ARU_FINANCEPURGE,A,,aru_financepurge.aon,,JL,Y,,,,,
+Finance Charge Register,ARR_FINCHGREGISTER,A,,arr_otherentry.aon,ARR.JA,JL,Y,,Y,Done PS-BP,,Added the line rep_prog$=pgm(-2) in Document Initializations
+Customer Statements,ARR_STATEMENTS,T,ARR_STATEMENTS,,ARR.CA,JL,Y,,,,,
+Monthly Cash Receipts Journal,ARR_CASHJOURNAL,T,ARR_CASHJOURNAL,,ARR.GA,JL,Y,,Y,Done SV-BP,,Added the line rep_prog$=pgm(-2) in Document Initializations
 Monthly Cash Receipts Journal Purge,ARU_CASHJOURNAL,T,ARU_CASHJOURNAL,,ARU.XA,JL,Y,,,,,
-Customer Ranking Report,ARR_RANKING,T,ARR_RANKING,,ARR.KA,SV,Y,,Y,done,,
-Zero Balance Invoice Report & Purge,ARR_ZEROBALANCE,T,ARR_ZEROBALANCE,,ARR.8A,JL,Y,,Y,Done NV-BP,,"Note -- when testing, print the report but please do NOT answer ""yes"" to the purge prompt."
+Customer Ranking Report,ARR_RANKING,T,ARR_RANKING,,ARR.KA,SV,Y,,Y,done,,Added the line rep_prog$=pgm(-2) in Document Initializations
+Zero Balance Invoice Report & Purge,ARR_ZEROBALANCE,T,ARR_ZEROBALANCE,,ARR.8A,JL,Y,,Y,Done NV-BP,,"Note -- when testing, print the report but please do NOT answer ""yes"" to the purge prompt. Added the line rep_prog$=pgm(-2) in Document Initializations; Modified the fndate$()"
 Period End Update,ARU_PERIODEND,A,ARU_PERIODEND,aru_periodend.aon,ARU.BA,JL,Y,,,,,
 Maintenance,ARMENU_MAINT,G,,,,,,,,,,
 Customers,ARM_CUSTMAST,T,ARM_CUSTMAST,,ARM.MA,JB,Y,,,,,
@@ -89,19 +89,19 @@ Invoice Date Modification Register,ARR_DATEREGISTER,A,ARR_DATEREGISTER,arr_dater
 Change Sales Analysis Flag,ARX_CHANGESAFLAG,T,ARX_CHANGESAFLAG,,v7,,,,,,,
 General Ledger,GLMENU,M,,,,,,,,,,
 Journal Entry,GLE_JRNLHDR,T,GLE_JRNLHDR,,GLE.CA,SV/CH,Y,,,,,
-Journal Entry Register,GLR_JOURNAL,A,,glr_journal.aon,GLR.MA,JL/CH,Y,,Y,Done-PPT-BP,,"Note - this register runs glr_recap.  Once converted to DocOut, just change the glr_recap program name to glr_recap_DO, as there is already a DocOut version of the recap."
+Journal Entry Register,GLR_JOURNAL,A,,glr_journal.aon,GLR.MA,JL/CH,Y,,Y,Done-PPT-BP,,"Note - this register runs glr_recap.  Once converted to DocOut, just change the glr_recap program name to glr_recap_DO, as there is already a DocOut version of the recap. Added the line rep_prog$=pgm(-2)"
 Daily Detail Register,GLR_DAILYDETAIL,T,GLR_DAILYDETAIL,,GLR.DA,JL/CH,Y,,Y,,,
 Account Allocation Entry,GLE_ALLOCHDR,T,GLE_ALLOCHDR,,GLE.EA,SV/CH,Y,, ,,,
-Account Allocation Register,GLR_ALLOCATE,T,GLR_ALLOCATE,,GLR.QA,JL/CH,Y,,Y,Done SV-BP,,
+Account Allocation Register,GLR_ALLOCATE,T,GLR_ALLOCATE,,GLR.QA,JL/CH,Y,,Y,Done SV-BP,,Added the line rep_prog$=pgm(-2) 
 Bank Reconciliation,GLM_BANKMASTER,T,GLM_BANKMASTER,,APM.EA,SV,P,,,,,
 Reports,GLMENU_REPORTS,G,,,,,,,,,,
-Chart Of Accounts Listing,GLR_ACCTLIST,T,GLR_ACCTLIST,,GLR.KA,SV,Y,,Y,Done-CH,,"modified 8/29; added Option! syntax, adc_fileopen/template mods, rd/ad ==> ba directories/publics. CH"
-Daily Detail Register,GLR_DAILYDETAIL_RP,T,GLR_DAILYDETAIL,,GLR.DA,JL,Y,,Y,Done-PPT-BP,,"modified 8/29; added Option! syntax, adc_fileopen/template mods, rd/ad ==> ba directories/publics. CH"
-Transaction History Report,GLR_TRANSHISTORY,T,GLR_TRANSHISTORY,,GLR.CA,SV,Y,,Y,Done-PPT-BP,,"modified 8/29; added Option! syntax, adc_fileopen/template mods, rd/ad ==> ba directories/publics. CH"
-Summary Activity Report,GLR_SUMMARY,T,GLR_SUMMARY,,GLR.IA,JL,Y,,Y,Done-PPT-BP,,"modified 8/29; added Option! syntax, adc_fileopen/template mods, rd/ad ==> ba directories/publics. CH"
-General Ledger Trial Balance,GLR_TRIALBALANCE,T,GLR_TRIALBALANCE,,GLR.BA,JL,Y,Y,Y,Done-PPT-BP,,"modified 8/30; added Option! syntax, adc_fileopen/template mods, rd/ad ==> ba directories/publics. CH"
-Profit and Loss Statement,GLR_PROFITLOSS,T,GLR_PROFITLOSS,,GLR.PA,SV,Y,,Y,Done-PPT-BP,,
-Balance Sheet,GLR_BALANCE,T,GLR_BALANCE,,GLR.EA,JL,Y,,Y,Done-PPT-BP,,
+Chart Of Accounts Listing,GLR_ACCTLIST,T,GLR_ACCTLIST,,GLR.KA,SV,Y,,Y,Done-CH,,"modified 8/29; added Option! syntax, adc_fileopen/template mods, rd/ad ==> ba directories/publics. CH; Added the line rep_prog$=pgm(-2) "
+Daily Detail Register,GLR_DAILYDETAIL_RP,T,GLR_DAILYDETAIL,,GLR.DA,JL,Y,,Y,Done-PPT-BP,,"modified 8/29; added Option! syntax, adc_fileopen/template mods, rd/ad ==> ba directories/publics. CH; Added the line rep_prog$=pgm(-2) "
+Transaction History Report,GLR_TRANSHISTORY,T,GLR_TRANSHISTORY,,GLR.CA,SV,Y,,Y,Done-PPT-BP,,"modified 8/29; added Option! syntax, adc_fileopen/template mods, rd/ad ==> ba directories/publics. CH; Added the line rep_prog$=pgm(-2) "
+Summary Activity Report,GLR_SUMMARY,T,GLR_SUMMARY,,GLR.IA,JL,Y,,Y,Done-PPT-BP,,"modified 8/29; added Option! syntax, adc_fileopen/template mods, rd/ad ==> ba directories/publics. CH; Added the line rep_prog$=pgm(-2) "
+General Ledger Trial Balance,GLR_TRIALBALANCE,T,GLR_TRIALBALANCE,,GLR.BA,JL,Y,Y,Y,Done-PPT-BP,,"modified 8/30; added Option! syntax, adc_fileopen/template mods, rd/ad ==> ba directories/publics. CH; Added the line rep_prog$=pgm(-2) "
+Profit and Loss Statement,GLR_PROFITLOSS,T,GLR_PROFITLOSS,,GLR.PA,SV,Y,,Y,Done-PPT-BP,,Added the line rep_prog$=pgm(-2) 
+Balance Sheet,GLR_BALANCE,T,GLR_BALANCE,,GLR.EA,JL,Y,,Y,Done-PPT-BP,,Added the line rep_prog$=pgm(-2) 
 Financial Report Printing,GLR_FINANCIALSRP,T,GLR_FINANCIALS,,GLE.AA,JB,Y,Y,Y,,,
 13 Period Financial Report Printing,GLR_13PERIODRP,T,GLR_13PERIOD,,GLE.BA,JL,P,Y,Y,,,
 Budgeting,GLMENU_BUDGETS,G,,,,,,,,,,
@@ -114,11 +114,11 @@ Custom Financials,GLMENU_CUSTOM,G,,,,,,,,,,
 Financial Report Master,GLM_FINMASTER,T,GLM_FINMASTER,,GLM.DA,CT/CH,Y,,,,,New - Detail FS Setup (GLM_FINDETAIL) - runs from GLM_FINMASTER
 Report Heading,GLM_FINHEADING,T,GLM_FINHEADING,,GLM.KA,,,Y,,,,
 Reports by Account,GLM_FA,T,,glm_fa.aon,GLM.FA,CH,Y,,,,,
-Acct/Report Cross Reference Report,GLR_ACCTXREF,A,,glr_acctxref.aon,GLR.GA,JL,P,,Y,Done-PPT-BP,,
-Total/Report Cross Reference Report,GLR_TOTALSREPORT,A,,glr_totalsreport.aon,GLR.OA,JL,P,,Y,Done-PPT-BP,,
+Acct/Report Cross Reference Report,GLR_ACCTXREF,A,,glr_acctxref.aon,GLR.GA,JL,P,,Y,Done-PPT-BP,,Added the line rep_prog$=pgm(-2) 
+Total/Report Cross Reference Report,GLR_TOTALSREPORT,A,,glr_totalsreport.aon,GLR.OA,JL,P,,Y,Done-PPT-BP,,Added the line rep_prog$=pgm(-2) 
 Report/Account Maintenance,GLM_GA,T,,glm_ga.aon,GLM.GA,,,,,,,
 Consolidated Acct/Rpt Maintenance,GLM_IA,T,,glm_ia.aon,GLM.IA,CH,Y,,,,,
-Consolidated Acct/Rpt Xref Report,GLR_CONSACCTXREF,A,,glr_consacctxref.aon,GLR.JA,JL,Y,Y,Y,Done PS-BP,,
+Consolidated Acct/Rpt Xref Report,GLR_CONSACCTXREF,A,,glr_consacctxref.aon,GLR.JA,JL,Y,Y,Y,Done PS-BP,,Added the line rep_prog$=pgm(-2) 
 Create Departmental Reports,GLM_CONSXREFRPT,T,,glm_ha.aon,GLM.HA,,,,,,,
 Copy Financial Reports,GLM_JA,T,,glm_ja.aon,GLM.JA,JB,Y,,,,,
 Financial Report Printing,GLR_FINANCIALS,T,GLR_FINANCIALS,,GLE.AA,,,Y,Y,,,

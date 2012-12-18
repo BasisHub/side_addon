@@ -46,22 +46,22 @@ Tax Status Report,T,PRR_TAXSTATUS,prr_taxstatus.aon,prr_ka.bbx,PRR_KA,Input/Repo
 Contribution Status Report,T,PRR_CONTRIBSTAT,prr_contribstat.aon,prr_la.bbx,PRR_LA,Input/Report,,DONE SV-OSI,DONE SV-OSI,DONE SV-OSI,needs,
 Accrual Status Report,T,PRR_ACCRLSTAT,prr_accrlstat.aon,prr_na.bbx,PRR_NA,Input/Report,,DONE SV-OSI,DONE SV-OSI,DONE SV-OSI,needs,
 Payroll Check History Report,T,PRR_CHECKHISTORY,prr_checkhistory.aon,prr_da.bbx,PRR_DA ,Input for Report,,DONE SV-OSI,DONE SV-OSI,DONE SV-OSI,needs,".DA-DB is v7, 2A-2B is v6"
- - Report,T,,prr_checkhistory_o1.aon,prr_db.bbx,PRR_DB,Report,,DONE SV-OSI,DONE SV-OSI,DONE SV-OSI,needs
-Earnings History Report,T,PRR_EARNHIST,prr_earnhist.aon,prr_wa.bbx,PRR_WA,Input for Report,,DONE PPT_OSI, , , 
- - Report,T,,prr_earnhist_o1.aon,prr_wb.bbx,PRR_WB,Report,,DONE PPT_OSI,DONE PPT_OSI,DONE PPT_OSI,needs
-Union History Report,T,PRR_UNIONHIST,prr_unionhist.aon,prr_va.bbx,PRR_VA,Input for Report,,DONE PPT_OSI, , , 
- - Report,T,,prr_unionhist_o1.aon,prr_vb.bbx,PRR.VB,Report,,DONE PPT_OSI,DONE PPT_OSI,DONE PPT_OSI,needs
-Union History Purge,T,,pru_purgeunhist.aon,pru_ga.bbx,PRU_GA,Update,,DONE PPT_OSI, , , 
-Payroll Date Listing,T,PRR_DATELIST,prr_datelist.aon,prr_sa.bbx,PRR_SA,Input for Report,,DONE PPT_OSI, , , 
- - Report,T,,prr_datelist_o1.aon,prr_sb.bbx,PRR_SB,Report,,DONE PPT_OSI,DONE PPT_OSI,DONE PPT_OSI,needs
-W-2 Processing,G,,,,,,,,,,
-W-2 Configuration,T,,,prw_aa.bbx,PRW_AA,Entry,,,,,
-W-2 Configuration Listing,T,,prw_prntw2config.aon,prw_ka.bbx,PRW_KA,Report,,DONE PPT_OSI,DONE PPT_OSI,DONE PPT_OSI,needs
-Copy/Remove W-2 Configuration,T,,prw_cpyremw2cnfg.aon,prw_ba.bbx,PRW_BA,Utility,,DONE PPT_OSI, ,,
-Archive Year End Totals,T,,prm_archyrendtot.aon,prm_ya.bbx,PRM_YA,Utility,,DONE PPT_OSI, ,,
-W-2 Calculation,T,,prw_w2calc,prw_ca.bbx,PRW_CA,Utility,,DONE PPT_OSI, ,,
-Export W-2 Data to Text ,T,,,prx_ya.bbx,PRX_YA,Entry for Utility,,,,,
- - Write,T,,prx_exportw2totext.aon,prx_yb.bbx,PRX_YB,Utility,,DONE PPT_OSI,,,
+ - Report,T,,prr_checkhistory_o1.aon,prr_db.bbx,PRR_DB,Report,,DONE SV-OSI,DONE SV-OSI,DONE SV-OSI,needs,Embedded java error  occurs while taking report in PDF format
+Earnings History Report,T,PRR_EARNHIST,prr_earnhist.aon,prr_wa.bbx,PRR_WA,Input for Report,,DONE PPT_OSI, , , ,
+ - Report,T,,prr_earnhist_o1.aon,prr_wb.bbx,PRR_WB,Report,,DONE PPT_OSI,DONE PPT_OSI,DONE PPT_OSI,needs,
+Union History Report,T,PRR_UNIONHIST,prr_unionhist.aon,prr_va.bbx,PRR_VA,Input for Report,,DONE PPT_OSI, , , ,
+ - Report,T,,prr_unionhist_o1.aon,prr_vb.bbx,PRR.VB,Report,,DONE PPT_OSI,DONE PPT_OSI,DONE PPT_OSI,needs,
+Union History Purge,T,,pru_purgeunhist.aon,pru_ga.bbx,PRU_GA,Update,,DONE PPT_OSI, , , ,
+Payroll Date Listing,T,PRR_DATELIST,prr_datelist.aon,prr_sa.bbx,PRR_SA,Input for Report,,DONE PPT_OSI, , , ,
+ - Report,T,,prr_datelist_o1.aon,prr_sb.bbx,PRR_SB,Report,,DONE PPT_OSI,DONE PPT_OSI,DONE PPT_OSI,needs,
+W-2 Processing,G,,,,,,,,,,,
+W-2 Configuration,T,,,prw_aa.bbx,PRW_AA,Entry,,,,,,
+W-2 Configuration Listing,T,,prw_prntw2config.aon,prw_ka.bbx,PRW_KA,Report,,DONE PPT_OSI,DONE PPT_OSI,DONE PPT_OSI,needs,
+Copy/Remove W-2 Configuration,T,,prw_cpyremw2cnfg.aon,prw_ba.bbx,PRW_BA,Utility,,DONE PPT_OSI, ,,,
+Archive Year End Totals,T,,prm_archyrendtot.aon,prm_ya.bbx,PRM_YA,Utility,,DONE PPT_OSI, ,,,
+W-2 Calculation,T,,prw_w2calc,prw_ca.bbx,PRW_CA,Utility,,DONE PPT_OSI, ,,,
+Export W-2 Data to Text ,T,,,prx_ya.bbx,PRX_YA,Entry for Utility,,,,,,
+ - Write,T,,prx_exportw2totext.aon,prx_yb.bbx,PRX_YB,Utility,,DONE PPT_OSI,,,,
  - Export,T,,prx_exportw2totext_o1.aon,prx_yc.bbx,PRX_YC,Utility,,DONE PPT_OSI,,,,
 Year End Update,T,,pru_yearendupdt.aon,pru_ea.bbx,PRU_EA,Update,,DONE PPT_OSI,,,,
 Reports,G,,,,,,,,,,,

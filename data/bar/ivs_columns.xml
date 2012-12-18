@@ -16,9 +16,9 @@
 			<ASC_LICENSE_ID>DDCF2B1FC7F379FE00EFD7BF82E445B9</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA>Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080801</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE>20080721</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME>172754</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE>20080902</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE>20080902</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME>154832</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP>T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV>zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT>Default Display Columns</DD_ATTR_WINT>
@@ -137,7 +137,7 @@
 		<ID>DDM_TABLE_TPLS</ID>
 		<RECORD>
 			<DD_TABLE_ALIAS>IVS_COLUMNS     </DD_TABLE_ALIAS>
-			<DD_TABLE_TPL>firm_id:c(2),iv:c(2),sequence_03:c(2*),inv_act_inq_01:c(3*),inv_act_inq_02:c(3*),inv_act_inq_03:c(3*),inv_act_inq_04:c(3*),inv_act_inq_05:c(3*),inv_act_inq_06:c(3*),inv_act_lot_01:c(3),inv_act_lot_02:c(3),inv_act_lot_03:c(3),inv_act_lot_04:c(3),inv_act_lot_05:c(3),inv_act_lot_06:c(3*)</DD_TABLE_TPL>
+			<DD_TABLE_TPL>firm_id:c(2),iv:c(2),sequence_03:c(2*),inv_act_inq_01:c(3),inv_act_inq_02:c(3),inv_act_inq_03:c(3),inv_act_inq_04:c(3),inv_act_inq_05:c(3),inv_act_inq_06:c(3),inv_act_lot_01:c(3),inv_act_lot_02:c(3),inv_act_lot_03:c(3),inv_act_lot_04:c(3),inv_act_lot_05:c(3),inv_act_lot_06:c(3*)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
 	<ALIAS>
@@ -230,7 +230,7 @@
 			<DD_DATA_NAME>INV_ACT_COLS    </DD_DATA_NAME>
 			<DD_DVAR_NAME>INV_ACT_INQ     </DD_DVAR_NAME>
 			<DD_COL_OCCURS>6</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
+			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
 			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
