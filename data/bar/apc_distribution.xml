@@ -15,9 +15,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.apc_distribution">F037E7E48062EAA4E624C3E8E99AC071</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.apc_distribution">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.apc_distribution">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.apc_distribution">20090630</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_tables.apc_distribution">20100510</DD_LSTREV_DATE>
 			<DD_LSTSYNC_DATE id="ddm_tables.apc_distribution">20091111</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.apc_distribution">164732</DD_LSTSYNC_TIME>
+			<DD_LSTSYNC_TIME id="ddm_tables.apc_distribution">213122</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.apc_distribution">/dev/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.apc_distribution">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.apc_distribution">zzzz</DD_ATTR_SLEV>
@@ -268,6 +268,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.apc_distribution008">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.apc_distribution008">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.apc_distribution008">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.apc_distribution008">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABL id="ddm_table_cols.apc_distribution008">Retention Account</DD_ATTR_LABL>
 			<DD_ATTR_MINL id="ddm_table_cols.apc_distribution008">1</DD_ATTR_MINL>
 			<DD_ATTR_MAXL id="ddm_table_cols.apc_distribution008">10</DD_ATTR_MAXL>
@@ -506,8 +507,9 @@
 			<ASC_COMP_ID id="ddm_elements.gl_ret_acct">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_elements.gl_ret_acct">GL </ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.gl_ret_acct">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.gl_ret_acct">20061018</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.gl_ret_acct">20100510</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_elements.gl_ret_acct">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.gl_ret_acct">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.gl_ret_acct">E</DD_ATTR_CTYP>
 			<DD_ATTR_DCOL id="ddm_elements.gl_ret_acct">GL_ACCT_DESC    </DD_ATTR_DCOL>
 			<DD_ATTR_DCOM id="ddm_elements.gl_ret_acct">            </DD_ATTR_DCOM>
@@ -516,7 +518,13 @@
 			<DD_ATTR_DTAB id="ddm_elements.gl_ret_acct">GLM_ACCT        </DD_ATTR_DTAB>
 			<DD_ATTR_LABL id="ddm_elements.gl_ret_acct">Retention Account</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.gl_ret_acct">Retention Acct</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.gl_ret_acct">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.gl_ret_acct">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.gl_ret_acct">0</DD_ATTR_MINL>
 			<DD_ATTR_MSKI id="ddm_elements.gl_ret_acct">UUUUUUUUUU</DD_ATTR_MSKI>
+			<DD_ATTR_PADC id="ddm_elements.gl_ret_acct">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.gl_ret_acct">L</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.gl_ret_acct">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.gl_purc_acct">
 			<DD_DATA_NAME id="ddm_elements.gl_purc_acct">GL_PURC_ACCT    </DD_DATA_NAME>
