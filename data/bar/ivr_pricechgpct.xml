@@ -18,10 +18,10 @@
 			<ASC_VERSION_ID id="ddm_tables.ivr_pricechgpct">9.0</ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ivr_pricechgpct">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ivr_pricechgpct">20090126</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ivr_pricechgpct">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivr_pricechgpct">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivr_pricechgpct">141532</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.ivr_pricechgpct">/devel/aon/;</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.ivr_pricechgpct">20090731</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivr_pricechgpct">20090731</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivr_pricechgpct">124216</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.ivr_pricechgpct">/dev_aon_test/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ivr_pricechgpct">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.ivr_pricechgpct">[+DIR_PGM]ivu_pricechgbypct.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.ivr_pricechgpct">Price Change by Percentage</DD_ATTR_WINT>
@@ -36,6 +36,13 @@
 		<RECORD id="ddm_table_cpro.ivr_pricechgpctbsho">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.ivr_pricechgpctbsho">IVR_PRICECHGPCT </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.ivr_pricechgpctbsho">BSHO</DD_ATTR_CPRO>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_opts">
+		<ID id="ddm_table_opts">DDM_TABLE_OPTS</ID>
+		<RECORD id="ddm_table_opts.ivr_pricechgpctx">
+			<DD_TABLE_ALIAS id="ddm_table_opts.ivr_pricechgpctx">IVR_PRICECHGPCT </DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.ivr_pricechgpctx">X</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_tpls">
@@ -179,7 +186,7 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.ivr_pricechgpct007">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.ivr_pricechgpct007">20090126</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivr_pricechgpct007">20090126</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.ivr_pricechgpct007">/devel/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ivr_pricechgpct007">/dev_aon_test/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_COLW id="ddm_table_cols.ivr_pricechgpct007">0</DD_ATTR_COLW>
 			<DD_ATTR_CTLX id="ddm_table_cols.ivr_pricechgpct007">0</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_cols.ivr_pricechgpct007">0</DD_ATTR_CTLY>

@@ -18,10 +18,10 @@
 			<ASC_VERSION_ID id="ddm_tables.ivr_pricechgreg">9.0</ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ivr_pricechgreg">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ivr_pricechgreg">20090123</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ivr_pricechgreg">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivr_pricechgreg">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivr_pricechgreg">141532</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.ivr_pricechgreg">/devel/aon/;</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.ivr_pricechgreg">20090731</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivr_pricechgreg">20090731</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivr_pricechgreg">161158</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.ivr_pricechgreg">/dev_aon_test/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ivr_pricechgreg">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.ivr_pricechgreg">[+DIR_PGM]ivr_pricechgreg.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.ivr_pricechgreg">Price Change Register</DD_ATTR_WINT>
@@ -40,6 +40,17 @@
 		<RECORD id="ddm_table_cpro.ivr_pricechgregbsho">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.ivr_pricechgregbsho">IVR_PRICECHGREG </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.ivr_pricechgregbsho">BSHO</DD_ATTR_CPRO>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_opts">
+		<ID id="ddm_table_opts">DDM_TABLE_OPTS</ID>
+		<RECORD id="ddm_table_opts.ivr_pricechgregh">
+			<DD_TABLE_ALIAS id="ddm_table_opts.ivr_pricechgregh">IVR_PRICECHGREG </DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.ivr_pricechgregh">H</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_table_opts.ivr_pricechgregx">
+			<DD_TABLE_ALIAS id="ddm_table_opts.ivr_pricechgregx">IVR_PRICECHGREG </DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.ivr_pricechgregx">X</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_tpls">

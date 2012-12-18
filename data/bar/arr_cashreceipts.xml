@@ -14,16 +14,28 @@
 			<ASC_LICENSE_ID id="ddm_tables.arr_cashreceipts">ECF8A972201E913FF2892FB975CAB368</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.arr_cashreceipts">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.arr_cashreceipts">20060321</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.arr_cashreceipts">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.arr_cashreceipts">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.arr_cashreceipts">141556</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.arr_cashreceipts">20090811</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.arr_cashreceipts">20090729</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.arr_cashreceipts">170648</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.arr_cashreceipts">/dev_aon_test/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.arr_cashreceipts">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.arr_cashreceipts">[+DIR_PGM]arr_cashreceipts.aon  </DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.arr_cashreceipts"> Cash Receipts Register</DD_ATTR_WINT>
 		</RECORD>
 	</ALIAS>
+	<ALIAS id="ddm_table_cpro">
+		<ID id="ddm_table_cpro">DDM_TABLE_CPRO</ID>
+		<RECORD id="ddm_table_cpro.arr_cashreceiptsbsho">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.arr_cashreceiptsbsho">ARR_CASHRECEIPTS</DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.arr_cashreceiptsbsho">BSHO</DD_ATTR_CPRO>
+		</RECORD>
+	</ALIAS>
 	<ALIAS id="ddm_table_opts">
 		<ID id="ddm_table_opts">DDM_TABLE_OPTS</ID>
+		<RECORD id="ddm_table_opts.arr_cashreceiptsh">
+			<DD_TABLE_ALIAS id="ddm_table_opts.arr_cashreceiptsh">ARR_CASHRECEIPTS</DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.arr_cashreceiptsh">H</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_table_opts.arr_cashreceiptsx">
 			<DD_TABLE_ALIAS id="ddm_table_opts.arr_cashreceiptsx">ARR_CASHRECEIPTS</DD_TABLE_ALIAS>
 			<DD_ATTR_OPTS id="ddm_table_opts.arr_cashreceiptsx">X</DD_ATTR_OPTS>

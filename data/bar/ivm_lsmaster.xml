@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.ivm_lsmaster">9D58FC3C7E8294649A704129391993F7</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ivm_lsmaster">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ivm_lsmaster">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ivm_lsmaster">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivm_lsmaster">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivm_lsmaster">141534</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ivm_lsmaster">20090701</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivm_lsmaster">20090701</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivm_lsmaster">141140</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ivm_lsmaster">../apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_DKNM id="ddm_tables.ivm_lsmaster">ALT_KEY_03</DD_ATTR_DKNM>
 			<DD_ATTR_FTYP id="ddm_tables.ivm_lsmaster">T</DD_ATTR_FTYP>
@@ -55,9 +55,13 @@
 	</ALIAS>
 	<ALIAS id="ddm_table_opts">
 		<ID id="ddm_table_opts">DDM_TABLE_OPTS</ID>
-		<RECORD id="ddm_table_opts.ivm_lsmastero">
-			<DD_TABLE_ALIAS id="ddm_table_opts.ivm_lsmastero">IVM_LSMASTER    </DD_TABLE_ALIAS>
-			<DD_ATTR_OPTS id="ddm_table_opts.ivm_lsmastero">O</DD_ATTR_OPTS>
+		<RECORD id="ddm_table_opts.ivm_lsmasterb">
+			<DD_TABLE_ALIAS id="ddm_table_opts.ivm_lsmasterb">IVM_LSMASTER    </DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.ivm_lsmasterb">B</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_table_opts.ivm_lsmasterd">
+			<DD_TABLE_ALIAS id="ddm_table_opts.ivm_lsmasterd">IVM_LSMASTER    </DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.ivm_lsmasterd">D</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_tpls">

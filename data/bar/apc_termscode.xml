@@ -16,8 +16,8 @@
 			<DD_EXPORT_DATA id="ddm_tables.apc_termscode">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.apc_termscode">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_tables.apc_termscode">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.apc_termscode">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.apc_termscode">141602</DD_LSTSYNC_TIME>
+			<DD_LSTSYNC_DATE id="ddm_tables.apc_termscode">20091111</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.apc_termscode">163642</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.apc_termscode">/dev/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.apc_termscode">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.apc_termscode">zzzz</DD_ATTR_SLEV>
@@ -46,7 +46,6 @@
 		<ID id="ddm_table_tpls">DDM_TABLE_TPLS</ID>
 		<RECORD id="ddm_table_tpls.apc_termscode">
 			<DD_TABLE_ALIAS id="ddm_table_tpls.apc_termscode">APC_TERMSCODE   </DD_TABLE_ALIAS>
-			<DD_FILE_NAME id="ddm_table_tpls.apc_termscode">       </DD_FILE_NAME>
 			<DD_TABLE_TPL id="ddm_table_tpls.apc_termscode">firm_id:c(2),record_id_c:c(1),terms_codeap:c(2),code_desc:c(20),prox_or_days:c(1*),disc_percent:n(7*),due_days:n(7*),disc_days:n(7*)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
@@ -57,6 +56,30 @@
 			<DD_KEY_NUMBER id="ddm_keys.apc_termscode00">00</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.apc_termscode00">Primary</DD_KEY_DESC>
 			<DD_KEY_ID id="ddm_keys.apc_termscode00">PRIMARY         </DD_KEY_ID>
+		</RECORD>
+		<RECORD id="ddm_keys.apc_termscode01">
+			<DD_TABLE_ALIAS id="ddm_keys.apc_termscode01">APC_TERMSCODE   </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_keys.apc_termscode01">01</DD_KEY_NUMBER>
+			<DD_KEY_DESC id="ddm_keys.apc_termscode01">Firm, Record ID</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.apc_termscode01">FIRM_RECORD_ID  </DD_KEY_ID>
+		</RECORD>
+		<RECORD id="ddm_keys.apc_termscode02">
+			<DD_TABLE_ALIAS id="ddm_keys.apc_termscode02">APC_TERMSCODE   </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_keys.apc_termscode02">02</DD_KEY_NUMBER>
+			<DD_KEY_DESC id="ddm_keys.apc_termscode02">Firm, Terms Code</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.apc_termscode02">FIRM_TERMSCODE  </DD_KEY_ID>
+		</RECORD>
+		<RECORD id="ddm_keys.apc_termscode03">
+			<DD_TABLE_ALIAS id="ddm_keys.apc_termscode03">APC_TERMSCODE   </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_keys.apc_termscode03">03</DD_KEY_NUMBER>
+			<DD_KEY_DESC id="ddm_keys.apc_termscode03">Record ID, Firm ID</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.apc_termscode03">RECORD_FIRM_ID  </DD_KEY_ID>
+		</RECORD>
+		<RECORD id="ddm_keys.apc_termscode04">
+			<DD_TABLE_ALIAS id="ddm_keys.apc_termscode04">APC_TERMSCODE   </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_keys.apc_termscode04">04</DD_KEY_NUMBER>
+			<DD_KEY_DESC id="ddm_keys.apc_termscode04">Terms Code, Firm ID</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.apc_termscode04">TERMSCODE_FIRM  </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_key_segs">
@@ -87,6 +110,102 @@
 			<DD_SEGMENT_POS id="ddm_key_segs.apc_termscode0003">0</DD_SEGMENT_POS>
 			<DD_SEGMENT_OFF id="ddm_key_segs.apc_termscode0003">0</DD_SEGMENT_OFF>
 			<DD_SEGMENT_LEN id="ddm_key_segs.apc_termscode0003">0</DD_SEGMENT_LEN>
+		</RECORD>
+		<RECORD id="ddm_key_segs.apc_termscode0101">
+			<DD_TABLE_ALIAS id="ddm_key_segs.apc_termscode0101">APC_TERMSCODE   </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.apc_termscode0101">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.apc_termscode0101">01</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.apc_termscode0101">FIRM_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.apc_termscode0101">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.apc_termscode0101">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.apc_termscode0101">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.apc_termscode0101">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.apc_termscode0101">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.apc_termscode0101">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.apc_termscode0102">
+			<DD_TABLE_ALIAS id="ddm_key_segs.apc_termscode0102">APC_TERMSCODE   </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.apc_termscode0102">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.apc_termscode0102">02</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.apc_termscode0102">RECORD_ID_C</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.apc_termscode0102">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.apc_termscode0102">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.apc_termscode0102">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.apc_termscode0102">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.apc_termscode0102">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.apc_termscode0102">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.apc_termscode0201">
+			<DD_TABLE_ALIAS id="ddm_key_segs.apc_termscode0201">APC_TERMSCODE   </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.apc_termscode0201">02</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.apc_termscode0201">01</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.apc_termscode0201">FIRM_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.apc_termscode0201">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.apc_termscode0201">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.apc_termscode0201">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.apc_termscode0201">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.apc_termscode0201">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.apc_termscode0201">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.apc_termscode0202">
+			<DD_TABLE_ALIAS id="ddm_key_segs.apc_termscode0202">APC_TERMSCODE   </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.apc_termscode0202">02</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.apc_termscode0202">02</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.apc_termscode0202">TERMS_CODEAP</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.apc_termscode0202">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.apc_termscode0202">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.apc_termscode0202">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.apc_termscode0202">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.apc_termscode0202">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.apc_termscode0202">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.apc_termscode0301">
+			<DD_TABLE_ALIAS id="ddm_key_segs.apc_termscode0301">APC_TERMSCODE   </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.apc_termscode0301">03</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.apc_termscode0301">01</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.apc_termscode0301">RECORD_ID_C</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.apc_termscode0301">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.apc_termscode0301">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.apc_termscode0301">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.apc_termscode0301">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.apc_termscode0301">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.apc_termscode0301">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.apc_termscode0302">
+			<DD_TABLE_ALIAS id="ddm_key_segs.apc_termscode0302">APC_TERMSCODE   </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.apc_termscode0302">03</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.apc_termscode0302">02</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.apc_termscode0302">FIRM_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.apc_termscode0302">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.apc_termscode0302">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.apc_termscode0302">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.apc_termscode0302">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.apc_termscode0302">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.apc_termscode0302">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.apc_termscode0401">
+			<DD_TABLE_ALIAS id="ddm_key_segs.apc_termscode0401">APC_TERMSCODE   </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.apc_termscode0401">04</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.apc_termscode0401">01</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.apc_termscode0401">TERMS_CODEAP</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.apc_termscode0401">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.apc_termscode0401">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.apc_termscode0401">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.apc_termscode0401">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.apc_termscode0401">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.apc_termscode0401">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.apc_termscode0402">
+			<DD_TABLE_ALIAS id="ddm_key_segs.apc_termscode0402">APC_TERMSCODE   </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.apc_termscode0402">04</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.apc_termscode0402">02</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.apc_termscode0402">FIRM_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.apc_termscode0402">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.apc_termscode0402">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.apc_termscode0402">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.apc_termscode0402">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.apc_termscode0402">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.apc_termscode0402">N</DD_SEGMENT_MATH>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_cols">

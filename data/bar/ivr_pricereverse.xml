@@ -18,12 +18,19 @@
 			<ASC_VERSION_ID id="ddm_tables.ivr_pricereverse">9.0</ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ivr_pricereverse">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ivr_pricereverse">20090127</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ivr_pricereverse">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivr_pricereverse">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivr_pricereverse">141532</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ivr_pricereverse">20090807</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivr_pricereverse">20090709</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivr_pricereverse">115940</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.ivr_pricereverse">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.ivr_pricereverse">[+DIR_PGM]ivr_pricechgrevreg.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.ivr_pricereverse">Price Change Reversal Register</DD_ATTR_WINT>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_opts">
+		<ID id="ddm_table_opts">DDM_TABLE_OPTS</ID>
+		<RECORD id="ddm_table_opts.ivr_pricereversex">
+			<DD_TABLE_ALIAS id="ddm_table_opts.ivr_pricereversex">IVR_PRICEREVERSE</DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.ivr_pricereversex">X</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_tpls">

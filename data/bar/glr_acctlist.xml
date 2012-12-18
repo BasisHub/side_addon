@@ -12,12 +12,19 @@
 			<ASC_VERSION_ID id="ddm_tables.glr_acctlist">9.0</ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.glr_acctlist">175AE3DC5A0A2B3ACA27E9A51D8E91E0</ASC_LICENSE_ID>
 			<DD_CREATE_DATE id="ddm_tables.glr_acctlist">20060412</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.glr_acctlist">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.glr_acctlist">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.glr_acctlist">141542</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.glr_acctlist">20090910</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.glr_acctlist">20090709</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.glr_acctlist">115936</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.glr_acctlist">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.glr_acctlist">[+DIR_PGM]glr_acctlist.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.glr_acctlist">GL Chart of Accounts Listing</DD_ATTR_WINT>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_opts">
+		<ID id="ddm_table_opts">DDM_TABLE_OPTS</ID>
+		<RECORD id="ddm_table_opts.glr_acctlistx">
+			<DD_TABLE_ALIAS id="ddm_table_opts.glr_acctlistx">GLR_ACCTLIST    </DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.glr_acctlistx">X</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_tpls">

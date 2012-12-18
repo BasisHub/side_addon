@@ -18,9 +18,9 @@
 			<ASC_VERSION_ID id="ddm_tables.ope_credterms">9.0</ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ope_credterms">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ope_credterms">20090101</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ope_credterms">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ope_credterms">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ope_credterms">141520</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ope_credterms">20091125</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ope_credterms">20090701</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ope_credterms">141148</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ope_credterms">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ope_credterms">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.ope_credterms">[+DIR_PGM]adx_dummy.aon</DD_ATTR_PRUN>
@@ -55,6 +55,10 @@
 		<RECORD id="ddm_table_opts.ope_credtermsx">
 			<DD_TABLE_ALIAS id="ddm_table_opts.ope_credtermsx">OPE_CREDTERMS   </DD_TABLE_ALIAS>
 			<DD_ATTR_OPTS id="ddm_table_opts.ope_credtermsx">X</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_table_opts.ope_credtermsd">
+			<DD_TABLE_ALIAS id="ddm_table_opts.ope_credtermsd">OPE_CREDTERMS   </DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.ope_credtermsd">d</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_tpls">

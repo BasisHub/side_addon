@@ -4,7 +4,7 @@
 		<ID id="ddm_tables">DDM_TABLES</ID>
 		<RECORD id="ddm_tables.ivr_itemalt">
 			<DD_TABLE_ALIAS id="ddm_tables.ivr_itemalt">IVR_ITEMALT     </DD_TABLE_ALIAS>
-			<DD_ALIAS_DESC id="ddm_tables.ivr_itemalt">Inventory Alternate/Superceded Listing</DD_ALIAS_DESC>
+			<DD_ALIAS_DESC id="ddm_tables.ivr_itemalt">Inventory Alternate/Superseded Listing</DD_ALIAS_DESC>
 			<DD_TABLE_PATH id="ddm_tables.ivr_itemalt">[+IVDATA]</DD_TABLE_PATH>
 			<DD_ALIAS_TYPE id="ddm_tables.ivr_itemalt">P</DD_ALIAS_TYPE>
 			<DD_KEY_LENGTH id="ddm_tables.ivr_itemalt">0</DD_KEY_LENGTH>
@@ -16,14 +16,14 @@
 			<ASC_LICENSE_ID id="ddm_tables.ivr_itemalt">EB02CF604410D2A481F621BA1657FF13</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ivr_itemalt">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ivr_itemalt">20071103</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ivr_itemalt">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivr_itemalt">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivr_itemalt">141534</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ivr_itemalt">20090807</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivr_itemalt">20090709</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivr_itemalt">115936</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ivr_itemalt">[+DIR_CPP]ivr_itemalt_cpt.bbj</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ivr_itemalt">S</DD_ATTR_FTYP>
 			<DD_ATTR_IKEY id="ddm_tables.ivr_itemalt">N</DD_ATTR_IKEY>
 			<DD_ATTR_PRUN id="ddm_tables.ivr_itemalt">[+DIR_PGM]ivr_itemalt.aon</DD_ATTR_PRUN>
-			<DD_ATTR_WINT id="ddm_tables.ivr_itemalt">Inventory Alternate/Superceded Listing</DD_ATTR_WINT>
+			<DD_ATTR_WINT id="ddm_tables.ivr_itemalt">Inventory Alternate/Superseded Listing</DD_ATTR_WINT>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_cpro">
@@ -31,6 +31,13 @@
 		<RECORD id="ddm_table_cpro.ivr_itemaltarar">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.ivr_itemaltarar">IVR_ITEMALT     </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.ivr_itemaltarar">ARAR</DD_ATTR_CPRO>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_opts">
+		<ID id="ddm_table_opts">DDM_TABLE_OPTS</ID>
+		<RECORD id="ddm_table_opts.ivr_itemaltx">
+			<DD_TABLE_ALIAS id="ddm_table_opts.ivr_itemaltx">IVR_ITEMALT     </DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.ivr_itemaltx">X</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_tpls">
@@ -51,8 +58,9 @@
 			<DD_CREATE_DATE id="ddm_table_cols.ivr_itemalt001">20070727</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivr_itemalt001">20070727</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivr_itemalt001">99</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.ivr_itemalt001">0</DD_ATTR_CTLH>
 			<DD_ATTR_DFLT id="ddm_table_cols.ivr_itemalt001">S</DD_ATTR_DFLT>
-			<DD_ATTR_LABL id="ddm_table_cols.ivr_itemalt001">Alternate Or Superceded</DD_ATTR_LABL>
+			<DD_ATTR_LABL id="ddm_table_cols.ivr_itemalt001">Alternate Or Superseded</DD_ATTR_LABL>
 			<DD_ATTR_MAXL id="ddm_table_cols.ivr_itemalt001">1</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ivr_itemalt001">1</DD_ATTR_TIND>
 		</RECORD>
@@ -92,6 +100,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.ivr_itemalt004">20070727</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivr_itemalt004">20070727</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivr_itemalt004">35</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.ivr_itemalt004">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.ivr_itemalt004">3</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ivr_itemalt004">5</DD_ATTR_TIND>
 		</RECORD>
@@ -110,11 +119,16 @@
 			<DD_DVAR_NAME id="ddm_column_ldat.ivr_itemaltalt_sup_flag02">ALT_SUP_FLAG    </DD_DVAR_NAME>
 			<DD_ATTR_SEQ id="ddm_column_ldat.ivr_itemaltalt_sup_flag02">02</DD_ATTR_SEQ>
 			<DD_ATTR_LDAT id="ddm_column_ldat.ivr_itemaltalt_sup_flag02">S</DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS id="ddm_column_ldat.ivr_itemaltalt_sup_flag02">Superceded</DD_ATTR_LDAT_DS>
+			<DD_ATTR_LDAT_DS id="ddm_column_ldat.ivr_itemaltalt_sup_flag02">Superseded</DD_ATTR_LDAT_DS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">
 		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
+		<RECORD id="ddm_column_opts.ivr_itemaltalt_sup_flagk">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_itemaltalt_sup_flagk">IVR_ITEMALT     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivr_itemaltalt_sup_flagk">ALT_SUP_FLAG    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivr_itemaltalt_sup_flagk">k</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.ivr_itemaltproduct_type1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_itemaltproduct_type1">IVR_ITEMALT     </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ivr_itemaltproduct_type1">PRODUCT_TYPE    </DD_DVAR_NAME>
@@ -140,19 +154,26 @@
 		<ID id="ddm_elements">DDM_ELEMENTS</ID>
 		<RECORD id="ddm_elements.alt_sup_flag">
 			<DD_DATA_NAME id="ddm_elements.alt_sup_flag">ALT_SUP_FLAG    </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.alt_sup_flag">Alternate Or Superceded Flag</DD_DESCRIPTION>
+			<DD_DESCRIPTION id="ddm_elements.alt_sup_flag">Alternate Or Superseded Flag</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.alt_sup_flag">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.alt_sup_flag">1</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.alt_sup_flag"> </DD_MASK_TYPE>
 			<ASC_COMP_ID id="ddm_elements.alt_sup_flag">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.alt_sup_flag">AON</ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.alt_sup_flag">IV </ASC_PROD_ID>
+			<LOCALIZATION_EX id="ddm_elements.alt_sup_flag">N</LOCALIZATION_EX>
 			<DD_CREATE_DATE id="ddm_elements.alt_sup_flag">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.alt_sup_flag">20070615</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.alt_sup_flag">20090701</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.alt_sup_flag">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.alt_sup_flag">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.alt_sup_flag">L</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.alt_sup_flag">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.alt_sup_flag">            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL id="ddm_elements.alt_sup_flag">Alternate Or Superceded Flag</DD_ATTR_LABL>
+			<DD_ATTR_LABL id="ddm_elements.alt_sup_flag">Alternate Or Superseded Flag</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.alt_sup_flag">Alt/Super Flag</DD_ATTR_LABS>
+			<DD_ATTR_LDIS id="ddm_elements.alt_sup_flag">O</DD_ATTR_LDIS>
+			<DD_ATTR_MAXL id="ddm_elements.alt_sup_flag">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.alt_sup_flag">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.alt_sup_flag">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.alt_sup_flag">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.product_type">
 			<DD_DATA_NAME id="ddm_elements.product_type">PRODUCT_TYPE    </DD_DATA_NAME>

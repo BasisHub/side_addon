@@ -12,12 +12,19 @@
 			<ASC_VERSION_ID id="ddm_tables.opr_invoice">9.0</ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.opr_invoice">89F1F894061980C71E7EFF7D7769E187</ASC_LICENSE_ID>
 			<DD_CREATE_DATE id="ddm_tables.opr_invoice">20060425</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.opr_invoice">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.opr_invoice">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.opr_invoice">141518</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.opr_invoice">20090903</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.opr_invoice">20090709</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.opr_invoice">115940</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.opr_invoice">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.opr_invoice">[+DIR_PGM]opr_invoice.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.opr_invoice">Invoice Printing</DD_ATTR_WINT>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_opts">
+		<ID id="ddm_table_opts">DDM_TABLE_OPTS</ID>
+		<RECORD id="ddm_table_opts.opr_invoicex">
+			<DD_TABLE_ALIAS id="ddm_table_opts.opr_invoicex">OPR_INVOICE     </DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.opr_invoicex">X</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_cols">
@@ -67,6 +74,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.opr_invoice003">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.opr_invoice003">20060425</DD_LSTREV_DATE>
 			<DD_ATTR_ABLC id="ddm_table_cols.opr_invoice003">OPR_INVOICE.PICK_CHECK</DD_ATTR_ABLC>
+			<DD_ATTR_ABLV id="ddm_table_cols.opr_invoice003">Y</DD_ATTR_ABLV>
 			<DD_ATTR_MAXL id="ddm_table_cols.opr_invoice003">6</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.opr_invoice003">3</DD_ATTR_TIND>
 		</RECORD>

@@ -1,0 +1,332 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<OPE_ORDTOTALS>
+	<ALIAS id="ddm_tables">
+		<ID id="ddm_tables">DDM_TABLES</ID>
+		<RECORD id="ddm_tables.ope_ordtotals">
+			<DD_TABLE_ALIAS id="ddm_tables.ope_ordtotals">OPE_ORDTOTALS   </DD_TABLE_ALIAS>
+			<DD_ALIAS_DESC id="ddm_tables.ope_ordtotals">Order/Invoice Entry Totals</DD_ALIAS_DESC>
+			<DD_TABLE_PATH id="ddm_tables.ope_ordtotals">[+DEFAULT]</DD_TABLE_PATH>
+			<DD_ALIAS_TYPE id="ddm_tables.ope_ordtotals">P</DD_ALIAS_TYPE>
+			<DD_KEY_LENGTH id="ddm_tables.ope_ordtotals">0</DD_KEY_LENGTH>
+			<DD_NBR_RECORD id="ddm_tables.ope_ordtotals">0</DD_NBR_RECORD>
+			<DD_RECORD_LEN id="ddm_tables.ope_ordtotals">0</DD_RECORD_LEN>
+			<RESTRICT_CREATE id="ddm_tables.ope_ordtotals">Y</RESTRICT_CREATE>
+			<RESTRICT_REBUILD id="ddm_tables.ope_ordtotals">Y</RESTRICT_REBUILD>
+			<RESTRICT_AUTOADD id="ddm_tables.ope_ordtotals">Y</RESTRICT_AUTOADD>
+			<ASC_COMP_ID id="ddm_tables.ope_ordtotals">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_tables.ope_ordtotals">OP </ASC_PROD_ID>
+			<ASC_VERSION_ID id="ddm_tables.ope_ordtotals">9.0</ASC_VERSION_ID>
+			<DD_EXPORT_DATA id="ddm_tables.ope_ordtotals">N</DD_EXPORT_DATA>
+			<DD_CREATE_DATE id="ddm_tables.ope_ordtotals">20090818</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_tables.ope_ordtotals">20100108</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ope_ordtotals">20100108</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ope_ordtotals">102554</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.ope_ordtotals">../apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_FTYP id="ddm_tables.ope_ordtotals">S</DD_ATTR_FTYP>
+			<DD_ATTR_PRUN id="ddm_tables.ope_ordtotals">[+DIR_PGM]adx_dummy.aon</DD_ATTR_PRUN>
+			<DD_ATTR_WINT id="ddm_tables.ope_ordtotals">Order/Invoice Entry Totals</DD_ATTR_WINT>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_cpro">
+		<ID id="ddm_table_cpro">DDM_TABLE_CPRO</ID>
+		<RECORD id="ddm_table_cpro.ope_ordtotalsarar">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.ope_ordtotalsarar">OPE_ORDTOTALS   </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.ope_ordtotalsarar">ARAR</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_table_cpro.ope_ordtotalsasva">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.ope_ordtotalsasva">OPE_ORDTOTALS   </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.ope_ordtotalsasva">ASVA</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_table_cpro.ope_ordtotalsbend">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.ope_ordtotalsbend">OPE_ORDTOTALS   </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.ope_ordtotalsbend">BEND</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_table_cpro.ope_ordtotalsbsho">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.ope_ordtotalsbsho">OPE_ORDTOTALS   </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.ope_ordtotalsbsho">BSHO</DD_ATTR_CPRO>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_opts">
+		<ID id="ddm_table_opts">DDM_TABLE_OPTS</ID>
+		<RECORD id="ddm_table_opts.ope_ordtotalsh">
+			<DD_TABLE_ALIAS id="ddm_table_opts.ope_ordtotalsh">OPE_ORDTOTALS   </DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.ope_ordtotalsh">H</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_table_opts.ope_ordtotalsx">
+			<DD_TABLE_ALIAS id="ddm_table_opts.ope_ordtotalsx">OPE_ORDTOTALS   </DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.ope_ordtotalsx">X</DD_ATTR_OPTS>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_tpls">
+		<ID id="ddm_table_tpls">DDM_TABLE_TPLS</ID>
+		<RECORD id="ddm_table_tpls.ope_ordtotals">
+			<DD_TABLE_ALIAS id="ddm_table_tpls.ope_ordtotals">OPE_ORDTOTALS   </DD_TABLE_ALIAS>
+			<DD_TABLE_TPL id="ddm_table_tpls.ope_ordtotals">total_sales:n(7*),discount_amt:n(7*),tax_amount:n(7*),freight_amt:n(7*)</DD_TABLE_TPL>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_cols">
+		<ID id="ddm_table_cols">DDM_TABLE_COLS</ID>
+		<RECORD id="ddm_table_cols.ope_ordtotals001">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ope_ordtotals001">OPE_ORDTOTALS   </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ope_ordtotals001">001</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ope_ordtotals001">TOTAL_SALES     </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ope_ordtotals001">TOTAL_SALES     </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ope_ordtotals001">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ope_ordtotals001">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ope_ordtotals001">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.ope_ordtotals001">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.ope_ordtotals001">20090818</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ope_ordtotals001">20090818</DD_LSTREV_DATE>
+			<DD_ATTR_COLW id="ddm_table_cols.ope_ordtotals001">0</DD_ATTR_COLW>
+			<DD_ATTR_CTLX id="ddm_table_cols.ope_ordtotals001">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_cols.ope_ordtotals001">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_cols.ope_ordtotals001">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.ope_ordtotals001">0</DD_ATTR_CTLH>
+			<DD_ATTR_MLAN id="ddm_table_cols.ope_ordtotals001">N</DD_ATTR_MLAN>
+			<DD_ATTR_MAXL id="ddm_table_cols.ope_ordtotals001">7</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.ope_ordtotals001">1</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.ope_ordtotals002">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ope_ordtotals002">OPE_ORDTOTALS   </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ope_ordtotals002">002</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ope_ordtotals002">DISCOUNT_AMT    </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ope_ordtotals002">DISCOUNT_AMT    </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ope_ordtotals002">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ope_ordtotals002">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ope_ordtotals002">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.ope_ordtotals002">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.ope_ordtotals002">20090818</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ope_ordtotals002">20090818</DD_LSTREV_DATE>
+			<DD_ATTR_CPGM id="ddm_table_cols.ope_ordtotals002">../apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_COLW id="ddm_table_cols.ope_ordtotals002">0</DD_ATTR_COLW>
+			<DD_ATTR_CTLX id="ddm_table_cols.ope_ordtotals002">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_cols.ope_ordtotals002">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_cols.ope_ordtotals002">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.ope_ordtotals002">0</DD_ATTR_CTLH>
+			<DD_ATTR_MLAN id="ddm_table_cols.ope_ordtotals002">N</DD_ATTR_MLAN>
+			<DD_ATTR_MAXL id="ddm_table_cols.ope_ordtotals002">7</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.ope_ordtotals002">2</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.ope_ordtotals003">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ope_ordtotals003">OPE_ORDTOTALS   </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ope_ordtotals003">003</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ope_ordtotals003">TAX_AMOUNT      </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ope_ordtotals003">TAX_AMOUNT      </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ope_ordtotals003">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ope_ordtotals003">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ope_ordtotals003">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.ope_ordtotals003">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.ope_ordtotals003">20090818</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ope_ordtotals003">20090818</DD_LSTREV_DATE>
+			<DD_ATTR_COLW id="ddm_table_cols.ope_ordtotals003">0</DD_ATTR_COLW>
+			<DD_ATTR_CTLX id="ddm_table_cols.ope_ordtotals003">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_cols.ope_ordtotals003">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_cols.ope_ordtotals003">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.ope_ordtotals003">0</DD_ATTR_CTLH>
+			<DD_ATTR_MLAN id="ddm_table_cols.ope_ordtotals003">N</DD_ATTR_MLAN>
+			<DD_ATTR_MAXL id="ddm_table_cols.ope_ordtotals003">7</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.ope_ordtotals003">4</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.ope_ordtotals004">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ope_ordtotals004">OPE_ORDTOTALS   </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ope_ordtotals004">004</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ope_ordtotals004">FREIGHT_AMT     </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ope_ordtotals004">FREIGHT_AMT     </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ope_ordtotals004">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ope_ordtotals004">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ope_ordtotals004">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.ope_ordtotals004">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.ope_ordtotals004">20090818</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ope_ordtotals004">20090818</DD_LSTREV_DATE>
+			<DD_ATTR_CPGM id="ddm_table_cols.ope_ordtotals004">../apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_COLW id="ddm_table_cols.ope_ordtotals004">0</DD_ATTR_COLW>
+			<DD_ATTR_CTLX id="ddm_table_cols.ope_ordtotals004">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_cols.ope_ordtotals004">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_cols.ope_ordtotals004">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.ope_ordtotals004">0</DD_ATTR_CTLH>
+			<DD_ATTR_MLAN id="ddm_table_cols.ope_ordtotals004">N</DD_ATTR_MLAN>
+			<DD_ATTR_MAXL id="ddm_table_cols.ope_ordtotals004">7</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.ope_ordtotals004">5</DD_ATTR_TIND>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_disp">
+		<ID id="ddm_table_disp">DDM_TABLE_DISP</ID>
+		<RECORD id="ddm_table_disp.ope_ordtotals001">
+			<DD_TABLE_ALIAS id="ddm_table_disp.ope_ordtotals001">OPE_ORDTOTALS   </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.ope_ordtotals001">001</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.ope_ordtotals001">SUBTOTAL        </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.ope_ordtotals001">SUBTOTAL        </DD_CTRL_NAME>
+			<DD_ATTR_LABL id="ddm_table_disp.ope_ordtotals001">Subtotal</DD_ATTR_LABL>
+			<DD_ATTR_CTLY id="ddm_table_disp.ope_ordtotals001">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.ope_ordtotals001">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.ope_ordtotals001">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.ope_ordtotals001">3</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.ope_ordtotals002">
+			<DD_TABLE_ALIAS id="ddm_table_disp.ope_ordtotals002">OPE_ORDTOTALS   </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.ope_ordtotals002">002</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.ope_ordtotals002">NET_SALES       </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.ope_ordtotals002">NET_SALES       </DD_CTRL_NAME>
+			<DD_ATTR_LABL id="ddm_table_disp.ope_ordtotals002">Net Sales</DD_ATTR_LABL>
+			<DD_ATTR_CTLX id="ddm_table_disp.ope_ordtotals002">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.ope_ordtotals002">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.ope_ordtotals002">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.ope_ordtotals002">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.ope_ordtotals002">6</DD_ATTR_TIND>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_column_cpro">
+		<ID id="ddm_column_cpro">DDM_COLUMN_CPRO</ID>
+		<RECORD id="ddm_column_cpro.ope_ordtotalsdiscount_amtaval">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.ope_ordtotalsdiscount_amtaval">OPE_ORDTOTALS   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.ope_ordtotalsdiscount_amtaval">DISCOUNT_AMT    </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.ope_ordtotalsdiscount_amtaval">AVAL</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_column_cpro.ope_ordtotalsfreight_amtaval">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.ope_ordtotalsfreight_amtaval">OPE_ORDTOTALS   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.ope_ordtotalsfreight_amtaval">FREIGHT_AMT     </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.ope_ordtotalsfreight_amtaval">AVAL</DD_ATTR_CPRO>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_column_opts">
+		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
+		<RECORD id="ddm_column_opts.ope_ordtotalstotal_salesc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ope_ordtotalstotal_salesc">OPE_ORDTOTALS   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ope_ordtotalstotal_salesc">TOTAL_SALES     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ope_ordtotalstotal_salesc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ope_ordtotalstax_amountc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ope_ordtotalstax_amountc">OPE_ORDTOTALS   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ope_ordtotalstax_amountc">TAX_AMOUNT      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ope_ordtotalstax_amountc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ope_ordtotalssubtotalc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ope_ordtotalssubtotalc">OPE_ORDTOTALS   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ope_ordtotalssubtotalc">SUBTOTAL        </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ope_ordtotalssubtotalc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ope_ordtotalsnet_salesc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ope_ordtotalsnet_salesc">OPE_ORDTOTALS   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ope_ordtotalsnet_salesc">NET_SALES       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ope_ordtotalsnet_salesc">C</DD_ATTR_OPTS>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_elements">
+		<ID id="ddm_elements">DDM_ELEMENTS</ID>
+		<RECORD id="ddm_elements.total_sales">
+			<DD_DATA_NAME id="ddm_elements.total_sales">TOTAL_SALES     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.total_sales">Total Sales Amount            </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.total_sales">N</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.total_sales">7</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.total_sales">A</DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.total_sales">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.total_sales">AR </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.total_sales">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.total_sales">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.total_sales">N</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.total_sales">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.total_sales">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.total_sales">Total Sales Amount</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.total_sales">Tot Sales Amt</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.discount_amt">
+			<DD_DATA_NAME id="ddm_elements.discount_amt">DISCOUNT_AMT    </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.discount_amt">Discount Amount</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.discount_amt">N</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.discount_amt">7</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.discount_amt">A</DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.discount_amt">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.discount_amt">AP </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.discount_amt">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.discount_amt">20070108</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.discount_amt">N</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.discount_amt">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.discount_amt">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.discount_amt">Discount Amount</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.discount_amt">Disc Amt</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.tax_amount">
+			<DD_DATA_NAME id="ddm_elements.tax_amount">TAX_AMOUNT      </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.tax_amount">Tax Amount                    </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.tax_amount">N</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.tax_amount">7</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.tax_amount">A</DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.tax_amount">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.tax_amount">AR </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.tax_amount">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.tax_amount">20060328</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.tax_amount">N</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.tax_amount">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.tax_amount">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.tax_amount">Tax Amount</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.tax_amount">Tax Amt</DD_ATTR_LABS>
+			<DD_ATTR_PREC id="ddm_elements.tax_amount">0</DD_ATTR_PREC>
+		</RECORD>
+		<RECORD id="ddm_elements.freight_amt">
+			<DD_DATA_NAME id="ddm_elements.freight_amt">FREIGHT_AMT     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.freight_amt">Freight Amount</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.freight_amt">N</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.freight_amt">7</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.freight_amt">A</DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.freight_amt">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.freight_amt">AR </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.freight_amt">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.freight_amt">20090526</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.freight_amt">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.freight_amt">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.freight_amt">N</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.freight_amt">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.freight_amt">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.freight_amt">Freight Amount</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.freight_amt">Freight Amt</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.freight_amt">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.freight_amt">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.freight_amt">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.freight_amt">0</DD_ATTR_PREC>
+		</RECORD>
+		<RECORD id="ddm_elements.subtotal">
+			<DD_DATA_NAME id="ddm_elements.subtotal">SUBTOTAL        </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.subtotal">Total Sales - Discount</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.subtotal">N</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.subtotal">7</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.subtotal">A</DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.subtotal">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.subtotal">AR </ASC_PROD_ID>
+			<LOCALIZATION_EX id="ddm_elements.subtotal">N</LOCALIZATION_EX>
+			<DD_CREATE_DATE id="ddm_elements.subtotal">20090522</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.subtotal">20090526</DD_LSTREV_DATE>
+			<DD_ATTR_BLNK id="ddm_elements.subtotal">N</DD_ATTR_BLNK>
+			<DD_ATTR_CTLW id="ddm_elements.subtotal">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.subtotal">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.subtotal">N</DD_ATTR_CTYP>
+			<DD_ATTR_LABL id="ddm_elements.subtotal">Subtotal</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.subtotal">Subtotal</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.subtotal">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.subtotal">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.subtotal">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.subtotal">0</DD_ATTR_PREC>
+		</RECORD>
+		<RECORD id="ddm_elements.net_sales">
+			<DD_DATA_NAME id="ddm_elements.net_sales">NET_SALES       </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.net_sales">Net Sales</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.net_sales">N</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.net_sales">7</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.net_sales">A</DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.net_sales">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.net_sales">AR </ASC_PROD_ID>
+			<LOCALIZATION_EX id="ddm_elements.net_sales">N</LOCALIZATION_EX>
+			<DD_CREATE_DATE id="ddm_elements.net_sales">20090522</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.net_sales">20090526</DD_LSTREV_DATE>
+			<DD_ATTR_BLNK id="ddm_elements.net_sales">N</DD_ATTR_BLNK>
+			<DD_ATTR_CTLW id="ddm_elements.net_sales">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.net_sales">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.net_sales">N</DD_ATTR_CTYP>
+			<DD_ATTR_LABL id="ddm_elements.net_sales">Net Sales</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.net_sales">Net Sales</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.net_sales">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.net_sales">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.net_sales">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.net_sales">0</DD_ATTR_PREC>
+		</RECORD>
+	</ALIAS>
+</OPE_ORDTOTALS>

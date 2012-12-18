@@ -16,12 +16,20 @@
 			<ASC_VERSION_ID id="ddm_tables.opr_custjobs">9.0</ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.opr_custjobs">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.opr_custjobs">20080207</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.opr_custjobs">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.opr_custjobs">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.opr_custjobs">141518</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.opr_custjobs">20090803</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.opr_custjobs">20090803</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.opr_custjobs">130548</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.opr_custjobs">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.opr_custjobs">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.opr_custjobs">[+DIR_PGM]opr_custjobs.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.opr_custjobs">Customer Job Report</DD_ATTR_WINT>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_cpro">
+		<ID id="ddm_table_cpro">DDM_TABLE_CPRO</ID>
+		<RECORD id="ddm_table_cpro.opr_custjobsbsho">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.opr_custjobsbsho">OPR_CUSTJOBS    </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.opr_custjobsbsho">BSHO</DD_ATTR_CPRO>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_opts">

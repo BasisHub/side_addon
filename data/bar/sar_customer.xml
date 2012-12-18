@@ -18,10 +18,10 @@
 			<ASC_LICENSE_ID id="ddm_tables.sar_customer">75524166AC29E9A6E2AAEB73A02A4398</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.sar_customer">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.sar_customer">20070722</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.sar_customer">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.sar_customer">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.sar_customer">141458</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.sar_customer">/dev/apps/aon/;</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.sar_customer">20090805</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.sar_customer">20090805</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.sar_customer">121514</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.sar_customer">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.sar_customer">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.sar_customer">[+DIR_PGM]sar_customer.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.sar_customer">Sales Analysis by Customer</DD_ATTR_WINT>
@@ -36,6 +36,10 @@
 		<RECORD id="ddm_table_cpro.sar_customerasva">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.sar_customerasva">SAR_CUSTOMER    </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.sar_customerasva">ASVA</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_table_cpro.sar_customerbfmc">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.sar_customerbfmc">SAR_CUSTOMER    </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.sar_customerbfmc">BFMC</DD_ATTR_CPRO>
 		</RECORD>
 		<RECORD id="ddm_table_cpro.sar_customerbsho">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.sar_customerbsho">SAR_CUSTOMER    </DD_TABLE_ALIAS>
@@ -156,7 +160,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.sar_customer008">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.sar_customer008">20070722</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sar_customer008">20070722</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.sar_customer008">/dev/apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.sar_customer008">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.sar_customer008">30</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.sar_customer008">0</DD_ATTR_CTLH>
 			<DD_ATTR_DFLT id="ddm_table_cols.sar_customer008">N</DD_ATTR_DFLT>

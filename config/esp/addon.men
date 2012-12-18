@@ -168,12 +168,12 @@ Control de inventario^IVMENU^M^^^im_menua_inventory.png^N^01007514^IV
 	Registro de transferencia de inventario^IVR_TRANSFER^A^^ivr_transferreg.aon^im_menui_report.png^N^01007514^IV^
 	Cambios de costo^IVMENU_COSTS^G^^^im_menua_miscellaneous.png^N^01007514^IV
 		Entrada de cambios de costo^IVE_COSTCHG^T^IVE_COSTCHG^ive_ga.aon^im_menui_table.png^N^01007514^IV^
-		Registro de cambio de costo^IVR_COSTCHREG^T^IVR_COSTCHGREG^ivr_ja.aon^im_menui_report.png^N^01007514^IV^
-		Informe de valoración de cambios de costo^IVR_COSTCHGVALUE^T^IVR_COSTCHGVALUE^ivr_wa.aon^im_menui_report.png^N^01007514^IV^
 		Cambios de costo por porcentaje^IVR_COSTCHGBYPCT^T^IVR_COSTCHGBYPCT^ivr_ja.aon^im_menui_update.png^N^01007514^IV^
+		Informe de valoración de cambios de costo^IVR_COSTCHGVALUE^T^IVR_COSTCHGVALUE^ivr_wa.aon^im_menui_report.png^N^01007514^IV^
+		Registro de cambio de costo^IVR_COSTCHREG^T^IVR_COSTCHGREG^ivr_ja.aon^im_menui_report.png^N^01007514^IV^
 	Cambios de precio^IVMENU_PRICES^G^^^im_menua_miscellaneous.png^N^01007514^IV
 		Entrada de cambios de precio^IVE_PRICECHG^T^IVE_PRICECHG^ive_ea.aon^im_menui_table.png^N^01007514^IV^
-		Entrada de cambios de precio por porcentaje^IVR_PRICECHGPCT^T^IVR_PRICECHGPCT^ivu_pricechgpct.aon^im_menui_table.png^N^01007514^IV^
+		Entrada de cambios de precio por porcentaje^IVR_PRICECHGPCT^T^IVR_PRICECHGPCT^ivu_pricechgpct.aon^im_menui_update.png^N^01007514^IV^^1.0
 		Registro de cambio de precio^IVR_PRICECHGREG^T^IVR_PRICECHGREG^ivr_la.aon^im_menui_report.png^N^01007514^IV^
 		Registro de anulación de cambio de precio^IVR_PRICEREVERSE^T^IVR_PRICEREVERSE^ivr_4a.aon^im_menui_report.png^N^01007514^IV^
 	Inventario físico^IVMENU_PHYSINV^G^^^im_menua_miscellaneous.png^N^01007514^IV
@@ -226,8 +226,8 @@ Control de inventario^IVMENU^M^^^im_menua_inventory.png^N^01007514^IV
 			Valores predeterminados de los artículos^IVS_DEFAULTS^T^IVS_DEFAULTS^^im_menui_parameter.png^N^01007514^IV
 			Columnas de vista predeterminada^IVS_COLUMNS^T^IVS_COLUMNS^^im_menui_parameter.png^N^01007514^IV
 	Herramientas^IVMENU_UTILITIES^G^^^im_menua_miscellaneous.png^N^01007514^IV
-		Regenerar cantidades comprometidas^IVX_COMMITTED^T^IVX_COMMITTED^^im_menui_utility.png^N^01007514^IV
-		Regenerar cantidades de pedidos^IVX_ONORDER^T^IVX_ONORDER^^im_menui_utility.png^N^01007514^IV
+		Regenerar cantidades comprometidas^IVX_COMMITTED^A^^[+DIR_PGM]ivx_committed.aon^im_menui_utility.png^N^01007514^IV
+		Regenerar cantidades de pedidos^IVX_ONORDER^A^^[+DIR_PGM]ivx_onorder.aon^im_menui_utility.png^N^01007514^IV
 		Regenerar saldos iniciales^IVX_BEGBALS^T^IVX_BEGBALS^^im_menui_utility.png^N^01007514^IV
 		Mantenimiento de nivel UEPS/PEPS^IVX_LFTIER_UTIL^T^IVX_LFTIER_UTIL^^im_menui_table.png^N^01007514^IV^
 		Copiar artículos a otro depósito^IVX_COPYITEM^T^IVX_COPYITEM^^im_menui_utility.png^N^01007514^IV
@@ -334,15 +334,17 @@ Procesamiento de las órdenes de compra^POMENU^M^^^im_menua_purch_orders.png^N^01
 	Registro de factura de orden de compra^POR_INVREG^T^POR_INVREG^por_ea.aon^im_menui_report.png^N^01007514^PO^^8.0
 	Informes^POMENU_REPORTS^G^^^im_menua_miscellaneous.png^N^01007514^PO
 		Abrir solicitudes de PO^POR_OPENREQSN^T^POR_OPENREQSN^por_ga.aon^im_menui_report.png^N^01007514^PO
+		Requisitions By Item^POR_REQBYITEM^T^POR_REQBYITEM^^im_menui_report.png^N^01007514^PO^^1.0
 		Abrir órdenes de compra^POR_OPENPO^T^POR_OPENPO^por_ia.aon^im_menui_report.png^N^01007514^PO
+		Purchase Orders By Item^POR_POBYITEM^T^POR_POBYITEM^^im_menui_report.png^N^01007514^PO^^1.0
+		PO Expediting Report^POR_POEXPEDITE^T^POR_POEXPEDITE^^im_menui_report.png^N^01007514^PO^^1.0
+		PO Status Report^POR_POSTATUS^T^POR_POSTATUS^^im_menui_report.png^N^01007514^PO^^1.0
 		Informe de requerimientos de efectivo de PO^POR_POCASHREQMT^T^POR_POCASHREQMT^por_ma.aon^im_menui_report.png^N^01007514^PO
+		PO Billed Unbilled Report^POR_BILLUNBILL^T^POR_BILLUNBILL^^im_menui_report.png^N^01007514^PO^^1.0
 		Variaciones de recibos de PO^POR_RECVARY^T^POR_RECVARY^por_na.aon^im_menui_report.png^N^01007514^PO
 		Variación de costos de recibo de PO^POR_RECVARYCOST^T^POR_RECVARYCOST^por_oa.aon^im_menui_report.png^N^01007514^PO
 		Historial de recibos de PO por proveedor^POR_HISTBYVEND^T^POR_HISTBYVEND^por_pa.aon^im_menui_report.png^N^01007514^PO
 		Historial de recibos de PO por artículo^POR_HISTBYITEM^T^POR_HISTBYITEM^por_qa.aon^im_menui_report.png^N^01007514^PO
-	Procesamiento de cierre del período^POMENU_PEND^G^^^im_menua_miscellaneous.png^N^01007514^PO
-		Depurar historial de recibos de PO^POU_FA^T^^pou_fa.aon^im_menui_update.png^N^01007514^PO
-		Depurar historial de rechazos^POU_HA^T^^pou_ha.aon^im_menui_update.png^N^01007514^PO
 	Mantenimiento^POMENU_MAINT^G^^^im_menua_miscellaneous.png^N^01007514^PO
 		Crear calendario de compras^POM_MAKECAL^T^POM_MAKECAL^pom_aa.aon^im_menui_table.png^N^01007514^PO^
 		Mantenimiento de calendario de compras^POM_CALENDAR^A^^pom_calendar.aon^im_menui_table.png^N^01007514^PO^
@@ -354,7 +356,7 @@ Procesamiento de las órdenes de compra^POMENU^M^^^im_menua_purch_orders.png^N^01
 		Parámetros^POMENU_PARAMS^G^ARS_PARAMS^^im_node_col.png^N^01007514^PO
 			Parámetros de la aplicación^PO_APP_PARAMS^T^POS_PARAMS^^im_menui_parameter.png^N^01007514^PO
 	Herramientas^POMENU_UTILITIES^G^^^im_menua_miscellaneous.png^N^01007514^PO
-		Eliminar líneas de detalle sin vincular^POX_UNLINKED^T^POX_UNLINKED^^im_menui_utility.png^N^01007514^PO
+		Eliminar líneas de detalle sin vincular^POX_UNLINKED^A^^[+DIR_PGM]pox_unlinked.aon^im_menui_utility.png^N^01007514^PO^^1.0
 Análisis de ventas^SAMENU^M^^^im_menua_sales_analysis.png^N^01007514^SA
 	Por cliente^SAM_AA^T^SAM_CUSTOMER^sam_aa.aon^im_menui_view.png^N^01007514^SA
 	Por territorio^SAM_BA^T^SAM_TERRITRY^sam_ba.aon^im_menui_view.png^N^01007514^SA
@@ -429,8 +431,8 @@ Procesamiento de pedidos de ventas^OPMENU^M^^^im_menua_order_proc.png^N^01007514
 			Parámetros de gestión de crédito^ARS_CREDIT_OP^T^ARS_CREDIT^^im_menui_parameter.png^N^01007514^OP
 			Valores predeterminados de clientes nuevos^ARS_CUSTDFLT_OP^T^ARS_CUSTDFLT^^im_menui_parameter.png^N^01007514^OP
 	Herramientas^OPMENU_UTILITIES^G^^^im_menua_miscellaneous.png^N^01007514^OP
-		Eliminar líneas de detalle sin vincular^OPX_UNLINKED^T^OPX_UNLINKED^^im_menui_utility.png^N^01007514^OP
-		Regenerar archivo de impresión de pedido/factura^OPX_PRNTFILE^T^OPX_PRNTFILE^^im_menui_utility.png^N^01007514^OP
+		Eliminar líneas de detalle sin vincular^OPX_UNLINKED^A^^[+DIR_PGM]opx_unlinked.aon^im_menui_utility.png^N^01007514^OP
+		Regenerar archivo de impresión de pedido/factura^OPX_PRNTFILE^A^^[+DIR_PGM]opx_prntfile.aon^im_menui_utility.png^N^01007514^OP
 		Reestablecer MTD y totales del próximo mes^OPS_MTDSLSMNT^T^OPS_MTDSLSMNT^^im_menui_utility.png^N^01007514^OP^
 Control de piso de compras^SFMENU^M^^^im_menua_shop_floor_cont.png^N^01007514^SF
 	Entrada de pedido de trabajo^SFE_AA^T^^sfe_aa.aon^im_menui_table.png^N^01007514^SF
@@ -496,6 +498,7 @@ Administración de AddonSoftware^AONADMIN^M^^^im_menua_system_admin.png^N^0100751
 	Configuraciones^AON_SETTINGS^G^^^im_node_col.png^N^01007514^AD
 		Calendario fiscal^TEMP_ADS_CALENDAR^T^ADS_CALENDAR^^im_menui_table.png^N^01007514^AD
 		Mantenimiento del proceso^TEMP_ADM_PROCMASTER^T^ADM_PROCMASTER^^im_menui_parameter.png^N^01007514^AD
+		Process Batch Control Maintenance^ADM_PROCBATCHMNT^T^ADM_PROCBATCHMNT^^im_menui_parameter.png^N^01007514^AD^^9.0
 		Control de contabilización del GL^TEMP_ADM_AUDITCONTRO^T^ADM_AUDITCONTROL^^im_menui_parameter.png^N^01007514^AD
 		Set User Defaults^ADM_USERDEFAULTS^T^ADM_USERDEFAULTS^^im_menui_table.png^N^01007514^AD^
 	Herramientas^AON_UTILITIES^G^^^im_node_col.png^N^01007514^AD

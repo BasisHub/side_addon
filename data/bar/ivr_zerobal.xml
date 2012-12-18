@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.ivr_zerobal">3BFE44D5D606974141C92A9343C523DB</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ivr_zerobal">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ivr_zerobal">20071023</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ivr_zerobal">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivr_zerobal">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivr_zerobal">141532</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ivr_zerobal">20090807</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivr_zerobal">20090709</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivr_zerobal">115940</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ivr_zerobal">/dev/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ivr_zerobal">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.ivr_zerobal">[+DIR_PGM]ivr_zerobal.aon </DD_ATTR_PRUN>
@@ -32,6 +32,13 @@
 		<RECORD id="ddm_table_cpro.ivr_zerobalarar">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.ivr_zerobalarar">IVR_ZEROBAL     </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.ivr_zerobalarar">ARAR</DD_ATTR_CPRO>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_opts">
+		<ID id="ddm_table_opts">DDM_TABLE_OPTS</ID>
+		<RECORD id="ddm_table_opts.ivr_zerobalx">
+			<DD_TABLE_ALIAS id="ddm_table_opts.ivr_zerobalx">IVR_ZEROBAL     </DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.ivr_zerobalx">X</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_tpls">

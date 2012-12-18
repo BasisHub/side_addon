@@ -10,7 +10,7 @@
 			<DD_ALIAS_TYPE id="ddm_tables.apm_vendmast">V</DD_ALIAS_TYPE>
 			<DD_KEY_LENGTH id="ddm_tables.apm_vendmast">0</DD_KEY_LENGTH>
 			<DD_NBR_RECORD id="ddm_tables.apm_vendmast">0</DD_NBR_RECORD>
-			<DD_RECORD_LEN id="ddm_tables.apm_vendmast">312</DD_RECORD_LEN>
+			<DD_RECORD_LEN id="ddm_tables.apm_vendmast">0</DD_RECORD_LEN>
 			<DD_SYSTEM_REC id="ddm_tables.apm_vendmast">N</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_tables.apm_vendmast">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.apm_vendmast">AP </ASC_PROD_ID>
@@ -18,13 +18,13 @@
 			<ASC_LICENSE_ID id="ddm_tables.apm_vendmast">3BB1D20D5EEBAE71E979758B43E819AD</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.apm_vendmast">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.apm_vendmast">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.apm_vendmast">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.apm_vendmast">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.apm_vendmast">141600</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.apm_vendmast">/dev/apps/aon/;</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.apm_vendmast">20091120</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.apm_vendmast">20091120</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.apm_vendmast">143102</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.apm_vendmast">../apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.apm_vendmast">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.apm_vendmast">zzzz</DD_ATTR_SLEV>
-			<DD_ATTR_WINT id="ddm_tables.apm_vendmast">Vendor Master</DD_ATTR_WINT>
+			<DD_ATTR_WINT id="ddm_tables.apm_vendmast">Vendor Masters</DD_ATTR_WINT>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_aopt">
@@ -73,6 +73,10 @@
 		<RECORD id="ddm_table_cpro.apm_vendmastbsho">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.apm_vendmastbsho">APM_VENDMAST    </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.apm_vendmastbsho">BSHO</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_table_cpro.apm_vendmastbwri">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.apm_vendmastbwri">APM_VENDMAST    </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.apm_vendmastbwri">BWRI</DD_ATTR_CPRO>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_dtld">
@@ -272,7 +276,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.apm_vendmast002">Y</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.apm_vendmast002">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.apm_vendmast002">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.apm_vendmast002">/dev/apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.apm_vendmast002">../apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.apm_vendmast002">60</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.apm_vendmast002">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABS id="ddm_table_cols.apm_vendmast002">Vend ID</DD_ATTR_LABS>
@@ -291,7 +295,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.apm_vendmast003">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.apm_vendmast003">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.apm_vendmast003">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.apm_vendmast003">/dev/apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.apm_vendmast003">../apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.apm_vendmast003">240</DD_ATTR_CTLW>
 			<DD_ATTR_GHDR id="ddm_table_cols.apm_vendmast003">Vendor Information</DD_ATTR_GHDR>
 			<DD_ATTR_MINL id="ddm_table_cols.apm_vendmast003">1</DD_ATTR_MINL>
@@ -526,6 +530,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.apm_vendmast017">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.apm_vendmast017">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.apm_vendmast017">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.apm_vendmast017">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABL id="ddm_table_cols.apm_vendmast017">Acct ID</DD_ATTR_LABL>
 			<DD_ATTR_MAXL id="ddm_table_cols.apm_vendmast017">10</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.apm_vendmast017">Vendor Account ID</DD_ATTR_PROM>
@@ -634,6 +639,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_cpro.apm_vendmastvendor_idainp">APM_VENDMAST    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_cpro.apm_vendmastvendor_idainp">VENDOR_ID       </DD_DVAR_NAME>
 			<DD_ATTR_CPRO id="ddm_column_cpro.apm_vendmastvendor_idainp">AINP</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_column_cpro.apm_vendmastvendor_idaval">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.apm_vendmastvendor_idaval">APM_VENDMAST    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.apm_vendmastvendor_idaval">VENDOR_ID       </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.apm_vendmastvendor_idaval">AVAL</DD_ATTR_CPRO>
 		</RECORD>
 		<RECORD id="ddm_column_cpro.apm_vendmastvendor_nameaval">
 			<DD_TABLE_ALIAS id="ddm_column_cpro.apm_vendmastvendor_nameaval">APM_VENDMAST    </DD_TABLE_ALIAS>
@@ -964,19 +974,26 @@
 		</RECORD>
 		<RECORD id="ddm_elements.vendor_acct">
 			<DD_DATA_NAME id="ddm_elements.vendor_acct">VENDOR_ACCT     </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.vendor_acct">Vendor Account ID             </DD_DESCRIPTION>
+			<DD_DESCRIPTION id="ddm_elements.vendor_acct">Vendor Account ID</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.vendor_acct">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.vendor_acct">10</DD_DATA_LENGTH>
 			<DD_MASK_TYPE id="ddm_elements.vendor_acct"> </DD_MASK_TYPE>
 			<ASC_COMP_ID id="ddm_elements.vendor_acct">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.vendor_acct">AON</ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.vendor_acct">AP </ASC_PROD_ID>
+			<LOCALIZATION_EX id="ddm_elements.vendor_acct">N</LOCALIZATION_EX>
 			<DD_CREATE_DATE id="ddm_elements.vendor_acct">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.vendor_acct">20060119</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.vendor_acct">20090908</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.vendor_acct">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.vendor_acct">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.vendor_acct">E</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.vendor_acct">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.vendor_acct">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.vendor_acct">Vendor Account ID</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.vendor_acct">Vend Acct ID</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.vendor_acct">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.vendor_acct">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.vendor_acct">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.vendor_acct">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.fax_no">
 			<DD_DATA_NAME id="ddm_elements.fax_no">FAX_NO          </DD_DATA_NAME>

@@ -16,9 +16,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.por_openreqsn">9CA7EE93AF55114566712A1AB27A7334</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.por_openreqsn">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.por_openreqsn">20071008</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.por_openreqsn">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.por_openreqsn">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.por_openreqsn">141510</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.por_openreqsn">20090721</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.por_openreqsn">20090715</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.por_openreqsn">134940</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.por_openreqsn">[+DIR_CPP]por_openreqsn_cpt.bbj</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.por_openreqsn">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.por_openreqsn">[+DIR_PGM]por_openreqsn.aon</DD_ATTR_PRUN>
@@ -30,6 +30,13 @@
 		<RECORD id="ddm_table_cpro.por_openreqsnarar">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.por_openreqsnarar">POR_OPENREQSN   </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.por_openreqsnarar">ARAR</DD_ATTR_CPRO>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_opts">
+		<ID id="ddm_table_opts">DDM_TABLE_OPTS</ID>
+		<RECORD id="ddm_table_opts.por_openreqsnx">
+			<DD_TABLE_ALIAS id="ddm_table_opts.por_openreqsnx">POR_OPENREQSN   </DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.por_openreqsnx">X</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_tpls">
@@ -131,7 +138,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.por_openreqsn007">20071103</DD_LSTREV_DATE>
 			<DD_ATTR_ABLC id="ddm_table_cols.por_openreqsn007">POR_OPENREQSN.REPORT_SEQUENCE</DD_ATTR_ABLC>
 			<DD_ATTR_ABLV id="ddm_table_cols.por_openreqsn007">A</DD_ATTR_ABLV>
-			<DD_ATTR_LABL id="ddm_table_cols.por_openreqsn007">Alternate Seq</DD_ATTR_LABL>
+			<DD_ATTR_LABL id="ddm_table_cols.por_openreqsn007">Alt Sequence</DD_ATTR_LABL>
 			<DD_ATTR_MAXL id="ddm_table_cols.por_openreqsn007">10</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.por_openreqsn007">4</DD_ATTR_TIND>
 		</RECORD>

@@ -16,8 +16,8 @@
 			<DD_EXPORT_DATA id="ddm_tables.apc_paymentgroup">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.apc_paymentgroup">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_tables.apc_paymentgroup">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.apc_paymentgroup">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.apc_paymentgroup">141602</DD_LSTSYNC_TIME>
+			<DD_LSTSYNC_DATE id="ddm_tables.apc_paymentgroup">20091111</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.apc_paymentgroup">164530</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.apc_paymentgroup">/dev/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.apc_paymentgroup">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.apc_paymentgroup">zzzz</DD_ATTR_SLEV>
@@ -46,7 +46,6 @@
 		<ID id="ddm_table_tpls">DDM_TABLE_TPLS</ID>
 		<RECORD id="ddm_table_tpls.apc_paymentgroup">
 			<DD_TABLE_ALIAS id="ddm_table_tpls.apc_paymentgroup">APC_PAYMENTGROUP</DD_TABLE_ALIAS>
-			<DD_FILE_NAME id="ddm_table_tpls.apc_paymentgroup">       </DD_FILE_NAME>
 			<DD_TABLE_TPL id="ddm_table_tpls.apc_paymentgroup">firm_id:c(2),record_id_d:c(1),payment_grp:c(2),code_desc:c(20*)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
@@ -57,6 +56,18 @@
 			<DD_KEY_NUMBER id="ddm_keys.apc_paymentgroup00">00</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.apc_paymentgroup00">Primary</DD_KEY_DESC>
 			<DD_KEY_ID id="ddm_keys.apc_paymentgroup00">PRIMARY         </DD_KEY_ID>
+		</RECORD>
+		<RECORD id="ddm_keys.apc_paymentgroup01">
+			<DD_TABLE_ALIAS id="ddm_keys.apc_paymentgroup01">APC_PAYMENTGROUP</DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_keys.apc_paymentgroup01">01</DD_KEY_NUMBER>
+			<DD_KEY_DESC id="ddm_keys.apc_paymentgroup01">Firm ID, Payment Group</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.apc_paymentgroup01">FIRM_PAYMENT_GRP</DD_KEY_ID>
+		</RECORD>
+		<RECORD id="ddm_keys.apc_paymentgroup02">
+			<DD_TABLE_ALIAS id="ddm_keys.apc_paymentgroup02">APC_PAYMENTGROUP</DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_keys.apc_paymentgroup02">02</DD_KEY_NUMBER>
+			<DD_KEY_DESC id="ddm_keys.apc_paymentgroup02">Payment Group, Firm ID</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.apc_paymentgroup02">PAYMENT_GRP_FIRM</DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_key_segs">
@@ -87,6 +98,54 @@
 			<DD_SEGMENT_POS id="ddm_key_segs.apc_paymentgroup0003">0</DD_SEGMENT_POS>
 			<DD_SEGMENT_OFF id="ddm_key_segs.apc_paymentgroup0003">0</DD_SEGMENT_OFF>
 			<DD_SEGMENT_LEN id="ddm_key_segs.apc_paymentgroup0003">0</DD_SEGMENT_LEN>
+		</RECORD>
+		<RECORD id="ddm_key_segs.apc_paymentgroup0101">
+			<DD_TABLE_ALIAS id="ddm_key_segs.apc_paymentgroup0101">APC_PAYMENTGROUP</DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.apc_paymentgroup0101">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.apc_paymentgroup0101">01</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.apc_paymentgroup0101">FIRM_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.apc_paymentgroup0101">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.apc_paymentgroup0101">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.apc_paymentgroup0101">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.apc_paymentgroup0101">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.apc_paymentgroup0101">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.apc_paymentgroup0101">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.apc_paymentgroup0102">
+			<DD_TABLE_ALIAS id="ddm_key_segs.apc_paymentgroup0102">APC_PAYMENTGROUP</DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.apc_paymentgroup0102">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.apc_paymentgroup0102">02</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.apc_paymentgroup0102">PAYMENT_GRP</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.apc_paymentgroup0102">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.apc_paymentgroup0102">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.apc_paymentgroup0102">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.apc_paymentgroup0102">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.apc_paymentgroup0102">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.apc_paymentgroup0102">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.apc_paymentgroup0201">
+			<DD_TABLE_ALIAS id="ddm_key_segs.apc_paymentgroup0201">APC_PAYMENTGROUP</DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.apc_paymentgroup0201">02</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.apc_paymentgroup0201">01</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.apc_paymentgroup0201">PAYMENT_GRP</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.apc_paymentgroup0201">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.apc_paymentgroup0201">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.apc_paymentgroup0201">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.apc_paymentgroup0201">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.apc_paymentgroup0201">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.apc_paymentgroup0201">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.apc_paymentgroup0202">
+			<DD_TABLE_ALIAS id="ddm_key_segs.apc_paymentgroup0202">APC_PAYMENTGROUP</DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.apc_paymentgroup0202">02</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.apc_paymentgroup0202">02</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.apc_paymentgroup0202">FIRM_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.apc_paymentgroup0202">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.apc_paymentgroup0202">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.apc_paymentgroup0202">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.apc_paymentgroup0202">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.apc_paymentgroup0202">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.apc_paymentgroup0202">N</DD_SEGMENT_MATH>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_cols">

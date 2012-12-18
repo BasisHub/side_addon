@@ -12,15 +12,16 @@
 			<DD_RECORD_LEN id="ddm_tables.apr_ledgers">0</DD_RECORD_LEN>
 			<DD_SYSTEM_REC id="ddm_tables.apr_ledgers">N</DD_SYSTEM_REC>
 			<RESTRICT_CREATE id="ddm_tables.apr_ledgers">Y</RESTRICT_CREATE>
+			<RESTRICT_AUTOADD id="ddm_tables.apr_ledgers">Y</RESTRICT_AUTOADD>
 			<ASC_COMP_ID id="ddm_tables.apr_ledgers">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.apr_ledgers">AP </ASC_PROD_ID>
 			<ASC_VERSION_ID id="ddm_tables.apr_ledgers">9.0</ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.apr_ledgers">7983A6B083619CE5AC54BD0C037B9D8D</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.apr_ledgers">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.apr_ledgers">20060816</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.apr_ledgers">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.apr_ledgers">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.apr_ledgers">141600</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.apr_ledgers">20091125</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.apr_ledgers">20091125</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.apr_ledgers">165838</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.apr_ledgers">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.apr_ledgers">[+DIR_PGM]apr_ledgers.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.apr_ledgers">Vendor Ledger Cards</DD_ATTR_WINT>
@@ -37,7 +38,7 @@
 		<ID id="ddm_table_tpls">DDM_TABLE_TPLS</ID>
 		<RECORD id="ddm_table_tpls.apr_ledgers">
 			<DD_TABLE_ALIAS id="ddm_table_tpls.apr_ledgers">APR_LEDGERS     </DD_TABLE_ALIAS>
-			<DD_TABLE_TPL id="ddm_table_tpls.apr_ledgers">firm_id:c(2*),vendor_id_01:c(6*),vendor_id_02:c(6*),report_date:c(8*),export_fmt:c(1*)</DD_TABLE_TPL>
+			<DD_TABLE_TPL id="ddm_table_tpls.apr_ledgers">firm_id:c(2*),vendor_id_01:c(6*),vendor_id_02:c(6*),report_date:c(8*),vendor_type:c(1*),export_fmt:c(1*)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_cols">
@@ -90,23 +91,44 @@
 		<RECORD id="ddm_table_cols.apr_ledgers004">
 			<DD_TABLE_ALIAS id="ddm_table_cols.apr_ledgers004">APR_LEDGERS     </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_cols.apr_ledgers004">004</DD_SEQUENCE>
-			<DD_DATA_NAME id="ddm_table_cols.apr_ledgers004">GENERIC_CHK     </DD_DATA_NAME>
-			<DD_DVAR_NAME id="ddm_table_cols.apr_ledgers004">EXPORT_FMT      </DD_DVAR_NAME>
+			<DD_DATA_NAME id="ddm_table_cols.apr_ledgers004">VENDOR_TYPE     </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.apr_ledgers004">VENDOR_TYPE     </DD_DVAR_NAME>
 			<DD_COL_REPEATS id="ddm_table_cols.apr_ledgers004">0</DD_COL_REPEATS>
 			<DD_COL_OCCURS id="ddm_table_cols.apr_ledgers004">0</DD_COL_OCCURS>
 			<DD_FIELD_DELIM id="ddm_table_cols.apr_ledgers004">Y</DD_FIELD_DELIM>
 			<DD_DELIM_CHAR id="ddm_table_cols.apr_ledgers004">0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE id="ddm_table_cols.apr_ledgers004">20080619</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_table_cols.apr_ledgers004">20080619</DD_LSTREV_DATE>
+			<DD_CREATE_DATE id="ddm_table_cols.apr_ledgers004">20091125</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.apr_ledgers004">20091125</DD_LSTREV_DATE>
+			<DD_ATTR_COLW id="ddm_table_cols.apr_ledgers004">0</DD_ATTR_COLW>
 			<DD_ATTR_CTLX id="ddm_table_cols.apr_ledgers004">0</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_cols.apr_ledgers004">0</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.apr_ledgers004">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.apr_ledgers004">0</DD_ATTR_CTLH>
-			<DD_ATTR_LABL id="ddm_table_cols.apr_ledgers004">Export format?</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_table_cols.apr_ledgers004">Export fmt?</DD_ATTR_LABS>
+			<DD_ATTR_DFLT id="ddm_table_cols.apr_ledgers004">P</DD_ATTR_DFLT>
 			<DD_ATTR_MLAN id="ddm_table_cols.apr_ledgers004">N</DD_ATTR_MLAN>
 			<DD_ATTR_MAXL id="ddm_table_cols.apr_ledgers004">1</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.apr_ledgers004">4</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.apr_ledgers005">
+			<DD_TABLE_ALIAS id="ddm_table_cols.apr_ledgers005">APR_LEDGERS     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.apr_ledgers005">005</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.apr_ledgers005">GENERIC_CHK     </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.apr_ledgers005">EXPORT_FMT      </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.apr_ledgers005">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.apr_ledgers005">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.apr_ledgers005">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.apr_ledgers005">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.apr_ledgers005">20080619</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.apr_ledgers005">20080619</DD_LSTREV_DATE>
+			<DD_ATTR_CTLX id="ddm_table_cols.apr_ledgers005">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_cols.apr_ledgers005">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_cols.apr_ledgers005">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.apr_ledgers005">0</DD_ATTR_CTLH>
+			<DD_ATTR_LABL id="ddm_table_cols.apr_ledgers005">Export format?</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_table_cols.apr_ledgers005">Export fmt?</DD_ATTR_LABS>
+			<DD_ATTR_MLAN id="ddm_table_cols.apr_ledgers005">N</DD_ATTR_MLAN>
+			<DD_ATTR_MAXL id="ddm_table_cols.apr_ledgers005">1</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.apr_ledgers005">5</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">
@@ -120,6 +142,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.apr_ledgersvendor_id2">APR_LEDGERS     </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.apr_ledgersvendor_id2">VENDOR_ID       </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.apr_ledgersvendor_id2">2</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.apr_ledgersvendor_typek">
+			<DD_TABLE_ALIAS id="ddm_column_opts.apr_ledgersvendor_typek">APR_LEDGERS     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.apr_ledgersvendor_typek">VENDOR_TYPE     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.apr_ledgersvendor_typek">k</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">
@@ -192,6 +219,28 @@
 			<DD_ATTR_MSKI id="ddm_elements.report_date">YYYYMMDD</DD_ATTR_MSKI>
 			<DD_ATTR_STYP id="ddm_elements.report_date">1</DD_ATTR_STYP>
 		</RECORD>
+		<RECORD id="ddm_elements.vendor_type">
+			<DD_DATA_NAME id="ddm_elements.vendor_type">VENDOR_TYPE     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.vendor_type">Vendor Type (Perm, Temp, Both)</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.vendor_type">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.vendor_type">1</DD_DATA_LENGTH>
+			<ASC_COMP_ID id="ddm_elements.vendor_type">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.vendor_type">AP </ASC_PROD_ID>
+			<LOCALIZATION_EX id="ddm_elements.vendor_type">N</LOCALIZATION_EX>
+			<DD_CREATE_DATE id="ddm_elements.vendor_type">20091125</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.vendor_type">20091125</DD_LSTREV_DATE>
+			<DD_ATTR_BLNK id="ddm_elements.vendor_type">N</DD_ATTR_BLNK>
+			<DD_ATTR_CTLW id="ddm_elements.vendor_type">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.vendor_type">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.vendor_type">L</DD_ATTR_CTYP>
+			<DD_ATTR_LABL id="ddm_elements.vendor_type">Vendor Type</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.vendor_type">Vendor Type</DD_ATTR_LABS>
+			<DD_ATTR_LDIS id="ddm_elements.vendor_type">O</DD_ATTR_LDIS>
+			<DD_ATTR_MAXL id="ddm_elements.vendor_type">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.vendor_type">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.vendor_type">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.vendor_type">0</DD_ATTR_PREC>
+		</RECORD>
 		<RECORD id="ddm_elements.generic_chk">
 			<DD_DATA_NAME id="ddm_elements.generic_chk">GENERIC_CHK     </DD_DATA_NAME>
 			<DD_DESCRIPTION id="ddm_elements.generic_chk">Generic checkbox</DD_DESCRIPTION>
@@ -219,6 +268,27 @@
 			<DD_DATA_NAME id="ddm_element_cmts.vendor_id001">VENDOR_ID       </DD_DATA_NAME>
 			<DD_COMM_SEQ id="ddm_element_cmts.vendor_id001">001</DD_COMM_SEQ>
 			<DD_COMM_TEXT id="ddm_element_cmts.vendor_id001">this is a test comment</DD_COMM_TEXT>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_element_ldat">
+		<ID id="ddm_element_ldat">DDM_ELEMENT_LDAT</ID>
+		<RECORD id="ddm_element_ldat.vendor_type01">
+			<DD_DATA_NAME id="ddm_element_ldat.vendor_type01">VENDOR_TYPE     </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.vendor_type01">01</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.vendor_type01">A</DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.vendor_type01">All</DD_ATTR_LDAT_DS>
+		</RECORD>
+		<RECORD id="ddm_element_ldat.vendor_type02">
+			<DD_DATA_NAME id="ddm_element_ldat.vendor_type02">VENDOR_TYPE     </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.vendor_type02">02</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.vendor_type02">P</DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.vendor_type02">Permanent</DD_ATTR_LDAT_DS>
+		</RECORD>
+		<RECORD id="ddm_element_ldat.vendor_type03">
+			<DD_DATA_NAME id="ddm_element_ldat.vendor_type03">VENDOR_TYPE     </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.vendor_type03">03</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.vendor_type03">T</DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.vendor_type03">Temporary</DD_ATTR_LDAT_DS>
 		</RECORD>
 	</ALIAS>
 </APR_LEDGERS>

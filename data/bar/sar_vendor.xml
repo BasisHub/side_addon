@@ -18,10 +18,10 @@
 			<ASC_LICENSE_ID id="ddm_tables.sar_vendor">BC9855E83140114267B306776AC62540</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.sar_vendor">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.sar_vendor">20070802</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.sar_vendor">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.sar_vendor">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.sar_vendor">141456</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.sar_vendor">[+DIR_CPP]sar_vendor_cpt.bbj</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.sar_vendor">20090805</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.sar_vendor">20090709</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.sar_vendor">115940</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.sar_vendor">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.sar_vendor">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.sar_vendor">[+DIR_PGM]sar_vendor.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.sar_vendor">Sales Analysis by Vendor</DD_ATTR_WINT>
@@ -36,6 +36,10 @@
 		<RECORD id="ddm_table_cpro.sar_vendorasva">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.sar_vendorasva">SAR_VENDOR      </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.sar_vendorasva">ASVA</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_table_cpro.sar_vendorbfmc">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.sar_vendorbfmc">SAR_VENDOR      </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.sar_vendorbfmc">BFMC</DD_ATTR_CPRO>
 		</RECORD>
 		<RECORD id="ddm_table_cpro.sar_vendorbsho">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.sar_vendorbsho">SAR_VENDOR      </DD_TABLE_ALIAS>
@@ -157,7 +161,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.sar_vendor008">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.sar_vendor008">20070722</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sar_vendor008">20070722</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.sar_vendor008">[+DIR_CPP]sar_vendor_cpt.bbj</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.sar_vendor008">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.sar_vendor008">30</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.sar_vendor008">0</DD_ATTR_CTLH>
 			<DD_ATTR_DFLT id="ddm_table_cols.sar_vendor008">N</DD_ATTR_DFLT>
@@ -253,6 +257,14 @@
 			<DD_ATTR_DFLT id="ddm_table_cols.sar_vendor014">N</DD_ATTR_DFLT>
 			<DD_ATTR_MAXL id="ddm_table_cols.sar_vendor014">1</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.sar_vendor014">14</DD_ATTR_TIND>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_column_cpro">
+		<ID id="ddm_column_cpro">DDM_COLUMN_CPRO</ID>
+		<RECORD id="ddm_column_cpro.sar_vendortwlve_per_reportaval">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.sar_vendortwlve_per_reportaval">SAR_VENDOR      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.sar_vendortwlve_per_reportaval">TWLVE_PER_REPORT</DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.sar_vendortwlve_per_reportaval">AVAL</DD_ATTR_CPRO>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_ldat">

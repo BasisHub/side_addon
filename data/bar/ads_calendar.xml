@@ -19,9 +19,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.ads_calendar">408FD371DDE61A29E2700A0FFC9AF158</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ads_calendar">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ads_calendar">20080522</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ads_calendar">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ads_calendar">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ads_calendar">141604</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ads_calendar">20090821</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ads_calendar">20090701</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ads_calendar">141136</DD_LSTSYNC_TIME>
 			<DD_ATTR_ATAB id="ddm_tables.ads_calendar">GLS_PARAMS      </DD_ATTR_ATAB>
 			<DD_ATTR_CPGM id="ddm_tables.ads_calendar">../apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ads_calendar">T</DD_ATTR_FTYP>
@@ -340,7 +340,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ads_calendar007">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ads_calendar007">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ads_calendar007">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ads_calendar007">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ads_calendar007">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ads_calendar007">107</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ads_calendar008">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ads_calendar008">ADS_CALENDAR    </DD_TABLE_ALIAS>
@@ -397,7 +399,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ads_calendar011">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ads_calendar011">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ads_calendar011">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ads_calendar011">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ads_calendar011">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ads_calendar011">108</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ads_calendar012">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ads_calendar012">ADS_CALENDAR    </DD_TABLE_ALIAS>
@@ -973,7 +977,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ads_calendar051">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ads_calendar051">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ads_calendar051">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ads_calendar051">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ads_calendar051">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ads_calendar051">109</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ads_calendar052">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ads_calendar052">ADS_CALENDAR    </DD_TABLE_ALIAS>
@@ -1432,7 +1438,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ads_calendar082">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ads_calendar082">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ads_calendar082">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ads_calendar082">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ads_calendar082">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ads_calendar082">110</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ads_calendar083">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ads_calendar083">ADS_CALENDAR    </DD_TABLE_ALIAS>
@@ -1768,7 +1776,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.ads_calendar101">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.ads_calendar101">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ads_calendar101">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ads_calendar101">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ads_calendar101">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ads_calendar101">111</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ads_calendar102">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ads_calendar102">ADS_CALENDAR    </DD_TABLE_ALIAS>
@@ -2215,240 +2225,60 @@
 			<DD_DVAR_NAME id="ddm_column_opts.ads_calendarper_ending_13l">PER_ENDING_13   </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ads_calendarper_ending_13l">L</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD id="ddm_column_opts.ads_calendarlocked_date_01a">
-			<DD_TABLE_ALIAS id="ddm_column_opts.ads_calendarlocked_date_01a">ADS_CALENDAR    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.ads_calendarlocked_date_01a">LOCKED_DATE_01  </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.ads_calendarlocked_date_01a">A</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD id="ddm_column_opts.ads_calendarlocked_date_01b">
-			<DD_TABLE_ALIAS id="ddm_column_opts.ads_calendarlocked_date_01b">ADS_CALENDAR    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.ads_calendarlocked_date_01b">LOCKED_DATE_01  </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.ads_calendarlocked_date_01b">B</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD id="ddm_column_opts.ads_calendarlocked_date_01c">
-			<DD_TABLE_ALIAS id="ddm_column_opts.ads_calendarlocked_date_01c">ADS_CALENDAR    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.ads_calendarlocked_date_01c">LOCKED_DATE_01  </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.ads_calendarlocked_date_01c">C</DD_ATTR_OPTS>
-		</RECORD>
 		<RECORD id="ddm_column_opts.ads_calendarlocked_date_01l">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ads_calendarlocked_date_01l">ADS_CALENDAR    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ads_calendarlocked_date_01l">LOCKED_DATE_01  </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ads_calendarlocked_date_01l">L</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD id="ddm_column_opts.ads_calendarlocked_date_02a">
-			<DD_TABLE_ALIAS id="ddm_column_opts.ads_calendarlocked_date_02a">ADS_CALENDAR    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.ads_calendarlocked_date_02a">LOCKED_DATE_02  </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.ads_calendarlocked_date_02a">A</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD id="ddm_column_opts.ads_calendarlocked_date_02b">
-			<DD_TABLE_ALIAS id="ddm_column_opts.ads_calendarlocked_date_02b">ADS_CALENDAR    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.ads_calendarlocked_date_02b">LOCKED_DATE_02  </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.ads_calendarlocked_date_02b">B</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD id="ddm_column_opts.ads_calendarlocked_date_02c">
-			<DD_TABLE_ALIAS id="ddm_column_opts.ads_calendarlocked_date_02c">ADS_CALENDAR    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.ads_calendarlocked_date_02c">LOCKED_DATE_02  </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.ads_calendarlocked_date_02c">C</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.ads_calendarlocked_date_02l">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ads_calendarlocked_date_02l">ADS_CALENDAR    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ads_calendarlocked_date_02l">LOCKED_DATE_02  </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ads_calendarlocked_date_02l">L</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD id="ddm_column_opts.ads_calendarlocked_date_03a">
-			<DD_TABLE_ALIAS id="ddm_column_opts.ads_calendarlocked_date_03a">ADS_CALENDAR    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.ads_calendarlocked_date_03a">LOCKED_DATE_03  </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.ads_calendarlocked_date_03a">A</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD id="ddm_column_opts.ads_calendarlocked_date_03b">
-			<DD_TABLE_ALIAS id="ddm_column_opts.ads_calendarlocked_date_03b">ADS_CALENDAR    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.ads_calendarlocked_date_03b">LOCKED_DATE_03  </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.ads_calendarlocked_date_03b">B</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD id="ddm_column_opts.ads_calendarlocked_date_03c">
-			<DD_TABLE_ALIAS id="ddm_column_opts.ads_calendarlocked_date_03c">ADS_CALENDAR    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.ads_calendarlocked_date_03c">LOCKED_DATE_03  </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.ads_calendarlocked_date_03c">C</DD_ATTR_OPTS>
-		</RECORD>
 		<RECORD id="ddm_column_opts.ads_calendarlocked_date_03l">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ads_calendarlocked_date_03l">ADS_CALENDAR    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ads_calendarlocked_date_03l">LOCKED_DATE_03  </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ads_calendarlocked_date_03l">L</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD id="ddm_column_opts.ads_calendarlocked_date_04a">
-			<DD_TABLE_ALIAS id="ddm_column_opts.ads_calendarlocked_date_04a">ADS_CALENDAR    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.ads_calendarlocked_date_04a">LOCKED_DATE_04  </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.ads_calendarlocked_date_04a">A</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD id="ddm_column_opts.ads_calendarlocked_date_04b">
-			<DD_TABLE_ALIAS id="ddm_column_opts.ads_calendarlocked_date_04b">ADS_CALENDAR    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.ads_calendarlocked_date_04b">LOCKED_DATE_04  </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.ads_calendarlocked_date_04b">B</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD id="ddm_column_opts.ads_calendarlocked_date_04c">
-			<DD_TABLE_ALIAS id="ddm_column_opts.ads_calendarlocked_date_04c">ADS_CALENDAR    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.ads_calendarlocked_date_04c">LOCKED_DATE_04  </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.ads_calendarlocked_date_04c">C</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.ads_calendarlocked_date_04l">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ads_calendarlocked_date_04l">ADS_CALENDAR    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ads_calendarlocked_date_04l">LOCKED_DATE_04  </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ads_calendarlocked_date_04l">L</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD id="ddm_column_opts.ads_calendarlocked_date_05a">
-			<DD_TABLE_ALIAS id="ddm_column_opts.ads_calendarlocked_date_05a">ADS_CALENDAR    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.ads_calendarlocked_date_05a">LOCKED_DATE_05  </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.ads_calendarlocked_date_05a">A</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD id="ddm_column_opts.ads_calendarlocked_date_05b">
-			<DD_TABLE_ALIAS id="ddm_column_opts.ads_calendarlocked_date_05b">ADS_CALENDAR    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.ads_calendarlocked_date_05b">LOCKED_DATE_05  </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.ads_calendarlocked_date_05b">B</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD id="ddm_column_opts.ads_calendarlocked_date_05c">
-			<DD_TABLE_ALIAS id="ddm_column_opts.ads_calendarlocked_date_05c">ADS_CALENDAR    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.ads_calendarlocked_date_05c">LOCKED_DATE_05  </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.ads_calendarlocked_date_05c">C</DD_ATTR_OPTS>
-		</RECORD>
 		<RECORD id="ddm_column_opts.ads_calendarlocked_date_05l">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ads_calendarlocked_date_05l">ADS_CALENDAR    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ads_calendarlocked_date_05l">LOCKED_DATE_05  </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ads_calendarlocked_date_05l">L</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD id="ddm_column_opts.ads_calendarlocked_date_06a">
-			<DD_TABLE_ALIAS id="ddm_column_opts.ads_calendarlocked_date_06a">ADS_CALENDAR    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.ads_calendarlocked_date_06a">LOCKED_DATE_06  </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.ads_calendarlocked_date_06a">A</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD id="ddm_column_opts.ads_calendarlocked_date_06b">
-			<DD_TABLE_ALIAS id="ddm_column_opts.ads_calendarlocked_date_06b">ADS_CALENDAR    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.ads_calendarlocked_date_06b">LOCKED_DATE_06  </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.ads_calendarlocked_date_06b">B</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD id="ddm_column_opts.ads_calendarlocked_date_06c">
-			<DD_TABLE_ALIAS id="ddm_column_opts.ads_calendarlocked_date_06c">ADS_CALENDAR    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.ads_calendarlocked_date_06c">LOCKED_DATE_06  </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.ads_calendarlocked_date_06c">C</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.ads_calendarlocked_date_06l">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ads_calendarlocked_date_06l">ADS_CALENDAR    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ads_calendarlocked_date_06l">LOCKED_DATE_06  </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ads_calendarlocked_date_06l">L</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD id="ddm_column_opts.ads_calendarlocked_date_07a">
-			<DD_TABLE_ALIAS id="ddm_column_opts.ads_calendarlocked_date_07a">ADS_CALENDAR    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.ads_calendarlocked_date_07a">LOCKED_DATE_07  </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.ads_calendarlocked_date_07a">A</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD id="ddm_column_opts.ads_calendarlocked_date_07b">
-			<DD_TABLE_ALIAS id="ddm_column_opts.ads_calendarlocked_date_07b">ADS_CALENDAR    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.ads_calendarlocked_date_07b">LOCKED_DATE_07  </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.ads_calendarlocked_date_07b">B</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD id="ddm_column_opts.ads_calendarlocked_date_07c">
-			<DD_TABLE_ALIAS id="ddm_column_opts.ads_calendarlocked_date_07c">ADS_CALENDAR    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.ads_calendarlocked_date_07c">LOCKED_DATE_07  </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.ads_calendarlocked_date_07c">C</DD_ATTR_OPTS>
-		</RECORD>
 		<RECORD id="ddm_column_opts.ads_calendarlocked_date_07l">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ads_calendarlocked_date_07l">ADS_CALENDAR    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ads_calendarlocked_date_07l">LOCKED_DATE_07  </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ads_calendarlocked_date_07l">L</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD id="ddm_column_opts.ads_calendarlocked_date_08a">
-			<DD_TABLE_ALIAS id="ddm_column_opts.ads_calendarlocked_date_08a">ADS_CALENDAR    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.ads_calendarlocked_date_08a">LOCKED_DATE_08  </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.ads_calendarlocked_date_08a">A</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD id="ddm_column_opts.ads_calendarlocked_date_08b">
-			<DD_TABLE_ALIAS id="ddm_column_opts.ads_calendarlocked_date_08b">ADS_CALENDAR    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.ads_calendarlocked_date_08b">LOCKED_DATE_08  </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.ads_calendarlocked_date_08b">B</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD id="ddm_column_opts.ads_calendarlocked_date_08c">
-			<DD_TABLE_ALIAS id="ddm_column_opts.ads_calendarlocked_date_08c">ADS_CALENDAR    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.ads_calendarlocked_date_08c">LOCKED_DATE_08  </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.ads_calendarlocked_date_08c">C</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.ads_calendarlocked_date_08l">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ads_calendarlocked_date_08l">ADS_CALENDAR    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ads_calendarlocked_date_08l">LOCKED_DATE_08  </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ads_calendarlocked_date_08l">L</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD id="ddm_column_opts.ads_calendarlocked_date_09a">
-			<DD_TABLE_ALIAS id="ddm_column_opts.ads_calendarlocked_date_09a">ADS_CALENDAR    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.ads_calendarlocked_date_09a">LOCKED_DATE_09  </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.ads_calendarlocked_date_09a">A</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD id="ddm_column_opts.ads_calendarlocked_date_09b">
-			<DD_TABLE_ALIAS id="ddm_column_opts.ads_calendarlocked_date_09b">ADS_CALENDAR    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.ads_calendarlocked_date_09b">LOCKED_DATE_09  </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.ads_calendarlocked_date_09b">B</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD id="ddm_column_opts.ads_calendarlocked_date_09c">
-			<DD_TABLE_ALIAS id="ddm_column_opts.ads_calendarlocked_date_09c">ADS_CALENDAR    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.ads_calendarlocked_date_09c">LOCKED_DATE_09  </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.ads_calendarlocked_date_09c">C</DD_ATTR_OPTS>
-		</RECORD>
 		<RECORD id="ddm_column_opts.ads_calendarlocked_date_09l">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ads_calendarlocked_date_09l">ADS_CALENDAR    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ads_calendarlocked_date_09l">LOCKED_DATE_09  </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ads_calendarlocked_date_09l">L</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD id="ddm_column_opts.ads_calendarlocked_date_10a">
-			<DD_TABLE_ALIAS id="ddm_column_opts.ads_calendarlocked_date_10a">ADS_CALENDAR    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.ads_calendarlocked_date_10a">LOCKED_DATE_10  </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.ads_calendarlocked_date_10a">A</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD id="ddm_column_opts.ads_calendarlocked_date_10b">
-			<DD_TABLE_ALIAS id="ddm_column_opts.ads_calendarlocked_date_10b">ADS_CALENDAR    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.ads_calendarlocked_date_10b">LOCKED_DATE_10  </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.ads_calendarlocked_date_10b">B</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD id="ddm_column_opts.ads_calendarlocked_date_10c">
-			<DD_TABLE_ALIAS id="ddm_column_opts.ads_calendarlocked_date_10c">ADS_CALENDAR    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.ads_calendarlocked_date_10c">LOCKED_DATE_10  </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.ads_calendarlocked_date_10c">C</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.ads_calendarlocked_date_10l">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ads_calendarlocked_date_10l">ADS_CALENDAR    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ads_calendarlocked_date_10l">LOCKED_DATE_10  </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ads_calendarlocked_date_10l">L</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD id="ddm_column_opts.ads_calendarlocked_date_11a">
-			<DD_TABLE_ALIAS id="ddm_column_opts.ads_calendarlocked_date_11a">ADS_CALENDAR    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.ads_calendarlocked_date_11a">LOCKED_DATE_11  </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.ads_calendarlocked_date_11a">A</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD id="ddm_column_opts.ads_calendarlocked_date_11b">
-			<DD_TABLE_ALIAS id="ddm_column_opts.ads_calendarlocked_date_11b">ADS_CALENDAR    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.ads_calendarlocked_date_11b">LOCKED_DATE_11  </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.ads_calendarlocked_date_11b">B</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD id="ddm_column_opts.ads_calendarlocked_date_11c">
-			<DD_TABLE_ALIAS id="ddm_column_opts.ads_calendarlocked_date_11c">ADS_CALENDAR    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.ads_calendarlocked_date_11c">LOCKED_DATE_11  </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.ads_calendarlocked_date_11c">C</DD_ATTR_OPTS>
-		</RECORD>
 		<RECORD id="ddm_column_opts.ads_calendarlocked_date_11l">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ads_calendarlocked_date_11l">ADS_CALENDAR    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ads_calendarlocked_date_11l">LOCKED_DATE_11  </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ads_calendarlocked_date_11l">L</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD id="ddm_column_opts.ads_calendarlocked_date_12a">
-			<DD_TABLE_ALIAS id="ddm_column_opts.ads_calendarlocked_date_12a">ADS_CALENDAR    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.ads_calendarlocked_date_12a">LOCKED_DATE_12  </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.ads_calendarlocked_date_12a">A</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD id="ddm_column_opts.ads_calendarlocked_date_12b">
-			<DD_TABLE_ALIAS id="ddm_column_opts.ads_calendarlocked_date_12b">ADS_CALENDAR    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.ads_calendarlocked_date_12b">LOCKED_DATE_12  </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.ads_calendarlocked_date_12b">B</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD id="ddm_column_opts.ads_calendarlocked_date_12c">
-			<DD_TABLE_ALIAS id="ddm_column_opts.ads_calendarlocked_date_12c">ADS_CALENDAR    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.ads_calendarlocked_date_12c">LOCKED_DATE_12  </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.ads_calendarlocked_date_12c">C</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.ads_calendarlocked_date_12l">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ads_calendarlocked_date_12l">ADS_CALENDAR    </DD_TABLE_ALIAS>

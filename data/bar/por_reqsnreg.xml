@@ -18,12 +18,19 @@
 			<ASC_LICENSE_ID id="ddm_tables.por_reqsnreg">9861773C4A838435D19D7851C7F65C57</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.por_reqsnreg">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.por_reqsnreg">20070804</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.por_reqsnreg">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.por_reqsnreg">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.por_reqsnreg">141510</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.por_reqsnreg">20090715</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.por_reqsnreg">20090715</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.por_reqsnreg">124236</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.por_reqsnreg">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.por_reqsnreg">[+DIR_PGM]por_reqsnreg.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.por_reqsnreg">PO Requisition Register</DD_ATTR_WINT>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_opts">
+		<ID id="ddm_table_opts">DDM_TABLE_OPTS</ID>
+		<RECORD id="ddm_table_opts.por_reqsnregx">
+			<DD_TABLE_ALIAS id="ddm_table_opts.por_reqsnregx">POR_REQSNREG    </DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.por_reqsnregx">X</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_tpls">

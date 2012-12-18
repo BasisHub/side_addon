@@ -16,8 +16,8 @@
 			<DD_EXPORT_DATA id="ddm_tables.apc_distribution">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.apc_distribution">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_tables.apc_distribution">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.apc_distribution">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.apc_distribution">141602</DD_LSTSYNC_TIME>
+			<DD_LSTSYNC_DATE id="ddm_tables.apc_distribution">20091111</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.apc_distribution">164732</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.apc_distribution">/dev/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.apc_distribution">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.apc_distribution">zzzz</DD_ATTR_SLEV>
@@ -46,7 +46,6 @@
 		<ID id="ddm_table_tpls">DDM_TABLE_TPLS</ID>
 		<RECORD id="ddm_table_tpls.apc_distribution">
 			<DD_TABLE_ALIAS id="ddm_table_tpls.apc_distribution">APC_DISTRIBUTION</DD_TABLE_ALIAS>
-			<DD_FILE_NAME id="ddm_table_tpls.apc_distribution">       </DD_FILE_NAME>
 			<DD_TABLE_TPL id="ddm_table_tpls.apc_distribution">firm_id:c(2),record_id_b:c(1),ap_dist_code:c(2),code_desc:c(20*),gl_ap_acct:c(10),gl_cash_acct:c(10),gl_disc_acct:c(10),gl_ret_acct:c(10),gl_purc_acct:c(10*)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
@@ -57,6 +56,18 @@
 			<DD_KEY_NUMBER id="ddm_keys.apc_distribution00">00</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.apc_distribution00">Primary</DD_KEY_DESC>
 			<DD_KEY_ID id="ddm_keys.apc_distribution00">PRIMARY         </DD_KEY_ID>
+		</RECORD>
+		<RECORD id="ddm_keys.apc_distribution01">
+			<DD_TABLE_ALIAS id="ddm_keys.apc_distribution01">APC_DISTRIBUTION</DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_keys.apc_distribution01">01</DD_KEY_NUMBER>
+			<DD_KEY_DESC id="ddm_keys.apc_distribution01">Firm ID, AP Dist Code</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.apc_distribution01">FIRM_AP_DIST_CD </DD_KEY_ID>
+		</RECORD>
+		<RECORD id="ddm_keys.apc_distribution02">
+			<DD_TABLE_ALIAS id="ddm_keys.apc_distribution02">APC_DISTRIBUTION</DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_keys.apc_distribution02">02</DD_KEY_NUMBER>
+			<DD_KEY_DESC id="ddm_keys.apc_distribution02">AP Dist Code, Firm ID</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.apc_distribution02">AP_DIST_CD_FIRM </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_key_segs">
@@ -78,6 +89,54 @@
 			<DD_KEY_NUMBER id="ddm_key_segs.apc_distribution0003">00</DD_KEY_NUMBER>
 			<DD_SEGMENT_SEQ id="ddm_key_segs.apc_distribution0003">03</DD_SEGMENT_SEQ>
 			<DD_SEGMENT_COL id="ddm_key_segs.apc_distribution0003">AP_DIST_CODE    </DD_SEGMENT_COL>
+		</RECORD>
+		<RECORD id="ddm_key_segs.apc_distribution0101">
+			<DD_TABLE_ALIAS id="ddm_key_segs.apc_distribution0101">APC_DISTRIBUTION</DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.apc_distribution0101">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.apc_distribution0101">01</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.apc_distribution0101">FIRM_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.apc_distribution0101">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.apc_distribution0101">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.apc_distribution0101">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.apc_distribution0101">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.apc_distribution0101">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.apc_distribution0101">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.apc_distribution0102">
+			<DD_TABLE_ALIAS id="ddm_key_segs.apc_distribution0102">APC_DISTRIBUTION</DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.apc_distribution0102">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.apc_distribution0102">02</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.apc_distribution0102">AP_DIST_CODE</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.apc_distribution0102">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.apc_distribution0102">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.apc_distribution0102">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.apc_distribution0102">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.apc_distribution0102">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.apc_distribution0102">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.apc_distribution0201">
+			<DD_TABLE_ALIAS id="ddm_key_segs.apc_distribution0201">APC_DISTRIBUTION</DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.apc_distribution0201">02</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.apc_distribution0201">01</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.apc_distribution0201">AP_DIST_CODE</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.apc_distribution0201">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.apc_distribution0201">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.apc_distribution0201">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.apc_distribution0201">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.apc_distribution0201">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.apc_distribution0201">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.apc_distribution0202">
+			<DD_TABLE_ALIAS id="ddm_key_segs.apc_distribution0202">APC_DISTRIBUTION</DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.apc_distribution0202">02</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.apc_distribution0202">02</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.apc_distribution0202">FIRM_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.apc_distribution0202">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.apc_distribution0202">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.apc_distribution0202">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.apc_distribution0202">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.apc_distribution0202">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.apc_distribution0202">N</DD_SEGMENT_MATH>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_cols">

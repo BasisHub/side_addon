@@ -18,13 +18,30 @@
 			<ASC_VERSION_ID id="ddm_tables.ope_credrev">9.0</ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ope_credrev">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ope_credrev">20081222</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ope_credrev">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ope_credrev">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ope_credrev">141520</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.ope_credrev">/apps/aon/;</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.ope_credrev">20100121</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ope_credrev">20100121</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ope_credrev">111214</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.ope_credrev">../apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ope_credrev">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.ope_credrev">[+DIR_PGM]adx_dummy.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.ope_credrev">Credit Review and Release</DD_ATTR_WINT>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_aopt">
+		<ID id="ddm_table_aopt">DDM_TABLE_AOPT</ID>
+		<RECORD id="ddm_table_aopt.ope_credrev01">
+			<DD_TABLE_ALIAS id="ddm_table_aopt.ope_credrev01">OPE_CREDREV     </DD_TABLE_ALIAS>
+			<DD_ATTR_SEQ id="ddm_table_aopt.ope_credrev01">01</DD_ATTR_SEQ>
+			<DD_ATTR_AOPT id="ddm_table_aopt.ope_credrev01">New Tickler</DD_ATTR_AOPT>
+			<DD_ATTR_AOPT_CD id="ddm_table_aopt.ope_credrev01">NEWC</DD_ATTR_AOPT_CD>
+			<DD_ATTR_AOPT_FM id="ddm_table_aopt.ope_credrev01">F</DD_ATTR_AOPT_FM>
+		</RECORD>
+		<RECORD id="ddm_table_aopt.ope_credrev02">
+			<DD_TABLE_ALIAS id="ddm_table_aopt.ope_credrev02">OPE_CREDREV     </DD_TABLE_ALIAS>
+			<DD_ATTR_SEQ id="ddm_table_aopt.ope_credrev02">02</DD_ATTR_SEQ>
+			<DD_ATTR_AOPT id="ddm_table_aopt.ope_credrev02">Credit Maint</DD_ATTR_AOPT>
+			<DD_ATTR_AOPT_CD id="ddm_table_aopt.ope_credrev02">CRED</DD_ATTR_AOPT_CD>
+			<DD_ATTR_AOPT_FM id="ddm_table_aopt.ope_credrev02">F</DD_ATTR_AOPT_FM>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_cpro">
@@ -44,6 +61,10 @@
 	</ALIAS>
 	<ALIAS id="ddm_table_opts">
 		<ID id="ddm_table_opts">DDM_TABLE_OPTS</ID>
+		<RECORD id="ddm_table_opts.ope_credrevb">
+			<DD_TABLE_ALIAS id="ddm_table_opts.ope_credrevb">OPE_CREDREV     </DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.ope_credrevb">B</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_table_opts.ope_credrevh">
 			<DD_TABLE_ALIAS id="ddm_table_opts.ope_credrevh">OPE_CREDREV     </DD_TABLE_ALIAS>
 			<DD_ATTR_OPTS id="ddm_table_opts.ope_credrevh">H</DD_ATTR_OPTS>
@@ -69,7 +90,7 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.ope_credrev001">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.ope_credrev001">20081222</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ope_credrev001">20081222</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.ope_credrev001">/apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ope_credrev001">../apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_COLW id="ddm_table_cols.ope_credrev001">0</DD_ATTR_COLW>
 			<DD_ATTR_CTLX id="ddm_table_cols.ope_credrev001">0</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_cols.ope_credrev001">0</DD_ATTR_CTLY>

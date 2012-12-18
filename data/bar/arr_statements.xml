@@ -16,9 +16,9 @@
 			<ASC_VERSION_ID id="ddm_tables.arr_statements">9.0</ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.arr_statements">BF51677961296793A18097031968B9FB</ASC_LICENSE_ID>
 			<DD_CREATE_DATE id="ddm_tables.arr_statements">20060417</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.arr_statements">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.arr_statements">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.arr_statements">141554</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.arr_statements">20091021</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.arr_statements">20090701</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.arr_statements">141138</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.arr_statements">/devel/main/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.arr_statements">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.arr_statements">[+DIR_PGM]arr_statements.aon</DD_ATTR_PRUN>
@@ -335,6 +335,11 @@
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">
 		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
+		<RECORD id="ddm_column_opts.arr_statementsar_cyclecode3">
+			<DD_TABLE_ALIAS id="ddm_column_opts.arr_statementsar_cyclecode3">ARR_STATEMENTS  </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.arr_statementsar_cyclecode3">AR_CYCLECODE    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.arr_statementsar_cyclecode3">3</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.arr_statementsterritory3">
 			<DD_TABLE_ALIAS id="ddm_column_opts.arr_statementsterritory3">ARR_STATEMENTS  </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.arr_statementsterritory3">TERRITORY       </DD_DVAR_NAME>

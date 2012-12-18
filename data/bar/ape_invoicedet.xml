@@ -18,10 +18,10 @@
 			<ASC_LICENSE_ID id="ddm_tables.ape_invoicedet">7B1042CAD8B88161CE7392BBB19E1998</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ape_invoicedet">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ape_invoicedet">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ape_invoicedet">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ape_invoicedet">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ape_invoicedet">141602</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.ape_invoicedet">/dev/apps/aon/;</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.ape_invoicedet">20090722</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ape_invoicedet">20090722</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ape_invoicedet">163404</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.ape_invoicedet">/dev_aon_test/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ape_invoicedet">G</DD_ATTR_FTYP>
 			<DD_ATTR_HELP id="ddm_tables.ape_invoicedet">Invoice_Entry</DD_ATTR_HELP>
 			<DD_ATTR_PTAB id="ddm_tables.ape_invoicedet">APE_INVOICEHDR  </DD_ATTR_PTAB>
@@ -35,6 +35,10 @@
 			<DD_TABLE_ALIAS id="ddm_table_cpro.ape_invoicedetadel">APE_INVOICEDET  </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.ape_invoicedetadel">ADEL</DD_ATTR_CPRO>
 		</RECORD>
+		<RECORD id="ddm_table_cpro.ape_invoicedetagcl">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.ape_invoicedetagcl">APE_INVOICEDET  </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.ape_invoicedetagcl">AGCL</DD_ATTR_CPRO>
+		</RECORD>
 		<RECORD id="ddm_table_cpro.ape_invoicedetaude">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.ape_invoicedetaude">APE_INVOICEDET  </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.ape_invoicedetaude">AUDE</DD_ATTR_CPRO>
@@ -45,7 +49,7 @@
 		<RECORD id="ddm_table_tpls.ape_invoicedet">
 			<DD_TABLE_ALIAS id="ddm_table_tpls.ape_invoicedet">APE_INVOICEDET  </DD_TABLE_ALIAS>
 			<DD_FILE_NAME id="ddm_table_tpls.ape_invoicedet">ape-11</DD_FILE_NAME>
-			<DD_TABLE_TPL id="ddm_table_tpls.ape_invoicedet">firm_id:c(2),ap_type:c(2),vendor_id:c(6),ap_inv_no:c(10),sequence_num:c(2*),gl_account:c(10),reserved_str:c(1*),miscellanea:c(10*),gl_post_amt:n(7*),units:n(7*)</DD_TABLE_TPL>
+			<DD_TABLE_TPL id="ddm_table_tpls.ape_invoicedet">firm_id:c(2),ap_type:c(2),vendor_id:c(6),ap_inv_no:c(10),sequence_num:c(2*),gl_account:c(10),reserved_str:c(1*),miscellanea:c(10*),gl_post_amt:n(7*),units:n(7*),batch_no:c(7*)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_keys">
@@ -55,6 +59,12 @@
 			<DD_KEY_NUMBER id="ddm_keys.ape_invoicedet00">00</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.ape_invoicedet00">Primary</DD_KEY_DESC>
 			<DD_KEY_ID id="ddm_keys.ape_invoicedet00">PRIMARY         </DD_KEY_ID>
+		</RECORD>
+		<RECORD id="ddm_keys.ape_invoicedet01">
+			<DD_TABLE_ALIAS id="ddm_keys.ape_invoicedet01">APE_INVOICEDET  </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_keys.ape_invoicedet01">01</DD_KEY_NUMBER>
+			<DD_KEY_DESC id="ddm_keys.ape_invoicedet01">By Batch</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.ape_invoicedet01">BATCH_KEY       </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_key_segs">
@@ -103,6 +113,63 @@
 			<DD_SEGMENT_POS id="ddm_key_segs.ape_invoicedet0005">0</DD_SEGMENT_POS>
 			<DD_SEGMENT_OFF id="ddm_key_segs.ape_invoicedet0005">0</DD_SEGMENT_OFF>
 			<DD_SEGMENT_LEN id="ddm_key_segs.ape_invoicedet0005">0</DD_SEGMENT_LEN>
+		</RECORD>
+		<RECORD id="ddm_key_segs.ape_invoicedet0101">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ape_invoicedet0101">APE_INVOICEDET  </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ape_invoicedet0101">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ape_invoicedet0101">01</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ape_invoicedet0101">FIRM_ID         </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ape_invoicedet0101">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ape_invoicedet0101">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ape_invoicedet0101">0</DD_SEGMENT_LEN>
+		</RECORD>
+		<RECORD id="ddm_key_segs.ape_invoicedet0102">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ape_invoicedet0102">APE_INVOICEDET  </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ape_invoicedet0102">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ape_invoicedet0102">02</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ape_invoicedet0102">BATCH_NO</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ape_invoicedet0102">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ape_invoicedet0102">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ape_invoicedet0102">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.ape_invoicedet0102">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.ape_invoicedet0102">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.ape_invoicedet0102">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.ape_invoicedet0103">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ape_invoicedet0103">APE_INVOICEDET  </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ape_invoicedet0103">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ape_invoicedet0103">03</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ape_invoicedet0103">AP_TYPE         </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ape_invoicedet0103">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ape_invoicedet0103">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ape_invoicedet0103">0</DD_SEGMENT_LEN>
+		</RECORD>
+		<RECORD id="ddm_key_segs.ape_invoicedet0104">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ape_invoicedet0104">APE_INVOICEDET  </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ape_invoicedet0104">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ape_invoicedet0104">04</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ape_invoicedet0104">VENDOR_ID       </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ape_invoicedet0104">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ape_invoicedet0104">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ape_invoicedet0104">0</DD_SEGMENT_LEN>
+		</RECORD>
+		<RECORD id="ddm_key_segs.ape_invoicedet0105">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ape_invoicedet0105">APE_INVOICEDET  </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ape_invoicedet0105">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ape_invoicedet0105">05</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ape_invoicedet0105">AP_INV_NO       </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ape_invoicedet0105">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ape_invoicedet0105">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ape_invoicedet0105">0</DD_SEGMENT_LEN>
+		</RECORD>
+		<RECORD id="ddm_key_segs.ape_invoicedet0106">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ape_invoicedet0106">APE_INVOICEDET  </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ape_invoicedet0106">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ape_invoicedet0106">06</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ape_invoicedet0106">SEQUENCE_NUM    </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ape_invoicedet0106">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ape_invoicedet0106">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ape_invoicedet0106">0</DD_SEGMENT_LEN>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_cols">
@@ -197,7 +264,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ape_invoicedet006">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ape_invoicedet006">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ape_invoicedet006">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.ape_invoicedet006">/dev/apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ape_invoicedet006">/dev_aon_test/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ape_invoicedet006">80</DD_ATTR_CTLW>
 			<DD_ATTR_MINL id="ddm_table_cols.ape_invoicedet006">1</DD_ATTR_MINL>
 			<DD_ATTR_MAXL id="ddm_table_cols.ape_invoicedet006">10</DD_ATTR_MAXL>
@@ -247,7 +314,7 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.ape_invoicedet009">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.ape_invoicedet009">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ape_invoicedet009">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.ape_invoicedet009">/dev/apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ape_invoicedet009">/dev_aon_test/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ape_invoicedet009">105</DD_ATTR_CTLW>
 			<DD_ATTR_LABS id="ddm_table_cols.ape_invoicedet009">Amount</DD_ATTR_LABS>
 			<DD_ATTR_MAXL id="ddm_table_cols.ape_invoicedet009">7</DD_ATTR_MAXL>
@@ -269,6 +336,26 @@
 			<DD_ATTR_MAXL id="ddm_table_cols.ape_invoicedet010">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ape_invoicedet010">Units</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ape_invoicedet010">9</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.ape_invoicedet011">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ape_invoicedet011">APE_INVOICEDET  </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ape_invoicedet011">011</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ape_invoicedet011">BATCH_NO        </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ape_invoicedet011">BATCH_NO        </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ape_invoicedet011">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ape_invoicedet011">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ape_invoicedet011">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.ape_invoicedet011">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.ape_invoicedet011">20090717</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ape_invoicedet011">20090717</DD_LSTREV_DATE>
+			<DD_ATTR_COLW id="ddm_table_cols.ape_invoicedet011">0</DD_ATTR_COLW>
+			<DD_ATTR_CTLX id="ddm_table_cols.ape_invoicedet011">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_cols.ape_invoicedet011">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_cols.ape_invoicedet011">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.ape_invoicedet011">0</DD_ATTR_CTLH>
+			<DD_ATTR_MLAN id="ddm_table_cols.ape_invoicedet011">N</DD_ATTR_MLAN>
+			<DD_ATTR_MAXL id="ddm_table_cols.ape_invoicedet011">7</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.ape_invoicedet011">11</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_cpro">
@@ -320,6 +407,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.ape_invoicedetgl_accountv">APE_INVOICEDET  </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ape_invoicedetgl_accountv">GL_ACCOUNT      </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ape_invoicedetgl_accountv">V</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ape_invoicedetbatch_nog">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ape_invoicedetbatch_nog">APE_INVOICEDET  </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ape_invoicedetbatch_nog">BATCH_NO        </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ape_invoicedetbatch_nog">G</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">
@@ -538,6 +630,33 @@
 			<DD_ATTR_DEXP id="ddm_elements.units">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.units">Units</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.units">Units</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.batch_no">
+			<DD_DATA_NAME id="ddm_elements.batch_no">BATCH_NO        </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.batch_no">Batch Entry Control Number</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.batch_no">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.batch_no">7</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.batch_no"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.batch_no">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.batch_no">AD </ASC_PROD_ID>
+			<LOCALIZATION_EX id="ddm_elements.batch_no">N</LOCALIZATION_EX>
+			<DD_CREATE_DATE id="ddm_elements.batch_no">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.batch_no">20090714</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.batch_no">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.batch_no">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.batch_no">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.batch_no">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.batch_no">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.batch_no">Batch Entry Control Number</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.batch_no">Batch Entry No</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.batch_no">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.batch_no">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.batch_no">0</DD_ATTR_MINL>
+			<DD_ATTR_MSKI id="ddm_elements.batch_no">0000000</DD_ATTR_MSKI>
+			<DD_ATTR_MSKO id="ddm_elements.batch_no">0000000</DD_ATTR_MSKO>
+			<DD_ATTR_PADC id="ddm_elements.batch_no">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.batch_no">R</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.batch_no">0</DD_ATTR_PREC>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_element_cmts">

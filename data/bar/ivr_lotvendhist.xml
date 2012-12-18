@@ -16,9 +16,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.ivr_lotvendhist">ADA0B8CF938545340F212C0C95DD10BC</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ivr_lotvendhist">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ivr_lotvendhist">20071125</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ivr_lotvendhist">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivr_lotvendhist">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivr_lotvendhist">141532</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ivr_lotvendhist">20090807</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivr_lotvendhist">20090709</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivr_lotvendhist">115940</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ivr_lotvendhist">[+DIR_CPP]ivr_lotvendhist_cpt.bbj</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ivr_lotvendhist">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.ivr_lotvendhist">[+DIR_PGM]ivr_lotvendhist.aon</DD_ATTR_PRUN>
@@ -30,6 +30,13 @@
 		<RECORD id="ddm_table_cpro.ivr_lotvendhistarar">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.ivr_lotvendhistarar">IVR_LOTVENDHIST </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.ivr_lotvendhistarar">ARAR</DD_ATTR_CPRO>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_opts">
+		<ID id="ddm_table_opts">DDM_TABLE_OPTS</ID>
+		<RECORD id="ddm_table_opts.ivr_lotvendhistx">
+			<DD_TABLE_ALIAS id="ddm_table_opts.ivr_lotvendhistx">IVR_LOTVENDHIST </DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.ivr_lotvendhistx">X</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_tpls">

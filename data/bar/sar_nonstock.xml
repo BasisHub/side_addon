@@ -18,10 +18,10 @@
 			<ASC_LICENSE_ID id="ddm_tables.sar_nonstock">3D8F3BCBAC2F3CF57E94A76AB4D56A9A</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.sar_nonstock">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.sar_nonstock">20070803</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.sar_nonstock">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.sar_nonstock">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.sar_nonstock">141458</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.sar_nonstock">[+DIR_CPP]sar_nonstock_cpt.bbj</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.sar_nonstock">20090805</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.sar_nonstock">20090709</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.sar_nonstock">115940</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.sar_nonstock">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.sar_nonstock">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.sar_nonstock">[+DIR_PGM]sar_nonstock.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.sar_nonstock">Sales Analysis by Nonstock</DD_ATTR_WINT>
@@ -36,6 +36,10 @@
 		<RECORD id="ddm_table_cpro.sar_nonstockasva">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.sar_nonstockasva">SAR_NONSTOCK    </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.sar_nonstockasva">ASVA</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_table_cpro.sar_nonstockbfmc">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.sar_nonstockbfmc">SAR_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.sar_nonstockbfmc">BFMC</DD_ATTR_CPRO>
 		</RECORD>
 		<RECORD id="ddm_table_cpro.sar_nonstockbsho">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.sar_nonstockbsho">SAR_NONSTOCK    </DD_TABLE_ALIAS>
@@ -143,7 +147,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.sar_nonstock007">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.sar_nonstock007">20070722</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sar_nonstock007">20070722</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.sar_nonstock007">[+DIR_CPP]sar_nonstock_cpt.bbj</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.sar_nonstock007">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.sar_nonstock007">30</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.sar_nonstock007">0</DD_ATTR_CTLH>
 			<DD_ATTR_DFLT id="ddm_table_cols.sar_nonstock007">N</DD_ATTR_DFLT>
@@ -239,6 +243,14 @@
 			<DD_ATTR_DFLT id="ddm_table_cols.sar_nonstock013">N</DD_ATTR_DFLT>
 			<DD_ATTR_MAXL id="ddm_table_cols.sar_nonstock013">1</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.sar_nonstock013">14</DD_ATTR_TIND>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_column_cpro">
+		<ID id="ddm_column_cpro">DDM_COLUMN_CPRO</ID>
+		<RECORD id="ddm_column_cpro.sar_nonstocktwlve_per_reportaval">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.sar_nonstocktwlve_per_reportaval">SAR_NONSTOCK    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.sar_nonstocktwlve_per_reportaval">TWLVE_PER_REPORT</DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.sar_nonstocktwlve_per_reportaval">AVAL</DD_ATTR_CPRO>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_ldat">

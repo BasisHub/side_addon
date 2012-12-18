@@ -20,9 +20,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.glm_auditcontrol">66FED3E782AF15A92D54EE5AD69BD3ED</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.glm_auditcontrol">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.glm_auditcontrol">20080321</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.glm_auditcontrol">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.glm_auditcontrol">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.glm_auditcontrol">141544</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.glm_auditcontrol">20090723</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.glm_auditcontrol">20090915</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.glm_auditcontrol">140914</DD_LSTSYNC_TIME>
 			<DD_ATTR_ATAB id="ddm_tables.glm_auditcontrol">ADM_AUDITCONTROL</DD_ATTR_ATAB>
 			<DD_ATTR_CPGM id="ddm_tables.glm_auditcontrol">[+DIR_CPP]glm_auditcontrol_cpt.bbj</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.glm_auditcontrol">T</DD_ATTR_FTYP>
@@ -105,13 +105,19 @@
 			<DD_TABLE_ALIAS id="ddm_key_segs.glm_auditcontrol0101">GLM_AUDITCONTROL</DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_key_segs.glm_auditcontrol0101">01</DD_KEY_NUMBER>
 			<DD_SEGMENT_SEQ id="ddm_key_segs.glm_auditcontrol0101">01</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL id="ddm_key_segs.glm_auditcontrol0101">PROCESS_ALIAS</DD_SEGMENT_COL>
+			<DD_SEGMENT_COL id="ddm_key_segs.glm_auditcontrol0101">FIRM_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.glm_auditcontrol0101">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.glm_auditcontrol0101">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.glm_auditcontrol0101">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.glm_auditcontrol0101">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.glm_auditcontrol0101">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.glm_auditcontrol0101">N</DD_SEGMENT_MATH>
 		</RECORD>
 		<RECORD id="ddm_key_segs.glm_auditcontrol0102">
 			<DD_TABLE_ALIAS id="ddm_key_segs.glm_auditcontrol0102">GLM_AUDITCONTROL</DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_key_segs.glm_auditcontrol0102">01</DD_KEY_NUMBER>
 			<DD_SEGMENT_SEQ id="ddm_key_segs.glm_auditcontrol0102">02</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL id="ddm_key_segs.glm_auditcontrol0102">FIRM_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_COL id="ddm_key_segs.glm_auditcontrol0102">PROCESS_ALIAS</DD_SEGMENT_COL>
 		</RECORD>
 		<RECORD id="ddm_key_segs.glm_auditcontrol0103">
 			<DD_TABLE_ALIAS id="ddm_key_segs.glm_auditcontrol0103">GLM_AUDITCONTROL</DD_TABLE_ALIAS>
@@ -129,13 +135,19 @@
 			<DD_TABLE_ALIAS id="ddm_key_segs.glm_auditcontrol0201">GLM_AUDITCONTROL</DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_key_segs.glm_auditcontrol0201">02</DD_KEY_NUMBER>
 			<DD_SEGMENT_SEQ id="ddm_key_segs.glm_auditcontrol0201">01</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL id="ddm_key_segs.glm_auditcontrol0201">PROCESS_PROGRAM</DD_SEGMENT_COL>
+			<DD_SEGMENT_COL id="ddm_key_segs.glm_auditcontrol0201">FIRM_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.glm_auditcontrol0201">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.glm_auditcontrol0201">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.glm_auditcontrol0201">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.glm_auditcontrol0201">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.glm_auditcontrol0201">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.glm_auditcontrol0201">N</DD_SEGMENT_MATH>
 		</RECORD>
 		<RECORD id="ddm_key_segs.glm_auditcontrol0202">
 			<DD_TABLE_ALIAS id="ddm_key_segs.glm_auditcontrol0202">GLM_AUDITCONTROL</DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_key_segs.glm_auditcontrol0202">02</DD_KEY_NUMBER>
 			<DD_SEGMENT_SEQ id="ddm_key_segs.glm_auditcontrol0202">02</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL id="ddm_key_segs.glm_auditcontrol0202">FIRM_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_COL id="ddm_key_segs.glm_auditcontrol0202">PROCESS_PROGRAM</DD_SEGMENT_COL>
 		</RECORD>
 		<RECORD id="ddm_key_segs.glm_auditcontrol0203">
 			<DD_TABLE_ALIAS id="ddm_key_segs.glm_auditcontrol0203">GLM_AUDITCONTROL</DD_TABLE_ALIAS>
@@ -444,10 +456,10 @@
 			<DD_DVAR_NAME id="ddm_column_opts.glm_auditcontrollstupd_timel">LSTUPD_TIME     </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.glm_auditcontrollstupd_timel">L</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD id="ddm_column_opts.glm_auditcontrolfile_namec">
-			<DD_TABLE_ALIAS id="ddm_column_opts.glm_auditcontrolfile_namec">GLM_AUDITCONTROL</DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.glm_auditcontrolfile_namec">FILE_NAME       </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.glm_auditcontrolfile_namec">C</DD_ATTR_OPTS>
+		<RECORD id="ddm_column_opts.glm_auditcontrolfile_nameo">
+			<DD_TABLE_ALIAS id="ddm_column_opts.glm_auditcontrolfile_nameo">GLM_AUDITCONTROL</DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.glm_auditcontrolfile_nameo">FILE_NAME       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.glm_auditcontrolfile_nameo">O</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.glm_auditcontrolgl_auditc">
 			<DD_TABLE_ALIAS id="ddm_column_opts.glm_auditcontrolgl_auditc">GLM_AUDITCONTROL</DD_TABLE_ALIAS>
@@ -496,15 +508,17 @@
 			<DD_DATA_LENGTH id="ddm_elements.process_id">16</DD_DATA_LENGTH>
 			<DD_MASK_TYPE id="ddm_elements.process_id"> </DD_MASK_TYPE>
 			<ASC_COMP_ID id="ddm_elements.process_id">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.process_id">AON</ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.process_id">AD </ASC_PROD_ID>
+			<LOCALIZATION_EX id="ddm_elements.process_id">N</LOCALIZATION_EX>
 			<DD_CREATE_DATE id="ddm_elements.process_id">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.process_id">20071023</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.process_id">20090724</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_elements.process_id">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_elements.process_id">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.process_id">E</DD_ATTR_CTYP>
 			<DD_ATTR_DCOL id="ddm_elements.process_id">DESCRIPTION</DD_ATTR_DCOL>
 			<DD_ATTR_DCOM id="ddm_elements.process_id">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.process_id">            </DD_ATTR_DEXP>
+			<DD_ATTR_DKEY id="ddm_elements.process_id">[+FIRM_ID]+@</DD_ATTR_DKEY>
 			<DD_ATTR_DTAB id="ddm_elements.process_id">ADM_PROCMASTER  </DD_ATTR_DTAB>
 			<DD_ATTR_LABL id="ddm_elements.process_id">Process Identification</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.process_id">Process ID</DD_ATTR_LABS>
@@ -523,13 +537,13 @@
 			<ASC_COMP_ID id="ddm_elements.seq_num">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_elements.seq_num">GL</ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.seq_num">20071003</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.seq_num">20080321</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.seq_num">20100106</DD_LSTREV_DATE>
 			<DD_AUTO_COMP id="ddm_elements.seq_num">N</DD_AUTO_COMP>
 			<DD_ATTR_CTLW id="ddm_elements.seq_num">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_elements.seq_num">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.seq_num">E</DD_ATTR_CTYP>
 			<DD_ATTR_DCOL id="ddm_elements.seq_num">DESCRIPTION</DD_ATTR_DCOL>
-			<DD_ATTR_DKEY id="ddm_elements.seq_num">[PROCESS_ID]+@</DD_ATTR_DKEY>
+			<DD_ATTR_DKEY id="ddm_elements.seq_num">[FIRM_ID]+[PROCESS_ID]+@</DD_ATTR_DKEY>
 			<DD_ATTR_DTAB id="ddm_elements.seq_num">ADM_PROCDETAIL  </DD_ATTR_DTAB>
 			<DD_ATTR_LABL id="ddm_elements.seq_num">Sequence Number</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.seq_num">Sequence Number</DD_ATTR_LABS>

@@ -19,8 +19,8 @@
 			<DD_EXPORT_DATA id="ddm_tables.ope_creddate">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ope_creddate">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_tables.ope_creddate">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ope_creddate">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ope_creddate">141520</DD_LSTSYNC_TIME>
+			<DD_LSTSYNC_DATE id="ddm_tables.ope_creddate">20090729</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ope_creddate">115908</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.ope_creddate">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.ope_creddate">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.ope_creddate">Orders by Review Date/Customer</DD_ATTR_WINT>
@@ -41,6 +41,18 @@
 			<DD_KEY_NUMBER id="ddm_keys.ope_creddate00">00</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.ope_creddate00">Primary</DD_KEY_DESC>
 			<DD_KEY_ID id="ddm_keys.ope_creddate00">PRIMARY         </DD_KEY_ID>
+		</RECORD>
+		<RECORD id="ddm_keys.ope_creddate01">
+			<DD_TABLE_ALIAS id="ddm_keys.ope_creddate01">OPE_CREDDATE    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_keys.ope_creddate01">01</DD_KEY_NUMBER>
+			<DD_KEY_DESC id="ddm_keys.ope_creddate01">By Customer by Date</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.ope_creddate01">BY_CUSTOMER     </DD_KEY_ID>
+		</RECORD>
+		<RECORD id="ddm_keys.ope_creddate02">
+			<DD_TABLE_ALIAS id="ddm_keys.ope_creddate02">OPE_CREDDATE    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_keys.ope_creddate02">02</DD_KEY_NUMBER>
+			<DD_KEY_DESC id="ddm_keys.ope_creddate02">By Customer by Order</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.ope_creddate02">BY_ORDER        </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_key_segs">
@@ -80,6 +92,102 @@
 			<DD_SEGMENT_POS id="ddm_key_segs.ope_creddate0004">0</DD_SEGMENT_POS>
 			<DD_SEGMENT_OFF id="ddm_key_segs.ope_creddate0004">0</DD_SEGMENT_OFF>
 			<DD_SEGMENT_LEN id="ddm_key_segs.ope_creddate0004">0</DD_SEGMENT_LEN>
+		</RECORD>
+		<RECORD id="ddm_key_segs.ope_creddate0101">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ope_creddate0101">OPE_CREDDATE    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ope_creddate0101">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ope_creddate0101">01</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ope_creddate0101">FIRM_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ope_creddate0101">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ope_creddate0101">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ope_creddate0101">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.ope_creddate0101">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.ope_creddate0101">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.ope_creddate0101">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.ope_creddate0102">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ope_creddate0102">OPE_CREDDATE    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ope_creddate0102">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ope_creddate0102">02</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ope_creddate0102">CUSTOMER_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ope_creddate0102">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ope_creddate0102">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ope_creddate0102">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.ope_creddate0102">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.ope_creddate0102">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.ope_creddate0102">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.ope_creddate0103">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ope_creddate0103">OPE_CREDDATE    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ope_creddate0103">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ope_creddate0103">03</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ope_creddate0103">REV_DATE</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ope_creddate0103">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ope_creddate0103">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ope_creddate0103">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.ope_creddate0103">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.ope_creddate0103">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.ope_creddate0103">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.ope_creddate0104">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ope_creddate0104">OPE_CREDDATE    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ope_creddate0104">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ope_creddate0104">04</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ope_creddate0104">ORDER_NO</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ope_creddate0104">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ope_creddate0104">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ope_creddate0104">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.ope_creddate0104">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.ope_creddate0104">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.ope_creddate0104">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.ope_creddate0201">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ope_creddate0201">OPE_CREDDATE    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ope_creddate0201">02</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ope_creddate0201">01</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ope_creddate0201">FIRM_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ope_creddate0201">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ope_creddate0201">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ope_creddate0201">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.ope_creddate0201">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.ope_creddate0201">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.ope_creddate0201">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.ope_creddate0202">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ope_creddate0202">OPE_CREDDATE    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ope_creddate0202">02</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ope_creddate0202">02</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ope_creddate0202">CUSTOMER_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ope_creddate0202">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ope_creddate0202">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ope_creddate0202">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.ope_creddate0202">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.ope_creddate0202">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.ope_creddate0202">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.ope_creddate0203">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ope_creddate0203">OPE_CREDDATE    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ope_creddate0203">02</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ope_creddate0203">03</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ope_creddate0203">ORDER_NO</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ope_creddate0203">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ope_creddate0203">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ope_creddate0203">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.ope_creddate0203">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.ope_creddate0203">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.ope_creddate0203">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.ope_creddate0204">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ope_creddate0204">OPE_CREDDATE    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ope_creddate0204">02</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ope_creddate0204">04</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ope_creddate0204">REV_DATE</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ope_creddate0204">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ope_creddate0204">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ope_creddate0204">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.ope_creddate0204">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.ope_creddate0204">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.ope_creddate0204">N</DD_SEGMENT_MATH>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_cols">

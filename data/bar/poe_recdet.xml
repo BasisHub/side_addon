@@ -18,15 +18,25 @@
 			<ASC_LICENSE_ID id="ddm_tables.poe_recdet">641BB7871ED430A7A723EEF3AAAAE62F</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.poe_recdet">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.poe_recdet">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.poe_recdet">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.poe_recdet">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.poe_recdet">141512</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.poe_recdet">/dev/apps/aon/;</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.poe_recdet">20100209</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.poe_recdet">20091016</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.poe_recdet">145140</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.poe_recdet">../apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_DKNM id="ddm_tables.poe_recdet">DISPLAY_SEQ</DD_ATTR_DKNM>
 			<DD_ATTR_FTYP id="ddm_tables.poe_recdet">G</DD_ATTR_FTYP>
 			<DD_ATTR_PTAB id="ddm_tables.poe_recdet">POE_RECHDR      </DD_ATTR_PTAB>
 			<DD_ATTR_SLEV id="ddm_tables.poe_recdet">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.poe_recdet">PO Receipt Detail</DD_ATTR_WINT>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_aopt">
+		<ID id="ddm_table_aopt">DDM_TABLE_AOPT</ID>
+		<RECORD id="ddm_table_aopt.poe_recdet01">
+			<DD_TABLE_ALIAS id="ddm_table_aopt.poe_recdet01">POE_RECDET      </DD_TABLE_ALIAS>
+			<DD_ATTR_SEQ id="ddm_table_aopt.poe_recdet01">01</DD_ATTR_SEQ>
+			<DD_ATTR_AOPT id="ddm_table_aopt.poe_recdet01">Serial Entry</DD_ATTR_AOPT>
+			<DD_ATTR_AOPT_CD id="ddm_table_aopt.poe_recdet01">LENT</DD_ATTR_AOPT_CD>
+			<DD_ATTR_AOPT_FM id="ddm_table_aopt.poe_recdet01">F</DD_ATTR_AOPT_FM>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_cpro">
@@ -54,6 +64,10 @@
 		<RECORD id="ddm_table_cpro.poe_recdetagrn">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.poe_recdetagrn">POE_RECDET      </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.poe_recdetagrn">AGRN</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_table_cpro.poe_recdetaopt">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.poe_recdetaopt">POE_RECDET      </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.poe_recdetaopt">AOPT-LENT</DD_ATTR_CPRO>
 		</RECORD>
 		<RECORD id="ddm_table_cpro.poe_recdetarec">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.poe_recdetarec">POE_RECDET      </DD_TABLE_ALIAS>
@@ -356,7 +370,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_recdet006">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_recdet006">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_recdet006">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.poe_recdet006">/dev/apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.poe_recdet006">../apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLX id="ddm_table_cols.poe_recdet006">+1</DD_ATTR_CTLX>
 			<DD_ATTR_CTLW id="ddm_table_cols.poe_recdet006">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.poe_recdet006">0</DD_ATTR_CTLH>
@@ -619,7 +633,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_recdet022">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_ABLC id="ddm_table_cols.poe_recdet022"><<CALLPOINT>></DD_ATTR_ABLC>
 			<DD_ATTR_ABLV id="ddm_table_cols.poe_recdet022">S;M;N;O;V</DD_ATTR_ABLV>
-			<DD_ATTR_CPGM id="ddm_table_cols.poe_recdet022">/dev/apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.poe_recdet022">../apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.poe_recdet022">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.poe_recdet022">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABS id="ddm_table_cols.poe_recdet022">Whse</DD_ATTR_LABS>
@@ -630,7 +644,7 @@
 		<RECORD id="ddm_table_cols.poe_recdet023">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_recdet023">POE_RECDET      </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_cols.poe_recdet023">023</DD_SEQUENCE>
-			<DD_DATA_NAME id="ddm_table_cols.poe_recdet023">ITEM_ID         </DD_DATA_NAME>
+			<DD_DATA_NAME id="ddm_table_cols.poe_recdet023">ITEM_ID_INPUT   </DD_DATA_NAME>
 			<DD_DVAR_NAME id="ddm_table_cols.poe_recdet023">ITEM_ID         </DD_DVAR_NAME>
 			<DD_COL_REPEATS id="ddm_table_cols.poe_recdet023">0</DD_COL_REPEATS>
 			<DD_COL_OCCURS id="ddm_table_cols.poe_recdet023">0</DD_COL_OCCURS>
@@ -640,7 +654,9 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_recdet023">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_ABLC id="ddm_table_cols.poe_recdet023"><<CALLPOINT>></DD_ATTR_ABLC>
 			<DD_ATTR_ABLV id="ddm_table_cols.poe_recdet023">S;D</DD_ATTR_ABLV>
-			<DD_ATTR_CPGM id="ddm_table_cols.poe_recdet023">/dev/apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.poe_recdet023">../apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CTLW id="ddm_table_cols.poe_recdet023">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.poe_recdet023">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABS id="ddm_table_cols.poe_recdet023">Inventory</DD_ATTR_LABS>
 			<DD_ATTR_MAXL id="ddm_table_cols.poe_recdet023">20</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_recdet023">Inventory Item Number</DD_ATTR_PROM>
@@ -723,7 +739,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_recdet028">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_ABLC id="ddm_table_cols.poe_recdet028"><<CALLPOINT>></DD_ATTR_ABLC>
 			<DD_ATTR_ABLV id="ddm_table_cols.poe_recdet028">D;S;N;O</DD_ATTR_ABLV>
-			<DD_ATTR_CPGM id="ddm_table_cols.poe_recdet028">/dev/apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.poe_recdet028">../apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.poe_recdet028">0</DD_ATTR_CTLW>
 			<DD_ATTR_MAXL id="ddm_table_cols.poe_recdet028">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_recdet028">Unit Cost</DD_ATTR_PROM>
@@ -759,7 +775,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_recdet030">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_ABLC id="ddm_table_cols.poe_recdet030"><<CALLPOINT>></DD_ATTR_ABLC>
 			<DD_ATTR_ABLV id="ddm_table_cols.poe_recdet030">D;S;N</DD_ATTR_ABLV>
-			<DD_ATTR_CPGM id="ddm_table_cols.poe_recdet030">/dev/apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.poe_recdet030">../apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.poe_recdet030">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.poe_recdet030">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABS id="ddm_table_cols.poe_recdet030">Qty Ordered</DD_ATTR_LABS>
@@ -826,7 +842,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_recdet034">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_ABLC id="ddm_table_cols.poe_recdet034"><<CALLPOINT>></DD_ATTR_ABLC>
 			<DD_ATTR_ABLV id="ddm_table_cols.poe_recdet034">S;N</DD_ATTR_ABLV>
-			<DD_ATTR_CPGM id="ddm_table_cols.poe_recdet034">/dev/apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.poe_recdet034">../apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_MAXL id="ddm_table_cols.poe_recdet034">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_recdet034">Quantity Received</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.poe_recdet034">14</DD_ATTR_TIND>
@@ -938,6 +954,11 @@
 			<DD_DVAR_NAME id="ddm_column_cpro.poe_recdetpo_line_codeaval">PO_LINE_CODE    </DD_DVAR_NAME>
 			<DD_ATTR_CPRO id="ddm_column_cpro.poe_recdetpo_line_codeaval">AVAL</DD_ATTR_CPRO>
 		</RECORD>
+		<RECORD id="ddm_column_cpro.poe_recdetpo_line_codeavec">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.poe_recdetpo_line_codeavec">POE_RECDET      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.poe_recdetpo_line_codeavec">PO_LINE_CODE    </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.poe_recdetpo_line_codeavec">AVEC</DD_ATTR_CPRO>
+		</RECORD>
 		<RECORD id="ddm_column_cpro.poe_recdetwarehouse_idaval">
 			<DD_TABLE_ALIAS id="ddm_column_cpro.poe_recdetwarehouse_idaval">POE_RECDET      </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_cpro.poe_recdetwarehouse_idaval">WAREHOUSE_ID    </DD_DVAR_NAME>
@@ -962,6 +983,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_cpro.poe_recdetqty_orderedaval">POE_RECDET      </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_cpro.poe_recdetqty_orderedaval">QTY_ORDERED     </DD_DVAR_NAME>
 			<DD_ATTR_CPRO id="ddm_column_cpro.poe_recdetqty_orderedaval">AVAL</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_column_cpro.poe_recdetqty_orderedbinp">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.poe_recdetqty_orderedbinp">POE_RECDET      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.poe_recdetqty_orderedbinp">QTY_ORDERED     </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.poe_recdetqty_orderedbinp">BINP</DD_ATTR_CPRO>
 		</RECORD>
 		<RECORD id="ddm_column_cpro.poe_recdetqty_receivedaval">
 			<DD_TABLE_ALIAS id="ddm_column_cpro.poe_recdetqty_receivedaval">POE_RECDET      </DD_TABLE_ALIAS>
@@ -1055,6 +1081,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.poe_recdetso_int_seq_refb">POE_RECDET      </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.poe_recdetso_int_seq_refb">SO_INT_SEQ_REF  </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.poe_recdetso_int_seq_refb">B</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.poe_recdetso_int_seq_refk">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poe_recdetso_int_seq_refk">POE_RECDET      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poe_recdetso_int_seq_refk">SO_INT_SEQ_REF  </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poe_recdetso_int_seq_refk">k</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.poe_recdetwarehouse_idc">
 			<DD_TABLE_ALIAS id="ddm_column_opts.poe_recdetwarehouse_idc">POE_RECDET      </DD_TABLE_ALIAS>
@@ -1498,14 +1529,14 @@
 			<ASC_PROD_ID id="ddm_elements.seq_ref_list">AD </ASC_PROD_ID>
 			<LOCALIZATION_EX id="ddm_elements.seq_ref_list">N</LOCALIZATION_EX>
 			<DD_CREATE_DATE id="ddm_elements.seq_ref_list">20090512</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.seq_ref_list">20090512</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.seq_ref_list">20091014</DD_LSTREV_DATE>
 			<DD_ATTR_BLNK id="ddm_elements.seq_ref_list">N</DD_ATTR_BLNK>
 			<DD_ATTR_CTLW id="ddm_elements.seq_ref_list">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_elements.seq_ref_list">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.seq_ref_list">L</DD_ATTR_CTYP>
 			<DD_ATTR_LABL id="ddm_elements.seq_ref_list">Sequence Ref Number</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.seq_ref_list">Sequence Ref Number</DD_ATTR_LABS>
-			<DD_ATTR_LDIS id="ddm_elements.seq_ref_list">D</DD_ATTR_LDIS>
+			<DD_ATTR_LDIS id="ddm_elements.seq_ref_list">O</DD_ATTR_LDIS>
 			<DD_ATTR_MAXL id="ddm_elements.seq_ref_list">0</DD_ATTR_MAXL>
 			<DD_ATTR_MAXR id="ddm_elements.seq_ref_list">0</DD_ATTR_MAXR>
 			<DD_ATTR_MINL id="ddm_elements.seq_ref_list">0</DD_ATTR_MINL>
@@ -1543,29 +1574,35 @@
 			<DD_ATTR_PREC id="ddm_elements.warehouse_id">0</DD_ATTR_PREC>
 			<DD_ATTR_PROM id="ddm_elements.warehouse_id">Enter a two-digit warehouse ID</DD_ATTR_PROM>
 		</RECORD>
-		<RECORD id="ddm_elements.item_id">
-			<DD_DATA_NAME id="ddm_elements.item_id">ITEM_ID         </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.item_id">Inventory Item ID</DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.item_id">C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.item_id">20</DD_DATA_LENGTH>
-			<DD_SYSTEM_REC id="ddm_elements.item_id">N</DD_SYSTEM_REC>
-			<ASC_COMP_ID id="ddm_elements.item_id">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.item_id">AON</ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.item_id">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.item_id">20060613</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP id="ddm_elements.item_id">E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOL id="ddm_elements.item_id">ITEM_DESC       </DD_ATTR_DCOL>
-			<DD_ATTR_DKEY id="ddm_elements.item_id">[+FIRM_ID]+@</DD_ATTR_DKEY>
-			<DD_ATTR_DTAB id="ddm_elements.item_id">IVM_ITEMMAST    </DD_ATTR_DTAB>
-			<DD_ATTR_LABL id="ddm_elements.item_id">Inventory Item ID</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.item_id">Item ID</DD_ATTR_LABS>
-			<DD_ATTR_MAXL id="ddm_elements.item_id">0</DD_ATTR_MAXL>
-			<DD_ATTR_MAXR id="ddm_elements.item_id">0</DD_ATTR_MAXR>
-			<DD_ATTR_MINL id="ddm_elements.item_id">0</DD_ATTR_MINL>
-			<DD_ATTR_MSKI id="ddm_elements.item_id">UUUUUUUUUUUUUUUUUUUU</DD_ATTR_MSKI>
-			<DD_ATTR_PADC id="ddm_elements.item_id">20</DD_ATTR_PADC>
-			<DD_ATTR_PADJ id="ddm_elements.item_id">L</DD_ATTR_PADJ>
-			<DD_ATTR_PROM id="ddm_elements.item_id">Enter a valid inventory item</DD_ATTR_PROM>
+		<RECORD id="ddm_elements.item_id_input">
+			<DD_DATA_NAME id="ddm_elements.item_id_input">ITEM_ID_INPUT   </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.item_id_input">Inventory Item ID Input</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.item_id_input">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.item_id_input">20</DD_DATA_LENGTH>
+			<DD_SYSTEM_REC id="ddm_elements.item_id_input">N</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.item_id_input">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.item_id_input">IV </ASC_PROD_ID>
+			<LOCALIZATION_EX id="ddm_elements.item_id_input">N</LOCALIZATION_EX>
+			<DD_CREATE_DATE id="ddm_elements.item_id_input">20090320</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.item_id_input">20090925</DD_LSTREV_DATE>
+			<DD_AUTO_COMP id="ddm_elements.item_id_input">N</DD_AUTO_COMP>
+			<DD_ATTR_CTLW id="ddm_elements.item_id_input">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.item_id_input">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.item_id_input">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOL id="ddm_elements.item_id_input">ITEM_DESC</DD_ATTR_DCOL>
+			<DD_ATTR_DKEY id="ddm_elements.item_id_input">[+FIRM_ID]+@</DD_ATTR_DKEY>
+			<DD_ATTR_DTAB id="ddm_elements.item_id_input">IVM_ITEMMAST    </DD_ATTR_DTAB>
+			<DD_ATTR_DINQ id="ddm_elements.item_id_input">[+DIR_PGM]ivc_itemlookup.aon</DD_ATTR_DINQ>
+			<DD_ATTR_LABL id="ddm_elements.item_id_input">Inventory Item ID</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.item_id_input">Item ID</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.item_id_input">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.item_id_input">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.item_id_input">0</DD_ATTR_MINL>
+			<DD_ATTR_MSKI id="ddm_elements.item_id_input">UUUUUUUUUUUUUUUUUUUU</DD_ATTR_MSKI>
+			<DD_ATTR_PADC id="ddm_elements.item_id_input">20</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.item_id_input">L</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.item_id_input">0</DD_ATTR_PREC>
+			<DD_ATTR_PROM id="ddm_elements.item_id_input">Enter a valid inventory item</DD_ATTR_PROM>
 		</RECORD>
 		<RECORD id="ddm_elements.order_memo">
 			<DD_DATA_NAME id="ddm_elements.order_memo">ORDER_MEMO      </DD_DATA_NAME>

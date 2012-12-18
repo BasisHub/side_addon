@@ -19,10 +19,10 @@
 			<ASC_LICENSE_ID id="ddm_tables.sam_vendor">41083E324F039EAFEED8A43D17076611</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.sam_vendor">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.sam_vendor">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.sam_vendor">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.sam_vendor">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.sam_vendor">141458</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.sam_vendor">[+DIR_CPP]sam_vendor_cpt.bbj</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.sam_vendor">20090826</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.sam_vendor">20090803</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.sam_vendor">123852</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.sam_vendor">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.sam_vendor">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.sam_vendor">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.sam_vendor">Vendor/Product/Item Record</DD_ATTR_WINT>
@@ -33,8 +33,8 @@
 		<RECORD id="ddm_table_aopt.sam_vendor01">
 			<DD_TABLE_ALIAS id="ddm_table_aopt.sam_vendor01">SAM_VENDOR      </DD_TABLE_ALIAS>
 			<DD_ATTR_SEQ id="ddm_table_aopt.sam_vendor01">01</DD_ATTR_SEQ>
-			<DD_ATTR_AOPT id="ddm_table_aopt.sam_vendor01">S/A Lookup</DD_ATTR_AOPT>
-			<DD_ATTR_AOPT_CD id="ddm_table_aopt.sam_vendor01">SALU</DD_ATTR_AOPT_CD>
+			<DD_ATTR_AOPT id="ddm_table_aopt.sam_vendor01">Summary</DD_ATTR_AOPT>
+			<DD_ATTR_AOPT_CD id="ddm_table_aopt.sam_vendor01">SUMM</DD_ATTR_AOPT_CD>
 			<DD_ATTR_AOPT_FM id="ddm_table_aopt.sam_vendor01">B</DD_ATTR_AOPT_FM>
 		</RECORD>
 	</ALIAS>
@@ -42,7 +42,7 @@
 		<ID id="ddm_table_cpro">DDM_TABLE_CPRO</ID>
 		<RECORD id="ddm_table_cpro.sam_vendoraopt">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.sam_vendoraopt">SAM_VENDOR      </DD_TABLE_ALIAS>
-			<DD_ATTR_CPRO id="ddm_table_cpro.sam_vendoraopt">AOPT</DD_ATTR_CPRO>
+			<DD_ATTR_CPRO id="ddm_table_cpro.sam_vendoraopt">AOPT-SUMM</DD_ATTR_CPRO>
 		</RECORD>
 		<RECORD id="ddm_table_cpro.sam_vendorarar">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.sam_vendorarar">SAM_VENDOR      </DD_TABLE_ALIAS>
@@ -206,6 +206,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.sam_vendor003">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.sam_vendor003">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sam_vendor003">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CPGM id="ddm_table_cols.sam_vendor003">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.sam_vendor003">60</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.sam_vendor003">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABS id="ddm_table_cols.sam_vendor003">Vendor Num</DD_ATTR_LABS>
@@ -223,6 +224,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.sam_vendor004">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.sam_vendor004">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sam_vendor004">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CPGM id="ddm_table_cols.sam_vendor004">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.sam_vendor004">35</DD_ATTR_CTLW>
 			<DD_ATTR_MAXL id="ddm_table_cols.sam_vendor004">3</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.sam_vendor004">Product Type</DD_ATTR_PROM>
@@ -239,6 +241,7 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.sam_vendor005">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.sam_vendor005">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sam_vendor005">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CPGM id="ddm_table_cols.sam_vendor005">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.sam_vendor005">200</DD_ATTR_CTLW>
 			<DD_ATTR_LABS id="ddm_table_cols.sam_vendor005">Inventory</DD_ATTR_LABS>
 			<DD_ATTR_MAXL id="ddm_table_cols.sam_vendor005">20</DD_ATTR_MAXL>
@@ -327,6 +330,24 @@
 			<DD_ATTR_CTLY id="ddm_table_disp.sam_vendor003">-1</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_disp.sam_vendor003">80</DD_ATTR_CTLW>
 			<DD_ATTR_TIND id="ddm_table_disp.sam_vendor003">14</DD_ATTR_TIND>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_column_cpro">
+		<ID id="ddm_column_cpro">DDM_COLUMN_CPRO</ID>
+		<RECORD id="ddm_column_cpro.sam_vendorvendor_idaval">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.sam_vendorvendor_idaval">SAM_VENDOR      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.sam_vendorvendor_idaval">VENDOR_ID       </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.sam_vendorvendor_idaval">AVAL</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_column_cpro.sam_vendorproduct_typeaval">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.sam_vendorproduct_typeaval">SAM_VENDOR      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.sam_vendorproduct_typeaval">PRODUCT_TYPE    </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.sam_vendorproduct_typeaval">AVAL</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_column_cpro.sam_vendoritem_idaval">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.sam_vendoritem_idaval">SAM_VENDOR      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.sam_vendoritem_idaval">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.sam_vendoritem_idaval">AVAL</DD_ATTR_CPRO>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">

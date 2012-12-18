@@ -18,10 +18,11 @@
 			<ASC_LICENSE_ID id="ddm_tables.gle_jrnlhdr">721D526FD79E7011486A932AB1F24969</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.gle_jrnlhdr">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.gle_jrnlhdr">20070925</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.gle_jrnlhdr">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.gle_jrnlhdr">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.gle_jrnlhdr">141544</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.gle_jrnlhdr">[+DIR_CPP]gle_jrnlhdr_cpt.bbj</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.gle_jrnlhdr">20100219</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.gle_jrnlhdr">20100208</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.gle_jrnlhdr">121100</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.gle_jrnlhdr">../apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_DKNM id="ddm_tables.gle_jrnlhdr">BATCH_KEY</DD_ATTR_DKNM>
 			<DD_ATTR_FTYP id="ddm_tables.gle_jrnlhdr">T</DD_ATTR_FTYP>
 			<DD_ATTR_IKEY id="ddm_tables.gle_jrnlhdr">N</DD_ATTR_IKEY>
 			<DD_ATTR_WINT id="ddm_tables.gle_jrnlhdr">Journal Entry Header</DD_ATTR_WINT>
@@ -33,9 +34,17 @@
 			<DD_TABLE_ALIAS id="ddm_table_cpro.gle_jrnlhdradis">GLE_JRNLHDR     </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.gle_jrnlhdradis">ADIS</DD_ATTR_CPRO>
 		</RECORD>
+		<RECORD id="ddm_table_cpro.gle_jrnlhdrbend">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.gle_jrnlhdrbend">GLE_JRNLHDR     </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.gle_jrnlhdrbend">BEND</DD_ATTR_CPRO>
+		</RECORD>
 		<RECORD id="ddm_table_cpro.gle_jrnlhdrbsho">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.gle_jrnlhdrbsho">GLE_JRNLHDR     </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.gle_jrnlhdrbsho">BSHO</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_table_cpro.gle_jrnlhdrbtbl">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.gle_jrnlhdrbtbl">GLE_JRNLHDR     </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.gle_jrnlhdrbtbl">BTBL</DD_ATTR_CPRO>
 		</RECORD>
 		<RECORD id="ddm_table_cpro.gle_jrnlhdrbwri">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.gle_jrnlhdrbwri">GLE_JRNLHDR     </DD_TABLE_ALIAS>
@@ -62,7 +71,7 @@
 		<RECORD id="ddm_table_tpls.gle_jrnlhdr">
 			<DD_TABLE_ALIAS id="ddm_table_tpls.gle_jrnlhdr">GLE_JRNLHDR     </DD_TABLE_ALIAS>
 			<DD_FILE_NAME id="ddm_table_tpls.gle_jrnlhdr">gle-01</DD_FILE_NAME>
-			<DD_TABLE_TPL id="ddm_table_tpls.gle_jrnlhdr">firm_id:c(2),journal_id:c(2),je_trans_id:c(10*),description:c(30),reserved_str:c(6),cycle_code:c(2),reserved_str_02:c(10),trans_date:c(8),reverse_date:c(8*),dealer_str:c(1*),dealer_num_01:n(1*),dealer_num_02:n(1*),dealer_num_03:n(1*)</DD_TABLE_TPL>
+			<DD_TABLE_TPL id="ddm_table_tpls.gle_jrnlhdr">firm_id:c(2),journal_id:c(2),je_trans_id:c(10*),description:c(30),reserved_str:c(6),cycle_code:c(2),reserved_str_02:c(10),trans_date:c(8),reverse_date:c(8*),dealer_str:c(1*),dealer_num_01:n(1*),dealer_num_02:n(1*),dealer_num_03:n(1*),batch_no:c(7*)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_keys">
@@ -72,6 +81,12 @@
 			<DD_KEY_NUMBER id="ddm_keys.gle_jrnlhdr00">00</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.gle_jrnlhdr00">Primary</DD_KEY_DESC>
 			<DD_KEY_ID id="ddm_keys.gle_jrnlhdr00">PRIMARY         </DD_KEY_ID>
+		</RECORD>
+		<RECORD id="ddm_keys.gle_jrnlhdr01">
+			<DD_TABLE_ALIAS id="ddm_keys.gle_jrnlhdr01">GLE_JRNLHDR     </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_keys.gle_jrnlhdr01">01</DD_KEY_NUMBER>
+			<DD_KEY_DESC id="ddm_keys.gle_jrnlhdr01">Batch key</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.gle_jrnlhdr01">BATCH_KEY       </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_key_segs">
@@ -93,6 +108,36 @@
 			<DD_KEY_NUMBER id="ddm_key_segs.gle_jrnlhdr0003">00</DD_KEY_NUMBER>
 			<DD_SEGMENT_SEQ id="ddm_key_segs.gle_jrnlhdr0003">03</DD_SEGMENT_SEQ>
 			<DD_SEGMENT_COL id="ddm_key_segs.gle_jrnlhdr0003">JE_TRANS_ID</DD_SEGMENT_COL>
+		</RECORD>
+		<RECORD id="ddm_key_segs.gle_jrnlhdr0101">
+			<DD_TABLE_ALIAS id="ddm_key_segs.gle_jrnlhdr0101">GLE_JRNLHDR     </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.gle_jrnlhdr0101">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.gle_jrnlhdr0101">01</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.gle_jrnlhdr0101">FIRM_ID</DD_SEGMENT_COL>
+		</RECORD>
+		<RECORD id="ddm_key_segs.gle_jrnlhdr0102">
+			<DD_TABLE_ALIAS id="ddm_key_segs.gle_jrnlhdr0102">GLE_JRNLHDR     </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.gle_jrnlhdr0102">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.gle_jrnlhdr0102">02</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.gle_jrnlhdr0102">BATCH_NO</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.gle_jrnlhdr0102">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.gle_jrnlhdr0102">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.gle_jrnlhdr0102">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.gle_jrnlhdr0102">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.gle_jrnlhdr0102">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.gle_jrnlhdr0102">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.gle_jrnlhdr0103">
+			<DD_TABLE_ALIAS id="ddm_key_segs.gle_jrnlhdr0103">GLE_JRNLHDR     </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.gle_jrnlhdr0103">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.gle_jrnlhdr0103">03</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.gle_jrnlhdr0103">JOURNAL_ID</DD_SEGMENT_COL>
+		</RECORD>
+		<RECORD id="ddm_key_segs.gle_jrnlhdr0104">
+			<DD_TABLE_ALIAS id="ddm_key_segs.gle_jrnlhdr0104">GLE_JRNLHDR     </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.gle_jrnlhdr0104">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.gle_jrnlhdr0104">04</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.gle_jrnlhdr0104">JE_TRANS_ID</DD_SEGMENT_COL>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_cols">
@@ -116,11 +161,11 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.gle_jrnlhdr002">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.gle_jrnlhdr002">20070925</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.gle_jrnlhdr002">20070925</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.gle_jrnlhdr002">[+DIR_CPP]gle_jrnlhdr_cpt.bbj</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.gle_jrnlhdr002">../apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.gle_jrnlhdr002">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.gle_jrnlhdr002">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.gle_jrnlhdr002">2</DD_ATTR_MAXL>
-			<DD_ATTR_TIND id="ddm_table_cols.gle_jrnlhdr002">2</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.gle_jrnlhdr002">3</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.gle_jrnlhdr003">
 			<DD_TABLE_ALIAS id="ddm_table_cols.gle_jrnlhdr003">GLE_JRNLHDR     </DD_TABLE_ALIAS>
@@ -134,8 +179,9 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.gle_jrnlhdr003">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.gle_jrnlhdr003">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABL id="ddm_table_cols.gle_jrnlhdr003">Transaction ID</DD_ATTR_LABL>
+			<DD_ATTR_MINL id="ddm_table_cols.gle_jrnlhdr003">1</DD_ATTR_MINL>
 			<DD_ATTR_MAXL id="ddm_table_cols.gle_jrnlhdr003">10</DD_ATTR_MAXL>
-			<DD_ATTR_TIND id="ddm_table_cols.gle_jrnlhdr003">3</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.gle_jrnlhdr003">4</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.gle_jrnlhdr004">
 			<DD_TABLE_ALIAS id="ddm_table_cols.gle_jrnlhdr004">GLE_JRNLHDR     </DD_TABLE_ALIAS>
@@ -145,8 +191,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.gle_jrnlhdr004">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.gle_jrnlhdr004">20070925</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.gle_jrnlhdr004">20070925</DD_LSTREV_DATE>
+			<DD_ATTR_MINL id="ddm_table_cols.gle_jrnlhdr004">1</DD_ATTR_MINL>
 			<DD_ATTR_MAXL id="ddm_table_cols.gle_jrnlhdr004">30</DD_ATTR_MAXL>
-			<DD_ATTR_TIND id="ddm_table_cols.gle_jrnlhdr004">4</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.gle_jrnlhdr004">5</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.gle_jrnlhdr005">
 			<DD_TABLE_ALIAS id="ddm_table_cols.gle_jrnlhdr005">GLE_JRNLHDR     </DD_TABLE_ALIAS>
@@ -158,7 +205,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.gle_jrnlhdr005">20070925</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.gle_jrnlhdr005">20070925</DD_LSTREV_DATE>
 			<DD_ATTR_MAXL id="ddm_table_cols.gle_jrnlhdr005">1</DD_ATTR_MAXL>
-			<DD_ATTR_TIND id="ddm_table_cols.gle_jrnlhdr005">12</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.gle_jrnlhdr005">13</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.gle_jrnlhdr006">
 			<DD_TABLE_ALIAS id="ddm_table_cols.gle_jrnlhdr006">GLE_JRNLHDR     </DD_TABLE_ALIAS>
@@ -171,7 +218,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.gle_jrnlhdr006">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.gle_jrnlhdr006">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.gle_jrnlhdr006">2</DD_ATTR_MAXL>
-			<DD_ATTR_TIND id="ddm_table_cols.gle_jrnlhdr006">5</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.gle_jrnlhdr006">6</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.gle_jrnlhdr007">
 			<DD_TABLE_ALIAS id="ddm_table_cols.gle_jrnlhdr007">GLE_JRNLHDR     </DD_TABLE_ALIAS>
@@ -184,7 +231,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.gle_jrnlhdr007">20070925</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.gle_jrnlhdr007">20070925</DD_LSTREV_DATE>
 			<DD_ATTR_MAXL id="ddm_table_cols.gle_jrnlhdr007">1</DD_ATTR_MAXL>
-			<DD_ATTR_TIND id="ddm_table_cols.gle_jrnlhdr007">13</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.gle_jrnlhdr007">14</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.gle_jrnlhdr008">
 			<DD_TABLE_ALIAS id="ddm_table_cols.gle_jrnlhdr008">GLE_JRNLHDR     </DD_TABLE_ALIAS>
@@ -194,10 +241,10 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.gle_jrnlhdr008">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.gle_jrnlhdr008">20070925</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.gle_jrnlhdr008">20070925</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.gle_jrnlhdr008">[+DIR_CPP]gle_jrnlhdr_cpt.bbj</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.gle_jrnlhdr008">../apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_DFLT id="ddm_table_cols.gle_jrnlhdr008">[+SYSTEM_DATE]</DD_ATTR_DFLT>
 			<DD_ATTR_MAXL id="ddm_table_cols.gle_jrnlhdr008">8</DD_ATTR_MAXL>
-			<DD_ATTR_TIND id="ddm_table_cols.gle_jrnlhdr008">6</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.gle_jrnlhdr008">7</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.gle_jrnlhdr009">
 			<DD_TABLE_ALIAS id="ddm_table_cols.gle_jrnlhdr009">GLE_JRNLHDR     </DD_TABLE_ALIAS>
@@ -208,9 +255,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.gle_jrnlhdr009">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.gle_jrnlhdr009">20070925</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.gle_jrnlhdr009">20070925</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.gle_jrnlhdr009">[+DIR_CPP]gle_jrnlhdr_cpt.bbj</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.gle_jrnlhdr009">../apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_MAXL id="ddm_table_cols.gle_jrnlhdr009">8</DD_ATTR_MAXL>
-			<DD_ATTR_TIND id="ddm_table_cols.gle_jrnlhdr009">7</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.gle_jrnlhdr009">8</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.gle_jrnlhdr010">
 			<DD_TABLE_ALIAS id="ddm_table_cols.gle_jrnlhdr010">GLE_JRNLHDR     </DD_TABLE_ALIAS>
@@ -222,7 +269,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.gle_jrnlhdr010">20070925</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.gle_jrnlhdr010">20070925</DD_LSTREV_DATE>
 			<DD_ATTR_MAXL id="ddm_table_cols.gle_jrnlhdr010">1</DD_ATTR_MAXL>
-			<DD_ATTR_TIND id="ddm_table_cols.gle_jrnlhdr010">14</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.gle_jrnlhdr010">15</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.gle_jrnlhdr011">
 			<DD_TABLE_ALIAS id="ddm_table_cols.gle_jrnlhdr011">GLE_JRNLHDR     </DD_TABLE_ALIAS>
@@ -235,7 +282,29 @@
 			<DD_CREATE_DATE id="ddm_table_cols.gle_jrnlhdr011">20070925</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.gle_jrnlhdr011">20070925</DD_LSTREV_DATE>
 			<DD_ATTR_MAXL id="ddm_table_cols.gle_jrnlhdr011">1</DD_ATTR_MAXL>
-			<DD_ATTR_TIND id="ddm_table_cols.gle_jrnlhdr011">15</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.gle_jrnlhdr011">16</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.gle_jrnlhdr012">
+			<DD_TABLE_ALIAS id="ddm_table_cols.gle_jrnlhdr012">GLE_JRNLHDR     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.gle_jrnlhdr012">012</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.gle_jrnlhdr012">BATCH_NO        </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.gle_jrnlhdr012">BATCH_NO        </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.gle_jrnlhdr012">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.gle_jrnlhdr012">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.gle_jrnlhdr012">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.gle_jrnlhdr012">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.gle_jrnlhdr012">20090730</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.gle_jrnlhdr012">20090730</DD_LSTREV_DATE>
+			<DD_ATTR_COLW id="ddm_table_cols.gle_jrnlhdr012">0</DD_ATTR_COLW>
+			<DD_ATTR_CTLX id="ddm_table_cols.gle_jrnlhdr012">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_cols.gle_jrnlhdr012">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_cols.gle_jrnlhdr012">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.gle_jrnlhdr012">0</DD_ATTR_CTLH>
+			<DD_ATTR_LABL id="ddm_table_cols.gle_jrnlhdr012">Batch No</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_table_cols.gle_jrnlhdr012">Batch No</DD_ATTR_LABS>
+			<DD_ATTR_MLAN id="ddm_table_cols.gle_jrnlhdr012">N</DD_ATTR_MLAN>
+			<DD_ATTR_MAXL id="ddm_table_cols.gle_jrnlhdr012">7</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.gle_jrnlhdr012">2</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_disp">
@@ -247,10 +316,10 @@
 			<DD_CTRL_NAME id="ddm_table_disp.gle_jrnlhdr001">DEBIT_AMT       </DD_CTRL_NAME>
 			<DD_ATTR_LABL id="ddm_table_disp.gle_jrnlhdr001">Debits</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_table_disp.gle_jrnlhdr001">Debits</DD_ATTR_LABS>
-			<DD_ATTR_CTLX id="ddm_table_disp.gle_jrnlhdr001">+39</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY id="ddm_table_disp.gle_jrnlhdr001">-4</DD_ATTR_CTLY>
-			<DD_ATTR_CTLW id="ddm_table_disp.gle_jrnlhdr001">0</DD_ATTR_CTLW>
-			<DD_ATTR_TIND id="ddm_table_disp.gle_jrnlhdr001">8</DD_ATTR_TIND>
+			<DD_ATTR_CTLX id="ddm_table_disp.gle_jrnlhdr001">+38</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.gle_jrnlhdr001">-5</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.gle_jrnlhdr001">110</DD_ATTR_CTLW>
+			<DD_ATTR_TIND id="ddm_table_disp.gle_jrnlhdr001">9</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_disp.gle_jrnlhdr002">
 			<DD_TABLE_ALIAS id="ddm_table_disp.gle_jrnlhdr002">GLE_JRNLHDR     </DD_TABLE_ALIAS>
@@ -259,7 +328,8 @@
 			<DD_CTRL_NAME id="ddm_table_disp.gle_jrnlhdr002">CREDIT_AMT      </DD_CTRL_NAME>
 			<DD_ATTR_LABL id="ddm_table_disp.gle_jrnlhdr002">Credits</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_table_disp.gle_jrnlhdr002">Credits</DD_ATTR_LABS>
-			<DD_ATTR_TIND id="ddm_table_disp.gle_jrnlhdr002">9</DD_ATTR_TIND>
+			<DD_ATTR_CTLW id="ddm_table_disp.gle_jrnlhdr002">110</DD_ATTR_CTLW>
+			<DD_ATTR_TIND id="ddm_table_disp.gle_jrnlhdr002">10</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_disp.gle_jrnlhdr003">
 			<DD_TABLE_ALIAS id="ddm_table_disp.gle_jrnlhdr003">GLE_JRNLHDR     </DD_TABLE_ALIAS>
@@ -268,7 +338,8 @@
 			<DD_CTRL_NAME id="ddm_table_disp.gle_jrnlhdr003">BALANCE         </DD_CTRL_NAME>
 			<DD_ATTR_LABL id="ddm_table_disp.gle_jrnlhdr003">Balance</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_table_disp.gle_jrnlhdr003">Balance</DD_ATTR_LABS>
-			<DD_ATTR_TIND id="ddm_table_disp.gle_jrnlhdr003">10</DD_ATTR_TIND>
+			<DD_ATTR_CTLW id="ddm_table_disp.gle_jrnlhdr003">110</DD_ATTR_CTLW>
+			<DD_ATTR_TIND id="ddm_table_disp.gle_jrnlhdr003">11</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_disp.gle_jrnlhdr004">
 			<DD_TABLE_ALIAS id="ddm_table_disp.gle_jrnlhdr004">GLE_JRNLHDR     </DD_TABLE_ALIAS>
@@ -277,9 +348,8 @@
 			<DD_CTRL_NAME id="ddm_table_disp.gle_jrnlhdr004">UNITS           </DD_CTRL_NAME>
 			<DD_ATTR_LABL id="ddm_table_disp.gle_jrnlhdr004">Units</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_table_disp.gle_jrnlhdr004">Units</DD_ATTR_LABS>
-			<DD_ATTR_CTLX id="ddm_table_disp.gle_jrnlhdr004">+11</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY id="ddm_table_disp.gle_jrnlhdr004">-1</DD_ATTR_CTLY>
-			<DD_ATTR_TIND id="ddm_table_disp.gle_jrnlhdr004">11</DD_ATTR_TIND>
+			<DD_ATTR_CTLW id="ddm_table_disp.gle_jrnlhdr004">110</DD_ATTR_CTLW>
+			<DD_ATTR_TIND id="ddm_table_disp.gle_jrnlhdr004">12</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_cpro">
@@ -454,7 +524,7 @@
 			<ASC_PROD_ID id="ddm_elements.gl_cyclecode">GL </ASC_PROD_ID>
 			<LOCALIZATION_EX id="ddm_elements.gl_cyclecode">N</LOCALIZATION_EX>
 			<DD_CREATE_DATE id="ddm_elements.gl_cyclecode">20090130</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.gl_cyclecode">20090403</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.gl_cyclecode">20091101</DD_LSTREV_DATE>
 			<DD_ATTR_BLNK id="ddm_elements.gl_cyclecode">N</DD_ATTR_BLNK>
 			<DD_ATTR_CTLW id="ddm_elements.gl_cyclecode">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_elements.gl_cyclecode">0</DD_ATTR_CTLH>
@@ -467,6 +537,8 @@
 			<DD_ATTR_MAXL id="ddm_elements.gl_cyclecode">0</DD_ATTR_MAXL>
 			<DD_ATTR_MAXR id="ddm_elements.gl_cyclecode">0</DD_ATTR_MAXR>
 			<DD_ATTR_MINL id="ddm_elements.gl_cyclecode">0</DD_ATTR_MINL>
+			<DD_ATTR_MSKI id="ddm_elements.gl_cyclecode">UU</DD_ATTR_MSKI>
+			<DD_ATTR_MSKO id="ddm_elements.gl_cyclecode">UU</DD_ATTR_MSKO>
 			<DD_ATTR_PADC id="ddm_elements.gl_cyclecode">20</DD_ATTR_PADC>
 			<DD_ATTR_PADJ id="ddm_elements.gl_cyclecode">L</DD_ATTR_PADJ>
 			<DD_ATTR_PREC id="ddm_elements.gl_cyclecode">0</DD_ATTR_PREC>
@@ -539,40 +611,78 @@
 			<DD_ATTR_LABL id="ddm_elements.dealer_num">Reserved For Dealer Use</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.dealer_num">Res For Dealer Use</DD_ATTR_LABS>
 		</RECORD>
+		<RECORD id="ddm_elements.batch_no">
+			<DD_DATA_NAME id="ddm_elements.batch_no">BATCH_NO        </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.batch_no">Batch Entry Control Number</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.batch_no">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.batch_no">7</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.batch_no"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.batch_no">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.batch_no">AD </ASC_PROD_ID>
+			<LOCALIZATION_EX id="ddm_elements.batch_no">N</LOCALIZATION_EX>
+			<DD_CREATE_DATE id="ddm_elements.batch_no">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.batch_no">20090714</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.batch_no">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.batch_no">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.batch_no">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.batch_no">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.batch_no">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.batch_no">Batch Entry Control Number</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.batch_no">Batch Entry No</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.batch_no">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.batch_no">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.batch_no">0</DD_ATTR_MINL>
+			<DD_ATTR_MSKI id="ddm_elements.batch_no">0000000</DD_ATTR_MSKI>
+			<DD_ATTR_MSKO id="ddm_elements.batch_no">0000000</DD_ATTR_MSKO>
+			<DD_ATTR_PADC id="ddm_elements.batch_no">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.batch_no">R</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.batch_no">0</DD_ATTR_PREC>
+		</RECORD>
 		<RECORD id="ddm_elements.debit_amt">
 			<DD_DATA_NAME id="ddm_elements.debit_amt">DEBIT_AMT       </DD_DATA_NAME>
 			<DD_DESCRIPTION id="ddm_elements.debit_amt">Debit Posting Amount</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.debit_amt">N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.debit_amt">7</DD_DATA_LENGTH>
+			<DD_DATA_LENGTH id="ddm_elements.debit_amt">12</DD_DATA_LENGTH>
 			<DD_MASK_TYPE id="ddm_elements.debit_amt">A</DD_MASK_TYPE>
 			<DD_SYSTEM_REC id="ddm_elements.debit_amt">N</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_elements.debit_amt">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_elements.debit_amt">GL </ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.debit_amt">20060501</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.debit_amt">20061017</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.debit_amt">20100207</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_elements.debit_amt">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.debit_amt">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.debit_amt">N</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.debit_amt">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.debit_amt">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.debit_amt">Debit Amount</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.debit_amt">Debit</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.debit_amt">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.debit_amt">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.debit_amt">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.debit_amt">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.credit_amt">
 			<DD_DATA_NAME id="ddm_elements.credit_amt">CREDIT_AMT      </DD_DATA_NAME>
 			<DD_DESCRIPTION id="ddm_elements.credit_amt">Credit Posting Amount</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.credit_amt">N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.credit_amt">7</DD_DATA_LENGTH>
+			<DD_DATA_LENGTH id="ddm_elements.credit_amt">12</DD_DATA_LENGTH>
 			<DD_MASK_TYPE id="ddm_elements.credit_amt">A</DD_MASK_TYPE>
 			<DD_SYSTEM_REC id="ddm_elements.credit_amt">N</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_elements.credit_amt">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_elements.credit_amt">GL </ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.credit_amt">20060501</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.credit_amt">20061019</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.credit_amt">20100207</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.credit_amt">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.credit_amt">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.credit_amt">N</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.credit_amt">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.credit_amt">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.credit_amt">Credit Amount</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.credit_amt">Credit</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.credit_amt">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.credit_amt">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.credit_amt">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.credit_amt">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.total_amount">
 			<DD_DATA_NAME id="ddm_elements.total_amount">TOTAL_AMOUNT    </DD_DATA_NAME>

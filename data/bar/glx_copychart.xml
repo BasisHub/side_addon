@@ -18,12 +18,20 @@
 			<ASC_LICENSE_ID id="ddm_tables.glx_copychart">4A6F30CD7BDFDCB5EE9D6EDA2FE4F603</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.glx_copychart">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.glx_copychart">20070913</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.glx_copychart">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.glx_copychart">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.glx_copychart">141538</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.glx_copychart">20091006</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.glx_copychart">20091005</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.glx_copychart">124720</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.glx_copychart">../apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.glx_copychart">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.glx_copychart">[+DIR_PGM]glx_copychart.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.glx_copychart">Copy Chart of Accounts</DD_ATTR_WINT>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_cpro">
+		<ID id="ddm_table_cpro">DDM_TABLE_CPRO</ID>
+		<RECORD id="ddm_table_cpro.glx_copychartasva">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.glx_copychartasva">GLX_COPYCHART   </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.glx_copychartasva">ASVA</DD_ATTR_CPRO>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_tpls">

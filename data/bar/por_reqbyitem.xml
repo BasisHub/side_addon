@@ -16,9 +16,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.por_reqbyitem">2F738A96BFD08CFFF927677F82567312</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.por_reqbyitem">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.por_reqbyitem">20071015</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.por_reqbyitem">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.por_reqbyitem">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.por_reqbyitem">141510</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.por_reqbyitem">20090706</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.por_reqbyitem">20090709</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.por_reqbyitem">115936</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.por_reqbyitem">[+DIR_CPP]por_reqbyitem_cpt.bbj</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.por_reqbyitem">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.por_reqbyitem">[+DIR_PGM]por_reqbyitem.aon</DD_ATTR_PRUN>
@@ -30,6 +30,13 @@
 		<RECORD id="ddm_table_cpro.por_reqbyitemarar">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.por_reqbyitemarar">POR_REQBYITEM   </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.por_reqbyitemarar">ARAR</DD_ATTR_CPRO>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_opts">
+		<ID id="ddm_table_opts">DDM_TABLE_OPTS</ID>
+		<RECORD id="ddm_table_opts.por_reqbyitemx">
+			<DD_TABLE_ALIAS id="ddm_table_opts.por_reqbyitemx">POR_REQBYITEM   </DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.por_reqbyitemx">X</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_tpls">
@@ -89,6 +96,8 @@
 			<DD_CREATE_DATE id="ddm_table_cols.por_reqbyitem004">20071008</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.por_reqbyitem004">20071008</DD_LSTREV_DATE>
 			<DD_ATTR_CTLX id="ddm_table_cols.por_reqbyitem004">+3</DD_ATTR_CTLX>
+			<DD_ATTR_CTLW id="ddm_table_cols.por_reqbyitem004">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.por_reqbyitem004">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.por_reqbyitem004">2</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.por_reqbyitem004">1</DD_ATTR_TIND>
 		</RECORD>

@@ -16,9 +16,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.ivr_vendlist">23E4C1F4D2BE3E4B0896EAC47C8772EE</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ivr_vendlist">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ivr_vendlist">20070726</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ivr_vendlist">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivr_vendlist">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivr_vendlist">141532</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ivr_vendlist">20090806</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivr_vendlist">20090709</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivr_vendlist">115940</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ivr_vendlist">[+DIR_CPP]ivr_vendlist_cpt.bbj</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ivr_vendlist">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.ivr_vendlist">[+DIR_PGM]ivr_vendlist.aon </DD_ATTR_PRUN>
@@ -30,6 +30,13 @@
 		<RECORD id="ddm_table_cpro.ivr_vendlistbsho">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.ivr_vendlistbsho">IVR_VENDLIST    </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.ivr_vendlistbsho">BSHO</DD_ATTR_CPRO>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_opts">
+		<ID id="ddm_table_opts">DDM_TABLE_OPTS</ID>
+		<RECORD id="ddm_table_opts.ivr_vendlistx">
+			<DD_TABLE_ALIAS id="ddm_table_opts.ivr_vendlistx">IVR_VENDLIST    </DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.ivr_vendlistx">X</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_tpls">
@@ -51,6 +58,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.ivr_vendlist001">20070726</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivr_vendlist001">20070726</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivr_vendlist001">48</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.ivr_vendlist001">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.ivr_vendlist001">6</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ivr_vendlist001">1</DD_ATTR_TIND>
 		</RECORD>
@@ -90,6 +98,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.ivr_vendlist004">20070726</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivr_vendlist004">20070726</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivr_vendlist004">35</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.ivr_vendlist004">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.ivr_vendlist004">3</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ivr_vendlist004">4</DD_ATTR_TIND>
 		</RECORD>

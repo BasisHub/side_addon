@@ -16,9 +16,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.ivr_lotcusthist">7A4682581F6DE5A7C282DA2E5C544C1C</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ivr_lotcusthist">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ivr_lotcusthist">20071202</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ivr_lotcusthist">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivr_lotcusthist">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivr_lotcusthist">141532</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ivr_lotcusthist">20090715</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivr_lotcusthist">20090715</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivr_lotcusthist">122824</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ivr_lotcusthist">[+DIR_CPP]ivr_lotcusthist_cpt.bbj</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ivr_lotcusthist">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.ivr_lotcusthist">[+DIR_PGM]ivr_lotcusthist.aon</DD_ATTR_PRUN>
@@ -30,6 +30,13 @@
 		<RECORD id="ddm_table_cpro.ivr_lotcusthistarar">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.ivr_lotcusthistarar">IVR_LOTCUSTHIST </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.ivr_lotcusthistarar">ARAR</DD_ATTR_CPRO>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_opts">
+		<ID id="ddm_table_opts">DDM_TABLE_OPTS</ID>
+		<RECORD id="ddm_table_opts.ivr_lotcusthistx">
+			<DD_TABLE_ALIAS id="ddm_table_opts.ivr_lotcusthistx">IVR_LOTCUSTHIST </DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.ivr_lotcusthistx">X</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_tpls">
@@ -169,6 +176,11 @@
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">
 		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
+		<RECORD id="ddm_column_opts.ivr_lotcusthistcustomer_id1">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_lotcusthistcustomer_id1">IVR_LOTCUSTHIST </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivr_lotcusthistcustomer_id1">CUSTOMER_ID     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivr_lotcusthistcustomer_id1">1</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.ivr_lotcusthistpick_date1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_lotcusthistpick_date1">IVR_LOTCUSTHIST </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ivr_lotcusthistpick_date1">PICK_DATE       </DD_DVAR_NAME>

@@ -19,11 +19,12 @@
 			<ASC_LICENSE_ID id="ddm_tables.adm_proctables">6F56BC11D1437F0808407A0F39EAB038</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.adm_proctables">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.adm_proctables">20070305</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.adm_proctables">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.adm_proctables">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.adm_proctables">141604</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.adm_proctables">20090727</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.adm_proctables">20090727</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.adm_proctables">151612</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.adm_proctables">G</DD_ATTR_FTYP>
 			<DD_ATTR_IKEY id="ddm_tables.adm_proctables">N</DD_ATTR_IKEY>
+			<DD_ATTR_PTAB id="ddm_tables.adm_proctables">ADM_PROCMASTER  </DD_ATTR_PTAB>
 			<DD_ATTR_WINT id="ddm_tables.adm_proctables">Process Tables</DD_ATTR_WINT>
 		</RECORD>
 	</ALIAS>
@@ -32,7 +33,7 @@
 		<RECORD id="ddm_table_tpls.adm_proctables">
 			<DD_TABLE_ALIAS id="ddm_table_tpls.adm_proctables">ADM_PROCTABLES  </DD_TABLE_ALIAS>
 			<DD_FILE_NAME id="ddm_table_tpls.adm_proctables">adm-39</DD_FILE_NAME>
-			<DD_TABLE_TPL id="ddm_table_tpls.adm_proctables">process_id:c(16),sequence_no:c(3*),dd_table_alias:c(16*),dd_file_name:c(30*)</DD_TABLE_TPL>
+			<DD_TABLE_TPL id="ddm_table_tpls.adm_proctables">firm_id:c(2),process_id:c(16),sequence_no:c(3*),dd_table_alias:c(16*),dd_file_name:c(30*)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_keys">
@@ -62,49 +63,85 @@
 			<DD_TABLE_ALIAS id="ddm_key_segs.adm_proctables0001">ADM_PROCTABLES  </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_key_segs.adm_proctables0001">00</DD_KEY_NUMBER>
 			<DD_SEGMENT_SEQ id="ddm_key_segs.adm_proctables0001">01</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL id="ddm_key_segs.adm_proctables0001">PROCESS_ID      </DD_SEGMENT_COL>
+			<DD_SEGMENT_COL id="ddm_key_segs.adm_proctables0001">FIRM_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.adm_proctables0001">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.adm_proctables0001">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.adm_proctables0001">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.adm_proctables0001">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.adm_proctables0001">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.adm_proctables0001">N</DD_SEGMENT_MATH>
 		</RECORD>
 		<RECORD id="ddm_key_segs.adm_proctables0002">
 			<DD_TABLE_ALIAS id="ddm_key_segs.adm_proctables0002">ADM_PROCTABLES  </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_key_segs.adm_proctables0002">00</DD_KEY_NUMBER>
 			<DD_SEGMENT_SEQ id="ddm_key_segs.adm_proctables0002">02</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL id="ddm_key_segs.adm_proctables0002">SEQUENCE_NO     </DD_SEGMENT_COL>
+			<DD_SEGMENT_COL id="ddm_key_segs.adm_proctables0002">PROCESS_ID      </DD_SEGMENT_COL>
+		</RECORD>
+		<RECORD id="ddm_key_segs.adm_proctables0003">
+			<DD_TABLE_ALIAS id="ddm_key_segs.adm_proctables0003">ADM_PROCTABLES  </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.adm_proctables0003">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.adm_proctables0003">03</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.adm_proctables0003">SEQUENCE_NO     </DD_SEGMENT_COL>
 		</RECORD>
 		<RECORD id="ddm_key_segs.adm_proctables0101">
 			<DD_TABLE_ALIAS id="ddm_key_segs.adm_proctables0101">ADM_PROCTABLES  </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_key_segs.adm_proctables0101">01</DD_KEY_NUMBER>
 			<DD_SEGMENT_SEQ id="ddm_key_segs.adm_proctables0101">01</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL id="ddm_key_segs.adm_proctables0101">DD_TABLE_ALIAS  </DD_SEGMENT_COL>
+			<DD_SEGMENT_COL id="ddm_key_segs.adm_proctables0101">FIRM_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.adm_proctables0101">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.adm_proctables0101">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.adm_proctables0101">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.adm_proctables0101">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.adm_proctables0101">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.adm_proctables0101">N</DD_SEGMENT_MATH>
 		</RECORD>
 		<RECORD id="ddm_key_segs.adm_proctables0102">
 			<DD_TABLE_ALIAS id="ddm_key_segs.adm_proctables0102">ADM_PROCTABLES  </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_key_segs.adm_proctables0102">01</DD_KEY_NUMBER>
 			<DD_SEGMENT_SEQ id="ddm_key_segs.adm_proctables0102">02</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL id="ddm_key_segs.adm_proctables0102">PROCESS_ID      </DD_SEGMENT_COL>
+			<DD_SEGMENT_COL id="ddm_key_segs.adm_proctables0102">DD_TABLE_ALIAS  </DD_SEGMENT_COL>
 		</RECORD>
 		<RECORD id="ddm_key_segs.adm_proctables0103">
 			<DD_TABLE_ALIAS id="ddm_key_segs.adm_proctables0103">ADM_PROCTABLES  </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_key_segs.adm_proctables0103">01</DD_KEY_NUMBER>
 			<DD_SEGMENT_SEQ id="ddm_key_segs.adm_proctables0103">03</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL id="ddm_key_segs.adm_proctables0103">SEQUENCE_NO     </DD_SEGMENT_COL>
+			<DD_SEGMENT_COL id="ddm_key_segs.adm_proctables0103">PROCESS_ID      </DD_SEGMENT_COL>
+		</RECORD>
+		<RECORD id="ddm_key_segs.adm_proctables0104">
+			<DD_TABLE_ALIAS id="ddm_key_segs.adm_proctables0104">ADM_PROCTABLES  </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.adm_proctables0104">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.adm_proctables0104">04</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.adm_proctables0104">SEQUENCE_NO     </DD_SEGMENT_COL>
 		</RECORD>
 		<RECORD id="ddm_key_segs.adm_proctables0201">
 			<DD_TABLE_ALIAS id="ddm_key_segs.adm_proctables0201">ADM_PROCTABLES  </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_key_segs.adm_proctables0201">02</DD_KEY_NUMBER>
 			<DD_SEGMENT_SEQ id="ddm_key_segs.adm_proctables0201">01</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL id="ddm_key_segs.adm_proctables0201">DD_FILE_NAME</DD_SEGMENT_COL>
+			<DD_SEGMENT_COL id="ddm_key_segs.adm_proctables0201">FIRM_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.adm_proctables0201">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.adm_proctables0201">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.adm_proctables0201">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.adm_proctables0201">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.adm_proctables0201">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.adm_proctables0201">N</DD_SEGMENT_MATH>
 		</RECORD>
 		<RECORD id="ddm_key_segs.adm_proctables0202">
 			<DD_TABLE_ALIAS id="ddm_key_segs.adm_proctables0202">ADM_PROCTABLES  </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_key_segs.adm_proctables0202">02</DD_KEY_NUMBER>
 			<DD_SEGMENT_SEQ id="ddm_key_segs.adm_proctables0202">02</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL id="ddm_key_segs.adm_proctables0202">PROCESS_ID      </DD_SEGMENT_COL>
+			<DD_SEGMENT_COL id="ddm_key_segs.adm_proctables0202">DD_FILE_NAME</DD_SEGMENT_COL>
 		</RECORD>
 		<RECORD id="ddm_key_segs.adm_proctables0203">
 			<DD_TABLE_ALIAS id="ddm_key_segs.adm_proctables0203">ADM_PROCTABLES  </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_key_segs.adm_proctables0203">02</DD_KEY_NUMBER>
 			<DD_SEGMENT_SEQ id="ddm_key_segs.adm_proctables0203">03</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL id="ddm_key_segs.adm_proctables0203">SEQUENCE_NO     </DD_SEGMENT_COL>
+			<DD_SEGMENT_COL id="ddm_key_segs.adm_proctables0203">PROCESS_ID      </DD_SEGMENT_COL>
+		</RECORD>
+		<RECORD id="ddm_key_segs.adm_proctables0204">
+			<DD_TABLE_ALIAS id="ddm_key_segs.adm_proctables0204">ADM_PROCTABLES  </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.adm_proctables0204">02</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.adm_proctables0204">04</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.adm_proctables0204">SEQUENCE_NO     </DD_SEGMENT_COL>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_cols">
@@ -112,47 +149,76 @@
 		<RECORD id="ddm_table_cols.adm_proctables001">
 			<DD_TABLE_ALIAS id="ddm_table_cols.adm_proctables001">ADM_PROCTABLES  </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_cols.adm_proctables001">001</DD_SEQUENCE>
-			<DD_DATA_NAME id="ddm_table_cols.adm_proctables001">PROCESS_ID      </DD_DATA_NAME>
-			<DD_DVAR_NAME id="ddm_table_cols.adm_proctables001">PROCESS_ID      </DD_DVAR_NAME>
+			<DD_DATA_NAME id="ddm_table_cols.adm_proctables001">FIRM_ID         </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.adm_proctables001">FIRM_ID         </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.adm_proctables001">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.adm_proctables001">0</DD_COL_OCCURS>
 			<DD_FIELD_DELIM id="ddm_table_cols.adm_proctables001">N</DD_FIELD_DELIM>
-			<DD_ATTR_CTLW id="ddm_table_cols.adm_proctables001">160</DD_ATTR_CTLW>
+			<DD_DELIM_CHAR id="ddm_table_cols.adm_proctables001">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.adm_proctables001">20090714</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.adm_proctables001">20090714</DD_LSTREV_DATE>
+			<DD_ATTR_COLW id="ddm_table_cols.adm_proctables001">0</DD_ATTR_COLW>
+			<DD_ATTR_CTLX id="ddm_table_cols.adm_proctables001">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_cols.adm_proctables001">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_cols.adm_proctables001">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.adm_proctables001">0</DD_ATTR_CTLH>
-			<DD_ATTR_MAXL id="ddm_table_cols.adm_proctables001">16</DD_ATTR_MAXL>
+			<DD_ATTR_MLAN id="ddm_table_cols.adm_proctables001">N</DD_ATTR_MLAN>
+			<DD_ATTR_MAXL id="ddm_table_cols.adm_proctables001">2</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.adm_proctables001">1</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.adm_proctables002">
 			<DD_TABLE_ALIAS id="ddm_table_cols.adm_proctables002">ADM_PROCTABLES  </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_cols.adm_proctables002">002</DD_SEQUENCE>
-			<DD_DATA_NAME id="ddm_table_cols.adm_proctables002">SEQUENCE_NO     </DD_DATA_NAME>
-			<DD_DVAR_NAME id="ddm_table_cols.adm_proctables002">SEQUENCE_NO     </DD_DVAR_NAME>
-			<DD_FIELD_DELIM id="ddm_table_cols.adm_proctables002">Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR id="ddm_table_cols.adm_proctables002">0A</DD_DELIM_CHAR>
-			<DD_ATTR_CTLW id="ddm_table_cols.adm_proctables002">35</DD_ATTR_CTLW>
-			<DD_ATTR_MAXL id="ddm_table_cols.adm_proctables002">3</DD_ATTR_MAXL>
+			<DD_DATA_NAME id="ddm_table_cols.adm_proctables002">PROCESS_ID      </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.adm_proctables002">PROCESS_ID      </DD_DVAR_NAME>
+			<DD_FIELD_DELIM id="ddm_table_cols.adm_proctables002">N</DD_FIELD_DELIM>
+			<DD_ATTR_CTLW id="ddm_table_cols.adm_proctables002">160</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.adm_proctables002">0</DD_ATTR_CTLH>
+			<DD_ATTR_MAXL id="ddm_table_cols.adm_proctables002">16</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.adm_proctables002">2</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.adm_proctables003">
 			<DD_TABLE_ALIAS id="ddm_table_cols.adm_proctables003">ADM_PROCTABLES  </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_cols.adm_proctables003">003</DD_SEQUENCE>
-			<DD_DATA_NAME id="ddm_table_cols.adm_proctables003">DD_TABLE_ALIAS  </DD_DATA_NAME>
-			<DD_DVAR_NAME id="ddm_table_cols.adm_proctables003">DD_TABLE_ALIAS  </DD_DVAR_NAME>
+			<DD_DATA_NAME id="ddm_table_cols.adm_proctables003">SEQUENCE_NO     </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.adm_proctables003">SEQUENCE_NO     </DD_DVAR_NAME>
 			<DD_FIELD_DELIM id="ddm_table_cols.adm_proctables003">Y</DD_FIELD_DELIM>
 			<DD_DELIM_CHAR id="ddm_table_cols.adm_proctables003">0A</DD_DELIM_CHAR>
-			<DD_ATTR_CTLW id="ddm_table_cols.adm_proctables003">160</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH id="ddm_table_cols.adm_proctables003">0</DD_ATTR_CTLH>
-			<DD_ATTR_MAXL id="ddm_table_cols.adm_proctables003">16</DD_ATTR_MAXL>
+			<DD_ATTR_CTLW id="ddm_table_cols.adm_proctables003">35</DD_ATTR_CTLW>
+			<DD_ATTR_MAXL id="ddm_table_cols.adm_proctables003">3</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.adm_proctables003">3</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.adm_proctables004">
 			<DD_TABLE_ALIAS id="ddm_table_cols.adm_proctables004">ADM_PROCTABLES  </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_cols.adm_proctables004">004</DD_SEQUENCE>
-			<DD_DATA_NAME id="ddm_table_cols.adm_proctables004">DD_FILE_NAME    </DD_DATA_NAME>
-			<DD_DVAR_NAME id="ddm_table_cols.adm_proctables004">DD_FILE_NAME    </DD_DVAR_NAME>
+			<DD_DATA_NAME id="ddm_table_cols.adm_proctables004">DD_TABLE_ALIAS  </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.adm_proctables004">DD_TABLE_ALIAS  </DD_DVAR_NAME>
 			<DD_FIELD_DELIM id="ddm_table_cols.adm_proctables004">Y</DD_FIELD_DELIM>
 			<DD_DELIM_CHAR id="ddm_table_cols.adm_proctables004">0A</DD_DELIM_CHAR>
-			<DD_ATTR_CTLW id="ddm_table_cols.adm_proctables004">56</DD_ATTR_CTLW>
-			<DD_ATTR_MAXL id="ddm_table_cols.adm_proctables004">30</DD_ATTR_MAXL>
+			<DD_ATTR_CTLW id="ddm_table_cols.adm_proctables004">160</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.adm_proctables004">0</DD_ATTR_CTLH>
+			<DD_ATTR_MAXL id="ddm_table_cols.adm_proctables004">16</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.adm_proctables004">4</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.adm_proctables005">
+			<DD_TABLE_ALIAS id="ddm_table_cols.adm_proctables005">ADM_PROCTABLES  </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.adm_proctables005">005</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.adm_proctables005">DD_FILE_NAME    </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.adm_proctables005">DD_FILE_NAME    </DD_DVAR_NAME>
+			<DD_FIELD_DELIM id="ddm_table_cols.adm_proctables005">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.adm_proctables005">0A</DD_DELIM_CHAR>
+			<DD_ATTR_CPGM id="ddm_table_cols.adm_proctables005">/dev_aon_test/apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CTLW id="ddm_table_cols.adm_proctables005">56</DD_ATTR_CTLW>
+			<DD_ATTR_MAXL id="ddm_table_cols.adm_proctables005">30</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.adm_proctables005">5</DD_ATTR_TIND>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_column_cpro">
+		<ID id="ddm_column_cpro">DDM_COLUMN_CPRO</ID>
+		<RECORD id="ddm_column_cpro.adm_proctablesdd_file_namebinp">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.adm_proctablesdd_file_namebinp">ADM_PROCTABLES  </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.adm_proctablesdd_file_namebinp">DD_FILE_NAME    </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.adm_proctablesdd_file_namebinp">BINP</DD_ATTR_CPRO>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">
@@ -175,6 +241,28 @@
 	</ALIAS>
 	<ALIAS id="ddm_elements">
 		<ID id="ddm_elements">DDM_ELEMENTS</ID>
+		<RECORD id="ddm_elements.firm_id">
+			<DD_DATA_NAME id="ddm_elements.firm_id">FIRM_ID         </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.firm_id">Firm ID</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.firm_id">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.firm_id">2</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.firm_id"> </DD_MASK_TYPE>
+			<DD_SYSTEM_REC id="ddm_elements.firm_id">Y</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.firm_id">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.firm_id">BAR</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.firm_id">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.firm_id">20060425</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.firm_id">H</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.firm_id">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.firm_id">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABS>
+			<DD_ATTR_MSKI id="ddm_elements.firm_id">00</DD_ATTR_MSKI>
+			<DD_ATTR_MSKO id="ddm_elements.firm_id">00</DD_ATTR_MSKO>
+			<DD_ATTR_PADC id="ddm_elements.firm_id">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.firm_id">R</DD_ATTR_PADJ>
+			<DD_ATTR_PVAL id="ddm_elements.firm_id">stbl("+FIRM_ID")</DD_ATTR_PVAL>
+		</RECORD>
 		<RECORD id="ddm_elements.process_id">
 			<DD_DATA_NAME id="ddm_elements.process_id">PROCESS_ID      </DD_DATA_NAME>
 			<DD_DESCRIPTION id="ddm_elements.process_id">Process Identification</DD_DESCRIPTION>
@@ -182,15 +270,17 @@
 			<DD_DATA_LENGTH id="ddm_elements.process_id">16</DD_DATA_LENGTH>
 			<DD_MASK_TYPE id="ddm_elements.process_id"> </DD_MASK_TYPE>
 			<ASC_COMP_ID id="ddm_elements.process_id">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.process_id">AON</ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.process_id">AD </ASC_PROD_ID>
+			<LOCALIZATION_EX id="ddm_elements.process_id">N</LOCALIZATION_EX>
 			<DD_CREATE_DATE id="ddm_elements.process_id">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.process_id">20071023</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.process_id">20090724</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_elements.process_id">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_elements.process_id">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.process_id">E</DD_ATTR_CTYP>
 			<DD_ATTR_DCOL id="ddm_elements.process_id">DESCRIPTION</DD_ATTR_DCOL>
 			<DD_ATTR_DCOM id="ddm_elements.process_id">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.process_id">            </DD_ATTR_DEXP>
+			<DD_ATTR_DKEY id="ddm_elements.process_id">[+FIRM_ID]+@</DD_ATTR_DKEY>
 			<DD_ATTR_DTAB id="ddm_elements.process_id">ADM_PROCMASTER  </DD_ATTR_DTAB>
 			<DD_ATTR_LABL id="ddm_elements.process_id">Process Identification</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.process_id">Process ID</DD_ATTR_LABS>

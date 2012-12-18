@@ -8,8 +8,9 @@
 			<DD_FILE_NAME id="ddm_tables.are_finchg">are-02</DD_FILE_NAME>
 			<DD_TABLE_PATH id="ddm_tables.are_finchg">[+ARDATA]</DD_TABLE_PATH>
 			<DD_ALIAS_TYPE id="ddm_tables.are_finchg">V</DD_ALIAS_TYPE>
+			<DD_KEY_LENGTH id="ddm_tables.are_finchg">0</DD_KEY_LENGTH>
 			<DD_NBR_RECORD id="ddm_tables.are_finchg">0</DD_NBR_RECORD>
-			<DD_RECORD_LEN id="ddm_tables.are_finchg">94</DD_RECORD_LEN>
+			<DD_RECORD_LEN id="ddm_tables.are_finchg">0</DD_RECORD_LEN>
 			<DD_SYSTEM_REC id="ddm_tables.are_finchg">N</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_tables.are_finchg">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.are_finchg">AR </ASC_PROD_ID>
@@ -17,10 +18,11 @@
 			<ASC_LICENSE_ID id="ddm_tables.are_finchg">9E50E08EEE4A6885AB913B5FF3390563</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.are_finchg">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.are_finchg">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.are_finchg">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.are_finchg">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.are_finchg">141556</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.are_finchg">20090903</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.are_finchg">20090811</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.are_finchg">162744</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.are_finchg">/dev/apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_DKNM id="ddm_tables.are_finchg">BATCH_KEY</DD_ATTR_DKNM>
 			<DD_ATTR_FTYP id="ddm_tables.are_finchg">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.are_finchg">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.are_finchg">Finance Charge Entry</DD_ATTR_WINT>
@@ -32,9 +34,17 @@
 			<DD_TABLE_ALIAS id="ddm_table_cpro.are_finchgaena">ARE_FINCHG      </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.are_finchgaena">AENA</DD_ATTR_CPRO>
 		</RECORD>
+		<RECORD id="ddm_table_cpro.are_finchgbend">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.are_finchgbend">ARE_FINCHG      </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.are_finchgbend">BEND</DD_ATTR_CPRO>
+		</RECORD>
 		<RECORD id="ddm_table_cpro.are_finchgbsho">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.are_finchgbsho">ARE_FINCHG      </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.are_finchgbsho">BSHO</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_table_cpro.are_finchgbtbl">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.are_finchgbtbl">ARE_FINCHG      </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.are_finchgbtbl">BTBL</DD_ATTR_CPRO>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_opts">
@@ -53,7 +63,7 @@
 		<RECORD id="ddm_table_tpls.are_finchg">
 			<DD_TABLE_ALIAS id="ddm_table_tpls.are_finchg">ARE_FINCHG      </DD_TABLE_ALIAS>
 			<DD_FILE_NAME id="ddm_table_tpls.are_finchg">are-02</DD_FILE_NAME>
-			<DD_TABLE_TPL id="ddm_table_tpls.are_finchg">firm_id:c(2),ar_type:c(2),customer_id:c(6),ar_inv_no:c(7),ar_dist_code:c(2),ar_terms_code:c(2),reserved_str:c(9),invoice_type:c(1),reserved_str_02:c(14),invoice_date:c(8),inv_due_date:c(8),disc_date:c(8*),invoice_amt:n(7*),discount_amt:n(7*)</DD_TABLE_TPL>
+			<DD_TABLE_TPL id="ddm_table_tpls.are_finchg">firm_id:c(2),ar_type:c(2),customer_id:c(6),ar_inv_no:c(7),ar_dist_code:c(2),ar_terms_code:c(2),reserved_str:c(9),invoice_type:c(1),reserved_str_02:c(14),invoice_date:c(8),inv_due_date:c(8),disc_date:c(8*),invoice_amt:n(7*),discount_amt:n(7*),batch_no:c(7*)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_keys">
@@ -63,6 +73,12 @@
 			<DD_KEY_NUMBER id="ddm_keys.are_finchg00">00</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.are_finchg00">Primary</DD_KEY_DESC>
 			<DD_KEY_ID id="ddm_keys.are_finchg00">PRIMARY         </DD_KEY_ID>
+		</RECORD>
+		<RECORD id="ddm_keys.are_finchg01">
+			<DD_TABLE_ALIAS id="ddm_keys.are_finchg01">ARE_FINCHG      </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_keys.are_finchg01">01</DD_KEY_NUMBER>
+			<DD_KEY_DESC id="ddm_keys.are_finchg01">Batch key</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.are_finchg01">BATCH_KEY       </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_key_segs">
@@ -103,6 +119,54 @@
 			<DD_SEGMENT_OFF id="ddm_key_segs.are_finchg0004">0</DD_SEGMENT_OFF>
 			<DD_SEGMENT_LEN id="ddm_key_segs.are_finchg0004">0</DD_SEGMENT_LEN>
 		</RECORD>
+		<RECORD id="ddm_key_segs.are_finchg0101">
+			<DD_TABLE_ALIAS id="ddm_key_segs.are_finchg0101">ARE_FINCHG      </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.are_finchg0101">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.are_finchg0101">01</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.are_finchg0101">FIRM_ID         </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.are_finchg0101">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.are_finchg0101">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.are_finchg0101">0</DD_SEGMENT_LEN>
+		</RECORD>
+		<RECORD id="ddm_key_segs.are_finchg0102">
+			<DD_TABLE_ALIAS id="ddm_key_segs.are_finchg0102">ARE_FINCHG      </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.are_finchg0102">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.are_finchg0102">02</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.are_finchg0102">BATCH_NO</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.are_finchg0102">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.are_finchg0102">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.are_finchg0102">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.are_finchg0102">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.are_finchg0102">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.are_finchg0102">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.are_finchg0103">
+			<DD_TABLE_ALIAS id="ddm_key_segs.are_finchg0103">ARE_FINCHG      </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.are_finchg0103">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.are_finchg0103">03</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.are_finchg0103">AR_TYPE         </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.are_finchg0103">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.are_finchg0103">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.are_finchg0103">0</DD_SEGMENT_LEN>
+		</RECORD>
+		<RECORD id="ddm_key_segs.are_finchg0104">
+			<DD_TABLE_ALIAS id="ddm_key_segs.are_finchg0104">ARE_FINCHG      </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.are_finchg0104">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.are_finchg0104">04</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.are_finchg0104">CUSTOMER_ID     </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.are_finchg0104">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.are_finchg0104">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.are_finchg0104">0</DD_SEGMENT_LEN>
+		</RECORD>
+		<RECORD id="ddm_key_segs.are_finchg0105">
+			<DD_TABLE_ALIAS id="ddm_key_segs.are_finchg0105">ARE_FINCHG      </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.are_finchg0105">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.are_finchg0105">05</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.are_finchg0105">AR_INV_NO       </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.are_finchg0105">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.are_finchg0105">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.are_finchg0105">0</DD_SEGMENT_LEN>
+		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_cols">
 		<ID id="ddm_table_cols">DDM_TABLE_COLS</ID>
@@ -133,7 +197,7 @@
 			<DD_ATTR_LABS id="ddm_table_cols.are_finchg002">AR Type [N</DD_ATTR_LABS>
 			<DD_ATTR_MAXL id="ddm_table_cols.are_finchg002">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.are_finchg002">AR Type [Not Used]</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.are_finchg002">2</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.are_finchg002">3</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.are_finchg003">
 			<DD_TABLE_ALIAS id="ddm_table_cols.are_finchg003">ARE_FINCHG      </DD_TABLE_ALIAS>
@@ -150,7 +214,7 @@
 			<DD_ATTR_LABS id="ddm_table_cols.are_finchg003">Cust ID</DD_ATTR_LABS>
 			<DD_ATTR_MAXL id="ddm_table_cols.are_finchg003">6</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.are_finchg003">Customer Number</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.are_finchg003">2</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.are_finchg003">4</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.are_finchg004">
 			<DD_TABLE_ALIAS id="ddm_table_cols.are_finchg004">ARE_FINCHG      </DD_TABLE_ALIAS>
@@ -168,7 +232,7 @@
 			<DD_ATTR_MINL id="ddm_table_cols.are_finchg004">1</DD_ATTR_MINL>
 			<DD_ATTR_MAXL id="ddm_table_cols.are_finchg004">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.are_finchg004">AR Invoice Number</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.are_finchg004">3</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.are_finchg004">5</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.are_finchg005">
 			<DD_TABLE_ALIAS id="ddm_table_cols.are_finchg005">ARE_FINCHG      </DD_TABLE_ALIAS>
@@ -184,7 +248,7 @@
 			<DD_ATTR_DFLT id="ddm_table_cols.are_finchg005">FC</DD_ATTR_DFLT>
 			<DD_ATTR_MAXL id="ddm_table_cols.are_finchg005">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.are_finchg005">Distribution Code</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.are_finchg005">4</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.are_finchg005">6</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.are_finchg006">
 			<DD_TABLE_ALIAS id="ddm_table_cols.are_finchg006">ARE_FINCHG      </DD_TABLE_ALIAS>
@@ -202,7 +266,7 @@
 			<DD_ATTR_DFLT id="ddm_table_cols.are_finchg006">FC</DD_ATTR_DFLT>
 			<DD_ATTR_MAXL id="ddm_table_cols.are_finchg006">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.are_finchg006">Terms Code</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.are_finchg006">5</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.are_finchg006">7</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.are_finchg007">
 			<DD_TABLE_ALIAS id="ddm_table_cols.are_finchg007">ARE_FINCHG      </DD_TABLE_ALIAS>
@@ -216,7 +280,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.are_finchg007">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_MAXL id="ddm_table_cols.are_finchg007">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.are_finchg007">Reserved For Addon Use</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.are_finchg007">12</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.are_finchg007">14</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.are_finchg008">
 			<DD_TABLE_ALIAS id="ddm_table_cols.are_finchg008">ARE_FINCHG      </DD_TABLE_ALIAS>
@@ -230,7 +294,7 @@
 			<DD_ATTR_DFLT id="ddm_table_cols.are_finchg008">F</DD_ATTR_DFLT>
 			<DD_ATTR_MAXL id="ddm_table_cols.are_finchg008">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.are_finchg008">Invoice Type</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.are_finchg008">9</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.are_finchg008">11</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.are_finchg009">
 			<DD_TABLE_ALIAS id="ddm_table_cols.are_finchg009">ARE_FINCHG      </DD_TABLE_ALIAS>
@@ -244,7 +308,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.are_finchg009">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_MAXL id="ddm_table_cols.are_finchg009">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.are_finchg009">Reserved For Addon Use</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.are_finchg009">13</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.are_finchg009">15</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.are_finchg010">
 			<DD_TABLE_ALIAS id="ddm_table_cols.are_finchg010">ARE_FINCHG      </DD_TABLE_ALIAS>
@@ -261,7 +325,7 @@
 			<DD_ATTR_DFLT id="ddm_table_cols.are_finchg010">[+SYSTEM_DATE]</DD_ATTR_DFLT>
 			<DD_ATTR_MAXL id="ddm_table_cols.are_finchg010">8</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.are_finchg010">Invoice Date</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.are_finchg010">6</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.are_finchg010">8</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.are_finchg011">
 			<DD_TABLE_ALIAS id="ddm_table_cols.are_finchg011">ARE_FINCHG      </DD_TABLE_ALIAS>
@@ -276,7 +340,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.are_finchg011">70</DD_ATTR_CTLW>
 			<DD_ATTR_MAXL id="ddm_table_cols.are_finchg011">8</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.are_finchg011">Invoice Due Date</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.are_finchg011">7</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.are_finchg011">9</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.are_finchg012">
 			<DD_TABLE_ALIAS id="ddm_table_cols.are_finchg012">ARE_FINCHG      </DD_TABLE_ALIAS>
@@ -291,7 +355,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.are_finchg012">70</DD_ATTR_CTLW>
 			<DD_ATTR_MAXL id="ddm_table_cols.are_finchg012">8</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.are_finchg012">Discount Date</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.are_finchg012">8</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.are_finchg012">10</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.are_finchg013">
 			<DD_TABLE_ALIAS id="ddm_table_cols.are_finchg013">ARE_FINCHG      </DD_TABLE_ALIAS>
@@ -307,7 +371,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.are_finchg013">56</DD_ATTR_CTLW>
 			<DD_ATTR_MAXL id="ddm_table_cols.are_finchg013">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.are_finchg013">Invoice Amount</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.are_finchg013">10</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.are_finchg013">12</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.are_finchg014">
 			<DD_TABLE_ALIAS id="ddm_table_cols.are_finchg014">ARE_FINCHG      </DD_TABLE_ALIAS>
@@ -323,7 +387,29 @@
 			<DD_ATTR_LABL id="ddm_table_cols.are_finchg014">Discount Amount</DD_ATTR_LABL>
 			<DD_ATTR_MAXL id="ddm_table_cols.are_finchg014">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.are_finchg014">Discount Amount</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.are_finchg014">11</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.are_finchg014">13</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.are_finchg015">
+			<DD_TABLE_ALIAS id="ddm_table_cols.are_finchg015">ARE_FINCHG      </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.are_finchg015">015</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.are_finchg015">BATCH_NO        </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.are_finchg015">BATCH_NO        </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.are_finchg015">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.are_finchg015">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.are_finchg015">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.are_finchg015">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.are_finchg015">20090729</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.are_finchg015">20090729</DD_LSTREV_DATE>
+			<DD_ATTR_COLW id="ddm_table_cols.are_finchg015">0</DD_ATTR_COLW>
+			<DD_ATTR_CTLX id="ddm_table_cols.are_finchg015">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_cols.are_finchg015">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_cols.are_finchg015">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.are_finchg015">0</DD_ATTR_CTLH>
+			<DD_ATTR_LABL id="ddm_table_cols.are_finchg015">Batch No</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_table_cols.are_finchg015">Batch No</DD_ATTR_LABS>
+			<DD_ATTR_MLAN id="ddm_table_cols.are_finchg015">N</DD_ATTR_MLAN>
+			<DD_ATTR_MAXL id="ddm_table_cols.are_finchg015">7</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.are_finchg015">2</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_cpro">
@@ -645,6 +731,33 @@
 			<DD_ATTR_DEXP id="ddm_elements.discount_amt">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.discount_amt">Discount Amount</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.discount_amt">Disc Amt</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.batch_no">
+			<DD_DATA_NAME id="ddm_elements.batch_no">BATCH_NO        </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.batch_no">Batch Entry Control Number</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.batch_no">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.batch_no">7</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.batch_no"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.batch_no">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.batch_no">AD </ASC_PROD_ID>
+			<LOCALIZATION_EX id="ddm_elements.batch_no">N</LOCALIZATION_EX>
+			<DD_CREATE_DATE id="ddm_elements.batch_no">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.batch_no">20090714</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.batch_no">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.batch_no">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.batch_no">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.batch_no">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.batch_no">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.batch_no">Batch Entry Control Number</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.batch_no">Batch Entry No</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.batch_no">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.batch_no">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.batch_no">0</DD_ATTR_MINL>
+			<DD_ATTR_MSKI id="ddm_elements.batch_no">0000000</DD_ATTR_MSKI>
+			<DD_ATTR_MSKO id="ddm_elements.batch_no">0000000</DD_ATTR_MSKO>
+			<DD_ATTR_PADC id="ddm_elements.batch_no">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.batch_no">R</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.batch_no">0</DD_ATTR_PREC>
 		</RECORD>
 	</ALIAS>
 </ARE_FINCHG>

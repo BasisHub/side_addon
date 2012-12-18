@@ -18,12 +18,28 @@
 			<ASC_LICENSE_ID id="ddm_tables.ope_invcash">E4CF247941CFC187400C0E78FCA50436</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ope_invcash">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ope_invcash">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ope_invcash">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ope_invcash">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ope_invcash">141520</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ope_invcash">20100225</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ope_invcash">20100225</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ope_invcash">111222</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.ope_invcash">../apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ope_invcash">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.ope_invcash">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.ope_invcash">Cash Sale Transaction</DD_ATTR_WINT>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_cpro">
+		<ID id="ddm_table_cpro">DDM_TABLE_CPRO</ID>
+		<RECORD id="ddm_table_cpro.ope_invcasharar">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.ope_invcasharar">OPE_INVCASH     </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.ope_invcasharar">ARAR</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_table_cpro.ope_invcashbrex">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.ope_invcashbrex">OPE_INVCASH     </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.ope_invcashbrex">BREX</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_table_cpro.ope_invcashbsho">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.ope_invcashbsho">OPE_INVCASH     </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.ope_invcashbsho">BSHO</DD_ATTR_CPRO>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_tpls">
@@ -94,7 +110,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ope_invcash001">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ope_invcash001">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ope_invcash001">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ope_invcash001">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ope_invcash001">Firm ID</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ope_invcash001">1</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_invcash002">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_invcash002">OPE_INVCASH     </DD_TABLE_ALIAS>
@@ -107,7 +125,9 @@
 			<DD_CREATE_DATE id="ddm_table_cols.ope_invcash002">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ope_invcash002">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_LABS id="ddm_table_cols.ope_invcash002">AR Type [N</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_table_cols.ope_invcash002">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ope_invcash002">AR Type [Not Used]</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ope_invcash002">2</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_invcash003">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_invcash003">OPE_INVCASH     </DD_TABLE_ALIAS>
@@ -120,7 +140,9 @@
 			<DD_CREATE_DATE id="ddm_table_cols.ope_invcash003">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ope_invcash003">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_LABS id="ddm_table_cols.ope_invcash003">Customer N</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_table_cols.ope_invcash003">6</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ope_invcash003">Customer Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ope_invcash003">3</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_invcash004">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_invcash004">OPE_INVCASH     </DD_TABLE_ALIAS>
@@ -132,7 +154,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ope_invcash004">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ope_invcash004">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ope_invcash004">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ope_invcash004">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ope_invcash004">Sales Order Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ope_invcash004">4</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_invcash005">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_invcash005">OPE_INVCASH     </DD_TABLE_ALIAS>
@@ -144,7 +168,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ope_invcash005">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ope_invcash005">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ope_invcash005">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ope_invcash005">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ope_invcash005">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ope_invcash005">5</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_invcash006">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_invcash006">OPE_INVCASH     </DD_TABLE_ALIAS>
@@ -156,7 +182,13 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ope_invcash006">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ope_invcash006">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ope_invcash006">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CPGM id="ddm_table_cols.ope_invcash006">../apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CTLW id="ddm_table_cols.ope_invcash006">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.ope_invcash006">0</DD_ATTR_CTLH>
+			<DD_ATTR_MINL id="ddm_table_cols.ope_invcash006">1</DD_ATTR_MINL>
+			<DD_ATTR_MAXL id="ddm_table_cols.ope_invcash006">3</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ope_invcash006">Cash Receipts Code</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ope_invcash006">6</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_invcash007">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_invcash007">OPE_INVCASH     </DD_TABLE_ALIAS>
@@ -168,7 +200,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ope_invcash007">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ope_invcash007">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ope_invcash007">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ope_invcash007">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ope_invcash007">Check Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ope_invcash007">7</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_invcash008">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_invcash008">OPE_INVCASH     </DD_TABLE_ALIAS>
@@ -180,7 +214,10 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ope_invcash008">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ope_invcash008">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ope_invcash008">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_LABL id="ddm_table_cols.ope_invcash008">Credit Card or ABA No</DD_ATTR_LABL>
+			<DD_ATTR_MAXL id="ddm_table_cols.ope_invcash008">16</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ope_invcash008">Credit Card or ABA Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ope_invcash008">8</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_invcash009">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_invcash009">OPE_INVCASH     </DD_TABLE_ALIAS>
@@ -192,7 +229,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ope_invcash009">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ope_invcash009">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ope_invcash009">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ope_invcash009">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ope_invcash009">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ope_invcash009">9</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_invcash010">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_invcash010">OPE_INVCASH     </DD_TABLE_ALIAS>
@@ -204,7 +243,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ope_invcash010">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ope_invcash010">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ope_invcash010">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ope_invcash010">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ope_invcash010">AR Invoice Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ope_invcash010">10</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_invcash011">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_invcash011">OPE_INVCASH     </DD_TABLE_ALIAS>
@@ -216,7 +257,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ope_invcash011">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ope_invcash011">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ope_invcash011">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ope_invcash011">8</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ope_invcash011">Invoice Date</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ope_invcash011">11</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_invcash012">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_invcash012">OPE_INVCASH     </DD_TABLE_ALIAS>
@@ -229,7 +272,10 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.ope_invcash012">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.ope_invcash012">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ope_invcash012">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CPGM id="ddm_table_cols.ope_invcash012">../apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_MAXL id="ddm_table_cols.ope_invcash012">8</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ope_invcash012">Expiration Date</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ope_invcash012">12</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_invcash013">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_invcash013">OPE_INVCASH     </DD_TABLE_ALIAS>
@@ -242,7 +288,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.ope_invcash013">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.ope_invcash013">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ope_invcash013">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ope_invcash013">30</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ope_invcash013">Customer Name</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ope_invcash013">13</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_invcash014">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_invcash014">OPE_INVCASH     </DD_TABLE_ALIAS>
@@ -255,7 +303,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.ope_invcash014">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.ope_invcash014">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ope_invcash014">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ope_invcash014">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ope_invcash014">Invoice Amount</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ope_invcash014">14</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_invcash015">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_invcash015">OPE_INVCASH     </DD_TABLE_ALIAS>
@@ -268,7 +318,54 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.ope_invcash015">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.ope_invcash015">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ope_invcash015">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CPGM id="ddm_table_cols.ope_invcash015">../apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_MAXL id="ddm_table_cols.ope_invcash015">7</DD_ATTR_MAXL>
+			<DD_ATTR_MINV id="ddm_table_cols.ope_invcash015">.01</DD_ATTR_MINV>
 			<DD_ATTR_PROM id="ddm_table_cols.ope_invcash015">Tendered Amount</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ope_invcash015">15</DD_ATTR_TIND>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_disp">
+		<ID id="ddm_table_disp">DDM_TABLE_DISP</ID>
+		<RECORD id="ddm_table_disp.ope_invcash001">
+			<DD_TABLE_ALIAS id="ddm_table_disp.ope_invcash001">OPE_INVCASH     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.ope_invcash001">001</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.ope_invcash001">TENDERED_AMT    </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.ope_invcash001">CHANGE          </DD_CTRL_NAME>
+			<DD_ATTR_LABL id="ddm_table_disp.ope_invcash001">Change</DD_ATTR_LABL>
+			<DD_ATTR_CTLX id="ddm_table_disp.ope_invcash001">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.ope_invcash001">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLH id="ddm_table_disp.ope_invcash001">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.ope_invcash001">16</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.ope_invcash002">
+			<DD_TABLE_ALIAS id="ddm_table_disp.ope_invcash002">OPE_INVCASH     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.ope_invcash002">002</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.ope_invcash002">PRINTER_FLAG    </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.ope_invcash002">PRINT           </DD_CTRL_NAME>
+			<DD_ATTR_LABL id="ddm_table_disp.ope_invcash002">Print Invoice?</DD_ATTR_LABL>
+			<DD_ATTR_CTLX id="ddm_table_disp.ope_invcash002">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.ope_invcash002">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLH id="ddm_table_disp.ope_invcash002">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.ope_invcash002">17</DD_ATTR_TIND>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_column_cpro">
+		<ID id="ddm_column_cpro">DDM_COLUMN_CPRO</ID>
+		<RECORD id="ddm_column_cpro.ope_invcashcash_rec_cdaval">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.ope_invcashcash_rec_cdaval">OPE_INVCASH     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.ope_invcashcash_rec_cdaval">CASH_REC_CD     </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.ope_invcashcash_rec_cdaval">AVAL</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_column_cpro.ope_invcashexpire_dateaval">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.ope_invcashexpire_dateaval">OPE_INVCASH     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.ope_invcashexpire_dateaval">EXPIRE_DATE     </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.ope_invcashexpire_dateaval">AVAL</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_column_cpro.ope_invcashtendered_amtaval">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.ope_invcashtendered_amtaval">OPE_INVCASH     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.ope_invcashtendered_amtaval">TENDERED_AMT    </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.ope_invcashtendered_amtaval">AVAL</DD_ATTR_CPRO>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">
@@ -277,6 +374,36 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.ope_invcashfirm_ido">OPE_INVCASH     </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ope_invcashfirm_ido">FIRM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ope_invcashfirm_ido">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ope_invcashcustomer_ido">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ope_invcashcustomer_ido">OPE_INVCASH     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ope_invcashcustomer_ido">CUSTOMER_ID     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ope_invcashcustomer_ido">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ope_invcashorder_noo">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ope_invcashorder_noo">OPE_INVCASH     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ope_invcashorder_noo">ORDER_NO        </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ope_invcashorder_noo">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ope_invcashar_inv_noo">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ope_invcashar_inv_noo">OPE_INVCASH     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ope_invcashar_inv_noo">AR_INV_NO       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ope_invcashar_inv_noo">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ope_invcashinvoice_dateo">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ope_invcashinvoice_dateo">OPE_INVCASH     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ope_invcashinvoice_dateo">INVOICE_DATE    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ope_invcashinvoice_dateo">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ope_invcashinvoice_amtc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ope_invcashinvoice_amtc">OPE_INVCASH     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ope_invcashinvoice_amtc">INVOICE_AMT     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ope_invcashinvoice_amtc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ope_invcashchangec">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ope_invcashchangec">OPE_INVCASH     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ope_invcashchangec">CHANGE          </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ope_invcashchangec">C</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">
@@ -541,6 +668,23 @@
 			<DD_ATTR_DEXP id="ddm_elements.tendered_amt">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.tendered_amt">Tendered Amount</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.tendered_amt">Tendered Amt</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.printer_flag">
+			<DD_DATA_NAME id="ddm_elements.printer_flag">PRINTER_FLAG    </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.printer_flag">Printer?                      </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.printer_flag">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.printer_flag">1</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.printer_flag"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.printer_flag">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.printer_flag">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.printer_flag">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.printer_flag">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CDAT id="ddm_elements.printer_flag">Y;N</DD_ATTR_CDAT>
+			<DD_ATTR_CTYP id="ddm_elements.printer_flag">C</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.printer_flag">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.printer_flag">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.printer_flag">Printer?</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.printer_flag">Printer?</DD_ATTR_LABS>
 		</RECORD>
 	</ALIAS>
 </OPE_INVCASH>

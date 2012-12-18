@@ -18,10 +18,10 @@
 			<ASC_LICENSE_ID id="ddm_tables.ope_orddet">542B8DFCA2BA161BC1197B18828F0134</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ope_orddet">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ope_orddet">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ope_orddet">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ope_orddet">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ope_orddet">141520</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.ope_orddet">/devel/main/aon/;</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.ope_orddet">20100226</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ope_orddet">20100210</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ope_orddet">160920</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.ope_orddet">../apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_DKNM id="ddm_tables.ope_orddet">ALT_KEY_03</DD_ATTR_DKNM>
 			<DD_ATTR_FTYP id="ddm_tables.ope_orddet">G</DD_ATTR_FTYP>
 			<DD_ATTR_PTAB id="ddm_tables.ope_orddet">OPE_ORDHDR      </DD_ATTR_PTAB>
@@ -45,16 +45,19 @@
 			<DD_ATTR_AOPT_CD id="ddm_table_aopt.ope_orddet02">RCPR</DD_ATTR_AOPT_CD>
 			<DD_ATTR_AOPT_FM id="ddm_table_aopt.ope_orddet02">F</DD_ATTR_AOPT_FM>
 		</RECORD>
+		<RECORD id="ddm_table_aopt.ope_orddet03">
+			<DD_TABLE_ALIAS id="ddm_table_aopt.ope_orddet03">OPE_ORDDET      </DD_TABLE_ALIAS>
+			<DD_ATTR_SEQ id="ddm_table_aopt.ope_orddet03">03</DD_ATTR_SEQ>
+			<DD_ATTR_AOPT id="ddm_table_aopt.ope_orddet03">Additional</DD_ATTR_AOPT>
+			<DD_ATTR_AOPT_CD id="ddm_table_aopt.ope_orddet03">ADDL</DD_ATTR_AOPT_CD>
+			<DD_ATTR_AOPT_FM id="ddm_table_aopt.ope_orddet03">F</DD_ATTR_AOPT_FM>
+		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_cpro">
 		<ID id="ddm_table_cpro">DDM_TABLE_CPRO</ID>
 		<RECORD id="ddm_table_cpro.ope_orddetadel">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.ope_orddetadel">OPE_ORDDET      </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.ope_orddetadel">ADEL</DD_ATTR_CPRO>
-		</RECORD>
-		<RECORD id="ddm_table_cpro.ope_orddetadis">
-			<DD_TABLE_ALIAS id="ddm_table_cpro.ope_orddetadis">OPE_ORDDET      </DD_TABLE_ALIAS>
-			<DD_ATTR_CPRO id="ddm_table_cpro.ope_orddetadis">ADIS</DD_ATTR_CPRO>
 		</RECORD>
 		<RECORD id="ddm_table_cpro.ope_orddetagcl">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.ope_orddetagcl">OPE_ORDDET      </DD_TABLE_ALIAS>
@@ -63,10 +66,6 @@
 		<RECORD id="ddm_table_cpro.ope_orddetagdr">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.ope_orddetagdr">OPE_ORDDET      </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.ope_orddetagdr">AGDR</DD_ATTR_CPRO>
-		</RECORD>
-		<RECORD id="ddm_table_cpro.ope_orddetagds">
-			<DD_TABLE_ALIAS id="ddm_table_cpro.ope_orddetagds">OPE_ORDDET      </DD_TABLE_ALIAS>
-			<DD_ATTR_CPRO id="ddm_table_cpro.ope_orddetagds">AGDS</DD_ATTR_CPRO>
 		</RECORD>
 		<RECORD id="ddm_table_cpro.ope_orddetagre">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.ope_orddetagre">OPE_ORDDET      </DD_TABLE_ALIAS>
@@ -121,10 +120,6 @@
 		<RECORD id="ddm_table_opts.ope_orddets">
 			<DD_TABLE_ALIAS id="ddm_table_opts.ope_orddets">OPE_ORDDET      </DD_TABLE_ALIAS>
 			<DD_ATTR_OPTS id="ddm_table_opts.ope_orddets">S</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD id="ddm_table_opts.ope_orddete">
-			<DD_TABLE_ALIAS id="ddm_table_opts.ope_orddete">OPE_ORDDET      </DD_TABLE_ALIAS>
-			<DD_ATTR_OPTS id="ddm_table_opts.ope_orddete">e</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_tpls">
@@ -444,10 +439,11 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ope_orddet006">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ope_orddet006">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ope_orddet006">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.ope_orddet006">/devel/main/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ope_orddet006">../apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLX id="ddm_table_cols.ope_orddet006">-1</DD_ATTR_CTLX>
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_orddet006">35</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ope_orddet006">0</DD_ATTR_CTLH>
+			<DD_ATTR_MINL id="ddm_table_cols.ope_orddet006">1</DD_ATTR_MINL>
 			<DD_ATTR_MAXL id="ddm_table_cols.ope_orddet006">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ope_orddet006">Line Code</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ope_orddet006">7</DD_ATTR_TIND>
@@ -478,9 +474,10 @@
 			<DD_CREATE_DATE id="ddm_table_cols.ope_orddet008">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ope_orddet008">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_orddet008">35</DD_ATTR_CTLW>
+			<DD_ATTR_LABS id="ddm_table_cols.ope_orddet008">Prod</DD_ATTR_LABS>
 			<DD_ATTR_MAXL id="ddm_table_cols.ope_orddet008">3</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ope_orddet008">Product Type</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.ope_orddet008">9</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.ope_orddet008">15</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_orddet009">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_orddet009">OPE_ORDDET      </DD_TABLE_ALIAS>
@@ -506,13 +503,13 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ope_orddet010">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ope_orddet010">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ope_orddet010">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.ope_orddet010">/devel/main/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ope_orddet010">../apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_orddet010">35</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ope_orddet010">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABS id="ddm_table_cols.ope_orddet010">Whse</DD_ATTR_LABS>
 			<DD_ATTR_MAXL id="ddm_table_cols.ope_orddet010">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ope_orddet010">Warehouse ID</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.ope_orddet010">10</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.ope_orddet010">9</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_orddet011">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_orddet011">OPE_ORDDET      </DD_TABLE_ALIAS>
@@ -527,12 +524,12 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.ope_orddet011">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_ABLC id="ddm_table_cols.ope_orddet011"><<CALLPOINT>></DD_ATTR_ABLC>
 			<DD_ATTR_ABLV id="ddm_table_cols.ope_orddet011">S;P</DD_ATTR_ABLV>
-			<DD_ATTR_CPGM id="ddm_table_cols.ope_orddet011">/devel/main/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ope_orddet011">../apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_orddet011">160</DD_ATTR_CTLW>
 			<DD_ATTR_LABS id="ddm_table_cols.ope_orddet011">Item Number</DD_ATTR_LABS>
 			<DD_ATTR_MAXL id="ddm_table_cols.ope_orddet011">20</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ope_orddet011">Inventory Item Number</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.ope_orddet011">11</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.ope_orddet011">10</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_orddet012">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_orddet012">OPE_ORDDET      </DD_TABLE_ALIAS>
@@ -549,7 +546,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_orddet012">200</DD_ATTR_CTLW>
 			<DD_ATTR_MAXL id="ddm_table_cols.ope_orddet012">40</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ope_orddet012">Memo / Non-Stock Description</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.ope_orddet012">12</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.ope_orddet012">11</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_orddet013">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_orddet013">OPE_ORDDET      </DD_TABLE_ALIAS>
@@ -578,7 +575,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_orddet014">30</DD_ATTR_CTLW>
 			<DD_ATTR_MAXL id="ddm_table_cols.ope_orddet014">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ope_orddet014">Committed?</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.ope_orddet014">13</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.ope_orddet014">29</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_orddet015">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_orddet015">OPE_ORDDET      </DD_TABLE_ALIAS>
@@ -590,10 +587,11 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ope_orddet015">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ope_orddet015">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ope_orddet015">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLY id="ddm_table_cols.ope_orddet015">-30</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_orddet015">30</DD_ATTR_CTLW>
 			<DD_ATTR_MAXL id="ddm_table_cols.ope_orddet015">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ope_orddet015">On Pick Ticket [Y/N]?</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.ope_orddet015">14</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.ope_orddet015">12</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_orddet016">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_orddet016">OPE_ORDDET      </DD_TABLE_ALIAS>
@@ -610,7 +608,7 @@
 			<DD_ATTR_LABS id="ddm_table_cols.ope_orddet016">Vendor</DD_ATTR_LABS>
 			<DD_ATTR_MAXL id="ddm_table_cols.ope_orddet016">6</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ope_orddet016">Vendor Number</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.ope_orddet016">15</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.ope_orddet016">13</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_orddet017">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_orddet017">OPE_ORDDET      </DD_TABLE_ALIAS>
@@ -623,9 +621,10 @@
 			<DD_CREATE_DATE id="ddm_table_cols.ope_orddet017">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ope_orddet017">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_orddet017">30</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.ope_orddet017">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.ope_orddet017">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ope_orddet017">Drop Ship [Y/N]?</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.ope_orddet017">16</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.ope_orddet017">14</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_orddet018">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_orddet018">OPE_ORDDET      </DD_TABLE_ALIAS>
@@ -655,7 +654,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_orddet019">80</DD_ATTR_CTLW>
 			<DD_ATTR_MAXL id="ddm_table_cols.ope_orddet019">8</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ope_orddet019">Estimated Ship Date</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.ope_orddet019">17</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.ope_orddet019">28</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_orddet020">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_orddet020">OPE_ORDDET      </DD_TABLE_ALIAS>
@@ -705,11 +704,10 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.ope_orddet022">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_ABLC id="ddm_table_cols.ope_orddet022"><<CALLPOINT>></DD_ATTR_ABLC>
 			<DD_ATTR_ABLV id="ddm_table_cols.ope_orddet022">N</DD_ATTR_ABLV>
-			<DD_ATTR_CPGM id="ddm_table_cols.ope_orddet022">/devel/main/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_orddet022">70</DD_ATTR_CTLW>
 			<DD_ATTR_MAXL id="ddm_table_cols.ope_orddet022">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ope_orddet022">Unit Cost</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.ope_orddet022">18</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.ope_orddet022">16</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_orddet023">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_orddet023">OPE_ORDDET      </DD_TABLE_ALIAS>
@@ -724,11 +722,12 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.ope_orddet023">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_ABLC id="ddm_table_cols.ope_orddet023"><<CALLPOINT>></DD_ATTR_ABLC>
 			<DD_ATTR_ABLV id="ddm_table_cols.ope_orddet023">N;S;P</DD_ATTR_ABLV>
-			<DD_ATTR_CPGM id="ddm_table_cols.ope_orddet023">/devel/main/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ope_orddet023">../apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_orddet023">56</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.ope_orddet023">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.ope_orddet023">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ope_orddet023">Unit Price, "P" to reprice</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.ope_orddet023">20</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.ope_orddet023">18</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_orddet024">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_orddet024">OPE_ORDDET      </DD_TABLE_ALIAS>
@@ -743,12 +742,12 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.ope_orddet024">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_ABLC id="ddm_table_cols.ope_orddet024"><<CALLPOINT>></DD_ATTR_ABLC>
 			<DD_ATTR_ABLV id="ddm_table_cols.ope_orddet024">N;S;P</DD_ATTR_ABLV>
-			<DD_ATTR_CPGM id="ddm_table_cols.ope_orddet024">/devel/main/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ope_orddet024">../apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_orddet024">56</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ope_orddet024">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.ope_orddet024">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ope_orddet024">Quantity Ordered</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.ope_orddet024">19</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.ope_orddet024">17</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_orddet025">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_orddet025">OPE_ORDDET      </DD_TABLE_ALIAS>
@@ -761,11 +760,13 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.ope_orddet025">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.ope_orddet025">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ope_orddet025">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.ope_orddet025">/devel/main/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_ABLC id="ddm_table_cols.ope_orddet025"><<CALLPOINT>></DD_ATTR_ABLC>
+			<DD_ATTR_ABLV id="ddm_table_cols.ope_orddet025">N;S;P</DD_ATTR_ABLV>
+			<DD_ATTR_CPGM id="ddm_table_cols.ope_orddet025">../apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_orddet025">56</DD_ATTR_CTLW>
 			<DD_ATTR_MAXL id="ddm_table_cols.ope_orddet025">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ope_orddet025">Back-Order Quantity</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.ope_orddet025">21</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.ope_orddet025">19</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_orddet026">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_orddet026">OPE_ORDDET      </DD_TABLE_ALIAS>
@@ -780,11 +781,11 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.ope_orddet026">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_ABLC id="ddm_table_cols.ope_orddet026"><<CALLPOINT>></DD_ATTR_ABLC>
 			<DD_ATTR_ABLV id="ddm_table_cols.ope_orddet026">N;S;P</DD_ATTR_ABLV>
-			<DD_ATTR_CPGM id="ddm_table_cols.ope_orddet026">/devel/main/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ope_orddet026">../apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_orddet026">56</DD_ATTR_CTLW>
 			<DD_ATTR_MAXL id="ddm_table_cols.ope_orddet026">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ope_orddet026">Quantity Shipped</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.ope_orddet026">22</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.ope_orddet026">20</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_orddet027">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_orddet027">OPE_ORDDET      </DD_TABLE_ALIAS>
@@ -797,11 +798,11 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.ope_orddet027">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.ope_orddet027">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ope_orddet027">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.ope_orddet027">/devel/main/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ope_orddet027">../apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_orddet027">56</DD_ATTR_CTLW>
 			<DD_ATTR_MAXL id="ddm_table_cols.ope_orddet027">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ope_orddet027">Standard List Price</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.ope_orddet027">23</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.ope_orddet027">22</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_orddet028">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_orddet028">OPE_ORDDET      </DD_TABLE_ALIAS>
@@ -816,11 +817,11 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.ope_orddet028">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_ABLC id="ddm_table_cols.ope_orddet028"><<CALLPOINT>></DD_ATTR_ABLC>
 			<DD_ATTR_ABLV id="ddm_table_cols.ope_orddet028">O</DD_ATTR_ABLV>
-			<DD_ATTR_CPGM id="ddm_table_cols.ope_orddet028">/devel/main/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ope_orddet028">../apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_orddet028">56</DD_ATTR_CTLW>
 			<DD_ATTR_MAXL id="ddm_table_cols.ope_orddet028">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ope_orddet028">Extended Price</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.ope_orddet028">24</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.ope_orddet028">21</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_orddet029">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_orddet029">OPE_ORDDET      </DD_TABLE_ALIAS>
@@ -836,7 +837,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_orddet029">56</DD_ATTR_CTLW>
 			<DD_ATTR_MAXL id="ddm_table_cols.ope_orddet029">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ope_orddet029">Taxable Amount</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.ope_orddet029">25</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.ope_orddet029">23</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_orddet030">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_orddet030">OPE_ORDDET      </DD_TABLE_ALIAS>
@@ -852,7 +853,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_orddet030">56</DD_ATTR_CTLW>
 			<DD_ATTR_MAXL id="ddm_table_cols.ope_orddet030">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ope_orddet030">Discount Percent</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.ope_orddet030">26</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.ope_orddet030">24</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_orddet031">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_orddet031">OPE_ORDDET      </DD_TABLE_ALIAS>
@@ -868,7 +869,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_orddet031">56</DD_ATTR_CTLW>
 			<DD_ATTR_MAXL id="ddm_table_cols.ope_orddet031">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ope_orddet031">Commission Percent</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.ope_orddet031">27</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.ope_orddet031">25</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_orddet032">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_orddet032">OPE_ORDDET      </DD_TABLE_ALIAS>
@@ -884,7 +885,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_orddet032">56</DD_ATTR_CTLW>
 			<DD_ATTR_MAXL id="ddm_table_cols.ope_orddet032">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ope_orddet032">Commission Amount</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.ope_orddet032">28</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.ope_orddet032">26</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_orddet033">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_orddet033">OPE_ORDDET      </DD_TABLE_ALIAS>
@@ -900,7 +901,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_orddet033">56</DD_ATTR_CTLW>
 			<DD_ATTR_MAXL id="ddm_table_cols.ope_orddet033">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ope_orddet033">Comm Split % [Future]</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.ope_orddet033">29</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.ope_orddet033">27</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_orddet034">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_orddet034">OPE_ORDDET      </DD_TABLE_ALIAS>
@@ -949,6 +950,11 @@
 			<DD_DVAR_NAME id="ddm_column_cpro.ope_orddetline_codeaval">LINE_CODE       </DD_DVAR_NAME>
 			<DD_ATTR_CPRO id="ddm_column_cpro.ope_orddetline_codeaval">AVAL</DD_ATTR_CPRO>
 		</RECORD>
+		<RECORD id="ddm_column_cpro.ope_orddetline_codeavec">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.ope_orddetline_codeavec">OPE_ORDDET      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.ope_orddetline_codeavec">LINE_CODE       </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.ope_orddetline_codeavec">AVEC</DD_ATTR_CPRO>
+		</RECORD>
 		<RECORD id="ddm_column_cpro.ope_orddetline_codebinp">
 			<DD_TABLE_ALIAS id="ddm_column_cpro.ope_orddetline_codebinp">OPE_ORDDET      </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_cpro.ope_orddetline_codebinp">LINE_CODE       </DD_DVAR_NAME>
@@ -963,6 +969,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_cpro.ope_orddetwarehouse_idavec">OPE_ORDDET      </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_cpro.ope_orddetwarehouse_idavec">WAREHOUSE_ID    </DD_DVAR_NAME>
 			<DD_ATTR_CPRO id="ddm_column_cpro.ope_orddetwarehouse_idavec">AVEC</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_column_cpro.ope_orddetwarehouse_idbinp">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.ope_orddetwarehouse_idbinp">OPE_ORDDET      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.ope_orddetwarehouse_idbinp">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.ope_orddetwarehouse_idbinp">BINP</DD_ATTR_CPRO>
 		</RECORD>
 		<RECORD id="ddm_column_cpro.ope_orddetitem_idaval">
 			<DD_TABLE_ALIAS id="ddm_column_cpro.ope_orddetitem_idaval">OPE_ORDDET      </DD_TABLE_ALIAS>
@@ -979,11 +990,6 @@
 			<DD_DVAR_NAME id="ddm_column_cpro.ope_orddetitem_idbinp">ITEM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_CPRO id="ddm_column_cpro.ope_orddetitem_idbinp">BINP</DD_ATTR_CPRO>
 		</RECORD>
-		<RECORD id="ddm_column_cpro.ope_orddetunit_costaval">
-			<DD_TABLE_ALIAS id="ddm_column_cpro.ope_orddetunit_costaval">OPE_ORDDET      </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_cpro.ope_orddetunit_costaval">UNIT_COST       </DD_DVAR_NAME>
-			<DD_ATTR_CPRO id="ddm_column_cpro.ope_orddetunit_costaval">AVAL</DD_ATTR_CPRO>
-		</RECORD>
 		<RECORD id="ddm_column_cpro.ope_orddetunit_priceaval">
 			<DD_TABLE_ALIAS id="ddm_column_cpro.ope_orddetunit_priceaval">OPE_ORDDET      </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_cpro.ope_orddetunit_priceaval">UNIT_PRICE      </DD_DVAR_NAME>
@@ -993,6 +999,16 @@
 			<DD_TABLE_ALIAS id="ddm_column_cpro.ope_orddetunit_priceavec">OPE_ORDDET      </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_cpro.ope_orddetunit_priceavec">UNIT_PRICE      </DD_DVAR_NAME>
 			<DD_ATTR_CPRO id="ddm_column_cpro.ope_orddetunit_priceavec">AVEC</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_column_cpro.ope_orddetunit_pricebinp">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.ope_orddetunit_pricebinp">OPE_ORDDET      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.ope_orddetunit_pricebinp">UNIT_PRICE      </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.ope_orddetunit_pricebinp">BINP</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_column_cpro.ope_orddetqty_orderedaval">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.ope_orddetqty_orderedaval">OPE_ORDDET      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.ope_orddetqty_orderedaval">QTY_ORDERED     </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.ope_orddetqty_orderedaval">AVAL</DD_ATTR_CPRO>
 		</RECORD>
 		<RECORD id="ddm_column_cpro.ope_orddetqty_orderedavec">
 			<DD_TABLE_ALIAS id="ddm_column_cpro.ope_orddetqty_orderedavec">OPE_ORDDET      </DD_TABLE_ALIAS>
@@ -1009,6 +1025,11 @@
 			<DD_DVAR_NAME id="ddm_column_cpro.ope_orddetqty_backordaval">QTY_BACKORD     </DD_DVAR_NAME>
 			<DD_ATTR_CPRO id="ddm_column_cpro.ope_orddetqty_backordaval">AVAL</DD_ATTR_CPRO>
 		</RECORD>
+		<RECORD id="ddm_column_cpro.ope_orddetqty_backordavec">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.ope_orddetqty_backordavec">OPE_ORDDET      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.ope_orddetqty_backordavec">QTY_BACKORD     </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.ope_orddetqty_backordavec">AVEC</DD_ATTR_CPRO>
+		</RECORD>
 		<RECORD id="ddm_column_cpro.ope_orddetqty_backordbinp">
 			<DD_TABLE_ALIAS id="ddm_column_cpro.ope_orddetqty_backordbinp">OPE_ORDDET      </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_cpro.ope_orddetqty_backordbinp">QTY_BACKORD     </DD_DVAR_NAME>
@@ -1019,15 +1040,15 @@
 			<DD_DVAR_NAME id="ddm_column_cpro.ope_orddetqty_shippedaval">QTY_SHIPPED     </DD_DVAR_NAME>
 			<DD_ATTR_CPRO id="ddm_column_cpro.ope_orddetqty_shippedaval">AVAL</DD_ATTR_CPRO>
 		</RECORD>
+		<RECORD id="ddm_column_cpro.ope_orddetqty_shippedavec">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.ope_orddetqty_shippedavec">OPE_ORDDET      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.ope_orddetqty_shippedavec">QTY_SHIPPED     </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.ope_orddetqty_shippedavec">AVEC</DD_ATTR_CPRO>
+		</RECORD>
 		<RECORD id="ddm_column_cpro.ope_orddetqty_shippedbinp">
 			<DD_TABLE_ALIAS id="ddm_column_cpro.ope_orddetqty_shippedbinp">OPE_ORDDET      </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_cpro.ope_orddetqty_shippedbinp">QTY_SHIPPED     </DD_DVAR_NAME>
 			<DD_ATTR_CPRO id="ddm_column_cpro.ope_orddetqty_shippedbinp">BINP</DD_ATTR_CPRO>
-		</RECORD>
-		<RECORD id="ddm_column_cpro.ope_orddetstd_list_prcaval">
-			<DD_TABLE_ALIAS id="ddm_column_cpro.ope_orddetstd_list_prcaval">OPE_ORDDET      </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_cpro.ope_orddetstd_list_prcaval">STD_LIST_PRC    </DD_DVAR_NAME>
-			<DD_ATTR_CPRO id="ddm_column_cpro.ope_orddetstd_list_prcaval">AVAL</DD_ATTR_CPRO>
 		</RECORD>
 		<RECORD id="ddm_column_cpro.ope_orddetstd_list_prcbinp">
 			<DD_TABLE_ALIAS id="ddm_column_cpro.ope_orddetstd_list_prcbinp">OPE_ORDDET      </DD_TABLE_ALIAS>
@@ -1091,16 +1112,6 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.ope_orddetman_pricew">OPE_ORDDET      </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ope_orddetman_pricew">MAN_PRICE       </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ope_orddetman_pricew">W</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD id="ddm_column_opts.ope_orddetproduct_typeg">
-			<DD_TABLE_ALIAS id="ddm_column_opts.ope_orddetproduct_typeg">OPE_ORDDET      </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.ope_orddetproduct_typeg">PRODUCT_TYPE    </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.ope_orddetproduct_typeg">G</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD id="ddm_column_opts.ope_orddetproduct_typew">
-			<DD_TABLE_ALIAS id="ddm_column_opts.ope_orddetproduct_typew">OPE_ORDDET      </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.ope_orddetproduct_typew">PRODUCT_TYPE    </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.ope_orddetproduct_typew">W</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.ope_orddetitem_idv">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ope_orddetitem_idv">OPE_ORDDET      </DD_TABLE_ALIAS>
@@ -1502,20 +1513,26 @@
 		</RECORD>
 		<RECORD id="ddm_elements.dropship">
 			<DD_DATA_NAME id="ddm_elements.dropship">DROPSHIP        </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.dropship">Drop Ship [Y/N]?              </DD_DESCRIPTION>
+			<DD_DESCRIPTION id="ddm_elements.dropship">Dropship [Y/N]?</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.dropship">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.dropship">1</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.dropship"> </DD_MASK_TYPE>
 			<ASC_COMP_ID id="ddm_elements.dropship">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.dropship">AON</ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.dropship">OP </ASC_PROD_ID>
+			<LOCALIZATION_EX id="ddm_elements.dropship">N</LOCALIZATION_EX>
 			<DD_CREATE_DATE id="ddm_elements.dropship">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.dropship">20060119</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.dropship">20090804</DD_LSTREV_DATE>
 			<DD_ATTR_CDAT id="ddm_elements.dropship">Y;N</DD_ATTR_CDAT>
+			<DD_ATTR_CTLW id="ddm_elements.dropship">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.dropship">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.dropship">C</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.dropship">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.dropship">            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL id="ddm_elements.dropship">Drop Ship?</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.dropship">Drop Ship?</DD_ATTR_LABS>
+			<DD_ATTR_LABL id="ddm_elements.dropship">Dropship?</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.dropship">Dropship?</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.dropship">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.dropship">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.dropship">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.dropship">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.est_shp_date">
 			<DD_DATA_NAME id="ddm_elements.est_shp_date">EST_SHP_DATE    </DD_DATA_NAME>
@@ -1593,19 +1610,25 @@
 		</RECORD>
 		<RECORD id="ddm_elements.unit_price">
 			<DD_DATA_NAME id="ddm_elements.unit_price">UNIT_PRICE      </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.unit_price">Unit Price                    </DD_DESCRIPTION>
+			<DD_DESCRIPTION id="ddm_elements.unit_price">Unit Price</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.unit_price">N</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.unit_price">7</DD_DATA_LENGTH>
 			<DD_MASK_TYPE id="ddm_elements.unit_price">P</DD_MASK_TYPE>
 			<ASC_COMP_ID id="ddm_elements.unit_price">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_elements.unit_price">IV </ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.unit_price">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.unit_price">20060119</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.unit_price">20100119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.unit_price">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.unit_price">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.unit_price">N</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.unit_price">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.unit_price">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.unit_price">Unit Price</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.unit_price">Unit Price</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.unit_price">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.unit_price">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.unit_price">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.unit_price">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.qty_ordered">
 			<DD_DATA_NAME id="ddm_elements.qty_ordered">QTY_ORDERED     </DD_DATA_NAME>

@@ -18,9 +18,9 @@
 			<ASC_VERSION_ID id="ddm_tables.por_calendar">9.0</ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.por_calendar">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.por_calendar">20080806</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.por_calendar">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.por_calendar">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.por_calendar">141512</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.por_calendar">20091109</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.por_calendar">20090701</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.por_calendar">141148</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.por_calendar">/dev/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.por_calendar">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.por_calendar">[+DIR_PGM]por_calendar.aon</DD_ATTR_PRUN>
@@ -40,6 +40,13 @@
 		<RECORD id="ddm_table_cpro.por_calendarbsho">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.por_calendarbsho">POR_CALENDAR    </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.por_calendarbsho">BSHO</DD_ATTR_CPRO>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_opts">
+		<ID id="ddm_table_opts">DDM_TABLE_OPTS</ID>
+		<RECORD id="ddm_table_opts.por_calendarx">
+			<DD_TABLE_ALIAS id="ddm_table_opts.por_calendarx">POR_CALENDAR    </DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.por_calendarx">X</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_tpls">

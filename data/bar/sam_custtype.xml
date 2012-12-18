@@ -19,10 +19,10 @@
 			<ASC_LICENSE_ID id="ddm_tables.sam_custtype">BAB0C68A88C8FA3ACBC99BF42E53E83B</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.sam_custtype">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.sam_custtype">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.sam_custtype">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.sam_custtype">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.sam_custtype">141458</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.sam_custtype">[+DIR_CPP]sam_custtype_cpt.bbj</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.sam_custtype">20090826</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.sam_custtype">20090803</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.sam_custtype">123852</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.sam_custtype">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.sam_custtype">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.sam_custtype">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.sam_custtype">Cust Type/Product/Item Record</DD_ATTR_WINT>
@@ -33,8 +33,8 @@
 		<RECORD id="ddm_table_aopt.sam_custtype01">
 			<DD_TABLE_ALIAS id="ddm_table_aopt.sam_custtype01">SAM_CUSTTYPE    </DD_TABLE_ALIAS>
 			<DD_ATTR_SEQ id="ddm_table_aopt.sam_custtype01">01</DD_ATTR_SEQ>
-			<DD_ATTR_AOPT id="ddm_table_aopt.sam_custtype01">S/A Lookup</DD_ATTR_AOPT>
-			<DD_ATTR_AOPT_CD id="ddm_table_aopt.sam_custtype01">SALU</DD_ATTR_AOPT_CD>
+			<DD_ATTR_AOPT id="ddm_table_aopt.sam_custtype01">Summary</DD_ATTR_AOPT>
+			<DD_ATTR_AOPT_CD id="ddm_table_aopt.sam_custtype01">SUMM</DD_ATTR_AOPT_CD>
 			<DD_ATTR_AOPT_FM id="ddm_table_aopt.sam_custtype01">B</DD_ATTR_AOPT_FM>
 		</RECORD>
 	</ALIAS>
@@ -42,7 +42,7 @@
 		<ID id="ddm_table_cpro">DDM_TABLE_CPRO</ID>
 		<RECORD id="ddm_table_cpro.sam_custtypeaopt">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.sam_custtypeaopt">SAM_CUSTTYPE    </DD_TABLE_ALIAS>
-			<DD_ATTR_CPRO id="ddm_table_cpro.sam_custtypeaopt">AOPT</DD_ATTR_CPRO>
+			<DD_ATTR_CPRO id="ddm_table_cpro.sam_custtypeaopt">AOPT-SUMM</DD_ATTR_CPRO>
 		</RECORD>
 		<RECORD id="ddm_table_cpro.sam_custtypearar">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.sam_custtypearar">SAM_CUSTTYPE    </DD_TABLE_ALIAS>
@@ -206,6 +206,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.sam_custtype003">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.sam_custtype003">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sam_custtype003">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CPGM id="ddm_table_cols.sam_custtype003">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.sam_custtype003">35</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.sam_custtype003">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.sam_custtype003">3</DD_ATTR_MAXL>
@@ -222,6 +223,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.sam_custtype004">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.sam_custtype004">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sam_custtype004">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CPGM id="ddm_table_cols.sam_custtype004">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.sam_custtype004">35</DD_ATTR_CTLW>
 			<DD_ATTR_MAXL id="ddm_table_cols.sam_custtype004">3</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.sam_custtype004">Product Type</DD_ATTR_PROM>
@@ -238,6 +240,7 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.sam_custtype005">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.sam_custtype005">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sam_custtype005">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CPGM id="ddm_table_cols.sam_custtype005">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.sam_custtype005">200</DD_ATTR_CTLW>
 			<DD_ATTR_LABS id="ddm_table_cols.sam_custtype005">Inventory</DD_ATTR_LABS>
 			<DD_ATTR_MAXL id="ddm_table_cols.sam_custtype005">20</DD_ATTR_MAXL>
@@ -326,6 +329,24 @@
 			<DD_ATTR_CTLY id="ddm_table_disp.sam_custtype003">-1</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_disp.sam_custtype003">80</DD_ATTR_CTLW>
 			<DD_ATTR_TIND id="ddm_table_disp.sam_custtype003">14</DD_ATTR_TIND>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_column_cpro">
+		<ID id="ddm_column_cpro">DDM_COLUMN_CPRO</ID>
+		<RECORD id="ddm_column_cpro.sam_custtypecustomer_typeaval">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.sam_custtypecustomer_typeaval">SAM_CUSTTYPE    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.sam_custtypecustomer_typeaval">CUSTOMER_TYPE   </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.sam_custtypecustomer_typeaval">AVAL</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_column_cpro.sam_custtypeproduct_typeaval">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.sam_custtypeproduct_typeaval">SAM_CUSTTYPE    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.sam_custtypeproduct_typeaval">PRODUCT_TYPE    </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.sam_custtypeproduct_typeaval">AVAL</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_column_cpro.sam_custtypeitem_idaval">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.sam_custtypeitem_idaval">SAM_CUSTTYPE    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.sam_custtypeitem_idaval">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.sam_custtypeitem_idaval">AVAL</DD_ATTR_CPRO>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">

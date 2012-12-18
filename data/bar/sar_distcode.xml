@@ -18,10 +18,10 @@
 			<ASC_LICENSE_ID id="ddm_tables.sar_distcode">0E184FDF2B1833C845698B3C92FB72A4</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.sar_distcode">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.sar_distcode">20070803</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.sar_distcode">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.sar_distcode">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.sar_distcode">141458</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.sar_distcode">[+DIR_CPP]sar_distcode_cpt.bbj</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.sar_distcode">20091217</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.sar_distcode">20090806</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.sar_distcode">081742</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.sar_distcode">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.sar_distcode">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.sar_distcode">[+DIR_PGM]sar_distcode.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.sar_distcode">Sales Analysis by Dist Code</DD_ATTR_WINT>
@@ -36,6 +36,10 @@
 		<RECORD id="ddm_table_cpro.sar_distcodeasva">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.sar_distcodeasva">SAR_DISTCODE    </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.sar_distcodeasva">ASVA</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_table_cpro.sar_distcodebfmc">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.sar_distcodebfmc">SAR_DISTCODE    </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.sar_distcodebfmc">BFMC</DD_ATTR_CPRO>
 		</RECORD>
 		<RECORD id="ddm_table_cpro.sar_distcodebsho">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.sar_distcodebsho">SAR_DISTCODE    </DD_TABLE_ALIAS>
@@ -118,6 +122,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.sar_distcode005">20070722</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sar_distcode005">20070722</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.sar_distcode005">48</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.sar_distcode005">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABL id="ddm_table_cols.sar_distcode005">Dist. Code</DD_ATTR_LABL>
 			<DD_ATTR_MAXL id="ddm_table_cols.sar_distcode005">2</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.sar_distcode005">5</DD_ATTR_TIND>
@@ -157,7 +162,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.sar_distcode008">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.sar_distcode008">20070722</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sar_distcode008">20070722</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.sar_distcode008">[+DIR_CPP]sar_distcode_cpt.bbj</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.sar_distcode008">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.sar_distcode008">30</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.sar_distcode008">0</DD_ATTR_CTLH>
 			<DD_ATTR_DFLT id="ddm_table_cols.sar_distcode008">N</DD_ATTR_DFLT>
@@ -255,6 +260,14 @@
 			<DD_ATTR_TIND id="ddm_table_cols.sar_distcode014">14</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
+	<ALIAS id="ddm_column_cpro">
+		<ID id="ddm_column_cpro">DDM_COLUMN_CPRO</ID>
+		<RECORD id="ddm_column_cpro.sar_distcodetwlve_per_reportaval">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.sar_distcodetwlve_per_reportaval">SAR_DISTCODE    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.sar_distcodetwlve_per_reportaval">TWLVE_PER_REPORT</DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.sar_distcodetwlve_per_reportaval">AVAL</DD_ATTR_CPRO>
+		</RECORD>
+	</ALIAS>
 	<ALIAS id="ddm_column_ldat">
 		<ID id="ddm_column_ldat">DDM_COLUMN_LDAT</ID>
 		<RECORD id="ddm_column_ldat.sar_distcodesa_level01">
@@ -316,6 +329,11 @@
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">
 		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
+		<RECORD id="ddm_column_opts.sar_distcodear_dist_code1">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sar_distcodear_dist_code1">SAR_DISTCODE    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sar_distcodear_dist_code1">AR_DIST_CODE    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sar_distcodear_dist_code1">1</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.sar_distcodeproduct_type1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.sar_distcodeproduct_type1">SAR_DISTCODE    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.sar_distcodeproduct_type1">PRODUCT_TYPE    </DD_DVAR_NAME>

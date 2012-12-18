@@ -17,9 +17,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.ars_params">6C86E4DEC7C6B455A88D2DC7EC930ABC</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ars_params">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ars_params">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ars_params">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ars_params">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ars_params">141554</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ars_params">20100120</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ars_params">20090701</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ars_params">142314</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ars_params">[+DIR_CPP]ars_params_cpt.bbj</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ars_params">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.ars_params">zzzz</DD_ATTR_SLEV>
@@ -1416,6 +1416,16 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.ars_paramsrate_maskw">ARS_PARAMS      </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ars_paramsrate_maskw">RATE_MASK       </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ars_paramsrate_maskw">W</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ars_paramsdefault_stationl">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ars_paramsdefault_stationl">ARS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ars_paramsdefault_stationl">DEFAULT_STATION </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ars_paramsdefault_stationl">L</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ars_paramsdefault_stationw">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ars_paramsdefault_stationw">ARS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ars_paramsdefault_stationw">DEFAULT_STATION </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ars_paramsdefault_stationw">W</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

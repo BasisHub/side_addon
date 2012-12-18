@@ -16,9 +16,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.ivr_itemsyn">6D6A6803AED9F1076874F959CC839ED9</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ivr_itemsyn">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ivr_itemsyn">20070727</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ivr_itemsyn">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivr_itemsyn">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivr_itemsyn">141534</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ivr_itemsyn">20090807</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivr_itemsyn">20090709</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivr_itemsyn">115944</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ivr_itemsyn">[+DIR_CPP]ivr_itemsyn_cpt.bbj</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ivr_itemsyn">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.ivr_itemsyn">[+DIR_PGM]ivr_itemsyn.aon</DD_ATTR_PRUN>
@@ -30,6 +30,13 @@
 		<RECORD id="ddm_table_cpro.ivr_itemsynarar">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.ivr_itemsynarar">IVR_ITEMSYN     </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.ivr_itemsynarar">ARAR</DD_ATTR_CPRO>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_opts">
+		<ID id="ddm_table_opts">DDM_TABLE_OPTS</ID>
+		<RECORD id="ddm_table_opts.ivr_itemsynx">
+			<DD_TABLE_ALIAS id="ddm_table_opts.ivr_itemsynx">IVR_ITEMSYN     </DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.ivr_itemsynx">X</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_tpls">
@@ -104,6 +111,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.ivr_itemsyn005">20070727</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivr_itemsyn005">20070727</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivr_itemsyn005">35</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.ivr_itemsyn005">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.ivr_itemsyn005">3</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ivr_itemsyn005">5</DD_ATTR_TIND>
 		</RECORD>

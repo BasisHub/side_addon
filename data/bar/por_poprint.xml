@@ -16,10 +16,10 @@
 			<ASC_LICENSE_ID id="ddm_tables.por_poprint">CBC4BAA32B5985FBBD4AA67C2D8B101E</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.por_poprint">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.por_poprint">20070805</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.por_poprint">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.por_poprint">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.por_poprint">141510</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.por_poprint">[+DIR_CPP]por_poprint_cpt.bbj</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.por_poprint">20100128</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.por_poprint">20090710</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.por_poprint">195242</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.por_poprint">/dev/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.por_poprint">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.por_poprint">[+DIR_PGM]por_poprint.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.por_poprint">Purchase Order Print</DD_ATTR_WINT>
@@ -31,9 +31,12 @@
 			<DD_TABLE_ALIAS id="ddm_table_cpro.por_poprintarar">POR_POPRINT     </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.por_poprintarar">ARAR</DD_ATTR_CPRO>
 		</RECORD>
-		<RECORD id="ddm_table_cpro.por_poprintbsho">
-			<DD_TABLE_ALIAS id="ddm_table_cpro.por_poprintbsho">POR_POPRINT     </DD_TABLE_ALIAS>
-			<DD_ATTR_CPRO id="ddm_table_cpro.por_poprintbsho">BSHO</DD_ATTR_CPRO>
+	</ALIAS>
+	<ALIAS id="ddm_table_opts">
+		<ID id="ddm_table_opts">DDM_TABLE_OPTS</ID>
+		<RECORD id="ddm_table_opts.por_poprintx">
+			<DD_TABLE_ALIAS id="ddm_table_opts.por_poprintx">POR_POPRINT     </DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.por_poprintx">X</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_tpls">
@@ -68,6 +71,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.por_poprint002">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.por_poprint002">20070804</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.por_poprint002">20070804</DD_LSTREV_DATE>
+			<DD_ATTR_ABLC id="ddm_table_cols.por_poprint002">POR_POPRINT.REPORT_TYPE</DD_ATTR_ABLC>
+			<DD_ATTR_ABLV id="ddm_table_cols.por_poprint002">N</DD_ATTR_ABLV>
+			<DD_ATTR_CPGM id="ddm_table_cols.por_poprint002">/dev/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.por_poprint002">48</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.por_poprint002">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.por_poprint002">6</DD_ATTR_MAXL>
@@ -82,7 +88,8 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.por_poprint003">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.por_poprint003">20070805</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.por_poprint003">20070805</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.por_poprint003">[+DIR_CPP]por_poprint_cpt.bbj</DD_ATTR_CPGM>
+			<DD_ATTR_ABLC id="ddm_table_cols.por_poprint003">POR_POPRINT.REPORT_TYPE</DD_ATTR_ABLC>
+			<DD_ATTR_ABLV id="ddm_table_cols.por_poprint003">N</DD_ATTR_ABLV>
 			<DD_ATTR_CTLW id="ddm_table_cols.por_poprint003">30</DD_ATTR_CTLW>
 			<DD_ATTR_MAXL id="ddm_table_cols.por_poprint003">1</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.por_poprint003">3</DD_ATTR_TIND>
@@ -103,10 +110,10 @@
 	</ALIAS>
 	<ALIAS id="ddm_column_cpro">
 		<ID id="ddm_column_cpro">DDM_COLUMN_CPRO</ID>
-		<RECORD id="ddm_column_cpro.por_poprintrestartaval">
-			<DD_TABLE_ALIAS id="ddm_column_cpro.por_poprintrestartaval">POR_POPRINT     </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_cpro.por_poprintrestartaval">RESTART         </DD_DVAR_NAME>
-			<DD_ATTR_CPRO id="ddm_column_cpro.por_poprintrestartaval">AVAL</DD_ATTR_CPRO>
+		<RECORD id="ddm_column_cpro.por_poprintvendor_idaval">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.por_poprintvendor_idaval">POR_POPRINT     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.por_poprintvendor_idaval">VENDOR_ID       </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.por_poprintvendor_idaval">AVAL</DD_ATTR_CPRO>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_ldat">

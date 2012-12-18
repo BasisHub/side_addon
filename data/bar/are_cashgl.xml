@@ -18,10 +18,10 @@
 			<ASC_LICENSE_ID id="ddm_tables.are_cashgl">396B2A9EECEBA8C36B25A33D58BD13EE</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.are_cashgl">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.are_cashgl">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.are_cashgl">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.are_cashgl">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.are_cashgl">141556</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.are_cashgl">[+DIR_CPP]are_cashgl_cpt.bbj</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.are_cashgl">20091013</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.are_cashgl">20090811</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.are_cashgl">162744</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.are_cashgl">../apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.are_cashgl">G</DD_ATTR_FTYP>
 			<DD_ATTR_PTAB id="ddm_tables.are_cashgl">ARE_CASHHDR     </DD_ATTR_PTAB>
 			<DD_ATTR_SLEV id="ddm_tables.are_cashgl">zzzz</DD_ATTR_SLEV>
@@ -33,6 +33,10 @@
 		<RECORD id="ddm_table_cpro.are_cashglbend">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.are_cashglbend">ARE_CASHGL      </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.are_cashglbend">BEND</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_table_cpro.are_cashglbsho">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.are_cashglbsho">ARE_CASHGL      </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.are_cashglbsho">BSHO</DD_ATTR_CPRO>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_opts">
@@ -47,7 +51,7 @@
 		<RECORD id="ddm_table_tpls.are_cashgl">
 			<DD_TABLE_ALIAS id="ddm_table_tpls.are_cashgl">ARE_CASHGL      </DD_TABLE_ALIAS>
 			<DD_FILE_NAME id="ddm_table_tpls.are_cashgl">are-21</DD_FILE_NAME>
-			<DD_TABLE_TPL id="ddm_table_tpls.are_cashgl">firm_id:c(2),ar_type:c(2),reserved_key_01:c(1),receipt_date:c(8),customer_id:c(6),cash_rec_cd:c(3),ar_check_no:c(7),reserved_key_02:c(1),gl_account:c(10),reserved_str:c(15*),gl_post_amt:n(7*)</DD_TABLE_TPL>
+			<DD_TABLE_TPL id="ddm_table_tpls.are_cashgl">firm_id:c(2),ar_type:c(2),reserved_key_01:c(1),receipt_date:c(8),customer_id:c(6),cash_rec_cd:c(3),ar_check_no:c(7),reserved_key_02:c(1),gl_account:c(10),reserved_str:c(15*),gl_post_amt:n(7*),batch_no:c(7*)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_keys">
@@ -227,6 +231,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.are_cashgl006">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.are_cashgl006">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.are_cashgl006">35</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.are_cashgl006">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.are_cashgl006">3</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.are_cashgl006">Cash Receipts Code</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.are_cashgl006">6</DD_ATTR_TIND>
@@ -287,7 +292,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.are_cashgl010">Y</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.are_cashgl010">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.are_cashgl010">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.are_cashgl010">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.are_cashgl010">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.are_cashgl010">11</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.are_cashgl011">
 			<DD_TABLE_ALIAS id="ddm_table_cols.are_cashgl011">ARE_CASHGL      </DD_TABLE_ALIAS>
@@ -299,13 +306,33 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.are_cashgl011">Y</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.are_cashgl011">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.are_cashgl011">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.are_cashgl011">[+DIR_CPP]are_cashgl_cpt.bbj</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.are_cashgl011">../apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.are_cashgl011">105</DD_ATTR_CTLW>
 			<DD_ATTR_LABL id="ddm_table_cols.are_cashgl011">Amount</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_table_cols.are_cashgl011">Amount</DD_ATTR_LABS>
 			<DD_ATTR_MAXL id="ddm_table_cols.are_cashgl011">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.are_cashgl011">GL Posting Amount</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.are_cashgl011">10</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.are_cashgl012">
+			<DD_TABLE_ALIAS id="ddm_table_cols.are_cashgl012">ARE_CASHGL      </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.are_cashgl012">012</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.are_cashgl012">BATCH_NO        </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.are_cashgl012">BATCH_NO        </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.are_cashgl012">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.are_cashgl012">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.are_cashgl012">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.are_cashgl012">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.are_cashgl012">20090729</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.are_cashgl012">20090729</DD_LSTREV_DATE>
+			<DD_ATTR_COLW id="ddm_table_cols.are_cashgl012">0</DD_ATTR_COLW>
+			<DD_ATTR_CTLX id="ddm_table_cols.are_cashgl012">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_cols.are_cashgl012">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_cols.are_cashgl012">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.are_cashgl012">0</DD_ATTR_CTLH>
+			<DD_ATTR_MLAN id="ddm_table_cols.are_cashgl012">N</DD_ATTR_MLAN>
+			<DD_ATTR_MAXL id="ddm_table_cols.are_cashgl012">7</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.are_cashgl012">12</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_cpro">
@@ -347,6 +374,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.are_cashglgl_accountv">ARE_CASHGL      </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.are_cashglgl_accountv">GL_ACCOUNT      </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.are_cashglgl_accountv">V</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.are_cashglbatch_noo">
+			<DD_TABLE_ALIAS id="ddm_column_opts.are_cashglbatch_noo">ARE_CASHGL      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.are_cashglbatch_noo">BATCH_NO        </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.are_cashglbatch_noo">O</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">
@@ -569,6 +601,33 @@
 			<DD_ATTR_LABL id="ddm_elements.gl_post_amt">Posting Amount</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.gl_post_amt">Post Amt</DD_ATTR_LABS>
 			<DD_ATTR_MSKI id="ddm_elements.gl_post_amt">###,###,###.00-</DD_ATTR_MSKI>
+		</RECORD>
+		<RECORD id="ddm_elements.batch_no">
+			<DD_DATA_NAME id="ddm_elements.batch_no">BATCH_NO        </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.batch_no">Batch Entry Control Number</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.batch_no">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.batch_no">7</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.batch_no"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.batch_no">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.batch_no">AD </ASC_PROD_ID>
+			<LOCALIZATION_EX id="ddm_elements.batch_no">N</LOCALIZATION_EX>
+			<DD_CREATE_DATE id="ddm_elements.batch_no">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.batch_no">20090714</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.batch_no">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.batch_no">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.batch_no">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.batch_no">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.batch_no">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.batch_no">Batch Entry Control Number</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.batch_no">Batch Entry No</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.batch_no">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.batch_no">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.batch_no">0</DD_ATTR_MINL>
+			<DD_ATTR_MSKI id="ddm_elements.batch_no">0000000</DD_ATTR_MSKI>
+			<DD_ATTR_MSKO id="ddm_elements.batch_no">0000000</DD_ATTR_MSKO>
+			<DD_ATTR_PADC id="ddm_elements.batch_no">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.batch_no">R</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.batch_no">0</DD_ATTR_PREC>
 		</RECORD>
 	</ALIAS>
 </ARE_CASHGL>

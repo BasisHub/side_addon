@@ -18,10 +18,10 @@
 			<ASC_VERSION_ID id="ddm_tables.ivr_costchgreg">9.0</ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ivr_costchgreg">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ivr_costchgreg">20090120</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ivr_costchgreg">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivr_costchgreg">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivr_costchgreg">141534</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.ivr_costchgreg">/devel/aon/;</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.ivr_costchgreg">20090731</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivr_costchgreg">20090731</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivr_costchgreg">154418</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.ivr_costchgreg">/dev_aon_test/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ivr_costchgreg">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.ivr_costchgreg">[+DIR_PGM]ivr_costchgreg.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.ivr_costchgreg">Cost Change Register</DD_ATTR_WINT>
@@ -40,6 +40,17 @@
 		<RECORD id="ddm_table_cpro.ivr_costchgregbsho">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.ivr_costchgregbsho">IVR_COSTCHGREG  </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.ivr_costchgregbsho">BSHO</DD_ATTR_CPRO>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_opts">
+		<ID id="ddm_table_opts">DDM_TABLE_OPTS</ID>
+		<RECORD id="ddm_table_opts.ivr_costchgregh">
+			<DD_TABLE_ALIAS id="ddm_table_opts.ivr_costchgregh">IVR_COSTCHGREG  </DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.ivr_costchgregh">H</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_table_opts.ivr_costchgregx">
+			<DD_TABLE_ALIAS id="ddm_table_opts.ivr_costchgregx">IVR_COSTCHGREG  </DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.ivr_costchgregx">X</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_tpls">

@@ -18,9 +18,9 @@
 			<ASC_VERSION_ID id="ddm_tables.poe_replenselect">9.0</ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.poe_replenselect">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.poe_replenselect">20090414</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.poe_replenselect">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.poe_replenselect">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.poe_replenselect">141512</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.poe_replenselect">20100128</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.poe_replenselect">20090819</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.poe_replenselect">121446</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.poe_replenselect">/dev/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.poe_replenselect">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.poe_replenselect">[+DIR_PGM]pou_replenselect.aon</DD_ATTR_PRUN>
@@ -43,6 +43,10 @@
 		<RECORD id="ddm_table_opts.poe_replenselecth">
 			<DD_TABLE_ALIAS id="ddm_table_opts.poe_replenselecth">POE_REPLENSELECT</DD_TABLE_ALIAS>
 			<DD_ATTR_OPTS id="ddm_table_opts.poe_replenselecth">H</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_table_opts.poe_replenselectx">
+			<DD_TABLE_ALIAS id="ddm_table_opts.poe_replenselectx">POE_REPLENSELECT</DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.poe_replenselectx">X</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_tpls">
@@ -110,7 +114,6 @@
 			<DD_ATTR_CTLY id="ddm_table_cols.poe_replenselect003">0</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.poe_replenselect003">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.poe_replenselect003">0</DD_ATTR_CTLH>
-			<DD_ATTR_DFLT id="ddm_table_cols.poe_replenselect003">[+SYSTEM_DATE]</DD_ATTR_DFLT>
 			<DD_ATTR_LABL id="ddm_table_cols.poe_replenselect003">Review Date</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_table_cols.poe_replenselect003">Rev Date</DD_ATTR_LABS>
 			<DD_ATTR_MLAN id="ddm_table_cols.poe_replenselect003">N</DD_ATTR_MLAN>
