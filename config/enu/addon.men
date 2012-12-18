@@ -321,34 +321,25 @@ Payroll^PRMENU^M^^^im_menua_payroll.png^N^01007514^PR
 		Update Tax Tables for New Year^PRX_TAXTABLE^T^^PRX_TAXTABLE^im_menui_update.png^N^01007514^PR
 		Purge Forecast Calendar^PR_PURGEFORECAST^T^^mpu_ba.aon^im_menui_update.png^N^01007514^PR
 Purchase Order Processing^POMENU^M^^^im_menua_purch_orders.png^N^01007514^PO
-	Replenishment Selection^POE_FA^T^^poe_fa.aon^im_menui_table.png^N^01007514^PO
-	Replenishment Register^POR_FA^T^^por_fa.aon^im_menui_report.png^N^01007514^PO
+	Replenishment Selection Options^POE_REPLENSELECT^T^POE_REPLENSELECT^poe_fa.aon^im_menui_table.png^N^01007514^PO^
+	Replenishment Register^POR_REPLENREG^T^POR_REPLENREG^por_fa.aon^im_menui_report.png^N^01007514^PO^
 	Purchase Requisition Entry^POE_REQHDR^T^POE_REQHDR^poe_aa.aon^im_menui_table.png^N^01007514^PO^
-	Print Purchase Requisitions^POR_XA^T^^por_xa.aon^im_menui_report.png^N^01007514^PO
-	Purchase Requisition Register^POR_AA^T^^por_aa.aon^im_menui_report.png^N^01007514^PO
+	Purchase Requisition Print^POR_REQPRINT^T^POR_REQPRINT^por_xa.aon^im_menui_report.png^N^01007514^PO^
+	Purchase Requisition Register^POR_REQSNREG^T^POR_REQSNREG^por_aa.aon^im_menui_report.png^N^01007514^PO^
 	Purchase Order Entry^POE_POHDR^T^POE_POHDR^poe_ba.aon^im_menui_table.png^N^01007514^PO^
 	Purchase Order Print^POR_POPRINT^T^POR_POPRINT^por_ba.aon^im_menui_report.png^N^01007514^PO^
-	Quality Assurance Receipt Entry^POE_CA^T^^poe_ca.aon^im_menui_table.png^N^01007514^PO
-	Quality Assurance Receipt Register^POR_CA^T^^por_ca.aon^im_menui_report.png^N^01007514^PO
-	Purchase Order Receipt Entry^POE_DA^T^^poe_da.aon^im_menui_table.png^N^01007514^PO
-	Purchase Order Receipt Register^POR_DA^T^^por_da.aon^im_menui_report.png^N^01007514^PO
-	Purchase Order Invoice Entry^POE_EA^T^^poe_ea.aon^im_menui_table.png^N^01007514^PO
-	Purchase Order Invoice Register^POR_EA^T^^por_ea.aon^im_menui_report.png^N^01007514^PO
+	Purchase Order Receipt Entry^POE_RECHDR^T^POE_RECHDR^poe_da.aon^im_menui_table.png^N^01007514^PO^
+	Purchase Order Receipt Register^POR_RECPTREG^A^^[+DIR_PGM]por_recptreg.aon^im_menui_report.png^N^01007514^PO^^1.0
+	Purchase Order Invoice Entry^POE_INVHDR^T^POE_INVHDR^poe_ea.aon^im_menui_table.png^N^01007514^PO^^1.0
+	Purchase Order Invoice Register^POR_INVREG^T^POR_INVREG^por_ea.aon^im_menui_report.png^N^01007514^PO^^8.0
 	Reports^POMENU_REPORTS^G^^^im_menua_miscellaneous.png^N^01007514^PO
 		Open PO Requisitions^POR_OPENREQSN^T^POR_OPENREQSN^por_ga.aon^im_menui_report.png^N^01007514^PO
-		Requisitions By Item^POR_REQBYITEM^T^POR_REQBYITEM^por_ha.aon^im_menui_report.png^N^01007514^PO
 		Open Purchase Orders^POR_OPENPO^T^POR_OPENPO^por_ia.aon^im_menui_report.png^N^01007514^PO
-		Purchase Orders By Item^POR_POBYITEM^T^POR_POBYITEM^por_ja.aon^im_menui_report.png^N^01007514^PO
-		PO Expediting Report^POR_POEXPEDITE^T^POR_POEXPEDITE^por_ka.aon^im_menui_report.png^N^01007514^PO
-		PO Status Report^POR_POSTATUS^T^POR_POSTATUS^por_la.aon^im_menui_report.png^N^01007514^PO
 		PO Cash Requirements Report^POR_POCASHREQMT^T^POR_POCASHREQMT^por_ma.aon^im_menui_report.png^N^01007514^PO
-		Billed/Unbilled PO Receipts Report^POR_TA^T^^por_ta.aon^im_menui_report.png^N^01007514^PO
 		PO Receipt Variance^POR_RECVARY^T^POR_RECVARY^por_na.aon^im_menui_report.png^N^01007514^PO
 		PO Receipt Cost Variance^POR_RECVARYCOST^T^POR_RECVARYCOST^por_oa.aon^im_menui_report.png^N^01007514^PO
 		PO Rec't History By Vendor^POR_HISTBYVEND^T^POR_HISTBYVEND^por_pa.aon^im_menui_report.png^N^01007514^PO
 		PO Receipt History By Item^POR_HISTBYITEM^T^POR_HISTBYITEM^por_qa.aon^im_menui_report.png^N^01007514^PO
-		QA Work In Process Report^POR_RA^T^^por_ra.aon^im_menui_report.png^N^01007514^PO
-		QA Rejection History^POR_QAREJECT^T^POR_QAREJECT^por_sa.aon^im_menui_report.png^N^01007514^PO
 	Period End Processing^POMENU_PEND^G^^^im_menua_miscellaneous.png^N^01007514^PO
 		Purge PO Receipt History^POU_FA^T^^pou_fa.aon^im_menui_update.png^N^01007514^PO
 		Purge Rejection History^POU_HA^T^^pou_ha.aon^im_menui_update.png^N^01007514^PO
@@ -357,7 +348,7 @@ Purchase Order Processing^POMENU^M^^^im_menua_purch_orders.png^N^01007514^PO
 		Purchase Calendar Maint^POM_CALENDAR^A^^pom_calendar.aon^im_menui_table.png^N^01007514^PO^
 		Print Purchase Calendar^POR_CALENDAR^T^POR_CALENDAR^por_ua.aon^im_menui_report.png^N^01007514^PO^
 		Purge Purchase Calendar^POU_CALENDAR^T^POU_CALENDAR^pou_ga.aon^im_menui_update.png^N^01007514^PO^
-		Purchase Order Line Codes^POC_LINECODE^T^POC_LINECODE^pom_ca.aon^im_menui_table.png^N^01007514^PO^
+		Purchase Order Line Codes^POC_LINECODE^T^POC_LINECODE^ope_ca.aon^im_menui_table.png^N^01007514^PO^
 		Message Codes^POC_MSGCODE^T^POC_MSGCODE^^im_menui_table.png^N^01007514^PO^
 		QA Receipt Rejection Codes^POC_REJCTCOD^T^POC_REJCTCOD^pom_fa.aon^im_menui_table.png^N^01007514^PO^
 		Parameters^POMENU_PARAMS^G^ARS_PARAMS^^im_node_col.png^N^01007514^PO
@@ -400,7 +391,7 @@ Sales Order Processing^OPMENU^M^^^im_menua_order_proc.png^N^01007514^OP
 	Order Entry^OPE_ORDHDR^T^OPE_ORDHDR^^im_menui_table.png^N^01007514^OP
 	Order Picking List^OPR_ODERPICKLST^T^OPR_ODERPICKLST^opr_na.aon^im_menui_report.png^N^01007514^OP^
 	Commit and Release Future Orders^OPU_COMMREL^T^OPU_COMMREL^opu_ea.aon^im_menui_update.png^N^01007514^OP^
-	Invoice Entry^OPE_CA^T^^ope_ca.aon^im_menui_table.png^N^01007514^OP
+	Invoice Entry^OPE_INVHDR^T^OPE_INVHDR^ope_ca.aon^im_menui_table.png^N^01007514^OP^^1.0
 	Invoice Edit Report^OPR_INVEDIT^T^OPR_INVEDIT^^im_menui_report.png^N^01007514^OP
 	Invoice Printing^OPR_INVOICE^T^OPR_INVOICE^^im_menui_report.png^N^01007514^OP
 	Sales Register^OPR_SALESREG^T^OPR_SALESREG^^im_menui_report.png^N^01007514^OP
@@ -427,7 +418,8 @@ Sales Order Processing^OPMENU^M^^^im_menua_order_proc.png^N^01007514^OP
 		Territory Codes^ARC_TERRCODEOP^T^ARC_TERRCODE^^im_menui_table.png^N^01007514^OP
 		Tax Codes^OPC_TAXCODE^T^OPC_TAXCODE^^im_menui_table.png^N^01007514^OP
 		Sale Discount Code^OPC_DISCCODE^T^OPC_DISCCODE^opm_ia.aon^im_menui_table.png^N^01007514^OP
-		Standard Message Header^OPC_MSG_HDR^T^OPC_MSG_HDR^^im_menui_table.png^N^01007514^OP
+		Standard Message Codes^OPC_MSG_HDR^T^OPC_MSG_HDR^^im_menui_table.png^N^01007514^OP^^1.0
+		Order / Invoice Point of Sale^OPM_POINTOFSALE^T^OPM_POINTOFSALE^^im_menui_table.png^N^01007514^OP^
 		Customer Price Codes^OPC_PRICECDS^T^OPC_PRICECDS^^im_menui_table.png^N^01007514^OP
 		Pricing Table^IVC_PRICCODE^T^IVC_PRICCODE^opm_ca.aon^im_menui_table.png^N^01007514^OP
 		Contract Pricing^IVM_ITEMPRIC^T^IVM_ITEMPRIC^^im_menui_table.png^N^01007514^OP
@@ -505,10 +497,13 @@ AddonSoftware Administration^AONADMIN^M^^^im_menua_system_admin.png^N^01007514^A
 		Fiscal Calendar^TEMP_ADS_CALENDAR^T^ADS_CALENDAR^^im_menui_table.png^N^01007514^AD
 		Process Maintenance^TEMP_ADM_PROCMASTER^T^ADM_PROCMASTER^^im_menui_parameter.png^N^01007514^AD
 		GL Posting Control^TEMP_ADM_AUDITCONTRO^T^ADM_AUDITCONTROL^^im_menui_parameter.png^N^01007514^AD
+		Set User Defaults^ADM_USERDEFAULTS^T^ADM_USERDEFAULTS^^im_menui_table.png^N^01007514^AD^
 	Utilities^AON_UTILITIES^G^^^im_node_col.png^N^01007514^AD
+		Set Default Printer from User Defaults^DEFAULT_PRINTER^A^^[+DIR_PGM]adx_set_printer.aon -pMANUAL^im_menui_update.png^N^01007514^AD^
 		Create/Update SPROC Definitions^SPROC_UPDT^A^^[+DIR_PGM]adx_build_sproc.aon^im_menui_update.png^N^01007514^AD^
 		CodePort^AON_UTIL_CODEPORT^A^^adx_codeport.bbj^im_menui_utility.png^N^01007514^AD
 		DataPort^AON_UTIL_DP_MENU^G^^^im_node_col.png^N^01007514^AD^
 			DataPort Utility^AON_UTIL_DATAPORTX^A^^adx_data_port.bbj^im_menui_utility.png^N^01007514^AD^
+			Update IV Display Description^AON_UTIL_DISC_DESC^A^^ivx_builddisplaydesc.aon^im_menui_table.png^N^01007514^AD^
 			Update Physical Invent Cycle Code^AON_UTIL_PI_CYCLE^A^^ivx_loadcyclecode.aon^im_menui_utility.png^N^01007514^AD^
 		

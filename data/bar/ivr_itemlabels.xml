@@ -13,13 +13,13 @@
 			<DD_SYSTEM_REC id="ddm_tables.ivr_itemlabels">N</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_tables.ivr_itemlabels">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.ivr_itemlabels">IV</ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.ivr_itemlabels">8.0</ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.ivr_itemlabels">9.0</ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.ivr_itemlabels">636FEAB109081455BE6372C73208F485</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ivr_itemlabels">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ivr_itemlabels">20070731</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ivr_itemlabels">20090325</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivr_itemlabels">20090325</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivr_itemlabels">090414</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ivr_itemlabels">20090630</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivr_itemlabels">20090630</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivr_itemlabels">141534</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ivr_itemlabels">[+DIR_CPP]ivr_itemlabels_cpt.bbj</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ivr_itemlabels">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.ivr_itemlabels">[+DIR_PGM]ivr_itemlabels.aon</DD_ATTR_PRUN>
@@ -228,9 +228,12 @@
 			<DD_DATA_LENGTH id="ddm_elements.item_type">3</DD_DATA_LENGTH>
 			<DD_MASK_TYPE id="ddm_elements.item_type"> </DD_MASK_TYPE>
 			<ASC_COMP_ID id="ddm_elements.item_type">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.item_type">AON</ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.item_type">IV </ASC_PROD_ID>
+			<LOCALIZATION_EX id="ddm_elements.item_type">N</LOCALIZATION_EX>
 			<DD_CREATE_DATE id="ddm_elements.item_type">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.item_type">20070612</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.item_type">20090413</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.item_type">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.item_type">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.item_type">E</DD_ATTR_CTYP>
 			<DD_ATTR_DCOL id="ddm_elements.item_type">CODE_DESC       </DD_ATTR_DCOL>
 			<DD_ATTR_DCOM id="ddm_elements.item_type">            </DD_ATTR_DCOM>
@@ -239,6 +242,13 @@
 			<DD_ATTR_DTAB id="ddm_elements.item_type">IVC_TYPECODE    </DD_ATTR_DTAB>
 			<DD_ATTR_LABL id="ddm_elements.item_type">Item Type</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.item_type">Item Type</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.item_type">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.item_type">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.item_type">0</DD_ATTR_MINL>
+			<DD_ATTR_MSKI id="ddm_elements.item_type">UUU</DD_ATTR_MSKI>
+			<DD_ATTR_PADC id="ddm_elements.item_type">20</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.item_type">L</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.item_type">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.pick_count">
 			<DD_DATA_NAME id="ddm_elements.pick_count">PICK_COUNT      </DD_DATA_NAME>

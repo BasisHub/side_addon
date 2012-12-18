@@ -14,13 +14,13 @@
 			<DD_SYSTEM_REC id="ddm_tables.poc_linecode">N</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_tables.poc_linecode">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.poc_linecode">PO </ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.poc_linecode">8.0</ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.poc_linecode">9.0</ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.poc_linecode">CFF8A46A48FEF0EC707032A5D939201C</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.poc_linecode">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.poc_linecode">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.poc_linecode">20090325</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.poc_linecode">20090325</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.poc_linecode">090422</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.poc_linecode">20090630</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.poc_linecode">20090630</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.poc_linecode">141514</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.poc_linecode">/dev/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.poc_linecode">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.poc_linecode">zzzz</DD_ATTR_SLEV>
@@ -126,7 +126,7 @@
 		<RECORD id="ddm_table_cols.poc_linecode004">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poc_linecode004">POC_LINECODE    </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_cols.poc_linecode004">004</DD_SEQUENCE>
-			<DD_DATA_NAME id="ddm_table_cols.poc_linecode004">LINE_TYPE       </DD_DATA_NAME>
+			<DD_DATA_NAME id="ddm_table_cols.poc_linecode004">PO_LINE_TYPE    </DD_DATA_NAME>
 			<DD_DVAR_NAME id="ddm_table_cols.poc_linecode004">LINE_TYPE       </DD_DVAR_NAME>
 			<DD_COL_REPEATS id="ddm_table_cols.poc_linecode004">0</DD_COL_REPEATS>
 			<DD_COL_OCCURS id="ddm_table_cols.poc_linecode004">0</DD_COL_OCCURS>
@@ -242,6 +242,7 @@
 			<DD_ATTR_ABLV id="ddm_table_cols.poc_linecode010">N;O</DD_ATTR_ABLV>
 			<DD_ATTR_CTLW id="ddm_table_cols.poc_linecode010">80</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.poc_linecode010">0</DD_ATTR_CTLH>
+			<DD_ATTR_MINL id="ddm_table_cols.poc_linecode010">1</DD_ATTR_MINL>
 			<DD_ATTR_MAXL id="ddm_table_cols.poc_linecode010">10</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poc_linecode010">GL Expense Account</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.poc_linecode010">10</DD_ATTR_TIND>
@@ -263,6 +264,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.poc_linecode011">80</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.poc_linecode011">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABL id="ddm_table_cols.poc_linecode011">Purchase Price Variance</DD_ATTR_LABL>
+			<DD_ATTR_MINL id="ddm_table_cols.poc_linecode011">1</DD_ATTR_MINL>
 			<DD_ATTR_MAXL id="ddm_table_cols.poc_linecode011">10</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.poc_linecode011">11</DD_ATTR_TIND>
 		</RECORD>
@@ -319,6 +321,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.poc_linecodefirm_ido">POC_LINECODE    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.poc_linecodefirm_ido">FIRM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.poc_linecodefirm_ido">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.poc_linecodedropshipo">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poc_linecodedropshipo">POC_LINECODE    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poc_linecodedropshipo">DROPSHIP        </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poc_linecodedropshipo">O</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.poc_linecodeadd_optionsi">
 			<DD_TABLE_ALIAS id="ddm_column_opts.poc_linecodeadd_optionsi">POC_LINECODE    </DD_TABLE_ALIAS>
@@ -415,21 +422,28 @@
 			<DD_ATTR_LABL id="ddm_elements.code_desc">Description</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.code_desc">Description</DD_ATTR_LABS>
 		</RECORD>
-		<RECORD id="ddm_elements.line_type">
-			<DD_DATA_NAME id="ddm_elements.line_type">LINE_TYPE       </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.line_type">Line Type                     </DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.line_type">C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.line_type">1</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.line_type"> </DD_MASK_TYPE>
-			<ASC_COMP_ID id="ddm_elements.line_type">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.line_type">AON</ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.line_type">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.line_type">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP id="ddm_elements.line_type">E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM id="ddm_elements.line_type">            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP id="ddm_elements.line_type">            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL id="ddm_elements.line_type">Line Type</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.line_type">Line Type</DD_ATTR_LABS>
+		<RECORD id="ddm_elements.po_line_type">
+			<DD_DATA_NAME id="ddm_elements.po_line_type">PO_LINE_TYPE    </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.po_line_type">Line Type</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.po_line_type">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.po_line_type">1</DD_DATA_LENGTH>
+			<ASC_COMP_ID id="ddm_elements.po_line_type">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.po_line_type">PO </ASC_PROD_ID>
+			<LOCALIZATION_EX id="ddm_elements.po_line_type">N</LOCALIZATION_EX>
+			<DD_CREATE_DATE id="ddm_elements.po_line_type">20090401</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.po_line_type">20090401</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.po_line_type">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.po_line_type">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.po_line_type">L</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.po_line_type">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.po_line_type">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.po_line_type">Line Type</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.po_line_type">Line Type</DD_ATTR_LABS>
+			<DD_ATTR_LDIS id="ddm_elements.po_line_type">D</DD_ATTR_LDIS>
+			<DD_ATTR_MAXL id="ddm_elements.po_line_type">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.po_line_type">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.po_line_type">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.po_line_type">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.dropship">
 			<DD_DATA_NAME id="ddm_elements.dropship">DROPSHIP        </DD_DATA_NAME>
@@ -526,7 +540,8 @@
 			<ASC_COMP_ID id="ddm_elements.gl_exp_acct">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_elements.gl_exp_acct">GL </ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.gl_exp_acct">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.gl_exp_acct">20061018</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.gl_exp_acct">20090403</DD_LSTREV_DATE>
+			<DD_ATTR_BLNK id="ddm_elements.gl_exp_acct">N</DD_ATTR_BLNK>
 			<DD_ATTR_CTLW id="ddm_elements.gl_exp_acct">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_elements.gl_exp_acct">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.gl_exp_acct">E</DD_ATTR_CTYP>
@@ -537,7 +552,13 @@
 			<DD_ATTR_DTAB id="ddm_elements.gl_exp_acct">GLM_ACCT        </DD_ATTR_DTAB>
 			<DD_ATTR_LABL id="ddm_elements.gl_exp_acct">Expense Account</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.gl_exp_acct">Exp Acct</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.gl_exp_acct">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.gl_exp_acct">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.gl_exp_acct">0</DD_ATTR_MINL>
 			<DD_ATTR_MSKI id="ddm_elements.gl_exp_acct">UUUUUUUUUU</DD_ATTR_MSKI>
+			<DD_ATTR_PADC id="ddm_elements.gl_exp_acct">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.gl_exp_acct">L</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.gl_exp_acct">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.gl_ppv_acct">
 			<DD_DATA_NAME id="ddm_elements.gl_ppv_acct">GL_PPV_ACCT     </DD_DATA_NAME>
@@ -563,6 +584,39 @@
 			<DD_ATTR_MSKI id="ddm_elements.gl_ppv_acct">UUUUUUUUUU</DD_ATTR_MSKI>
 			<DD_ATTR_PADC id="ddm_elements.gl_ppv_acct">30</DD_ATTR_PADC>
 			<DD_ATTR_PADJ id="ddm_elements.gl_ppv_acct">L</DD_ATTR_PADJ>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_element_ldat">
+		<ID id="ddm_element_ldat">DDM_ELEMENT_LDAT</ID>
+		<RECORD id="ddm_element_ldat.po_line_type01">
+			<DD_DATA_NAME id="ddm_element_ldat.po_line_type01">PO_LINE_TYPE    </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.po_line_type01">01</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.po_line_type01">S   </DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.po_line_type01">Standard</DD_ATTR_LDAT_DS>
+		</RECORD>
+		<RECORD id="ddm_element_ldat.po_line_type02">
+			<DD_DATA_NAME id="ddm_element_ldat.po_line_type02">PO_LINE_TYPE    </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.po_line_type02">02</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.po_line_type02">M</DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.po_line_type02">Message Line</DD_ATTR_LDAT_DS>
+		</RECORD>
+		<RECORD id="ddm_element_ldat.po_line_type03">
+			<DD_DATA_NAME id="ddm_element_ldat.po_line_type03">PO_LINE_TYPE    </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.po_line_type03">03</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.po_line_type03">N</DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.po_line_type03">Non-Stock</DD_ATTR_LDAT_DS>
+		</RECORD>
+		<RECORD id="ddm_element_ldat.po_line_type04">
+			<DD_DATA_NAME id="ddm_element_ldat.po_line_type04">PO_LINE_TYPE    </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.po_line_type04">04</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.po_line_type04">O</DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.po_line_type04">Other</DD_ATTR_LDAT_DS>
+		</RECORD>
+		<RECORD id="ddm_element_ldat.po_line_type05">
+			<DD_DATA_NAME id="ddm_element_ldat.po_line_type05">PO_LINE_TYPE    </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.po_line_type05">05</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.po_line_type05">V</DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.po_line_type05">Vendor Part No</DD_ATTR_LDAT_DS>
 		</RECORD>
 	</ALIAS>
 </POC_LINECODE>

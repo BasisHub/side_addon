@@ -16,13 +16,13 @@
 			<RESTRICT_AUTOADD id="ddm_tables.gle_jrnldet">N</RESTRICT_AUTOADD>
 			<ASC_COMP_ID id="ddm_tables.gle_jrnldet">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.gle_jrnldet">GL </ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.gle_jrnldet">8.0</ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.gle_jrnldet">9.0</ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.gle_jrnldet">FAFCE34CB870913F9B94767BE6004925</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.gle_jrnldet">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.gle_jrnldet">20061017</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.gle_jrnldet">20090325</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.gle_jrnldet">20090325</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.gle_jrnldet">090422</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.gle_jrnldet">20090630</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.gle_jrnldet">20090630</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.gle_jrnldet">141544</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.gle_jrnldet">[+DIR_CPP]gle_jrnldet_cpt.bbj</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.gle_jrnldet">G</DD_ATTR_FTYP>
 			<DD_ATTR_PTAB id="ddm_tables.gle_jrnldet">GLE_JRNLHDR     </DD_ATTR_PTAB>
@@ -56,6 +56,12 @@
 			<DD_KEY_NUMBER id="ddm_keys.gle_jrnldet00">00</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.gle_jrnldet00">Primary</DD_KEY_DESC>
 			<DD_KEY_ID id="ddm_keys.gle_jrnldet00">PRIMARY         </DD_KEY_ID>
+		</RECORD>
+		<RECORD id="ddm_keys.gle_jrnldet01">
+			<DD_TABLE_ALIAS id="ddm_keys.gle_jrnldet01">GLE_JRNLDET     </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_keys.gle_jrnldet01">01</DD_KEY_NUMBER>
+			<DD_KEY_DESC id="ddm_keys.gle_jrnldet01">By G/L Account Number</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.gle_jrnldet01">BY ACCOUNT      </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_key_segs">
@@ -95,6 +101,66 @@
 			<DD_SEGMENT_POS id="ddm_key_segs.gle_jrnldet0004">0</DD_SEGMENT_POS>
 			<DD_SEGMENT_OFF id="ddm_key_segs.gle_jrnldet0004">0</DD_SEGMENT_OFF>
 			<DD_SEGMENT_LEN id="ddm_key_segs.gle_jrnldet0004">0</DD_SEGMENT_LEN>
+		</RECORD>
+		<RECORD id="ddm_key_segs.gle_jrnldet0101">
+			<DD_TABLE_ALIAS id="ddm_key_segs.gle_jrnldet0101">GLE_JRNLDET     </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.gle_jrnldet0101">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.gle_jrnldet0101">01</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.gle_jrnldet0101">FIRM_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.gle_jrnldet0101">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.gle_jrnldet0101">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.gle_jrnldet0101">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.gle_jrnldet0101">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.gle_jrnldet0101">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.gle_jrnldet0101">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.gle_jrnldet0102">
+			<DD_TABLE_ALIAS id="ddm_key_segs.gle_jrnldet0102">GLE_JRNLDET     </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.gle_jrnldet0102">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.gle_jrnldet0102">02</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.gle_jrnldet0102">GL_ACCOUNT</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.gle_jrnldet0102">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.gle_jrnldet0102">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.gle_jrnldet0102">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.gle_jrnldet0102">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.gle_jrnldet0102">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.gle_jrnldet0102">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.gle_jrnldet0103">
+			<DD_TABLE_ALIAS id="ddm_key_segs.gle_jrnldet0103">GLE_JRNLDET     </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.gle_jrnldet0103">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.gle_jrnldet0103">03</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.gle_jrnldet0103">JOURNAL_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.gle_jrnldet0103">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.gle_jrnldet0103">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.gle_jrnldet0103">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.gle_jrnldet0103">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.gle_jrnldet0103">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.gle_jrnldet0103">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.gle_jrnldet0104">
+			<DD_TABLE_ALIAS id="ddm_key_segs.gle_jrnldet0104">GLE_JRNLDET     </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.gle_jrnldet0104">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.gle_jrnldet0104">04</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.gle_jrnldet0104">JE_TRANS_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.gle_jrnldet0104">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.gle_jrnldet0104">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.gle_jrnldet0104">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.gle_jrnldet0104">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.gle_jrnldet0104">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.gle_jrnldet0104">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.gle_jrnldet0105">
+			<DD_TABLE_ALIAS id="ddm_key_segs.gle_jrnldet0105">GLE_JRNLDET     </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.gle_jrnldet0105">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.gle_jrnldet0105">05</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.gle_jrnldet0105">LINE_NO</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.gle_jrnldet0105">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.gle_jrnldet0105">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.gle_jrnldet0105">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.gle_jrnldet0105">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.gle_jrnldet0105">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.gle_jrnldet0105">N</DD_SEGMENT_MATH>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_cols">

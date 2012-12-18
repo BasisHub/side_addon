@@ -14,14 +14,14 @@
 			<RESTRICT_AUTOADD id="ddm_tables.sar_customer">Y</RESTRICT_AUTOADD>
 			<ASC_COMP_ID id="ddm_tables.sar_customer">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.sar_customer">SA</ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.sar_customer">8.0</ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.sar_customer">9.0</ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.sar_customer">75524166AC29E9A6E2AAEB73A02A4398</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.sar_customer">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.sar_customer">20070722</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.sar_customer">20090325</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.sar_customer">20090325</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.sar_customer">090426</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.sar_customer">[+DIR_CPP]sar_customer_cpt.bbj</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.sar_customer">20090630</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.sar_customer">20090630</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.sar_customer">141458</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.sar_customer">/dev/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.sar_customer">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.sar_customer">[+DIR_PGM]sar_customer.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.sar_customer">Sales Analysis by Customer</DD_ATTR_WINT>
@@ -156,8 +156,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.sar_customer008">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.sar_customer008">20070722</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sar_customer008">20070722</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.sar_customer008">[+DIR_CPP]sar_customer_cpt.bbj</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.sar_customer008">/dev/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.sar_customer008">30</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.sar_customer008">0</DD_ATTR_CTLH>
 			<DD_ATTR_DFLT id="ddm_table_cols.sar_customer008">N</DD_ATTR_DFLT>
 			<DD_ATTR_MAXL id="ddm_table_cols.sar_customer008">1</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.sar_customer008">8</DD_ATTR_TIND>
@@ -170,7 +171,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.sar_customer009">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.sar_customer009">20070722</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sar_customer009">20070722</DD_LSTREV_DATE>
-			<DD_ATTR_ABLC id="ddm_table_cols.sar_customer009">SAR_CUSTOMER.12_PER_REPORT</DD_ATTR_ABLC>
+			<DD_ATTR_ABLC id="ddm_table_cols.sar_customer009">SAR_CUSTOMER.TWLVE_PER_REPORT</DD_ATTR_ABLC>
 			<DD_ATTR_ABLV id="ddm_table_cols.sar_customer009">Y</DD_ATTR_ABLV>
 			<DD_ATTR_CTLW id="ddm_table_cols.sar_customer009">60</DD_ATTR_CTLW>
 			<DD_ATTR_MAXL id="ddm_table_cols.sar_customer009">1</DD_ATTR_MAXL>
@@ -184,6 +185,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.sar_customer010">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.sar_customer010">20070722</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sar_customer010">20070722</DD_LSTREV_DATE>
+			<DD_ATTR_ABLC id="ddm_table_cols.sar_customer010">SAR_CUSTOMER.TWLVE_PER_REPORT</DD_ATTR_ABLC>
 			<DD_ATTR_ABLV id="ddm_table_cols.sar_customer010">N</DD_ATTR_ABLV>
 			<DD_ATTR_CTLW id="ddm_table_cols.sar_customer010">30</DD_ATTR_CTLW>
 			<DD_ATTR_DFLT id="ddm_table_cols.sar_customer010">Y</DD_ATTR_DFLT>
@@ -198,6 +200,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.sar_customer011">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.sar_customer011">20070722</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sar_customer011">20070722</DD_LSTREV_DATE>
+			<DD_ATTR_ABLC id="ddm_table_cols.sar_customer011">SAR_CUSTOMER.TWLVE_PER_REPORT</DD_ATTR_ABLC>
 			<DD_ATTR_ABLV id="ddm_table_cols.sar_customer011">N</DD_ATTR_ABLV>
 			<DD_ATTR_CTLX id="ddm_table_cols.sar_customer011">+6</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_cols.sar_customer011">-1</DD_ATTR_CTLY>
@@ -214,6 +217,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.sar_customer012">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.sar_customer012">20070722</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sar_customer012">20070722</DD_LSTREV_DATE>
+			<DD_ATTR_ABLC id="ddm_table_cols.sar_customer012">SAR_CUSTOMER.TWLVE_PER_REPORT</DD_ATTR_ABLC>
 			<DD_ATTR_ABLV id="ddm_table_cols.sar_customer012">N</DD_ATTR_ABLV>
 			<DD_ATTR_CTLX id="ddm_table_cols.sar_customer012">+6</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_cols.sar_customer012">-1</DD_ATTR_CTLY>
@@ -248,6 +252,14 @@
 			<DD_ATTR_DFLT id="ddm_table_cols.sar_customer014">N</DD_ATTR_DFLT>
 			<DD_ATTR_MAXL id="ddm_table_cols.sar_customer014">1</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.sar_customer014">14</DD_ATTR_TIND>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_column_cpro">
+		<ID id="ddm_column_cpro">DDM_COLUMN_CPRO</ID>
+		<RECORD id="ddm_column_cpro.sar_customertwlve_per_reportaval">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.sar_customertwlve_per_reportaval">SAR_CUSTOMER    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.sar_customertwlve_per_reportaval">TWLVE_PER_REPORT</DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.sar_customertwlve_per_reportaval">AVAL</DD_ATTR_CPRO>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_ldat">

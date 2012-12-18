@@ -14,13 +14,13 @@
 			<DD_SYSTEM_REC id="ddm_tables.opc_msg_det">N</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_tables.opc_msg_det">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.opc_msg_det">AR </ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.opc_msg_det">8.0</ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.opc_msg_det">9.0</ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.opc_msg_det">9E5A691F3B0335DB1024A096709E75E8</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.opc_msg_det">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.opc_msg_det">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.opc_msg_det">20090325</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.opc_msg_det">20090325</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.opc_msg_det">090422</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.opc_msg_det">20090630</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.opc_msg_det">20090630</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.opc_msg_det">141520</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.opc_msg_det">G</DD_ATTR_FTYP>
 			<DD_ATTR_PTAB id="ddm_tables.opc_msg_det">OPC_MSG_HDR     </DD_ATTR_PTAB>
 			<DD_ATTR_SLEV id="ddm_tables.opc_msg_det">zzzz</DD_ATTR_SLEV>
@@ -146,7 +146,7 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.opc_msg_det004">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.opc_msg_det004">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.opc_msg_det004">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.opc_msg_det004">[+DIR_CPP]opc_msg_det_cpt.bbj</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.opc_msg_det004">/dev/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_MAXL id="ddm_table_cols.opc_msg_det004">40</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.opc_msg_det004">Message Text</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.opc_msg_det004">4</DD_ATTR_TIND>
@@ -212,7 +212,7 @@
 			<ASC_PROD_ID id="ddm_elements.message_code">AR </ASC_PROD_ID>
 			<LOCALIZATION_EX id="ddm_elements.message_code">N</LOCALIZATION_EX>
 			<DD_CREATE_DATE id="ddm_elements.message_code">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.message_code">20080806</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.message_code">20090520</DD_LSTREV_DATE>
 			<DD_ATTR_BLNK id="ddm_elements.message_code">N</DD_ATTR_BLNK>
 			<DD_ATTR_CTLW id="ddm_elements.message_code">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_elements.message_code">0</DD_ATTR_CTLH>
@@ -227,6 +227,9 @@
 			<DD_ATTR_MAXL id="ddm_elements.message_code">0</DD_ATTR_MAXL>
 			<DD_ATTR_MAXR id="ddm_elements.message_code">0</DD_ATTR_MAXR>
 			<DD_ATTR_MINL id="ddm_elements.message_code">0</DD_ATTR_MINL>
+			<DD_ATTR_MSKI id="ddm_elements.message_code">UU</DD_ATTR_MSKI>
+			<DD_ATTR_PADC id="ddm_elements.message_code">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.message_code">R</DD_ATTR_PADJ>
 			<DD_ATTR_PREC id="ddm_elements.message_code">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.message_seq">

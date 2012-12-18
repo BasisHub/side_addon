@@ -13,14 +13,14 @@
 			<DD_SYSTEM_REC id="ddm_tables.ivs_defaults">N</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_tables.ivs_defaults">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.ivs_defaults">AD </ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.ivs_defaults">8.0</ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.ivs_defaults">9.0</ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.ivs_defaults">C6A89C234C7AE0319F4860CB61D21D7E</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ivs_defaults">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ivs_defaults">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ivs_defaults">20090325</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivs_defaults">20090325</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivs_defaults">090418</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.ivs_defaults">[+DIR_CPP]ivs_defaults_cpt.bbj</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.ivs_defaults">20090630</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivs_defaults">20090630</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivs_defaults">141530</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.ivs_defaults">/dev/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ivs_defaults">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.ivs_defaults">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.ivs_defaults">Item Default Values</DD_ATTR_WINT>
@@ -307,7 +307,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ivs_defaults016">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ivs_defaults016">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivs_defaults016">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ivs_defaults016">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivs_defaults016">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ivs_defaults016">24</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivs_defaults017">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivs_defaults017">IVS_DEFAULTS    </DD_TABLE_ALIAS>
@@ -335,6 +337,8 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ivs_defaults018">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ivs_defaults018">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivs_defaults018">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.ivs_defaults018">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.ivs_defaults018">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.ivs_defaults018">3</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivs_defaults018">Item Type</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivs_defaults018">13</DD_ATTR_TIND>
@@ -350,7 +354,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.ivs_defaults019">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.ivs_defaults019">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivs_defaults019">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ivs_defaults019">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivs_defaults019">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ivs_defaults019">25</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivs_defaults020">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivs_defaults020">IVS_DEFAULTS    </DD_TABLE_ALIAS>
@@ -806,9 +812,12 @@
 			<DD_DATA_LENGTH id="ddm_elements.item_type">3</DD_DATA_LENGTH>
 			<DD_MASK_TYPE id="ddm_elements.item_type"> </DD_MASK_TYPE>
 			<ASC_COMP_ID id="ddm_elements.item_type">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.item_type">AON</ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.item_type">IV </ASC_PROD_ID>
+			<LOCALIZATION_EX id="ddm_elements.item_type">N</LOCALIZATION_EX>
 			<DD_CREATE_DATE id="ddm_elements.item_type">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.item_type">20070612</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.item_type">20090413</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.item_type">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.item_type">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.item_type">E</DD_ATTR_CTYP>
 			<DD_ATTR_DCOL id="ddm_elements.item_type">CODE_DESC       </DD_ATTR_DCOL>
 			<DD_ATTR_DCOM id="ddm_elements.item_type">            </DD_ATTR_DCOM>
@@ -817,6 +826,13 @@
 			<DD_ATTR_DTAB id="ddm_elements.item_type">IVC_TYPECODE    </DD_ATTR_DTAB>
 			<DD_ATTR_LABL id="ddm_elements.item_type">Item Type</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.item_type">Item Type</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.item_type">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.item_type">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.item_type">0</DD_ATTR_MINL>
+			<DD_ATTR_MSKI id="ddm_elements.item_type">UUU</DD_ATTR_MSKI>
+			<DD_ATTR_PADC id="ddm_elements.item_type">20</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.item_type">L</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.item_type">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.gl_inv_acct">
 			<DD_DATA_NAME id="ddm_elements.gl_inv_acct">GL_INV_ACCT     </DD_DATA_NAME>

@@ -10,17 +10,17 @@
 			<DD_ALIAS_TYPE id="ddm_tables.poe_repsel">V</DD_ALIAS_TYPE>
 			<DD_KEY_LENGTH id="ddm_tables.poe_repsel">0</DD_KEY_LENGTH>
 			<DD_NBR_RECORD id="ddm_tables.poe_repsel">0</DD_NBR_RECORD>
-			<DD_RECORD_LEN id="ddm_tables.poe_repsel">128</DD_RECORD_LEN>
+			<DD_RECORD_LEN id="ddm_tables.poe_repsel">0</DD_RECORD_LEN>
 			<DD_SYSTEM_REC id="ddm_tables.poe_repsel">N</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_tables.poe_repsel">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.poe_repsel">PO </ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.poe_repsel">8.0</ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.poe_repsel">9.0</ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.poe_repsel">6D8237B3A1B250590911DB4E422B2E2C</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.poe_repsel">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.poe_repsel">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.poe_repsel">20090325</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.poe_repsel">20090325</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.poe_repsel">090426</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.poe_repsel">20090630</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.poe_repsel">20090630</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.poe_repsel">141512</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.poe_repsel">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.poe_repsel">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.poe_repsel">Replenishment Selections</DD_ATTR_WINT>
@@ -31,7 +31,7 @@
 		<RECORD id="ddm_table_tpls.poe_repsel">
 			<DD_TABLE_ALIAS id="ddm_table_tpls.poe_repsel">POE_REPSEL      </DD_TABLE_ALIAS>
 			<DD_FILE_NAME id="ddm_table_tpls.poe_repsel">poe-07</DD_FILE_NAME>
-			<DD_TABLE_TPL id="ddm_table_tpls.poe_repsel">firm_id:c(2),sequence_num:c(2*),begin_vend:c(6),ending_vend:c(6),beg_buyer:c(3),end_buyer:c(3),reserved_str:c(6),rep_comments:c(30),from_whse:c(2),thru_whse:c(2),reserved_str_02:c(16),begrev_date:c(8),revendor_date:c(8*)</DD_TABLE_TPL>
+			<DD_TABLE_TPL id="ddm_table_tpls.poe_repsel">firm_id:c(2),sequence_num:c(2*),begin_vend:c(6),ending_vend:c(6),beg_buyer:c(3),end_buyer:c(3),reserved_str:c(6),rep_comments:c(30),from_whse:c(2),thru_whse:c(2),reserved_str_02:c(16),begrev_date:c(8),endrev_date:c(8*)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_keys">
@@ -58,7 +58,7 @@
 			<DD_TABLE_ALIAS id="ddm_key_segs.poe_repsel0002">POE_REPSEL      </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_key_segs.poe_repsel0002">00</DD_KEY_NUMBER>
 			<DD_SEGMENT_SEQ id="ddm_key_segs.poe_repsel0002">02</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL id="ddm_key_segs.poe_repsel0002">SEQUENCE_NUM    </DD_SEGMENT_COL>
+			<DD_SEGMENT_COL id="ddm_key_segs.poe_repsel0002">SEQUENCE_NUM</DD_SEGMENT_COL>
 			<DD_SEGMENT_POS id="ddm_key_segs.poe_repsel0002">0</DD_SEGMENT_POS>
 			<DD_SEGMENT_OFF id="ddm_key_segs.poe_repsel0002">0</DD_SEGMENT_OFF>
 			<DD_SEGMENT_LEN id="ddm_key_segs.poe_repsel0002">0</DD_SEGMENT_LEN>
@@ -76,7 +76,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_repsel001">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_repsel001">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_repsel001">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_repsel001">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_repsel001">Firm ID</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_repsel001">1</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_repsel002">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_repsel002">POE_REPSEL      </DD_TABLE_ALIAS>
@@ -89,7 +91,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_repsel002">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_repsel002">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_repsel002">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_repsel002">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_repsel002">Sequence Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_repsel002">2</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_repsel003">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_repsel003">POE_REPSEL      </DD_TABLE_ALIAS>
@@ -101,7 +105,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_repsel003">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_repsel003">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_repsel003">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_repsel003">6</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_repsel003">Beginning Vendor</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_repsel003">5</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_repsel004">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_repsel004">POE_REPSEL      </DD_TABLE_ALIAS>
@@ -113,7 +119,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_repsel004">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_repsel004">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_repsel004">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_repsel004">6</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_repsel004">Ending Vendor</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_repsel004">6</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_repsel005">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_repsel005">POE_REPSEL      </DD_TABLE_ALIAS>
@@ -125,7 +133,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_repsel005">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_repsel005">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_repsel005">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_repsel005">3</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_repsel005">Beginning Buyer Code</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_repsel005">3</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_repsel006">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_repsel006">POE_REPSEL      </DD_TABLE_ALIAS>
@@ -137,7 +147,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_repsel006">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_repsel006">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_repsel006">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_repsel006">3</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_repsel006">Ending Buyer Code</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_repsel006">4</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_repsel007">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_repsel007">POE_REPSEL      </DD_TABLE_ALIAS>
@@ -149,7 +161,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_repsel007">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_repsel007">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_repsel007">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_repsel007">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_repsel007">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_repsel007">7</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_repsel008">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_repsel008">POE_REPSEL      </DD_TABLE_ALIAS>
@@ -161,7 +175,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_repsel008">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_repsel008">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_repsel008">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_repsel008">30</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_repsel008">Replenishment Comments</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_repsel008">12</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_repsel009">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_repsel009">POE_REPSEL      </DD_TABLE_ALIAS>
@@ -173,7 +189,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_repsel009">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_repsel009">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_repsel009">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_repsel009">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_repsel009">"From" Warehouse ID</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_repsel009">10</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_repsel010">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_repsel010">POE_REPSEL      </DD_TABLE_ALIAS>
@@ -185,7 +203,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_repsel010">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_repsel010">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_repsel010">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_repsel010">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_repsel010">"Thru" Warehouse ID</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_repsel010">11</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_repsel011">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_repsel011">POE_REPSEL      </DD_TABLE_ALIAS>
@@ -197,7 +217,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_repsel011">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_repsel011">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_repsel011">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_repsel011">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_repsel011">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_repsel011">13</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_repsel012">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_repsel012">POE_REPSEL      </DD_TABLE_ALIAS>
@@ -209,20 +231,24 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_repsel012">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_repsel012">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_repsel012">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_repsel012">8</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_repsel012">Beginning Review Date</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_repsel012">8</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_repsel013">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_repsel013">POE_REPSEL      </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_cols.poe_repsel013">013</DD_SEQUENCE>
-			<DD_DATA_NAME id="ddm_table_cols.poe_repsel013">REVENDOR_DATE   </DD_DATA_NAME>
-			<DD_DVAR_NAME id="ddm_table_cols.poe_repsel013">REVENDOR_DATE   </DD_DVAR_NAME>
+			<DD_DATA_NAME id="ddm_table_cols.poe_repsel013">ENDREV_DATE     </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.poe_repsel013">ENDREV_DATE     </DD_DVAR_NAME>
 			<DD_COL_REPEATS id="ddm_table_cols.poe_repsel013">1</DD_COL_REPEATS>
 			<DD_COL_OCCURS id="ddm_table_cols.poe_repsel013">0</DD_COL_OCCURS>
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_repsel013">Y</DD_FIELD_DELIM>
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_repsel013">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_repsel013">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_repsel013">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_repsel013">8</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_repsel013">Ending Review Date</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_repsel013">9</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">
@@ -231,6 +257,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.poe_repselfirm_ido">POE_REPSEL      </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.poe_repselfirm_ido">FIRM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.poe_repselfirm_ido">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.poe_repselsequence_numc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poe_repselsequence_numc">POE_REPSEL      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poe_repselsequence_numc">SEQUENCE_NUM    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poe_repselsequence_numc">C</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">
@@ -409,37 +440,51 @@
 		</RECORD>
 		<RECORD id="ddm_elements.begrev_date">
 			<DD_DATA_NAME id="ddm_elements.begrev_date">BEGREV_DATE     </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.begrev_date">Beginning Review Date         </DD_DESCRIPTION>
+			<DD_DESCRIPTION id="ddm_elements.begrev_date">Beginning Review Date</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.begrev_date">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.begrev_date">8</DD_DATA_LENGTH>
 			<DD_MASK_TYPE id="ddm_elements.begrev_date"> </DD_MASK_TYPE>
 			<ASC_COMP_ID id="ddm_elements.begrev_date">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.begrev_date">AON</ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.begrev_date">PO </ASC_PROD_ID>
+			<LOCALIZATION_EX id="ddm_elements.begrev_date">N</LOCALIZATION_EX>
 			<DD_CREATE_DATE id="ddm_elements.begrev_date">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.begrev_date">20060119</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.begrev_date">20090415</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.begrev_date">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.begrev_date">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.begrev_date">D</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.begrev_date">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.begrev_date">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.begrev_date">Beginning Review Date</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.begrev_date">Beg Review Date</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.begrev_date">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.begrev_date">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.begrev_date">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.begrev_date">0</DD_ATTR_PREC>
 			<DD_ATTR_STYP id="ddm_elements.begrev_date">1</DD_ATTR_STYP>
 		</RECORD>
-		<RECORD id="ddm_elements.revendor_date">
-			<DD_DATA_NAME id="ddm_elements.revendor_date">REVENDOR_DATE   </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.revendor_date">Ending Review Date            </DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.revendor_date">C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.revendor_date">8</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.revendor_date"> </DD_MASK_TYPE>
-			<ASC_COMP_ID id="ddm_elements.revendor_date">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.revendor_date">AON</ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.revendor_date">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.revendor_date">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP id="ddm_elements.revendor_date">D</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM id="ddm_elements.revendor_date">            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP id="ddm_elements.revendor_date">            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL id="ddm_elements.revendor_date">Ending Review Date</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.revendor_date">End Review Date</DD_ATTR_LABS>
-			<DD_ATTR_STYP id="ddm_elements.revendor_date">1</DD_ATTR_STYP>
+		<RECORD id="ddm_elements.endrev_date">
+			<DD_DATA_NAME id="ddm_elements.endrev_date">ENDREV_DATE     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.endrev_date">Ending Review Date</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.endrev_date">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.endrev_date">8</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.endrev_date"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.endrev_date">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.endrev_date">PO </ASC_PROD_ID>
+			<LOCALIZATION_EX id="ddm_elements.endrev_date">N</LOCALIZATION_EX>
+			<DD_CREATE_DATE id="ddm_elements.endrev_date">20090415</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.endrev_date">20090415</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.endrev_date">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.endrev_date">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.endrev_date">D</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.endrev_date">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.endrev_date">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.endrev_date">Ending Review Date</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.endrev_date">End Review Date</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.endrev_date">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.endrev_date">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.endrev_date">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.endrev_date">0</DD_ATTR_PREC>
+			<DD_ATTR_STYP id="ddm_elements.endrev_date">1</DD_ATTR_STYP>
 		</RECORD>
 	</ALIAS>
 </POE_REPSEL>

@@ -14,13 +14,13 @@
 			<DD_SYSTEM_REC id="ddm_tables.pot_rechdr">N</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_tables.pot_rechdr">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.pot_rechdr">PO </ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.pot_rechdr">8.0</ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.pot_rechdr">9.0</ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.pot_rechdr">3E2FF8EDD6CE6BF3267B0E7B6E3381D7</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.pot_rechdr">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.pot_rechdr">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.pot_rechdr">20090325</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.pot_rechdr">20090325</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.pot_rechdr">090424</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.pot_rechdr">20090630</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.pot_rechdr">20090630</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.pot_rechdr">141508</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.pot_rechdr">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.pot_rechdr">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.pot_rechdr">PO Receipt History Header</DD_ATTR_WINT>
@@ -31,7 +31,7 @@
 		<RECORD id="ddm_table_tpls.pot_rechdr">
 			<DD_TABLE_ALIAS id="ddm_table_tpls.pot_rechdr">POT_RECHDR      </DD_TABLE_ALIAS>
 			<DD_FILE_NAME id="ddm_table_tpls.pot_rechdr">pot-04</DD_FILE_NAME>
-			<DD_TABLE_TPL id="ddm_table_tpls.pot_rechdr">firm_id:c(2),po_no:c(7),receiver_no:c(7*),vendor_id:c(6),warehouse_id:c(2),purch_addr:c(2),reserved_str:c(30),hold_flag:c(1),reserved_str_02:c(1),ap_terms_code:c(2),reserved_str_03:c(4),po_frt_terms:c(15),ap_ship_via:c(15),acknowledge:c(20),fob:c(15),po_msg_code:c(3),req_no:c(7),packing_list:c(15),rec_complete:c(1),reserved_str_04:c(26),ord_date:c(8),promise_date:c(8),not_b4_date:c(8),reqd_date:c(8),recpt_date:c(8*),dropship:c(1),customer_id:c(6),order_no:c(7),shipto_no:c(6),name:c(30),addr_line_1:c(24),addr_line_2:c(24),addr_line_3:c(24),addr_line_4:c(24),city:c(22),state_code:c(2),zip_code:c(9),reserved_str_05:c(1*),dealer_str:c(1*),reserved_num_01:n(1*),reserved_num_02:n(1*),reserved_num_03:n(1*),reserved_num_04:n(1*),reserved_num_05:n(1*),reserved_num_06:n(1*),dealer_num_01:n(1*),dealer_num_02:n(1*),dealer_num_03:n(1*)</DD_TABLE_TPL>
+			<DD_TABLE_TPL id="ddm_table_tpls.pot_rechdr">firm_id:c(2),po_no:c(7),receiver_no:c(7*),vendor_id:c(6),warehouse_id:c(2),purch_addr:c(2),reserved_str:c(30),hold_flag:c(1),reserved_str_02:c(1),ap_terms_code:c(2),reserved_str_03:c(4),po_frt_terms:c(15),ap_ship_via:c(15),acknowledge:c(20),fob:c(15),po_msg_code:c(3),req_no:c(7),packing_list:c(15),rec_complete:c(1),reserved_str_04:c(26),ord_date:c(8),promise_date:c(8),not_b4_date:c(8),reqd_date:c(8),recpt_date:c(8*),dropship:c(1),customer_id:c(6),order_no:c(7),shipto_no:c(6),ds_name:c(30),ds_addr_line_1:c(24),ds_addr_line_2:c(24),ds_addr_line_3:c(24),ds_addr_line_4:c(24),ds_city:c(22),ds_state_code:c(2),ds_zip_code:c(9),reserved_str_05:c(1*),dealer_str:c(1*),reserved_num_01:n(1*),reserved_num_02:n(1*),reserved_num_03:n(1*),reserved_num_04:n(1*),reserved_num_05:n(1*),reserved_num_06:n(1*),dealer_num_01:n(1*),dealer_num_02:n(1*),dealer_num_03:n(1*)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_keys">
@@ -53,6 +53,12 @@
 			<DD_KEY_NUMBER id="ddm_keys.pot_rechdr02">02</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.pot_rechdr02">Vend/PO/Recvr</DD_KEY_DESC>
 			<DD_KEY_ID id="ddm_keys.pot_rechdr02">VEND_PO_REC     </DD_KEY_ID>
+		</RECORD>
+		<RECORD id="ddm_keys.pot_rechdr03">
+			<DD_TABLE_ALIAS id="ddm_keys.pot_rechdr03">POT_RECHDR      </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_keys.pot_rechdr03">03</DD_KEY_NUMBER>
+			<DD_KEY_DESC id="ddm_keys.pot_rechdr03">Vendor/PO</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.pot_rechdr03">VEND_PO         </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_key_segs">
@@ -176,6 +182,42 @@
 			<DD_SEGMENT_SORT id="ddm_key_segs.pot_rechdr0204">N</DD_SEGMENT_SORT>
 			<DD_SEGMENT_UNIQ id="ddm_key_segs.pot_rechdr0204">N</DD_SEGMENT_UNIQ>
 			<DD_SEGMENT_MATH id="ddm_key_segs.pot_rechdr0204">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.pot_rechdr0301">
+			<DD_TABLE_ALIAS id="ddm_key_segs.pot_rechdr0301">POT_RECHDR      </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.pot_rechdr0301">03</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.pot_rechdr0301">01</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.pot_rechdr0301">FIRM_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.pot_rechdr0301">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.pot_rechdr0301">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.pot_rechdr0301">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.pot_rechdr0301">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.pot_rechdr0301">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.pot_rechdr0301">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.pot_rechdr0302">
+			<DD_TABLE_ALIAS id="ddm_key_segs.pot_rechdr0302">POT_RECHDR      </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.pot_rechdr0302">03</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.pot_rechdr0302">02</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.pot_rechdr0302">VENDOR_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.pot_rechdr0302">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.pot_rechdr0302">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.pot_rechdr0302">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.pot_rechdr0302">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.pot_rechdr0302">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.pot_rechdr0302">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.pot_rechdr0303">
+			<DD_TABLE_ALIAS id="ddm_key_segs.pot_rechdr0303">POT_RECHDR      </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.pot_rechdr0303">03</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.pot_rechdr0303">03</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.pot_rechdr0303">PO_NO</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.pot_rechdr0303">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.pot_rechdr0303">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.pot_rechdr0303">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.pot_rechdr0303">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.pot_rechdr0303">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.pot_rechdr0303">N</DD_SEGMENT_MATH>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_cols">
@@ -574,7 +616,7 @@
 			<DD_TABLE_ALIAS id="ddm_table_cols.pot_rechdr030">POT_RECHDR      </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_cols.pot_rechdr030">030</DD_SEQUENCE>
 			<DD_DATA_NAME id="ddm_table_cols.pot_rechdr030">NAME            </DD_DATA_NAME>
-			<DD_DVAR_NAME id="ddm_table_cols.pot_rechdr030">NAME            </DD_DVAR_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.pot_rechdr030">DS_NAME         </DD_DVAR_NAME>
 			<DD_COL_REPEATS id="ddm_table_cols.pot_rechdr030">0</DD_COL_REPEATS>
 			<DD_COL_OCCURS id="ddm_table_cols.pot_rechdr030">0</DD_COL_OCCURS>
 			<DD_FIELD_DELIM id="ddm_table_cols.pot_rechdr030">N</DD_FIELD_DELIM>
@@ -594,7 +636,7 @@
 			<DD_TABLE_ALIAS id="ddm_table_cols.pot_rechdr031">POT_RECHDR      </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_cols.pot_rechdr031">031</DD_SEQUENCE>
 			<DD_DATA_NAME id="ddm_table_cols.pot_rechdr031">ADDR_LINE_1     </DD_DATA_NAME>
-			<DD_DVAR_NAME id="ddm_table_cols.pot_rechdr031">ADDR_LINE_1     </DD_DVAR_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.pot_rechdr031">DS_ADDR_LINE_1  </DD_DVAR_NAME>
 			<DD_COL_REPEATS id="ddm_table_cols.pot_rechdr031">0</DD_COL_REPEATS>
 			<DD_COL_OCCURS id="ddm_table_cols.pot_rechdr031">0</DD_COL_OCCURS>
 			<DD_FIELD_DELIM id="ddm_table_cols.pot_rechdr031">N</DD_FIELD_DELIM>
@@ -614,7 +656,7 @@
 			<DD_TABLE_ALIAS id="ddm_table_cols.pot_rechdr032">POT_RECHDR      </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_cols.pot_rechdr032">032</DD_SEQUENCE>
 			<DD_DATA_NAME id="ddm_table_cols.pot_rechdr032">ADDR_LINE_2     </DD_DATA_NAME>
-			<DD_DVAR_NAME id="ddm_table_cols.pot_rechdr032">ADDR_LINE_2     </DD_DVAR_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.pot_rechdr032">DS_ADDR_LINE_2  </DD_DVAR_NAME>
 			<DD_COL_REPEATS id="ddm_table_cols.pot_rechdr032">0</DD_COL_REPEATS>
 			<DD_COL_OCCURS id="ddm_table_cols.pot_rechdr032">0</DD_COL_OCCURS>
 			<DD_FIELD_DELIM id="ddm_table_cols.pot_rechdr032">N</DD_FIELD_DELIM>
@@ -634,7 +676,7 @@
 			<DD_TABLE_ALIAS id="ddm_table_cols.pot_rechdr033">POT_RECHDR      </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_cols.pot_rechdr033">033</DD_SEQUENCE>
 			<DD_DATA_NAME id="ddm_table_cols.pot_rechdr033">ADDR_LINE_3     </DD_DATA_NAME>
-			<DD_DVAR_NAME id="ddm_table_cols.pot_rechdr033">ADDR_LINE_3     </DD_DVAR_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.pot_rechdr033">DS_ADDR_LINE_3  </DD_DVAR_NAME>
 			<DD_COL_REPEATS id="ddm_table_cols.pot_rechdr033">0</DD_COL_REPEATS>
 			<DD_COL_OCCURS id="ddm_table_cols.pot_rechdr033">0</DD_COL_OCCURS>
 			<DD_FIELD_DELIM id="ddm_table_cols.pot_rechdr033">N</DD_FIELD_DELIM>
@@ -654,7 +696,7 @@
 			<DD_TABLE_ALIAS id="ddm_table_cols.pot_rechdr034">POT_RECHDR      </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_cols.pot_rechdr034">034</DD_SEQUENCE>
 			<DD_DATA_NAME id="ddm_table_cols.pot_rechdr034">ADDR_LINE_4     </DD_DATA_NAME>
-			<DD_DVAR_NAME id="ddm_table_cols.pot_rechdr034">ADDR_LINE_4     </DD_DVAR_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.pot_rechdr034">DS_ADDR_LINE_4  </DD_DVAR_NAME>
 			<DD_COL_REPEATS id="ddm_table_cols.pot_rechdr034">0</DD_COL_REPEATS>
 			<DD_COL_OCCURS id="ddm_table_cols.pot_rechdr034">0</DD_COL_OCCURS>
 			<DD_FIELD_DELIM id="ddm_table_cols.pot_rechdr034">N</DD_FIELD_DELIM>
@@ -674,7 +716,7 @@
 			<DD_TABLE_ALIAS id="ddm_table_cols.pot_rechdr035">POT_RECHDR      </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_cols.pot_rechdr035">035</DD_SEQUENCE>
 			<DD_DATA_NAME id="ddm_table_cols.pot_rechdr035">CITY            </DD_DATA_NAME>
-			<DD_DVAR_NAME id="ddm_table_cols.pot_rechdr035">CITY            </DD_DVAR_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.pot_rechdr035">DS_CITY         </DD_DVAR_NAME>
 			<DD_COL_REPEATS id="ddm_table_cols.pot_rechdr035">0</DD_COL_REPEATS>
 			<DD_COL_OCCURS id="ddm_table_cols.pot_rechdr035">0</DD_COL_OCCURS>
 			<DD_FIELD_DELIM id="ddm_table_cols.pot_rechdr035">N</DD_FIELD_DELIM>
@@ -694,7 +736,7 @@
 			<DD_TABLE_ALIAS id="ddm_table_cols.pot_rechdr036">POT_RECHDR      </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_cols.pot_rechdr036">036</DD_SEQUENCE>
 			<DD_DATA_NAME id="ddm_table_cols.pot_rechdr036">STATE_CODE      </DD_DATA_NAME>
-			<DD_DVAR_NAME id="ddm_table_cols.pot_rechdr036">STATE_CODE      </DD_DVAR_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.pot_rechdr036">DS_STATE_CODE   </DD_DVAR_NAME>
 			<DD_COL_REPEATS id="ddm_table_cols.pot_rechdr036">0</DD_COL_REPEATS>
 			<DD_COL_OCCURS id="ddm_table_cols.pot_rechdr036">0</DD_COL_OCCURS>
 			<DD_FIELD_DELIM id="ddm_table_cols.pot_rechdr036">N</DD_FIELD_DELIM>
@@ -714,7 +756,7 @@
 			<DD_TABLE_ALIAS id="ddm_table_cols.pot_rechdr037">POT_RECHDR      </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_cols.pot_rechdr037">037</DD_SEQUENCE>
 			<DD_DATA_NAME id="ddm_table_cols.pot_rechdr037">ZIP_CODE        </DD_DATA_NAME>
-			<DD_DVAR_NAME id="ddm_table_cols.pot_rechdr037">ZIP_CODE        </DD_DVAR_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.pot_rechdr037">DS_ZIP_CODE     </DD_DVAR_NAME>
 			<DD_COL_REPEATS id="ddm_table_cols.pot_rechdr037">0</DD_COL_REPEATS>
 			<DD_COL_OCCURS id="ddm_table_cols.pot_rechdr037">0</DD_COL_OCCURS>
 			<DD_FIELD_DELIM id="ddm_table_cols.pot_rechdr037">N</DD_FIELD_DELIM>

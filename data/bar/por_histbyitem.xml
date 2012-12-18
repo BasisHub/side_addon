@@ -12,16 +12,23 @@
 			<DD_RECORD_LEN id="ddm_tables.por_histbyitem">0</DD_RECORD_LEN>
 			<ASC_COMP_ID id="ddm_tables.por_histbyitem">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.por_histbyitem">PO</ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.por_histbyitem">8.0</ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.por_histbyitem">9.0</ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.por_histbyitem">EFD2FF19C89FE07753C59422674A52B3</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.por_histbyitem">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.por_histbyitem">20071103</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.por_histbyitem">20090325</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.por_histbyitem">20090325</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.por_histbyitem">090420</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.por_histbyitem">20090630</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.por_histbyitem">20090630</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.por_histbyitem">141510</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.por_histbyitem">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.por_histbyitem">[+DIR_PGM]por_histbyitem.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.por_histbyitem">PO Receipt History By Item</DD_ATTR_WINT>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_opts">
+		<ID id="ddm_table_opts">DDM_TABLE_OPTS</ID>
+		<RECORD id="ddm_table_opts.por_histbyitemx">
+			<DD_TABLE_ALIAS id="ddm_table_opts.por_histbyitemx">POR_HISTBYITEM  </DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.por_histbyitemx">X</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_tpls">
@@ -42,6 +49,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.por_histbyitem001">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.por_histbyitem001">20071103</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.por_histbyitem001">20071103</DD_LSTREV_DATE>
+			<DD_ATTR_CTLX id="ddm_table_cols.por_histbyitem001">+4</DD_ATTR_CTLX>
+			<DD_ATTR_CTLW id="ddm_table_cols.por_histbyitem001">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.por_histbyitem001">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.por_histbyitem001">2</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.por_histbyitem001">1</DD_ATTR_TIND>
 		</RECORD>
@@ -77,6 +87,8 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.por_histbyitem004">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.por_histbyitem004">20071103</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.por_histbyitem004">20071103</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.por_histbyitem004">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.por_histbyitem004">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.por_histbyitem004">3</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.por_histbyitem004">4</DD_ATTR_TIND>
 		</RECORD>
@@ -204,9 +216,12 @@
 			<DD_DATA_LENGTH id="ddm_elements.item_type">3</DD_DATA_LENGTH>
 			<DD_MASK_TYPE id="ddm_elements.item_type"> </DD_MASK_TYPE>
 			<ASC_COMP_ID id="ddm_elements.item_type">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.item_type">AON</ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.item_type">IV </ASC_PROD_ID>
+			<LOCALIZATION_EX id="ddm_elements.item_type">N</LOCALIZATION_EX>
 			<DD_CREATE_DATE id="ddm_elements.item_type">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.item_type">20070612</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.item_type">20090413</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.item_type">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.item_type">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.item_type">E</DD_ATTR_CTYP>
 			<DD_ATTR_DCOL id="ddm_elements.item_type">CODE_DESC       </DD_ATTR_DCOL>
 			<DD_ATTR_DCOM id="ddm_elements.item_type">            </DD_ATTR_DCOM>
@@ -215,6 +230,13 @@
 			<DD_ATTR_DTAB id="ddm_elements.item_type">IVC_TYPECODE    </DD_ATTR_DTAB>
 			<DD_ATTR_LABL id="ddm_elements.item_type">Item Type</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.item_type">Item Type</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.item_type">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.item_type">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.item_type">0</DD_ATTR_MINL>
+			<DD_ATTR_MSKI id="ddm_elements.item_type">UUU</DD_ATTR_MSKI>
+			<DD_ATTR_PADC id="ddm_elements.item_type">20</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.item_type">L</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.item_type">0</DD_ATTR_PREC>
 		</RECORD>
 	</ALIAS>
 </POR_HISTBYITEM>

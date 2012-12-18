@@ -12,13 +12,13 @@
 			<DD_RECORD_LEN id="ddm_tables.por_histbyvend">0</DD_RECORD_LEN>
 			<ASC_COMP_ID id="ddm_tables.por_histbyvend">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.por_histbyvend">PO</ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.por_histbyvend">8.0</ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.por_histbyvend">9.0</ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.por_histbyvend">830F6D6D3E725634A7348F5142EFE966</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.por_histbyvend">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.por_histbyvend">20071026</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.por_histbyvend">20090325</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.por_histbyvend">20090325</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.por_histbyvend">090424</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.por_histbyvend">20090630</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.por_histbyvend">20090630</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.por_histbyvend">141510</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.por_histbyvend">[+DIR_CPP]por_histbyvend_cpt.bbj</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.por_histbyvend">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.por_histbyvend">[+DIR_PGM]por_histbyvend.aon</DD_ATTR_PRUN>
@@ -30,6 +30,13 @@
 		<RECORD id="ddm_table_cpro.por_histbyvendarar">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.por_histbyvendarar">POR_HISTBYVEND  </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.por_histbyvendarar">ARAR</DD_ATTR_CPRO>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_opts">
+		<ID id="ddm_table_opts">DDM_TABLE_OPTS</ID>
+		<RECORD id="ddm_table_opts.por_histbyvendx">
+			<DD_TABLE_ALIAS id="ddm_table_opts.por_histbyvendx">POR_HISTBYVEND  </DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.por_histbyvendx">X</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_tpls">

@@ -15,12 +15,12 @@
 			<RESTRICT_AUTOADD id="ddm_tables.ivc_itemlookup">Y</RESTRICT_AUTOADD>
 			<ASC_COMP_ID id="ddm_tables.ivc_itemlookup">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.ivc_itemlookup">IV </ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.ivc_itemlookup">8.0</ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.ivc_itemlookup">9.0</ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ivc_itemlookup">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ivc_itemlookup">20090320</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ivc_itemlookup">20090325</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivc_itemlookup">20090325</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivc_itemlookup">090422</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ivc_itemlookup">20090630</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivc_itemlookup">20090630</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivc_itemlookup">141538</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ivc_itemlookup">/dev/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ivc_itemlookup">S</DD_ATTR_FTYP>
 			<DD_ATTR_PCAL id="ddm_tables.ivc_itemlookup">[+DIR_PGM]adx_dummy.aon</DD_ATTR_PCAL>
@@ -40,6 +40,10 @@
 		<RECORD id="ddm_table_cpro.ivc_itemlookupawin">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.ivc_itemlookupawin">IVC_ITEMLOOKUP  </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.ivc_itemlookupawin">AWIN</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_table_cpro.ivc_itemlookupbend">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.ivc_itemlookupbend">IVC_ITEMLOOKUP  </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.ivc_itemlookupbend">BEND</DD_ATTR_CPRO>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_opts">
