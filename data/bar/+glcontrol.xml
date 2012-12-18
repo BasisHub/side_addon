@@ -13,13 +13,13 @@
 			<RESTRICT_CREATE id="ddm_tables.+glcontrol">Y</RESTRICT_CREATE>
 			<ASC_COMP_ID id="ddm_tables.+glcontrol">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.+glcontrol">AD </ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.+glcontrol">9.0</ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.+glcontrol">11.0      </ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.+glcontrol">231F211DB6339ED08228F8C3A115EACC</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.+glcontrol">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.+glcontrol">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_tables.+glcontrol">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.+glcontrol">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.+glcontrol">141446</DD_LSTSYNC_TIME>
+			<DD_LSTSYNC_DATE id="ddm_tables.+glcontrol">20110310</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.+glcontrol">204338</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.+glcontrol">X</DD_ATTR_FTYP>
 			<DD_ATTR_WINT id="ddm_tables.+glcontrol">GL Posting Control Global</DD_ATTR_WINT>
 		</RECORD>
@@ -1324,14 +1324,16 @@
 			<DD_MASK_TYPE id="ddm_elements.process_id"> </DD_MASK_TYPE>
 			<ASC_COMP_ID id="ddm_elements.process_id">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_elements.process_id">AD </ASC_PROD_ID>
+			<LOCALIZATION_EX id="ddm_elements.process_id">N</LOCALIZATION_EX>
 			<DD_CREATE_DATE id="ddm_elements.process_id">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.process_id">20071023</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.process_id">20090724</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_elements.process_id">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_elements.process_id">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.process_id">E</DD_ATTR_CTYP>
 			<DD_ATTR_DCOL id="ddm_elements.process_id">DESCRIPTION</DD_ATTR_DCOL>
 			<DD_ATTR_DCOM id="ddm_elements.process_id">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.process_id">            </DD_ATTR_DEXP>
+			<DD_ATTR_DKEY id="ddm_elements.process_id">[+FIRM_ID]+@</DD_ATTR_DKEY>
 			<DD_ATTR_DTAB id="ddm_elements.process_id">ADM_PROCMASTER  </DD_ATTR_DTAB>
 			<DD_ATTR_LABL id="ddm_elements.process_id">Process Identification</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.process_id">Process ID</DD_ATTR_LABS>

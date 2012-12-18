@@ -14,13 +14,13 @@
 			<DD_SYSTEM_REC id="ddm_tables.glm_budgetmaster">N</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_tables.glm_budgetmaster">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.glm_budgetmaster">GL </ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.glm_budgetmaster">9.0</ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.glm_budgetmaster">11.0      </ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.glm_budgetmaster">4C95D78CC6C85129F1F40097AA869C7A</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.glm_budgetmaster">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.glm_budgetmaster">20060523</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.glm_budgetmaster">20110106</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.glm_budgetmaster">20101201</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.glm_budgetmaster">220018</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.glm_budgetmaster">20110331</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.glm_budgetmaster">20110401</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.glm_budgetmaster">142220</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.glm_budgetmaster">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.glm_budgetmaster">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.glm_budgetmaster">zzzz</DD_ATTR_SLEV>
@@ -76,7 +76,7 @@
 		<RECORD id="ddm_table_tpls.glm_budgetmaster">
 			<DD_TABLE_ALIAS id="ddm_table_tpls.glm_budgetmaster">GLM_BUDGETMASTER</DD_TABLE_ALIAS>
 			<DD_FILE_NAME id="ddm_table_tpls.glm_budgetmaster">glm-08</DD_FILE_NAME>
-			<DD_TABLE_TPL id="ddm_table_tpls.glm_budgetmaster">firm_id:c(2),budget_code:c(1),amt_or_units:c(1*),description:c(30),rev_title:c(15),reserved_str:c(12),revision_src:c(3),amt_or_pct:c(1),overwrite:c(1),rounding:c(1),reserved_str_02:c(3),created_date:c(8),lstrev_date:c(8*),gl_account_01:c(10*),gl_account_02:c(10*),gl_wildcard:c(10*),dealer_str:c(1*),amtpct_val:n(7*),reserved_num_01:n(1*),reserved_num_02:n(1*),reserved_num_03:n(1*),reserved_num_04:n(1*),dealer_num_01:n(1*),dealer_num_02:n(1*),dealer_num_03:n(1*),dealer_num_04:n(1*)</DD_TABLE_TPL>
+			<DD_TABLE_TPL id="ddm_table_tpls.glm_budgetmaster">firm_id:c(2),budget_code:c(1),amt_or_units:c(1*),description:c(30),rev_title:c(15),reserved_str:c(12),revision_src:c(3),amt_or_pct:c(1),overwrite:c(1),rounding:c(1),reserved_str_02:c(3),created_date:c(8),lstrev_date:c(8*),gl_account_01:c(10*),gl_account_02:c(10*),gl_wildcard:c(19*),dealer_str:c(1*),amtpct_val:n(7*),reserved_num_01:n(1*),reserved_num_02:n(1*),reserved_num_03:n(1*),reserved_num_04:n(1*),dealer_num_01:n(1*),dealer_num_02:n(1*),dealer_num_03:n(1*),dealer_num_04:n(1*)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_keys">
@@ -362,9 +362,9 @@
 			<DD_CREATE_DATE id="ddm_table_cols.glm_budgetmaster015">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.glm_budgetmaster015">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.glm_budgetmaster015">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.glm_budgetmaster015">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABL id="ddm_table_cols.glm_budgetmaster015">Wildcard Mask</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_table_cols.glm_budgetmaster015">Wildcard Mask</DD_ATTR_LABS>
-			<DD_ATTR_MAXL id="ddm_table_cols.glm_budgetmaster015">10</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.glm_budgetmaster015">GL Account Wildcard Mask</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.glm_budgetmaster015">9</DD_ATTR_TIND>
 		</RECORD>
@@ -725,17 +725,23 @@
 			<DD_DATA_NAME id="ddm_elements.gl_wildcard">GL_WILDCARD     </DD_DATA_NAME>
 			<DD_DESCRIPTION id="ddm_elements.gl_wildcard">GL Account Wildcard Mask</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.gl_wildcard">C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.gl_wildcard">10</DD_DATA_LENGTH>
+			<DD_DATA_LENGTH id="ddm_elements.gl_wildcard">19</DD_DATA_LENGTH>
 			<DD_MASK_TYPE id="ddm_elements.gl_wildcard"> </DD_MASK_TYPE>
 			<ASC_COMP_ID id="ddm_elements.gl_wildcard">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_elements.gl_wildcard">GL </ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.gl_wildcard">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.gl_wildcard">20060315</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.gl_wildcard">20110331</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.gl_wildcard">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.gl_wildcard">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.gl_wildcard">E</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.gl_wildcard">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.gl_wildcard">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.gl_wildcard">Account Wildcard Mask</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.gl_wildcard">Acct Wildcard Mask</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.gl_wildcard">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.gl_wildcard">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.gl_wildcard">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.gl_wildcard">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.dealer_str">
 			<DD_DATA_NAME id="ddm_elements.dealer_str">DEALER_STR      </DD_DATA_NAME>

@@ -15,15 +15,15 @@
 			<RESTRICT_AUTOADD id="ddm_tables.ads_calendar">N</RESTRICT_AUTOADD>
 			<ASC_COMP_ID id="ddm_tables.ads_calendar">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.ads_calendar">AD </ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.ads_calendar">9.0</ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.ads_calendar">11.0      </ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.ads_calendar">408FD371DDE61A29E2700A0FFC9AF158</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ads_calendar">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ads_calendar">20080522</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ads_calendar">20100203</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ads_calendar">20090821</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ads_calendar">211248</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ads_calendar">20110309</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ads_calendar">20110310</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ads_calendar">204344</DD_LSTSYNC_TIME>
 			<DD_ATTR_ATAB id="ddm_tables.ads_calendar">GLS_PARAMS      </DD_ATTR_ATAB>
-			<DD_ATTR_CPGM id="ddm_tables.ads_calendar">../apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_tables.ads_calendar">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ads_calendar">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.ads_calendar">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.ads_calendar">Fiscal Calendar</DD_ATTR_WINT>
@@ -34,6 +34,10 @@
 		<RECORD id="ddm_table_cpro.ads_calendaradis">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.ads_calendaradis">ADS_CALENDAR    </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.ads_calendaradis">ADIS</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_table_cpro.ads_calendararar">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.ads_calendararar">ADS_CALENDAR    </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.ads_calendararar">ARAR</DD_ATTR_CPRO>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_labl">
@@ -306,7 +310,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ads_calendar005">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ads_calendar005">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ads_calendar005">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.ads_calendar005">../apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ads_calendar005">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLX id="ddm_table_cols.ads_calendar005">+24</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_cols.ads_calendar005">-2</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.ads_calendar005">35</DD_ATTR_CTLW>
@@ -989,7 +993,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ads_calendar052">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ads_calendar052">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ads_calendar052">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.ads_calendar052">../apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ads_calendar052">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLX id="ddm_table_cols.ads_calendar052">-30</DD_ATTR_CTLX>
 			<DD_ATTR_CTLW id="ddm_table_cols.ads_calendar052">40</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ads_calendar052">0</DD_ATTR_CTLH>
@@ -1006,7 +1010,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ads_calendar053">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ads_calendar053">20070915</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ads_calendar053">20070915</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.ads_calendar053">../apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ads_calendar053">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLX id="ddm_table_cols.ads_calendar053">-30</DD_ATTR_CTLX>
 			<DD_ATTR_CTLW id="ddm_table_cols.ads_calendar053">40</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ads_calendar053">0</DD_ATTR_CTLH>
@@ -1021,7 +1025,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ads_calendar054">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ads_calendar054">20070915</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ads_calendar054">20070915</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.ads_calendar054">../apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ads_calendar054">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLX id="ddm_table_cols.ads_calendar054">-30</DD_ATTR_CTLX>
 			<DD_ATTR_CTLW id="ddm_table_cols.ads_calendar054">40</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ads_calendar054">0</DD_ATTR_CTLH>
@@ -1036,7 +1040,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ads_calendar055">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ads_calendar055">20070915</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ads_calendar055">20070915</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.ads_calendar055">../apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ads_calendar055">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLX id="ddm_table_cols.ads_calendar055">-30</DD_ATTR_CTLX>
 			<DD_ATTR_CTLW id="ddm_table_cols.ads_calendar055">40</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ads_calendar055">0</DD_ATTR_CTLH>
@@ -1051,7 +1055,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ads_calendar056">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ads_calendar056">20070915</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ads_calendar056">20070915</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.ads_calendar056">../apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ads_calendar056">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLX id="ddm_table_cols.ads_calendar056">-30</DD_ATTR_CTLX>
 			<DD_ATTR_CTLW id="ddm_table_cols.ads_calendar056">40</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ads_calendar056">0</DD_ATTR_CTLH>
@@ -1066,7 +1070,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ads_calendar057">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ads_calendar057">20070915</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ads_calendar057">20070915</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.ads_calendar057">../apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ads_calendar057">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLX id="ddm_table_cols.ads_calendar057">-30</DD_ATTR_CTLX>
 			<DD_ATTR_CTLW id="ddm_table_cols.ads_calendar057">40</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ads_calendar057">0</DD_ATTR_CTLH>
@@ -1081,7 +1085,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ads_calendar058">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ads_calendar058">20070915</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ads_calendar058">20070915</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.ads_calendar058">../apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ads_calendar058">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLX id="ddm_table_cols.ads_calendar058">-30</DD_ATTR_CTLX>
 			<DD_ATTR_CTLW id="ddm_table_cols.ads_calendar058">40</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ads_calendar058">0</DD_ATTR_CTLH>
@@ -1096,7 +1100,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ads_calendar059">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ads_calendar059">20070915</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ads_calendar059">20070915</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.ads_calendar059">../apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ads_calendar059">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLX id="ddm_table_cols.ads_calendar059">-30</DD_ATTR_CTLX>
 			<DD_ATTR_CTLW id="ddm_table_cols.ads_calendar059">40</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ads_calendar059">0</DD_ATTR_CTLH>
@@ -1111,7 +1115,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ads_calendar060">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ads_calendar060">20070915</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ads_calendar060">20070915</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.ads_calendar060">../apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ads_calendar060">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLX id="ddm_table_cols.ads_calendar060">-30</DD_ATTR_CTLX>
 			<DD_ATTR_CTLW id="ddm_table_cols.ads_calendar060">40</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ads_calendar060">0</DD_ATTR_CTLH>
@@ -1126,7 +1130,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ads_calendar061">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ads_calendar061">20070915</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ads_calendar061">20070915</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.ads_calendar061">../apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ads_calendar061">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLX id="ddm_table_cols.ads_calendar061">-30</DD_ATTR_CTLX>
 			<DD_ATTR_CTLW id="ddm_table_cols.ads_calendar061">40</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ads_calendar061">0</DD_ATTR_CTLH>
@@ -1141,7 +1145,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ads_calendar062">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ads_calendar062">20070915</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ads_calendar062">20070915</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.ads_calendar062">../apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ads_calendar062">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLX id="ddm_table_cols.ads_calendar062">-30</DD_ATTR_CTLX>
 			<DD_ATTR_CTLW id="ddm_table_cols.ads_calendar062">40</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ads_calendar062">0</DD_ATTR_CTLH>
@@ -1156,7 +1160,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ads_calendar063">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ads_calendar063">20070915</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ads_calendar063">20070915</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.ads_calendar063">../apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ads_calendar063">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLX id="ddm_table_cols.ads_calendar063">-30</DD_ATTR_CTLX>
 			<DD_ATTR_CTLW id="ddm_table_cols.ads_calendar063">40</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ads_calendar063">0</DD_ATTR_CTLH>
@@ -1171,7 +1175,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ads_calendar064">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ads_calendar064">20070915</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ads_calendar064">20070915</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.ads_calendar064">../apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ads_calendar064">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLX id="ddm_table_cols.ads_calendar064">-30</DD_ATTR_CTLX>
 			<DD_ATTR_CTLW id="ddm_table_cols.ads_calendar064">40</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ads_calendar064">0</DD_ATTR_CTLH>

@@ -14,14 +14,15 @@
 			<DD_SYSTEM_REC id="ddm_tables.bmm_billsub">N</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_tables.bmm_billsub">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.bmm_billsub">BM </ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.bmm_billsub">9.0</ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.bmm_billsub">11.0      </ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.bmm_billsub">9A9B1111D89A1ECCC6209952A6F0B22A</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.bmm_billsub">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.bmm_billsub">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.bmm_billsub">20100611</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.bmm_billsub">20100601</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.bmm_billsub">171630</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.bmm_billsub">20110412</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.bmm_billsub">20110419</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.bmm_billsub">145438</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.bmm_billsub">T</DD_ATTR_FTYP>
+			<DD_ATTR_PTAB id="ddm_tables.bmm_billsub">BMM_BILLMAST    </DD_ATTR_PTAB>
 			<DD_ATTR_SLEV id="ddm_tables.bmm_billsub">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.bmm_billsub">Subcontracts Detail</DD_ATTR_WINT>
 		</RECORD>
@@ -475,19 +476,25 @@
 		</RECORD>
 		<RECORD id="ddm_elements.line_type">
 			<DD_DATA_NAME id="ddm_elements.line_type">LINE_TYPE       </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.line_type">Line Type                     </DD_DESCRIPTION>
+			<DD_DESCRIPTION id="ddm_elements.line_type">Line Type</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.line_type">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.line_type">1</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.line_type"> </DD_MASK_TYPE>
 			<ASC_COMP_ID id="ddm_elements.line_type">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_elements.line_type">AD </ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.line_type">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.line_type">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP id="ddm_elements.line_type">E</DD_ATTR_CTYP>
+			<DD_LSTREV_DATE id="ddm_elements.line_type">20110412</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.line_type">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.line_type">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.line_type">O</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.line_type">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.line_type">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.line_type">Line Type</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.line_type">Line Type</DD_ATTR_LABS>
+			<DD_ATTR_LDIS id="ddm_elements.line_type">C</DD_ATTR_LDIS>
+			<DD_ATTR_MAXL id="ddm_elements.line_type">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.line_type">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.line_type">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.line_type">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.unit_measure">
 			<DD_DATA_NAME id="ddm_elements.unit_measure">UNIT_MEASURE    </DD_DATA_NAME>
@@ -664,19 +671,25 @@
 		</RECORD>
 		<RECORD id="ddm_elements.qty_required">
 			<DD_DATA_NAME id="ddm_elements.qty_required">QTY_REQUIRED    </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.qty_required">Quantity Required             </DD_DESCRIPTION>
+			<DD_DESCRIPTION id="ddm_elements.qty_required">Quantity Required</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.qty_required">N</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.qty_required">7</DD_DATA_LENGTH>
 			<DD_MASK_TYPE id="ddm_elements.qty_required">U</DD_MASK_TYPE>
 			<ASC_COMP_ID id="ddm_elements.qty_required">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.qty_required">AD </ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.qty_required">IV </ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.qty_required">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.qty_required">20060119</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.qty_required">20110418</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.qty_required">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.qty_required">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.qty_required">N</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.qty_required">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.qty_required">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.qty_required">Quantity Required</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.qty_required">Qty Req</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.qty_required">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.qty_required">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.qty_required">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.qty_required">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.alt_factor">
 			<DD_DATA_NAME id="ddm_elements.alt_factor">ALT_FACTOR      </DD_DATA_NAME>
@@ -713,19 +726,25 @@
 		</RECORD>
 		<RECORD id="ddm_elements.divisor">
 			<DD_DATA_NAME id="ddm_elements.divisor">DIVISOR         </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.divisor">Divisor                       </DD_DESCRIPTION>
+			<DD_DESCRIPTION id="ddm_elements.divisor">Divisor</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.divisor">N</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.divisor">7</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.divisor">H</DD_MASK_TYPE>
+			<DD_MASK_TYPE id="ddm_elements.divisor">M</DD_MASK_TYPE>
 			<ASC_COMP_ID id="ddm_elements.divisor">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_elements.divisor">BM </ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.divisor">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.divisor">20060119</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.divisor">20110418</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.divisor">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.divisor">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.divisor">N</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.divisor">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.divisor">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.divisor">Divisor</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.divisor">Divisor</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.divisor">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.divisor">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.divisor">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.divisor">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.lead_time">
 			<DD_DATA_NAME id="ddm_elements.lead_time">LEAD_TIME       </DD_DATA_NAME>
@@ -783,6 +802,21 @@
 			<DD_DATA_NAME id="ddm_element_cmts.vendor_id001">VENDOR_ID       </DD_DATA_NAME>
 			<DD_COMM_SEQ id="ddm_element_cmts.vendor_id001">001</DD_COMM_SEQ>
 			<DD_COMM_TEXT id="ddm_element_cmts.vendor_id001">this is a test comment</DD_COMM_TEXT>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_element_ldat">
+		<ID id="ddm_element_ldat">DDM_ELEMENT_LDAT</ID>
+		<RECORD id="ddm_element_ldat.line_type01">
+			<DD_DATA_NAME id="ddm_element_ldat.line_type01">LINE_TYPE       </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.line_type01">01</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.line_type01">S</DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.line_type01">Standard Line</DD_ATTR_LDAT_DS>
+		</RECORD>
+		<RECORD id="ddm_element_ldat.line_type02">
+			<DD_DATA_NAME id="ddm_element_ldat.line_type02">LINE_TYPE       </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.line_type02">02</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.line_type02">M</DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.line_type02">Memo</DD_ATTR_LDAT_DS>
 		</RECORD>
 	</ALIAS>
 </BMM_BILLSUB>

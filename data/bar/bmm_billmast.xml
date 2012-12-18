@@ -14,16 +14,91 @@
 			<DD_SYSTEM_REC id="ddm_tables.bmm_billmast">N</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_tables.bmm_billmast">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.bmm_billmast">BM </ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.bmm_billmast">9.0</ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.bmm_billmast">11.0      </ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.bmm_billmast">6535571D96023C2D50469B0AC103F9AA</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.bmm_billmast">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.bmm_billmast">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.bmm_billmast">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.bmm_billmast">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.bmm_billmast">141552</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.bmm_billmast">20110422</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.bmm_billmast">20110425</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.bmm_billmast">085604</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.bmm_billmast">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.bmm_billmast">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.bmm_billmast">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.bmm_billmast">Bill Of Materials Master</DD_ATTR_WINT>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_aopt">
+		<ID id="ddm_table_aopt">DDM_TABLE_AOPT</ID>
+		<RECORD id="ddm_table_aopt.bmm_billmast01">
+			<DD_TABLE_ALIAS id="ddm_table_aopt.bmm_billmast01">BMM_BILLMAST    </DD_TABLE_ALIAS>
+			<DD_ATTR_SEQ id="ddm_table_aopt.bmm_billmast01">01</DD_ATTR_SEQ>
+			<DD_ATTR_AOPT id="ddm_table_aopt.bmm_billmast01">Copy Bill</DD_ATTR_AOPT>
+			<DD_ATTR_AOPT_CD id="ddm_table_aopt.bmm_billmast01">COPY</DD_ATTR_AOPT_CD>
+			<DD_ATTR_AOPT_FM id="ddm_table_aopt.bmm_billmast01">F</DD_ATTR_AOPT_FM>
+		</RECORD>
+		<RECORD id="ddm_table_aopt.bmm_billmast02">
+			<DD_TABLE_ALIAS id="ddm_table_aopt.bmm_billmast02">BMM_BILLMAST    </DD_TABLE_ALIAS>
+			<DD_ATTR_SEQ id="ddm_table_aopt.bmm_billmast02">02</DD_ATTR_SEQ>
+			<DD_ATTR_AOPT id="ddm_table_aopt.bmm_billmast02">Total Information</DD_ATTR_AOPT>
+			<DD_ATTR_AOPT_CD id="ddm_table_aopt.bmm_billmast02">TOTL</DD_ATTR_AOPT_CD>
+			<DD_ATTR_AOPT_FM id="ddm_table_aopt.bmm_billmast02">M</DD_ATTR_AOPT_FM>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_cpro">
+		<ID id="ddm_table_cpro">DDM_TABLE_CPRO</ID>
+		<RECORD id="ddm_table_cpro.bmm_billmastaopt">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.bmm_billmastaopt">BMM_BILLMAST    </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.bmm_billmastaopt">AOPT-TOTL</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_table_cpro.bmm_billmastarar">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.bmm_billmastarar">BMM_BILLMAST    </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.bmm_billmastarar">ARAR</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_table_cpro.bmm_billmastarec">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.bmm_billmastarec">BMM_BILLMAST    </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.bmm_billmastarec">AREC</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_table_cpro.bmm_billmastbsho">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.bmm_billmastbsho">BMM_BILLMAST    </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.bmm_billmastbsho">BSHO</DD_ATTR_CPRO>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_dtld">
+		<ID id="ddm_table_dtld">DDM_TABLE_DTLD</ID>
+		<RECORD id="ddm_table_dtld.bmm_billmastbmm_billcmts">
+			<DD_TABLE_ALIAS id="ddm_table_dtld.bmm_billmastbmm_billcmts">BMM_BILLMAST    </DD_TABLE_ALIAS>
+			<DD_ATTR_DTLD id="ddm_table_dtld.bmm_billmastbmm_billcmts">BMM_BILLCMTS    </DD_ATTR_DTLD>
+		</RECORD>
+		<RECORD id="ddm_table_dtld.bmm_billmastbmm_billmat">
+			<DD_TABLE_ALIAS id="ddm_table_dtld.bmm_billmastbmm_billmat">BMM_BILLMAST    </DD_TABLE_ALIAS>
+			<DD_ATTR_DTLD id="ddm_table_dtld.bmm_billmastbmm_billmat">BMM_BILLMAT     </DD_ATTR_DTLD>
+		</RECORD>
+		<RECORD id="ddm_table_dtld.bmm_billmastbmm_billoper">
+			<DD_TABLE_ALIAS id="ddm_table_dtld.bmm_billmastbmm_billoper">BMM_BILLMAST    </DD_TABLE_ALIAS>
+			<DD_ATTR_DTLD id="ddm_table_dtld.bmm_billmastbmm_billoper">BMM_BILLOPER    </DD_ATTR_DTLD>
+		</RECORD>
+		<RECORD id="ddm_table_dtld.bmm_billmastbmm_billsub">
+			<DD_TABLE_ALIAS id="ddm_table_dtld.bmm_billmastbmm_billsub">BMM_BILLMAST    </DD_TABLE_ALIAS>
+			<DD_ATTR_DTLD id="ddm_table_dtld.bmm_billmastbmm_billsub">BMM_BILLSUB     </DD_ATTR_DTLD>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_dtlw">
+		<ID id="ddm_table_dtlw">DDM_TABLE_DTLW</ID>
+		<RECORD id="ddm_table_dtlw.bmm_billmastbmm_billcmts">
+			<DD_TABLE_ALIAS id="ddm_table_dtlw.bmm_billmastbmm_billcmts">BMM_BILLMAST    </DD_TABLE_ALIAS>
+			<DD_ATTR_DTLW id="ddm_table_dtlw.bmm_billmastbmm_billcmts">BMM_BILLCMTS    </DD_ATTR_DTLW>
+		</RECORD>
+		<RECORD id="ddm_table_dtlw.bmm_billmastbmm_billmat">
+			<DD_TABLE_ALIAS id="ddm_table_dtlw.bmm_billmastbmm_billmat">BMM_BILLMAST    </DD_TABLE_ALIAS>
+			<DD_ATTR_DTLW id="ddm_table_dtlw.bmm_billmastbmm_billmat">BMM_BILLMAT     </DD_ATTR_DTLW>
+		</RECORD>
+		<RECORD id="ddm_table_dtlw.bmm_billmastbmm_billoper">
+			<DD_TABLE_ALIAS id="ddm_table_dtlw.bmm_billmastbmm_billoper">BMM_BILLMAST    </DD_TABLE_ALIAS>
+			<DD_ATTR_DTLW id="ddm_table_dtlw.bmm_billmastbmm_billoper">BMM_BILLOPER    </DD_ATTR_DTLW>
+		</RECORD>
+		<RECORD id="ddm_table_dtlw.bmm_billmastbmm_billsub">
+			<DD_TABLE_ALIAS id="ddm_table_dtlw.bmm_billmastbmm_billsub">BMM_BILLMAST    </DD_TABLE_ALIAS>
+			<DD_ATTR_DTLW id="ddm_table_dtlw.bmm_billmastbmm_billsub">BMM_BILLSUB     </DD_ATTR_DTLW>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_tpls">
@@ -77,6 +152,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.bmm_billmast001">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.bmm_billmast001">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_PROM id="ddm_table_cols.bmm_billmast001">Firm ID</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.bmm_billmast001">1</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.bmm_billmast002">
 			<DD_TABLE_ALIAS id="ddm_table_cols.bmm_billmast002">BMM_BILLMAST    </DD_TABLE_ALIAS>
@@ -88,7 +164,11 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.bmm_billmast002">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.bmm_billmast002">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.bmm_billmast002">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CPGM id="ddm_table_cols.bmm_billmast002">/apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CTLW id="ddm_table_cols.bmm_billmast002">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.bmm_billmast002">0</DD_ATTR_CTLH>
 			<DD_ATTR_PROM id="ddm_table_cols.bmm_billmast002">Bill of Materials Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.bmm_billmast002">2</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.bmm_billmast003">
 			<DD_TABLE_ALIAS id="ddm_table_cols.bmm_billmast003">BMM_BILLMAST    </DD_TABLE_ALIAS>
@@ -101,6 +181,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.bmm_billmast003">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.bmm_billmast003">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_PROM id="ddm_table_cols.bmm_billmast003">Drawing Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.bmm_billmast003">3</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.bmm_billmast004">
 			<DD_TABLE_ALIAS id="ddm_table_cols.bmm_billmast004">BMM_BILLMAST    </DD_TABLE_ALIAS>
@@ -113,7 +194,10 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.bmm_billmast004">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.bmm_billmast004">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.bmm_billmast004">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_LABL id="ddm_table_cols.bmm_billmast004">Revision Number</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_table_cols.bmm_billmast004">Revision Number</DD_ATTR_LABS>
 			<DD_ATTR_PROM id="ddm_table_cols.bmm_billmast004">Drawing Revision Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.bmm_billmast004">4</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.bmm_billmast005">
 			<DD_TABLE_ALIAS id="ddm_table_cols.bmm_billmast005">BMM_BILLMAST    </DD_TABLE_ALIAS>
@@ -127,6 +211,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.bmm_billmast005">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.bmm_billmast005">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_PROM id="ddm_table_cols.bmm_billmast005">Reserved For Dealer Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.bmm_billmast005">5</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.bmm_billmast006">
 			<DD_TABLE_ALIAS id="ddm_table_cols.bmm_billmast006">BMM_BILLMAST    </DD_TABLE_ALIAS>
@@ -138,7 +223,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.bmm_billmast006">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.bmm_billmast006">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.bmm_billmast006">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLX id="ddm_table_cols.bmm_billmast006">-17</DD_ATTR_CTLX>
 			<DD_ATTR_PROM id="ddm_table_cols.bmm_billmast006">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.bmm_billmast006">6</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.bmm_billmast007">
 			<DD_TABLE_ALIAS id="ddm_table_cols.bmm_billmast007">BMM_BILLMAST    </DD_TABLE_ALIAS>
@@ -150,7 +237,10 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.bmm_billmast007">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.bmm_billmast007">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.bmm_billmast007">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_LABL id="ddm_table_cols.bmm_billmast007">Revision Code</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_table_cols.bmm_billmast007">Revision Code</DD_ATTR_LABS>
 			<DD_ATTR_PROM id="ddm_table_cols.bmm_billmast007">BOM Revision Code</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.bmm_billmast007">7</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.bmm_billmast008">
 			<DD_TABLE_ALIAS id="ddm_table_cols.bmm_billmast008">BMM_BILLMAST    </DD_TABLE_ALIAS>
@@ -163,6 +253,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.bmm_billmast008">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.bmm_billmast008">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_PROM id="ddm_table_cols.bmm_billmast008">Phantom Bill?</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.bmm_billmast008">8</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.bmm_billmast009">
 			<DD_TABLE_ALIAS id="ddm_table_cols.bmm_billmast009">BMM_BILLMAST    </DD_TABLE_ALIAS>
@@ -175,6 +266,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.bmm_billmast009">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.bmm_billmast009">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_PROM id="ddm_table_cols.bmm_billmast009">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.bmm_billmast009">9</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.bmm_billmast010">
 			<DD_TABLE_ALIAS id="ddm_table_cols.bmm_billmast010">BMM_BILLMAST    </DD_TABLE_ALIAS>
@@ -187,6 +279,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.bmm_billmast010">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.bmm_billmast010">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_PROM id="ddm_table_cols.bmm_billmast010">Source</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.bmm_billmast010">10</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.bmm_billmast011">
 			<DD_TABLE_ALIAS id="ddm_table_cols.bmm_billmast011">BMM_BILLMAST    </DD_TABLE_ALIAS>
@@ -199,6 +292,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.bmm_billmast011">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.bmm_billmast011">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_PROM id="ddm_table_cols.bmm_billmast011">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.bmm_billmast011">11</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.bmm_billmast012">
 			<DD_TABLE_ALIAS id="ddm_table_cols.bmm_billmast012">BMM_BILLMAST    </DD_TABLE_ALIAS>
@@ -210,7 +304,10 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.bmm_billmast012">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.bmm_billmast012">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.bmm_billmast012">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLX id="ddm_table_cols.bmm_billmast012">+40</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_cols.bmm_billmast012">-3</DD_ATTR_CTLY>
 			<DD_ATTR_PROM id="ddm_table_cols.bmm_billmast012">Unit of Measure</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.bmm_billmast012">12</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.bmm_billmast013">
 			<DD_TABLE_ALIAS id="ddm_table_cols.bmm_billmast013">BMM_BILLMAST    </DD_TABLE_ALIAS>
@@ -223,6 +320,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.bmm_billmast013">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.bmm_billmast013">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_PROM id="ddm_table_cols.bmm_billmast013">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.bmm_billmast013">13</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.bmm_billmast014">
 			<DD_TABLE_ALIAS id="ddm_table_cols.bmm_billmast014">BMM_BILLMAST    </DD_TABLE_ALIAS>
@@ -234,7 +332,10 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.bmm_billmast014">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.bmm_billmast014">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.bmm_billmast014">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLX id="ddm_table_cols.bmm_billmast014">-40</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_cols.bmm_billmast014">+1</DD_ATTR_CTLY>
 			<DD_ATTR_PROM id="ddm_table_cols.bmm_billmast014">Last Revision Date</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.bmm_billmast014">16</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.bmm_billmast015">
 			<DD_TABLE_ALIAS id="ddm_table_cols.bmm_billmast015">BMM_BILLMAST    </DD_TABLE_ALIAS>
@@ -246,7 +347,10 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.bmm_billmast015">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.bmm_billmast015">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.bmm_billmast015">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLX id="ddm_table_cols.bmm_billmast015">+20</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_cols.bmm_billmast015">-1</DD_ATTR_CTLY>
 			<DD_ATTR_PROM id="ddm_table_cols.bmm_billmast015">Last Activity Date</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.bmm_billmast015">17</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.bmm_billmast016">
 			<DD_TABLE_ALIAS id="ddm_table_cols.bmm_billmast016">BMM_BILLMAST    </DD_TABLE_ALIAS>
@@ -259,7 +363,10 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.bmm_billmast016">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.bmm_billmast016">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.bmm_billmast016">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLX id="ddm_table_cols.bmm_billmast016">+18</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_cols.bmm_billmast016">-1</DD_ATTR_CTLY>
 			<DD_ATTR_PROM id="ddm_table_cols.bmm_billmast016">Creation Date</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.bmm_billmast016">18</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.bmm_billmast017">
 			<DD_TABLE_ALIAS id="ddm_table_cols.bmm_billmast017">BMM_BILLMAST    </DD_TABLE_ALIAS>
@@ -273,6 +380,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.bmm_billmast017">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.bmm_billmast017">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_PROM id="ddm_table_cols.bmm_billmast017">Reserved For Dealer Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.bmm_billmast017">19</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.bmm_billmast018">
 			<DD_TABLE_ALIAS id="ddm_table_cols.bmm_billmast018">BMM_BILLMAST    </DD_TABLE_ALIAS>
@@ -286,6 +394,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.bmm_billmast018">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.bmm_billmast018">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_PROM id="ddm_table_cols.bmm_billmast018">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.bmm_billmast018">20</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.bmm_billmast019">
 			<DD_TABLE_ALIAS id="ddm_table_cols.bmm_billmast019">BMM_BILLMAST    </DD_TABLE_ALIAS>
@@ -298,7 +407,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.bmm_billmast019">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.bmm_billmast019">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.bmm_billmast019">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CPGM id="ddm_table_cols.bmm_billmast019">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_PROM id="ddm_table_cols.bmm_billmast019">Estimated Yield Percent</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.bmm_billmast019">14</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.bmm_billmast020">
 			<DD_TABLE_ALIAS id="ddm_table_cols.bmm_billmast020">BMM_BILLMAST    </DD_TABLE_ALIAS>
@@ -311,7 +422,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.bmm_billmast020">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.bmm_billmast020">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.bmm_billmast020">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CPGM id="ddm_table_cols.bmm_billmast020">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_PROM id="ddm_table_cols.bmm_billmast020">Standard Lot Size</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.bmm_billmast020">15</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.bmm_billmast021">
 			<DD_TABLE_ALIAS id="ddm_table_cols.bmm_billmast021">BMM_BILLMAST    </DD_TABLE_ALIAS>
@@ -325,6 +438,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.bmm_billmast021">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.bmm_billmast021">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_PROM id="ddm_table_cols.bmm_billmast021">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.bmm_billmast021">21</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.bmm_billmast022">
 			<DD_TABLE_ALIAS id="ddm_table_cols.bmm_billmast022">BMM_BILLMAST    </DD_TABLE_ALIAS>
@@ -338,6 +452,25 @@
 			<DD_CREATE_DATE id="ddm_table_cols.bmm_billmast022">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.bmm_billmast022">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_PROM id="ddm_table_cols.bmm_billmast022">Reserved For Dealer Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.bmm_billmast022">22</DD_ATTR_TIND>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_column_cpro">
+		<ID id="ddm_column_cpro">DDM_COLUMN_CPRO</ID>
+		<RECORD id="ddm_column_cpro.bmm_billmastbill_noaval">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.bmm_billmastbill_noaval">BMM_BILLMAST    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.bmm_billmastbill_noaval">BILL_NO         </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.bmm_billmastbill_noaval">AVAL</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_column_cpro.bmm_billmastest_yieldaval">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.bmm_billmastest_yieldaval">BMM_BILLMAST    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.bmm_billmastest_yieldaval">EST_YIELD       </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.bmm_billmastest_yieldaval">AVAL</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_column_cpro.bmm_billmaststd_lot_sizeaval">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.bmm_billmaststd_lot_sizeaval">BMM_BILLMAST    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.bmm_billmaststd_lot_sizeaval">STD_LOT_SIZE    </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.bmm_billmaststd_lot_sizeaval">AVAL</DD_ATTR_CPRO>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">
@@ -346,6 +479,21 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.bmm_billmastfirm_ido">BMM_BILLMAST    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.bmm_billmastfirm_ido">FIRM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.bmm_billmastfirm_ido">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.bmm_billmastsource_codeo">
+			<DD_TABLE_ALIAS id="ddm_column_opts.bmm_billmastsource_codeo">BMM_BILLMAST    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.bmm_billmastsource_codeo">SOURCE_CODE     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.bmm_billmastsource_codeo">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.bmm_billmastlstact_datec">
+			<DD_TABLE_ALIAS id="ddm_column_opts.bmm_billmastlstact_datec">BMM_BILLMAST    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.bmm_billmastlstact_datec">LSTACT_DATE     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.bmm_billmastlstact_datec">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.bmm_billmastcreate_datec">
+			<DD_TABLE_ALIAS id="ddm_column_opts.bmm_billmastcreate_datec">BMM_BILLMAST    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.bmm_billmastcreate_datec">CREATE_DATE     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.bmm_billmastcreate_datec">C</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

@@ -14,13 +14,13 @@
 			<DD_SYSTEM_REC id="ddm_tables.arm_custmast">N</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_tables.arm_custmast">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.arm_custmast">AR </ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.arm_custmast">9.0</ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.arm_custmast">11.0      </ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.arm_custmast">B0AE4537C94866F0AF91493A5C8B7BCB</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.arm_custmast">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.arm_custmast">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.arm_custmast">20110121</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.arm_custmast">20110121</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.arm_custmast">131128</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.arm_custmast">20110419</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.arm_custmast">20110419</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.arm_custmast">164750</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.arm_custmast">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.arm_custmast">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.arm_custmast">zzzz</DD_ATTR_SLEV>
@@ -498,7 +498,7 @@
 		<RECORD id="ddm_table_tpls.arm_custmast">
 			<DD_TABLE_ALIAS id="ddm_table_tpls.arm_custmast">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_FILE_NAME id="ddm_table_tpls.arm_custmast">arm-01</DD_FILE_NAME>
-			<DD_TABLE_TPL id="ddm_table_tpls.arm_custmast">firm_id:c(2),customer_id:c(6*),customer_name:c(30),addr_line_1:c(24),addr_line_2:c(24),addr_line_3:c(24),zip_code:c(9),phone_no:c(20),phone_exten:c(4),resale_no:c(20),alt_sequence:c(10),reserved_str:c(3),ar_ship_via:c(10),fax_no:c(20),addr_line_4:c(24),city:c(22),state_code:c(2),retain_cust:c(1),contact_name:c(20),db_no:c(9),sic_code:c(8),country:c(24),fob:c(15),reserved_str_02:c(22),opened_date:c(8*),vat_id:c(20),cntry_id:c(2)</DD_TABLE_TPL>
+			<DD_TABLE_TPL id="ddm_table_tpls.arm_custmast">firm_id:c(2),customer_id:c(6*),customer_name:c(30),addr_line_1:c(24),addr_line_2:c(24),addr_line_3:c(24),zip_code:c(9),phone_no:c(20),phone_exten:c(4),resale_no:c(20),alt_sequence:c(10),reserved_str:c(3),ar_ship_via:c(10),fax_no:c(20),addr_line_4:c(24),city:c(22),state_code:c(2),retain_cust:c(1),contact_name:c(20),db_no:c(9),sic_code:c(8),country:c(24),fob:c(15),reserved_str_02:c(22),opened_date:c(8*),cntry_id:c(2)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_keys">
@@ -1110,8 +1110,8 @@
 		<RECORD id="ddm_table_cols.arm_custmast026">
 			<DD_TABLE_ALIAS id="ddm_table_cols.arm_custmast026">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_cols.arm_custmast026">026</DD_SEQUENCE>
-			<DD_DATA_NAME id="ddm_table_cols.arm_custmast026">TAX_ID          </DD_DATA_NAME>
-			<DD_DVAR_NAME id="ddm_table_cols.arm_custmast026">VAT_ID          </DD_DVAR_NAME>
+			<DD_DATA_NAME id="ddm_table_cols.arm_custmast026">CNTRY_ID        </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.arm_custmast026">CNTRY_ID        </DD_DVAR_NAME>
 			<DD_COL_REPEATS id="ddm_table_cols.arm_custmast026">0</DD_COL_REPEATS>
 			<DD_COL_OCCURS id="ddm_table_cols.arm_custmast026">0</DD_COL_OCCURS>
 			<DD_FIELD_DELIM id="ddm_table_cols.arm_custmast026">N</DD_FIELD_DELIM>
@@ -1119,35 +1119,13 @@
 			<DD_CREATE_DATE id="ddm_table_cols.arm_custmast026">20110119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.arm_custmast026">20110119</DD_LSTREV_DATE>
 			<DD_ATTR_COLW id="ddm_table_cols.arm_custmast026">0</DD_ATTR_COLW>
-			<DD_ATTR_CTLX id="ddm_table_cols.arm_custmast026">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLX id="ddm_table_cols.arm_custmast026">-10</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_cols.arm_custmast026">0</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.arm_custmast026">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.arm_custmast026">0</DD_ATTR_CTLH>
-			<DD_ATTR_LABL id="ddm_table_cols.arm_custmast026">VAT ID</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_table_cols.arm_custmast026">VAT ID</DD_ATTR_LABS>
 			<DD_ATTR_MLAN id="ddm_table_cols.arm_custmast026">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.arm_custmast026">20</DD_ATTR_MAXL>
-			<DD_ATTR_TIND id="ddm_table_cols.arm_custmast026">36</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD id="ddm_table_cols.arm_custmast027">
-			<DD_TABLE_ALIAS id="ddm_table_cols.arm_custmast027">ARM_CUSTMAST    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE id="ddm_table_cols.arm_custmast027">027</DD_SEQUENCE>
-			<DD_DATA_NAME id="ddm_table_cols.arm_custmast027">CNTRY_ID        </DD_DATA_NAME>
-			<DD_DVAR_NAME id="ddm_table_cols.arm_custmast027">CNTRY_ID        </DD_DVAR_NAME>
-			<DD_COL_REPEATS id="ddm_table_cols.arm_custmast027">0</DD_COL_REPEATS>
-			<DD_COL_OCCURS id="ddm_table_cols.arm_custmast027">0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM id="ddm_table_cols.arm_custmast027">N</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR id="ddm_table_cols.arm_custmast027">0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE id="ddm_table_cols.arm_custmast027">20110119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_table_cols.arm_custmast027">20110119</DD_LSTREV_DATE>
-			<DD_ATTR_COLW id="ddm_table_cols.arm_custmast027">0</DD_ATTR_COLW>
-			<DD_ATTR_CTLX id="ddm_table_cols.arm_custmast027">-10</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY id="ddm_table_cols.arm_custmast027">0</DD_ATTR_CTLY>
-			<DD_ATTR_CTLW id="ddm_table_cols.arm_custmast027">0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH id="ddm_table_cols.arm_custmast027">0</DD_ATTR_CTLH>
-			<DD_ATTR_MLAN id="ddm_table_cols.arm_custmast027">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.arm_custmast027">2</DD_ATTR_MAXL>
-			<DD_ATTR_TIND id="ddm_table_cols.arm_custmast027">11</DD_ATTR_TIND>
+			<DD_ATTR_MAXL id="ddm_table_cols.arm_custmast026">2</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.arm_custmast026">11</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_disp">
@@ -1754,27 +1732,6 @@
 			<DD_ATTR_LABS id="ddm_elements.opened_date">Dt Open</DD_ATTR_LABS>
 			<DD_ATTR_STYP id="ddm_elements.opened_date">1</DD_ATTR_STYP>
 		</RECORD>
-		<RECORD id="ddm_elements.tax_id">
-			<DD_DATA_NAME id="ddm_elements.tax_id">TAX_ID          </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.tax_id">Tax Identification</DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.tax_id">C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.tax_id">20</DD_DATA_LENGTH>
-			<ASC_COMP_ID id="ddm_elements.tax_id">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.tax_id">AD </ASC_PROD_ID>
-			<LOCALIZATION_EX id="ddm_elements.tax_id">N</LOCALIZATION_EX>
-			<DD_CREATE_DATE id="ddm_elements.tax_id">20110118</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.tax_id">20110118</DD_LSTREV_DATE>
-			<DD_ATTR_BLNK id="ddm_elements.tax_id">N</DD_ATTR_BLNK>
-			<DD_ATTR_CTLW id="ddm_elements.tax_id">0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH id="ddm_elements.tax_id">0</DD_ATTR_CTLH>
-			<DD_ATTR_CTYP id="ddm_elements.tax_id">E</DD_ATTR_CTYP>
-			<DD_ATTR_LABL id="ddm_elements.tax_id">Tax Identification</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.tax_id">Tax Identification</DD_ATTR_LABS>
-			<DD_ATTR_MAXL id="ddm_elements.tax_id">0</DD_ATTR_MAXL>
-			<DD_ATTR_MAXR id="ddm_elements.tax_id">0</DD_ATTR_MAXR>
-			<DD_ATTR_MINL id="ddm_elements.tax_id">0</DD_ATTR_MINL>
-			<DD_ATTR_PREC id="ddm_elements.tax_id">0</DD_ATTR_PREC>
-		</RECORD>
 		<RECORD id="ddm_elements.cntry_id">
 			<DD_DATA_NAME id="ddm_elements.cntry_id">CNTRY_ID        </DD_DATA_NAME>
 			<DD_DESCRIPTION id="ddm_elements.cntry_id">Country ID</DD_DESCRIPTION>
@@ -1847,6 +1804,7 @@
 			<DD_ATTR_DKEY id="ddm_drill_defs.ar_inv_sales">[+FIRM_ID]+"  "+[CUSTOMER_ID]</DD_ATTR_DKEY>
 			<ASC_COMP_ID id="ddm_drill_defs.ar_inv_sales">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_drill_defs.ar_inv_sales">AD </ASC_PROD_ID>
+			<FILTER_PROG id="ddm_drill_defs.ar_inv_sales">ard_invoicesales.aon</FILTER_PROG>
 		</RECORD>
 	</ALIAS>
 </ARM_CUSTMAST>

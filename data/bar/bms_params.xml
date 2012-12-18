@@ -14,13 +14,13 @@
 			<DD_SYSTEM_REC id="ddm_tables.bms_params">N</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_tables.bms_params">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.bms_params">AD </ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.bms_params">9.0</ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.bms_params">11.0      </ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.bms_params">88705C93650889BECB2673BBD78492E3</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.bms_params">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.bms_params">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.bms_params">20100611</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.bms_params">20100601</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.bms_params">171632</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.bms_params">20110411</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.bms_params">20110418</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.bms_params">115342</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.bms_params">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.bms_params">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.bms_params">BM Parameters</DD_ATTR_WINT>
@@ -256,6 +256,8 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.bms_params012">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.bms_params012">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.bms_params012">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_LABL id="ddm_table_cols.bms_params012">Hour Precision</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_table_cols.bms_params012">Hour Precision</DD_ATTR_LABS>
 			<DD_ATTR_MAXL id="ddm_table_cols.bms_params012">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.bms_params012">Hour/Quantity Precision</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.bms_params012">11</DD_ATTR_TIND>
@@ -292,6 +294,26 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.bms_paramsgl_prd_varu">BMS_PARAMS      </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.bms_paramsgl_prd_varu">GL_PRD_VAR      </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.bms_paramsgl_prd_varu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.bms_paramshrqty_masko">
+			<DD_TABLE_ALIAS id="ddm_column_opts.bms_paramshrqty_masko">BMS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.bms_paramshrqty_masko">HRQTY_MASK      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.bms_paramshrqty_masko">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.bms_paramsmat_fac_msko">
+			<DD_TABLE_ALIAS id="ddm_column_opts.bms_paramsmat_fac_msko">BMS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.bms_paramsmat_fac_msko">MAT_FAC_MSK     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.bms_paramsmat_fac_msko">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.bms_paramsovhd_fac_msko">
+			<DD_TABLE_ALIAS id="ddm_column_opts.bms_paramsovhd_fac_msko">BMS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.bms_paramsovhd_fac_msko">OVHD_FAC_MSK    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.bms_paramsovhd_fac_msko">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.bms_paramsmat_factoro">
+			<DD_TABLE_ALIAS id="ddm_column_opts.bms_paramsmat_factoro">BMS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.bms_paramsmat_factoro">MAT_FACTOR      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.bms_paramsmat_factoro">O</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

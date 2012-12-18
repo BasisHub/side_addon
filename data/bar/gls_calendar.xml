@@ -15,15 +15,15 @@
 			<RESTRICT_AUTOADD id="ddm_tables.gls_calendar">N</RESTRICT_AUTOADD>
 			<ASC_COMP_ID id="ddm_tables.gls_calendar">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.gls_calendar">AD </ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.gls_calendar">9.0</ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.gls_calendar">11.0      </ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.gls_calendar">408FD371DDE61A29E2700A0FFC9AF158</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.gls_calendar">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.gls_calendar">20070915</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.gls_calendar">20100718</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.gls_calendar">20100718</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.gls_calendar">232804</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.gls_calendar">20110309</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.gls_calendar">20110310</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.gls_calendar">204348</DD_LSTSYNC_TIME>
 			<DD_ATTR_ATAB id="ddm_tables.gls_calendar">GLS_PARAMS      </DD_ATTR_ATAB>
-			<DD_ATTR_CPGM id="ddm_tables.gls_calendar">[+DIR_CPP]gls_calendar_cpt.bbj</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_tables.gls_calendar">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.gls_calendar">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.gls_calendar">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.gls_calendar">Fiscal Calendar</DD_ATTR_WINT>
@@ -779,6 +779,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.gls_calendar038">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.gls_calendar038">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.gls_calendar038">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CPGM id="ddm_table_cols.gls_calendar038">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLX id="ddm_table_cols.gls_calendar038">+5</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_cols.gls_calendar038">-1</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.gls_calendar038">30</DD_ATTR_CTLW>
@@ -1844,6 +1845,14 @@
 			<DD_DVAR_NAME id="ddm_column_cmts.gls_calendarmax_acct_len001">MAX_ACCT_LEN    </DD_DVAR_NAME>
 			<DD_COMM_SEQ id="ddm_column_cmts.gls_calendarmax_acct_len001">001</DD_COMM_SEQ>
 			<DD_COMM_TEXT id="ddm_column_cmts.gls_calendarmax_acct_len001">or G[4].                                                    </DD_COMM_TEXT>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_column_cpro">
+		<ID id="ddm_column_cpro">DDM_COLUMN_CPRO</ID>
+		<RECORD id="ddm_column_cpro.gls_calendarlocked_flag_01binp">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.gls_calendarlocked_flag_01binp">GLS_CALENDAR    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.gls_calendarlocked_flag_01binp">LOCKED_FLAG_01  </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.gls_calendarlocked_flag_01binp">BINP</DD_ATTR_CPRO>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">

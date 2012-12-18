@@ -15,13 +15,13 @@
 			<RESTRICT_AUTOADD id="ddm_tables.glr_budgetupdate">Y</RESTRICT_AUTOADD>
 			<ASC_COMP_ID id="ddm_tables.glr_budgetupdate">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.glr_budgetupdate">GL </ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.glr_budgetupdate">9.0</ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.glr_budgetupdate">11.0      </ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.glr_budgetupdate">1F887A123B7ACD70368EDAA90A6DFDDA</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.glr_budgetupdate">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.glr_budgetupdate">20060526</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.glr_budgetupdate">20100610</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.glr_budgetupdate">20100601</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.glr_budgetupdate">171630</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.glr_budgetupdate">20110331</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.glr_budgetupdate">20110401</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.glr_budgetupdate">142220</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.glr_budgetupdate">[+DIR_CPP]glr_budgetupdate_cpt.bbj</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.glr_budgetupdate">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.glr_budgetupdate">[+DIR_PGM]gle_budgetupdate.aon</DD_ATTR_PRUN>
@@ -102,9 +102,9 @@
 			<DD_CREATE_DATE id="ddm_table_cols.glr_budgetupdate003">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.glr_budgetupdate003">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.glr_budgetupdate003">80</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.glr_budgetupdate003">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABL id="ddm_table_cols.glr_budgetupdate003">Wildcard Mask</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_table_cols.glr_budgetupdate003">Wildcard Mask</DD_ATTR_LABS>
-			<DD_ATTR_MAXL id="ddm_table_cols.glr_budgetupdate003">10</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.glr_budgetupdate003">GL Account Wildcard Mask</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.glr_budgetupdate003">3</DD_ATTR_TIND>
 		</RECORD>
@@ -218,17 +218,23 @@
 			<DD_DATA_NAME id="ddm_elements.gl_wildcard">GL_WILDCARD     </DD_DATA_NAME>
 			<DD_DESCRIPTION id="ddm_elements.gl_wildcard">GL Account Wildcard Mask</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.gl_wildcard">C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.gl_wildcard">10</DD_DATA_LENGTH>
+			<DD_DATA_LENGTH id="ddm_elements.gl_wildcard">19</DD_DATA_LENGTH>
 			<DD_MASK_TYPE id="ddm_elements.gl_wildcard"> </DD_MASK_TYPE>
 			<ASC_COMP_ID id="ddm_elements.gl_wildcard">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_elements.gl_wildcard">GL </ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.gl_wildcard">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.gl_wildcard">20060315</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.gl_wildcard">20110331</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.gl_wildcard">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.gl_wildcard">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.gl_wildcard">E</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.gl_wildcard">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.gl_wildcard">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.gl_wildcard">Account Wildcard Mask</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.gl_wildcard">Acct Wildcard Mask</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.gl_wildcard">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.gl_wildcard">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.gl_wildcard">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.gl_wildcard">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.rounding">
 			<DD_DATA_NAME id="ddm_elements.rounding">ROUNDING        </DD_DATA_NAME>

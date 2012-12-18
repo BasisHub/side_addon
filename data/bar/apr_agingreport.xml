@@ -14,13 +14,13 @@
 			<RESTRICT_CREATE id="ddm_tables.apr_agingreport">Y</RESTRICT_CREATE>
 			<ASC_COMP_ID id="ddm_tables.apr_agingreport">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.apr_agingreport">AP </ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.apr_agingreport">9.0</ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.apr_agingreport">11.0      </ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.apr_agingreport">7FCD80D73E2376274FD516816405B03D</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.apr_agingreport">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.apr_agingreport">20060424</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.apr_agingreport">20100608</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.apr_agingreport">20100608</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.apr_agingreport">112226</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.apr_agingreport">20110322</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.apr_agingreport">20110324</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.apr_agingreport">155256</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.apr_agingreport">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.apr_agingreport">[+DIR_PGM]apr_agingreport.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.apr_agingreport">Aging Report</DD_ATTR_WINT>
@@ -71,7 +71,8 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.apr_agingreport002">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.apr_agingreport002">20060424</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.apr_agingreport002">20060424</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW id="ddm_table_cols.apr_agingreport002">60</DD_ATTR_CTLW>
+			<DD_ATTR_CTLW id="ddm_table_cols.apr_agingreport002">100</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.apr_agingreport002">0</DD_ATTR_CTLH>
 			<DD_ATTR_DFLT id="ddm_table_cols.apr_agingreport002">P</DD_ATTR_DFLT>
 			<DD_ATTR_LABL id="ddm_table_cols.apr_agingreport002">Period or Days</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_table_cols.apr_agingreport002">Per or Days</DD_ATTR_LABS>
@@ -109,7 +110,7 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.apr_agingreport004">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.apr_agingreport004">20060424</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.apr_agingreport004">20060424</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW id="ddm_table_cols.apr_agingreport004">74</DD_ATTR_CTLW>
+			<DD_ATTR_CTLW id="ddm_table_cols.apr_agingreport004">100</DD_ATTR_CTLW>
 			<DD_ATTR_DFLT id="ddm_table_cols.apr_agingreport004">D</DD_ATTR_DFLT>
 			<DD_ATTR_MAXL id="ddm_table_cols.apr_agingreport004">1</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.apr_agingreport004">5</DD_ATTR_TIND>
@@ -125,7 +126,7 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.apr_agingreport005">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.apr_agingreport005">20060424</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.apr_agingreport005">20060424</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW id="ddm_table_cols.apr_agingreport005">109</DD_ATTR_CTLW>
+			<DD_ATTR_CTLW id="ddm_table_cols.apr_agingreport005">130</DD_ATTR_CTLW>
 			<DD_ATTR_DFLT id="ddm_table_cols.apr_agingreport005">D</DD_ATTR_DFLT>
 			<DD_ATTR_LABL id="ddm_table_cols.apr_agingreport005">Age by</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_table_cols.apr_agingreport005">Aging Opt</DD_ATTR_LABS>
@@ -160,7 +161,7 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.apr_agingreport007">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.apr_agingreport007">20060424</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.apr_agingreport007">20060424</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW id="ddm_table_cols.apr_agingreport007">125</DD_ATTR_CTLW>
+			<DD_ATTR_CTLW id="ddm_table_cols.apr_agingreport007">150</DD_ATTR_CTLW>
 			<DD_ATTR_DFLT id="ddm_table_cols.apr_agingreport007">V</DD_ATTR_DFLT>
 			<DD_ATTR_LABL id="ddm_table_cols.apr_agingreport007">Report Sequence</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_table_cols.apr_agingreport007">Seq</DD_ATTR_LABS>
@@ -259,6 +260,14 @@
 			<DD_ATTR_LDAT_DS id="ddm_column_ldat.apr_agingreportreport_sequence02">Vendor ID</DD_ATTR_LDAT_DS>
 		</RECORD>
 	</ALIAS>
+	<ALIAS id="ddm_column_opts">
+		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
+		<RECORD id="ddm_column_opts.apr_agingreportreport_typeo">
+			<DD_TABLE_ALIAS id="ddm_column_opts.apr_agingreportreport_typeo">APR_AGINGREPORT </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.apr_agingreportreport_typeo">REPORT_TYPE     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.apr_agingreportreport_typeo">o</DD_ATTR_OPTS>
+		</RECORD>
+	</ALIAS>
 	<ALIAS id="ddm_elements">
 		<ID id="ddm_elements">DDM_ELEMENTS</ID>
 		<RECORD id="ddm_elements.aging_date">
@@ -287,16 +296,22 @@
 			<DD_DESCRIPTION id="ddm_elements.report_type">Report Type</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.report_type">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.report_type">1</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.report_type"> </DD_MASK_TYPE>
 			<ASC_COMP_ID id="ddm_elements.report_type">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_elements.report_type">AD </ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.report_type">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.report_type">20060428</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.report_type">20100809</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.report_type">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.report_type">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.report_type">L</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.report_type">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.report_type">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.report_type">Report Type</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.report_type">Rpt Type</DD_ATTR_LABS>
+			<DD_ATTR_LDIS id="ddm_elements.report_type">C</DD_ATTR_LDIS>
+			<DD_ATTR_MAXL id="ddm_elements.report_type">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.report_type">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.report_type">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.report_type">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.pick_integer">
 			<DD_DATA_NAME id="ddm_elements.pick_integer">PICK_INTEGER    </DD_DATA_NAME>

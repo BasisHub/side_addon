@@ -10,18 +10,19 @@
 			<DD_ALIAS_TYPE id="ddm_tables.bmm_billcmts">V</DD_ALIAS_TYPE>
 			<DD_KEY_LENGTH id="ddm_tables.bmm_billcmts">0</DD_KEY_LENGTH>
 			<DD_NBR_RECORD id="ddm_tables.bmm_billcmts">0</DD_NBR_RECORD>
-			<DD_RECORD_LEN id="ddm_tables.bmm_billcmts">81</DD_RECORD_LEN>
+			<DD_RECORD_LEN id="ddm_tables.bmm_billcmts">0</DD_RECORD_LEN>
 			<DD_SYSTEM_REC id="ddm_tables.bmm_billcmts">N</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_tables.bmm_billcmts">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.bmm_billcmts">BM </ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.bmm_billcmts">9.0</ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.bmm_billcmts">11.0      </ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.bmm_billcmts">0174A2DA2E09075245D093DE75D32BFE</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.bmm_billcmts">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.bmm_billcmts">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.bmm_billcmts">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.bmm_billcmts">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.bmm_billcmts">141552</DD_LSTSYNC_TIME>
-			<DD_ATTR_FTYP id="ddm_tables.bmm_billcmts">T</DD_ATTR_FTYP>
+			<DD_LSTREV_DATE id="ddm_tables.bmm_billcmts">20110412</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.bmm_billcmts">20110418</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.bmm_billcmts">115342</DD_LSTSYNC_TIME>
+			<DD_ATTR_FTYP id="ddm_tables.bmm_billcmts">G</DD_ATTR_FTYP>
+			<DD_ATTR_PTAB id="ddm_tables.bmm_billcmts">BMM_BILLMAST    </DD_ATTR_PTAB>
 			<DD_ATTR_SLEV id="ddm_tables.bmm_billcmts">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.bmm_billcmts">Bill Of Materials Comments</DD_ATTR_WINT>
 		</RECORD>
@@ -86,6 +87,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.bmm_billcmts001">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.bmm_billcmts001">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_PROM id="ddm_table_cols.bmm_billcmts001">Firm ID</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.bmm_billcmts001">1</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.bmm_billcmts002">
 			<DD_TABLE_ALIAS id="ddm_table_cols.bmm_billcmts002">BMM_BILLCMTS    </DD_TABLE_ALIAS>
@@ -97,7 +99,10 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.bmm_billcmts002">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.bmm_billcmts002">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.bmm_billcmts002">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.bmm_billcmts002">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.bmm_billcmts002">0</DD_ATTR_CTLH>
 			<DD_ATTR_PROM id="ddm_table_cols.bmm_billcmts002">Bill of Materials Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.bmm_billcmts002">2</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.bmm_billcmts003">
 			<DD_TABLE_ALIAS id="ddm_table_cols.bmm_billcmts003">BMM_BILLCMTS    </DD_TABLE_ALIAS>
@@ -111,6 +116,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.bmm_billcmts003">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.bmm_billcmts003">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_PROM id="ddm_table_cols.bmm_billcmts003">Sequence Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.bmm_billcmts003">3</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.bmm_billcmts004">
 			<DD_TABLE_ALIAS id="ddm_table_cols.bmm_billcmts004">BMM_BILLCMTS    </DD_TABLE_ALIAS>
@@ -124,6 +130,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.bmm_billcmts004">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.bmm_billcmts004">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_PROM id="ddm_table_cols.bmm_billcmts004">Comments Line</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.bmm_billcmts004">4</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">
@@ -132,6 +139,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.bmm_billcmtsfirm_ido">BMM_BILLCMTS    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.bmm_billcmtsfirm_ido">FIRM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.bmm_billcmtsfirm_ido">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.bmm_billcmtsbill_noo">
+			<DD_TABLE_ALIAS id="ddm_column_opts.bmm_billcmtsbill_noo">BMM_BILLCMTS    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.bmm_billcmtsbill_noo">BILL_NO         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.bmm_billcmtsbill_noo">O</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

@@ -15,13 +15,13 @@
 			<RESTRICT_AUTOADD id="ddm_tables.poe_replenselect">Y</RESTRICT_AUTOADD>
 			<ASC_COMP_ID id="ddm_tables.poe_replenselect">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.poe_replenselect">PO </ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.poe_replenselect">9.0</ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.poe_replenselect">11.0      </ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.poe_replenselect">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.poe_replenselect">20090414</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.poe_replenselect">20100610</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.poe_replenselect">20100601</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.poe_replenselect">171630</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.poe_replenselect">/dev/apps/aon/;</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.poe_replenselect">20110321</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.poe_replenselect">20110324</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.poe_replenselect">155256</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.poe_replenselect">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.poe_replenselect">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.poe_replenselect">[+DIR_PGM]pou_replenselect.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.poe_replenselect">Replenishment Selection Options</DD_ATTR_WINT>
@@ -29,6 +29,10 @@
 	</ALIAS>
 	<ALIAS id="ddm_table_cpro">
 		<ID id="ddm_table_cpro">DDM_TABLE_CPRO</ID>
+		<RECORD id="ddm_table_cpro.poe_replenselectarec">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.poe_replenselectarec">POE_REPLENSELECT</DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.poe_replenselectarec">AREC</DD_ATTR_CPRO>
+		</RECORD>
 		<RECORD id="ddm_table_cpro.poe_replenselectasva">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.poe_replenselectasva">POE_REPLENSELECT</DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.poe_replenselectasva">ASVA</DD_ATTR_CPRO>

@@ -2,20 +2,20 @@
 // Proprietary Information. BASIS International Ltd. All rights reserved.
 ACOMP=01007514;BASIS International Ltd.
 DIR=../apps/aon/
-SYS=ADDON;AddonSoftware 10.04 ^Copyright (C) 2007-2011.  BASIS International Ltd.^All rights reserved.^Version 10.04 - [BUILD_DATE]^AddonSoftware is protected by copyright law and international treaties. Unauthorized reproduction or distribution may result in severe civil and criminal penalties.
+SYS=ADDON;AddonSoftware 11.00 ^Copyright (C) 2007-2011.  BASIS International Ltd.^All rights reserved.^Version 11.00 - [BUILD_DATE]^AddonSoftware is protected by copyright law and international treaties. Unauthorized reproduction or distribution may result in severe civil and criminal penalties.
 MENU=addon
-APROD=AD;AddonSoftware Administration;[+AON_IMAGES]addon_logo32.png;addonhelp.hs;addon;../apps/aon/prop/;ENU,ESP;
-APROD=AP;AddonSoftware Accts Payable;[+AON_IMAGES]addon_logo32.png;addonhelp.hs;addon;../apps/aon/prop/;ENU,ESP;
-APROD=AR;AddonSoftware Accts Receivable;[+AON_IMAGES]addon_logo32.png;addonhelp.hs;addon;../apps/aon/prop/;ENU,ESP;
+APROD=AD;AddonSoftware Administration;[+AON_IMAGES]addon_logo32.png;addonhelp.hs;addon;../apps/aon/prop/;ENU,ESP,DEU,ITA;
+APROD=AP;AddonSoftware Accts Payable;[+AON_IMAGES]addon_logo32.png;addonhelp.hs;addon;../apps/aon/prop/;ENU,ESP,DEU,ITA;
+APROD=AR;AddonSoftware Accts Receivable;[+AON_IMAGES]addon_logo32.png;addonhelp.hs;addon;../apps/aon/prop/;ENU,ESP,DEU,ITA;
 APROD=BM;AddonSoftware Bill of Materials;[+AON_IMAGES]addon_logo32.png;addonhelp.hs;addon;../apps/aon/prop/;ENU;
 APROD=CR;AddonSoftware CRM;[+AON_IMAGES]addon_logo32.png;addonhelp.hs;addon;../apps/aon/prop/;ENU;
-APROD=GL;AddonSoftware General Ledger;[+AON_IMAGES]addon_logo32.png;addonhelp.hs;addon;../apps/aon/prop/;ENU,ESP;
-APROD=IV;AddonSoftware Inventory;[+AON_IMAGES]addon_logo32.png;addonhelp.hs;addon;../apps/aon/prop/;ENU,ESP;
+APROD=GL;AddonSoftware General Ledger;[+AON_IMAGES]addon_logo32.png;addonhelp.hs;addon;../apps/aon/prop/;ENU,ESP,DEU,ITA;
+APROD=IV;AddonSoftware Inventory;[+AON_IMAGES]addon_logo32.png;addonhelp.hs;addon;../apps/aon/prop/;ENU,ESP,DEU,ITA;
 APROD=MP;AddonSoftware Materials Planning;[+AON_IMAGES]addon_logo32.png;addonhelp.hs;addon;../apps/aon/prop/;ENU;
-APROD=OP;AddonSoftware Order Processing;[+AON_IMAGES]addon_logo32.png;addonhelp.hs;addon;../apps/aon/prop/;ENU,ESP;
-APROD=PO;AddonSoftware Purchase Orders;[+AON_IMAGES]addon_logo32.png;addonhelp.hs;addon;../apps/aon/prop/;ENU,ESP;
+APROD=OP;AddonSoftware Order Processing;[+AON_IMAGES]addon_logo32.png;addonhelp.hs;addon;../apps/aon/prop/;ENU,ESP,DEU,ITA;
+APROD=PO;AddonSoftware Purchase Orders;[+AON_IMAGES]addon_logo32.png;addonhelp.hs;addon;../apps/aon/prop/;ENU,ESP,DEU,ITA;
 APROD=PR;AddonSoftware Payroll;[+AON_IMAGES]addon_logo32.png;addonhelp.hs;addon;../apps/aon/prop/;ENU;
-APROD=SA;AddonSoftware Sales Analysis;[+AON_IMAGES]addon_logo32.png;addonhelp.hs;addon;../apps/aon/prop/;ENU,ESP;
+APROD=SA;AddonSoftware Sales Analysis;[+AON_IMAGES]addon_logo32.png;addonhelp.hs;addon;../apps/aon/prop/;ENU,ESP,DEU,ITA;
 APROD=SF;AddonSoftware Shop Floor;[+AON_IMAGES]addon_logo32.png;addonhelp.hs;addon;../apps/aon/prop/;ENU;
 APROD=SY;AddonSoftware System Admin;[+AON_IMAGES]addon_logo32.png;addonhelp.hs;addon;../apps/aon/prop/;ENU;
 STBL=SET +SHOW_PRINTERS=YES
@@ -24,6 +24,7 @@ STBL=SET +CUST_IMAGES=../apps/aon/cust_images/
 STBL=SET +FORM_LOGO=basislogo.jpg
 STBL=SET +AON_APPCOMPANY=01007514
 STBL=SET +MDI_TITLE=AddonSoftware
+STBL=SET +MULTI_COMPANY=YES
 STBL=SET +FILE_HLA=http://www.basis.com/support/documentation/index.html
 STBL=SET +DIR_PGM=
 STBL=SET +BATCH_NO=0000000
@@ -86,7 +87,8 @@ CFG=+PRDATA=../apps/aon/data/
 CFG=+SADATA=../apps/aon/data/
 CFG=+SFDATA=../apps/aon/data/
 CFG=+SYDATA=../apps/aon/data/
-CFG=+ADDATA=../apps/aon/data/
 CFG=+DIR_REPORTS=../apps/aon/reports/
 LANG=ENU
 LANG=ESP
+LANG=DEU
+LANG=ITA

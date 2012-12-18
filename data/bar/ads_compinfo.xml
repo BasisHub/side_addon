@@ -16,12 +16,12 @@
 			<RESTRICT_AUTOADD id="ddm_tables.ads_compinfo">Y</RESTRICT_AUTOADD>
 			<ASC_COMP_ID id="ddm_tables.ads_compinfo">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.ads_compinfo">AD </ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.ads_compinfo">1.0</ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.ads_compinfo">11.0      </ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ads_compinfo">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ads_compinfo">20110118</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ads_compinfo">20110118</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ads_compinfo">20110118</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ads_compinfo">084646</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ads_compinfo">20110419</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ads_compinfo">20110419</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ads_compinfo">150704</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ads_compinfo">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ads_compinfo">T</DD_ATTR_FTYP>
 			<DD_ATTR_WINT id="ddm_tables.ads_compinfo">Company Information</DD_ATTR_WINT>
@@ -39,7 +39,7 @@
 		<RECORD id="ddm_table_tpls.ads_compinfo">
 			<DD_TABLE_ALIAS id="ddm_table_tpls.ads_compinfo">ADS_COMPINFO    </DD_TABLE_ALIAS>
 			<DD_FILE_NAME id="ddm_table_tpls.ads_compinfo">ads_compinfo</DD_FILE_NAME>
-			<DD_TABLE_TPL id="ddm_table_tpls.ads_compinfo">firm_id:c(2),firm_name:c(40),addr_line_1:c(24),addr_line_2:c(24),addr_line_3:c(24),city:c(22),state_code:c(2),country_id:c(2),postal_code:c(9),phone_no:c(20),fax_no:c(20),tax_method:c(1),own_tax_id:c(20),own_vat_id:c(20)</DD_TABLE_TPL>
+			<DD_TABLE_TPL id="ddm_table_tpls.ads_compinfo">firm_id:c(2),firm_name:c(40),addr_line_1:c(24),addr_line_2:c(24),addr_line_3:c(24),city:c(22),state_code:c(2),country_id:c(2),postal_code:c(9),phone_no:c(20),fax_no:c(20),own_tax_id:c(20)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_keys">
@@ -295,8 +295,8 @@
 		<RECORD id="ddm_table_cols.ads_compinfo012">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ads_compinfo012">ADS_COMPINFO    </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_cols.ads_compinfo012">012</DD_SEQUENCE>
-			<DD_DATA_NAME id="ddm_table_cols.ads_compinfo012">TAX_METHOD      </DD_DATA_NAME>
-			<DD_DVAR_NAME id="ddm_table_cols.ads_compinfo012">TAX_METHOD      </DD_DVAR_NAME>
+			<DD_DATA_NAME id="ddm_table_cols.ads_compinfo012">TAX_ID          </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ads_compinfo012">OWN_TAX_ID      </DD_DVAR_NAME>
 			<DD_COL_REPEATS id="ddm_table_cols.ads_compinfo012">0</DD_COL_REPEATS>
 			<DD_COL_OCCURS id="ddm_table_cols.ads_compinfo012">0</DD_COL_OCCURS>
 			<DD_FIELD_DELIM id="ddm_table_cols.ads_compinfo012">N</DD_FIELD_DELIM>
@@ -308,53 +308,11 @@
 			<DD_ATTR_CTLY id="ddm_table_cols.ads_compinfo012">0</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.ads_compinfo012">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ads_compinfo012">0</DD_ATTR_CTLH>
+			<DD_ATTR_LABL id="ddm_table_cols.ads_compinfo012">Tax ID</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_table_cols.ads_compinfo012">Tax ID</DD_ATTR_LABS>
 			<DD_ATTR_MLAN id="ddm_table_cols.ads_compinfo012">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.ads_compinfo012">1</DD_ATTR_MAXL>
-			<DD_ATTR_TIND id="ddm_table_cols.ads_compinfo012">12</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD id="ddm_table_cols.ads_compinfo013">
-			<DD_TABLE_ALIAS id="ddm_table_cols.ads_compinfo013">ADS_COMPINFO    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE id="ddm_table_cols.ads_compinfo013">013</DD_SEQUENCE>
-			<DD_DATA_NAME id="ddm_table_cols.ads_compinfo013">TAX_ID          </DD_DATA_NAME>
-			<DD_DVAR_NAME id="ddm_table_cols.ads_compinfo013">OWN_TAX_ID      </DD_DVAR_NAME>
-			<DD_COL_REPEATS id="ddm_table_cols.ads_compinfo013">0</DD_COL_REPEATS>
-			<DD_COL_OCCURS id="ddm_table_cols.ads_compinfo013">0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM id="ddm_table_cols.ads_compinfo013">N</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR id="ddm_table_cols.ads_compinfo013">0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE id="ddm_table_cols.ads_compinfo013">20110118</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_table_cols.ads_compinfo013">20110118</DD_LSTREV_DATE>
-			<DD_ATTR_COLW id="ddm_table_cols.ads_compinfo013">0</DD_ATTR_COLW>
-			<DD_ATTR_CTLX id="ddm_table_cols.ads_compinfo013">0</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY id="ddm_table_cols.ads_compinfo013">0</DD_ATTR_CTLY>
-			<DD_ATTR_CTLW id="ddm_table_cols.ads_compinfo013">0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH id="ddm_table_cols.ads_compinfo013">0</DD_ATTR_CTLH>
-			<DD_ATTR_LABL id="ddm_table_cols.ads_compinfo013">Tax ID</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_table_cols.ads_compinfo013">Tax ID</DD_ATTR_LABS>
-			<DD_ATTR_MLAN id="ddm_table_cols.ads_compinfo013">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.ads_compinfo013">20</DD_ATTR_MAXL>
-			<DD_ATTR_TIND id="ddm_table_cols.ads_compinfo013">13</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD id="ddm_table_cols.ads_compinfo014">
-			<DD_TABLE_ALIAS id="ddm_table_cols.ads_compinfo014">ADS_COMPINFO    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE id="ddm_table_cols.ads_compinfo014">014</DD_SEQUENCE>
-			<DD_DATA_NAME id="ddm_table_cols.ads_compinfo014">TAX_ID          </DD_DATA_NAME>
-			<DD_DVAR_NAME id="ddm_table_cols.ads_compinfo014">OWN_VAT_ID      </DD_DVAR_NAME>
-			<DD_COL_REPEATS id="ddm_table_cols.ads_compinfo014">0</DD_COL_REPEATS>
-			<DD_COL_OCCURS id="ddm_table_cols.ads_compinfo014">0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM id="ddm_table_cols.ads_compinfo014">N</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR id="ddm_table_cols.ads_compinfo014">0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE id="ddm_table_cols.ads_compinfo014">20110118</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_table_cols.ads_compinfo014">20110118</DD_LSTREV_DATE>
-			<DD_ATTR_COLW id="ddm_table_cols.ads_compinfo014">0</DD_ATTR_COLW>
-			<DD_ATTR_CTLX id="ddm_table_cols.ads_compinfo014">0</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY id="ddm_table_cols.ads_compinfo014">0</DD_ATTR_CTLY>
-			<DD_ATTR_CTLW id="ddm_table_cols.ads_compinfo014">0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH id="ddm_table_cols.ads_compinfo014">0</DD_ATTR_CTLH>
-			<DD_ATTR_LABL id="ddm_table_cols.ads_compinfo014">VAT ID</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_table_cols.ads_compinfo014">VAT ID</DD_ATTR_LABS>
-			<DD_ATTR_MLAN id="ddm_table_cols.ads_compinfo014">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.ads_compinfo014">20</DD_ATTR_MAXL>
-			<DD_ATTR_TIND id="ddm_table_cols.ads_compinfo014">14</DD_ATTR_TIND>
+			<DD_ATTR_MAXL id="ddm_table_cols.ads_compinfo012">20</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.ads_compinfo012">13</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">
@@ -373,11 +331,6 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.ads_compinfoaddr_line_3l">ADS_COMPINFO    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ads_compinfoaddr_line_3l">ADDR_LINE_3     </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ads_compinfoaddr_line_3l">L</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD id="ddm_column_opts.ads_compinfotax_methodk">
-			<DD_TABLE_ALIAS id="ddm_column_opts.ads_compinfotax_methodk">ADS_COMPINFO    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.ads_compinfotax_methodk">TAX_METHOD      </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.ads_compinfotax_methodk">k</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">
@@ -574,28 +527,6 @@
 			<DD_ATTR_PREC id="ddm_elements.phone_no">0</DD_ATTR_PREC>
 			<DD_ATTR_STYP id="ddm_elements.phone_no">T</DD_ATTR_STYP>
 		</RECORD>
-		<RECORD id="ddm_elements.tax_method">
-			<DD_DATA_NAME id="ddm_elements.tax_method">TAX_METHOD      </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.tax_method">Taxing Method</DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.tax_method">C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.tax_method">1</DD_DATA_LENGTH>
-			<ASC_COMP_ID id="ddm_elements.tax_method">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.tax_method">AD </ASC_PROD_ID>
-			<LOCALIZATION_EX id="ddm_elements.tax_method">N</LOCALIZATION_EX>
-			<DD_CREATE_DATE id="ddm_elements.tax_method">20110118</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.tax_method">20110118</DD_LSTREV_DATE>
-			<DD_ATTR_BLNK id="ddm_elements.tax_method">N</DD_ATTR_BLNK>
-			<DD_ATTR_CTLW id="ddm_elements.tax_method">0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH id="ddm_elements.tax_method">0</DD_ATTR_CTLH>
-			<DD_ATTR_CTYP id="ddm_elements.tax_method">L</DD_ATTR_CTYP>
-			<DD_ATTR_LABL id="ddm_elements.tax_method">Taxing Method</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.tax_method">Taxing Method</DD_ATTR_LABS>
-			<DD_ATTR_LDIS id="ddm_elements.tax_method">O</DD_ATTR_LDIS>
-			<DD_ATTR_MAXL id="ddm_elements.tax_method">0</DD_ATTR_MAXL>
-			<DD_ATTR_MAXR id="ddm_elements.tax_method">0</DD_ATTR_MAXR>
-			<DD_ATTR_MINL id="ddm_elements.tax_method">0</DD_ATTR_MINL>
-			<DD_ATTR_PREC id="ddm_elements.tax_method">0</DD_ATTR_PREC>
-		</RECORD>
 		<RECORD id="ddm_elements.tax_id">
 			<DD_DATA_NAME id="ddm_elements.tax_id">TAX_ID          </DD_DATA_NAME>
 			<DD_DESCRIPTION id="ddm_elements.tax_id">Tax Identification</DD_DESCRIPTION>
@@ -616,21 +547,6 @@
 			<DD_ATTR_MAXR id="ddm_elements.tax_id">0</DD_ATTR_MAXR>
 			<DD_ATTR_MINL id="ddm_elements.tax_id">0</DD_ATTR_MINL>
 			<DD_ATTR_PREC id="ddm_elements.tax_id">0</DD_ATTR_PREC>
-		</RECORD>
-	</ALIAS>
-	<ALIAS id="ddm_element_ldat">
-		<ID id="ddm_element_ldat">DDM_ELEMENT_LDAT</ID>
-		<RECORD id="ddm_element_ldat.tax_method01">
-			<DD_DATA_NAME id="ddm_element_ldat.tax_method01">TAX_METHOD      </DD_DATA_NAME>
-			<DD_ATTR_SEQ id="ddm_element_ldat.tax_method01">01</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT id="ddm_element_ldat.tax_method01">S</DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS id="ddm_element_ldat.tax_method01">Sales Tax</DD_ATTR_LDAT_DS>
-		</RECORD>
-		<RECORD id="ddm_element_ldat.tax_method02">
-			<DD_DATA_NAME id="ddm_element_ldat.tax_method02">TAX_METHOD      </DD_DATA_NAME>
-			<DD_ATTR_SEQ id="ddm_element_ldat.tax_method02">02</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT id="ddm_element_ldat.tax_method02">V</DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS id="ddm_element_ldat.tax_method02">VAT</DD_ATTR_LDAT_DS>
 		</RECORD>
 	</ALIAS>
 </ADS_COMPINFO>

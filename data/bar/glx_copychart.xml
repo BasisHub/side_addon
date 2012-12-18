@@ -14,13 +14,13 @@
 			<RESTRICT_AUTOADD id="ddm_tables.glx_copychart">N</RESTRICT_AUTOADD>
 			<ASC_COMP_ID id="ddm_tables.glx_copychart">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.glx_copychart">GL </ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.glx_copychart">9.0</ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.glx_copychart">11.0      </ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.glx_copychart">4A6F30CD7BDFDCB5EE9D6EDA2FE4F603</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.glx_copychart">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.glx_copychart">20070913</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.glx_copychart">20100610</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.glx_copychart">20100601</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.glx_copychart">171630</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.glx_copychart">20110331</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.glx_copychart">20110401</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.glx_copychart">142220</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.glx_copychart">../apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.glx_copychart">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.glx_copychart">[+DIR_PGM]glx_copychart.aon</DD_ATTR_PRUN>
@@ -93,7 +93,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.glx_copychart004">20070912</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.glx_copychart004">20070912</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.glx_copychart004">80</DD_ATTR_CTLW>
-			<DD_ATTR_MAXL id="ddm_table_cols.glx_copychart004">10</DD_ATTR_MAXL>
+			<DD_ATTR_CTLH id="ddm_table_cols.glx_copychart004">0</DD_ATTR_CTLH>
 			<DD_ATTR_TIND id="ddm_table_cols.glx_copychart004">4</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.glx_copychart005">
@@ -192,17 +192,23 @@
 			<DD_DATA_NAME id="ddm_elements.gl_wildcard">GL_WILDCARD     </DD_DATA_NAME>
 			<DD_DESCRIPTION id="ddm_elements.gl_wildcard">GL Account Wildcard Mask</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.gl_wildcard">C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.gl_wildcard">10</DD_DATA_LENGTH>
+			<DD_DATA_LENGTH id="ddm_elements.gl_wildcard">19</DD_DATA_LENGTH>
 			<DD_MASK_TYPE id="ddm_elements.gl_wildcard"> </DD_MASK_TYPE>
 			<ASC_COMP_ID id="ddm_elements.gl_wildcard">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_elements.gl_wildcard">GL </ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.gl_wildcard">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.gl_wildcard">20060315</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.gl_wildcard">20110331</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.gl_wildcard">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.gl_wildcard">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.gl_wildcard">E</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.gl_wildcard">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.gl_wildcard">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.gl_wildcard">Account Wildcard Mask</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.gl_wildcard">Acct Wildcard Mask</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.gl_wildcard">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.gl_wildcard">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.gl_wildcard">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.gl_wildcard">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.yn_prompt">
 			<DD_DATA_NAME id="ddm_elements.yn_prompt">YN_PROMPT       </DD_DATA_NAME>

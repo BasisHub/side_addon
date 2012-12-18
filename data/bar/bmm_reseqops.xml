@@ -14,13 +14,13 @@
 			<DD_SYSTEM_REC id="ddm_tables.bmm_reseqops">N</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_tables.bmm_reseqops">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.bmm_reseqops">BM </ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.bmm_reseqops">9.0</ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.bmm_reseqops">11.0      </ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.bmm_reseqops">11A5EB79AE8D83BF643F11353D19C407</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.bmm_reseqops">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.bmm_reseqops">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_tables.bmm_reseqops">20100611</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.bmm_reseqops">20100601</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.bmm_reseqops">171630</DD_LSTSYNC_TIME>
+			<DD_LSTSYNC_DATE id="ddm_tables.bmm_reseqops">20110418</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.bmm_reseqops">115342</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.bmm_reseqops">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.bmm_reseqops">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.bmm_reseqops">Operations Detail Resequencing</DD_ATTR_WINT>
@@ -466,19 +466,25 @@
 		</RECORD>
 		<RECORD id="ddm_elements.line_type">
 			<DD_DATA_NAME id="ddm_elements.line_type">LINE_TYPE       </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.line_type">Line Type                     </DD_DESCRIPTION>
+			<DD_DESCRIPTION id="ddm_elements.line_type">Line Type</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.line_type">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.line_type">1</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.line_type"> </DD_MASK_TYPE>
 			<ASC_COMP_ID id="ddm_elements.line_type">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_elements.line_type">AD </ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.line_type">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.line_type">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP id="ddm_elements.line_type">E</DD_ATTR_CTYP>
+			<DD_LSTREV_DATE id="ddm_elements.line_type">20110412</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.line_type">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.line_type">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.line_type">O</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.line_type">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.line_type">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.line_type">Line Type</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.line_type">Line Type</DD_ATTR_LABS>
+			<DD_ATTR_LDIS id="ddm_elements.line_type">C</DD_ATTR_LDIS>
+			<DD_ATTR_MAXL id="ddm_elements.line_type">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.line_type">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.line_type">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.line_type">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.ext_comments">
 			<DD_DATA_NAME id="ddm_elements.ext_comments">EXT_COMMENTS    </DD_DATA_NAME>
@@ -698,6 +704,21 @@
 			<DD_ATTR_DEXP id="ddm_elements.dealer_num">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.dealer_num">Reserved For Dealer Use</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.dealer_num">Res For Dealer Use</DD_ATTR_LABS>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_element_ldat">
+		<ID id="ddm_element_ldat">DDM_ELEMENT_LDAT</ID>
+		<RECORD id="ddm_element_ldat.line_type01">
+			<DD_DATA_NAME id="ddm_element_ldat.line_type01">LINE_TYPE       </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.line_type01">01</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.line_type01">S</DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.line_type01">Standard Line</DD_ATTR_LDAT_DS>
+		</RECORD>
+		<RECORD id="ddm_element_ldat.line_type02">
+			<DD_DATA_NAME id="ddm_element_ldat.line_type02">LINE_TYPE       </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.line_type02">02</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.line_type02">M</DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.line_type02">Memo</DD_ATTR_LDAT_DS>
 		</RECORD>
 	</ALIAS>
 </BMM_RESEQOPS>

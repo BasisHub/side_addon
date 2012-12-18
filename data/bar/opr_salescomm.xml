@@ -12,14 +12,14 @@
 			<DD_RECORD_LEN id="ddm_tables.opr_salescomm">0</DD_RECORD_LEN>
 			<RESTRICT_REBUILD id="ddm_tables.opr_salescomm">Y</RESTRICT_REBUILD>
 			<ASC_COMP_ID id="ddm_tables.opr_salescomm">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_tables.opr_salescomm">OP</ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.opr_salescomm">9.0</ASC_VERSION_ID>
+			<ASC_PROD_ID id="ddm_tables.opr_salescomm">OP </ASC_PROD_ID>
+			<ASC_VERSION_ID id="ddm_tables.opr_salescomm">11.0      </ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.opr_salescomm">63816F40CC17A62950DC02913323CC9C</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.opr_salescomm">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.opr_salescomm">20080122</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_tables.opr_salescomm">20100520</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.opr_salescomm">20090709</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.opr_salescomm">115946</DD_LSTSYNC_TIME>
+			<DD_LSTSYNC_DATE id="ddm_tables.opr_salescomm">20110330</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.opr_salescomm">120818</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.opr_salescomm">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.opr_salescomm">[+DIR_PGM]opr_salescomm.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.opr_salescomm">Sales Commission Report</DD_ATTR_WINT>
@@ -202,7 +202,9 @@
 			<ASC_COMP_ID id="ddm_elements.salesperson">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_elements.salesperson">AD </ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.salesperson">20060126</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.salesperson">20060502</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.salesperson">20110329</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.salesperson">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.salesperson">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.salesperson">E</DD_ATTR_CTYP>
 			<DD_ATTR_DCOL id="ddm_elements.salesperson">CODE_DESC       </DD_ATTR_DCOL>
 			<DD_ATTR_DKEY id="ddm_elements.salesperson">[+FIRM_ID]+"F"+@</DD_ATTR_DKEY>
@@ -213,6 +215,9 @@
 			<DD_ATTR_MAXR id="ddm_elements.salesperson">0</DD_ATTR_MAXR>
 			<DD_ATTR_MINL id="ddm_elements.salesperson">0</DD_ATTR_MINL>
 			<DD_ATTR_MSKI id="ddm_elements.salesperson">UUU</DD_ATTR_MSKI>
+			<DD_ATTR_PADC id="ddm_elements.salesperson">20</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.salesperson">L</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.salesperson">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.report_seq">
 			<DD_DATA_NAME id="ddm_elements.report_seq">REPORT_SEQ      </DD_DATA_NAME>
