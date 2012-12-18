@@ -15,9 +15,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.aru_agingupdate">4493EF85A4B0A8F84BC7C0D93BF7B6C8</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.aru_agingupdate">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.aru_agingupdate">20061228</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.aru_agingupdate">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.aru_agingupdate">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.aru_agingupdate">141554</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.aru_agingupdate">20100607</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.aru_agingupdate">20100607</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.aru_agingupdate">184652</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.aru_agingupdate">S</DD_ATTR_FTYP>
 			<DD_ATTR_IKEY id="ddm_tables.aru_agingupdate">N</DD_ATTR_IKEY>
 			<DD_ATTR_PRUN id="ddm_tables.aru_agingupdate">[+DIR_PGM]aru_agingupdate.aon</DD_ATTR_PRUN>
@@ -120,6 +120,11 @@
 			<DD_DVAR_NAME id="ddm_column_opts.aru_agingupdatecustomer_id2">CUSTOMER_ID     </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.aru_agingupdatecustomer_id2">2</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.aru_agingupdatecustomer_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.aru_agingupdatecustomer_idu">ARU_AGINGUPDATE </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.aru_agingupdatecustomer_idu">CUSTOMER_ID     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.aru_agingupdatecustomer_idu">u</DD_ATTR_OPTS>
+		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">
 		<ID id="ddm_elements">DDM_ELEMENTS</ID>
@@ -148,18 +153,22 @@
 		<RECORD id="ddm_elements.aging_date">
 			<DD_DATA_NAME id="ddm_elements.aging_date">AGING_DATE      </DD_DATA_NAME>
 			<DD_DESCRIPTION id="ddm_elements.aging_date">Aging Date</DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.aging_date">N</DD_DATA_TYPE>
+			<DD_DATA_TYPE id="ddm_elements.aging_date">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.aging_date">8</DD_DATA_LENGTH>
 			<DD_SYSTEM_REC id="ddm_elements.aging_date">N</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_elements.aging_date">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.aging_date">AON</ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.aging_date">AP </ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.aging_date">20060417</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.aging_date">20060417</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.aging_date">20100608</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_elements.aging_date">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_elements.aging_date">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.aging_date">D</DD_ATTR_CTYP>
 			<DD_ATTR_LABL id="ddm_elements.aging_date">Aging Date</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.aging_date">Aging Dt</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.aging_date">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.aging_date">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.aging_date">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.aging_date">0</DD_ATTR_PREC>
 			<DD_ATTR_STYP id="ddm_elements.aging_date">1</DD_ATTR_STYP>
 		</RECORD>
 		<RECORD id="ddm_elements.pick_listbutton">

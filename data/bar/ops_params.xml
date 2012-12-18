@@ -19,9 +19,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.ops_params">6C86E4DEC7C6B455A88D2DC7EC930ABC</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ops_params">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ops_params">20080429</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ops_params">20100209</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ops_params">20100205</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ops_params">080248</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ops_params">20100611</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ops_params">20100615</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ops_params">142954</DD_LSTSYNC_TIME>
 			<DD_ATTR_ATAB id="ddm_tables.ops_params">ARS_PARAMS      </DD_ATTR_ATAB>
 			<DD_ATTR_CPGM id="ddm_tables.ops_params">../apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ops_params">T</DD_ATTR_FTYP>
@@ -1070,6 +1070,11 @@
 			<DD_DVAR_NAME id="ddm_column_opts.ops_paramsbr_interfaceo">BR_INTERFACE    </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ops_paramsbr_interfaceo">O</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.ops_paramscustomer_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ops_paramscustomer_idu">OPS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ops_paramscustomer_idu">CUSTOMER_ID     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ops_paramscustomer_idu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.ops_paramsretain_histw">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ops_paramsretain_histw">OPS_PARAMS      </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ops_paramsretain_histw">RETAIN_HIST     </DD_DVAR_NAME>
@@ -1089,6 +1094,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.ops_paramsskip_ln_codeo">OPS_PARAMS      </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ops_paramsskip_ln_codeo">SKIP_LN_CODE    </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ops_paramsskip_ln_codeo">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ops_paramsline_codeu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ops_paramsline_codeu">OPS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ops_paramsline_codeu">LINE_CODE       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ops_paramsline_codeu">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.ops_paramscntr_prt_pgmo">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ops_paramscntr_prt_pgmo">OPS_PARAMS      </DD_TABLE_ALIAS>
@@ -1751,11 +1761,10 @@
 			<DD_DESCRIPTION id="ddm_elements.line_code">Line Code</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.line_code">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.line_code">1</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.line_code"> </DD_MASK_TYPE>
 			<ASC_COMP_ID id="ddm_elements.line_code">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.line_code">AON</ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.line_code">OP </ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.line_code">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.line_code">20080223</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.line_code">20100623</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_elements.line_code">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_elements.line_code">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.line_code">E</DD_ATTR_CTYP>
@@ -1769,6 +1778,8 @@
 			<DD_ATTR_MAXL id="ddm_elements.line_code">0</DD_ATTR_MAXL>
 			<DD_ATTR_MAXR id="ddm_elements.line_code">0</DD_ATTR_MAXR>
 			<DD_ATTR_MINL id="ddm_elements.line_code">0</DD_ATTR_MINL>
+			<DD_ATTR_MSKI id="ddm_elements.line_code">U</DD_ATTR_MSKI>
+			<DD_ATTR_MSKO id="ddm_elements.line_code">U</DD_ATTR_MSKO>
 			<DD_ATTR_PREC id="ddm_elements.line_code">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.dropshp_whse">

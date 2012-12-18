@@ -18,10 +18,10 @@
 			<ASC_LICENSE_ID id="ddm_tables.opm_custjobs">D7C465B1EE4C0422955DCA44CD98CD34</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.opm_custjobs">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.opm_custjobs">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.opm_custjobs">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.opm_custjobs">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.opm_custjobs">141518</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.opm_custjobs">[+DIR_CPP]opm_custjobs_cpt.bbj</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.opm_custjobs">20100630</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.opm_custjobs">20100630</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.opm_custjobs">205134</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.opm_custjobs">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.opm_custjobs">T</DD_ATTR_FTYP>
 			<DD_ATTR_PTAB id="ddm_tables.opm_custjobs">ARM_CUSTMAST    </DD_ATTR_PTAB>
 			<DD_ATTR_SLEV id="ddm_tables.opm_custjobs">zzzz</DD_ATTR_SLEV>
@@ -40,7 +40,7 @@
 		<RECORD id="ddm_table_tpls.opm_custjobs">
 			<DD_TABLE_ALIAS id="ddm_table_tpls.opm_custjobs">OPM_CUSTJOBS    </DD_TABLE_ALIAS>
 			<DD_FILE_NAME id="ddm_table_tpls.opm_custjobs">opm-09</DD_FILE_NAME>
-			<DD_TABLE_TPL id="ddm_table_tpls.opm_custjobs">firm_id:c(2),customer_id:c(6),job_no:c(10),reserved_str:c(3),lien_no:c(12),reserved_str_02:c(6),retain_cust:c(1),lien_date:c(8),fst_shp_date:c(8),lstinv_date:c(8*),customer_name:c(30),addr_line_1:c(24),addr_line_2:c(24),city:c(22),state_code:c(2),zip_code:c(9),phone_no:c(20),phone_exten:c(4),contact_name:c(20*),lien_amount:n(7*),total_sales:n(7*)</DD_TABLE_TPL>
+			<DD_TABLE_TPL id="ddm_table_tpls.opm_custjobs">firm_id:c(2),customer_id:c(6),job_no:c(10),reserved_str:c(3),lien_no:c(12),reserved_str_02:c(6),retain_job:c(1),lien_date:c(8),fst_shp_date:c(8),lstinv_date:c(8*),customer_name:c(30),addr_line_1:c(24),addr_line_2:c(24),city:c(22),state_code:c(2),zip_code:c(9),phone_no:c(20),phone_exten:c(4),contact_name:c(20*),lien_amount:n(7*),total_sales:n(7*)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_keys">
@@ -123,6 +123,8 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.opm_custjobs003">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.opm_custjobs003">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.opm_custjobs003">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.opm_custjobs003">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.opm_custjobs003">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.opm_custjobs003">10</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.opm_custjobs003">Job Number</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.opm_custjobs003">3</DD_ATTR_TIND>
@@ -137,7 +139,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.opm_custjobs004">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.opm_custjobs004">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.opm_custjobs004">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.opm_custjobs004">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.opm_custjobs004">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.opm_custjobs004">20</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.opm_custjobs005">
 			<DD_TABLE_ALIAS id="ddm_table_cols.opm_custjobs005">OPM_CUSTJOBS    </DD_TABLE_ALIAS>
@@ -163,18 +167,23 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.opm_custjobs006">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.opm_custjobs006">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.opm_custjobs006">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.opm_custjobs006">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.opm_custjobs006">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.opm_custjobs006">21</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.opm_custjobs007">
 			<DD_TABLE_ALIAS id="ddm_table_cols.opm_custjobs007">OPM_CUSTJOBS    </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_cols.opm_custjobs007">007</DD_SEQUENCE>
-			<DD_DATA_NAME id="ddm_table_cols.opm_custjobs007">RETAIN_CUST     </DD_DATA_NAME>
-			<DD_DVAR_NAME id="ddm_table_cols.opm_custjobs007">RETAIN_CUST     </DD_DVAR_NAME>
+			<DD_DATA_NAME id="ddm_table_cols.opm_custjobs007">RETAIN_JOB      </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.opm_custjobs007">RETAIN_JOB      </DD_DVAR_NAME>
 			<DD_COL_REPEATS id="ddm_table_cols.opm_custjobs007">1</DD_COL_REPEATS>
 			<DD_COL_OCCURS id="ddm_table_cols.opm_custjobs007">0</DD_COL_OCCURS>
 			<DD_FIELD_DELIM id="ddm_table_cols.opm_custjobs007">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.opm_custjobs007">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.opm_custjobs007">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.opm_custjobs007">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.opm_custjobs007">0</DD_ATTR_CTLH>
+			<DD_ATTR_DFLT id="ddm_table_cols.opm_custjobs007">Y</DD_ATTR_DFLT>
 			<DD_ATTR_MAXL id="ddm_table_cols.opm_custjobs007">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.opm_custjobs007">Retain?</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.opm_custjobs007">13</DD_ATTR_TIND>
@@ -414,6 +423,11 @@
 			<DD_DVAR_NAME id="ddm_column_opts.opm_custjobscustomer_ido">CUSTOMER_ID     </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.opm_custjobscustomer_ido">O</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.opm_custjobsretain_jobc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.opm_custjobsretain_jobc">OPM_CUSTJOBS    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.opm_custjobsretain_jobc">RETAIN_JOB      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.opm_custjobsretain_jobc">C</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.opm_custjobsaddr_line_2l">
 			<DD_TABLE_ALIAS id="ddm_column_opts.opm_custjobsaddr_line_2l">OPM_CUSTJOBS    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.opm_custjobsaddr_line_2l">ADDR_LINE_2     </DD_DVAR_NAME>
@@ -521,22 +535,27 @@
 			<DD_ATTR_LABL id="ddm_elements.lien_no">Lien Number</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.lien_no">Lien No</DD_ATTR_LABS>
 		</RECORD>
-		<RECORD id="ddm_elements.retain_cust">
-			<DD_DATA_NAME id="ddm_elements.retain_cust">RETAIN_CUST     </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.retain_cust">Retain?                       </DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.retain_cust">C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.retain_cust">1</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.retain_cust"> </DD_MASK_TYPE>
-			<ASC_COMP_ID id="ddm_elements.retain_cust">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.retain_cust">AON</ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.retain_cust">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.retain_cust">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CDAT id="ddm_elements.retain_cust">Y;N</DD_ATTR_CDAT>
-			<DD_ATTR_CTYP id="ddm_elements.retain_cust">C</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM id="ddm_elements.retain_cust">            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP id="ddm_elements.retain_cust">            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL id="ddm_elements.retain_cust">Retain?</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.retain_cust">Retain?</DD_ATTR_LABS>
+		<RECORD id="ddm_elements.retain_job">
+			<DD_DATA_NAME id="ddm_elements.retain_job">RETAIN_JOB      </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.retain_job">Retain job?</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.retain_job">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.retain_job">1</DD_DATA_LENGTH>
+			<ASC_COMP_ID id="ddm_elements.retain_job">00000000</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.retain_job">DEV</ASC_PROD_ID>
+			<LOCALIZATION_EX id="ddm_elements.retain_job">N</LOCALIZATION_EX>
+			<DD_CREATE_DATE id="ddm_elements.retain_job">20100630</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.retain_job">20100630</DD_LSTREV_DATE>
+			<DD_ATTR_BLNK id="ddm_elements.retain_job">N</DD_ATTR_BLNK>
+			<DD_ATTR_CDAT id="ddm_elements.retain_job">Y;N</DD_ATTR_CDAT>
+			<DD_ATTR_CTLW id="ddm_elements.retain_job">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.retain_job">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.retain_job">C</DD_ATTR_CTYP>
+			<DD_ATTR_LABL id="ddm_elements.retain_job">Retain job?</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.retain_job">Retain job?</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.retain_job">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.retain_job">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.retain_job">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.retain_job">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.lien_date">
 			<DD_DATA_NAME id="ddm_elements.lien_date">LIEN_DATE       </DD_DATA_NAME>

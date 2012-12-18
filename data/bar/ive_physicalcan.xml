@@ -18,9 +18,9 @@
 			<ASC_VERSION_ID id="ddm_tables.ive_physicalcan">9.0</ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ive_physicalcan">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ive_physicalcan">20090212</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ive_physicalcan">20100224</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ive_physicalcan">20100121</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ive_physicalcan">223450</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ive_physicalcan">20100614</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ive_physicalcan">20100610</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ive_physicalcan">121150</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ive_physicalcan">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ive_physicalcan">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.ive_physicalcan">[+DIR_PGM]ivu_physinvcancel.aon</DD_ATTR_PRUN>
@@ -95,6 +95,14 @@
 			<DD_TABLE_ALIAS id="ddm_column_cpro.ive_physicalcanwarehouse_idaval">IVE_PHYSICALCAN </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_cpro.ive_physicalcanwarehouse_idaval">WAREHOUSE_ID    </DD_DVAR_NAME>
 			<DD_ATTR_CPRO id="ddm_column_cpro.ive_physicalcanwarehouse_idaval">AVAL</DD_ATTR_CPRO>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_column_opts">
+		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
+		<RECORD id="ddm_column_opts.ive_physicalcanwarehouse_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ive_physicalcanwarehouse_idu">IVE_PHYSICALCAN </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ive_physicalcanwarehouse_idu">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ive_physicalcanwarehouse_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

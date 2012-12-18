@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.ive_transdet">ACD4524F93FE7760A301FCE290509FA0</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ive_transdet">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ive_transdet">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ive_transdet">20100519</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ive_transdet">20100402</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ive_transdet">220218</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ive_transdet">20100618</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ive_transdet">20100618</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ive_transdet">111254</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ive_transdet">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ive_transdet">G</DD_ATTR_FTYP>
 			<DD_ATTR_PTAB id="ddm_tables.ive_transdet">IVE_TRANSHDR    </DD_ATTR_PTAB>
@@ -440,6 +440,11 @@
 			<DD_DVAR_NAME id="ddm_column_opts.ive_transdetgl_accountv">GL_ACCOUNT      </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ive_transdetgl_accountv">V</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.ive_transdetgl_accountu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ive_transdetgl_accountu">IVE_TRANSDET    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ive_transdetgl_accountu">GL_ACCOUNT      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ive_transdetgl_accountu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.ive_transdetuser_idh">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ive_transdetuser_idh">IVE_TRANSDET    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ive_transdetuser_idh">USER_ID         </DD_DVAR_NAME>
@@ -450,10 +455,20 @@
 			<DD_DVAR_NAME id="ddm_column_opts.ive_transdetwarehouse_ide">WAREHOUSE_ID    </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ive_transdetwarehouse_ide">E</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.ive_transdetwarehouse_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ive_transdetwarehouse_idu">IVE_TRANSDET    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ive_transdetwarehouse_idu">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ive_transdetwarehouse_idu">u</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.ive_transdetitem_idv">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ive_transdetitem_idv">IVE_TRANSDET    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ive_transdetitem_idv">ITEM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ive_transdetitem_idv">V</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ive_transdetitem_idu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ive_transdetitem_idu">IVE_TRANSDET    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ive_transdetitem_idu">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ive_transdetitem_idu">u</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.ive_transdetlotser_noe">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ive_transdetlotser_noe">IVE_TRANSDET    </DD_TABLE_ALIAS>
