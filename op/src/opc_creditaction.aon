@@ -144,7 +144,7 @@ rem --- Get over credit limit flag
     endif
     
     ordHelp! = cast(OrderHelper, callpoint!.getDevObject("order_helper_object"))
-    over_credit_limit = ordHelp!.setOverCreditLimit()
+    over_credit_limit = ordHelp!.calcOverCreditLimit()
     credit_hold_reason$ = ordHelp!.getCreditHoldReason()
 
 rem --- Is credit ok?
