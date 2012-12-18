@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.opt_invhdr">EB0DBEC2E6C8C30E6F7008EBB52E70A1</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.opt_invhdr">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.opt_invhdr">20090727</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.opt_invhdr">20111013</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.opt_invhdr">20110622</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.opt_invhdr">215904</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.opt_invhdr">20120210</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.opt_invhdr">20111128</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.opt_invhdr">101006</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.opt_invhdr">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.opt_invhdr">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.opt_invhdr">zzzz</DD_ATTR_SLEV>
@@ -1497,6 +1497,16 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.opt_invhdrshipto_typec">OPT_INVHDR      </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.opt_invhdrshipto_typec">SHIPTO_TYPE     </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.opt_invhdrshipto_typec">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.opt_invhdrsubtotalc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.opt_invhdrsubtotalc">OPT_INVHDR      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.opt_invhdrsubtotalc">SUBTOTAL        </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.opt_invhdrsubtotalc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.opt_invhdrnet_salesc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.opt_invhdrnet_salesc">OPT_INVHDR      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.opt_invhdrnet_salesc">NET_SALES       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.opt_invhdrnet_salesc">C</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

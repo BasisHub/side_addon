@@ -3,22 +3,22 @@
 SYSID=ADDON
 SYSDESC=
 SYSCOMP=01007514;BASIS International Ltd.
-SYSCOPY=AddonSoftware 11.12 ^Copyright (C) 2007-2012.  BASIS International Ltd.^All rights reserved.^Version 11.12 - [BUILD_DATE]^AddonSoftware is protected by copyright law and international treaties. Unauthorized reproduction or distribution may result in severe civil and criminal penalties.^
+SYSCOPY=AddonSoftware by Barista^Copyright BASIS International Ltd.^All rights reserved.^Version 11.12 - [BUILD_DATE]^AddonSoftware is protected by copyright law and international treaties. Unauthorized reproduction or distribution may result in severe civil and criminal penalties.^
 SYSPAR=
 SYSDIR=/apps/aon/
-SYSAPP=AD;AddonSoftware Administration;[+AON_IMAGES]addon_logo32.png;addonhelp.hs;addon;/apps/aon/prop/;DEU,ENU,ESP,FRA,ITA
-SYSAPP=AP;AddonSoftware Accts Payable;[+AON_IMAGES]addon_logo32.png;addonhelp.hs;addon;/apps/aon/prop/;DEU,ENU,ESP,FRA,ITA
-SYSAPP=AR;AddonSoftware Accts Receivable;[+AON_IMAGES]addon_logo32.png;addonhelp.hs;addon;/apps/aon/prop/;DEU,ENU,ESP,FRA,ITA
-SYSAPP=BM;AddonSoftware Bill of Materials;[+AON_IMAGES]addon_logo32.png;addonhelp.hs;addon;/apps/aon/prop/;DEU,ENU,ESP,FRA,ITA
+SYSAPP=AD;AddonSoftware Administration;[+AON_IMAGES]addon_logo32.png;addonhelp.hs;addon;/apps/aon/prop/;DEU,ENC,ENU,ESM,ESP,FRA,FRC,ITA
+SYSAPP=AP;AddonSoftware Accts Payable;[+AON_IMAGES]addon_logo32.png;addonhelp.hs;addon;/apps/aon/prop/;DEU,ENC,ENU,ESM,ESP,FRA,FRC,ITA
+SYSAPP=AR;AddonSoftware Accts Receivable;[+AON_IMAGES]addon_logo32.png;addonhelp.hs;addon;/apps/aon/prop/;DEU,ENC,ENU,ESM,ESP,FRA,FRC,ITA
+SYSAPP=BM;AddonSoftware Bill of Materials;[+AON_IMAGES]addon_logo32.png;addonhelp.hs;addon;/apps/aon/prop/;DEU,ENC,ENU,ESM,ESP,FRA,FRC,ITA
 SYSAPP=CR;AddonSoftware CRM;[+AON_IMAGES]addon_logo32.png;addonhelp.hs;addon;/apps/aon/prop/;ENU
-SYSAPP=GL;AddonSoftware General Ledger;[+AON_IMAGES]addon_logo32.png;addonhelp.hs;addon;/apps/aon/prop/;DEU,ENU,ESP,FRA,ITA
-SYSAPP=IV;AddonSoftware Inventory;[+AON_IMAGES]addon_logo32.png;addonhelp.hs;addon;/apps/aon/prop/;DEU,ENU,ESP,FRA,ITA
+SYSAPP=GL;AddonSoftware General Ledger;[+AON_IMAGES]addon_logo32.png;addonhelp.hs;addon;/apps/aon/prop/;DEU,ENC,ENU,ESM,ESP,FRA,FRC,ITA
+SYSAPP=IV;AddonSoftware Inventory;[+AON_IMAGES]addon_logo32.png;addonhelp.hs;addon;/apps/aon/prop/;DEU,ENC,ENU,ESM,ESP,FRA,FRC,ITA
 SYSAPP=MP;AddonSoftware Materials Planning;[+AON_IMAGES]addon_logo32.png;addonhelp.hs;addon;/apps/aon/prop/;ENU
-SYSAPP=OP;AddonSoftware Order Processing;[+AON_IMAGES]addon_logo32.png;addonhelp.hs;addon;/apps/aon/prop/;DEU,ENU,ESP,FRA,ITA
-SYSAPP=PO;AddonSoftware Purchase Orders;[+AON_IMAGES]addon_logo32.png;addonhelp.hs;addon;/apps/aon/prop/;DEU,ENU,ESP,FRA,ITA
+SYSAPP=OP;AddonSoftware Order Processing;[+AON_IMAGES]addon_logo32.png;addonhelp.hs;addon;/apps/aon/prop/;DEU,ENC,ENU,ESM,ESP,FRA,FRC,ITA
+SYSAPP=PO;AddonSoftware Purchase Orders;[+AON_IMAGES]addon_logo32.png;addonhelp.hs;addon;/apps/aon/prop/;DEU,ENC,ENU,ESM,ESP,FRA,FRC,ITA
 SYSAPP=PR;AddonSoftware Payroll;[+AON_IMAGES]addon_logo32.png;addonhelp.hs;addon;/apps/aon/prop/;ENU
-SYSAPP=SA;AddonSoftware Sales Analysis;[+AON_IMAGES]addon_logo32.png;addonhelp.hs;addon;/apps/aon/prop/;DEU,ENU,ESP,FRA,ITA
-SYSAPP=SF;AddonSoftware Shop Floor;[+AON_IMAGES]addon_logo32.png;addonhelp.hs;addon;/apps/aon/prop/;DEU,ENU,ESP,FRA,ITA
+SYSAPP=SA;AddonSoftware Sales Analysis;[+AON_IMAGES]addon_logo32.png;addonhelp.hs;addon;/apps/aon/prop/;DEU,ENC,ENU,ESM,ESP,FRA,FRC,ITA
+SYSAPP=SF;AddonSoftware Shop Floor;[+AON_IMAGES]addon_logo32.png;addonhelp.hs;addon;/apps/aon/prop/;DEU,ENC,ENU,ESM,ESP,FRA,FRC,ITA
 SYSAPP=SY;AddonSoftware System Admin;[+AON_IMAGES]addon_logo32.png;addonhelp.hs;addon;/apps/aon/prop/;ENU
 SYSSTBL=SET +SHOW_PRINTERS=YES
 SYSSTBL=SET +AON_IMAGES=/apps/aon/images/
@@ -94,8 +94,11 @@ SYSCFG=+SFDATA=/apps/aon/data/
 SYSCFG=+SYDATA=/apps/aon/data/
 SYSCFG=+DIR_REPORTS=/apps/aon/reports/
 SYSLANG=DEU
+SYSLANG=ENC
 SYSLANG=ENU
+SYSLANG=ESM
 SYSLANG=ESP
 SYSLANG=FRA
+SYSLANG=FRC
 SYSLANG=ITA
 

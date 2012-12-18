@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.arm_custmast">B0AE4537C94866F0AF91493A5C8B7BCB</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.arm_custmast">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.arm_custmast">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.arm_custmast">20110419</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.arm_custmast">20110419</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.arm_custmast">164750</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.arm_custmast">20120210</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.arm_custmast">20120116</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.arm_custmast">082412</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.arm_custmast">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.arm_custmast">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.arm_custmast">zzzz</DD_ATTR_SLEV>
@@ -1025,6 +1025,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.arm_custmast020">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.arm_custmast020">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.arm_custmast020">72</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.arm_custmast020">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABL id="ddm_table_cols.arm_custmast020">DB Number</DD_ATTR_LABL>
 			<DD_ATTR_MAXL id="ddm_table_cols.arm_custmast020">9</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.arm_custmast020">Dunn & Bradstreet Number</DD_ATTR_PROM>
@@ -1256,10 +1257,10 @@
 			<DD_DVAR_NAME id="ddm_column_opts.arm_custmastaddr_line_4l">ADDR_LINE_4     </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.arm_custmastaddr_line_4l">L</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD id="ddm_column_opts.arm_custmastretain_custc">
-			<DD_TABLE_ALIAS id="ddm_column_opts.arm_custmastretain_custc">ARM_CUSTMAST    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.arm_custmastretain_custc">RETAIN_CUST     </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.arm_custmastretain_custc">C</DD_ATTR_OPTS>
+		<RECORD id="ddm_column_opts.arm_custmastretain_custo">
+			<DD_TABLE_ALIAS id="ddm_column_opts.arm_custmastretain_custo">ARM_CUSTMAST    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.arm_custmastretain_custo">RETAIN_CUST     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.arm_custmastretain_custo">O</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.arm_custmastdsp_mtd_profitc">
 			<DD_TABLE_ALIAS id="ddm_column_opts.arm_custmastdsp_mtd_profitc">ARM_CUSTMAST    </DD_TABLE_ALIAS>
@@ -1651,19 +1652,24 @@
 		</RECORD>
 		<RECORD id="ddm_elements.db_no">
 			<DD_DATA_NAME id="ddm_elements.db_no">DB_NO           </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.db_no">Dunn & Bradstreet Number</DD_DESCRIPTION>
+			<DD_DESCRIPTION id="ddm_elements.db_no">Dun & Bradstreet Number</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.db_no">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.db_no">9</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.db_no"> </DD_MASK_TYPE>
 			<ASC_COMP_ID id="ddm_elements.db_no">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_elements.db_no">AD </ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.db_no">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.db_no">20060315</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.db_no">20120113</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.db_no">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.db_no">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.db_no">E</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.db_no">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.db_no">            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL id="ddm_elements.db_no">Dunn & Bradstreet Number</DD_ATTR_LABL>
+			<DD_ATTR_LABL id="ddm_elements.db_no">Dun & Bradstreet Number</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.db_no">D&B No</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.db_no">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.db_no">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.db_no">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.db_no">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.sic_code">
 			<DD_DATA_NAME id="ddm_elements.sic_code">SIC_CODE        </DD_DATA_NAME>

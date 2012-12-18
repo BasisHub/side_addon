@@ -1,438 +1,249 @@
 =====================================================
- Report Date:   2011-11-03
- Report Branch: AddonSoftware 11.11
- Last Release:  AddonSoftware 11.10
+ Report Date:   2012-02-24
+ Report Branch: AddonSoftware 11.12
+ Last Release:  AddonSoftware 11.11
 =====================================================
 
-QA Memo:  5373
-Fixed Date: 2011-08-11 18:12:22
-Summary: AD - Add +DOC_DIR_XLS STBL to addon.syn
-
-QA Memo: 5483
-Fixed Date: 2011-08-11 20:00:15
-Summary: OP - Error 47/243/ope_credmaint_cpt.bbj
-
-QA Memo: 5484
-Fixed Date: 2011-08-11 21:46:25
-Summary: AP - 1099 export using wrong variable
-
-QA Memo: 5486
-Fixed Date: 2011-08-13 03:24:26
-Summary: AP - no display of Vendor Ledger Cards Report
-
-QA Memo: 5485
-Fixed Date: 2011-08-13 03:30:47
-Summary: AP - err 252  Name/Address List
-
-QA Memo: 5489
-Fixed Date: 2011-08-13 03:53:49
-Summary: AP - vendor maint OpenInvcInquiry Err
-
-QA Memo: 5477
-Fixed Date: 2011-08-16 03:26:45
-Summary: IV - ABC Analysis Report Detail Level no longer valid
-
-QA Memo: 5283
-Fixed Date: 2011-08-18 03:12:50
-Summary: PO: Purchase Order Entry--Callpoint pgm not found error when Print PO button after Ctrl-S to save line item
-
-QA Memo: 5091
-Fixed Date: 2011-08-18 03:27:35
-Summary: OP - Sales tax report location
-
-QA Memo: 5491
-Fixed Date: 2011-08-18 19:28:41
-Summary: AP - Recurring Invoice not allowing changed to detail grid amount
-
-QA Memo: 5471
-Fixed Date: 2011-08-19 03:54:29
-Summary: GL Copy Financial reports: From Report Number find may list reports from wrong firm
-
-QA Memo: 5292
-Fixed Date: 2011-08-22 17:40:06
-Summary: OP - Order totals are not updated
-
-QA Memo: 5235
-Fixed Date: 2011-08-22 17:59:44
-Summary: AR Cash Receipts Register Update: No of payments (ARM_CUSTPMTS) not incremented correctly
-
-QA Memo: 5500
-Fixed Date: 2011-08-23 03:08:56
-Summary: OP Invoice Entry: Remove 'Make Invoice' button from form
-
-QA Memo: 5461
-Fixed Date: 2011-08-23 03:42:35
-Summary: AD - Verify Line Codes exist before displaying detail grids with Line Codes (Error 17)
-
-QA Memo: 5382
-Fixed Date: 2011-08-23 21:56:32
-Summary: OP - Bad tax calculation in Invoice Entry serial numbers entered
-
-QA Memo: 5505
-Fixed Date: 2011-08-24 03:21:22
-Summary: AD - Hybrid solutions will not allow printing to PF
-
-QA Memo: 5445
-Fixed Date: 2011-08-24 15:18:11
-Summary: Documentation - AR - Cash Receipts Entry function has no documentation
-
-QA Memo: 4954
-Fixed Date: 2011-08-24 23:23:27
-Summary: PO - Invoice amount changed when returning from invoice detail
-
-QA Memo: 5506
-Fixed Date: 2011-08-25 21:30:19
-Summary: AP - Implement override for Pay Select
-
-QA Memo: 5509
-Fixed Date: 2011-08-26 21:23:28
-Summary: PO - PO Entry error 42 with new PO when moving from header to detail
-
-QA Memo: 5527
-Fixed Date: 2011-08-31 12:27:33
-Summary: PO - detail entry err 42
-
-QA Memo: 5530
-Fixed Date: 2011-08-31 20:39:07
-Summary: PO: Purchase Order Invoice Entry - PO No in the detail grid should be required
-
-QA Memo: 5526
-Fixed Date: 2011-09-01 03:48:29
-Summary: BM - Inventory Production register update?
-
-QA Memo: 5513
-Fixed Date: 2011-09-01 03:49:56
-Summary: BM - production register err
-
-QA Memo: 5523
-Fixed Date: 2011-09-01 03:54:45
-Summary: BM - Utilities Rebuild Cross References
-
-QA Memo: 5521
-Fixed Date: 2011-09-01 04:01:25
-Summary: BM Application Parameters are not retained
-
-QA Memo: 5531
-Fixed Date: 2011-09-02 17:48:02
-Summary: AD - AIUW utilities generating invalid default target directories
-
-QA Memo: 5532
-Fixed Date: 2011-09-06 18:35:31
-Summary: AD - AIUW Upgrade Wizard generating error 252 in bam_controls.bbj and bac_em_login.bbj
-
-QA Memo: 5520
-Fixed Date: 2011-09-06 19:58:53
-Summary: BM - Alias not defined in menu record
-
-QA Memo: 5517
-Fixed Date: 2011-09-08 03:12:00
-Summary: BM - Materials Detail dates should have a calendar display for selection
-
-QA Memo: 5518
-Fixed Date: 2011-09-08 03:16:47
-Summary: BM - BOM Maintenance - operations detail date selections should have a calendar.
-
-QA Memo: 5519
-Fixed Date: 2011-09-08 03:18:42
-Summary: BM - Error 47 in line 152 of bmc_printbill.aon
-
-QA Memo: 5522
-Fixed Date: 2011-09-08 03:36:23
-Summary: BM - Operations detail will not allow an exit
-
-QA Memo: 5524
-Fixed Date: 2011-09-08 03:45:04
-Summary: BM - Re-sequence detail lines
-
-QA Memo: 5512
-Fixed Date: 2011-09-09 03:56:21
-Summary: IV - no where used query in item maintenance
-
-QA Memo: 5543
-Fixed Date: 2011-09-11 15:16:38
-Summary: Exception error when running the BOM Costing Report
-
-QA Memo: 5555
-Fixed Date: 2011-09-13 18:02:59
-Summary: PO - Billed/Unbilled report not using standard masks
-
-QA Memo: 5553
-Fixed Date: 2011-09-13 22:35:28
-Summary: AD - Upgrade sync XML File utility copying XML files into wrong directory
-
-QA Memo: 1033
-Fixed Date: 2011-09-16 16:44:13
-Summary: Rework Inventory Production Entry function
-
-QA Memo: 5575
-Fixed Date: 2011-09-16 19:56:19
-Summary: AP - Payment Selection Entry error 47 line 241.
-
-QA Memo: 5556
-Fixed Date: 2011-09-17 00:07:19
-Summary: IV - Inventory Transaction History report gets an error 2 at customer site
-
-QA Memo: 5578
-Fixed Date: 2011-09-17 00:51:41
-Summary: IV - Transaction History report gets err=77 when you ask for a date range
-
-QA Memo: 5577
-Fixed Date: 2011-09-17 15:08:50
-Summary: AP - Using wrong default distribution code when not multiple AP types.
-
-QA Memo: 5583
-Fixed Date: 2011-09-20 21:40:53
-Summary: OP - Order/Invoice Entry Recalc Price button doesn't always work
-
-QA Memo: 5587
-Fixed Date: 2011-09-20 22:17:24
-Summary: AD - Disable callpoint!.setFocus(<row>, <column>) and ado_util:util.forceEdit(<form!>, <row>, <col>) until bug 5586 fixed
-
-QA Memo: 5588
-Fixed Date: 2011-09-21 03:37:05
-Summary: BM - BOM Maint- Materials Detail: Cost fields need to be added to grid
-
-QA Memo: 5604
-Fixed Date: 2011-09-22 22:36:35
-Summary: PO - New PO Entry lines are not defaulting to default line code.
-
-QA Memo: 5538
-Fixed Date: 2011-09-26 23:39:40
-Summary: PO - PO entry lock at the line code selection
-
-QA Memo: 5567
-Fixed Date: 2011-09-27 03:21:26
-Summary: BM - BOM Maintenance - Copy Bill: Copy Bill form may not be destroyed after copy
-
-QA Memo: 5613
-Fixed Date: 2011-09-28 17:12:18
-Summary: IV - Error 47/87/ivr_transhist.aon
-
-QA Memo: 5563
-Fixed Date: 2011-09-29 15:14:38
-Summary: BM - Order Production Entry: Error 17 ado_util.src when clicking Sales Order Number hyperlink
-
-QA Memo: 5618
-Fixed Date: 2011-09-29 20:39:45
-Summary: OP - Order Entry callpoint not found
-
-QA Memo: 5554
-Fixed Date: 2011-09-29 21:58:17
-Summary: AD - Change demo nag to use different messages based on user role
-
-QA Memo: 5621
-Fixed Date: 2011-10-03 16:18:53
-Summary: IV - Inventory Lot Lookup displays wrong information when lot/serial number is 20 chars
-
-QA Memo: 5620
-Fixed Date: 2011-10-03 20:40:21
-Summary: AP: Recurring Invoice Entry - Error 47 when apt-02 is empty
-
-QA Memo: 4401
-Fixed Date: 2011-10-04 21:48:23
-Summary: GL - Financial Report Assignments Record Not Found Error
-
-QA Memo: 5511
-Fixed Date: 2011-10-04 22:29:10
-Summary: PO - err 252 when entering PO invoice
-
-QA Memo: 5636
-Fixed Date: 2011-10-06 23:15:23
-Summary: AP - Bank rec flag misidentified in Manual Check Update
-
-QA Memo: 5640
-Fixed Date: 2011-10-10 17:50:14
-Summary: AP - Manual Checks sending cumulative amount to bank rec
-
-QA Memo: 5631
-Fixed Date: 2011-10-11 04:12:10
-Summary: SA - Reports are hardcoded for field lengths
-
-QA Memo: 1724
-Fixed Date: 2011-10-11 12:40:57
-Summary: GL - Create Departmental Report - Alias not defined
-
-QA Memo: 4168
-Fixed Date: 2011-10-11 16:13:20
-Summary: SY - Error found lurking behind some windows
-
-QA Memo: 5611
-Fixed Date: 2011-10-11 17:09:46
-Summary: AR - Invoice Detail Inquiry window sometimes doesn't close
-
-QA Memo: 5592
-Fixed Date: 2011-10-11 17:16:44
-Summary: AP - Disable Retention Account when parameter not set
-
-QA Memo: 5591
-Fixed Date: 2011-10-11 17:41:01
-Summary: PO - Starting and Ending Comment Line Number parameters no longer being used
-
-QA Memo: 5055
-Fixed Date: 2011-10-12 03:10:41
-Summary: IV - Lot/Serial number size enforced even if not using Lots/Serials
-
-QA Memo: 5105
-Fixed Date: 2011-10-12 03:38:55
-Summary: AD - obsolete adc_error.aon error routine still in use
-
-QA Memo: 5638
-Fixed Date: 2011-10-12 21:25:42
-Summary: IV - EOQ, Order Point & Safety Stock Report: Update is skipped
-
-QA Memo: 2417
-Fixed Date: 2011-10-12 21:27:26
-Summary: PO Drop Ship Processing
-
-QA Memo: 2965
-Fixed Date: 2011-10-12 21:36:16
-Summary: PO - Drop Ship data entry flow
-
-QA Memo: 5654
-Fixed Date: 2011-10-14 03:13:45
-Summary: OP - Parmeter Maintenance: Customer field s/b disabled when Cash? flag is off
-
-QA Memo: 5641
-Fixed Date: 2011-10-14 14:53:37
-Summary: PO - invoice register does not find receivers
-
-QA Memo: 5655
-Fixed Date: 2011-10-14 17:58:14
-Summary: PO - PO Print doesn't print Vendor Item Number when Parameter is set
-
-QA Memo: 5657
-Fixed Date: 2011-10-14 20:50:08
-Summary: AP - Check reversal wrong in BankRec
-
-QA Memo: 5659
-Fixed Date: 2011-10-17 18:27:10
-Summary: AP - Vendor Maint/Vendor Replenishment Detail: Incorrect labels on Next Year fields
-
-QA Memo: 5645
-Fixed Date: 2011-10-18 02:27:58
-Summary: AP - Remove Beginning/Ending Comment lines from Parameters
-
-QA Memo: 5057
-Fixed Date: 2011-10-18 03:34:18
-Summary: AD - Clear Firm utility needs progress meter
-
-QA Memo: 5080
-Fixed Date: 2011-10-19 03:25:05
-Summary: OP Order Entry: Incorrect navigation when using Next button from Order No field
-
-QA Memo: 5551
-Fixed Date: 2011-10-19 04:01:25
-Summary: SA - SAW_DISTCO12: Correct table/key definitions
-
-QA Memo: 5181
-Fixed Date: 2011-10-19 17:56:54
-Summary: GL: Budgeting\Budget Revisions-- error 47 on Record Query before entering anything in
-
-QA Memo: 5182
-Fixed Date: 2011-10-19 18:06:26
-Summary: GL: Budgeting\Budget Revisions-- error 17 on Record save
-
-QA Memo: 5671
-Fixed Date: 2011-10-25 17:33:33
-Summary: AD - Allow retaining old modified menus in AIUW Upgrade Wizard
-
-QA Memo: 5674
-Fixed Date: 2011-10-25 22:03:44
-Summary: AD - adc_copyaon error 12 when Addon source doesn't exist
-
-QA Memo: 5678
-Fixed Date: 2011-10-26 17:26:32
-Summary: AD - Dataport scan process should skip work files
-
-QA Memo: 5100
-Fixed Date: 2011-10-26 17:42:24
-Summary: PO - PO entry does not allow access to a PO that was partially received
-
-QA Memo: 5630
-Fixed Date: 2011-10-27 16:35:27
-Summary: PO - Invoice Entry fields not initialized when Use Invoice Date is not checked
-
-QA Memo: 4326
-Fixed Date: 2011-10-27 20:44:37
-Summary: IV - Transaction Entry - Receipt, Lockup in SN Entry
-
-QA Memo: 5144
-Fixed Date: 2011-10-27 21:47:09
-Summary: PO: Purchase Order Entry--Warehouse ID label should be 'Ship To'
-
-QA Memo: 5142
-Fixed Date: 2011-10-27 21:47:36
-Summary: PO: Purchase Requisition Entry--Warehouse ID label should be 'Ship To'
-
-QA Memo: 4994
-Fixed Date: 2011-10-27 22:51:38
-Summary: OP - Gross Profit calc needs to include Discount
-
-QA Memo: 5683
-Fixed Date: 2011-10-28 15:46:46
-Summary: AD - DataPort is skipping glt-05 GLT_BANKCHECKS file
-
-QA Memo: 5274
-Fixed Date: 2011-10-28 16:52:58
-Summary: OP - Order/invoice entry partially empty detail lines
-
-QA Memo: 5679
-Fixed Date: 2011-10-31 18:29:08
-Summary: OP - Drop ship quantities are committed in Order Entry though not in v6
-
-QA Memo: 5686
-Fixed Date: 2011-10-31 18:30:11
-Summary: IV - Zero Balance Report may be garbled
-
-QA Memo: 5444
-Fixed Date: 2011-10-31 21:03:17
-Summary: OP - Order Entry: Prohibit selecting an order that is in invoice status even via binocs
-
-QA Memo: 5664
-Fixed Date: 2011-10-31 21:15:08
-Summary: IV - LIFO/FIFO Tier Utilities - Tier Diagnosis Report: Displays message for the Tier Clear option
-
-QA Memo: 5665
-Fixed Date: 2011-10-31 21:15:41
-Summary: IV - LIFO/FIFO Tier Utilities - Tier Diagnosis Report: Report may be garbled
-
-QA Memo: 5682
-Fixed Date: 2011-11-01 03:57:03
-Summary: PO: Purchase Order Receipt Register-Receipts by WO pages may be garbled
-
-QA Memo: 5687
-Fixed Date: 2011-11-01 16:23:56
-Summary: IV - Lifo/Fifo Tier Report - May give error message on Save and hard error on Save As
-
-QA Memo: 5688
-Fixed Date: 2011-11-01 16:28:19
-Summary: IV - Lifo/Fifo Tier Utilities Rpts - May give error message on Save and hard error on Save As
-
-QA Memo: 5289
-Fixed Date: 2011-11-01 21:51:03
-Summary: PO: PO Invoice Entry--State of Add'l Options may not match the state of the related on-form buttons
-
-QA Memo: 5606
-Fixed Date: 2011-11-02 03:47:27
-Summary: AP - AP_NOHIST message poorly named
-
-QA Memo: 5691
-Fixed Date: 2011-11-02 20:49:10
-Summary: IV - Cost Change Valuation Report shows incorrect GL accounts if Dist By Item = Y
-
-QA Memo: 5693
-Fixed Date: 2011-11-03 14:00:59
-Summary: IV - Product Type Code is hard coded to 3 characters
-
-QA Memo: 5696
-Fixed Date: 2011-11-03 15:23:31
-Summary: AD - fill() method for Jasper reports needs to be changed to fill(1)
-
-QA Memo: 5701
-Date: 2011-11-07 15:52:35
-Summary: BM - Inventory Production Register: Error 42 Line 195 bmr_invproduction.aon w/ LIFO/FIFO
-
-QA Memo: 5715
-Date: 2011-11-09 17:27:41
-Summary: OP - OP Order and Invoice entry grid may error 26 when deleting a committed row.
+QA Memo: 5726
+Fixed Date: 2011-11-11 04:25:10
+Summary: IV - Errant endif in ivr_itemeoqrpt_o1.aon
+
+QA Memo: 5727
+Fixed Date: 2011-11-11 04:28:10
+Summary: IV - Valuation Report erroneously reports no data in the report.
+
+QA Memo: 5699
+Fixed Date: 2011-11-14 18:16:02
+Summary: BM - Inventory Production Entry: Delete may not work
+
+QA Memo: 5739
+Fixed Date: 2011-11-16 00:26:05
+Summary: AR - Err 26 in Simple Invoice Entry using callpoint!.getDevObject()
+
+QA Memo: 5744
+Fixed Date: 2011-11-18 17:01:21
+Summary: PO - Menu shows QA Program in PO Maintenance
+
+QA Memo: 5747
+Fixed Date: 2011-11-19 00:08:22
+Summary: BM - BOM Costing Report: Possible infinite loop
+
+QA Memo: 5722
+Fixed Date: 2011-11-19 04:12:54
+Summary: BM - BOM Costing Report: Erroneous processing window title
+
+QA Memo: 5748
+Fixed Date: 2011-11-21 23:59:30
+Summary: PO - PO Requisition Register: Requisitions may not print on register
+
+QA Memo: 5754
+Fixed Date: 2011-11-22 18:07:02
+Summary: AR - Monthly Cash Receipts Journal - error 47/Line 214
+
+QA Memo: 5755
+Fixed Date: 2011-11-22 22:30:40
+Summary: AR - Cash Receipts Register - Missing GL Account for Misc Entries
+
+QA Memo: 5757
+Fixed Date: 2011-11-28 17:47:02
+Summary: IV - Can't enter unit cost on a new item
+
+QA Memo: 5564
+Fixed Date: 2011-11-29 04:50:20
+Summary: BM - Order Production Entry: Should Order Date be displayed after selecting Order Num per v6?
+
+QA Memo: 5565
+Fixed Date: 2011-11-29 04:58:44
+Summary: BM - Inventory Production Entry: Misleading message when Bill/Item Num field is blank
+
+QA Memo: 5758
+Fixed Date: 2011-11-29 20:37:24
+Summary: PO - PO Entry: Requisition Number is not available as a column in Record Query (binocs)
+
+QA Memo: 5574
+Fixed Date: 2011-11-30 04:22:52
+Summary: BM - BOM Maint - Materials Detail: Is possible to save a standard row with non-zero Qty Required
+
+QA Memo: 5650
+Fixed Date: 2011-12-01 04:54:44
+Summary: AD - search back-end code for parameter file masks
+
+QA Memo: 5763
+Fixed Date: 2011-12-01 04:58:35
+Summary: AR - Conversion Invoice Entry - blank customer allowed
+
+QA Memo: 5741
+Fixed Date: 2011-12-06 04:23:40
+Summary: AD - Dataport converts masks, sequences, etc., every time
+
+QA Memo: 5768
+Fixed Date: 2011-12-06 04:45:39
+Summary: BM - BOM Costing Report: Bill From/Thru fields should validate against BM Master not IV Master
+
+QA Memo: 5781
+Fixed Date: 2011-12-08 15:36:36
+Summary: BM - Detail Exception Report: error 21 Line 131 bmr_dtlexcept_o1.aon
+
+QA Memo: 5689
+Fixed Date: 2011-12-09 17:22:41
+Summary: PO - If OP is not installed PO drop ships should not require linking to a sales order
+
+QA Memo: 5796
+Fixed Date: 2011-12-14 18:51:21
+Summary: AD - Copy aon Directory utility should NOT remove ads_masks~*.xml and ads_sequences~*.xml files
+
+QA Memo: 5774
+Fixed Date: 2011-12-14 22:35:09
+Summary: IV - Disable the Populate Stocking Info option in Item Master
+
+QA Memo: 5793
+Fixed Date: 2011-12-14 23:31:39
+Summary: IV - Inventory Transfer Register: Incorrect name is printed for the 'To' warehouse
+
+QA Memo: 5760
+Fixed Date: 2011-12-15 17:10:31
+Summary: PO - PO Entry, Requisition Entry: Customer Ship-To on Dropship tab should be editable in some conditions
+
+QA Memo: 5805
+Fixed Date: 2011-12-15 18:45:15
+Summary: PO - PO Entry customer ship-to needs to be file verified
+
+QA Memo: 5745
+Fixed Date: 2011-12-16 17:11:50
+Summary: OP - Prevent Barista error 11 when trying to exit a Sales Order
+
+QA Memo: 5811
+Fixed Date: 2011-12-20 17:11:28
+Summary: GL - Missing system message REMOVE_PAID in Bank Rec
+
+QA Memo: 5813
+Fixed Date: 2011-12-21 18:43:11
+Summary: OP - Can't change the Ship To Type once the field is disabled.
+
+QA Memo: 5822
+Fixed Date: 2011-12-28 19:02:55
+Summary: AR - Customer Detail Listing throws err if compiled under iReport 4.1.1
+
+QA Memo: 5816
+Fixed Date: 2011-12-29 04:53:40
+Summary: OP - Bill To Country Code is editable
+
+QA Memo: 5766
+Fixed Date: 2011-12-30 19:04:33
+Summary: AR - Aging report future date set to report date
+
+QA Memo: 5827
+Fixed Date: 2012-01-03 00:50:02
+Summary: BM - Ops Detail subreport won't compile under iReport 4.1.1
+
+QA Memo: 5769
+Fixed Date: 2012-02-15 04:34:50
+Summary: op Sales Commission Report for Booked Sales  is computing correctly
+
+QA Memo: 5905
+Fixed Date: 2012-02-13 21:32:15
+Summary: GL - No parameter record exists for GL application
+
+QA Memo: 5776
+Fixed Date: 2012-02-13 19:01:58
+Summary: AR - AR Cash Receipts Register may allow update of receipts that are not fully distributed
+
+QA Memo: 5844
+Fixed Date: 2012-02-11 04:54:37
+Summary: PO - Purchase Requisition Print: Message Text does not print on Requisition
+
+QA Memo: 5855
+Fixed Date: 2012-02-11 04:38:18
+Summary: AR - Monthly Cash Receipts Journal has incorrect date range
+
+QA Memo: 5877
+Fixed Date: 2012-02-11 04:32:07
+Summary: OP - Invoice Entry/Misc tab: PO Number field too long; runs into Distribution Code label
+
+QA Memo: 5876
+Fixed Date: 2012-02-11 04:28:06
+Summary: OP - Invoice Entry/Misc tab: Salesperson Code misaligned
+
+QA Memo: 5858
+Fixed Date: 2012-02-11 04:25:04
+Summary: AR - Monthly Cash Receipts Journal Customer subtotal missing
+
+QA Memo: 5878
+Fixed Date: 2012-02-11 04:13:19
+Summary: OP - Invoice History Inquiry: Some Totals fields appear editable though all should be display only
+
+QA Memo: 5885
+Fixed Date: 2012-02-10 23:39:51
+Summary: AR - Customer Maintenance: Retain? flag needs to be removed from form
+
+QA Memo: 5887
+Fixed Date: 2012-02-10 23:07:08
+Summary: OP Sales Register: May using wrong parameters to determine periods
+
+QA Memo: 5897
+Fixed Date: 2012-02-10 22:33:26
+Summary: IV - period end field names Year End
+
+QA Memo: 5854
+Fixed Date: 2012-02-10 21:08:09
+Summary: AR - Cash Receipts Entry error 17 in glc_datecheck.aon on certain dates
+
+QA Memo: 5896
+Fixed Date: 2012-02-09 23:05:33
+Summary: AD - Batch Names don't get saved
+
+QA Memo: 5891
+Fixed Date: 2012-02-06 19:58:23
+Summary: AD - DataPort needs to handle RECORD_IDs in the 3rd field for WOE-04
+
+QA Memo: 5888
+Fixed Date: 2012-02-10 17:15:19
+Summary: IV - Inventory Items task fails to launch when SF installed
+
+QA Memo: 5881
+Fixed Date: 2012-01-30 22:45:46
+Summary: AD - Barista lock/unlocking code removes manual lock placed on batching record
+
+QA Memo: 5853
+Fixed Date: 2012-01-27 22:42:13
+Summary: AD - Users can't access additional options because no security setup for them
+
+QA Memo: 5849
+Fixed Date: 2012-01-13 23:07:50
+Summary: AR - Customer Ship To form misspelling on Dunn & Bradstreet
+
+QA Memo: 5845
+Fixed Date: 2012-01-13 04:18:05
+Summary: IV - Reorder and Shortage Report: Warehouse may not be correct
+
+QA Memo: 5838
+Fixed Date: 2012-01-13 04:45:14
+Summary: AP Vendor Maint: Default for NEW vendors' ""1099?"" field was Y in v6 but is N in v11
+
+QA Memo: 5837
+Fixed Date: 2012-01-13 05:21:29
+Summary: AP Vendor Maint/Additional Options/Open Invoice Inquiry: Report may not print the vendor
+
+QA Memo: 5835
+Fixed Date: 2012-01-14 04:17:01
+Summary: AP Parameters: Cash Basis field should disable and clear when Retention Account is Yes
+
+QA Memo: 5836
+Fixed Date: 2012-01-14 04:28:58
+Summary: AP Parameters: 'Print Checks in AP Type Seq' field should disable and clear 'Multiple AP Types' is No
+
+QA Memo: 5860
+Fixed Date: 2012-01-24 15:42:17
+Summary: AD - When adding new GL Posting Control recs, data is not being populated
+
+Fixed Date: 10:18:20 PM, Monday, January 23, 2012
+Summary: IV EOQ Rpt - Change reference to missing property for setup cost to use the existing one.
+
+Fixed Date: 5:37:45 PM, Tuesday, February 07, 2012
+Summary: Per discussions on cc# masking; Utility to find/mask any existing cc#'s in cash sale file, and mods to cash sale form to mask cc#'s stored in payment_id field going forward. Note - will soon have new field of cc# sub-type to use, and that data will be encrypted.
+
+Fixed Date: 10:14:19 AM, Friday, February 03, 2012
+Summary: While working on trigger to mask cc#s, discovered/fixed several places where we had stbl("DIR_SYP) instead of stbl("+DIR_SYP)
+
+
 
