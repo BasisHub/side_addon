@@ -18,10 +18,10 @@
 			<ASC_LICENSE_ID id="ddm_tables.apm_vendrepl">85445C4670BD8C98346FA9EDBA066076</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.apm_vendrepl">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.apm_vendrepl">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.apm_vendrepl">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.apm_vendrepl">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.apm_vendrepl">141600</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.apm_vendrepl">[+DIR_CPP]apm_vendrepl_cpt.bbj</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.apm_vendrepl">20100420</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.apm_vendrepl">20100420</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.apm_vendrepl">223738</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.apm_vendrepl">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.apm_vendrepl">T</DD_ATTR_FTYP>
 			<DD_ATTR_PTAB id="ddm_tables.apm_vendrepl">APM_VENDMAST    </DD_ATTR_PTAB>
 			<DD_ATTR_SLEV id="ddm_tables.apm_vendrepl">zzzz</DD_ATTR_SLEV>
@@ -130,6 +130,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.apm_vendrepl003">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.apm_vendrepl003">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.apm_vendrepl003">35</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.apm_vendrepl003">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.apm_vendrepl003">3</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.apm_vendrepl003">Buyer Code</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.apm_vendrepl003">3</DD_ATTR_TIND>
@@ -144,7 +145,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.apm_vendrepl004">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.apm_vendrepl004">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.apm_vendrepl004">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.apm_vendrepl004">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.apm_vendrepl004">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.apm_vendrepl004">19</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.apm_vendrepl005">
 			<DD_TABLE_ALIAS id="ddm_table_cols.apm_vendrepl005">APM_VENDREPL    </DD_TABLE_ALIAS>
@@ -158,6 +161,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.apm_vendrepl005">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLY id="ddm_table_cols.apm_vendrepl005">+1</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.apm_vendrepl005">35</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.apm_vendrepl005">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABL id="ddm_table_cols.apm_vendrepl005">Purchasing Address</DD_ATTR_LABL>
 			<DD_ATTR_MAXL id="ddm_table_cols.apm_vendrepl005">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.apm_vendrepl005">Vendor Purchase Address Code</DD_ATTR_PROM>
@@ -173,8 +177,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.apm_vendrepl006">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.apm_vendrepl006">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.apm_vendrepl006">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTLX id="ddm_table_cols.apm_vendrepl006">+24</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY id="ddm_table_cols.apm_vendrepl006">-8</DD_ATTR_CTLY>
+			<DD_ATTR_CTLY id="ddm_table_cols.apm_vendrepl006">-4</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.apm_vendrepl006">78</DD_ATTR_CTLW>
 			<DD_ATTR_LABL id="ddm_table_cols.apm_vendrepl006">Purchase Target Type</DD_ATTR_LABL>
 			<DD_ATTR_MAXL id="ddm_table_cols.apm_vendrepl006">1</DD_ATTR_MAXL>
@@ -191,7 +194,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.apm_vendrepl007">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.apm_vendrepl007">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.apm_vendrepl007">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.apm_vendrepl007">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.apm_vendrepl007">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.apm_vendrepl007">20</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.apm_vendrepl008">
 			<DD_TABLE_ALIAS id="ddm_table_cols.apm_vendrepl008">APM_VENDREPL    </DD_TABLE_ALIAS>
@@ -263,7 +268,10 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.apm_vendrepl012">Y</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.apm_vendrepl012">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.apm_vendrepl012">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLX id="ddm_table_cols.apm_vendrepl012">+24</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_cols.apm_vendrepl012">-7</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.apm_vendrepl012">56</DD_ATTR_CTLW>
+			<DD_ATTR_LABL id="ddm_table_cols.apm_vendrepl012">Target $</DD_ATTR_LABL>
 			<DD_ATTR_MAXL id="ddm_table_cols.apm_vendrepl012">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.apm_vendrepl012">Purchase Target Amount</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.apm_vendrepl012">12</DD_ATTR_TIND>
@@ -279,6 +287,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.apm_vendrepl013">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.apm_vendrepl013">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.apm_vendrepl013">56</DD_ATTR_CTLW>
+			<DD_ATTR_LABL id="ddm_table_cols.apm_vendrepl013">Target Weight</DD_ATTR_LABL>
 			<DD_ATTR_MAXL id="ddm_table_cols.apm_vendrepl013">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.apm_vendrepl013">Purchase Target Lbs</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.apm_vendrepl013">13</DD_ATTR_TIND>
@@ -294,6 +303,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.apm_vendrepl014">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.apm_vendrepl014">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.apm_vendrepl014">56</DD_ATTR_CTLW>
+			<DD_ATTR_LABL id="ddm_table_cols.apm_vendrepl014">Target Units</DD_ATTR_LABL>
 			<DD_ATTR_MAXL id="ddm_table_cols.apm_vendrepl014">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.apm_vendrepl014">Purchase Target Units</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.apm_vendrepl014">14</DD_ATTR_TIND>
@@ -310,7 +320,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.apm_vendrepl015">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLY id="ddm_table_cols.apm_vendrepl015">+1</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.apm_vendrepl015">80</DD_ATTR_CTLW>
-			<DD_ATTR_LABL id="ddm_table_cols.apm_vendrepl015">YTD Receipt</DD_ATTR_LABL>
+			<DD_ATTR_LABL id="ddm_table_cols.apm_vendrepl015">YTD Receipts</DD_ATTR_LABL>
 			<DD_ATTR_MAXL id="ddm_table_cols.apm_vendrepl015">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.apm_vendrepl015">YTD Receipt Amount</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.apm_vendrepl015">9</DD_ATTR_TIND>
@@ -326,6 +336,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.apm_vendrepl016">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.apm_vendrepl016">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.apm_vendrepl016">80</DD_ATTR_CTLW>
+			<DD_ATTR_LABL id="ddm_table_cols.apm_vendrepl016">YTD Receipt Weight</DD_ATTR_LABL>
 			<DD_ATTR_MAXL id="ddm_table_cols.apm_vendrepl016">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.apm_vendrepl016">YTD Receipt Lbs</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.apm_vendrepl016">10</DD_ATTR_TIND>
@@ -353,10 +364,12 @@
 			<DD_COL_REPEATS id="ddm_table_cols.apm_vendrepl018">0</DD_COL_REPEATS>
 			<DD_COL_OCCURS id="ddm_table_cols.apm_vendrepl018">0</DD_COL_OCCURS>
 			<DD_FIELD_DELIM id="ddm_table_cols.apm_vendrepl018">Y</DD_FIELD_DELIM>
+			<DD_MASK_TYPE id="ddm_table_cols.apm_vendrepl018">A</DD_MASK_TYPE>
 			<DD_CREATE_DATE id="ddm_table_cols.apm_vendrepl018">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.apm_vendrepl018">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLY id="ddm_table_cols.apm_vendrepl018">+4</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.apm_vendrepl018">80</DD_ATTR_CTLW>
-			<DD_ATTR_LABL id="ddm_table_cols.apm_vendrepl018">Target $</DD_ATTR_LABL>
+			<DD_ATTR_LABL id="ddm_table_cols.apm_vendrepl018">Next Year Receipts</DD_ATTR_LABL>
 			<DD_ATTR_MAXL id="ddm_table_cols.apm_vendrepl018">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.apm_vendrepl018">Next Year Receipt Amount</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.apm_vendrepl018">16</DD_ATTR_TIND>
@@ -369,10 +382,11 @@
 			<DD_COL_REPEATS id="ddm_table_cols.apm_vendrepl019">0</DD_COL_REPEATS>
 			<DD_COL_OCCURS id="ddm_table_cols.apm_vendrepl019">0</DD_COL_OCCURS>
 			<DD_FIELD_DELIM id="ddm_table_cols.apm_vendrepl019">Y</DD_FIELD_DELIM>
+			<DD_MASK_TYPE id="ddm_table_cols.apm_vendrepl019">U</DD_MASK_TYPE>
 			<DD_CREATE_DATE id="ddm_table_cols.apm_vendrepl019">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.apm_vendrepl019">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.apm_vendrepl019">80</DD_ATTR_CTLW>
-			<DD_ATTR_LABL id="ddm_table_cols.apm_vendrepl019">Target Weight</DD_ATTR_LABL>
+			<DD_ATTR_LABL id="ddm_table_cols.apm_vendrepl019">Next Year Rcpt Weight</DD_ATTR_LABL>
 			<DD_ATTR_MAXL id="ddm_table_cols.apm_vendrepl019">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.apm_vendrepl019">Next Year Receipt Lbs</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.apm_vendrepl019">17</DD_ATTR_TIND>
@@ -385,10 +399,11 @@
 			<DD_COL_REPEATS id="ddm_table_cols.apm_vendrepl020">0</DD_COL_REPEATS>
 			<DD_COL_OCCURS id="ddm_table_cols.apm_vendrepl020">0</DD_COL_OCCURS>
 			<DD_FIELD_DELIM id="ddm_table_cols.apm_vendrepl020">Y</DD_FIELD_DELIM>
+			<DD_MASK_TYPE id="ddm_table_cols.apm_vendrepl020">U</DD_MASK_TYPE>
 			<DD_CREATE_DATE id="ddm_table_cols.apm_vendrepl020">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.apm_vendrepl020">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.apm_vendrepl020">80</DD_ATTR_CTLW>
-			<DD_ATTR_LABL id="ddm_table_cols.apm_vendrepl020">Target Units</DD_ATTR_LABL>
+			<DD_ATTR_LABL id="ddm_table_cols.apm_vendrepl020">Next Year Rcpt Units</DD_ATTR_LABL>
 			<DD_ATTR_MAXL id="ddm_table_cols.apm_vendrepl020">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.apm_vendrepl020">Next Year Receipt Units</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.apm_vendrepl020">18</DD_ATTR_TIND>
@@ -403,7 +418,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.apm_vendrepl021">Y</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.apm_vendrepl021">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.apm_vendrepl021">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.apm_vendrepl021">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.apm_vendrepl021">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.apm_vendrepl021">21</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.apm_vendrepl022">
 			<DD_TABLE_ALIAS id="ddm_table_cols.apm_vendrepl022">APM_VENDREPL    </DD_TABLE_ALIAS>
@@ -415,7 +432,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.apm_vendrepl022">Y</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.apm_vendrepl022">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.apm_vendrepl022">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.apm_vendrepl022">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.apm_vendrepl022">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.apm_vendrepl022">22</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">
@@ -440,21 +459,6 @@
 			<DD_DVAR_NAME id="ddm_column_opts.apm_vendrepllstrec_datec">LSTREC_DATE     </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.apm_vendrepllstrec_datec">C</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD id="ddm_column_opts.apm_vendreplpur_targ_amtw">
-			<DD_TABLE_ALIAS id="ddm_column_opts.apm_vendreplpur_targ_amtw">APM_VENDREPL    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.apm_vendreplpur_targ_amtw">PUR_TARG_AMT    </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.apm_vendreplpur_targ_amtw">W</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD id="ddm_column_opts.apm_vendreplpur_targ_lbsw">
-			<DD_TABLE_ALIAS id="ddm_column_opts.apm_vendreplpur_targ_lbsw">APM_VENDREPL    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.apm_vendreplpur_targ_lbsw">PUR_TARG_LBS    </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.apm_vendreplpur_targ_lbsw">W</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD id="ddm_column_opts.apm_vendreplpur_tgt_unitw">
-			<DD_TABLE_ALIAS id="ddm_column_opts.apm_vendreplpur_tgt_unitw">APM_VENDREPL    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.apm_vendreplpur_tgt_unitw">PUR_TGT_UNIT    </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.apm_vendreplpur_tgt_unitw">W</DD_ATTR_OPTS>
-		</RECORD>
 		<RECORD id="ddm_column_opts.apm_vendreplytd_rec_amtc">
 			<DD_TABLE_ALIAS id="ddm_column_opts.apm_vendreplytd_rec_amtc">APM_VENDREPL    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.apm_vendreplytd_rec_amtc">YTD_REC_AMT     </DD_DVAR_NAME>
@@ -469,6 +473,21 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.apm_vendreplytd_rec_untsc">APM_VENDREPL    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.apm_vendreplytd_rec_untsc">YTD_REC_UNTS    </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.apm_vendreplytd_rec_untsc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.apm_vendreplnyr_rec_amtc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.apm_vendreplnyr_rec_amtc">APM_VENDREPL    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.apm_vendreplnyr_rec_amtc">NYR_REC_AMT     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.apm_vendreplnyr_rec_amtc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.apm_vendreplnyr_rec_lbsc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.apm_vendreplnyr_rec_lbsc">APM_VENDREPL    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.apm_vendreplnyr_rec_lbsc">NYR_REC_LBS     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.apm_vendreplnyr_rec_lbsc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.apm_vendreplnyr_rec_unitc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.apm_vendreplnyr_rec_unitc">APM_VENDREPL    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.apm_vendreplnyr_rec_unitc">NYR_REC_UNIT    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.apm_vendreplnyr_rec_unitc">C</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">
@@ -782,51 +801,66 @@
 		</RECORD>
 		<RECORD id="ddm_elements.nyr_rec_amt">
 			<DD_DATA_NAME id="ddm_elements.nyr_rec_amt">NYR_REC_AMT     </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.nyr_rec_amt">Next Year Receipt Amount      </DD_DESCRIPTION>
+			<DD_DESCRIPTION id="ddm_elements.nyr_rec_amt">Next Year Receipt Amount</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.nyr_rec_amt">N</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.nyr_rec_amt">7</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.nyr_rec_amt"> </DD_MASK_TYPE>
 			<ASC_COMP_ID id="ddm_elements.nyr_rec_amt">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.nyr_rec_amt">AON</ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.nyr_rec_amt">IV </ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.nyr_rec_amt">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.nyr_rec_amt">20060119</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.nyr_rec_amt">20100420</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.nyr_rec_amt">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.nyr_rec_amt">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.nyr_rec_amt">N</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.nyr_rec_amt">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.nyr_rec_amt">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.nyr_rec_amt">Next Year Receipt Amount</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.nyr_rec_amt">Nxt Yr Rec Amt</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.nyr_rec_amt">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.nyr_rec_amt">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.nyr_rec_amt">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.nyr_rec_amt">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.nyr_rec_lbs">
 			<DD_DATA_NAME id="ddm_elements.nyr_rec_lbs">NYR_REC_LBS     </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.nyr_rec_lbs">Next Year Receipt Lbs         </DD_DESCRIPTION>
+			<DD_DESCRIPTION id="ddm_elements.nyr_rec_lbs">Next Year Receipt Lbs</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.nyr_rec_lbs">N</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.nyr_rec_lbs">7</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.nyr_rec_lbs"> </DD_MASK_TYPE>
 			<ASC_COMP_ID id="ddm_elements.nyr_rec_lbs">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.nyr_rec_lbs">AON</ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.nyr_rec_lbs">IV </ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.nyr_rec_lbs">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.nyr_rec_lbs">20060119</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.nyr_rec_lbs">20100420</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.nyr_rec_lbs">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.nyr_rec_lbs">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.nyr_rec_lbs">N</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.nyr_rec_lbs">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.nyr_rec_lbs">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.nyr_rec_lbs">Next Year Receipt Lbs</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.nyr_rec_lbs">Nxt Yr Rec Lbs</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.nyr_rec_lbs">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.nyr_rec_lbs">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.nyr_rec_lbs">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.nyr_rec_lbs">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.nyr_rec_unit">
 			<DD_DATA_NAME id="ddm_elements.nyr_rec_unit">NYR_REC_UNIT    </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.nyr_rec_unit">Next Year Receipt Units       </DD_DESCRIPTION>
+			<DD_DESCRIPTION id="ddm_elements.nyr_rec_unit">Next Year Receipt Units</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.nyr_rec_unit">N</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.nyr_rec_unit">7</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.nyr_rec_unit"> </DD_MASK_TYPE>
 			<ASC_COMP_ID id="ddm_elements.nyr_rec_unit">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.nyr_rec_unit">AON</ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.nyr_rec_unit">IV </ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.nyr_rec_unit">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.nyr_rec_unit">20060119</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.nyr_rec_unit">20100420</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.nyr_rec_unit">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.nyr_rec_unit">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.nyr_rec_unit">N</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.nyr_rec_unit">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.nyr_rec_unit">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.nyr_rec_unit">Next Year Receipt Units</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.nyr_rec_unit">Nxt Yr Rec Units</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.nyr_rec_unit">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.nyr_rec_unit">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.nyr_rec_unit">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.nyr_rec_unit">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.reserved_num">
 			<DD_DATA_NAME id="ddm_elements.reserved_num">RESERVED_NUM    </DD_DATA_NAME>
