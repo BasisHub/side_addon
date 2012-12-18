@@ -7,19 +7,20 @@
 			<DD_ALIAS_DESC id="ddm_tables.bmm_billoper">Operations Detail</DD_ALIAS_DESC>
 			<DD_FILE_NAME id="ddm_tables.bmm_billoper">bmm-03</DD_FILE_NAME>
 			<DD_TABLE_PATH id="ddm_tables.bmm_billoper">[+BMDATA]</DD_TABLE_PATH>
-			<DD_ALIAS_TYPE id="ddm_tables.bmm_billoper">X</DD_ALIAS_TYPE>
+			<DD_ALIAS_TYPE id="ddm_tables.bmm_billoper">V</DD_ALIAS_TYPE>
 			<DD_KEY_LENGTH id="ddm_tables.bmm_billoper">0</DD_KEY_LENGTH>
 			<DD_NBR_RECORD id="ddm_tables.bmm_billoper">0</DD_NBR_RECORD>
 			<DD_RECORD_LEN id="ddm_tables.bmm_billoper">228</DD_RECORD_LEN>
 			<DD_SYSTEM_REC id="ddm_tables.bmm_billoper">N</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_tables.bmm_billoper">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.bmm_billoper">BM </ASC_PROD_ID>
+			<ASC_VERSION_ID id="ddm_tables.bmm_billoper">8.0</ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.bmm_billoper">553BBC53C1671D660F283871212AB8C1</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.bmm_billoper">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.bmm_billoper">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.bmm_billoper">20081128</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.bmm_billoper">20081128</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.bmm_billoper">222628</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.bmm_billoper">20090325</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.bmm_billoper">20090325</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.bmm_billoper">090422</DD_LSTSYNC_TIME>
 			<DD_ATTR_DKNM id="ddm_tables.bmm_billoper">ALT_KEY_02</DD_ATTR_DKNM>
 			<DD_ATTR_FTYP id="ddm_tables.bmm_billoper">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.bmm_billoper">zzzz</DD_ATTR_SLEV>
@@ -719,23 +720,6 @@
 			<DD_ATTR_LABL id="ddm_elements.reserved_num">Reserved For Addon Use</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.reserved_num">Res For Addon Use</DD_ATTR_LABS>
 		</RECORD>
-		<RECORD id="ddm_elements.reserved_num">
-			<DD_DATA_NAME id="ddm_elements.reserved_num">RESERVED_NUM    </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.reserved_num">Reserved For Addon Use        </DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.reserved_num">N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.reserved_num">1</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.reserved_num"> </DD_MASK_TYPE>
-			<DD_SYSTEM_REC id="ddm_elements.reserved_num">Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID id="ddm_elements.reserved_num">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.reserved_num">BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.reserved_num">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.reserved_num">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP id="ddm_elements.reserved_num">X</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM id="ddm_elements.reserved_num">            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP id="ddm_elements.reserved_num">            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL id="ddm_elements.reserved_num">Reserved For Addon Use</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.reserved_num">Res For Addon Use</DD_ATTR_LABS>
-		</RECORD>
 		<RECORD id="ddm_elements.setup_time">
 			<DD_DATA_NAME id="ddm_elements.setup_time">SETUP_TIME      </DD_DATA_NAME>
 			<DD_DESCRIPTION id="ddm_elements.setup_time">Setup Time                    </DD_DESCRIPTION>
@@ -767,23 +751,6 @@
 			<DD_ATTR_DEXP id="ddm_elements.move_time">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.move_time">Move Time</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.move_time">Move Time</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD id="ddm_elements.reserved_num">
-			<DD_DATA_NAME id="ddm_elements.reserved_num">RESERVED_NUM    </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.reserved_num">Reserved For Addon Use        </DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.reserved_num">N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.reserved_num">1</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.reserved_num"> </DD_MASK_TYPE>
-			<DD_SYSTEM_REC id="ddm_elements.reserved_num">Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID id="ddm_elements.reserved_num">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.reserved_num">BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.reserved_num">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.reserved_num">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP id="ddm_elements.reserved_num">X</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM id="ddm_elements.reserved_num">            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP id="ddm_elements.reserved_num">            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL id="ddm_elements.reserved_num">Reserved For Addon Use</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.reserved_num">Res For Addon Use</DD_ATTR_LABS>
 		</RECORD>
 		<RECORD id="ddm_elements.dealer_num">
 			<DD_DATA_NAME id="ddm_elements.dealer_num">DEALER_NUM      </DD_DATA_NAME>

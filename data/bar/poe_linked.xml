@@ -7,19 +7,20 @@
 			<DD_ALIAS_DESC id="ddm_tables.poe_linked">Purchase Orders Linked to O/P</DD_ALIAS_DESC>
 			<DD_FILE_NAME id="ddm_tables.poe_linked">poe-08</DD_FILE_NAME>
 			<DD_TABLE_PATH id="ddm_tables.poe_linked">[+PODATA]</DD_TABLE_PATH>
-			<DD_ALIAS_TYPE id="ddm_tables.poe_linked">X</DD_ALIAS_TYPE>
+			<DD_ALIAS_TYPE id="ddm_tables.poe_linked">V</DD_ALIAS_TYPE>
 			<DD_KEY_LENGTH id="ddm_tables.poe_linked">0</DD_KEY_LENGTH>
 			<DD_NBR_RECORD id="ddm_tables.poe_linked">0</DD_NBR_RECORD>
 			<DD_RECORD_LEN id="ddm_tables.poe_linked">0</DD_RECORD_LEN>
 			<DD_SYSTEM_REC id="ddm_tables.poe_linked">N</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_tables.poe_linked">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.poe_linked">PO </ASC_PROD_ID>
+			<ASC_VERSION_ID id="ddm_tables.poe_linked">8.0</ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.poe_linked">043E581917E9775AFCA41FC070492E1F</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.poe_linked">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.poe_linked">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.poe_linked">20081209</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.poe_linked">20081209</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.poe_linked">210936</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.poe_linked">20090325</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.poe_linked">20090325</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.poe_linked">090416</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.poe_linked">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.poe_linked">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.poe_linked">Purchase Orders Linked to O/P</DD_ATTR_WINT>
@@ -53,7 +54,7 @@
 		<RECORD id="ddm_table_tpls.poe_linked">
 			<DD_TABLE_ALIAS id="ddm_table_tpls.poe_linked">POE_LINKED      </DD_TABLE_ALIAS>
 			<DD_FILE_NAME id="ddm_table_tpls.poe_linked">poe-08</DD_FILE_NAME>
-			<DD_TABLE_TPL id="ddm_table_tpls.poe_linked">firm_id:c(2),vendor_id:c(6),po_no:c(7),po_line_no:c(3),customer_id:c(6),order_no:c(7),opedet_seq_ref:c(12)</DD_TABLE_TPL>
+			<DD_TABLE_TPL id="ddm_table_tpls.poe_linked">firm_id:c(2),vendor_id:c(6),po_no:c(7),poedet_seq_ref:c(12),customer_id:c(6),order_no:c(7),opedet_seq_ref:c(12)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_keys">
@@ -104,7 +105,7 @@
 			<DD_TABLE_ALIAS id="ddm_key_segs.poe_linked0004">POE_LINKED      </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_key_segs.poe_linked0004">00</DD_KEY_NUMBER>
 			<DD_SEGMENT_SEQ id="ddm_key_segs.poe_linked0004">04</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL id="ddm_key_segs.poe_linked0004">PO_LINE_NO</DD_SEGMENT_COL>
+			<DD_SEGMENT_COL id="ddm_key_segs.poe_linked0004">POEDET_SEQ_REF</DD_SEGMENT_COL>
 			<DD_SEGMENT_SORT id="ddm_key_segs.poe_linked0004">N</DD_SEGMENT_SORT>
 			<DD_SEGMENT_UNIQ id="ddm_key_segs.poe_linked0004">N</DD_SEGMENT_UNIQ>
 			<DD_SEGMENT_MATH id="ddm_key_segs.poe_linked0004">N</DD_SEGMENT_MATH>
@@ -392,29 +393,6 @@
 			<DD_ATTR_MSKO id="ddm_elements.order_no">0000000</DD_ATTR_MSKO>
 			<DD_ATTR_PADC id="ddm_elements.order_no">30</DD_ATTR_PADC>
 			<DD_ATTR_PADJ id="ddm_elements.order_no">R</DD_ATTR_PADJ>
-		</RECORD>
-		<RECORD id="ddm_elements.seq_ref">
-			<DD_DATA_NAME id="ddm_elements.seq_ref">SEQ_REF         </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.seq_ref">Sequence Reference Number</DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.seq_ref">C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.seq_ref">12</DD_DATA_LENGTH>
-			<ASC_COMP_ID id="ddm_elements.seq_ref">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.seq_ref">AD </ASC_PROD_ID>
-			<LOCALIZATION_EX id="ddm_elements.seq_ref">N</LOCALIZATION_EX>
-			<DD_CREATE_DATE id="ddm_elements.seq_ref">20081124</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.seq_ref">20081124</DD_LSTREV_DATE>
-			<DD_ATTR_BLNK id="ddm_elements.seq_ref">N</DD_ATTR_BLNK>
-			<DD_ATTR_CTLW id="ddm_elements.seq_ref">0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH id="ddm_elements.seq_ref">0</DD_ATTR_CTLH>
-			<DD_ATTR_CTYP id="ddm_elements.seq_ref">E</DD_ATTR_CTYP>
-			<DD_ATTR_LABL id="ddm_elements.seq_ref">Sequence Ref Number</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.seq_ref">Sequence Ref Number</DD_ATTR_LABS>
-			<DD_ATTR_MAXL id="ddm_elements.seq_ref">0</DD_ATTR_MAXL>
-			<DD_ATTR_MAXR id="ddm_elements.seq_ref">0</DD_ATTR_MAXR>
-			<DD_ATTR_MINL id="ddm_elements.seq_ref">0</DD_ATTR_MINL>
-			<DD_ATTR_PADC id="ddm_elements.seq_ref">30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ id="ddm_elements.seq_ref">R</DD_ATTR_PADJ>
-			<DD_ATTR_PREC id="ddm_elements.seq_ref">0</DD_ATTR_PREC>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_element_cmts">

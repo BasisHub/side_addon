@@ -7,18 +7,19 @@
 			<DD_ALIAS_DESC id="ddm_tables.are_cashhdr">Cash Receipts Entry Header</DD_ALIAS_DESC>
 			<DD_FILE_NAME id="ddm_tables.are_cashhdr">are-01</DD_FILE_NAME>
 			<DD_TABLE_PATH id="ddm_tables.are_cashhdr">[+ARDATA]</DD_TABLE_PATH>
-			<DD_ALIAS_TYPE id="ddm_tables.are_cashhdr">K</DD_ALIAS_TYPE>
+			<DD_ALIAS_TYPE id="ddm_tables.are_cashhdr">V</DD_ALIAS_TYPE>
 			<DD_NBR_RECORD id="ddm_tables.are_cashhdr">0</DD_NBR_RECORD>
 			<DD_RECORD_LEN id="ddm_tables.are_cashhdr">59</DD_RECORD_LEN>
 			<DD_SYSTEM_REC id="ddm_tables.are_cashhdr">N</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_tables.are_cashhdr">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.are_cashhdr">AR </ASC_PROD_ID>
+			<ASC_VERSION_ID id="ddm_tables.are_cashhdr">8.0</ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.are_cashhdr">9B0701CABA66B28A2A32D39AD765B011</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.are_cashhdr">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.are_cashhdr">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.are_cashhdr">20081203</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.are_cashhdr">20081203</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.are_cashhdr">161938</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.are_cashhdr">20090325</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.are_cashhdr">20090325</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.are_cashhdr">090416</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.are_cashhdr">/dev/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.are_cashhdr">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.are_cashhdr">zzzz</DD_ATTR_SLEV>
@@ -438,7 +439,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.are_cashhdr011">Y</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.are_cashhdr011">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.are_cashhdr011">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.are_cashhdr011">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.are_cashhdr011">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.are_cashhdr011">15</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.are_cashhdr012">
 			<DD_TABLE_ALIAS id="ddm_table_cols.are_cashhdr012">ARE_CASHHDR     </DD_TABLE_ALIAS>
@@ -540,6 +543,21 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.are_cashhdrreceipt_dated">ARE_CASHHDR     </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.are_cashhdrreceipt_dated">RECEIPT_DATE    </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.are_cashhdrreceipt_dated">D</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.are_cashhdrdisp_appliedc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.are_cashhdrdisp_appliedc">ARE_CASHHDR     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.are_cashhdrdisp_appliedc">DISP_APPLIED    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.are_cashhdrdisp_appliedc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.are_cashhdrdisp_balc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.are_cashhdrdisp_balc">ARE_CASHHDR     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.are_cashhdrdisp_balc">DISP_BAL        </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.are_cashhdrdisp_balc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.are_cashhdrdisp_cust_balc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.are_cashhdrdisp_cust_balc">ARE_CASHHDR     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.are_cashhdrdisp_cust_balc">DISP_CUST_BAL   </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.are_cashhdrdisp_cust_balc">C</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">
@@ -790,21 +808,6 @@
 			<DD_ATTR_DEXP id="ddm_elements.apply_amt">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.apply_amt">Cash Applied</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.apply_amt">Cash Applied</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD id="ddm_elements.balance_amt">
-			<DD_DATA_NAME id="ddm_elements.balance_amt">BALANCE_AMT     </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.balance_amt">Balance Remaining</DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.balance_amt">N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.balance_amt">7</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.balance_amt">A</DD_MASK_TYPE>
-			<DD_SYSTEM_REC id="ddm_elements.balance_amt">N</DD_SYSTEM_REC>
-			<ASC_COMP_ID id="ddm_elements.balance_amt">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.balance_amt">AR </ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.balance_amt">20070112</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.balance_amt">20070112</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP id="ddm_elements.balance_amt">N</DD_ATTR_CTYP>
-			<DD_ATTR_LABL id="ddm_elements.balance_amt">Balance Remaining</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.balance_amt">Balance Remaining</DD_ATTR_LABS>
 		</RECORD>
 		<RECORD id="ddm_elements.balance_amt">
 			<DD_DATA_NAME id="ddm_elements.balance_amt">BALANCE_AMT     </DD_DATA_NAME>

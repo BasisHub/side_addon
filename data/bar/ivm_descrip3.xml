@@ -1,201 +1,195 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <IVM_DESCRIP3>
-	<ALIAS>
-		<ID>DDM_TABLES</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVM_DESCRIP3    </DD_TABLE_ALIAS>
-			<DD_ALIAS_DESC>Item Desc Segment 3 Master</DD_ALIAS_DESC>
-			<DD_FILE_NAME>ivm-31</DD_FILE_NAME>
-			<DD_TABLE_PATH>[+IVDATA]</DD_TABLE_PATH>
-			<DD_ALIAS_TYPE>X</DD_ALIAS_TYPE>
-			<DD_KEY_LENGTH>0</DD_KEY_LENGTH>
-			<DD_NBR_RECORD>0</DD_NBR_RECORD>
-			<DD_RECORD_LEN>64</DD_RECORD_LEN>
-			<DD_SYSTEM_REC>N</DD_SYSTEM_REC>
-			<DD_SYSTEM_ID>IV</DD_SYSTEM_ID>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>IV </ASC_PROD_ID>
-			<ASC_LICENSE_ID>702A1CD17804629AC64B1B18C083EED1</ASC_LICENSE_ID>
-			<DD_EXPORT_DATA>Y</DD_EXPORT_DATA>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080130</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE>20080130</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME>135120</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM>[+DIR_CPP]ivm_descrip3_cpt.bbj</DD_ATTR_CPGM>
-			<DD_ATTR_FTYP>T</DD_ATTR_FTYP>
-			<DD_ATTR_SLEV>zzzz</DD_ATTR_SLEV>
-			<DD_ATTR_WINT>Item Desc Segment 3 Master</DD_ATTR_WINT>
+	<ALIAS id="ddm_tables">
+		<ID id="ddm_tables">DDM_TABLES</ID>
+		<RECORD id="ddm_tables.ivm_descrip3">
+			<DD_TABLE_ALIAS id="ddm_tables.ivm_descrip3">IVM_DESCRIP3    </DD_TABLE_ALIAS>
+			<DD_ALIAS_DESC id="ddm_tables.ivm_descrip3">Item Desc Segment 3 Master</DD_ALIAS_DESC>
+			<DD_FILE_NAME id="ddm_tables.ivm_descrip3">ivm-31</DD_FILE_NAME>
+			<DD_TABLE_PATH id="ddm_tables.ivm_descrip3">[+IVDATA]</DD_TABLE_PATH>
+			<DD_ALIAS_TYPE id="ddm_tables.ivm_descrip3">V</DD_ALIAS_TYPE>
+			<DD_KEY_LENGTH id="ddm_tables.ivm_descrip3">0</DD_KEY_LENGTH>
+			<DD_NBR_RECORD id="ddm_tables.ivm_descrip3">0</DD_NBR_RECORD>
+			<DD_RECORD_LEN id="ddm_tables.ivm_descrip3">64</DD_RECORD_LEN>
+			<DD_SYSTEM_REC id="ddm_tables.ivm_descrip3">N</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_tables.ivm_descrip3">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_tables.ivm_descrip3">IV </ASC_PROD_ID>
+			<ASC_VERSION_ID id="ddm_tables.ivm_descrip3">8.0</ASC_VERSION_ID>
+			<ASC_LICENSE_ID id="ddm_tables.ivm_descrip3">702A1CD17804629AC64B1B18C083EED1</ASC_LICENSE_ID>
+			<DD_EXPORT_DATA id="ddm_tables.ivm_descrip3">Y</DD_EXPORT_DATA>
+			<DD_CREATE_DATE id="ddm_tables.ivm_descrip3">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_tables.ivm_descrip3">20090325</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivm_descrip3">20090325</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivm_descrip3">090416</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.ivm_descrip3">[+DIR_CPP]ivm_descrip3_cpt.bbj</DD_ATTR_CPGM>
+			<DD_ATTR_FTYP id="ddm_tables.ivm_descrip3">T</DD_ATTR_FTYP>
+			<DD_ATTR_SLEV id="ddm_tables.ivm_descrip3">zzzz</DD_ATTR_SLEV>
+			<DD_ATTR_WINT id="ddm_tables.ivm_descrip3">Item Desc Segment 3 Master</DD_ATTR_WINT>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_CPRO</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVM_DESCRIP3    </DD_TABLE_ALIAS>
-			<DD_ATTR_CPRO>BSHO</DD_ATTR_CPRO>
+	<ALIAS id="ddm_table_cpro">
+		<ID id="ddm_table_cpro">DDM_TABLE_CPRO</ID>
+		<RECORD id="ddm_table_cpro.ivm_descrip3bsho">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.ivm_descrip3bsho">IVM_DESCRIP3    </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.ivm_descrip3bsho">BSHO</DD_ATTR_CPRO>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_OPTS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVM_DESCRIP3    </DD_TABLE_ALIAS>
-			<DD_ATTR_OPTS>A</DD_ATTR_OPTS>
+	<ALIAS id="ddm_table_opts">
+		<ID id="ddm_table_opts">DDM_TABLE_OPTS</ID>
+		<RECORD id="ddm_table_opts.ivm_descrip3a">
+			<DD_TABLE_ALIAS id="ddm_table_opts.ivm_descrip3a">IVM_DESCRIP3    </DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.ivm_descrip3a">A</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_TPLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVM_DESCRIP3    </DD_TABLE_ALIAS>
-			<DD_FILE_NAME>ivm-31</DD_FILE_NAME>
-			<DD_TABLE_TPL>firm_id:c(2),master_desc:c(20*),description:c(30*)</DD_TABLE_TPL>
+	<ALIAS id="ddm_table_tpls">
+		<ID id="ddm_table_tpls">DDM_TABLE_TPLS</ID>
+		<RECORD id="ddm_table_tpls.ivm_descrip3">
+			<DD_TABLE_ALIAS id="ddm_table_tpls.ivm_descrip3">IVM_DESCRIP3    </DD_TABLE_ALIAS>
+			<DD_FILE_NAME id="ddm_table_tpls.ivm_descrip3">ivm-31</DD_FILE_NAME>
+			<DD_TABLE_TPL id="ddm_table_tpls.ivm_descrip3">firm_id:c(2),master_desc:c(20*),description:c(30*)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_KEYS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVM_DESCRIP3    </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_KEY_DESC>Primary</DD_KEY_DESC>
-			<DD_KEY_ID>PRIMARY         </DD_KEY_ID>
+	<ALIAS id="ddm_keys">
+		<ID id="ddm_keys">DDM_KEYS</ID>
+		<RECORD id="ddm_keys.ivm_descrip300">
+			<DD_TABLE_ALIAS id="ddm_keys.ivm_descrip300">IVM_DESCRIP3    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_keys.ivm_descrip300">00</DD_KEY_NUMBER>
+			<DD_KEY_DESC id="ddm_keys.ivm_descrip300">Primary</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.ivm_descrip300">PRIMARY         </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_KEY_SEGS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVM_DESCRIP3    </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>01</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>FIRM_ID         </DD_SEGMENT_COL>
-			<DD_SEGMENT_POS>0</DD_SEGMENT_POS>
-			<DD_SEGMENT_OFF>0</DD_SEGMENT_OFF>
-			<DD_SEGMENT_LEN>0</DD_SEGMENT_LEN>
+	<ALIAS id="ddm_key_segs">
+		<ID id="ddm_key_segs">DDM_KEY_SEGS</ID>
+		<RECORD id="ddm_key_segs.ivm_descrip30001">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ivm_descrip30001">IVM_DESCRIP3    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ivm_descrip30001">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ivm_descrip30001">01</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ivm_descrip30001">FIRM_ID         </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ivm_descrip30001">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ivm_descrip30001">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ivm_descrip30001">0</DD_SEGMENT_LEN>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVM_DESCRIP3    </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>02</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>MASTER_DESC     </DD_SEGMENT_COL>
-			<DD_SEGMENT_POS>0</DD_SEGMENT_POS>
-			<DD_SEGMENT_OFF>0</DD_SEGMENT_OFF>
-			<DD_SEGMENT_LEN>0</DD_SEGMENT_LEN>
-		</RECORD>
-	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_COLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVM_DESCRIP3    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>001</DD_SEQUENCE>
-			<DD_DATA_NAME>FIRM_ID         </DD_DATA_NAME>
-			<DD_DVAR_NAME>FIRM_ID         </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL>2</DD_ATTR_MAXL>
-			<DD_ATTR_PROM>Firm ID</DD_ATTR_PROM>
-			<DD_ATTR_TIND>1</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVM_DESCRIP3    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>002</DD_SEQUENCE>
-			<DD_DATA_NAME>MASTER_DESC     </DD_DATA_NAME>
-			<DD_DVAR_NAME>MASTER_DESC     </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL>20</DD_ATTR_MAXL>
-			<DD_ATTR_PROM>Masterfile Description</DD_ATTR_PROM>
-			<DD_ATTR_TIND>2</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVM_DESCRIP3    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>003</DD_SEQUENCE>
-			<DD_DATA_NAME>DESCRIPTION     </DD_DATA_NAME>
-			<DD_DVAR_NAME>DESCRIPTION     </DD_DVAR_NAME>
-			<DD_COL_REPEATS>1</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL>30</DD_ATTR_MAXL>
-			<DD_ATTR_PROM>Description</DD_ATTR_PROM>
-			<DD_ATTR_TIND>3</DD_ATTR_TIND>
+		<RECORD id="ddm_key_segs.ivm_descrip30002">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ivm_descrip30002">IVM_DESCRIP3    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ivm_descrip30002">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ivm_descrip30002">02</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ivm_descrip30002">MASTER_DESC     </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ivm_descrip30002">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ivm_descrip30002">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ivm_descrip30002">0</DD_SEGMENT_LEN>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_COLUMN_OPTS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVM_DESCRIP3    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>FIRM_ID         </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>O</DD_ATTR_OPTS>
+	<ALIAS id="ddm_table_cols">
+		<ID id="ddm_table_cols">DDM_TABLE_COLS</ID>
+		<RECORD id="ddm_table_cols.ivm_descrip3001">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ivm_descrip3001">IVM_DESCRIP3    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ivm_descrip3001">001</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ivm_descrip3001">FIRM_ID         </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ivm_descrip3001">FIRM_ID         </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ivm_descrip3001">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ivm_descrip3001">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ivm_descrip3001">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.ivm_descrip3001">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ivm_descrip3001">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ivm_descrip3001">2</DD_ATTR_MAXL>
+			<DD_ATTR_PROM id="ddm_table_cols.ivm_descrip3001">Firm ID</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ivm_descrip3001">1</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.ivm_descrip3002">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ivm_descrip3002">IVM_DESCRIP3    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ivm_descrip3002">002</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ivm_descrip3002">MASTER_DESC     </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ivm_descrip3002">MASTER_DESC     </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ivm_descrip3002">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ivm_descrip3002">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ivm_descrip3002">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.ivm_descrip3002">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.ivm_descrip3002">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ivm_descrip3002">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ivm_descrip3002">20</DD_ATTR_MAXL>
+			<DD_ATTR_PROM id="ddm_table_cols.ivm_descrip3002">Masterfile Description</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ivm_descrip3002">2</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.ivm_descrip3003">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ivm_descrip3003">IVM_DESCRIP3    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ivm_descrip3003">003</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ivm_descrip3003">DESCRIPTION     </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ivm_descrip3003">DESCRIPTION     </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ivm_descrip3003">1</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ivm_descrip3003">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ivm_descrip3003">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.ivm_descrip3003">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.ivm_descrip3003">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ivm_descrip3003">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ivm_descrip3003">30</DD_ATTR_MAXL>
+			<DD_ATTR_PROM id="ddm_table_cols.ivm_descrip3003">Description</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ivm_descrip3003">3</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_ELEMENTS</ID>
-		<RECORD>
-			<DD_DATA_NAME>FIRM_ID         </DD_DATA_NAME>
-			<DD_DESCRIPTION>Firm ID</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>2</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<DD_SYSTEM_REC>Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060425</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>H</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Firm ID</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Firm ID</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>00</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>00</DD_ATTR_MSKO>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>R</DD_ATTR_PADJ>
-			<DD_ATTR_PVAL>stbl("+FIRM_ID")</DD_ATTR_PVAL>
+	<ALIAS id="ddm_column_opts">
+		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
+		<RECORD id="ddm_column_opts.ivm_descrip3firm_ido">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivm_descrip3firm_ido">IVM_DESCRIP3    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivm_descrip3firm_ido">FIRM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivm_descrip3firm_ido">O</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>MASTER_DESC     </DD_DATA_NAME>
-			<DD_DESCRIPTION>Masterfile Description        </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>20</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Masterfile Description</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Masterfile Desc</DD_ATTR_LABS>
+	</ALIAS>
+	<ALIAS id="ddm_elements">
+		<ID id="ddm_elements">DDM_ELEMENTS</ID>
+		<RECORD id="ddm_elements.firm_id">
+			<DD_DATA_NAME id="ddm_elements.firm_id">FIRM_ID         </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.firm_id">Firm ID</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.firm_id">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.firm_id">2</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.firm_id"> </DD_MASK_TYPE>
+			<DD_SYSTEM_REC id="ddm_elements.firm_id">Y</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.firm_id">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.firm_id">BAR</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.firm_id">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.firm_id">20060425</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.firm_id">H</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.firm_id">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.firm_id">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABS>
+			<DD_ATTR_MSKI id="ddm_elements.firm_id">00</DD_ATTR_MSKI>
+			<DD_ATTR_MSKO id="ddm_elements.firm_id">00</DD_ATTR_MSKO>
+			<DD_ATTR_PADC id="ddm_elements.firm_id">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.firm_id">R</DD_ATTR_PADJ>
+			<DD_ATTR_PVAL id="ddm_elements.firm_id">stbl("+FIRM_ID")</DD_ATTR_PVAL>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>DESCRIPTION     </DD_DATA_NAME>
-			<DD_DESCRIPTION>Description                   </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>30</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<DD_SYSTEM_REC>Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Description</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Desc</DD_ATTR_LABS>
+		<RECORD id="ddm_elements.master_desc">
+			<DD_DATA_NAME id="ddm_elements.master_desc">MASTER_DESC     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.master_desc">Masterfile Description        </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.master_desc">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.master_desc">20</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.master_desc"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.master_desc">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.master_desc">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.master_desc">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.master_desc">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.master_desc">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.master_desc">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.master_desc">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.master_desc">Masterfile Description</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.master_desc">Masterfile Desc</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.description">
+			<DD_DATA_NAME id="ddm_elements.description">DESCRIPTION     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.description">Description                   </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.description">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.description">30</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.description"> </DD_MASK_TYPE>
+			<DD_SYSTEM_REC id="ddm_elements.description">Y</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.description">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.description">BAR</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.description">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.description">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.description">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.description">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.description">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.description">Description</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.description">Desc</DD_ATTR_LABS>
 		</RECORD>
 	</ALIAS>
 </IVM_DESCRIP3>

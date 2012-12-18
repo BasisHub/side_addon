@@ -7,19 +7,20 @@
 			<DD_ALIAS_DESC id="ddm_tables.glm_finheading">Financial Report Headings</DD_ALIAS_DESC>
 			<DD_FILE_NAME id="ddm_tables.glm_finheading">glm-13</DD_FILE_NAME>
 			<DD_TABLE_PATH id="ddm_tables.glm_finheading">[+GLDATA]</DD_TABLE_PATH>
-			<DD_ALIAS_TYPE id="ddm_tables.glm_finheading">X</DD_ALIAS_TYPE>
+			<DD_ALIAS_TYPE id="ddm_tables.glm_finheading">V</DD_ALIAS_TYPE>
 			<DD_KEY_LENGTH id="ddm_tables.glm_finheading">0</DD_KEY_LENGTH>
 			<DD_NBR_RECORD id="ddm_tables.glm_finheading">0</DD_NBR_RECORD>
 			<DD_RECORD_LEN id="ddm_tables.glm_finheading">0</DD_RECORD_LEN>
 			<DD_SYSTEM_REC id="ddm_tables.glm_finheading">N</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_tables.glm_finheading">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.glm_finheading">GL </ASC_PROD_ID>
+			<ASC_VERSION_ID id="ddm_tables.glm_finheading">8.0</ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.glm_finheading">360B2D831F5F908BDA12C016E46FCF54</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.glm_finheading">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.glm_finheading">20060609</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.glm_finheading">20081203</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.glm_finheading">20081203</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.glm_finheading">111712</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.glm_finheading">20090325</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.glm_finheading">20090325</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.glm_finheading">090424</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.glm_finheading">/dev/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.glm_finheading">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.glm_finheading">zzzz</DD_ATTR_SLEV>
@@ -64,11 +65,6 @@
 			<DD_KEY_DESC id="ddm_keys.glm_finheading00">Primary</DD_KEY_DESC>
 			<DD_KEY_ID id="ddm_keys.glm_finheading00">PRIMARY         </DD_KEY_ID>
 		</RECORD>
-		<RECORD id="ddm_keys.glm_finheading01">
-			<DD_TABLE_ALIAS id="ddm_keys.glm_finheading01">GLM_FINHEADING  </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER id="ddm_keys.glm_finheading01">01</DD_KEY_NUMBER>
-			<DD_KEY_ID id="ddm_keys.glm_finheading01">                </DD_KEY_ID>
-		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_key_segs">
 		<ID id="ddm_key_segs">DDM_KEY_SEGS</ID>
@@ -98,24 +94,6 @@
 			<DD_SEGMENT_POS id="ddm_key_segs.glm_finheading0003">0</DD_SEGMENT_POS>
 			<DD_SEGMENT_OFF id="ddm_key_segs.glm_finheading0003">0</DD_SEGMENT_OFF>
 			<DD_SEGMENT_LEN id="ddm_key_segs.glm_finheading0003">0</DD_SEGMENT_LEN>
-		</RECORD>
-		<RECORD id="ddm_key_segs.glm_finheading0101">
-			<DD_TABLE_ALIAS id="ddm_key_segs.glm_finheading0101">GLM_FINHEADING  </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER id="ddm_key_segs.glm_finheading0101">01</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ id="ddm_key_segs.glm_finheading0101">01</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL id="ddm_key_segs.glm_finheading0101">FIRM_ID         </DD_SEGMENT_COL>
-		</RECORD>
-		<RECORD id="ddm_key_segs.glm_finheading0102">
-			<DD_TABLE_ALIAS id="ddm_key_segs.glm_finheading0102">GLM_FINHEADING  </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER id="ddm_key_segs.glm_finheading0102">01</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ id="ddm_key_segs.glm_finheading0102">02</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL id="ddm_key_segs.glm_finheading0102">HEADING_NO      </DD_SEGMENT_COL>
-		</RECORD>
-		<RECORD id="ddm_key_segs.glm_finheading0103">
-			<DD_TABLE_ALIAS id="ddm_key_segs.glm_finheading0103">GLM_FINHEADING  </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER id="ddm_key_segs.glm_finheading0103">01</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ id="ddm_key_segs.glm_finheading0103">03</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL id="ddm_key_segs.glm_finheading0103">SEQUENCE_NO     </DD_SEGMENT_COL>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_cols">
@@ -208,6 +186,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.glm_finheadingfirm_ido">GLM_FINHEADING  </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.glm_finheadingfirm_ido">FIRM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.glm_finheadingfirm_ido">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.glm_finheadingguidec">
+			<DD_TABLE_ALIAS id="ddm_column_opts.glm_finheadingguidec">GLM_FINHEADING  </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.glm_finheadingguidec">GUIDE           </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.glm_finheadingguidec">C</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

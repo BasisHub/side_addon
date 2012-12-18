@@ -6,19 +6,20 @@
 			<DD_TABLE_ALIAS id="ddm_tables.ivs_params">IVS_PARAMS      </DD_TABLE_ALIAS>
 			<DD_ALIAS_DESC id="ddm_tables.ivs_params">IV Parameters</DD_ALIAS_DESC>
 			<DD_TABLE_PATH id="ddm_tables.ivs_params">[+IVDATA]</DD_TABLE_PATH>
-			<DD_ALIAS_TYPE id="ddm_tables.ivs_params">X</DD_ALIAS_TYPE>
+			<DD_ALIAS_TYPE id="ddm_tables.ivs_params">V</DD_ALIAS_TYPE>
 			<DD_KEY_LENGTH id="ddm_tables.ivs_params">0</DD_KEY_LENGTH>
 			<DD_NBR_RECORD id="ddm_tables.ivs_params">0</DD_NBR_RECORD>
 			<DD_RECORD_LEN id="ddm_tables.ivs_params">196</DD_RECORD_LEN>
 			<DD_SYSTEM_REC id="ddm_tables.ivs_params">N</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_tables.ivs_params">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.ivs_params">AD </ASC_PROD_ID>
+			<ASC_VERSION_ID id="ddm_tables.ivs_params">8.0</ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.ivs_params">1DDE0BDD04809B06C80AB939BA04213B</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ivs_params">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ivs_params">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ivs_params">20081204</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivs_params">20081119</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivs_params">222818</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ivs_params">20090325</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivs_params">20090325</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivs_params">090416</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ivs_params">[+DIR_CPP]ivs_params_cpt.bbj</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ivs_params">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.ivs_params">zzzz</DD_ATTR_SLEV>
@@ -232,8 +233,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ivs_params010">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ivs_params010">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivs_params010">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTLX id="ddm_table_cols.ivs_params010">-30</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY id="ddm_table_cols.ivs_params010">+2</DD_ATTR_CTLY>
+			<DD_ATTR_CTLX id="ddm_table_cols.ivs_params010">-27</DD_ATTR_CTLX>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivs_params010">35</DD_ATTR_CTLW>
 			<DD_ATTR_GHDR id="ddm_table_cols.ivs_params010">Item Description</DD_ATTR_GHDR>
 			<DD_ATTR_LABL id="ddm_table_cols.ivs_params010">Description Length</DD_ATTR_LABL>
@@ -347,6 +347,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.ivs_params017">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivs_params017">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivs_params017">35</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.ivs_params017">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABL id="ddm_table_cols.ivs_params017">Default Whse ID</DD_ATTR_LABL>
 			<DD_ATTR_MAXL id="ddm_table_cols.ivs_params017">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivs_params017">Warehouse ID</DD_ATTR_PROM>
@@ -396,7 +397,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ivs_params020">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ivs_params020">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivs_params020">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTLX id="ddm_table_cols.ivs_params020">+33</DD_ATTR_CTLX>
+			<DD_ATTR_CTLX id="ddm_table_cols.ivs_params020">+27</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_cols.ivs_params020">-6</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivs_params020">35</DD_ATTR_CTLW>
 			<DD_ATTR_MAXL id="ddm_table_cols.ivs_params020">2</DD_ATTR_MAXL>
@@ -717,6 +718,11 @@
 			<DD_DVAR_NAME id="ddm_column_opts.ivs_paramsitem_masko">ITEM_MASK       </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ivs_paramsitem_masko">O</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.ivs_paramsmaster_flago">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivs_paramsmaster_flago">IVS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivs_paramsmaster_flago">MASTER_FLAG     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivs_paramsmaster_flago">O</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.ivs_paramsitem_masko">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivs_paramsitem_masko">IVS_PARAMS      </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ivs_paramsitem_masko">ITEM_MASK       </DD_DVAR_NAME>
@@ -1013,23 +1019,6 @@
 			<DD_ATTR_LABL id="ddm_elements.multi_whse">Multiple Warehouses?</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.multi_whse">Mult Whses?</DD_ATTR_LABS>
 		</RECORD>
-		<RECORD id="ddm_elements.reserved_str">
-			<DD_DATA_NAME id="ddm_elements.reserved_str">RESERVED_STR    </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.reserved_str">Reserved For Addon Use        </DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.reserved_str">C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.reserved_str">1</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.reserved_str"> </DD_MASK_TYPE>
-			<DD_SYSTEM_REC id="ddm_elements.reserved_str">Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID id="ddm_elements.reserved_str">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.reserved_str">BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.reserved_str">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.reserved_str">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP id="ddm_elements.reserved_str">X</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM id="ddm_elements.reserved_str">            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP id="ddm_elements.reserved_str">            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL id="ddm_elements.reserved_str">Reserved For Addon Use</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.reserved_str">Res For Addon Use</DD_ATTR_LABS>
-		</RECORD>
 		<RECORD id="ddm_elements.lifofifo">
 			<DD_DATA_NAME id="ddm_elements.lifofifo">LIFOFIFO        </DD_DATA_NAME>
 			<DD_DESCRIPTION id="ddm_elements.lifofifo">LIFO/FIFO Code [L/F/N]</DD_DESCRIPTION>
@@ -1051,23 +1040,6 @@
 			<DD_ATTR_MINL id="ddm_elements.lifofifo">0</DD_ATTR_MINL>
 			<DD_ATTR_PREC id="ddm_elements.lifofifo">0</DD_ATTR_PREC>
 		</RECORD>
-		<RECORD id="ddm_elements.reserved_str">
-			<DD_DATA_NAME id="ddm_elements.reserved_str">RESERVED_STR    </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.reserved_str">Reserved For Addon Use        </DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.reserved_str">C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.reserved_str">1</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.reserved_str"> </DD_MASK_TYPE>
-			<DD_SYSTEM_REC id="ddm_elements.reserved_str">Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID id="ddm_elements.reserved_str">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.reserved_str">BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.reserved_str">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.reserved_str">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP id="ddm_elements.reserved_str">X</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM id="ddm_elements.reserved_str">            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP id="ddm_elements.reserved_str">            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL id="ddm_elements.reserved_str">Reserved For Addon Use</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.reserved_str">Res For Addon Use</DD_ATTR_LABS>
-		</RECORD>
 		<RECORD id="ddm_elements.warehouse_id">
 			<DD_DATA_NAME id="ddm_elements.warehouse_id">WAREHOUSE_ID    </DD_DATA_NAME>
 			<DD_DESCRIPTION id="ddm_elements.warehouse_id">Warehouse ID</DD_DESCRIPTION>
@@ -1075,9 +1047,12 @@
 			<DD_DATA_LENGTH id="ddm_elements.warehouse_id">2</DD_DATA_LENGTH>
 			<DD_MASK_TYPE id="ddm_elements.warehouse_id"> </DD_MASK_TYPE>
 			<ASC_COMP_ID id="ddm_elements.warehouse_id">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.warehouse_id">AON</ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.warehouse_id">IV </ASC_PROD_ID>
+			<LOCALIZATION_EX id="ddm_elements.warehouse_id">N</LOCALIZATION_EX>
 			<DD_CREATE_DATE id="ddm_elements.warehouse_id">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.warehouse_id">20061107</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.warehouse_id">20090206</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.warehouse_id">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.warehouse_id">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.warehouse_id">E</DD_ATTR_CTYP>
 			<DD_ATTR_DCOL id="ddm_elements.warehouse_id">SHORT_NAME      </DD_ATTR_DCOL>
 			<DD_ATTR_DCOM id="ddm_elements.warehouse_id">            </DD_ATTR_DCOM>
@@ -1086,7 +1061,13 @@
 			<DD_ATTR_DTAB id="ddm_elements.warehouse_id">IVC_WHSECODE    </DD_ATTR_DTAB>
 			<DD_ATTR_LABL id="ddm_elements.warehouse_id">Warehouse ID</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.warehouse_id">Whse ID</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.warehouse_id">2</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.warehouse_id">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.warehouse_id">1</DD_ATTR_MINL>
 			<DD_ATTR_MSKI id="ddm_elements.warehouse_id">UU</DD_ATTR_MSKI>
+			<DD_ATTR_PADC id="ddm_elements.warehouse_id">20</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.warehouse_id">L</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.warehouse_id">0</DD_ATTR_PREC>
 			<DD_ATTR_PROM id="ddm_elements.warehouse_id">Enter a two-digit warehouse ID</DD_ATTR_PROM>
 		</RECORD>
 		<RECORD id="ddm_elements.cost_method">
@@ -1191,23 +1172,6 @@
 			<DD_ATTR_PADC id="ddm_elements.label_width">30</DD_ATTR_PADC>
 			<DD_ATTR_PADJ id="ddm_elements.label_width">R</DD_ATTR_PADJ>
 		</RECORD>
-		<RECORD id="ddm_elements.reserved_str">
-			<DD_DATA_NAME id="ddm_elements.reserved_str">RESERVED_STR    </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.reserved_str">Reserved For Addon Use        </DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.reserved_str">C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.reserved_str">1</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.reserved_str"> </DD_MASK_TYPE>
-			<DD_SYSTEM_REC id="ddm_elements.reserved_str">Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID id="ddm_elements.reserved_str">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.reserved_str">BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.reserved_str">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.reserved_str">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP id="ddm_elements.reserved_str">X</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM id="ddm_elements.reserved_str">            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP id="ddm_elements.reserved_str">            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL id="ddm_elements.reserved_str">Reserved For Addon Use</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.reserved_str">Res For Addon Use</DD_ATTR_LABS>
-		</RECORD>
 		<RECORD id="ddm_elements.lotser_flag">
 			<DD_DATA_NAME id="ddm_elements.lotser_flag">LOTSER_FLAG     </DD_DATA_NAME>
 			<DD_DESCRIPTION id="ddm_elements.lotser_flag">Lotted/Serialized [LSN]</DD_DESCRIPTION>
@@ -1224,23 +1188,6 @@
 			<DD_ATTR_LABS id="ddm_elements.lotser_flag">Lot/Ser [LSN]</DD_ATTR_LABS>
 			<DD_ATTR_MAXL id="ddm_elements.lotser_flag">0</DD_ATTR_MAXL>
 			<DD_ATTR_MINL id="ddm_elements.lotser_flag">0</DD_ATTR_MINL>
-		</RECORD>
-		<RECORD id="ddm_elements.reserved_str">
-			<DD_DATA_NAME id="ddm_elements.reserved_str">RESERVED_STR    </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.reserved_str">Reserved For Addon Use        </DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.reserved_str">C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.reserved_str">1</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.reserved_str"> </DD_MASK_TYPE>
-			<DD_SYSTEM_REC id="ddm_elements.reserved_str">Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID id="ddm_elements.reserved_str">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.reserved_str">BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.reserved_str">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.reserved_str">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP id="ddm_elements.reserved_str">X</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM id="ddm_elements.reserved_str">            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP id="ddm_elements.reserved_str">            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL id="ddm_elements.reserved_str">Reserved For Addon Use</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.reserved_str">Res For Addon Use</DD_ATTR_LABS>
 		</RECORD>
 		<RECORD id="ddm_elements.current_per">
 			<DD_DATA_NAME id="ddm_elements.current_per">CURRENT_PER     </DD_DATA_NAME>
@@ -1283,22 +1230,6 @@
 			<DD_ATTR_MINL id="ddm_elements.current_year">0</DD_ATTR_MINL>
 			<DD_ATTR_MSKI id="ddm_elements.current_year">0000</DD_ATTR_MSKI>
 			<DD_ATTR_STYP id="ddm_elements.current_year">3</DD_ATTR_STYP>
-		</RECORD>
-		<RECORD id="ddm_elements.item_mask">
-			<DD_DATA_NAME id="ddm_elements.item_mask">ITEM_MASK       </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.item_mask">Item Number Mask [Not Used]   </DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.item_mask">C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.item_mask">10</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.item_mask"> </DD_MASK_TYPE>
-			<ASC_COMP_ID id="ddm_elements.item_mask">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.item_mask">AON</ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.item_mask">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.item_mask">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP id="ddm_elements.item_mask">E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM id="ddm_elements.item_mask">            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP id="ddm_elements.item_mask">            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL id="ddm_elements.item_mask">Item Number Mask</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.item_mask">Item No Mask </DD_ATTR_LABS>
 		</RECORD>
 		<RECORD id="ddm_elements.amount_mask">
 			<DD_DATA_NAME id="ddm_elements.amount_mask">AMOUNT_MASK     </DD_DATA_NAME>

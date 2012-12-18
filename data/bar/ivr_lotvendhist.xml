@@ -1,409 +1,414 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <IVR_LOTVENDHIST>
-	<ALIAS>
-		<ID>DDM_TABLES</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVR_LOTVENDHIST </DD_TABLE_ALIAS>
-			<DD_ALIAS_DESC>Lot/Serial Number History By Vendor</DD_ALIAS_DESC>
-			<DD_TABLE_PATH>[+IVDATA]</DD_TABLE_PATH>
-			<DD_ALIAS_TYPE>P</DD_ALIAS_TYPE>
-			<DD_KEY_LENGTH>0</DD_KEY_LENGTH>
-			<DD_NBR_RECORD>0</DD_NBR_RECORD>
-			<DD_RECORD_LEN>0</DD_RECORD_LEN>
-			<DD_SYSTEM_ID>IV</DD_SYSTEM_ID>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>IV</ASC_PROD_ID>
-			<ASC_LICENSE_ID>ADA0B8CF938545340F212C0C95DD10BC</ASC_LICENSE_ID>
-			<DD_EXPORT_DATA>Y</DD_EXPORT_DATA>
-			<DD_CREATE_DATE>20071125</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080130</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE>20080130</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME>135130</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM>[+DIR_CPP]ivr_lotvendhist_cpt.bbj</DD_ATTR_CPGM>
-			<DD_ATTR_FTYP>S</DD_ATTR_FTYP>
-			<DD_ATTR_PRUN>[+DIR_PGM]ivr_lotvendhist.aon</DD_ATTR_PRUN>
-			<DD_ATTR_WINT>Lot/Serial Number History By Vendor</DD_ATTR_WINT>
+	<ALIAS id="ddm_tables">
+		<ID id="ddm_tables">DDM_TABLES</ID>
+		<RECORD id="ddm_tables.ivr_lotvendhist">
+			<DD_TABLE_ALIAS id="ddm_tables.ivr_lotvendhist">IVR_LOTVENDHIST </DD_TABLE_ALIAS>
+			<DD_ALIAS_DESC id="ddm_tables.ivr_lotvendhist">Lot/Serial Number History By Vendor</DD_ALIAS_DESC>
+			<DD_TABLE_PATH id="ddm_tables.ivr_lotvendhist">[+IVDATA]</DD_TABLE_PATH>
+			<DD_ALIAS_TYPE id="ddm_tables.ivr_lotvendhist">P</DD_ALIAS_TYPE>
+			<DD_KEY_LENGTH id="ddm_tables.ivr_lotvendhist">0</DD_KEY_LENGTH>
+			<DD_NBR_RECORD id="ddm_tables.ivr_lotvendhist">0</DD_NBR_RECORD>
+			<DD_RECORD_LEN id="ddm_tables.ivr_lotvendhist">0</DD_RECORD_LEN>
+			<ASC_COMP_ID id="ddm_tables.ivr_lotvendhist">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_tables.ivr_lotvendhist">IV</ASC_PROD_ID>
+			<ASC_VERSION_ID id="ddm_tables.ivr_lotvendhist">8.0</ASC_VERSION_ID>
+			<ASC_LICENSE_ID id="ddm_tables.ivr_lotvendhist">ADA0B8CF938545340F212C0C95DD10BC</ASC_LICENSE_ID>
+			<DD_EXPORT_DATA id="ddm_tables.ivr_lotvendhist">Y</DD_EXPORT_DATA>
+			<DD_CREATE_DATE id="ddm_tables.ivr_lotvendhist">20071125</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_tables.ivr_lotvendhist">20090325</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivr_lotvendhist">20090325</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivr_lotvendhist">090418</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.ivr_lotvendhist">[+DIR_CPP]ivr_lotvendhist_cpt.bbj</DD_ATTR_CPGM>
+			<DD_ATTR_FTYP id="ddm_tables.ivr_lotvendhist">S</DD_ATTR_FTYP>
+			<DD_ATTR_PRUN id="ddm_tables.ivr_lotvendhist">[+DIR_PGM]ivr_lotvendhist.aon</DD_ATTR_PRUN>
+			<DD_ATTR_WINT id="ddm_tables.ivr_lotvendhist">Lot/Serial Number History By Vendor</DD_ATTR_WINT>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_CPRO</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVR_LOTVENDHIST </DD_TABLE_ALIAS>
-			<DD_ATTR_CPRO>ARAR</DD_ATTR_CPRO>
+	<ALIAS id="ddm_table_cpro">
+		<ID id="ddm_table_cpro">DDM_TABLE_CPRO</ID>
+		<RECORD id="ddm_table_cpro.ivr_lotvendhistarar">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.ivr_lotvendhistarar">IVR_LOTVENDHIST </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.ivr_lotvendhistarar">ARAR</DD_ATTR_CPRO>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_TPLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVR_LOTVENDHIST </DD_TABLE_ALIAS>
-			<DD_TABLE_TPL>vendor_id_01:c(6),vendor_id_02:c(6),pick_date_01:c(8),pick_date_02:c(8),warehouse_id_01:c(2),warehouse_id_02:c(2),product_type_01:c(3),product_type_02:c(3),item_id_01:c(20),item_id_02:c(20),item_type:c(3),op_cl_both:c(1)</DD_TABLE_TPL>
+	<ALIAS id="ddm_table_tpls">
+		<ID id="ddm_table_tpls">DDM_TABLE_TPLS</ID>
+		<RECORD id="ddm_table_tpls.ivr_lotvendhist">
+			<DD_TABLE_ALIAS id="ddm_table_tpls.ivr_lotvendhist">IVR_LOTVENDHIST </DD_TABLE_ALIAS>
+			<DD_TABLE_TPL id="ddm_table_tpls.ivr_lotvendhist">vendor_id_01:c(6),vendor_id_02:c(6),pick_date_01:c(8),pick_date_02:c(8),warehouse_id_01:c(2),warehouse_id_02:c(2),product_type_01:c(3),product_type_02:c(3),item_id_01:c(20),item_id_02:c(20),item_type:c(3),op_cl_both:c(1)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_COLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVR_LOTVENDHIST </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>001</DD_SEQUENCE>
-			<DD_DATA_NAME>VENDOR_ID       </DD_DATA_NAME>
-			<DD_DVAR_NAME>VENDOR_ID       </DD_DVAR_NAME>
-			<DD_COL_OCCURS>2</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20071125</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20071125</DD_LSTREV_DATE>
-			<DD_ATTR_CTLX>0</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY>0</DD_ATTR_CTLY>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_MLAN>N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL>6</DD_ATTR_MAXL>
-			<DD_ATTR_TIND>1</DD_ATTR_TIND>
+	<ALIAS id="ddm_table_cols">
+		<ID id="ddm_table_cols">DDM_TABLE_COLS</ID>
+		<RECORD id="ddm_table_cols.ivr_lotvendhist001">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ivr_lotvendhist001">IVR_LOTVENDHIST </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ivr_lotvendhist001">001</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ivr_lotvendhist001">VENDOR_ID       </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ivr_lotvendhist001">VENDOR_ID       </DD_DVAR_NAME>
+			<DD_COL_OCCURS id="ddm_table_cols.ivr_lotvendhist001">2</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ivr_lotvendhist001">N</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.ivr_lotvendhist001">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.ivr_lotvendhist001">20071125</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ivr_lotvendhist001">20071125</DD_LSTREV_DATE>
+			<DD_ATTR_CTLX id="ddm_table_cols.ivr_lotvendhist001">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_cols.ivr_lotvendhist001">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_cols.ivr_lotvendhist001">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.ivr_lotvendhist001">0</DD_ATTR_CTLH>
+			<DD_ATTR_MLAN id="ddm_table_cols.ivr_lotvendhist001">N</DD_ATTR_MLAN>
+			<DD_ATTR_MAXL id="ddm_table_cols.ivr_lotvendhist001">6</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.ivr_lotvendhist001">1</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVR_LOTVENDHIST </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>002</DD_SEQUENCE>
-			<DD_DATA_NAME>PICK_DATE       </DD_DATA_NAME>
-			<DD_DVAR_NAME>PICK_DATE       </DD_DVAR_NAME>
-			<DD_COL_OCCURS>2</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20071125</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20071125</DD_LSTREV_DATE>
-			<DD_ATTR_CTLX>0</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY>0</DD_ATTR_CTLY>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_MLAN>N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL>8</DD_ATTR_MAXL>
-			<DD_ATTR_TIND>2</DD_ATTR_TIND>
+		<RECORD id="ddm_table_cols.ivr_lotvendhist002">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ivr_lotvendhist002">IVR_LOTVENDHIST </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ivr_lotvendhist002">002</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ivr_lotvendhist002">PICK_DATE       </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ivr_lotvendhist002">PICK_DATE       </DD_DVAR_NAME>
+			<DD_COL_OCCURS id="ddm_table_cols.ivr_lotvendhist002">2</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ivr_lotvendhist002">N</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.ivr_lotvendhist002">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.ivr_lotvendhist002">20071125</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ivr_lotvendhist002">20071125</DD_LSTREV_DATE>
+			<DD_ATTR_CTLX id="ddm_table_cols.ivr_lotvendhist002">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_cols.ivr_lotvendhist002">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_cols.ivr_lotvendhist002">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.ivr_lotvendhist002">0</DD_ATTR_CTLH>
+			<DD_ATTR_MLAN id="ddm_table_cols.ivr_lotvendhist002">N</DD_ATTR_MLAN>
+			<DD_ATTR_MAXL id="ddm_table_cols.ivr_lotvendhist002">8</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.ivr_lotvendhist002">2</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVR_LOTVENDHIST </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>003</DD_SEQUENCE>
-			<DD_DATA_NAME>WAREHOUSE_ID    </DD_DATA_NAME>
-			<DD_DVAR_NAME>WAREHOUSE_ID    </DD_DVAR_NAME>
-			<DD_COL_OCCURS>2</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20071125</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20071125</DD_LSTREV_DATE>
-			<DD_ATTR_CTLX>0</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY>0</DD_ATTR_CTLY>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_MLAN>N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL>2</DD_ATTR_MAXL>
-			<DD_ATTR_TIND>3</DD_ATTR_TIND>
+		<RECORD id="ddm_table_cols.ivr_lotvendhist003">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ivr_lotvendhist003">IVR_LOTVENDHIST </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ivr_lotvendhist003">003</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ivr_lotvendhist003">WAREHOUSE_ID    </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ivr_lotvendhist003">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_COL_OCCURS id="ddm_table_cols.ivr_lotvendhist003">2</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ivr_lotvendhist003">N</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.ivr_lotvendhist003">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.ivr_lotvendhist003">20071125</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ivr_lotvendhist003">20071125</DD_LSTREV_DATE>
+			<DD_ATTR_CTLX id="ddm_table_cols.ivr_lotvendhist003">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_cols.ivr_lotvendhist003">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_cols.ivr_lotvendhist003">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.ivr_lotvendhist003">0</DD_ATTR_CTLH>
+			<DD_ATTR_MLAN id="ddm_table_cols.ivr_lotvendhist003">N</DD_ATTR_MLAN>
+			<DD_ATTR_MAXL id="ddm_table_cols.ivr_lotvendhist003">2</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.ivr_lotvendhist003">3</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVR_LOTVENDHIST </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>004</DD_SEQUENCE>
-			<DD_DATA_NAME>PRODUCT_TYPE    </DD_DATA_NAME>
-			<DD_DVAR_NAME>PRODUCT_TYPE    </DD_DVAR_NAME>
-			<DD_COL_OCCURS>2</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20071125</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20071125</DD_LSTREV_DATE>
-			<DD_ATTR_CTLX>0</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY>0</DD_ATTR_CTLY>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_MLAN>N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL>3</DD_ATTR_MAXL>
-			<DD_ATTR_TIND>4</DD_ATTR_TIND>
+		<RECORD id="ddm_table_cols.ivr_lotvendhist004">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ivr_lotvendhist004">IVR_LOTVENDHIST </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ivr_lotvendhist004">004</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ivr_lotvendhist004">PRODUCT_TYPE    </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ivr_lotvendhist004">PRODUCT_TYPE    </DD_DVAR_NAME>
+			<DD_COL_OCCURS id="ddm_table_cols.ivr_lotvendhist004">2</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ivr_lotvendhist004">N</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.ivr_lotvendhist004">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.ivr_lotvendhist004">20071125</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ivr_lotvendhist004">20071125</DD_LSTREV_DATE>
+			<DD_ATTR_CTLX id="ddm_table_cols.ivr_lotvendhist004">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_cols.ivr_lotvendhist004">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_cols.ivr_lotvendhist004">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.ivr_lotvendhist004">0</DD_ATTR_CTLH>
+			<DD_ATTR_MLAN id="ddm_table_cols.ivr_lotvendhist004">N</DD_ATTR_MLAN>
+			<DD_ATTR_MAXL id="ddm_table_cols.ivr_lotvendhist004">3</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.ivr_lotvendhist004">4</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVR_LOTVENDHIST </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>005</DD_SEQUENCE>
-			<DD_DATA_NAME>ITEM_ID         </DD_DATA_NAME>
-			<DD_DVAR_NAME>ITEM_ID         </DD_DVAR_NAME>
-			<DD_COL_OCCURS>2</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20071125</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20071125</DD_LSTREV_DATE>
-			<DD_ATTR_CTLX>0</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY>0</DD_ATTR_CTLY>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_LABL>Item ID</DD_ATTR_LABL>
-			<DD_ATTR_MLAN>N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL>20</DD_ATTR_MAXL>
-			<DD_ATTR_TIND>5</DD_ATTR_TIND>
+		<RECORD id="ddm_table_cols.ivr_lotvendhist005">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ivr_lotvendhist005">IVR_LOTVENDHIST </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ivr_lotvendhist005">005</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ivr_lotvendhist005">ITEM_ID         </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ivr_lotvendhist005">ITEM_ID         </DD_DVAR_NAME>
+			<DD_COL_OCCURS id="ddm_table_cols.ivr_lotvendhist005">2</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ivr_lotvendhist005">N</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.ivr_lotvendhist005">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.ivr_lotvendhist005">20071125</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ivr_lotvendhist005">20071125</DD_LSTREV_DATE>
+			<DD_ATTR_CTLX id="ddm_table_cols.ivr_lotvendhist005">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_cols.ivr_lotvendhist005">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_cols.ivr_lotvendhist005">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.ivr_lotvendhist005">0</DD_ATTR_CTLH>
+			<DD_ATTR_LABL id="ddm_table_cols.ivr_lotvendhist005">Item ID</DD_ATTR_LABL>
+			<DD_ATTR_MLAN id="ddm_table_cols.ivr_lotvendhist005">N</DD_ATTR_MLAN>
+			<DD_ATTR_MAXL id="ddm_table_cols.ivr_lotvendhist005">20</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.ivr_lotvendhist005">5</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVR_LOTVENDHIST </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>006</DD_SEQUENCE>
-			<DD_DATA_NAME>ITEM_TYPE       </DD_DATA_NAME>
-			<DD_DVAR_NAME>ITEM_TYPE       </DD_DVAR_NAME>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20071125</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20071125</DD_LSTREV_DATE>
-			<DD_ATTR_CTLX>0</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY>0</DD_ATTR_CTLY>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_MLAN>N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL>3</DD_ATTR_MAXL>
-			<DD_ATTR_TIND>6</DD_ATTR_TIND>
+		<RECORD id="ddm_table_cols.ivr_lotvendhist006">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ivr_lotvendhist006">IVR_LOTVENDHIST </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ivr_lotvendhist006">006</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ivr_lotvendhist006">ITEM_TYPE       </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ivr_lotvendhist006">ITEM_TYPE       </DD_DVAR_NAME>
+			<DD_FIELD_DELIM id="ddm_table_cols.ivr_lotvendhist006">N</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.ivr_lotvendhist006">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.ivr_lotvendhist006">20071125</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ivr_lotvendhist006">20071125</DD_LSTREV_DATE>
+			<DD_ATTR_CTLX id="ddm_table_cols.ivr_lotvendhist006">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_cols.ivr_lotvendhist006">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_cols.ivr_lotvendhist006">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.ivr_lotvendhist006">0</DD_ATTR_CTLH>
+			<DD_ATTR_MLAN id="ddm_table_cols.ivr_lotvendhist006">N</DD_ATTR_MLAN>
+			<DD_ATTR_MAXL id="ddm_table_cols.ivr_lotvendhist006">3</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.ivr_lotvendhist006">6</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVR_LOTVENDHIST </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>007</DD_SEQUENCE>
-			<DD_DATA_NAME>OP_CL_BOTH      </DD_DATA_NAME>
-			<DD_DVAR_NAME>OP_CL_BOTH      </DD_DVAR_NAME>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20071125</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20071125</DD_LSTREV_DATE>
-			<DD_ATTR_CTLX>0</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY>0</DD_ATTR_CTLY>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_MLAN>N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL>1</DD_ATTR_MAXL>
-			<DD_ATTR_TIND>7</DD_ATTR_TIND>
-		</RECORD>
-	</ALIAS>
-	<ALIAS>
-		<ID>DDM_COLUMN_OPTS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVR_LOTVENDHIST </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>VENDOR_ID       </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>1</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVR_LOTVENDHIST </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>VENDOR_ID       </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>2</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVR_LOTVENDHIST </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>PICK_DATE       </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>1</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVR_LOTVENDHIST </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>PICK_DATE       </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>2</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVR_LOTVENDHIST </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>WAREHOUSE_ID    </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>1</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVR_LOTVENDHIST </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>WAREHOUSE_ID    </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>2</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVR_LOTVENDHIST </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>PRODUCT_TYPE    </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>1</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVR_LOTVENDHIST </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>PRODUCT_TYPE    </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>2</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVR_LOTVENDHIST </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>ITEM_ID         </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>1</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVR_LOTVENDHIST </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>ITEM_ID         </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>2</DD_ATTR_OPTS>
+		<RECORD id="ddm_table_cols.ivr_lotvendhist007">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ivr_lotvendhist007">IVR_LOTVENDHIST </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ivr_lotvendhist007">007</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ivr_lotvendhist007">OP_CL_BOTH      </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ivr_lotvendhist007">OP_CL_BOTH      </DD_DVAR_NAME>
+			<DD_FIELD_DELIM id="ddm_table_cols.ivr_lotvendhist007">N</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.ivr_lotvendhist007">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.ivr_lotvendhist007">20071125</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ivr_lotvendhist007">20071125</DD_LSTREV_DATE>
+			<DD_ATTR_CTLX id="ddm_table_cols.ivr_lotvendhist007">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_cols.ivr_lotvendhist007">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_cols.ivr_lotvendhist007">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.ivr_lotvendhist007">0</DD_ATTR_CTLH>
+			<DD_ATTR_MLAN id="ddm_table_cols.ivr_lotvendhist007">N</DD_ATTR_MLAN>
+			<DD_ATTR_MAXL id="ddm_table_cols.ivr_lotvendhist007">1</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.ivr_lotvendhist007">7</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_ELEMENTS</ID>
-		<RECORD>
-			<DD_DATA_NAME>VENDOR_ID       </DD_DATA_NAME>
-			<DD_DESCRIPTION>Vendor Number</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>6</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>AP</DD_SYSTEM_ID>
-			<DD_MASK_TYPE>I</DD_MASK_TYPE>
-			<DD_SYSTEM_REC>N</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20071024</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOL>VENDOR_NAME     </DD_ATTR_DCOL>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_DKEY>[+FIRM_ID]+@</DD_ATTR_DKEY>
-			<DD_ATTR_DTAB>APM_VENDMAST    </DD_ATTR_DTAB>
-			<DD_ATTR_LABL>Vendor ID</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Vend ID</DD_ATTR_LABS>
-			<DD_ATTR_MAXL>0</DD_ATTR_MAXL>
-			<DD_ATTR_MAXR>0</DD_ATTR_MAXR>
-			<DD_ATTR_MINL>0</DD_ATTR_MINL>
-			<DD_ATTR_MSKI>UUUUUU</DD_ATTR_MSKI>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>R</DD_ATTR_PADJ>
-			<DD_ATTR_PREC>0</DD_ATTR_PREC>
-			<DD_ATTR_PROM>Enter A Valid Vendor</DD_ATTR_PROM>
+	<ALIAS id="ddm_column_opts">
+		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
+		<RECORD id="ddm_column_opts.ivr_lotvendhistvendor_id1">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_lotvendhistvendor_id1">IVR_LOTVENDHIST </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivr_lotvendhistvendor_id1">VENDOR_ID       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivr_lotvendhistvendor_id1">1</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>PICK_DATE       </DD_DATA_NAME>
-			<DD_DESCRIPTION>Pick Screen Date YYYYMMDD</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>8</DD_DATA_LENGTH>
-			<DD_SPECIAL_MASK>YYYYMMDD</DD_SPECIAL_MASK>
-			<DD_SYSTEM_REC>N</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060418</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060418</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>D</DD_ATTR_CTYP>
-			<DD_ATTR_LABL>Date</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Date</DD_ATTR_LABS>
-			<DD_ATTR_STYP>1</DD_ATTR_STYP>
+		<RECORD id="ddm_column_opts.ivr_lotvendhistvendor_id2">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_lotvendhistvendor_id2">IVR_LOTVENDHIST </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivr_lotvendhistvendor_id2">VENDOR_ID       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivr_lotvendhistvendor_id2">2</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>WAREHOUSE_ID    </DD_DATA_NAME>
-			<DD_DESCRIPTION>Warehouse ID</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>2</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20061107</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOL>SHORT_NAME      </DD_ATTR_DCOL>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_DKEY>[+FIRM_ID]+"C"+@</DD_ATTR_DKEY>
-			<DD_ATTR_DTAB>IVC_WHSECODE    </DD_ATTR_DTAB>
-			<DD_ATTR_LABL>Warehouse ID</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Whse ID</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>UU</DD_ATTR_MSKI>
-			<DD_ATTR_PROM>Enter a two-digit warehouse ID</DD_ATTR_PROM>
+		<RECORD id="ddm_column_opts.ivr_lotvendhistpick_date1">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_lotvendhistpick_date1">IVR_LOTVENDHIST </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivr_lotvendhistpick_date1">PICK_DATE       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivr_lotvendhistpick_date1">1</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>PRODUCT_TYPE    </DD_DATA_NAME>
-			<DD_DESCRIPTION>Product Type</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>3</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060314</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOL>CODE_DESC       </DD_ATTR_DCOL>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_DKEY>[+FIRM_ID]+"A"+@</DD_ATTR_DKEY>
-			<DD_ATTR_DTAB>IVC_PRODCODE    </DD_ATTR_DTAB>
-			<DD_ATTR_LABL>Product Type</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Prod Type</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>UUU</DD_ATTR_MSKI>
-			<DD_ATTR_PADC>20</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>L</DD_ATTR_PADJ>
+		<RECORD id="ddm_column_opts.ivr_lotvendhistpick_date2">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_lotvendhistpick_date2">IVR_LOTVENDHIST </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivr_lotvendhistpick_date2">PICK_DATE       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivr_lotvendhistpick_date2">2</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>ITEM_ID         </DD_DATA_NAME>
-			<DD_DESCRIPTION>Inventory Item ID</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>20</DD_DATA_LENGTH>
-			<DD_SYSTEM_REC>N</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060613</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOL>ITEM_DESC       </DD_ATTR_DCOL>
-			<DD_ATTR_DKEY>[+FIRM_ID]+@</DD_ATTR_DKEY>
-			<DD_ATTR_DTAB>IVM_ITEMMAST    </DD_ATTR_DTAB>
-			<DD_ATTR_LABL>Inventory Item ID</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Item ID</DD_ATTR_LABS>
-			<DD_ATTR_MAXL>0</DD_ATTR_MAXL>
-			<DD_ATTR_MAXR>0</DD_ATTR_MAXR>
-			<DD_ATTR_MINL>0</DD_ATTR_MINL>
-			<DD_ATTR_MSKI>UUUUUUUUUUUUUUUUUUUU</DD_ATTR_MSKI>
-			<DD_ATTR_PADC>20</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>L</DD_ATTR_PADJ>
-			<DD_ATTR_PROM>Enter a valid inventory item</DD_ATTR_PROM>
+		<RECORD id="ddm_column_opts.ivr_lotvendhistwarehouse_id1">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_lotvendhistwarehouse_id1">IVR_LOTVENDHIST </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivr_lotvendhistwarehouse_id1">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivr_lotvendhistwarehouse_id1">1</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>ITEM_TYPE       </DD_DATA_NAME>
-			<DD_DESCRIPTION>Item Type</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>3</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20070612</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOL>CODE_DESC       </DD_ATTR_DCOL>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_DKEY>[+FIRM_ID]+@</DD_ATTR_DKEY>
-			<DD_ATTR_DTAB>IVC_TYPECODE    </DD_ATTR_DTAB>
-			<DD_ATTR_LABL>Item Type</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Item Type</DD_ATTR_LABS>
+		<RECORD id="ddm_column_opts.ivr_lotvendhistwarehouse_id2">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_lotvendhistwarehouse_id2">IVR_LOTVENDHIST </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivr_lotvendhistwarehouse_id2">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivr_lotvendhistwarehouse_id2">2</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>OP_CL_BOTH      </DD_DATA_NAME>
-			<DD_DESCRIPTION>Open/Closed/Both</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>1</DD_DATA_LENGTH>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20061103</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20061103</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>L</DD_ATTR_CTYP>
-			<DD_ATTR_LABL>Open/Closed/Both</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Opn/Clsd/Both</DD_ATTR_LABS>
+		<RECORD id="ddm_column_opts.ivr_lotvendhistproduct_type1">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_lotvendhistproduct_type1">IVR_LOTVENDHIST </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivr_lotvendhistproduct_type1">PRODUCT_TYPE    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivr_lotvendhistproduct_type1">1</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivr_lotvendhistproduct_type2">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_lotvendhistproduct_type2">IVR_LOTVENDHIST </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivr_lotvendhistproduct_type2">PRODUCT_TYPE    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivr_lotvendhistproduct_type2">2</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivr_lotvendhistitem_id1">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_lotvendhistitem_id1">IVR_LOTVENDHIST </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivr_lotvendhistitem_id1">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivr_lotvendhistitem_id1">1</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ivr_lotvendhistitem_id2">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_lotvendhistitem_id2">IVR_LOTVENDHIST </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivr_lotvendhistitem_id2">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivr_lotvendhistitem_id2">2</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_ELEMENT_LDAT</ID>
-		<RECORD>
-			<DD_DATA_NAME>OP_CL_BOTH      </DD_DATA_NAME>
-			<DD_ATTR_SEQ>01</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>O   </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Open</DD_ATTR_LDAT_DS>
+	<ALIAS id="ddm_elements">
+		<ID id="ddm_elements">DDM_ELEMENTS</ID>
+		<RECORD id="ddm_elements.vendor_id">
+			<DD_DATA_NAME id="ddm_elements.vendor_id">VENDOR_ID       </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.vendor_id">Vendor Number</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.vendor_id">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.vendor_id">6</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.vendor_id">I</DD_MASK_TYPE>
+			<DD_SYSTEM_REC id="ddm_elements.vendor_id">N</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.vendor_id">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.vendor_id">AP </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.vendor_id">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.vendor_id">20071024</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.vendor_id">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.vendor_id">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.vendor_id">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOL id="ddm_elements.vendor_id">VENDOR_NAME     </DD_ATTR_DCOL>
+			<DD_ATTR_DCOM id="ddm_elements.vendor_id">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.vendor_id">            </DD_ATTR_DEXP>
+			<DD_ATTR_DKEY id="ddm_elements.vendor_id">[+FIRM_ID]+@</DD_ATTR_DKEY>
+			<DD_ATTR_DTAB id="ddm_elements.vendor_id">APM_VENDMAST    </DD_ATTR_DTAB>
+			<DD_ATTR_LABL id="ddm_elements.vendor_id">Vendor ID</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.vendor_id">Vend ID</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.vendor_id">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.vendor_id">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.vendor_id">0</DD_ATTR_MINL>
+			<DD_ATTR_MSKI id="ddm_elements.vendor_id">UUUUUU</DD_ATTR_MSKI>
+			<DD_ATTR_PADC id="ddm_elements.vendor_id">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.vendor_id">R</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.vendor_id">0</DD_ATTR_PREC>
+			<DD_ATTR_PROM id="ddm_elements.vendor_id">Enter A Valid Vendor</DD_ATTR_PROM>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>OP_CL_BOTH      </DD_DATA_NAME>
-			<DD_ATTR_SEQ>02</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>C   </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Closed</DD_ATTR_LDAT_DS>
+		<RECORD id="ddm_elements.pick_date">
+			<DD_DATA_NAME id="ddm_elements.pick_date">PICK_DATE       </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.pick_date">Pick Screen Date YYYYMMDD</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.pick_date">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.pick_date">8</DD_DATA_LENGTH>
+			<DD_SYSTEM_REC id="ddm_elements.pick_date">N</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.pick_date">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.pick_date">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.pick_date">20060418</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.pick_date">20060418</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.pick_date">D</DD_ATTR_CTYP>
+			<DD_ATTR_LABL id="ddm_elements.pick_date">Date</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.pick_date">Date</DD_ATTR_LABS>
+			<DD_ATTR_STYP id="ddm_elements.pick_date">1</DD_ATTR_STYP>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>OP_CL_BOTH      </DD_DATA_NAME>
-			<DD_ATTR_SEQ>03</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>B   </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Both</DD_ATTR_LDAT_DS>
+		<RECORD id="ddm_elements.warehouse_id">
+			<DD_DATA_NAME id="ddm_elements.warehouse_id">WAREHOUSE_ID    </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.warehouse_id">Warehouse ID</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.warehouse_id">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.warehouse_id">2</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.warehouse_id"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.warehouse_id">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.warehouse_id">IV </ASC_PROD_ID>
+			<LOCALIZATION_EX id="ddm_elements.warehouse_id">N</LOCALIZATION_EX>
+			<DD_CREATE_DATE id="ddm_elements.warehouse_id">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.warehouse_id">20090206</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.warehouse_id">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.warehouse_id">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.warehouse_id">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOL id="ddm_elements.warehouse_id">SHORT_NAME      </DD_ATTR_DCOL>
+			<DD_ATTR_DCOM id="ddm_elements.warehouse_id">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.warehouse_id">            </DD_ATTR_DEXP>
+			<DD_ATTR_DKEY id="ddm_elements.warehouse_id">[+FIRM_ID]+"C"+@</DD_ATTR_DKEY>
+			<DD_ATTR_DTAB id="ddm_elements.warehouse_id">IVC_WHSECODE    </DD_ATTR_DTAB>
+			<DD_ATTR_LABL id="ddm_elements.warehouse_id">Warehouse ID</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.warehouse_id">Whse ID</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.warehouse_id">2</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.warehouse_id">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.warehouse_id">1</DD_ATTR_MINL>
+			<DD_ATTR_MSKI id="ddm_elements.warehouse_id">UU</DD_ATTR_MSKI>
+			<DD_ATTR_PADC id="ddm_elements.warehouse_id">20</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.warehouse_id">L</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.warehouse_id">0</DD_ATTR_PREC>
+			<DD_ATTR_PROM id="ddm_elements.warehouse_id">Enter a two-digit warehouse ID</DD_ATTR_PROM>
+		</RECORD>
+		<RECORD id="ddm_elements.product_type">
+			<DD_DATA_NAME id="ddm_elements.product_type">PRODUCT_TYPE    </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.product_type">Product Type</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.product_type">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.product_type">3</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.product_type"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.product_type">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.product_type">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.product_type">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.product_type">20060314</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.product_type">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOL id="ddm_elements.product_type">CODE_DESC       </DD_ATTR_DCOL>
+			<DD_ATTR_DCOM id="ddm_elements.product_type">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.product_type">            </DD_ATTR_DEXP>
+			<DD_ATTR_DKEY id="ddm_elements.product_type">[+FIRM_ID]+"A"+@</DD_ATTR_DKEY>
+			<DD_ATTR_DTAB id="ddm_elements.product_type">IVC_PRODCODE    </DD_ATTR_DTAB>
+			<DD_ATTR_LABL id="ddm_elements.product_type">Product Type</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.product_type">Prod Type</DD_ATTR_LABS>
+			<DD_ATTR_MSKI id="ddm_elements.product_type">UUU</DD_ATTR_MSKI>
+			<DD_ATTR_PADC id="ddm_elements.product_type">20</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.product_type">L</DD_ATTR_PADJ>
+		</RECORD>
+		<RECORD id="ddm_elements.item_id">
+			<DD_DATA_NAME id="ddm_elements.item_id">ITEM_ID         </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.item_id">Inventory Item ID</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.item_id">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.item_id">20</DD_DATA_LENGTH>
+			<DD_SYSTEM_REC id="ddm_elements.item_id">N</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.item_id">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.item_id">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.item_id">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.item_id">20060613</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.item_id">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOL id="ddm_elements.item_id">ITEM_DESC       </DD_ATTR_DCOL>
+			<DD_ATTR_DKEY id="ddm_elements.item_id">[+FIRM_ID]+@</DD_ATTR_DKEY>
+			<DD_ATTR_DTAB id="ddm_elements.item_id">IVM_ITEMMAST    </DD_ATTR_DTAB>
+			<DD_ATTR_LABL id="ddm_elements.item_id">Inventory Item ID</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.item_id">Item ID</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.item_id">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.item_id">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.item_id">0</DD_ATTR_MINL>
+			<DD_ATTR_MSKI id="ddm_elements.item_id">UUUUUUUUUUUUUUUUUUUU</DD_ATTR_MSKI>
+			<DD_ATTR_PADC id="ddm_elements.item_id">20</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.item_id">L</DD_ATTR_PADJ>
+			<DD_ATTR_PROM id="ddm_elements.item_id">Enter a valid inventory item</DD_ATTR_PROM>
+		</RECORD>
+		<RECORD id="ddm_elements.item_type">
+			<DD_DATA_NAME id="ddm_elements.item_type">ITEM_TYPE       </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.item_type">Item Type</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.item_type">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.item_type">3</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.item_type"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.item_type">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.item_type">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.item_type">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.item_type">20070612</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.item_type">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOL id="ddm_elements.item_type">CODE_DESC       </DD_ATTR_DCOL>
+			<DD_ATTR_DCOM id="ddm_elements.item_type">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.item_type">            </DD_ATTR_DEXP>
+			<DD_ATTR_DKEY id="ddm_elements.item_type">[+FIRM_ID]+@</DD_ATTR_DKEY>
+			<DD_ATTR_DTAB id="ddm_elements.item_type">IVC_TYPECODE    </DD_ATTR_DTAB>
+			<DD_ATTR_LABL id="ddm_elements.item_type">Item Type</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.item_type">Item Type</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.op_cl_both">
+			<DD_DATA_NAME id="ddm_elements.op_cl_both">OP_CL_BOTH      </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.op_cl_both">Open/Closed/Both</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.op_cl_both">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.op_cl_both">1</DD_DATA_LENGTH>
+			<ASC_COMP_ID id="ddm_elements.op_cl_both">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.op_cl_both">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.op_cl_both">20061103</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.op_cl_both">20080312</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.op_cl_both">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.op_cl_both">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.op_cl_both">L</DD_ATTR_CTYP>
+			<DD_ATTR_LABL id="ddm_elements.op_cl_both">Open/Closed/Both</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.op_cl_both">Opn/Clsd/Both</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.op_cl_both">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.op_cl_both">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.op_cl_both">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.op_cl_both">0</DD_ATTR_PREC>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>ADS_MASKS</ID>
-		<RECORD>
-			<FIRM_ID>01</FIRM_ID>
-			<DD_SYSTEM_ID>AP</DD_SYSTEM_ID>
-			<DD_MASK_TYPE>I</DD_MASK_TYPE>
-			<DD_ATTR_MSKI>000000</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>000000</DD_ATTR_MSKO>
+	<ALIAS id="ddm_element_cmts">
+		<ID id="ddm_element_cmts">DDM_ELEMENT_CMTS</ID>
+		<RECORD id="ddm_element_cmts.vendor_id001">
+			<DD_DATA_NAME id="ddm_element_cmts.vendor_id001">VENDOR_ID       </DD_DATA_NAME>
+			<DD_COMM_SEQ id="ddm_element_cmts.vendor_id001">001</DD_COMM_SEQ>
+			<DD_COMM_TEXT id="ddm_element_cmts.vendor_id001">this is a test comment</DD_COMM_TEXT>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_element_ldat">
+		<ID id="ddm_element_ldat">DDM_ELEMENT_LDAT</ID>
+		<RECORD id="ddm_element_ldat.op_cl_both01">
+			<DD_DATA_NAME id="ddm_element_ldat.op_cl_both01">OP_CL_BOTH      </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.op_cl_both01">01</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.op_cl_both01">O   </DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.op_cl_both01">Open</DD_ATTR_LDAT_DS>
+		</RECORD>
+		<RECORD id="ddm_element_ldat.op_cl_both02">
+			<DD_DATA_NAME id="ddm_element_ldat.op_cl_both02">OP_CL_BOTH      </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.op_cl_both02">02</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.op_cl_both02">C   </DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.op_cl_both02">Closed</DD_ATTR_LDAT_DS>
+		</RECORD>
+		<RECORD id="ddm_element_ldat.op_cl_both03">
+			<DD_DATA_NAME id="ddm_element_ldat.op_cl_both03">OP_CL_BOTH      </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.op_cl_both03">03</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.op_cl_both03">B   </DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.op_cl_both03">Both</DD_ATTR_LDAT_DS>
 		</RECORD>
 	</ALIAS>
 </IVR_LOTVENDHIST>

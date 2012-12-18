@@ -7,22 +7,39 @@
 			<DD_ALIAS_DESC id="ddm_tables.ive_physical">Physical Inventory Entry</DD_ALIAS_DESC>
 			<DD_FILE_NAME id="ddm_tables.ive_physical">ive-03</DD_FILE_NAME>
 			<DD_TABLE_PATH id="ddm_tables.ive_physical">[+IVDATA]</DD_TABLE_PATH>
-			<DD_ALIAS_TYPE id="ddm_tables.ive_physical">K</DD_ALIAS_TYPE>
+			<DD_ALIAS_TYPE id="ddm_tables.ive_physical">V</DD_ALIAS_TYPE>
 			<DD_KEY_LENGTH id="ddm_tables.ive_physical">0</DD_KEY_LENGTH>
 			<DD_NBR_RECORD id="ddm_tables.ive_physical">0</DD_NBR_RECORD>
-			<DD_RECORD_LEN id="ddm_tables.ive_physical">160</DD_RECORD_LEN>
+			<DD_RECORD_LEN id="ddm_tables.ive_physical">0</DD_RECORD_LEN>
 			<DD_SYSTEM_REC id="ddm_tables.ive_physical">N</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_tables.ive_physical">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.ive_physical">IV </ASC_PROD_ID>
+			<ASC_VERSION_ID id="ddm_tables.ive_physical">8.0</ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.ive_physical">71454F80DC9ADB4C1C29BA05F82C6786</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ive_physical">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ive_physical">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ive_physical">20080130</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ive_physical">20080130</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ive_physical">145318</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ive_physical">20090325</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ive_physical">20090325</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ive_physical">090420</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.ive_physical">/devel/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ive_physical">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.ive_physical">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.ive_physical">Physical Inventory Entry</DD_ATTR_WINT>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_cpro">
+		<ID id="ddm_table_cpro">DDM_TABLE_CPRO</ID>
+		<RECORD id="ddm_table_cpro.ive_physicaladis">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.ive_physicaladis">IVE_PHYSICAL    </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.ive_physicaladis">ADIS</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_table_cpro.ive_physicalarar">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.ive_physicalarar">IVE_PHYSICAL    </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.ive_physicalarar">ARAR</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_table_cpro.ive_physicalbsho">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.ive_physicalbsho">IVE_PHYSICAL    </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.ive_physicalbsho">BSHO</DD_ATTR_CPRO>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_tpls">
@@ -30,7 +47,7 @@
 		<RECORD id="ddm_table_tpls.ive_physical">
 			<DD_TABLE_ALIAS id="ddm_table_tpls.ive_physical">IVE_PHYSICAL    </DD_TABLE_ALIAS>
 			<DD_FILE_NAME id="ddm_table_tpls.ive_physical">ive-03</DD_FILE_NAME>
-			<DD_TABLE_TPL id="ddm_table_tpls.ive_physical">firm_id:c(2),warehouse_id:c(2),cycle_code:c(2),location:c(10),item_id:c(20),lotser_no:c(20*),reserved_str:c(3),entered_flag:c(1),lotser_item:c(1),reserved_str_02:c(4),count_string:c(50),cutoff_date:c(8*),freeze_qty:n(7*),act_phys_cnt:n(7*),reserved_num:n(1*)</DD_TABLE_TPL>
+			<DD_TABLE_TPL id="ddm_table_tpls.ive_physical">firm_id:c(2),warehouse_id:c(2),pi_cyclecode:c(2),location:c(10),item_id:c(20),lotser_no:c(20*),reserved_str:c(3),entered_flag:c(1),lotser_item:c(1),reserved_str_02:c(4),count_string:c(50),cutoff_date:c(8*),freeze_qty:n(7*),act_phys_cnt:n(7*),reserved_num:n(1*)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_keys">
@@ -66,7 +83,7 @@
 			<DD_TABLE_ALIAS id="ddm_key_segs.ive_physical0003">IVE_PHYSICAL    </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_key_segs.ive_physical0003">00</DD_KEY_NUMBER>
 			<DD_SEGMENT_SEQ id="ddm_key_segs.ive_physical0003">03</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL id="ddm_key_segs.ive_physical0003">CYCLE_CODE      </DD_SEGMENT_COL>
+			<DD_SEGMENT_COL id="ddm_key_segs.ive_physical0003">PI_CYCLECODE</DD_SEGMENT_COL>
 			<DD_SEGMENT_POS id="ddm_key_segs.ive_physical0003">0</DD_SEGMENT_POS>
 			<DD_SEGMENT_OFF id="ddm_key_segs.ive_physical0003">0</DD_SEGMENT_OFF>
 			<DD_SEGMENT_LEN id="ddm_key_segs.ive_physical0003">0</DD_SEGMENT_LEN>
@@ -111,6 +128,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ive_physical001">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ive_physical001">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ive_physical001">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ive_physical001">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ive_physical001">Firm ID</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ive_physical001">1</DD_ATTR_TIND>
 		</RECORD>
@@ -124,19 +142,28 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ive_physical002">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ive_physical002">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ive_physical002">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.ive_physical002">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.ive_physical002">0</DD_ATTR_CTLH>
+			<DD_ATTR_MAXL id="ddm_table_cols.ive_physical002">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ive_physical002">Warehouse ID</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ive_physical002">2</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ive_physical003">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ive_physical003">IVE_PHYSICAL    </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_cols.ive_physical003">003</DD_SEQUENCE>
-			<DD_DATA_NAME id="ddm_table_cols.ive_physical003">CYCLE_CODE      </DD_DATA_NAME>
-			<DD_DVAR_NAME id="ddm_table_cols.ive_physical003">CYCLE_CODE      </DD_DVAR_NAME>
+			<DD_DATA_NAME id="ddm_table_cols.ive_physical003">PI_CYCLECODE    </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ive_physical003">PI_CYCLECODE    </DD_DVAR_NAME>
 			<DD_COL_REPEATS id="ddm_table_cols.ive_physical003">1</DD_COL_REPEATS>
 			<DD_COL_OCCURS id="ddm_table_cols.ive_physical003">0</DD_COL_OCCURS>
 			<DD_FIELD_DELIM id="ddm_table_cols.ive_physical003">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ive_physical003">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ive_physical003">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CPGM id="ddm_table_cols.ive_physical003">/devel/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CTLW id="ddm_table_cols.ive_physical003">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.ive_physical003">0</DD_ATTR_CTLH>
+			<DD_ATTR_LABL id="ddm_table_cols.ive_physical003">Cycle Code</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_table_cols.ive_physical003">Cycle</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_table_cols.ive_physical003">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ive_physical003">Cycle Code</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ive_physical003">3</DD_ATTR_TIND>
 		</RECORD>
@@ -150,8 +177,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ive_physical004">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ive_physical004">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ive_physical004">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ive_physical004">10</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ive_physical004">Warehouse Location</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.ive_physical004">10</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.ive_physical004">4</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ive_physical005">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ive_physical005">IVE_PHYSICAL    </DD_TABLE_ALIAS>
@@ -163,8 +191,10 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ive_physical005">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ive_physical005">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ive_physical005">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_GHDR id="ddm_table_cols.ive_physical005">Physical Count</DD_ATTR_GHDR>
+			<DD_ATTR_CPGM id="ddm_table_cols.ive_physical005">/devel/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_GHDR id="ddm_table_cols.ive_physical005">.</DD_ATTR_GHDR>
 			<DD_ATTR_LABS id="ddm_table_cols.ive_physical005">Inventory</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_table_cols.ive_physical005">20</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ive_physical005">Inventory Item Number</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ive_physical005">5</DD_ATTR_TIND>
 		</RECORD>
@@ -179,6 +209,11 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.ive_physical006">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.ive_physical006">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ive_physical006">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_ABLC id="ddm_table_cols.ive_physical006"><<CALLPOINT>></DD_ATTR_ABLC>
+			<DD_ATTR_ABLV id="ddm_table_cols.ive_physical006">B</DD_ATTR_ABLV>
+			<DD_ATTR_CTLW id="ddm_table_cols.ive_physical006">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.ive_physical006">0</DD_ATTR_CTLH>
+			<DD_ATTR_MAXL id="ddm_table_cols.ive_physical006">20</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ive_physical006">Lot/Serial Number</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ive_physical006">6</DD_ATTR_TIND>
 		</RECORD>
@@ -192,7 +227,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ive_physical007">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ive_physical007">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ive_physical007">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ive_physical007">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ive_physical007">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ive_physical007">13</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ive_physical008">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ive_physical008">IVE_PHYSICAL    </DD_TABLE_ALIAS>
@@ -204,6 +241,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ive_physical008">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ive_physical008">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ive_physical008">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ive_physical008">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ive_physical008">Physical Count Entered?</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ive_physical008">11</DD_ATTR_TIND>
 		</RECORD>
@@ -217,6 +255,8 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ive_physical009">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ive_physical009">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ive_physical009">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CPGM id="ddm_table_cols.ive_physical009">/devel/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_MAXL id="ddm_table_cols.ive_physical009">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ive_physical009">Lotted or Serialized Item?</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ive_physical009">12</DD_ATTR_TIND>
 		</RECORD>
@@ -230,7 +270,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ive_physical010">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ive_physical010">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ive_physical010">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ive_physical010">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ive_physical010">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ive_physical010">14</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ive_physical011">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ive_physical011">IVE_PHYSICAL    </DD_TABLE_ALIAS>
@@ -242,9 +284,13 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ive_physical011">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ive_physical011">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ive_physical011">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_LABL id="ddm_table_cols.ive_physical011">Count Total</DD_ATTR_LABL>
+			<DD_ATTR_CPGM id="ddm_table_cols.ive_physical011">/devel/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CTLY id="ddm_table_cols.ive_physical011">-2</DD_ATTR_CTLY>
+			<DD_ATTR_LABL id="ddm_table_cols.ive_physical011">Physical Count</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_table_cols.ive_physical011">Phys Count</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_table_cols.ive_physical011">50</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ive_physical011">Count String</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.ive_physical011">9</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.ive_physical011">10</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ive_physical012">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ive_physical012">IVE_PHYSICAL    </DD_TABLE_ALIAS>
@@ -257,8 +303,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.ive_physical012">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.ive_physical012">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ive_physical012">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ive_physical012">8</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ive_physical012">Cutoff Date</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.ive_physical012">4</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.ive_physical012">7</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ive_physical013">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ive_physical013">IVE_PHYSICAL    </DD_TABLE_ALIAS>
@@ -272,8 +319,9 @@
 			<DD_CREATE_DATE id="ddm_table_cols.ive_physical013">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ive_physical013">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_LABL id="ddm_table_cols.ive_physical013">System Quantity</DD_ATTR_LABL>
+			<DD_ATTR_MAXL id="ddm_table_cols.ive_physical013">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ive_physical013">Freeze Quantity</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.ive_physical013">7</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.ive_physical013">8</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ive_physical014">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ive_physical014">IVE_PHYSICAL    </DD_TABLE_ALIAS>
@@ -286,8 +334,12 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.ive_physical014">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.ive_physical014">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ive_physical014">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLY id="ddm_table_cols.ive_physical014">+1</DD_ATTR_CTLY>
+			<DD_ATTR_LABL id="ddm_table_cols.ive_physical014">Count Total</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_table_cols.ive_physical014">Total</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_table_cols.ive_physical014">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ive_physical014">Actual Physical Count</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.ive_physical014">8</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.ive_physical014">9</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ive_physical015">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ive_physical015">IVE_PHYSICAL    </DD_TABLE_ALIAS>
@@ -300,7 +352,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.ive_physical015">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.ive_physical015">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ive_physical015">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ive_physical015">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ive_physical015">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ive_physical015">15</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_cmts">
@@ -312,6 +366,29 @@
 			<DD_COMM_TEXT id="ddm_column_cmts.ive_physicallotser_no001">When "Missing", do NOT adjust Actual Physical Count.        </DD_COMM_TEXT>
 		</RECORD>
 	</ALIAS>
+	<ALIAS id="ddm_column_cpro">
+		<ID id="ddm_column_cpro">DDM_COLUMN_CPRO</ID>
+		<RECORD id="ddm_column_cpro.ive_physicalpi_cyclecodeaval">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.ive_physicalpi_cyclecodeaval">IVE_PHYSICAL    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.ive_physicalpi_cyclecodeaval">PI_CYCLECODE    </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.ive_physicalpi_cyclecodeaval">AVAL</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_column_cpro.ive_physicalitem_idaval">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.ive_physicalitem_idaval">IVE_PHYSICAL    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.ive_physicalitem_idaval">ITEM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.ive_physicalitem_idaval">AVAL</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_column_cpro.ive_physicallotser_itembinp">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.ive_physicallotser_itembinp">IVE_PHYSICAL    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.ive_physicallotser_itembinp">LOTSER_ITEM     </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.ive_physicallotser_itembinp">BINP</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_column_cpro.ive_physicalcount_stringaval">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.ive_physicalcount_stringaval">IVE_PHYSICAL    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.ive_physicalcount_stringaval">COUNT_STRING    </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.ive_physicalcount_stringaval">AVAL</DD_ATTR_CPRO>
+		</RECORD>
+	</ALIAS>
 	<ALIAS id="ddm_column_opts">
 		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
 		<RECORD id="ddm_column_opts.ive_physicalfirm_ido">
@@ -319,10 +396,10 @@
 			<DD_DVAR_NAME id="ddm_column_opts.ive_physicalfirm_ido">FIRM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ive_physicalfirm_ido">O</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD id="ddm_column_opts.ive_physicallocationw">
-			<DD_TABLE_ALIAS id="ddm_column_opts.ive_physicallocationw">IVE_PHYSICAL    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.ive_physicallocationw">LOCATION        </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.ive_physicallocationw">W</DD_ATTR_OPTS>
+		<RECORD id="ddm_column_opts.ive_physicallocationc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ive_physicallocationc">IVE_PHYSICAL    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ive_physicallocationc">LOCATION        </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ive_physicallocationc">C</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.ive_physicalentered_flagw">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ive_physicalentered_flagw">IVE_PHYSICAL    </DD_TABLE_ALIAS>
@@ -333,6 +410,21 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.ive_physicallotser_itemw">IVE_PHYSICAL    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ive_physicallotser_itemw">LOTSER_ITEM     </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ive_physicallotser_itemw">W</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ive_physicalcutoff_datec">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ive_physicalcutoff_datec">IVE_PHYSICAL    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ive_physicalcutoff_datec">CUTOFF_DATE     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ive_physicalcutoff_datec">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ive_physicalfreeze_qtyc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ive_physicalfreeze_qtyc">IVE_PHYSICAL    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ive_physicalfreeze_qtyc">FREEZE_QTY      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ive_physicalfreeze_qtyc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ive_physicalact_phys_cntc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ive_physicalact_phys_cntc">IVE_PHYSICAL    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ive_physicalact_phys_cntc">ACT_PHYS_CNT    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ive_physicalact_phys_cntc">C</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">
@@ -366,9 +458,12 @@
 			<DD_DATA_LENGTH id="ddm_elements.warehouse_id">2</DD_DATA_LENGTH>
 			<DD_MASK_TYPE id="ddm_elements.warehouse_id"> </DD_MASK_TYPE>
 			<ASC_COMP_ID id="ddm_elements.warehouse_id">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.warehouse_id">AON</ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.warehouse_id">IV </ASC_PROD_ID>
+			<LOCALIZATION_EX id="ddm_elements.warehouse_id">N</LOCALIZATION_EX>
 			<DD_CREATE_DATE id="ddm_elements.warehouse_id">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.warehouse_id">20061107</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.warehouse_id">20090206</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.warehouse_id">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.warehouse_id">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.warehouse_id">E</DD_ATTR_CTYP>
 			<DD_ATTR_DCOL id="ddm_elements.warehouse_id">SHORT_NAME      </DD_ATTR_DCOL>
 			<DD_ATTR_DCOM id="ddm_elements.warehouse_id">            </DD_ATTR_DCOM>
@@ -377,29 +472,41 @@
 			<DD_ATTR_DTAB id="ddm_elements.warehouse_id">IVC_WHSECODE    </DD_ATTR_DTAB>
 			<DD_ATTR_LABL id="ddm_elements.warehouse_id">Warehouse ID</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.warehouse_id">Whse ID</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.warehouse_id">2</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.warehouse_id">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.warehouse_id">1</DD_ATTR_MINL>
 			<DD_ATTR_MSKI id="ddm_elements.warehouse_id">UU</DD_ATTR_MSKI>
+			<DD_ATTR_PADC id="ddm_elements.warehouse_id">20</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.warehouse_id">L</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.warehouse_id">0</DD_ATTR_PREC>
 			<DD_ATTR_PROM id="ddm_elements.warehouse_id">Enter a two-digit warehouse ID</DD_ATTR_PROM>
 		</RECORD>
-		<RECORD id="ddm_elements.cycle_code">
-			<DD_DATA_NAME id="ddm_elements.cycle_code">CYCLE_CODE      </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.cycle_code">Cycle Code</DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.cycle_code">C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.cycle_code">2</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.cycle_code"> </DD_MASK_TYPE>
-			<ASC_COMP_ID id="ddm_elements.cycle_code">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.cycle_code">AON</ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.cycle_code">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.cycle_code">20060428</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP id="ddm_elements.cycle_code">E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOL id="ddm_elements.cycle_code">CODE_DESC       </DD_ATTR_DCOL>
-			<DD_ATTR_DCOM id="ddm_elements.cycle_code">            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP id="ddm_elements.cycle_code">            </DD_ATTR_DEXP>
-			<DD_ATTR_DKEY id="ddm_elements.cycle_code">[+FIRM_ID]+@</DD_ATTR_DKEY>
-			<DD_ATTR_DTAB id="ddm_elements.cycle_code">GLC_CYCLECODE   </DD_ATTR_DTAB>
-			<DD_ATTR_LABL id="ddm_elements.cycle_code">Cycle Code</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.cycle_code">Code</DD_ATTR_LABS>
-			<DD_ATTR_MSKI id="ddm_elements.cycle_code">UU</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO id="ddm_elements.cycle_code">UU</DD_ATTR_MSKO>
+		<RECORD id="ddm_elements.pi_cyclecode">
+			<DD_DATA_NAME id="ddm_elements.pi_cyclecode">PI_CYCLECODE    </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.pi_cyclecode">Physical Inventory Cycle Code</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.pi_cyclecode">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.pi_cyclecode">2</DD_DATA_LENGTH>
+			<ASC_COMP_ID id="ddm_elements.pi_cyclecode">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.pi_cyclecode">IV </ASC_PROD_ID>
+			<LOCALIZATION_EX id="ddm_elements.pi_cyclecode">N</LOCALIZATION_EX>
+			<DD_CREATE_DATE id="ddm_elements.pi_cyclecode">20090130</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.pi_cyclecode">20090204</DD_LSTREV_DATE>
+			<DD_ATTR_BLNK id="ddm_elements.pi_cyclecode">N</DD_ATTR_BLNK>
+			<DD_ATTR_CTLW id="ddm_elements.pi_cyclecode">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.pi_cyclecode">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.pi_cyclecode">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOL id="ddm_elements.pi_cyclecode">DESCRIPTION</DD_ATTR_DCOL>
+			<DD_ATTR_DKEY id="ddm_elements.pi_cyclecode">[+FIRM_ID]+[WAREHOUSE_ID]+@</DD_ATTR_DKEY>
+			<DD_ATTR_DTAB id="ddm_elements.pi_cyclecode">IVC_PHYSCODE    </DD_ATTR_DTAB>
+			<DD_ATTR_LABL id="ddm_elements.pi_cyclecode">Physical Inventory Cycle Code</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.pi_cyclecode">Physical Inventory C</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.pi_cyclecode">2</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.pi_cyclecode">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.pi_cyclecode">1</DD_ATTR_MINL>
+			<DD_ATTR_PADC id="ddm_elements.pi_cyclecode">20</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.pi_cyclecode">L</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.pi_cyclecode">0</DD_ATTR_PREC>
+			<DD_ATTR_PROM id="ddm_elements.pi_cyclecode">Physical Inventory Cycle Code</DD_ATTR_PROM>
 		</RECORD>
 		<RECORD id="ddm_elements.location">
 			<DD_DATA_NAME id="ddm_elements.location">LOCATION        </DD_DATA_NAME>
@@ -516,23 +623,6 @@
 			<DD_ATTR_DEXP id="ddm_elements.lotser_item">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.lotser_item">Lotted or Serialized Item?</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.lotser_item">Lot/Ser Item?</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD id="ddm_elements.reserved_str">
-			<DD_DATA_NAME id="ddm_elements.reserved_str">RESERVED_STR    </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.reserved_str">Reserved For Addon Use        </DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.reserved_str">C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.reserved_str">1</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.reserved_str"> </DD_MASK_TYPE>
-			<DD_SYSTEM_REC id="ddm_elements.reserved_str">Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID id="ddm_elements.reserved_str">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.reserved_str">BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.reserved_str">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.reserved_str">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP id="ddm_elements.reserved_str">X</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM id="ddm_elements.reserved_str">            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP id="ddm_elements.reserved_str">            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL id="ddm_elements.reserved_str">Reserved For Addon Use</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.reserved_str">Res For Addon Use</DD_ATTR_LABS>
 		</RECORD>
 		<RECORD id="ddm_elements.count_string">
 			<DD_DATA_NAME id="ddm_elements.count_string">COUNT_STRING    </DD_DATA_NAME>

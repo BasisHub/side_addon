@@ -1,108 +1,104 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <GLR_ALLOCATE>
-	<ALIAS>
-		<ID>DDM_TABLES</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLR_ALLOCATE    </DD_TABLE_ALIAS>
-			<DD_ALIAS_DESC>Account Allocation Register</DD_ALIAS_DESC>
-			<DD_TABLE_PATH>[+GLDATA]</DD_TABLE_PATH>
-			<DD_ALIAS_TYPE>P</DD_ALIAS_TYPE>
-			<DD_SYSTEM_ID>GL</DD_SYSTEM_ID>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>GL </ASC_PROD_ID>
-			<ASC_LICENSE_ID>1816BA43EC860A4A25D451F50CB6634C</ASC_LICENSE_ID>
-			<DD_CREATE_DATE>20060418</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080604</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE>20080604</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME>110748</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM>[+DIR_CPP]glr_allocate_cpt.bbj</DD_ATTR_CPGM>
-			<DD_ATTR_FTYP>S</DD_ATTR_FTYP>
-			<DD_ATTR_PRUN>[+DIR_PGM]glr_allocate.aon</DD_ATTR_PRUN>
-			<DD_ATTR_WINT>Account Allocation Register</DD_ATTR_WINT>
+	<ALIAS id="ddm_tables">
+		<ID id="ddm_tables">DDM_TABLES</ID>
+		<RECORD id="ddm_tables.glr_allocate">
+			<DD_TABLE_ALIAS id="ddm_tables.glr_allocate">GLR_ALLOCATE    </DD_TABLE_ALIAS>
+			<DD_ALIAS_DESC id="ddm_tables.glr_allocate">Account Allocation Register</DD_ALIAS_DESC>
+			<DD_TABLE_PATH id="ddm_tables.glr_allocate">[+GLDATA]</DD_TABLE_PATH>
+			<DD_ALIAS_TYPE id="ddm_tables.glr_allocate">P</DD_ALIAS_TYPE>
+			<ASC_COMP_ID id="ddm_tables.glr_allocate">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_tables.glr_allocate">GL </ASC_PROD_ID>
+			<ASC_VERSION_ID id="ddm_tables.glr_allocate">8.0</ASC_VERSION_ID>
+			<ASC_LICENSE_ID id="ddm_tables.glr_allocate">1816BA43EC860A4A25D451F50CB6634C</ASC_LICENSE_ID>
+			<DD_CREATE_DATE id="ddm_tables.glr_allocate">20060418</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_tables.glr_allocate">20090325</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.glr_allocate">20090325</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.glr_allocate">090416</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.glr_allocate">[+DIR_CPP]glr_allocate_cpt.bbj</DD_ATTR_CPGM>
+			<DD_ATTR_FTYP id="ddm_tables.glr_allocate">S</DD_ATTR_FTYP>
+			<DD_ATTR_PRUN id="ddm_tables.glr_allocate">[+DIR_PGM]glr_allocate.aon</DD_ATTR_PRUN>
+			<DD_ATTR_WINT id="ddm_tables.glr_allocate">Account Allocation Register</DD_ATTR_WINT>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_CPRO</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLR_ALLOCATE    </DD_TABLE_ALIAS>
-			<DD_ATTR_CPRO>ARAR</DD_ATTR_CPRO>
+	<ALIAS id="ddm_table_cpro">
+		<ID id="ddm_table_cpro">DDM_TABLE_CPRO</ID>
+		<RECORD id="ddm_table_cpro.glr_allocatearar">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.glr_allocatearar">GLR_ALLOCATE    </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.glr_allocatearar">ARAR</DD_ATTR_CPRO>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLR_ALLOCATE    </DD_TABLE_ALIAS>
-			<DD_ATTR_CPRO>BSHO</DD_ATTR_CPRO>
-		</RECORD>
-	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_OPTS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLR_ALLOCATE    </DD_TABLE_ALIAS>
-			<DD_ATTR_OPTS>X</DD_ATTR_OPTS>
+		<RECORD id="ddm_table_cpro.glr_allocatebsho">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.glr_allocatebsho">GLR_ALLOCATE    </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.glr_allocatebsho">BSHO</DD_ATTR_CPRO>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_COLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLR_ALLOCATE    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>001</DD_SEQUENCE>
-			<DD_DATA_NAME>PERIOD          </DD_DATA_NAME>
-			<DD_DVAR_NAME>PERIOD          </DD_DVAR_NAME>
-			<DD_CREATE_DATE>20060418</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060418</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL>2</DD_ATTR_MAXL>
-			<DD_ATTR_TIND>1</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLR_ALLOCATE    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>002</DD_SEQUENCE>
-			<DD_DATA_NAME>YEAR            </DD_DATA_NAME>
-			<DD_DVAR_NAME>YEAR            </DD_DVAR_NAME>
-			<DD_CREATE_DATE>20060418</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060418</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL>4</DD_ATTR_MAXL>
-			<DD_ATTR_TIND>2</DD_ATTR_TIND>
+	<ALIAS id="ddm_table_opts">
+		<ID id="ddm_table_opts">DDM_TABLE_OPTS</ID>
+		<RECORD id="ddm_table_opts.glr_allocatex">
+			<DD_TABLE_ALIAS id="ddm_table_opts.glr_allocatex">GLR_ALLOCATE    </DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.glr_allocatex">X</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_ELEMENTS</ID>
-		<RECORD>
-			<DD_DATA_NAME>PERIOD          </DD_DATA_NAME>
-			<DD_DESCRIPTION>Period                        </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>2</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Period</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Prd</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>00</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>00</DD_ATTR_MSKO>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>R</DD_ATTR_PADJ>
+	<ALIAS id="ddm_table_cols">
+		<ID id="ddm_table_cols">DDM_TABLE_COLS</ID>
+		<RECORD id="ddm_table_cols.glr_allocate001">
+			<DD_TABLE_ALIAS id="ddm_table_cols.glr_allocate001">GLR_ALLOCATE    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.glr_allocate001">001</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.glr_allocate001">PERIOD          </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.glr_allocate001">PERIOD          </DD_DVAR_NAME>
+			<DD_CREATE_DATE id="ddm_table_cols.glr_allocate001">20060418</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.glr_allocate001">20060418</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.glr_allocate001">2</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.glr_allocate001">1</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>YEAR            </DD_DATA_NAME>
-			<DD_DESCRIPTION>Year</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>4</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>YYYY           </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060609</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_LABL>Year</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Year</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>0000</DD_ATTR_MSKI>
-			<DD_ATTR_STYP>3</DD_ATTR_STYP>
+		<RECORD id="ddm_table_cols.glr_allocate002">
+			<DD_TABLE_ALIAS id="ddm_table_cols.glr_allocate002">GLR_ALLOCATE    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.glr_allocate002">002</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.glr_allocate002">YEAR            </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.glr_allocate002">YEAR            </DD_DVAR_NAME>
+			<DD_CREATE_DATE id="ddm_table_cols.glr_allocate002">20060418</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.glr_allocate002">20060418</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.glr_allocate002">4</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.glr_allocate002">2</DD_ATTR_TIND>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_elements">
+		<ID id="ddm_elements">DDM_ELEMENTS</ID>
+		<RECORD id="ddm_elements.period">
+			<DD_DATA_NAME id="ddm_elements.period">PERIOD          </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.period">Period                        </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.period">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.period">2</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.period"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.period">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.period">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.period">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.period">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.period">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.period">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.period">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.period">Period</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.period">Prd</DD_ATTR_LABS>
+			<DD_ATTR_MSKI id="ddm_elements.period">00</DD_ATTR_MSKI>
+			<DD_ATTR_MSKO id="ddm_elements.period">00</DD_ATTR_MSKO>
+			<DD_ATTR_PADC id="ddm_elements.period">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.period">R</DD_ATTR_PADJ>
+		</RECORD>
+		<RECORD id="ddm_elements.year">
+			<DD_DATA_NAME id="ddm_elements.year">YEAR            </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.year">Year</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.year">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.year">4</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.year"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.year">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.year">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.year">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.year">20060609</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.year">E</DD_ATTR_CTYP>
+			<DD_ATTR_LABL id="ddm_elements.year">Year</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.year">Year</DD_ATTR_LABS>
+			<DD_ATTR_MSKI id="ddm_elements.year">0000</DD_ATTR_MSKI>
+			<DD_ATTR_STYP id="ddm_elements.year">3</DD_ATTR_STYP>
 		</RECORD>
 	</ALIAS>
 </GLR_ALLOCATE>

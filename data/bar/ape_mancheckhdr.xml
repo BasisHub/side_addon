@@ -7,19 +7,21 @@
 			<DD_ALIAS_DESC id="ddm_tables.ape_mancheckhdr">Manual Check Entry Header</DD_ALIAS_DESC>
 			<DD_FILE_NAME id="ddm_tables.ape_mancheckhdr">ape-02</DD_FILE_NAME>
 			<DD_TABLE_PATH id="ddm_tables.ape_mancheckhdr">[+APDATA]</DD_TABLE_PATH>
-			<DD_ALIAS_TYPE id="ddm_tables.ape_mancheckhdr">K</DD_ALIAS_TYPE>
+			<DD_ALIAS_TYPE id="ddm_tables.ape_mancheckhdr">V</DD_ALIAS_TYPE>
+			<DD_KEY_LENGTH id="ddm_tables.ape_mancheckhdr">0</DD_KEY_LENGTH>
 			<DD_NBR_RECORD id="ddm_tables.ape_mancheckhdr">0</DD_NBR_RECORD>
-			<DD_RECORD_LEN id="ddm_tables.ape_mancheckhdr">84</DD_RECORD_LEN>
+			<DD_RECORD_LEN id="ddm_tables.ape_mancheckhdr">0</DD_RECORD_LEN>
 			<DD_SYSTEM_REC id="ddm_tables.ape_mancheckhdr">N</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_tables.ape_mancheckhdr">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.ape_mancheckhdr">AP </ASC_PROD_ID>
+			<ASC_VERSION_ID id="ddm_tables.ape_mancheckhdr">8.0</ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.ape_mancheckhdr">A0B7B345EE56D927E09A408E6C1DFFC4</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ape_mancheckhdr">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ape_mancheckhdr">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ape_mancheckhdr">20081209</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ape_mancheckhdr">20081209</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ape_mancheckhdr">142802</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.ape_mancheckhdr">/devel/aon/;</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.ape_mancheckhdr">20090325</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ape_mancheckhdr">20090325</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ape_mancheckhdr">090414</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.ape_mancheckhdr">/dev/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ape_mancheckhdr">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.ape_mancheckhdr">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.ape_mancheckhdr">Manual Check Entry Header</DD_ATTR_WINT>
@@ -68,6 +70,10 @@
 		<RECORD id="ddm_table_cpro.ape_mancheckhdrbsho">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.ape_mancheckhdrbsho">APE_MANCHECKHDR </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.ape_mancheckhdrbsho">BSHO</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_table_cpro.ape_mancheckhdrbwri">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.ape_mancheckhdrbwri">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.ape_mancheckhdrbwri">BWRI</DD_ATTR_CPRO>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_dtld">
@@ -215,7 +221,7 @@
 			<DD_ATTR_LABL id="ddm_table_cols.ape_mancheckhdr003">Check No</DD_ATTR_LABL>
 			<DD_ATTR_MINL id="ddm_table_cols.ape_mancheckhdr003">1</DD_ATTR_MINL>
 			<DD_ATTR_MAXL id="ddm_table_cols.ape_mancheckhdr003">7</DD_ATTR_MAXL>
-			<DD_ATTR_MINV id="ddm_table_cols.ape_mancheckhdr003">1</DD_ATTR_MINV>
+			<DD_ATTR_MINV id="ddm_table_cols.ape_mancheckhdr003">0000001</DD_ATTR_MINV>
 			<DD_ATTR_PROM id="ddm_table_cols.ape_mancheckhdr003">Check Number</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ape_mancheckhdr003">3</DD_ATTR_TIND>
 		</RECORD>
@@ -229,7 +235,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ape_mancheckhdr004">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ape_mancheckhdr004">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ape_mancheckhdr004">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.ape_mancheckhdr004">/devel/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ape_mancheckhdr004">/dev/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ape_mancheckhdr004">48</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ape_mancheckhdr004">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABL id="ddm_table_cols.ape_mancheckhdr004">Vendor</DD_ATTR_LABL>
@@ -248,7 +254,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ape_mancheckhdr005">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ape_mancheckhdr005">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ape_mancheckhdr005">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ape_mancheckhdr005">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ape_mancheckhdr005">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ape_mancheckhdr005">14</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ape_mancheckhdr006">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ape_mancheckhdr006">APE_MANCHECKHDR </DD_TABLE_ALIAS>
@@ -260,7 +268,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ape_mancheckhdr006">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ape_mancheckhdr006">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ape_mancheckhdr006">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.ape_mancheckhdr006">/devel/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ape_mancheckhdr006">/dev/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ape_mancheckhdr006">72</DD_ATTR_CTLW>
 			<DD_ATTR_DFLT id="ddm_table_cols.ape_mancheckhdr006">M</DD_ATTR_DFLT>
 			<DD_ATTR_LABL id="ddm_table_cols.ape_mancheckhdr006">Trans Type</DD_ATTR_LABL>
@@ -280,7 +288,7 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.ape_mancheckhdr007">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.ape_mancheckhdr007">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ape_mancheckhdr007">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.ape_mancheckhdr007">/devel/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ape_mancheckhdr007">/dev/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ape_mancheckhdr007">70</DD_ATTR_CTLW>
 			<DD_ATTR_DFLT id="ddm_table_cols.ape_mancheckhdr007">[+SYSTEM_DATE]</DD_ATTR_DFLT>
 			<DD_ATTR_MINL id="ddm_table_cols.ape_mancheckhdr007">1</DD_ATTR_MINL>
@@ -315,7 +323,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.ape_mancheckhdr009">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.ape_mancheckhdr009">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ape_mancheckhdr009">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ape_mancheckhdr009">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ape_mancheckhdr009">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ape_mancheckhdr009">15</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ape_mancheckhdr010">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ape_mancheckhdr010">APE_MANCHECKHDR </DD_TABLE_ALIAS>
@@ -328,7 +338,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.ape_mancheckhdr010">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.ape_mancheckhdr010">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ape_mancheckhdr010">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ape_mancheckhdr010">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ape_mancheckhdr010">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ape_mancheckhdr010">16</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ape_mancheckhdr011">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ape_mancheckhdr011">APE_MANCHECKHDR </DD_TABLE_ALIAS>
@@ -341,7 +353,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.ape_mancheckhdr011">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.ape_mancheckhdr011">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ape_mancheckhdr011">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ape_mancheckhdr011">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ape_mancheckhdr011">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ape_mancheckhdr011">17</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_disp">
@@ -469,6 +483,31 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.ape_mancheckhdrvendor_nameo">APE_MANCHECKHDR </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ape_mancheckhdrvendor_nameo">VENDOR_NAME     </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ape_mancheckhdrvendor_nameo">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ape_mancheckhdrdisp_tot_invc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ape_mancheckhdrdisp_tot_invc">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ape_mancheckhdrdisp_tot_invc">DISP_TOT_INV    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ape_mancheckhdrdisp_tot_invc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ape_mancheckhdrdisp_tot_discc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ape_mancheckhdrdisp_tot_discc">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ape_mancheckhdrdisp_tot_discc">DISP_TOT_DISC   </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ape_mancheckhdrdisp_tot_discc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ape_mancheckhdrdisp_tot_retenc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ape_mancheckhdrdisp_tot_retenc">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ape_mancheckhdrdisp_tot_retenc">DISP_TOT_RETEN  </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ape_mancheckhdrdisp_tot_retenc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ape_mancheckhdrdisp_tot_checkc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ape_mancheckhdrdisp_tot_checkc">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ape_mancheckhdrdisp_tot_checkc">DISP_TOT_CHECK  </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ape_mancheckhdrdisp_tot_checkc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ape_mancheckhdrcommentsc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ape_mancheckhdrcommentsc">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ape_mancheckhdrcommentsc">COMMENTS        </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ape_mancheckhdrcommentsc">C</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">
@@ -659,85 +698,6 @@
 			<DD_ATTR_DEXP id="ddm_elements.reserved_num">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.reserved_num">Reserved For Addon Use</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.reserved_num">Res For Addon Use</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD id="ddm_elements.reserved_num">
-			<DD_DATA_NAME id="ddm_elements.reserved_num">RESERVED_NUM    </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.reserved_num">Reserved For Addon Use        </DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.reserved_num">N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.reserved_num">1</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.reserved_num"> </DD_MASK_TYPE>
-			<DD_SYSTEM_REC id="ddm_elements.reserved_num">Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID id="ddm_elements.reserved_num">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.reserved_num">BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.reserved_num">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.reserved_num">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP id="ddm_elements.reserved_num">X</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM id="ddm_elements.reserved_num">            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP id="ddm_elements.reserved_num">            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL id="ddm_elements.reserved_num">Reserved For Addon Use</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.reserved_num">Res For Addon Use</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD id="ddm_elements.reserved_num">
-			<DD_DATA_NAME id="ddm_elements.reserved_num">RESERVED_NUM    </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.reserved_num">Reserved For Addon Use        </DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.reserved_num">N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.reserved_num">1</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.reserved_num"> </DD_MASK_TYPE>
-			<DD_SYSTEM_REC id="ddm_elements.reserved_num">Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID id="ddm_elements.reserved_num">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.reserved_num">BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.reserved_num">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.reserved_num">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP id="ddm_elements.reserved_num">X</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM id="ddm_elements.reserved_num">            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP id="ddm_elements.reserved_num">            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL id="ddm_elements.reserved_num">Reserved For Addon Use</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.reserved_num">Res For Addon Use</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD id="ddm_elements.balance_amt">
-			<DD_DATA_NAME id="ddm_elements.balance_amt">BALANCE_AMT     </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.balance_amt">Balance Remaining</DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.balance_amt">N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.balance_amt">7</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.balance_amt">A</DD_MASK_TYPE>
-			<DD_SYSTEM_REC id="ddm_elements.balance_amt">N</DD_SYSTEM_REC>
-			<ASC_COMP_ID id="ddm_elements.balance_amt">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.balance_amt">AR </ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.balance_amt">20070112</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.balance_amt">20070112</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP id="ddm_elements.balance_amt">N</DD_ATTR_CTYP>
-			<DD_ATTR_LABL id="ddm_elements.balance_amt">Balance Remaining</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.balance_amt">Balance Remaining</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD id="ddm_elements.balance_amt">
-			<DD_DATA_NAME id="ddm_elements.balance_amt">BALANCE_AMT     </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.balance_amt">Balance Remaining</DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.balance_amt">N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.balance_amt">7</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.balance_amt">A</DD_MASK_TYPE>
-			<DD_SYSTEM_REC id="ddm_elements.balance_amt">N</DD_SYSTEM_REC>
-			<ASC_COMP_ID id="ddm_elements.balance_amt">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.balance_amt">AR </ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.balance_amt">20070112</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.balance_amt">20070112</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP id="ddm_elements.balance_amt">N</DD_ATTR_CTYP>
-			<DD_ATTR_LABL id="ddm_elements.balance_amt">Balance Remaining</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.balance_amt">Balance Remaining</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD id="ddm_elements.balance_amt">
-			<DD_DATA_NAME id="ddm_elements.balance_amt">BALANCE_AMT     </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.balance_amt">Balance Remaining</DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.balance_amt">N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.balance_amt">7</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.balance_amt">A</DD_MASK_TYPE>
-			<DD_SYSTEM_REC id="ddm_elements.balance_amt">N</DD_SYSTEM_REC>
-			<ASC_COMP_ID id="ddm_elements.balance_amt">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.balance_amt">AR </ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.balance_amt">20070112</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.balance_amt">20070112</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP id="ddm_elements.balance_amt">N</DD_ATTR_CTYP>
-			<DD_ATTR_LABL id="ddm_elements.balance_amt">Balance Remaining</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.balance_amt">Balance Remaining</DD_ATTR_LABS>
 		</RECORD>
 		<RECORD id="ddm_elements.balance_amt">
 			<DD_DATA_NAME id="ddm_elements.balance_amt">BALANCE_AMT     </DD_DATA_NAME>

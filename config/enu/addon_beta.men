@@ -165,9 +165,9 @@ Inventory Control^IVMENU^M^^^im_menua_inventory.png^N^01007514^IV
 	Inventory Transaction Entry^IVE_TRANSHDR^T^IVE_TRANSHDR^^im_menui_table.png^N^01007514^IV^
 	Inventory Transaction Register^IVR_TRANSREG^A^^[+DIR_PGM]ivr_transregister.aon^im_menui_report.png^N^01007514^IV^
 	Inventory Transfers Entry^IVE_TRANSFER^T^IVE_TRANSFER^^im_menui_table.png^N^01007514^IV^
-	Inventory Transfer Register^IVR_GA^T^^ivr_ga.aon^im_menui_report.png^N^01007514^IV
+	Inventory Transfer Register^IVR_TRANSFER^A^^ivr_transferreg.aon^im_menui_report.png^N^01007514^IV^
 	Cost Changes^IVMENU_COSTS^G^^^im_menua_miscellaneous.png^N^01007514^IV
-		Cost Change Entry^IVE_GA^T^^ive_ga.aon^im_menui_table.png^N^01007514^IV
+		Cost Change Entry^IVE_COSTCHG^T^IVE_COSTCHG^ive_ga.aon^im_menui_table.png^N^01007514^IV^
 		Cost Change By Percentage Entry^IVE_JA^T^^ive_ja.aon^im_menui_table.png^N^01007514^IV
 		Cost Change Valuation Report^IVR_WA^T^^ivr_wa.aon^im_menui_report.png^N^01007514^IV
 		Cost Change Register^IVR_JA^T^^ivr_ja.aon^im_menui_report.png^N^01007514^IV
@@ -201,9 +201,6 @@ Inventory Control^IVMENU^M^^^im_menua_inventory.png^N^01007514^IV
 		Item Detail Listing^IVR_ITEMDETAIL^T^IVR_ITEMDETAIL^^im_menui_report.png^N^01007514^IV
 		Inventory Item Labels^IVR_ITEMLABELS^T^IVR_ITEMLABELS^ivr_1a.aon^im_menui_report.png^N^01007514^IV
 	Lotted/Serialized Inventory^IVMENU_LOTS^G^^^im_menua_miscellaneous.png^N^01007514^IV
-		History By Item Inquiry^IVM_FA^T^^ivm_fa.aon^im_menui_table.png^N^01007514^IV
-		History By Customer Inquiry^IVM_IA^T^^ivm_ia.aon^im_menui_table.png^N^01007514^IV
-		History By Vendor Inquiry^IVM_JA^T^^ivm_ja.aon^im_menui_table.png^N^01007514^IV
 		Lot/Serial Number History By Item Report^IVR_LSTRANHIST^T^IVR_LSTRANHIST^^im_menui_report.png^N^01007514^IV
 		Lot/Serial Number History By Customer^IVR_LOTCUSTHIST^T^IVR_LOTCUSTHIST^^im_menui_report.png^N^01007514^IV
 		Lot/Serial Number History By Vendor^IVR_LOTVENDHIST^T^IVR_LOTVENDHIST^^im_menui_report.png^N^01007514^IV

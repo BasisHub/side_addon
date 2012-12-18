@@ -7,19 +7,20 @@
 			<DD_ALIAS_DESC id="ddm_tables.poe_pohdr">Purchase Order Header</DD_ALIAS_DESC>
 			<DD_FILE_NAME id="ddm_tables.poe_pohdr">poe-02</DD_FILE_NAME>
 			<DD_TABLE_PATH id="ddm_tables.poe_pohdr">[+PODATA]</DD_TABLE_PATH>
-			<DD_ALIAS_TYPE id="ddm_tables.poe_pohdr">X</DD_ALIAS_TYPE>
+			<DD_ALIAS_TYPE id="ddm_tables.poe_pohdr">V</DD_ALIAS_TYPE>
 			<DD_KEY_LENGTH id="ddm_tables.poe_pohdr">0</DD_KEY_LENGTH>
 			<DD_NBR_RECORD id="ddm_tables.poe_pohdr">0</DD_NBR_RECORD>
-			<DD_RECORD_LEN id="ddm_tables.poe_pohdr">475</DD_RECORD_LEN>
+			<DD_RECORD_LEN id="ddm_tables.poe_pohdr">0</DD_RECORD_LEN>
 			<DD_SYSTEM_REC id="ddm_tables.poe_pohdr">N</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_tables.poe_pohdr">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.poe_pohdr">PO </ASC_PROD_ID>
+			<ASC_VERSION_ID id="ddm_tables.poe_pohdr">8.0</ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.poe_pohdr">905D4E0E43FB95DBA5F14FEBF11CCE58</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.poe_pohdr">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.poe_pohdr">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.poe_pohdr">20081121</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.poe_pohdr">20081120</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.poe_pohdr">153254</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.poe_pohdr">20090325</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.poe_pohdr">20090325</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.poe_pohdr">090424</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.poe_pohdr">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.poe_pohdr">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.poe_pohdr">zzzz</DD_ATTR_SLEV>
@@ -39,6 +40,13 @@
 		<RECORD id="ddm_table_cpro.poe_pohdrbsho">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.poe_pohdrbsho">POE_POHDR       </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.poe_pohdrbsho">BSHO</DD_ATTR_CPRO>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_dtld">
+		<ID id="ddm_table_dtld">DDM_TABLE_DTLD</ID>
+		<RECORD id="ddm_table_dtld.poe_pohdrpoe_podet">
+			<DD_TABLE_ALIAS id="ddm_table_dtld.poe_pohdrpoe_podet">POE_POHDR       </DD_TABLE_ALIAS>
+			<DD_ATTR_DTLD id="ddm_table_dtld.poe_pohdrpoe_podet">POE_PODET       </DD_ATTR_DTLD>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_dtlg">
@@ -83,7 +91,7 @@
 		<RECORD id="ddm_table_tpls.poe_pohdr">
 			<DD_TABLE_ALIAS id="ddm_table_tpls.poe_pohdr">POE_POHDR       </DD_TABLE_ALIAS>
 			<DD_FILE_NAME id="ddm_table_tpls.poe_pohdr">poe-02</DD_FILE_NAME>
-			<DD_TABLE_TPL id="ddm_table_tpls.poe_pohdr">firm_id:c(2),po_no:c(7*),vendor_id:c(6),warehouse_id:c(2),purch_addr:c(2),reserved_str:c(30),hold_flag:c(1),reserved_str_02:c(1),ap_terms_code:c(2),reserved_str_03:c(4),po_frt_terms:c(15),ap_ship_via:c(15),acknowledge:c(20),fob:c(15),po_msg_code:c(3),req_no:c(7),reserved_str_04:c(42),ord_date:c(8),promise_date:c(8),not_b4_date:c(8),reqd_date:c(8),recpt_date:c(8*),dropship:c(1),customer_id:c(6),order_no:c(7),shipto_no:c(6),ds_name:c(30*),ds_addr_line_1:c(24),ds_addr_line_2:c(24),ds_addr_line_3:c(24),ds_addr_line_4:c(24),ds_city:c(22),ds_state_id:c(15),ds_zip_code:c(9*),reserved_str_05:c(1*),dealer_str:c(1*),reserved_num_01:n(1*),reserved_num_02:n(1*),reserved_num_03:n(1*),reserved_num_04:n(1*),reserved_num_05:n(1*),reserved_num_06:n(1*),dealer_num_01:n(1*),dealer_num_02:n(1*),dealer_num_03:n(1*)</DD_TABLE_TPL>
+			<DD_TABLE_TPL id="ddm_table_tpls.poe_pohdr">firm_id:c(2),po_no:c(7*),vendor_id:c(6),warehouse_id:c(2),purch_addr:c(2),reserved_str:c(30),hold_flag:c(1),reserved_str_02:c(1),ap_terms_code:c(2),reserved_str_03:c(4),po_frt_terms:c(15),ap_ship_via:c(15),acknowledge:c(20),fob:c(15),po_msg_code:c(3),req_no:c(7),reserved_str_04:c(42),ord_date:c(8),promise_date:c(8),not_b4_date:c(8),reqd_date:c(8),recpt_date:c(8*),dropship:c(1),customer_id:c(6),order_no:c(7),shipto_no:c(6),ds_name:c(30),ds_addr_line_1:c(24),ds_addr_line_2:c(24),ds_addr_line_3:c(24),ds_addr_line_4:c(24),ds_city:c(22),ds_state_cd:c(2),ds_zip_code:c(9*),reserved_str_05:c(1*),dealer_str:c(1*),reserved_num_01:n(1*),reserved_num_02:n(1*),reserved_num_03:n(1*),reserved_num_04:n(1*),reserved_num_05:n(1*),reserved_num_06:n(1*),dealer_num_01:n(1*),dealer_num_02:n(1*),dealer_num_03:n(1*)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_keys">
@@ -164,7 +172,19 @@
 			<DD_TABLE_ALIAS id="ddm_key_segs.poe_pohdr0203">POE_POHDR       </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_key_segs.poe_pohdr0203">02</DD_KEY_NUMBER>
 			<DD_SEGMENT_SEQ id="ddm_key_segs.poe_pohdr0203">03</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL id="ddm_key_segs.poe_pohdr0203">PO_NO           </DD_SEGMENT_COL>
+			<DD_SEGMENT_COL id="ddm_key_segs.poe_pohdr0203">VENDOR_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.poe_pohdr0203">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.poe_pohdr0203">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.poe_pohdr0203">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.poe_pohdr0203">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.poe_pohdr0203">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.poe_pohdr0203">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.poe_pohdr0204">
+			<DD_TABLE_ALIAS id="ddm_key_segs.poe_pohdr0204">POE_POHDR       </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.poe_pohdr0204">02</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.poe_pohdr0204">04</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.poe_pohdr0204">PO_NO           </DD_SEGMENT_COL>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_cols">
@@ -209,8 +229,8 @@
 			<DD_COL_OCCURS id="ddm_table_cols.poe_pohdr003">0</DD_COL_OCCURS>
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_pohdr003">N</DD_FIELD_DELIM>
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_pohdr003">0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE id="ddm_table_cols.poe_pohdr003">20081014</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_table_cols.poe_pohdr003">20081014</DD_LSTREV_DATE>
+			<DD_CREATE_DATE id="ddm_table_cols.poe_pohdr003">20090302</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.poe_pohdr003">20090302</DD_LSTREV_DATE>
 			<DD_ATTR_COLW id="ddm_table_cols.poe_pohdr003">0</DD_ATTR_COLW>
 			<DD_ATTR_CTLX id="ddm_table_cols.poe_pohdr003">0</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_cols.poe_pohdr003">0</DD_ATTR_CTLY>
@@ -218,7 +238,7 @@
 			<DD_ATTR_CTLH id="ddm_table_cols.poe_pohdr003">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.poe_pohdr003">N</DD_ATTR_MLAN>
 			<DD_ATTR_MAXL id="ddm_table_cols.poe_pohdr003">6</DD_ATTR_MAXL>
-			<DD_ATTR_TIND id="ddm_table_cols.poe_pohdr003">4</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_pohdr003">50</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_pohdr004">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_pohdr004">POE_POHDR       </DD_TABLE_ALIAS>
@@ -233,6 +253,8 @@
 			<DD_ATTR_ABLC id="ddm_table_cols.poe_pohdr004">POE_POHDR.PO_NO</DD_ATTR_ABLC>
 			<DD_ATTR_ABLV id="ddm_table_cols.poe_pohdr004">!</DD_ATTR_ABLV>
 			<DD_ATTR_CPGM id="ddm_table_cols.poe_pohdr004">/apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CTLW id="ddm_table_cols.poe_pohdr004">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.poe_pohdr004">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.poe_pohdr004">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_pohdr004">Warehouse ID</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.poe_pohdr004">32</DD_ATTR_TIND>
@@ -268,7 +290,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_pohdr006">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_pohdr006">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_pohdr006">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_pohdr006">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_pohdr006">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_pohdr006">51</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_pohdr007">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_pohdr007">POE_POHDR       </DD_TABLE_ALIAS>
@@ -294,7 +318,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_pohdr008">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_pohdr008">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_pohdr008">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_pohdr008">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_pohdr008">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_pohdr008">52</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_pohdr009">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_pohdr009">POE_POHDR       </DD_TABLE_ALIAS>
@@ -323,7 +349,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_pohdr010">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_pohdr010">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_pohdr010">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_pohdr010">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_pohdr010">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_pohdr010">53</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_pohdr011">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_pohdr011">POE_POHDR       </DD_TABLE_ALIAS>
@@ -436,7 +464,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_pohdr017">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_pohdr017">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_pohdr017">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_pohdr017">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_pohdr017">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_pohdr017">54</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_pohdr018">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_pohdr018">POE_POHDR       </DD_TABLE_ALIAS>
@@ -551,8 +581,8 @@
 			<DD_COL_OCCURS id="ddm_table_cols.poe_pohdr024">0</DD_COL_OCCURS>
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_pohdr024">N</DD_FIELD_DELIM>
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_pohdr024">0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE id="ddm_table_cols.poe_pohdr024">20081014</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_table_cols.poe_pohdr024">20081014</DD_LSTREV_DATE>
+			<DD_CREATE_DATE id="ddm_table_cols.poe_pohdr024">20090302</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.poe_pohdr024">20090302</DD_LSTREV_DATE>
 			<DD_ATTR_COLW id="ddm_table_cols.poe_pohdr024">0</DD_ATTR_COLW>
 			<DD_ATTR_CTLX id="ddm_table_cols.poe_pohdr024">0</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_cols.poe_pohdr024">0</DD_ATTR_CTLY>
@@ -560,7 +590,7 @@
 			<DD_ATTR_CTLH id="ddm_table_cols.poe_pohdr024">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.poe_pohdr024">N</DD_ATTR_MLAN>
 			<DD_ATTR_MAXL id="ddm_table_cols.poe_pohdr024">6</DD_ATTR_MAXL>
-			<DD_ATTR_TIND id="ddm_table_cols.poe_pohdr024">39</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_pohdr024">55</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_pohdr025">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_pohdr025">POE_POHDR       </DD_TABLE_ALIAS>
@@ -571,8 +601,8 @@
 			<DD_COL_OCCURS id="ddm_table_cols.poe_pohdr025">0</DD_COL_OCCURS>
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_pohdr025">N</DD_FIELD_DELIM>
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_pohdr025">0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE id="ddm_table_cols.poe_pohdr025">20081014</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_table_cols.poe_pohdr025">20081014</DD_LSTREV_DATE>
+			<DD_CREATE_DATE id="ddm_table_cols.poe_pohdr025">20090302</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.poe_pohdr025">20090302</DD_LSTREV_DATE>
 			<DD_ATTR_COLW id="ddm_table_cols.poe_pohdr025">0</DD_ATTR_COLW>
 			<DD_ATTR_CTLX id="ddm_table_cols.poe_pohdr025">0</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_cols.poe_pohdr025">0</DD_ATTR_CTLY>
@@ -580,7 +610,7 @@
 			<DD_ATTR_CTLH id="ddm_table_cols.poe_pohdr025">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.poe_pohdr025">N</DD_ATTR_MLAN>
 			<DD_ATTR_MAXL id="ddm_table_cols.poe_pohdr025">7</DD_ATTR_MAXL>
-			<DD_ATTR_TIND id="ddm_table_cols.poe_pohdr025">40</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_pohdr025">56</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_pohdr026">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_pohdr026">POE_POHDR       </DD_TABLE_ALIAS>
@@ -591,8 +621,8 @@
 			<DD_COL_OCCURS id="ddm_table_cols.poe_pohdr026">0</DD_COL_OCCURS>
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_pohdr026">N</DD_FIELD_DELIM>
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_pohdr026">0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE id="ddm_table_cols.poe_pohdr026">20081014</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_table_cols.poe_pohdr026">20081014</DD_LSTREV_DATE>
+			<DD_CREATE_DATE id="ddm_table_cols.poe_pohdr026">20090302</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.poe_pohdr026">20090302</DD_LSTREV_DATE>
 			<DD_ATTR_COLW id="ddm_table_cols.poe_pohdr026">0</DD_ATTR_COLW>
 			<DD_ATTR_CTLX id="ddm_table_cols.poe_pohdr026">0</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_cols.poe_pohdr026">0</DD_ATTR_CTLY>
@@ -600,7 +630,7 @@
 			<DD_ATTR_CTLH id="ddm_table_cols.poe_pohdr026">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.poe_pohdr026">N</DD_ATTR_MLAN>
 			<DD_ATTR_MAXL id="ddm_table_cols.poe_pohdr026">6</DD_ATTR_MAXL>
-			<DD_ATTR_TIND id="ddm_table_cols.poe_pohdr026">41</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_pohdr026">57</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_pohdr027">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_pohdr027">POE_POHDR       </DD_TABLE_ALIAS>
@@ -609,7 +639,7 @@
 			<DD_DVAR_NAME id="ddm_table_cols.poe_pohdr027">DS_NAME         </DD_DVAR_NAME>
 			<DD_COL_REPEATS id="ddm_table_cols.poe_pohdr027">0</DD_COL_REPEATS>
 			<DD_COL_OCCURS id="ddm_table_cols.poe_pohdr027">0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM id="ddm_table_cols.poe_pohdr027">Y</DD_FIELD_DELIM>
+			<DD_FIELD_DELIM id="ddm_table_cols.poe_pohdr027">N</DD_FIELD_DELIM>
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_pohdr027">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_pohdr027">20081015</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_pohdr027">20081015</DD_LSTREV_DATE>
@@ -725,8 +755,8 @@
 		<RECORD id="ddm_table_cols.poe_pohdr033">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_pohdr033">POE_POHDR       </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_cols.poe_pohdr033">033</DD_SEQUENCE>
-			<DD_DATA_NAME id="ddm_table_cols.poe_pohdr033">STATE_ID        </DD_DATA_NAME>
-			<DD_DVAR_NAME id="ddm_table_cols.poe_pohdr033">DS_STATE_ID     </DD_DVAR_NAME>
+			<DD_DATA_NAME id="ddm_table_cols.poe_pohdr033">STATE_CODE      </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.poe_pohdr033">DS_STATE_CD     </DD_DVAR_NAME>
 			<DD_COL_REPEATS id="ddm_table_cols.poe_pohdr033">0</DD_COL_REPEATS>
 			<DD_COL_OCCURS id="ddm_table_cols.poe_pohdr033">0</DD_COL_OCCURS>
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_pohdr033">N</DD_FIELD_DELIM>
@@ -739,7 +769,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.poe_pohdr033">35</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.poe_pohdr033">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.poe_pohdr033">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.poe_pohdr033">15</DD_ATTR_MAXL>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_pohdr033">2</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.poe_pohdr033">48</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_pohdr034">
@@ -773,7 +803,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_pohdr035">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_pohdr035">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_pohdr035">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_pohdr035">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_pohdr035">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_pohdr035">58</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_pohdr036">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_pohdr036">POE_POHDR       </DD_TABLE_ALIAS>
@@ -786,7 +818,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_pohdr036">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_pohdr036">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_pohdr036">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_pohdr036">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_pohdr036">Reserved For Dealer Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_pohdr036">59</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_pohdr037">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_pohdr037">POE_POHDR       </DD_TABLE_ALIAS>
@@ -799,7 +833,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_pohdr037">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_pohdr037">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_pohdr037">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_pohdr037">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_pohdr037">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_pohdr037">60</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_pohdr038">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_pohdr038">POE_POHDR       </DD_TABLE_ALIAS>
@@ -812,7 +848,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_pohdr038">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_pohdr038">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_pohdr038">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.poe_pohdr038">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_pohdr038">Reserved For Dealer Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.poe_pohdr038">61</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_disp">
@@ -1138,20 +1176,105 @@
 			<DD_DVAR_NAME id="ddm_column_opts.poe_pohdrds_cityc">DS_CITY         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.poe_pohdrds_cityc">C</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD id="ddm_column_opts.poe_pohdrds_state_idc">
-			<DD_TABLE_ALIAS id="ddm_column_opts.poe_pohdrds_state_idc">POE_POHDR       </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.poe_pohdrds_state_idc">DS_STATE_ID     </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.poe_pohdrds_state_idc">C</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD id="ddm_column_opts.poe_pohdrds_state_idl">
-			<DD_TABLE_ALIAS id="ddm_column_opts.poe_pohdrds_state_idl">POE_POHDR       </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.poe_pohdrds_state_idl">DS_STATE_ID     </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.poe_pohdrds_state_idl">L</DD_ATTR_OPTS>
-		</RECORD>
 		<RECORD id="ddm_column_opts.poe_pohdrds_zip_codec">
 			<DD_TABLE_ALIAS id="ddm_column_opts.poe_pohdrds_zip_codec">POE_POHDR       </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.poe_pohdrds_zip_codec">DS_ZIP_CODE     </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.poe_pohdrds_zip_codec">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.poe_pohdrv_addr1c">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poe_pohdrv_addr1c">POE_POHDR       </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poe_pohdrv_addr1c">V_ADDR1         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poe_pohdrv_addr1c">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.poe_pohdrv_addr2c">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poe_pohdrv_addr2c">POE_POHDR       </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poe_pohdrv_addr2c">V_ADDR2         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poe_pohdrv_addr2c">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.poe_pohdrv_cityc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poe_pohdrv_cityc">POE_POHDR       </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poe_pohdrv_cityc">V_CITY          </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poe_pohdrv_cityc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.poe_pohdrv_statec">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poe_pohdrv_statec">POE_POHDR       </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poe_pohdrv_statec">V_STATE         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poe_pohdrv_statec">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.poe_pohdrv_zipc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poe_pohdrv_zipc">POE_POHDR       </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poe_pohdrv_zipc">V_ZIP           </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poe_pohdrv_zipc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.poe_pohdrpa_addr1c">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poe_pohdrpa_addr1c">POE_POHDR       </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poe_pohdrpa_addr1c">PA_ADDR1        </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poe_pohdrpa_addr1c">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.poe_pohdrpa_addr2c">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poe_pohdrpa_addr2c">POE_POHDR       </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poe_pohdrpa_addr2c">PA_ADDR2        </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poe_pohdrpa_addr2c">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.poe_pohdrpa_cityc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poe_pohdrpa_cityc">POE_POHDR       </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poe_pohdrpa_cityc">PA_CITY         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poe_pohdrpa_cityc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.poe_pohdrpa_statec">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poe_pohdrpa_statec">POE_POHDR       </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poe_pohdrpa_statec">PA_STATE        </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poe_pohdrpa_statec">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.poe_pohdrpa_zipc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poe_pohdrpa_zipc">POE_POHDR       </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poe_pohdrpa_zipc">PA_ZIP          </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poe_pohdrpa_zipc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.poe_pohdrw_addr1c">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poe_pohdrw_addr1c">POE_POHDR       </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poe_pohdrw_addr1c">W_ADDR1         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poe_pohdrw_addr1c">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.poe_pohdrw_addr2c">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poe_pohdrw_addr2c">POE_POHDR       </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poe_pohdrw_addr2c">W_ADDR2         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poe_pohdrw_addr2c">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.poe_pohdrw_cityc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poe_pohdrw_cityc">POE_POHDR       </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poe_pohdrw_cityc">W_CITY          </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poe_pohdrw_cityc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.poe_pohdrw_statec">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poe_pohdrw_statec">POE_POHDR       </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poe_pohdrw_statec">W_STATE         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poe_pohdrw_statec">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.poe_pohdrw_zipc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poe_pohdrw_zipc">POE_POHDR       </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poe_pohdrw_zipc">W_ZIP           </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poe_pohdrw_zipc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.poe_pohdrorder_totalc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poe_pohdrorder_totalc">POE_POHDR       </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poe_pohdrorder_totalc">ORDER_TOTAL     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poe_pohdrorder_totalc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.poe_pohdrv_contactc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poe_pohdrv_contactc">POE_POHDR       </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poe_pohdrv_contactc">V_CONTACT       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poe_pohdrv_contactc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.poe_pohdrv_phonec">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poe_pohdrv_phonec">POE_POHDR       </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poe_pohdrv_phonec">V_PHONE         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poe_pohdrv_phonec">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.poe_pohdrv_faxc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poe_pohdrv_faxc">POE_POHDR       </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poe_pohdrv_faxc">V_FAX           </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poe_pohdrv_faxc">C</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">
@@ -1235,9 +1358,12 @@
 			<DD_DATA_LENGTH id="ddm_elements.warehouse_id">2</DD_DATA_LENGTH>
 			<DD_MASK_TYPE id="ddm_elements.warehouse_id"> </DD_MASK_TYPE>
 			<ASC_COMP_ID id="ddm_elements.warehouse_id">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.warehouse_id">AON</ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.warehouse_id">IV </ASC_PROD_ID>
+			<LOCALIZATION_EX id="ddm_elements.warehouse_id">N</LOCALIZATION_EX>
 			<DD_CREATE_DATE id="ddm_elements.warehouse_id">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.warehouse_id">20061107</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.warehouse_id">20090206</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.warehouse_id">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.warehouse_id">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.warehouse_id">E</DD_ATTR_CTYP>
 			<DD_ATTR_DCOL id="ddm_elements.warehouse_id">SHORT_NAME      </DD_ATTR_DCOL>
 			<DD_ATTR_DCOM id="ddm_elements.warehouse_id">            </DD_ATTR_DCOM>
@@ -1246,7 +1372,13 @@
 			<DD_ATTR_DTAB id="ddm_elements.warehouse_id">IVC_WHSECODE    </DD_ATTR_DTAB>
 			<DD_ATTR_LABL id="ddm_elements.warehouse_id">Warehouse ID</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.warehouse_id">Whse ID</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.warehouse_id">2</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.warehouse_id">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.warehouse_id">1</DD_ATTR_MINL>
 			<DD_ATTR_MSKI id="ddm_elements.warehouse_id">UU</DD_ATTR_MSKI>
+			<DD_ATTR_PADC id="ddm_elements.warehouse_id">20</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.warehouse_id">L</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.warehouse_id">0</DD_ATTR_PREC>
 			<DD_ATTR_PROM id="ddm_elements.warehouse_id">Enter a two-digit warehouse ID</DD_ATTR_PROM>
 		</RECORD>
 		<RECORD id="ddm_elements.purch_addr">
@@ -1256,10 +1388,10 @@
 			<DD_DATA_LENGTH id="ddm_elements.purch_addr">2</DD_DATA_LENGTH>
 			<DD_MASK_TYPE id="ddm_elements.purch_addr"> </DD_MASK_TYPE>
 			<ASC_COMP_ID id="ddm_elements.purch_addr">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.purch_addr">AP </ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.purch_addr">PO </ASC_PROD_ID>
 			<LOCALIZATION_EX id="ddm_elements.purch_addr">N</LOCALIZATION_EX>
 			<DD_CREATE_DATE id="ddm_elements.purch_addr">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.purch_addr">20081028</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.purch_addr">20090323</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_elements.purch_addr">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_elements.purch_addr">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.purch_addr">E</DD_ATTR_CTYP>
@@ -1312,23 +1444,6 @@
 			<DD_ATTR_LABL id="ddm_elements.hold_flag">Hold For Manual Release?</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.hold_flag">Hold For Man Rel?</DD_ATTR_LABS>
 		</RECORD>
-		<RECORD id="ddm_elements.reserved_str">
-			<DD_DATA_NAME id="ddm_elements.reserved_str">RESERVED_STR    </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.reserved_str">Reserved For Addon Use        </DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.reserved_str">C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.reserved_str">1</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.reserved_str"> </DD_MASK_TYPE>
-			<DD_SYSTEM_REC id="ddm_elements.reserved_str">Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID id="ddm_elements.reserved_str">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.reserved_str">BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.reserved_str">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.reserved_str">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP id="ddm_elements.reserved_str">X</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM id="ddm_elements.reserved_str">            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP id="ddm_elements.reserved_str">            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL id="ddm_elements.reserved_str">Reserved For Addon Use</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.reserved_str">Res For Addon Use</DD_ATTR_LABS>
-		</RECORD>
 		<RECORD id="ddm_elements.ap_terms_code">
 			<DD_DATA_NAME id="ddm_elements.ap_terms_code">AP_TERMS_CODE   </DD_DATA_NAME>
 			<DD_DESCRIPTION id="ddm_elements.ap_terms_code">AP Terms Code</DD_DESCRIPTION>
@@ -1350,23 +1465,6 @@
 			<DD_ATTR_MSKI id="ddm_elements.ap_terms_code">UU</DD_ATTR_MSKI>
 			<DD_ATTR_PADC id="ddm_elements.ap_terms_code">20</DD_ATTR_PADC>
 			<DD_ATTR_PADJ id="ddm_elements.ap_terms_code">L</DD_ATTR_PADJ>
-		</RECORD>
-		<RECORD id="ddm_elements.reserved_str">
-			<DD_DATA_NAME id="ddm_elements.reserved_str">RESERVED_STR    </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.reserved_str">Reserved For Addon Use        </DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.reserved_str">C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.reserved_str">1</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.reserved_str"> </DD_MASK_TYPE>
-			<DD_SYSTEM_REC id="ddm_elements.reserved_str">Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID id="ddm_elements.reserved_str">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.reserved_str">BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.reserved_str">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.reserved_str">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP id="ddm_elements.reserved_str">X</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM id="ddm_elements.reserved_str">            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP id="ddm_elements.reserved_str">            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL id="ddm_elements.reserved_str">Reserved For Addon Use</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.reserved_str">Res For Addon Use</DD_ATTR_LABS>
 		</RECORD>
 		<RECORD id="ddm_elements.po_frt_terms">
 			<DD_DATA_NAME id="ddm_elements.po_frt_terms">PO_FRT_TERMS    </DD_DATA_NAME>
@@ -1480,23 +1578,6 @@
 			<DD_ATTR_MSKO id="ddm_elements.req_no">0000000</DD_ATTR_MSKO>
 			<DD_ATTR_PADC id="ddm_elements.req_no">30</DD_ATTR_PADC>
 			<DD_ATTR_PADJ id="ddm_elements.req_no">R</DD_ATTR_PADJ>
-		</RECORD>
-		<RECORD id="ddm_elements.reserved_str">
-			<DD_DATA_NAME id="ddm_elements.reserved_str">RESERVED_STR    </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.reserved_str">Reserved For Addon Use        </DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.reserved_str">C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.reserved_str">1</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.reserved_str"> </DD_MASK_TYPE>
-			<DD_SYSTEM_REC id="ddm_elements.reserved_str">Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID id="ddm_elements.reserved_str">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.reserved_str">BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.reserved_str">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.reserved_str">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP id="ddm_elements.reserved_str">X</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM id="ddm_elements.reserved_str">            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP id="ddm_elements.reserved_str">            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL id="ddm_elements.reserved_str">Reserved For Addon Use</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.reserved_str">Res For Addon Use</DD_ATTR_LABS>
 		</RECORD>
 		<RECORD id="ddm_elements.ord_date">
 			<DD_DATA_NAME id="ddm_elements.ord_date">ORD_DATE        </DD_DATA_NAME>
@@ -1756,21 +1837,21 @@
 			<DD_ATTR_LABL id="ddm_elements.city">City</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.city">City</DD_ATTR_LABS>
 		</RECORD>
-		<RECORD id="ddm_elements.state_id">
-			<DD_DATA_NAME id="ddm_elements.state_id">STATE_ID        </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.state_id">State ID Code                 </DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.state_id">C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.state_id">15</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.state_id"> </DD_MASK_TYPE>
-			<ASC_COMP_ID id="ddm_elements.state_id">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.state_id">AON</ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.state_id">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.state_id">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP id="ddm_elements.state_id">E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM id="ddm_elements.state_id">            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP id="ddm_elements.state_id">            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL id="ddm_elements.state_id">State ID Code</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.state_id">State ID Cd</DD_ATTR_LABS>
+		<RECORD id="ddm_elements.state_code">
+			<DD_DATA_NAME id="ddm_elements.state_code">STATE_CODE      </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.state_code">State Code</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.state_code">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.state_code">2</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.state_code"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.state_code">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.state_code">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.state_code">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.state_code">20060315</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.state_code">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.state_code">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.state_code">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.state_code">State/Province</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.state_code">State</DD_ATTR_LABS>
 		</RECORD>
 		<RECORD id="ddm_elements.zip_code">
 			<DD_DATA_NAME id="ddm_elements.zip_code">ZIP_CODE        </DD_DATA_NAME>
@@ -1844,218 +1925,21 @@
 			<DD_ATTR_LABL id="ddm_elements.dealer_num">Reserved For Dealer Use</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.dealer_num">Res For Dealer Use</DD_ATTR_LABS>
 		</RECORD>
-		<RECORD id="ddm_elements.addr_line_1">
-			<DD_DATA_NAME id="ddm_elements.addr_line_1">ADDR_LINE_1     </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.addr_line_1">Address Line 1</DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.addr_line_1">C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.addr_line_1">24</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.addr_line_1"> </DD_MASK_TYPE>
-			<ASC_COMP_ID id="ddm_elements.addr_line_1">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.addr_line_1">AON</ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.addr_line_1">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.addr_line_1">20060404</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP id="ddm_elements.addr_line_1">E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM id="ddm_elements.addr_line_1">            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP id="ddm_elements.addr_line_1">            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL id="ddm_elements.addr_line_1">Address</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.addr_line_1">Addr</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD id="ddm_elements.addr_line_2">
-			<DD_DATA_NAME id="ddm_elements.addr_line_2">ADDR_LINE_2     </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.addr_line_2">Address Line 2                </DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.addr_line_2">C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.addr_line_2">24</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.addr_line_2"> </DD_MASK_TYPE>
-			<ASC_COMP_ID id="ddm_elements.addr_line_2">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.addr_line_2">AON</ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.addr_line_2">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.addr_line_2">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP id="ddm_elements.addr_line_2">E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM id="ddm_elements.addr_line_2">            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP id="ddm_elements.addr_line_2">            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL id="ddm_elements.addr_line_2">Address Line 2</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.addr_line_2">Addr 2</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD id="ddm_elements.city">
-			<DD_DATA_NAME id="ddm_elements.city">CITY            </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.city">City Name</DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.city">C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.city">22</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.city"> </DD_MASK_TYPE>
-			<ASC_COMP_ID id="ddm_elements.city">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.city">AON</ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.city">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.city">20060315</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP id="ddm_elements.city">E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM id="ddm_elements.city">            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP id="ddm_elements.city">            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL id="ddm_elements.city">City</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.city">City</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD id="ddm_elements.zip_code">
-			<DD_DATA_NAME id="ddm_elements.zip_code">ZIP_CODE        </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.zip_code">Zip/Postal Code</DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.zip_code">C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.zip_code">9</DD_DATA_LENGTH>
-			<ASC_COMP_ID id="ddm_elements.zip_code">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.zip_code">AD </ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.zip_code">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.zip_code">20080708</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW id="ddm_elements.zip_code">0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH id="ddm_elements.zip_code">0</DD_ATTR_CTLH>
-			<DD_ATTR_CTYP id="ddm_elements.zip_code">E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM id="ddm_elements.zip_code">            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP id="ddm_elements.zip_code">            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL id="ddm_elements.zip_code">Zip/Postal Code</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.zip_code">Zip</DD_ATTR_LABS>
-			<DD_ATTR_MAXL id="ddm_elements.zip_code">0</DD_ATTR_MAXL>
-			<DD_ATTR_MAXR id="ddm_elements.zip_code">0</DD_ATTR_MAXR>
-			<DD_ATTR_MINL id="ddm_elements.zip_code">0</DD_ATTR_MINL>
-			<DD_ATTR_MSKI id="ddm_elements.zip_code">UUUUUUUUU</DD_ATTR_MSKI>
-			<DD_ATTR_PREC id="ddm_elements.zip_code">0</DD_ATTR_PREC>
-			<DD_ATTR_STYP id="ddm_elements.zip_code">P</DD_ATTR_STYP>
-		</RECORD>
-		<RECORD id="ddm_elements.addr_line_1">
-			<DD_DATA_NAME id="ddm_elements.addr_line_1">ADDR_LINE_1     </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.addr_line_1">Address Line 1</DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.addr_line_1">C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.addr_line_1">24</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.addr_line_1"> </DD_MASK_TYPE>
-			<ASC_COMP_ID id="ddm_elements.addr_line_1">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.addr_line_1">AON</ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.addr_line_1">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.addr_line_1">20060404</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP id="ddm_elements.addr_line_1">E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM id="ddm_elements.addr_line_1">            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP id="ddm_elements.addr_line_1">            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL id="ddm_elements.addr_line_1">Address</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.addr_line_1">Addr</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD id="ddm_elements.addr_line_2">
-			<DD_DATA_NAME id="ddm_elements.addr_line_2">ADDR_LINE_2     </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.addr_line_2">Address Line 2                </DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.addr_line_2">C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.addr_line_2">24</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.addr_line_2"> </DD_MASK_TYPE>
-			<ASC_COMP_ID id="ddm_elements.addr_line_2">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.addr_line_2">AON</ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.addr_line_2">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.addr_line_2">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP id="ddm_elements.addr_line_2">E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM id="ddm_elements.addr_line_2">            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP id="ddm_elements.addr_line_2">            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL id="ddm_elements.addr_line_2">Address Line 2</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.addr_line_2">Addr 2</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD id="ddm_elements.city">
-			<DD_DATA_NAME id="ddm_elements.city">CITY            </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.city">City Name</DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.city">C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.city">22</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.city"> </DD_MASK_TYPE>
-			<ASC_COMP_ID id="ddm_elements.city">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.city">AON</ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.city">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.city">20060315</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP id="ddm_elements.city">E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM id="ddm_elements.city">            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP id="ddm_elements.city">            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL id="ddm_elements.city">City</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.city">City</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD id="ddm_elements.zip_code">
-			<DD_DATA_NAME id="ddm_elements.zip_code">ZIP_CODE        </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.zip_code">Zip/Postal Code</DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.zip_code">C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.zip_code">9</DD_DATA_LENGTH>
-			<ASC_COMP_ID id="ddm_elements.zip_code">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.zip_code">AD </ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.zip_code">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.zip_code">20080708</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW id="ddm_elements.zip_code">0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH id="ddm_elements.zip_code">0</DD_ATTR_CTLH>
-			<DD_ATTR_CTYP id="ddm_elements.zip_code">E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM id="ddm_elements.zip_code">            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP id="ddm_elements.zip_code">            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL id="ddm_elements.zip_code">Zip/Postal Code</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.zip_code">Zip</DD_ATTR_LABS>
-			<DD_ATTR_MAXL id="ddm_elements.zip_code">0</DD_ATTR_MAXL>
-			<DD_ATTR_MAXR id="ddm_elements.zip_code">0</DD_ATTR_MAXR>
-			<DD_ATTR_MINL id="ddm_elements.zip_code">0</DD_ATTR_MINL>
-			<DD_ATTR_MSKI id="ddm_elements.zip_code">UUUUUUUUU</DD_ATTR_MSKI>
-			<DD_ATTR_PREC id="ddm_elements.zip_code">0</DD_ATTR_PREC>
-			<DD_ATTR_STYP id="ddm_elements.zip_code">P</DD_ATTR_STYP>
-		</RECORD>
-		<RECORD id="ddm_elements.addr_line_1">
-			<DD_DATA_NAME id="ddm_elements.addr_line_1">ADDR_LINE_1     </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.addr_line_1">Address Line 1</DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.addr_line_1">C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.addr_line_1">24</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.addr_line_1"> </DD_MASK_TYPE>
-			<ASC_COMP_ID id="ddm_elements.addr_line_1">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.addr_line_1">AON</ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.addr_line_1">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.addr_line_1">20060404</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP id="ddm_elements.addr_line_1">E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM id="ddm_elements.addr_line_1">            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP id="ddm_elements.addr_line_1">            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL id="ddm_elements.addr_line_1">Address</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.addr_line_1">Addr</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD id="ddm_elements.addr_line_2">
-			<DD_DATA_NAME id="ddm_elements.addr_line_2">ADDR_LINE_2     </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.addr_line_2">Address Line 2                </DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.addr_line_2">C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.addr_line_2">24</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.addr_line_2"> </DD_MASK_TYPE>
-			<ASC_COMP_ID id="ddm_elements.addr_line_2">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.addr_line_2">AON</ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.addr_line_2">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.addr_line_2">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP id="ddm_elements.addr_line_2">E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM id="ddm_elements.addr_line_2">            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP id="ddm_elements.addr_line_2">            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL id="ddm_elements.addr_line_2">Address Line 2</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.addr_line_2">Addr 2</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD id="ddm_elements.city">
-			<DD_DATA_NAME id="ddm_elements.city">CITY            </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.city">City Name</DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.city">C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.city">22</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.city"> </DD_MASK_TYPE>
-			<ASC_COMP_ID id="ddm_elements.city">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.city">AON</ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.city">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.city">20060315</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP id="ddm_elements.city">E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM id="ddm_elements.city">            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP id="ddm_elements.city">            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL id="ddm_elements.city">City</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.city">City</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD id="ddm_elements.zip_code">
-			<DD_DATA_NAME id="ddm_elements.zip_code">ZIP_CODE        </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.zip_code">Zip/Postal Code</DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.zip_code">C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.zip_code">9</DD_DATA_LENGTH>
-			<ASC_COMP_ID id="ddm_elements.zip_code">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.zip_code">AD </ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.zip_code">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.zip_code">20080708</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW id="ddm_elements.zip_code">0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH id="ddm_elements.zip_code">0</DD_ATTR_CTLH>
-			<DD_ATTR_CTYP id="ddm_elements.zip_code">E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM id="ddm_elements.zip_code">            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP id="ddm_elements.zip_code">            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL id="ddm_elements.zip_code">Zip/Postal Code</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.zip_code">Zip</DD_ATTR_LABS>
-			<DD_ATTR_MAXL id="ddm_elements.zip_code">0</DD_ATTR_MAXL>
-			<DD_ATTR_MAXR id="ddm_elements.zip_code">0</DD_ATTR_MAXR>
-			<DD_ATTR_MINL id="ddm_elements.zip_code">0</DD_ATTR_MINL>
-			<DD_ATTR_MSKI id="ddm_elements.zip_code">UUUUUUUUU</DD_ATTR_MSKI>
-			<DD_ATTR_PREC id="ddm_elements.zip_code">0</DD_ATTR_PREC>
-			<DD_ATTR_STYP id="ddm_elements.zip_code">P</DD_ATTR_STYP>
+		<RECORD id="ddm_elements.state_id">
+			<DD_DATA_NAME id="ddm_elements.state_id">STATE_ID        </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.state_id">State ID Code                 </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.state_id">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.state_id">15</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.state_id"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.state_id">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.state_id">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.state_id">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.state_id">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.state_id">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.state_id">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.state_id">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.state_id">State ID Code</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.state_id">State ID Cd</DD_ATTR_LABS>
 		</RECORD>
 		<RECORD id="ddm_elements.total_amount">
 			<DD_DATA_NAME id="ddm_elements.total_amount">TOTAL_AMOUNT    </DD_DATA_NAME>

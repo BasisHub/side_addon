@@ -1,150 +1,886 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <title>
-            RELNOTES for AddonSoftware
-        </title>
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:st1="urn:schemas-microsoft-com:office:smarttags"
+xmlns="http://www.w3.org/TR/REC-html40">
 
-		<STYLE type="text/css">
-
-			BODY {
-				color: #252525;
-				font-size: 12px;
-				font-family:Arial,Tahoma;
-				margin: 0px 0px 0px 10px;
-				padding: 0px 0px 0px 0px;
-				display: block;
-				overflow: auto;
-			}
-			a:link, a:visited{
-				color:#0000FF; text-decoration: none;
-				padding: 1px;
-			}
-			a:hover, a:active{
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=us-ascii">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 11">
+<meta name=Originator content="Microsoft Word 11">
+<link rel=File-List href="relnotes_files/filelist.xml">
+<link rel=Edit-Time-Data href="relnotes_files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title> RELNOTES for AddonSoftware </title>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="country-region"/>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="place"/>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>chawkins</o:Author>
+  <o:LastAuthor>chawkins</o:LastAuthor>
+  <o:Revision>3</o:Revision>
+  <o:TotalTime>28</o:TotalTime>
+  <o:Created>2009-03-17T20:00:00Z</o:Created>
+  <o:LastSaved>2009-03-25T18:09:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>875</o:Words>
+  <o:Characters>4991</o:Characters>
+  <o:Company>Strong Solutions, Inc.</o:Company>
+  <o:Lines>41</o:Lines>
+  <o:Paragraphs>11</o:Paragraphs>
+  <o:CharactersWithSpaces>5855</o:CharactersWithSpaces>
+  <o:Version>11.9999</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Zoom>75</w:Zoom>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]--><!--[if !mso]><object
+ classid="clsid:38481807-CA0E-42D2-BF39-B33AF135CC4D" id=ieooui></object>
+<style>
+st1\:*{behavior:url(#ieooui) }
+</style>
+<![endif]-->
+<style>
+<!--body
+	{overflow:auto;}
+a:hover, a:active{
 				color:#0000FF;
 				text-decoration: none;
 				background-color:#CCCCFF;
 				color: #000080;
 			}
-			.indent1 {
-				padding-left: 15px;
-			}
-			.new {
-				color: #008040;
-				font-style: italic;
-				font-weight: bold;
-			}
-			.code {
-				FONT-FAMILY: "Courier New", Courier, mono; font-size: 12px; font-weight:bolder; color:#000000;
-			}
-			.title {
-				font-size: 18px; font-weight:bolder
-			}
-			.style1 {
-				FONT-WEIGHT: bold;
-				FONT-SIZE: 14px;
-			}
-			.style2 {
-				FONT-WEIGHT:bolder;
-				font-size:12px;
-			}
-			.style3 {
-				FONT-WEIGHT:bolder;
-				font-size:14px;
-			}
-			.style4 {
-				FONT-WEIGHT: bold;
-				FONT-SIZE: 14px;
-				text-align:right;
-			}
-			.style6 {FONT-SIZE: 10px; COLOR: #339900; FONT-STYLE: italic; }
-			}
+table.MSOTABLEGRID
+	{mso-para-margin-top:auto;
+	mso-para-margin-bottom:auto;}
 
-		</STYLE>
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-believe-normal-left:yes;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	mso-text-animation:none;
+	text-decoration:none;
+	text-underline:none;
+	text-decoration:none;
+	text-line-through:none;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:blue;
+	mso-text-animation:none;
+	text-decoration:none;
+	text-underline:none;
+	text-decoration:none;
+	text-line-through:none;}
+p
+	{mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.indent1, li.indent1, div.indent1
+	{mso-style-name:indent1;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.new, li.new, div.new
+	{mso-style-name:new;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:#008040;
+	font-weight:bold;
+	font-style:italic;}
+p.code, li.code, div.code
+	{mso-style-name:code;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:9.0pt;
+	font-family:"Courier New";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;
+	font-weight:bold;}
+p.title, li.title, div.title
+	{mso-style-name:title;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:13.5pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	font-weight:bold;}
+p.style1, li.style1, div.style1
+	{mso-style-name:style1;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:10.5pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	font-weight:bold;}
+p.style2, li.style2, div.style2
+	{mso-style-name:style2;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:9.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	font-weight:bold;}
+p.style3, li.style3, div.style3
+	{mso-style-name:style3;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:10.5pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	font-weight:bold;}
+p.style4, li.style4, div.style4
+	{mso-style-name:style4;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	text-align:right;
+	mso-pagination:widow-orphan;
+	font-size:10.5pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	font-weight:bold;}
+p.style6, li.style6, div.style6
+	{mso-style-name:style6;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:7.5pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:#339900;
+	font-style:italic;}
+span.title1
+	{mso-style-name:title1;
+	mso-ansi-font-size:13.5pt;
+	mso-bidi-font-size:13.5pt;
+	font-weight:bold;}
+span.style11
+	{mso-style-name:style11;
+	mso-ansi-font-size:10.5pt;
+	mso-bidi-font-size:10.5pt;
+	font-weight:bold;}
+span.style61
+	{mso-style-name:style61;
+	mso-ansi-font-size:7.5pt;
+	mso-bidi-font-size:7.5pt;
+	color:#339900;
+	font-style:italic;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:117458467;
+	mso-list-template-ids:-254353592;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1
+	{mso-list-id:457989133;
+	mso-list-template-ids:1923525506;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l1:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l1:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l1:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2
+	{mso-list-id:1040394296;
+	mso-list-template-ids:1337204438;}
+@list l2:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l3
+	{mso-list-id:1603873609;
+	mso-list-template-ids:-2017818372;}
+@list l3:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l3:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+table.MsoTableGrid
+	{mso-style-name:"Table Grid";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	border:solid windowtext 1.0pt;
+	mso-border-alt:solid windowtext .5pt;
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-border-insideh:.5pt solid windowtext;
+	mso-border-insidev:.5pt solid windowtext;
+	mso-para-margin-top:auto;
+	mso-para-margin-right:0in;
+	mso-para-margin-bottom:auto;
+	mso-para-margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]--><![if mso 9]>
+<style>
+p.MsoNormal
+	{margin-left:7.5pt;}
+</style>
+<![endif]><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="3074"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
 
-    </head>
-    <body>
+<body lang=EN-US link=blue vlink=blue style='tab-interval:.5in;margin-left:
+7.5pt'>
 
-		<a name="TOP" id="TOP"></a>
-		<center>
-			<br>
-            <span class="title">Relnotes for AddonSoftware 8.31</span>
-		</center>
-		<br>
+<div class=Section1>
 
+<p class=MsoNormal align=center style='margin:0in;margin-bottom:.0001pt;
+text-align:center'><a name=TOP></a><span style='font-size:9.0pt;font-family:
+Arial;color:#252525'><br>
+</span><span class=title1><span style='font-size:13.5pt;font-family:Arial;
+color:#252525'>Relnotes for AddonSoftware 8.32</span></span><span
+style='font-size:9.0pt;font-family:Arial;color:#252525'> <o:p></o:p></span></p>
 
-		<span class="style1">CONTENTS</span>
-		<br>
-		<div class="indent1">
-			<span class="style1"><a href="#OVERVIEW">1. OVERVIEW</a></span>
-				<br>
-				<span class="style1"><a href="#WHATISNEW">2. WHAT IS NEW IN THIS RELEASE</a></span>
-				<br>
-				<span class="style1"><a href="#KNOWNISSUES">3. KNOWN ISSUES</a></span>
-				<br>
-			<span class="style1"><a href="#SUPPORT">4. SUPPORT</a></span>		</div>
+<p class=MsoNormal style='margin:0in;margin-bottom:.0001pt'><span
+style='font-size:9.0pt;font-family:Arial;color:#252525'><br>
+</span><span class=style11><span style='font-size:10.5pt;font-family:Arial;
+color:#252525'>CONTENTS</span></span><span style='font-size:9.0pt;font-family:
+Arial;color:#252525'> <o:p></o:p></span></p>
 
-			<br>
-			<br>
+<div>
 
-			<span class="style1"><a name="OVERVIEW">1. OVERVIEW </a></span><span class="style6"><a href="#TOP">(top of page)</a></span>
-	<div class="indent1">
-			  <p>AddonSoftware&trade; is a cost-effective, modular, full-featured and fully integrated enterprise resource planning solution for such mid-market industries as Accounting,  Distributing, and  Manufacturering. &nbsp;</p>
-    </div>
-		    <p><span class="style1"><a name="WHATISNEW">2. WHAT IS NEW IN THIS RELEASE </a></span><span class="style6"><a href="#TOP">(top of page)</a></span>
-</p>
-		    <div class="indent1">
-              <p>Version 8.31 takes advantage of the technological advancements provided by Barista&reg; and BBj&reg; to deliver an innovative software package know for its structural quality. Together with Barista, Version 8.31 offers a leap forward in the efficiency of software customization and the creation of vertical applications. AddonSoftware continues its 25-year history of constant improvement - additional features, increased functionality, and updated technology - in this release.<font SIZE="2" COLOR="#231f20">.</font></p>
-    </div>
-		    <div>
-				  <ul><li>Addon menu now multi-language
-			<li>New reporting options with BBj's implementation of JasperReports
-				  </ul>
-	</div>
-		<p><span class="style1"><a name="KNOWNISSUES">3. KNOWN ISSUES </a></span><span class="style6"><a href="#TOP">(top of page)</a></span>        </p>
-        <ul>
-			<li>The Barista Application Framework requires BBj 8.31.
-			Earlier versions of BBj may produce unexpected results</li>
-			<li>When running under Linux, the KDE desktop environment must be
-			used.</li>
-	</ul>
+<p class=MsoNormal style='margin:0in;margin-bottom:.0001pt'><span
+class=style11><span style='font-size:10.5pt;font-family:Arial;color:#252525'><a
+href="#OVERVIEW">1. OVERVIEW</a></span></span><span style='font-size:9.0pt;
+font-family:Arial;color:#252525'> <br>
+</span><span class=style11><span style='font-size:10.5pt;font-family:Arial;
+color:#252525'><a href="#WHATISNEW">2. WHAT IS NEW IN THIS RELEASE</a></span></span><span
+style='font-size:9.0pt;font-family:Arial;color:#252525'> <br>
+</span><span class=style11><span style='font-size:10.5pt;font-family:Arial;
+color:#252525'><a href="#KNOWNISSUES"><span class=GramE>3.</span> <span
+class=GramE>KNOWN ISSUES</span></a></span></span><span class=GramE><span
+style='font-size:9.0pt;font-family:Arial;color:#252525'> <br>
+</span><span class=style11><span style='font-size:10.5pt;font-family:Arial;
+color:#252525'><a href="#SUPPORT">4.</a></span></span></span></p>
 
-       	<p><span class="style1"><a name="SUPPORT">4. SUPPORT </a></span><span class="style6"><a href="#TOP">(top of page)</a></span>
-		<br>
-        </p>
-        <div class="indent1">
+<span class=MsoHyperlink><b><span style='font-size:10.5pt;font-family:Arial;
+mso-fareast-font-family:"Times New Roman";mso-ansi-language:EN-US;mso-fareast-language:
+EN-US;mso-bidi-language:AR-SA'><span
+style='mso-spacerun:yes'>&nbsp;</span>SUPPORT</span></b></span>
 
-			<p>If you purchased your AddonSoftware product from a distributor, reseller, or OEM, please contact them for technical support. They will answer your question or contact us on your behalf. <br>
-			  <br>
+<p class=MsoNormal style='margin:0in;margin-bottom:.0001pt'><span
+style='font-size:9.0pt;font-family:Arial;color:#252525'><a href="#SUPPORT"><span
+style='color:#252525'><span style='mso-spacerun:yes'>&nbsp;</span><o:p></o:p></span></a></span></p>
 
-			Technical support for version 8.31 is available via e-mail at <a href="mailto:addon-developer@addonsoftware.com">addon-developer@addonsoftware.com</a>.
+</div>
 
-			<br>
-			<br>
+<p class=MsoNormal style='margin:0in;margin-bottom:.0001pt'><span
+style='font-size:9.0pt;font-family:Arial;color:#252525'><a href="#SUPPORT"><span
+style='color:#252525'><span style='mso-field-code:" HYPERLINK \0022\0022 \\l \0022SUPPORT\0022 "'><br>
+<br>
+<span style='mso-bookmark:OVERVIEW'><span class=style11><span style='font-size:
+10.5pt'>1. OVERVIEW </span></span></span><span style='mso-bookmark:OVERVIEW'></span><span
+class=style61><span style='font-size:7.5pt'><span style='mso-field-code:" HYPERLINK \0022\0022 \\l \0022TOP\0022 "'><span
+style='color:blue'>(top of page)</span></span></span></span> </span></span><span
+style='font-size:12.0pt;font-family:"Times New Roman";color:#252525'><o:p></o:p></span></a><![if !supportNestedAnchors]><a
+name=OVERVIEW></a><![endif]></span></p>
 
-			When  submitting  a technical support question, please provide the following information:
-			<br>
+<div>
+
+<p><span style='font-size:9.0pt;font-family:Arial;color:#252525'><a
+href="#SUPPORT"><span style='color:#252525'><span style='mso-field-code:" HYPERLINK \0022\0022 \\l \0022TOP\0022 "'>AddonSoftware&#8482;
+is a cost-effective, modular, full-featured and fully integrated enterprise
+resource planning solution for such mid-market industries as Accounting,
+Distributing, and Manufacturering. &nbsp;</span><o:p></o:p></span></a></span></p>
+
+</div>
+
+<p><a name=WHATISNEW></a><a href="#TOP"><span style='mso-bookmark:WHATISNEW'><span
+style='color:windowtext'><span style='mso-field-code:" HYPERLINK \0022\0022 \\l \0022TOP\0022 "'><span
+class=style11><span style='font-size:10.5pt;font-family:Arial;color:#252525'>2.
+WHAT IS NEW IN THIS RELEASE </span></span><span class=style61><span
+style='font-size:7.5pt;font-family:Arial'><span style='mso-field-code:" HYPERLINK \0022\0022 \\l \0022TOP\0022 "'><span
+style='color:blue'>(top of page)</span></span></span></span><span
+style='font-size:9.0pt;font-family:Arial;color:#252525'> </span></span></span></span><span
+style='mso-bookmark:WHATISNEW'><span style='font-size:9.0pt;font-family:Arial;
+color:#252525'><o:p></o:p></span></span></a></p>
+
+<div>
+
+<p><span style='mso-bookmark:WHATISNEW'></span><a href="#TOP"><span
+style='mso-bookmark:WHATISNEW'><span style='font-size:9.0pt;font-family:Arial;
+color:#252525'><span style='mso-field-code:" HYPERLINK \0022\0022 \\l \0022TOP\0022 "'>Version
+8.32 takes advantage of the technological advancements provided by Barista&reg;
+and BBj&reg; to deliver an innovative software package know for its structural
+quality. Together with Barista, Version 8.32 offers a leap forward in the
+efficiency of software customization and the creation of vertical applications.
+AddonSoftware continues its 25-year history of constant improvement -
+additional features, increased functionality, and updated technology - in this
+release<span class=GramE>.<span style='font-size:10.0pt;color:#231F20'>.</span></span></span><o:p></o:p></span></span></a></p>
+
+</div>
+
+<div>
+
+<ul type=disc>
+ <li class=MsoNormal style='color:#252525;mso-list:l1 level1 lfo3;tab-stops:
+     list .5in'><span style='mso-bookmark:WHATISNEW'></span><a href="#TOP"><span
+     style='mso-bookmark:WHATISNEW'><span style='font-size:9.0pt;font-family:
+     Arial;color:#252525'><span style='mso-field-code:" HYPERLINK \0022\0022 \\l \0022TOP\0022 "'>Addon
+     data files now all vkeyed </span><o:p></o:p></span></span></a></li>
+ <li class=MsoNormal style='color:#252525;mso-list:l1 level1 lfo3;tab-stops:
+     list .5in'><span style='mso-bookmark:WHATISNEW'></span><a href="#TOP"><span
+     style='mso-bookmark:WHATISNEW'><span style='font-size:9.0pt;font-family:
+     Arial;color:#252525'><span style='mso-field-code:" HYPERLINK \0022\0022 \\l \0022TOP\0022 "'>Continued
+     improvements in the Accounting modules.<span
+     style='mso-spacerun:yes'>&nbsp; </span>Refer to the &quot;fixed
+     issues&quot; link on the BASIS product download page (<span
+     style='mso-field-code:" HYPERLINK \0022https\:\/\/www\.basis\.com\/products\/bbj\/download\.html\0022 "'><span
+     style='color:blue'>https://www.basis.com/products/bbj/download.html</span></span>)
+     </span><o:p></o:p></span></span></a></li>
+ <li class=MsoNormal style='color:#252525;mso-list:l1 level1 lfo3;tab-stops:
+     list .5in'><span style='mso-bookmark:WHATISNEW'></span><a href="#TOP"><span
+     style='mso-bookmark:WHATISNEW'><span style='font-size:9.0pt;font-family:
+     Arial;color:#252525'><span style='mso-field-code:" HYPERLINK \0022https\:\/\/www\.basis\.com\/products\/bbj\/download\.html\0022 "'>Many
+     components in the Distribution modules are included and ready for review:</span><o:p></o:p></span></span></a></li>
+</ul>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='margin-left:28.1pt;border-collapse:collapse;border:none;mso-border-alt:
+ solid windowtext .5pt;mso-yfti-tbllook:480;mso-padding-alt:0in 5.4pt 0in 5.4pt;
+ mso-border-insideh:.5pt solid windowtext;mso-border-insidev:.5pt solid windowtext'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width=936 valign=top style='width:9.75in;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='mso-bookmark:WHATISNEW'></span><a
+  href="https://www.basis.com/products/bbj/download.html"><span
+  style='mso-bookmark:WHATISNEW'><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:9.0pt;font-family:Arial;color:#252525'><span
+  style='mso-field-code:" HYPERLINK \0022https\:\/\/www\.basis\.com\/products\/bbj\/download\.html\0022 "'>Inventory</span><o:p></o:p></span></b></span></a></p>
+  </td>
+  <span style='mso-bookmark:WHATISNEW'></span>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td width=936 valign=top style='width:9.75in;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='mso-bookmark:WHATISNEW'></span><a
+  href="https://www.basis.com/products/bbj/download.html"><span
+  style='mso-bookmark:WHATISNEW'><span style='font-size:9.0pt;font-family:Arial;
+  color:#252525'><span style='mso-field-code:" HYPERLINK \0022https\:\/\/www\.basis\.com\/products\/bbj\/download\.html\0022 "'>Transaction
+  and Transfer Entry and Registers</span><o:p></o:p></span></span></a></p>
+  </td>
+  <span style='mso-bookmark:WHATISNEW'></span>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td width=936 valign=top style='width:9.75in;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='mso-bookmark:WHATISNEW'></span><a
+  href="https://www.basis.com/products/bbj/download.html"><span
+  style='mso-bookmark:WHATISNEW'><span style='font-size:9.0pt;font-family:Arial;
+  color:#252525'><span style='mso-field-code:" HYPERLINK \0022https\:\/\/www\.basis\.com\/products\/bbj\/download\.html\0022 "'>Cost
+  and Price Change Entry, Registers and Reports</span><o:p></o:p></span></span></a></p>
+  </td>
+  <span style='mso-bookmark:WHATISNEW'></span>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td width=936 valign=top style='width:9.75in;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='mso-bookmark:WHATISNEW'></span><a
+  href="https://www.basis.com/products/bbj/download.html"><span
+  style='mso-bookmark:WHATISNEW'><span style='font-size:9.0pt;font-family:Arial;
+  color:#252525'><span style='mso-field-code:" HYPERLINK \0022https\:\/\/www\.basis\.com\/products\/bbj\/download\.html\0022 "'>Physical
+  Inventory Cycle Code Maintenance, Cycle Freeze, Cancel Physical Inventory,
+  Print Count Sheets</span><o:p></o:p></span></span></a></p>
+  </td>
+  <span style='mso-bookmark:WHATISNEW'></span>
+ </tr>
+ <tr style='mso-yfti-irow:4'>
+  <td width=936 valign=top style='width:9.75in;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='mso-bookmark:WHATISNEW'></span><a
+  href="https://www.basis.com/products/bbj/download.html"><span
+  style='mso-bookmark:WHATISNEW'><span style='font-size:9.0pt;font-family:Arial;
+  color:#252525'><span style='mso-field-code:" HYPERLINK \0022https\:\/\/www\.basis\.com\/products\/bbj\/download\.html\0022 "'>Inventory
+  Reports (e.g., Price, Vendor, Requirements, Analysis and Activity Reports)</span><o:p></o:p></span></span></a></p>
+  </td>
+  <span style='mso-bookmark:WHATISNEW'></span>
+ </tr>
+ <tr style='mso-yfti-irow:5'>
+  <td width=936 valign=top style='width:9.75in;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='mso-bookmark:WHATISNEW'></span><a
+  href="https://www.basis.com/products/bbj/download.html"><span
+  style='mso-bookmark:WHATISNEW'><span style='font-size:9.0pt;font-family:Arial;
+  color:#252525'><span style='mso-field-code:" HYPERLINK \0022https\:\/\/www\.basis\.com\/products\/bbj\/download\.html\0022 "'>Lotted/Serialized
+  Reports (e.g., History, Status and Activity Reports)</span><o:p></o:p></span></span></a></p>
+  </td>
+  <span style='mso-bookmark:WHATISNEW'></span>
+ </tr>
+ <tr style='mso-yfti-irow:6'>
+  <td width=936 valign=top style='width:9.75in;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='mso-bookmark:WHATISNEW'></span><a
+  href="https://www.basis.com/products/bbj/download.html"><span
+  style='mso-bookmark:WHATISNEW'><span style='font-size:9.0pt;font-family:Arial;
+  color:#252525'><span style='mso-field-code:" HYPERLINK \0022https\:\/\/www\.basis\.com\/products\/bbj\/download\.html\0022 "'>Period
+  End Processing (e.g., A B C Analysis, Inventory Valuation, etc.)</span><o:p></o:p></span></span></a></p>
+  </td>
+  <span style='mso-bookmark:WHATISNEW'></span>
+ </tr>
+ <tr style='mso-yfti-irow:7'>
+  <td width=936 valign=top style='width:9.75in;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='mso-bookmark:WHATISNEW'></span><a
+  href="https://www.basis.com/products/bbj/download.html"><span
+  style='mso-bookmark:WHATISNEW'><span style='font-size:9.0pt;font-family:Arial;
+  color:#252525'><span style='mso-field-code:" HYPERLINK \0022https\:\/\/www\.basis\.com\/products\/bbj\/download\.html\0022 "'>Inventory
+  <span class=GramE>Maintenance<span style='mso-spacerun:yes'>&nbsp; </span>(</span>e.g.,
+  Product Types, Transaction Codes, Buyer Codes, etc.)</span><o:p></o:p></span></span></a></p>
+  </td>
+  <span style='mso-bookmark:WHATISNEW'></span>
+ </tr>
+ <tr style='mso-yfti-irow:8'>
+  <td width=936 valign=top style='width:9.75in;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='mso-bookmark:WHATISNEW'></span><a
+  href="https://www.basis.com/products/bbj/download.html"><span
+  style='mso-bookmark:WHATISNEW'><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:9.0pt;font-family:Arial;color:#252525'><span
+  style='mso-field-code:" HYPERLINK \0022https\:\/\/www\.basis\.com\/products\/bbj\/download\.html\0022 "'>Sales
+  Order Processing</span><o:p></o:p></span></b></span></a></p>
+  </td>
+  <span style='mso-bookmark:WHATISNEW'></span>
+ </tr>
+ <tr style='mso-yfti-irow:9'>
+  <td width=936 valign=top style='width:9.75in;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='mso-bookmark:WHATISNEW'></span><a
+  href="https://www.basis.com/products/bbj/download.html"><span
+  style='mso-bookmark:WHATISNEW'><span style='font-size:9.0pt;font-family:Arial;
+  color:#252525'><span style='mso-field-code:" HYPERLINK \0022https\:\/\/www\.basis\.com\/products\/bbj\/download\.html\0022 "'>Picking
+  List, Commit and Release Future Orders, Price Quote Inquiry, Credit Manager's
+  Review and Release</span><o:p></o:p></span></span></a></p>
+  </td>
+  <span style='mso-bookmark:WHATISNEW'></span>
+ </tr>
+ <tr style='mso-yfti-irow:10'>
+  <td width=936 valign=top style='width:9.75in;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='mso-bookmark:WHATISNEW'></span><a
+  href="https://www.basis.com/products/bbj/download.html"><span
+  style='mso-bookmark:WHATISNEW'><span style='font-size:9.0pt;font-family:Arial;
+  color:#252525'><span style='mso-field-code:" HYPERLINK \0022https\:\/\/www\.basis\.com\/products\/bbj\/download\.html\0022 "'>Sales
+  Order Reports (e.g., Open Order Detail, Order Status, Shipping Schedule,
+  Invoice History, etc.)</span><o:p></o:p></span></span></a></p>
+  </td>
+  <span style='mso-bookmark:WHATISNEW'></span>
+ </tr>
+ <tr style='mso-yfti-irow:11'>
+  <td width=936 valign=top style='width:9.75in;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='mso-bookmark:WHATISNEW'></span><a
+  href="https://www.basis.com/products/bbj/download.html"><span
+  style='mso-bookmark:WHATISNEW'><span style='font-size:9.0pt;font-family:Arial;
+  color:#252525'><span style='mso-field-code:" HYPERLINK \0022https\:\/\/www\.basis\.com\/products\/bbj\/download\.html\0022 "'>Period
+  End Processing (e.g., Sales Tax and Commission reports, Monthly Sales
+  Register/Report, etc.)</span><o:p></o:p></span></span></a></p>
+  </td>
+  <span style='mso-bookmark:WHATISNEW'></span>
+ </tr>
+ <tr style='mso-yfti-irow:12'>
+  <td width=936 valign=top style='width:9.75in;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='mso-bookmark:WHATISNEW'></span><a
+  href="https://www.basis.com/products/bbj/download.html"><span
+  style='mso-bookmark:WHATISNEW'><span style='font-size:9.0pt;font-family:Arial;
+  color:#252525'><span style='mso-field-code:" HYPERLINK \0022https\:\/\/www\.basis\.com\/products\/bbj\/download\.html\0022 "'>Maintenance
+  (e.g., Line Codes, Salespersons, Territory, Tax, Discount codes, etc.)</span><o:p></o:p></span></span></a></p>
+  </td>
+  <span style='mso-bookmark:WHATISNEW'></span>
+ </tr>
+ <tr style='mso-yfti-irow:13'>
+  <td width=936 valign=top style='width:9.75in;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='mso-bookmark:WHATISNEW'></span><a
+  href="https://www.basis.com/products/bbj/download.html"><span
+  style='mso-bookmark:WHATISNEW'><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:9.0pt;font-family:Arial;color:#252525'><span
+  style='mso-field-code:" HYPERLINK \0022https\:\/\/www\.basis\.com\/products\/bbj\/download\.html\0022 "'>Sales
+  Analysis Inquiries and Reports</span><o:p></o:p></span></b></span></a></p>
+  </td>
+  <span style='mso-bookmark:WHATISNEW'></span>
+ </tr>
+ <tr style='mso-yfti-irow:14'>
+  <td width=936 valign=top style='width:9.75in;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='mso-bookmark:WHATISNEW'></span><a
+  href="https://www.basis.com/products/bbj/download.html"><span
+  style='mso-bookmark:WHATISNEW'><span style='font-size:9.0pt;font-family:Arial;
+  color:#252525'><span style='mso-field-code:" HYPERLINK \0022https\:\/\/www\.basis\.com\/products\/bbj\/download\.html\0022 "'>Inquiries
+  and Reports by Customer, Territory, Salesperson, Product, Product/Item/Customer,
+  etc.</span><o:p></o:p></span></span></a></p>
+  </td>
+  <span style='mso-bookmark:WHATISNEW'></span>
+ </tr>
+ <tr style='mso-yfti-irow:15'>
+  <td width=936 valign=top style='width:9.75in;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='mso-bookmark:WHATISNEW'></span><a
+  href="https://www.basis.com/products/bbj/download.html"><span
+  style='mso-bookmark:WHATISNEW'><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:9.0pt;font-family:Arial;color:#252525'><span
+  style='mso-field-code:" HYPERLINK \0022https\:\/\/www\.basis\.com\/products\/bbj\/download\.html\0022 "'>Purchase
+  Order Processing</span><o:p></o:p></span></b></span></a></p>
+  </td>
+  <span style='mso-bookmark:WHATISNEW'></span>
+ </tr>
+ <tr style='mso-yfti-irow:16;mso-yfti-lastrow:yes'>
+  <td width=936 valign=top style='width:9.75in;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='mso-bookmark:WHATISNEW'></span><a
+  href="https://www.basis.com/products/bbj/download.html"><span
+  style='mso-bookmark:WHATISNEW'><span style='font-size:9.0pt;font-family:Arial;
+  color:#252525'><span style='mso-field-code:" HYPERLINK \0022https\:\/\/www\.basis\.com\/products\/bbj\/download\.html\0022 "'>Maintenance
+  (e.g., Create, Maintain and Print PO Calender, Line Codes, Message Codes,
+  etc.)</span><o:p></o:p></span></span></a></p>
+  </td>
+  <span style='mso-bookmark:WHATISNEW'></span>
+ </tr>
+</table>
+
+</div>
+
+<p><span style='mso-bookmark:WHATISNEW'><a name=KNOWNISSUES></a></span><a
+href="https://www.basis.com/products/bbj/download.html"><span style='mso-bookmark:
+WHATISNEW'><span style='mso-bookmark:KNOWNISSUES'><span style='color:windowtext'><span
+style='mso-field-code:" HYPERLINK \0022https\:\/\/www\.basis\.com\/products\/bbj\/download\.html\0022 "'><span
+class=style11><span style='font-size:10.5pt;font-family:Arial;color:#252525'>3.
+KNOWN ISSUES </span></span><span class=style61><span style='font-size:7.5pt;
+font-family:Arial'><span style='mso-field-code:" HYPERLINK \0022\0022 \\l \0022TOP\0022 "'><span
+style='color:blue'>(top of page)</span></span></span></span><span
+style='font-size:9.0pt;font-family:Arial;color:#252525'> </span></span></span></span></span><span
+style='mso-bookmark:WHATISNEW'><span style='mso-bookmark:KNOWNISSUES'><span
+style='font-size:9.0pt;font-family:Arial;color:#252525'><o:p></o:p></span></span></span></a></p>
+
+<ul type=disc>
+ <li class=MsoNormal style='color:#252525;mso-list:l3 level1 lfo6;tab-stops:
+     list .5in'><span style='mso-bookmark:WHATISNEW'><span style='mso-bookmark:
+     KNOWNISSUES'></span></span><a
+     href="https://www.basis.com/products/bbj/download.html"><span
+     style='mso-bookmark:WHATISNEW'><span style='mso-bookmark:KNOWNISSUES'><span
+     style='font-size:9.0pt;font-family:Arial;color:#252525'><span
+     style='mso-field-code:" HYPERLINK \0022\0022 \\l \0022TOP\0022 "'>The
+     Barista Application Framework requires BBj 9.00. Earlier versions of BBj
+     may produce unexpected results</span><o:p></o:p></span></span></span></a></li>
+ <li class=MsoNormal style='color:#252525;mso-list:l3 level1 lfo6;tab-stops:
+     list .5in'><span style='mso-bookmark:WHATISNEW'><span style='mso-bookmark:
+     KNOWNISSUES'></span></span><a href="#TOP"><span style='mso-bookmark:WHATISNEW'><span
+     style='mso-bookmark:KNOWNISSUES'><span style='font-size:9.0pt;font-family:
+     Arial;color:#252525'><span style='mso-field-code:" HYPERLINK \0022\0022 \\l \0022TOP\0022 "'>When
+     running under Linux, the KDE desktop environment must be used.</span><o:p></o:p></span></span></span></a></li>
+</ul>
+
+<p><span style='mso-bookmark:WHATISNEW'><span style='mso-bookmark:KNOWNISSUES'><a
+name=SUPPORT></a></span></span><a href="#TOP"><span style='mso-bookmark:WHATISNEW'><span
+style='mso-bookmark:KNOWNISSUES'><span style='mso-bookmark:SUPPORT'><span
+style='color:windowtext'><span style='mso-field-code:" HYPERLINK \0022\0022 \\l \0022TOP\0022 "'><span
+class=style11><span style='font-size:10.5pt;font-family:Arial;color:#252525'>4.
+SUPPORT </span></span><span class=style61><span style='font-size:7.5pt;
+font-family:Arial'><span style='mso-field-code:" HYPERLINK \0022\0022 \\l \0022TOP\0022 "'><span
+style='color:blue'>(top of page)</span></span></span></span><span
+style='font-size:9.0pt;font-family:Arial;color:#252525'> </span></span></span></span></span></span><span
+style='mso-bookmark:WHATISNEW'><span style='mso-bookmark:KNOWNISSUES'><span
+style='mso-bookmark:SUPPORT'><span style='font-size:9.0pt;font-family:Arial;
+color:#252525'><o:p></o:p></span></span></span></span></a></p>
+
+<div>
+
+<p><span style='mso-bookmark:WHATISNEW'><span style='mso-bookmark:KNOWNISSUES'><span
+style='mso-bookmark:SUPPORT'></span></span></span><a href="#TOP"><span
+style='mso-bookmark:WHATISNEW'><span style='mso-bookmark:KNOWNISSUES'><span
+style='mso-bookmark:SUPPORT'><span style='font-size:9.0pt;font-family:Arial;
+color:#252525'>If you purchased your AddonSoftware product from a distributor,
+reseller, or OEM, please contact them for technical support. They will answer
+your question or contact us on your behalf. <br>
+<br>
+Technical support for version 8.32 is available via e-mail at <span
+style='mso-field-code:" HYPERLINK \0022mailto\:addon-developer\@addonsoftware\.com\0022 "'>addon-developer@addonsoftware.com</span>.
+<br>
+<br>
+When submitting a technical support question, please provide the following
+information: <br>
 &nbsp;&nbsp;&nbsp;&nbsp; 1. The product serial number. <br>
-&nbsp;&nbsp;&nbsp;&nbsp; 2. The name of the product and the product's version number. <br>
-&nbsp;&nbsp;&nbsp;&nbsp; 3. A complete description of the problem, including the product error and the TCB(10) value, if available. <br />
+&nbsp;&nbsp;&nbsp;&nbsp; 2. The name of the product and the product's version
+number. <br>
+&nbsp;&nbsp;&nbsp;&nbsp; 3. A complete description of the problem, including
+the product error and the TCB(10) value, if available. <br>
 &nbsp;&nbsp;&nbsp;&nbsp; 4. A screen shot of the problem. <br>
-			<br>
-
-			Other pertinent information includes:
-			<br>
+<br>
+Other pertinent information includes: <br>
 &nbsp;&nbsp;&nbsp;&nbsp; 1. The operating system name, JRE, level and version. <br>
-&nbsp;&nbsp;&nbsp; &nbsp;2. Is the error consistently reproducible, or is it sporadic? <br>
-&nbsp;&nbsp;&nbsp; &nbsp;3. Is the error isolated to a specific machine or user? <br>
-&nbsp;&nbsp;&nbsp; &nbsp;4. Is this a new installation or has the system been in place and operating normally? <br>
+&nbsp;&nbsp;&nbsp; &nbsp;2. Is the error consistently reproducible, or is it
+sporadic? <br>
+&nbsp;&nbsp;&nbsp; &nbsp;3. Is the error isolated to a specific machine or
+user? <br>
+&nbsp;&nbsp;&nbsp; &nbsp;4. Is this a new installation or has the system been
+in place and operating normally? <br>
 &nbsp;&nbsp;&nbsp; &nbsp;5. Is the problem network related/specific? <br>
-		  <br />
-		  For more information, call 1.800.370.9131 (US &amp; Canada) or +1.505.938.6131 (International).</p>
-	</div>
-        <hr />
+<br>
+For more information, call 1.800.370.9131 (US &amp; <st1:country-region w:st="on"><st1:place
+ w:st="on">Canada</st1:place></st1:country-region>) or +1.505.938.6131
+(International).<o:p></o:p></span></span></span></span></a></p>
 
-		<p>Copyright &copy; 2008-2009. All rights reserved. <br />
-          <br />
-        AddonSoftware&trade;, BBj&reg;, and Barista&reg; are registered trademarks. All other product names and brand names are service marks and/or trademarks or registered trademarks of their respective companies. </p>
+</div>
+
+<p class=MsoNormal align=center style='margin:0in;margin-bottom:.0001pt;
+text-align:center'><span style='mso-bookmark:WHATISNEW'><span style='mso-bookmark:
+KNOWNISSUES'><span style='mso-bookmark:SUPPORT'></span></span></span><a
+href="mailto:addon-developer@addonsoftware.com"><span style='mso-bookmark:WHATISNEW'><span
+style='mso-bookmark:KNOWNISSUES'><span style='mso-bookmark:SUPPORT'><span
+style='font-size:9.0pt;font-family:Arial;color:#252525'><span style='mso-field-code:
+" HYPERLINK \0022mailto\:addon-developer\@addonsoftware\.com\0022 "'><o:p></o:p></span></span></span></span></span>
+
+<div class=MsoNormal align=center style='margin:0in;margin-bottom:.0001pt;
+text-align:center'><span style='mso-bookmark:WHATISNEW'><span style='mso-bookmark:
+KNOWNISSUES'><span style='mso-bookmark:SUPPORT'><span style='font-size:9.0pt;
+font-family:Arial;color:#252525'>
+
+<hr size=2 width="100%" align=center>
+
+</span></span></span></span></div>
+
+<p class=MsoNormal align=center style='margin:0in;margin-bottom:.0001pt;
+text-align:center'><span style='mso-bookmark:WHATISNEW'><span style='mso-bookmark:
+KNOWNISSUES'><span style='mso-bookmark:SUPPORT'></span></span></span><span
+style='mso-bookmark:WHATISNEW'><span style='mso-bookmark:KNOWNISSUES'><span
+style='mso-bookmark:SUPPORT'><span style='color:windowtext'><o:p>&nbsp;</o:p></span></span></span></span></p>
+
+<p><span style='mso-bookmark:WHATISNEW'><span style='mso-bookmark:KNOWNISSUES'><span
+style='mso-bookmark:SUPPORT'></span></span></span><a
+href="mailto:addon-developer@addonsoftware.com"><span style='mso-bookmark:WHATISNEW'><span
+style='mso-bookmark:KNOWNISSUES'><span style='mso-bookmark:SUPPORT'><span
+style='font-size:9.0pt;font-family:Arial;color:#252525'>Copyright &copy;
+2008-2009. All rights reserved. <br>
+<br>
+AddonSoftware&#8482;, BBj&reg;, and Barista&reg; are registered trademarks. All
+other product names and brand names are service marks and/or trademarks or
+registered trademarks of their respective companies. </span></span></span></span></a><span
+style='mso-bookmark:WHATISNEW'><span style='mso-bookmark:KNOWNISSUES'><span
+style='mso-bookmark:SUPPORT'><span class=MsoHyperlink><span style='font-size:
+9.0pt;font-family:Arial;color:#252525'><o:p></o:p></span></span></span></span></span></p>
+
+</a></p>
+
+</div>
+
 </body>
+
 </html>

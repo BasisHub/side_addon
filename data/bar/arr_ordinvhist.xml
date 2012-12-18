@@ -1,177 +1,164 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <ARR_ORDINVHIST>
-	<ALIAS>
-		<ID>DDM_TABLES</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>ARR_ORDINVHIST  </DD_TABLE_ALIAS>
-			<DD_ALIAS_DESC>Order or Invoice Inquiry</DD_ALIAS_DESC>
-			<DD_TABLE_PATH>[+ARDATA]</DD_TABLE_PATH>
-			<DD_ALIAS_TYPE>P</DD_ALIAS_TYPE>
-			<DD_SYSTEM_REC>N</DD_SYSTEM_REC>
-			<DD_SYSTEM_ID>AR</DD_SYSTEM_ID>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AR </ASC_PROD_ID>
-			<ASC_LICENSE_ID>6832202387AB8BF01DAC65F53D011D94</ASC_LICENSE_ID>
-			<DD_EXPORT_DATA>Y</DD_EXPORT_DATA>
-			<DD_CREATE_DATE>20061115</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080130</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE>20080130</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME>135050</DD_LSTSYNC_TIME>
-			<DD_ATTR_FTYP>S</DD_ATTR_FTYP>
-			<DD_ATTR_PRUN>[+DIR_PGM]arr_ordinvhist.aon   </DD_ATTR_PRUN>
-			<DD_ATTR_WINT>Order or Invoice Inquiry</DD_ATTR_WINT>
+	<ALIAS id="ddm_tables">
+		<ID id="ddm_tables">DDM_TABLES</ID>
+		<RECORD id="ddm_tables.arr_ordinvhist">
+			<DD_TABLE_ALIAS id="ddm_tables.arr_ordinvhist">ARR_ORDINVHIST  </DD_TABLE_ALIAS>
+			<DD_ALIAS_DESC id="ddm_tables.arr_ordinvhist">Order or Invoice Inquiry</DD_ALIAS_DESC>
+			<DD_TABLE_PATH id="ddm_tables.arr_ordinvhist">[+ARDATA]</DD_TABLE_PATH>
+			<DD_ALIAS_TYPE id="ddm_tables.arr_ordinvhist">P</DD_ALIAS_TYPE>
+			<DD_SYSTEM_REC id="ddm_tables.arr_ordinvhist">N</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_tables.arr_ordinvhist">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_tables.arr_ordinvhist">AR </ASC_PROD_ID>
+			<ASC_VERSION_ID id="ddm_tables.arr_ordinvhist">8.0</ASC_VERSION_ID>
+			<ASC_LICENSE_ID id="ddm_tables.arr_ordinvhist">6832202387AB8BF01DAC65F53D011D94</ASC_LICENSE_ID>
+			<DD_EXPORT_DATA id="ddm_tables.arr_ordinvhist">Y</DD_EXPORT_DATA>
+			<DD_CREATE_DATE id="ddm_tables.arr_ordinvhist">20061115</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_tables.arr_ordinvhist">20090325</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.arr_ordinvhist">20090325</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.arr_ordinvhist">090428</DD_LSTSYNC_TIME>
+			<DD_ATTR_FTYP id="ddm_tables.arr_ordinvhist">S</DD_ATTR_FTYP>
+			<DD_ATTR_PRUN id="ddm_tables.arr_ordinvhist">[+DIR_PGM]arr_ordinvhist.aon   </DD_ATTR_PRUN>
+			<DD_ATTR_WINT id="ddm_tables.arr_ordinvhist">Order or Invoice Inquiry</DD_ATTR_WINT>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_COLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>ARR_ORDINVHIST  </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>001</DD_SEQUENCE>
-			<DD_DATA_NAME>CUSTOMER_ID     </DD_DATA_NAME>
-			<DD_DVAR_NAME>CUSTOMER_ID     </DD_DVAR_NAME>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_ATTR_CTLW>48</DD_ATTR_CTLW>
-			<DD_ATTR_MAXL>6</DD_ATTR_MAXL>
-			<DD_ATTR_TIND>1</DD_ATTR_TIND>
+	<ALIAS id="ddm_table_cols">
+		<ID id="ddm_table_cols">DDM_TABLE_COLS</ID>
+		<RECORD id="ddm_table_cols.arr_ordinvhist001">
+			<DD_TABLE_ALIAS id="ddm_table_cols.arr_ordinvhist001">ARR_ORDINVHIST  </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.arr_ordinvhist001">001</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.arr_ordinvhist001">CUSTOMER_ID     </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.arr_ordinvhist001">CUSTOMER_ID     </DD_DVAR_NAME>
+			<DD_FIELD_DELIM id="ddm_table_cols.arr_ordinvhist001">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.arr_ordinvhist001">0A</DD_DELIM_CHAR>
+			<DD_ATTR_CTLW id="ddm_table_cols.arr_ordinvhist001">48</DD_ATTR_CTLW>
+			<DD_ATTR_MAXL id="ddm_table_cols.arr_ordinvhist001">6</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.arr_ordinvhist001">1</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>ARR_ORDINVHIST  </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>002</DD_SEQUENCE>
-			<DD_DATA_NAME>SUMM_DTL        </DD_DATA_NAME>
-			<DD_DVAR_NAME>SUMM_DTL        </DD_DVAR_NAME>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_ATTR_CTLW>84</DD_ATTR_CTLW>
-			<DD_ATTR_DFLT>D</DD_ATTR_DFLT>
-			<DD_ATTR_MAXL>1</DD_ATTR_MAXL>
-			<DD_ATTR_TIND>2</DD_ATTR_TIND>
+		<RECORD id="ddm_table_cols.arr_ordinvhist002">
+			<DD_TABLE_ALIAS id="ddm_table_cols.arr_ordinvhist002">ARR_ORDINVHIST  </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.arr_ordinvhist002">002</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.arr_ordinvhist002">SUMM_DTL        </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.arr_ordinvhist002">SUMM_DTL        </DD_DVAR_NAME>
+			<DD_FIELD_DELIM id="ddm_table_cols.arr_ordinvhist002">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.arr_ordinvhist002">0A</DD_DELIM_CHAR>
+			<DD_ATTR_CTLW id="ddm_table_cols.arr_ordinvhist002">84</DD_ATTR_CTLW>
+			<DD_ATTR_DFLT id="ddm_table_cols.arr_ordinvhist002">D</DD_ATTR_DFLT>
+			<DD_ATTR_MAXL id="ddm_table_cols.arr_ordinvhist002">1</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.arr_ordinvhist002">2</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>ARR_ORDINVHIST  </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>003</DD_SEQUENCE>
-			<DD_DATA_NAME>ORD_INV         </DD_DATA_NAME>
-			<DD_DVAR_NAME>ORD_INV         </DD_DVAR_NAME>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_ATTR_CTLW>78</DD_ATTR_CTLW>
-			<DD_ATTR_DFLT>O</DD_ATTR_DFLT>
-			<DD_ATTR_MAXL>1</DD_ATTR_MAXL>
-			<DD_ATTR_TIND>3</DD_ATTR_TIND>
+		<RECORD id="ddm_table_cols.arr_ordinvhist003">
+			<DD_TABLE_ALIAS id="ddm_table_cols.arr_ordinvhist003">ARR_ORDINVHIST  </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.arr_ordinvhist003">003</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.arr_ordinvhist003">ORD_INV         </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.arr_ordinvhist003">ORD_INV         </DD_DVAR_NAME>
+			<DD_FIELD_DELIM id="ddm_table_cols.arr_ordinvhist003">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.arr_ordinvhist003">0A</DD_DELIM_CHAR>
+			<DD_ATTR_CTLW id="ddm_table_cols.arr_ordinvhist003">78</DD_ATTR_CTLW>
+			<DD_ATTR_DFLT id="ddm_table_cols.arr_ordinvhist003">O</DD_ATTR_DFLT>
+			<DD_ATTR_MAXL id="ddm_table_cols.arr_ordinvhist003">1</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.arr_ordinvhist003">3</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>ARR_ORDINVHIST  </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>004</DD_SEQUENCE>
-			<DD_DATA_NAME>BEG_ORD_INV     </DD_DATA_NAME>
-			<DD_DVAR_NAME>BEG_ORD_INV     </DD_DVAR_NAME>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_ATTR_CTLW>56</DD_ATTR_CTLW>
-			<DD_ATTR_LABL>Begin Order/Invoice</DD_ATTR_LABL>
-			<DD_ATTR_MAXL>7</DD_ATTR_MAXL>
-			<DD_ATTR_TIND>4</DD_ATTR_TIND>
-		</RECORD>
-	</ALIAS>
-	<ALIAS>
-		<ID>DDM_ELEMENTS</ID>
-		<RECORD>
-			<DD_DATA_NAME>CUSTOMER_ID     </DD_DATA_NAME>
-			<DD_DESCRIPTION>Customer ID</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>6</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>AR</DD_SYSTEM_ID>
-			<DD_MASK_TYPE>I</DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20070703</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOL>CUSTOMER_NAME</DD_ATTR_DCOL>
-			<DD_ATTR_DKEY>[+FIRM_ID]+@</DD_ATTR_DKEY>
-			<DD_ATTR_DTAB>ARM_CUSTMAST    </DD_ATTR_DTAB>
-			<DD_ATTR_LABL>Customer ID</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Cust ID</DD_ATTR_LABS>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>R</DD_ATTR_PADJ>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>SUMM_DTL        </DD_DATA_NAME>
-			<DD_DESCRIPTION>Summary or Detail</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>1</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>AR</DD_SYSTEM_ID>
-			<DD_SYSTEM_REC>N</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20061115</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20061115</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>L</DD_ATTR_CTYP>
-			<DD_ATTR_LABL>Summary or Detail</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Summary or Detail</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>ORD_INV         </DD_DATA_NAME>
-			<DD_DESCRIPTION>Order or Invoice</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>1</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>AR</DD_SYSTEM_ID>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20061115</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20061115</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>L</DD_ATTR_CTYP>
-			<DD_ATTR_LABL>Order or Invoice</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Order or Invoice</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>BEG_ORD_INV     </DD_DATA_NAME>
-			<DD_DESCRIPTION>Beginning Order or Invoice</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>7</DD_DATA_LENGTH>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20061115</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20061115</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_LABL>Beginning Order or Invoice</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Beginning Ord/Inv   </DD_ATTR_LABS>
+		<RECORD id="ddm_table_cols.arr_ordinvhist004">
+			<DD_TABLE_ALIAS id="ddm_table_cols.arr_ordinvhist004">ARR_ORDINVHIST  </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.arr_ordinvhist004">004</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.arr_ordinvhist004">BEG_ORD_INV     </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.arr_ordinvhist004">BEG_ORD_INV     </DD_DVAR_NAME>
+			<DD_FIELD_DELIM id="ddm_table_cols.arr_ordinvhist004">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.arr_ordinvhist004">0A</DD_DELIM_CHAR>
+			<DD_ATTR_CTLW id="ddm_table_cols.arr_ordinvhist004">56</DD_ATTR_CTLW>
+			<DD_ATTR_LABL id="ddm_table_cols.arr_ordinvhist004">Begin Order/Invoice</DD_ATTR_LABL>
+			<DD_ATTR_MAXL id="ddm_table_cols.arr_ordinvhist004">7</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.arr_ordinvhist004">4</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_ELEMENT_LDAT</ID>
-		<RECORD>
-			<DD_DATA_NAME>SUMM_DTL        </DD_DATA_NAME>
-			<DD_ATTR_SEQ>01</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>D   </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Detail</DD_ATTR_LDAT_DS>
+	<ALIAS id="ddm_elements">
+		<ID id="ddm_elements">DDM_ELEMENTS</ID>
+		<RECORD id="ddm_elements.customer_id">
+			<DD_DATA_NAME id="ddm_elements.customer_id">CUSTOMER_ID     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.customer_id">Customer ID</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.customer_id">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.customer_id">6</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.customer_id">I</DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.customer_id">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.customer_id">AR </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.customer_id">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.customer_id">20070703</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.customer_id">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOL id="ddm_elements.customer_id">CUSTOMER_NAME</DD_ATTR_DCOL>
+			<DD_ATTR_DKEY id="ddm_elements.customer_id">[+FIRM_ID]+@</DD_ATTR_DKEY>
+			<DD_ATTR_DTAB id="ddm_elements.customer_id">ARM_CUSTMAST    </DD_ATTR_DTAB>
+			<DD_ATTR_LABL id="ddm_elements.customer_id">Customer ID</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.customer_id">Cust ID</DD_ATTR_LABS>
+			<DD_ATTR_PADC id="ddm_elements.customer_id">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.customer_id">R</DD_ATTR_PADJ>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>SUMM_DTL        </DD_DATA_NAME>
-			<DD_ATTR_SEQ>02</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>S   </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Summary</DD_ATTR_LDAT_DS>
+		<RECORD id="ddm_elements.summ_dtl">
+			<DD_DATA_NAME id="ddm_elements.summ_dtl">SUMM_DTL        </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.summ_dtl">Summary or Detail</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.summ_dtl">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.summ_dtl">1</DD_DATA_LENGTH>
+			<DD_SYSTEM_REC id="ddm_elements.summ_dtl">N</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.summ_dtl">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.summ_dtl">AR </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.summ_dtl">20061115</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.summ_dtl">20061115</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.summ_dtl">L</DD_ATTR_CTYP>
+			<DD_ATTR_LABL id="ddm_elements.summ_dtl">Summary or Detail</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.summ_dtl">Summary or Detail</DD_ATTR_LABS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>ORD_INV         </DD_DATA_NAME>
-			<DD_ATTR_SEQ>01</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>I   </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Invoices</DD_ATTR_LDAT_DS>
+		<RECORD id="ddm_elements.ord_inv">
+			<DD_DATA_NAME id="ddm_elements.ord_inv">ORD_INV         </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.ord_inv">Order or Invoice</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.ord_inv">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.ord_inv">1</DD_DATA_LENGTH>
+			<ASC_COMP_ID id="ddm_elements.ord_inv">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.ord_inv">AR </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.ord_inv">20061115</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.ord_inv">20061115</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.ord_inv">L</DD_ATTR_CTYP>
+			<DD_ATTR_LABL id="ddm_elements.ord_inv">Order or Invoice</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.ord_inv">Order or Invoice</DD_ATTR_LABS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>ORD_INV         </DD_DATA_NAME>
-			<DD_ATTR_SEQ>02</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>O   </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Orders</DD_ATTR_LDAT_DS>
+		<RECORD id="ddm_elements.beg_ord_inv">
+			<DD_DATA_NAME id="ddm_elements.beg_ord_inv">BEG_ORD_INV     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.beg_ord_inv">Beginning Order or Invoice</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.beg_ord_inv">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.beg_ord_inv">7</DD_DATA_LENGTH>
+			<ASC_COMP_ID id="ddm_elements.beg_ord_inv">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.beg_ord_inv">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.beg_ord_inv">20061115</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.beg_ord_inv">20061115</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.beg_ord_inv">E</DD_ATTR_CTYP>
+			<DD_ATTR_LABL id="ddm_elements.beg_ord_inv">Beginning Order or Invoice</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.beg_ord_inv">Beginning Ord/Inv   </DD_ATTR_LABS>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>ADS_MASKS</ID>
-		<RECORD>
-			<FIRM_ID>01</FIRM_ID>
-			<DD_SYSTEM_ID>AR</DD_SYSTEM_ID>
-			<DD_MASK_TYPE>I</DD_MASK_TYPE>
-			<DD_ATTR_MSKI>00-0000</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>00-0000</DD_ATTR_MSKO>
+	<ALIAS id="ddm_element_ldat">
+		<ID id="ddm_element_ldat">DDM_ELEMENT_LDAT</ID>
+		<RECORD id="ddm_element_ldat.summ_dtl01">
+			<DD_DATA_NAME id="ddm_element_ldat.summ_dtl01">SUMM_DTL        </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.summ_dtl01">01</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.summ_dtl01">D   </DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.summ_dtl01">Detail</DD_ATTR_LDAT_DS>
+		</RECORD>
+		<RECORD id="ddm_element_ldat.summ_dtl02">
+			<DD_DATA_NAME id="ddm_element_ldat.summ_dtl02">SUMM_DTL        </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.summ_dtl02">02</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.summ_dtl02">S   </DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.summ_dtl02">Summary</DD_ATTR_LDAT_DS>
+		</RECORD>
+		<RECORD id="ddm_element_ldat.ord_inv01">
+			<DD_DATA_NAME id="ddm_element_ldat.ord_inv01">ORD_INV         </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.ord_inv01">01</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.ord_inv01">I   </DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.ord_inv01">Invoices</DD_ATTR_LDAT_DS>
+		</RECORD>
+		<RECORD id="ddm_element_ldat.ord_inv02">
+			<DD_DATA_NAME id="ddm_element_ldat.ord_inv02">ORD_INV         </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.ord_inv02">02</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.ord_inv02">O   </DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.ord_inv02">Orders</DD_ATTR_LDAT_DS>
 		</RECORD>
 	</ALIAS>
 </ARR_ORDINVHIST>

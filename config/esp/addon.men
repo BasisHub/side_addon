@@ -165,12 +165,12 @@ Control de inventario^IVMENU^M^^^im_menua_inventory.png^N^01007514^IV
 	Entrada de transacción de inventario^IVE_TRANSHDR^T^IVE_TRANSHDR^^im_menui_table.png^N^01007514^IV^
 	Registro de transacción de inventario^IVR_TRANSREG^A^^[+DIR_PGM]ivr_transregister.aon^im_menui_report.png^N^01007514^IV^
 	Entrada de transferencias de inventario^IVE_TRANSFER^T^IVE_TRANSFER^^im_menui_table.png^N^01007514^IV^
-	Registro de transferencia de inventario^IVR_GA^T^^ivr_ga.aon^im_menui_report.png^N^01007514^IV
+	Registro de transferencia de inventario^IVR_TRANSFER^A^^ivr_transferreg.aon^im_menui_report.png^N^01007514^IV^
 	Cambios de costo^IVMENU_COSTS^G^^^im_menua_miscellaneous.png^N^01007514^IV
-		Entrada de cambios de costo^IVE_GA^T^^ive_ga.aon^im_menui_table.png^N^01007514^IV
-		Entrada de cambios de costo por porcentaje^IVE_JA^T^^ive_ja.aon^im_menui_table.png^N^01007514^IV
-		Informe de valoración de cambios de costo^IVR_WA^T^^ivr_wa.aon^im_menui_report.png^N^01007514^IV
-		Registro de cambio de costo^IVR_JA^T^^ivr_ja.aon^im_menui_report.png^N^01007514^IV
+		Entrada de cambios de costo^IVE_COSTCHG^T^IVE_COSTCHG^ive_ga.aon^im_menui_table.png^N^01007514^IV^
+		Registro de cambio de costo^IVR_COSTCHREG^T^IVR_COSTCHGREG^ivr_ja.aon^im_menui_report.png^N^01007514^IV
+		Informe de valoración de cambios de costo^IVR_COSTCHGVALUE^T^IVR_COSTCHGVALUE^ivr_wa.aon^im_menui_report.png^N^01007514^IV
+		Cambios de costo por porcentaje^IVR_COSTCHGBYPCT^T^IVR_COSTCHGBYPCT^ivr_ja.aon^im_menui_update.png^N^01007514^IV^
 	Cambios de precio^IVMENU_PRICES^G^^^im_menua_miscellaneous.png^N^01007514^IV
 		Entrada de cambios de precio^IVE_EA^T^^ive_ea.aon^im_menui_table.png^N^01007514^IV
 		Entrada de cambios de precio por porcentaje^IVE_HA^T^^ive_ha.aon^im_menui_table.png^N^01007514^IV
@@ -201,9 +201,6 @@ Control de inventario^IVMENU^M^^^im_menua_inventory.png^N^01007514^IV
 		Lista de detalle de artículos^IVR_ITEMDETAIL^T^IVR_ITEMDETAIL^^im_menui_report.png^N^01007514^IV
 		Etiquetas de artículos de inventario^IVR_ITEMLABELS^T^IVR_ITEMLABELS^ivr_1a.aon^im_menui_report.png^N^01007514^IV
 	Inventario en lotes/en series^IVMENU_LOTS^G^^^im_menua_miscellaneous.png^N^01007514^IV
-		Historial de consultas por artículo^IVM_FA^T^^ivm_fa.aon^im_menui_table.png^N^01007514^IV
-		Historial de consultas por cliente^IVM_IA^T^^ivm_ia.aon^im_menui_table.png^N^01007514^IV
-		Historial de consultas por proveedor^IVM_JA^T^^ivm_ja.aon^im_menui_table.png^N^01007514^IV
 		Informe de historial de número de lote/de serie por artículo^IVR_LSTRANHIST^T^IVR_LSTRANHIST^^im_menui_report.png^N^01007514^IV
 		Historial de número de lote/de serie por cliente^IVR_LOTCUSTHIST^T^IVR_LOTCUSTHIST^^im_menui_report.png^N^01007514^IV
 		Historial de número de lote/de serie por proveedor^IVR_LOTVENDHIST^T^IVR_LOTVENDHIST^^im_menui_report.png^N^01007514^IV

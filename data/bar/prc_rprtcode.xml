@@ -1,345 +1,346 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <PRC_RPRTCODE>
-	<ALIAS>
-		<ID>DDM_TABLES</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>PRC_RPRTCODE    </DD_TABLE_ALIAS>
-			<DD_ALIAS_DESC>Report Code</DD_ALIAS_DESC>
-			<DD_TABLE_PATH>[+PRDATA]</DD_TABLE_PATH>
-			<DD_ALIAS_TYPE>X</DD_ALIAS_TYPE>
-			<DD_SYSTEM_REC>N</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>PR </ASC_PROD_ID>
-			<ASC_LICENSE_ID>D6BC7B6A85FA34CA1743B4DD21C85D7A</ASC_LICENSE_ID>
-			<DD_EXPORT_DATA>Y</DD_EXPORT_DATA>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080701</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE>20080701</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME>103110</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM>[+DIR_CPP]prc_rprtcode_cpt.bbj</DD_ATTR_CPGM>
-			<DD_ATTR_FTYP>T</DD_ATTR_FTYP>
-			<DD_ATTR_SLEV>zzzz</DD_ATTR_SLEV>
-			<DD_ATTR_WINT>Report Code</DD_ATTR_WINT>
+	<ALIAS id="ddm_tables">
+		<ID id="ddm_tables">DDM_TABLES</ID>
+		<RECORD id="ddm_tables.prc_rprtcode">
+			<DD_TABLE_ALIAS id="ddm_tables.prc_rprtcode">PRC_RPRTCODE    </DD_TABLE_ALIAS>
+			<DD_ALIAS_DESC id="ddm_tables.prc_rprtcode">Report Code</DD_ALIAS_DESC>
+			<DD_TABLE_PATH id="ddm_tables.prc_rprtcode">[+PRDATA]</DD_TABLE_PATH>
+			<DD_ALIAS_TYPE id="ddm_tables.prc_rprtcode">V</DD_ALIAS_TYPE>
+			<DD_SYSTEM_REC id="ddm_tables.prc_rprtcode">N</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_tables.prc_rprtcode">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_tables.prc_rprtcode">PR </ASC_PROD_ID>
+			<ASC_VERSION_ID id="ddm_tables.prc_rprtcode">8.0</ASC_VERSION_ID>
+			<ASC_LICENSE_ID id="ddm_tables.prc_rprtcode">D6BC7B6A85FA34CA1743B4DD21C85D7A</ASC_LICENSE_ID>
+			<DD_EXPORT_DATA id="ddm_tables.prc_rprtcode">Y</DD_EXPORT_DATA>
+			<DD_CREATE_DATE id="ddm_tables.prc_rprtcode">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_tables.prc_rprtcode">20090325</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.prc_rprtcode">20090325</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.prc_rprtcode">090416</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.prc_rprtcode">[+DIR_CPP]prc_rprtcode_cpt.bbj</DD_ATTR_CPGM>
+			<DD_ATTR_FTYP id="ddm_tables.prc_rprtcode">T</DD_ATTR_FTYP>
+			<DD_ATTR_SLEV id="ddm_tables.prc_rprtcode">zzzz</DD_ATTR_SLEV>
+			<DD_ATTR_WINT id="ddm_tables.prc_rprtcode">Report Code</DD_ATTR_WINT>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_AOPT</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>PRC_RPRTCODE    </DD_TABLE_ALIAS>
-			<DD_ATTR_SEQ>01</DD_ATTR_SEQ>
-			<DD_ATTR_AOPT>Code Listing</DD_ATTR_AOPT>
-			<DD_ATTR_AOPT_CD>CLST</DD_ATTR_AOPT_CD>
-			<DD_ATTR_AOPT_FM>M</DD_ATTR_AOPT_FM>
+	<ALIAS id="ddm_table_aopt">
+		<ID id="ddm_table_aopt">DDM_TABLE_AOPT</ID>
+		<RECORD id="ddm_table_aopt.prc_rprtcode01">
+			<DD_TABLE_ALIAS id="ddm_table_aopt.prc_rprtcode01">PRC_RPRTCODE    </DD_TABLE_ALIAS>
+			<DD_ATTR_SEQ id="ddm_table_aopt.prc_rprtcode01">01</DD_ATTR_SEQ>
+			<DD_ATTR_AOPT id="ddm_table_aopt.prc_rprtcode01">Code Listing</DD_ATTR_AOPT>
+			<DD_ATTR_AOPT_CD id="ddm_table_aopt.prc_rprtcode01">CLST</DD_ATTR_AOPT_CD>
+			<DD_ATTR_AOPT_FM id="ddm_table_aopt.prc_rprtcode01">M</DD_ATTR_AOPT_FM>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_CPRO</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>PRC_RPRTCODE    </DD_TABLE_ALIAS>
-			<DD_ATTR_CPRO>AOPT</DD_ATTR_CPRO>
+	<ALIAS id="ddm_table_cpro">
+		<ID id="ddm_table_cpro">DDM_TABLE_CPRO</ID>
+		<RECORD id="ddm_table_cpro.prc_rprtcodeaopt">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.prc_rprtcodeaopt">PRC_RPRTCODE    </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.prc_rprtcodeaopt">AOPT</DD_ATTR_CPRO>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_TPLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>PRC_RPRTCODE    </DD_TABLE_ALIAS>
-			<DD_FILE_NAME>prm-10</DD_FILE_NAME>
-			<DD_TABLE_TPL>firm_id:c(2),record_id_h:c(1),report_type:c(1),report_code:c(2),pr_rpt_title:c(10),chk_reg_col:c(2),chk_hist_col:c(2*)</DD_TABLE_TPL>
+	<ALIAS id="ddm_table_tpls">
+		<ID id="ddm_table_tpls">DDM_TABLE_TPLS</ID>
+		<RECORD id="ddm_table_tpls.prc_rprtcode">
+			<DD_TABLE_ALIAS id="ddm_table_tpls.prc_rprtcode">PRC_RPRTCODE    </DD_TABLE_ALIAS>
+			<DD_FILE_NAME id="ddm_table_tpls.prc_rprtcode">prm-10</DD_FILE_NAME>
+			<DD_TABLE_TPL id="ddm_table_tpls.prc_rprtcode">firm_id:c(2),record_id_h:c(1),report_type:c(1),report_code:c(2),pr_rpt_title:c(10),chk_reg_col:c(2),chk_hist_col:c(2*)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_KEYS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>PRC_RPRTCODE    </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_KEY_DESC>Primary</DD_KEY_DESC>
-			<DD_KEY_ID>PRIMARY         </DD_KEY_ID>
+	<ALIAS id="ddm_keys">
+		<ID id="ddm_keys">DDM_KEYS</ID>
+		<RECORD id="ddm_keys.prc_rprtcode00">
+			<DD_TABLE_ALIAS id="ddm_keys.prc_rprtcode00">PRC_RPRTCODE    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_keys.prc_rprtcode00">00</DD_KEY_NUMBER>
+			<DD_KEY_DESC id="ddm_keys.prc_rprtcode00">Primary</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.prc_rprtcode00">PRIMARY         </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_KEY_SEGS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>PRC_RPRTCODE    </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>01</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>FIRM_ID         </DD_SEGMENT_COL>
-			<DD_SEGMENT_POS>0</DD_SEGMENT_POS>
-			<DD_SEGMENT_OFF>0</DD_SEGMENT_OFF>
-			<DD_SEGMENT_LEN>0</DD_SEGMENT_LEN>
+	<ALIAS id="ddm_key_segs">
+		<ID id="ddm_key_segs">DDM_KEY_SEGS</ID>
+		<RECORD id="ddm_key_segs.prc_rprtcode0001">
+			<DD_TABLE_ALIAS id="ddm_key_segs.prc_rprtcode0001">PRC_RPRTCODE    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.prc_rprtcode0001">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.prc_rprtcode0001">01</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.prc_rprtcode0001">FIRM_ID         </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.prc_rprtcode0001">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.prc_rprtcode0001">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.prc_rprtcode0001">0</DD_SEGMENT_LEN>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>PRC_RPRTCODE    </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>02</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>RECORD_ID_H     </DD_SEGMENT_COL>
-			<DD_SEGMENT_POS>0</DD_SEGMENT_POS>
-			<DD_SEGMENT_OFF>0</DD_SEGMENT_OFF>
-			<DD_SEGMENT_LEN>0</DD_SEGMENT_LEN>
+		<RECORD id="ddm_key_segs.prc_rprtcode0002">
+			<DD_TABLE_ALIAS id="ddm_key_segs.prc_rprtcode0002">PRC_RPRTCODE    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.prc_rprtcode0002">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.prc_rprtcode0002">02</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.prc_rprtcode0002">RECORD_ID_H     </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.prc_rprtcode0002">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.prc_rprtcode0002">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.prc_rprtcode0002">0</DD_SEGMENT_LEN>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>PRC_RPRTCODE    </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>03</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>REPORT_TYPE     </DD_SEGMENT_COL>
-			<DD_SEGMENT_POS>0</DD_SEGMENT_POS>
-			<DD_SEGMENT_OFF>0</DD_SEGMENT_OFF>
-			<DD_SEGMENT_LEN>0</DD_SEGMENT_LEN>
+		<RECORD id="ddm_key_segs.prc_rprtcode0003">
+			<DD_TABLE_ALIAS id="ddm_key_segs.prc_rprtcode0003">PRC_RPRTCODE    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.prc_rprtcode0003">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.prc_rprtcode0003">03</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.prc_rprtcode0003">REPORT_TYPE     </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.prc_rprtcode0003">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.prc_rprtcode0003">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.prc_rprtcode0003">0</DD_SEGMENT_LEN>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>PRC_RPRTCODE    </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>04</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>REPORT_CODE     </DD_SEGMENT_COL>
-			<DD_SEGMENT_POS>0</DD_SEGMENT_POS>
-			<DD_SEGMENT_OFF>0</DD_SEGMENT_OFF>
-			<DD_SEGMENT_LEN>0</DD_SEGMENT_LEN>
-		</RECORD>
-	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_COLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>PRC_RPRTCODE    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>001</DD_SEQUENCE>
-			<DD_DATA_NAME>FIRM_ID         </DD_DATA_NAME>
-			<DD_DVAR_NAME>FIRM_ID         </DD_DVAR_NAME>
-			<DD_COL_REPEATS>1</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL>2</DD_ATTR_MAXL>
-			<DD_ATTR_PROM>Firm ID</DD_ATTR_PROM>
-			<DD_ATTR_TIND>1</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>PRC_RPRTCODE    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>002</DD_SEQUENCE>
-			<DD_DATA_NAME>RECORD_ID_H     </DD_DATA_NAME>
-			<DD_DVAR_NAME>RECORD_ID_H     </DD_DVAR_NAME>
-			<DD_COL_REPEATS>1</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL>1</DD_ATTR_MAXL>
-			<DD_ATTR_PROM>"H"</DD_ATTR_PROM>
-			<DD_ATTR_TIND>2</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>PRC_RPRTCODE    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>003</DD_SEQUENCE>
-			<DD_DATA_NAME>REPORT_TYPE     </DD_DATA_NAME>
-			<DD_DVAR_NAME>REPORT_TYPE     </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL>1</DD_ATTR_MAXL>
-			<DD_ATTR_PROM>Report Type</DD_ATTR_PROM>
-			<DD_ATTR_TIND>3</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>PRC_RPRTCODE    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>004</DD_SEQUENCE>
-			<DD_DATA_NAME>REPORT_CODE     </DD_DATA_NAME>
-			<DD_DVAR_NAME>REPORT_CODE     </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL>2</DD_ATTR_MAXL>
-			<DD_ATTR_PROM>PR Report Code</DD_ATTR_PROM>
-			<DD_ATTR_TIND>4</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>PRC_RPRTCODE    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>005</DD_SEQUENCE>
-			<DD_DATA_NAME>PR_RPT_TITLE    </DD_DATA_NAME>
-			<DD_DVAR_NAME>PR_RPT_TITLE    </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL>10</DD_ATTR_MAXL>
-			<DD_ATTR_PROM>Payroll Report Heading</DD_ATTR_PROM>
-			<DD_ATTR_TIND>5</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>PRC_RPRTCODE    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>006</DD_SEQUENCE>
-			<DD_DATA_NAME>CHK_REG_COL     </DD_DATA_NAME>
-			<DD_DVAR_NAME>CHK_REG_COL     </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL>2</DD_ATTR_MAXL>
-			<DD_ATTR_PROM>PR Check Register Column</DD_ATTR_PROM>
-			<DD_ATTR_TIND>6</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>PRC_RPRTCODE    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>007</DD_SEQUENCE>
-			<DD_DATA_NAME>CHK_HIST_COL    </DD_DATA_NAME>
-			<DD_DVAR_NAME>CHK_HIST_COL    </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL>2</DD_ATTR_MAXL>
-			<DD_ATTR_PROM>PR Check History Column</DD_ATTR_PROM>
-			<DD_ATTR_TIND>7</DD_ATTR_TIND>
+		<RECORD id="ddm_key_segs.prc_rprtcode0004">
+			<DD_TABLE_ALIAS id="ddm_key_segs.prc_rprtcode0004">PRC_RPRTCODE    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.prc_rprtcode0004">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.prc_rprtcode0004">04</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.prc_rprtcode0004">REPORT_CODE     </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.prc_rprtcode0004">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.prc_rprtcode0004">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.prc_rprtcode0004">0</DD_SEGMENT_LEN>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_COLUMN_OPTS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>PRC_RPRTCODE    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>FIRM_ID         </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>O</DD_ATTR_OPTS>
+	<ALIAS id="ddm_table_cols">
+		<ID id="ddm_table_cols">DDM_TABLE_COLS</ID>
+		<RECORD id="ddm_table_cols.prc_rprtcode001">
+			<DD_TABLE_ALIAS id="ddm_table_cols.prc_rprtcode001">PRC_RPRTCODE    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.prc_rprtcode001">001</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.prc_rprtcode001">FIRM_ID         </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.prc_rprtcode001">FIRM_ID         </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.prc_rprtcode001">1</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.prc_rprtcode001">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.prc_rprtcode001">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.prc_rprtcode001">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.prc_rprtcode001">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.prc_rprtcode001">2</DD_ATTR_MAXL>
+			<DD_ATTR_PROM id="ddm_table_cols.prc_rprtcode001">Firm ID</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.prc_rprtcode001">1</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>PRC_RPRTCODE    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>RECORD_ID_H     </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>O</DD_ATTR_OPTS>
+		<RECORD id="ddm_table_cols.prc_rprtcode002">
+			<DD_TABLE_ALIAS id="ddm_table_cols.prc_rprtcode002">PRC_RPRTCODE    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.prc_rprtcode002">002</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.prc_rprtcode002">RECORD_ID_H     </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.prc_rprtcode002">RECORD_ID_H     </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.prc_rprtcode002">1</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.prc_rprtcode002">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.prc_rprtcode002">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.prc_rprtcode002">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.prc_rprtcode002">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.prc_rprtcode002">1</DD_ATTR_MAXL>
+			<DD_ATTR_PROM id="ddm_table_cols.prc_rprtcode002">"H"</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.prc_rprtcode002">2</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.prc_rprtcode003">
+			<DD_TABLE_ALIAS id="ddm_table_cols.prc_rprtcode003">PRC_RPRTCODE    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.prc_rprtcode003">003</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.prc_rprtcode003">REPORT_TYPE     </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.prc_rprtcode003">REPORT_TYPE     </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.prc_rprtcode003">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.prc_rprtcode003">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.prc_rprtcode003">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.prc_rprtcode003">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.prc_rprtcode003">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.prc_rprtcode003">1</DD_ATTR_MAXL>
+			<DD_ATTR_PROM id="ddm_table_cols.prc_rprtcode003">Report Type</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.prc_rprtcode003">3</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.prc_rprtcode004">
+			<DD_TABLE_ALIAS id="ddm_table_cols.prc_rprtcode004">PRC_RPRTCODE    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.prc_rprtcode004">004</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.prc_rprtcode004">REPORT_CODE     </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.prc_rprtcode004">REPORT_CODE     </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.prc_rprtcode004">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.prc_rprtcode004">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.prc_rprtcode004">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.prc_rprtcode004">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.prc_rprtcode004">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.prc_rprtcode004">2</DD_ATTR_MAXL>
+			<DD_ATTR_PROM id="ddm_table_cols.prc_rprtcode004">PR Report Code</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.prc_rprtcode004">4</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.prc_rprtcode005">
+			<DD_TABLE_ALIAS id="ddm_table_cols.prc_rprtcode005">PRC_RPRTCODE    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.prc_rprtcode005">005</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.prc_rprtcode005">PR_RPT_TITLE    </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.prc_rprtcode005">PR_RPT_TITLE    </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.prc_rprtcode005">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.prc_rprtcode005">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.prc_rprtcode005">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.prc_rprtcode005">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.prc_rprtcode005">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.prc_rprtcode005">10</DD_ATTR_MAXL>
+			<DD_ATTR_PROM id="ddm_table_cols.prc_rprtcode005">Payroll Report Heading</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.prc_rprtcode005">5</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.prc_rprtcode006">
+			<DD_TABLE_ALIAS id="ddm_table_cols.prc_rprtcode006">PRC_RPRTCODE    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.prc_rprtcode006">006</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.prc_rprtcode006">CHK_REG_COL     </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.prc_rprtcode006">CHK_REG_COL     </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.prc_rprtcode006">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.prc_rprtcode006">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.prc_rprtcode006">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.prc_rprtcode006">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.prc_rprtcode006">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.prc_rprtcode006">2</DD_ATTR_MAXL>
+			<DD_ATTR_PROM id="ddm_table_cols.prc_rprtcode006">PR Check Register Column</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.prc_rprtcode006">6</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.prc_rprtcode007">
+			<DD_TABLE_ALIAS id="ddm_table_cols.prc_rprtcode007">PRC_RPRTCODE    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.prc_rprtcode007">007</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.prc_rprtcode007">CHK_HIST_COL    </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.prc_rprtcode007">CHK_HIST_COL    </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.prc_rprtcode007">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.prc_rprtcode007">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.prc_rprtcode007">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.prc_rprtcode007">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.prc_rprtcode007">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.prc_rprtcode007">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.prc_rprtcode007">2</DD_ATTR_MAXL>
+			<DD_ATTR_PROM id="ddm_table_cols.prc_rprtcode007">PR Check History Column</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.prc_rprtcode007">7</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_ELEMENTS</ID>
-		<RECORD>
-			<DD_DATA_NAME>FIRM_ID         </DD_DATA_NAME>
-			<DD_DESCRIPTION>Firm ID</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>2</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SYSTEM_REC>Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060425</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>H</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Firm ID</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Firm ID</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>00</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>00</DD_ATTR_MSKO>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>R</DD_ATTR_PADJ>
-			<DD_ATTR_PVAL>stbl("+FIRM_ID")</DD_ATTR_PVAL>
+	<ALIAS id="ddm_column_opts">
+		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
+		<RECORD id="ddm_column_opts.prc_rprtcodefirm_ido">
+			<DD_TABLE_ALIAS id="ddm_column_opts.prc_rprtcodefirm_ido">PRC_RPRTCODE    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.prc_rprtcodefirm_ido">FIRM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.prc_rprtcodefirm_ido">O</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>RECORD_ID_H     </DD_DATA_NAME>
-			<DD_DESCRIPTION>"H"                           </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>1</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>H</DD_ATTR_LABL>
-			<DD_ATTR_LABS>H</DD_ATTR_LABS>
-			<DD_ATTR_PVAL>"H"</DD_ATTR_PVAL>
+		<RECORD id="ddm_column_opts.prc_rprtcoderecord_id_ho">
+			<DD_TABLE_ALIAS id="ddm_column_opts.prc_rprtcoderecord_id_ho">PRC_RPRTCODE    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.prc_rprtcoderecord_id_ho">RECORD_ID_H     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.prc_rprtcoderecord_id_ho">O</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>REPORT_TYPE     </DD_DATA_NAME>
-			<DD_DESCRIPTION>Report Type</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>1</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060428</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>L</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Report Type</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Rpt Type</DD_ATTR_LABS>
+	</ALIAS>
+	<ALIAS id="ddm_elements">
+		<ID id="ddm_elements">DDM_ELEMENTS</ID>
+		<RECORD id="ddm_elements.firm_id">
+			<DD_DATA_NAME id="ddm_elements.firm_id">FIRM_ID         </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.firm_id">Firm ID</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.firm_id">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.firm_id">2</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.firm_id"> </DD_MASK_TYPE>
+			<DD_SYSTEM_REC id="ddm_elements.firm_id">Y</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.firm_id">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.firm_id">BAR</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.firm_id">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.firm_id">20060425</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.firm_id">H</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.firm_id">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.firm_id">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABS>
+			<DD_ATTR_MSKI id="ddm_elements.firm_id">00</DD_ATTR_MSKI>
+			<DD_ATTR_MSKO id="ddm_elements.firm_id">00</DD_ATTR_MSKO>
+			<DD_ATTR_PADC id="ddm_elements.firm_id">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.firm_id">R</DD_ATTR_PADJ>
+			<DD_ATTR_PVAL id="ddm_elements.firm_id">stbl("+FIRM_ID")</DD_ATTR_PVAL>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>REPORT_CODE     </DD_DATA_NAME>
-			<DD_DESCRIPTION>PR Report Code</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>2</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060329</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>PR Report Code</DD_ATTR_LABL>
-			<DD_ATTR_LABS>PR Rpt Cd</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>00</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>00</DD_ATTR_MSKO>
+		<RECORD id="ddm_elements.record_id_h">
+			<DD_DATA_NAME id="ddm_elements.record_id_h">RECORD_ID_H     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.record_id_h">"H"                           </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.record_id_h">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.record_id_h">1</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.record_id_h"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.record_id_h">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.record_id_h">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.record_id_h">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.record_id_h">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.record_id_h">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.record_id_h">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.record_id_h">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.record_id_h">H</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.record_id_h">H</DD_ATTR_LABS>
+			<DD_ATTR_PVAL id="ddm_elements.record_id_h">"H"</DD_ATTR_PVAL>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>PR_RPT_TITLE    </DD_DATA_NAME>
-			<DD_DESCRIPTION>Payroll Report Heading        </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>10</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Payroll Report Heading</DD_ATTR_LABL>
-			<DD_ATTR_LABS>PR Rpt Heading</DD_ATTR_LABS>
+		<RECORD id="ddm_elements.report_type">
+			<DD_DATA_NAME id="ddm_elements.report_type">REPORT_TYPE     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.report_type">Report Type</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.report_type">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.report_type">1</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.report_type"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.report_type">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.report_type">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.report_type">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.report_type">20060428</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.report_type">L</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.report_type">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.report_type">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.report_type">Report Type</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.report_type">Rpt Type</DD_ATTR_LABS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>CHK_REG_COL     </DD_DATA_NAME>
-			<DD_DESCRIPTION>PR Check Register Column      </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>2</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>PR Check Register Column</DD_ATTR_LABL>
-			<DD_ATTR_LABS>PR Chk Reg Col</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>00</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>00</DD_ATTR_MSKO>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>R</DD_ATTR_PADJ>
+		<RECORD id="ddm_elements.report_code">
+			<DD_DATA_NAME id="ddm_elements.report_code">REPORT_CODE     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.report_code">PR Report Code</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.report_code">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.report_code">2</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.report_code"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.report_code">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.report_code">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.report_code">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.report_code">20060329</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.report_code">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.report_code">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.report_code">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.report_code">PR Report Code</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.report_code">PR Rpt Cd</DD_ATTR_LABS>
+			<DD_ATTR_MSKI id="ddm_elements.report_code">00</DD_ATTR_MSKI>
+			<DD_ATTR_MSKO id="ddm_elements.report_code">00</DD_ATTR_MSKO>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>CHK_HIST_COL    </DD_DATA_NAME>
-			<DD_DESCRIPTION>PR Check History Column       </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>2</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>PR Check History Column</DD_ATTR_LABL>
-			<DD_ATTR_LABS>PR Chk Hist Col</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>00</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>00</DD_ATTR_MSKO>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>R</DD_ATTR_PADJ>
+		<RECORD id="ddm_elements.pr_rpt_title">
+			<DD_DATA_NAME id="ddm_elements.pr_rpt_title">PR_RPT_TITLE    </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.pr_rpt_title">Payroll Report Heading        </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.pr_rpt_title">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.pr_rpt_title">10</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.pr_rpt_title"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.pr_rpt_title">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.pr_rpt_title">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.pr_rpt_title">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.pr_rpt_title">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.pr_rpt_title">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.pr_rpt_title">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.pr_rpt_title">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.pr_rpt_title">Payroll Report Heading</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.pr_rpt_title">PR Rpt Heading</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.chk_reg_col">
+			<DD_DATA_NAME id="ddm_elements.chk_reg_col">CHK_REG_COL     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.chk_reg_col">PR Check Register Column      </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.chk_reg_col">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.chk_reg_col">2</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.chk_reg_col"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.chk_reg_col">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.chk_reg_col">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.chk_reg_col">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.chk_reg_col">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.chk_reg_col">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.chk_reg_col">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.chk_reg_col">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.chk_reg_col">PR Check Register Column</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.chk_reg_col">PR Chk Reg Col</DD_ATTR_LABS>
+			<DD_ATTR_MSKI id="ddm_elements.chk_reg_col">00</DD_ATTR_MSKI>
+			<DD_ATTR_MSKO id="ddm_elements.chk_reg_col">00</DD_ATTR_MSKO>
+			<DD_ATTR_PADC id="ddm_elements.chk_reg_col">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.chk_reg_col">R</DD_ATTR_PADJ>
+		</RECORD>
+		<RECORD id="ddm_elements.chk_hist_col">
+			<DD_DATA_NAME id="ddm_elements.chk_hist_col">CHK_HIST_COL    </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.chk_hist_col">PR Check History Column       </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.chk_hist_col">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.chk_hist_col">2</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.chk_hist_col"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.chk_hist_col">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.chk_hist_col">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.chk_hist_col">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.chk_hist_col">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.chk_hist_col">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.chk_hist_col">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.chk_hist_col">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.chk_hist_col">PR Check History Column</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.chk_hist_col">PR Chk Hist Col</DD_ATTR_LABS>
+			<DD_ATTR_MSKI id="ddm_elements.chk_hist_col">00</DD_ATTR_MSKI>
+			<DD_ATTR_MSKO id="ddm_elements.chk_hist_col">00</DD_ATTR_MSKO>
+			<DD_ATTR_PADC id="ddm_elements.chk_hist_col">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.chk_hist_col">R</DD_ATTR_PADJ>
 		</RECORD>
 	</ALIAS>
 </PRC_RPRTCODE>

@@ -1,360 +1,334 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <ADE_EXECCOST>
-	<ALIAS>
-		<ID>DDM_TABLES</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>ADE_EXECCOST    </DD_TABLE_ALIAS>
-			<DD_ALIAS_DESC>Open Orders/Cost Amounts</DD_ALIAS_DESC>
-			<DD_FILE_NAME>ade-05</DD_FILE_NAME>
-			<DD_TABLE_PATH>[+ADDATA]</DD_TABLE_PATH>
-			<DD_ALIAS_TYPE>X</DD_ALIAS_TYPE>
-			<DD_NBR_RECORD>0</DD_NBR_RECORD>
-			<DD_SYSTEM_REC>N</DD_SYSTEM_REC>
-			<DD_SYSTEM_ID>AD</DD_SYSTEM_ID>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AD </ASC_PROD_ID>
-			<ASC_LICENSE_ID>5768BE5F46F77F880209B5C226363B2D</ASC_LICENSE_ID>
-			<DD_EXPORT_DATA>Y</DD_EXPORT_DATA>
-			<DD_CREATE_DATE>20060404</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080130</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE>20080130</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME>135032</DD_LSTSYNC_TIME>
-			<DD_ATTR_FTYP>X</DD_ATTR_FTYP>
-			<DD_ATTR_SLEV>zzzz</DD_ATTR_SLEV>
-			<DD_ATTR_WINT>Open Orders/Cost Amounts</DD_ATTR_WINT>
+	<ALIAS id="ddm_tables">
+		<ID id="ddm_tables">DDM_TABLES</ID>
+		<RECORD id="ddm_tables.ade_execcost">
+			<DD_TABLE_ALIAS id="ddm_tables.ade_execcost">ADE_EXECCOST    </DD_TABLE_ALIAS>
+			<DD_ALIAS_DESC id="ddm_tables.ade_execcost">Open Orders/Cost Amounts</DD_ALIAS_DESC>
+			<DD_FILE_NAME id="ddm_tables.ade_execcost">ade-05</DD_FILE_NAME>
+			<DD_TABLE_PATH id="ddm_tables.ade_execcost">[+ADDATA]</DD_TABLE_PATH>
+			<DD_ALIAS_TYPE id="ddm_tables.ade_execcost">V</DD_ALIAS_TYPE>
+			<DD_NBR_RECORD id="ddm_tables.ade_execcost">0</DD_NBR_RECORD>
+			<DD_SYSTEM_REC id="ddm_tables.ade_execcost">N</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_tables.ade_execcost">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_tables.ade_execcost">AD </ASC_PROD_ID>
+			<ASC_VERSION_ID id="ddm_tables.ade_execcost">8.0</ASC_VERSION_ID>
+			<ASC_LICENSE_ID id="ddm_tables.ade_execcost">5768BE5F46F77F880209B5C226363B2D</ASC_LICENSE_ID>
+			<DD_EXPORT_DATA id="ddm_tables.ade_execcost">Y</DD_EXPORT_DATA>
+			<DD_CREATE_DATE id="ddm_tables.ade_execcost">20060404</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_tables.ade_execcost">20090325</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ade_execcost">20090325</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ade_execcost">090414</DD_LSTSYNC_TIME>
+			<DD_ATTR_FTYP id="ddm_tables.ade_execcost">X</DD_ATTR_FTYP>
+			<DD_ATTR_SLEV id="ddm_tables.ade_execcost">zzzz</DD_ATTR_SLEV>
+			<DD_ATTR_WINT id="ddm_tables.ade_execcost">Open Orders/Cost Amounts</DD_ATTR_WINT>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_TPLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>ADE_EXECCOST    </DD_TABLE_ALIAS>
-			<DD_FILE_NAME>ade-05</DD_FILE_NAME>
-			<DD_TABLE_TPL>firm_id:c(2),full_year:c(4),month:c(2*),reserved_str:c(32*),reserved_num:n(1*),ord_cst_ship_01:n(7*),ord_cst_ship_02:n(7*),ord_cst_ship_03:n(7*),ord_cst_ship_04:n(7*),ord_cst_ship_05:n(7*),ord_cst_ship_06:n(7*),ord_cst_ship_07:n(7*),ord_cst_ship_08:n(7*),ord_cst_ship_09:n(7*),ord_cst_ship_10:n(7*),ord_cst_ship_11:n(7*),ord_cst_ship_12:n(7*),ord_cst_ship_13:n(7*),ord_cst_ship_14:n(7*),ord_cst_ship_15:n(7*),ord_cst_ship_16:n(7*),ord_cst_ship_17:n(7*),ord_cst_ship_18:n(7*),ord_cst_ship_19:n(7*),ord_cst_ship_20:n(7*),ord_cst_ship_21:n(7*),ord_cst_ship_22:n(7*),ord_cst_ship_23:n(7*),ord_cst_ship_24:n(7*),ord_cst_ship_25:n(7*),ord_cst_ship_26:n(7*),ord_cst_ship_27:n(7*),ord_cst_ship_28:n(7*),ord_cst_ship_29:n(7*),ord_cst_ship_30:n(7*),ord_cst_ship_31:n(7*),no_ord_ship_01:n(4*),no_ord_ship_02:n(4*),no_ord_ship_03:n(4*),no_ord_ship_04:n(4*),no_ord_ship_05:n(4*),no_ord_ship_06:n(4*),no_ord_ship_07:n(4*),no_ord_ship_08:n(4*),no_ord_ship_09:n(4*),no_ord_ship_10:n(4*),no_ord_ship_11:n(4*),no_ord_ship_12:n(4*),no_ord_ship_13:n(4*),no_ord_ship_14:n(4*),no_ord_ship_15:n(4*),no_ord_ship_16:n(4*),no_ord_ship_17:n(4*),no_ord_ship_18:n(4*),no_ord_ship_19:n(4*),no_ord_ship_20:n(4*),no_ord_ship_21:n(4*),no_ord_ship_22:n(4*),no_ord_ship_23:n(4*),no_ord_ship_24:n(4*),no_ord_ship_25:n(4*),no_ord_ship_26:n(4*),no_ord_ship_27:n(4*),no_ord_ship_28:n(4*),no_ord_ship_29:n(4*),no_ord_ship_30:n(4*),no_ord_ship_31:n(4*),no_lns_ship_01:n(4*),no_lns_ship_02:n(4*),no_lns_ship_03:n(4*),no_lns_ship_04:n(4*),no_lns_ship_05:n(4*),no_lns_ship_06:n(4*),no_lns_ship_07:n(4*),no_lns_ship_08:n(4*),no_lns_ship_09:n(4*),no_lns_ship_10:n(4*),no_lns_ship_11:n(4*),no_lns_ship_12:n(4*),no_lns_ship_13:n(4*),no_lns_ship_14:n(4*),no_lns_ship_15:n(4*),no_lns_ship_16:n(4*),no_lns_ship_17:n(4*),no_lns_ship_18:n(4*),no_lns_ship_19:n(4*),no_lns_ship_20:n(4*),no_lns_ship_21:n(4*),no_lns_ship_22:n(4*),no_lns_ship_23:n(4*),no_lns_ship_24:n(4*),no_lns_ship_25:n(4*),no_lns_ship_26:n(4*),no_lns_ship_27:n(4*),no_lns_ship_28:n(4*),no_lns_ship_29:n(4*),no_lns_ship_30:n(4*),no_lns_ship_31:n(4*)</DD_TABLE_TPL>
+	<ALIAS id="ddm_table_tpls">
+		<ID id="ddm_table_tpls">DDM_TABLE_TPLS</ID>
+		<RECORD id="ddm_table_tpls.ade_execcost">
+			<DD_TABLE_ALIAS id="ddm_table_tpls.ade_execcost">ADE_EXECCOST    </DD_TABLE_ALIAS>
+			<DD_FILE_NAME id="ddm_table_tpls.ade_execcost">ade-05</DD_FILE_NAME>
+			<DD_TABLE_TPL id="ddm_table_tpls.ade_execcost">firm_id:c(2),full_year:c(4),month:c(2*),reserved_str:c(32*),reserved_num:n(1*),ord_cst_ship_01:n(7*),ord_cst_ship_02:n(7*),ord_cst_ship_03:n(7*),ord_cst_ship_04:n(7*),ord_cst_ship_05:n(7*),ord_cst_ship_06:n(7*),ord_cst_ship_07:n(7*),ord_cst_ship_08:n(7*),ord_cst_ship_09:n(7*),ord_cst_ship_10:n(7*),ord_cst_ship_11:n(7*),ord_cst_ship_12:n(7*),ord_cst_ship_13:n(7*),ord_cst_ship_14:n(7*),ord_cst_ship_15:n(7*),ord_cst_ship_16:n(7*),ord_cst_ship_17:n(7*),ord_cst_ship_18:n(7*),ord_cst_ship_19:n(7*),ord_cst_ship_20:n(7*),ord_cst_ship_21:n(7*),ord_cst_ship_22:n(7*),ord_cst_ship_23:n(7*),ord_cst_ship_24:n(7*),ord_cst_ship_25:n(7*),ord_cst_ship_26:n(7*),ord_cst_ship_27:n(7*),ord_cst_ship_28:n(7*),ord_cst_ship_29:n(7*),ord_cst_ship_30:n(7*),ord_cst_ship_31:n(7*),no_ord_ship_01:n(4*),no_ord_ship_02:n(4*),no_ord_ship_03:n(4*),no_ord_ship_04:n(4*),no_ord_ship_05:n(4*),no_ord_ship_06:n(4*),no_ord_ship_07:n(4*),no_ord_ship_08:n(4*),no_ord_ship_09:n(4*),no_ord_ship_10:n(4*),no_ord_ship_11:n(4*),no_ord_ship_12:n(4*),no_ord_ship_13:n(4*),no_ord_ship_14:n(4*),no_ord_ship_15:n(4*),no_ord_ship_16:n(4*),no_ord_ship_17:n(4*),no_ord_ship_18:n(4*),no_ord_ship_19:n(4*),no_ord_ship_20:n(4*),no_ord_ship_21:n(4*),no_ord_ship_22:n(4*),no_ord_ship_23:n(4*),no_ord_ship_24:n(4*),no_ord_ship_25:n(4*),no_ord_ship_26:n(4*),no_ord_ship_27:n(4*),no_ord_ship_28:n(4*),no_ord_ship_29:n(4*),no_ord_ship_30:n(4*),no_ord_ship_31:n(4*),no_lns_ship_01:n(4*),no_lns_ship_02:n(4*),no_lns_ship_03:n(4*),no_lns_ship_04:n(4*),no_lns_ship_05:n(4*),no_lns_ship_06:n(4*),no_lns_ship_07:n(4*),no_lns_ship_08:n(4*),no_lns_ship_09:n(4*),no_lns_ship_10:n(4*),no_lns_ship_11:n(4*),no_lns_ship_12:n(4*),no_lns_ship_13:n(4*),no_lns_ship_14:n(4*),no_lns_ship_15:n(4*),no_lns_ship_16:n(4*),no_lns_ship_17:n(4*),no_lns_ship_18:n(4*),no_lns_ship_19:n(4*),no_lns_ship_20:n(4*),no_lns_ship_21:n(4*),no_lns_ship_22:n(4*),no_lns_ship_23:n(4*),no_lns_ship_24:n(4*),no_lns_ship_25:n(4*),no_lns_ship_26:n(4*),no_lns_ship_27:n(4*),no_lns_ship_28:n(4*),no_lns_ship_29:n(4*),no_lns_ship_30:n(4*),no_lns_ship_31:n(4*)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_KEYS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>ADE_EXECCOST    </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_KEY_DESC>Primary</DD_KEY_DESC>
-			<DD_KEY_ID>PRIMARY         </DD_KEY_ID>
+	<ALIAS id="ddm_keys">
+		<ID id="ddm_keys">DDM_KEYS</ID>
+		<RECORD id="ddm_keys.ade_execcost00">
+			<DD_TABLE_ALIAS id="ddm_keys.ade_execcost00">ADE_EXECCOST    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_keys.ade_execcost00">00</DD_KEY_NUMBER>
+			<DD_KEY_DESC id="ddm_keys.ade_execcost00">Primary</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.ade_execcost00">PRIMARY         </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_KEY_SEGS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>ADE_EXECCOST    </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>01</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>FIRM_ID         </DD_SEGMENT_COL>
-			<DD_SEGMENT_POS>0</DD_SEGMENT_POS>
-			<DD_SEGMENT_OFF>0</DD_SEGMENT_OFF>
-			<DD_SEGMENT_LEN>0</DD_SEGMENT_LEN>
+	<ALIAS id="ddm_key_segs">
+		<ID id="ddm_key_segs">DDM_KEY_SEGS</ID>
+		<RECORD id="ddm_key_segs.ade_execcost0001">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ade_execcost0001">ADE_EXECCOST    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ade_execcost0001">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ade_execcost0001">01</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ade_execcost0001">FIRM_ID         </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ade_execcost0001">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ade_execcost0001">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ade_execcost0001">0</DD_SEGMENT_LEN>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>ADE_EXECCOST    </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>02</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>FULL_YEAR       </DD_SEGMENT_COL>
-			<DD_SEGMENT_POS>0</DD_SEGMENT_POS>
-			<DD_SEGMENT_OFF>0</DD_SEGMENT_OFF>
-			<DD_SEGMENT_LEN>0</DD_SEGMENT_LEN>
+		<RECORD id="ddm_key_segs.ade_execcost0002">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ade_execcost0002">ADE_EXECCOST    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ade_execcost0002">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ade_execcost0002">02</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ade_execcost0002">FULL_YEAR       </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ade_execcost0002">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ade_execcost0002">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ade_execcost0002">0</DD_SEGMENT_LEN>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>ADE_EXECCOST    </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>03</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>MONTH           </DD_SEGMENT_COL>
-			<DD_SEGMENT_POS>0</DD_SEGMENT_POS>
-			<DD_SEGMENT_OFF>0</DD_SEGMENT_OFF>
-			<DD_SEGMENT_LEN>0</DD_SEGMENT_LEN>
-		</RECORD>
-	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_COLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>ADE_EXECCOST    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>001</DD_SEQUENCE>
-			<DD_DATA_NAME>FIRM_ID         </DD_DATA_NAME>
-			<DD_DVAR_NAME>FIRM_ID         </DD_DVAR_NAME>
-			<DD_COL_REPEATS>1</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Firm ID</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>ADE_EXECCOST    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>002</DD_SEQUENCE>
-			<DD_DATA_NAME>FULL_YEAR       </DD_DATA_NAME>
-			<DD_DVAR_NAME>FULL_YEAR       </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Four Digit Year [YYYY]</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>ADE_EXECCOST    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>003</DD_SEQUENCE>
-			<DD_DATA_NAME>MONTH           </DD_DATA_NAME>
-			<DD_DVAR_NAME>MONTH           </DD_DVAR_NAME>
-			<DD_COL_REPEATS>1</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Month</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>ADE_EXECCOST    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>004</DD_SEQUENCE>
-			<DD_DATA_NAME>RESERVED_STR    </DD_DATA_NAME>
-			<DD_DVAR_NAME>RESERVED_STR    </DD_DVAR_NAME>
-			<DD_COL_REPEATS>32</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Reserved For Addon Use</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>ADE_EXECCOST    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>005</DD_SEQUENCE>
-			<DD_DATA_NAME>RESERVED_NUM    </DD_DATA_NAME>
-			<DD_DVAR_NAME>RESERVED_NUM    </DD_DVAR_NAME>
-			<DD_COL_REPEATS>1</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Reserved For Addon Use</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>ADE_EXECCOST    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>006</DD_SEQUENCE>
-			<DD_DATA_NAME>ORD_CST_SHIP    </DD_DATA_NAME>
-			<DD_DVAR_NAME>ORD_CST_SHIP    </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>31</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Order Cost by Ship Date</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>ADE_EXECCOST    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>007</DD_SEQUENCE>
-			<DD_DATA_NAME>NO_ORD_SHIP     </DD_DATA_NAME>
-			<DD_DVAR_NAME>NO_ORD_SHIP     </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>31</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Number of Orders by Ship Date</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>ADE_EXECCOST    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>008</DD_SEQUENCE>
-			<DD_DATA_NAME>NO_LNS_SHIP     </DD_DATA_NAME>
-			<DD_DVAR_NAME>NO_LNS_SHIP     </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>31</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Number of Lines by Ship Date</DD_ATTR_PROM>
+		<RECORD id="ddm_key_segs.ade_execcost0003">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ade_execcost0003">ADE_EXECCOST    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ade_execcost0003">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ade_execcost0003">03</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ade_execcost0003">MONTH           </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ade_execcost0003">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ade_execcost0003">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ade_execcost0003">0</DD_SEGMENT_LEN>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_COLUMN_OPTS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>ADE_EXECCOST    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>FIRM_ID         </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>O</DD_ATTR_OPTS>
+	<ALIAS id="ddm_table_cols">
+		<ID id="ddm_table_cols">DDM_TABLE_COLS</ID>
+		<RECORD id="ddm_table_cols.ade_execcost001">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ade_execcost001">ADE_EXECCOST    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ade_execcost001">001</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ade_execcost001">FIRM_ID         </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ade_execcost001">FIRM_ID         </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ade_execcost001">1</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ade_execcost001">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ade_execcost001">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.ade_execcost001">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ade_execcost001">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.ade_execcost001">Firm ID</DD_ATTR_PROM>
+		</RECORD>
+		<RECORD id="ddm_table_cols.ade_execcost002">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ade_execcost002">ADE_EXECCOST    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ade_execcost002">002</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ade_execcost002">FULL_YEAR       </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ade_execcost002">FULL_YEAR       </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ade_execcost002">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ade_execcost002">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ade_execcost002">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.ade_execcost002">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ade_execcost002">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.ade_execcost002">Four Digit Year [YYYY]</DD_ATTR_PROM>
+		</RECORD>
+		<RECORD id="ddm_table_cols.ade_execcost003">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ade_execcost003">ADE_EXECCOST    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ade_execcost003">003</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ade_execcost003">MONTH           </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ade_execcost003">MONTH           </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ade_execcost003">1</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ade_execcost003">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ade_execcost003">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.ade_execcost003">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.ade_execcost003">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ade_execcost003">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.ade_execcost003">Month</DD_ATTR_PROM>
+		</RECORD>
+		<RECORD id="ddm_table_cols.ade_execcost004">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ade_execcost004">ADE_EXECCOST    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ade_execcost004">004</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ade_execcost004">RESERVED_STR    </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ade_execcost004">RESERVED_STR    </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ade_execcost004">32</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ade_execcost004">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ade_execcost004">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.ade_execcost004">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.ade_execcost004">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ade_execcost004">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.ade_execcost004">Reserved For Addon Use</DD_ATTR_PROM>
+		</RECORD>
+		<RECORD id="ddm_table_cols.ade_execcost005">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ade_execcost005">ADE_EXECCOST    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ade_execcost005">005</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ade_execcost005">RESERVED_NUM    </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ade_execcost005">RESERVED_NUM    </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ade_execcost005">1</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ade_execcost005">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ade_execcost005">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.ade_execcost005">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.ade_execcost005">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ade_execcost005">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.ade_execcost005">Reserved For Addon Use</DD_ATTR_PROM>
+		</RECORD>
+		<RECORD id="ddm_table_cols.ade_execcost006">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ade_execcost006">ADE_EXECCOST    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ade_execcost006">006</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ade_execcost006">ORD_CST_SHIP    </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ade_execcost006">ORD_CST_SHIP    </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ade_execcost006">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ade_execcost006">31</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ade_execcost006">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.ade_execcost006">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.ade_execcost006">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ade_execcost006">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.ade_execcost006">Order Cost by Ship Date</DD_ATTR_PROM>
+		</RECORD>
+		<RECORD id="ddm_table_cols.ade_execcost007">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ade_execcost007">ADE_EXECCOST    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ade_execcost007">007</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ade_execcost007">NO_ORD_SHIP     </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ade_execcost007">NO_ORD_SHIP     </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ade_execcost007">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ade_execcost007">31</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ade_execcost007">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.ade_execcost007">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.ade_execcost007">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ade_execcost007">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.ade_execcost007">Number of Orders by Ship Date</DD_ATTR_PROM>
+		</RECORD>
+		<RECORD id="ddm_table_cols.ade_execcost008">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ade_execcost008">ADE_EXECCOST    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ade_execcost008">008</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ade_execcost008">NO_LNS_SHIP     </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ade_execcost008">NO_LNS_SHIP     </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ade_execcost008">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ade_execcost008">31</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ade_execcost008">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.ade_execcost008">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.ade_execcost008">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ade_execcost008">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.ade_execcost008">Number of Lines by Ship Date</DD_ATTR_PROM>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_ELEMENTS</ID>
-		<RECORD>
-			<DD_DATA_NAME>FIRM_ID         </DD_DATA_NAME>
-			<DD_DESCRIPTION>Firm ID</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>2</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<DD_SYSTEM_REC>Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060425</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>H</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Firm ID</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Firm ID</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>00</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>00</DD_ATTR_MSKO>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>R</DD_ATTR_PADJ>
-			<DD_ATTR_PVAL>stbl("+FIRM_ID")</DD_ATTR_PVAL>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>FULL_YEAR       </DD_DATA_NAME>
-			<DD_DESCRIPTION>Four Digit Year [YYYY]        </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>4</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Four Digit Year [YYYY]</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Four Digit Yr [YYYY]</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>0000</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>0000</DD_ATTR_MSKO>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>R</DD_ATTR_PADJ>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>MONTH           </DD_DATA_NAME>
-			<DD_DESCRIPTION>Month                         </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>2</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Month</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Month</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>00</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>00</DD_ATTR_MSKO>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>R</DD_ATTR_PADJ>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>RESERVED_STR    </DD_DATA_NAME>
-			<DD_DESCRIPTION>Reserved For Addon Use        </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>1</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<DD_SYSTEM_REC>Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>X</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Reserved For Addon Use</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Res For Addon Use</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>RESERVED_NUM    </DD_DATA_NAME>
-			<DD_DESCRIPTION>Reserved For Addon Use        </DD_DESCRIPTION>
-			<DD_DATA_TYPE>N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>1</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<DD_SYSTEM_REC>Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>X</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Reserved For Addon Use</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Res For Addon Use</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>ORD_CST_SHIP    </DD_DATA_NAME>
-			<DD_DESCRIPTION>Order Cost by Ship Date       </DD_DESCRIPTION>
-			<DD_DATA_TYPE>N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>7</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>AR</DD_SYSTEM_ID>
-			<DD_MASK_TYPE>A</DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>N</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Order Cost by Ship Date</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Ord Cst by Ship Date</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>NO_ORD_SHIP     </DD_DATA_NAME>
-			<DD_DESCRIPTION>Number of Orders by Ship Date </DD_DESCRIPTION>
-			<DD_DATA_TYPE>N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>4</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>N</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Number of Orders by Ship Date</DD_ATTR_LABL>
-			<DD_ATTR_LABS>No Ords by Ship Date</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>NO_LNS_SHIP     </DD_DATA_NAME>
-			<DD_DESCRIPTION>Number of Lines by Ship Date  </DD_DESCRIPTION>
-			<DD_DATA_TYPE>N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>4</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>N</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Number of Lines by Ship Date</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Lines by Ship Date</DD_ATTR_LABS>
+	<ALIAS id="ddm_column_opts">
+		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
+		<RECORD id="ddm_column_opts.ade_execcostfirm_ido">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ade_execcostfirm_ido">ADE_EXECCOST    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ade_execcostfirm_ido">FIRM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ade_execcostfirm_ido">O</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>ADS_MASKS</ID>
-		<RECORD>
-			<FIRM_ID>01</FIRM_ID>
-			<DD_SYSTEM_ID>AR</DD_SYSTEM_ID>
-			<DD_MASK_TYPE>A</DD_MASK_TYPE>
-			<DD_ATTR_MSKI>#,###,##0.00-</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>#,###,##0.00-</DD_ATTR_MSKO>
+	<ALIAS id="ddm_elements">
+		<ID id="ddm_elements">DDM_ELEMENTS</ID>
+		<RECORD id="ddm_elements.firm_id">
+			<DD_DATA_NAME id="ddm_elements.firm_id">FIRM_ID         </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.firm_id">Firm ID</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.firm_id">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.firm_id">2</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.firm_id"> </DD_MASK_TYPE>
+			<DD_SYSTEM_REC id="ddm_elements.firm_id">Y</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.firm_id">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.firm_id">BAR</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.firm_id">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.firm_id">20060425</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.firm_id">H</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.firm_id">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.firm_id">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABS>
+			<DD_ATTR_MSKI id="ddm_elements.firm_id">00</DD_ATTR_MSKI>
+			<DD_ATTR_MSKO id="ddm_elements.firm_id">00</DD_ATTR_MSKO>
+			<DD_ATTR_PADC id="ddm_elements.firm_id">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.firm_id">R</DD_ATTR_PADJ>
+			<DD_ATTR_PVAL id="ddm_elements.firm_id">stbl("+FIRM_ID")</DD_ATTR_PVAL>
+		</RECORD>
+		<RECORD id="ddm_elements.full_year">
+			<DD_DATA_NAME id="ddm_elements.full_year">FULL_YEAR       </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.full_year">Four Digit Year [YYYY]        </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.full_year">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.full_year">4</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.full_year"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.full_year">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.full_year">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.full_year">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.full_year">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.full_year">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.full_year">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.full_year">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.full_year">Four Digit Year [YYYY]</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.full_year">Four Digit Yr [YYYY]</DD_ATTR_LABS>
+			<DD_ATTR_MSKI id="ddm_elements.full_year">0000</DD_ATTR_MSKI>
+			<DD_ATTR_MSKO id="ddm_elements.full_year">0000</DD_ATTR_MSKO>
+			<DD_ATTR_PADC id="ddm_elements.full_year">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.full_year">R</DD_ATTR_PADJ>
+		</RECORD>
+		<RECORD id="ddm_elements.month">
+			<DD_DATA_NAME id="ddm_elements.month">MONTH           </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.month">Month                         </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.month">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.month">2</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.month"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.month">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.month">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.month">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.month">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.month">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.month">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.month">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.month">Month</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.month">Month</DD_ATTR_LABS>
+			<DD_ATTR_MSKI id="ddm_elements.month">00</DD_ATTR_MSKI>
+			<DD_ATTR_MSKO id="ddm_elements.month">00</DD_ATTR_MSKO>
+			<DD_ATTR_PADC id="ddm_elements.month">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.month">R</DD_ATTR_PADJ>
+		</RECORD>
+		<RECORD id="ddm_elements.reserved_str">
+			<DD_DATA_NAME id="ddm_elements.reserved_str">RESERVED_STR    </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.reserved_str">Reserved For Addon Use        </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.reserved_str">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.reserved_str">1</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.reserved_str"> </DD_MASK_TYPE>
+			<DD_SYSTEM_REC id="ddm_elements.reserved_str">Y</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.reserved_str">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.reserved_str">BAR</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.reserved_str">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.reserved_str">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.reserved_str">X</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.reserved_str">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.reserved_str">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.reserved_str">Reserved For Addon Use</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.reserved_str">Res For Addon Use</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.reserved_num">
+			<DD_DATA_NAME id="ddm_elements.reserved_num">RESERVED_NUM    </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.reserved_num">Reserved For Addon Use        </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.reserved_num">N</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.reserved_num">1</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.reserved_num"> </DD_MASK_TYPE>
+			<DD_SYSTEM_REC id="ddm_elements.reserved_num">Y</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.reserved_num">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.reserved_num">BAR</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.reserved_num">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.reserved_num">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.reserved_num">X</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.reserved_num">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.reserved_num">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.reserved_num">Reserved For Addon Use</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.reserved_num">Res For Addon Use</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.ord_cst_ship">
+			<DD_DATA_NAME id="ddm_elements.ord_cst_ship">ORD_CST_SHIP    </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.ord_cst_ship">Order Cost by Ship Date       </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.ord_cst_ship">N</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.ord_cst_ship">7</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.ord_cst_ship">A</DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.ord_cst_ship">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.ord_cst_ship">AR </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.ord_cst_ship">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.ord_cst_ship">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.ord_cst_ship">N</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.ord_cst_ship">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.ord_cst_ship">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.ord_cst_ship">Order Cost by Ship Date</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.ord_cst_ship">Ord Cst by Ship Date</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.no_ord_ship">
+			<DD_DATA_NAME id="ddm_elements.no_ord_ship">NO_ORD_SHIP     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.no_ord_ship">Number of Orders by Ship Date </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.no_ord_ship">N</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.no_ord_ship">4</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.no_ord_ship"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.no_ord_ship">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.no_ord_ship">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.no_ord_ship">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.no_ord_ship">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.no_ord_ship">N</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.no_ord_ship">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.no_ord_ship">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.no_ord_ship">Number of Orders by Ship Date</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.no_ord_ship">No Ords by Ship Date</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.no_lns_ship">
+			<DD_DATA_NAME id="ddm_elements.no_lns_ship">NO_LNS_SHIP     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.no_lns_ship">Number of Lines by Ship Date  </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.no_lns_ship">N</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.no_lns_ship">4</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.no_lns_ship"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.no_lns_ship">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.no_lns_ship">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.no_lns_ship">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.no_lns_ship">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.no_lns_ship">N</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.no_lns_ship">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.no_lns_ship">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.no_lns_ship">Number of Lines by Ship Date</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.no_lns_ship">Lines by Ship Date</DD_ATTR_LABS>
 		</RECORD>
 	</ALIAS>
 </ADE_EXECCOST>

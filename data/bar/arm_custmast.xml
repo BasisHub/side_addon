@@ -7,19 +7,20 @@
 			<DD_ALIAS_DESC id="ddm_tables.arm_custmast">Customer Master</DD_ALIAS_DESC>
 			<DD_FILE_NAME id="ddm_tables.arm_custmast">arm-01</DD_FILE_NAME>
 			<DD_TABLE_PATH id="ddm_tables.arm_custmast">[+ARDATA]</DD_TABLE_PATH>
-			<DD_ALIAS_TYPE id="ddm_tables.arm_custmast">X</DD_ALIAS_TYPE>
+			<DD_ALIAS_TYPE id="ddm_tables.arm_custmast">V</DD_ALIAS_TYPE>
 			<DD_NBR_RECORD id="ddm_tables.arm_custmast">0</DD_NBR_RECORD>
 			<DD_RECORD_LEN id="ddm_tables.arm_custmast">399</DD_RECORD_LEN>
 			<DD_SYSTEM_REC id="ddm_tables.arm_custmast">N</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_tables.arm_custmast">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.arm_custmast">AR </ASC_PROD_ID>
+			<ASC_VERSION_ID id="ddm_tables.arm_custmast">8.0</ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.arm_custmast">B0AE4537C94866F0AF91493A5C8B7BCB</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.arm_custmast">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.arm_custmast">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.arm_custmast">20090107</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.arm_custmast">20090107</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.arm_custmast">120446</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.arm_custmast">[+DIR_CPP]arm_custmast_cpt.bbj</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.arm_custmast">20090325</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.arm_custmast">20090325</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.arm_custmast">090422</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.arm_custmast">/dev/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.arm_custmast">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.arm_custmast">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.arm_custmast">Customer Master</DD_ATTR_WINT>
@@ -350,7 +351,7 @@
 		<ID id="ddm_table_cpro">DDM_TABLE_CPRO</ID>
 		<RECORD id="ddm_table_cpro.arm_custmastaopt">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.arm_custmastaopt">ARM_CUSTMAST    </DD_TABLE_ALIAS>
-			<DD_ATTR_CPRO id="ddm_table_cpro.arm_custmastaopt">AOPT</DD_ATTR_CPRO>
+			<DD_ATTR_CPRO id="ddm_table_cpro.arm_custmastaopt">AOPT-ORIV</DD_ATTR_CPRO>
 		</RECORD>
 		<RECORD id="ddm_table_cpro.arm_custmastarea">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.arm_custmastarea">ARM_CUSTMAST    </DD_TABLE_ALIAS>
@@ -724,7 +725,7 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.arm_custmast002">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.arm_custmast002">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.arm_custmast002">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.arm_custmast002">[+DIR_CPP]arm_custmast_cpt.bbj</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.arm_custmast002">/dev/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.arm_custmast002">60</DD_ATTR_CTLW>
 			<DD_ATTR_MINL id="ddm_table_cols.arm_custmast002">2</DD_ATTR_MINL>
 			<DD_ATTR_MAXL id="ddm_table_cols.arm_custmast002">6</DD_ATTR_MAXL>
@@ -741,7 +742,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.arm_custmast003">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.arm_custmast003">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.arm_custmast003">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.arm_custmast003">[+DIR_CPP]arm_custmast_cpt.bbj</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.arm_custmast003">/dev/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.arm_custmast003">240</DD_ATTR_CTLW>
 			<DD_ATTR_MINL id="ddm_table_cols.arm_custmast003">1</DD_ATTR_MINL>
 			<DD_ATTR_MAXL id="ddm_table_cols.arm_custmast003">30</DD_ATTR_MAXL>
@@ -897,7 +898,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.arm_custmast012">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.arm_custmast012">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.arm_custmast012">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.arm_custmast012">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.arm_custmast012">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.arm_custmast012">80</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.arm_custmast013">
 			<DD_TABLE_ALIAS id="ddm_table_cols.arm_custmast013">ARM_CUSTMAST    </DD_TABLE_ALIAS>
@@ -1081,7 +1084,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.arm_custmast024">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.arm_custmast024">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.arm_custmast024">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.arm_custmast024">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.arm_custmast024">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.arm_custmast024">81</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.arm_custmast025">
 			<DD_TABLE_ALIAS id="ddm_table_cols.arm_custmast025">ARM_CUSTMAST    </DD_TABLE_ALIAS>
@@ -1227,6 +1232,51 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.arm_custmastaddr_line_4l">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.arm_custmastaddr_line_4l">ADDR_LINE_4     </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.arm_custmastaddr_line_4l">L</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.arm_custmastdsp_mtd_profitc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.arm_custmastdsp_mtd_profitc">ARM_CUSTMAST    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.arm_custmastdsp_mtd_profitc">DSP_MTD_PROFIT  </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.arm_custmastdsp_mtd_profitc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.arm_custmastdsp_mtd_prof_pctc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.arm_custmastdsp_mtd_prof_pctc">ARM_CUSTMAST    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.arm_custmastdsp_mtd_prof_pctc">DSP_MTD_PROF_PCT</DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.arm_custmastdsp_mtd_prof_pctc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.arm_custmastdsp_ytd_profitc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.arm_custmastdsp_ytd_profitc">ARM_CUSTMAST    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.arm_custmastdsp_ytd_profitc">DSP_YTD_PROFIT  </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.arm_custmastdsp_ytd_profitc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.arm_custmastdsp_ytd_prof_pctc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.arm_custmastdsp_ytd_prof_pctc">ARM_CUSTMAST    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.arm_custmastdsp_ytd_prof_pctc">DSP_YTD_PROF_PCT</DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.arm_custmastdsp_ytd_prof_pctc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.arm_custmastdsp_pri_profitc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.arm_custmastdsp_pri_profitc">ARM_CUSTMAST    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.arm_custmastdsp_pri_profitc">DSP_PRI_PROFIT  </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.arm_custmastdsp_pri_profitc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.arm_custmastdsp_pri_prof_pctc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.arm_custmastdsp_pri_prof_pctc">ARM_CUSTMAST    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.arm_custmastdsp_pri_prof_pctc">DSP_PRI_PROF_PCT</DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.arm_custmastdsp_pri_prof_pctc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.arm_custmastdsp_nxt_profitc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.arm_custmastdsp_nxt_profitc">ARM_CUSTMAST    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.arm_custmastdsp_nxt_profitc">DSP_NXT_PROFIT  </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.arm_custmastdsp_nxt_profitc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.arm_custmastdsp_nxt_prof_pctc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.arm_custmastdsp_nxt_prof_pctc">ARM_CUSTMAST    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.arm_custmastdsp_nxt_prof_pctc">DSP_NXT_PROF_PCT</DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.arm_custmastdsp_nxt_prof_pctc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.arm_custmastdsp_balancec">
+			<DD_TABLE_ALIAS id="ddm_column_opts.arm_custmastdsp_balancec">ARM_CUSTMAST    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.arm_custmastdsp_balancec">DSP_BALANCE     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.arm_custmastdsp_balancec">C</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">
@@ -1637,23 +1687,6 @@
 			<DD_ATTR_LABL id="ddm_elements.fob">Free On Board [FOB]</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.fob">FOB</DD_ATTR_LABS>
 		</RECORD>
-		<RECORD id="ddm_elements.reserved_str">
-			<DD_DATA_NAME id="ddm_elements.reserved_str">RESERVED_STR    </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.reserved_str">Reserved For Addon Use        </DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.reserved_str">C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.reserved_str">1</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.reserved_str"> </DD_MASK_TYPE>
-			<DD_SYSTEM_REC id="ddm_elements.reserved_str">Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID id="ddm_elements.reserved_str">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.reserved_str">BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.reserved_str">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.reserved_str">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP id="ddm_elements.reserved_str">X</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM id="ddm_elements.reserved_str">            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP id="ddm_elements.reserved_str">            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL id="ddm_elements.reserved_str">Reserved For Addon Use</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.reserved_str">Res For Addon Use</DD_ATTR_LABS>
-		</RECORD>
 		<RECORD id="ddm_elements.opened_date">
 			<DD_DATA_NAME id="ddm_elements.opened_date">OPENED_DATE     </DD_DATA_NAME>
 			<DD_DESCRIPTION id="ddm_elements.opened_date">Date Opened</DD_DESCRIPTION>
@@ -1707,133 +1740,6 @@
 			<DD_ATTR_MSKI id="ddm_elements.pct_value">##0.00-</DD_ATTR_MSKI>
 			<DD_ATTR_MSKO id="ddm_elements.pct_value">##0.00-</DD_ATTR_MSKO>
 			<DD_ATTR_PREC id="ddm_elements.pct_value">0</DD_ATTR_PREC>
-		</RECORD>
-		<RECORD id="ddm_elements.ytd_sales">
-			<DD_DATA_NAME id="ddm_elements.ytd_sales">YTD_SALES       </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.ytd_sales">YTD Sales</DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.ytd_sales">N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.ytd_sales">7</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.ytd_sales">A</DD_MASK_TYPE>
-			<ASC_COMP_ID id="ddm_elements.ytd_sales">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.ytd_sales">AR </ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.ytd_sales">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.ytd_sales">20061114</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP id="ddm_elements.ytd_sales">N</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM id="ddm_elements.ytd_sales">            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP id="ddm_elements.ytd_sales">            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL id="ddm_elements.ytd_sales">YTD Sales</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.ytd_sales">YTD Sales</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD id="ddm_elements.pct_value">
-			<DD_DATA_NAME id="ddm_elements.pct_value">PCT_VALUE       </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.pct_value">Percentage display</DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.pct_value">N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.pct_value">7</DD_DATA_LENGTH>
-			<ASC_COMP_ID id="ddm_elements.pct_value">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.pct_value">AR </ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.pct_value">20080206</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.pct_value">20080206</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW id="ddm_elements.pct_value">0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH id="ddm_elements.pct_value">0</DD_ATTR_CTLH>
-			<DD_ATTR_CTYP id="ddm_elements.pct_value">N</DD_ATTR_CTYP>
-			<DD_ATTR_LABL id="ddm_elements.pct_value">Percentage display</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.pct_value">Percentage display</DD_ATTR_LABS>
-			<DD_ATTR_MAXL id="ddm_elements.pct_value">0</DD_ATTR_MAXL>
-			<DD_ATTR_MAXR id="ddm_elements.pct_value">0</DD_ATTR_MAXR>
-			<DD_ATTR_MINL id="ddm_elements.pct_value">0</DD_ATTR_MINL>
-			<DD_ATTR_MSKI id="ddm_elements.pct_value">##0.00-</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO id="ddm_elements.pct_value">##0.00-</DD_ATTR_MSKO>
-			<DD_ATTR_PREC id="ddm_elements.pct_value">0</DD_ATTR_PREC>
-		</RECORD>
-		<RECORD id="ddm_elements.ytd_sales">
-			<DD_DATA_NAME id="ddm_elements.ytd_sales">YTD_SALES       </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.ytd_sales">YTD Sales</DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.ytd_sales">N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.ytd_sales">7</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.ytd_sales">A</DD_MASK_TYPE>
-			<ASC_COMP_ID id="ddm_elements.ytd_sales">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.ytd_sales">AR </ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.ytd_sales">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.ytd_sales">20061114</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP id="ddm_elements.ytd_sales">N</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM id="ddm_elements.ytd_sales">            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP id="ddm_elements.ytd_sales">            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL id="ddm_elements.ytd_sales">YTD Sales</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.ytd_sales">YTD Sales</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD id="ddm_elements.pct_value">
-			<DD_DATA_NAME id="ddm_elements.pct_value">PCT_VALUE       </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.pct_value">Percentage display</DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.pct_value">N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.pct_value">7</DD_DATA_LENGTH>
-			<ASC_COMP_ID id="ddm_elements.pct_value">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.pct_value">AR </ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.pct_value">20080206</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.pct_value">20080206</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW id="ddm_elements.pct_value">0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH id="ddm_elements.pct_value">0</DD_ATTR_CTLH>
-			<DD_ATTR_CTYP id="ddm_elements.pct_value">N</DD_ATTR_CTYP>
-			<DD_ATTR_LABL id="ddm_elements.pct_value">Percentage display</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.pct_value">Percentage display</DD_ATTR_LABS>
-			<DD_ATTR_MAXL id="ddm_elements.pct_value">0</DD_ATTR_MAXL>
-			<DD_ATTR_MAXR id="ddm_elements.pct_value">0</DD_ATTR_MAXR>
-			<DD_ATTR_MINL id="ddm_elements.pct_value">0</DD_ATTR_MINL>
-			<DD_ATTR_MSKI id="ddm_elements.pct_value">##0.00-</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO id="ddm_elements.pct_value">##0.00-</DD_ATTR_MSKO>
-			<DD_ATTR_PREC id="ddm_elements.pct_value">0</DD_ATTR_PREC>
-		</RECORD>
-		<RECORD id="ddm_elements.ytd_sales">
-			<DD_DATA_NAME id="ddm_elements.ytd_sales">YTD_SALES       </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.ytd_sales">YTD Sales</DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.ytd_sales">N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.ytd_sales">7</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.ytd_sales">A</DD_MASK_TYPE>
-			<ASC_COMP_ID id="ddm_elements.ytd_sales">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.ytd_sales">AR </ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.ytd_sales">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.ytd_sales">20061114</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP id="ddm_elements.ytd_sales">N</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM id="ddm_elements.ytd_sales">            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP id="ddm_elements.ytd_sales">            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL id="ddm_elements.ytd_sales">YTD Sales</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.ytd_sales">YTD Sales</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD id="ddm_elements.pct_value">
-			<DD_DATA_NAME id="ddm_elements.pct_value">PCT_VALUE       </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.pct_value">Percentage display</DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.pct_value">N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.pct_value">7</DD_DATA_LENGTH>
-			<ASC_COMP_ID id="ddm_elements.pct_value">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.pct_value">AR </ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.pct_value">20080206</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.pct_value">20080206</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW id="ddm_elements.pct_value">0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH id="ddm_elements.pct_value">0</DD_ATTR_CTLH>
-			<DD_ATTR_CTYP id="ddm_elements.pct_value">N</DD_ATTR_CTYP>
-			<DD_ATTR_LABL id="ddm_elements.pct_value">Percentage display</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.pct_value">Percentage display</DD_ATTR_LABS>
-			<DD_ATTR_MAXL id="ddm_elements.pct_value">0</DD_ATTR_MAXL>
-			<DD_ATTR_MAXR id="ddm_elements.pct_value">0</DD_ATTR_MAXR>
-			<DD_ATTR_MINL id="ddm_elements.pct_value">0</DD_ATTR_MINL>
-			<DD_ATTR_MSKI id="ddm_elements.pct_value">##0.00-</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO id="ddm_elements.pct_value">##0.00-</DD_ATTR_MSKO>
-			<DD_ATTR_PREC id="ddm_elements.pct_value">0</DD_ATTR_PREC>
-		</RECORD>
-		<RECORD id="ddm_elements.ytd_sales">
-			<DD_DATA_NAME id="ddm_elements.ytd_sales">YTD_SALES       </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.ytd_sales">YTD Sales</DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.ytd_sales">N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.ytd_sales">7</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.ytd_sales">A</DD_MASK_TYPE>
-			<ASC_COMP_ID id="ddm_elements.ytd_sales">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.ytd_sales">AR </ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.ytd_sales">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.ytd_sales">20061114</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP id="ddm_elements.ytd_sales">N</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM id="ddm_elements.ytd_sales">            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP id="ddm_elements.ytd_sales">            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL id="ddm_elements.ytd_sales">YTD Sales</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.ytd_sales">YTD Sales</DD_ATTR_LABS>
 		</RECORD>
 	</ALIAS>
 </ARM_CUSTMAST>

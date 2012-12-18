@@ -7,22 +7,24 @@
 			<DD_ALIAS_DESC id="ddm_tables.ivm_lsmaster">Lot/Serial Number Master</DD_ALIAS_DESC>
 			<DD_FILE_NAME id="ddm_tables.ivm_lsmaster">ivm-07</DD_FILE_NAME>
 			<DD_TABLE_PATH id="ddm_tables.ivm_lsmaster">[+IVDATA]</DD_TABLE_PATH>
-			<DD_ALIAS_TYPE id="ddm_tables.ivm_lsmaster">X</DD_ALIAS_TYPE>
+			<DD_ALIAS_TYPE id="ddm_tables.ivm_lsmaster">V</DD_ALIAS_TYPE>
 			<DD_KEY_LENGTH id="ddm_tables.ivm_lsmaster">0</DD_KEY_LENGTH>
 			<DD_NBR_RECORD id="ddm_tables.ivm_lsmaster">0</DD_NBR_RECORD>
-			<DD_RECORD_LEN id="ddm_tables.ivm_lsmaster">322</DD_RECORD_LEN>
+			<DD_RECORD_LEN id="ddm_tables.ivm_lsmaster">0</DD_RECORD_LEN>
 			<DD_SYSTEM_REC id="ddm_tables.ivm_lsmaster">N</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_tables.ivm_lsmaster">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.ivm_lsmaster">IV </ASC_PROD_ID>
+			<ASC_VERSION_ID id="ddm_tables.ivm_lsmaster">8.0</ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.ivm_lsmaster">9D58FC3C7E8294649A704129391993F7</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ivm_lsmaster">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ivm_lsmaster">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ivm_lsmaster">20081125</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivm_lsmaster">20081125</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivm_lsmaster">114036</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ivm_lsmaster">20090325</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivm_lsmaster">20090325</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivm_lsmaster">090422</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ivm_lsmaster">../apps/aon/;</DD_ATTR_CPGM>
-			<DD_ATTR_DKNM id="ddm_tables.ivm_lsmaster">ALT_KEY_03      </DD_ATTR_DKNM>
+			<DD_ATTR_DKNM id="ddm_tables.ivm_lsmaster">ALT_KEY_03</DD_ATTR_DKNM>
 			<DD_ATTR_FTYP id="ddm_tables.ivm_lsmaster">T</DD_ATTR_FTYP>
+			<DD_ATTR_PTAB id="ddm_tables.ivm_lsmaster">IVM_ITEMWHSE    </DD_ATTR_PTAB>
 			<DD_ATTR_SLEV id="ddm_tables.ivm_lsmaster">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.ivm_lsmaster">Lot/Serial Number Master</DD_ATTR_WINT>
 		</RECORD>
@@ -91,6 +93,12 @@
 			<DD_KEY_NUMBER id="ddm_keys.ivm_lsmaster03">03</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.ivm_lsmaster03">Lots by Item_Whse</DD_KEY_DESC>
 			<DD_KEY_ID id="ddm_keys.ivm_lsmaster03">ALT_KEY_03      </DD_KEY_ID>
+		</RECORD>
+		<RECORD id="ddm_keys.ivm_lsmaster04">
+			<DD_TABLE_ALIAS id="ddm_keys.ivm_lsmaster04">IVM_LSMASTER    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_keys.ivm_lsmaster04">04</DD_KEY_NUMBER>
+			<DD_KEY_DESC id="ddm_keys.ivm_lsmaster04">By Closed Flag</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.ivm_lsmaster04">ALT_KEY_04      </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_key_segs">
@@ -203,6 +211,66 @@
 			<DD_SEGMENT_SEQ id="ddm_key_segs.ivm_lsmaster0304">04</DD_SEGMENT_SEQ>
 			<DD_SEGMENT_COL id="ddm_key_segs.ivm_lsmaster0304">LOTSER_NO       </DD_SEGMENT_COL>
 		</RECORD>
+		<RECORD id="ddm_key_segs.ivm_lsmaster0401">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ivm_lsmaster0401">IVM_LSMASTER    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ivm_lsmaster0401">04</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ivm_lsmaster0401">01</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ivm_lsmaster0401">FIRM_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ivm_lsmaster0401">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ivm_lsmaster0401">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ivm_lsmaster0401">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.ivm_lsmaster0401">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.ivm_lsmaster0401">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.ivm_lsmaster0401">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.ivm_lsmaster0402">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ivm_lsmaster0402">IVM_LSMASTER    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ivm_lsmaster0402">04</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ivm_lsmaster0402">02</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ivm_lsmaster0402">WAREHOUSE_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ivm_lsmaster0402">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ivm_lsmaster0402">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ivm_lsmaster0402">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.ivm_lsmaster0402">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.ivm_lsmaster0402">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.ivm_lsmaster0402">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.ivm_lsmaster0403">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ivm_lsmaster0403">IVM_LSMASTER    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ivm_lsmaster0403">04</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ivm_lsmaster0403">03</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ivm_lsmaster0403">ITEM_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ivm_lsmaster0403">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ivm_lsmaster0403">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ivm_lsmaster0403">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.ivm_lsmaster0403">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.ivm_lsmaster0403">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.ivm_lsmaster0403">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.ivm_lsmaster0404">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ivm_lsmaster0404">IVM_LSMASTER    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ivm_lsmaster0404">04</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ivm_lsmaster0404">04</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ivm_lsmaster0404">CLOSED_FLAG</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ivm_lsmaster0404">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ivm_lsmaster0404">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ivm_lsmaster0404">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.ivm_lsmaster0404">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.ivm_lsmaster0404">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.ivm_lsmaster0404">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.ivm_lsmaster0405">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ivm_lsmaster0405">IVM_LSMASTER    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ivm_lsmaster0405">04</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ivm_lsmaster0405">05</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ivm_lsmaster0405">LOTSER_NO</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ivm_lsmaster0405">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ivm_lsmaster0405">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ivm_lsmaster0405">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.ivm_lsmaster0405">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.ivm_lsmaster0405">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.ivm_lsmaster0405">N</DD_SEGMENT_MATH>
+		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_cols">
 		<ID id="ddm_table_cols">DDM_TABLE_COLS</ID>
@@ -231,6 +299,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.ivm_lsmaster002">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivm_lsmaster002">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_lsmaster002">35</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.ivm_lsmaster002">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.ivm_lsmaster002">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_lsmaster002">Warehouse ID</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_lsmaster002">3</DD_ATTR_TIND>
@@ -262,6 +331,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.ivm_lsmaster004">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivm_lsmaster004">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_lsmaster004">200</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.ivm_lsmaster004">0</DD_ATTR_CTLH>
 			<DD_ATTR_GHDR id="ddm_table_cols.ivm_lsmaster004">Lot Information</DD_ATTR_GHDR>
 			<DD_ATTR_LABL id="ddm_table_cols.ivm_lsmaster004">Lot/Serial No</DD_ATTR_LABL>
 			<DD_ATTR_MAXL id="ddm_table_cols.ivm_lsmaster004">20</DD_ATTR_MAXL>
@@ -276,7 +346,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ivm_lsmaster005">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ivm_lsmaster005">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivm_lsmaster005">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTLX id="ddm_table_cols.ivm_lsmaster005">-34</DD_ATTR_CTLX>
+			<DD_ATTR_CTLX id="ddm_table_cols.ivm_lsmaster005">-36</DD_ATTR_CTLX>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_lsmaster005">56</DD_ATTR_CTLW>
 			<DD_ATTR_LABL id="ddm_table_cols.ivm_lsmaster005">Lot/Serial Location</DD_ATTR_LABL>
 			<DD_ATTR_MAXL id="ddm_table_cols.ivm_lsmaster005">7</DD_ATTR_MAXL>
@@ -292,7 +362,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ivm_lsmaster006">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ivm_lsmaster006">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivm_lsmaster006">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ivm_lsmaster006">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_lsmaster006">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ivm_lsmaster006">27</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivm_lsmaster007">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivm_lsmaster007">IVM_LSMASTER    </DD_TABLE_ALIAS>
@@ -304,7 +376,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ivm_lsmaster007">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ivm_lsmaster007">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivm_lsmaster007">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTLX id="ddm_table_cols.ivm_lsmaster007">-34</DD_ATTR_CTLX>
+			<DD_ATTR_CTLX id="ddm_table_cols.ivm_lsmaster007">-36</DD_ATTR_CTLX>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_lsmaster007">320</DD_ATTR_CTLW>
 			<DD_ATTR_LABL id="ddm_table_cols.ivm_lsmaster007">Lot/Serial Comment</DD_ATTR_LABL>
 			<DD_ATTR_MAXL id="ddm_table_cols.ivm_lsmaster007">40</DD_ATTR_MAXL>
@@ -321,7 +393,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ivm_lsmaster008">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ivm_lsmaster008">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivm_lsmaster008">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTLX id="ddm_table_cols.ivm_lsmaster008">+34</DD_ATTR_CTLX>
+			<DD_ATTR_CTLX id="ddm_table_cols.ivm_lsmaster008">+36</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_cols.ivm_lsmaster008">-1</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_lsmaster008">35</DD_ATTR_CTLW>
 			<DD_ATTR_MAXL id="ddm_table_cols.ivm_lsmaster008">1</DD_ATTR_MAXL>
@@ -338,7 +410,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ivm_lsmaster009">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ivm_lsmaster009">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivm_lsmaster009">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTLX id="ddm_table_cols.ivm_lsmaster009">-34</DD_ATTR_CTLX>
+			<DD_ATTR_CTLX id="ddm_table_cols.ivm_lsmaster009">-36</DD_ATTR_CTLX>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_lsmaster009">48</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ivm_lsmaster009">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABS id="ddm_table_cols.ivm_lsmaster009">Vendor Num</DD_ATTR_LABS>
@@ -356,7 +428,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ivm_lsmaster010">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ivm_lsmaster010">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivm_lsmaster010">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ivm_lsmaster010">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_lsmaster010">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ivm_lsmaster010">28</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivm_lsmaster011">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivm_lsmaster011">IVM_LSMASTER    </DD_TABLE_ALIAS>
@@ -368,7 +442,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ivm_lsmaster011">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ivm_lsmaster011">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivm_lsmaster011">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTLX id="ddm_table_cols.ivm_lsmaster011">+34</DD_ATTR_CTLX>
+			<DD_ATTR_CTLX id="ddm_table_cols.ivm_lsmaster011">+36</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_cols.ivm_lsmaster011">-1</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_lsmaster011">70</DD_ATTR_CTLW>
 			<DD_ATTR_LABL id="ddm_table_cols.ivm_lsmaster011">Last Phys Date</DD_ATTR_LABL>
@@ -419,7 +493,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ivm_lsmaster014">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ivm_lsmaster014">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivm_lsmaster014">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTLX id="ddm_table_cols.ivm_lsmaster014">+13</DD_ATTR_CTLX>
+			<DD_ATTR_CTLX id="ddm_table_cols.ivm_lsmaster014">+15</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_cols.ivm_lsmaster014">-2</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_lsmaster014">70</DD_ATTR_CTLW>
 			<DD_ATTR_LABL id="ddm_table_cols.ivm_lsmaster014">Sold</DD_ATTR_LABL>
@@ -453,7 +527,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ivm_lsmaster016">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ivm_lsmaster016">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivm_lsmaster016">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTLX id="ddm_table_cols.ivm_lsmaster016">+15</DD_ATTR_CTLX>
+			<DD_ATTR_CTLX id="ddm_table_cols.ivm_lsmaster016">+17</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_cols.ivm_lsmaster016">-2</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_lsmaster016">70</DD_ATTR_CTLW>
 			<DD_ATTR_LABL id="ddm_table_cols.ivm_lsmaster016">Adjustment</DD_ATTR_LABL>
@@ -487,7 +561,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ivm_lsmaster018">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ivm_lsmaster018">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivm_lsmaster018">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTLX id="ddm_table_cols.ivm_lsmaster018">+15</DD_ATTR_CTLX>
+			<DD_ATTR_CTLX id="ddm_table_cols.ivm_lsmaster018">+18</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_cols.ivm_lsmaster018">-2</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_lsmaster018">70</DD_ATTR_CTLW>
 			<DD_ATTR_LABL id="ddm_table_cols.ivm_lsmaster018">Transfer Out</DD_ATTR_LABL>
@@ -554,7 +628,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ivm_lsmaster022">Y</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ivm_lsmaster022">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivm_lsmaster022">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTLX id="ddm_table_cols.ivm_lsmaster022">+34</DD_ATTR_CTLX>
+			<DD_ATTR_CTLX id="ddm_table_cols.ivm_lsmaster022">+36</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_cols.ivm_lsmaster022">-1</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_lsmaster022">56</DD_ATTR_CTLW>
 			<DD_ATTR_LABL id="ddm_table_cols.ivm_lsmaster022">Last Phys Count</DD_ATTR_LABL>
@@ -665,7 +739,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ivm_lsmaster029">Y</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ivm_lsmaster029">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivm_lsmaster029">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ivm_lsmaster029">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_lsmaster029">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ivm_lsmaster029">29</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivm_lsmaster030">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivm_lsmaster030">IVM_LSMASTER    </DD_TABLE_ALIAS>
@@ -677,7 +753,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ivm_lsmaster030">Y</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ivm_lsmaster030">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivm_lsmaster030">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ivm_lsmaster030">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_lsmaster030">Reserved For Dealer Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ivm_lsmaster030">30</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">
@@ -701,11 +779,6 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivm_lsmasterlotser_nob">IVM_LSMASTER    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ivm_lsmasterlotser_nob">LOTSER_NO       </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ivm_lsmasterlotser_nob">B</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD id="ddm_column_opts.ivm_lsmasterls_locationb">
-			<DD_TABLE_ALIAS id="ddm_column_opts.ivm_lsmasterls_locationb">IVM_LSMASTER    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.ivm_lsmasterls_locationb">LS_LOCATION     </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.ivm_lsmasterls_locationb">B</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.ivm_lsmasterls_commentsb">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivm_lsmasterls_commentsb">IVM_LSMASTER    </DD_TABLE_ALIAS>
@@ -934,9 +1007,12 @@
 			<DD_DATA_LENGTH id="ddm_elements.warehouse_id">2</DD_DATA_LENGTH>
 			<DD_MASK_TYPE id="ddm_elements.warehouse_id"> </DD_MASK_TYPE>
 			<ASC_COMP_ID id="ddm_elements.warehouse_id">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.warehouse_id">AON</ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.warehouse_id">IV </ASC_PROD_ID>
+			<LOCALIZATION_EX id="ddm_elements.warehouse_id">N</LOCALIZATION_EX>
 			<DD_CREATE_DATE id="ddm_elements.warehouse_id">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.warehouse_id">20061107</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.warehouse_id">20090206</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.warehouse_id">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.warehouse_id">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.warehouse_id">E</DD_ATTR_CTYP>
 			<DD_ATTR_DCOL id="ddm_elements.warehouse_id">SHORT_NAME      </DD_ATTR_DCOL>
 			<DD_ATTR_DCOM id="ddm_elements.warehouse_id">            </DD_ATTR_DCOM>
@@ -945,7 +1021,13 @@
 			<DD_ATTR_DTAB id="ddm_elements.warehouse_id">IVC_WHSECODE    </DD_ATTR_DTAB>
 			<DD_ATTR_LABL id="ddm_elements.warehouse_id">Warehouse ID</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.warehouse_id">Whse ID</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.warehouse_id">2</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.warehouse_id">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.warehouse_id">1</DD_ATTR_MINL>
 			<DD_ATTR_MSKI id="ddm_elements.warehouse_id">UU</DD_ATTR_MSKI>
+			<DD_ATTR_PADC id="ddm_elements.warehouse_id">20</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.warehouse_id">L</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.warehouse_id">0</DD_ATTR_PREC>
 			<DD_ATTR_PROM id="ddm_elements.warehouse_id">Enter a two-digit warehouse ID</DD_ATTR_PROM>
 		</RECORD>
 		<RECORD id="ddm_elements.item_id">
@@ -1091,23 +1173,6 @@
 			<DD_ATTR_PADJ id="ddm_elements.vendor_id">R</DD_ATTR_PADJ>
 			<DD_ATTR_PREC id="ddm_elements.vendor_id">0</DD_ATTR_PREC>
 			<DD_ATTR_PROM id="ddm_elements.vendor_id">Enter A Valid Vendor</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD id="ddm_elements.reserved_str">
-			<DD_DATA_NAME id="ddm_elements.reserved_str">RESERVED_STR    </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.reserved_str">Reserved For Addon Use        </DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.reserved_str">C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.reserved_str">1</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.reserved_str"> </DD_MASK_TYPE>
-			<DD_SYSTEM_REC id="ddm_elements.reserved_str">Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID id="ddm_elements.reserved_str">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.reserved_str">BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.reserved_str">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.reserved_str">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP id="ddm_elements.reserved_str">X</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM id="ddm_elements.reserved_str">            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP id="ddm_elements.reserved_str">            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL id="ddm_elements.reserved_str">Reserved For Addon Use</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.reserved_str">Res For Addon Use</DD_ATTR_LABS>
 		</RECORD>
 		<RECORD id="ddm_elements.lstphy_date">
 			<DD_DATA_NAME id="ddm_elements.lstphy_date">LSTPHY_DATE     </DD_DATA_NAME>

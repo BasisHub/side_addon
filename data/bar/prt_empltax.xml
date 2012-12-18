@@ -1,797 +1,739 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <PRT_EMPLTAX>
-	<ALIAS>
-		<ID>DDM_TABLES</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>PRT_EMPLTAX     </DD_TABLE_ALIAS>
-			<DD_ALIAS_DESC>Employee Tax History</DD_ALIAS_DESC>
-			<DD_FILE_NAME>prt-21</DD_FILE_NAME>
-			<DD_TABLE_PATH>[+PRDATA]</DD_TABLE_PATH>
-			<DD_ALIAS_TYPE>X</DD_ALIAS_TYPE>
-			<DD_KEY_LENGTH>0</DD_KEY_LENGTH>
-			<DD_NBR_RECORD>0</DD_NBR_RECORD>
-			<DD_RECORD_LEN>221</DD_RECORD_LEN>
-			<DD_SYSTEM_REC>N</DD_SYSTEM_REC>
-			<DD_SYSTEM_ID>PR</DD_SYSTEM_ID>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>PR </ASC_PROD_ID>
-			<ASC_LICENSE_ID>524620B766DFFEC1C48E9C1FCCB2BD67</ASC_LICENSE_ID>
-			<DD_EXPORT_DATA>Y</DD_EXPORT_DATA>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080130</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE>20080130</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME>145320</DD_LSTSYNC_TIME>
-			<DD_ATTR_FTYP>T</DD_ATTR_FTYP>
-			<DD_ATTR_SLEV>zzzz</DD_ATTR_SLEV>
-			<DD_ATTR_WINT>Employee Tax History</DD_ATTR_WINT>
+	<ALIAS id="ddm_tables">
+		<ID id="ddm_tables">DDM_TABLES</ID>
+		<RECORD id="ddm_tables.prt_empltax">
+			<DD_TABLE_ALIAS id="ddm_tables.prt_empltax">PRT_EMPLTAX     </DD_TABLE_ALIAS>
+			<DD_ALIAS_DESC id="ddm_tables.prt_empltax">Employee Tax History</DD_ALIAS_DESC>
+			<DD_FILE_NAME id="ddm_tables.prt_empltax">prt-21</DD_FILE_NAME>
+			<DD_TABLE_PATH id="ddm_tables.prt_empltax">[+PRDATA]</DD_TABLE_PATH>
+			<DD_ALIAS_TYPE id="ddm_tables.prt_empltax">V</DD_ALIAS_TYPE>
+			<DD_KEY_LENGTH id="ddm_tables.prt_empltax">0</DD_KEY_LENGTH>
+			<DD_NBR_RECORD id="ddm_tables.prt_empltax">0</DD_NBR_RECORD>
+			<DD_RECORD_LEN id="ddm_tables.prt_empltax">221</DD_RECORD_LEN>
+			<DD_SYSTEM_REC id="ddm_tables.prt_empltax">N</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_tables.prt_empltax">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_tables.prt_empltax">PR </ASC_PROD_ID>
+			<ASC_VERSION_ID id="ddm_tables.prt_empltax">8.0</ASC_VERSION_ID>
+			<ASC_LICENSE_ID id="ddm_tables.prt_empltax">524620B766DFFEC1C48E9C1FCCB2BD67</ASC_LICENSE_ID>
+			<DD_EXPORT_DATA id="ddm_tables.prt_empltax">Y</DD_EXPORT_DATA>
+			<DD_CREATE_DATE id="ddm_tables.prt_empltax">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_tables.prt_empltax">20090325</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.prt_empltax">20090325</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.prt_empltax">090428</DD_LSTSYNC_TIME>
+			<DD_ATTR_FTYP id="ddm_tables.prt_empltax">T</DD_ATTR_FTYP>
+			<DD_ATTR_SLEV id="ddm_tables.prt_empltax">zzzz</DD_ATTR_SLEV>
+			<DD_ATTR_WINT id="ddm_tables.prt_empltax">Employee Tax History</DD_ATTR_WINT>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_TPLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>PRT_EMPLTAX     </DD_TABLE_ALIAS>
-			<DD_FILE_NAME>prt-21</DD_FILE_NAME>
-			<DD_TABLE_TPL>firm_id:c(2),employee_no:c(9),record_id_c:c(1),tax_code:c(2),tax_tbl_code:c(3),no_std_ded:c(2),no_item_ded:c(2),repadd_flag:c(1),pctamt_flag:c(1),pers_taken:c(5),reserved_str:c(20*),mtd_gross:n(7*),qtr_gross_01:n(7*),qtr_gross_02:n(7*),qtr_gross_03:n(7*),qtr_gross_04:n(7*),nmtd_gross:n(7*),mtd_taxable:n(7*),qtr_taxable_01:n(7*),qtr_taxable_02:n(7*),qtr_taxable_03:n(7*),qtr_taxable_04:n(7*),nmtd_taxable:n(7*),mtd_tax:n(7*),quarter_tax_01:n(7*),quarter_tax_02:n(7*),quarter_tax_03:n(7*),quarter_tax_04:n(7*),nmtd_tax:n(7*),tax_rate:n(7*)</DD_TABLE_TPL>
+	<ALIAS id="ddm_table_tpls">
+		<ID id="ddm_table_tpls">DDM_TABLE_TPLS</ID>
+		<RECORD id="ddm_table_tpls.prt_empltax">
+			<DD_TABLE_ALIAS id="ddm_table_tpls.prt_empltax">PRT_EMPLTAX     </DD_TABLE_ALIAS>
+			<DD_FILE_NAME id="ddm_table_tpls.prt_empltax">prt-21</DD_FILE_NAME>
+			<DD_TABLE_TPL id="ddm_table_tpls.prt_empltax">firm_id:c(2),employee_no:c(9),record_id_c:c(1),tax_code:c(2),tax_tbl_code:c(3),no_std_ded:c(2),no_item_ded:c(2),repadd_flag:c(1),pctamt_flag:c(1),pers_taken:c(5),reserved_str:c(20*),mtd_gross:n(7*),qtr_gross_01:n(7*),qtr_gross_02:n(7*),qtr_gross_03:n(7*),qtr_gross_04:n(7*),nmtd_gross:n(7*),mtd_taxable:n(7*),qtr_taxable_01:n(7*),qtr_taxable_02:n(7*),qtr_taxable_03:n(7*),qtr_taxable_04:n(7*),nmtd_taxable:n(7*),mtd_tax:n(7*),quarter_tax_01:n(7*),quarter_tax_02:n(7*),quarter_tax_03:n(7*),quarter_tax_04:n(7*),nmtd_tax:n(7*),tax_rate:n(7*)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_KEYS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>PRT_EMPLTAX     </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_KEY_DESC>Primary</DD_KEY_DESC>
-			<DD_KEY_ID>PRIMARY         </DD_KEY_ID>
+	<ALIAS id="ddm_keys">
+		<ID id="ddm_keys">DDM_KEYS</ID>
+		<RECORD id="ddm_keys.prt_empltax00">
+			<DD_TABLE_ALIAS id="ddm_keys.prt_empltax00">PRT_EMPLTAX     </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_keys.prt_empltax00">00</DD_KEY_NUMBER>
+			<DD_KEY_DESC id="ddm_keys.prt_empltax00">Primary</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.prt_empltax00">PRIMARY         </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_KEY_SEGS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>PRT_EMPLTAX     </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>01</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>FIRM_ID         </DD_SEGMENT_COL>
-			<DD_SEGMENT_POS>0</DD_SEGMENT_POS>
-			<DD_SEGMENT_OFF>0</DD_SEGMENT_OFF>
-			<DD_SEGMENT_LEN>0</DD_SEGMENT_LEN>
+	<ALIAS id="ddm_key_segs">
+		<ID id="ddm_key_segs">DDM_KEY_SEGS</ID>
+		<RECORD id="ddm_key_segs.prt_empltax0001">
+			<DD_TABLE_ALIAS id="ddm_key_segs.prt_empltax0001">PRT_EMPLTAX     </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.prt_empltax0001">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.prt_empltax0001">01</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.prt_empltax0001">FIRM_ID         </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.prt_empltax0001">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.prt_empltax0001">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.prt_empltax0001">0</DD_SEGMENT_LEN>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>PRT_EMPLTAX     </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>02</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>EMPLOYEE_NO     </DD_SEGMENT_COL>
-			<DD_SEGMENT_POS>0</DD_SEGMENT_POS>
-			<DD_SEGMENT_OFF>0</DD_SEGMENT_OFF>
-			<DD_SEGMENT_LEN>0</DD_SEGMENT_LEN>
+		<RECORD id="ddm_key_segs.prt_empltax0002">
+			<DD_TABLE_ALIAS id="ddm_key_segs.prt_empltax0002">PRT_EMPLTAX     </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.prt_empltax0002">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.prt_empltax0002">02</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.prt_empltax0002">EMPLOYEE_NO     </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.prt_empltax0002">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.prt_empltax0002">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.prt_empltax0002">0</DD_SEGMENT_LEN>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>PRT_EMPLTAX     </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>03</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>RECORD_ID_C     </DD_SEGMENT_COL>
-			<DD_SEGMENT_POS>0</DD_SEGMENT_POS>
-			<DD_SEGMENT_OFF>0</DD_SEGMENT_OFF>
-			<DD_SEGMENT_LEN>0</DD_SEGMENT_LEN>
+		<RECORD id="ddm_key_segs.prt_empltax0003">
+			<DD_TABLE_ALIAS id="ddm_key_segs.prt_empltax0003">PRT_EMPLTAX     </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.prt_empltax0003">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.prt_empltax0003">03</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.prt_empltax0003">RECORD_ID_C     </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.prt_empltax0003">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.prt_empltax0003">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.prt_empltax0003">0</DD_SEGMENT_LEN>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>PRT_EMPLTAX     </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>04</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>TAX_CODE        </DD_SEGMENT_COL>
-			<DD_SEGMENT_POS>0</DD_SEGMENT_POS>
-			<DD_SEGMENT_OFF>0</DD_SEGMENT_OFF>
-			<DD_SEGMENT_LEN>0</DD_SEGMENT_LEN>
-		</RECORD>
-	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_COLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>PRT_EMPLTAX     </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>001</DD_SEQUENCE>
-			<DD_DATA_NAME>FIRM_ID         </DD_DATA_NAME>
-			<DD_DVAR_NAME>FIRM_ID         </DD_DVAR_NAME>
-			<DD_COL_REPEATS>1</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Firm ID</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>PRT_EMPLTAX     </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>002</DD_SEQUENCE>
-			<DD_DATA_NAME>EMPLOYEE_NO     </DD_DATA_NAME>
-			<DD_DVAR_NAME>EMPLOYEE_NO     </DD_DVAR_NAME>
-			<DD_COL_REPEATS>1</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Employee Number</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>PRT_EMPLTAX     </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>003</DD_SEQUENCE>
-			<DD_DATA_NAME>RECORD_ID_C     </DD_DATA_NAME>
-			<DD_DVAR_NAME>RECORD_ID_C     </DD_DVAR_NAME>
-			<DD_COL_REPEATS>1</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>"C"</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>PRT_EMPLTAX     </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>004</DD_SEQUENCE>
-			<DD_DATA_NAME>TAX_CODE        </DD_DATA_NAME>
-			<DD_DVAR_NAME>TAX_CODE        </DD_DVAR_NAME>
-			<DD_COL_REPEATS>1</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Tax Code</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>PRT_EMPLTAX     </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>005</DD_SEQUENCE>
-			<DD_DATA_NAME>TAX_TBL_CODE    </DD_DATA_NAME>
-			<DD_DVAR_NAME>TAX_TBL_CODE    </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Payroll Tax Table Code</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>PRT_EMPLTAX     </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>006</DD_SEQUENCE>
-			<DD_DATA_NAME>NO_STD_DED      </DD_DATA_NAME>
-			<DD_DVAR_NAME>NO_STD_DED      </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Number of Standard Deductions</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>PRT_EMPLTAX     </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>007</DD_SEQUENCE>
-			<DD_DATA_NAME>NO_ITEM_DED     </DD_DATA_NAME>
-			<DD_DVAR_NAME>NO_ITEM_DED     </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Number of Itemized Deductions</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>PRT_EMPLTAX     </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>008</DD_SEQUENCE>
-			<DD_DATA_NAME>REPADD_FLAG     </DD_DATA_NAME>
-			<DD_DVAR_NAME>REPADD_FLAG     </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Replace/Add/None [R/A/N]</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>PRT_EMPLTAX     </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>009</DD_SEQUENCE>
-			<DD_DATA_NAME>PCTAMT_FLAG     </DD_DATA_NAME>
-			<DD_DVAR_NAME>PCTAMT_FLAG     </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Percent Or Amount [P/A]</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>PRT_EMPLTAX     </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>010</DD_SEQUENCE>
-			<DD_DATA_NAME>PERS_TAKEN      </DD_DATA_NAME>
-			<DD_DVAR_NAME>PERS_TAKEN      </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Periods Taken</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>PRT_EMPLTAX     </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>011</DD_SEQUENCE>
-			<DD_DATA_NAME>RESERVED_STR    </DD_DATA_NAME>
-			<DD_DVAR_NAME>RESERVED_STR    </DD_DVAR_NAME>
-			<DD_COL_REPEATS>20</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Reserved For Addon Use</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>PRT_EMPLTAX     </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>012</DD_SEQUENCE>
-			<DD_DATA_NAME>MTD_GROSS       </DD_DATA_NAME>
-			<DD_DVAR_NAME>MTD_GROSS       </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>MTD Gross</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>PRT_EMPLTAX     </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>013</DD_SEQUENCE>
-			<DD_DATA_NAME>QTR_GROSS       </DD_DATA_NAME>
-			<DD_DVAR_NAME>QTR_GROSS       </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>4</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Quarter Gross</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>PRT_EMPLTAX     </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>014</DD_SEQUENCE>
-			<DD_DATA_NAME>NMTD_GROSS      </DD_DATA_NAME>
-			<DD_DVAR_NAME>NMTD_GROSS      </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Next MTD Gross</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>PRT_EMPLTAX     </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>015</DD_SEQUENCE>
-			<DD_DATA_NAME>MTD_TAXABLE     </DD_DATA_NAME>
-			<DD_DVAR_NAME>MTD_TAXABLE     </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>MTD Taxable</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>PRT_EMPLTAX     </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>016</DD_SEQUENCE>
-			<DD_DATA_NAME>QTR_TAXABLE     </DD_DATA_NAME>
-			<DD_DVAR_NAME>QTR_TAXABLE     </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>4</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Quarter Taxable</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>PRT_EMPLTAX     </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>017</DD_SEQUENCE>
-			<DD_DATA_NAME>NMTD_TAXABLE    </DD_DATA_NAME>
-			<DD_DVAR_NAME>NMTD_TAXABLE    </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Next MTD Taxable</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>PRT_EMPLTAX     </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>018</DD_SEQUENCE>
-			<DD_DATA_NAME>MTD_TAX         </DD_DATA_NAME>
-			<DD_DVAR_NAME>MTD_TAX         </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>MTD Tax</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>PRT_EMPLTAX     </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>019</DD_SEQUENCE>
-			<DD_DATA_NAME>QUARTER_TAX     </DD_DATA_NAME>
-			<DD_DVAR_NAME>QUARTER_TAX     </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>4</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Quarter Tax</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>PRT_EMPLTAX     </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>020</DD_SEQUENCE>
-			<DD_DATA_NAME>NMTD_TAX        </DD_DATA_NAME>
-			<DD_DVAR_NAME>NMTD_TAX        </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Next MTD Tax Amount</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>PRT_EMPLTAX     </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>021</DD_SEQUENCE>
-			<DD_DATA_NAME>TAX_RATE        </DD_DATA_NAME>
-			<DD_DVAR_NAME>TAX_RATE        </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Tax Rate</DD_ATTR_PROM>
+		<RECORD id="ddm_key_segs.prt_empltax0004">
+			<DD_TABLE_ALIAS id="ddm_key_segs.prt_empltax0004">PRT_EMPLTAX     </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.prt_empltax0004">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.prt_empltax0004">04</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.prt_empltax0004">TAX_CODE        </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.prt_empltax0004">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.prt_empltax0004">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.prt_empltax0004">0</DD_SEGMENT_LEN>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_COLUMN_OPTS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>PRT_EMPLTAX     </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>FIRM_ID         </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>O</DD_ATTR_OPTS>
+	<ALIAS id="ddm_table_cols">
+		<ID id="ddm_table_cols">DDM_TABLE_COLS</ID>
+		<RECORD id="ddm_table_cols.prt_empltax001">
+			<DD_TABLE_ALIAS id="ddm_table_cols.prt_empltax001">PRT_EMPLTAX     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.prt_empltax001">001</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.prt_empltax001">FIRM_ID         </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.prt_empltax001">FIRM_ID         </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.prt_empltax001">1</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.prt_empltax001">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.prt_empltax001">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.prt_empltax001">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.prt_empltax001">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.prt_empltax001">Firm ID</DD_ATTR_PROM>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>PRT_EMPLTAX     </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>RECORD_ID_C     </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>O</DD_ATTR_OPTS>
+		<RECORD id="ddm_table_cols.prt_empltax002">
+			<DD_TABLE_ALIAS id="ddm_table_cols.prt_empltax002">PRT_EMPLTAX     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.prt_empltax002">002</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.prt_empltax002">EMPLOYEE_NO     </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.prt_empltax002">EMPLOYEE_NO     </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.prt_empltax002">1</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.prt_empltax002">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.prt_empltax002">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.prt_empltax002">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.prt_empltax002">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.prt_empltax002">Employee Number</DD_ATTR_PROM>
 		</RECORD>
-	</ALIAS>
-	<ALIAS>
-		<ID>DDM_ELEMENTS</ID>
-		<RECORD>
-			<DD_DATA_NAME>FIRM_ID         </DD_DATA_NAME>
-			<DD_DESCRIPTION>Firm ID</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>2</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<DD_SYSTEM_REC>Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060425</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>H</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Firm ID</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Firm ID</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>00</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>00</DD_ATTR_MSKO>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>R</DD_ATTR_PADJ>
-			<DD_ATTR_PVAL>stbl("+FIRM_ID")</DD_ATTR_PVAL>
+		<RECORD id="ddm_table_cols.prt_empltax003">
+			<DD_TABLE_ALIAS id="ddm_table_cols.prt_empltax003">PRT_EMPLTAX     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.prt_empltax003">003</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.prt_empltax003">RECORD_ID_C     </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.prt_empltax003">RECORD_ID_C     </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.prt_empltax003">1</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.prt_empltax003">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.prt_empltax003">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.prt_empltax003">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.prt_empltax003">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.prt_empltax003">"C"</DD_ATTR_PROM>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>EMPLOYEE_NO     </DD_DATA_NAME>
-			<DD_DESCRIPTION>Employee Number</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>9</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>PR</DD_SYSTEM_ID>
-			<DD_MASK_TYPE>N</DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060421</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOL>EMPL_SURNAME    </DD_ATTR_DCOL>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_DKEY>[+FIRM_ID]+@</DD_ATTR_DKEY>
-			<DD_ATTR_DTAB>PRM_EMPLMAST    </DD_ATTR_DTAB>
-			<DD_ATTR_LABL>Employee Number</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Empl No</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>UUUUUUUUU</DD_ATTR_MSKI>
+		<RECORD id="ddm_table_cols.prt_empltax004">
+			<DD_TABLE_ALIAS id="ddm_table_cols.prt_empltax004">PRT_EMPLTAX     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.prt_empltax004">004</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.prt_empltax004">TAX_CODE        </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.prt_empltax004">TAX_CODE        </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.prt_empltax004">1</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.prt_empltax004">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.prt_empltax004">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.prt_empltax004">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.prt_empltax004">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.prt_empltax004">Tax Code</DD_ATTR_PROM>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>RECORD_ID_C     </DD_DATA_NAME>
-			<DD_DESCRIPTION>"C"                           </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>1</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>C</DD_ATTR_LABL>
-			<DD_ATTR_LABS>C</DD_ATTR_LABS>
-			<DD_ATTR_PVAL>"C"</DD_ATTR_PVAL>
+		<RECORD id="ddm_table_cols.prt_empltax005">
+			<DD_TABLE_ALIAS id="ddm_table_cols.prt_empltax005">PRT_EMPLTAX     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.prt_empltax005">005</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.prt_empltax005">TAX_TBL_CODE    </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.prt_empltax005">TAX_TBL_CODE    </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.prt_empltax005">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.prt_empltax005">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.prt_empltax005">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.prt_empltax005">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.prt_empltax005">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.prt_empltax005">Payroll Tax Table Code</DD_ATTR_PROM>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>TAX_CODE        </DD_DATA_NAME>
-			<DD_DESCRIPTION>Tax Code</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>2</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060329</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOL>PR_CODE_DESC    </DD_ATTR_DCOL>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_DKEY>[+FIRM_ID]+"C"+@</DD_ATTR_DKEY>
-			<DD_ATTR_DTAB>PRC_TAXCODE     </DD_ATTR_DTAB>
-			<DD_ATTR_LABL>Tax Code</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Tax Cd</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>UU</DD_ATTR_MSKI>
-			<DD_ATTR_PADC>20</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>L</DD_ATTR_PADJ>
+		<RECORD id="ddm_table_cols.prt_empltax006">
+			<DD_TABLE_ALIAS id="ddm_table_cols.prt_empltax006">PRT_EMPLTAX     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.prt_empltax006">006</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.prt_empltax006">NO_STD_DED      </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.prt_empltax006">NO_STD_DED      </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.prt_empltax006">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.prt_empltax006">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.prt_empltax006">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.prt_empltax006">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.prt_empltax006">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.prt_empltax006">Number of Standard Deductions</DD_ATTR_PROM>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>TAX_TBL_CODE    </DD_DATA_NAME>
-			<DD_DESCRIPTION>Payroll Tax Table Code</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>3</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080501</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOL>CODE_DESC       </DD_ATTR_DCOL>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_DKEY>[+FIRM_ID]+"I"+@</DD_ATTR_DKEY>
-			<DD_ATTR_DTAB>PRC_TAXTABLE    </DD_ATTR_DTAB>
-			<DD_ATTR_LABL>Payroll Tax Table Code</DD_ATTR_LABL>
-			<DD_ATTR_LABS>PR Tax Table Cd</DD_ATTR_LABS>
-			<DD_ATTR_MAXL>0</DD_ATTR_MAXL>
-			<DD_ATTR_MAXR>0</DD_ATTR_MAXR>
-			<DD_ATTR_MINL>0</DD_ATTR_MINL>
-			<DD_ATTR_MSKI>UUU</DD_ATTR_MSKI>
-			<DD_ATTR_PREC>0</DD_ATTR_PREC>
+		<RECORD id="ddm_table_cols.prt_empltax007">
+			<DD_TABLE_ALIAS id="ddm_table_cols.prt_empltax007">PRT_EMPLTAX     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.prt_empltax007">007</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.prt_empltax007">NO_ITEM_DED     </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.prt_empltax007">NO_ITEM_DED     </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.prt_empltax007">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.prt_empltax007">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.prt_empltax007">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.prt_empltax007">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.prt_empltax007">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.prt_empltax007">Number of Itemized Deductions</DD_ATTR_PROM>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>NO_STD_DED      </DD_DATA_NAME>
-			<DD_DESCRIPTION>Number of Standard Deductions </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>2</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Number of Standard Deductions</DD_ATTR_LABL>
-			<DD_ATTR_LABS>No Std Deds</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>00</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>00</DD_ATTR_MSKO>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>R</DD_ATTR_PADJ>
+		<RECORD id="ddm_table_cols.prt_empltax008">
+			<DD_TABLE_ALIAS id="ddm_table_cols.prt_empltax008">PRT_EMPLTAX     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.prt_empltax008">008</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.prt_empltax008">REPADD_FLAG     </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.prt_empltax008">REPADD_FLAG     </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.prt_empltax008">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.prt_empltax008">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.prt_empltax008">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.prt_empltax008">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.prt_empltax008">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.prt_empltax008">Replace/Add/None [R/A/N]</DD_ATTR_PROM>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>NO_ITEM_DED     </DD_DATA_NAME>
-			<DD_DESCRIPTION>Number of Itemized Deductions </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>2</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Number of Itemized Deductions</DD_ATTR_LABL>
-			<DD_ATTR_LABS>No Itemized Deds</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>00</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>00</DD_ATTR_MSKO>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>R</DD_ATTR_PADJ>
+		<RECORD id="ddm_table_cols.prt_empltax009">
+			<DD_TABLE_ALIAS id="ddm_table_cols.prt_empltax009">PRT_EMPLTAX     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.prt_empltax009">009</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.prt_empltax009">PCTAMT_FLAG     </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.prt_empltax009">PCTAMT_FLAG     </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.prt_empltax009">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.prt_empltax009">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.prt_empltax009">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.prt_empltax009">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.prt_empltax009">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.prt_empltax009">Percent Or Amount [P/A]</DD_ATTR_PROM>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>REPADD_FLAG     </DD_DATA_NAME>
-			<DD_DESCRIPTION>Replace/Add/None [R/A/N]      </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>1</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Replace/Add/None</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Replace/Add/None</DD_ATTR_LABS>
+		<RECORD id="ddm_table_cols.prt_empltax010">
+			<DD_TABLE_ALIAS id="ddm_table_cols.prt_empltax010">PRT_EMPLTAX     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.prt_empltax010">010</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.prt_empltax010">PERS_TAKEN      </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.prt_empltax010">PERS_TAKEN      </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.prt_empltax010">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.prt_empltax010">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.prt_empltax010">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.prt_empltax010">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.prt_empltax010">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.prt_empltax010">Periods Taken</DD_ATTR_PROM>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>PCTAMT_FLAG     </DD_DATA_NAME>
-			<DD_DESCRIPTION>Percent Or Amount [P/A]       </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>1</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Percent Or Amount</DD_ATTR_LABL>
-			<DD_ATTR_LABS>%/Amt [P/A]</DD_ATTR_LABS>
+		<RECORD id="ddm_table_cols.prt_empltax011">
+			<DD_TABLE_ALIAS id="ddm_table_cols.prt_empltax011">PRT_EMPLTAX     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.prt_empltax011">011</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.prt_empltax011">RESERVED_STR    </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.prt_empltax011">RESERVED_STR    </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.prt_empltax011">20</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.prt_empltax011">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.prt_empltax011">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.prt_empltax011">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.prt_empltax011">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.prt_empltax011">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.prt_empltax011">Reserved For Addon Use</DD_ATTR_PROM>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>PERS_TAKEN      </DD_DATA_NAME>
-			<DD_DESCRIPTION>Periods Taken                 </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>5</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Periods Taken</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Prds Taken</DD_ATTR_LABS>
+		<RECORD id="ddm_table_cols.prt_empltax012">
+			<DD_TABLE_ALIAS id="ddm_table_cols.prt_empltax012">PRT_EMPLTAX     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.prt_empltax012">012</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.prt_empltax012">MTD_GROSS       </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.prt_empltax012">MTD_GROSS       </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.prt_empltax012">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.prt_empltax012">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.prt_empltax012">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.prt_empltax012">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.prt_empltax012">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.prt_empltax012">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.prt_empltax012">MTD Gross</DD_ATTR_PROM>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>RESERVED_STR    </DD_DATA_NAME>
-			<DD_DESCRIPTION>Reserved For Addon Use        </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>1</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<DD_SYSTEM_REC>Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>X</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Reserved For Addon Use</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Res For Addon Use</DD_ATTR_LABS>
+		<RECORD id="ddm_table_cols.prt_empltax013">
+			<DD_TABLE_ALIAS id="ddm_table_cols.prt_empltax013">PRT_EMPLTAX     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.prt_empltax013">013</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.prt_empltax013">QTR_GROSS       </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.prt_empltax013">QTR_GROSS       </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.prt_empltax013">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.prt_empltax013">4</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.prt_empltax013">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.prt_empltax013">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.prt_empltax013">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.prt_empltax013">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.prt_empltax013">Quarter Gross</DD_ATTR_PROM>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>MTD_GROSS       </DD_DATA_NAME>
-			<DD_DESCRIPTION>MTD Gross                     </DD_DESCRIPTION>
-			<DD_DATA_TYPE>N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>7</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>PR</DD_SYSTEM_ID>
-			<DD_MASK_TYPE>A</DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>N</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>MTD Gross</DD_ATTR_LABL>
-			<DD_ATTR_LABS>MTD Gross</DD_ATTR_LABS>
+		<RECORD id="ddm_table_cols.prt_empltax014">
+			<DD_TABLE_ALIAS id="ddm_table_cols.prt_empltax014">PRT_EMPLTAX     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.prt_empltax014">014</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.prt_empltax014">NMTD_GROSS      </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.prt_empltax014">NMTD_GROSS      </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.prt_empltax014">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.prt_empltax014">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.prt_empltax014">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.prt_empltax014">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.prt_empltax014">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.prt_empltax014">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.prt_empltax014">Next MTD Gross</DD_ATTR_PROM>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>QTR_GROSS       </DD_DATA_NAME>
-			<DD_DESCRIPTION>Quarter Gross                 </DD_DESCRIPTION>
-			<DD_DATA_TYPE>N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>7</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>PR</DD_SYSTEM_ID>
-			<DD_MASK_TYPE>A</DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>N</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Quarter Gross</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Qtr Gross</DD_ATTR_LABS>
+		<RECORD id="ddm_table_cols.prt_empltax015">
+			<DD_TABLE_ALIAS id="ddm_table_cols.prt_empltax015">PRT_EMPLTAX     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.prt_empltax015">015</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.prt_empltax015">MTD_TAXABLE     </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.prt_empltax015">MTD_TAXABLE     </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.prt_empltax015">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.prt_empltax015">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.prt_empltax015">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.prt_empltax015">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.prt_empltax015">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.prt_empltax015">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.prt_empltax015">MTD Taxable</DD_ATTR_PROM>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>NMTD_GROSS      </DD_DATA_NAME>
-			<DD_DESCRIPTION>Next MTD Gross                </DD_DESCRIPTION>
-			<DD_DATA_TYPE>N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>7</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>PR</DD_SYSTEM_ID>
-			<DD_MASK_TYPE>A</DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>N</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Next MTD Gross</DD_ATTR_LABL>
-			<DD_ATTR_LABS>NMTD Gross</DD_ATTR_LABS>
+		<RECORD id="ddm_table_cols.prt_empltax016">
+			<DD_TABLE_ALIAS id="ddm_table_cols.prt_empltax016">PRT_EMPLTAX     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.prt_empltax016">016</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.prt_empltax016">QTR_TAXABLE     </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.prt_empltax016">QTR_TAXABLE     </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.prt_empltax016">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.prt_empltax016">4</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.prt_empltax016">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.prt_empltax016">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.prt_empltax016">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.prt_empltax016">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.prt_empltax016">Quarter Taxable</DD_ATTR_PROM>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>MTD_TAXABLE     </DD_DATA_NAME>
-			<DD_DESCRIPTION>MTD Taxable                   </DD_DESCRIPTION>
-			<DD_DATA_TYPE>N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>7</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>PR</DD_SYSTEM_ID>
-			<DD_MASK_TYPE>A</DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>N</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>MTD Taxable</DD_ATTR_LABL>
-			<DD_ATTR_LABS>MTD Taxable</DD_ATTR_LABS>
+		<RECORD id="ddm_table_cols.prt_empltax017">
+			<DD_TABLE_ALIAS id="ddm_table_cols.prt_empltax017">PRT_EMPLTAX     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.prt_empltax017">017</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.prt_empltax017">NMTD_TAXABLE    </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.prt_empltax017">NMTD_TAXABLE    </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.prt_empltax017">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.prt_empltax017">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.prt_empltax017">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.prt_empltax017">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.prt_empltax017">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.prt_empltax017">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.prt_empltax017">Next MTD Taxable</DD_ATTR_PROM>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>QTR_TAXABLE     </DD_DATA_NAME>
-			<DD_DESCRIPTION>Quarter Taxable               </DD_DESCRIPTION>
-			<DD_DATA_TYPE>N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>7</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>PR</DD_SYSTEM_ID>
-			<DD_MASK_TYPE>A</DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>N</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Quarter Taxable</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Qtr Taxable</DD_ATTR_LABS>
+		<RECORD id="ddm_table_cols.prt_empltax018">
+			<DD_TABLE_ALIAS id="ddm_table_cols.prt_empltax018">PRT_EMPLTAX     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.prt_empltax018">018</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.prt_empltax018">MTD_TAX         </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.prt_empltax018">MTD_TAX         </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.prt_empltax018">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.prt_empltax018">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.prt_empltax018">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.prt_empltax018">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.prt_empltax018">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.prt_empltax018">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.prt_empltax018">MTD Tax</DD_ATTR_PROM>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>NMTD_TAXABLE    </DD_DATA_NAME>
-			<DD_DESCRIPTION>Next MTD Taxable              </DD_DESCRIPTION>
-			<DD_DATA_TYPE>N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>7</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>PR</DD_SYSTEM_ID>
-			<DD_MASK_TYPE>A</DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>N</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Next MTD Taxable</DD_ATTR_LABL>
-			<DD_ATTR_LABS>NMTD Taxable</DD_ATTR_LABS>
+		<RECORD id="ddm_table_cols.prt_empltax019">
+			<DD_TABLE_ALIAS id="ddm_table_cols.prt_empltax019">PRT_EMPLTAX     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.prt_empltax019">019</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.prt_empltax019">QUARTER_TAX     </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.prt_empltax019">QUARTER_TAX     </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.prt_empltax019">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.prt_empltax019">4</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.prt_empltax019">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.prt_empltax019">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.prt_empltax019">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.prt_empltax019">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.prt_empltax019">Quarter Tax</DD_ATTR_PROM>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>MTD_TAX         </DD_DATA_NAME>
-			<DD_DESCRIPTION>MTD Tax                       </DD_DESCRIPTION>
-			<DD_DATA_TYPE>N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>7</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>AR</DD_SYSTEM_ID>
-			<DD_MASK_TYPE>A</DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>N</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>MTD Tax</DD_ATTR_LABL>
-			<DD_ATTR_LABS>MTD Tax</DD_ATTR_LABS>
+		<RECORD id="ddm_table_cols.prt_empltax020">
+			<DD_TABLE_ALIAS id="ddm_table_cols.prt_empltax020">PRT_EMPLTAX     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.prt_empltax020">020</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.prt_empltax020">NMTD_TAX        </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.prt_empltax020">NMTD_TAX        </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.prt_empltax020">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.prt_empltax020">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.prt_empltax020">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.prt_empltax020">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.prt_empltax020">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.prt_empltax020">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.prt_empltax020">Next MTD Tax Amount</DD_ATTR_PROM>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>QUARTER_TAX     </DD_DATA_NAME>
-			<DD_DESCRIPTION>Quarter Tax                   </DD_DESCRIPTION>
-			<DD_DATA_TYPE>N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>7</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>PR</DD_SYSTEM_ID>
-			<DD_MASK_TYPE>A</DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>N</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Quarter Tax</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Qtr Tax</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>NMTD_TAX        </DD_DATA_NAME>
-			<DD_DESCRIPTION>Next MTD Tax Amount           </DD_DESCRIPTION>
-			<DD_DATA_TYPE>N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>7</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>AR</DD_SYSTEM_ID>
-			<DD_MASK_TYPE>A</DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>N</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Next MTD Tax Amount</DD_ATTR_LABL>
-			<DD_ATTR_LABS>NMTD Tax Amt</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>TAX_RATE        </DD_DATA_NAME>
-			<DD_DESCRIPTION>Tax Rate                      </DD_DESCRIPTION>
-			<DD_DATA_TYPE>N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>7</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>PR</DD_SYSTEM_ID>
-			<DD_MASK_TYPE>R</DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060328</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>N</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Tax Rate</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Tax Rate</DD_ATTR_LABS>
+		<RECORD id="ddm_table_cols.prt_empltax021">
+			<DD_TABLE_ALIAS id="ddm_table_cols.prt_empltax021">PRT_EMPLTAX     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.prt_empltax021">021</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.prt_empltax021">TAX_RATE        </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.prt_empltax021">TAX_RATE        </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.prt_empltax021">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.prt_empltax021">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.prt_empltax021">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.prt_empltax021">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.prt_empltax021">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.prt_empltax021">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.prt_empltax021">Tax Rate</DD_ATTR_PROM>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>ADS_MASKS</ID>
-		<RECORD>
-			<FIRM_ID>01</FIRM_ID>
-			<DD_SYSTEM_ID>AR</DD_SYSTEM_ID>
-			<DD_MASK_TYPE>A</DD_MASK_TYPE>
-			<DD_ATTR_MSKI>#,###,##0.00-</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>#,###,##0.00-</DD_ATTR_MSKO>
+	<ALIAS id="ddm_column_opts">
+		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
+		<RECORD id="ddm_column_opts.prt_empltaxfirm_ido">
+			<DD_TABLE_ALIAS id="ddm_column_opts.prt_empltaxfirm_ido">PRT_EMPLTAX     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.prt_empltaxfirm_ido">FIRM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.prt_empltaxfirm_ido">O</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD>
-			<FIRM_ID>01</FIRM_ID>
-			<DD_SYSTEM_ID>AR</DD_SYSTEM_ID>
-			<DD_MASK_TYPE>A</DD_MASK_TYPE>
-			<DD_ATTR_MSKI>#,###,##0.00-</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>#,###,##0.00-</DD_ATTR_MSKO>
+		<RECORD id="ddm_column_opts.prt_empltaxrecord_id_co">
+			<DD_TABLE_ALIAS id="ddm_column_opts.prt_empltaxrecord_id_co">PRT_EMPLTAX     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.prt_empltaxrecord_id_co">RECORD_ID_C     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.prt_empltaxrecord_id_co">O</DD_ATTR_OPTS>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_elements">
+		<ID id="ddm_elements">DDM_ELEMENTS</ID>
+		<RECORD id="ddm_elements.firm_id">
+			<DD_DATA_NAME id="ddm_elements.firm_id">FIRM_ID         </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.firm_id">Firm ID</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.firm_id">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.firm_id">2</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.firm_id"> </DD_MASK_TYPE>
+			<DD_SYSTEM_REC id="ddm_elements.firm_id">Y</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.firm_id">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.firm_id">BAR</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.firm_id">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.firm_id">20060425</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.firm_id">H</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.firm_id">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.firm_id">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABS>
+			<DD_ATTR_MSKI id="ddm_elements.firm_id">00</DD_ATTR_MSKI>
+			<DD_ATTR_MSKO id="ddm_elements.firm_id">00</DD_ATTR_MSKO>
+			<DD_ATTR_PADC id="ddm_elements.firm_id">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.firm_id">R</DD_ATTR_PADJ>
+			<DD_ATTR_PVAL id="ddm_elements.firm_id">stbl("+FIRM_ID")</DD_ATTR_PVAL>
+		</RECORD>
+		<RECORD id="ddm_elements.employee_no">
+			<DD_DATA_NAME id="ddm_elements.employee_no">EMPLOYEE_NO     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.employee_no">Employee Number</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.employee_no">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.employee_no">9</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.employee_no">N</DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.employee_no">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.employee_no">PR </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.employee_no">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.employee_no">20060421</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.employee_no">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOL id="ddm_elements.employee_no">EMPL_SURNAME    </DD_ATTR_DCOL>
+			<DD_ATTR_DCOM id="ddm_elements.employee_no">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.employee_no">            </DD_ATTR_DEXP>
+			<DD_ATTR_DKEY id="ddm_elements.employee_no">[+FIRM_ID]+@</DD_ATTR_DKEY>
+			<DD_ATTR_DTAB id="ddm_elements.employee_no">PRM_EMPLMAST    </DD_ATTR_DTAB>
+			<DD_ATTR_LABL id="ddm_elements.employee_no">Employee Number</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.employee_no">Empl No</DD_ATTR_LABS>
+			<DD_ATTR_MSKI id="ddm_elements.employee_no">UUUUUUUUU</DD_ATTR_MSKI>
+		</RECORD>
+		<RECORD id="ddm_elements.record_id_c">
+			<DD_DATA_NAME id="ddm_elements.record_id_c">RECORD_ID_C     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.record_id_c">"C"                           </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.record_id_c">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.record_id_c">1</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.record_id_c"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.record_id_c">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.record_id_c">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.record_id_c">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.record_id_c">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.record_id_c">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.record_id_c">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.record_id_c">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.record_id_c">C</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.record_id_c">C</DD_ATTR_LABS>
+			<DD_ATTR_PVAL id="ddm_elements.record_id_c">"C"</DD_ATTR_PVAL>
+		</RECORD>
+		<RECORD id="ddm_elements.tax_code">
+			<DD_DATA_NAME id="ddm_elements.tax_code">TAX_CODE        </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.tax_code">Tax Code</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.tax_code">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.tax_code">2</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.tax_code"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.tax_code">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.tax_code">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.tax_code">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.tax_code">20060329</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.tax_code">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOL id="ddm_elements.tax_code">PR_CODE_DESC    </DD_ATTR_DCOL>
+			<DD_ATTR_DCOM id="ddm_elements.tax_code">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.tax_code">            </DD_ATTR_DEXP>
+			<DD_ATTR_DKEY id="ddm_elements.tax_code">[+FIRM_ID]+"C"+@</DD_ATTR_DKEY>
+			<DD_ATTR_DTAB id="ddm_elements.tax_code">PRC_TAXCODE     </DD_ATTR_DTAB>
+			<DD_ATTR_LABL id="ddm_elements.tax_code">Tax Code</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.tax_code">Tax Cd</DD_ATTR_LABS>
+			<DD_ATTR_MSKI id="ddm_elements.tax_code">UU</DD_ATTR_MSKI>
+			<DD_ATTR_PADC id="ddm_elements.tax_code">20</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.tax_code">L</DD_ATTR_PADJ>
+		</RECORD>
+		<RECORD id="ddm_elements.tax_tbl_code">
+			<DD_DATA_NAME id="ddm_elements.tax_tbl_code">TAX_TBL_CODE    </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.tax_tbl_code">Payroll Tax Table Code</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.tax_tbl_code">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.tax_tbl_code">3</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.tax_tbl_code"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.tax_tbl_code">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.tax_tbl_code">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.tax_tbl_code">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.tax_tbl_code">20080501</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.tax_tbl_code">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.tax_tbl_code">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.tax_tbl_code">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOL id="ddm_elements.tax_tbl_code">CODE_DESC       </DD_ATTR_DCOL>
+			<DD_ATTR_DCOM id="ddm_elements.tax_tbl_code">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.tax_tbl_code">            </DD_ATTR_DEXP>
+			<DD_ATTR_DKEY id="ddm_elements.tax_tbl_code">[+FIRM_ID]+"I"+@</DD_ATTR_DKEY>
+			<DD_ATTR_DTAB id="ddm_elements.tax_tbl_code">PRC_TAXTABLE    </DD_ATTR_DTAB>
+			<DD_ATTR_LABL id="ddm_elements.tax_tbl_code">Payroll Tax Table Code</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.tax_tbl_code">PR Tax Table Cd</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.tax_tbl_code">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.tax_tbl_code">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.tax_tbl_code">0</DD_ATTR_MINL>
+			<DD_ATTR_MSKI id="ddm_elements.tax_tbl_code">UUU</DD_ATTR_MSKI>
+			<DD_ATTR_PREC id="ddm_elements.tax_tbl_code">0</DD_ATTR_PREC>
+		</RECORD>
+		<RECORD id="ddm_elements.no_std_ded">
+			<DD_DATA_NAME id="ddm_elements.no_std_ded">NO_STD_DED      </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.no_std_ded">Number of Standard Deductions </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.no_std_ded">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.no_std_ded">2</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.no_std_ded"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.no_std_ded">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.no_std_ded">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.no_std_ded">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.no_std_ded">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.no_std_ded">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.no_std_ded">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.no_std_ded">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.no_std_ded">Number of Standard Deductions</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.no_std_ded">No Std Deds</DD_ATTR_LABS>
+			<DD_ATTR_MSKI id="ddm_elements.no_std_ded">00</DD_ATTR_MSKI>
+			<DD_ATTR_MSKO id="ddm_elements.no_std_ded">00</DD_ATTR_MSKO>
+			<DD_ATTR_PADC id="ddm_elements.no_std_ded">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.no_std_ded">R</DD_ATTR_PADJ>
+		</RECORD>
+		<RECORD id="ddm_elements.no_item_ded">
+			<DD_DATA_NAME id="ddm_elements.no_item_ded">NO_ITEM_DED     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.no_item_ded">Number of Itemized Deductions </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.no_item_ded">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.no_item_ded">2</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.no_item_ded"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.no_item_ded">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.no_item_ded">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.no_item_ded">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.no_item_ded">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.no_item_ded">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.no_item_ded">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.no_item_ded">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.no_item_ded">Number of Itemized Deductions</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.no_item_ded">No Itemized Deds</DD_ATTR_LABS>
+			<DD_ATTR_MSKI id="ddm_elements.no_item_ded">00</DD_ATTR_MSKI>
+			<DD_ATTR_MSKO id="ddm_elements.no_item_ded">00</DD_ATTR_MSKO>
+			<DD_ATTR_PADC id="ddm_elements.no_item_ded">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.no_item_ded">R</DD_ATTR_PADJ>
+		</RECORD>
+		<RECORD id="ddm_elements.repadd_flag">
+			<DD_DATA_NAME id="ddm_elements.repadd_flag">REPADD_FLAG     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.repadd_flag">Replace/Add/None [R/A/N]      </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.repadd_flag">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.repadd_flag">1</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.repadd_flag"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.repadd_flag">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.repadd_flag">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.repadd_flag">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.repadd_flag">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.repadd_flag">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.repadd_flag">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.repadd_flag">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.repadd_flag">Replace/Add/None</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.repadd_flag">Replace/Add/None</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.pctamt_flag">
+			<DD_DATA_NAME id="ddm_elements.pctamt_flag">PCTAMT_FLAG     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.pctamt_flag">Percent Or Amount [P/A]       </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.pctamt_flag">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.pctamt_flag">1</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.pctamt_flag"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.pctamt_flag">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.pctamt_flag">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.pctamt_flag">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.pctamt_flag">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.pctamt_flag">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.pctamt_flag">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.pctamt_flag">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.pctamt_flag">Percent Or Amount</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.pctamt_flag">%/Amt [P/A]</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.pers_taken">
+			<DD_DATA_NAME id="ddm_elements.pers_taken">PERS_TAKEN      </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.pers_taken">Periods Taken                 </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.pers_taken">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.pers_taken">5</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.pers_taken"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.pers_taken">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.pers_taken">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.pers_taken">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.pers_taken">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.pers_taken">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.pers_taken">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.pers_taken">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.pers_taken">Periods Taken</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.pers_taken">Prds Taken</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.reserved_str">
+			<DD_DATA_NAME id="ddm_elements.reserved_str">RESERVED_STR    </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.reserved_str">Reserved For Addon Use        </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.reserved_str">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.reserved_str">1</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.reserved_str"> </DD_MASK_TYPE>
+			<DD_SYSTEM_REC id="ddm_elements.reserved_str">Y</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.reserved_str">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.reserved_str">BAR</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.reserved_str">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.reserved_str">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.reserved_str">X</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.reserved_str">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.reserved_str">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.reserved_str">Reserved For Addon Use</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.reserved_str">Res For Addon Use</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.mtd_gross">
+			<DD_DATA_NAME id="ddm_elements.mtd_gross">MTD_GROSS       </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.mtd_gross">MTD Gross                     </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.mtd_gross">N</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.mtd_gross">7</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.mtd_gross">A</DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.mtd_gross">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.mtd_gross">PR </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.mtd_gross">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.mtd_gross">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.mtd_gross">N</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.mtd_gross">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.mtd_gross">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.mtd_gross">MTD Gross</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.mtd_gross">MTD Gross</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.qtr_gross">
+			<DD_DATA_NAME id="ddm_elements.qtr_gross">QTR_GROSS       </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.qtr_gross">Quarter Gross                 </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.qtr_gross">N</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.qtr_gross">7</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.qtr_gross">A</DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.qtr_gross">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.qtr_gross">PR </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.qtr_gross">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.qtr_gross">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.qtr_gross">N</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.qtr_gross">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.qtr_gross">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.qtr_gross">Quarter Gross</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.qtr_gross">Qtr Gross</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.nmtd_gross">
+			<DD_DATA_NAME id="ddm_elements.nmtd_gross">NMTD_GROSS      </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.nmtd_gross">Next MTD Gross                </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.nmtd_gross">N</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.nmtd_gross">7</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.nmtd_gross">A</DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.nmtd_gross">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.nmtd_gross">PR </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.nmtd_gross">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.nmtd_gross">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.nmtd_gross">N</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.nmtd_gross">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.nmtd_gross">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.nmtd_gross">Next MTD Gross</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.nmtd_gross">NMTD Gross</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.mtd_taxable">
+			<DD_DATA_NAME id="ddm_elements.mtd_taxable">MTD_TAXABLE     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.mtd_taxable">MTD Taxable                   </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.mtd_taxable">N</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.mtd_taxable">7</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.mtd_taxable">A</DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.mtd_taxable">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.mtd_taxable">PR </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.mtd_taxable">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.mtd_taxable">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.mtd_taxable">N</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.mtd_taxable">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.mtd_taxable">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.mtd_taxable">MTD Taxable</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.mtd_taxable">MTD Taxable</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.qtr_taxable">
+			<DD_DATA_NAME id="ddm_elements.qtr_taxable">QTR_TAXABLE     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.qtr_taxable">Quarter Taxable               </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.qtr_taxable">N</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.qtr_taxable">7</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.qtr_taxable">A</DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.qtr_taxable">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.qtr_taxable">PR </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.qtr_taxable">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.qtr_taxable">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.qtr_taxable">N</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.qtr_taxable">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.qtr_taxable">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.qtr_taxable">Quarter Taxable</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.qtr_taxable">Qtr Taxable</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.nmtd_taxable">
+			<DD_DATA_NAME id="ddm_elements.nmtd_taxable">NMTD_TAXABLE    </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.nmtd_taxable">Next MTD Taxable              </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.nmtd_taxable">N</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.nmtd_taxable">7</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.nmtd_taxable">A</DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.nmtd_taxable">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.nmtd_taxable">PR </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.nmtd_taxable">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.nmtd_taxable">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.nmtd_taxable">N</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.nmtd_taxable">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.nmtd_taxable">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.nmtd_taxable">Next MTD Taxable</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.nmtd_taxable">NMTD Taxable</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.mtd_tax">
+			<DD_DATA_NAME id="ddm_elements.mtd_tax">MTD_TAX         </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.mtd_tax">MTD Tax                       </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.mtd_tax">N</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.mtd_tax">7</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.mtd_tax">A</DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.mtd_tax">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.mtd_tax">AR </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.mtd_tax">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.mtd_tax">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.mtd_tax">N</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.mtd_tax">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.mtd_tax">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.mtd_tax">MTD Tax</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.mtd_tax">MTD Tax</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.quarter_tax">
+			<DD_DATA_NAME id="ddm_elements.quarter_tax">QUARTER_TAX     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.quarter_tax">Quarter Tax                   </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.quarter_tax">N</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.quarter_tax">7</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.quarter_tax">A</DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.quarter_tax">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.quarter_tax">PR </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.quarter_tax">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.quarter_tax">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.quarter_tax">N</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.quarter_tax">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.quarter_tax">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.quarter_tax">Quarter Tax</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.quarter_tax">Qtr Tax</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.nmtd_tax">
+			<DD_DATA_NAME id="ddm_elements.nmtd_tax">NMTD_TAX        </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.nmtd_tax">Next MTD Tax Amount           </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.nmtd_tax">N</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.nmtd_tax">7</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.nmtd_tax">A</DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.nmtd_tax">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.nmtd_tax">AR </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.nmtd_tax">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.nmtd_tax">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.nmtd_tax">N</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.nmtd_tax">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.nmtd_tax">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.nmtd_tax">Next MTD Tax Amount</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.nmtd_tax">NMTD Tax Amt</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.tax_rate">
+			<DD_DATA_NAME id="ddm_elements.tax_rate">TAX_RATE        </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.tax_rate">Tax Rate                      </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.tax_rate">N</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.tax_rate">7</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.tax_rate">R</DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.tax_rate">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.tax_rate">PR </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.tax_rate">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.tax_rate">20060328</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.tax_rate">N</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.tax_rate">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.tax_rate">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.tax_rate">Tax Rate</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.tax_rate">Tax Rate</DD_ATTR_LABS>
 		</RECORD>
 	</ALIAS>
 </PRT_EMPLTAX>

@@ -1,152 +1,152 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <ADM_USERFIRM>
-	<ALIAS>
-		<ID>DDM_TABLES</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>ADM_USERFIRM    </DD_TABLE_ALIAS>
-			<DD_ALIAS_DESC>Operator/Firm Record</DD_ALIAS_DESC>
-			<DD_FILE_NAME>adm-12</DD_FILE_NAME>
-			<DD_TABLE_PATH>[+SYDATA]</DD_TABLE_PATH>
-			<DD_ALIAS_TYPE>X</DD_ALIAS_TYPE>
-			<DD_KEY_LENGTH>0</DD_KEY_LENGTH>
-			<DD_NBR_RECORD>0</DD_NBR_RECORD>
-			<DD_RECORD_LEN>6</DD_RECORD_LEN>
-			<DD_SYSTEM_REC>N</DD_SYSTEM_REC>
-			<DD_SYSTEM_ID>AD</DD_SYSTEM_ID>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AD </ASC_PROD_ID>
-			<ASC_LICENSE_ID>C90007E673DE9F51EF42EBC60E99C3D2</ASC_LICENSE_ID>
-			<DD_EXPORT_DATA>Y</DD_EXPORT_DATA>
-			<DD_CREATE_DATE>20060404</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080130</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE>20080130</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME>135034</DD_LSTSYNC_TIME>
-			<DD_ATTR_FTYP>T</DD_ATTR_FTYP>
-			<DD_ATTR_SLEV>zzzz</DD_ATTR_SLEV>
-			<DD_ATTR_WINT>Operator/Firm Record</DD_ATTR_WINT>
+	<ALIAS id="ddm_tables">
+		<ID id="ddm_tables">DDM_TABLES</ID>
+		<RECORD id="ddm_tables.adm_userfirm">
+			<DD_TABLE_ALIAS id="ddm_tables.adm_userfirm">ADM_USERFIRM    </DD_TABLE_ALIAS>
+			<DD_ALIAS_DESC id="ddm_tables.adm_userfirm">Operator/Firm Record</DD_ALIAS_DESC>
+			<DD_FILE_NAME id="ddm_tables.adm_userfirm">adm-12</DD_FILE_NAME>
+			<DD_TABLE_PATH id="ddm_tables.adm_userfirm">[+SYDATA]</DD_TABLE_PATH>
+			<DD_ALIAS_TYPE id="ddm_tables.adm_userfirm">V</DD_ALIAS_TYPE>
+			<DD_KEY_LENGTH id="ddm_tables.adm_userfirm">0</DD_KEY_LENGTH>
+			<DD_NBR_RECORD id="ddm_tables.adm_userfirm">0</DD_NBR_RECORD>
+			<DD_RECORD_LEN id="ddm_tables.adm_userfirm">6</DD_RECORD_LEN>
+			<DD_SYSTEM_REC id="ddm_tables.adm_userfirm">N</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_tables.adm_userfirm">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_tables.adm_userfirm">AD </ASC_PROD_ID>
+			<ASC_VERSION_ID id="ddm_tables.adm_userfirm">8.0</ASC_VERSION_ID>
+			<ASC_LICENSE_ID id="ddm_tables.adm_userfirm">C90007E673DE9F51EF42EBC60E99C3D2</ASC_LICENSE_ID>
+			<DD_EXPORT_DATA id="ddm_tables.adm_userfirm">Y</DD_EXPORT_DATA>
+			<DD_CREATE_DATE id="ddm_tables.adm_userfirm">20060404</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_tables.adm_userfirm">20090325</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.adm_userfirm">20090325</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.adm_userfirm">090422</DD_LSTSYNC_TIME>
+			<DD_ATTR_FTYP id="ddm_tables.adm_userfirm">T</DD_ATTR_FTYP>
+			<DD_ATTR_SLEV id="ddm_tables.adm_userfirm">zzzz</DD_ATTR_SLEV>
+			<DD_ATTR_WINT id="ddm_tables.adm_userfirm">Operator/Firm Record</DD_ATTR_WINT>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_TPLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>ADM_USERFIRM    </DD_TABLE_ALIAS>
-			<DD_FILE_NAME>adm-12</DD_FILE_NAME>
-			<DD_TABLE_TPL>user_id:c(16),company_id:c(2*)</DD_TABLE_TPL>
+	<ALIAS id="ddm_table_tpls">
+		<ID id="ddm_table_tpls">DDM_TABLE_TPLS</ID>
+		<RECORD id="ddm_table_tpls.adm_userfirm">
+			<DD_TABLE_ALIAS id="ddm_table_tpls.adm_userfirm">ADM_USERFIRM    </DD_TABLE_ALIAS>
+			<DD_FILE_NAME id="ddm_table_tpls.adm_userfirm">adm-12</DD_FILE_NAME>
+			<DD_TABLE_TPL id="ddm_table_tpls.adm_userfirm">user_id:c(16),company_id:c(2*)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_KEYS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>ADM_USERFIRM    </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_KEY_DESC>Primary</DD_KEY_DESC>
-			<DD_KEY_ID>PRIMARY         </DD_KEY_ID>
+	<ALIAS id="ddm_keys">
+		<ID id="ddm_keys">DDM_KEYS</ID>
+		<RECORD id="ddm_keys.adm_userfirm00">
+			<DD_TABLE_ALIAS id="ddm_keys.adm_userfirm00">ADM_USERFIRM    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_keys.adm_userfirm00">00</DD_KEY_NUMBER>
+			<DD_KEY_DESC id="ddm_keys.adm_userfirm00">Primary</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.adm_userfirm00">PRIMARY         </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_KEY_SEGS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>ADM_USERFIRM    </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>01</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>USER_ID         </DD_SEGMENT_COL>
-			<DD_SEGMENT_POS>0</DD_SEGMENT_POS>
-			<DD_SEGMENT_OFF>0</DD_SEGMENT_OFF>
-			<DD_SEGMENT_LEN>0</DD_SEGMENT_LEN>
+	<ALIAS id="ddm_key_segs">
+		<ID id="ddm_key_segs">DDM_KEY_SEGS</ID>
+		<RECORD id="ddm_key_segs.adm_userfirm0001">
+			<DD_TABLE_ALIAS id="ddm_key_segs.adm_userfirm0001">ADM_USERFIRM    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.adm_userfirm0001">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.adm_userfirm0001">01</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.adm_userfirm0001">USER_ID         </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.adm_userfirm0001">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.adm_userfirm0001">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.adm_userfirm0001">0</DD_SEGMENT_LEN>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>ADM_USERFIRM    </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>02</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>FIRM_ID         </DD_SEGMENT_COL>
-			<DD_SEGMENT_POS>0</DD_SEGMENT_POS>
-			<DD_SEGMENT_OFF>0</DD_SEGMENT_OFF>
-			<DD_SEGMENT_LEN>0</DD_SEGMENT_LEN>
-		</RECORD>
-	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_COLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>ADM_USERFIRM    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>001</DD_SEQUENCE>
-			<DD_DATA_NAME>USER_ID         </DD_DATA_NAME>
-			<DD_DVAR_NAME>USER_ID         </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>AON Operator ID</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>ADM_USERFIRM    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>002</DD_SEQUENCE>
-			<DD_DATA_NAME>COMPANY_ID      </DD_DATA_NAME>
-			<DD_DVAR_NAME>COMPANY_ID      </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
+		<RECORD id="ddm_key_segs.adm_userfirm0002">
+			<DD_TABLE_ALIAS id="ddm_key_segs.adm_userfirm0002">ADM_USERFIRM    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.adm_userfirm0002">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.adm_userfirm0002">02</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.adm_userfirm0002">COMPANY_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.adm_userfirm0002">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.adm_userfirm0002">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.adm_userfirm0002">0</DD_SEGMENT_LEN>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_ELEMENTS</ID>
-		<RECORD>
-			<DD_DATA_NAME>USER_ID         </DD_DATA_NAME>
-			<DD_DESCRIPTION>User ID</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>16</DD_DATA_LENGTH>
-			<DD_SYSTEM_REC>Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080110</DD_LSTREV_DATE>
-			<DD_AUTO_COMP>Y</DD_AUTO_COMP>
-			<DD_ATTR_CTLW>150</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOL>NAME</DD_ATTR_DCOL>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_DFLT>stbl["+USER_ID"]</DD_ATTR_DFLT>
-			<DD_ATTR_DTAB>ADM_USER        </DD_ATTR_DTAB>
-			<DD_ATTR_LABL>User ID</DD_ATTR_LABL>
-			<DD_ATTR_LABS>User ID</DD_ATTR_LABS>
-			<DD_ATTR_MAXL>0</DD_ATTR_MAXL>
-			<DD_ATTR_MAXR>0</DD_ATTR_MAXR>
-			<DD_ATTR_MINL>0</DD_ATTR_MINL>
-			<DD_ATTR_MSKI>UUUUUUUUUUUUUUUU</DD_ATTR_MSKI>
-			<DD_ATTR_PADC>20</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>L</DD_ATTR_PADJ>
-			<DD_ATTR_PREC>0</DD_ATTR_PREC>
+	<ALIAS id="ddm_table_cols">
+		<ID id="ddm_table_cols">DDM_TABLE_COLS</ID>
+		<RECORD id="ddm_table_cols.adm_userfirm001">
+			<DD_TABLE_ALIAS id="ddm_table_cols.adm_userfirm001">ADM_USERFIRM    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.adm_userfirm001">001</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.adm_userfirm001">USER_ID         </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.adm_userfirm001">USER_ID         </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.adm_userfirm001">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.adm_userfirm001">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.adm_userfirm001">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.adm_userfirm001">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.adm_userfirm001">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.adm_userfirm001">AON Operator ID</DD_ATTR_PROM>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>COMPANY_ID      </DD_DATA_NAME>
-			<DD_DESCRIPTION>Company ID</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>2</DD_DATA_LENGTH>
-			<DD_SYSTEM_REC>Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060419</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060419</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOL>FIRM_NAME       </DD_ATTR_DCOL>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DTAB>ADM_FIRMS       </DD_ATTR_DTAB>
-			<DD_ATTR_LABL>Company ID</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Comp ID</DD_ATTR_LABS>
-			<DD_ATTR_MAXL>0</DD_ATTR_MAXL>
-			<DD_ATTR_MAXR>0</DD_ATTR_MAXR>
-			<DD_ATTR_MINL>0</DD_ATTR_MINL>
-			<DD_ATTR_MSKI>00</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>00</DD_ATTR_MSKO>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>R</DD_ATTR_PADJ>
+		<RECORD id="ddm_table_cols.adm_userfirm002">
+			<DD_TABLE_ALIAS id="ddm_table_cols.adm_userfirm002">ADM_USERFIRM    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.adm_userfirm002">002</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.adm_userfirm002">COMPANY_ID      </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.adm_userfirm002">COMPANY_ID      </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.adm_userfirm002">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.adm_userfirm002">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.adm_userfirm002">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.adm_userfirm002">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.adm_userfirm002">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.adm_userfirm002">20060119</DD_LSTREV_DATE>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_elements">
+		<ID id="ddm_elements">DDM_ELEMENTS</ID>
+		<RECORD id="ddm_elements.user_id">
+			<DD_DATA_NAME id="ddm_elements.user_id">USER_ID         </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.user_id">User ID</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.user_id">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.user_id">16</DD_DATA_LENGTH>
+			<DD_SYSTEM_REC id="ddm_elements.user_id">Y</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.user_id">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.user_id">BAR</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.user_id">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.user_id">20080110</DD_LSTREV_DATE>
+			<DD_AUTO_COMP id="ddm_elements.user_id">Y</DD_AUTO_COMP>
+			<DD_ATTR_CTLW id="ddm_elements.user_id">150</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.user_id">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.user_id">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOL id="ddm_elements.user_id">NAME</DD_ATTR_DCOL>
+			<DD_ATTR_DCOM id="ddm_elements.user_id">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.user_id">            </DD_ATTR_DEXP>
+			<DD_ATTR_DFLT id="ddm_elements.user_id">stbl["+USER_ID"]</DD_ATTR_DFLT>
+			<DD_ATTR_DTAB id="ddm_elements.user_id">ADM_USER        </DD_ATTR_DTAB>
+			<DD_ATTR_LABL id="ddm_elements.user_id">User ID</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.user_id">User ID</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.user_id">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.user_id">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.user_id">0</DD_ATTR_MINL>
+			<DD_ATTR_MSKI id="ddm_elements.user_id">UUUUUUUUUUUUUUUU</DD_ATTR_MSKI>
+			<DD_ATTR_PADC id="ddm_elements.user_id">20</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.user_id">L</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.user_id">0</DD_ATTR_PREC>
+		</RECORD>
+		<RECORD id="ddm_elements.company_id">
+			<DD_DATA_NAME id="ddm_elements.company_id">COMPANY_ID      </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.company_id">Company ID</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.company_id">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.company_id">2</DD_DATA_LENGTH>
+			<DD_SYSTEM_REC id="ddm_elements.company_id">Y</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.company_id">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.company_id">BAR</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.company_id">20060419</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.company_id">20060419</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.company_id">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.company_id">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.company_id">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOL id="ddm_elements.company_id">FIRM_NAME       </DD_ATTR_DCOL>
+			<DD_ATTR_DCOM id="ddm_elements.company_id">            </DD_ATTR_DCOM>
+			<DD_ATTR_DTAB id="ddm_elements.company_id">ADM_FIRMS       </DD_ATTR_DTAB>
+			<DD_ATTR_LABL id="ddm_elements.company_id">Company ID</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.company_id">Comp ID</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.company_id">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.company_id">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.company_id">0</DD_ATTR_MINL>
+			<DD_ATTR_MSKI id="ddm_elements.company_id">00</DD_ATTR_MSKI>
+			<DD_ATTR_MSKO id="ddm_elements.company_id">00</DD_ATTR_MSKO>
+			<DD_ATTR_PADC id="ddm_elements.company_id">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.company_id">R</DD_ATTR_PADJ>
 		</RECORD>
 	</ALIAS>
 </ADM_USERFIRM>

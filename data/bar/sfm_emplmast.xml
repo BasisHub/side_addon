@@ -1,291 +1,281 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <SFM_EMPLMAST>
-	<ALIAS>
-		<ID>DDM_TABLES</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>SFM_EMPLMAST    </DD_TABLE_ALIAS>
-			<DD_ALIAS_DESC>Work Order Employee Master</DD_ALIAS_DESC>
-			<DD_FILE_NAME>sfm-01</DD_FILE_NAME>
-			<DD_TABLE_PATH>[+SFDATA]</DD_TABLE_PATH>
-			<DD_ALIAS_TYPE>X</DD_ALIAS_TYPE>
-			<DD_KEY_LENGTH>0</DD_KEY_LENGTH>
-			<DD_NBR_RECORD>0</DD_NBR_RECORD>
-			<DD_RECORD_LEN>64</DD_RECORD_LEN>
-			<DD_SYSTEM_REC>N</DD_SYSTEM_REC>
-			<DD_SYSTEM_ID>SF</DD_SYSTEM_ID>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>SF </ASC_PROD_ID>
-			<ASC_LICENSE_ID>9D5E96E5BA17BDEC1ED73FAE344FE580</ASC_LICENSE_ID>
-			<DD_EXPORT_DATA>Y</DD_EXPORT_DATA>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080130</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE>20080130</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME>135250</DD_LSTSYNC_TIME>
-			<DD_ATTR_FTYP>T</DD_ATTR_FTYP>
-			<DD_ATTR_SLEV>zzzz</DD_ATTR_SLEV>
-			<DD_ATTR_WINT>Work Order Employee Master</DD_ATTR_WINT>
+	<ALIAS id="ddm_tables">
+		<ID id="ddm_tables">DDM_TABLES</ID>
+		<RECORD id="ddm_tables.sfm_emplmast">
+			<DD_TABLE_ALIAS id="ddm_tables.sfm_emplmast">SFM_EMPLMAST    </DD_TABLE_ALIAS>
+			<DD_ALIAS_DESC id="ddm_tables.sfm_emplmast">Work Order Employee Master</DD_ALIAS_DESC>
+			<DD_FILE_NAME id="ddm_tables.sfm_emplmast">sfm-01</DD_FILE_NAME>
+			<DD_TABLE_PATH id="ddm_tables.sfm_emplmast">[+SFDATA]</DD_TABLE_PATH>
+			<DD_ALIAS_TYPE id="ddm_tables.sfm_emplmast">V</DD_ALIAS_TYPE>
+			<DD_KEY_LENGTH id="ddm_tables.sfm_emplmast">0</DD_KEY_LENGTH>
+			<DD_NBR_RECORD id="ddm_tables.sfm_emplmast">0</DD_NBR_RECORD>
+			<DD_RECORD_LEN id="ddm_tables.sfm_emplmast">64</DD_RECORD_LEN>
+			<DD_SYSTEM_REC id="ddm_tables.sfm_emplmast">N</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_tables.sfm_emplmast">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_tables.sfm_emplmast">SF </ASC_PROD_ID>
+			<ASC_VERSION_ID id="ddm_tables.sfm_emplmast">8.0</ASC_VERSION_ID>
+			<ASC_LICENSE_ID id="ddm_tables.sfm_emplmast">9D5E96E5BA17BDEC1ED73FAE344FE580</ASC_LICENSE_ID>
+			<DD_EXPORT_DATA id="ddm_tables.sfm_emplmast">Y</DD_EXPORT_DATA>
+			<DD_CREATE_DATE id="ddm_tables.sfm_emplmast">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_tables.sfm_emplmast">20090325</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.sfm_emplmast">20090325</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.sfm_emplmast">090416</DD_LSTSYNC_TIME>
+			<DD_ATTR_FTYP id="ddm_tables.sfm_emplmast">T</DD_ATTR_FTYP>
+			<DD_ATTR_SLEV id="ddm_tables.sfm_emplmast">zzzz</DD_ATTR_SLEV>
+			<DD_ATTR_WINT id="ddm_tables.sfm_emplmast">Work Order Employee Master</DD_ATTR_WINT>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_TPLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>SFM_EMPLMAST    </DD_TABLE_ALIAS>
-			<DD_FILE_NAME>sfm-01</DD_FILE_NAME>
-			<DD_TABLE_TPL>firm_id:c(2),employee_no:c(9*),empl_surname:c(16),empl_givname:c(14),alt_sequence:c(10*)</DD_TABLE_TPL>
+	<ALIAS id="ddm_table_tpls">
+		<ID id="ddm_table_tpls">DDM_TABLE_TPLS</ID>
+		<RECORD id="ddm_table_tpls.sfm_emplmast">
+			<DD_TABLE_ALIAS id="ddm_table_tpls.sfm_emplmast">SFM_EMPLMAST    </DD_TABLE_ALIAS>
+			<DD_FILE_NAME id="ddm_table_tpls.sfm_emplmast">sfm-01</DD_FILE_NAME>
+			<DD_TABLE_TPL id="ddm_table_tpls.sfm_emplmast">firm_id:c(2),employee_no:c(9*),empl_surname:c(16),empl_givname:c(14),alt_sequence:c(10*)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_KEYS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>SFM_EMPLMAST    </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_KEY_DESC>Primary</DD_KEY_DESC>
-			<DD_KEY_ID>PRIMARY         </DD_KEY_ID>
+	<ALIAS id="ddm_keys">
+		<ID id="ddm_keys">DDM_KEYS</ID>
+		<RECORD id="ddm_keys.sfm_emplmast00">
+			<DD_TABLE_ALIAS id="ddm_keys.sfm_emplmast00">SFM_EMPLMAST    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_keys.sfm_emplmast00">00</DD_KEY_NUMBER>
+			<DD_KEY_DESC id="ddm_keys.sfm_emplmast00">Primary</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.sfm_emplmast00">PRIMARY         </DD_KEY_ID>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>SFM_EMPLMAST    </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>01</DD_KEY_NUMBER>
-			<DD_KEY_DESC>Empl Name/Empl ID</DD_KEY_DESC>
-			<DD_KEY_ID>ALT_KEY_01      </DD_KEY_ID>
+		<RECORD id="ddm_keys.sfm_emplmast01">
+			<DD_TABLE_ALIAS id="ddm_keys.sfm_emplmast01">SFM_EMPLMAST    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_keys.sfm_emplmast01">01</DD_KEY_NUMBER>
+			<DD_KEY_DESC id="ddm_keys.sfm_emplmast01">Empl Name/Empl ID</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.sfm_emplmast01">ALT_KEY_01      </DD_KEY_ID>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>SFM_EMPLMAST    </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>02</DD_KEY_NUMBER>
-			<DD_KEY_DESC>Empl Alt Seq Sort</DD_KEY_DESC>
-			<DD_KEY_ID>ALT_KEY_02      </DD_KEY_ID>
-		</RECORD>
-	</ALIAS>
-	<ALIAS>
-		<ID>DDM_KEY_SEGS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>SFM_EMPLMAST    </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>01</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>FIRM_ID         </DD_SEGMENT_COL>
-			<DD_SEGMENT_POS>0</DD_SEGMENT_POS>
-			<DD_SEGMENT_OFF>0</DD_SEGMENT_OFF>
-			<DD_SEGMENT_LEN>0</DD_SEGMENT_LEN>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>SFM_EMPLMAST    </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>02</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>EMPLOYEE_NO     </DD_SEGMENT_COL>
-			<DD_SEGMENT_POS>0</DD_SEGMENT_POS>
-			<DD_SEGMENT_OFF>0</DD_SEGMENT_OFF>
-			<DD_SEGMENT_LEN>0</DD_SEGMENT_LEN>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>SFM_EMPLMAST    </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>01</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>01</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>FIRM_ID         </DD_SEGMENT_COL>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>SFM_EMPLMAST    </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>01</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>02</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>EMPL_SURNAME    </DD_SEGMENT_COL>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>SFM_EMPLMAST    </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>01</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>03</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>EMPLOYEE_NUMB   </DD_SEGMENT_COL>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>SFM_EMPLMAST    </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>02</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>01</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>FIRM_ID         </DD_SEGMENT_COL>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>SFM_EMPLMAST    </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>02</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>02</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>ALT_SEQUENCE    </DD_SEGMENT_COL>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>SFM_EMPLMAST    </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>02</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>03</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>EMPLOYEE_NO     </DD_SEGMENT_COL>
+		<RECORD id="ddm_keys.sfm_emplmast02">
+			<DD_TABLE_ALIAS id="ddm_keys.sfm_emplmast02">SFM_EMPLMAST    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_keys.sfm_emplmast02">02</DD_KEY_NUMBER>
+			<DD_KEY_DESC id="ddm_keys.sfm_emplmast02">Empl Alt Seq Sort</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.sfm_emplmast02">ALT_KEY_02      </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_COLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>SFM_EMPLMAST    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>001</DD_SEQUENCE>
-			<DD_DATA_NAME>FIRM_ID         </DD_DATA_NAME>
-			<DD_DVAR_NAME>FIRM_ID         </DD_DVAR_NAME>
-			<DD_COL_REPEATS>1</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Firm ID</DD_ATTR_PROM>
+	<ALIAS id="ddm_key_segs">
+		<ID id="ddm_key_segs">DDM_KEY_SEGS</ID>
+		<RECORD id="ddm_key_segs.sfm_emplmast0001">
+			<DD_TABLE_ALIAS id="ddm_key_segs.sfm_emplmast0001">SFM_EMPLMAST    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.sfm_emplmast0001">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.sfm_emplmast0001">01</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.sfm_emplmast0001">FIRM_ID         </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.sfm_emplmast0001">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.sfm_emplmast0001">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.sfm_emplmast0001">0</DD_SEGMENT_LEN>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>SFM_EMPLMAST    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>002</DD_SEQUENCE>
-			<DD_DATA_NAME>EMPLOYEE_NO     </DD_DATA_NAME>
-			<DD_DVAR_NAME>EMPLOYEE_NO     </DD_DVAR_NAME>
-			<DD_COL_REPEATS>1</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Employee Number</DD_ATTR_PROM>
+		<RECORD id="ddm_key_segs.sfm_emplmast0002">
+			<DD_TABLE_ALIAS id="ddm_key_segs.sfm_emplmast0002">SFM_EMPLMAST    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.sfm_emplmast0002">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.sfm_emplmast0002">02</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.sfm_emplmast0002">EMPLOYEE_NO     </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.sfm_emplmast0002">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.sfm_emplmast0002">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.sfm_emplmast0002">0</DD_SEGMENT_LEN>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>SFM_EMPLMAST    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>003</DD_SEQUENCE>
-			<DD_DATA_NAME>EMPL_SURNAME    </DD_DATA_NAME>
-			<DD_DVAR_NAME>EMPL_SURNAME    </DD_DVAR_NAME>
-			<DD_COL_REPEATS>1</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Employee Surname</DD_ATTR_PROM>
+		<RECORD id="ddm_key_segs.sfm_emplmast0101">
+			<DD_TABLE_ALIAS id="ddm_key_segs.sfm_emplmast0101">SFM_EMPLMAST    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.sfm_emplmast0101">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.sfm_emplmast0101">01</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.sfm_emplmast0101">FIRM_ID         </DD_SEGMENT_COL>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>SFM_EMPLMAST    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>004</DD_SEQUENCE>
-			<DD_DATA_NAME>EMPL_GIVNAME    </DD_DATA_NAME>
-			<DD_DVAR_NAME>EMPL_GIVNAME    </DD_DVAR_NAME>
-			<DD_COL_REPEATS>1</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Employee Given Name</DD_ATTR_PROM>
+		<RECORD id="ddm_key_segs.sfm_emplmast0102">
+			<DD_TABLE_ALIAS id="ddm_key_segs.sfm_emplmast0102">SFM_EMPLMAST    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.sfm_emplmast0102">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.sfm_emplmast0102">02</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.sfm_emplmast0102">EMPL_SURNAME    </DD_SEGMENT_COL>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>SFM_EMPLMAST    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>005</DD_SEQUENCE>
-			<DD_DATA_NAME>ALT_SEQUENCE    </DD_DATA_NAME>
-			<DD_DVAR_NAME>ALT_SEQUENCE    </DD_DVAR_NAME>
-			<DD_COL_REPEATS>1</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Alternate Sequence</DD_ATTR_PROM>
+		<RECORD id="ddm_key_segs.sfm_emplmast0103">
+			<DD_TABLE_ALIAS id="ddm_key_segs.sfm_emplmast0103">SFM_EMPLMAST    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.sfm_emplmast0103">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.sfm_emplmast0103">03</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.sfm_emplmast0103">EMPL_GIVNAME</DD_SEGMENT_COL>
+		</RECORD>
+		<RECORD id="ddm_key_segs.sfm_emplmast0201">
+			<DD_TABLE_ALIAS id="ddm_key_segs.sfm_emplmast0201">SFM_EMPLMAST    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.sfm_emplmast0201">02</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.sfm_emplmast0201">01</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.sfm_emplmast0201">FIRM_ID         </DD_SEGMENT_COL>
+		</RECORD>
+		<RECORD id="ddm_key_segs.sfm_emplmast0202">
+			<DD_TABLE_ALIAS id="ddm_key_segs.sfm_emplmast0202">SFM_EMPLMAST    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.sfm_emplmast0202">02</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.sfm_emplmast0202">02</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.sfm_emplmast0202">ALT_SEQUENCE    </DD_SEGMENT_COL>
+		</RECORD>
+		<RECORD id="ddm_key_segs.sfm_emplmast0203">
+			<DD_TABLE_ALIAS id="ddm_key_segs.sfm_emplmast0203">SFM_EMPLMAST    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.sfm_emplmast0203">02</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.sfm_emplmast0203">03</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.sfm_emplmast0203">EMPLOYEE_NO     </DD_SEGMENT_COL>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_COLUMN_OPTS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>SFM_EMPLMAST    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>FIRM_ID         </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>O</DD_ATTR_OPTS>
+	<ALIAS id="ddm_table_cols">
+		<ID id="ddm_table_cols">DDM_TABLE_COLS</ID>
+		<RECORD id="ddm_table_cols.sfm_emplmast001">
+			<DD_TABLE_ALIAS id="ddm_table_cols.sfm_emplmast001">SFM_EMPLMAST    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.sfm_emplmast001">001</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.sfm_emplmast001">FIRM_ID         </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.sfm_emplmast001">FIRM_ID         </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.sfm_emplmast001">1</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.sfm_emplmast001">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.sfm_emplmast001">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.sfm_emplmast001">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.sfm_emplmast001">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.sfm_emplmast001">Firm ID</DD_ATTR_PROM>
+		</RECORD>
+		<RECORD id="ddm_table_cols.sfm_emplmast002">
+			<DD_TABLE_ALIAS id="ddm_table_cols.sfm_emplmast002">SFM_EMPLMAST    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.sfm_emplmast002">002</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.sfm_emplmast002">EMPLOYEE_NO     </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.sfm_emplmast002">EMPLOYEE_NO     </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.sfm_emplmast002">1</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.sfm_emplmast002">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.sfm_emplmast002">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.sfm_emplmast002">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.sfm_emplmast002">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.sfm_emplmast002">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.sfm_emplmast002">Employee Number</DD_ATTR_PROM>
+		</RECORD>
+		<RECORD id="ddm_table_cols.sfm_emplmast003">
+			<DD_TABLE_ALIAS id="ddm_table_cols.sfm_emplmast003">SFM_EMPLMAST    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.sfm_emplmast003">003</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.sfm_emplmast003">EMPL_SURNAME    </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.sfm_emplmast003">EMPL_SURNAME    </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.sfm_emplmast003">1</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.sfm_emplmast003">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.sfm_emplmast003">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.sfm_emplmast003">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.sfm_emplmast003">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.sfm_emplmast003">Employee Surname</DD_ATTR_PROM>
+		</RECORD>
+		<RECORD id="ddm_table_cols.sfm_emplmast004">
+			<DD_TABLE_ALIAS id="ddm_table_cols.sfm_emplmast004">SFM_EMPLMAST    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.sfm_emplmast004">004</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.sfm_emplmast004">EMPL_GIVNAME    </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.sfm_emplmast004">EMPL_GIVNAME    </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.sfm_emplmast004">1</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.sfm_emplmast004">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.sfm_emplmast004">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.sfm_emplmast004">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.sfm_emplmast004">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.sfm_emplmast004">Employee Given Name</DD_ATTR_PROM>
+		</RECORD>
+		<RECORD id="ddm_table_cols.sfm_emplmast005">
+			<DD_TABLE_ALIAS id="ddm_table_cols.sfm_emplmast005">SFM_EMPLMAST    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.sfm_emplmast005">005</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.sfm_emplmast005">ALT_SEQUENCE    </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.sfm_emplmast005">ALT_SEQUENCE    </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.sfm_emplmast005">1</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.sfm_emplmast005">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.sfm_emplmast005">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.sfm_emplmast005">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.sfm_emplmast005">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.sfm_emplmast005">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.sfm_emplmast005">Alternate Sequence</DD_ATTR_PROM>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_ELEMENTS</ID>
-		<RECORD>
-			<DD_DATA_NAME>FIRM_ID         </DD_DATA_NAME>
-			<DD_DESCRIPTION>Firm ID</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>2</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<DD_SYSTEM_REC>Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060425</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>H</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Firm ID</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Firm ID</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>00</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>00</DD_ATTR_MSKO>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>R</DD_ATTR_PADJ>
-			<DD_ATTR_PVAL>stbl("+FIRM_ID")</DD_ATTR_PVAL>
+	<ALIAS id="ddm_column_opts">
+		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
+		<RECORD id="ddm_column_opts.sfm_emplmastfirm_ido">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfm_emplmastfirm_ido">SFM_EMPLMAST    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfm_emplmastfirm_ido">FIRM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfm_emplmastfirm_ido">O</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>EMPLOYEE_NO     </DD_DATA_NAME>
-			<DD_DESCRIPTION>Employee Number</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>9</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>PR</DD_SYSTEM_ID>
-			<DD_MASK_TYPE>N</DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060421</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOL>EMPL_SURNAME    </DD_ATTR_DCOL>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_DKEY>[+FIRM_ID]+@</DD_ATTR_DKEY>
-			<DD_ATTR_DTAB>PRM_EMPLMAST    </DD_ATTR_DTAB>
-			<DD_ATTR_LABL>Employee Number</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Empl No</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>UUUUUUUUU</DD_ATTR_MSKI>
+	</ALIAS>
+	<ALIAS id="ddm_elements">
+		<ID id="ddm_elements">DDM_ELEMENTS</ID>
+		<RECORD id="ddm_elements.firm_id">
+			<DD_DATA_NAME id="ddm_elements.firm_id">FIRM_ID         </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.firm_id">Firm ID</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.firm_id">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.firm_id">2</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.firm_id"> </DD_MASK_TYPE>
+			<DD_SYSTEM_REC id="ddm_elements.firm_id">Y</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.firm_id">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.firm_id">BAR</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.firm_id">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.firm_id">20060425</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.firm_id">H</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.firm_id">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.firm_id">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABS>
+			<DD_ATTR_MSKI id="ddm_elements.firm_id">00</DD_ATTR_MSKI>
+			<DD_ATTR_MSKO id="ddm_elements.firm_id">00</DD_ATTR_MSKO>
+			<DD_ATTR_PADC id="ddm_elements.firm_id">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.firm_id">R</DD_ATTR_PADJ>
+			<DD_ATTR_PVAL id="ddm_elements.firm_id">stbl("+FIRM_ID")</DD_ATTR_PVAL>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>EMPL_SURNAME    </DD_DATA_NAME>
-			<DD_DESCRIPTION>Employee Surname              </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>16</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Employee Surname</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Empl Surname</DD_ATTR_LABS>
+		<RECORD id="ddm_elements.employee_no">
+			<DD_DATA_NAME id="ddm_elements.employee_no">EMPLOYEE_NO     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.employee_no">Employee Number</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.employee_no">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.employee_no">9</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.employee_no">N</DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.employee_no">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.employee_no">PR </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.employee_no">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.employee_no">20060421</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.employee_no">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOL id="ddm_elements.employee_no">EMPL_SURNAME    </DD_ATTR_DCOL>
+			<DD_ATTR_DCOM id="ddm_elements.employee_no">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.employee_no">            </DD_ATTR_DEXP>
+			<DD_ATTR_DKEY id="ddm_elements.employee_no">[+FIRM_ID]+@</DD_ATTR_DKEY>
+			<DD_ATTR_DTAB id="ddm_elements.employee_no">PRM_EMPLMAST    </DD_ATTR_DTAB>
+			<DD_ATTR_LABL id="ddm_elements.employee_no">Employee Number</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.employee_no">Empl No</DD_ATTR_LABS>
+			<DD_ATTR_MSKI id="ddm_elements.employee_no">UUUUUUUUU</DD_ATTR_MSKI>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>EMPL_GIVNAME    </DD_DATA_NAME>
-			<DD_DESCRIPTION>Employee Given Name           </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>14</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Employee Given Name</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Empl Given Name</DD_ATTR_LABS>
+		<RECORD id="ddm_elements.empl_surname">
+			<DD_DATA_NAME id="ddm_elements.empl_surname">EMPL_SURNAME    </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.empl_surname">Employee Surname              </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.empl_surname">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.empl_surname">16</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.empl_surname"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.empl_surname">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.empl_surname">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.empl_surname">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.empl_surname">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.empl_surname">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.empl_surname">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.empl_surname">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.empl_surname">Employee Surname</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.empl_surname">Empl Surname</DD_ATTR_LABS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>ALT_SEQUENCE    </DD_DATA_NAME>
-			<DD_DESCRIPTION>Alternate Sequence            </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>10</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Alternate Sequence</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Alt Seq</DD_ATTR_LABS>
+		<RECORD id="ddm_elements.empl_givname">
+			<DD_DATA_NAME id="ddm_elements.empl_givname">EMPL_GIVNAME    </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.empl_givname">Employee Given Name           </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.empl_givname">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.empl_givname">14</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.empl_givname"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.empl_givname">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.empl_givname">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.empl_givname">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.empl_givname">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.empl_givname">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.empl_givname">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.empl_givname">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.empl_givname">Employee Given Name</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.empl_givname">Empl Given Name</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.alt_sequence">
+			<DD_DATA_NAME id="ddm_elements.alt_sequence">ALT_SEQUENCE    </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.alt_sequence">Alternate Sequence            </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.alt_sequence">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.alt_sequence">10</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.alt_sequence"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.alt_sequence">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.alt_sequence">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.alt_sequence">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.alt_sequence">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.alt_sequence">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.alt_sequence">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.alt_sequence">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.alt_sequence">Alternate Sequence</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.alt_sequence">Alt Seq</DD_ATTR_LABS>
 		</RECORD>
 	</ALIAS>
 </SFM_EMPLMAST>

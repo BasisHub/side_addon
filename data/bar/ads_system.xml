@@ -1,270 +1,263 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <ADS_SYSTEM>
-	<ALIAS>
-		<ID>DDM_TABLES</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>ADS_SYSTEM      </DD_TABLE_ALIAS>
-			<DD_ALIAS_DESC>System Definition</DD_ALIAS_DESC>
-			<DD_TABLE_PATH>[+ADDATA]</DD_TABLE_PATH>
-			<DD_ALIAS_TYPE>X</DD_ALIAS_TYPE>
-			<DD_SYSTEM_REC>N</DD_SYSTEM_REC>
-			<DD_SYSTEM_ID>AD</DD_SYSTEM_ID>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AD </ASC_PROD_ID>
-			<ASC_LICENSE_ID>4ADF09C50E4A6EDC84FB141B0D8AF590</ASC_LICENSE_ID>
-			<DD_EXPORT_DATA>Y</DD_EXPORT_DATA>
-			<DD_CREATE_DATE>20060404</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080130</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE>20080130</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME>135036</DD_LSTSYNC_TIME>
-			<DD_ATTR_FTYP>T</DD_ATTR_FTYP>
-			<DD_ATTR_SLEV>zzzz</DD_ATTR_SLEV>
-			<DD_ATTR_WINT>System Definition</DD_ATTR_WINT>
+	<ALIAS id="ddm_tables">
+		<ID id="ddm_tables">DDM_TABLES</ID>
+		<RECORD id="ddm_tables.ads_system">
+			<DD_TABLE_ALIAS id="ddm_tables.ads_system">ADS_SYSTEM      </DD_TABLE_ALIAS>
+			<DD_ALIAS_DESC id="ddm_tables.ads_system">System Definition</DD_ALIAS_DESC>
+			<DD_TABLE_PATH id="ddm_tables.ads_system">[+ADDATA]</DD_TABLE_PATH>
+			<DD_ALIAS_TYPE id="ddm_tables.ads_system">V</DD_ALIAS_TYPE>
+			<DD_SYSTEM_REC id="ddm_tables.ads_system">N</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_tables.ads_system">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_tables.ads_system">AD </ASC_PROD_ID>
+			<ASC_VERSION_ID id="ddm_tables.ads_system">8.0</ASC_VERSION_ID>
+			<ASC_LICENSE_ID id="ddm_tables.ads_system">4ADF09C50E4A6EDC84FB141B0D8AF590</ASC_LICENSE_ID>
+			<DD_EXPORT_DATA id="ddm_tables.ads_system">Y</DD_EXPORT_DATA>
+			<DD_CREATE_DATE id="ddm_tables.ads_system">20060404</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_tables.ads_system">20090325</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ads_system">20090325</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ads_system">090424</DD_LSTSYNC_TIME>
+			<DD_ATTR_FTYP id="ddm_tables.ads_system">T</DD_ATTR_FTYP>
+			<DD_ATTR_SLEV id="ddm_tables.ads_system">zzzz</DD_ATTR_SLEV>
+			<DD_ATTR_WINT id="ddm_tables.ads_system">System Definition</DD_ATTR_WINT>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_KEYS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>ADS_SYSTEM      </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_KEY_DESC>Primary</DD_KEY_DESC>
-			<DD_KEY_ID>PRIMARY         </DD_KEY_ID>
+	<ALIAS id="ddm_table_tpls">
+		<ID id="ddm_table_tpls">DDM_TABLE_TPLS</ID>
+		<RECORD id="ddm_table_tpls.ads_system">
+			<DD_TABLE_ALIAS id="ddm_table_tpls.ads_system">ADS_SYSTEM      </DD_TABLE_ALIAS>
+			<DD_TABLE_TPL id="ddm_table_tpls.ads_system">record_id_s:c(1*),source_pswd:c(8*),computer:c(8*),os:c(1*),pathname_sep:c(1*),shell_cmd:c(30*),w2_copy_cmd:c(60*)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_KEY_SEGS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>ADS_SYSTEM      </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>01</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>RECORD_ID_S     </DD_SEGMENT_COL>
-			<DD_SEGMENT_POS>0</DD_SEGMENT_POS>
-			<DD_SEGMENT_OFF>0</DD_SEGMENT_OFF>
-			<DD_SEGMENT_LEN>0</DD_SEGMENT_LEN>
+	<ALIAS id="ddm_keys">
+		<ID id="ddm_keys">DDM_KEYS</ID>
+		<RECORD id="ddm_keys.ads_system00">
+			<DD_TABLE_ALIAS id="ddm_keys.ads_system00">ADS_SYSTEM      </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_keys.ads_system00">00</DD_KEY_NUMBER>
+			<DD_KEY_DESC id="ddm_keys.ads_system00">Primary</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.ads_system00">PRIMARY         </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_COLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>ADS_SYSTEM      </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>001</DD_SEQUENCE>
-			<DD_DATA_NAME>RECORD_ID_S     </DD_DATA_NAME>
-			<DD_DVAR_NAME>RECORD_ID_S     </DD_DVAR_NAME>
-			<DD_COL_REPEATS>1</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>"S"</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>ADS_SYSTEM      </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>002</DD_SEQUENCE>
-			<DD_DATA_NAME>SOURCE_PSWD     </DD_DATA_NAME>
-			<DD_DVAR_NAME>SOURCE_PSWD     </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Source Code Password</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>ADS_SYSTEM      </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>003</DD_SEQUENCE>
-			<DD_DATA_NAME>COMPUTER        </DD_DATA_NAME>
-			<DD_DVAR_NAME>COMPUTER        </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Computer Manufacturer</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>ADS_SYSTEM      </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>004</DD_SEQUENCE>
-			<DD_DATA_NAME>OS              </DD_DATA_NAME>
-			<DD_DVAR_NAME>OS              </DD_DVAR_NAME>
-			<DD_COL_REPEATS>1</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Operating System [U/D]</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>ADS_SYSTEM      </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>005</DD_SEQUENCE>
-			<DD_DATA_NAME>PATHNAME_SEP    </DD_DATA_NAME>
-			<DD_DVAR_NAME>PATHNAME_SEP    </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>O/S Pathname Separator</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>ADS_SYSTEM      </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>006</DD_SEQUENCE>
-			<DD_DATA_NAME>SHELL_CMD       </DD_DATA_NAME>
-			<DD_DVAR_NAME>SHELL_CMD       </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>O/S Shell Command</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>ADS_SYSTEM      </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>007</DD_SEQUENCE>
-			<DD_DATA_NAME>W2_COPY_CMD     </DD_DATA_NAME>
-			<DD_DVAR_NAME>W2_COPY_CMD     </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>W2 Mag Media Copy Command</DD_ATTR_PROM>
+	<ALIAS id="ddm_key_segs">
+		<ID id="ddm_key_segs">DDM_KEY_SEGS</ID>
+		<RECORD id="ddm_key_segs.ads_system0001">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ads_system0001">ADS_SYSTEM      </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ads_system0001">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ads_system0001">01</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ads_system0001">RECORD_ID_S     </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ads_system0001">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ads_system0001">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ads_system0001">0</DD_SEGMENT_LEN>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_ELEMENTS</ID>
-		<RECORD>
-			<DD_DATA_NAME>RECORD_ID_S     </DD_DATA_NAME>
-			<DD_DESCRIPTION>"S"                           </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>1</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>S</DD_ATTR_LABL>
-			<DD_ATTR_LABS>S</DD_ATTR_LABS>
-			<DD_ATTR_PVAL>"S"</DD_ATTR_PVAL>
+	<ALIAS id="ddm_table_cols">
+		<ID id="ddm_table_cols">DDM_TABLE_COLS</ID>
+		<RECORD id="ddm_table_cols.ads_system001">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ads_system001">ADS_SYSTEM      </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ads_system001">001</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ads_system001">RECORD_ID_S     </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ads_system001">RECORD_ID_S     </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ads_system001">1</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ads_system001">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ads_system001">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.ads_system001">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.ads_system001">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ads_system001">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.ads_system001">"S"</DD_ATTR_PROM>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>SOURCE_PSWD     </DD_DATA_NAME>
-			<DD_DESCRIPTION>Source Code Password          </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>8</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Source Code Password</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Source Cd Password</DD_ATTR_LABS>
+		<RECORD id="ddm_table_cols.ads_system002">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ads_system002">ADS_SYSTEM      </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ads_system002">002</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ads_system002">SOURCE_PSWD     </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ads_system002">SOURCE_PSWD     </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ads_system002">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ads_system002">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ads_system002">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.ads_system002">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.ads_system002">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ads_system002">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.ads_system002">Source Code Password</DD_ATTR_PROM>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>COMPUTER        </DD_DATA_NAME>
-			<DD_DESCRIPTION>Computer Manufacturer         </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>8</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Computer Manufacturer</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Sys Mfg</DD_ATTR_LABS>
+		<RECORD id="ddm_table_cols.ads_system003">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ads_system003">ADS_SYSTEM      </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ads_system003">003</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ads_system003">COMPUTER        </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ads_system003">COMPUTER        </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ads_system003">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ads_system003">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ads_system003">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.ads_system003">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.ads_system003">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ads_system003">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.ads_system003">Computer Manufacturer</DD_ATTR_PROM>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>OS              </DD_DATA_NAME>
-			<DD_DESCRIPTION>Operating System [U/D]        </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>1</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Operating System</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Operating Sys [U/D]</DD_ATTR_LABS>
+		<RECORD id="ddm_table_cols.ads_system004">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ads_system004">ADS_SYSTEM      </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ads_system004">004</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ads_system004">OS              </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ads_system004">OS              </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ads_system004">1</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ads_system004">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ads_system004">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.ads_system004">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.ads_system004">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ads_system004">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.ads_system004">Operating System [U/D]</DD_ATTR_PROM>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>PATHNAME_SEP    </DD_DATA_NAME>
-			<DD_DESCRIPTION>O/S Pathname Separator        </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>1</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>O/S Pathname Separator</DD_ATTR_LABL>
-			<DD_ATTR_LABS>O/S Path Sep</DD_ATTR_LABS>
+		<RECORD id="ddm_table_cols.ads_system005">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ads_system005">ADS_SYSTEM      </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ads_system005">005</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ads_system005">PATHNAME_SEP    </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ads_system005">PATHNAME_SEP    </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ads_system005">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ads_system005">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ads_system005">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.ads_system005">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.ads_system005">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ads_system005">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.ads_system005">O/S Pathname Separator</DD_ATTR_PROM>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>SHELL_CMD       </DD_DATA_NAME>
-			<DD_DESCRIPTION>O/S Shell Command             </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>30</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>O/S Shell Command</DD_ATTR_LABL>
-			<DD_ATTR_LABS>O/S Shell Command</DD_ATTR_LABS>
+		<RECORD id="ddm_table_cols.ads_system006">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ads_system006">ADS_SYSTEM      </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ads_system006">006</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ads_system006">SHELL_CMD       </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ads_system006">SHELL_CMD       </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ads_system006">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ads_system006">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ads_system006">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.ads_system006">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.ads_system006">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ads_system006">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.ads_system006">O/S Shell Command</DD_ATTR_PROM>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>W2_COPY_CMD     </DD_DATA_NAME>
-			<DD_DESCRIPTION>W2 Mag Media Copy Command     </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>60</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>W2 Mag Media Copy Command</DD_ATTR_LABL>
-			<DD_ATTR_LABS>W2 Media Copy Cmd</DD_ATTR_LABS>
+		<RECORD id="ddm_table_cols.ads_system007">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ads_system007">ADS_SYSTEM      </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ads_system007">007</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ads_system007">W2_COPY_CMD     </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ads_system007">W2_COPY_CMD     </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ads_system007">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ads_system007">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ads_system007">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.ads_system007">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.ads_system007">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ads_system007">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.ads_system007">W2 Mag Media Copy Command</DD_ATTR_PROM>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_elements">
+		<ID id="ddm_elements">DDM_ELEMENTS</ID>
+		<RECORD id="ddm_elements.record_id_s">
+			<DD_DATA_NAME id="ddm_elements.record_id_s">RECORD_ID_S     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.record_id_s">"S"                           </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.record_id_s">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.record_id_s">1</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.record_id_s"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.record_id_s">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.record_id_s">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.record_id_s">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.record_id_s">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.record_id_s">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.record_id_s">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.record_id_s">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.record_id_s">S</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.record_id_s">S</DD_ATTR_LABS>
+			<DD_ATTR_PVAL id="ddm_elements.record_id_s">"S"</DD_ATTR_PVAL>
+		</RECORD>
+		<RECORD id="ddm_elements.source_pswd">
+			<DD_DATA_NAME id="ddm_elements.source_pswd">SOURCE_PSWD     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.source_pswd">Source Code Password          </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.source_pswd">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.source_pswd">8</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.source_pswd"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.source_pswd">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.source_pswd">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.source_pswd">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.source_pswd">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.source_pswd">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.source_pswd">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.source_pswd">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.source_pswd">Source Code Password</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.source_pswd">Source Cd Password</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.computer">
+			<DD_DATA_NAME id="ddm_elements.computer">COMPUTER        </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.computer">Computer Manufacturer         </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.computer">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.computer">8</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.computer"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.computer">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.computer">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.computer">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.computer">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.computer">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.computer">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.computer">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.computer">Computer Manufacturer</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.computer">Sys Mfg</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.os">
+			<DD_DATA_NAME id="ddm_elements.os">OS              </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.os">Operating System [U/D]        </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.os">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.os">1</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.os"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.os">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.os">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.os">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.os">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.os">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.os">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.os">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.os">Operating System</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.os">Operating Sys [U/D]</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.pathname_sep">
+			<DD_DATA_NAME id="ddm_elements.pathname_sep">PATHNAME_SEP    </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.pathname_sep">O/S Pathname Separator        </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.pathname_sep">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.pathname_sep">1</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.pathname_sep"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.pathname_sep">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.pathname_sep">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.pathname_sep">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.pathname_sep">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.pathname_sep">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.pathname_sep">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.pathname_sep">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.pathname_sep">O/S Pathname Separator</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.pathname_sep">O/S Path Sep</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.shell_cmd">
+			<DD_DATA_NAME id="ddm_elements.shell_cmd">SHELL_CMD       </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.shell_cmd">O/S Shell Command             </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.shell_cmd">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.shell_cmd">30</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.shell_cmd"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.shell_cmd">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.shell_cmd">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.shell_cmd">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.shell_cmd">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.shell_cmd">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.shell_cmd">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.shell_cmd">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.shell_cmd">O/S Shell Command</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.shell_cmd">O/S Shell Command</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.w2_copy_cmd">
+			<DD_DATA_NAME id="ddm_elements.w2_copy_cmd">W2_COPY_CMD     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.w2_copy_cmd">W2 Mag Media Copy Command     </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.w2_copy_cmd">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.w2_copy_cmd">60</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.w2_copy_cmd"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.w2_copy_cmd">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.w2_copy_cmd">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.w2_copy_cmd">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.w2_copy_cmd">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.w2_copy_cmd">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.w2_copy_cmd">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.w2_copy_cmd">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.w2_copy_cmd">W2 Mag Media Copy Command</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.w2_copy_cmd">W2 Media Copy Cmd</DD_ATTR_LABS>
 		</RECORD>
 	</ALIAS>
 </ADS_SYSTEM>

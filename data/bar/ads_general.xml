@@ -1,176 +1,170 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <ADS_GENERAL>
-	<ALIAS>
-		<ID>DDM_TABLES</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>ADS_GENERAL     </DD_TABLE_ALIAS>
-			<DD_ALIAS_DESC>GENERAL Control Record</DD_ALIAS_DESC>
-			<DD_TABLE_PATH>[+ADDATA]</DD_TABLE_PATH>
-			<DD_ALIAS_TYPE>X</DD_ALIAS_TYPE>
-			<DD_SYSTEM_REC>N</DD_SYSTEM_REC>
-			<DD_SYSTEM_ID>AD</DD_SYSTEM_ID>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AD </ASC_PROD_ID>
-			<ASC_LICENSE_ID>416398CC6B805EAD5CF62BA06A70A7F3</ASC_LICENSE_ID>
-			<DD_EXPORT_DATA>Y</DD_EXPORT_DATA>
-			<DD_CREATE_DATE>20060404</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080130</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE>20080130</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME>135036</DD_LSTSYNC_TIME>
-			<DD_ATTR_FTYP>T</DD_ATTR_FTYP>
-			<DD_ATTR_SLEV>zzzz</DD_ATTR_SLEV>
-			<DD_ATTR_WINT>GENERAL Report Writer Control Record</DD_ATTR_WINT>
+	<ALIAS id="ddm_tables">
+		<ID id="ddm_tables">DDM_TABLES</ID>
+		<RECORD id="ddm_tables.ads_general">
+			<DD_TABLE_ALIAS id="ddm_tables.ads_general">ADS_GENERAL     </DD_TABLE_ALIAS>
+			<DD_ALIAS_DESC id="ddm_tables.ads_general">GENERAL Control Record</DD_ALIAS_DESC>
+			<DD_TABLE_PATH id="ddm_tables.ads_general">[+ADDATA]</DD_TABLE_PATH>
+			<DD_ALIAS_TYPE id="ddm_tables.ads_general">V</DD_ALIAS_TYPE>
+			<DD_SYSTEM_REC id="ddm_tables.ads_general">N</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_tables.ads_general">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_tables.ads_general">AD </ASC_PROD_ID>
+			<ASC_VERSION_ID id="ddm_tables.ads_general">8.0</ASC_VERSION_ID>
+			<ASC_LICENSE_ID id="ddm_tables.ads_general">416398CC6B805EAD5CF62BA06A70A7F3</ASC_LICENSE_ID>
+			<DD_EXPORT_DATA id="ddm_tables.ads_general">Y</DD_EXPORT_DATA>
+			<DD_CREATE_DATE id="ddm_tables.ads_general">20060404</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_tables.ads_general">20090325</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ads_general">20090325</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ads_general">090424</DD_LSTSYNC_TIME>
+			<DD_ATTR_FTYP id="ddm_tables.ads_general">T</DD_ATTR_FTYP>
+			<DD_ATTR_SLEV id="ddm_tables.ads_general">zzzz</DD_ATTR_SLEV>
+			<DD_ATTR_WINT id="ddm_tables.ads_general">GENERAL Report Writer Control Record</DD_ATTR_WINT>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_TPLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>ADS_GENERAL     </DD_TABLE_ALIAS>
-			<DD_FILE_NAME>ads-01</DD_FILE_NAME>
-			<DD_TABLE_TPL>record_id_g:c(1),terminal_id:c(4*),gen4mst_xref_01:c(4),gen4mst_xref_02:c(4),gen4mst_xref_03:c(4),gen4mst_xref_04:c(4),gen4mst_xref_05:c(4),gen4mst_xref_06:c(4),gen4mst_xref_07:c(4),gen4mst_xref_08:c(4),gen4mst_xref_09:c(4),gen4mst_xref_10:c(4*)</DD_TABLE_TPL>
+	<ALIAS id="ddm_table_tpls">
+		<ID id="ddm_table_tpls">DDM_TABLE_TPLS</ID>
+		<RECORD id="ddm_table_tpls.ads_general">
+			<DD_TABLE_ALIAS id="ddm_table_tpls.ads_general">ADS_GENERAL     </DD_TABLE_ALIAS>
+			<DD_FILE_NAME id="ddm_table_tpls.ads_general">ads-01</DD_FILE_NAME>
+			<DD_TABLE_TPL id="ddm_table_tpls.ads_general">record_id_g:c(1),terminal_id:c(4*),gen4mst_xref_01:c(4),gen4mst_xref_02:c(4),gen4mst_xref_03:c(4),gen4mst_xref_04:c(4),gen4mst_xref_05:c(4),gen4mst_xref_06:c(4),gen4mst_xref_07:c(4),gen4mst_xref_08:c(4),gen4mst_xref_09:c(4),gen4mst_xref_10:c(4*)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_KEYS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>ADS_GENERAL     </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_KEY_DESC>Primary</DD_KEY_DESC>
-			<DD_KEY_ID>PRIMARY         </DD_KEY_ID>
+	<ALIAS id="ddm_keys">
+		<ID id="ddm_keys">DDM_KEYS</ID>
+		<RECORD id="ddm_keys.ads_general00">
+			<DD_TABLE_ALIAS id="ddm_keys.ads_general00">ADS_GENERAL     </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_keys.ads_general00">00</DD_KEY_NUMBER>
+			<DD_KEY_DESC id="ddm_keys.ads_general00">Primary</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.ads_general00">PRIMARY         </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_KEY_SEGS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>ADS_GENERAL     </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>01</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>RECORD_ID_G     </DD_SEGMENT_COL>
-			<DD_SEGMENT_POS>0</DD_SEGMENT_POS>
-			<DD_SEGMENT_OFF>0</DD_SEGMENT_OFF>
-			<DD_SEGMENT_LEN>0</DD_SEGMENT_LEN>
+	<ALIAS id="ddm_key_segs">
+		<ID id="ddm_key_segs">DDM_KEY_SEGS</ID>
+		<RECORD id="ddm_key_segs.ads_general0001">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ads_general0001">ADS_GENERAL     </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ads_general0001">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ads_general0001">01</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ads_general0001">RECORD_ID_G     </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ads_general0001">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ads_general0001">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ads_general0001">0</DD_SEGMENT_LEN>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>ADS_GENERAL     </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>02</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>TERMINAL_ID     </DD_SEGMENT_COL>
-			<DD_SEGMENT_POS>0</DD_SEGMENT_POS>
-			<DD_SEGMENT_OFF>0</DD_SEGMENT_OFF>
-			<DD_SEGMENT_LEN>0</DD_SEGMENT_LEN>
-		</RECORD>
-	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_COLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>ADS_GENERAL     </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>001</DD_SEQUENCE>
-			<DD_DATA_NAME>RECORD_ID_G     </DD_DATA_NAME>
-			<DD_DVAR_NAME>RECORD_ID_G     </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL>1</DD_ATTR_MAXL>
-			<DD_ATTR_PROM>"G"</DD_ATTR_PROM>
-			<DD_ATTR_TIND>1</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>ADS_GENERAL     </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>002</DD_SEQUENCE>
-			<DD_DATA_NAME>TERMINAL_ID     </DD_DATA_NAME>
-			<DD_DVAR_NAME>TERMINAL_ID     </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL>4</DD_ATTR_MAXL>
-			<DD_ATTR_PROM>Terminal ID</DD_ATTR_PROM>
-			<DD_ATTR_TIND>2</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>ADS_GENERAL     </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>003</DD_SEQUENCE>
-			<DD_DATA_NAME>GEN4MST_XREF    </DD_DATA_NAME>
-			<DD_DVAR_NAME>GEN4MST_XREF    </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>10</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>E</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL>4</DD_ATTR_MAXL>
-			<DD_ATTR_PROM>GEN4MST Key Cross Reference</DD_ATTR_PROM>
-			<DD_ATTR_TIND>3</DD_ATTR_TIND>
+		<RECORD id="ddm_key_segs.ads_general0002">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ads_general0002">ADS_GENERAL     </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ads_general0002">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ads_general0002">02</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ads_general0002">TERMINAL_ID     </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ads_general0002">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ads_general0002">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ads_general0002">0</DD_SEGMENT_LEN>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_COLUMN_OPTS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>ADS_GENERAL     </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>RECORD_ID_G     </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>O</DD_ATTR_OPTS>
+	<ALIAS id="ddm_table_cols">
+		<ID id="ddm_table_cols">DDM_TABLE_COLS</ID>
+		<RECORD id="ddm_table_cols.ads_general001">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ads_general001">ADS_GENERAL     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ads_general001">001</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ads_general001">RECORD_ID_G     </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ads_general001">RECORD_ID_G     </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ads_general001">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ads_general001">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ads_general001">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.ads_general001">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ads_general001">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ads_general001">1</DD_ATTR_MAXL>
+			<DD_ATTR_PROM id="ddm_table_cols.ads_general001">"G"</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ads_general001">1</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.ads_general002">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ads_general002">ADS_GENERAL     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ads_general002">002</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ads_general002">TERMINAL_ID     </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ads_general002">TERMINAL_ID     </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ads_general002">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ads_general002">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ads_general002">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.ads_general002">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.ads_general002">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ads_general002">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ads_general002">4</DD_ATTR_MAXL>
+			<DD_ATTR_PROM id="ddm_table_cols.ads_general002">Terminal ID</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ads_general002">2</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.ads_general003">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ads_general003">ADS_GENERAL     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ads_general003">003</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ads_general003">GEN4MST_XREF    </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ads_general003">GEN4MST_XREF    </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ads_general003">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ads_general003">10</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ads_general003">E</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.ads_general003">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.ads_general003">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ads_general003">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ads_general003">4</DD_ATTR_MAXL>
+			<DD_ATTR_PROM id="ddm_table_cols.ads_general003">GEN4MST Key Cross Reference</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ads_general003">3</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_ELEMENTS</ID>
-		<RECORD>
-			<DD_DATA_NAME>RECORD_ID_G     </DD_DATA_NAME>
-			<DD_DESCRIPTION>"G"                           </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>1</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>G</DD_ATTR_LABL>
-			<DD_ATTR_LABS>G</DD_ATTR_LABS>
-			<DD_ATTR_PVAL>"G"</DD_ATTR_PVAL>
+	<ALIAS id="ddm_column_opts">
+		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
+		<RECORD id="ddm_column_opts.ads_generalrecord_id_go">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ads_generalrecord_id_go">ADS_GENERAL     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ads_generalrecord_id_go">RECORD_ID_G     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ads_generalrecord_id_go">O</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>TERMINAL_ID     </DD_DATA_NAME>
-			<DD_DESCRIPTION>Terminal ID                   </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>4</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Terminal ID</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Terminal ID</DD_ATTR_LABS>
+	</ALIAS>
+	<ALIAS id="ddm_elements">
+		<ID id="ddm_elements">DDM_ELEMENTS</ID>
+		<RECORD id="ddm_elements.record_id_g">
+			<DD_DATA_NAME id="ddm_elements.record_id_g">RECORD_ID_G     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.record_id_g">"G"                           </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.record_id_g">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.record_id_g">1</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.record_id_g"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.record_id_g">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.record_id_g">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.record_id_g">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.record_id_g">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.record_id_g">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.record_id_g">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.record_id_g">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.record_id_g">G</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.record_id_g">G</DD_ATTR_LABS>
+			<DD_ATTR_PVAL id="ddm_elements.record_id_g">"G"</DD_ATTR_PVAL>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>GEN4MST_XREF    </DD_DATA_NAME>
-			<DD_DESCRIPTION>GEN4MST Key Cross Reference   </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>4</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>GEN4MST Key Cross Reference</DD_ATTR_LABL>
-			<DD_ATTR_LABS>GEN4MST XRef</DD_ATTR_LABS>
+		<RECORD id="ddm_elements.terminal_id">
+			<DD_DATA_NAME id="ddm_elements.terminal_id">TERMINAL_ID     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.terminal_id">Terminal ID                   </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.terminal_id">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.terminal_id">4</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.terminal_id"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.terminal_id">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.terminal_id">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.terminal_id">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.terminal_id">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.terminal_id">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.terminal_id">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.terminal_id">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.terminal_id">Terminal ID</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.terminal_id">Terminal ID</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.gen4mst_xref">
+			<DD_DATA_NAME id="ddm_elements.gen4mst_xref">GEN4MST_XREF    </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.gen4mst_xref">GEN4MST Key Cross Reference   </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.gen4mst_xref">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.gen4mst_xref">4</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.gen4mst_xref"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.gen4mst_xref">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.gen4mst_xref">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.gen4mst_xref">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.gen4mst_xref">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.gen4mst_xref">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.gen4mst_xref">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.gen4mst_xref">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.gen4mst_xref">GEN4MST Key Cross Reference</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.gen4mst_xref">GEN4MST XRef</DD_ATTR_LABS>
 		</RECORD>
 	</ALIAS>
 </ADS_GENERAL>

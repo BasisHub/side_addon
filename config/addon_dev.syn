@@ -1,7 +1,7 @@
 // Barista Application Framework - Application Synchronization File
 // Proprietary Information. BASIS International Ltd. All rights reserved.
 ACOMP=01007514;BASIS International Ltd.
-SYS=ADDON_DEV;AddonSoftware 8.31^Copyright (C) 2007-2009.  BASIS International Ltd.^All rights reserved.^Version 8.31 - [BUILD_DATE]^AddonSoftware is protected by copyright law and international treaties. Unauthorized reproduction or distribution may result in severe civil and criminal penalties.^
+SYS=ADDON_DEV;AddonSoftware 8.32 ^Copyright (C) 2007-2009.  BASIS International Ltd.^All rights reserved.^Version 8.32 - [BUILD_DATE]^AddonSoftware is protected by copyright law and international treaties. Unauthorized reproduction or distribution may result in severe civil and criminal penalties.^
 DIR=/apps/aon/
 MENU=addon
 APROD=AD;AddonSoftware Administration;[+AON_IMAGES]addon_logo32.png;AddonHelp.hs;;;ENU,ESP;
@@ -49,6 +49,8 @@ STBL=SET +CODEPORT_FILES=/apps/aon/util/codeport/files/
 STBL=SET +CODEPORT_LOGS=/apps/aon/util/codeport/logs/
 STBL=SET +CODEPORT_LIB=/apps/aon/util/codeport/lib/
 STBL=SET +DIR_REPORTS=/apps/aon/reports/
+STBL=SET +DIR_SPROCS=/apps/aon/sprocs/
+STBL=SET +ADDON_LIB=/apps/aon/lib/
 PREFIX=/apps/aon/ad/src/
 PREFIX=/apps/aon/ap/src/
 PREFIX=/apps/aon/ar/src/

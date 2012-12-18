@@ -162,26 +162,27 @@ General Ledger^GLMENU^M^^^im_menua_gen_ledger.png^N^01007514^GL^General_Ledger_M
 	Utilities^GLMENU_UTILITIES^G^^^im_node_col.png^N^01007514^GL^GL_Utilities_Main_Menu
 		Copy Chart of Accounts^GLX_COPYCHART^T^GLX_COPYCHART^^im_menui_utility.png^N^01007514^GL^Copy_Chart_of_Accounts
 Inventory Control^IVMENU^M^^^im_menua_inventory.png^N^01007514^IV
-	Inventory Transaction Entry^IVE_TRANSHDR^T^IVE_TRANSHDR^^im_menui_table.png^N^01007514^IV^
+	Inventory Transaction Header^IVE_TRANSHDR^T^IVE_TRANSHDR^^im_menui_table.png^N^01007514^IV^
 	Inventory Transaction Register^IVR_TRANSREG^A^^[+DIR_PGM]ivr_transregister.aon^im_menui_report.png^N^01007514^IV^
 	Inventory Transfers Entry^IVE_TRANSFER^T^IVE_TRANSFER^^im_menui_table.png^N^01007514^IV^
-	Inventory Transfer Register^IVR_GA^T^^ivr_ga.aon^im_menui_report.png^N^01007514^IV
+	Inventory Transfer Register^IVR_TRANSFER^A^^ivr_transferreg.aon^im_menui_report.png^N^01007514^IV^
 	Cost Changes^IVMENU_COSTS^G^^^im_menua_miscellaneous.png^N^01007514^IV
-		Cost Change Entry^IVE_GA^T^^ive_ga.aon^im_menui_table.png^N^01007514^IV
-		Cost Change By Percentage Entry^IVE_JA^T^^ive_ja.aon^im_menui_table.png^N^01007514^IV
-		Cost Change Valuation Report^IVR_WA^T^^ivr_wa.aon^im_menui_report.png^N^01007514^IV
-		Cost Change Register^IVR_JA^T^^ivr_ja.aon^im_menui_report.png^N^01007514^IV
+		Cost Change Entry^IVE_COSTCHG^T^IVE_COSTCHG^ive_ga.aon^im_menui_table.png^N^01007514^IV^
+		Cost Change Register^IVR_COSTCHREG^T^IVR_COSTCHGREG^ivr_ja.aon^im_menui_report.png^N^01007514^IV^
+		Cost Change Valuation Report^IVR_COSTCHGVALUE^T^IVR_COSTCHGVALUE^ivr_wa.aon^im_menui_report.png^N^01007514^IV^
+		Cost Change by Percentage^IVR_COSTCHGBYPCT^T^IVR_COSTCHGBYPCT^ivr_ja.aon^im_menui_update.png^N^01007514^IV^
 	Price Changes^IVMENU_PRICES^G^^^im_menua_miscellaneous.png^N^01007514^IV
-		Price Change Entry^IVE_EA^T^^ive_ea.aon^im_menui_table.png^N^01007514^IV
-		Price Change By Percentage Entry^IVE_HA^T^^ive_ha.aon^im_menui_table.png^N^01007514^IV
-		Price Change Register^IVR_LA^T^^ivr_la.aon^im_menui_report.png^N^01007514^IV
-		Price Change Reversal Register^IVR_4A^T^^ivr_4a.aon^im_menui_report.png^N^01007514^IV
+		Price Change Entry^IVE_PRICECHG^T^IVE_PRICECHG^ive_ea.aon^im_menui_table.png^N^01007514^IV^
+		Price Change by Percentage^IVR_PRICECHGPCT^T^IVR_PRICECHGPCT^ivu_pricechgpct.aon^im_menui_table.png^N^01007514^IV^
+		Price Change Register^IVR_PRICECHGREG^T^IVR_PRICECHGREG^ivr_la.aon^im_menui_report.png^N^01007514^IV^
+		Price Change Reversal Register^IVR_PRICEREVERSE^T^IVR_PRICEREVERSE^ivr_4a.aon^im_menui_report.png^N^01007514^IV^
 	Physical Inventory^IVMENU_PHYSINV^G^^^im_menua_miscellaneous.png^N^01007514^IV
-		Physical Inventory Selection^IVE_PA^T^^ive_pa.aon^im_menui_table.png^N^01007514^IV
-		Cancel Physical Inventory^IVE_QA^T^^ive_qa.aon^im_menui_table.png^N^01007514^IV
-		Print Count Sheets^IVR_UA^T^^ivr_ua.aon^im_menui_table.png^N^01007514^IV
-		Count Sheet Entry^IVE_RA^T^^ive_ra.aon^im_menui_table.png^N^01007514^IV
-		Physical Inventory Register^IVR_VA^T^^ivr_va.aon^im_menui_report.png^N^01007514^IV
+		Physical Inv Cycle Code Maint^IVC_PHYSCODE^T^IVC_PHYSCODE^^im_menui_table.png^N^01007514^IV^
+		Select Cycles for Freeze^IVE_PHYSICALSEL^T^IVE_PHYSICALSEL^ive_pa.aon^im_menui_table.png^N^01007514^IV^
+		Cancel Physical by Cycle Code^IVE_PHYSICALCAN^T^IVE_PHYSICALCAN^ive_qa.aon^im_menui_table.png^N^01007514^IV^
+		Print Count Sheets^IVR_PHYSPRINT^T^IVR_PHYSPRINT^ivr_ua.aon^im_menui_report.png^N^01007514^IV^
+		Physical Count Entry^IVE_COUNT_ENTRY^T^IVE_COUNT_ENTRY^ive_ra.aon^im_menui_table.png^N^01007514^IV^
+		Register and Update^IVR_PHYSREG^T^IVR_PHYSREG^ivr_va.aon^im_menui_report.png^N^01007514^IV^
 	Reports^IVMENU_REPORTS^G^^^im_menua_miscellaneous.png^N^01007514^IV
 		Price Listing^IVR_PRICELIST^T^IVR_PRICELIST^^im_menui_report.png^N^01007514^IV
 		Inventory Vendor Listing^IVR_VENDLIST^T^IVR_VENDLIST^^im_menui_report.png^N^01007514^IV
@@ -201,19 +202,16 @@ Inventory Control^IVMENU^M^^^im_menua_inventory.png^N^01007514^IV
 		Item Detail Listing^IVR_ITEMDETAIL^T^IVR_ITEMDETAIL^^im_menui_report.png^N^01007514^IV
 		Inventory Item Labels^IVR_ITEMLABELS^T^IVR_ITEMLABELS^ivr_1a.aon^im_menui_report.png^N^01007514^IV
 	Lotted/Serialized Inventory^IVMENU_LOTS^G^^^im_menua_miscellaneous.png^N^01007514^IV
-		History By Item Inquiry^IVM_FA^T^^ivm_fa.aon^im_menui_table.png^N^01007514^IV
-		History By Customer Inquiry^IVM_IA^T^^ivm_ia.aon^im_menui_table.png^N^01007514^IV
-		History By Vendor Inquiry^IVM_JA^T^^ivm_ja.aon^im_menui_table.png^N^01007514^IV
 		Lot/Serial Number History By Item Report^IVR_LSTRANHIST^T^IVR_LSTRANHIST^^im_menui_report.png^N^01007514^IV
 		Lot/Serial Number History By Customer^IVR_LOTCUSTHIST^T^IVR_LOTCUSTHIST^^im_menui_report.png^N^01007514^IV
 		Lot/Serial Number History By Vendor^IVR_LOTVENDHIST^T^IVR_LOTVENDHIST^^im_menui_report.png^N^01007514^IV
 		Inventory Lot/Serial Number Status Report^IVR_LOTSTATUS^T^IVR_LOTSTATUS^^im_menui_report.png^N^01007514^IV
 		Inventory Lot/Serial Number Activity Report^IVR_LOTACTIVITY^T^IVR_LOTACTIVITY^^im_menui_report.png^N^01007514^IV
 	Period End Processing^IVMENU_PEND^G^^^im_menua_miscellaneous.png^N^01007514^IV
-		ABC Analysis Report^TEMP_IVR_ITEMABCRPT^T^IVR_ITEMABCRPT^^im_menui_report.png^N^01007514^IV
-		EOQ, Order Point, Safety Stock Report^TEMP_IVR_ITEMEOQRPT^T^IVR_ITEMEOQRPT^^im_menui_report.png^N^01007514^IV
-		Inventory Valuation Report^TEMP_IVR_VALUATIONRP^T^IVR_VALUATIONRPT^^im_menui_report.png^N^01007514^IV
-		Period End Update^IVU_CA^T^^ivu_ca.aon^im_menui_update.png^N^01007514^IV
+		ABC Analysis Report^IVR_ITEMABCRPT^T^IVR_ITEMABCRPT^^im_menui_report.png^N^01007514^IV^
+		EOQ, Order Point, Safety Stock Report^IVR_ITEMEOQRPT^T^IVR_ITEMEOQRPT^^im_menui_report.png^N^01007514^IV^
+		Inventory Valuation Report^IVR_VALUATIONRP^T^IVR_VALUATIONRPT^^im_menui_report.png^N^01007514^IV^
+		Period End Update^IVU_PERIODEND^A^^ivu_periodend.aon^im_menui_update.png^N^01007514^IV^
 	Maintenance^IVMENU_MAINT^G^^^im_menua_miscellaneous.png^N^01007514^IV
 		Inventory Items^IVM_ITEMMAST^T^IVM_ITEMMAST^^im_menui_table.png^N^01007514^IV
 		Product Types^IVC_PRODCODE^T^IVC_PRODCODE^^im_menui_table.png^N^01007514^IV
@@ -231,7 +229,7 @@ Inventory Control^IVMENU^M^^^im_menua_inventory.png^N^01007514^IV
 		Rebuild Committed Quantities^IVX_COMMITTED^T^IVX_COMMITTED^^im_menui_utility.png^N^01007514^IV
 		Rebuild On Order Quantities^IVX_ONORDER^T^IVX_ONORDER^^im_menui_utility.png^N^01007514^IV
 		Rebuild Beginning Balances^IVX_BEGBALS^T^IVX_BEGBALS^^im_menui_utility.png^N^01007514^IV
-		LIFO/FIFO Tier Maintenance^IVX_LIFOFIFO^T^IVX_LIFOFIFO^^im_menui_table.png^N^01007514^IV
+		LIFO/FIFO Tier Utilities^IVX_LFTIER_UTIL^T^IVX_LFTIER_UTIL^^im_menui_table.png^N^01007514^IV^
 		Copy Items to Another Warehouse^IVX_COPYITEM^T^IVX_COPYITEM^^im_menui_utility.png^N^01007514^IV
 		Rebuild Unit Costs^IVX_REBUILDCOSTS^A^^[+DIR_PGM]ivx_rebuildcosts.aon^im_menui_utility.png^N^01007514^IV
 Material Requirements Planning^MPMENU^M^^^im_menua_material_plan.png^N^01007514^MP
@@ -355,10 +353,10 @@ Purchase Order Processing^POMENU^M^^^im_menua_purch_orders.png^N^01007514^PO
 		Purge PO Receipt History^POU_FA^T^^pou_fa.aon^im_menui_update.png^N^01007514^PO
 		Purge Rejection History^POU_HA^T^^pou_ha.aon^im_menui_update.png^N^01007514^PO
 	Maintenance^POMENU_MAINT^G^^^im_menua_miscellaneous.png^N^01007514^PO
-		Create Purchase Calendar^POM_AA^T^^pom_aa.aon^im_menui_table.png^N^01007514^PO
-		Purchase Calendar Maint^POM_BA^T^^pom_ba.aon^im_menui_table.png^N^01007514^PO
-		Print Purchase Calendar^POR_UA^T^^por_ua.aon^im_menui_report.png^N^01007514^PO
-		Purge Purchase Calendar^POU_GA^T^^pou_ga.aon^im_menui_update.png^N^01007514^PO
+		Create Purchase Calendar^POM_MAKECAL^T^POM_MAKECAL^pom_aa.aon^im_menui_table.png^N^01007514^PO^
+		Purchase Calendar Maint^POM_CALENDAR^A^^pom_calendar.aon^im_menui_table.png^N^01007514^PO^
+		Print Purchase Calendar^POR_CALENDAR^T^POR_CALENDAR^por_ua.aon^im_menui_report.png^N^01007514^PO^
+		Purge Purchase Calendar^POU_CALENDAR^T^POU_CALENDAR^pou_ga.aon^im_menui_update.png^N^01007514^PO^
 		Purchase Order Line Codes^POC_LINECODE^T^POC_LINECODE^pom_ca.aon^im_menui_table.png^N^01007514^PO^
 		Message Codes^POC_MSGCODE^T^POC_MSGCODE^^im_menui_table.png^N^01007514^PO^
 		QA Receipt Rejection Codes^POC_REJCTCOD^T^POC_REJCTCOD^pom_fa.aon^im_menui_table.png^N^01007514^PO^
@@ -441,7 +439,7 @@ Sales Order Processing^OPMENU^M^^^im_menua_order_proc.png^N^01007514^OP
 	Utilities^OPMENU_UTILITIES^G^^^im_menua_miscellaneous.png^N^01007514^OP
 		Remove Unlinked Detail Lines^OPX_UNLINKED^T^OPX_UNLINKED^^im_menui_utility.png^N^01007514^OP
 		Rebuild Order/Invoice Print File^OPX_PRNTFILE^T^OPX_PRNTFILE^^im_menui_utility.png^N^01007514^OP
-		Reset MTD and Next Month Totals^OPX_MTDNMTD^T^OPX_MTDNMTD^^im_menui_utility.png^N^01007514^OP
+		Month to Date Sales Totals^OPS_MTDSLSMNT^T^OPS_MTDSLSMNT^^im_menui_utility.png^N^01007514^OP^
 Shop Floor Control^SFMENU^M^^^im_menua_shop_floor_cont.png^N^01007514^SF
 	Work Order Entry^SFE_AA^T^^sfe_aa.aon^im_menui_table.png^N^01007514^SF
 	Traveler Printing^SFR_AA^T^^sfr_aa.aon^im_menui_report.png^N^01007514^SF
@@ -508,6 +506,9 @@ AddonSoftware Administration^AONADMIN^M^^^im_menua_system_admin.png^N^01007514^A
 		Process Maintenance^TEMP_ADM_PROCMASTER^T^ADM_PROCMASTER^^im_menui_parameter.png^N^01007514^AD
 		GL Posting Control^TEMP_ADM_AUDITCONTRO^T^ADM_AUDITCONTROL^^im_menui_parameter.png^N^01007514^AD
 	Utilities^AON_UTILITIES^G^^^im_node_col.png^N^01007514^AD
+		Create/Update SPROC Definitions^SPROC_UPDT^A^^[+DIR_PGM]adx_build_sproc.aon^im_menui_update.png^N^01007514^AD^
 		CodePort^AON_UTIL_CODEPORT^A^^adx_codeport.bbj^im_menui_utility.png^N^01007514^AD
-		DataPort^AON_UTIL_DATAPORT^A^^adx_data_port.bbj^im_menui_utility.png^N^01007514^AD
+		DataPort^AON_UTIL_DP_MENU^G^^^im_node_col.png^N^01007514^AD^
+			DataPort Utility^AON_UTIL_DATAPORTX^A^^adx_data_port.bbj^im_menui_utility.png^N^01007514^AD^
+			Update Physical Invent Cycle Code^AON_UTIL_PI_CYCLE^A^^ivx_loadcyclecode.aon^im_menui_utility.png^N^01007514^AD^
 		

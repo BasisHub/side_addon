@@ -1,144 +1,140 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <ADX_PROCFILE>
-	<ALIAS>
-		<ID>DDM_TABLES</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>ADX_PROCFILE    </DD_TABLE_ALIAS>
-			<DD_ALIAS_DESC>File/Process Record</DD_ALIAS_DESC>
-			<DD_FILE_NAME>adm-69</DD_FILE_NAME>
-			<DD_TABLE_PATH>[+ADDATA]</DD_TABLE_PATH>
-			<DD_ALIAS_TYPE>K</DD_ALIAS_TYPE>
-			<DD_KEY_LENGTH>0</DD_KEY_LENGTH>
-			<DD_NBR_RECORD>0</DD_NBR_RECORD>
-			<DD_RECORD_LEN>0</DD_RECORD_LEN>
-			<DD_SYSTEM_REC>N</DD_SYSTEM_REC>
-			<DD_SYSTEM_ID>AD</DD_SYSTEM_ID>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AD </ASC_PROD_ID>
-			<ASC_LICENSE_ID>76DD1D7CD35AB78FB87A92EBA6998737</ASC_LICENSE_ID>
-			<DD_EXPORT_DATA>Y</DD_EXPORT_DATA>
-			<DD_CREATE_DATE>20060404</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080130</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE>20080130</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME>135036</DD_LSTSYNC_TIME>
-			<DD_ATTR_FTYP>X</DD_ATTR_FTYP>
-			<DD_ATTR_SLEV>zzzz</DD_ATTR_SLEV>
-			<DD_ATTR_WINT>File/Process Record</DD_ATTR_WINT>
+	<ALIAS id="ddm_tables">
+		<ID id="ddm_tables">DDM_TABLES</ID>
+		<RECORD id="ddm_tables.adx_procfile">
+			<DD_TABLE_ALIAS id="ddm_tables.adx_procfile">ADX_PROCFILE    </DD_TABLE_ALIAS>
+			<DD_ALIAS_DESC id="ddm_tables.adx_procfile">File/Process Record</DD_ALIAS_DESC>
+			<DD_FILE_NAME id="ddm_tables.adx_procfile">adm-69</DD_FILE_NAME>
+			<DD_TABLE_PATH id="ddm_tables.adx_procfile">[+ADDATA]</DD_TABLE_PATH>
+			<DD_ALIAS_TYPE id="ddm_tables.adx_procfile">V</DD_ALIAS_TYPE>
+			<DD_KEY_LENGTH id="ddm_tables.adx_procfile">0</DD_KEY_LENGTH>
+			<DD_NBR_RECORD id="ddm_tables.adx_procfile">0</DD_NBR_RECORD>
+			<DD_RECORD_LEN id="ddm_tables.adx_procfile">0</DD_RECORD_LEN>
+			<DD_SYSTEM_REC id="ddm_tables.adx_procfile">N</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_tables.adx_procfile">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_tables.adx_procfile">AD </ASC_PROD_ID>
+			<ASC_VERSION_ID id="ddm_tables.adx_procfile">8.0</ASC_VERSION_ID>
+			<ASC_LICENSE_ID id="ddm_tables.adx_procfile">76DD1D7CD35AB78FB87A92EBA6998737</ASC_LICENSE_ID>
+			<DD_EXPORT_DATA id="ddm_tables.adx_procfile">Y</DD_EXPORT_DATA>
+			<DD_CREATE_DATE id="ddm_tables.adx_procfile">20060404</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_tables.adx_procfile">20090325</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.adx_procfile">20090325</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.adx_procfile">090414</DD_LSTSYNC_TIME>
+			<DD_ATTR_FTYP id="ddm_tables.adx_procfile">X</DD_ATTR_FTYP>
+			<DD_ATTR_SLEV id="ddm_tables.adx_procfile">zzzz</DD_ATTR_SLEV>
+			<DD_ATTR_WINT id="ddm_tables.adx_procfile">File/Process Record</DD_ATTR_WINT>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_TPLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>ADX_PROCFILE    </DD_TABLE_ALIAS>
-			<DD_FILE_NAME>adm-69</DD_FILE_NAME>
-			<DD_TABLE_TPL>file_name:c(6),process_id:c(16*)</DD_TABLE_TPL>
+	<ALIAS id="ddm_table_tpls">
+		<ID id="ddm_table_tpls">DDM_TABLE_TPLS</ID>
+		<RECORD id="ddm_table_tpls.adx_procfile">
+			<DD_TABLE_ALIAS id="ddm_table_tpls.adx_procfile">ADX_PROCFILE    </DD_TABLE_ALIAS>
+			<DD_FILE_NAME id="ddm_table_tpls.adx_procfile">adm-69</DD_FILE_NAME>
+			<DD_TABLE_TPL id="ddm_table_tpls.adx_procfile">file_name:c(6),process_id:c(16*)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_KEYS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>ADX_PROCFILE    </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_KEY_DESC>Primary</DD_KEY_DESC>
-			<DD_KEY_ID>PRIMARY         </DD_KEY_ID>
+	<ALIAS id="ddm_keys">
+		<ID id="ddm_keys">DDM_KEYS</ID>
+		<RECORD id="ddm_keys.adx_procfile00">
+			<DD_TABLE_ALIAS id="ddm_keys.adx_procfile00">ADX_PROCFILE    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_keys.adx_procfile00">00</DD_KEY_NUMBER>
+			<DD_KEY_DESC id="ddm_keys.adx_procfile00">Primary</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.adx_procfile00">PRIMARY         </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_KEY_SEGS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>ADX_PROCFILE    </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>01</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>FILE_NAME       </DD_SEGMENT_COL>
-			<DD_SEGMENT_POS>0</DD_SEGMENT_POS>
-			<DD_SEGMENT_OFF>0</DD_SEGMENT_OFF>
-			<DD_SEGMENT_LEN>0</DD_SEGMENT_LEN>
+	<ALIAS id="ddm_key_segs">
+		<ID id="ddm_key_segs">DDM_KEY_SEGS</ID>
+		<RECORD id="ddm_key_segs.adx_procfile0001">
+			<DD_TABLE_ALIAS id="ddm_key_segs.adx_procfile0001">ADX_PROCFILE    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.adx_procfile0001">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.adx_procfile0001">01</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.adx_procfile0001">FILE_NAME       </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.adx_procfile0001">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.adx_procfile0001">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.adx_procfile0001">0</DD_SEGMENT_LEN>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>ADX_PROCFILE    </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>02</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>PROCESS_ID      </DD_SEGMENT_COL>
-			<DD_SEGMENT_POS>0</DD_SEGMENT_POS>
-			<DD_SEGMENT_OFF>0</DD_SEGMENT_OFF>
-			<DD_SEGMENT_LEN>0</DD_SEGMENT_LEN>
-		</RECORD>
-	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_COLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>ADX_PROCFILE    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>001</DD_SEQUENCE>
-			<DD_DATA_NAME>FILE_NAME       </DD_DATA_NAME>
-			<DD_DVAR_NAME>FILE_NAME       </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>File Name</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>ADX_PROCFILE    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>002</DD_SEQUENCE>
-			<DD_DATA_NAME>PROCESS_ID      </DD_DATA_NAME>
-			<DD_DVAR_NAME>PROCESS_ID      </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Process Identification</DD_ATTR_PROM>
+		<RECORD id="ddm_key_segs.adx_procfile0002">
+			<DD_TABLE_ALIAS id="ddm_key_segs.adx_procfile0002">ADX_PROCFILE    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.adx_procfile0002">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.adx_procfile0002">02</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.adx_procfile0002">PROCESS_ID      </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.adx_procfile0002">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.adx_procfile0002">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.adx_procfile0002">0</DD_SEGMENT_LEN>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_ELEMENTS</ID>
-		<RECORD>
-			<DD_DATA_NAME>FILE_NAME       </DD_DATA_NAME>
-			<DD_DESCRIPTION>File Name                     </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>6</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>File Name</DD_ATTR_LABL>
-			<DD_ATTR_LABS>File Name</DD_ATTR_LABS>
+	<ALIAS id="ddm_table_cols">
+		<ID id="ddm_table_cols">DDM_TABLE_COLS</ID>
+		<RECORD id="ddm_table_cols.adx_procfile001">
+			<DD_TABLE_ALIAS id="ddm_table_cols.adx_procfile001">ADX_PROCFILE    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.adx_procfile001">001</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.adx_procfile001">FILE_NAME       </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.adx_procfile001">FILE_NAME       </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.adx_procfile001">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.adx_procfile001">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.adx_procfile001">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.adx_procfile001">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.adx_procfile001">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.adx_procfile001">File Name</DD_ATTR_PROM>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>PROCESS_ID      </DD_DATA_NAME>
-			<DD_DESCRIPTION>Process Identification</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>16</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20071023</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOL>DESCRIPTION</DD_ATTR_DCOL>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_DTAB>ADM_PROCMASTER  </DD_ATTR_DTAB>
-			<DD_ATTR_LABL>Process Identification</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Process ID</DD_ATTR_LABS>
-			<DD_ATTR_MAXL>0</DD_ATTR_MAXL>
-			<DD_ATTR_MAXR>0</DD_ATTR_MAXR>
-			<DD_ATTR_MINL>0</DD_ATTR_MINL>
-			<DD_ATTR_PADC>20</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>L</DD_ATTR_PADJ>
-			<DD_ATTR_PREC>0</DD_ATTR_PREC>
+		<RECORD id="ddm_table_cols.adx_procfile002">
+			<DD_TABLE_ALIAS id="ddm_table_cols.adx_procfile002">ADX_PROCFILE    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.adx_procfile002">002</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.adx_procfile002">PROCESS_ID      </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.adx_procfile002">PROCESS_ID      </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.adx_procfile002">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.adx_procfile002">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.adx_procfile002">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.adx_procfile002">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.adx_procfile002">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.adx_procfile002">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.adx_procfile002">Process Identification</DD_ATTR_PROM>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_elements">
+		<ID id="ddm_elements">DDM_ELEMENTS</ID>
+		<RECORD id="ddm_elements.file_name">
+			<DD_DATA_NAME id="ddm_elements.file_name">FILE_NAME       </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.file_name">File Name                     </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.file_name">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.file_name">6</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.file_name"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.file_name">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.file_name">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.file_name">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.file_name">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.file_name">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.file_name">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.file_name">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.file_name">File Name</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.file_name">File Name</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.process_id">
+			<DD_DATA_NAME id="ddm_elements.process_id">PROCESS_ID      </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.process_id">Process Identification</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.process_id">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.process_id">16</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.process_id"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.process_id">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.process_id">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.process_id">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.process_id">20071023</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.process_id">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.process_id">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.process_id">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOL id="ddm_elements.process_id">DESCRIPTION</DD_ATTR_DCOL>
+			<DD_ATTR_DCOM id="ddm_elements.process_id">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.process_id">            </DD_ATTR_DEXP>
+			<DD_ATTR_DTAB id="ddm_elements.process_id">ADM_PROCMASTER  </DD_ATTR_DTAB>
+			<DD_ATTR_LABL id="ddm_elements.process_id">Process Identification</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.process_id">Process ID</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.process_id">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.process_id">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.process_id">0</DD_ATTR_MINL>
+			<DD_ATTR_PADC id="ddm_elements.process_id">20</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.process_id">L</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.process_id">0</DD_ATTR_PREC>
 		</RECORD>
 	</ALIAS>
 </ADX_PROCFILE>

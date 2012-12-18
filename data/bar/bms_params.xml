@@ -1,532 +1,533 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <BMS_PARAMS>
-	<ALIAS>
-		<ID>DDM_TABLES</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>BMS_PARAMS      </DD_TABLE_ALIAS>
-			<DD_ALIAS_DESC>BM Parameters</DD_ALIAS_DESC>
-			<DD_FILE_NAME>bms_params</DD_FILE_NAME>
-			<DD_TABLE_PATH>[+BMDATA]</DD_TABLE_PATH>
-			<DD_ALIAS_TYPE>X</DD_ALIAS_TYPE>
-			<DD_KEY_LENGTH>0</DD_KEY_LENGTH>
-			<DD_NBR_RECORD>0</DD_NBR_RECORD>
-			<DD_RECORD_LEN>0</DD_RECORD_LEN>
-			<DD_SYSTEM_REC>N</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AD </ASC_PROD_ID>
-			<ASC_LICENSE_ID>88705C93650889BECB2673BBD78492E3</ASC_LICENSE_ID>
-			<DD_EXPORT_DATA>Y</DD_EXPORT_DATA>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080801</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE>20080721</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME>172704</DD_LSTSYNC_TIME>
-			<DD_ATTR_FTYP>T</DD_ATTR_FTYP>
-			<DD_ATTR_SLEV>zzzz</DD_ATTR_SLEV>
-			<DD_ATTR_WINT>BM Parameters</DD_ATTR_WINT>
+	<ALIAS id="ddm_tables">
+		<ID id="ddm_tables">DDM_TABLES</ID>
+		<RECORD id="ddm_tables.bms_params">
+			<DD_TABLE_ALIAS id="ddm_tables.bms_params">BMS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_ALIAS_DESC id="ddm_tables.bms_params">BM Parameters</DD_ALIAS_DESC>
+			<DD_FILE_NAME id="ddm_tables.bms_params">bms_params</DD_FILE_NAME>
+			<DD_TABLE_PATH id="ddm_tables.bms_params">[+BMDATA]</DD_TABLE_PATH>
+			<DD_ALIAS_TYPE id="ddm_tables.bms_params">V</DD_ALIAS_TYPE>
+			<DD_KEY_LENGTH id="ddm_tables.bms_params">0</DD_KEY_LENGTH>
+			<DD_NBR_RECORD id="ddm_tables.bms_params">0</DD_NBR_RECORD>
+			<DD_RECORD_LEN id="ddm_tables.bms_params">0</DD_RECORD_LEN>
+			<DD_SYSTEM_REC id="ddm_tables.bms_params">N</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_tables.bms_params">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_tables.bms_params">AD </ASC_PROD_ID>
+			<ASC_VERSION_ID id="ddm_tables.bms_params">8.0</ASC_VERSION_ID>
+			<ASC_LICENSE_ID id="ddm_tables.bms_params">88705C93650889BECB2673BBD78492E3</ASC_LICENSE_ID>
+			<DD_EXPORT_DATA id="ddm_tables.bms_params">Y</DD_EXPORT_DATA>
+			<DD_CREATE_DATE id="ddm_tables.bms_params">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_tables.bms_params">20090325</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.bms_params">20090325</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.bms_params">090424</DD_LSTSYNC_TIME>
+			<DD_ATTR_FTYP id="ddm_tables.bms_params">T</DD_ATTR_FTYP>
+			<DD_ATTR_SLEV id="ddm_tables.bms_params">zzzz</DD_ATTR_SLEV>
+			<DD_ATTR_WINT id="ddm_tables.bms_params">BM Parameters</DD_ATTR_WINT>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_TPLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>BMS_PARAMS      </DD_TABLE_ALIAS>
-			<DD_FILE_NAME>bms_params</DD_FILE_NAME>
-			<DD_TABLE_TPL>firm_id:c(2),bm:c(2),sequence_00:c(2),gl_wip_acct:c(10),gl_pur_acct:c(10),gl_prd_var:c(10*),hrqty_mask:c(10*),mat_fac_msk:c(10*),ovhd_fac_msk:c(10*),mat_factor:n(7*),reserved_num:n(1*),bm_precision:n(1*)</DD_TABLE_TPL>
+	<ALIAS id="ddm_table_tpls">
+		<ID id="ddm_table_tpls">DDM_TABLE_TPLS</ID>
+		<RECORD id="ddm_table_tpls.bms_params">
+			<DD_TABLE_ALIAS id="ddm_table_tpls.bms_params">BMS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_FILE_NAME id="ddm_table_tpls.bms_params">bms_params</DD_FILE_NAME>
+			<DD_TABLE_TPL id="ddm_table_tpls.bms_params">firm_id:c(2),bm:c(2),sequence_00:c(2),gl_wip_acct:c(10),gl_pur_acct:c(10),gl_prd_var:c(10*),hrqty_mask:c(10*),mat_fac_msk:c(10*),ovhd_fac_msk:c(10*),mat_factor:n(7*),reserved_num:n(1*),bm_precision:n(1*)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_KEYS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>BMS_PARAMS      </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_KEY_DESC>Primary</DD_KEY_DESC>
-			<DD_KEY_ID>PRIMARY         </DD_KEY_ID>
+	<ALIAS id="ddm_keys">
+		<ID id="ddm_keys">DDM_KEYS</ID>
+		<RECORD id="ddm_keys.bms_params00">
+			<DD_TABLE_ALIAS id="ddm_keys.bms_params00">BMS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_keys.bms_params00">00</DD_KEY_NUMBER>
+			<DD_KEY_DESC id="ddm_keys.bms_params00">Primary</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.bms_params00">PRIMARY         </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_KEY_SEGS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>BMS_PARAMS      </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>01</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>FIRM_ID         </DD_SEGMENT_COL>
-			<DD_SEGMENT_POS>0</DD_SEGMENT_POS>
-			<DD_SEGMENT_OFF>0</DD_SEGMENT_OFF>
-			<DD_SEGMENT_LEN>0</DD_SEGMENT_LEN>
+	<ALIAS id="ddm_key_segs">
+		<ID id="ddm_key_segs">DDM_KEY_SEGS</ID>
+		<RECORD id="ddm_key_segs.bms_params0001">
+			<DD_TABLE_ALIAS id="ddm_key_segs.bms_params0001">BMS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.bms_params0001">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.bms_params0001">01</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.bms_params0001">FIRM_ID         </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.bms_params0001">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.bms_params0001">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.bms_params0001">0</DD_SEGMENT_LEN>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>BMS_PARAMS      </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>02</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>BM              </DD_SEGMENT_COL>
-			<DD_SEGMENT_POS>0</DD_SEGMENT_POS>
-			<DD_SEGMENT_OFF>0</DD_SEGMENT_OFF>
-			<DD_SEGMENT_LEN>0</DD_SEGMENT_LEN>
+		<RECORD id="ddm_key_segs.bms_params0002">
+			<DD_TABLE_ALIAS id="ddm_key_segs.bms_params0002">BMS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.bms_params0002">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.bms_params0002">02</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.bms_params0002">BM              </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.bms_params0002">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.bms_params0002">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.bms_params0002">0</DD_SEGMENT_LEN>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>BMS_PARAMS      </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>03</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>SEQUENCE_00     </DD_SEGMENT_COL>
-			<DD_SEGMENT_POS>0</DD_SEGMENT_POS>
-			<DD_SEGMENT_OFF>0</DD_SEGMENT_OFF>
-			<DD_SEGMENT_LEN>0</DD_SEGMENT_LEN>
-		</RECORD>
-	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_COLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>BMS_PARAMS      </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>001</DD_SEQUENCE>
-			<DD_DATA_NAME>FIRM_ID         </DD_DATA_NAME>
-			<DD_DVAR_NAME>FIRM_ID         </DD_DVAR_NAME>
-			<DD_COL_REPEATS>1</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL>2</DD_ATTR_MAXL>
-			<DD_ATTR_PROM>Firm ID</DD_ATTR_PROM>
-			<DD_ATTR_TIND>1</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>BMS_PARAMS      </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>002</DD_SEQUENCE>
-			<DD_DATA_NAME>BM              </DD_DATA_NAME>
-			<DD_DVAR_NAME>BM              </DD_DVAR_NAME>
-			<DD_COL_REPEATS>1</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_MAXL>2</DD_ATTR_MAXL>
-			<DD_ATTR_PROM>"BM"</DD_ATTR_PROM>
-			<DD_ATTR_TIND>2</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>BMS_PARAMS      </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>003</DD_SEQUENCE>
-			<DD_DATA_NAME>SEQUENCE_00     </DD_DATA_NAME>
-			<DD_DVAR_NAME>SEQUENCE_00     </DD_DVAR_NAME>
-			<DD_COL_REPEATS>1</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL>2</DD_ATTR_MAXL>
-			<DD_ATTR_PROM>"00"</DD_ATTR_PROM>
-			<DD_ATTR_TIND>3</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>BMS_PARAMS      </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>004</DD_SEQUENCE>
-			<DD_DATA_NAME>GL_WIP_ACCT     </DD_DATA_NAME>
-			<DD_DVAR_NAME>GL_WIP_ACCT     </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_MAXL>10</DD_ATTR_MAXL>
-			<DD_ATTR_PROM>GL Work In Process Account</DD_ATTR_PROM>
-			<DD_ATTR_TIND>4</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>BMS_PARAMS      </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>005</DD_SEQUENCE>
-			<DD_DATA_NAME>GL_PUR_ACCT     </DD_DATA_NAME>
-			<DD_DVAR_NAME>GL_PUR_ACCT     </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_MAXL>10</DD_ATTR_MAXL>
-			<DD_ATTR_PROM>GL Purchase To Account</DD_ATTR_PROM>
-			<DD_ATTR_TIND>5</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>BMS_PARAMS      </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>006</DD_SEQUENCE>
-			<DD_DATA_NAME>GL_PRD_VAR      </DD_DATA_NAME>
-			<DD_DVAR_NAME>GL_PRD_VAR      </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_MAXL>10</DD_ATTR_MAXL>
-			<DD_ATTR_PROM>GL Production Variance Acct</DD_ATTR_PROM>
-			<DD_ATTR_TIND>6</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>BMS_PARAMS      </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>007</DD_SEQUENCE>
-			<DD_DATA_NAME>HRQTY_MASK      </DD_DATA_NAME>
-			<DD_DVAR_NAME>HRQTY_MASK      </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL>10</DD_ATTR_MAXL>
-			<DD_ATTR_PROM>Hour/Quantity Mask</DD_ATTR_PROM>
-			<DD_ATTR_TIND>7</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>BMS_PARAMS      </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>008</DD_SEQUENCE>
-			<DD_DATA_NAME>MAT_FAC_MSK     </DD_DATA_NAME>
-			<DD_DVAR_NAME>MAT_FAC_MSK     </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL>10</DD_ATTR_MAXL>
-			<DD_ATTR_PROM>Material Factor Mask</DD_ATTR_PROM>
-			<DD_ATTR_TIND>8</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>BMS_PARAMS      </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>009</DD_SEQUENCE>
-			<DD_DATA_NAME>OVHD_FAC_MSK    </DD_DATA_NAME>
-			<DD_DVAR_NAME>OVHD_FAC_MSK    </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL>10</DD_ATTR_MAXL>
-			<DD_ATTR_PROM>Overhead Factor Mask</DD_ATTR_PROM>
-			<DD_ATTR_TIND>9</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>BMS_PARAMS      </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>010</DD_SEQUENCE>
-			<DD_DATA_NAME>MAT_FACTOR      </DD_DATA_NAME>
-			<DD_DVAR_NAME>MAT_FACTOR      </DD_DVAR_NAME>
-			<DD_COL_REPEATS>1</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL>7</DD_ATTR_MAXL>
-			<DD_ATTR_PROM>Material Factor</DD_ATTR_PROM>
-			<DD_ATTR_TIND>10</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>BMS_PARAMS      </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>011</DD_SEQUENCE>
-			<DD_DATA_NAME>RESERVED_NUM    </DD_DATA_NAME>
-			<DD_DVAR_NAME>RESERVED_NUM    </DD_DVAR_NAME>
-			<DD_COL_REPEATS>1</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_PROM>Reserved For Addon Use</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>BMS_PARAMS      </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>012</DD_SEQUENCE>
-			<DD_DATA_NAME>BM_PRECISION    </DD_DATA_NAME>
-			<DD_DVAR_NAME>BM_PRECISION    </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL>1</DD_ATTR_MAXL>
-			<DD_ATTR_PROM>Hour/Quantity Precision</DD_ATTR_PROM>
-			<DD_ATTR_TIND>11</DD_ATTR_TIND>
+		<RECORD id="ddm_key_segs.bms_params0003">
+			<DD_TABLE_ALIAS id="ddm_key_segs.bms_params0003">BMS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.bms_params0003">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.bms_params0003">03</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.bms_params0003">SEQUENCE_00     </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.bms_params0003">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.bms_params0003">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.bms_params0003">0</DD_SEGMENT_LEN>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_COLUMN_OPTS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>BMS_PARAMS      </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>FIRM_ID         </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>O</DD_ATTR_OPTS>
+	<ALIAS id="ddm_table_cols">
+		<ID id="ddm_table_cols">DDM_TABLE_COLS</ID>
+		<RECORD id="ddm_table_cols.bms_params001">
+			<DD_TABLE_ALIAS id="ddm_table_cols.bms_params001">BMS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.bms_params001">001</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.bms_params001">FIRM_ID         </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.bms_params001">FIRM_ID         </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.bms_params001">1</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.bms_params001">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.bms_params001">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.bms_params001">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.bms_params001">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.bms_params001">2</DD_ATTR_MAXL>
+			<DD_ATTR_PROM id="ddm_table_cols.bms_params001">Firm ID</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.bms_params001">1</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>BMS_PARAMS      </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>BM              </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>O</DD_ATTR_OPTS>
+		<RECORD id="ddm_table_cols.bms_params002">
+			<DD_TABLE_ALIAS id="ddm_table_cols.bms_params002">BMS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.bms_params002">002</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.bms_params002">BM              </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.bms_params002">BM              </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.bms_params002">1</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.bms_params002">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.bms_params002">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.bms_params002">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.bms_params002">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.bms_params002">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.bms_params002">0</DD_ATTR_CTLH>
+			<DD_ATTR_MAXL id="ddm_table_cols.bms_params002">2</DD_ATTR_MAXL>
+			<DD_ATTR_PROM id="ddm_table_cols.bms_params002">"BM"</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.bms_params002">2</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>BMS_PARAMS      </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>SEQUENCE_00     </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>O</DD_ATTR_OPTS>
+		<RECORD id="ddm_table_cols.bms_params003">
+			<DD_TABLE_ALIAS id="ddm_table_cols.bms_params003">BMS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.bms_params003">003</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.bms_params003">SEQUENCE_00     </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.bms_params003">SEQUENCE_00     </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.bms_params003">1</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.bms_params003">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.bms_params003">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.bms_params003">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.bms_params003">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.bms_params003">2</DD_ATTR_MAXL>
+			<DD_ATTR_PROM id="ddm_table_cols.bms_params003">"00"</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.bms_params003">3</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.bms_params004">
+			<DD_TABLE_ALIAS id="ddm_table_cols.bms_params004">BMS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.bms_params004">004</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.bms_params004">GL_WIP_ACCT     </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.bms_params004">GL_WIP_ACCT     </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.bms_params004">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.bms_params004">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.bms_params004">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.bms_params004">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.bms_params004">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.bms_params004">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.bms_params004">0</DD_ATTR_CTLH>
+			<DD_ATTR_MAXL id="ddm_table_cols.bms_params004">10</DD_ATTR_MAXL>
+			<DD_ATTR_PROM id="ddm_table_cols.bms_params004">GL Work In Process Account</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.bms_params004">4</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.bms_params005">
+			<DD_TABLE_ALIAS id="ddm_table_cols.bms_params005">BMS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.bms_params005">005</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.bms_params005">GL_PUR_ACCT     </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.bms_params005">GL_PUR_ACCT     </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.bms_params005">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.bms_params005">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.bms_params005">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.bms_params005">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.bms_params005">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.bms_params005">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.bms_params005">0</DD_ATTR_CTLH>
+			<DD_ATTR_MAXL id="ddm_table_cols.bms_params005">10</DD_ATTR_MAXL>
+			<DD_ATTR_PROM id="ddm_table_cols.bms_params005">GL Purchase To Account</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.bms_params005">5</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.bms_params006">
+			<DD_TABLE_ALIAS id="ddm_table_cols.bms_params006">BMS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.bms_params006">006</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.bms_params006">GL_PRD_VAR      </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.bms_params006">GL_PRD_VAR      </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.bms_params006">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.bms_params006">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.bms_params006">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.bms_params006">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.bms_params006">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.bms_params006">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.bms_params006">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.bms_params006">0</DD_ATTR_CTLH>
+			<DD_ATTR_MAXL id="ddm_table_cols.bms_params006">10</DD_ATTR_MAXL>
+			<DD_ATTR_PROM id="ddm_table_cols.bms_params006">GL Production Variance Acct</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.bms_params006">6</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.bms_params007">
+			<DD_TABLE_ALIAS id="ddm_table_cols.bms_params007">BMS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.bms_params007">007</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.bms_params007">HRQTY_MASK      </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.bms_params007">HRQTY_MASK      </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.bms_params007">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.bms_params007">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.bms_params007">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.bms_params007">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.bms_params007">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.bms_params007">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.bms_params007">10</DD_ATTR_MAXL>
+			<DD_ATTR_PROM id="ddm_table_cols.bms_params007">Hour/Quantity Mask</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.bms_params007">7</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.bms_params008">
+			<DD_TABLE_ALIAS id="ddm_table_cols.bms_params008">BMS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.bms_params008">008</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.bms_params008">MAT_FAC_MSK     </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.bms_params008">MAT_FAC_MSK     </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.bms_params008">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.bms_params008">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.bms_params008">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.bms_params008">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.bms_params008">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.bms_params008">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.bms_params008">10</DD_ATTR_MAXL>
+			<DD_ATTR_PROM id="ddm_table_cols.bms_params008">Material Factor Mask</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.bms_params008">8</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.bms_params009">
+			<DD_TABLE_ALIAS id="ddm_table_cols.bms_params009">BMS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.bms_params009">009</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.bms_params009">OVHD_FAC_MSK    </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.bms_params009">OVHD_FAC_MSK    </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.bms_params009">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.bms_params009">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.bms_params009">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.bms_params009">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.bms_params009">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.bms_params009">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.bms_params009">10</DD_ATTR_MAXL>
+			<DD_ATTR_PROM id="ddm_table_cols.bms_params009">Overhead Factor Mask</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.bms_params009">9</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.bms_params010">
+			<DD_TABLE_ALIAS id="ddm_table_cols.bms_params010">BMS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.bms_params010">010</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.bms_params010">MAT_FACTOR      </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.bms_params010">MAT_FACTOR      </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.bms_params010">1</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.bms_params010">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.bms_params010">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.bms_params010">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.bms_params010">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.bms_params010">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.bms_params010">7</DD_ATTR_MAXL>
+			<DD_ATTR_PROM id="ddm_table_cols.bms_params010">Material Factor</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.bms_params010">10</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.bms_params011">
+			<DD_TABLE_ALIAS id="ddm_table_cols.bms_params011">BMS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.bms_params011">011</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.bms_params011">RESERVED_NUM    </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.bms_params011">RESERVED_NUM    </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.bms_params011">1</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.bms_params011">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.bms_params011">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.bms_params011">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.bms_params011">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.bms_params011">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_PROM id="ddm_table_cols.bms_params011">Reserved For Addon Use</DD_ATTR_PROM>
+		</RECORD>
+		<RECORD id="ddm_table_cols.bms_params012">
+			<DD_TABLE_ALIAS id="ddm_table_cols.bms_params012">BMS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.bms_params012">012</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.bms_params012">BM_PRECISION    </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.bms_params012">BM_PRECISION    </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.bms_params012">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.bms_params012">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.bms_params012">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.bms_params012">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.bms_params012">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.bms_params012">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.bms_params012">1</DD_ATTR_MAXL>
+			<DD_ATTR_PROM id="ddm_table_cols.bms_params012">Hour/Quantity Precision</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.bms_params012">11</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_ELEMENTS</ID>
-		<RECORD>
-			<DD_DATA_NAME>FIRM_ID         </DD_DATA_NAME>
-			<DD_DESCRIPTION>Firm ID</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>2</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SYSTEM_REC>Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060425</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>H</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Firm ID</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Firm ID</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>00</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>00</DD_ATTR_MSKO>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>R</DD_ATTR_PADJ>
-			<DD_ATTR_PVAL>stbl("+FIRM_ID")</DD_ATTR_PVAL>
+	<ALIAS id="ddm_column_opts">
+		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
+		<RECORD id="ddm_column_opts.bms_paramsfirm_ido">
+			<DD_TABLE_ALIAS id="ddm_column_opts.bms_paramsfirm_ido">BMS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.bms_paramsfirm_ido">FIRM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.bms_paramsfirm_ido">O</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>BM              </DD_DATA_NAME>
-			<DD_DESCRIPTION>"BM"</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>2</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080114</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>BM</DD_ATTR_LABL>
-			<DD_ATTR_LABS>BM</DD_ATTR_LABS>
-			<DD_ATTR_MAXL>0</DD_ATTR_MAXL>
-			<DD_ATTR_MAXR>0</DD_ATTR_MAXR>
-			<DD_ATTR_MINL>0</DD_ATTR_MINL>
-			<DD_ATTR_PREC>0</DD_ATTR_PREC>
-			<DD_ATTR_PVAL>"BM"</DD_ATTR_PVAL>
+		<RECORD id="ddm_column_opts.bms_paramsbmo">
+			<DD_TABLE_ALIAS id="ddm_column_opts.bms_paramsbmo">BMS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.bms_paramsbmo">BM              </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.bms_paramsbmo">O</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>SEQUENCE_00     </DD_DATA_NAME>
-			<DD_DESCRIPTION>"00"</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>2</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060228</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>0</DD_ATTR_LABL>
-			<DD_ATTR_LABS>0</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>00</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>00</DD_ATTR_MSKO>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>R</DD_ATTR_PADJ>
-			<DD_ATTR_PVAL>"00"</DD_ATTR_PVAL>
+		<RECORD id="ddm_column_opts.bms_paramssequence_00o">
+			<DD_TABLE_ALIAS id="ddm_column_opts.bms_paramssequence_00o">BMS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.bms_paramssequence_00o">SEQUENCE_00     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.bms_paramssequence_00o">O</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>GL_WIP_ACCT     </DD_DATA_NAME>
-			<DD_DESCRIPTION>GL Work In Process Account</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>10</DD_DATA_LENGTH>
-			<DD_MASK_TYPE>I</DD_MASK_TYPE>
-			<DD_SYSTEM_REC>N</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>GL </ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080204</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOL>GL_ACCT_DESC    </DD_ATTR_DCOL>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_DKEY>[+FIRM_ID]+@</DD_ATTR_DKEY>
-			<DD_ATTR_DTAB>GLM_ACCT        </DD_ATTR_DTAB>
-			<DD_ATTR_LABL>Work In Process Account</DD_ATTR_LABL>
-			<DD_ATTR_LABS>WIP Acct</DD_ATTR_LABS>
-			<DD_ATTR_MAXL>0</DD_ATTR_MAXL>
-			<DD_ATTR_MAXR>0</DD_ATTR_MAXR>
-			<DD_ATTR_MINL>0</DD_ATTR_MINL>
-			<DD_ATTR_MSKI>UUUUUUUUUU</DD_ATTR_MSKI>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>L</DD_ATTR_PADJ>
-			<DD_ATTR_PREC>0</DD_ATTR_PREC>
+	</ALIAS>
+	<ALIAS id="ddm_elements">
+		<ID id="ddm_elements">DDM_ELEMENTS</ID>
+		<RECORD id="ddm_elements.firm_id">
+			<DD_DATA_NAME id="ddm_elements.firm_id">FIRM_ID         </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.firm_id">Firm ID</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.firm_id">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.firm_id">2</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.firm_id"> </DD_MASK_TYPE>
+			<DD_SYSTEM_REC id="ddm_elements.firm_id">Y</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.firm_id">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.firm_id">BAR</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.firm_id">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.firm_id">20060425</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.firm_id">H</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.firm_id">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.firm_id">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABS>
+			<DD_ATTR_MSKI id="ddm_elements.firm_id">00</DD_ATTR_MSKI>
+			<DD_ATTR_MSKO id="ddm_elements.firm_id">00</DD_ATTR_MSKO>
+			<DD_ATTR_PADC id="ddm_elements.firm_id">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.firm_id">R</DD_ATTR_PADJ>
+			<DD_ATTR_PVAL id="ddm_elements.firm_id">stbl("+FIRM_ID")</DD_ATTR_PVAL>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>GL_PUR_ACCT     </DD_DATA_NAME>
-			<DD_DESCRIPTION>GL Purchase To Account</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>10</DD_DATA_LENGTH>
-			<DD_MASK_TYPE>I</DD_MASK_TYPE>
-			<DD_SYSTEM_REC>N</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>GL </ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20061018</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOL>GL_ACCT_DESC    </DD_ATTR_DCOL>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_DKEY>[+FIRM_ID]+@</DD_ATTR_DKEY>
-			<DD_ATTR_DTAB>GLM_ACCT        </DD_ATTR_DTAB>
-			<DD_ATTR_LABL>Purchase To Account</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Purch To Acct</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>UUUUUUUUUU</DD_ATTR_MSKI>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>L</DD_ATTR_PADJ>
+		<RECORD id="ddm_elements.bm">
+			<DD_DATA_NAME id="ddm_elements.bm">BM              </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.bm">"BM"</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.bm">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.bm">2</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.bm"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.bm">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.bm">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.bm">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.bm">20080114</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.bm">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.bm">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.bm">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.bm">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.bm">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.bm">BM</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.bm">BM</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.bm">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.bm">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.bm">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.bm">0</DD_ATTR_PREC>
+			<DD_ATTR_PVAL id="ddm_elements.bm">"BM"</DD_ATTR_PVAL>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>GL_PRD_VAR      </DD_DATA_NAME>
-			<DD_DESCRIPTION>GL Production Variance Acct</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>10</DD_DATA_LENGTH>
-			<DD_MASK_TYPE>I</DD_MASK_TYPE>
-			<DD_SYSTEM_REC>N</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>GL </ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080204</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOL>GL_ACCT_DESC    </DD_ATTR_DCOL>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_DKEY>[+FIRM_ID]+@</DD_ATTR_DKEY>
-			<DD_ATTR_DTAB>GLM_ACCT        </DD_ATTR_DTAB>
-			<DD_ATTR_LABL>Production Variance Acct</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Prod Var Acct</DD_ATTR_LABS>
-			<DD_ATTR_MAXL>0</DD_ATTR_MAXL>
-			<DD_ATTR_MAXR>0</DD_ATTR_MAXR>
-			<DD_ATTR_MINL>0</DD_ATTR_MINL>
-			<DD_ATTR_MSKI>UUUUUUUUUU</DD_ATTR_MSKI>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>L</DD_ATTR_PADJ>
-			<DD_ATTR_PREC>0</DD_ATTR_PREC>
+		<RECORD id="ddm_elements.sequence_00">
+			<DD_DATA_NAME id="ddm_elements.sequence_00">SEQUENCE_00     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.sequence_00">"00"</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.sequence_00">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.sequence_00">2</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.sequence_00"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.sequence_00">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.sequence_00">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.sequence_00">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.sequence_00">20060228</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.sequence_00">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.sequence_00">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.sequence_00">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.sequence_00">0</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.sequence_00">0</DD_ATTR_LABS>
+			<DD_ATTR_MSKI id="ddm_elements.sequence_00">00</DD_ATTR_MSKI>
+			<DD_ATTR_MSKO id="ddm_elements.sequence_00">00</DD_ATTR_MSKO>
+			<DD_ATTR_PADC id="ddm_elements.sequence_00">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.sequence_00">R</DD_ATTR_PADJ>
+			<DD_ATTR_PVAL id="ddm_elements.sequence_00">"00"</DD_ATTR_PVAL>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>HRQTY_MASK      </DD_DATA_NAME>
-			<DD_DESCRIPTION>Hour/Quantity Mask            </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>10</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Hour/Quantity Mask</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Hr/Qty Mask</DD_ATTR_LABS>
+		<RECORD id="ddm_elements.gl_wip_acct">
+			<DD_DATA_NAME id="ddm_elements.gl_wip_acct">GL_WIP_ACCT     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.gl_wip_acct">GL Work In Process Account</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.gl_wip_acct">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.gl_wip_acct">10</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.gl_wip_acct">I</DD_MASK_TYPE>
+			<DD_SYSTEM_REC id="ddm_elements.gl_wip_acct">N</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.gl_wip_acct">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.gl_wip_acct">GL </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.gl_wip_acct">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.gl_wip_acct">20080204</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.gl_wip_acct">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.gl_wip_acct">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.gl_wip_acct">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOL id="ddm_elements.gl_wip_acct">GL_ACCT_DESC    </DD_ATTR_DCOL>
+			<DD_ATTR_DCOM id="ddm_elements.gl_wip_acct">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.gl_wip_acct">            </DD_ATTR_DEXP>
+			<DD_ATTR_DKEY id="ddm_elements.gl_wip_acct">[+FIRM_ID]+@</DD_ATTR_DKEY>
+			<DD_ATTR_DTAB id="ddm_elements.gl_wip_acct">GLM_ACCT        </DD_ATTR_DTAB>
+			<DD_ATTR_LABL id="ddm_elements.gl_wip_acct">Work In Process Account</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.gl_wip_acct">WIP Acct</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.gl_wip_acct">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.gl_wip_acct">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.gl_wip_acct">0</DD_ATTR_MINL>
+			<DD_ATTR_MSKI id="ddm_elements.gl_wip_acct">UUUUUUUUUU</DD_ATTR_MSKI>
+			<DD_ATTR_PADC id="ddm_elements.gl_wip_acct">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.gl_wip_acct">L</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.gl_wip_acct">0</DD_ATTR_PREC>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>MAT_FAC_MSK     </DD_DATA_NAME>
-			<DD_DESCRIPTION>Material Factor Mask          </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>10</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Material Factor Mask</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Mat Factor Mask</DD_ATTR_LABS>
+		<RECORD id="ddm_elements.gl_pur_acct">
+			<DD_DATA_NAME id="ddm_elements.gl_pur_acct">GL_PUR_ACCT     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.gl_pur_acct">GL Purchase To Account</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.gl_pur_acct">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.gl_pur_acct">10</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.gl_pur_acct">I</DD_MASK_TYPE>
+			<DD_SYSTEM_REC id="ddm_elements.gl_pur_acct">N</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.gl_pur_acct">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.gl_pur_acct">GL </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.gl_pur_acct">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.gl_pur_acct">20061018</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.gl_pur_acct">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.gl_pur_acct">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.gl_pur_acct">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOL id="ddm_elements.gl_pur_acct">GL_ACCT_DESC    </DD_ATTR_DCOL>
+			<DD_ATTR_DCOM id="ddm_elements.gl_pur_acct">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.gl_pur_acct">            </DD_ATTR_DEXP>
+			<DD_ATTR_DKEY id="ddm_elements.gl_pur_acct">[+FIRM_ID]+@</DD_ATTR_DKEY>
+			<DD_ATTR_DTAB id="ddm_elements.gl_pur_acct">GLM_ACCT        </DD_ATTR_DTAB>
+			<DD_ATTR_LABL id="ddm_elements.gl_pur_acct">Purchase To Account</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.gl_pur_acct">Purch To Acct</DD_ATTR_LABS>
+			<DD_ATTR_MSKI id="ddm_elements.gl_pur_acct">UUUUUUUUUU</DD_ATTR_MSKI>
+			<DD_ATTR_PADC id="ddm_elements.gl_pur_acct">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.gl_pur_acct">L</DD_ATTR_PADJ>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>OVHD_FAC_MSK    </DD_DATA_NAME>
-			<DD_DESCRIPTION>Overhead Factor Mask          </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>10</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Overhead Factor Mask</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Ovrhd Factor Mask</DD_ATTR_LABS>
+		<RECORD id="ddm_elements.gl_prd_var">
+			<DD_DATA_NAME id="ddm_elements.gl_prd_var">GL_PRD_VAR      </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.gl_prd_var">GL Production Variance Acct</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.gl_prd_var">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.gl_prd_var">10</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.gl_prd_var">I</DD_MASK_TYPE>
+			<DD_SYSTEM_REC id="ddm_elements.gl_prd_var">N</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.gl_prd_var">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.gl_prd_var">GL </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.gl_prd_var">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.gl_prd_var">20080204</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.gl_prd_var">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.gl_prd_var">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.gl_prd_var">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOL id="ddm_elements.gl_prd_var">GL_ACCT_DESC    </DD_ATTR_DCOL>
+			<DD_ATTR_DCOM id="ddm_elements.gl_prd_var">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.gl_prd_var">            </DD_ATTR_DEXP>
+			<DD_ATTR_DKEY id="ddm_elements.gl_prd_var">[+FIRM_ID]+@</DD_ATTR_DKEY>
+			<DD_ATTR_DTAB id="ddm_elements.gl_prd_var">GLM_ACCT        </DD_ATTR_DTAB>
+			<DD_ATTR_LABL id="ddm_elements.gl_prd_var">Production Variance Acct</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.gl_prd_var">Prod Var Acct</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.gl_prd_var">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.gl_prd_var">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.gl_prd_var">0</DD_ATTR_MINL>
+			<DD_ATTR_MSKI id="ddm_elements.gl_prd_var">UUUUUUUUUU</DD_ATTR_MSKI>
+			<DD_ATTR_PADC id="ddm_elements.gl_prd_var">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.gl_prd_var">L</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.gl_prd_var">0</DD_ATTR_PREC>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>MAT_FACTOR      </DD_DATA_NAME>
-			<DD_DESCRIPTION>Material Factor</DD_DESCRIPTION>
-			<DD_DATA_TYPE>N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>7</DD_DATA_LENGTH>
-			<DD_MASK_TYPE>M</DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>BM </ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080204</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_CTYP>N</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Material Factor</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Mat Factor</DD_ATTR_LABS>
-			<DD_ATTR_MAXL>0</DD_ATTR_MAXL>
-			<DD_ATTR_MAXR>0</DD_ATTR_MAXR>
-			<DD_ATTR_MINL>0</DD_ATTR_MINL>
-			<DD_ATTR_PREC>0</DD_ATTR_PREC>
+		<RECORD id="ddm_elements.hrqty_mask">
+			<DD_DATA_NAME id="ddm_elements.hrqty_mask">HRQTY_MASK      </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.hrqty_mask">Hour/Quantity Mask            </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.hrqty_mask">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.hrqty_mask">10</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.hrqty_mask"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.hrqty_mask">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.hrqty_mask">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.hrqty_mask">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.hrqty_mask">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.hrqty_mask">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.hrqty_mask">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.hrqty_mask">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.hrqty_mask">Hour/Quantity Mask</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.hrqty_mask">Hr/Qty Mask</DD_ATTR_LABS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>RESERVED_NUM    </DD_DATA_NAME>
-			<DD_DESCRIPTION>Reserved For Addon Use        </DD_DESCRIPTION>
-			<DD_DATA_TYPE>N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>1</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SYSTEM_REC>Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>X</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Reserved For Addon Use</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Res For Addon Use</DD_ATTR_LABS>
+		<RECORD id="ddm_elements.mat_fac_msk">
+			<DD_DATA_NAME id="ddm_elements.mat_fac_msk">MAT_FAC_MSK     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.mat_fac_msk">Material Factor Mask          </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.mat_fac_msk">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.mat_fac_msk">10</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.mat_fac_msk"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.mat_fac_msk">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.mat_fac_msk">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.mat_fac_msk">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.mat_fac_msk">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.mat_fac_msk">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.mat_fac_msk">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.mat_fac_msk">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.mat_fac_msk">Material Factor Mask</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.mat_fac_msk">Mat Factor Mask</DD_ATTR_LABS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>BM_PRECISION    </DD_DATA_NAME>
-			<DD_DESCRIPTION>Hour/Quantity Precision       </DD_DESCRIPTION>
-			<DD_DATA_TYPE>N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>1</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>N</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Hour/Quantity Precision</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Hr/Qty Prec</DD_ATTR_LABS>
+		<RECORD id="ddm_elements.ovhd_fac_msk">
+			<DD_DATA_NAME id="ddm_elements.ovhd_fac_msk">OVHD_FAC_MSK    </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.ovhd_fac_msk">Overhead Factor Mask          </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.ovhd_fac_msk">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.ovhd_fac_msk">10</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.ovhd_fac_msk"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.ovhd_fac_msk">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.ovhd_fac_msk">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.ovhd_fac_msk">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.ovhd_fac_msk">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.ovhd_fac_msk">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.ovhd_fac_msk">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.ovhd_fac_msk">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.ovhd_fac_msk">Overhead Factor Mask</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.ovhd_fac_msk">Ovrhd Factor Mask</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.mat_factor">
+			<DD_DATA_NAME id="ddm_elements.mat_factor">MAT_FACTOR      </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.mat_factor">Material Factor</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.mat_factor">N</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.mat_factor">7</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.mat_factor">M</DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.mat_factor">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.mat_factor">BM </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.mat_factor">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.mat_factor">20080204</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.mat_factor">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.mat_factor">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.mat_factor">N</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.mat_factor">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.mat_factor">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.mat_factor">Material Factor</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.mat_factor">Mat Factor</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.mat_factor">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.mat_factor">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.mat_factor">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.mat_factor">0</DD_ATTR_PREC>
+		</RECORD>
+		<RECORD id="ddm_elements.reserved_num">
+			<DD_DATA_NAME id="ddm_elements.reserved_num">RESERVED_NUM    </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.reserved_num">Reserved For Addon Use        </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.reserved_num">N</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.reserved_num">1</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.reserved_num"> </DD_MASK_TYPE>
+			<DD_SYSTEM_REC id="ddm_elements.reserved_num">Y</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.reserved_num">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.reserved_num">BAR</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.reserved_num">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.reserved_num">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.reserved_num">X</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.reserved_num">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.reserved_num">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.reserved_num">Reserved For Addon Use</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.reserved_num">Res For Addon Use</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.bm_precision">
+			<DD_DATA_NAME id="ddm_elements.bm_precision">BM_PRECISION    </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.bm_precision">Hour/Quantity Precision       </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.bm_precision">N</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.bm_precision">1</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.bm_precision"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.bm_precision">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.bm_precision">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.bm_precision">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.bm_precision">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.bm_precision">N</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.bm_precision">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.bm_precision">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.bm_precision">Hour/Quantity Precision</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.bm_precision">Hr/Qty Prec</DD_ATTR_LABS>
 		</RECORD>
 	</ALIAS>
 </BMS_PARAMS>

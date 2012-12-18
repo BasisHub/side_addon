@@ -1,262 +1,262 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <BMR_INDENTEDBILL>
-	<ALIAS>
-		<ID>DDM_TABLES</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>BMR_INDENTEDBILL</DD_TABLE_ALIAS>
-			<DD_ALIAS_DESC>Bill of Materials Indented Bills</DD_ALIAS_DESC>
-			<DD_TABLE_PATH>[+BMDATA]</DD_TABLE_PATH>
-			<DD_ALIAS_TYPE>P</DD_ALIAS_TYPE>
-			<DD_KEY_LENGTH>0</DD_KEY_LENGTH>
-			<DD_NBR_RECORD>0</DD_NBR_RECORD>
-			<DD_RECORD_LEN>0</DD_RECORD_LEN>
-			<DD_SYSTEM_ID>BM</DD_SYSTEM_ID>
-			<RESTRICT_REBUILD>Y</RESTRICT_REBUILD>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>BM</ASC_PROD_ID>
-			<DD_EXPORT_DATA>N</DD_EXPORT_DATA>
-			<DD_CREATE_DATE>20080213</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080312</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE>20080312</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME>102154</DD_LSTSYNC_TIME>
-			<DD_ATTR_FTYP>S</DD_ATTR_FTYP>
-			<DD_ATTR_PRUN>[+DIR_PGM]bmr_indentedbill.aon</DD_ATTR_PRUN>
-			<DD_ATTR_WINT>Bill of Materials Indented Bills</DD_ATTR_WINT>
+	<ALIAS id="ddm_tables">
+		<ID id="ddm_tables">DDM_TABLES</ID>
+		<RECORD id="ddm_tables.bmr_indentedbill">
+			<DD_TABLE_ALIAS id="ddm_tables.bmr_indentedbill">BMR_INDENTEDBILL</DD_TABLE_ALIAS>
+			<DD_ALIAS_DESC id="ddm_tables.bmr_indentedbill">Bill of Materials Indented Bills</DD_ALIAS_DESC>
+			<DD_TABLE_PATH id="ddm_tables.bmr_indentedbill">[+BMDATA]</DD_TABLE_PATH>
+			<DD_ALIAS_TYPE id="ddm_tables.bmr_indentedbill">P</DD_ALIAS_TYPE>
+			<DD_KEY_LENGTH id="ddm_tables.bmr_indentedbill">0</DD_KEY_LENGTH>
+			<DD_NBR_RECORD id="ddm_tables.bmr_indentedbill">0</DD_NBR_RECORD>
+			<DD_RECORD_LEN id="ddm_tables.bmr_indentedbill">0</DD_RECORD_LEN>
+			<RESTRICT_REBUILD id="ddm_tables.bmr_indentedbill">Y</RESTRICT_REBUILD>
+			<ASC_COMP_ID id="ddm_tables.bmr_indentedbill">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_tables.bmr_indentedbill">BM</ASC_PROD_ID>
+			<ASC_VERSION_ID id="ddm_tables.bmr_indentedbill">8.0</ASC_VERSION_ID>
+			<DD_EXPORT_DATA id="ddm_tables.bmr_indentedbill">N</DD_EXPORT_DATA>
+			<DD_CREATE_DATE id="ddm_tables.bmr_indentedbill">20080213</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_tables.bmr_indentedbill">20090325</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.bmr_indentedbill">20090325</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.bmr_indentedbill">090424</DD_LSTSYNC_TIME>
+			<DD_ATTR_FTYP id="ddm_tables.bmr_indentedbill">S</DD_ATTR_FTYP>
+			<DD_ATTR_PRUN id="ddm_tables.bmr_indentedbill">[+DIR_PGM]bmr_indentedbill.aon</DD_ATTR_PRUN>
+			<DD_ATTR_WINT id="ddm_tables.bmr_indentedbill">Bill of Materials Indented Bills</DD_ATTR_WINT>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_TPLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>BMR_INDENTEDBILL</DD_TABLE_ALIAS>
-			<DD_TABLE_TPL>security_lev:c(1),include_costinfo:c(1),bill_no_01:c(20),bill_no_02:c(20),effect_date:c(8),warehouse_id:c(2*)</DD_TABLE_TPL>
+	<ALIAS id="ddm_table_tpls">
+		<ID id="ddm_table_tpls">DDM_TABLE_TPLS</ID>
+		<RECORD id="ddm_table_tpls.bmr_indentedbill">
+			<DD_TABLE_ALIAS id="ddm_table_tpls.bmr_indentedbill">BMR_INDENTEDBILL</DD_TABLE_ALIAS>
+			<DD_TABLE_TPL id="ddm_table_tpls.bmr_indentedbill">security_lev:c(1),include_costinfo:c(1),bill_no_01:c(20),bill_no_02:c(20),effect_date:c(8),warehouse_id:c(2*)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_COLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>BMR_INDENTEDBILL</DD_TABLE_ALIAS>
-			<DD_SEQUENCE>001</DD_SEQUENCE>
-			<DD_DATA_NAME>SECURITY_LEV    </DD_DATA_NAME>
-			<DD_DVAR_NAME>SECURITY_LEV    </DD_DVAR_NAME>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20080213</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080213</DD_LSTREV_DATE>
-			<DD_ATTR_CTLX>0</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY>0</DD_ATTR_CTLY>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_MLAN>N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL>1</DD_ATTR_MAXL>
-			<DD_ATTR_TIND>1</DD_ATTR_TIND>
+	<ALIAS id="ddm_table_cols">
+		<ID id="ddm_table_cols">DDM_TABLE_COLS</ID>
+		<RECORD id="ddm_table_cols.bmr_indentedbill001">
+			<DD_TABLE_ALIAS id="ddm_table_cols.bmr_indentedbill001">BMR_INDENTEDBILL</DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.bmr_indentedbill001">001</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.bmr_indentedbill001">SECURITY_LEV    </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.bmr_indentedbill001">SECURITY_LEV    </DD_DVAR_NAME>
+			<DD_FIELD_DELIM id="ddm_table_cols.bmr_indentedbill001">N</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.bmr_indentedbill001">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.bmr_indentedbill001">20080213</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.bmr_indentedbill001">20080213</DD_LSTREV_DATE>
+			<DD_ATTR_CTLX id="ddm_table_cols.bmr_indentedbill001">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_cols.bmr_indentedbill001">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_cols.bmr_indentedbill001">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.bmr_indentedbill001">0</DD_ATTR_CTLH>
+			<DD_ATTR_MLAN id="ddm_table_cols.bmr_indentedbill001">N</DD_ATTR_MLAN>
+			<DD_ATTR_MAXL id="ddm_table_cols.bmr_indentedbill001">1</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.bmr_indentedbill001">1</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>BMR_INDENTEDBILL</DD_TABLE_ALIAS>
-			<DD_SEQUENCE>002</DD_SEQUENCE>
-			<DD_DATA_NAME>INCLUDE_COMM    </DD_DATA_NAME>
-			<DD_DVAR_NAME>INCLUDE_COSTINFO</DD_DVAR_NAME>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20080213</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080213</DD_LSTREV_DATE>
-			<DD_ATTR_CTLX>0</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY>0</DD_ATTR_CTLY>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_LABL>Include Cost?</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Include Cost?</DD_ATTR_LABS>
-			<DD_ATTR_MLAN>N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL>1</DD_ATTR_MAXL>
-			<DD_ATTR_TIND>2</DD_ATTR_TIND>
+		<RECORD id="ddm_table_cols.bmr_indentedbill002">
+			<DD_TABLE_ALIAS id="ddm_table_cols.bmr_indentedbill002">BMR_INDENTEDBILL</DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.bmr_indentedbill002">002</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.bmr_indentedbill002">INCLUDE_COMM    </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.bmr_indentedbill002">INCLUDE_COSTINFO</DD_DVAR_NAME>
+			<DD_FIELD_DELIM id="ddm_table_cols.bmr_indentedbill002">N</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.bmr_indentedbill002">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.bmr_indentedbill002">20080213</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.bmr_indentedbill002">20080213</DD_LSTREV_DATE>
+			<DD_ATTR_CTLX id="ddm_table_cols.bmr_indentedbill002">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_cols.bmr_indentedbill002">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_cols.bmr_indentedbill002">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.bmr_indentedbill002">0</DD_ATTR_CTLH>
+			<DD_ATTR_LABL id="ddm_table_cols.bmr_indentedbill002">Include Cost?</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_table_cols.bmr_indentedbill002">Include Cost?</DD_ATTR_LABS>
+			<DD_ATTR_MLAN id="ddm_table_cols.bmr_indentedbill002">N</DD_ATTR_MLAN>
+			<DD_ATTR_MAXL id="ddm_table_cols.bmr_indentedbill002">1</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.bmr_indentedbill002">2</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>BMR_INDENTEDBILL</DD_TABLE_ALIAS>
-			<DD_SEQUENCE>003</DD_SEQUENCE>
-			<DD_DATA_NAME>RPT_BILL_NO     </DD_DATA_NAME>
-			<DD_DVAR_NAME>BILL_NO         </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>2</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20080213</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080213</DD_LSTREV_DATE>
-			<DD_ATTR_CTLX>0</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY>0</DD_ATTR_CTLY>
-			<DD_ATTR_CTLW>160</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_LABL>Bill Number</DD_ATTR_LABL>
-			<DD_ATTR_MLAN>N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL>20</DD_ATTR_MAXL>
-			<DD_ATTR_TIND>3</DD_ATTR_TIND>
+		<RECORD id="ddm_table_cols.bmr_indentedbill003">
+			<DD_TABLE_ALIAS id="ddm_table_cols.bmr_indentedbill003">BMR_INDENTEDBILL</DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.bmr_indentedbill003">003</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.bmr_indentedbill003">RPT_BILL_NO     </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.bmr_indentedbill003">BILL_NO         </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.bmr_indentedbill003">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.bmr_indentedbill003">2</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.bmr_indentedbill003">N</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.bmr_indentedbill003">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.bmr_indentedbill003">20080213</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.bmr_indentedbill003">20080213</DD_LSTREV_DATE>
+			<DD_ATTR_CTLX id="ddm_table_cols.bmr_indentedbill003">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_cols.bmr_indentedbill003">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_cols.bmr_indentedbill003">160</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.bmr_indentedbill003">0</DD_ATTR_CTLH>
+			<DD_ATTR_LABL id="ddm_table_cols.bmr_indentedbill003">Bill Number</DD_ATTR_LABL>
+			<DD_ATTR_MLAN id="ddm_table_cols.bmr_indentedbill003">N</DD_ATTR_MLAN>
+			<DD_ATTR_MAXL id="ddm_table_cols.bmr_indentedbill003">20</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.bmr_indentedbill003">3</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>BMR_INDENTEDBILL</DD_TABLE_ALIAS>
-			<DD_SEQUENCE>004</DD_SEQUENCE>
-			<DD_DATA_NAME>EFFECT_DATE     </DD_DATA_NAME>
-			<DD_DVAR_NAME>EFFECT_DATE     </DD_DVAR_NAME>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20080213</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080213</DD_LSTREV_DATE>
-			<DD_ATTR_CTLX>0</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY>0</DD_ATTR_CTLY>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_LABL>Effective Date</DD_ATTR_LABL>
-			<DD_ATTR_MLAN>N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL>8</DD_ATTR_MAXL>
-			<DD_ATTR_TIND>4</DD_ATTR_TIND>
+		<RECORD id="ddm_table_cols.bmr_indentedbill004">
+			<DD_TABLE_ALIAS id="ddm_table_cols.bmr_indentedbill004">BMR_INDENTEDBILL</DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.bmr_indentedbill004">004</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.bmr_indentedbill004">EFFECT_DATE     </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.bmr_indentedbill004">EFFECT_DATE     </DD_DVAR_NAME>
+			<DD_FIELD_DELIM id="ddm_table_cols.bmr_indentedbill004">N</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.bmr_indentedbill004">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.bmr_indentedbill004">20080213</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.bmr_indentedbill004">20080213</DD_LSTREV_DATE>
+			<DD_ATTR_CTLX id="ddm_table_cols.bmr_indentedbill004">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_cols.bmr_indentedbill004">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_cols.bmr_indentedbill004">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.bmr_indentedbill004">0</DD_ATTR_CTLH>
+			<DD_ATTR_LABL id="ddm_table_cols.bmr_indentedbill004">Effective Date</DD_ATTR_LABL>
+			<DD_ATTR_MLAN id="ddm_table_cols.bmr_indentedbill004">N</DD_ATTR_MLAN>
+			<DD_ATTR_MAXL id="ddm_table_cols.bmr_indentedbill004">8</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.bmr_indentedbill004">4</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>BMR_INDENTEDBILL</DD_TABLE_ALIAS>
-			<DD_SEQUENCE>005</DD_SEQUENCE>
-			<DD_DATA_NAME>WAREHOUSE_ID    </DD_DATA_NAME>
-			<DD_DVAR_NAME>WAREHOUSE_ID    </DD_DVAR_NAME>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20080213</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080213</DD_LSTREV_DATE>
-			<DD_ATTR_CTLX>0</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY>0</DD_ATTR_CTLY>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_MLAN>N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL>2</DD_ATTR_MAXL>
-			<DD_ATTR_TIND>5</DD_ATTR_TIND>
-		</RECORD>
-	</ALIAS>
-	<ALIAS>
-		<ID>DDM_COLUMN_OPTS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>BMR_INDENTEDBILL</DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>SECURITY_LEV    </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>3</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>BMR_INDENTEDBILL</DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>BILL_NO         </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>1</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>BMR_INDENTEDBILL</DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>BILL_NO         </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>2</DD_ATTR_OPTS>
+		<RECORD id="ddm_table_cols.bmr_indentedbill005">
+			<DD_TABLE_ALIAS id="ddm_table_cols.bmr_indentedbill005">BMR_INDENTEDBILL</DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.bmr_indentedbill005">005</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.bmr_indentedbill005">WAREHOUSE_ID    </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.bmr_indentedbill005">WAREHOUSE_ID    </DD_DVAR_NAME>
+			<DD_FIELD_DELIM id="ddm_table_cols.bmr_indentedbill005">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.bmr_indentedbill005">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.bmr_indentedbill005">20080213</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.bmr_indentedbill005">20080213</DD_LSTREV_DATE>
+			<DD_ATTR_CTLX id="ddm_table_cols.bmr_indentedbill005">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_cols.bmr_indentedbill005">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_cols.bmr_indentedbill005">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.bmr_indentedbill005">0</DD_ATTR_CTLH>
+			<DD_ATTR_MLAN id="ddm_table_cols.bmr_indentedbill005">N</DD_ATTR_MLAN>
+			<DD_ATTR_MAXL id="ddm_table_cols.bmr_indentedbill005">2</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.bmr_indentedbill005">5</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_ELEMENTS</ID>
-		<RECORD>
-			<DD_DATA_NAME>SECURITY_LEV    </DD_DATA_NAME>
-			<DD_DESCRIPTION>Security Level [0-9]          </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>1</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Security Level</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Security Level [0-9]</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>0</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>0</DD_ATTR_MSKO>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>R</DD_ATTR_PADJ>
+	<ALIAS id="ddm_column_opts">
+		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
+		<RECORD id="ddm_column_opts.bmr_indentedbillsecurity_lev3">
+			<DD_TABLE_ALIAS id="ddm_column_opts.bmr_indentedbillsecurity_lev3">BMR_INDENTEDBILL</DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.bmr_indentedbillsecurity_lev3">SECURITY_LEV    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.bmr_indentedbillsecurity_lev3">3</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>INCLUDE_COMM    </DD_DATA_NAME>
-			<DD_DESCRIPTION>Include Committed?            </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>1</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CDAT>Y;N</DD_ATTR_CDAT>
-			<DD_ATTR_CTYP>C</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Include Committed?</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Include Committed?</DD_ATTR_LABS>
+		<RECORD id="ddm_column_opts.bmr_indentedbillbill_no1">
+			<DD_TABLE_ALIAS id="ddm_column_opts.bmr_indentedbillbill_no1">BMR_INDENTEDBILL</DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.bmr_indentedbillbill_no1">BILL_NO         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.bmr_indentedbillbill_no1">1</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>RPT_BILL_NO     </DD_DATA_NAME>
-			<DD_DESCRIPTION>Bill of Materials Number</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>20</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>BM</DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20080312</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080314</DD_LSTREV_DATE>
-			<DD_AUTO_COMP>N</DD_AUTO_COMP>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOL>BILL_NO</DD_ATTR_DCOL>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_DKEY>[+FIRM_ID]+@</DD_ATTR_DKEY>
-			<DD_ATTR_DTAB>BMM_BILLMAST    </DD_ATTR_DTAB>
-			<DD_ATTR_LABL>Bill of Materials Number</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Bill of Mats No</DD_ATTR_LABS>
-			<DD_ATTR_MAXL>0</DD_ATTR_MAXL>
-			<DD_ATTR_MAXR>0</DD_ATTR_MAXR>
-			<DD_ATTR_MINL>0</DD_ATTR_MINL>
-			<DD_ATTR_PADC>20</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>L</DD_ATTR_PADJ>
-			<DD_ATTR_PREC>0</DD_ATTR_PREC>
+		<RECORD id="ddm_column_opts.bmr_indentedbillbill_no2">
+			<DD_TABLE_ALIAS id="ddm_column_opts.bmr_indentedbillbill_no2">BMR_INDENTEDBILL</DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.bmr_indentedbillbill_no2">BILL_NO         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.bmr_indentedbillbill_no2">2</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>EFFECT_DATE     </DD_DATA_NAME>
-			<DD_DESCRIPTION>Date Effective                </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>8</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>YYYYMMDD       </DD_SPECIAL_MASK>
-			<DD_SYSTEM_REC>Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>D</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Date Effective</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Date Eff</DD_ATTR_LABS>
-			<DD_ATTR_STYP>1</DD_ATTR_STYP>
+	</ALIAS>
+	<ALIAS id="ddm_elements">
+		<ID id="ddm_elements">DDM_ELEMENTS</ID>
+		<RECORD id="ddm_elements.security_lev">
+			<DD_DATA_NAME id="ddm_elements.security_lev">SECURITY_LEV    </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.security_lev">Security Level [0-9]          </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.security_lev">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.security_lev">1</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.security_lev"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.security_lev">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.security_lev">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.security_lev">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.security_lev">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.security_lev">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.security_lev">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.security_lev">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.security_lev">Security Level</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.security_lev">Security Level [0-9]</DD_ATTR_LABS>
+			<DD_ATTR_MSKI id="ddm_elements.security_lev">0</DD_ATTR_MSKI>
+			<DD_ATTR_MSKO id="ddm_elements.security_lev">0</DD_ATTR_MSKO>
+			<DD_ATTR_PADC id="ddm_elements.security_lev">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.security_lev">R</DD_ATTR_PADJ>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>WAREHOUSE_ID    </DD_DATA_NAME>
-			<DD_DESCRIPTION>Warehouse ID</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>2</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20061107</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOL>SHORT_NAME      </DD_ATTR_DCOL>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_DKEY>[+FIRM_ID]+"C"+@</DD_ATTR_DKEY>
-			<DD_ATTR_DTAB>IVC_WHSECODE    </DD_ATTR_DTAB>
-			<DD_ATTR_LABL>Warehouse ID</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Whse ID</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>UU</DD_ATTR_MSKI>
-			<DD_ATTR_PROM>Enter a two-digit warehouse ID</DD_ATTR_PROM>
+		<RECORD id="ddm_elements.include_comm">
+			<DD_DATA_NAME id="ddm_elements.include_comm">INCLUDE_COMM    </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.include_comm">Include Committed?            </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.include_comm">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.include_comm">1</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.include_comm"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.include_comm">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.include_comm">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.include_comm">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.include_comm">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CDAT id="ddm_elements.include_comm">Y;N</DD_ATTR_CDAT>
+			<DD_ATTR_CTYP id="ddm_elements.include_comm">C</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.include_comm">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.include_comm">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.include_comm">Include Committed?</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.include_comm">Include Committed?</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.rpt_bill_no">
+			<DD_DATA_NAME id="ddm_elements.rpt_bill_no">RPT_BILL_NO     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.rpt_bill_no">Bill of Materials Number</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.rpt_bill_no">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.rpt_bill_no">20</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.rpt_bill_no"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.rpt_bill_no">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.rpt_bill_no">BM </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.rpt_bill_no">20080312</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.rpt_bill_no">20080314</DD_LSTREV_DATE>
+			<DD_AUTO_COMP id="ddm_elements.rpt_bill_no">N</DD_AUTO_COMP>
+			<DD_ATTR_CTLW id="ddm_elements.rpt_bill_no">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.rpt_bill_no">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.rpt_bill_no">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOL id="ddm_elements.rpt_bill_no">BILL_NO</DD_ATTR_DCOL>
+			<DD_ATTR_DCOM id="ddm_elements.rpt_bill_no">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.rpt_bill_no">            </DD_ATTR_DEXP>
+			<DD_ATTR_DKEY id="ddm_elements.rpt_bill_no">[+FIRM_ID]+@</DD_ATTR_DKEY>
+			<DD_ATTR_DTAB id="ddm_elements.rpt_bill_no">BMM_BILLMAST    </DD_ATTR_DTAB>
+			<DD_ATTR_LABL id="ddm_elements.rpt_bill_no">Bill of Materials Number</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.rpt_bill_no">Bill of Mats No</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.rpt_bill_no">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.rpt_bill_no">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.rpt_bill_no">0</DD_ATTR_MINL>
+			<DD_ATTR_PADC id="ddm_elements.rpt_bill_no">20</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.rpt_bill_no">L</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.rpt_bill_no">0</DD_ATTR_PREC>
+		</RECORD>
+		<RECORD id="ddm_elements.effect_date">
+			<DD_DATA_NAME id="ddm_elements.effect_date">EFFECT_DATE     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.effect_date">Date Effective                </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.effect_date">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.effect_date">8</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.effect_date"> </DD_MASK_TYPE>
+			<DD_SYSTEM_REC id="ddm_elements.effect_date">Y</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.effect_date">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.effect_date">BAR</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.effect_date">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.effect_date">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.effect_date">D</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.effect_date">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.effect_date">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.effect_date">Date Effective</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.effect_date">Date Eff</DD_ATTR_LABS>
+			<DD_ATTR_STYP id="ddm_elements.effect_date">1</DD_ATTR_STYP>
+		</RECORD>
+		<RECORD id="ddm_elements.warehouse_id">
+			<DD_DATA_NAME id="ddm_elements.warehouse_id">WAREHOUSE_ID    </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.warehouse_id">Warehouse ID</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.warehouse_id">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.warehouse_id">2</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.warehouse_id"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.warehouse_id">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.warehouse_id">IV </ASC_PROD_ID>
+			<LOCALIZATION_EX id="ddm_elements.warehouse_id">N</LOCALIZATION_EX>
+			<DD_CREATE_DATE id="ddm_elements.warehouse_id">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.warehouse_id">20090206</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.warehouse_id">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.warehouse_id">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.warehouse_id">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOL id="ddm_elements.warehouse_id">SHORT_NAME      </DD_ATTR_DCOL>
+			<DD_ATTR_DCOM id="ddm_elements.warehouse_id">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.warehouse_id">            </DD_ATTR_DEXP>
+			<DD_ATTR_DKEY id="ddm_elements.warehouse_id">[+FIRM_ID]+"C"+@</DD_ATTR_DKEY>
+			<DD_ATTR_DTAB id="ddm_elements.warehouse_id">IVC_WHSECODE    </DD_ATTR_DTAB>
+			<DD_ATTR_LABL id="ddm_elements.warehouse_id">Warehouse ID</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.warehouse_id">Whse ID</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.warehouse_id">2</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.warehouse_id">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.warehouse_id">1</DD_ATTR_MINL>
+			<DD_ATTR_MSKI id="ddm_elements.warehouse_id">UU</DD_ATTR_MSKI>
+			<DD_ATTR_PADC id="ddm_elements.warehouse_id">20</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.warehouse_id">L</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.warehouse_id">0</DD_ATTR_PREC>
+			<DD_ATTR_PROM id="ddm_elements.warehouse_id">Enter a two-digit warehouse ID</DD_ATTR_PROM>
 		</RECORD>
 	</ALIAS>
 </BMR_INDENTEDBILL>

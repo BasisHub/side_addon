@@ -7,19 +7,20 @@
 			<DD_ALIAS_DESC id="ddm_tables.ive_transhdr">Inventory Transaction Header</DD_ALIAS_DESC>
 			<DD_FILE_NAME id="ddm_tables.ive_transhdr">ive-01</DD_FILE_NAME>
 			<DD_TABLE_PATH id="ddm_tables.ive_transhdr">[+IVDATA]</DD_TABLE_PATH>
-			<DD_ALIAS_TYPE id="ddm_tables.ive_transhdr">X</DD_ALIAS_TYPE>
+			<DD_ALIAS_TYPE id="ddm_tables.ive_transhdr">V</DD_ALIAS_TYPE>
 			<DD_KEY_LENGTH id="ddm_tables.ive_transhdr">0</DD_KEY_LENGTH>
 			<DD_NBR_RECORD id="ddm_tables.ive_transhdr">0</DD_NBR_RECORD>
 			<DD_RECORD_LEN id="ddm_tables.ive_transhdr">63</DD_RECORD_LEN>
 			<DD_SYSTEM_REC id="ddm_tables.ive_transhdr">N</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_tables.ive_transhdr">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.ive_transhdr">IV </ASC_PROD_ID>
+			<ASC_VERSION_ID id="ddm_tables.ive_transhdr">8.0</ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.ive_transhdr">A7D80C57EE6682D2E7539089483B3C60</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ive_transhdr">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ive_transhdr">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ive_transhdr">20090105</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ive_transhdr">20090102</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ive_transhdr">102616</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ive_transhdr">20090325</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ive_transhdr">20090325</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ive_transhdr">090416</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ive_transhdr">/devel/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ive_transhdr">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.ive_transhdr">zzzz</DD_ATTR_SLEV>
@@ -214,6 +215,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ive_transhdr003">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ive_transhdr003">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ive_transhdr003">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ive_transhdr003">3</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ive_transhdr003">"000"</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ive_transhdr003">3</DD_ATTR_TIND>
 		</RECORD>
@@ -247,7 +249,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ive_transhdr005">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ive_transhdr005">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ive_transhdr005">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ive_transhdr005">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ive_transhdr005">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ive_transhdr005">11</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ive_transhdr006">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ive_transhdr006">IVE_TRANSHDR    </DD_TABLE_ALIAS>
@@ -274,7 +278,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ive_transhdr007">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ive_transhdr007">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ive_transhdr007">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ive_transhdr007">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ive_transhdr007">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ive_transhdr007">12</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ive_transhdr008">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ive_transhdr008">IVE_TRANSHDR    </DD_TABLE_ALIAS>
@@ -372,6 +378,26 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.ive_transhdrsequence_000w">IVE_TRANSHDR    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ive_transhdrsequence_000w">SEQUENCE_000    </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ive_transhdrsequence_000w">W</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ive_transhdrlocationc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ive_transhdrlocationc">IVE_TRANSHDR    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ive_transhdrlocationc">LOCATION        </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ive_transhdrlocationc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ive_transhdrqty_on_handc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ive_transhdrqty_on_handc">IVE_TRANSHDR    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ive_transhdrqty_on_handc">QTY_ON_HAND     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ive_transhdrqty_on_handc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ive_transhdrqty_commitc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ive_transhdrqty_commitc">IVE_TRANSHDR    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ive_transhdrqty_commitc">QTY_COMMIT      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ive_transhdrqty_commitc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.ive_transhdrqty_availc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ive_transhdrqty_availc">IVE_TRANSHDR    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ive_transhdrqty_availc">QTY_AVAIL       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ive_transhdrqty_availc">C</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">
@@ -506,23 +532,6 @@
 			<DD_ATTR_DEXP id="ddm_elements.trans_cmt">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.trans_cmt">Transaction Comment</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.trans_cmt">Trans Cmt</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD id="ddm_elements.reserved_str">
-			<DD_DATA_NAME id="ddm_elements.reserved_str">RESERVED_STR    </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.reserved_str">Reserved For Addon Use        </DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.reserved_str">C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.reserved_str">1</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.reserved_str"> </DD_MASK_TYPE>
-			<DD_SYSTEM_REC id="ddm_elements.reserved_str">Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID id="ddm_elements.reserved_str">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.reserved_str">BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.reserved_str">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.reserved_str">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP id="ddm_elements.reserved_str">X</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM id="ddm_elements.reserved_str">            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP id="ddm_elements.reserved_str">            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL id="ddm_elements.reserved_str">Reserved For Addon Use</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.reserved_str">Res For Addon Use</DD_ATTR_LABS>
 		</RECORD>
 		<RECORD id="ddm_elements.trans_date">
 			<DD_DATA_NAME id="ddm_elements.trans_date">TRANS_DATE      </DD_DATA_NAME>

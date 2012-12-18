@@ -1,105 +1,105 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <POR_INVREG>
-	<ALIAS>
-		<ID>DDM_TABLES</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>POR_INVREG      </DD_TABLE_ALIAS>
-			<DD_ALIAS_DESC>PO Invoice Register</DD_ALIAS_DESC>
-			<DD_TABLE_PATH>[+PODATA]</DD_TABLE_PATH>
-			<DD_ALIAS_TYPE>P</DD_ALIAS_TYPE>
-			<DD_KEY_LENGTH>0</DD_KEY_LENGTH>
-			<DD_NBR_RECORD>0</DD_NBR_RECORD>
-			<DD_RECORD_LEN>0</DD_RECORD_LEN>
-			<DD_SYSTEM_ID>PO</DD_SYSTEM_ID>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>PO</ASC_PROD_ID>
-			<ASC_LICENSE_ID>21FB9FD5C3484DD913123CD69DCD54E2</ASC_LICENSE_ID>
-			<DD_EXPORT_DATA>Y</DD_EXPORT_DATA>
-			<DD_CREATE_DATE>20071030</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080130</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE>20080130</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME>135212</DD_LSTSYNC_TIME>
-			<DD_ATTR_FTYP>S</DD_ATTR_FTYP>
-			<DD_ATTR_PRUN>[+DIR_PGM]por_invreg.aon</DD_ATTR_PRUN>
-			<DD_ATTR_WINT>PO Invoice Register</DD_ATTR_WINT>
+	<ALIAS id="ddm_tables">
+		<ID id="ddm_tables">DDM_TABLES</ID>
+		<RECORD id="ddm_tables.por_invreg">
+			<DD_TABLE_ALIAS id="ddm_tables.por_invreg">POR_INVREG      </DD_TABLE_ALIAS>
+			<DD_ALIAS_DESC id="ddm_tables.por_invreg">PO Invoice Register</DD_ALIAS_DESC>
+			<DD_TABLE_PATH id="ddm_tables.por_invreg">[+PODATA]</DD_TABLE_PATH>
+			<DD_ALIAS_TYPE id="ddm_tables.por_invreg">P</DD_ALIAS_TYPE>
+			<DD_KEY_LENGTH id="ddm_tables.por_invreg">0</DD_KEY_LENGTH>
+			<DD_NBR_RECORD id="ddm_tables.por_invreg">0</DD_NBR_RECORD>
+			<DD_RECORD_LEN id="ddm_tables.por_invreg">0</DD_RECORD_LEN>
+			<ASC_COMP_ID id="ddm_tables.por_invreg">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_tables.por_invreg">PO</ASC_PROD_ID>
+			<ASC_VERSION_ID id="ddm_tables.por_invreg">8.0</ASC_VERSION_ID>
+			<ASC_LICENSE_ID id="ddm_tables.por_invreg">21FB9FD5C3484DD913123CD69DCD54E2</ASC_LICENSE_ID>
+			<DD_EXPORT_DATA id="ddm_tables.por_invreg">Y</DD_EXPORT_DATA>
+			<DD_CREATE_DATE id="ddm_tables.por_invreg">20071030</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_tables.por_invreg">20090325</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.por_invreg">20090325</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.por_invreg">090422</DD_LSTSYNC_TIME>
+			<DD_ATTR_FTYP id="ddm_tables.por_invreg">S</DD_ATTR_FTYP>
+			<DD_ATTR_PRUN id="ddm_tables.por_invreg">[+DIR_PGM]por_invreg.aon</DD_ATTR_PRUN>
+			<DD_ATTR_WINT id="ddm_tables.por_invreg">PO Invoice Register</DD_ATTR_WINT>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_TPLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>POR_INVREG      </DD_TABLE_ALIAS>
-			<DD_TABLE_TPL>report_sequence:c(1)</DD_TABLE_TPL>
+	<ALIAS id="ddm_table_tpls">
+		<ID id="ddm_table_tpls">DDM_TABLE_TPLS</ID>
+		<RECORD id="ddm_table_tpls.por_invreg">
+			<DD_TABLE_ALIAS id="ddm_table_tpls.por_invreg">POR_INVREG      </DD_TABLE_ALIAS>
+			<DD_TABLE_TPL id="ddm_table_tpls.por_invreg">report_sequence:c(1)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_COLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>POR_INVREG      </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>001</DD_SEQUENCE>
-			<DD_DATA_NAME>REPORT_SEQUENCE </DD_DATA_NAME>
-			<DD_DVAR_NAME>REPORT_SEQUENCE </DD_DVAR_NAME>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20071030</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20071030</DD_LSTREV_DATE>
-			<DD_ATTR_DFLT>I</DD_ATTR_DFLT>
-			<DD_ATTR_MAXL>1</DD_ATTR_MAXL>
-			<DD_ATTR_TIND>1</DD_ATTR_TIND>
+	<ALIAS id="ddm_table_cols">
+		<ID id="ddm_table_cols">DDM_TABLE_COLS</ID>
+		<RECORD id="ddm_table_cols.por_invreg001">
+			<DD_TABLE_ALIAS id="ddm_table_cols.por_invreg001">POR_INVREG      </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.por_invreg001">001</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.por_invreg001">REPORT_SEQUENCE </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.por_invreg001">REPORT_SEQUENCE </DD_DVAR_NAME>
+			<DD_FIELD_DELIM id="ddm_table_cols.por_invreg001">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.por_invreg001">20071030</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.por_invreg001">20071030</DD_LSTREV_DATE>
+			<DD_ATTR_DFLT id="ddm_table_cols.por_invreg001">I</DD_ATTR_DFLT>
+			<DD_ATTR_MAXL id="ddm_table_cols.por_invreg001">1</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.por_invreg001">1</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_COLUMN_LDAT</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>POR_INVREG      </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>REPORT_SEQUENCE </DD_DVAR_NAME>
-			<DD_ATTR_SEQ>01</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>I</DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Summary By Invoice</DD_ATTR_LDAT_DS>
+	<ALIAS id="ddm_column_ldat">
+		<ID id="ddm_column_ldat">DDM_COLUMN_LDAT</ID>
+		<RECORD id="ddm_column_ldat.por_invregreport_sequence01">
+			<DD_TABLE_ALIAS id="ddm_column_ldat.por_invregreport_sequence01">POR_INVREG      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_ldat.por_invregreport_sequence01">REPORT_SEQUENCE </DD_DVAR_NAME>
+			<DD_ATTR_SEQ id="ddm_column_ldat.por_invregreport_sequence01">01</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_column_ldat.por_invregreport_sequence01">I</DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_column_ldat.por_invregreport_sequence01">Summary By Invoice</DD_ATTR_LDAT_DS>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>POR_INVREG      </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>REPORT_SEQUENCE </DD_DVAR_NAME>
-			<DD_ATTR_SEQ>02</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>P</DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Detail By PO</DD_ATTR_LDAT_DS>
+		<RECORD id="ddm_column_ldat.por_invregreport_sequence02">
+			<DD_TABLE_ALIAS id="ddm_column_ldat.por_invregreport_sequence02">POR_INVREG      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_ldat.por_invregreport_sequence02">REPORT_SEQUENCE </DD_DVAR_NAME>
+			<DD_ATTR_SEQ id="ddm_column_ldat.por_invregreport_sequence02">02</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_column_ldat.por_invregreport_sequence02">P</DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_column_ldat.por_invregreport_sequence02">Detail By PO</DD_ATTR_LDAT_DS>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>POR_INVREG      </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>REPORT_SEQUENCE </DD_DVAR_NAME>
-			<DD_ATTR_SEQ>03</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>L</DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Detail By Line Item</DD_ATTR_LDAT_DS>
-		</RECORD>
-	</ALIAS>
-	<ALIAS>
-		<ID>DDM_ELEMENTS</ID>
-		<RECORD>
-			<DD_DATA_NAME>REPORT_SEQUENCE </DD_DATA_NAME>
-			<DD_DESCRIPTION>Report Sequence</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>1</DD_DATA_LENGTH>
-			<DD_SYSTEM_REC>N</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060413</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060504</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>L</DD_ATTR_CTYP>
-			<DD_ATTR_LABL>Sequence</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Seq</DD_ATTR_LABS>
+		<RECORD id="ddm_column_ldat.por_invregreport_sequence03">
+			<DD_TABLE_ALIAS id="ddm_column_ldat.por_invregreport_sequence03">POR_INVREG      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_ldat.por_invregreport_sequence03">REPORT_SEQUENCE </DD_DVAR_NAME>
+			<DD_ATTR_SEQ id="ddm_column_ldat.por_invregreport_sequence03">03</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_column_ldat.por_invregreport_sequence03">L</DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_column_ldat.por_invregreport_sequence03">Detail By Line Item</DD_ATTR_LDAT_DS>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_ELEMENT_LDAT</ID>
-		<RECORD>
-			<DD_DATA_NAME>REPORT_SEQUENCE </DD_DATA_NAME>
-			<DD_ATTR_SEQ>01</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>C   </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Cash Receipt Code</DD_ATTR_LDAT_DS>
+	<ALIAS id="ddm_elements">
+		<ID id="ddm_elements">DDM_ELEMENTS</ID>
+		<RECORD id="ddm_elements.report_sequence">
+			<DD_DATA_NAME id="ddm_elements.report_sequence">REPORT_SEQUENCE </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.report_sequence">Report Sequence</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.report_sequence">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.report_sequence">1</DD_DATA_LENGTH>
+			<DD_SYSTEM_REC id="ddm_elements.report_sequence">N</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.report_sequence">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.report_sequence">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.report_sequence">20060413</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.report_sequence">20060504</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.report_sequence">L</DD_ATTR_CTYP>
+			<DD_ATTR_LABL id="ddm_elements.report_sequence">Sequence</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.report_sequence">Seq</DD_ATTR_LABS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>REPORT_SEQUENCE </DD_DATA_NAME>
-			<DD_ATTR_SEQ>02</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>D   </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Receipt Date</DD_ATTR_LDAT_DS>
+	</ALIAS>
+	<ALIAS id="ddm_element_ldat">
+		<ID id="ddm_element_ldat">DDM_ELEMENT_LDAT</ID>
+		<RECORD id="ddm_element_ldat.report_sequence01">
+			<DD_DATA_NAME id="ddm_element_ldat.report_sequence01">REPORT_SEQUENCE </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.report_sequence01">01</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.report_sequence01">C   </DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.report_sequence01">Cash Receipt Code</DD_ATTR_LDAT_DS>
+		</RECORD>
+		<RECORD id="ddm_element_ldat.report_sequence02">
+			<DD_DATA_NAME id="ddm_element_ldat.report_sequence02">REPORT_SEQUENCE </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.report_sequence02">02</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.report_sequence02">D   </DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.report_sequence02">Receipt Date</DD_ATTR_LDAT_DS>
 		</RECORD>
 	</ALIAS>
 </POR_INVREG>

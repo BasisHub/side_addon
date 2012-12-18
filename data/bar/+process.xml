@@ -1,243 +1,244 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <+PROCESS>
-	<ALIAS>
-		<ID>DDM_TABLES</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>+PROCESS        </DD_TABLE_ALIAS>
-			<DD_ALIAS_DESC>Process Global Variable</DD_ALIAS_DESC>
-			<DD_TABLE_PATH>[+ADDATA]</DD_TABLE_PATH>
-			<DD_ALIAS_TYPE>R</DD_ALIAS_TYPE>
-			<DD_KEY_LENGTH>0</DD_KEY_LENGTH>
-			<DD_NBR_RECORD>0</DD_NBR_RECORD>
-			<DD_RECORD_LEN>0</DD_RECORD_LEN>
-			<DD_SYSTEM_REC>N</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AD </ASC_PROD_ID>
-			<ASC_LICENSE_ID>DBDA977A6B39237B127D118AD7B3C8F5</ASC_LICENSE_ID>
-			<DD_EXPORT_DATA>Y</DD_EXPORT_DATA>
-			<DD_CREATE_DATE>20060501</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080130</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE>20080130</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME>145316</DD_LSTSYNC_TIME>
-			<DD_ATTR_FTYP>X</DD_ATTR_FTYP>
-			<DD_ATTR_WINT>Process Global Variable</DD_ATTR_WINT>
+	<ALIAS id="ddm_tables">
+		<ID id="ddm_tables">DDM_TABLES</ID>
+		<RECORD id="ddm_tables.+process">
+			<DD_TABLE_ALIAS id="ddm_tables.+process">+PROCESS        </DD_TABLE_ALIAS>
+			<DD_ALIAS_DESC id="ddm_tables.+process">Process Global Variable</DD_ALIAS_DESC>
+			<DD_TABLE_PATH id="ddm_tables.+process">[+ADDATA]</DD_TABLE_PATH>
+			<DD_ALIAS_TYPE id="ddm_tables.+process">R</DD_ALIAS_TYPE>
+			<DD_KEY_LENGTH id="ddm_tables.+process">0</DD_KEY_LENGTH>
+			<DD_NBR_RECORD id="ddm_tables.+process">0</DD_NBR_RECORD>
+			<DD_RECORD_LEN id="ddm_tables.+process">0</DD_RECORD_LEN>
+			<DD_SYSTEM_REC id="ddm_tables.+process">N</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_tables.+process">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_tables.+process">AD </ASC_PROD_ID>
+			<ASC_VERSION_ID id="ddm_tables.+process">8.0</ASC_VERSION_ID>
+			<ASC_LICENSE_ID id="ddm_tables.+process">DBDA977A6B39237B127D118AD7B3C8F5</ASC_LICENSE_ID>
+			<DD_EXPORT_DATA id="ddm_tables.+process">Y</DD_EXPORT_DATA>
+			<DD_CREATE_DATE id="ddm_tables.+process">20060501</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_tables.+process">20090325</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.+process">20090325</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.+process">090426</DD_LSTSYNC_TIME>
+			<DD_ATTR_FTYP id="ddm_tables.+process">X</DD_ATTR_FTYP>
+			<DD_ATTR_WINT id="ddm_tables.+process">Process Global Variable</DD_ATTR_WINT>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_TPLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>+PROCESS        </DD_TABLE_ALIAS>
-			<DD_TABLE_TPL>process_id:c(16),firm_id:c(2),batch_no:c(3),new_batch:c(1),user_id:c(16),system_date:c(8)</DD_TABLE_TPL>
+	<ALIAS id="ddm_table_tpls">
+		<ID id="ddm_table_tpls">DDM_TABLE_TPLS</ID>
+		<RECORD id="ddm_table_tpls.+process">
+			<DD_TABLE_ALIAS id="ddm_table_tpls.+process">+PROCESS        </DD_TABLE_ALIAS>
+			<DD_TABLE_TPL id="ddm_table_tpls.+process">process_id:c(16),firm_id:c(2),batch_no:c(3),new_batch:c(1),user_id:c(16),system_date:c(8)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_COLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>+PROCESS        </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>001</DD_SEQUENCE>
-			<DD_DATA_NAME>PROCESS_ID      </DD_DATA_NAME>
-			<DD_DVAR_NAME>PROCESS_ID      </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_CREATE_DATE>20060501</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060501</DD_LSTREV_DATE>
+	<ALIAS id="ddm_table_cols">
+		<ID id="ddm_table_cols">DDM_TABLE_COLS</ID>
+		<RECORD id="ddm_table_cols.+process001">
+			<DD_TABLE_ALIAS id="ddm_table_cols.+process001">+PROCESS        </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.+process001">001</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.+process001">PROCESS_ID      </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.+process001">PROCESS_ID      </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.+process001">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.+process001">0</DD_COL_OCCURS>
+			<DD_CREATE_DATE id="ddm_table_cols.+process001">20060501</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.+process001">20060501</DD_LSTREV_DATE>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>+PROCESS        </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>002</DD_SEQUENCE>
-			<DD_DATA_NAME>FIRM_ID         </DD_DATA_NAME>
-			<DD_DVAR_NAME>FIRM_ID         </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060501</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060501</DD_LSTREV_DATE>
+		<RECORD id="ddm_table_cols.+process002">
+			<DD_TABLE_ALIAS id="ddm_table_cols.+process002">+PROCESS        </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.+process002">002</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.+process002">FIRM_ID         </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.+process002">FIRM_ID         </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.+process002">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.+process002">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.+process002">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.+process002">20060501</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.+process002">20060501</DD_LSTREV_DATE>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>+PROCESS        </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>003</DD_SEQUENCE>
-			<DD_DATA_NAME>BATCH_NO        </DD_DATA_NAME>
-			<DD_DVAR_NAME>BATCH_NO        </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060501</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060501</DD_LSTREV_DATE>
+		<RECORD id="ddm_table_cols.+process003">
+			<DD_TABLE_ALIAS id="ddm_table_cols.+process003">+PROCESS        </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.+process003">003</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.+process003">BATCH_NO        </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.+process003">BATCH_NO        </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.+process003">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.+process003">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.+process003">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.+process003">20060501</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.+process003">20060501</DD_LSTREV_DATE>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>+PROCESS        </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>004</DD_SEQUENCE>
-			<DD_DATA_NAME>NEW_BATCH       </DD_DATA_NAME>
-			<DD_DVAR_NAME>NEW_BATCH       </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060501</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060501</DD_LSTREV_DATE>
+		<RECORD id="ddm_table_cols.+process004">
+			<DD_TABLE_ALIAS id="ddm_table_cols.+process004">+PROCESS        </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.+process004">004</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.+process004">NEW_BATCH       </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.+process004">NEW_BATCH       </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.+process004">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.+process004">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.+process004">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.+process004">20060501</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.+process004">20060501</DD_LSTREV_DATE>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>+PROCESS        </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>005</DD_SEQUENCE>
-			<DD_DATA_NAME>USER_ID         </DD_DATA_NAME>
-			<DD_DVAR_NAME>USER_ID         </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060501</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060501</DD_LSTREV_DATE>
+		<RECORD id="ddm_table_cols.+process005">
+			<DD_TABLE_ALIAS id="ddm_table_cols.+process005">+PROCESS        </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.+process005">005</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.+process005">USER_ID         </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.+process005">USER_ID         </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.+process005">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.+process005">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.+process005">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.+process005">20060501</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.+process005">20060501</DD_LSTREV_DATE>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>+PROCESS        </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>006</DD_SEQUENCE>
-			<DD_DATA_NAME>SYSTEM_DATE     </DD_DATA_NAME>
-			<DD_DVAR_NAME>SYSTEM_DATE     </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060501</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060501</DD_LSTREV_DATE>
+		<RECORD id="ddm_table_cols.+process006">
+			<DD_TABLE_ALIAS id="ddm_table_cols.+process006">+PROCESS        </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.+process006">006</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.+process006">SYSTEM_DATE     </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.+process006">SYSTEM_DATE     </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.+process006">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.+process006">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.+process006">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.+process006">20060501</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.+process006">20060501</DD_LSTREV_DATE>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_ELEMENTS</ID>
-		<RECORD>
-			<DD_DATA_NAME>PROCESS_ID      </DD_DATA_NAME>
-			<DD_DESCRIPTION>Process Identification</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>16</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20071023</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOL>DESCRIPTION</DD_ATTR_DCOL>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_DTAB>ADM_PROCMASTER  </DD_ATTR_DTAB>
-			<DD_ATTR_LABL>Process Identification</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Process ID</DD_ATTR_LABS>
-			<DD_ATTR_MAXL>0</DD_ATTR_MAXL>
-			<DD_ATTR_MAXR>0</DD_ATTR_MAXR>
-			<DD_ATTR_MINL>0</DD_ATTR_MINL>
-			<DD_ATTR_PADC>20</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>L</DD_ATTR_PADJ>
-			<DD_ATTR_PREC>0</DD_ATTR_PREC>
+	<ALIAS id="ddm_elements">
+		<ID id="ddm_elements">DDM_ELEMENTS</ID>
+		<RECORD id="ddm_elements.process_id">
+			<DD_DATA_NAME id="ddm_elements.process_id">PROCESS_ID      </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.process_id">Process Identification</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.process_id">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.process_id">16</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.process_id"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.process_id">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.process_id">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.process_id">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.process_id">20071023</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.process_id">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.process_id">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.process_id">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOL id="ddm_elements.process_id">DESCRIPTION</DD_ATTR_DCOL>
+			<DD_ATTR_DCOM id="ddm_elements.process_id">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.process_id">            </DD_ATTR_DEXP>
+			<DD_ATTR_DTAB id="ddm_elements.process_id">ADM_PROCMASTER  </DD_ATTR_DTAB>
+			<DD_ATTR_LABL id="ddm_elements.process_id">Process Identification</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.process_id">Process ID</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.process_id">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.process_id">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.process_id">0</DD_ATTR_MINL>
+			<DD_ATTR_PADC id="ddm_elements.process_id">20</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.process_id">L</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.process_id">0</DD_ATTR_PREC>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>FIRM_ID         </DD_DATA_NAME>
-			<DD_DESCRIPTION>Firm ID</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>2</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SYSTEM_REC>Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060425</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>H</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Firm ID</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Firm ID</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>00</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>00</DD_ATTR_MSKO>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>R</DD_ATTR_PADJ>
-			<DD_ATTR_PVAL>stbl("+FIRM_ID")</DD_ATTR_PVAL>
+		<RECORD id="ddm_elements.firm_id">
+			<DD_DATA_NAME id="ddm_elements.firm_id">FIRM_ID         </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.firm_id">Firm ID</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.firm_id">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.firm_id">2</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.firm_id"> </DD_MASK_TYPE>
+			<DD_SYSTEM_REC id="ddm_elements.firm_id">Y</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.firm_id">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.firm_id">BAR</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.firm_id">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.firm_id">20060425</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.firm_id">H</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.firm_id">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.firm_id">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABS>
+			<DD_ATTR_MSKI id="ddm_elements.firm_id">00</DD_ATTR_MSKI>
+			<DD_ATTR_MSKO id="ddm_elements.firm_id">00</DD_ATTR_MSKO>
+			<DD_ATTR_PADC id="ddm_elements.firm_id">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.firm_id">R</DD_ATTR_PADJ>
+			<DD_ATTR_PVAL id="ddm_elements.firm_id">stbl("+FIRM_ID")</DD_ATTR_PVAL>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>BATCH_NO        </DD_DATA_NAME>
-			<DD_DESCRIPTION>Batch Entry Control Number</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>3</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AD </ASC_PROD_ID>
-			<LOCALIZATION_EX>N</LOCALIZATION_EX>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080722</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Batch Entry Control Number</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Batch Entry No</DD_ATTR_LABS>
-			<DD_ATTR_MAXL>0</DD_ATTR_MAXL>
-			<DD_ATTR_MAXR>0</DD_ATTR_MAXR>
-			<DD_ATTR_MINL>0</DD_ATTR_MINL>
-			<DD_ATTR_MSKI>000</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>000</DD_ATTR_MSKO>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>R</DD_ATTR_PADJ>
-			<DD_ATTR_PREC>0</DD_ATTR_PREC>
+		<RECORD id="ddm_elements.batch_no">
+			<DD_DATA_NAME id="ddm_elements.batch_no">BATCH_NO        </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.batch_no">Batch Entry Control Number</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.batch_no">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.batch_no">3</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.batch_no"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.batch_no">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.batch_no">AD </ASC_PROD_ID>
+			<LOCALIZATION_EX id="ddm_elements.batch_no">N</LOCALIZATION_EX>
+			<DD_CREATE_DATE id="ddm_elements.batch_no">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.batch_no">20080722</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.batch_no">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.batch_no">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.batch_no">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.batch_no">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.batch_no">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.batch_no">Batch Entry Control Number</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.batch_no">Batch Entry No</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.batch_no">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.batch_no">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.batch_no">0</DD_ATTR_MINL>
+			<DD_ATTR_MSKI id="ddm_elements.batch_no">000</DD_ATTR_MSKI>
+			<DD_ATTR_MSKO id="ddm_elements.batch_no">000</DD_ATTR_MSKO>
+			<DD_ATTR_PADC id="ddm_elements.batch_no">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.batch_no">R</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.batch_no">0</DD_ATTR_PREC>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>NEW_BATCH       </DD_DATA_NAME>
-			<DD_DESCRIPTION>New Batch Allowed? [Y/N]      </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>1</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CDAT>Y;N</DD_ATTR_CDAT>
-			<DD_ATTR_CTYP>C</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>New Batch Allowed?</DD_ATTR_LABL>
-			<DD_ATTR_LABS>New Batch Allowed?</DD_ATTR_LABS>
+		<RECORD id="ddm_elements.new_batch">
+			<DD_DATA_NAME id="ddm_elements.new_batch">NEW_BATCH       </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.new_batch">New Batch Allowed? [Y/N]      </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.new_batch">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.new_batch">1</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.new_batch"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.new_batch">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.new_batch">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.new_batch">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.new_batch">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CDAT id="ddm_elements.new_batch">Y;N</DD_ATTR_CDAT>
+			<DD_ATTR_CTYP id="ddm_elements.new_batch">C</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.new_batch">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.new_batch">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.new_batch">New Batch Allowed?</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.new_batch">New Batch Allowed?</DD_ATTR_LABS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>USER_ID         </DD_DATA_NAME>
-			<DD_DESCRIPTION>User ID</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>16</DD_DATA_LENGTH>
-			<DD_SYSTEM_REC>Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080110</DD_LSTREV_DATE>
-			<DD_AUTO_COMP>Y</DD_AUTO_COMP>
-			<DD_ATTR_CTLW>150</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOL>NAME</DD_ATTR_DCOL>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_DFLT>stbl["+USER_ID"]</DD_ATTR_DFLT>
-			<DD_ATTR_DTAB>ADM_USER        </DD_ATTR_DTAB>
-			<DD_ATTR_LABL>User ID</DD_ATTR_LABL>
-			<DD_ATTR_LABS>User ID</DD_ATTR_LABS>
-			<DD_ATTR_MAXL>0</DD_ATTR_MAXL>
-			<DD_ATTR_MAXR>0</DD_ATTR_MAXR>
-			<DD_ATTR_MINL>0</DD_ATTR_MINL>
-			<DD_ATTR_MSKI>UUUUUUUUUUUUUUUU</DD_ATTR_MSKI>
-			<DD_ATTR_PADC>20</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>L</DD_ATTR_PADJ>
-			<DD_ATTR_PREC>0</DD_ATTR_PREC>
+		<RECORD id="ddm_elements.user_id">
+			<DD_DATA_NAME id="ddm_elements.user_id">USER_ID         </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.user_id">User ID</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.user_id">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.user_id">16</DD_DATA_LENGTH>
+			<DD_SYSTEM_REC id="ddm_elements.user_id">Y</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.user_id">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.user_id">BAR</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.user_id">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.user_id">20080110</DD_LSTREV_DATE>
+			<DD_AUTO_COMP id="ddm_elements.user_id">Y</DD_AUTO_COMP>
+			<DD_ATTR_CTLW id="ddm_elements.user_id">150</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.user_id">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.user_id">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOL id="ddm_elements.user_id">NAME</DD_ATTR_DCOL>
+			<DD_ATTR_DCOM id="ddm_elements.user_id">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.user_id">            </DD_ATTR_DEXP>
+			<DD_ATTR_DFLT id="ddm_elements.user_id">stbl["+USER_ID"]</DD_ATTR_DFLT>
+			<DD_ATTR_DTAB id="ddm_elements.user_id">ADM_USER        </DD_ATTR_DTAB>
+			<DD_ATTR_LABL id="ddm_elements.user_id">User ID</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.user_id">User ID</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.user_id">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.user_id">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.user_id">0</DD_ATTR_MINL>
+			<DD_ATTR_MSKI id="ddm_elements.user_id">UUUUUUUUUUUUUUUU</DD_ATTR_MSKI>
+			<DD_ATTR_PADC id="ddm_elements.user_id">20</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.user_id">L</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.user_id">0</DD_ATTR_PREC>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>SYSTEM_DATE     </DD_DATA_NAME>
-			<DD_DESCRIPTION>Current System Date           </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>8</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SYSTEM_REC>Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>D</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Current System Date</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Curr Sys Date</DD_ATTR_LABS>
-			<DD_ATTR_STYP>1</DD_ATTR_STYP>
+		<RECORD id="ddm_elements.system_date">
+			<DD_DATA_NAME id="ddm_elements.system_date">SYSTEM_DATE     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.system_date">Current System Date           </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.system_date">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.system_date">8</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.system_date"> </DD_MASK_TYPE>
+			<DD_SYSTEM_REC id="ddm_elements.system_date">Y</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.system_date">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.system_date">BAR</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.system_date">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.system_date">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.system_date">D</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.system_date">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.system_date">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.system_date">Current System Date</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.system_date">Curr Sys Date</DD_ATTR_LABS>
+			<DD_ATTR_STYP id="ddm_elements.system_date">1</DD_ATTR_STYP>
 		</RECORD>
 	</ALIAS>
 </+PROCESS>

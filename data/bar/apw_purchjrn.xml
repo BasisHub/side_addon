@@ -7,18 +7,19 @@
 			<DD_ALIAS_DESC id="ddm_tables.apw_purchjrn">AP Purch Jrnl Sort by Alt Seq</DD_ALIAS_DESC>
 			<DD_FILE_NAME id="ddm_tables.apw_purchjrn">apw-14</DD_FILE_NAME>
 			<DD_TABLE_PATH id="ddm_tables.apw_purchjrn">[+APDATA]</DD_TABLE_PATH>
-			<DD_ALIAS_TYPE id="ddm_tables.apw_purchjrn">X</DD_ALIAS_TYPE>
+			<DD_ALIAS_TYPE id="ddm_tables.apw_purchjrn">V</DD_ALIAS_TYPE>
 			<DD_KEY_LENGTH id="ddm_tables.apw_purchjrn">0</DD_KEY_LENGTH>
 			<DD_NBR_RECORD id="ddm_tables.apw_purchjrn">0</DD_NBR_RECORD>
 			<DD_RECORD_LEN id="ddm_tables.apw_purchjrn">0</DD_RECORD_LEN>
 			<ASC_COMP_ID id="ddm_tables.apw_purchjrn">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.apw_purchjrn">AP</ASC_PROD_ID>
+			<ASC_VERSION_ID id="ddm_tables.apw_purchjrn">8.0</ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.apw_purchjrn">141FC4370EE071EECDA4056CEAA561E4</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.apw_purchjrn">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.apw_purchjrn">20071010</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.apw_purchjrn">20081120</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.apw_purchjrn">20081120</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.apw_purchjrn">160044</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.apw_purchjrn">20090325</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.apw_purchjrn">20090325</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.apw_purchjrn">090420</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.apw_purchjrn">X</DD_ATTR_FTYP>
 			<DD_ATTR_WINT id="ddm_tables.apw_purchjrn">AP Purch Jrnl Sort by Alt Seq</DD_ATTR_WINT>
 		</RECORD>
@@ -27,7 +28,68 @@
 		<ID id="ddm_table_tpls">DDM_TABLE_TPLS</ID>
 		<RECORD id="ddm_table_tpls.apw_purchjrn">
 			<DD_TABLE_ALIAS id="ddm_table_tpls.apw_purchjrn">APW_PURCHJRN    </DD_TABLE_ALIAS>
-			<DD_TABLE_TPL id="ddm_table_tpls.apw_purchjrn">firm_id:c(2),ap_type:c(2),alt_sequence:c(10),vendor_id:c(6),invoice_type:c(1),reference:c(10),gl_account:c(10),accting_date:c(8*)</DD_TABLE_TPL>
+			<DD_FILE_NAME id="ddm_table_tpls.apw_purchjrn">apw-14</DD_FILE_NAME>
+			<DD_TABLE_TPL id="ddm_table_tpls.apw_purchjrn">firm_id:c(2),ap_type:c(2),alt_sequence:c(10),vendor_id:c(6),invoice_type:c(1),reference:c(10),gl_account:c(10),accting_date:c(8*),aba_no:c(10*)</DD_TABLE_TPL>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_keys">
+		<ID id="ddm_keys">DDM_KEYS</ID>
+		<RECORD id="ddm_keys.apw_purchjrn00">
+			<DD_TABLE_ALIAS id="ddm_keys.apw_purchjrn00">APW_PURCHJRN    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_keys.apw_purchjrn00">00</DD_KEY_NUMBER>
+			<DD_KEY_DESC id="ddm_keys.apw_purchjrn00">primary</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.apw_purchjrn00">PRIMARY         </DD_KEY_ID>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_key_segs">
+		<ID id="ddm_key_segs">DDM_KEY_SEGS</ID>
+		<RECORD id="ddm_key_segs.apw_purchjrn0001">
+			<DD_TABLE_ALIAS id="ddm_key_segs.apw_purchjrn0001">APW_PURCHJRN    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.apw_purchjrn0001">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.apw_purchjrn0001">01</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.apw_purchjrn0001">FIRM_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.apw_purchjrn0001">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.apw_purchjrn0001">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.apw_purchjrn0001">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.apw_purchjrn0001">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.apw_purchjrn0001">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.apw_purchjrn0001">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.apw_purchjrn0002">
+			<DD_TABLE_ALIAS id="ddm_key_segs.apw_purchjrn0002">APW_PURCHJRN    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.apw_purchjrn0002">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.apw_purchjrn0002">02</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.apw_purchjrn0002">AP_TYPE</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.apw_purchjrn0002">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.apw_purchjrn0002">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.apw_purchjrn0002">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.apw_purchjrn0002">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.apw_purchjrn0002">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.apw_purchjrn0002">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.apw_purchjrn0003">
+			<DD_TABLE_ALIAS id="ddm_key_segs.apw_purchjrn0003">APW_PURCHJRN    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.apw_purchjrn0003">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.apw_purchjrn0003">03</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.apw_purchjrn0003">ALT_SEQUENCE</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.apw_purchjrn0003">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.apw_purchjrn0003">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.apw_purchjrn0003">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.apw_purchjrn0003">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.apw_purchjrn0003">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.apw_purchjrn0003">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.apw_purchjrn0004">
+			<DD_TABLE_ALIAS id="ddm_key_segs.apw_purchjrn0004">APW_PURCHJRN    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.apw_purchjrn0004">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.apw_purchjrn0004">04</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.apw_purchjrn0004">VENDOR_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.apw_purchjrn0004">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.apw_purchjrn0004">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.apw_purchjrn0004">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.apw_purchjrn0004">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.apw_purchjrn0004">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.apw_purchjrn0004">N</DD_SEGMENT_MATH>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_cols">

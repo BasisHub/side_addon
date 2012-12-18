@@ -6,19 +6,20 @@
 			<DD_TABLE_ALIAS id="ddm_tables.ivs_setcarry">IVS_SETCARRY    </DD_TABLE_ALIAS>
 			<DD_ALIAS_DESC id="ddm_tables.ivs_setcarry">Setup & Carrying Costs</DD_ALIAS_DESC>
 			<DD_TABLE_PATH id="ddm_tables.ivs_setcarry">[+IVDATA]</DD_TABLE_PATH>
-			<DD_ALIAS_TYPE id="ddm_tables.ivs_setcarry">X</DD_ALIAS_TYPE>
+			<DD_ALIAS_TYPE id="ddm_tables.ivs_setcarry">V</DD_ALIAS_TYPE>
 			<DD_KEY_LENGTH id="ddm_tables.ivs_setcarry">0</DD_KEY_LENGTH>
 			<DD_NBR_RECORD id="ddm_tables.ivs_setcarry">0</DD_NBR_RECORD>
 			<DD_RECORD_LEN id="ddm_tables.ivs_setcarry">0</DD_RECORD_LEN>
 			<DD_SYSTEM_REC id="ddm_tables.ivs_setcarry">N</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_tables.ivs_setcarry">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.ivs_setcarry">AD </ASC_PROD_ID>
+			<ASC_VERSION_ID id="ddm_tables.ivs_setcarry">8.0</ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.ivs_setcarry">90AC00EFBF99F7E5A83626C384B6D906</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ivs_setcarry">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ivs_setcarry">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ivs_setcarry">20081203</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivs_setcarry">20081203</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivs_setcarry">160316</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ivs_setcarry">20090325</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivs_setcarry">20090325</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivs_setcarry">090416</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ivs_setcarry">/dev/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ivs_setcarry">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.ivs_setcarry">zzzz</DD_ATTR_SLEV>
@@ -53,6 +54,7 @@
 			<DD_ATTR_LABL id="ddm_table_labl.ivs_setcarry001">ABC Analysis Pcts and Factors</DD_ATTR_LABL>
 			<DD_ATTR_CTLX id="ddm_table_labl.ivs_setcarry001">-3</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_labl.ivs_setcarry001">+1</DD_ATTR_CTLY>
+			<DD_ATTR_TIND id="ddm_table_labl.ivs_setcarry001">7</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_tpls">
@@ -158,7 +160,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.ivs_setcarry004">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.ivs_setcarry004">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivs_setcarry004">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ivs_setcarry004">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivs_setcarry004">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ivs_setcarry004">6</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivs_setcarry005">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivs_setcarry005">IVS_SETCARRY    </DD_TABLE_ALIAS>

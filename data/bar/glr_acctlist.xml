@@ -1,126 +1,113 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <GLR_ACCTLIST>
-	<ALIAS>
-		<ID>DDM_TABLES</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLR_ACCTLIST    </DD_TABLE_ALIAS>
-			<DD_ALIAS_DESC>GL Chart of Accounts Listing</DD_ALIAS_DESC>
-			<DD_TABLE_PATH>[+GLDATA]</DD_TABLE_PATH>
-			<DD_ALIAS_TYPE>P</DD_ALIAS_TYPE>
-			<DD_SYSTEM_ID>GL</DD_SYSTEM_ID>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>GL </ASC_PROD_ID>
-			<ASC_LICENSE_ID>175AE3DC5A0A2B3ACA27E9A51D8E91E0</ASC_LICENSE_ID>
-			<DD_CREATE_DATE>20060412</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080130</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE>20070821</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME>175006</DD_LSTSYNC_TIME>
-			<DD_ATTR_FTYP>S</DD_ATTR_FTYP>
-			<DD_ATTR_PRUN>[+DIR_PGM]glr_acctlist.aon</DD_ATTR_PRUN>
-			<DD_ATTR_WINT>GL Chart of Accounts Listing</DD_ATTR_WINT>
+	<ALIAS id="ddm_tables">
+		<ID id="ddm_tables">DDM_TABLES</ID>
+		<RECORD id="ddm_tables.glr_acctlist">
+			<DD_TABLE_ALIAS id="ddm_tables.glr_acctlist">GLR_ACCTLIST    </DD_TABLE_ALIAS>
+			<DD_ALIAS_DESC id="ddm_tables.glr_acctlist">GL Chart of Accounts Listing</DD_ALIAS_DESC>
+			<DD_TABLE_PATH id="ddm_tables.glr_acctlist">[+GLDATA]</DD_TABLE_PATH>
+			<DD_ALIAS_TYPE id="ddm_tables.glr_acctlist">P</DD_ALIAS_TYPE>
+			<ASC_COMP_ID id="ddm_tables.glr_acctlist">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_tables.glr_acctlist">GL </ASC_PROD_ID>
+			<ASC_VERSION_ID id="ddm_tables.glr_acctlist">8.0</ASC_VERSION_ID>
+			<ASC_LICENSE_ID id="ddm_tables.glr_acctlist">175AE3DC5A0A2B3ACA27E9A51D8E91E0</ASC_LICENSE_ID>
+			<DD_CREATE_DATE id="ddm_tables.glr_acctlist">20060412</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_tables.glr_acctlist">20090325</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.glr_acctlist">20090325</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.glr_acctlist">090416</DD_LSTSYNC_TIME>
+			<DD_ATTR_FTYP id="ddm_tables.glr_acctlist">S</DD_ATTR_FTYP>
+			<DD_ATTR_PRUN id="ddm_tables.glr_acctlist">[+DIR_PGM]glr_acctlist.aon</DD_ATTR_PRUN>
+			<DD_ATTR_WINT id="ddm_tables.glr_acctlist">GL Chart of Accounts Listing</DD_ATTR_WINT>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_TPLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLR_ACCTLIST    </DD_TABLE_ALIAS>
-			<DD_FILE_NAME>       </DD_FILE_NAME>
-			<DD_TABLE_TPL>gl_account_01:c(10),gl_account_02:c(10),gl_wildcard:c(10)</DD_TABLE_TPL>
+	<ALIAS id="ddm_table_tpls">
+		<ID id="ddm_table_tpls">DDM_TABLE_TPLS</ID>
+		<RECORD id="ddm_table_tpls.glr_acctlist">
+			<DD_TABLE_ALIAS id="ddm_table_tpls.glr_acctlist">GLR_ACCTLIST    </DD_TABLE_ALIAS>
+			<DD_FILE_NAME id="ddm_table_tpls.glr_acctlist">       </DD_FILE_NAME>
+			<DD_TABLE_TPL id="ddm_table_tpls.glr_acctlist">gl_account_01:c(10),gl_account_02:c(10),gl_wildcard:c(10)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_COLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLR_ACCTLIST    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>001</DD_SEQUENCE>
-			<DD_DATA_NAME>GL_ACCOUNT      </DD_DATA_NAME>
-			<DD_DVAR_NAME>GL_ACCOUNT      </DD_DVAR_NAME>
-			<DD_COL_OCCURS>2</DD_COL_OCCURS>
-			<DD_CREATE_DATE>20060414</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060414</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW>80</DD_ATTR_CTLW>
-			<DD_ATTR_LABL>Account</DD_ATTR_LABL>
-			<DD_ATTR_MAXL>10</DD_ATTR_MAXL>
-			<DD_ATTR_TIND>1</DD_ATTR_TIND>
+	<ALIAS id="ddm_table_cols">
+		<ID id="ddm_table_cols">DDM_TABLE_COLS</ID>
+		<RECORD id="ddm_table_cols.glr_acctlist001">
+			<DD_TABLE_ALIAS id="ddm_table_cols.glr_acctlist001">GLR_ACCTLIST    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.glr_acctlist001">001</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.glr_acctlist001">GL_ACCOUNT      </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.glr_acctlist001">GL_ACCOUNT      </DD_DVAR_NAME>
+			<DD_COL_OCCURS id="ddm_table_cols.glr_acctlist001">2</DD_COL_OCCURS>
+			<DD_CREATE_DATE id="ddm_table_cols.glr_acctlist001">20060414</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.glr_acctlist001">20060414</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.glr_acctlist001">80</DD_ATTR_CTLW>
+			<DD_ATTR_LABL id="ddm_table_cols.glr_acctlist001">Account</DD_ATTR_LABL>
+			<DD_ATTR_MAXL id="ddm_table_cols.glr_acctlist001">10</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.glr_acctlist001">1</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLR_ACCTLIST    </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>002</DD_SEQUENCE>
-			<DD_DATA_NAME>GL_WILDCARD     </DD_DATA_NAME>
-			<DD_DVAR_NAME>GL_WILDCARD     </DD_DVAR_NAME>
-			<DD_CREATE_DATE>20060417</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060417</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW>80</DD_ATTR_CTLW>
-			<DD_ATTR_LABL>Wildcard Mask</DD_ATTR_LABL>
-			<DD_ATTR_MAXL>10</DD_ATTR_MAXL>
-			<DD_ATTR_TIND>2</DD_ATTR_TIND>
-		</RECORD>
-	</ALIAS>
-	<ALIAS>
-		<ID>DDM_COLUMN_OPTS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLR_ACCTLIST    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>GL_ACCOUNT      </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>1</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLR_ACCTLIST    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>GL_ACCOUNT      </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>2</DD_ATTR_OPTS>
+		<RECORD id="ddm_table_cols.glr_acctlist002">
+			<DD_TABLE_ALIAS id="ddm_table_cols.glr_acctlist002">GLR_ACCTLIST    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.glr_acctlist002">002</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.glr_acctlist002">GL_WILDCARD     </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.glr_acctlist002">GL_WILDCARD     </DD_DVAR_NAME>
+			<DD_CREATE_DATE id="ddm_table_cols.glr_acctlist002">20060417</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.glr_acctlist002">20060417</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.glr_acctlist002">80</DD_ATTR_CTLW>
+			<DD_ATTR_LABL id="ddm_table_cols.glr_acctlist002">Wildcard Mask</DD_ATTR_LABL>
+			<DD_ATTR_MAXL id="ddm_table_cols.glr_acctlist002">10</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.glr_acctlist002">2</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_ELEMENTS</ID>
-		<RECORD>
-			<DD_DATA_NAME>GL_ACCOUNT      </DD_DATA_NAME>
-			<DD_DESCRIPTION>GL Account Number</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>10</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>GL</DD_SYSTEM_ID>
-			<DD_MASK_TYPE>I</DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20061018</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOL>GL_ACCT_DESC    </DD_ATTR_DCOL>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_DKEY>[+FIRM_ID]+@</DD_ATTR_DKEY>
-			<DD_ATTR_DTAB>GLM_ACCT        </DD_ATTR_DTAB>
-			<DD_ATTR_LABL>GL Account</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Account</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>UUUUUUUUUU</DD_ATTR_MSKI>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>L</DD_ATTR_PADJ>
+	<ALIAS id="ddm_column_opts">
+		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
+		<RECORD id="ddm_column_opts.glr_acctlistgl_account1">
+			<DD_TABLE_ALIAS id="ddm_column_opts.glr_acctlistgl_account1">GLR_ACCTLIST    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.glr_acctlistgl_account1">GL_ACCOUNT      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.glr_acctlistgl_account1">1</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>GL_WILDCARD     </DD_DATA_NAME>
-			<DD_DESCRIPTION>GL Account Wildcard Mask</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>10</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060315</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Account Wildcard Mask</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Acct Wildcard Mask</DD_ATTR_LABS>
+		<RECORD id="ddm_column_opts.glr_acctlistgl_account2">
+			<DD_TABLE_ALIAS id="ddm_column_opts.glr_acctlistgl_account2">GLR_ACCTLIST    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.glr_acctlistgl_account2">GL_ACCOUNT      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.glr_acctlistgl_account2">2</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>ADS_MASKS</ID>
-		<RECORD>
-			<FIRM_ID>01</FIRM_ID>
-			<DD_SYSTEM_ID>GL</DD_SYSTEM_ID>
-			<DD_MASK_TYPE>I</DD_MASK_TYPE>
-			<DD_ATTR_MSKI>000-000</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>000-000</DD_ATTR_MSKO>
+	<ALIAS id="ddm_elements">
+		<ID id="ddm_elements">DDM_ELEMENTS</ID>
+		<RECORD id="ddm_elements.gl_account">
+			<DD_DATA_NAME id="ddm_elements.gl_account">GL_ACCOUNT      </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.gl_account">GL Account Number</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.gl_account">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.gl_account">10</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.gl_account">I</DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.gl_account">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.gl_account">GL </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.gl_account">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.gl_account">20061018</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.gl_account">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOL id="ddm_elements.gl_account">GL_ACCT_DESC    </DD_ATTR_DCOL>
+			<DD_ATTR_DCOM id="ddm_elements.gl_account">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.gl_account">            </DD_ATTR_DEXP>
+			<DD_ATTR_DKEY id="ddm_elements.gl_account">[+FIRM_ID]+@</DD_ATTR_DKEY>
+			<DD_ATTR_DTAB id="ddm_elements.gl_account">GLM_ACCT        </DD_ATTR_DTAB>
+			<DD_ATTR_LABL id="ddm_elements.gl_account">GL Account</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.gl_account">Account</DD_ATTR_LABS>
+			<DD_ATTR_MSKI id="ddm_elements.gl_account">UUUUUUUUUU</DD_ATTR_MSKI>
+			<DD_ATTR_PADC id="ddm_elements.gl_account">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.gl_account">L</DD_ATTR_PADJ>
+		</RECORD>
+		<RECORD id="ddm_elements.gl_wildcard">
+			<DD_DATA_NAME id="ddm_elements.gl_wildcard">GL_WILDCARD     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.gl_wildcard">GL Account Wildcard Mask</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.gl_wildcard">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.gl_wildcard">10</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.gl_wildcard"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.gl_wildcard">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.gl_wildcard">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.gl_wildcard">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.gl_wildcard">20060315</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.gl_wildcard">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.gl_wildcard">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.gl_wildcard">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.gl_wildcard">Account Wildcard Mask</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.gl_wildcard">Acct Wildcard Mask</DD_ATTR_LABS>
 		</RECORD>
 	</ALIAS>
 </GLR_ACCTLIST>

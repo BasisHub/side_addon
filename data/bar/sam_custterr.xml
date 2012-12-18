@@ -7,7 +7,7 @@
 			<DD_ALIAS_DESC id="ddm_tables.sam_custterr">Terr/Customer/Product/Item Record</DD_ALIAS_DESC>
 			<DD_FILE_NAME id="ddm_tables.sam_custterr">sam-12</DD_FILE_NAME>
 			<DD_TABLE_PATH id="ddm_tables.sam_custterr">[+SADATA]</DD_TABLE_PATH>
-			<DD_ALIAS_TYPE id="ddm_tables.sam_custterr">X</DD_ALIAS_TYPE>
+			<DD_ALIAS_TYPE id="ddm_tables.sam_custterr">V</DD_ALIAS_TYPE>
 			<DD_KEY_LENGTH id="ddm_tables.sam_custterr">0</DD_KEY_LENGTH>
 			<DD_NBR_RECORD id="ddm_tables.sam_custterr">0</DD_NBR_RECORD>
 			<DD_RECORD_LEN id="ddm_tables.sam_custterr">0</DD_RECORD_LEN>
@@ -15,12 +15,13 @@
 			<RESTRICT_AUTOADD id="ddm_tables.sam_custterr">Y</RESTRICT_AUTOADD>
 			<ASC_COMP_ID id="ddm_tables.sam_custterr">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.sam_custterr">SA </ASC_PROD_ID>
+			<ASC_VERSION_ID id="ddm_tables.sam_custterr">8.0</ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.sam_custterr">00A988F52CEB7371521F5582E2137E9F</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.sam_custterr">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.sam_custterr">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.sam_custterr">20081203</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.sam_custterr">20080806</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.sam_custterr">221912</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.sam_custterr">20090325</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.sam_custterr">20090325</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.sam_custterr">090420</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.sam_custterr">[+DIR_CPP]sam_custterr_cpt.bbj</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.sam_custterr">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.sam_custterr">zzzz</DD_ATTR_SLEV>
@@ -215,6 +216,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.sam_custterr003">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sam_custterr003">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.sam_custterr003">35</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.sam_custterr003">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.sam_custterr003">3</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.sam_custterr003">Territory Code</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.sam_custterr003">3</DD_ATTR_TIND>
@@ -398,6 +400,21 @@
 			<DD_DVAR_NAME id="ddm_column_opts.sam_custterrtotal_salesl">TOTAL_SALES     </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.sam_custterrtotal_salesl">L</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.sam_custterrtqtyc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_custterrtqtyc">SAM_CUSTTERR    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_custterrtqtyc">TQTY            </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_custterrtqtyc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_custterrtcstc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_custterrtcstc">SAM_CUSTTERR    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_custterrtcstc">TCST            </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_custterrtcstc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sam_custterrtslsc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sam_custterrtslsc">SAM_CUSTTERR    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sam_custterrtslsc">TSLS            </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sam_custterrtslsc">C</DD_ATTR_OPTS>
+		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">
 		<ID id="ddm_elements">DDM_ELEMENTS</ID>
@@ -530,54 +547,6 @@
 			<DD_ATTR_PADC id="ddm_elements.item_id">20</DD_ATTR_PADC>
 			<DD_ATTR_PADJ id="ddm_elements.item_id">L</DD_ATTR_PADJ>
 			<DD_ATTR_PROM id="ddm_elements.item_id">Enter a valid inventory item</DD_ATTR_PROM>
-		</RECORD>
-		<RECORD id="ddm_elements.qty_shipped">
-			<DD_DATA_NAME id="ddm_elements.qty_shipped">QTY_SHIPPED     </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.qty_shipped">Quantity Shipped              </DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.qty_shipped">N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.qty_shipped">7</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.qty_shipped">U</DD_MASK_TYPE>
-			<ASC_COMP_ID id="ddm_elements.qty_shipped">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.qty_shipped">IV </ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.qty_shipped">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.qty_shipped">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP id="ddm_elements.qty_shipped">N</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM id="ddm_elements.qty_shipped">            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP id="ddm_elements.qty_shipped">            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL id="ddm_elements.qty_shipped">Quantity Shipped</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.qty_shipped">Qty Shipped</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD id="ddm_elements.total_cost">
-			<DD_DATA_NAME id="ddm_elements.total_cost">TOTAL_COST      </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.total_cost">Total Cost Amount</DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.total_cost">N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.total_cost">7</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.total_cost">A</DD_MASK_TYPE>
-			<ASC_COMP_ID id="ddm_elements.total_cost">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.total_cost">AR </ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.total_cost">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.total_cost">20060328</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP id="ddm_elements.total_cost">N</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM id="ddm_elements.total_cost">            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP id="ddm_elements.total_cost">            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL id="ddm_elements.total_cost">Total Cost Amount</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.total_cost">Total Cost</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD id="ddm_elements.total_sales">
-			<DD_DATA_NAME id="ddm_elements.total_sales">TOTAL_SALES     </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.total_sales">Total Sales Amount            </DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.total_sales">N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.total_sales">7</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.total_sales">A</DD_MASK_TYPE>
-			<ASC_COMP_ID id="ddm_elements.total_sales">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.total_sales">AR </ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.total_sales">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.total_sales">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP id="ddm_elements.total_sales">N</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM id="ddm_elements.total_sales">            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP id="ddm_elements.total_sales">            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL id="ddm_elements.total_sales">Total Sales Amount</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.total_sales">Tot Sales Amt</DD_ATTR_LABS>
 		</RECORD>
 		<RECORD id="ddm_elements.qty_shipped">
 			<DD_DATA_NAME id="ddm_elements.qty_shipped">QTY_SHIPPED     </DD_DATA_NAME>

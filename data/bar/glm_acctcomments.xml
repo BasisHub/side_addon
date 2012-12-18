@@ -1,278 +1,262 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <GLM_ACCTCOMMENTS>
-	<ALIAS>
-		<ID>DDM_TABLES</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_ACCTCOMMENTS</DD_TABLE_ALIAS>
-			<DD_ALIAS_DESC>Account Comments</DD_ALIAS_DESC>
-			<DD_FILE_NAME>glm-09</DD_FILE_NAME>
-			<DD_TABLE_PATH>[+GLDATA]</DD_TABLE_PATH>
-			<DD_ALIAS_TYPE>X</DD_ALIAS_TYPE>
-			<DD_KEY_LENGTH>0</DD_KEY_LENGTH>
-			<DD_NBR_RECORD>0</DD_NBR_RECORD>
-			<DD_RECORD_LEN>64</DD_RECORD_LEN>
-			<DD_SYSTEM_REC>N</DD_SYSTEM_REC>
-			<DD_SYSTEM_ID>GL</DD_SYSTEM_ID>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>GL </ASC_PROD_ID>
-			<ASC_LICENSE_ID>5405EBD1CE6FECA24F2B9778BD0F39EE</ASC_LICENSE_ID>
-			<DD_EXPORT_DATA>Y</DD_EXPORT_DATA>
-			<DD_CREATE_DATE>20060630</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080130</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE>20080130</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME>135102</DD_LSTSYNC_TIME>
-			<DD_ATTR_FTYP>G</DD_ATTR_FTYP>
-			<DD_ATTR_SLEV>zzzz</DD_ATTR_SLEV>
-			<DD_ATTR_WINT>Account Comments</DD_ATTR_WINT>
+	<ALIAS id="ddm_tables">
+		<ID id="ddm_tables">DDM_TABLES</ID>
+		<RECORD id="ddm_tables.glm_acctcomments">
+			<DD_TABLE_ALIAS id="ddm_tables.glm_acctcomments">GLM_ACCTCOMMENTS</DD_TABLE_ALIAS>
+			<DD_ALIAS_DESC id="ddm_tables.glm_acctcomments">Account Comments</DD_ALIAS_DESC>
+			<DD_FILE_NAME id="ddm_tables.glm_acctcomments">glm-09</DD_FILE_NAME>
+			<DD_TABLE_PATH id="ddm_tables.glm_acctcomments">[+GLDATA]</DD_TABLE_PATH>
+			<DD_ALIAS_TYPE id="ddm_tables.glm_acctcomments">V</DD_ALIAS_TYPE>
+			<DD_KEY_LENGTH id="ddm_tables.glm_acctcomments">0</DD_KEY_LENGTH>
+			<DD_NBR_RECORD id="ddm_tables.glm_acctcomments">0</DD_NBR_RECORD>
+			<DD_RECORD_LEN id="ddm_tables.glm_acctcomments">0</DD_RECORD_LEN>
+			<DD_SYSTEM_REC id="ddm_tables.glm_acctcomments">N</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_tables.glm_acctcomments">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_tables.glm_acctcomments">GL </ASC_PROD_ID>
+			<ASC_VERSION_ID id="ddm_tables.glm_acctcomments">8.0</ASC_VERSION_ID>
+			<ASC_LICENSE_ID id="ddm_tables.glm_acctcomments">5405EBD1CE6FECA24F2B9778BD0F39EE</ASC_LICENSE_ID>
+			<DD_EXPORT_DATA id="ddm_tables.glm_acctcomments">Y</DD_EXPORT_DATA>
+			<DD_CREATE_DATE id="ddm_tables.glm_acctcomments">20060630</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_tables.glm_acctcomments">20090325</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.glm_acctcomments">20090325</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.glm_acctcomments">090426</DD_LSTSYNC_TIME>
+			<DD_ATTR_FTYP id="ddm_tables.glm_acctcomments">G</DD_ATTR_FTYP>
+			<DD_ATTR_PTAB id="ddm_tables.glm_acctcomments">GLM_ACCT        </DD_ATTR_PTAB>
+			<DD_ATTR_SLEV id="ddm_tables.glm_acctcomments">zzzz</DD_ATTR_SLEV>
+			<DD_ATTR_WINT id="ddm_tables.glm_acctcomments">Account Comments</DD_ATTR_WINT>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_TPLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_ACCTCOMMENTS</DD_TABLE_ALIAS>
-			<DD_FILE_NAME>glm-09</DD_FILE_NAME>
-			<DD_TABLE_TPL>firm_id:c(2),gl_account:c(10),sequence_num:c(2*),std_comments:c(48*)</DD_TABLE_TPL>
+	<ALIAS id="ddm_table_tpls">
+		<ID id="ddm_table_tpls">DDM_TABLE_TPLS</ID>
+		<RECORD id="ddm_table_tpls.glm_acctcomments">
+			<DD_TABLE_ALIAS id="ddm_table_tpls.glm_acctcomments">GLM_ACCTCOMMENTS</DD_TABLE_ALIAS>
+			<DD_FILE_NAME id="ddm_table_tpls.glm_acctcomments">glm-09</DD_FILE_NAME>
+			<DD_TABLE_TPL id="ddm_table_tpls.glm_acctcomments">firm_id:c(2),gl_account:c(10),sequence_num:c(2*),std_comments:c(48*)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_KEYS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_ACCTCOMMENTS</DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_KEY_DESC>Primary</DD_KEY_DESC>
-			<DD_KEY_ID>PRIMARY         </DD_KEY_ID>
+	<ALIAS id="ddm_keys">
+		<ID id="ddm_keys">DDM_KEYS</ID>
+		<RECORD id="ddm_keys.glm_acctcomments00">
+			<DD_TABLE_ALIAS id="ddm_keys.glm_acctcomments00">GLM_ACCTCOMMENTS</DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_keys.glm_acctcomments00">00</DD_KEY_NUMBER>
+			<DD_KEY_DESC id="ddm_keys.glm_acctcomments00">Primary</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.glm_acctcomments00">PRIMARY         </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_KEY_SEGS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_ACCTCOMMENTS</DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>01</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>FIRM_ID         </DD_SEGMENT_COL>
-			<DD_SEGMENT_POS>0</DD_SEGMENT_POS>
-			<DD_SEGMENT_OFF>0</DD_SEGMENT_OFF>
-			<DD_SEGMENT_LEN>0</DD_SEGMENT_LEN>
+	<ALIAS id="ddm_key_segs">
+		<ID id="ddm_key_segs">DDM_KEY_SEGS</ID>
+		<RECORD id="ddm_key_segs.glm_acctcomments0001">
+			<DD_TABLE_ALIAS id="ddm_key_segs.glm_acctcomments0001">GLM_ACCTCOMMENTS</DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.glm_acctcomments0001">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.glm_acctcomments0001">01</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.glm_acctcomments0001">FIRM_ID         </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.glm_acctcomments0001">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.glm_acctcomments0001">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.glm_acctcomments0001">0</DD_SEGMENT_LEN>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_ACCTCOMMENTS</DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>02</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>GL_ACCOUNT      </DD_SEGMENT_COL>
-			<DD_SEGMENT_POS>0</DD_SEGMENT_POS>
-			<DD_SEGMENT_OFF>0</DD_SEGMENT_OFF>
-			<DD_SEGMENT_LEN>0</DD_SEGMENT_LEN>
+		<RECORD id="ddm_key_segs.glm_acctcomments0002">
+			<DD_TABLE_ALIAS id="ddm_key_segs.glm_acctcomments0002">GLM_ACCTCOMMENTS</DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.glm_acctcomments0002">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.glm_acctcomments0002">02</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.glm_acctcomments0002">GL_ACCOUNT      </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.glm_acctcomments0002">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.glm_acctcomments0002">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.glm_acctcomments0002">0</DD_SEGMENT_LEN>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_ACCTCOMMENTS</DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>03</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>SEQUENCE_NUM    </DD_SEGMENT_COL>
-			<DD_SEGMENT_POS>0</DD_SEGMENT_POS>
-			<DD_SEGMENT_OFF>0</DD_SEGMENT_OFF>
-			<DD_SEGMENT_LEN>0</DD_SEGMENT_LEN>
-		</RECORD>
-	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_COLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_ACCTCOMMENTS</DD_TABLE_ALIAS>
-			<DD_SEQUENCE>001</DD_SEQUENCE>
-			<DD_DATA_NAME>FIRM_ID         </DD_DATA_NAME>
-			<DD_DVAR_NAME>FIRM_ID         </DD_DVAR_NAME>
-			<DD_COL_REPEATS>1</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL>2</DD_ATTR_MAXL>
-			<DD_ATTR_PROM>Firm ID</DD_ATTR_PROM>
-			<DD_ATTR_TIND>1</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_ACCTCOMMENTS</DD_TABLE_ALIAS>
-			<DD_SEQUENCE>002</DD_SEQUENCE>
-			<DD_DATA_NAME>GL_ACCOUNT      </DD_DATA_NAME>
-			<DD_DVAR_NAME>GL_ACCOUNT      </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_LABL>Account</DD_ATTR_LABL>
-			<DD_ATTR_LABS>GL Account</DD_ATTR_LABS>
-			<DD_ATTR_MAXL>10</DD_ATTR_MAXL>
-			<DD_ATTR_PROM>GL Account Number</DD_ATTR_PROM>
-			<DD_ATTR_TIND>2</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_ACCTCOMMENTS</DD_TABLE_ALIAS>
-			<DD_SEQUENCE>003</DD_SEQUENCE>
-			<DD_DATA_NAME>SEQUENCE_NUM    </DD_DATA_NAME>
-			<DD_DVAR_NAME>SEQUENCE_NUM    </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_LABL>Seq</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Seq</DD_ATTR_LABS>
-			<DD_ATTR_MAXL>2</DD_ATTR_MAXL>
-			<DD_ATTR_PROM>Sequence Number</DD_ATTR_PROM>
-			<DD_ATTR_TIND>3</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_ACCTCOMMENTS</DD_TABLE_ALIAS>
-			<DD_SEQUENCE>004</DD_SEQUENCE>
-			<DD_DATA_NAME>STD_COMMENTS    </DD_DATA_NAME>
-			<DD_DVAR_NAME>STD_COMMENTS    </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW>384</DD_ATTR_CTLW>
-			<DD_ATTR_LABL>Comments</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Comment</DD_ATTR_LABS>
-			<DD_ATTR_MAXL>48</DD_ATTR_MAXL>
-			<DD_ATTR_PROM>Comments Line</DD_ATTR_PROM>
-			<DD_ATTR_TIND>4</DD_ATTR_TIND>
+		<RECORD id="ddm_key_segs.glm_acctcomments0003">
+			<DD_TABLE_ALIAS id="ddm_key_segs.glm_acctcomments0003">GLM_ACCTCOMMENTS</DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.glm_acctcomments0003">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.glm_acctcomments0003">03</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.glm_acctcomments0003">SEQUENCE_NUM    </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.glm_acctcomments0003">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.glm_acctcomments0003">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.glm_acctcomments0003">0</DD_SEGMENT_LEN>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_COLUMN_OPTS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_ACCTCOMMENTS</DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>FIRM_ID         </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>G</DD_ATTR_OPTS>
+	<ALIAS id="ddm_table_cols">
+		<ID id="ddm_table_cols">DDM_TABLE_COLS</ID>
+		<RECORD id="ddm_table_cols.glm_acctcomments001">
+			<DD_TABLE_ALIAS id="ddm_table_cols.glm_acctcomments001">GLM_ACCTCOMMENTS</DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.glm_acctcomments001">001</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.glm_acctcomments001">FIRM_ID         </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.glm_acctcomments001">FIRM_ID         </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.glm_acctcomments001">1</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.glm_acctcomments001">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.glm_acctcomments001">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.glm_acctcomments001">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.glm_acctcomments001">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.glm_acctcomments001">2</DD_ATTR_MAXL>
+			<DD_ATTR_PROM id="ddm_table_cols.glm_acctcomments001">Firm ID</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.glm_acctcomments001">1</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_ACCTCOMMENTS</DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>FIRM_ID         </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>O</DD_ATTR_OPTS>
+		<RECORD id="ddm_table_cols.glm_acctcomments002">
+			<DD_TABLE_ALIAS id="ddm_table_cols.glm_acctcomments002">GLM_ACCTCOMMENTS</DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.glm_acctcomments002">002</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.glm_acctcomments002">GL_ACCOUNT      </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.glm_acctcomments002">GL_ACCOUNT      </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.glm_acctcomments002">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.glm_acctcomments002">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.glm_acctcomments002">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.glm_acctcomments002">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.glm_acctcomments002">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_LABL id="ddm_table_cols.glm_acctcomments002">Account</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_table_cols.glm_acctcomments002">GL Account</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_table_cols.glm_acctcomments002">10</DD_ATTR_MAXL>
+			<DD_ATTR_PROM id="ddm_table_cols.glm_acctcomments002">GL Account Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.glm_acctcomments002">2</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_ACCTCOMMENTS</DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>GL_ACCOUNT      </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>G</DD_ATTR_OPTS>
+		<RECORD id="ddm_table_cols.glm_acctcomments003">
+			<DD_TABLE_ALIAS id="ddm_table_cols.glm_acctcomments003">GLM_ACCTCOMMENTS</DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.glm_acctcomments003">003</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.glm_acctcomments003">SEQUENCE_NUM    </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.glm_acctcomments003">SEQUENCE_NUM    </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.glm_acctcomments003">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.glm_acctcomments003">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.glm_acctcomments003">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.glm_acctcomments003">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.glm_acctcomments003">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.glm_acctcomments003">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_LABL id="ddm_table_cols.glm_acctcomments003">Seq</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_table_cols.glm_acctcomments003">Seq</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_table_cols.glm_acctcomments003">2</DD_ATTR_MAXL>
+			<DD_ATTR_PROM id="ddm_table_cols.glm_acctcomments003">Sequence Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.glm_acctcomments003">3</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_ACCTCOMMENTS</DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>GL_ACCOUNT      </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>O</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_ACCTCOMMENTS</DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>SEQUENCE_NUM    </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>G</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>GLM_ACCTCOMMENTS</DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>SEQUENCE_NUM    </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>O</DD_ATTR_OPTS>
-		</RECORD>
-	</ALIAS>
-	<ALIAS>
-		<ID>DDM_ELEMENTS</ID>
-		<RECORD>
-			<DD_DATA_NAME>FIRM_ID         </DD_DATA_NAME>
-			<DD_DESCRIPTION>Firm ID</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>2</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<DD_SYSTEM_REC>Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060425</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>H</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Firm ID</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Firm ID</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>00</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>00</DD_ATTR_MSKO>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>R</DD_ATTR_PADJ>
-			<DD_ATTR_PVAL>stbl("+FIRM_ID")</DD_ATTR_PVAL>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>GL_ACCOUNT      </DD_DATA_NAME>
-			<DD_DESCRIPTION>GL Account Number</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>10</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>GL</DD_SYSTEM_ID>
-			<DD_MASK_TYPE>I</DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20061018</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOL>GL_ACCT_DESC    </DD_ATTR_DCOL>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_DKEY>[+FIRM_ID]+@</DD_ATTR_DKEY>
-			<DD_ATTR_DTAB>GLM_ACCT        </DD_ATTR_DTAB>
-			<DD_ATTR_LABL>GL Account</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Account</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>UUUUUUUUUU</DD_ATTR_MSKI>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>L</DD_ATTR_PADJ>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>SEQUENCE_NUM    </DD_DATA_NAME>
-			<DD_DESCRIPTION>Sequence Number               </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>2</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060504</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Sequence Number</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Seq No</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>00</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>00</DD_ATTR_MSKO>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>R</DD_ATTR_PADJ>
-			<DD_ATTR_STYP>S</DD_ATTR_STYP>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>STD_COMMENTS    </DD_DATA_NAME>
-			<DD_DESCRIPTION>Comments Line                 </DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>48</DD_DATA_LENGTH>
-			<DD_SYSTEM_ID>  </DD_SYSTEM_ID>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SPECIAL_MASK>               </DD_SPECIAL_MASK>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Comments Line</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Cmts Line</DD_ATTR_LABS>
+		<RECORD id="ddm_table_cols.glm_acctcomments004">
+			<DD_TABLE_ALIAS id="ddm_table_cols.glm_acctcomments004">GLM_ACCTCOMMENTS</DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.glm_acctcomments004">004</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.glm_acctcomments004">STD_COMMENTS    </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.glm_acctcomments004">STD_COMMENTS    </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.glm_acctcomments004">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.glm_acctcomments004">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.glm_acctcomments004">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.glm_acctcomments004">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.glm_acctcomments004">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.glm_acctcomments004">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.glm_acctcomments004">384</DD_ATTR_CTLW>
+			<DD_ATTR_LABL id="ddm_table_cols.glm_acctcomments004">Comments</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_table_cols.glm_acctcomments004">Comment</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_table_cols.glm_acctcomments004">48</DD_ATTR_MAXL>
+			<DD_ATTR_PROM id="ddm_table_cols.glm_acctcomments004">Comments Line</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.glm_acctcomments004">4</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>ADS_MASKS</ID>
-		<RECORD>
-			<FIRM_ID>01</FIRM_ID>
-			<DD_SYSTEM_ID>GL</DD_SYSTEM_ID>
-			<DD_MASK_TYPE>I</DD_MASK_TYPE>
-			<DD_ATTR_MSKI>000-000</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>000-000</DD_ATTR_MSKO>
+	<ALIAS id="ddm_column_opts">
+		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
+		<RECORD id="ddm_column_opts.glm_acctcommentsfirm_idg">
+			<DD_TABLE_ALIAS id="ddm_column_opts.glm_acctcommentsfirm_idg">GLM_ACCTCOMMENTS</DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.glm_acctcommentsfirm_idg">FIRM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.glm_acctcommentsfirm_idg">G</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.glm_acctcommentsfirm_ido">
+			<DD_TABLE_ALIAS id="ddm_column_opts.glm_acctcommentsfirm_ido">GLM_ACCTCOMMENTS</DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.glm_acctcommentsfirm_ido">FIRM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.glm_acctcommentsfirm_ido">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.glm_acctcommentsgl_accountg">
+			<DD_TABLE_ALIAS id="ddm_column_opts.glm_acctcommentsgl_accountg">GLM_ACCTCOMMENTS</DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.glm_acctcommentsgl_accountg">GL_ACCOUNT      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.glm_acctcommentsgl_accountg">G</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.glm_acctcommentsgl_accounto">
+			<DD_TABLE_ALIAS id="ddm_column_opts.glm_acctcommentsgl_accounto">GLM_ACCTCOMMENTS</DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.glm_acctcommentsgl_accounto">GL_ACCOUNT      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.glm_acctcommentsgl_accounto">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.glm_acctcommentssequence_numg">
+			<DD_TABLE_ALIAS id="ddm_column_opts.glm_acctcommentssequence_numg">GLM_ACCTCOMMENTS</DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.glm_acctcommentssequence_numg">SEQUENCE_NUM    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.glm_acctcommentssequence_numg">G</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.glm_acctcommentssequence_numo">
+			<DD_TABLE_ALIAS id="ddm_column_opts.glm_acctcommentssequence_numo">GLM_ACCTCOMMENTS</DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.glm_acctcommentssequence_numo">SEQUENCE_NUM    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.glm_acctcommentssequence_numo">O</DD_ATTR_OPTS>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_elements">
+		<ID id="ddm_elements">DDM_ELEMENTS</ID>
+		<RECORD id="ddm_elements.firm_id">
+			<DD_DATA_NAME id="ddm_elements.firm_id">FIRM_ID         </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.firm_id">Firm ID</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.firm_id">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.firm_id">2</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.firm_id"> </DD_MASK_TYPE>
+			<DD_SYSTEM_REC id="ddm_elements.firm_id">Y</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.firm_id">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.firm_id">BAR</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.firm_id">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.firm_id">20060425</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.firm_id">H</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.firm_id">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.firm_id">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABS>
+			<DD_ATTR_MSKI id="ddm_elements.firm_id">00</DD_ATTR_MSKI>
+			<DD_ATTR_MSKO id="ddm_elements.firm_id">00</DD_ATTR_MSKO>
+			<DD_ATTR_PADC id="ddm_elements.firm_id">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.firm_id">R</DD_ATTR_PADJ>
+			<DD_ATTR_PVAL id="ddm_elements.firm_id">stbl("+FIRM_ID")</DD_ATTR_PVAL>
+		</RECORD>
+		<RECORD id="ddm_elements.gl_account">
+			<DD_DATA_NAME id="ddm_elements.gl_account">GL_ACCOUNT      </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.gl_account">GL Account Number</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.gl_account">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.gl_account">10</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.gl_account">I</DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.gl_account">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.gl_account">GL </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.gl_account">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.gl_account">20061018</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.gl_account">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOL id="ddm_elements.gl_account">GL_ACCT_DESC    </DD_ATTR_DCOL>
+			<DD_ATTR_DCOM id="ddm_elements.gl_account">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.gl_account">            </DD_ATTR_DEXP>
+			<DD_ATTR_DKEY id="ddm_elements.gl_account">[+FIRM_ID]+@</DD_ATTR_DKEY>
+			<DD_ATTR_DTAB id="ddm_elements.gl_account">GLM_ACCT        </DD_ATTR_DTAB>
+			<DD_ATTR_LABL id="ddm_elements.gl_account">GL Account</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.gl_account">Account</DD_ATTR_LABS>
+			<DD_ATTR_MSKI id="ddm_elements.gl_account">UUUUUUUUUU</DD_ATTR_MSKI>
+			<DD_ATTR_PADC id="ddm_elements.gl_account">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.gl_account">L</DD_ATTR_PADJ>
+		</RECORD>
+		<RECORD id="ddm_elements.sequence_num">
+			<DD_DATA_NAME id="ddm_elements.sequence_num">SEQUENCE_NUM    </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.sequence_num">Sequence Number               </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.sequence_num">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.sequence_num">2</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.sequence_num"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.sequence_num">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.sequence_num">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.sequence_num">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.sequence_num">20060504</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.sequence_num">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.sequence_num">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.sequence_num">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.sequence_num">Sequence Number</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.sequence_num">Seq No</DD_ATTR_LABS>
+			<DD_ATTR_MSKI id="ddm_elements.sequence_num">00</DD_ATTR_MSKI>
+			<DD_ATTR_MSKO id="ddm_elements.sequence_num">00</DD_ATTR_MSKO>
+			<DD_ATTR_PADC id="ddm_elements.sequence_num">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.sequence_num">R</DD_ATTR_PADJ>
+			<DD_ATTR_STYP id="ddm_elements.sequence_num">S</DD_ATTR_STYP>
+		</RECORD>
+		<RECORD id="ddm_elements.std_comments">
+			<DD_DATA_NAME id="ddm_elements.std_comments">STD_COMMENTS    </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.std_comments">Comments Line                 </DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.std_comments">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.std_comments">48</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.std_comments"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.std_comments">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.std_comments">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.std_comments">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.std_comments">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.std_comments">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.std_comments">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.std_comments">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.std_comments">Comments Line</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.std_comments">Cmts Line</DD_ATTR_LABS>
 		</RECORD>
 	</ALIAS>
 </GLM_ACCTCOMMENTS>

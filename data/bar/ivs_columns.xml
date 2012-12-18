@@ -1,579 +1,469 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <IVS_COLUMNS>
-	<ALIAS>
-		<ID>DDM_TABLES</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVS_COLUMNS     </DD_TABLE_ALIAS>
-			<DD_ALIAS_DESC>Default Display Columns</DD_ALIAS_DESC>
-			<DD_TABLE_PATH>[+IVDATA]</DD_TABLE_PATH>
-			<DD_ALIAS_TYPE>X</DD_ALIAS_TYPE>
-			<DD_KEY_LENGTH>0</DD_KEY_LENGTH>
-			<DD_NBR_RECORD>0</DD_NBR_RECORD>
-			<DD_RECORD_LEN>0</DD_RECORD_LEN>
-			<DD_SYSTEM_REC>N</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AD </ASC_PROD_ID>
-			<ASC_LICENSE_ID>DDCF2B1FC7F379FE00EFD7BF82E445B9</ASC_LICENSE_ID>
-			<DD_EXPORT_DATA>Y</DD_EXPORT_DATA>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20080902</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE>20080902</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME>154832</DD_LSTSYNC_TIME>
-			<DD_ATTR_FTYP>T</DD_ATTR_FTYP>
-			<DD_ATTR_SLEV>zzzz</DD_ATTR_SLEV>
-			<DD_ATTR_WINT>Default Display Columns</DD_ATTR_WINT>
+	<ALIAS id="ddm_tables">
+		<ID id="ddm_tables">DDM_TABLES</ID>
+		<RECORD id="ddm_tables.ivs_columns">
+			<DD_TABLE_ALIAS id="ddm_tables.ivs_columns">IVS_COLUMNS     </DD_TABLE_ALIAS>
+			<DD_ALIAS_DESC id="ddm_tables.ivs_columns">Default Display Columns</DD_ALIAS_DESC>
+			<DD_TABLE_PATH id="ddm_tables.ivs_columns">[+IVDATA]</DD_TABLE_PATH>
+			<DD_ALIAS_TYPE id="ddm_tables.ivs_columns">V</DD_ALIAS_TYPE>
+			<DD_KEY_LENGTH id="ddm_tables.ivs_columns">0</DD_KEY_LENGTH>
+			<DD_NBR_RECORD id="ddm_tables.ivs_columns">0</DD_NBR_RECORD>
+			<DD_RECORD_LEN id="ddm_tables.ivs_columns">0</DD_RECORD_LEN>
+			<DD_SYSTEM_REC id="ddm_tables.ivs_columns">N</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_tables.ivs_columns">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_tables.ivs_columns">AD </ASC_PROD_ID>
+			<ASC_VERSION_ID id="ddm_tables.ivs_columns">8.0</ASC_VERSION_ID>
+			<ASC_LICENSE_ID id="ddm_tables.ivs_columns">DDCF2B1FC7F379FE00EFD7BF82E445B9</ASC_LICENSE_ID>
+			<DD_EXPORT_DATA id="ddm_tables.ivs_columns">Y</DD_EXPORT_DATA>
+			<DD_CREATE_DATE id="ddm_tables.ivs_columns">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_tables.ivs_columns">20090325</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivs_columns">20090325</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivs_columns">090416</DD_LSTSYNC_TIME>
+			<DD_ATTR_FTYP id="ddm_tables.ivs_columns">T</DD_ATTR_FTYP>
+			<DD_ATTR_SLEV id="ddm_tables.ivs_columns">zzzz</DD_ATTR_SLEV>
+			<DD_ATTR_WINT id="ddm_tables.ivs_columns">Default Display Columns</DD_ATTR_WINT>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_LABL</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVS_COLUMNS     </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>001</DD_SEQUENCE>
-			<DD_CTRL_NAME>IVACT           </DD_CTRL_NAME>
-			<DD_ATTR_LABL>Inventory Activity Inquiry</DD_ATTR_LABL>
-			<DD_ATTR_TIND>4</DD_ATTR_TIND>
+	<ALIAS id="ddm_table_labl">
+		<ID id="ddm_table_labl">DDM_TABLE_LABL</ID>
+		<RECORD id="ddm_table_labl.ivs_columns001">
+			<DD_TABLE_ALIAS id="ddm_table_labl.ivs_columns001">IVS_COLUMNS     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_labl.ivs_columns001">001</DD_SEQUENCE>
+			<DD_CTRL_NAME id="ddm_table_labl.ivs_columns001">IVACT           </DD_CTRL_NAME>
+			<DD_ATTR_LABL id="ddm_table_labl.ivs_columns001">Inventory Activity Inquiry</DD_ATTR_LABL>
+			<DD_ATTR_TIND id="ddm_table_labl.ivs_columns001">4</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVS_COLUMNS     </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>002</DD_SEQUENCE>
-			<DD_CTRL_NAME>I1              </DD_CTRL_NAME>
-			<DD_ATTR_LABL>1</DD_ATTR_LABL>
-			<DD_ATTR_CTLX>-3</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY>-13</DD_ATTR_CTLY>
-			<DD_ATTR_TIND>8</DD_ATTR_TIND>
+		<RECORD id="ddm_table_labl.ivs_columns002">
+			<DD_TABLE_ALIAS id="ddm_table_labl.ivs_columns002">IVS_COLUMNS     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_labl.ivs_columns002">002</DD_SEQUENCE>
+			<DD_CTRL_NAME id="ddm_table_labl.ivs_columns002">I1              </DD_CTRL_NAME>
+			<DD_ATTR_LABL id="ddm_table_labl.ivs_columns002">1</DD_ATTR_LABL>
+			<DD_ATTR_CTLX id="ddm_table_labl.ivs_columns002">-3</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_labl.ivs_columns002">-13</DD_ATTR_CTLY>
+			<DD_ATTR_TIND id="ddm_table_labl.ivs_columns002">8</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVS_COLUMNS     </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>003</DD_SEQUENCE>
-			<DD_CTRL_NAME>I2              </DD_CTRL_NAME>
-			<DD_ATTR_LABL>2</DD_ATTR_LABL>
-			<DD_ATTR_TIND>9</DD_ATTR_TIND>
+		<RECORD id="ddm_table_labl.ivs_columns003">
+			<DD_TABLE_ALIAS id="ddm_table_labl.ivs_columns003">IVS_COLUMNS     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_labl.ivs_columns003">003</DD_SEQUENCE>
+			<DD_CTRL_NAME id="ddm_table_labl.ivs_columns003">I2              </DD_CTRL_NAME>
+			<DD_ATTR_LABL id="ddm_table_labl.ivs_columns003">2</DD_ATTR_LABL>
+			<DD_ATTR_TIND id="ddm_table_labl.ivs_columns003">9</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVS_COLUMNS     </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>004</DD_SEQUENCE>
-			<DD_CTRL_NAME>I3              </DD_CTRL_NAME>
-			<DD_ATTR_LABL>3</DD_ATTR_LABL>
-			<DD_ATTR_TIND>10</DD_ATTR_TIND>
+		<RECORD id="ddm_table_labl.ivs_columns004">
+			<DD_TABLE_ALIAS id="ddm_table_labl.ivs_columns004">IVS_COLUMNS     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_labl.ivs_columns004">004</DD_SEQUENCE>
+			<DD_CTRL_NAME id="ddm_table_labl.ivs_columns004">I3              </DD_CTRL_NAME>
+			<DD_ATTR_LABL id="ddm_table_labl.ivs_columns004">3</DD_ATTR_LABL>
+			<DD_ATTR_TIND id="ddm_table_labl.ivs_columns004">10</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVS_COLUMNS     </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>005</DD_SEQUENCE>
-			<DD_CTRL_NAME>I4              </DD_CTRL_NAME>
-			<DD_ATTR_LABL>4</DD_ATTR_LABL>
-			<DD_ATTR_TIND>11</DD_ATTR_TIND>
+		<RECORD id="ddm_table_labl.ivs_columns005">
+			<DD_TABLE_ALIAS id="ddm_table_labl.ivs_columns005">IVS_COLUMNS     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_labl.ivs_columns005">005</DD_SEQUENCE>
+			<DD_CTRL_NAME id="ddm_table_labl.ivs_columns005">I4              </DD_CTRL_NAME>
+			<DD_ATTR_LABL id="ddm_table_labl.ivs_columns005">4</DD_ATTR_LABL>
+			<DD_ATTR_TIND id="ddm_table_labl.ivs_columns005">11</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVS_COLUMNS     </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>006</DD_SEQUENCE>
-			<DD_CTRL_NAME>I5              </DD_CTRL_NAME>
-			<DD_ATTR_LABL>5</DD_ATTR_LABL>
-			<DD_ATTR_TIND>12</DD_ATTR_TIND>
+		<RECORD id="ddm_table_labl.ivs_columns006">
+			<DD_TABLE_ALIAS id="ddm_table_labl.ivs_columns006">IVS_COLUMNS     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_labl.ivs_columns006">006</DD_SEQUENCE>
+			<DD_CTRL_NAME id="ddm_table_labl.ivs_columns006">I5              </DD_CTRL_NAME>
+			<DD_ATTR_LABL id="ddm_table_labl.ivs_columns006">5</DD_ATTR_LABL>
+			<DD_ATTR_TIND id="ddm_table_labl.ivs_columns006">12</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVS_COLUMNS     </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>007</DD_SEQUENCE>
-			<DD_CTRL_NAME>I6              </DD_CTRL_NAME>
-			<DD_ATTR_LABL>6</DD_ATTR_LABL>
-			<DD_ATTR_TIND>13</DD_ATTR_TIND>
+		<RECORD id="ddm_table_labl.ivs_columns007">
+			<DD_TABLE_ALIAS id="ddm_table_labl.ivs_columns007">IVS_COLUMNS     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_labl.ivs_columns007">007</DD_SEQUENCE>
+			<DD_CTRL_NAME id="ddm_table_labl.ivs_columns007">I6              </DD_CTRL_NAME>
+			<DD_ATTR_LABL id="ddm_table_labl.ivs_columns007">6</DD_ATTR_LABL>
+			<DD_ATTR_TIND id="ddm_table_labl.ivs_columns007">13</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVS_COLUMNS     </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>008</DD_SEQUENCE>
-			<DD_CTRL_NAME>LACT            </DD_CTRL_NAME>
-			<DD_ATTR_LABL>Lot/Serial Activity Inquiry</DD_ATTR_LABL>
-			<DD_ATTR_TIND>6</DD_ATTR_TIND>
+		<RECORD id="ddm_table_labl.ivs_columns008">
+			<DD_TABLE_ALIAS id="ddm_table_labl.ivs_columns008">IVS_COLUMNS     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_labl.ivs_columns008">008</DD_SEQUENCE>
+			<DD_CTRL_NAME id="ddm_table_labl.ivs_columns008">LACT            </DD_CTRL_NAME>
+			<DD_ATTR_LABL id="ddm_table_labl.ivs_columns008">Lot/Serial Activity Inquiry</DD_ATTR_LABL>
+			<DD_ATTR_TIND id="ddm_table_labl.ivs_columns008">6</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVS_COLUMNS     </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>009</DD_SEQUENCE>
-			<DD_CTRL_NAME>L1              </DD_CTRL_NAME>
-			<DD_ATTR_LABL>1</DD_ATTR_LABL>
-			<DD_ATTR_CTLY>+1</DD_ATTR_CTLY>
-			<DD_ATTR_TIND>14</DD_ATTR_TIND>
+		<RECORD id="ddm_table_labl.ivs_columns009">
+			<DD_TABLE_ALIAS id="ddm_table_labl.ivs_columns009">IVS_COLUMNS     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_labl.ivs_columns009">009</DD_SEQUENCE>
+			<DD_CTRL_NAME id="ddm_table_labl.ivs_columns009">L1              </DD_CTRL_NAME>
+			<DD_ATTR_LABL id="ddm_table_labl.ivs_columns009">1</DD_ATTR_LABL>
+			<DD_ATTR_CTLY id="ddm_table_labl.ivs_columns009">+1</DD_ATTR_CTLY>
+			<DD_ATTR_TIND id="ddm_table_labl.ivs_columns009">14</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVS_COLUMNS     </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>010</DD_SEQUENCE>
-			<DD_CTRL_NAME>L2              </DD_CTRL_NAME>
-			<DD_ATTR_LABL>2</DD_ATTR_LABL>
-			<DD_ATTR_TIND>15</DD_ATTR_TIND>
+		<RECORD id="ddm_table_labl.ivs_columns010">
+			<DD_TABLE_ALIAS id="ddm_table_labl.ivs_columns010">IVS_COLUMNS     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_labl.ivs_columns010">010</DD_SEQUENCE>
+			<DD_CTRL_NAME id="ddm_table_labl.ivs_columns010">L2              </DD_CTRL_NAME>
+			<DD_ATTR_LABL id="ddm_table_labl.ivs_columns010">2</DD_ATTR_LABL>
+			<DD_ATTR_TIND id="ddm_table_labl.ivs_columns010">15</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVS_COLUMNS     </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>011</DD_SEQUENCE>
-			<DD_CTRL_NAME>L3              </DD_CTRL_NAME>
-			<DD_ATTR_LABL>3</DD_ATTR_LABL>
-			<DD_ATTR_TIND>16</DD_ATTR_TIND>
+		<RECORD id="ddm_table_labl.ivs_columns011">
+			<DD_TABLE_ALIAS id="ddm_table_labl.ivs_columns011">IVS_COLUMNS     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_labl.ivs_columns011">011</DD_SEQUENCE>
+			<DD_CTRL_NAME id="ddm_table_labl.ivs_columns011">L3              </DD_CTRL_NAME>
+			<DD_ATTR_LABL id="ddm_table_labl.ivs_columns011">3</DD_ATTR_LABL>
+			<DD_ATTR_TIND id="ddm_table_labl.ivs_columns011">16</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVS_COLUMNS     </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>012</DD_SEQUENCE>
-			<DD_CTRL_NAME>L4              </DD_CTRL_NAME>
-			<DD_ATTR_LABL>4</DD_ATTR_LABL>
-			<DD_ATTR_TIND>17</DD_ATTR_TIND>
+		<RECORD id="ddm_table_labl.ivs_columns012">
+			<DD_TABLE_ALIAS id="ddm_table_labl.ivs_columns012">IVS_COLUMNS     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_labl.ivs_columns012">012</DD_SEQUENCE>
+			<DD_CTRL_NAME id="ddm_table_labl.ivs_columns012">L4              </DD_CTRL_NAME>
+			<DD_ATTR_LABL id="ddm_table_labl.ivs_columns012">4</DD_ATTR_LABL>
+			<DD_ATTR_TIND id="ddm_table_labl.ivs_columns012">17</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVS_COLUMNS     </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>013</DD_SEQUENCE>
-			<DD_CTRL_NAME>L5              </DD_CTRL_NAME>
-			<DD_ATTR_LABL>5</DD_ATTR_LABL>
-			<DD_ATTR_TIND>18</DD_ATTR_TIND>
+		<RECORD id="ddm_table_labl.ivs_columns013">
+			<DD_TABLE_ALIAS id="ddm_table_labl.ivs_columns013">IVS_COLUMNS     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_labl.ivs_columns013">013</DD_SEQUENCE>
+			<DD_CTRL_NAME id="ddm_table_labl.ivs_columns013">L5              </DD_CTRL_NAME>
+			<DD_ATTR_LABL id="ddm_table_labl.ivs_columns013">5</DD_ATTR_LABL>
+			<DD_ATTR_TIND id="ddm_table_labl.ivs_columns013">18</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVS_COLUMNS     </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>014</DD_SEQUENCE>
-			<DD_CTRL_NAME>L6              </DD_CTRL_NAME>
-			<DD_ATTR_LABL>6</DD_ATTR_LABL>
-			<DD_ATTR_TIND>19</DD_ATTR_TIND>
+		<RECORD id="ddm_table_labl.ivs_columns014">
+			<DD_TABLE_ALIAS id="ddm_table_labl.ivs_columns014">IVS_COLUMNS     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_labl.ivs_columns014">014</DD_SEQUENCE>
+			<DD_CTRL_NAME id="ddm_table_labl.ivs_columns014">L6              </DD_CTRL_NAME>
+			<DD_ATTR_LABL id="ddm_table_labl.ivs_columns014">6</DD_ATTR_LABL>
+			<DD_ATTR_TIND id="ddm_table_labl.ivs_columns014">19</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVS_COLUMNS     </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>015</DD_SEQUENCE>
-			<DD_ATTR_TIND>20</DD_ATTR_TIND>
-		</RECORD>
-	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_TPLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVS_COLUMNS     </DD_TABLE_ALIAS>
-			<DD_TABLE_TPL>firm_id:c(2),iv:c(2),sequence_03:c(2*),inv_act_inq_01:c(3),inv_act_inq_02:c(3),inv_act_inq_03:c(3),inv_act_inq_04:c(3),inv_act_inq_05:c(3),inv_act_inq_06:c(3),inv_act_lot_01:c(3),inv_act_lot_02:c(3),inv_act_lot_03:c(3),inv_act_lot_04:c(3),inv_act_lot_05:c(3),inv_act_lot_06:c(3*)</DD_TABLE_TPL>
+		<RECORD id="ddm_table_labl.ivs_columns015">
+			<DD_TABLE_ALIAS id="ddm_table_labl.ivs_columns015">IVS_COLUMNS     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_labl.ivs_columns015">015</DD_SEQUENCE>
+			<DD_ATTR_TIND id="ddm_table_labl.ivs_columns015">20</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_KEYS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVS_COLUMNS     </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_KEY_DESC>Primary</DD_KEY_DESC>
-			<DD_KEY_ID>PRIMARY         </DD_KEY_ID>
+	<ALIAS id="ddm_table_tpls">
+		<ID id="ddm_table_tpls">DDM_TABLE_TPLS</ID>
+		<RECORD id="ddm_table_tpls.ivs_columns">
+			<DD_TABLE_ALIAS id="ddm_table_tpls.ivs_columns">IVS_COLUMNS     </DD_TABLE_ALIAS>
+			<DD_TABLE_TPL id="ddm_table_tpls.ivs_columns">firm_id:c(2),iv:c(2),sequence_03:c(2*),inv_act_inq_01:c(3),inv_act_inq_02:c(3),inv_act_inq_03:c(3),inv_act_inq_04:c(3),inv_act_inq_05:c(3),inv_act_inq_06:c(3),inv_act_lot_01:c(3),inv_act_lot_02:c(3),inv_act_lot_03:c(3),inv_act_lot_04:c(3),inv_act_lot_05:c(3),inv_act_lot_06:c(3*)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_KEY_SEGS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVS_COLUMNS     </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>01</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>FIRM_ID         </DD_SEGMENT_COL>
-			<DD_SEGMENT_POS>0</DD_SEGMENT_POS>
-			<DD_SEGMENT_OFF>0</DD_SEGMENT_OFF>
-			<DD_SEGMENT_LEN>0</DD_SEGMENT_LEN>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVS_COLUMNS     </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>02</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>IV              </DD_SEGMENT_COL>
-			<DD_SEGMENT_POS>0</DD_SEGMENT_POS>
-			<DD_SEGMENT_OFF>0</DD_SEGMENT_OFF>
-			<DD_SEGMENT_LEN>0</DD_SEGMENT_LEN>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVS_COLUMNS     </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER>00</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ>03</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL>SEQUENCE_03     </DD_SEGMENT_COL>
-			<DD_SEGMENT_POS>0</DD_SEGMENT_POS>
-			<DD_SEGMENT_OFF>0</DD_SEGMENT_OFF>
-			<DD_SEGMENT_LEN>0</DD_SEGMENT_LEN>
+	<ALIAS id="ddm_keys">
+		<ID id="ddm_keys">DDM_KEYS</ID>
+		<RECORD id="ddm_keys.ivs_columns00">
+			<DD_TABLE_ALIAS id="ddm_keys.ivs_columns00">IVS_COLUMNS     </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_keys.ivs_columns00">00</DD_KEY_NUMBER>
+			<DD_KEY_DESC id="ddm_keys.ivs_columns00">Primary</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.ivs_columns00">PRIMARY         </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_TABLE_COLS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVS_COLUMNS     </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>001</DD_SEQUENCE>
-			<DD_DATA_NAME>FIRM_ID         </DD_DATA_NAME>
-			<DD_DVAR_NAME>FIRM_ID         </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL>2</DD_ATTR_MAXL>
-			<DD_ATTR_PROM>Firm ID</DD_ATTR_PROM>
-			<DD_ATTR_TIND>1</DD_ATTR_TIND>
+	<ALIAS id="ddm_key_segs">
+		<ID id="ddm_key_segs">DDM_KEY_SEGS</ID>
+		<RECORD id="ddm_key_segs.ivs_columns0001">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ivs_columns0001">IVS_COLUMNS     </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ivs_columns0001">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ivs_columns0001">01</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ivs_columns0001">FIRM_ID         </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ivs_columns0001">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ivs_columns0001">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ivs_columns0001">0</DD_SEGMENT_LEN>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVS_COLUMNS     </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>002</DD_SEQUENCE>
-			<DD_DATA_NAME>IV              </DD_DATA_NAME>
-			<DD_DVAR_NAME>IV              </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL>2</DD_ATTR_MAXL>
-			<DD_ATTR_PROM>"IV"</DD_ATTR_PROM>
-			<DD_ATTR_TIND>2</DD_ATTR_TIND>
+		<RECORD id="ddm_key_segs.ivs_columns0002">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ivs_columns0002">IVS_COLUMNS     </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ivs_columns0002">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ivs_columns0002">02</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ivs_columns0002">IV              </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ivs_columns0002">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ivs_columns0002">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ivs_columns0002">0</DD_SEGMENT_LEN>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVS_COLUMNS     </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>003</DD_SEQUENCE>
-			<DD_DATA_NAME>SEQUENCE_03     </DD_DATA_NAME>
-			<DD_DVAR_NAME>SEQUENCE_03     </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>0</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL>2</DD_ATTR_MAXL>
-			<DD_ATTR_PROM>"03"</DD_ATTR_PROM>
-			<DD_ATTR_TIND>3</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVS_COLUMNS     </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>004</DD_SEQUENCE>
-			<DD_DATA_NAME>INV_ACT_COLS    </DD_DATA_NAME>
-			<DD_DVAR_NAME>INV_ACT_INQ     </DD_DVAR_NAME>
-			<DD_COL_OCCURS>6</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>N</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_MAXL>3</DD_ATTR_MAXL>
-			<DD_ATTR_PROM>Inventory Activity Column Type</DD_ATTR_PROM>
-			<DD_ATTR_TIND>5</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVS_COLUMNS     </DD_TABLE_ALIAS>
-			<DD_SEQUENCE>005</DD_SEQUENCE>
-			<DD_DATA_NAME>INV_ACT_COLS    </DD_DATA_NAME>
-			<DD_DVAR_NAME>INV_ACT_LOT     </DD_DVAR_NAME>
-			<DD_COL_REPEATS>0</DD_COL_REPEATS>
-			<DD_COL_OCCURS>6</DD_COL_OCCURS>
-			<DD_FIELD_DELIM>E</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR>0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE>20071221</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20071221</DD_LSTREV_DATE>
-			<DD_ATTR_CTLX>0</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY>0</DD_ATTR_CTLY>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_MLAN>N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL>3</DD_ATTR_MAXL>
-			<DD_ATTR_TIND>7</DD_ATTR_TIND>
+		<RECORD id="ddm_key_segs.ivs_columns0003">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ivs_columns0003">IVS_COLUMNS     </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ivs_columns0003">00</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ivs_columns0003">03</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ivs_columns0003">SEQUENCE_03     </DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ivs_columns0003">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ivs_columns0003">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ivs_columns0003">0</DD_SEGMENT_LEN>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_COLUMN_OPTS</ID>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVS_COLUMNS     </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>FIRM_ID         </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>O</DD_ATTR_OPTS>
+	<ALIAS id="ddm_table_cols">
+		<ID id="ddm_table_cols">DDM_TABLE_COLS</ID>
+		<RECORD id="ddm_table_cols.ivs_columns001">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ivs_columns001">IVS_COLUMNS     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ivs_columns001">001</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ivs_columns001">FIRM_ID         </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ivs_columns001">FIRM_ID         </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ivs_columns001">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ivs_columns001">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ivs_columns001">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.ivs_columns001">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ivs_columns001">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ivs_columns001">2</DD_ATTR_MAXL>
+			<DD_ATTR_PROM id="ddm_table_cols.ivs_columns001">Firm ID</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ivs_columns001">1</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVS_COLUMNS     </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>IV              </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>O</DD_ATTR_OPTS>
+		<RECORD id="ddm_table_cols.ivs_columns002">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ivs_columns002">IVS_COLUMNS     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ivs_columns002">002</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ivs_columns002">IV              </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ivs_columns002">IV              </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ivs_columns002">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ivs_columns002">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ivs_columns002">N</DD_FIELD_DELIM>
+			<DD_CREATE_DATE id="ddm_table_cols.ivs_columns002">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ivs_columns002">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ivs_columns002">2</DD_ATTR_MAXL>
+			<DD_ATTR_PROM id="ddm_table_cols.ivs_columns002">"IV"</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ivs_columns002">2</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVS_COLUMNS     </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>SEQUENCE_03     </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>O</DD_ATTR_OPTS>
+		<RECORD id="ddm_table_cols.ivs_columns003">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ivs_columns003">IVS_COLUMNS     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ivs_columns003">003</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ivs_columns003">SEQUENCE_03     </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ivs_columns003">SEQUENCE_03     </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ivs_columns003">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ivs_columns003">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ivs_columns003">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.ivs_columns003">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.ivs_columns003">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ivs_columns003">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.ivs_columns003">2</DD_ATTR_MAXL>
+			<DD_ATTR_PROM id="ddm_table_cols.ivs_columns003">"03"</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ivs_columns003">3</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVS_COLUMNS     </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>INV_ACT_INQ     </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>L</DD_ATTR_OPTS>
+		<RECORD id="ddm_table_cols.ivs_columns004">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ivs_columns004">IVS_COLUMNS     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ivs_columns004">004</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ivs_columns004">INV_ACT_COLS    </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ivs_columns004">INV_ACT_INQ     </DD_DVAR_NAME>
+			<DD_COL_OCCURS id="ddm_table_cols.ivs_columns004">6</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ivs_columns004">N</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.ivs_columns004">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.ivs_columns004">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ivs_columns004">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.ivs_columns004">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.ivs_columns004">0</DD_ATTR_CTLH>
+			<DD_ATTR_MAXL id="ddm_table_cols.ivs_columns004">3</DD_ATTR_MAXL>
+			<DD_ATTR_PROM id="ddm_table_cols.ivs_columns004">Inventory Activity Column Type</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.ivs_columns004">5</DD_ATTR_TIND>
 		</RECORD>
-		<RECORD>
-			<DD_TABLE_ALIAS>IVS_COLUMNS     </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME>INV_ACT_LOT     </DD_DVAR_NAME>
-			<DD_ATTR_OPTS>L</DD_ATTR_OPTS>
-		</RECORD>
-	</ALIAS>
-	<ALIAS>
-		<ID>DDM_ELEMENTS</ID>
-		<RECORD>
-			<DD_DATA_NAME>FIRM_ID         </DD_DATA_NAME>
-			<DD_DESCRIPTION>Firm ID</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>2</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<DD_SYSTEM_REC>Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>BAR</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060425</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>H</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Firm ID</DD_ATTR_LABL>
-			<DD_ATTR_LABS>Firm ID</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>00</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>00</DD_ATTR_MSKO>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>R</DD_ATTR_PADJ>
-			<DD_ATTR_PVAL>stbl("+FIRM_ID")</DD_ATTR_PVAL>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>IV              </DD_DATA_NAME>
-			<DD_DESCRIPTION>"IV"</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>2</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060623</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>IV</DD_ATTR_LABL>
-			<DD_ATTR_LABS>IV</DD_ATTR_LABS>
-			<DD_ATTR_PVAL>"IV"</DD_ATTR_PVAL>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>SEQUENCE_03     </DD_DATA_NAME>
-			<DD_DESCRIPTION>"03"</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>2</DD_DATA_LENGTH>
-			<DD_MASK_TYPE> </DD_MASK_TYPE>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20060623</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP>E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>3</DD_ATTR_LABL>
-			<DD_ATTR_LABS>3</DD_ATTR_LABS>
-			<DD_ATTR_MSKI>00</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO>00</DD_ATTR_MSKO>
-			<DD_ATTR_PADC>30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ>R</DD_ATTR_PADJ>
-			<DD_ATTR_PVAL>"03"</DD_ATTR_PVAL>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>INV_ACT_COLS    </DD_DATA_NAME>
-			<DD_DESCRIPTION>Inventory Activity Column Type</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>3</DD_DATA_LENGTH>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20071221</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_CTYP>L</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Inventory Activity Column Type</DD_ATTR_LABL>
-			<DD_ATTR_LABS>IV Act Col Type</DD_ATTR_LABS>
-			<DD_ATTR_MAXL>0</DD_ATTR_MAXL>
-			<DD_ATTR_MAXR>0</DD_ATTR_MAXR>
-			<DD_ATTR_MINL>0</DD_ATTR_MINL>
-			<DD_ATTR_PREC>0</DD_ATTR_PREC>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>INV_ACT_COLS    </DD_DATA_NAME>
-			<DD_DESCRIPTION>Inventory Activity Column Type</DD_DESCRIPTION>
-			<DD_DATA_TYPE>C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH>3</DD_DATA_LENGTH>
-			<ASC_COMP_ID>01007514</ASC_COMP_ID>
-			<ASC_PROD_ID>AON</ASC_PROD_ID>
-			<DD_CREATE_DATE>20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE>20071221</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW>0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH>0</DD_ATTR_CTLH>
-			<DD_ATTR_CTYP>L</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM>            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP>            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL>Inventory Activity Column Type</DD_ATTR_LABL>
-			<DD_ATTR_LABS>IV Act Col Type</DD_ATTR_LABS>
-			<DD_ATTR_MAXL>0</DD_ATTR_MAXL>
-			<DD_ATTR_MAXR>0</DD_ATTR_MAXR>
-			<DD_ATTR_MINL>0</DD_ATTR_MINL>
-			<DD_ATTR_PREC>0</DD_ATTR_PREC>
+		<RECORD id="ddm_table_cols.ivs_columns005">
+			<DD_TABLE_ALIAS id="ddm_table_cols.ivs_columns005">IVS_COLUMNS     </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.ivs_columns005">005</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.ivs_columns005">INV_ACT_COLS    </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.ivs_columns005">INV_ACT_LOT     </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.ivs_columns005">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.ivs_columns005">6</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.ivs_columns005">E</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.ivs_columns005">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.ivs_columns005">20071221</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.ivs_columns005">20071221</DD_LSTREV_DATE>
+			<DD_ATTR_CTLX id="ddm_table_cols.ivs_columns005">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_cols.ivs_columns005">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_cols.ivs_columns005">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.ivs_columns005">0</DD_ATTR_CTLH>
+			<DD_ATTR_MLAN id="ddm_table_cols.ivs_columns005">N</DD_ATTR_MLAN>
+			<DD_ATTR_MAXL id="ddm_table_cols.ivs_columns005">3</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.ivs_columns005">7</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
-	<ALIAS>
-		<ID>DDM_ELEMENT_LDAT</ID>
-		<RECORD>
-			<DD_DATA_NAME>INV_ACT_COLS    </DD_DATA_NAME>
-			<DD_ATTR_SEQ>01</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>REC </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Quantity Received</DD_ATTR_LDAT_DS>
+	<ALIAS id="ddm_column_opts">
+		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
+		<RECORD id="ddm_column_opts.ivs_columnsfirm_ido">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivs_columnsfirm_ido">IVS_COLUMNS     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivs_columnsfirm_ido">FIRM_ID         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivs_columnsfirm_ido">O</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>INV_ACT_COLS    </DD_DATA_NAME>
-			<DD_ATTR_SEQ>02</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>BLT </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Quantity Built</DD_ATTR_LDAT_DS>
+		<RECORD id="ddm_column_opts.ivs_columnsivo">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivs_columnsivo">IVS_COLUMNS     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivs_columnsivo">IV              </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivs_columnsivo">O</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>INV_ACT_COLS    </DD_DATA_NAME>
-			<DD_ATTR_SEQ>03</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>SLD </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Quantity Sold</DD_ATTR_LDAT_DS>
+		<RECORD id="ddm_column_opts.ivs_columnssequence_03o">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivs_columnssequence_03o">IVS_COLUMNS     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivs_columnssequence_03o">SEQUENCE_03     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivs_columnssequence_03o">O</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>INV_ACT_COLS    </DD_DATA_NAME>
-			<DD_ATTR_SEQ>04</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>ISS </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Quantity Issued</DD_ATTR_LDAT_DS>
+		<RECORD id="ddm_column_opts.ivs_columnsinv_act_inql">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivs_columnsinv_act_inql">IVS_COLUMNS     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivs_columnsinv_act_inql">INV_ACT_INQ     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivs_columnsinv_act_inql">L</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>INV_ACT_COLS    </DD_DATA_NAME>
-			<DD_ATTR_SEQ>05</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>ADJ </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Adjustment Quantity</DD_ATTR_LDAT_DS>
+		<RECORD id="ddm_column_opts.ivs_columnsinv_act_lotl">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivs_columnsinv_act_lotl">IVS_COLUMNS     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivs_columnsinv_act_lotl">INV_ACT_LOT     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivs_columnsinv_act_lotl">L</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>INV_ACT_COLS    </DD_DATA_NAME>
-			<DD_ATTR_SEQ>06</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>XFI </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Quantity Transferred In</DD_ATTR_LDAT_DS>
+	</ALIAS>
+	<ALIAS id="ddm_elements">
+		<ID id="ddm_elements">DDM_ELEMENTS</ID>
+		<RECORD id="ddm_elements.firm_id">
+			<DD_DATA_NAME id="ddm_elements.firm_id">FIRM_ID         </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.firm_id">Firm ID</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.firm_id">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.firm_id">2</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.firm_id"> </DD_MASK_TYPE>
+			<DD_SYSTEM_REC id="ddm_elements.firm_id">Y</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.firm_id">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.firm_id">BAR</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.firm_id">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.firm_id">20060425</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.firm_id">H</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.firm_id">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.firm_id">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABS>
+			<DD_ATTR_MSKI id="ddm_elements.firm_id">00</DD_ATTR_MSKI>
+			<DD_ATTR_MSKO id="ddm_elements.firm_id">00</DD_ATTR_MSKO>
+			<DD_ATTR_PADC id="ddm_elements.firm_id">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.firm_id">R</DD_ATTR_PADJ>
+			<DD_ATTR_PVAL id="ddm_elements.firm_id">stbl("+FIRM_ID")</DD_ATTR_PVAL>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>INV_ACT_COLS    </DD_DATA_NAME>
-			<DD_ATTR_SEQ>07</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>XFO </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Quantity Transferred Out</DD_ATTR_LDAT_DS>
+		<RECORD id="ddm_elements.iv">
+			<DD_DATA_NAME id="ddm_elements.iv">IV              </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.iv">"IV"</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.iv">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.iv">2</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.iv"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.iv">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.iv">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.iv">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.iv">20060623</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.iv">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.iv">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.iv">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.iv">IV</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.iv">IV</DD_ATTR_LABS>
+			<DD_ATTR_PVAL id="ddm_elements.iv">"IV"</DD_ATTR_PVAL>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>INV_ACT_COLS    </DD_DATA_NAME>
-			<DD_ATTR_SEQ>08</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>RET </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Quantity Returned</DD_ATTR_LDAT_DS>
+		<RECORD id="ddm_elements.sequence_03">
+			<DD_DATA_NAME id="ddm_elements.sequence_03">SEQUENCE_03     </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.sequence_03">"03"</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.sequence_03">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.sequence_03">2</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.sequence_03"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.sequence_03">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.sequence_03">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.sequence_03">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.sequence_03">20060623</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.sequence_03">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.sequence_03">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.sequence_03">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.sequence_03">3</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.sequence_03">3</DD_ATTR_LABS>
+			<DD_ATTR_MSKI id="ddm_elements.sequence_03">00</DD_ATTR_MSKI>
+			<DD_ATTR_MSKO id="ddm_elements.sequence_03">00</DD_ATTR_MSKO>
+			<DD_ATTR_PADC id="ddm_elements.sequence_03">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.sequence_03">R</DD_ATTR_PADJ>
+			<DD_ATTR_PVAL id="ddm_elements.sequence_03">"03"</DD_ATTR_PVAL>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>INV_ACT_COLS    </DD_DATA_NAME>
-			<DD_ATTR_SEQ>09</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>END </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Ending Balance</DD_ATTR_LDAT_DS>
+		<RECORD id="ddm_elements.inv_act_cols">
+			<DD_DATA_NAME id="ddm_elements.inv_act_cols">INV_ACT_COLS    </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.inv_act_cols">Inventory Activity Column Type</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.inv_act_cols">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.inv_act_cols">3</DD_DATA_LENGTH>
+			<ASC_COMP_ID id="ddm_elements.inv_act_cols">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.inv_act_cols">AON</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.inv_act_cols">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.inv_act_cols">20071221</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.inv_act_cols">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.inv_act_cols">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.inv_act_cols">L</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.inv_act_cols">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.inv_act_cols">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.inv_act_cols">Inventory Activity Column Type</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.inv_act_cols">IV Act Col Type</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.inv_act_cols">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.inv_act_cols">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.inv_act_cols">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.inv_act_cols">0</DD_ATTR_PREC>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>INV_ACT_COLS    </DD_DATA_NAME>
-			<DD_ATTR_SEQ>10</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>BEG </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Beginning Balance</DD_ATTR_LDAT_DS>
+	</ALIAS>
+	<ALIAS id="ddm_element_ldat">
+		<ID id="ddm_element_ldat">DDM_ELEMENT_LDAT</ID>
+		<RECORD id="ddm_element_ldat.inv_act_cols01">
+			<DD_DATA_NAME id="ddm_element_ldat.inv_act_cols01">INV_ACT_COLS    </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.inv_act_cols01">01</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.inv_act_cols01">REC </DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.inv_act_cols01">Quantity Received</DD_ATTR_LDAT_DS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>INV_ACT_COLS    </DD_DATA_NAME>
-			<DD_ATTR_SEQ>11</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>IN  </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Quantity Received and Built</DD_ATTR_LDAT_DS>
+		<RECORD id="ddm_element_ldat.inv_act_cols02">
+			<DD_DATA_NAME id="ddm_element_ldat.inv_act_cols02">INV_ACT_COLS    </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.inv_act_cols02">02</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.inv_act_cols02">BLT </DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.inv_act_cols02">Quantity Built</DD_ATTR_LDAT_DS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>INV_ACT_COLS    </DD_DATA_NAME>
-			<DD_ATTR_SEQ>12</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>OUT </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Quantity Sold and Issued</DD_ATTR_LDAT_DS>
+		<RECORD id="ddm_element_ldat.inv_act_cols03">
+			<DD_DATA_NAME id="ddm_element_ldat.inv_act_cols03">INV_ACT_COLS    </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.inv_act_cols03">03</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.inv_act_cols03">SLD </DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.inv_act_cols03">Quantity Sold</DD_ATTR_LDAT_DS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>INV_ACT_COLS    </DD_DATA_NAME>
-			<DD_ATTR_SEQ>13</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>USE </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Ending Balance - Beginning</DD_ATTR_LDAT_DS>
+		<RECORD id="ddm_element_ldat.inv_act_cols04">
+			<DD_DATA_NAME id="ddm_element_ldat.inv_act_cols04">INV_ACT_COLS    </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.inv_act_cols04">04</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.inv_act_cols04">ISS </DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.inv_act_cols04">Quantity Issued</DD_ATTR_LDAT_DS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>INV_ACT_COLS    </DD_DATA_NAME>
-			<DD_ATTR_SEQ>14</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>XFR </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Net Quantity Transferred</DD_ATTR_LDAT_DS>
+		<RECORD id="ddm_element_ldat.inv_act_cols05">
+			<DD_DATA_NAME id="ddm_element_ldat.inv_act_cols05">INV_ACT_COLS    </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.inv_act_cols05">05</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.inv_act_cols05">ADJ </DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.inv_act_cols05">Adjustment Quantity</DD_ATTR_LDAT_DS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>INV_ACT_COLS    </DD_DATA_NAME>
-			<DD_ATTR_SEQ>15</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>OTH </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Adjustment Quantity + Returns</DD_ATTR_LDAT_DS>
+		<RECORD id="ddm_element_ldat.inv_act_cols06">
+			<DD_DATA_NAME id="ddm_element_ldat.inv_act_cols06">INV_ACT_COLS    </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.inv_act_cols06">06</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.inv_act_cols06">XFI </DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.inv_act_cols06">Quantity Transferred In</DD_ATTR_LDAT_DS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>INV_ACT_COLS    </DD_DATA_NAME>
-			<DD_ATTR_SEQ>01</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>REC </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Quantity Received</DD_ATTR_LDAT_DS>
+		<RECORD id="ddm_element_ldat.inv_act_cols07">
+			<DD_DATA_NAME id="ddm_element_ldat.inv_act_cols07">INV_ACT_COLS    </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.inv_act_cols07">07</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.inv_act_cols07">XFO </DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.inv_act_cols07">Quantity Transferred Out</DD_ATTR_LDAT_DS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>INV_ACT_COLS    </DD_DATA_NAME>
-			<DD_ATTR_SEQ>02</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>BLT </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Quantity Built</DD_ATTR_LDAT_DS>
+		<RECORD id="ddm_element_ldat.inv_act_cols08">
+			<DD_DATA_NAME id="ddm_element_ldat.inv_act_cols08">INV_ACT_COLS    </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.inv_act_cols08">08</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.inv_act_cols08">RET </DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.inv_act_cols08">Quantity Returned</DD_ATTR_LDAT_DS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>INV_ACT_COLS    </DD_DATA_NAME>
-			<DD_ATTR_SEQ>03</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>SLD </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Quantity Sold</DD_ATTR_LDAT_DS>
+		<RECORD id="ddm_element_ldat.inv_act_cols09">
+			<DD_DATA_NAME id="ddm_element_ldat.inv_act_cols09">INV_ACT_COLS    </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.inv_act_cols09">09</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.inv_act_cols09">END </DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.inv_act_cols09">Ending Balance</DD_ATTR_LDAT_DS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>INV_ACT_COLS    </DD_DATA_NAME>
-			<DD_ATTR_SEQ>04</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>ISS </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Quantity Issued</DD_ATTR_LDAT_DS>
+		<RECORD id="ddm_element_ldat.inv_act_cols10">
+			<DD_DATA_NAME id="ddm_element_ldat.inv_act_cols10">INV_ACT_COLS    </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.inv_act_cols10">10</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.inv_act_cols10">BEG </DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.inv_act_cols10">Beginning Balance</DD_ATTR_LDAT_DS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>INV_ACT_COLS    </DD_DATA_NAME>
-			<DD_ATTR_SEQ>05</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>ADJ </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Adjustment Quantity</DD_ATTR_LDAT_DS>
+		<RECORD id="ddm_element_ldat.inv_act_cols11">
+			<DD_DATA_NAME id="ddm_element_ldat.inv_act_cols11">INV_ACT_COLS    </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.inv_act_cols11">11</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.inv_act_cols11">IN  </DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.inv_act_cols11">Quantity Received and Built</DD_ATTR_LDAT_DS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>INV_ACT_COLS    </DD_DATA_NAME>
-			<DD_ATTR_SEQ>06</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>XFI </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Quantity Transferred In</DD_ATTR_LDAT_DS>
+		<RECORD id="ddm_element_ldat.inv_act_cols12">
+			<DD_DATA_NAME id="ddm_element_ldat.inv_act_cols12">INV_ACT_COLS    </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.inv_act_cols12">12</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.inv_act_cols12">OUT </DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.inv_act_cols12">Quantity Sold and Issued</DD_ATTR_LDAT_DS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>INV_ACT_COLS    </DD_DATA_NAME>
-			<DD_ATTR_SEQ>07</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>XFO </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Quantity Transferred Out</DD_ATTR_LDAT_DS>
+		<RECORD id="ddm_element_ldat.inv_act_cols13">
+			<DD_DATA_NAME id="ddm_element_ldat.inv_act_cols13">INV_ACT_COLS    </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.inv_act_cols13">13</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.inv_act_cols13">USE </DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.inv_act_cols13">Ending Balance - Beginning</DD_ATTR_LDAT_DS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>INV_ACT_COLS    </DD_DATA_NAME>
-			<DD_ATTR_SEQ>08</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>RET </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Quantity Returned</DD_ATTR_LDAT_DS>
+		<RECORD id="ddm_element_ldat.inv_act_cols14">
+			<DD_DATA_NAME id="ddm_element_ldat.inv_act_cols14">INV_ACT_COLS    </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.inv_act_cols14">14</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.inv_act_cols14">XFR </DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.inv_act_cols14">Net Quantity Transferred</DD_ATTR_LDAT_DS>
 		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>INV_ACT_COLS    </DD_DATA_NAME>
-			<DD_ATTR_SEQ>09</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>END </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Ending Balance</DD_ATTR_LDAT_DS>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>INV_ACT_COLS    </DD_DATA_NAME>
-			<DD_ATTR_SEQ>10</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>BEG </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Beginning Balance</DD_ATTR_LDAT_DS>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>INV_ACT_COLS    </DD_DATA_NAME>
-			<DD_ATTR_SEQ>11</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>IN  </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Quantity Received and Built</DD_ATTR_LDAT_DS>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>INV_ACT_COLS    </DD_DATA_NAME>
-			<DD_ATTR_SEQ>12</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>OUT </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Quantity Sold and Issued</DD_ATTR_LDAT_DS>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>INV_ACT_COLS    </DD_DATA_NAME>
-			<DD_ATTR_SEQ>13</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>USE </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Ending Balance - Beginning</DD_ATTR_LDAT_DS>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>INV_ACT_COLS    </DD_DATA_NAME>
-			<DD_ATTR_SEQ>14</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>XFR </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Net Quantity Transferred</DD_ATTR_LDAT_DS>
-		</RECORD>
-		<RECORD>
-			<DD_DATA_NAME>INV_ACT_COLS    </DD_DATA_NAME>
-			<DD_ATTR_SEQ>15</DD_ATTR_SEQ>
-			<DD_ATTR_LDAT>OTH </DD_ATTR_LDAT>
-			<DD_ATTR_LDAT_DS>Adjustment Quantity + Returns</DD_ATTR_LDAT_DS>
+		<RECORD id="ddm_element_ldat.inv_act_cols15">
+			<DD_DATA_NAME id="ddm_element_ldat.inv_act_cols15">INV_ACT_COLS    </DD_DATA_NAME>
+			<DD_ATTR_SEQ id="ddm_element_ldat.inv_act_cols15">15</DD_ATTR_SEQ>
+			<DD_ATTR_LDAT id="ddm_element_ldat.inv_act_cols15">OTH </DD_ATTR_LDAT>
+			<DD_ATTR_LDAT_DS id="ddm_element_ldat.inv_act_cols15">Adjustment Quantity + Returns</DD_ATTR_LDAT_DS>
 		</RECORD>
 	</ALIAS>
 </IVS_COLUMNS>
