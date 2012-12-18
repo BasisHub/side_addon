@@ -18,12 +18,28 @@
 			<ASC_LICENSE_ID id="ddm_tables.opt_invlsdet">4A6E70BD169A10AF1C83FACDC1AF16CF</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.opt_invlsdet">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.opt_invlsdet">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.opt_invlsdet">20090708</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.opt_invlsdet">20090709</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.opt_invlsdet">115940</DD_LSTSYNC_TIME>
-			<DD_ATTR_FTYP id="ddm_tables.opt_invlsdet">T</DD_ATTR_FTYP>
+			<DD_LSTREV_DATE id="ddm_tables.opt_invlsdet">20091123</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.opt_invlsdet">20091123</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.opt_invlsdet">124900</DD_LSTSYNC_TIME>
+			<DD_ATTR_FTYP id="ddm_tables.opt_invlsdet">G</DD_ATTR_FTYP>
+			<DD_ATTR_PTAB id="ddm_tables.opt_invlsdet">OPT_INVDET      </DD_ATTR_PTAB>
 			<DD_ATTR_SLEV id="ddm_tables.opt_invlsdet">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.opt_invlsdet">Lot/Serial Invoice History</DD_ATTR_WINT>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_opts">
+		<ID id="ddm_table_opts">DDM_TABLE_OPTS</ID>
+		<RECORD id="ddm_table_opts.opt_invlsdetb">
+			<DD_TABLE_ALIAS id="ddm_table_opts.opt_invlsdetb">OPT_INVLSDET    </DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.opt_invlsdetb">B</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_table_opts.opt_invlsdetd">
+			<DD_TABLE_ALIAS id="ddm_table_opts.opt_invlsdetd">OPT_INVLSDET    </DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.opt_invlsdetd">D</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_table_opts.opt_invlsdeti">
+			<DD_TABLE_ALIAS id="ddm_table_opts.opt_invlsdeti">OPT_INVLSDET    </DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.opt_invlsdeti">I</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_tpls">
@@ -112,7 +128,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.opt_invlsdet001">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.opt_invlsdet001">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.opt_invlsdet001">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.opt_invlsdet001">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.opt_invlsdet001">Firm ID</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.opt_invlsdet001">1</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.opt_invlsdet002">
 			<DD_TABLE_ALIAS id="ddm_table_cols.opt_invlsdet002">OPT_INVLSDET    </DD_TABLE_ALIAS>
@@ -125,7 +143,9 @@
 			<DD_CREATE_DATE id="ddm_table_cols.opt_invlsdet002">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.opt_invlsdet002">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_LABS id="ddm_table_cols.opt_invlsdet002">AR Type [N</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_table_cols.opt_invlsdet002">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.opt_invlsdet002">AR Type [Not Used]</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.opt_invlsdet002">2</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.opt_invlsdet003">
 			<DD_TABLE_ALIAS id="ddm_table_cols.opt_invlsdet003">OPT_INVLSDET    </DD_TABLE_ALIAS>
@@ -138,7 +158,9 @@
 			<DD_CREATE_DATE id="ddm_table_cols.opt_invlsdet003">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.opt_invlsdet003">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_LABS id="ddm_table_cols.opt_invlsdet003">Customer N</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_table_cols.opt_invlsdet003">6</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.opt_invlsdet003">Customer Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.opt_invlsdet003">3</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.opt_invlsdet004">
 			<DD_TABLE_ALIAS id="ddm_table_cols.opt_invlsdet004">OPT_INVLSDET    </DD_TABLE_ALIAS>
@@ -150,7 +172,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.opt_invlsdet004">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.opt_invlsdet004">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.opt_invlsdet004">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.opt_invlsdet004">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.opt_invlsdet004">AR Invoice Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.opt_invlsdet004">4</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.opt_invlsdet005">
 			<DD_TABLE_ALIAS id="ddm_table_cols.opt_invlsdet005">OPT_INVLSDET    </DD_TABLE_ALIAS>
@@ -162,7 +186,11 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.opt_invlsdet005">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.opt_invlsdet005">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.opt_invlsdet005">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.opt_invlsdet005">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.opt_invlsdet005">0</DD_ATTR_CTLH>
+			<DD_ATTR_MAXL id="ddm_table_cols.opt_invlsdet005">12</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.opt_invlsdet005">Detail Line Item Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.opt_invlsdet005">5</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.opt_invlsdet006">
 			<DD_TABLE_ALIAS id="ddm_table_cols.opt_invlsdet006">OPT_INVLSDET    </DD_TABLE_ALIAS>
@@ -175,7 +203,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.opt_invlsdet006">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.opt_invlsdet006">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.opt_invlsdet006">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.opt_invlsdet006">3</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.opt_invlsdet006">Sequence Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.opt_invlsdet006">6</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.opt_invlsdet007">
 			<DD_TABLE_ALIAS id="ddm_table_cols.opt_invlsdet007">OPT_INVLSDET    </DD_TABLE_ALIAS>
@@ -188,7 +218,12 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.opt_invlsdet007">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.opt_invlsdet007">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.opt_invlsdet007">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLX id="ddm_table_cols.opt_invlsdet007">-1</DD_ATTR_CTLX>
+			<DD_ATTR_CTLW id="ddm_table_cols.opt_invlsdet007">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.opt_invlsdet007">0</DD_ATTR_CTLH>
+			<DD_ATTR_MAXL id="ddm_table_cols.opt_invlsdet007">20</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.opt_invlsdet007">Lot/Serial Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.opt_invlsdet007">7</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.opt_invlsdet008">
 			<DD_TABLE_ALIAS id="ddm_table_cols.opt_invlsdet008">OPT_INVLSDET    </DD_TABLE_ALIAS>
@@ -201,7 +236,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.opt_invlsdet008">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.opt_invlsdet008">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.opt_invlsdet008">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.opt_invlsdet008">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.opt_invlsdet008">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.opt_invlsdet008">8</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.opt_invlsdet009">
 			<DD_TABLE_ALIAS id="ddm_table_cols.opt_invlsdet009">OPT_INVLSDET    </DD_TABLE_ALIAS>
@@ -214,7 +251,11 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.opt_invlsdet009">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.opt_invlsdet009">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.opt_invlsdet009">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.opt_invlsdet009">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.opt_invlsdet009">0</DD_ATTR_CTLH>
+			<DD_ATTR_MAXL id="ddm_table_cols.opt_invlsdet009">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.opt_invlsdet009">Quantity Ordered</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.opt_invlsdet009">9</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.opt_invlsdet010">
 			<DD_TABLE_ALIAS id="ddm_table_cols.opt_invlsdet010">OPT_INVLSDET    </DD_TABLE_ALIAS>
@@ -227,7 +268,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.opt_invlsdet010">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.opt_invlsdet010">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.opt_invlsdet010">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.opt_invlsdet010">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.opt_invlsdet010">Quantity Shipped</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.opt_invlsdet010">10</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.opt_invlsdet011">
 			<DD_TABLE_ALIAS id="ddm_table_cols.opt_invlsdet011">OPT_INVLSDET    </DD_TABLE_ALIAS>
@@ -240,7 +283,10 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.opt_invlsdet011">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.opt_invlsdet011">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.opt_invlsdet011">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.opt_invlsdet011">0</DD_ATTR_CTLW>
+			<DD_ATTR_MAXL id="ddm_table_cols.opt_invlsdet011">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.opt_invlsdet011">Unit Cost</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.opt_invlsdet011">11</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">
@@ -249,6 +295,46 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.opt_invlsdetfirm_ido">OPT_INVLSDET    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.opt_invlsdetfirm_ido">FIRM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.opt_invlsdetfirm_ido">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.opt_invlsdetcustomer_ido">
+			<DD_TABLE_ALIAS id="ddm_column_opts.opt_invlsdetcustomer_ido">OPT_INVLSDET    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.opt_invlsdetcustomer_ido">CUSTOMER_ID     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.opt_invlsdetcustomer_ido">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.opt_invlsdetar_inv_noo">
+			<DD_TABLE_ALIAS id="ddm_column_opts.opt_invlsdetar_inv_noo">OPT_INVLSDET    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.opt_invlsdetar_inv_noo">AR_INV_NO       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.opt_invlsdetar_inv_noo">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.opt_invlsdetorddet_seq_refo">
+			<DD_TABLE_ALIAS id="ddm_column_opts.opt_invlsdetorddet_seq_refo">OPT_INVLSDET    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.opt_invlsdetorddet_seq_refo">ORDDET_SEQ_REF  </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.opt_invlsdetorddet_seq_refo">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.opt_invlsdetsequence_noo">
+			<DD_TABLE_ALIAS id="ddm_column_opts.opt_invlsdetsequence_noo">OPT_INVLSDET    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.opt_invlsdetsequence_noo">SEQUENCE_NO     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.opt_invlsdetsequence_noo">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.opt_invlsdetlotser_noc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.opt_invlsdetlotser_noc">OPT_INVLSDET    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.opt_invlsdetlotser_noc">LOTSER_NO       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.opt_invlsdetlotser_noc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.opt_invlsdetqty_orderedc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.opt_invlsdetqty_orderedc">OPT_INVLSDET    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.opt_invlsdetqty_orderedc">QTY_ORDERED     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.opt_invlsdetqty_orderedc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.opt_invlsdetqty_shippedc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.opt_invlsdetqty_shippedc">OPT_INVLSDET    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.opt_invlsdetqty_shippedc">QTY_SHIPPED     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.opt_invlsdetqty_shippedc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.opt_invlsdetunit_costc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.opt_invlsdetunit_costc">OPT_INVLSDET    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.opt_invlsdetunit_costc">UNIT_COST       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.opt_invlsdetunit_costc">C</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">
