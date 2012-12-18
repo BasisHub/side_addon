@@ -19,9 +19,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.adm_procbatches">B64A0AE0F81D18410C282CF159A434C1</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.adm_procbatches">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.adm_procbatches">20070306</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.adm_procbatches">20100623</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.adm_procbatches">20110310</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.adm_procbatches">204336</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.adm_procbatches">20111227</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.adm_procbatches">20111227</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.adm_procbatches">144912</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.adm_procbatches">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.adm_procbatches">T</DD_ATTR_FTYP>
 			<DD_ATTR_IKEY id="ddm_tables.adm_procbatches">N</DD_ATTR_IKEY>
@@ -278,6 +278,7 @@
 			<DD_DVAR_NAME id="ddm_table_cols.adm_procbatches009">DESCRIPTION     </DD_DVAR_NAME>
 			<DD_FIELD_DELIM id="ddm_table_cols.adm_procbatches009">Y</DD_FIELD_DELIM>
 			<DD_DELIM_CHAR id="ddm_table_cols.adm_procbatches009">0A</DD_DELIM_CHAR>
+			<DD_ATTR_CPGM id="ddm_table_cols.adm_procbatches009">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.adm_procbatches009">240</DD_ATTR_CTLW>
 			<DD_ATTR_MAXL id="ddm_table_cols.adm_procbatches009">30</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.adm_procbatches009">4</DD_ATTR_TIND>
@@ -289,6 +290,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_cpro.adm_procbatchesbatch_noaval">ADM_PROCBATCHES </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_cpro.adm_procbatchesbatch_noaval">BATCH_NO        </DD_DVAR_NAME>
 			<DD_ATTR_CPRO id="ddm_column_cpro.adm_procbatchesbatch_noaval">AVAL</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_column_cpro.adm_procbatchesdescriptionbinp">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.adm_procbatchesdescriptionbinp">ADM_PROCBATCHES </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.adm_procbatchesdescriptionbinp">DESCRIPTION     </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.adm_procbatchesdescriptionbinp">BINP</DD_ATTR_CPRO>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">
@@ -322,11 +328,6 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.adm_procbatchesuser_idc">ADM_PROCBATCHES </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.adm_procbatchesuser_idc">USER_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.adm_procbatchesuser_idc">C</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD id="ddm_column_opts.adm_procbatchesuser_idh">
-			<DD_TABLE_ALIAS id="ddm_column_opts.adm_procbatchesuser_idh">ADM_PROCBATCHES </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.adm_procbatchesuser_idh">USER_ID         </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.adm_procbatchesuser_idh">H</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.adm_procbatchesdate_openeda">
 			<DD_TABLE_ALIAS id="ddm_column_opts.adm_procbatchesdate_openeda">ADM_PROCBATCHES </DD_TABLE_ALIAS>

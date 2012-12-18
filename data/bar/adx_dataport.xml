@@ -15,13 +15,13 @@
 			<RESTRICT_AUTOADD id="ddm_tables.adx_dataport">Y</RESTRICT_AUTOADD>
 			<ASC_COMP_ID id="ddm_tables.adx_dataport">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.adx_dataport">AD </ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.adx_dataport">11.0      </ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.adx_dataport">11.0</ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.adx_dataport">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.adx_dataport">20100121</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.adx_dataport">20111026</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.adx_dataport">20110425</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.adx_dataport">111458</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.adx_dataport">C:/aon_dev/aon/;</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.adx_dataport">20111205</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.adx_dataport">20111205</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.adx_dataport">221046</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.adx_dataport">C:/Apps/aon/;/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.adx_dataport">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.adx_dataport">[+DIR_PGM]DataPort_main.bbj</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.adx_dataport">Dataport Utility</DD_ATTR_WINT>
@@ -64,7 +64,7 @@
 		<ID id="ddm_table_tpls">DDM_TABLE_TPLS</ID>
 		<RECORD id="ddm_table_tpls.adx_dataport">
 			<DD_TABLE_ALIAS id="ddm_table_tpls.adx_dataport">ADX_DATAPORT    </DD_TABLE_ALIAS>
-			<DD_TABLE_TPL id="ddm_table_tpls.adx_dataport">addon_version:c(1*),source_dir:c(256*),target_dir:c(256*)</DD_TABLE_TPL>
+			<DD_TABLE_TPL id="ddm_table_tpls.adx_dataport">addon_version:c(1*),source_dir:c(256*),target_dir:c(256*),port_masks:c(1*)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_cols">
@@ -102,7 +102,7 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.adx_dataport002">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.adx_dataport002">20100121</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.adx_dataport002">20100121</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.adx_dataport002">C:/aon_dev/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.adx_dataport002">C:/Apps/aon/;/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_COLW id="ddm_table_cols.adx_dataport002">0</DD_ATTR_COLW>
 			<DD_ATTR_CTLX id="ddm_table_cols.adx_dataport002">0</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_cols.adx_dataport002">0</DD_ATTR_CTLY>
@@ -126,7 +126,7 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.adx_dataport003">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.adx_dataport003">20100121</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.adx_dataport003">20100121</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.adx_dataport003">C:/aon_dev/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.adx_dataport003">C:/Apps/aon/;/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_COLW id="ddm_table_cols.adx_dataport003">0</DD_ATTR_COLW>
 			<DD_ATTR_CTLX id="ddm_table_cols.adx_dataport003">0</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_cols.adx_dataport003">0</DD_ATTR_CTLY>
@@ -138,6 +138,27 @@
 			<DD_ATTR_MINL id="ddm_table_cols.adx_dataport003">1</DD_ATTR_MINL>
 			<DD_ATTR_MAXL id="ddm_table_cols.adx_dataport003">256</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.adx_dataport003">3</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.adx_dataport004">
+			<DD_TABLE_ALIAS id="ddm_table_cols.adx_dataport004">ADX_DATAPORT    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.adx_dataport004">004</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.adx_dataport004">YN_PROMPT       </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.adx_dataport004">PORT_MASKS      </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.adx_dataport004">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.adx_dataport004">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.adx_dataport004">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.adx_dataport004">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.adx_dataport004">20111202</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.adx_dataport004">20111202</DD_LSTREV_DATE>
+			<DD_ATTR_COLW id="ddm_table_cols.adx_dataport004">0</DD_ATTR_COLW>
+			<DD_ATTR_CTLX id="ddm_table_cols.adx_dataport004">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_cols.adx_dataport004">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_cols.adx_dataport004">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.adx_dataport004">0</DD_ATTR_CTLH>
+			<DD_ATTR_LABL id="ddm_table_cols.adx_dataport004">Convert Masks</DD_ATTR_LABL>
+			<DD_ATTR_MLAN id="ddm_table_cols.adx_dataport004">N</DD_ATTR_MLAN>
+			<DD_ATTR_MAXL id="ddm_table_cols.adx_dataport004">0</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.adx_dataport004">4</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_cpro">
@@ -198,6 +219,20 @@
 			<DD_ATTR_MINL id="ddm_elements.dir_browse">0</DD_ATTR_MINL>
 			<DD_ATTR_PREC id="ddm_elements.dir_browse">0</DD_ATTR_PREC>
 			<DD_ATTR_SDLG id="ddm_elements.dir_browse">D</DD_ATTR_SDLG>
+		</RECORD>
+		<RECORD id="ddm_elements.yn_prompt">
+			<DD_DATA_NAME id="ddm_elements.yn_prompt">YN_PROMPT       </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.yn_prompt">Yes/No Prompt</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.yn_prompt">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.yn_prompt">1</DD_DATA_LENGTH>
+			<DD_SYSTEM_REC id="ddm_elements.yn_prompt">N</DD_SYSTEM_REC>
+			<ASC_COMP_ID id="ddm_elements.yn_prompt">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.yn_prompt">AD </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.yn_prompt">20060418</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.yn_prompt">20060428</DD_LSTREV_DATE>
+			<DD_ATTR_CDAT id="ddm_elements.yn_prompt">Y;N</DD_ATTR_CDAT>
+			<DD_ATTR_CTYP id="ddm_elements.yn_prompt">C</DD_ATTR_CTYP>
+			<DD_ATTR_DFLT id="ddm_elements.yn_prompt">N</DD_ATTR_DFLT>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_element_ldat">

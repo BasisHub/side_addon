@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.bme_order">1A347E66EF3C8DE50EF031D0F5EFE7EF</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.bme_order">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.bme_order">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.bme_order">20110728</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.bme_order">20110728</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.bme_order">223616</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.bme_order">20111128</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.bme_order">20111128</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.bme_order">224450</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.bme_order">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.bme_order">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.bme_order">zzzz</DD_ATTR_SLEV>
@@ -29,6 +29,14 @@
 	</ALIAS>
 	<ALIAS id="ddm_table_cpro">
 		<ID id="ddm_table_cpro">DDM_TABLE_CPRO</ID>
+		<RECORD id="ddm_table_cpro.bme_orderarar">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.bme_orderarar">BME_ORDER       </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.bme_orderarar">ARAR</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_table_cpro.bme_orderarec">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.bme_orderarec">BME_ORDER       </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.bme_orderarec">AREC</DD_ATTR_CPRO>
+		</RECORD>
 		<RECORD id="ddm_table_cpro.bme_orderbsho">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.bme_orderbsho">BME_ORDER       </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.bme_orderbsho">BSHO</DD_ATTR_CPRO>
@@ -166,9 +174,11 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.bme_order005">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.bme_order005">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.bme_order005">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.bme_order005">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.bme_order005">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.bme_order005">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.bme_order005">Reference</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.bme_order005">5</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.bme_order005">6</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.bme_order006">
 			<DD_TABLE_ALIAS id="ddm_table_cols.bme_order006">BME_ORDER       </DD_TABLE_ALIAS>
@@ -184,7 +194,23 @@
 			<DD_ATTR_DFLT id="ddm_table_cols.bme_order006">Y</DD_ATTR_DFLT>
 			<DD_ATTR_MAXL id="ddm_table_cols.bme_order006">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.bme_order006">Y=Add Finished Item To Inventory,  N=Relieve Components Only</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.bme_order006">6</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.bme_order006">7</DD_ATTR_TIND>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_disp">
+		<ID id="ddm_table_disp">DDM_TABLE_DISP</ID>
+		<RECORD id="ddm_table_disp.bme_order001">
+			<DD_TABLE_ALIAS id="ddm_table_disp.bme_order001">BME_ORDER       </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.bme_order001">001</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.bme_order001">CODE_DESC       </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.bme_order001">ORDER_DATE      </DD_CTRL_NAME>
+			<DD_ATTR_LABL id="ddm_table_disp.bme_order001">Order Date</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_table_disp.bme_order001">Order Date</DD_ATTR_LABS>
+			<DD_ATTR_CTLX id="ddm_table_disp.bme_order001">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.bme_order001">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.bme_order001">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.bme_order001">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.bme_order001">5</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_cpro">
@@ -216,6 +242,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.bme_orderorder_nou">BME_ORDER       </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.bme_orderorder_nou">ORDER_NO        </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.bme_orderorder_nou">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.bme_orderorder_datec">
+			<DD_TABLE_ALIAS id="ddm_column_opts.bme_orderorder_datec">BME_ORDER       </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.bme_orderorder_datec">ORDER_DATE      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.bme_orderorder_datec">C</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">
@@ -310,19 +341,26 @@
 		</RECORD>
 		<RECORD id="ddm_elements.bm_reference">
 			<DD_DATA_NAME id="ddm_elements.bm_reference">BM_REFERENCE    </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.bm_reference">Reference                     </DD_DESCRIPTION>
+			<DD_DESCRIPTION id="ddm_elements.bm_reference">Reference</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.bm_reference">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.bm_reference">7</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.bm_reference"> </DD_MASK_TYPE>
 			<ASC_COMP_ID id="ddm_elements.bm_reference">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_elements.bm_reference">BM </ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.bm_reference">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.bm_reference">20060119</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.bm_reference">20111114</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.bm_reference">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.bm_reference">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.bm_reference">E</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.bm_reference">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.bm_reference">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.bm_reference">Reference</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.bm_reference">Ref</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.bm_reference">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.bm_reference">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.bm_reference">0</DD_ATTR_MINL>
+			<DD_ATTR_PADC id="ddm_elements.bm_reference">20</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.bm_reference">L</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.bm_reference">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.update_flag">
 			<DD_DATA_NAME id="ddm_elements.update_flag">UPDATE_FLAG     </DD_DATA_NAME>
@@ -340,6 +378,22 @@
 			<DD_ATTR_DEXP id="ddm_elements.update_flag">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.update_flag">Update Flag</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.update_flag">Update Flag</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.code_desc">
+			<DD_DATA_NAME id="ddm_elements.code_desc">CODE_DESC       </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.code_desc">Code Description</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.code_desc">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.code_desc">20</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.code_desc"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.code_desc">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.code_desc">AD </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.code_desc">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.code_desc">20060428</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.code_desc">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.code_desc">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.code_desc">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.code_desc">Description</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.code_desc">Description</DD_ATTR_LABS>
 		</RECORD>
 	</ALIAS>
 </BME_ORDER>

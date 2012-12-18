@@ -19,10 +19,10 @@
 			<ASC_LICENSE_ID id="ddm_tables.adm_procmaster">3049CDE190EDA31F2875AC1BD90D36EC</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.adm_procmaster">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.adm_procmaster">20070305</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.adm_procmaster">20090729</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.adm_procmaster">20110310</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.adm_procmaster">204342</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.adm_procmaster">/dev_aon_test/apps/aon/;</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.adm_procmaster">20111222</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.adm_procmaster">20111222</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.adm_procmaster">221728</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.adm_procmaster">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.adm_procmaster">T</DD_ATTR_FTYP>
 			<DD_ATTR_WINT id="ddm_tables.adm_procmaster">Process Maintenance</DD_ATTR_WINT>
 		</RECORD>
@@ -232,11 +232,6 @@
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">
 		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
-		<RECORD id="ddm_column_opts.adm_procmasterbatch_entrya">
-			<DD_TABLE_ALIAS id="ddm_column_opts.adm_procmasterbatch_entrya">ADM_PROCMASTER  </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.adm_procmasterbatch_entrya">BATCH_ENTRY     </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.adm_procmasterbatch_entrya">A</DD_ATTR_OPTS>
-		</RECORD>
 		<RECORD id="ddm_column_opts.adm_procmasterallow_batcho">
 			<DD_TABLE_ALIAS id="ddm_column_opts.adm_procmasterallow_batcho">ADM_PROCMASTER  </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.adm_procmasterallow_batcho">ALLOW_BATCH     </DD_DVAR_NAME>

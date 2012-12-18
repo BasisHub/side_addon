@@ -19,9 +19,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.ivm_itemwhse">46A8D21149542FF2287ED5E9A98B817C</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ivm_itemwhse">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ivm_itemwhse">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ivm_itemwhse">20110809</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivm_itemwhse">20110809</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivm_itemwhse">151224</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ivm_itemwhse">20111128</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivm_itemwhse">20110810</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivm_itemwhse">094144</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ivm_itemwhse">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_DKNM id="ddm_tables.ivm_itemwhse">AO_ITEM_WH</DD_ATTR_DKNM>
 			<DD_ATTR_FTYP id="ddm_tables.ivm_itemwhse">T</DD_ATTR_FTYP>
@@ -1001,6 +1001,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ivm_itemwhse045">Y</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ivm_itemwhse045">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivm_itemwhse045">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLX id="ddm_table_cols.ivm_itemwhse045">-1</DD_ATTR_CTLX>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_itemwhse045">72</DD_ATTR_CTLW>
 			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemwhse045">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemwhse045">Landed Cost</DD_ATTR_PROM>
@@ -1445,10 +1446,10 @@
 			<DD_DVAR_NAME id="ddm_column_opts.ivm_itemwhsepri_priceg">PRI_PRICE       </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ivm_itemwhsepri_priceg">G</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD id="ddm_column_opts.ivm_itemwhseunit_costc">
-			<DD_TABLE_ALIAS id="ddm_column_opts.ivm_itemwhseunit_costc">IVM_ITEMWHSE    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.ivm_itemwhseunit_costc">UNIT_COST       </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.ivm_itemwhseunit_costc">C</DD_ATTR_OPTS>
+		<RECORD id="ddm_column_opts.ivm_itemwhseunit_costb">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivm_itemwhseunit_costb">IVM_ITEMWHSE    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivm_itemwhseunit_costb">UNIT_COST       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivm_itemwhseunit_costb">B</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.ivm_itemwhseavg_costb">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivm_itemwhseavg_costb">IVM_ITEMWHSE    </DD_TABLE_ALIAS>

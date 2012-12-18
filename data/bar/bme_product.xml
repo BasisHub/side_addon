@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.bme_product">EF3F5728B02C96799F1985D44AB1D4BE</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.bme_product">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.bme_product">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.bme_product">20110725</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.bme_product">20110725</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.bme_product">222418</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.bme_product">20111128</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.bme_product">20111128</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.bme_product">101004</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.bme_product">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.bme_product">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.bme_product">zzzz</DD_ATTR_SLEV>
@@ -32,6 +32,10 @@
 		<RECORD id="ddm_table_cpro.bme_productadis">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.bme_productadis">BME_PRODUCT     </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.bme_productadis">ADIS</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_table_cpro.bme_productarar">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.bme_productarar">BME_PRODUCT     </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.bme_productarar">ARAR</DD_ATTR_CPRO>
 		</RECORD>
 		<RECORD id="ddm_table_cpro.bme_productarec">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.bme_productarec">BME_PRODUCT     </DD_TABLE_ALIAS>
@@ -176,6 +180,8 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.bme_product004">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.bme_product004">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.bme_product004">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.bme_product004">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.bme_product004">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.bme_product004">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.bme_product004">Reference</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.bme_product004">4</DD_ATTR_TIND>
@@ -194,6 +200,7 @@
 			<DD_ATTR_CPGM id="ddm_table_cols.bme_product005">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_LABL id="ddm_table_cols.bme_product005">Bill/Item Number</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_table_cols.bme_product005">Bill/Item Number</DD_ATTR_LABS>
+			<DD_ATTR_MINL id="ddm_table_cols.bme_product005">1</DD_ATTR_MINL>
 			<DD_ATTR_MAXL id="ddm_table_cols.bme_product005">20</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.bme_product005">Inventory Item Number</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.bme_product005">5</DD_ATTR_TIND>
@@ -407,19 +414,26 @@
 		</RECORD>
 		<RECORD id="ddm_elements.bm_reference">
 			<DD_DATA_NAME id="ddm_elements.bm_reference">BM_REFERENCE    </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.bm_reference">Reference                     </DD_DESCRIPTION>
+			<DD_DESCRIPTION id="ddm_elements.bm_reference">Reference</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.bm_reference">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.bm_reference">7</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.bm_reference"> </DD_MASK_TYPE>
 			<ASC_COMP_ID id="ddm_elements.bm_reference">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_elements.bm_reference">BM </ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.bm_reference">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.bm_reference">20060119</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.bm_reference">20111114</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.bm_reference">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.bm_reference">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.bm_reference">E</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.bm_reference">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.bm_reference">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.bm_reference">Reference</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.bm_reference">Ref</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.bm_reference">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.bm_reference">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.bm_reference">0</DD_ATTR_MINL>
+			<DD_ATTR_PADC id="ddm_elements.bm_reference">20</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.bm_reference">L</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.bm_reference">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.item_id">
 			<DD_DATA_NAME id="ddm_elements.item_id">ITEM_ID         </DD_DATA_NAME>

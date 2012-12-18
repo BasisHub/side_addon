@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.bmc_opcodes">97C295318140927791DBCFFB62B09383</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.bmc_opcodes">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.bmc_opcodes">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.bmc_opcodes">20110921</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.bmc_opcodes">20110921</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.bmc_opcodes">221918</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.bmc_opcodes">20111109</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.bmc_opcodes">20110923</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.bmc_opcodes">225654</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.bmc_opcodes">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.bmc_opcodes">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.bmc_opcodes">zzzz</DD_ATTR_SLEV>
@@ -348,6 +348,16 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.bmc_opcodesfirm_ido">BMC_OPCODES     </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.bmc_opcodesfirm_ido">FIRM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.bmc_opcodesfirm_ido">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.bmc_opcodesgl_dir_labu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.bmc_opcodesgl_dir_labu">BMC_OPCODES     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.bmc_opcodesgl_dir_labu">GL_DIR_LAB      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.bmc_opcodesgl_dir_labu">u</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.bmc_opcodesgl_ovh_varu">
+			<DD_TABLE_ALIAS id="ddm_column_opts.bmc_opcodesgl_ovh_varu">BMC_OPCODES     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.bmc_opcodesgl_ovh_varu">GL_OVH_VAR      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.bmc_opcodesgl_ovh_varu">u</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

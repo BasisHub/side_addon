@@ -356,7 +356,6 @@ Purchase Order Processing^POMENU^M^^^im_menua_purch_orders.png^N^01007514^PO^Pur
 		Purge Purchase Calendar^POU_CALENDAR^T^POU_CALENDAR^pou_ga.aon^im_menui_update.png^N^01007514^PO^Purge_Purchase_Calendar^11.0^^
 		Purchase Order Line Codes^POC_LINECODE^T^POC_LINECODE^ope_ca.aon^im_menui_table.png^N^01007514^PO^Purchase_Order_Line_Code_Maintenance^11.0^^
 		Message Codes^POC_MSGCODE^T^POC_MSGCODE^^im_menui_table.png^N^01007514^PO^Message_Code_Maintenance^11.0^^
-		QA Receipt Rejection Codes^POC_REJCTCOD^T^POC_REJCTCOD^pom_fa.aon^im_menui_table.png^N^01007514^PO^Rejection_Code_Maintenance^11.0^^
 		Parameters^POMENU_PARAMS^G^^^im_node_col.png^N^01007514^PO^Parameter_Maintenance1^11.0^^
 			Application Parameters^PO_APP_PARAMS^T^POS_PARAMS^^im_menui_parameter.png^N^01007514^PO^^11.0^^
 	Utilities^POMENU_UTILITIES^G^^^im_menua_miscellaneous.png^N^01007514^PO^^11.0^^
@@ -437,7 +436,7 @@ Sales Order Processing^OPMENU^M^^^im_menua_order_proc.png^N^01007514^OP^Sales_Or
 		Rebuild Order/Invoice Print File^OPX_PRNTFILE^A^^[+DIR_PGM]opx_prntfile.aon^im_menui_utility.png^N^01007514^OP^^11.0^^
 		Month to Date Sales Totals^OPS_MTDSLSMNT^T^OPS_MTDSLSMNT^^im_menui_utility.png^N^01007514^OP^^11.0^^
 Shop Floor Control^SFMENU^M^^^im_menua_shop_floor_cont.png^N^01007514^SF^^11.0^^
-	Work Order Entry^SFE_AA^T^^sfe_aa.aon^im_menui_table.png^N^01007514^SF^^11.0^^
+	Work Order Master^SFE_WOMASTR^T^SFE_WOMASTR^sfe_aa.aon^im_menui_table.png^^01007514^SF^^11.0^^
 	Traveler Printing^SFR_AA^T^^sfr_aa.aon^im_menui_report.png^N^01007514^SF^^11.0^^
 	Materials Commitment Entry^SFE_CA^T^^sfe_ca.aon^im_menui_table.png^N^01007514^SF^^11.0^^
 	Pick List Printing^SFR_BA^T^^sfr_ba.aon^im_menui_report.png^N^01007514^SF^^11.0^^
@@ -480,12 +479,11 @@ Shop Floor Control^SFMENU^M^^^im_menua_shop_floor_cont.png^N^01007514^SF^^11.0^^
 		Create Shop Floor Calendar^SFM_CAL_CREATE^T^SFM_CAL_CREATE^sfm_da.aon^im_menui_table.png^^01007514^SF^^1.0^^
 		Shop Floor Calendar Maintenance^SFM_OPCALNDR^A^SFM_OPCALNDR^sfm_calendar.aon^im_menui_table.png^^01007514^SF^^11.0^^
 		Copy Shop Floor Calendar^SFM_CAL_COPY^T^SFM_CAL_COPY^sfm_ea.aon^im_menui_update.png^^01007514^SF^^1.0^^
-		Print Shop Floor Calendar^SFR_QA^T^^sfr_qa.aon^im_menui_report.png^N^01007514^SF^^11.0^^
+		Calendar Print^SFR_CALENDAR^T^SFR_CALENDAR^sfr_qa.aon^im_menui_report.png^^01007514^SF^^11.0^^
 		Purge Shop Floor Calendar^SFU_HA^T^^sfu_ha.aon^im_menui_update.png^N^01007514^SF^^11.0^^
 		Batch Rescheduling Of Work Orders^SFR_UA^T^^sfr_ua.aon^im_menui_update.png^N^01007514^SF^^11.0^^
 		Parameters^SFMENU_PARAMS^G^^^im_node_col.png^^01007514^SF^^11.0^^
 			Application Parameters^SFS_PARAMS^T^SFS_PARAMS^^im_menui_parameter.png^^01007514^AD^^11.0^^
-			Work Order Number^SFS_NUMBERS^T^SFS_NUMBERS^^im_menui_parameter.png^^01007514^AD^^11.0^^
 	Utilities^SFMENU_UTILITIES^G^^^im_menua_miscellaneous.png^N^01007514^SF^^11.0^^
 		Rebuild Cross References^SF_BLDXREF^A^^^im_menui_utility.png^N^01007514^SF^^11.0^^
 		Rebuild PO Cross References^SF_BLDXREFPO^T^^^im_menui_utility.png^N^01007514^SF^^11.0^^
