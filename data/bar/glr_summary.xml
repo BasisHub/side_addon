@@ -17,9 +17,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.glr_summary">784DC59293852941FA791159D2BB46E6</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.glr_summary">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.glr_summary">20060526</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.glr_summary">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.glr_summary">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.glr_summary">141542</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.glr_summary">20091027</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.glr_summary">20091006</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.glr_summary">184736</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.glr_summary">/dev/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.glr_summary">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.glr_summary">[+DIR_PGM]gle_summary.aon</DD_ATTR_PRUN>
@@ -35,6 +35,13 @@
 		<RECORD id="ddm_table_cpro.glr_summarybfmc">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.glr_summarybfmc">GLR_SUMMARY     </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.glr_summarybfmc">BFMC</DD_ATTR_CPRO>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_opts">
+		<ID id="ddm_table_opts">DDM_TABLE_OPTS</ID>
+		<RECORD id="ddm_table_opts.glr_summaryx">
+			<DD_TABLE_ALIAS id="ddm_table_opts.glr_summaryx">GLR_SUMMARY     </DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.glr_summaryx">X</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_tpls">
