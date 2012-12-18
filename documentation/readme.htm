@@ -115,45 +115,94 @@
 	 		</li>
 			</ul>
 			<table width="40%"  border="0" cellspacing="1" cellpadding="1">
-  <tr>
-    <td width="47%"><strong>Alias Name </strong></td>
-    <td width="53%"><strong>Physical File Name </strong></td>
-  </tr>
-  <tr>
-    <td>adm_auditcontrol</td>
-    <td>glm-06</td>
-  </tr>
-  <tr>
-    <td>adm_procmaster</td>
-    <td>adm-09</td>
-  </tr>
-  <tr>
-    <td>adm_procdetail</td>
-    <td>adm-19</td>
-  </tr>
-  <tr>
-    <td>adm_rptctl</td>
-    <td>adm_rptctl</td>
-  </tr>
-  <tr>
-    <td>adm_userdefaults</td>
-    <td>adm_userdefaults</td>
-  </tr>
-  <tr>
-    <td>glm_recordtypes</td>
-    <td>glm-18</td>
-  </tr>
-  <tr>
-    <td>glw_dailydetail</td>
-    <td>glw-11</td>
-  </tr>
-</table>
-
+              <tr>
+                <td width="47%"><strong>Alias Name </strong></td>
+                <td width="53%"><strong>Physical File Name </strong></td>
+              </tr>
+              <tr>
+                <td>adm_auditcontrol</td>
+                <td>glm-06</td>
+              </tr>
+              <tr>
+                <td>adm_procmaster</td>
+                <td>adm-09</td>
+              </tr>
+              <tr>
+                <td>adm_procdetail</td>
+                <td>adm-19</td>
+              </tr>
+              <tr>
+                <td>adm_rptctl</td>
+                <td>adm_rptctl</td>
+              </tr>
+              <tr>
+                <td>adm_userdefaults</td>
+                <td>adm_userdefaults</td>
+              </tr>
+              <tr>
+                <td>glm_recordtypes</td>
+                <td>glm-18</td>
+              </tr>
+              <tr>
+                <td>glw_dailydetail</td>
+                <td>glw-11</td>
+              </tr>
+            </table>
+            <br />
+            <span class="style2">DATABASE CHANGES</span>
+            <br />
+            <br />
+            If you are upgrading from a previous version of Barista/Addon, consult the table below for information on database changes. 
+            <br />
+            <br />
+            <table width="50%"  border="0" cellspacing="1" cellpadding="1">
+              <tr>
+                <td width="10%"><strong>From Version </strong></td>
+                <td width="10%"><strong>To Version </strong></td>
+                <td width="10%"><strong>Table </strong></td>
+                <td width="50%"><strong>Change </strong></td>
+                <td width="20%"><strong>Action </strong></td>
+              </tr>
+              <tr>
+                <td>9.x</td>
+                <td>10.00</td>
+                <td>Multiple</td>
+                <td>Converted to use named keys</td>
+                <td>Rebuild all tables</td>
+              </tr>
+              <tr>
+                <td>10.00</td>
+                <td>10.01</td>
+                <td>ars_params</td>
+                <td>Added new field OP_TOTALS_WARN</td>
+                <td>Rebuild table</td>
+              </tr>
+              <tr>
+                <td> </td>
+                <td> </td>
+                <td>pot-25</td>
+                <td>Corrected missing named key</td>
+                <td>Rebuild table</td>
+              </tr>
+              <tr>
+                <td>10.01 </td>
+                <td>10.02 </td>
+                <td> </td>
+                <td>No structural changes</td>
+                <td>None </td>
+              </tr>
+              <tr>
+                <td>10.02 </td>
+                <td>10.03 </td>
+                <td> </td>
+                <td>No structural changes</td>
+                <td>None </td>
+              </tr>              
+              </table>
 		</div>
 			<br />
 			<br />
 		
-
 		<span class="style1"><a name="BEFORE" id="BEFORE">2. BEFORE USING THIS PRODUCT</a></span><span class="style6"><a href="#TOP">(top of page)</a></span>
 		<div class="indent1">
 
