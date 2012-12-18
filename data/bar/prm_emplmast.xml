@@ -18,12 +18,103 @@
 			<ASC_LICENSE_ID id="ddm_tables.prm_emplmast">2B32FCC4D6C971E2E256587A7B4D8289</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.prm_emplmast">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.prm_emplmast">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.prm_emplmast">20100611</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.prm_emplmast">20100601</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.prm_emplmast">171632</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.prm_emplmast">20100727</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.prm_emplmast">20100727</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.prm_emplmast">002424</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.prm_emplmast">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.prm_emplmast">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.prm_emplmast">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.prm_emplmast">Employee Master</DD_ATTR_WINT>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_aopt">
+		<ID id="ddm_table_aopt">DDM_TABLE_AOPT</ID>
+		<RECORD id="ddm_table_aopt.prm_emplmast01">
+			<DD_TABLE_ALIAS id="ddm_table_aopt.prm_emplmast01">PRM_EMPLMAST    </DD_TABLE_ALIAS>
+			<DD_ATTR_SEQ id="ddm_table_aopt.prm_emplmast01">01</DD_ATTR_SEQ>
+			<DD_ATTR_AOPT id="ddm_table_aopt.prm_emplmast01">Check History Inquiry</DD_ATTR_AOPT>
+			<DD_ATTR_AOPT_CD id="ddm_table_aopt.prm_emplmast01">EPCH</DD_ATTR_AOPT_CD>
+			<DD_ATTR_AOPT_FM id="ddm_table_aopt.prm_emplmast01">M</DD_ATTR_AOPT_FM>
+		</RECORD>
+		<RECORD id="ddm_table_aopt.prm_emplmast02">
+			<DD_TABLE_ALIAS id="ddm_table_aopt.prm_emplmast02">PRM_EMPLMAST    </DD_TABLE_ALIAS>
+			<DD_ATTR_SEQ id="ddm_table_aopt.prm_emplmast02">02</DD_ATTR_SEQ>
+			<DD_ATTR_AOPT id="ddm_table_aopt.prm_emplmast02">Union History Inquiry</DD_ATTR_AOPT>
+			<DD_ATTR_AOPT_CD id="ddm_table_aopt.prm_emplmast02">EPUH</DD_ATTR_AOPT_CD>
+			<DD_ATTR_AOPT_FM id="ddm_table_aopt.prm_emplmast02">M</DD_ATTR_AOPT_FM>
+		</RECORD>
+		<RECORD id="ddm_table_aopt.prm_emplmast03">
+			<DD_TABLE_ALIAS id="ddm_table_aopt.prm_emplmast03">PRM_EMPLMAST    </DD_TABLE_ALIAS>
+			<DD_ATTR_SEQ id="ddm_table_aopt.prm_emplmast03">03</DD_ATTR_SEQ>
+			<DD_ATTR_AOPT id="ddm_table_aopt.prm_emplmast03">Terminate / Reactivate Employe</DD_ATTR_AOPT>
+			<DD_ATTR_AOPT_CD id="ddm_table_aopt.prm_emplmast03">EPTR</DD_ATTR_AOPT_CD>
+			<DD_ATTR_AOPT_FM id="ddm_table_aopt.prm_emplmast03">M</DD_ATTR_AOPT_FM>
+		</RECORD>
+		<RECORD id="ddm_table_aopt.prm_emplmast04">
+			<DD_TABLE_ALIAS id="ddm_table_aopt.prm_emplmast04">PRM_EMPLMAST    </DD_TABLE_ALIAS>
+			<DD_ATTR_SEQ id="ddm_table_aopt.prm_emplmast04">04</DD_ATTR_SEQ>
+			<DD_ATTR_AOPT id="ddm_table_aopt.prm_emplmast04">Create Pay/Deduct/Tax/Contrib</DD_ATTR_AOPT>
+			<DD_ATTR_AOPT_CD id="ddm_table_aopt.prm_emplmast04">EPCP</DD_ATTR_AOPT_CD>
+			<DD_ATTR_AOPT_FM id="ddm_table_aopt.prm_emplmast04">M</DD_ATTR_AOPT_FM>
+		</RECORD>
+		<RECORD id="ddm_table_aopt.prm_emplmast05">
+			<DD_TABLE_ALIAS id="ddm_table_aopt.prm_emplmast05">PRM_EMPLMAST    </DD_TABLE_ALIAS>
+			<DD_ATTR_SEQ id="ddm_table_aopt.prm_emplmast05">05</DD_ATTR_SEQ>
+			<DD_ATTR_AOPT id="ddm_table_aopt.prm_emplmast05">Create Union Pay/Deduct/Contri</DD_ATTR_AOPT>
+			<DD_ATTR_AOPT_CD id="ddm_table_aopt.prm_emplmast05">EPCU</DD_ATTR_AOPT_CD>
+			<DD_ATTR_AOPT_FM id="ddm_table_aopt.prm_emplmast05">M</DD_ATTR_AOPT_FM>
+		</RECORD>
+		<RECORD id="ddm_table_aopt.prm_emplmast06">
+			<DD_TABLE_ALIAS id="ddm_table_aopt.prm_emplmast06">PRM_EMPLMAST    </DD_TABLE_ALIAS>
+			<DD_ATTR_SEQ id="ddm_table_aopt.prm_emplmast06">06</DD_ATTR_SEQ>
+			<DD_ATTR_AOPT id="ddm_table_aopt.prm_emplmast06">Employee Hard Copy</DD_ATTR_AOPT>
+			<DD_ATTR_AOPT_CD id="ddm_table_aopt.prm_emplmast06">EPHC</DD_ATTR_AOPT_CD>
+			<DD_ATTR_AOPT_FM id="ddm_table_aopt.prm_emplmast06">M</DD_ATTR_AOPT_FM>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_cpro">
+		<ID id="ddm_table_cpro">DDM_TABLE_CPRO</ID>
+		<RECORD id="ddm_table_cpro.prm_emplmastaopt">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.prm_emplmastaopt">PRM_EMPLMAST    </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.prm_emplmastaopt">AOPT-EPCH</DD_ATTR_CPRO>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_dtlw">
+		<ID id="ddm_table_dtlw">DDM_TABLE_DTLW</ID>
+		<RECORD id="ddm_table_dtlw.prm_emplmastprm_emplchng">
+			<DD_TABLE_ALIAS id="ddm_table_dtlw.prm_emplmastprm_emplchng">PRM_EMPLMAST    </DD_TABLE_ALIAS>
+			<DD_ATTR_DTLW id="ddm_table_dtlw.prm_emplmastprm_emplchng">PRM_EMPLCHNG    </DD_ATTR_DTLW>
+		</RECORD>
+		<RECORD id="ddm_table_dtlw.prm_emplmastprm_emplcmnt">
+			<DD_TABLE_ALIAS id="ddm_table_dtlw.prm_emplmastprm_emplcmnt">PRM_EMPLMAST    </DD_TABLE_ALIAS>
+			<DD_ATTR_DTLW id="ddm_table_dtlw.prm_emplmastprm_emplcmnt">PRM_EMPLCMNT    </DD_ATTR_DTLW>
+		</RECORD>
+		<RECORD id="ddm_table_dtlw.prm_emplmastprm_emplpay">
+			<DD_TABLE_ALIAS id="ddm_table_dtlw.prm_emplmastprm_emplpay">PRM_EMPLMAST    </DD_TABLE_ALIAS>
+			<DD_ATTR_DTLW id="ddm_table_dtlw.prm_emplmastprm_emplpay">PRM_EMPLPAY     </DD_ATTR_DTLW>
+		</RECORD>
+		<RECORD id="ddm_table_dtlw.prm_emplmastprt_emplcont">
+			<DD_TABLE_ALIAS id="ddm_table_dtlw.prm_emplmastprt_emplcont">PRM_EMPLMAST    </DD_TABLE_ALIAS>
+			<DD_ATTR_DTLW id="ddm_table_dtlw.prm_emplmastprt_emplcont">PRT_EMPLCONT    </DD_ATTR_DTLW>
+		</RECORD>
+		<RECORD id="ddm_table_dtlw.prm_emplmastprt_emplddct">
+			<DD_TABLE_ALIAS id="ddm_table_dtlw.prm_emplmastprt_emplddct">PRM_EMPLMAST    </DD_TABLE_ALIAS>
+			<DD_ATTR_DTLW id="ddm_table_dtlw.prm_emplmastprt_emplddct">PRT_EMPLDDCT    </DD_ATTR_DTLW>
+		</RECORD>
+		<RECORD id="ddm_table_dtlw.prm_emplmastprt_emplearn">
+			<DD_TABLE_ALIAS id="ddm_table_dtlw.prm_emplmastprt_emplearn">PRM_EMPLMAST    </DD_TABLE_ALIAS>
+			<DD_ATTR_DTLW id="ddm_table_dtlw.prm_emplmastprt_emplearn">PRT_EMPLEARN    </DD_ATTR_DTLW>
+		</RECORD>
+		<RECORD id="ddm_table_dtlw.prm_emplmastprt_empltax">
+			<DD_TABLE_ALIAS id="ddm_table_dtlw.prm_emplmastprt_empltax">PRM_EMPLMAST    </DD_TABLE_ALIAS>
+			<DD_ATTR_DTLW id="ddm_table_dtlw.prm_emplmastprt_empltax">PRT_EMPLTAX     </DD_ATTR_DTLW>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_dtlx">
+		<ID id="ddm_table_dtlx">DDM_TABLE_DTLX</ID>
+		<RECORD id="ddm_table_dtlx.prm_emplmastprm_emplpay">
+			<DD_TABLE_ALIAS id="ddm_table_dtlx.prm_emplmastprm_emplpay">PRM_EMPLMAST    </DD_TABLE_ALIAS>
+			<DD_ATTR_DTLX id="ddm_table_dtlx.prm_emplmastprm_emplpay">PRM_EMPLPAY     </DD_ATTR_DTLX>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_tabg">
@@ -586,6 +677,8 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.prm_emplmast030">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.prm_emplmast030">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.prm_emplmast030">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.prm_emplmast030">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.prm_emplmast030">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.prm_emplmast030">3</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.prm_emplmast030">Union Code</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.prm_emplmast030">17</DD_ATTR_TIND>
@@ -1199,11 +1292,12 @@
 			<DD_DESCRIPTION id="ddm_elements.union_code">Union Code</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.union_code">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.union_code">3</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.union_code"> </DD_MASK_TYPE>
 			<ASC_COMP_ID id="ddm_elements.union_code">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.union_code">AON</ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.union_code">PR </ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.union_code">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.union_code">20060328</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.union_code">20100707</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.union_code">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.union_code">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.union_code">E</DD_ATTR_CTYP>
 			<DD_ATTR_DCOL id="ddm_elements.union_code">DESCRIPTION     </DD_ATTR_DCOL>
 			<DD_ATTR_DCOM id="ddm_elements.union_code">            </DD_ATTR_DCOM>
@@ -1212,9 +1306,13 @@
 			<DD_ATTR_DTAB id="ddm_elements.union_code">PRC_UNNCODE     </DD_ATTR_DTAB>
 			<DD_ATTR_LABL id="ddm_elements.union_code">Union Code</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.union_code">Union Cd</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.union_code">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.union_code">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.union_code">0</DD_ATTR_MINL>
 			<DD_ATTR_MSKI id="ddm_elements.union_code">UUU</DD_ATTR_MSKI>
-			<DD_ATTR_PADC id="ddm_elements.union_code">30</DD_ATTR_PADC>
+			<DD_ATTR_PADC id="ddm_elements.union_code">20</DD_ATTR_PADC>
 			<DD_ATTR_PADJ id="ddm_elements.union_code">L</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.union_code">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.birth_date">
 			<DD_DATA_NAME id="ddm_elements.birth_date">BIRTH_DATE      </DD_DATA_NAME>

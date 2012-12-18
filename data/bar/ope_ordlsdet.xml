@@ -18,10 +18,10 @@
 			<ASC_LICENSE_ID id="ddm_tables.ope_ordlsdet">D45DC6BBE7C49A0C10AE24F3AB5B9813</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ope_ordlsdet">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ope_ordlsdet">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ope_ordlsdet">20100813</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ope_ordlsdet">20100813</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ope_ordlsdet">104136</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.ope_ordlsdet">/apps/aon/;</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.ope_ordlsdet">20100826</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ope_ordlsdet">20100826</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ope_ordlsdet">085450</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.ope_ordlsdet">/aon_dev/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_DKNM id="ddm_tables.ope_ordlsdet">PRIMARY</DD_ATTR_DKNM>
 			<DD_ATTR_FTYP id="ddm_tables.ope_ordlsdet">G</DD_ATTR_FTYP>
 			<DD_ATTR_PTAB id="ddm_tables.ope_ordlsdet">OPE_ORDDET      </DD_ATTR_PTAB>
@@ -258,7 +258,7 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.ope_ordlsdet007">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.ope_ordlsdet007">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ope_ordlsdet007">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.ope_ordlsdet007">/apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ope_ordlsdet007">/aon_dev/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_ordlsdet007">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ope_ordlsdet007">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.ope_ordlsdet007">20</DD_ATTR_MAXL>
@@ -291,7 +291,7 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.ope_ordlsdet009">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.ope_ordlsdet009">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ope_ordlsdet009">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.ope_ordlsdet009">/apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ope_ordlsdet009">/aon_dev/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_ordlsdet009">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ope_ordlsdet009">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.ope_ordlsdet009">7</DD_ATTR_MAXL>
@@ -332,11 +332,6 @@
 	</ALIAS>
 	<ALIAS id="ddm_column_cpro">
 		<ID id="ddm_column_cpro">DDM_COLUMN_CPRO</ID>
-		<RECORD id="ddm_column_cpro.ope_ordlsdetlotser_noainq">
-			<DD_TABLE_ALIAS id="ddm_column_cpro.ope_ordlsdetlotser_noainq">OPE_ORDLSDET    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_cpro.ope_ordlsdetlotser_noainq">LOTSER_NO       </DD_DVAR_NAME>
-			<DD_ATTR_CPRO id="ddm_column_cpro.ope_ordlsdetlotser_noainq">AINQ</DD_ATTR_CPRO>
-		</RECORD>
 		<RECORD id="ddm_column_cpro.ope_ordlsdetlotser_noaval">
 			<DD_TABLE_ALIAS id="ddm_column_cpro.ope_ordlsdetlotser_noaval">OPE_ORDLSDET    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_cpro.ope_ordlsdetlotser_noaval">LOTSER_NO       </DD_DVAR_NAME>

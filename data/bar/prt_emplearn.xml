@@ -10,7 +10,7 @@
 			<DD_ALIAS_TYPE id="ddm_tables.prt_emplearn">V</DD_ALIAS_TYPE>
 			<DD_KEY_LENGTH id="ddm_tables.prt_emplearn">0</DD_KEY_LENGTH>
 			<DD_NBR_RECORD id="ddm_tables.prt_emplearn">0</DD_NBR_RECORD>
-			<DD_RECORD_LEN id="ddm_tables.prt_emplearn">256</DD_RECORD_LEN>
+			<DD_RECORD_LEN id="ddm_tables.prt_emplearn">0</DD_RECORD_LEN>
 			<DD_SYSTEM_REC id="ddm_tables.prt_emplearn">N</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_tables.prt_emplearn">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.prt_emplearn">PR </ASC_PROD_ID>
@@ -18,10 +18,11 @@
 			<ASC_LICENSE_ID id="ddm_tables.prt_emplearn">1B60BD0DE6B3FA304E2F897DB0EF9E20</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.prt_emplearn">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.prt_emplearn">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.prt_emplearn">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.prt_emplearn">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.prt_emplearn">141500</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.prt_emplearn">20100726</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.prt_emplearn">20100726</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.prt_emplearn">231728</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.prt_emplearn">T</DD_ATTR_FTYP>
+			<DD_ATTR_PTAB id="ddm_tables.prt_emplearn">PRM_EMPLMAST    </DD_ATTR_PTAB>
 			<DD_ATTR_SLEV id="ddm_tables.prt_emplearn">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.prt_emplearn">Employee Earnings History</DD_ATTR_WINT>
 		</RECORD>
@@ -94,7 +95,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.prt_emplearn001">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.prt_emplearn001">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.prt_emplearn001">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.prt_emplearn001">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.prt_emplearn001">Firm ID</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.prt_emplearn001">1</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.prt_emplearn002">
 			<DD_TABLE_ALIAS id="ddm_table_cols.prt_emplearn002">PRT_EMPLEARN    </DD_TABLE_ALIAS>
@@ -106,7 +109,10 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.prt_emplearn002">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.prt_emplearn002">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.prt_emplearn002">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLX id="ddm_table_cols.prt_emplearn002">+3</DD_ATTR_CTLX>
+			<DD_ATTR_MAXL id="ddm_table_cols.prt_emplearn002">9</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.prt_emplearn002">Employee Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.prt_emplearn002">2</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.prt_emplearn003">
 			<DD_TABLE_ALIAS id="ddm_table_cols.prt_emplearn003">PRT_EMPLEARN    </DD_TABLE_ALIAS>
@@ -118,7 +124,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.prt_emplearn003">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.prt_emplearn003">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.prt_emplearn003">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.prt_emplearn003">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.prt_emplearn003">"A"</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.prt_emplearn003">3</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.prt_emplearn004">
 			<DD_TABLE_ALIAS id="ddm_table_cols.prt_emplearn004">PRT_EMPLEARN    </DD_TABLE_ALIAS>
@@ -131,7 +139,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.prt_emplearn004">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.prt_emplearn004">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.prt_emplearn004">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.prt_emplearn004">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.prt_emplearn004">Pay Code</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.prt_emplearn004">4</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.prt_emplearn005">
 			<DD_TABLE_ALIAS id="ddm_table_cols.prt_emplearn005">PRT_EMPLEARN    </DD_TABLE_ALIAS>
@@ -144,7 +154,13 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.prt_emplearn005">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.prt_emplearn005">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.prt_emplearn005">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLX id="ddm_table_cols.prt_emplearn005">-1</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_cols.prt_emplearn005">+2</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_cols.prt_emplearn005">88</DD_ATTR_CTLW>
+			<DD_ATTR_GHDR id="ddm_table_cols.prt_emplearn005">Earnings & Units</DD_ATTR_GHDR>
+			<DD_ATTR_MAXL id="ddm_table_cols.prt_emplearn005">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.prt_emplearn005">MTD Amount</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.prt_emplearn005">5</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.prt_emplearn006">
 			<DD_TABLE_ALIAS id="ddm_table_cols.prt_emplearn006">PRT_EMPLEARN    </DD_TABLE_ALIAS>
@@ -157,7 +173,11 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.prt_emplearn006">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.prt_emplearn006">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.prt_emplearn006">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.prt_emplearn006">88</DD_ATTR_CTLW>
+			<DD_ATTR_LABL id="ddm_table_cols.prt_emplearn006">Quarter #P Amount</DD_ATTR_LABL>
+			<DD_ATTR_MAXL id="ddm_table_cols.prt_emplearn006">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.prt_emplearn006">Quarter Amount</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.prt_emplearn006">6</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.prt_emplearn007">
 			<DD_TABLE_ALIAS id="ddm_table_cols.prt_emplearn007">PRT_EMPLEARN    </DD_TABLE_ALIAS>
@@ -170,7 +190,10 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.prt_emplearn007">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.prt_emplearn007">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.prt_emplearn007">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.prt_emplearn007">88</DD_ATTR_CTLW>
+			<DD_ATTR_MAXL id="ddm_table_cols.prt_emplearn007">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.prt_emplearn007">Next MTD Amount</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.prt_emplearn007">8</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.prt_emplearn008">
 			<DD_TABLE_ALIAS id="ddm_table_cols.prt_emplearn008">PRT_EMPLEARN    </DD_TABLE_ALIAS>
@@ -183,7 +206,12 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.prt_emplearn008">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.prt_emplearn008">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.prt_emplearn008">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLX id="ddm_table_cols.prt_emplearn008">+21</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_cols.prt_emplearn008">-7</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_cols.prt_emplearn008">88</DD_ATTR_CTLW>
+			<DD_ATTR_MAXL id="ddm_table_cols.prt_emplearn008">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.prt_emplearn008">MTD Units</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.prt_emplearn008">9</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.prt_emplearn009">
 			<DD_TABLE_ALIAS id="ddm_table_cols.prt_emplearn009">PRT_EMPLEARN    </DD_TABLE_ALIAS>
@@ -196,7 +224,11 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.prt_emplearn009">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.prt_emplearn009">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.prt_emplearn009">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.prt_emplearn009">88</DD_ATTR_CTLW>
+			<DD_ATTR_LABL id="ddm_table_cols.prt_emplearn009">Quarter #P Units</DD_ATTR_LABL>
+			<DD_ATTR_MAXL id="ddm_table_cols.prt_emplearn009">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.prt_emplearn009">Quarter Units</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.prt_emplearn009">10</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.prt_emplearn010">
 			<DD_TABLE_ALIAS id="ddm_table_cols.prt_emplearn010">PRT_EMPLEARN    </DD_TABLE_ALIAS>
@@ -209,7 +241,10 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.prt_emplearn010">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.prt_emplearn010">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.prt_emplearn010">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.prt_emplearn010">88</DD_ATTR_CTLW>
+			<DD_ATTR_MAXL id="ddm_table_cols.prt_emplearn010">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.prt_emplearn010">Next MTD Units</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.prt_emplearn010">12</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.prt_emplearn011">
 			<DD_TABLE_ALIAS id="ddm_table_cols.prt_emplearn011">PRT_EMPLEARN    </DD_TABLE_ALIAS>
@@ -222,7 +257,12 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.prt_emplearn011">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.prt_emplearn011">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.prt_emplearn011">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLX id="ddm_table_cols.prt_emplearn011">-9</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_cols.prt_emplearn011">+1</DD_ATTR_CTLY>
+			<DD_ATTR_GHDR id="ddm_table_cols.prt_emplearn011">Accrual Information</DD_ATTR_GHDR>
+			<DD_ATTR_MAXL id="ddm_table_cols.prt_emplearn011">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.prt_emplearn011">Prior Year Accrued Amount</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.prt_emplearn011">13</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.prt_emplearn012">
 			<DD_TABLE_ALIAS id="ddm_table_cols.prt_emplearn012">PRT_EMPLEARN    </DD_TABLE_ALIAS>
@@ -235,7 +275,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.prt_emplearn012">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.prt_emplearn012">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.prt_emplearn012">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.prt_emplearn012">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.prt_emplearn012">Current Year Accrued Amount</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.prt_emplearn012">14</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.prt_emplearn013">
 			<DD_TABLE_ALIAS id="ddm_table_cols.prt_emplearn013">PRT_EMPLEARN    </DD_TABLE_ALIAS>
@@ -248,7 +290,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.prt_emplearn013">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.prt_emplearn013">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.prt_emplearn013">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.prt_emplearn013">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.prt_emplearn013">Next Year Accrued Amount</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.prt_emplearn013">15</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.prt_emplearn014">
 			<DD_TABLE_ALIAS id="ddm_table_cols.prt_emplearn014">PRT_EMPLEARN    </DD_TABLE_ALIAS>
@@ -261,7 +305,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.prt_emplearn014">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.prt_emplearn014">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.prt_emplearn014">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.prt_emplearn014">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.prt_emplearn014">Accrual Rate</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.prt_emplearn014">16</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.prt_emplearn015">
 			<DD_TABLE_ALIAS id="ddm_table_cols.prt_emplearn015">PRT_EMPLEARN    </DD_TABLE_ALIAS>
@@ -274,7 +320,38 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.prt_emplearn015">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.prt_emplearn015">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.prt_emplearn015">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.prt_emplearn015">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.prt_emplearn015">Accrual Used Since Anniversary</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.prt_emplearn015">17</DD_ATTR_TIND>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_disp">
+		<ID id="ddm_table_disp">DDM_TABLE_DISP</ID>
+		<RECORD id="ddm_table_disp.prt_emplearn001">
+			<DD_TABLE_ALIAS id="ddm_table_disp.prt_emplearn001">PRT_EMPLEARN    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.prt_emplearn001">001</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.prt_emplearn001">YTD_GROSS       </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.prt_emplearn001">YTD_EARNINGS    </DD_CTRL_NAME>
+			<DD_ATTR_LABL id="ddm_table_disp.prt_emplearn001">YTD Amount</DD_ATTR_LABL>
+			<DD_ATTR_CALC id="ddm_table_disp.prt_emplearn001">[PRT_EMPLEARN.QTR_AMT_01]+[PRT_EMPLEARN.QTR_AMT_02]+[PRT_EMPLEARN.QTR_AMT_03]+[PRT_EMPLEARN.QTR_AMT_04]</DD_ATTR_CALC>
+			<DD_ATTR_CTLX id="ddm_table_disp.prt_emplearn001">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.prt_emplearn001">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.prt_emplearn001">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.prt_emplearn001">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.prt_emplearn001">7</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.prt_emplearn002">
+			<DD_TABLE_ALIAS id="ddm_table_disp.prt_emplearn002">PRT_EMPLEARN    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.prt_emplearn002">002</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.prt_emplearn002">YTD_UNITS       </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.prt_emplearn002">YTD_UNITS       </DD_CTRL_NAME>
+			<DD_ATTR_LABL id="ddm_table_disp.prt_emplearn002">YTD Units</DD_ATTR_LABL>
+			<DD_ATTR_CALC id="ddm_table_disp.prt_emplearn002">[PRT_EMPLEARN.QTR_UNITS_01]+[PRT_EMPLEARN.QTR_UNITS_02]+[PRT_EMPLEARN.QTR_UNITS_03]+[PRT_EMPLEARN.QTR_UNITS_04]</DD_ATTR_CALC>
+			<DD_ATTR_CTLX id="ddm_table_disp.prt_emplearn002">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.prt_emplearn002">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.prt_emplearn002">88</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.prt_emplearn002">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.prt_emplearn002">11</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">
@@ -288,6 +365,71 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.prt_emplearnrecord_id_ao">PRT_EMPLEARN    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.prt_emplearnrecord_id_ao">RECORD_ID_A     </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.prt_emplearnrecord_id_ao">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.prt_emplearnmtd_amountc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.prt_emplearnmtd_amountc">PRT_EMPLEARN    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.prt_emplearnmtd_amountc">MTD_AMOUNT      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.prt_emplearnmtd_amountc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.prt_emplearnqtr_amtc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.prt_emplearnqtr_amtc">PRT_EMPLEARN    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.prt_emplearnqtr_amtc">QTR_AMT         </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.prt_emplearnqtr_amtc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.prt_emplearnnmtd_amtc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.prt_emplearnnmtd_amtc">PRT_EMPLEARN    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.prt_emplearnnmtd_amtc">NMTD_AMT        </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.prt_emplearnnmtd_amtc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.prt_emplearnmtd_unitsc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.prt_emplearnmtd_unitsc">PRT_EMPLEARN    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.prt_emplearnmtd_unitsc">MTD_UNITS       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.prt_emplearnmtd_unitsc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.prt_emplearnqtr_unitsc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.prt_emplearnqtr_unitsc">PRT_EMPLEARN    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.prt_emplearnqtr_unitsc">QTR_UNITS       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.prt_emplearnqtr_unitsc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.prt_emplearnnmtd_unitsc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.prt_emplearnnmtd_unitsc">PRT_EMPLEARN    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.prt_emplearnnmtd_unitsc">NMTD_UNITS      </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.prt_emplearnnmtd_unitsc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.prt_emplearnpyr_acc_amtc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.prt_emplearnpyr_acc_amtc">PRT_EMPLEARN    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.prt_emplearnpyr_acc_amtc">PYR_ACC_AMT     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.prt_emplearnpyr_acc_amtc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.prt_emplearncyr_accr_amtc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.prt_emplearncyr_accr_amtc">PRT_EMPLEARN    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.prt_emplearncyr_accr_amtc">CYR_ACCR_AMT    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.prt_emplearncyr_accr_amtc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.prt_emplearnnyr_acc_amtc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.prt_emplearnnyr_acc_amtc">PRT_EMPLEARN    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.prt_emplearnnyr_acc_amtc">NYR_ACC_AMT     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.prt_emplearnnyr_acc_amtc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.prt_emplearnaccrual_ratec">
+			<DD_TABLE_ALIAS id="ddm_column_opts.prt_emplearnaccrual_ratec">PRT_EMPLEARN    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.prt_emplearnaccrual_ratec">ACCRUAL_RATE    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.prt_emplearnaccrual_ratec">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.prt_emplearnaccrual_usedc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.prt_emplearnaccrual_usedc">PRT_EMPLEARN    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.prt_emplearnaccrual_usedc">ACCRUAL_USED    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.prt_emplearnaccrual_usedc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.prt_emplearnytd_earningsc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.prt_emplearnytd_earningsc">PRT_EMPLEARN    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.prt_emplearnytd_earningsc">YTD_EARNINGS    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.prt_emplearnytd_earningsc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.prt_emplearnytd_unitsc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.prt_emplearnytd_unitsc">PRT_EMPLEARN    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.prt_emplearnytd_unitsc">YTD_UNITS       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.prt_emplearnytd_unitsc">C</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">
@@ -551,6 +693,50 @@
 			<DD_ATTR_DEXP id="ddm_elements.accrual_used">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.accrual_used">Accrual Used Since Anniversary</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.accrual_used">Accr Used/Anniv</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.ytd_gross">
+			<DD_DATA_NAME id="ddm_elements.ytd_gross">YTD_GROSS       </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.ytd_gross">YTD_Gross</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.ytd_gross">N</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.ytd_gross">10</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.ytd_gross">A</DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.ytd_gross">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.ytd_gross">PR </ASC_PROD_ID>
+			<LOCALIZATION_EX id="ddm_elements.ytd_gross">N</LOCALIZATION_EX>
+			<DD_CREATE_DATE id="ddm_elements.ytd_gross">20100720</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.ytd_gross">20100720</DD_LSTREV_DATE>
+			<DD_ATTR_BLNK id="ddm_elements.ytd_gross">N</DD_ATTR_BLNK>
+			<DD_ATTR_CTLW id="ddm_elements.ytd_gross">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.ytd_gross">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.ytd_gross">N</DD_ATTR_CTYP>
+			<DD_ATTR_LABL id="ddm_elements.ytd_gross">YTD_Gross</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.ytd_gross">YTD_Gross</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.ytd_gross">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.ytd_gross">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.ytd_gross">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.ytd_gross">2</DD_ATTR_PREC>
+		</RECORD>
+		<RECORD id="ddm_elements.ytd_units">
+			<DD_DATA_NAME id="ddm_elements.ytd_units">YTD_UNITS       </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.ytd_units">YTD Units</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.ytd_units">N</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.ytd_units">8</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.ytd_units">U</DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.ytd_units">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.ytd_units">PR </ASC_PROD_ID>
+			<LOCALIZATION_EX id="ddm_elements.ytd_units">N</LOCALIZATION_EX>
+			<DD_CREATE_DATE id="ddm_elements.ytd_units">20100720</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.ytd_units">20100721</DD_LSTREV_DATE>
+			<DD_ATTR_BLNK id="ddm_elements.ytd_units">N</DD_ATTR_BLNK>
+			<DD_ATTR_CTLW id="ddm_elements.ytd_units">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.ytd_units">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.ytd_units">N</DD_ATTR_CTYP>
+			<DD_ATTR_LABL id="ddm_elements.ytd_units">YTD Units</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.ytd_units">YTD Units</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.ytd_units">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.ytd_units">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.ytd_units">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.ytd_units">3</DD_ATTR_PREC>
 		</RECORD>
 	</ALIAS>
 </PRT_EMPLEARN>

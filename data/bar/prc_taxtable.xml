@@ -15,9 +15,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.prc_taxtable">98F7D6F668EDF6A92284CBCDAFA12072</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.prc_taxtable">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.prc_taxtable">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.prc_taxtable">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.prc_taxtable">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.prc_taxtable">141506</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.prc_taxtable">20100809</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.prc_taxtable">20100809</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.prc_taxtable">225150</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.prc_taxtable">[+DIR_CPP]prc_taxtable_cpt.bbj</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.prc_taxtable">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.prc_taxtable">zzzz</DD_ATTR_SLEV>
@@ -46,7 +46,7 @@
 		<RECORD id="ddm_table_tpls.prc_taxtable">
 			<DD_TABLE_ALIAS id="ddm_table_tpls.prc_taxtable">PRC_TAXTABLE    </DD_TABLE_ALIAS>
 			<DD_FILE_NAME id="ddm_table_tpls.prc_taxtable">prm-10</DD_FILE_NAME>
-			<DD_TABLE_TPL id="ddm_table_tpls.prc_taxtable">firm_id:c(2),record_id_i:c(1),tax_tbl_code:c(3),code_desc:c(20*),low_inc_lim:n(7*),std_deduct:n(7*),itemized_ded:n(7*),earnings_lev_01:n(7*),earnings_lev_02:n(7*),earnings_lev_03:n(7*),earnings_lev_04:n(7*),earnings_lev_05:n(7*),earnings_lev_06:n(7*),earnings_lev_07:n(7*),earnings_lev_08:n(7*),earnings_lev_09:n(7*),earnings_lev_10:n(7*),earnings_lev_11:n(7*),tax_rate_01:n(7*),tax_rate_02:n(7*),tax_rate_03:n(7*),tax_rate_04:n(7*),tax_rate_05:n(7*),tax_rate_06:n(7*),tax_rate_07:n(7*),tax_rate_08:n(7*),tax_rate_09:n(7*),tax_rate_10:n(7*),tax_rate_11:n(7*),addtl_pctage_01:n(7*),addtl_pctage_02:n(7*),addtl_pctage_03:n(7*),addtl_pctage_04:n(7*),addtl_pctage_05:n(7*),addtl_pctage_06:n(7*),addtl_pctage_07:n(7*),addtl_pctage_08:n(7*),addtl_pctage_09:n(7*),addtl_pctage_10:n(7*),addtl_pctage_11:n(7*)</DD_TABLE_TPL>
+			<DD_TABLE_TPL id="ddm_table_tpls.prc_taxtable">firm_id:c(2),record_id_i:c(1),tax_tbl_code:c(3),code_desc:c(20*),low_inc_lim:n(7*),std_deduct:n(7*),itemized_ded:n(7*),earnings_lev_01:n(10*),earnings_lev_02:n(10*),earnings_lev_03:n(10*),earnings_lev_04:n(10*),earnings_lev_05:n(10*),earnings_lev_06:n(10*),earnings_lev_07:n(10*),earnings_lev_08:n(10*),earnings_lev_09:n(10*),earnings_lev_10:n(10*),earnings_lev_11:n(10*),tax_rate_01:n(12*),tax_rate_02:n(12*),tax_rate_03:n(12*),tax_rate_04:n(12*),tax_rate_05:n(12*),tax_rate_06:n(12*),tax_rate_07:n(12*),tax_rate_08:n(12*),tax_rate_09:n(12*),tax_rate_10:n(12*),tax_rate_11:n(12*),addtl_pctage_01:n(7*),addtl_pctage_02:n(7*),addtl_pctage_03:n(7*),addtl_pctage_04:n(7*),addtl_pctage_05:n(7*),addtl_pctage_06:n(7*),addtl_pctage_07:n(7*),addtl_pctage_08:n(7*),addtl_pctage_09:n(7*),addtl_pctage_10:n(7*),addtl_pctage_11:n(7*)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_keys">
@@ -207,8 +207,10 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.prc_taxtable008">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.prc_taxtable008">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.prc_taxtable008">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.prc_taxtable008">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.prc_taxtable008">0</DD_ATTR_CTLH>
 			<DD_ATTR_GHDR id="ddm_table_cols.prc_taxtable008">Tax Level</DD_ATTR_GHDR>
-			<DD_ATTR_MAXL id="ddm_table_cols.prc_taxtable008">7</DD_ATTR_MAXL>
+			<DD_ATTR_MAXL id="ddm_table_cols.prc_taxtable008">10</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.prc_taxtable008">Earnings Level</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.prc_taxtable008">8</DD_ATTR_TIND>
 		</RECORD>
@@ -223,11 +225,13 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.prc_taxtable009">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.prc_taxtable009">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.prc_taxtable009">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTLX id="ddm_table_cols.prc_taxtable009">250</DD_ATTR_CTLX>
+			<DD_ATTR_CTLX id="ddm_table_cols.prc_taxtable009">260</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_cols.prc_taxtable009">-11</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_cols.prc_taxtable009">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.prc_taxtable009">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABL id="ddm_table_cols.prc_taxtable009">Tax</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_table_cols.prc_taxtable009">Tax</DD_ATTR_LABS>
-			<DD_ATTR_MAXL id="ddm_table_cols.prc_taxtable009">7</DD_ATTR_MAXL>
+			<DD_ATTR_MAXL id="ddm_table_cols.prc_taxtable009">12</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.prc_taxtable009">Tax Rate</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.prc_taxtable009">9</DD_ATTR_TIND>
 		</RECORD>
@@ -242,7 +246,7 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.prc_taxtable010">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.prc_taxtable010">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.prc_taxtable010">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTLX id="ddm_table_cols.prc_taxtable010">400</DD_ATTR_CTLX>
+			<DD_ATTR_CTLX id="ddm_table_cols.prc_taxtable010">430</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_cols.prc_taxtable010">-11</DD_ATTR_CTLY>
 			<DD_ATTR_LABL id="ddm_table_cols.prc_taxtable010">Percent</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_table_cols.prc_taxtable010">%</DD_ATTR_LABS>
@@ -402,35 +406,47 @@
 		</RECORD>
 		<RECORD id="ddm_elements.earnings_lev">
 			<DD_DATA_NAME id="ddm_elements.earnings_lev">EARNINGS_LEV    </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.earnings_lev">Earnings Level                </DD_DESCRIPTION>
+			<DD_DESCRIPTION id="ddm_elements.earnings_lev">Earnings Level</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.earnings_lev">N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.earnings_lev">7</DD_DATA_LENGTH>
+			<DD_DATA_LENGTH id="ddm_elements.earnings_lev">10</DD_DATA_LENGTH>
 			<DD_MASK_TYPE id="ddm_elements.earnings_lev">A</DD_MASK_TYPE>
 			<ASC_COMP_ID id="ddm_elements.earnings_lev">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_elements.earnings_lev">PR </ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.earnings_lev">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.earnings_lev">20060119</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.earnings_lev">20100809</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.earnings_lev">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.earnings_lev">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.earnings_lev">N</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.earnings_lev">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.earnings_lev">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.earnings_lev">Earnings Level</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.earnings_lev">Earn Level</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.earnings_lev">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.earnings_lev">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.earnings_lev">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.earnings_lev">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.tax_rate">
 			<DD_DATA_NAME id="ddm_elements.tax_rate">TAX_RATE        </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.tax_rate">Tax Rate                      </DD_DESCRIPTION>
+			<DD_DESCRIPTION id="ddm_elements.tax_rate">Tax Rate</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.tax_rate">N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.tax_rate">7</DD_DATA_LENGTH>
+			<DD_DATA_LENGTH id="ddm_elements.tax_rate">12</DD_DATA_LENGTH>
 			<DD_MASK_TYPE id="ddm_elements.tax_rate">R</DD_MASK_TYPE>
 			<ASC_COMP_ID id="ddm_elements.tax_rate">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_elements.tax_rate">PR </ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.tax_rate">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.tax_rate">20060328</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.tax_rate">20100809</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.tax_rate">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.tax_rate">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.tax_rate">N</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.tax_rate">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.tax_rate">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.tax_rate">Tax Rate</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.tax_rate">Tax Rate</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.tax_rate">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.tax_rate">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.tax_rate">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.tax_rate">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.addtl_pctage">
 			<DD_DATA_NAME id="ddm_elements.addtl_pctage">ADDTL_PCTAGE    </DD_DATA_NAME>

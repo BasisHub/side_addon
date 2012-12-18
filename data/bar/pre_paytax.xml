@@ -19,8 +19,8 @@
 			<DD_EXPORT_DATA id="ddm_tables.pre_paytax">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.pre_paytax">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_tables.pre_paytax">20100611</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.pre_paytax">20100601</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.pre_paytax">171630</DD_LSTSYNC_TIME>
+			<DD_LSTSYNC_DATE id="ddm_tables.pre_paytax">20100615</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.pre_paytax">235516</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.pre_paytax">T</DD_ATTR_FTYP>
 			<DD_ATTR_PTAB id="ddm_tables.pre_paytax">PRE_PAYROLL     </DD_ATTR_PTAB>
 			<DD_ATTR_SLEV id="ddm_tables.pre_paytax">zzzz</DD_ATTR_SLEV>
@@ -32,7 +32,7 @@
 		<RECORD id="ddm_table_tpls.pre_paytax">
 			<DD_TABLE_ALIAS id="ddm_table_tpls.pre_paytax">PRE_PAYTAX      </DD_TABLE_ALIAS>
 			<DD_FILE_NAME id="ddm_table_tpls.pre_paytax">pre-31</DD_FILE_NAME>
-			<DD_TABLE_TPL id="ddm_table_tpls.pre_paytax">firm_id:c(2),employee_no:c(9),check_type:c(1),sequence_num:c(2),check_no:c(7),record_id_c:c(1),pr_entry_seq:c(2),tax_code:c(2),tax_tbl_code:c(3),reserved_str:c(3*),taxable_amt:n(7*),tax_rate:n(7*),tax_amount:n(7*)</DD_TABLE_TPL>
+			<DD_TABLE_TPL id="ddm_table_tpls.pre_paytax">firm_id:c(2),employee_no:c(9),check_type:c(1),sequence_num:c(2),check_no:c(7),record_id_c:c(1),pr_entry_seq:c(2),tax_code:c(2),tax_tbl_code:c(3),reserved_str:c(3*),taxable_amt:n(7*),tax_rate:n(12*),tax_amount:n(7*)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_keys">
@@ -564,19 +564,25 @@
 		</RECORD>
 		<RECORD id="ddm_elements.tax_rate">
 			<DD_DATA_NAME id="ddm_elements.tax_rate">TAX_RATE        </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.tax_rate">Tax Rate                      </DD_DESCRIPTION>
+			<DD_DESCRIPTION id="ddm_elements.tax_rate">Tax Rate</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.tax_rate">N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.tax_rate">7</DD_DATA_LENGTH>
+			<DD_DATA_LENGTH id="ddm_elements.tax_rate">12</DD_DATA_LENGTH>
 			<DD_MASK_TYPE id="ddm_elements.tax_rate">R</DD_MASK_TYPE>
 			<ASC_COMP_ID id="ddm_elements.tax_rate">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_elements.tax_rate">PR </ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.tax_rate">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.tax_rate">20060328</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.tax_rate">20100809</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.tax_rate">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.tax_rate">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.tax_rate">N</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.tax_rate">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.tax_rate">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.tax_rate">Tax Rate</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.tax_rate">Tax Rate</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.tax_rate">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.tax_rate">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.tax_rate">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.tax_rate">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.tax_amount">
 			<DD_DATA_NAME id="ddm_elements.tax_amount">TAX_AMOUNT      </DD_DATA_NAME>

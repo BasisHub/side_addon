@@ -17,9 +17,10 @@
 			<ASC_LICENSE_ID id="ddm_tables.prs_params">A07A248525D0CDC2BA1EDA9C848AEF95</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.prs_params">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.prs_params">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.prs_params">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.prs_params">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.prs_params">141500</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.prs_params">20100707</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.prs_params">20100707</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.prs_params">221516</DD_LSTSYNC_TIME>
+			<DD_ATTR_DKNM id="ddm_tables.prs_params">PRIMARY</DD_ATTR_DKNM>
 			<DD_ATTR_FTYP id="ddm_tables.prs_params">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.prs_params">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.prs_params">Payroll Parameters</DD_ATTR_WINT>
@@ -86,7 +87,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.prs_params001">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_MAXL id="ddm_table_cols.prs_params001">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.prs_params001">Firm ID</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.prs_params001">25</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.prs_params001">1</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.prs_params002">
 			<DD_TABLE_ALIAS id="ddm_table_cols.prs_params002">PRS_PARAMS      </DD_TABLE_ALIAS>
@@ -98,9 +99,13 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.prs_params002">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.prs_params002">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.prs_params002">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.prs_params002">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.prs_params002">0</DD_ATTR_CTLH>
+			<DD_ATTR_DFLT id="ddm_table_cols.prs_params002">"PR"</DD_ATTR_DFLT>
 			<DD_ATTR_MAXL id="ddm_table_cols.prs_params002">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.prs_params002">"PR"</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.prs_params002">1</DD_ATTR_TIND>
+			<DD_ATTR_PVAL id="ddm_table_cols.prs_params002">"PR"</DD_ATTR_PVAL>
+			<DD_ATTR_TIND id="ddm_table_cols.prs_params002">2</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.prs_params003">
 			<DD_TABLE_ALIAS id="ddm_table_cols.prs_params003">PRS_PARAMS      </DD_TABLE_ALIAS>
@@ -113,9 +118,11 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.prs_params003">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.prs_params003">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.prs_params003">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_DFLT id="ddm_table_cols.prs_params003">"00"</DD_ATTR_DFLT>
 			<DD_ATTR_MAXL id="ddm_table_cols.prs_params003">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.prs_params003">"00"</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.prs_params003">2</DD_ATTR_TIND>
+			<DD_ATTR_PVAL id="ddm_table_cols.prs_params003">"00"</DD_ATTR_PVAL>
+			<DD_ATTR_TIND id="ddm_table_cols.prs_params003">3</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.prs_params004">
 			<DD_TABLE_ALIAS id="ddm_table_cols.prs_params004">PRS_PARAMS      </DD_TABLE_ALIAS>
@@ -131,7 +138,7 @@
 			<DD_ATTR_CTLY id="ddm_table_cols.prs_params004">+1</DD_ATTR_CTLY>
 			<DD_ATTR_MAXL id="ddm_table_cols.prs_params004">12</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.prs_params004">Employee Number Mask [Input]</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.prs_params004">5</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.prs_params004">6</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.prs_params005">
 			<DD_TABLE_ALIAS id="ddm_table_cols.prs_params005">PRS_PARAMS      </DD_TABLE_ALIAS>
@@ -145,7 +152,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.prs_params005">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_MAXL id="ddm_table_cols.prs_params005">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.prs_params005">Employee Number Size</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.prs_params005">7</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.prs_params005">8</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.prs_params006">
 			<DD_TABLE_ALIAS id="ddm_table_cols.prs_params006">PRS_PARAMS      </DD_TABLE_ALIAS>
@@ -160,7 +167,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.prs_params006">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_MAXL id="ddm_table_cols.prs_params006">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.prs_params006">Maximum Employee Number Size</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.prs_params006">8</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.prs_params006">9</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.prs_params007">
 			<DD_TABLE_ALIAS id="ddm_table_cols.prs_params007">PRS_PARAMS      </DD_TABLE_ALIAS>
@@ -175,7 +182,7 @@
 			<DD_ATTR_CTLY id="ddm_table_cols.prs_params007">+1</DD_ATTR_CTLY>
 			<DD_ATTR_MAXL id="ddm_table_cols.prs_params007">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.prs_params007">Regular Pay Code</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.prs_params007">12</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.prs_params007">13</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.prs_params008">
 			<DD_TABLE_ALIAS id="ddm_table_cols.prs_params008">PRS_PARAMS      </DD_TABLE_ALIAS>
@@ -189,7 +196,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.prs_params008">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_MAXL id="ddm_table_cols.prs_params008">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.prs_params008">Maximum Totals</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.prs_params008">13</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.prs_params008">14</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.prs_params009">
 			<DD_TABLE_ALIAS id="ddm_table_cols.prs_params009">PRS_PARAMS      </DD_TABLE_ALIAS>
@@ -203,7 +210,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.prs_params009">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_MAXL id="ddm_table_cols.prs_params009">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.prs_params009">Zip Code Size</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.prs_params009">16</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.prs_params009">17</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.prs_params010">
 			<DD_TABLE_ALIAS id="ddm_table_cols.prs_params010">PRS_PARAMS      </DD_TABLE_ALIAS>
@@ -217,7 +224,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.prs_params010">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_MAXL id="ddm_table_cols.prs_params010">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.prs_params010">Multiple Titles [Y/N]?</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.prs_params010">18</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.prs_params010">19</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.prs_params011">
 			<DD_TABLE_ALIAS id="ddm_table_cols.prs_params011">PRS_PARAMS      </DD_TABLE_ALIAS>
@@ -233,7 +240,7 @@
 			<DD_ATTR_CTLH id="ddm_table_cols.prs_params011">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.prs_params011">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.prs_params011">Precision</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.prs_params011">14</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.prs_params011">15</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.prs_params012">
 			<DD_TABLE_ALIAS id="ddm_table_cols.prs_params012">PRS_PARAMS      </DD_TABLE_ALIAS>
@@ -247,7 +254,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.prs_params012">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_MAXL id="ddm_table_cols.prs_params012">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.prs_params012">Department Size</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.prs_params012">15</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.prs_params012">16</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.prs_params013">
 			<DD_TABLE_ALIAS id="ddm_table_cols.prs_params013">PRS_PARAMS      </DD_TABLE_ALIAS>
@@ -263,7 +270,7 @@
 			<DD_ATTR_LABS id="ddm_table_cols.prs_params013">Union Hist</DD_ATTR_LABS>
 			<DD_ATTR_MAXL id="ddm_table_cols.prs_params013">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.prs_params013">Union History</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.prs_params013">19</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.prs_params013">20</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.prs_params014">
 			<DD_TABLE_ALIAS id="ddm_table_cols.prs_params014">PRS_PARAMS      </DD_TABLE_ALIAS>
@@ -278,7 +285,7 @@
 			<DD_ATTR_CTLY id="ddm_table_cols.prs_params014">+1</DD_ATTR_CTLY>
 			<DD_ATTR_MAXL id="ddm_table_cols.prs_params014">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.prs_params014">Number of Labels Across</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.prs_params014">22</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.prs_params014">23</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.prs_params015">
 			<DD_TABLE_ALIAS id="ddm_table_cols.prs_params015">PRS_PARAMS      </DD_TABLE_ALIAS>
@@ -292,7 +299,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.prs_params015">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_MAXL id="ddm_table_cols.prs_params015">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.prs_params015">Vertical Lines Per Label</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.prs_params015">23</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.prs_params015">24</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.prs_params016">
 			<DD_TABLE_ALIAS id="ddm_table_cols.prs_params016">PRS_PARAMS      </DD_TABLE_ALIAS>
@@ -306,7 +313,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.prs_params016">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_MAXL id="ddm_table_cols.prs_params016">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.prs_params016">Horizontal Chars Per Label</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.prs_params016">24</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.prs_params016">25</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.prs_params017">
 			<DD_TABLE_ALIAS id="ddm_table_cols.prs_params017">PRS_PARAMS      </DD_TABLE_ALIAS>
@@ -320,7 +327,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.prs_params017">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_MAXL id="ddm_table_cols.prs_params017">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.prs_params017">Bank Reconciliation Installed?</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.prs_params017">21</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.prs_params017">22</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.prs_params018">
 			<DD_TABLE_ALIAS id="ddm_table_cols.prs_params018">PRS_PARAMS      </DD_TABLE_ALIAS>
@@ -334,7 +341,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.prs_params018">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_MAXL id="ddm_table_cols.prs_params018">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.prs_params018">Accrue Taxes At Period End?</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.prs_params018">20</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.prs_params018">21</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.prs_params019">
 			<DD_TABLE_ALIAS id="ddm_table_cols.prs_params019">PRS_PARAMS      </DD_TABLE_ALIAS>
@@ -348,7 +355,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.prs_params019">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_MAXL id="ddm_table_cols.prs_params019">10</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.prs_params019">Check Printing Program</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.prs_params019">17</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.prs_params019">18</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.prs_params020">
 			<DD_TABLE_ALIAS id="ddm_table_cols.prs_params020">PRS_PARAMS      </DD_TABLE_ALIAS>
@@ -361,7 +368,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.prs_params020">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.prs_params020">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.prs_params020">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.prs_params020">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.prs_params020">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.prs_params020">26</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.prs_params021">
 			<DD_TABLE_ALIAS id="ddm_table_cols.prs_params021">PRS_PARAMS      </DD_TABLE_ALIAS>
@@ -376,7 +385,7 @@
 			<DD_ATTR_CTLX id="ddm_table_cols.prs_params021">155</DD_ATTR_CTLX>
 			<DD_ATTR_MAXL id="ddm_table_cols.prs_params021">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.prs_params021">Current Period</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.prs_params021">3</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.prs_params021">4</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.prs_params022">
 			<DD_TABLE_ALIAS id="ddm_table_cols.prs_params022">PRS_PARAMS      </DD_TABLE_ALIAS>
@@ -393,7 +402,7 @@
 			<DD_ATTR_CTLH id="ddm_table_cols.prs_params022">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.prs_params022">4</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.prs_params022">Current Year</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.prs_params022">4</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.prs_params022">5</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.prs_params023">
 			<DD_TABLE_ALIAS id="ddm_table_cols.prs_params023">PRS_PARAMS      </DD_TABLE_ALIAS>
@@ -408,7 +417,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.prs_params023">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_MAXL id="ddm_table_cols.prs_params023">12</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.prs_params023">Employee Number Mask [Output]</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.prs_params023">6</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.prs_params023">7</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.prs_params024">
 			<DD_TABLE_ALIAS id="ddm_table_cols.prs_params024">PRS_PARAMS      </DD_TABLE_ALIAS>
@@ -423,7 +432,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.prs_params024">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_MAXL id="ddm_table_cols.prs_params024">15</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.prs_params024">Amount Mask</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.prs_params024">9</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.prs_params024">10</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.prs_params025">
 			<DD_TABLE_ALIAS id="ddm_table_cols.prs_params025">PRS_PARAMS      </DD_TABLE_ALIAS>
@@ -438,7 +447,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.prs_params025">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_MAXL id="ddm_table_cols.prs_params025">12</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.prs_params025">Unit Mask</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.prs_params025">10</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.prs_params025">11</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.prs_params026">
 			<DD_TABLE_ALIAS id="ddm_table_cols.prs_params026">PRS_PARAMS      </DD_TABLE_ALIAS>
@@ -453,7 +462,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.prs_params026">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_MAXL id="ddm_table_cols.prs_params026">12</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.prs_params026">Rate Mask</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.prs_params026">11</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.prs_params026">12</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_cmts">
@@ -477,6 +486,11 @@
 			<DD_DVAR_NAME id="ddm_column_opts.prs_paramsprl">PR              </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.prs_paramsprl">L</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.prs_paramspro">
+			<DD_TABLE_ALIAS id="ddm_column_opts.prs_paramspro">PRS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.prs_paramspro">PR              </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.prs_paramspro">O</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.prs_paramsprw">
 			<DD_TABLE_ALIAS id="ddm_column_opts.prs_paramsprw">PRS_PARAMS      </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.prs_paramsprw">PR              </DD_DVAR_NAME>
@@ -486,6 +500,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.prs_paramssequence_00l">PRS_PARAMS      </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.prs_paramssequence_00l">SEQUENCE_00     </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.prs_paramssequence_00l">L</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.prs_paramssequence_00o">
+			<DD_TABLE_ALIAS id="ddm_column_opts.prs_paramssequence_00o">PRS_PARAMS      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.prs_paramssequence_00o">SEQUENCE_00     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.prs_paramssequence_00o">O</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.prs_paramssequence_00w">
 			<DD_TABLE_ALIAS id="ddm_column_opts.prs_paramssequence_00w">PRS_PARAMS      </DD_TABLE_ALIAS>
@@ -554,19 +573,26 @@
 		</RECORD>
 		<RECORD id="ddm_elements.pr">
 			<DD_DATA_NAME id="ddm_elements.pr">PR              </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.pr">"PR"                          </DD_DESCRIPTION>
+			<DD_DESCRIPTION id="ddm_elements.pr">"PR"</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.pr">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.pr">2</DD_DATA_LENGTH>
 			<DD_MASK_TYPE id="ddm_elements.pr"> </DD_MASK_TYPE>
 			<ASC_COMP_ID id="ddm_elements.pr">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.pr">AON</ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.pr">PR </ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.pr">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.pr">20060119</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.pr">20100707</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.pr">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.pr">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.pr">E</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.pr">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.pr">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.pr">PR</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.pr">PR</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.pr">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.pr">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.pr">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.pr">0</DD_ATTR_PREC>
+			<DD_ATTR_PVAL id="ddm_elements.pr">"PR"</DD_ATTR_PVAL>
 		</RECORD>
 		<RECORD id="ddm_elements.sequence_00">
 			<DD_DATA_NAME id="ddm_elements.sequence_00">SEQUENCE_00     </DD_DATA_NAME>

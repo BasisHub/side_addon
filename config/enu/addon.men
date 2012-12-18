@@ -229,6 +229,7 @@ Inventory Control^IVMENU^M^^^im_menua_inventory.png^N^01007514^IV^Inventory_Cont
 		Rebuild Committed Quantities^IVX_COMMITTED^A^^[+DIR_PGM]ivx_committed.aon^im_menui_utility.png^N^01007514^IV^Rebuild_Item_Committed_Quantities^1.0
 		Rebuild On Order Quantities^IVX_ONORDER^A^^[+DIR_PGM]ivx_onorder.aon^im_menui_utility.png^N^01007514^IV^Rebuild_Item_On_Order_Quantities^1.0
 		Rebuild Beginning Balances^IVX_BEGBALS^T^IVX_BEGBALS^^im_menui_utility.png^N^01007514^IV^Rebuild_Trans_Beginning_Balances^1.0
+		Rebuild Monthly Summary Beg Balance^IVX_REBUILD_SUMM_BAL^A^^[+DIR_PGM]ivx_rebuild_summ_bal.aon^im_menui_table.png^N^01007514^IV^^1.0
 		LIFO/FIFO Tier Utilities^IVX_LFTIER_UTIL^T^IVX_LFTIER_UTIL^^im_menui_table.png^N^01007514^IV^LIFO_FIFO_Tier_Maintenance^1.0
 		Copy Items to Another Warehouse^IVX_COPYITEM^T^IVX_COPYITEM^^im_menui_utility.png^N^01007514^IV^Copy_Items_to_Another_Warehouse^1.0
 		Rebuild Unit Costs^IVX_REBUILDCOSTS^A^^[+DIR_PGM]ivx_rebuildcosts.aon^im_menui_utility.png^N^01007514^IV^Rebuild_Unit_Costs^1.0
@@ -310,7 +311,7 @@ Payroll^PRMENU^M^^^im_menua_payroll.png^N^01007514^PR
 		Tax Tables^PRC_TAXTABLE^T^PRC_TAXTABLE^^im_menui_table.png^N^01007514^PR
 		Title Codes^PRC_TITLCODE^T^PRC_TITLCODE^^im_menui_table.png^N^01007514^PR
 		Total Codes^PRC_TOTLCODE^T^PRC_TOTLCODE^^im_menui_table.png^N^01007514^PR
-		Union Codes^PRM_JA^T^^prm_ja.aon^im_menui_table.png^N^01007514^PR
+		Union Code^PRC_UNNCODE^T^PRC_UNNCODE^prm_ja.aon^im_menui_table.png^N^01007514^PR^^9.0
 		Parameters^PRMENU_MPARAMS^G^ARS_PARAMS^^im_node_col.png^N^01007514^PR
 			Application Parameters^PRS_PARAMS^T^PRS_PARAMS^^im_menui_parameter.png^N^01007514^PR
 			Report Parameters^PRS_REPORT^T^PRS_REPORT^^im_menui_parameter.png^N^01007514^PR
