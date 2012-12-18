@@ -18,10 +18,10 @@
 			<ASC_VERSION_ID id="ddm_tables.ope_credmaint">12.0      </ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ope_credmaint">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ope_credmaint">20090107</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ope_credmaint">20120326</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ope_credmaint">20120327</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ope_credmaint">140926</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.ope_credmaint">/apps/aon/;</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.ope_credmaint">20120628</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ope_credmaint">20120628</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ope_credmaint">123510</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.ope_credmaint">C:/Apps/aon/;/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ope_credmaint">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.ope_credmaint">[+DIR_PGM]adx_dummy.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.ope_credmaint">Credit Maintenance</DD_ATTR_WINT>
@@ -74,6 +74,26 @@
 	</ALIAS>
 	<ALIAS id="ddm_table_cpro">
 		<ID id="ddm_table_cpro">DDM_TABLE_CPRO</ID>
+		<RECORD id="ddm_table_cpro.ope_credmaintaopt-comm">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.ope_credmaintaopt-comm">OPE_CREDMAINT   </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.ope_credmaintaopt-comm">AOPT-COMM</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_table_cpro.ope_credmaintaopt-delo">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.ope_credmaintaopt-delo">OPE_CREDMAINT   </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.ope_credmaintaopt-delo">AOPT-DELO</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_table_cpro.ope_credmaintaopt-idtl">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.ope_credmaintaopt-idtl">OPE_CREDMAINT   </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.ope_credmaintaopt-idtl">AOPT-IDTL</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_table_cpro.ope_credmaintaopt-mdat">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.ope_credmaintaopt-mdat">OPE_CREDMAINT   </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.ope_credmaintaopt-mdat">AOPT-MDAT</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_table_cpro.ope_credmaintaopt-oriv">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.ope_credmaintaopt-oriv">OPE_CREDMAINT   </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.ope_credmaintaopt-oriv">AOPT-ORIV</DD_ATTR_CPRO>
+		</RECORD>
 		<RECORD id="ddm_table_cpro.ope_credmaintaopt-relo">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.ope_credmaintaopt-relo">OPE_CREDMAINT   </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.ope_credmaintaopt-relo">AOPT-RELO</DD_ATTR_CPRO>

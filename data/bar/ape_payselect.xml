@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.ape_payselect">0A768FB460EAEA4E9E25B3C94EFA7E4C</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ape_payselect">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ape_payselect">20071023</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ape_payselect">20120327</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ape_payselect">20120327</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ape_payselect">140756</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ape_payselect">20120705</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ape_payselect">20120514</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ape_payselect">225124</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ape_payselect">C:/Apps/aon/;/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ape_payselect">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.ape_payselect">[+DIR_SYP]bas_process_end.bbj</DD_ATTR_PRUN>
@@ -49,6 +49,10 @@
 		<RECORD id="ddm_table_cpro.ape_payselectacus">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.ape_payselectacus">APE_PAYSELECT   </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.ape_payselectacus">ACUS</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_table_cpro.ape_payselectaopt-dela">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.ape_payselectaopt-dela">APE_PAYSELECT   </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.ape_payselectaopt-dela">AOPT-DELA</DD_ATTR_CPRO>
 		</RECORD>
 		<RECORD id="ddm_table_cpro.ape_payselectaopt-sela">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.ape_payselectaopt-sela">APE_PAYSELECT   </DD_TABLE_ALIAS>
@@ -101,6 +105,8 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ape_payselect001">Y</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ape_payselect001">20071023</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ape_payselect001">20071023</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.ape_payselect001">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.ape_payselect001">0</DD_ATTR_CTLH>
 			<DD_ATTR_TIND id="ddm_table_cols.ape_payselect001">1</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ape_payselect002">

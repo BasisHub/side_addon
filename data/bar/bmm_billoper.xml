@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.bmm_billoper">553BBC53C1671D660F283871212AB8C1</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.bmm_billoper">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.bmm_billoper">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.bmm_billoper">20110912</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.bmm_billoper">20120327</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.bmm_billoper">140920</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.bmm_billoper">20120508</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.bmm_billoper">20120508</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.bmm_billoper">222022</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.bmm_billoper">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.bmm_billoper">G</DD_ATTR_FTYP>
 			<DD_ATTR_PTAB id="ddm_tables.bmm_billoper">BMM_BILLMAST    </DD_ATTR_PTAB>
@@ -179,6 +179,8 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.bmm_billoper001">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.bmm_billoper001">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.bmm_billoper001">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.bmm_billoper001">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.bmm_billoper001">0</DD_ATTR_CTLH>
 			<DD_ATTR_PROM id="ddm_table_cols.bmm_billoper001">Firm ID</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.bmm_billoper001">1</DD_ATTR_TIND>
 		</RECORD>
@@ -231,7 +233,7 @@
 			<DD_ATTR_CTLH id="ddm_table_cols.bmm_billoper004">0</DD_ATTR_CTLH>
 			<DD_ATTR_MINL id="ddm_table_cols.bmm_billoper004">1</DD_ATTR_MINL>
 			<DD_ATTR_PROM id="ddm_table_cols.bmm_billoper004">Operation Code</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.bmm_billoper004">6</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.bmm_billoper004">5</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.bmm_billoper005">
 			<DD_TABLE_ALIAS id="ddm_table_cols.bmm_billoper005">BMM_BILLOPER    </DD_TABLE_ALIAS>
@@ -247,7 +249,7 @@
 			<DD_ATTR_CTLH id="ddm_table_cols.bmm_billoper005">0</DD_ATTR_CTLH>
 			<DD_ATTR_DFLT id="ddm_table_cols.bmm_billoper005">S</DD_ATTR_DFLT>
 			<DD_ATTR_PROM id="ddm_table_cols.bmm_billoper005">Line Type</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.bmm_billoper005">5</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.bmm_billoper005">4</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.bmm_billoper006">
 			<DD_TABLE_ALIAS id="ddm_table_cols.bmm_billoper006">BMM_BILLOPER    </DD_TABLE_ALIAS>
@@ -262,7 +264,7 @@
 			<DD_ATTR_ABLC id="ddm_table_cols.bmm_billoper006">BMM_BILLOPER.LINE_TYPE</DD_ATTR_ABLC>
 			<DD_ATTR_ABLV id="ddm_table_cols.bmm_billoper006">M</DD_ATTR_ABLV>
 			<DD_ATTR_PROM id="ddm_table_cols.bmm_billoper006">Comments or Message Line</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.bmm_billoper006">7</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.bmm_billoper006">6</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.bmm_billoper007">
 			<DD_TABLE_ALIAS id="ddm_table_cols.bmm_billoper007">BMM_BILLOPER    </DD_TABLE_ALIAS>
@@ -275,8 +277,10 @@
 			<DD_CREATE_DATE id="ddm_table_cols.bmm_billoper007">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.bmm_billoper007">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CPGM id="ddm_table_cols.bmm_billoper007">/apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CTLW id="ddm_table_cols.bmm_billoper007">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.bmm_billoper007">0</DD_ATTR_CTLH>
 			<DD_ATTR_PROM id="ddm_table_cols.bmm_billoper007">Date Effective - Ctrl-P for Calendar</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.bmm_billoper007">18</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.bmm_billoper007">17</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.bmm_billoper008">
 			<DD_TABLE_ALIAS id="ddm_table_cols.bmm_billoper008">BMM_BILLOPER    </DD_TABLE_ALIAS>
@@ -291,7 +295,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.bmm_billoper008">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CPGM id="ddm_table_cols.bmm_billoper008">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_PROM id="ddm_table_cols.bmm_billoper008">Obsolete Date - Ctrl-P for Calendar</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.bmm_billoper008">19</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.bmm_billoper008">18</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.bmm_billoper009">
 			<DD_TABLE_ALIAS id="ddm_table_cols.bmm_billoper009">BMM_BILLOPER    </DD_TABLE_ALIAS>
@@ -305,13 +309,11 @@
 			<DD_CREATE_DATE id="ddm_table_cols.bmm_billoper009">20110630</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.bmm_billoper009">20110630</DD_LSTREV_DATE>
 			<DD_ATTR_COLW id="ddm_table_cols.bmm_billoper009">0</DD_ATTR_COLW>
-			<DD_ATTR_CTLX id="ddm_table_cols.bmm_billoper009">0</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY id="ddm_table_cols.bmm_billoper009">0</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.bmm_billoper009">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.bmm_billoper009">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.bmm_billoper009">N</DD_ATTR_MLAN>
 			<DD_ATTR_MAXL id="ddm_table_cols.bmm_billoper009">0</DD_ATTR_MAXL>
-			<DD_ATTR_TIND id="ddm_table_cols.bmm_billoper009">4</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.bmm_billoper009">19</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.bmm_billoper010">
 			<DD_TABLE_ALIAS id="ddm_table_cols.bmm_billoper010">BMM_BILLOPER    </DD_TABLE_ALIAS>
@@ -328,7 +330,7 @@
 			<DD_ATTR_ABLV id="ddm_table_cols.bmm_billoper010">S</DD_ATTR_ABLV>
 			<DD_ATTR_CPGM id="ddm_table_cols.bmm_billoper010">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_PROM id="ddm_table_cols.bmm_billoper010">Hours needed to create the piece.</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.bmm_billoper010">10</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.bmm_billoper010">9</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.bmm_billoper011">
 			<DD_TABLE_ALIAS id="ddm_table_cols.bmm_billoper011">BMM_BILLOPER    </DD_TABLE_ALIAS>
@@ -347,7 +349,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.bmm_billoper011">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.bmm_billoper011">0</DD_ATTR_CTLH>
 			<DD_ATTR_PROM id="ddm_table_cols.bmm_billoper011">How many pieces per hour can be created.</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.bmm_billoper011">11</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.bmm_billoper011">10</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.bmm_billoper012">
 			<DD_TABLE_ALIAS id="ddm_table_cols.bmm_billoper012">BMM_BILLOPER    </DD_TABLE_ALIAS>
@@ -366,7 +368,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.bmm_billoper012">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.bmm_billoper012">0</DD_ATTR_CTLH>
 			<DD_ATTR_PROM id="ddm_table_cols.bmm_billoper012">Hours needed to set up for assembly of entire lot.</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.bmm_billoper012">9</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.bmm_billoper012">8</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.bmm_billoper013">
 			<DD_TABLE_ALIAS id="ddm_table_cols.bmm_billoper013">BMM_BILLOPER    </DD_TABLE_ALIAS>
@@ -384,7 +386,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.bmm_billoper013">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.bmm_billoper013">0</DD_ATTR_CTLH>
 			<DD_ATTR_PROM id="ddm_table_cols.bmm_billoper013">Hours needed to move to next process.</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.bmm_billoper013">12</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.bmm_billoper013">11</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_disp">
@@ -400,7 +402,7 @@
 			<DD_ATTR_CTLY id="ddm_table_disp.bmm_billoper001">0</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_disp.bmm_billoper001">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_disp.bmm_billoper001">0</DD_ATTR_CTLH>
-			<DD_ATTR_TIND id="ddm_table_disp.bmm_billoper001">8</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_disp.bmm_billoper001">7</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_disp.bmm_billoper002">
 			<DD_TABLE_ALIAS id="ddm_table_disp.bmm_billoper002">BMM_BILLOPER    </DD_TABLE_ALIAS>
@@ -413,7 +415,7 @@
 			<DD_ATTR_CTLY id="ddm_table_disp.bmm_billoper002">0</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_disp.bmm_billoper002">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_disp.bmm_billoper002">0</DD_ATTR_CTLH>
-			<DD_ATTR_TIND id="ddm_table_disp.bmm_billoper002">14</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_disp.bmm_billoper002">13</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_disp.bmm_billoper003">
 			<DD_TABLE_ALIAS id="ddm_table_disp.bmm_billoper003">BMM_BILLOPER    </DD_TABLE_ALIAS>
@@ -426,7 +428,7 @@
 			<DD_ATTR_CTLY id="ddm_table_disp.bmm_billoper003">0</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_disp.bmm_billoper003">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_disp.bmm_billoper003">0</DD_ATTR_CTLH>
-			<DD_ATTR_TIND id="ddm_table_disp.bmm_billoper003">15</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_disp.bmm_billoper003">14</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_disp.bmm_billoper004">
 			<DD_TABLE_ALIAS id="ddm_table_disp.bmm_billoper004">BMM_BILLOPER    </DD_TABLE_ALIAS>
@@ -439,7 +441,7 @@
 			<DD_ATTR_CTLY id="ddm_table_disp.bmm_billoper004">0</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_disp.bmm_billoper004">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_disp.bmm_billoper004">0</DD_ATTR_CTLH>
-			<DD_ATTR_TIND id="ddm_table_disp.bmm_billoper004">16</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_disp.bmm_billoper004">15</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_disp.bmm_billoper005">
 			<DD_TABLE_ALIAS id="ddm_table_disp.bmm_billoper005">BMM_BILLOPER    </DD_TABLE_ALIAS>
@@ -452,7 +454,7 @@
 			<DD_ATTR_CTLY id="ddm_table_disp.bmm_billoper005">0</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_disp.bmm_billoper005">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_disp.bmm_billoper005">0</DD_ATTR_CTLH>
-			<DD_ATTR_TIND id="ddm_table_disp.bmm_billoper005">17</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_disp.bmm_billoper005">16</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_disp.bmm_billoper006">
 			<DD_TABLE_ALIAS id="ddm_table_disp.bmm_billoper006">BMM_BILLOPER    </DD_TABLE_ALIAS>
@@ -465,7 +467,7 @@
 			<DD_ATTR_CTLY id="ddm_table_disp.bmm_billoper006">0</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_disp.bmm_billoper006">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_disp.bmm_billoper006">0</DD_ATTR_CTLH>
-			<DD_ATTR_TIND id="ddm_table_disp.bmm_billoper006">13</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_disp.bmm_billoper006">12</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_cmts">
@@ -537,10 +539,10 @@
 			<DD_DVAR_NAME id="ddm_column_opts.bmm_billoperop_codeu">OP_CODE         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.bmm_billoperop_codeu">u</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD id="ddm_column_opts.bmm_billoperinternal_seq_noo">
-			<DD_TABLE_ALIAS id="ddm_column_opts.bmm_billoperinternal_seq_noo">BMM_BILLOPER    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.bmm_billoperinternal_seq_noo">INTERNAL_SEQ_NO </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.bmm_billoperinternal_seq_noo">O</DD_ATTR_OPTS>
+		<RECORD id="ddm_column_opts.bmm_billoperinternal_seq_noc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.bmm_billoperinternal_seq_noc">BMM_BILLOPER    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.bmm_billoperinternal_seq_noc">INTERNAL_SEQ_NO </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.bmm_billoperinternal_seq_noc">C</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.bmm_billoperqueue_timec">
 			<DD_TABLE_ALIAS id="ddm_column_opts.bmm_billoperqueue_timec">BMM_BILLOPER    </DD_TABLE_ALIAS>

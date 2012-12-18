@@ -16,13 +16,13 @@
 			<RESTRICT_AUTOADD id="ddm_tables.ivc_itemavail">Y</RESTRICT_AUTOADD>
 			<ASC_COMP_ID id="ddm_tables.ivc_itemavail">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.ivc_itemavail">IV </ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.ivc_itemavail">12.0      </ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.ivc_itemavail">12.0</ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.ivc_itemavail">46A8D21149542FF2287ED5E9A98B817C</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ivc_itemavail">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ivc_itemavail">20081004</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ivc_itemavail">20100402</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivc_itemavail">20120327</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivc_itemavail">140922</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ivc_itemavail">20120601</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivc_itemavail">20120601</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivc_itemavail">131942</DD_LSTSYNC_TIME>
 			<DD_ATTR_ATAB id="ddm_tables.ivc_itemavail">IVM_ITEMWHSE    </DD_ATTR_ATAB>
 			<DD_ATTR_CPGM id="ddm_tables.ivc_itemavail">[+DIR_CPP]ivm_itemwhse_cpt.bbj</DD_ATTR_CPGM>
 			<DD_ATTR_DKNM id="ddm_tables.ivc_itemavail">AO_ITEM_WH</DD_ATTR_DKNM>
@@ -104,7 +104,7 @@
 		<ID id="ddm_table_tpls">DDM_TABLE_TPLS</ID>
 		<RECORD id="ddm_table_tpls.ivc_itemavail">
 			<DD_TABLE_ALIAS id="ddm_table_tpls.ivc_itemavail">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
-			<DD_TABLE_TPL id="ddm_table_tpls.ivc_itemavail">firm_id:c(2),warehouse_id:c(2),item_id:c(20*),location:c(10),pi_cyclecode:c(2),ar_dist_code:c(2),select_phys:c(1),reserved_str:c(3),buyer_code:c(3),vendor_id:c(6),reserved_str_02:c(24),cur_price_cd:c(2),pri_price_cd:c(2),abc_code:c(1),eoq_code:c(1),ord_pnt_code:c(1),saf_stk_code:c(1),special_ord:c(1),reserved_str_03:c(4),lstphy_date:c(8),lstrec_date:c(8),lstblt_date:c(8),lstsal_date:c(8),lstiss_date:c(8),lstadj_date:c(8),lstxin_date:c(8),lstxot_date:c(8),lstret_date:c(8*),dealer_str:c(1*),qty_on_hand:n(7*),qty_on_order:n(7*),qty_commit:n(7*),maximum_qty:n(7*),order_point:n(7*),safety_stock:n(7*),eoq:n(7*),lead_time:n(7*),physical_cnt:n(7*),cur_price:n(7*),pri_price:n(7*),unit_cost:n(7*),avg_cost:n(7*),std_cost:n(7*),rep_cost:n(7*),landed_cost:n(7*),last_po_cost:n(7*),reserved_num_01:n(1*),reserved_num_02:n(1*),dealer_num_01:n(1*),dealer_num_02:n(1*),product_type:c(3*)</DD_TABLE_TPL>
+			<DD_TABLE_TPL id="ddm_table_tpls.ivc_itemavail">firm_id:c(2),warehouse_id:c(2),item_id:c(20*),location:c(10),pi_cyclecode:c(2),ar_dist_code:c(2),select_phys:c(1),reserved_str:c(3),buyer_code:c(3),vendor_id:c(6),reserved_str_02:c(24),cur_price_cd:c(2),pri_price_cd:c(2),abc_code:c(1),eoq_code:c(1),ord_pnt_code:c(1),saf_stk_code:c(1),special_ord:c(1),reserved_str_03:c(4),lstphy_date:c(8),lstrec_date:c(8),lstblt_date:c(8),lstsal_date:c(8),lstiss_date:c(8),lstadj_date:c(8),lstxin_date:c(8),lstxot_date:c(8),lstret_date:c(8*),dealer_str:c(1*),qty_on_hand:n(7*),qty_on_order:n(7*),qty_commit:n(7*),maximum_qty:n(7*),order_point:n(7*),safety_stock:n(7*),eoq:n(7*),lead_time:n(7*),physical_cnt:n(7*),cur_price:n(7*),pri_price:n(7*),unit_cost:n(7*),avg_cost:n(7*),std_cost:n(7*),rep_cost:n(7*),landed_cost:n(7*),last_po_cost:n(7*),reserved_num_01:n(1*),reserved_num_02:n(1*),dealer_num_01:n(1*),dealer_num_02:n(1*)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_keys">
@@ -130,14 +130,20 @@
 		<RECORD id="ddm_keys.ivc_itemavail03">
 			<DD_TABLE_ALIAS id="ddm_keys.ivc_itemavail03">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.ivc_itemavail03">03</DD_KEY_NUMBER>
-			<DD_KEY_DESC id="ddm_keys.ivc_itemavail03">WH/Prod/Item</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.ivc_itemavail03">AO_WH_PROD_ITEM </DD_KEY_ID>
+			<DD_KEY_DESC id="ddm_keys.ivc_itemavail03">Buyer/Vendor</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.ivc_itemavail03">AO_BUYER_VEND   </DD_KEY_ID>
 		</RECORD>
 		<RECORD id="ddm_keys.ivc_itemavail04">
 			<DD_TABLE_ALIAS id="ddm_keys.ivc_itemavail04">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_keys.ivc_itemavail04">04</DD_KEY_NUMBER>
-			<DD_KEY_DESC id="ddm_keys.ivc_itemavail04">Buyer/Vendor</DD_KEY_DESC>
-			<DD_KEY_ID id="ddm_keys.ivc_itemavail04">AO_BUY_VEND_WH  </DD_KEY_ID>
+			<DD_KEY_DESC id="ddm_keys.ivc_itemavail04">Firm_Vendor</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.ivc_itemavail04">AO_VEND         </DD_KEY_ID>
+		</RECORD>
+		<RECORD id="ddm_keys.ivc_itemavail05">
+			<DD_TABLE_ALIAS id="ddm_keys.ivc_itemavail05">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_keys.ivc_itemavail05">05</DD_KEY_NUMBER>
+			<DD_KEY_DESC id="ddm_keys.ivc_itemavail05">Firm_Item_Vendor</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.ivc_itemavail05">AO_ITEM_VEND    </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_key_segs">
@@ -230,7 +236,7 @@
 			<DD_TABLE_ALIAS id="ddm_key_segs.ivc_itemavail0302">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_key_segs.ivc_itemavail0302">03</DD_KEY_NUMBER>
 			<DD_SEGMENT_SEQ id="ddm_key_segs.ivc_itemavail0302">02</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL id="ddm_key_segs.ivc_itemavail0302">WAREHOUSE_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_COL id="ddm_key_segs.ivc_itemavail0302">BUYER_CODE</DD_SEGMENT_COL>
 			<DD_SEGMENT_SORT id="ddm_key_segs.ivc_itemavail0302">N</DD_SEGMENT_SORT>
 			<DD_SEGMENT_UNIQ id="ddm_key_segs.ivc_itemavail0302">N</DD_SEGMENT_UNIQ>
 			<DD_SEGMENT_MATH id="ddm_key_segs.ivc_itemavail0302">N</DD_SEGMENT_MATH>
@@ -239,7 +245,7 @@
 			<DD_TABLE_ALIAS id="ddm_key_segs.ivc_itemavail0303">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_key_segs.ivc_itemavail0303">03</DD_KEY_NUMBER>
 			<DD_SEGMENT_SEQ id="ddm_key_segs.ivc_itemavail0303">03</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL id="ddm_key_segs.ivc_itemavail0303">PRODUCT_TYPE</DD_SEGMENT_COL>
+			<DD_SEGMENT_COL id="ddm_key_segs.ivc_itemavail0303">VENDOR_ID</DD_SEGMENT_COL>
 			<DD_SEGMENT_SORT id="ddm_key_segs.ivc_itemavail0303">N</DD_SEGMENT_SORT>
 			<DD_SEGMENT_UNIQ id="ddm_key_segs.ivc_itemavail0303">N</DD_SEGMENT_UNIQ>
 			<DD_SEGMENT_MATH id="ddm_key_segs.ivc_itemavail0303">N</DD_SEGMENT_MATH>
@@ -248,10 +254,22 @@
 			<DD_TABLE_ALIAS id="ddm_key_segs.ivc_itemavail0304">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_key_segs.ivc_itemavail0304">03</DD_KEY_NUMBER>
 			<DD_SEGMENT_SEQ id="ddm_key_segs.ivc_itemavail0304">04</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL id="ddm_key_segs.ivc_itemavail0304">ITEM_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_COL id="ddm_key_segs.ivc_itemavail0304">WAREHOUSE_ID</DD_SEGMENT_COL>
 			<DD_SEGMENT_SORT id="ddm_key_segs.ivc_itemavail0304">N</DD_SEGMENT_SORT>
 			<DD_SEGMENT_UNIQ id="ddm_key_segs.ivc_itemavail0304">N</DD_SEGMENT_UNIQ>
 			<DD_SEGMENT_MATH id="ddm_key_segs.ivc_itemavail0304">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.ivc_itemavail0305">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ivc_itemavail0305">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ivc_itemavail0305">03</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ivc_itemavail0305">05</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ivc_itemavail0305">ITEM_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ivc_itemavail0305">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ivc_itemavail0305">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ivc_itemavail0305">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.ivc_itemavail0305">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.ivc_itemavail0305">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.ivc_itemavail0305">N</DD_SEGMENT_MATH>
 		</RECORD>
 		<RECORD id="ddm_key_segs.ivc_itemavail0401">
 			<DD_TABLE_ALIAS id="ddm_key_segs.ivc_itemavail0401">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
@@ -266,37 +284,46 @@
 			<DD_TABLE_ALIAS id="ddm_key_segs.ivc_itemavail0402">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
 			<DD_KEY_NUMBER id="ddm_key_segs.ivc_itemavail0402">04</DD_KEY_NUMBER>
 			<DD_SEGMENT_SEQ id="ddm_key_segs.ivc_itemavail0402">02</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL id="ddm_key_segs.ivc_itemavail0402">BUYER_CODE</DD_SEGMENT_COL>
+			<DD_SEGMENT_COL id="ddm_key_segs.ivc_itemavail0402">VENDOR_ID</DD_SEGMENT_COL>
 			<DD_SEGMENT_SORT id="ddm_key_segs.ivc_itemavail0402">N</DD_SEGMENT_SORT>
 			<DD_SEGMENT_UNIQ id="ddm_key_segs.ivc_itemavail0402">N</DD_SEGMENT_UNIQ>
 			<DD_SEGMENT_MATH id="ddm_key_segs.ivc_itemavail0402">N</DD_SEGMENT_MATH>
 		</RECORD>
-		<RECORD id="ddm_key_segs.ivc_itemavail0403">
-			<DD_TABLE_ALIAS id="ddm_key_segs.ivc_itemavail0403">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER id="ddm_key_segs.ivc_itemavail0403">04</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ id="ddm_key_segs.ivc_itemavail0403">03</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL id="ddm_key_segs.ivc_itemavail0403">VENDOR_ID</DD_SEGMENT_COL>
-			<DD_SEGMENT_SORT id="ddm_key_segs.ivc_itemavail0403">N</DD_SEGMENT_SORT>
-			<DD_SEGMENT_UNIQ id="ddm_key_segs.ivc_itemavail0403">N</DD_SEGMENT_UNIQ>
-			<DD_SEGMENT_MATH id="ddm_key_segs.ivc_itemavail0403">N</DD_SEGMENT_MATH>
+		<RECORD id="ddm_key_segs.ivc_itemavail0501">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ivc_itemavail0501">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ivc_itemavail0501">05</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ivc_itemavail0501">01</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ivc_itemavail0501">FIRM_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ivc_itemavail0501">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ivc_itemavail0501">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ivc_itemavail0501">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.ivc_itemavail0501">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.ivc_itemavail0501">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.ivc_itemavail0501">N</DD_SEGMENT_MATH>
 		</RECORD>
-		<RECORD id="ddm_key_segs.ivc_itemavail0404">
-			<DD_TABLE_ALIAS id="ddm_key_segs.ivc_itemavail0404">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER id="ddm_key_segs.ivc_itemavail0404">04</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ id="ddm_key_segs.ivc_itemavail0404">04</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL id="ddm_key_segs.ivc_itemavail0404">WAREHOUSE_ID</DD_SEGMENT_COL>
-			<DD_SEGMENT_SORT id="ddm_key_segs.ivc_itemavail0404">N</DD_SEGMENT_SORT>
-			<DD_SEGMENT_UNIQ id="ddm_key_segs.ivc_itemavail0404">N</DD_SEGMENT_UNIQ>
-			<DD_SEGMENT_MATH id="ddm_key_segs.ivc_itemavail0404">N</DD_SEGMENT_MATH>
+		<RECORD id="ddm_key_segs.ivc_itemavail0502">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ivc_itemavail0502">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ivc_itemavail0502">05</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ivc_itemavail0502">02</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ivc_itemavail0502">ITEM_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ivc_itemavail0502">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ivc_itemavail0502">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ivc_itemavail0502">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.ivc_itemavail0502">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.ivc_itemavail0502">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.ivc_itemavail0502">N</DD_SEGMENT_MATH>
 		</RECORD>
-		<RECORD id="ddm_key_segs.ivc_itemavail0405">
-			<DD_TABLE_ALIAS id="ddm_key_segs.ivc_itemavail0405">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
-			<DD_KEY_NUMBER id="ddm_key_segs.ivc_itemavail0405">04</DD_KEY_NUMBER>
-			<DD_SEGMENT_SEQ id="ddm_key_segs.ivc_itemavail0405">05</DD_SEGMENT_SEQ>
-			<DD_SEGMENT_COL id="ddm_key_segs.ivc_itemavail0405">ITEM_ID</DD_SEGMENT_COL>
-			<DD_SEGMENT_SORT id="ddm_key_segs.ivc_itemavail0405">N</DD_SEGMENT_SORT>
-			<DD_SEGMENT_UNIQ id="ddm_key_segs.ivc_itemavail0405">N</DD_SEGMENT_UNIQ>
-			<DD_SEGMENT_MATH id="ddm_key_segs.ivc_itemavail0405">N</DD_SEGMENT_MATH>
+		<RECORD id="ddm_key_segs.ivc_itemavail0503">
+			<DD_TABLE_ALIAS id="ddm_key_segs.ivc_itemavail0503">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.ivc_itemavail0503">05</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.ivc_itemavail0503">03</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.ivc_itemavail0503">VENDOR_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.ivc_itemavail0503">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.ivc_itemavail0503">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.ivc_itemavail0503">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.ivc_itemavail0503">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.ivc_itemavail0503">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.ivc_itemavail0503">N</DD_SEGMENT_MATH>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_cols">
@@ -313,6 +340,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.ivc_itemavail001">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_PROM id="ddm_table_cols.ivc_itemavail001">Firm ID</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivc_itemavail001">1</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ivc_itemavail001">FIRM_ID</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivc_itemavail002">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivc_itemavail002">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
@@ -329,6 +357,7 @@
 			<DD_ATTR_MAXL id="ddm_table_cols.ivc_itemavail002">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivc_itemavail002">Warehouse ID</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivc_itemavail002">3</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ivc_itemavail002">WAREHOUSE_ID</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivc_itemavail003">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivc_itemavail003">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
@@ -344,6 +373,7 @@
 			<DD_ATTR_LABS id="ddm_table_cols.ivc_itemavail003">Inventory</DD_ATTR_LABS>
 			<DD_ATTR_PROM id="ddm_table_cols.ivc_itemavail003">Inventory Item Number</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivc_itemavail003">2</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ivc_itemavail003">ITEM_ID</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivc_itemavail004">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivc_itemavail004">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
@@ -360,6 +390,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ivc_itemavail004">80</DD_ATTR_CTLW>
 			<DD_ATTR_PROM id="ddm_table_cols.ivc_itemavail004">Warehouse Location</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivc_itemavail004">4</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ivc_itemavail004">LOCATION</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivc_itemavail005">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivc_itemavail005">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
@@ -378,6 +409,7 @@
 			<DD_ATTR_MAXL id="ddm_table_cols.ivc_itemavail005">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivc_itemavail005">Cycle Code</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivc_itemavail005">6</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ivc_itemavail005">PI_CYCLECODE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivc_itemavail006">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivc_itemavail006">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
@@ -393,6 +425,7 @@
 			<DD_ATTR_CTLH id="ddm_table_cols.ivc_itemavail006">0</DD_ATTR_CTLH>
 			<DD_ATTR_PROM id="ddm_table_cols.ivc_itemavail006">Distribution Code</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivc_itemavail006">5</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ivc_itemavail006">AR_DIST_CODE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivc_itemavail007">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivc_itemavail007">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
@@ -407,6 +440,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ivc_itemavail007">30</DD_ATTR_CTLW>
 			<DD_ATTR_PROM id="ddm_table_cols.ivc_itemavail007">Selected for Phys Inventory?</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivc_itemavail007">8</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ivc_itemavail007">SELECT_PHYS</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivc_itemavail008">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivc_itemavail008">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
@@ -420,6 +454,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.ivc_itemavail008">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_PROM id="ddm_table_cols.ivc_itemavail008">Reserved For Addon Use</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivc_itemavail008">45</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ivc_itemavail008">RESERVED_STR</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivc_itemavail009">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivc_itemavail009">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
@@ -435,6 +470,7 @@
 			<DD_ATTR_CTLH id="ddm_table_cols.ivc_itemavail009">0</DD_ATTR_CTLH>
 			<DD_ATTR_PROM id="ddm_table_cols.ivc_itemavail009">Buyer Code</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivc_itemavail009">34</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ivc_itemavail009">BUYER_CODE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivc_itemavail010">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivc_itemavail010">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
@@ -451,6 +487,7 @@
 			<DD_ATTR_LABS id="ddm_table_cols.ivc_itemavail010">Vendor Num</DD_ATTR_LABS>
 			<DD_ATTR_PROM id="ddm_table_cols.ivc_itemavail010">Vendor Number</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivc_itemavail010">35</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ivc_itemavail010">VENDOR_ID</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivc_itemavail011">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivc_itemavail011">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
@@ -464,6 +501,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.ivc_itemavail011">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_PROM id="ddm_table_cols.ivc_itemavail011">Reserved For Addon Use</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivc_itemavail011">46</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ivc_itemavail011">RESERVED_STR</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivc_itemavail012">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivc_itemavail012">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
@@ -478,6 +516,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ivc_itemavail012">35</DD_ATTR_CTLW>
 			<DD_ATTR_PROM id="ddm_table_cols.ivc_itemavail012">Current Price Code</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivc_itemavail012">12</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ivc_itemavail012">CUR_PRICE_CD</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivc_itemavail013">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivc_itemavail013">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
@@ -492,6 +531,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ivc_itemavail013">35</DD_ATTR_CTLW>
 			<DD_ATTR_PROM id="ddm_table_cols.ivc_itemavail013">Prior Price Code</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivc_itemavail013">14</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ivc_itemavail013">PRI_PRICE_CD</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivc_itemavail014">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivc_itemavail014">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
@@ -508,6 +548,7 @@
 			<DD_ATTR_LABS id="ddm_table_cols.ivc_itemavail014">ABC Analys</DD_ATTR_LABS>
 			<DD_ATTR_PROM id="ddm_table_cols.ivc_itemavail014">ABC Analysis Code</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivc_itemavail014">33</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ivc_itemavail014">ABC_CODE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivc_itemavail015">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivc_itemavail015">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
@@ -524,6 +565,7 @@
 			<DD_ATTR_LABS id="ddm_table_cols.ivc_itemavail015">EOQ Code [</DD_ATTR_LABS>
 			<DD_ATTR_PROM id="ddm_table_cols.ivc_itemavail015">EOQ Code [D/N/E]</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivc_itemavail015">41</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ivc_itemavail015">EOQ_CODE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivc_itemavail016">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivc_itemavail016">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
@@ -539,6 +581,7 @@
 			<DD_ATTR_LABS id="ddm_table_cols.ivc_itemavail016">Order Poin</DD_ATTR_LABS>
 			<DD_ATTR_PROM id="ddm_table_cols.ivc_itemavail016">Order Point Code [D/N/E]</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivc_itemavail016">39</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ivc_itemavail016">ORD_PNT_CODE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivc_itemavail017">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivc_itemavail017">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
@@ -554,6 +597,7 @@
 			<DD_ATTR_LABS id="ddm_table_cols.ivc_itemavail017">Safety Sto</DD_ATTR_LABS>
 			<DD_ATTR_PROM id="ddm_table_cols.ivc_itemavail017">Safety Stock Code [D/N/E]</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivc_itemavail017">43</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ivc_itemavail017">SAF_STK_CODE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivc_itemavail018">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivc_itemavail018">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
@@ -570,6 +614,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ivc_itemavail018">30</DD_ATTR_CTLW>
 			<DD_ATTR_PROM id="ddm_table_cols.ivc_itemavail018">Special Order Item</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivc_itemavail018">7</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ivc_itemavail018">SPECIAL_ORD</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivc_itemavail019">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivc_itemavail019">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
@@ -583,6 +628,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.ivc_itemavail019">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_PROM id="ddm_table_cols.ivc_itemavail019">Reserved For Addon Use</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivc_itemavail019">47</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ivc_itemavail019">RESERVED_STR</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivc_itemavail020">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivc_itemavail020">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
@@ -598,6 +644,7 @@
 			<DD_ATTR_LABL id="ddm_table_cols.ivc_itemavail020">Last Phys Date</DD_ATTR_LABL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivc_itemavail020">Last Physical Date</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivc_itemavail020">9</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ivc_itemavail020">LSTPHY_DATE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivc_itemavail021">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivc_itemavail021">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
@@ -614,6 +661,7 @@
 			<DD_ATTR_LABL id="ddm_table_cols.ivc_itemavail021">Receipt</DD_ATTR_LABL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivc_itemavail021">Last Receipt Date</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivc_itemavail021">25</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ivc_itemavail021">LSTREC_DATE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivc_itemavail022">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivc_itemavail022">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
@@ -629,6 +677,7 @@
 			<DD_ATTR_LABL id="ddm_table_cols.ivc_itemavail022">Built</DD_ATTR_LABL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivc_itemavail022">Last Built Date</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivc_itemavail022">26</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ivc_itemavail022">LSTBLT_DATE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivc_itemavail023">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivc_itemavail023">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
@@ -646,6 +695,7 @@
 			<DD_ATTR_LABL id="ddm_table_cols.ivc_itemavail023">Sold</DD_ATTR_LABL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivc_itemavail023">Last Sale Date</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivc_itemavail023">27</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ivc_itemavail023">LSTSAL_DATE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivc_itemavail024">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivc_itemavail024">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
@@ -661,6 +711,7 @@
 			<DD_ATTR_LABL id="ddm_table_cols.ivc_itemavail024">Issued</DD_ATTR_LABL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivc_itemavail024">Last Issue Date</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivc_itemavail024">28</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ivc_itemavail024">LSTISS_DATE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivc_itemavail025">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivc_itemavail025">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
@@ -676,6 +727,7 @@
 			<DD_ATTR_LABL id="ddm_table_cols.ivc_itemavail025">Adjustment</DD_ATTR_LABL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivc_itemavail025">Last Adjustment Date</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivc_itemavail025">29</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ivc_itemavail025">LSTADJ_DATE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivc_itemavail026">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivc_itemavail026">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
@@ -691,6 +743,7 @@
 			<DD_ATTR_LABL id="ddm_table_cols.ivc_itemavail026">Transfer In</DD_ATTR_LABL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivc_itemavail026">Last Transfer In Date</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivc_itemavail026">30</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ivc_itemavail026">LSTXIN_DATE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivc_itemavail027">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivc_itemavail027">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
@@ -706,6 +759,7 @@
 			<DD_ATTR_LABL id="ddm_table_cols.ivc_itemavail027">Transfer Out</DD_ATTR_LABL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivc_itemavail027">Last Transfer Out Date</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivc_itemavail027">31</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ivc_itemavail027">LSTXOT_DATE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivc_itemavail028">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivc_itemavail028">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
@@ -721,6 +775,7 @@
 			<DD_ATTR_LABL id="ddm_table_cols.ivc_itemavail028">Returned</DD_ATTR_LABL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivc_itemavail028">Last Return Date</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivc_itemavail028">32</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ivc_itemavail028">LSTRET_DATE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivc_itemavail029">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivc_itemavail029">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
@@ -734,6 +789,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.ivc_itemavail029">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_PROM id="ddm_table_cols.ivc_itemavail029">Reserved For Dealer Use</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivc_itemavail029">48</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ivc_itemavail029">DEALER_STR</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivc_itemavail030">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivc_itemavail030">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
@@ -750,6 +806,7 @@
 			<DD_ATTR_LABL id="ddm_table_cols.ivc_itemavail030">On-Hand</DD_ATTR_LABL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivc_itemavail030">Quantity On-Hand</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivc_itemavail030">21</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ivc_itemavail030">QTY_ON_HAND</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivc_itemavail031">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivc_itemavail031">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
@@ -765,6 +822,7 @@
 			<DD_ATTR_LABL id="ddm_table_cols.ivc_itemavail031">On-Order</DD_ATTR_LABL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivc_itemavail031">Quantity On-Order</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivc_itemavail031">22</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ivc_itemavail031">QTY_ON_ORDER</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivc_itemavail032">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivc_itemavail032">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
@@ -780,6 +838,7 @@
 			<DD_ATTR_LABL id="ddm_table_cols.ivc_itemavail032">Committed</DD_ATTR_LABL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivc_itemavail032">Quantity Committed</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivc_itemavail032">23</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ivc_itemavail032">QTY_COMMIT</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivc_itemavail033">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivc_itemavail033">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
@@ -795,6 +854,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ivc_itemavail033">56</DD_ATTR_CTLW>
 			<DD_ATTR_PROM id="ddm_table_cols.ivc_itemavail033">Maximum Quantity</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivc_itemavail033">37</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ivc_itemavail033">MAXIMUM_QTY</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivc_itemavail034">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivc_itemavail034">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
@@ -810,6 +870,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ivc_itemavail034">56</DD_ATTR_CTLW>
 			<DD_ATTR_PROM id="ddm_table_cols.ivc_itemavail034">Order Point</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivc_itemavail034">38</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ivc_itemavail034">ORDER_POINT</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivc_itemavail035">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivc_itemavail035">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
@@ -825,6 +886,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ivc_itemavail035">56</DD_ATTR_CTLW>
 			<DD_ATTR_PROM id="ddm_table_cols.ivc_itemavail035">Safety Stock</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivc_itemavail035">42</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ivc_itemavail035">SAFETY_STOCK</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivc_itemavail036">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivc_itemavail036">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
@@ -839,6 +901,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ivc_itemavail036">56</DD_ATTR_CTLW>
 			<DD_ATTR_PROM id="ddm_table_cols.ivc_itemavail036">Economic Order Quantity [EOQ]</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivc_itemavail036">40</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ivc_itemavail036">EOQ</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivc_itemavail037">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivc_itemavail037">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
@@ -854,6 +917,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ivc_itemavail037">56</DD_ATTR_CTLW>
 			<DD_ATTR_PROM id="ddm_table_cols.ivc_itemavail037">Lead Time</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivc_itemavail037">36</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ivc_itemavail037">LEAD_TIME</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivc_itemavail038">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivc_itemavail038">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
@@ -869,6 +933,7 @@
 			<DD_ATTR_LABL id="ddm_table_cols.ivc_itemavail038">Physical Count</DD_ATTR_LABL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivc_itemavail038">Physical Inventory Count</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivc_itemavail038">10</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ivc_itemavail038">PHYSICAL_CNT</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivc_itemavail039">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivc_itemavail039">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
@@ -883,6 +948,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ivc_itemavail039">56</DD_ATTR_CTLW>
 			<DD_ATTR_PROM id="ddm_table_cols.ivc_itemavail039">Current Price</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivc_itemavail039">11</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ivc_itemavail039">CUR_PRICE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivc_itemavail040">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivc_itemavail040">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
@@ -899,6 +965,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ivc_itemavail040">56</DD_ATTR_CTLW>
 			<DD_ATTR_PROM id="ddm_table_cols.ivc_itemavail040">Prior Price</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivc_itemavail040">13</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ivc_itemavail040">PRI_PRICE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivc_itemavail041">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivc_itemavail041">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
@@ -913,6 +980,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ivc_itemavail041">72</DD_ATTR_CTLW>
 			<DD_ATTR_PROM id="ddm_table_cols.ivc_itemavail041">Unit Cost</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivc_itemavail041">15</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ivc_itemavail041">UNIT_COST</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivc_itemavail042">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivc_itemavail042">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
@@ -928,6 +996,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ivc_itemavail042">72</DD_ATTR_CTLW>
 			<DD_ATTR_PROM id="ddm_table_cols.ivc_itemavail042">Average Cost</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivc_itemavail042">18</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ivc_itemavail042">AVG_COST</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivc_itemavail043">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivc_itemavail043">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
@@ -942,6 +1011,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ivc_itemavail043">72</DD_ATTR_CTLW>
 			<DD_ATTR_PROM id="ddm_table_cols.ivc_itemavail043">Standard Cost</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivc_itemavail043">19</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ivc_itemavail043">STD_COST</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivc_itemavail044">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivc_itemavail044">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
@@ -956,6 +1026,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ivc_itemavail044">72</DD_ATTR_CTLW>
 			<DD_ATTR_PROM id="ddm_table_cols.ivc_itemavail044">Replacement Cost</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivc_itemavail044">20</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ivc_itemavail044">REP_COST</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivc_itemavail045">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivc_itemavail045">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
@@ -970,6 +1041,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ivc_itemavail045">72</DD_ATTR_CTLW>
 			<DD_ATTR_PROM id="ddm_table_cols.ivc_itemavail045">Landed Cost</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivc_itemavail045">16</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ivc_itemavail045">LANDED_COST</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivc_itemavail046">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivc_itemavail046">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
@@ -984,6 +1056,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ivc_itemavail046">72</DD_ATTR_CTLW>
 			<DD_ATTR_PROM id="ddm_table_cols.ivc_itemavail046">Last Purchase Cost</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivc_itemavail046">17</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ivc_itemavail046">LAST_PO_COST</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivc_itemavail047">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivc_itemavail047">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
@@ -997,6 +1070,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.ivc_itemavail047">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_PROM id="ddm_table_cols.ivc_itemavail047">Reserved For Addon Use</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivc_itemavail047">49</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ivc_itemavail047">RESERVED_NUM</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivc_itemavail048">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ivc_itemavail048">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
@@ -1010,22 +1084,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.ivc_itemavail048">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_PROM id="ddm_table_cols.ivc_itemavail048">Reserved For Dealer Use</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivc_itemavail048">50</DD_ATTR_TIND>
-		</RECORD>
-		<RECORD id="ddm_table_cols.ivc_itemavail049">
-			<DD_TABLE_ALIAS id="ddm_table_cols.ivc_itemavail049">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
-			<DD_SEQUENCE id="ddm_table_cols.ivc_itemavail049">049</DD_SEQUENCE>
-			<DD_DATA_NAME id="ddm_table_cols.ivc_itemavail049">PRODUCT_TYPE    </DD_DATA_NAME>
-			<DD_DVAR_NAME id="ddm_table_cols.ivc_itemavail049">PRODUCT_TYPE    </DD_DVAR_NAME>
-			<DD_FIELD_DELIM id="ddm_table_cols.ivc_itemavail049">Y</DD_FIELD_DELIM>
-			<DD_DELIM_CHAR id="ddm_table_cols.ivc_itemavail049">0A</DD_DELIM_CHAR>
-			<DD_CREATE_DATE id="ddm_table_cols.ivc_itemavail049">20071227</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_table_cols.ivc_itemavail049">20071227</DD_LSTREV_DATE>
-			<DD_ATTR_CTLX id="ddm_table_cols.ivc_itemavail049">0</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY id="ddm_table_cols.ivc_itemavail049">0</DD_ATTR_CTLY>
-			<DD_ATTR_CTLW id="ddm_table_cols.ivc_itemavail049">0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH id="ddm_table_cols.ivc_itemavail049">0</DD_ATTR_CTLH>
-			<DD_ATTR_MLAN id="ddm_table_cols.ivc_itemavail049">N</DD_ATTR_MLAN>
-			<DD_ATTR_TIND id="ddm_table_cols.ivc_itemavail049">44</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ivc_itemavail048">DEALER_NUM</SQL_COLUMN_NAME>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_disp">
@@ -1412,11 +1471,6 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivc_itemavaillast_po_costo">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ivc_itemavaillast_po_costo">LAST_PO_COST    </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.ivc_itemavaillast_po_costo">O</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD id="ddm_column_opts.ivc_itemavailproduct_typeo">
-			<DD_TABLE_ALIAS id="ddm_column_opts.ivc_itemavailproduct_typeo">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.ivc_itemavailproduct_typeo">PRODUCT_TYPE    </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.ivc_itemavailproduct_typeo">O</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.ivc_itemavailqty_availc">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivc_itemavailqty_availc">IVC_ITEMAVAIL   </DD_TABLE_ALIAS>
@@ -2273,28 +2327,6 @@
 			<DD_ATTR_DEXP id="ddm_elements.dealer_num">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.dealer_num">Reserved For Dealer Use</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.dealer_num">Res For Dealer Use</DD_ATTR_LABS>
-		</RECORD>
-		<RECORD id="ddm_elements.product_type">
-			<DD_DATA_NAME id="ddm_elements.product_type">PRODUCT_TYPE    </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.product_type">Product Type</DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.product_type">C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.product_type">3</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.product_type"> </DD_MASK_TYPE>
-			<ASC_COMP_ID id="ddm_elements.product_type">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.product_type">AD </ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.product_type">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.product_type">20060314</DD_LSTREV_DATE>
-			<DD_ATTR_CTYP id="ddm_elements.product_type">E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOL id="ddm_elements.product_type">CODE_DESC       </DD_ATTR_DCOL>
-			<DD_ATTR_DCOM id="ddm_elements.product_type">            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP id="ddm_elements.product_type">            </DD_ATTR_DEXP>
-			<DD_ATTR_DKEY id="ddm_elements.product_type">[+FIRM_ID]+"A"+@</DD_ATTR_DKEY>
-			<DD_ATTR_DTAB id="ddm_elements.product_type">IVC_PRODCODE    </DD_ATTR_DTAB>
-			<DD_ATTR_LABL id="ddm_elements.product_type">Product Type</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.product_type">Prod Type</DD_ATTR_LABS>
-			<DD_ATTR_MSKI id="ddm_elements.product_type">UUU</DD_ATTR_MSKI>
-			<DD_ATTR_PADC id="ddm_elements.product_type">20</DD_ATTR_PADC>
-			<DD_ATTR_PADJ id="ddm_elements.product_type">L</DD_ATTR_PADJ>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_element_cmts">

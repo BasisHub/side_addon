@@ -13,14 +13,14 @@
 			<DD_RECORD_LEN id="ddm_tables.ape_mancheckdist">0</DD_RECORD_LEN>
 			<DD_SYSTEM_REC id="ddm_tables.ape_mancheckdist">N</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_tables.ape_mancheckdist">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_tables.ape_mancheckdist">GL </ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.ape_mancheckdist">12.0      </ASC_VERSION_ID>
+			<ASC_PROD_ID id="ddm_tables.ape_mancheckdist">AP </ASC_PROD_ID>
+			<ASC_VERSION_ID id="ddm_tables.ape_mancheckdist">12.0</ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.ape_mancheckdist">7906A6BF8250E127804E842EAB80C557</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ape_mancheckdist">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ape_mancheckdist">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ape_mancheckdist">20100611</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ape_mancheckdist">20120327</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ape_mancheckdist">140918</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ape_mancheckdist">20120703</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ape_mancheckdist">20120404</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ape_mancheckdist">151642</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ape_mancheckdist">/dev_aon_test/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ape_mancheckdist">G</DD_ATTR_FTYP>
 			<DD_ATTR_PTAB id="ddm_tables.ape_mancheckdist">APE_MANCHECKDET </DD_ATTR_PTAB>
@@ -207,6 +207,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.ape_mancheckdist001">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_PROM id="ddm_table_cols.ape_mancheckdist001">Firm ID</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ape_mancheckdist001">1</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ape_mancheckdist001">FIRM_ID</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ape_mancheckdist002">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ape_mancheckdist002">APE_MANCHECKDIST</DD_TABLE_ALIAS>
@@ -222,6 +223,7 @@
 			<DD_ATTR_CTLH id="ddm_table_cols.ape_mancheckdist002">0</DD_ATTR_CTLH>
 			<DD_ATTR_PROM id="ddm_table_cols.ape_mancheckdist002">AP Type</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ape_mancheckdist002">2</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ape_mancheckdist002">AP_TYPE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ape_mancheckdist003">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ape_mancheckdist003">APE_MANCHECKDIST</DD_TABLE_ALIAS>
@@ -235,6 +237,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.ape_mancheckdist003">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_PROM id="ddm_table_cols.ape_mancheckdist003">Check Number</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ape_mancheckdist003">3</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ape_mancheckdist003">CHECK_NO</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ape_mancheckdist004">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ape_mancheckdist004">APE_MANCHECKDIST</DD_TABLE_ALIAS>
@@ -251,6 +254,7 @@
 			<DD_ATTR_LABS id="ddm_table_cols.ape_mancheckdist004">Vend ID</DD_ATTR_LABS>
 			<DD_ATTR_PROM id="ddm_table_cols.ape_mancheckdist004">Vendor Number</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ape_mancheckdist004">4</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ape_mancheckdist004">VENDOR_ID</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ape_mancheckdist005">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ape_mancheckdist005">APE_MANCHECKDIST</DD_TABLE_ALIAS>
@@ -266,6 +270,7 @@
 			<DD_ATTR_CTLH id="ddm_table_cols.ape_mancheckdist005">0</DD_ATTR_CTLH>
 			<DD_ATTR_PROM id="ddm_table_cols.ape_mancheckdist005">AP Invoice Number</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ape_mancheckdist005">5</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ape_mancheckdist005">AP_INV_NO</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ape_mancheckdist006">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ape_mancheckdist006">APE_MANCHECKDIST</DD_TABLE_ALIAS>
@@ -282,6 +287,7 @@
 			<DD_ATTR_LABS id="ddm_table_cols.ape_mancheckdist006">Seq</DD_ATTR_LABS>
 			<DD_ATTR_PROM id="ddm_table_cols.ape_mancheckdist006">Sequence Number</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ape_mancheckdist006">6</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ape_mancheckdist006">SEQUENCE_NUM</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ape_mancheckdist007">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ape_mancheckdist007">APE_MANCHECKDIST</DD_TABLE_ALIAS>
@@ -299,6 +305,7 @@
 			<DD_ATTR_MINL id="ddm_table_cols.ape_mancheckdist007">1</DD_ATTR_MINL>
 			<DD_ATTR_PROM id="ddm_table_cols.ape_mancheckdist007">GL Account Number</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ape_mancheckdist007">7</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ape_mancheckdist007">GL_ACCOUNT</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ape_mancheckdist008">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ape_mancheckdist008">APE_MANCHECKDIST</DD_TABLE_ALIAS>
@@ -313,6 +320,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.ape_mancheckdist008">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_PROM id="ddm_table_cols.ape_mancheckdist008">Reserved For Addon Use</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ape_mancheckdist008">11</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ape_mancheckdist008">RESERVED_STR</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ape_mancheckdist009">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ape_mancheckdist009">APE_MANCHECKDIST</DD_TABLE_ALIAS>
@@ -330,6 +338,7 @@
 			<DD_ATTR_LABS id="ddm_table_cols.ape_mancheckdist009">Miscellaneous</DD_ATTR_LABS>
 			<DD_ATTR_PROM id="ddm_table_cols.ape_mancheckdist009">Miscellaneous Stuff</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ape_mancheckdist009">8</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ape_mancheckdist009">MISCELLANEA</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ape_mancheckdist010">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ape_mancheckdist010">APE_MANCHECKDIST</DD_TABLE_ALIAS>
@@ -347,6 +356,7 @@
 			<DD_ATTR_LABS id="ddm_table_cols.ape_mancheckdist010">Amount</DD_ATTR_LABS>
 			<DD_ATTR_PROM id="ddm_table_cols.ape_mancheckdist010">GL Posting Amount</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ape_mancheckdist010">9</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ape_mancheckdist010">GL_POST_AMT</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ape_mancheckdist011">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ape_mancheckdist011">APE_MANCHECKDIST</DD_TABLE_ALIAS>
@@ -362,6 +372,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ape_mancheckdist011">56</DD_ATTR_CTLW>
 			<DD_ATTR_PROM id="ddm_table_cols.ape_mancheckdist011">Units</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ape_mancheckdist011">10</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ape_mancheckdist011">UNITS</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ape_mancheckdist012">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ape_mancheckdist012">APE_MANCHECKDIST</DD_TABLE_ALIAS>
@@ -381,6 +392,7 @@
 			<DD_ATTR_CTLH id="ddm_table_cols.ape_mancheckdist012">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.ape_mancheckdist012">N</DD_ATTR_MLAN>
 			<DD_ATTR_TIND id="ddm_table_cols.ape_mancheckdist012">12</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ape_mancheckdist012">BATCH_NO</SQL_COLUMN_NAME>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_cmts">

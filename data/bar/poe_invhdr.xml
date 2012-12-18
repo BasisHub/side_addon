@@ -18,10 +18,10 @@
 			<ASC_LICENSE_ID id="ddm_tables.poe_invhdr">BB6FBA75B62EE6C302E4F329B4A6671F</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.poe_invhdr">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.poe_invhdr">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.poe_invhdr">20120423</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.poe_invhdr">20120423</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.poe_invhdr">142830</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.poe_invhdr">/apps/aon/;</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.poe_invhdr">20120531</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.poe_invhdr">20120531</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.poe_invhdr">224338</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.poe_invhdr">C:/Apps/aon/;/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.poe_invhdr">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.poe_invhdr">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.poe_invhdr">Purchase Order Invoice Entry</DD_ATTR_WINT>
@@ -57,6 +57,10 @@
 		<RECORD id="ddm_table_cpro.poe_invhdradis">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.poe_invhdradis">POE_INVHDR      </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.poe_invhdradis">ADIS</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_table_cpro.poe_invhdraopt-gdis">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.poe_invhdraopt-gdis">POE_INVHDR      </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.poe_invhdraopt-gdis">AOPT-GDIS</DD_ATTR_CPRO>
 		</RECORD>
 		<RECORD id="ddm_table_cpro.poe_invhdraopt-invd">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.poe_invhdraopt-invd">POE_INVHDR      </DD_TABLE_ALIAS>
@@ -217,7 +221,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_invhdr002">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_invhdr002">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_invhdr002">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.poe_invhdr002">/apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.poe_invhdr002">C:/Apps/aon/;/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.poe_invhdr002">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.poe_invhdr002">0</DD_ATTR_CTLH>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_invhdr002">AP Type</DD_ATTR_PROM>
@@ -234,7 +238,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_invhdr003">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_invhdr003">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_invhdr003">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.poe_invhdr003">/apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.poe_invhdr003">C:/Apps/aon/;/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.poe_invhdr003">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.poe_invhdr003">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABS id="ddm_table_cols.poe_invhdr003">Vendor Num</DD_ATTR_LABS>
@@ -254,7 +258,7 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_invhdr004">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_invhdr004">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_invhdr004">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.poe_invhdr004">/apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.poe_invhdr004">C:/Apps/aon/;/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.poe_invhdr004">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.poe_invhdr004">0</DD_ATTR_CTLH>
 			<DD_ATTR_DRLE id="ddm_table_cols.poe_invhdr004">AP_INVOICES</DD_ATTR_DRLE>
@@ -289,7 +293,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_invhdr006">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_invhdr006">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_invhdr006">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.poe_invhdr006">/apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.poe_invhdr006">C:/Apps/aon/;/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_MINL id="ddm_table_cols.poe_invhdr006">1</DD_ATTR_MINL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_invhdr006">Terms Code</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.poe_invhdr006">15</DD_ATTR_TIND>
@@ -370,7 +374,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_invhdr011">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_invhdr011">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_invhdr011">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.poe_invhdr011">/apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.poe_invhdr011">C:/Apps/aon/;/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLX id="ddm_table_cols.poe_invhdr011">+30</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_cols.poe_invhdr011">-4</DD_ATTR_CTLY>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_invhdr011">Invoice Date [YYMMDD]</DD_ATTR_PROM>
@@ -387,7 +391,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_invhdr012">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_invhdr012">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_invhdr012">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.poe_invhdr012">/apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.poe_invhdr012">C:/Apps/aon/;/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_invhdr012">Accounting Date</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.poe_invhdr012">18</DD_ATTR_TIND>
 			<SQL_COLUMN_NAME id="ddm_table_cols.poe_invhdr012">ACCT_DATE</SQL_COLUMN_NAME>
@@ -432,7 +436,7 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_invhdr015">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_invhdr015">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_invhdr015">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.poe_invhdr015">/apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.poe_invhdr015">C:/Apps/aon/;/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLX id="ddm_table_cols.poe_invhdr015">+30</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_cols.poe_invhdr015">-6</DD_ATTR_CTLY>
 			<DD_ATTR_LABL id="ddm_table_cols.poe_invhdr015">Total Inv/Adj</DD_ATTR_LABL>
@@ -484,7 +488,7 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_invhdr018">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_invhdr018">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_invhdr018">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.poe_invhdr018">/apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.poe_invhdr018">C:/Apps/aon/;/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_LABL id="ddm_table_cols.poe_invhdr018">Net Invoice</DD_ATTR_LABL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_invhdr018">Net Invoice Amount</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.poe_invhdr018">24</DD_ATTR_TIND>
