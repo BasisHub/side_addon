@@ -2,7 +2,7 @@
 // Proprietary Information. BASIS International Ltd. All rights reserved.
 ACOMP=01007514;BASIS International Ltd.
 DIR=../apps/aon/
-SYS=ADDON;AddonSoftware 10.04 (Beta) ^Copyright (C) 2007-2011.  BASIS International Ltd.^All rights reserved.^Version 10.04 (Beta) - [BUILD_DATE]^AddonSoftware is protected by copyright law and international treaties. Unauthorized reproduction or distribution may result in severe civil and criminal penalties.
+SYS=ADDON;AddonSoftware 10.04 ^Copyright (C) 2007-2011.  BASIS International Ltd.^All rights reserved.^Version 10.04 - [BUILD_DATE]^AddonSoftware is protected by copyright law and international treaties. Unauthorized reproduction or distribution may result in severe civil and criminal penalties.
 MENU=addon
 APROD=AD;AddonSoftware Administration;[+AON_IMAGES]addon_logo32.png;addonhelp.hs;addon;../apps/aon/prop/;ENU,ESP;
 APROD=AP;AddonSoftware Accts Payable;[+AON_IMAGES]addon_logo32.png;addonhelp.hs;addon;../apps/aon/prop/;ENU,ESP;
@@ -60,6 +60,7 @@ STBL=SET +DOC_DIR_TXT=../apps/aon/documents/
 PREFIX=../apps/aon/ad/src/
 PREFIX=../apps/aon/ap/src/
 PREFIX=../apps/aon/ar/src/
+PREFIX=../apps/aon/ar/digitalDashboard/
 PREFIX=../apps/aon/bm/src/
 PREFIX=../apps/aon/gl/src/
 PREFIX=../apps/aon/iv/src/

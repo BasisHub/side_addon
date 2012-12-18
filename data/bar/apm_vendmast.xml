@@ -18,13 +18,13 @@
 			<ASC_LICENSE_ID id="ddm_tables.apm_vendmast">3BB1D20D5EEBAE71E979758B43E819AD</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.apm_vendmast">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.apm_vendmast">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.apm_vendmast">20101206</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.apm_vendmast">20101202</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.apm_vendmast">185528</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.apm_vendmast">20110121</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.apm_vendmast">20110121</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.apm_vendmast">131132</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.apm_vendmast">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.apm_vendmast">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.apm_vendmast">zzzz</DD_ATTR_SLEV>
-			<DD_ATTR_WINT id="ddm_tables.apm_vendmast">Vendor Master</DD_ATTR_WINT>
+			<DD_ATTR_WINT id="ddm_tables.apm_vendmast">Vendors</DD_ATTR_WINT>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_aopt">
@@ -145,7 +145,7 @@
 		<RECORD id="ddm_table_tpls.apm_vendmast">
 			<DD_TABLE_ALIAS id="ddm_table_tpls.apm_vendmast">APM_VENDMAST    </DD_TABLE_ALIAS>
 			<DD_FILE_NAME id="ddm_table_tpls.apm_vendmast">apm-01</DD_FILE_NAME>
-			<DD_TABLE_TPL id="ddm_table_tpls.apm_vendmast">firm_id:c(2),vendor_id:c(6*),vendor_name:c(30),addr_line_1:c(24),addr_line_2:c(24),city:c(22),state_code:c(2),zip_code:c(9),phone_no:c(20),phone_exten:c(4),contact_name:c(20),alt_sequence:c(10),reserved_str:c(3),hold_flag:c(1),federal_id:c(15),vendor_1099:c(1),vendor_acct:c(10),fax_no:c(20),fob:c(15),ap_ship_via:c(15),reserved_str_02:c(20),opened_date:c(8*),temp_vend:c(1)</DD_TABLE_TPL>
+			<DD_TABLE_TPL id="ddm_table_tpls.apm_vendmast">firm_id:c(2),vendor_id:c(6*),vendor_name:c(30),addr_line_1:c(24),addr_line_2:c(24),city:c(22),state_code:c(2),zip_code:c(9),phone_no:c(20),phone_exten:c(4),contact_name:c(20),alt_sequence:c(10),reserved_str:c(3),hold_flag:c(1),federal_id:c(15),vendor_1099:c(1),vendor_acct:c(10),fax_no:c(20),fob:c(15),ap_ship_via:c(15),reserved_str_02:c(20),opened_date:c(8*),temp_vend:c(1),vat_id:c(20),cntry_id:c(2)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_keys">
@@ -395,14 +395,14 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.apm_vendmast009">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.apm_vendmast009">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.apm_vendmast009">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTLX id="ddm_table_cols.apm_vendmast009">-10</DD_ATTR_CTLX>
+			<DD_ATTR_CTLX id="ddm_table_cols.apm_vendmast009">0</DD_ATTR_CTLX>
 			<DD_ATTR_CTLW id="ddm_table_cols.apm_vendmast009">112</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.apm_vendmast009">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABL id="ddm_table_cols.apm_vendmast009">Telephone</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_table_cols.apm_vendmast009">Telephone</DD_ATTR_LABS>
 			<DD_ATTR_MAXL id="ddm_table_cols.apm_vendmast009">20</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.apm_vendmast009">Telephone Number</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.apm_vendmast009">9</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.apm_vendmast009">10</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.apm_vendmast010">
 			<DD_TABLE_ALIAS id="ddm_table_cols.apm_vendmast010">APM_VENDMAST    </DD_TABLE_ALIAS>
@@ -420,7 +420,7 @@
 			<DD_ATTR_LABL id="ddm_table_cols.apm_vendmast010">Ext</DD_ATTR_LABL>
 			<DD_ATTR_MAXL id="ddm_table_cols.apm_vendmast010">4</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.apm_vendmast010">Phone Extension</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.apm_vendmast010">10</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.apm_vendmast010">11</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.apm_vendmast011">
 			<DD_TABLE_ALIAS id="ddm_table_cols.apm_vendmast011">APM_VENDMAST    </DD_TABLE_ALIAS>
@@ -437,7 +437,7 @@
 			<DD_ATTR_LABL id="ddm_table_cols.apm_vendmast011">Contact</DD_ATTR_LABL>
 			<DD_ATTR_MAXL id="ddm_table_cols.apm_vendmast011">20</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.apm_vendmast011">Contact Name</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.apm_vendmast011">11</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.apm_vendmast011">12</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.apm_vendmast012">
 			<DD_TABLE_ALIAS id="ddm_table_cols.apm_vendmast012">APM_VENDMAST    </DD_TABLE_ALIAS>
@@ -452,7 +452,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.apm_vendmast012">80</DD_ATTR_CTLW>
 			<DD_ATTR_MAXL id="ddm_table_cols.apm_vendmast012">10</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.apm_vendmast012">Alternate Sequence</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.apm_vendmast012">12</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.apm_vendmast012">13</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.apm_vendmast013">
 			<DD_TABLE_ALIAS id="ddm_table_cols.apm_vendmast013">APM_VENDMAST    </DD_TABLE_ALIAS>
@@ -466,7 +466,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.apm_vendmast013">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_MAXL id="ddm_table_cols.apm_vendmast013">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.apm_vendmast013">Reserved For Addon Use</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.apm_vendmast013">22</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.apm_vendmast013">23</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.apm_vendmast014">
 			<DD_TABLE_ALIAS id="ddm_table_cols.apm_vendmast014">APM_VENDMAST    </DD_TABLE_ALIAS>
@@ -484,7 +484,7 @@
 			<DD_ATTR_LABS id="ddm_table_cols.apm_vendmast014">Hold Invoices</DD_ATTR_LABS>
 			<DD_ATTR_MAXL id="ddm_table_cols.apm_vendmast014">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.apm_vendmast014">Hold For Manual Release?</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.apm_vendmast014">13</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.apm_vendmast014">14</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.apm_vendmast015">
 			<DD_TABLE_ALIAS id="ddm_table_cols.apm_vendmast015">APM_VENDMAST    </DD_TABLE_ALIAS>
@@ -501,7 +501,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.apm_vendmast015">120</DD_ATTR_CTLW>
 			<DD_ATTR_MAXL id="ddm_table_cols.apm_vendmast015">15</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.apm_vendmast015">Federal ID Number</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.apm_vendmast015">14</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.apm_vendmast015">15</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.apm_vendmast016">
 			<DD_TABLE_ALIAS id="ddm_table_cols.apm_vendmast016">APM_VENDMAST    </DD_TABLE_ALIAS>
@@ -517,7 +517,7 @@
 			<DD_ATTR_LABL id="ddm_table_cols.apm_vendmast016">1099?</DD_ATTR_LABL>
 			<DD_ATTR_MAXL id="ddm_table_cols.apm_vendmast016">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.apm_vendmast016">Vendor 1099 Flag</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.apm_vendmast016">15</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.apm_vendmast016">16</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.apm_vendmast017">
 			<DD_TABLE_ALIAS id="ddm_table_cols.apm_vendmast017">APM_VENDMAST    </DD_TABLE_ALIAS>
@@ -534,7 +534,7 @@
 			<DD_ATTR_LABL id="ddm_table_cols.apm_vendmast017">Acct ID</DD_ATTR_LABL>
 			<DD_ATTR_MAXL id="ddm_table_cols.apm_vendmast017">10</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.apm_vendmast017">Vendor Account ID</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.apm_vendmast017">16</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.apm_vendmast017">17</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.apm_vendmast018">
 			<DD_TABLE_ALIAS id="ddm_table_cols.apm_vendmast018">APM_VENDMAST    </DD_TABLE_ALIAS>
@@ -551,7 +551,7 @@
 			<DD_ATTR_LABS id="ddm_table_cols.apm_vendmast018">Fax Teleph</DD_ATTR_LABS>
 			<DD_ATTR_MAXL id="ddm_table_cols.apm_vendmast018">20</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.apm_vendmast018">Fax Telephone Number</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.apm_vendmast018">17</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.apm_vendmast018">18</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.apm_vendmast019">
 			<DD_TABLE_ALIAS id="ddm_table_cols.apm_vendmast019">APM_VENDMAST    </DD_TABLE_ALIAS>
@@ -566,7 +566,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.apm_vendmast019">120</DD_ATTR_CTLW>
 			<DD_ATTR_MAXL id="ddm_table_cols.apm_vendmast019">15</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.apm_vendmast019">Free On Board</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.apm_vendmast019">18</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.apm_vendmast019">19</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.apm_vendmast020">
 			<DD_TABLE_ALIAS id="ddm_table_cols.apm_vendmast020">APM_VENDMAST    </DD_TABLE_ALIAS>
@@ -582,7 +582,7 @@
 			<DD_ATTR_LABL id="ddm_table_cols.apm_vendmast020">Ship Via</DD_ATTR_LABL>
 			<DD_ATTR_MAXL id="ddm_table_cols.apm_vendmast020">15</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.apm_vendmast020">Vendor Ship Via</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.apm_vendmast020">19</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.apm_vendmast020">20</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.apm_vendmast021">
 			<DD_TABLE_ALIAS id="ddm_table_cols.apm_vendmast021">APM_VENDMAST    </DD_TABLE_ALIAS>
@@ -596,7 +596,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.apm_vendmast021">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_MAXL id="ddm_table_cols.apm_vendmast021">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.apm_vendmast021">Reserved For Addon Use</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.apm_vendmast021">23</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.apm_vendmast021">24</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.apm_vendmast022">
 			<DD_TABLE_ALIAS id="ddm_table_cols.apm_vendmast022">APM_VENDMAST    </DD_TABLE_ALIAS>
@@ -611,7 +611,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.apm_vendmast022">70</DD_ATTR_CTLW>
 			<DD_ATTR_MAXL id="ddm_table_cols.apm_vendmast022">8</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.apm_vendmast022">Date Opened</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.apm_vendmast022">20</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.apm_vendmast022">21</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.apm_vendmast023">
 			<DD_TABLE_ALIAS id="ddm_table_cols.apm_vendmast023">APM_VENDMAST    </DD_TABLE_ALIAS>
@@ -630,7 +630,49 @@
 			<DD_ATTR_CTLH id="ddm_table_cols.apm_vendmast023">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.apm_vendmast023">N</DD_ATTR_MLAN>
 			<DD_ATTR_MAXL id="ddm_table_cols.apm_vendmast023">1</DD_ATTR_MAXL>
-			<DD_ATTR_TIND id="ddm_table_cols.apm_vendmast023">21</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.apm_vendmast023">22</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.apm_vendmast024">
+			<DD_TABLE_ALIAS id="ddm_table_cols.apm_vendmast024">APM_VENDMAST    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.apm_vendmast024">024</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.apm_vendmast024">TAX_ID          </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.apm_vendmast024">VAT_ID          </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.apm_vendmast024">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.apm_vendmast024">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.apm_vendmast024">N</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.apm_vendmast024">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.apm_vendmast024">20110119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.apm_vendmast024">20110119</DD_LSTREV_DATE>
+			<DD_ATTR_COLW id="ddm_table_cols.apm_vendmast024">0</DD_ATTR_COLW>
+			<DD_ATTR_CTLX id="ddm_table_cols.apm_vendmast024">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_cols.apm_vendmast024">+1</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_cols.apm_vendmast024">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.apm_vendmast024">0</DD_ATTR_CTLH>
+			<DD_ATTR_LABL id="ddm_table_cols.apm_vendmast024">VAT ID</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_table_cols.apm_vendmast024">VAT ID</DD_ATTR_LABS>
+			<DD_ATTR_MLAN id="ddm_table_cols.apm_vendmast024">N</DD_ATTR_MLAN>
+			<DD_ATTR_MAXL id="ddm_table_cols.apm_vendmast024">20</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.apm_vendmast024">25</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.apm_vendmast025">
+			<DD_TABLE_ALIAS id="ddm_table_cols.apm_vendmast025">APM_VENDMAST    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.apm_vendmast025">025</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.apm_vendmast025">CNTRY_ID        </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.apm_vendmast025">CNTRY_ID        </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.apm_vendmast025">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.apm_vendmast025">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.apm_vendmast025">N</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.apm_vendmast025">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.apm_vendmast025">20110119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.apm_vendmast025">20110119</DD_LSTREV_DATE>
+			<DD_ATTR_COLW id="ddm_table_cols.apm_vendmast025">0</DD_ATTR_COLW>
+			<DD_ATTR_CTLX id="ddm_table_cols.apm_vendmast025">-10</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_cols.apm_vendmast025">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_cols.apm_vendmast025">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.apm_vendmast025">0</DD_ATTR_CTLH>
+			<DD_ATTR_MLAN id="ddm_table_cols.apm_vendmast025">N</DD_ATTR_MLAN>
+			<DD_ATTR_MAXL id="ddm_table_cols.apm_vendmast025">2</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.apm_vendmast025">9</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_cpro">
@@ -1087,6 +1129,52 @@
 			<DD_ATTR_MAXR id="ddm_elements.temp_vend">0</DD_ATTR_MAXR>
 			<DD_ATTR_MINL id="ddm_elements.temp_vend">0</DD_ATTR_MINL>
 			<DD_ATTR_PREC id="ddm_elements.temp_vend">0</DD_ATTR_PREC>
+		</RECORD>
+		<RECORD id="ddm_elements.tax_id">
+			<DD_DATA_NAME id="ddm_elements.tax_id">TAX_ID          </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.tax_id">Tax Identification</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.tax_id">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.tax_id">20</DD_DATA_LENGTH>
+			<ASC_COMP_ID id="ddm_elements.tax_id">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.tax_id">AD </ASC_PROD_ID>
+			<LOCALIZATION_EX id="ddm_elements.tax_id">N</LOCALIZATION_EX>
+			<DD_CREATE_DATE id="ddm_elements.tax_id">20110118</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.tax_id">20110118</DD_LSTREV_DATE>
+			<DD_ATTR_BLNK id="ddm_elements.tax_id">N</DD_ATTR_BLNK>
+			<DD_ATTR_CTLW id="ddm_elements.tax_id">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.tax_id">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.tax_id">E</DD_ATTR_CTYP>
+			<DD_ATTR_LABL id="ddm_elements.tax_id">Tax Identification</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.tax_id">Tax Identification</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.tax_id">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.tax_id">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.tax_id">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.tax_id">0</DD_ATTR_PREC>
+		</RECORD>
+		<RECORD id="ddm_elements.cntry_id">
+			<DD_DATA_NAME id="ddm_elements.cntry_id">CNTRY_ID        </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.cntry_id">Country ID</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.cntry_id">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.cntry_id">2</DD_DATA_LENGTH>
+			<ASC_COMP_ID id="ddm_elements.cntry_id">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.cntry_id">ADB</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.cntry_id">20080222</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.cntry_id">20080222</DD_LSTREV_DATE>
+			<DD_AUTO_COMP id="ddm_elements.cntry_id">N</DD_AUTO_COMP>
+			<DD_ATTR_CTLW id="ddm_elements.cntry_id">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.cntry_id">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.cntry_id">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOL id="ddm_elements.cntry_id">DESC</DD_ATTR_DCOL>
+			<DD_ATTR_DTAB id="ddm_elements.cntry_id">ADC_COUNTRY     </DD_ATTR_DTAB>
+			<DD_ATTR_LABL id="ddm_elements.cntry_id">Country ID</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.cntry_id">Country ID</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.cntry_id">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.cntry_id">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.cntry_id">0</DD_ATTR_MINL>
+			<DD_ATTR_MSKI id="ddm_elements.cntry_id">AA</DD_ATTR_MSKI>
+			<DD_ATTR_PADC id="ddm_elements.cntry_id">20</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.cntry_id">L</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.cntry_id">0</DD_ATTR_PREC>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_element_cmts">

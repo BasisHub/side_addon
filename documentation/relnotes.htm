@@ -63,7 +63,7 @@
 		<a name="TOP" id="TOP"></a>
 		<center>
 			<br />
-            <span class="title">RELNOTES for AddonSoftware 10.03</span>
+            <span class="title">RELNOTES for AddonSoftware 10.04</span>
 		</center>
 		<br />
 
@@ -115,22 +115,36 @@
 		<br />
 		<div class="indent1">
 			<br />
-			Version 10.03 takes advantage of the technological advancements provided by Barista&reg; and BBj&reg; to deliver an innovative software package known for its structural quality. Together with Barista, Version 10.03 offers a leap forward in the efficiency of software customization and the creation of vertical applications. AddonSoftware
+			Version 10.04 takes advantage of the technological advancements provided by Barista&reg; and BBj&reg; to deliver an innovative software package known for its structural quality. Together with Barista, Version 10.04 offers a leap forward in the efficiency of software customization and the creation of vertical applications. AddonSoftware
 continues its 25-year history of constant improvement - additional features, increased functionality, and updated technology - in this release.
 			<ul>
-			<li>New for version 10.03
+			<li>New for version 10.04
 			<br />
 				<ul>
-				<li>The AddonSoftware Installation and Upgrade Wizard (AIUW) automates the install and upgrade process, eliminating manual copy/pasting and configuration file edits. The first three components of the AIUW are located in the AddonSoftware Administration => Utilities menu. </li>
+				<li>Three new graphical reports have been added to the Accounts Receivable => Reports menu. These reports are all graphical, but each one takes a different approach, demonstrating how you can harness the power of BBj, java and JasperReports. </li>
 					<ul>
-						<li>Copy aon Directory: Copies the aon directory from the download location to a specified new location.</li>
-						<li>Update addon.syn File: Updates paths in the specified syn file to reflect the new location and location of data files.</li>
-						<li>Update sync XML Files: Recovers backed up sync files, and updates paths in admin_modules*.xml files to the new location.</li>
+						<li>Graphic Sales Report by Salesperson: presents a graphical representation of sales data for a selectable period by Salesperson in 6 different graphic formats. This is a straight BBj program, arr_graphicSalesReport.aon.</li>
+						<li>Sales Digital Dashboard: presents sales data for a selected month in several different formats by Salesperson, Customer Type and Year-to-Date sales. This program, arr_digitalDashboard.src, was created using AppBuilder.</li>
+						<li>Drill Down Sales Report by Customer Type: presents a series of reports starting with Sales By Customer type for a selectable period. The user can click on a customer type and see the sales by customer within that customer type. Clicking on a customer drills down to a report of invoices for that customer. Clicking on an invoice drills down to the invoice line items. The reports are linked, allowing the user to move up and down the drill-down stack. The lead-in is a straight BBj program that provides for selecting the period, and all the reports are done with Jasper iReports. The lead-in program also allows the user to select data and enter the drill-down stack at a lower level. This report uses BBj Stored Procedures (SPROCS), providing a glimpse into how to work with SPROCs as well.</li>
 					</ul>				
-                <li>Version 10.03 contains BBj Trigger definition and source files to facilitate running a hybrid version of Addon Payroll.  See the readme.txt in the <install>/apps/aon/util/v6triggers/ folder for more information. </li>
-                <li>Copy Data from Firm to Firm utility, located in the AddonSoftware Administration => Utilities menu.</li>
+                <li>Completed BBj Trigger definition and source files to facilitate running a hybrid version of Addon Payroll.  See the readme.txt in the <install>/apps/aon/util/v6triggers/ folder for more information. </li>
+                <li>Improved GL Financial Reports and Purchase Order Receipt Register to use DocOut formatting.</li>
+                <li>Developer/VAR utility to increment all of the year fields in demo data. Accessible only via the Form Manager => ADX_DEMOYEAR.</li>
 				</ul>
 			</li>
+			<li>Preview for version 11.00
+			<br />
+				<ul>
+				<li>The AddonSoftware Installation and Upgrade Wizard (AIUW) automates the install and upgrade process, eliminating manual copy/pasting and configuration file edits. The first three components of the AIUW were available in version 10.03.  The newest member to the suite is the Copy Custom Modifications utility. All of these programs are located in the AddonSoftware Administration => Utilities => Install/Upgrade Utilities menu. </li>
+					<ul>
+						<li>Copy aon Directory: Copies the aon directory from the download location to a specified new location.</li>
+						<li>Update addon.syn File: Updates paths in the specified .syn file to reflect the new aon location and location of data files.</li>
+						<li>Update sync XML Files: Recovers administrative data (masks, messages, sequence numbers, etc.) previously backed up into the sync directory, and updates paths in admin_modules*.xml files to the new location.</li>
+                        <li>Copy Custom Modifications: Recursively copies specified application/project file structures used to store Addon customizations in order to re-install the customizations into a new/upgraded Addon</li>
+					</ul>
+                <li>Additional triggers are underway for running a Manufacturing hybrid. See the readme.txt in the <install>/apps/aon/util/v6triggers/ folder for more information.</li>
+				</ul>
+			</li>            
 			<br />				
 
 			<li>For a list of continued improvements in all modules, refer to the &quot;fixed issues&quot; link on the BASIS product download page.
@@ -141,7 +155,7 @@ continues its 25-year history of constant improvement - additional features, inc
 		<span class="style1"><a name="KNOWNISSUES" id="KNOWNISSUES">3. KNOWN ISSUES</a></span><span class="style6"><a href="#TOP">(top of page)</a></span>
 		<div class="indent1">
 			<ul>
-				<li>BBj version 10.03 or higher and the Barista Application Framework version 10.03 or higher are both required to run AddonSoftware version 10.03. Earlier versions may produce unexpected results</li>
+				<li>BBj version 10.04 or higher and the Barista Application Framework version 10.04 or higher are both required to run AddonSoftware version 10.04. Earlier versions may produce unexpected results</li>
 				<li>When running under Linux, the KDE desktop environment must be used.</li>
 			</ul>
 
@@ -153,7 +167,7 @@ continues its 25-year history of constant improvement - additional features, inc
 		If you purchased your AddonSoftware product from a distributor, reseller, or OEM, please contact them for technical support. They will answer your question or contact us on your behalf.	
 		<br />
 		<br />
-		Technical support for version 10.03 is available via e-mail at <a href="mailto:addon-developer@addonsoftware.com">addon-developer@addonsoftware.com</a>.
+		Technical support for version 10.04 is available via e-mail at <a href="mailto:addon-developer@addonsoftware.com">addon-developer@addonsoftware.com</a>.
 		<br />
 		<br />
 		When submitting a technical support question, please provide the following information: 	
@@ -181,7 +195,7 @@ For more information, call 1.800.370.9131 (US &amp; Canada) or +1.505.938.6131
 		<br>
         <hr />
 
-		Copyright &copy; 2008 -2010 BASIS International Ltd. All rights reserved. 
+		Copyright &copy; 2008 -2011 BASIS International Ltd. All rights reserved. 
 		<br />
 		<br />
 		AddonSoftware&reg;, BBj&reg; and Barista&reg; are registered trademarks 

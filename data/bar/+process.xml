@@ -18,8 +18,8 @@
 			<DD_EXPORT_DATA id="ddm_tables.+process">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.+process">20060501</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_tables.+process">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.+process">20090916</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.+process">145954</DD_LSTSYNC_TIME>
+			<DD_LSTSYNC_DATE id="ddm_tables.+process">20110228</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.+process">110252</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.+process">X</DD_ATTR_FTYP>
 			<DD_ATTR_WINT id="ddm_tables.+process">Process Global Variable</DD_ATTR_WINT>
 		</RECORD>
@@ -109,14 +109,16 @@
 			<DD_MASK_TYPE id="ddm_elements.process_id"> </DD_MASK_TYPE>
 			<ASC_COMP_ID id="ddm_elements.process_id">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_elements.process_id">AD </ASC_PROD_ID>
+			<LOCALIZATION_EX id="ddm_elements.process_id">N</LOCALIZATION_EX>
 			<DD_CREATE_DATE id="ddm_elements.process_id">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.process_id">20071023</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.process_id">20090724</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_elements.process_id">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_elements.process_id">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.process_id">E</DD_ATTR_CTYP>
 			<DD_ATTR_DCOL id="ddm_elements.process_id">DESCRIPTION</DD_ATTR_DCOL>
 			<DD_ATTR_DCOM id="ddm_elements.process_id">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.process_id">            </DD_ATTR_DEXP>
+			<DD_ATTR_DKEY id="ddm_elements.process_id">[+FIRM_ID]+@</DD_ATTR_DKEY>
 			<DD_ATTR_DTAB id="ddm_elements.process_id">ADM_PROCMASTER  </DD_ATTR_DTAB>
 			<DD_ATTR_LABL id="ddm_elements.process_id">Process Identification</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.process_id">Process ID</DD_ATTR_LABS>
@@ -159,7 +161,7 @@
 			<ASC_PROD_ID id="ddm_elements.batch_no">AD </ASC_PROD_ID>
 			<LOCALIZATION_EX id="ddm_elements.batch_no">N</LOCALIZATION_EX>
 			<DD_CREATE_DATE id="ddm_elements.batch_no">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.batch_no">20090916</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.batch_no">20090714</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_elements.batch_no">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_elements.batch_no">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.batch_no">E</DD_ATTR_CTYP>
@@ -200,9 +202,9 @@
 			<DD_DATA_LENGTH id="ddm_elements.user_id">16</DD_DATA_LENGTH>
 			<DD_SYSTEM_REC id="ddm_elements.user_id">Y</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_elements.user_id">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.user_id">AD </ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.user_id">ADB</ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.user_id">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.user_id">20080110</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.user_id">20110228</DD_LSTREV_DATE>
 			<DD_AUTO_COMP id="ddm_elements.user_id">Y</DD_AUTO_COMP>
 			<DD_ATTR_CTLW id="ddm_elements.user_id">150</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_elements.user_id">0</DD_ATTR_CTLH>
@@ -210,7 +212,6 @@
 			<DD_ATTR_DCOL id="ddm_elements.user_id">NAME</DD_ATTR_DCOL>
 			<DD_ATTR_DCOM id="ddm_elements.user_id">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.user_id">            </DD_ATTR_DEXP>
-			<DD_ATTR_DFLT id="ddm_elements.user_id">stbl["+USER_ID"]</DD_ATTR_DFLT>
 			<DD_ATTR_DTAB id="ddm_elements.user_id">ADM_USER        </DD_ATTR_DTAB>
 			<DD_ATTR_LABL id="ddm_elements.user_id">User ID</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.user_id">User ID</DD_ATTR_LABS>

@@ -1,307 +1,209 @@
-Fixed and closed AddonSoftware issues
 =====================================================
- Report Date:   2010-12-09
- Report Branch: AddonSoftware 10.03
- Last Release:  AddonSoftware 10.02
+ Report Date:   2011-02-18
+ Report Branch: AddonSoftware 10.04
+ Last Release:  AddonSoftware 10.03
 =====================================================
 
-QA Memo: 4792
-Fixed Date: 09/27/2010
-Summary: OP - GL accounts wrong for Inv/COGS on non-stock when dist by item=N
-
-QA Memo: 4800
-Fixed Date: 09/28/2010
-Summary: OP - Discount Amount cannot exceed Total Sales Amount
-
-QA Memo: 4798
-Fixed Date: 09/28/2010
-Summary: OP - Recalculate Tax Amount when Discount Amount changes
-
-QA Memo: 4799
-Fixed Date: 09/28/2010
-Summary: OP - Enable Credit Action button as needed when Quote converted to Sale
-
-QA Memo: 4803
-Fixed Date: 10/04/2010
-Summary: PO - Line Code Entry Lead Time Check Box defaults to Y and isn't accessible
-
-QA Memo: 4802
-Fixed Date: 10/06/2010
-Summary: OP - Save current data button is active when no changes made
-
-QA Memo: 4643
-Fixed Date: 10/06/2010
-Summary: OP - Order entry credit action window
-
-QA Memo: 2081
-Fixed Date: 10/09/2010
-Summary: Firm 02 - Distribution Company Demo Data or fix the SYX.IA program
-
-QA Memo: 4806
-Fixed Date: 10/12/2010
-Summary: OP - Barista callpoint error in order entry
-
-QA Memo: 4808
-Fixed Date: 10/12/2010
-Summary: AP-Manual check Entry
-
-QA Memo: 4813
-Fixed Date: 10/12/2010
-Summary: AR - Cash receipts register sometimes misaligned
-
-QA Memo: 4814
-Fixed Date: 10/12/2010
-Summary: AR - On Acct and GL Dist buttons inadvertently deleted from Cash Receipts
-
-QA Memo: 4817
-Fixed Date: 10/13/2010
-Summary: PO - PO Entry Acknowledgment verbiage
-
-QA Memo: 4823
-Fixed Date: 10/13/2010
-Summary: PO - Line code maintenance - Vendor Part Number
-
-QA Memo: 4835
-Fixed Date: 10/18/2010
-Summary: AR - Simple invoice - DUPLICATE invoice number use
-
-QA Memo: 4826
-Fixed Date: 10/18/2010
-Summary: AR - Simple Invoice entry date warning loop
-
-QA Memo: 4828
-Fixed Date: 10/18/2010
-Summary: AR - Simple invoice entry changing invoice type hangs the application
-
-QA Memo: 4825
-Fixed Date: 10/18/2010
-Summary: AR - Simple invoice entry grid detail
-
-QA Memo: 4812
-Fixed Date: 10/18/2010
-Summary: AP - Invoice is inadvertently released from hold
-
-QA Memo: 4815
-Fixed Date: 10/18/2010
-Summary: PO - PO entry locks up
-
-QA Memo: 4822
-Fixed Date: 10/19/2010
-Summary: PO - PO Entry 'S' line code processing
-
-QA Memo: 4725
-Fixed Date: 10/19/2010
-Summary: PO - Purchase order entry - multiple issues
-
-QA Memo: 4816
-Fixed Date: 10/19/2010
-Summary: PO - PO form does not print the correct Date Required
-
-QA Memo: 4839
-Fixed Date: 10/19/2010
-Summary: PO - Queue for printing/print purchase order buttons
-
-QA Memo: 4829
-Fixed Date: 10/19/2010
-Summary: AR - Simple invoice entry default GL code
-
-QA Memo: 4811
-Fixed Date: 10/19/2010
-Summary: AP-Payment Selection Entry
-
-QA Memo: 4810
-Fixed Date: 10/20/2010
-Summary: AP-Manual check Entry
-
-QA Memo: 4858
-Fixed Date: 10/21/2010
-Summary: IV - IVM empty requisition status report
-
-QA Memo: 4857
-Fixed Date: 10/21/2010
-Summary: IV - IVM empty open purchase order report
-
-QA Memo: 4856
-Fixed Date: 10/21/2010
-Summary: IV - IVM empty open sales report
-
-QA Memo: 4862
-Fixed Date: 10/21/2010
-Summary: AP - Manual Check Entry should default Invoice Amount to remaining balance.
-
-QA Memo: 4851
-Fixed Date: 10/21/2010
-Summary: IV - Inventory Activity Report shows all zeros
-
-QA Memo: 4853
-Fixed Date: 10/21/2010
-Summary: PO - PO Receipt History By Item is missing data
-
-QA Memo: 4864
-Fixed Date: 10/21/2010
-Summary: PO - PO Invoice Register report heading is wrong
-
-QA Memo: 4863
-Fixed Date: 10/23/2010
-Summary: PO - Invoice Entry Default Date window display
-
-QA Memo: 4852
-Fixed Date: 10/23/2010
-Summary: IV - Inventory analysis report by warehouse does not show any usage
-
-QA Memo: 4848
-Fixed Date: 10/23/2010
-Summary: PO - Receipt history report error 47
-
-QA Memo: 4837
-Fixed Date: 10/24/2010
-Summary: AR - Simple Invoice For - Seq number alignment
-
-QA Memo: 4870
-Fixed Date: 10/25/2010
-Summary: AR - Simple Invoice Entry Detail Extended Price can't be changed
-
-QA Memo: 4830
-Fixed Date: 10/25/2010
-Summary: AR - Simple invoice entry requires that a price be entered
-
-QA Memo: 4866
-Fixed Date: 10/26/2010
-Summary: GL - Error 47 in glr_13period.aon line 41
-
-QA Memo: 4868
-Fixed Date: 10/26/2010
-Summary: GL - Error 47 in glr_financials.aon line 335 when printing report 40
-
-QA Memo: 4867
-Fixed Date: 10/26/2010
-Summary: GL - Financial Report column alignments need help
-
-QA Memo: 4860
-Fixed Date: 10/27/2010
-Summary: PO - PO entry - neither WRITE option saves the record
-
-QA Memo: 4872
-Fixed Date: 10/28/2010
-Summary: IV - Demo data item class import
-
-QA Memo: 4842
-Fixed Date: 10/28/2010
-Summary: PO - Receipt register format
-
-QA Memo: 4831
-Fixed Date: 10/28/2010
-Summary: AR - Simple invoice form quantity mask
-
-QA Memo: 4874
-Fixed Date: 11/01/2010
-Summary: IV - Warehouse Master should only try to read from Work Order Master if SF is installed
-
-QA Memo: 4875
-Fixed Date: 11/04/2010
-Summary: AP - Vendor Detail listing has an abnormal heading
-
-QA Memo: 4850
-Fixed Date: 11/04/2010
-Summary: SA - Error 47 in sar_ac_aon
- line 348
-
-QA Memo: 4715
-Fixed Date: 11/04/2010
-Summary: OP - Invoice entry - error 11
-
-QA Memo: 4847
-Fixed Date: 11/04/2010
-Summary: PO - Invoice Register does not protect an open invoice entry
-
-QA Memo: 4840
-Fixed Date: 11/04/2010
-Summary: PO - Conflict with and open PO and batch print
-
-QA Memo: 4841
-Fixed Date: 11/04/2010
-Summary: PO - Batch print marks PO's as printed that did not print
-
-QA Memo: 4879
-Fixed Date: 11/05/2010
-Summary: IV - Transaction History Report 'TO' Processing
-
-QA Memo: 4728
-Fixed Date: 11/19/2010
-Summary: PO - Other line type focus
-
-QA Memo: 4895
-Fixed Date: 11/24/2010
-Summary: GL - Missing mask type R in GL financial reports
-
-QA Memo: 4844
-Fixed Date: 11/27/2010
-Summary: PO - PO receipt entry is reporting missing data
-
-QA Memo: 4902
-Fixed Date: 11/30/2010
-Summary: OP - Exit to basic prompt
-
-QA Memo: 4905
-Fixed Date: 11/30/2010
-Summary: PO - PO entry detail line is not populated with the known information
-
-QA Memo: 4909
-Fixed Date: 12/01/2010
-Summary: PO - Purchase order does not always print
-
-QA Memo: 4906
-Fixed Date: 12/01/2010
-Summary: PO - PO entry detail line is not populated with the dates entered in the header
-
-QA Memo: 4907
-Fixed Date: 12/01/2010
-Summary: PO - Standardization for the PO entry detail line date validation
-
-QA Memo: 4908
-Fixed Date: 12/01/2010
-Summary: PO - Detail line standard message code lookup
-
-QA Memo: 4918
-Fixed Date: 12/02/2010
-Summary: PO - Requisition entry - drop ship tab - error 17
-
-QA Memo: 4916
-Fixed Date: 12/02/2010
-Summary: OP - Error 11 in ope_pricequote_cpt.bbj
-
-QA Memo: 4922
-Fixed Date: 12/03/2010
-Summary: PO - PO receipt entry - error 17
-
-QA Memo: 4904
-Fixed Date: 12/03/2010
-Summary: OP/AR - Customer MTD & YTD sales totals are not updated
-
-QA Memo: 4921
-Fixed Date: 12/03/2010
-Summary: PO - Requisition register print - error 17
-
-QA Memo: 4932
-Fixed Date: 12/06/2010
-Summary: AP - Test bug for svn/bugzilla training
-
-QA Memo: 4915
-Fixed Date: 12/08/2010
-Summary: PO - Purchase calendar generates an error
-
-QA Memo: 4824
-Fixed Date: 12/08/2010
-Summary: AR - Cash Receipts shows incorrect Remaining and Applied
-
-QA Memo: 4935
-Fixed Date: 12/08/2010
-Summary: PO - Error 26 when printing the purchase order calendar
-
-QA Memo: 4926
-Fixed Date: 12/09/2010
-Summary: PO - Invoice register error 47
-
-QA Memo: 4924
-Fixed Date: 12/09/2010
-Summary: PO - Invoice register error 47
+   QA Memo:	4924
+Fixed Date:	12/09/2010
+   Summary:	PO - Invoice register error 47
+
+   QA Memo:	4946
+Fixed Date:	12/13/2010
+   Summary:	AD - Missnamed helpset file in addon.syn
+
+   QA Memo:	4943
+Fixed Date:	12/13/2010
+   Summary:	OP - Missing AR units mask
+
+   QA Memo:	4950
+Fixed Date:	12/14/2010
+   Summary:	OP - test bug for svn/bugzilla training
+
+   QA Memo:	4942
+Fixed Date:	12/15/2010
+   Summary:	PO - Non stock detail line is not populated with the header dates
+
+   QA Memo:	4930
+Fixed Date:	12/15/2010
+   Summary:	PO - Invoice entry will not accept a valid receiver
+
+   QA Memo:	4944
+Fixed Date:	12/16/2010
+   Summary:	PO - Purchase Calendar demo data
+
+   QA Memo:	4931
+Fixed Date:	12/17/2010
+   Summary:	PO - Invoice entry - detail button is not lit
+
+   QA Memo:	4959
+Fixed Date:	12/21/2010
+   Summary:	PO - adjust/re-align PO# field at top of form
+
+   QA Memo:	4912
+Fixed Date:	12/21/2010
+   Summary:	PO - PO entry line code default
+
+   QA Memo:	4962
+Fixed Date:	12/23/2010
+   Summary:	PO - Error 47 in Receipt Update
+
+   QA Memo:	4963
+Fixed Date:	12/23/2010
+   Summary:	Codeport errors
+
+   QA Memo:	4968
+Fixed Date:	12/30/2010
+   Summary:	Dataport needs to honor case specific record types
+
+   QA Memo:	4914
+Fixed Date:	01/04/2011
+   Summary:	PO - Receipt entry can be created without entering a vendor or PO number
+
+   QA Memo:	4894
+Fixed Date:	01/04/2011
+   Summary:	OP - Invoice edit report shows different costs/percentages
+
+   QA Memo:	4973
+Fixed Date:	01/05/2011
+   Summary:	AP - Distribution Code and Payment Group allowed to be empty
+
+   QA Memo:	4437
+Fixed Date:	01/05/2011
+   Summary:	AP - Vendor Detail report page length
+
+   QA Memo:	4832
+Fixed Date:	01/05/2011
+   Summary:	AR - Simple invoice posted to customer open invoices
+
+   QA Memo:	4753
+Fixed Date:	01/06/2011
+   Summary:	OP - Flow after entering order totals
+
+   QA Memo:	4807
+Fixed Date:	01/06/2011
+   Summary:	OP - Error 11 from order entry
+
+   QA Memo:	4846
+Fixed Date:	01/06/2011
+   Summary:	PO - Invoice adjustment Extension column and total
+
+   QA Memo:	4934
+Fixed Date:	01/06/2011
+   Summary:	PO - PO By Item Report garbled data
+
+   QA Memo:	4917
+Fixed Date:	01/06/2011
+   Summary:	PO - PO entry does not require an order quantity
+
+   QA Memo:	4920
+Fixed Date:	01/07/2011
+   Summary:	PO - Printed requisition document
+
+   QA Memo:	4977
+Fixed Date:	01/08/2011
+   Summary:	OP - Picking List/Invoice Print doesn't print City/State always
+
+   QA Memo:	4976
+Fixed Date:	01/12/2011
+   Summary:	AP - Manual Check Register not showing all invoices paid
+
+   QA Memo:	4759
+Fixed Date:	01/12/2011
+   Summary:	AP - Error 47 clicking around in Manual Checks
+
+   QA Memo:	4941
+Fixed Date:	01/12/2011
+   Summary:	PO - PO entry requires a save before immediate print
+
+   QA Memo:	4845
+Fixed Date:	01/12/2011
+   Summary:	PO - Invoice Summary Register format needs help
+
+   QA Memo:	4892
+Fixed Date:	01/12/2011
+   Summary:	OP - Order entry & non-inventoried SN assignment
+
+   QA Memo:	4821
+Fixed Date:	01/13/2011
+   Summary:	OP - Recalculate OE/IE discount amount only when extended price changes.
+
+   QA Memo:	4903
+Fixed Date:	01/14/2011
+   Summary:	OP - Invoice totals pages calculates incorrect discount
+
+   QA Memo:	4988
+Fixed Date:	01/14/2011
+   Summary:	AD - Dataport refers to file sys-01 specifically
+
+   QA Memo:	4992
+Fixed Date:	01/18/2011
+   Summary:	AP - Can't enter new invoice number if it contains same beginning characters as an existing invoice
+
+   QA Memo:	4985
+Fixed Date:	01/19/2011
+   Summary:	AD - Need to implement 'special' override in several processes
+
+   QA Memo:	4990
+Fixed Date:	01/19/2011
+   Summary:	AD - File open public adc_fileopen.aon can consume file channels
+
+   QA Memo:	4720
+Fixed Date:	01/19/2011
+   Summary:	OP - Order entry inadvertent line code change
+
+   QA Memo:	4722
+Fixed Date:	01/19/2011
+   Summary:	OP - Invoice entry allows and inadvertent line code change
+
+   QA Memo:	4898
+Fixed Date:	01/20/2011
+   Summary:	AD - Clear Firm From System utility isn't working
+
+   QA Memo:	5006
+Fixed Date:	01/28/2011
+   Summary:	AP - Manual Check Entry allows AP Type or Check# to change after creating reversal
+
+   QA Memo:	5007
+Fixed Date:	01/28/2011
+   Summary:	AP - Manual Check Register printing GL Account when it shouldn't be
+
+   QA Memo:	4983
+Fixed Date:	01/28/2011
+   Summary:	AP - Manual Check Reversal not posting correctly
+
+   QA Memo:	5015
+Fixed Date:	01/31/2011
+   Summary:	SA - Alias SAW_CUSTOM12 contains wrong data file name
+
+   QA Memo:	4891
+Fixed Date:	02/02/2011
+   Summary:	OP - Totals tab selection is not always displayed
+
+   QA Memo:	4511
+Fixed Date:	02/03/2011
+   Summary:	PO - PO Registers inconsistant report vs GL recap report
+
+   QA Memo:	4400
+Fixed Date:	02/08/2011
+   Summary:	AD - General Comments
+
+   QA Memo:	2662
+Fixed Date:	02/08/2011
+   Summary:	GL - User Defined Financial Reports
+
+   QA Memo:	5024
+Fixed Date:	02/09/2011
+   Summary:	AD - DataPort not updating Barista ads_sequences table
+
+   QA Memo:	4600
+Fixed Date:	02/09/2011
+   Summary:	OP - Order Entry: displayed detail lines are being removed
+
+   QA Memo:	4890
+Fixed Date:	02/09/2011
+   Summary:	OP - Net order amount is not always updated
+
+   QA Memo:	4996
+Fixed Date:	02/09/2011
+   Summary:	OP - Date field on Shipping Schedule Report not passing validation

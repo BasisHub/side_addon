@@ -18,13 +18,13 @@
 			<ASC_LICENSE_ID id="ddm_tables.arm_custmast">B0AE4537C94866F0AF91493A5C8B7BCB</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.arm_custmast">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.arm_custmast">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.arm_custmast">20100908</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.arm_custmast">20100831</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.arm_custmast">220712</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.arm_custmast">20110121</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.arm_custmast">20110121</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.arm_custmast">131128</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.arm_custmast">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.arm_custmast">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.arm_custmast">zzzz</DD_ATTR_SLEV>
-			<DD_ATTR_WINT id="ddm_tables.arm_custmast">Customer Master</DD_ATTR_WINT>
+			<DD_ATTR_WINT id="ddm_tables.arm_custmast">Customers</DD_ATTR_WINT>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_acol">
@@ -34,301 +34,301 @@
 			<DD_SEQUENCE id="ddm_table_acol.arm_custmast001">001</DD_SEQUENCE>
 			<DD_AUX_ALIAS id="ddm_table_acol.arm_custmast001">ARM_CUSTDET     </DD_AUX_ALIAS>
 			<DD_ATTR_DCOL id="ddm_table_acol.arm_custmast001">CUSTOMER_TYPE   </DD_ATTR_DCOL>
-			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast001">24</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast001">25</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_acol.arm_custmast002">
 			<DD_TABLE_ALIAS id="ddm_table_acol.arm_custmast002">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_acol.arm_custmast002">002</DD_SEQUENCE>
 			<DD_AUX_ALIAS id="ddm_table_acol.arm_custmast002">ARM_CUSTDET     </DD_AUX_ALIAS>
 			<DD_ATTR_DCOL id="ddm_table_acol.arm_custmast002">SLSPSN_CODE     </DD_ATTR_DCOL>
-			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast002">25</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast002">26</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_acol.arm_custmast003">
 			<DD_TABLE_ALIAS id="ddm_table_acol.arm_custmast003">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_acol.arm_custmast003">003</DD_SEQUENCE>
 			<DD_AUX_ALIAS id="ddm_table_acol.arm_custmast003">ARM_CUSTDET     </DD_AUX_ALIAS>
 			<DD_ATTR_DCOL id="ddm_table_acol.arm_custmast003">AR_TERMS_CODE   </DD_ATTR_DCOL>
-			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast003">26</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast003">27</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_acol.arm_custmast004">
 			<DD_TABLE_ALIAS id="ddm_table_acol.arm_custmast004">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_acol.arm_custmast004">004</DD_SEQUENCE>
 			<DD_AUX_ALIAS id="ddm_table_acol.arm_custmast004">ARM_CUSTDET     </DD_AUX_ALIAS>
 			<DD_ATTR_DCOL id="ddm_table_acol.arm_custmast004">TAX_CODE        </DD_ATTR_DCOL>
-			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast004">34</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast004">35</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_acol.arm_custmast005">
 			<DD_TABLE_ALIAS id="ddm_table_acol.arm_custmast005">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_acol.arm_custmast005">005</DD_SEQUENCE>
 			<DD_AUX_ALIAS id="ddm_table_acol.arm_custmast005">ARM_CUSTDET     </DD_AUX_ALIAS>
 			<DD_ATTR_DCOL id="ddm_table_acol.arm_custmast005">FRT_TERMS       </DD_ATTR_DCOL>
-			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast005">27</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast005">28</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_acol.arm_custmast006">
 			<DD_TABLE_ALIAS id="ddm_table_acol.arm_custmast006">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_acol.arm_custmast006">006</DD_SEQUENCE>
 			<DD_AUX_ALIAS id="ddm_table_acol.arm_custmast006">ARM_CUSTDET     </DD_AUX_ALIAS>
 			<DD_ATTR_DCOL id="ddm_table_acol.arm_custmast006">TERRITORY       </DD_ATTR_DCOL>
-			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast006">28</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast006">29</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_acol.arm_custmast007">
 			<DD_TABLE_ALIAS id="ddm_table_acol.arm_custmast007">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_acol.arm_custmast007">007</DD_SEQUENCE>
 			<DD_AUX_ALIAS id="ddm_table_acol.arm_custmast007">ARM_CUSTDET     </DD_AUX_ALIAS>
 			<DD_ATTR_DCOL id="ddm_table_acol.arm_custmast007">AR_DIST_CODE    </DD_ATTR_DCOL>
-			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast007">29</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast007">30</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_acol.arm_custmast008">
 			<DD_TABLE_ALIAS id="ddm_table_acol.arm_custmast008">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_acol.arm_custmast008">008</DD_SEQUENCE>
 			<DD_AUX_ALIAS id="ddm_table_acol.arm_custmast008">ARM_CUSTDET     </DD_AUX_ALIAS>
 			<DD_ATTR_DCOL id="ddm_table_acol.arm_custmast008">MESSAGE_CODE    </DD_ATTR_DCOL>
-			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast008">30</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast008">31</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_acol.arm_custmast009">
 			<DD_TABLE_ALIAS id="ddm_table_acol.arm_custmast009">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_acol.arm_custmast009">009</DD_SEQUENCE>
 			<DD_AUX_ALIAS id="ddm_table_acol.arm_custmast009">ARM_CUSTDET     </DD_AUX_ALIAS>
 			<DD_ATTR_DCOL id="ddm_table_acol.arm_custmast009">PRICING_CODE    </DD_ATTR_DCOL>
-			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast009">31</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast009">32</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_acol.arm_custmast010">
 			<DD_TABLE_ALIAS id="ddm_table_acol.arm_custmast010">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_acol.arm_custmast010">010</DD_SEQUENCE>
 			<DD_AUX_ALIAS id="ddm_table_acol.arm_custmast010">ARM_CUSTDET     </DD_AUX_ALIAS>
 			<DD_ATTR_DCOL id="ddm_table_acol.arm_custmast010">DISC_CODE       </DD_ATTR_DCOL>
-			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast010">32</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast010">33</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_acol.arm_custmast011">
 			<DD_TABLE_ALIAS id="ddm_table_acol.arm_custmast011">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_acol.arm_custmast011">011</DD_SEQUENCE>
 			<DD_AUX_ALIAS id="ddm_table_acol.arm_custmast011">ARM_CUSTDET     </DD_AUX_ALIAS>
 			<DD_ATTR_DCOL id="ddm_table_acol.arm_custmast011">LABEL_CODE      </DD_ATTR_DCOL>
-			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast011">33</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast011">34</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_acol.arm_custmast012">
 			<DD_TABLE_ALIAS id="ddm_table_acol.arm_custmast012">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_acol.arm_custmast012">012</DD_SEQUENCE>
 			<DD_AUX_ALIAS id="ddm_table_acol.arm_custmast012">ARM_CUSTDET     </DD_AUX_ALIAS>
 			<DD_ATTR_DCOL id="ddm_table_acol.arm_custmast012">FINANCE_CHG     </DD_ATTR_DCOL>
-			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast012">39</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast012">41</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_acol.arm_custmast013">
 			<DD_TABLE_ALIAS id="ddm_table_acol.arm_custmast013">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_acol.arm_custmast013">013</DD_SEQUENCE>
 			<DD_AUX_ALIAS id="ddm_table_acol.arm_custmast013">ARM_CUSTDET     </DD_AUX_ALIAS>
 			<DD_ATTR_DCOL id="ddm_table_acol.arm_custmast013">STATEMENTS      </DD_ATTR_DCOL>
-			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast013">40</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast013">42</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_acol.arm_custmast014">
 			<DD_TABLE_ALIAS id="ddm_table_acol.arm_custmast014">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_acol.arm_custmast014">014</DD_SEQUENCE>
 			<DD_AUX_ALIAS id="ddm_table_acol.arm_custmast014">ARM_CUSTDET     </DD_AUX_ALIAS>
 			<DD_ATTR_DCOL id="ddm_table_acol.arm_custmast014">SA_FLAG         </DD_ATTR_DCOL>
-			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast014">36</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast014">38</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_acol.arm_custmast015">
 			<DD_TABLE_ALIAS id="ddm_table_acol.arm_custmast015">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_acol.arm_custmast015">015</DD_SEQUENCE>
 			<DD_AUX_ALIAS id="ddm_table_acol.arm_custmast015">ARM_CUSTDET     </DD_AUX_ALIAS>
 			<DD_ATTR_DCOL id="ddm_table_acol.arm_custmast015">CREDIT_LIMIT    </DD_ATTR_DCOL>
-			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast015">37</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast015">39</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_acol.arm_custmast016">
 			<DD_TABLE_ALIAS id="ddm_table_acol.arm_custmast016">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_acol.arm_custmast016">016</DD_SEQUENCE>
 			<DD_AUX_ALIAS id="ddm_table_acol.arm_custmast016">ARM_CUSTDET     </DD_AUX_ALIAS>
 			<DD_ATTR_DCOL id="ddm_table_acol.arm_custmast016">CRED_HOLD       </DD_ATTR_DCOL>
-			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast016">38</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast016">40</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_acol.arm_custmast017">
 			<DD_TABLE_ALIAS id="ddm_table_acol.arm_custmast017">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_acol.arm_custmast017">017</DD_SEQUENCE>
 			<DD_AUX_ALIAS id="ddm_table_acol.arm_custmast017">ARM_CUSTDET     </DD_AUX_ALIAS>
 			<DD_ATTR_DCOL id="ddm_table_acol.arm_custmast017">INV_HIST_FLG    </DD_ATTR_DCOL>
-			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast017">41</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast017">43</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_acol.arm_custmast018">
 			<DD_TABLE_ALIAS id="ddm_table_acol.arm_custmast018">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_acol.arm_custmast018">018</DD_SEQUENCE>
 			<DD_AUX_ALIAS id="ddm_table_acol.arm_custmast018">ARM_CUSTDET     </DD_AUX_ALIAS>
 			<DD_ATTR_DCOL id="ddm_table_acol.arm_custmast018">AGING_FUTURE    </DD_ATTR_DCOL>
-			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast018">42</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast018">44</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_acol.arm_custmast019">
 			<DD_TABLE_ALIAS id="ddm_table_acol.arm_custmast019">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_acol.arm_custmast019">019</DD_SEQUENCE>
 			<DD_AUX_ALIAS id="ddm_table_acol.arm_custmast019">ARM_CUSTDET     </DD_AUX_ALIAS>
 			<DD_ATTR_DCOL id="ddm_table_acol.arm_custmast019">AGING_CUR       </DD_ATTR_DCOL>
-			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast019">43</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast019">45</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_acol.arm_custmast020">
 			<DD_TABLE_ALIAS id="ddm_table_acol.arm_custmast020">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_acol.arm_custmast020">020</DD_SEQUENCE>
 			<DD_AUX_ALIAS id="ddm_table_acol.arm_custmast020">ARM_CUSTDET     </DD_AUX_ALIAS>
 			<DD_ATTR_DCOL id="ddm_table_acol.arm_custmast020">AGING_30        </DD_ATTR_DCOL>
-			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast020">44</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast020">46</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_acol.arm_custmast021">
 			<DD_TABLE_ALIAS id="ddm_table_acol.arm_custmast021">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_acol.arm_custmast021">021</DD_SEQUENCE>
 			<DD_AUX_ALIAS id="ddm_table_acol.arm_custmast021">ARM_CUSTDET     </DD_AUX_ALIAS>
 			<DD_ATTR_DCOL id="ddm_table_acol.arm_custmast021">AGING_60        </DD_ATTR_DCOL>
-			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast021">45</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast021">47</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_acol.arm_custmast022">
 			<DD_TABLE_ALIAS id="ddm_table_acol.arm_custmast022">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_acol.arm_custmast022">022</DD_SEQUENCE>
 			<DD_AUX_ALIAS id="ddm_table_acol.arm_custmast022">ARM_CUSTDET     </DD_AUX_ALIAS>
 			<DD_ATTR_DCOL id="ddm_table_acol.arm_custmast022">AGING_90        </DD_ATTR_DCOL>
-			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast022">46</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast022">48</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_acol.arm_custmast023">
 			<DD_TABLE_ALIAS id="ddm_table_acol.arm_custmast023">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_acol.arm_custmast023">023</DD_SEQUENCE>
 			<DD_AUX_ALIAS id="ddm_table_acol.arm_custmast023">ARM_CUSTDET     </DD_AUX_ALIAS>
 			<DD_ATTR_DCOL id="ddm_table_acol.arm_custmast023">AGING_120       </DD_ATTR_DCOL>
-			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast023">47</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast023">49</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_acol.arm_custmast024">
 			<DD_TABLE_ALIAS id="ddm_table_acol.arm_custmast024">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_acol.arm_custmast024">024</DD_SEQUENCE>
 			<DD_AUX_ALIAS id="ddm_table_acol.arm_custmast024">ARM_CUSTPMTS    </DD_AUX_ALIAS>
 			<DD_ATTR_DCOL id="ddm_table_acol.arm_custmast024">AVG_DAYS        </DD_ATTR_DCOL>
-			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast024">49</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast024">51</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_acol.arm_custmast025">
 			<DD_TABLE_ALIAS id="ddm_table_acol.arm_custmast025">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_acol.arm_custmast025">025</DD_SEQUENCE>
 			<DD_AUX_ALIAS id="ddm_table_acol.arm_custmast025">ARM_CUSTPMTS    </DD_AUX_ALIAS>
 			<DD_ATTR_DCOL id="ddm_table_acol.arm_custmast025">LSTINV_DATE     </DD_ATTR_DCOL>
-			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast025">50</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast025">52</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_acol.arm_custmast026">
 			<DD_TABLE_ALIAS id="ddm_table_acol.arm_custmast026">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_acol.arm_custmast026">026</DD_SEQUENCE>
 			<DD_AUX_ALIAS id="ddm_table_acol.arm_custmast026">ARM_CUSTPMTS    </DD_AUX_ALIAS>
 			<DD_ATTR_DCOL id="ddm_table_acol.arm_custmast026">LSTPAY_DATE     </DD_ATTR_DCOL>
-			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast026">51</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast026">53</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_acol.arm_custmast027">
 			<DD_TABLE_ALIAS id="ddm_table_acol.arm_custmast027">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_acol.arm_custmast027">027</DD_SEQUENCE>
 			<DD_AUX_ALIAS id="ddm_table_acol.arm_custmast027">ARM_CUSTPMTS    </DD_AUX_ALIAS>
 			<DD_ATTR_DCOL id="ddm_table_acol.arm_custmast027">MTD_SALES       </DD_ATTR_DCOL>
-			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast027">53</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast027">55</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_acol.arm_custmast028">
 			<DD_TABLE_ALIAS id="ddm_table_acol.arm_custmast028">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_acol.arm_custmast028">028</DD_SEQUENCE>
 			<DD_AUX_ALIAS id="ddm_table_acol.arm_custmast028">ARM_CUSTPMTS    </DD_AUX_ALIAS>
 			<DD_ATTR_DCOL id="ddm_table_acol.arm_custmast028">MTD_COST        </DD_ATTR_DCOL>
-			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast028">54</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast028">56</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_acol.arm_custmast029">
 			<DD_TABLE_ALIAS id="ddm_table_acol.arm_custmast029">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_acol.arm_custmast029">029</DD_SEQUENCE>
 			<DD_AUX_ALIAS id="ddm_table_acol.arm_custmast029">ARM_CUSTPMTS    </DD_AUX_ALIAS>
 			<DD_ATTR_DCOL id="ddm_table_acol.arm_custmast029">AVG_DAYS_MTD    </DD_ATTR_DCOL>
-			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast029">57</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast029">59</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_acol.arm_custmast030">
 			<DD_TABLE_ALIAS id="ddm_table_acol.arm_custmast030">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_acol.arm_custmast030">030</DD_SEQUENCE>
 			<DD_AUX_ALIAS id="ddm_table_acol.arm_custmast030">ARM_CUSTPMTS    </DD_AUX_ALIAS>
 			<DD_ATTR_DCOL id="ddm_table_acol.arm_custmast030">MTD_HIGH_CRD    </DD_ATTR_DCOL>
-			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast030">58</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast030">60</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_acol.arm_custmast031">
 			<DD_TABLE_ALIAS id="ddm_table_acol.arm_custmast031">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_acol.arm_custmast031">031</DD_SEQUENCE>
 			<DD_AUX_ALIAS id="ddm_table_acol.arm_custmast031">ARM_CUSTPMTS    </DD_AUX_ALIAS>
 			<DD_ATTR_DCOL id="ddm_table_acol.arm_custmast031">YTD_SALES       </DD_ATTR_DCOL>
-			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast031">60</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast031">62</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_acol.arm_custmast032">
 			<DD_TABLE_ALIAS id="ddm_table_acol.arm_custmast032">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_acol.arm_custmast032">032</DD_SEQUENCE>
 			<DD_AUX_ALIAS id="ddm_table_acol.arm_custmast032">ARM_CUSTPMTS    </DD_AUX_ALIAS>
 			<DD_ATTR_DCOL id="ddm_table_acol.arm_custmast032">YTD_COST        </DD_ATTR_DCOL>
-			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast032">61</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast032">63</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_acol.arm_custmast033">
 			<DD_TABLE_ALIAS id="ddm_table_acol.arm_custmast033">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_acol.arm_custmast033">033</DD_SEQUENCE>
 			<DD_AUX_ALIAS id="ddm_table_acol.arm_custmast033">ARM_CUSTPMTS    </DD_AUX_ALIAS>
 			<DD_ATTR_DCOL id="ddm_table_acol.arm_custmast033">AVG_DAYS_YTD    </DD_ATTR_DCOL>
-			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast033">64</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast033">66</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_acol.arm_custmast034">
 			<DD_TABLE_ALIAS id="ddm_table_acol.arm_custmast034">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_acol.arm_custmast034">034</DD_SEQUENCE>
 			<DD_AUX_ALIAS id="ddm_table_acol.arm_custmast034">ARM_CUSTPMTS    </DD_AUX_ALIAS>
 			<DD_ATTR_DCOL id="ddm_table_acol.arm_custmast034">YTD_HI_CRED     </DD_ATTR_DCOL>
-			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast034">65</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast034">67</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_acol.arm_custmast035">
 			<DD_TABLE_ALIAS id="ddm_table_acol.arm_custmast035">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_acol.arm_custmast035">035</DD_SEQUENCE>
 			<DD_AUX_ALIAS id="ddm_table_acol.arm_custmast035">ARM_CUSTPMTS    </DD_AUX_ALIAS>
 			<DD_ATTR_DCOL id="ddm_table_acol.arm_custmast035">PYR_SALES       </DD_ATTR_DCOL>
-			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast035">67</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast035">69</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_acol.arm_custmast036">
 			<DD_TABLE_ALIAS id="ddm_table_acol.arm_custmast036">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_acol.arm_custmast036">036</DD_SEQUENCE>
 			<DD_AUX_ALIAS id="ddm_table_acol.arm_custmast036">ARM_CUSTPMTS    </DD_AUX_ALIAS>
 			<DD_ATTR_DCOL id="ddm_table_acol.arm_custmast036">PRI_YTD_COST    </DD_ATTR_DCOL>
-			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast036">68</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast036">70</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_acol.arm_custmast037">
 			<DD_TABLE_ALIAS id="ddm_table_acol.arm_custmast037">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_acol.arm_custmast037">037</DD_SEQUENCE>
 			<DD_AUX_ALIAS id="ddm_table_acol.arm_custmast037">ARM_CUSTPMTS    </DD_AUX_ALIAS>
 			<DD_ATTR_DCOL id="ddm_table_acol.arm_custmast037">AVG_DTP_PYTD    </DD_ATTR_DCOL>
-			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast037">71</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast037">73</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_acol.arm_custmast038">
 			<DD_TABLE_ALIAS id="ddm_table_acol.arm_custmast038">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_acol.arm_custmast038">038</DD_SEQUENCE>
 			<DD_AUX_ALIAS id="ddm_table_acol.arm_custmast038">ARM_CUSTPMTS    </DD_AUX_ALIAS>
 			<DD_ATTR_DCOL id="ddm_table_acol.arm_custmast038">PYR_HI_CRD      </DD_ATTR_DCOL>
-			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast038">72</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast038">74</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_acol.arm_custmast039">
 			<DD_TABLE_ALIAS id="ddm_table_acol.arm_custmast039">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_acol.arm_custmast039">039</DD_SEQUENCE>
 			<DD_AUX_ALIAS id="ddm_table_acol.arm_custmast039">ARM_CUSTPMTS    </DD_AUX_ALIAS>
 			<DD_ATTR_DCOL id="ddm_table_acol.arm_custmast039">NMTD_SALES      </DD_ATTR_DCOL>
-			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast039">74</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast039">76</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_acol.arm_custmast040">
 			<DD_TABLE_ALIAS id="ddm_table_acol.arm_custmast040">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_acol.arm_custmast040">040</DD_SEQUENCE>
 			<DD_AUX_ALIAS id="ddm_table_acol.arm_custmast040">ARM_CUSTPMTS    </DD_AUX_ALIAS>
 			<DD_ATTR_DCOL id="ddm_table_acol.arm_custmast040">NXT_MTD_COST    </DD_ATTR_DCOL>
-			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast040">75</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast040">77</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_acol.arm_custmast041">
 			<DD_TABLE_ALIAS id="ddm_table_acol.arm_custmast041">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_acol.arm_custmast041">041</DD_SEQUENCE>
 			<DD_AUX_ALIAS id="ddm_table_acol.arm_custmast041">ARM_CUSTPMTS    </DD_AUX_ALIAS>
 			<DD_ATTR_DCOL id="ddm_table_acol.arm_custmast041">AVG_DTP_NMTD    </DD_ATTR_DCOL>
-			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast041">78</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast041">80</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_acol.arm_custmast042">
 			<DD_TABLE_ALIAS id="ddm_table_acol.arm_custmast042">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_acol.arm_custmast042">042</DD_SEQUENCE>
 			<DD_AUX_ALIAS id="ddm_table_acol.arm_custmast042">ARM_CUSTPMTS    </DD_AUX_ALIAS>
 			<DD_ATTR_DCOL id="ddm_table_acol.arm_custmast042">NMTD_HIGH_CR    </DD_ATTR_DCOL>
-			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast042">79</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast042">81</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_acol.arm_custmast043">
 			<DD_TABLE_ALIAS id="ddm_table_acol.arm_custmast043">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_acol.arm_custmast043">043</DD_SEQUENCE>
 			<DD_AUX_ALIAS id="ddm_table_acol.arm_custmast043">ARM_CUSTDET     </DD_AUX_ALIAS>
 			<DD_ATTR_DCOL id="ddm_table_acol.arm_custmast043">AR_CYCLECODE    </DD_ATTR_DCOL>
-			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast043">35</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_acol.arm_custmast043">37</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_aopt">
@@ -430,7 +430,7 @@
 			<DD_ATTR_LABL id="ddm_table_labl.arm_custmast001">MTD</DD_ATTR_LABL>
 			<DD_ATTR_CTLX id="ddm_table_labl.arm_custmast001">-24</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_labl.arm_custmast001">+4</DD_ATTR_CTLY>
-			<DD_ATTR_TIND id="ddm_table_labl.arm_custmast001">52</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_labl.arm_custmast001">54</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_labl.arm_custmast002">
 			<DD_TABLE_ALIAS id="ddm_table_labl.arm_custmast002">ARM_CUSTMAST    </DD_TABLE_ALIAS>
@@ -439,7 +439,7 @@
 			<DD_ATTR_LABL id="ddm_table_labl.arm_custmast002">YTD</DD_ATTR_LABL>
 			<DD_ATTR_CTLX id="ddm_table_labl.arm_custmast002">+10</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_labl.arm_custmast002">-7</DD_ATTR_CTLY>
-			<DD_ATTR_TIND id="ddm_table_labl.arm_custmast002">59</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_labl.arm_custmast002">61</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_labl.arm_custmast003">
 			<DD_TABLE_ALIAS id="ddm_table_labl.arm_custmast003">ARM_CUSTMAST    </DD_TABLE_ALIAS>
@@ -448,7 +448,7 @@
 			<DD_ATTR_LABL id="ddm_table_labl.arm_custmast003">Prior Year</DD_ATTR_LABL>
 			<DD_ATTR_CTLX id="ddm_table_labl.arm_custmast003">+10</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_labl.arm_custmast003">-7</DD_ATTR_CTLY>
-			<DD_ATTR_TIND id="ddm_table_labl.arm_custmast003">66</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_labl.arm_custmast003">68</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_labl.arm_custmast004">
 			<DD_TABLE_ALIAS id="ddm_table_labl.arm_custmast004">ARM_CUSTMAST    </DD_TABLE_ALIAS>
@@ -457,7 +457,7 @@
 			<DD_ATTR_LABL id="ddm_table_labl.arm_custmast004">Next Month</DD_ATTR_LABL>
 			<DD_ATTR_CTLX id="ddm_table_labl.arm_custmast004">+10</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_labl.arm_custmast004">-7</DD_ATTR_CTLY>
-			<DD_ATTR_TIND id="ddm_table_labl.arm_custmast004">73</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_labl.arm_custmast004">75</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_opts">
@@ -498,7 +498,7 @@
 		<RECORD id="ddm_table_tpls.arm_custmast">
 			<DD_TABLE_ALIAS id="ddm_table_tpls.arm_custmast">ARM_CUSTMAST    </DD_TABLE_ALIAS>
 			<DD_FILE_NAME id="ddm_table_tpls.arm_custmast">arm-01</DD_FILE_NAME>
-			<DD_TABLE_TPL id="ddm_table_tpls.arm_custmast">firm_id:c(2),customer_id:c(6*),customer_name:c(30),addr_line_1:c(24),addr_line_2:c(24),addr_line_3:c(24),zip_code:c(9),phone_no:c(20),phone_exten:c(4),resale_no:c(20),alt_sequence:c(10),reserved_str:c(3),ar_ship_via:c(10),fax_no:c(20),addr_line_4:c(24),city:c(22),state_code:c(2),retain_cust:c(1),contact_name:c(20),db_no:c(9),sic_code:c(8),country:c(24),fob:c(15),reserved_str_02:c(22),opened_date:c(8*)</DD_TABLE_TPL>
+			<DD_TABLE_TPL id="ddm_table_tpls.arm_custmast">firm_id:c(2),customer_id:c(6*),customer_name:c(30),addr_line_1:c(24),addr_line_2:c(24),addr_line_3:c(24),zip_code:c(9),phone_no:c(20),phone_exten:c(4),resale_no:c(20),alt_sequence:c(10),reserved_str:c(3),ar_ship_via:c(10),fax_no:c(20),addr_line_4:c(24),city:c(22),state_code:c(2),retain_cust:c(1),contact_name:c(20),db_no:c(9),sic_code:c(8),country:c(24),fob:c(15),reserved_str_02:c(22),opened_date:c(8*),vat_id:c(20),cntry_id:c(2)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_keys">
@@ -836,7 +836,7 @@
 			<DD_ATTR_CTLH id="ddm_table_cols.arm_custmast008">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.arm_custmast008">20</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.arm_custmast008">Telephone Number</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.arm_custmast008">12</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.arm_custmast008">13</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.arm_custmast009">
 			<DD_TABLE_ALIAS id="ddm_table_cols.arm_custmast009">ARM_CUSTMAST    </DD_TABLE_ALIAS>
@@ -855,7 +855,7 @@
 			<DD_ATTR_LABS id="ddm_table_cols.arm_custmast009">Ext</DD_ATTR_LABS>
 			<DD_ATTR_MAXL id="ddm_table_cols.arm_custmast009">4</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.arm_custmast009">Ext</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.arm_custmast009">13</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.arm_custmast009">14</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.arm_custmast010">
 			<DD_TABLE_ALIAS id="ddm_table_cols.arm_custmast010">ARM_CUSTMAST    </DD_TABLE_ALIAS>
@@ -870,7 +870,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.arm_custmast010">160</DD_ATTR_CTLW>
 			<DD_ATTR_MAXL id="ddm_table_cols.arm_custmast010">20</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.arm_custmast010">Resale Number</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.arm_custmast010">20</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.arm_custmast010">21</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.arm_custmast011">
 			<DD_TABLE_ALIAS id="ddm_table_cols.arm_custmast011">ARM_CUSTMAST    </DD_TABLE_ALIAS>
@@ -887,7 +887,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.arm_custmast011">80</DD_ATTR_CTLW>
 			<DD_ATTR_MAXL id="ddm_table_cols.arm_custmast011">10</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.arm_custmast011">Alternate Sequence</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.arm_custmast011">16</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.arm_custmast011">17</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.arm_custmast012">
 			<DD_TABLE_ALIAS id="ddm_table_cols.arm_custmast012">ARM_CUSTMAST    </DD_TABLE_ALIAS>
@@ -901,7 +901,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.arm_custmast012">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_MAXL id="ddm_table_cols.arm_custmast012">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.arm_custmast012">Reserved For Addon Use</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.arm_custmast012">80</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.arm_custmast012">82</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.arm_custmast013">
 			<DD_TABLE_ALIAS id="ddm_table_cols.arm_custmast013">ARM_CUSTMAST    </DD_TABLE_ALIAS>
@@ -916,7 +916,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.arm_custmast013">80</DD_ATTR_CTLW>
 			<DD_ATTR_MAXL id="ddm_table_cols.arm_custmast013">10</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.arm_custmast013">Customer Ship Via</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.arm_custmast013">18</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.arm_custmast013">19</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.arm_custmast014">
 			<DD_TABLE_ALIAS id="ddm_table_cols.arm_custmast014">ARM_CUSTMAST    </DD_TABLE_ALIAS>
@@ -933,7 +933,7 @@
 			<DD_ATTR_CTLH id="ddm_table_cols.arm_custmast014">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.arm_custmast014">20</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.arm_custmast014">Fax Telephone Number</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.arm_custmast014">14</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.arm_custmast014">15</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.arm_custmast015">
 			<DD_TABLE_ALIAS id="ddm_table_cols.arm_custmast015">ARM_CUSTMAST    </DD_TABLE_ALIAS>
@@ -997,7 +997,7 @@
 			<DD_ATTR_DFLT id="ddm_table_cols.arm_custmast018">Y</DD_ATTR_DFLT>
 			<DD_ATTR_MAXL id="ddm_table_cols.arm_custmast018">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.arm_custmast018">Retain?</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.arm_custmast018">23</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.arm_custmast018">24</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.arm_custmast019">
 			<DD_TABLE_ALIAS id="ddm_table_cols.arm_custmast019">ARM_CUSTMAST    </DD_TABLE_ALIAS>
@@ -1012,7 +1012,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.arm_custmast019">160</DD_ATTR_CTLW>
 			<DD_ATTR_MAXL id="ddm_table_cols.arm_custmast019">20</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.arm_custmast019">Contact Name</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.arm_custmast019">15</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.arm_custmast019">16</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.arm_custmast020">
 			<DD_TABLE_ALIAS id="ddm_table_cols.arm_custmast020">ARM_CUSTMAST    </DD_TABLE_ALIAS>
@@ -1028,7 +1028,7 @@
 			<DD_ATTR_LABL id="ddm_table_cols.arm_custmast020">DB Number</DD_ATTR_LABL>
 			<DD_ATTR_MAXL id="ddm_table_cols.arm_custmast020">9</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.arm_custmast020">Dunn & Bradstreet Number</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.arm_custmast020">21</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.arm_custmast020">22</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.arm_custmast021">
 			<DD_TABLE_ALIAS id="ddm_table_cols.arm_custmast021">ARM_CUSTMAST    </DD_TABLE_ALIAS>
@@ -1043,7 +1043,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.arm_custmast021">64</DD_ATTR_CTLW>
 			<DD_ATTR_MAXL id="ddm_table_cols.arm_custmast021">8</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.arm_custmast021">SIC</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.arm_custmast021">22</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.arm_custmast021">23</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.arm_custmast022">
 			<DD_TABLE_ALIAS id="ddm_table_cols.arm_custmast022">ARM_CUSTMAST    </DD_TABLE_ALIAS>
@@ -1055,11 +1055,11 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.arm_custmast022">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.arm_custmast022">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.arm_custmast022">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTLX id="ddm_table_cols.arm_custmast022">-10</DD_ATTR_CTLX>
+			<DD_ATTR_CTLX id="ddm_table_cols.arm_custmast022">0</DD_ATTR_CTLX>
 			<DD_ATTR_CTLW id="ddm_table_cols.arm_custmast022">192</DD_ATTR_CTLW>
 			<DD_ATTR_MAXL id="ddm_table_cols.arm_custmast022">24</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.arm_custmast022">Country</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.arm_custmast022">11</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.arm_custmast022">12</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.arm_custmast023">
 			<DD_TABLE_ALIAS id="ddm_table_cols.arm_custmast023">ARM_CUSTMAST    </DD_TABLE_ALIAS>
@@ -1074,7 +1074,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.arm_custmast023">120</DD_ATTR_CTLW>
 			<DD_ATTR_MAXL id="ddm_table_cols.arm_custmast023">15</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.arm_custmast023">Free On Board</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.arm_custmast023">19</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.arm_custmast023">20</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.arm_custmast024">
 			<DD_TABLE_ALIAS id="ddm_table_cols.arm_custmast024">ARM_CUSTMAST    </DD_TABLE_ALIAS>
@@ -1088,7 +1088,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.arm_custmast024">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_MAXL id="ddm_table_cols.arm_custmast024">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.arm_custmast024">Reserved For Addon Use</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.arm_custmast024">81</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.arm_custmast024">83</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.arm_custmast025">
 			<DD_TABLE_ALIAS id="ddm_table_cols.arm_custmast025">ARM_CUSTMAST    </DD_TABLE_ALIAS>
@@ -1105,7 +1105,49 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.arm_custmast025">70</DD_ATTR_CTLW>
 			<DD_ATTR_MAXL id="ddm_table_cols.arm_custmast025">8</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.arm_custmast025">Date Opened</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.arm_custmast025">17</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.arm_custmast025">18</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.arm_custmast026">
+			<DD_TABLE_ALIAS id="ddm_table_cols.arm_custmast026">ARM_CUSTMAST    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.arm_custmast026">026</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.arm_custmast026">TAX_ID          </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.arm_custmast026">VAT_ID          </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.arm_custmast026">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.arm_custmast026">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.arm_custmast026">N</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.arm_custmast026">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.arm_custmast026">20110119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.arm_custmast026">20110119</DD_LSTREV_DATE>
+			<DD_ATTR_COLW id="ddm_table_cols.arm_custmast026">0</DD_ATTR_COLW>
+			<DD_ATTR_CTLX id="ddm_table_cols.arm_custmast026">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_cols.arm_custmast026">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_cols.arm_custmast026">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.arm_custmast026">0</DD_ATTR_CTLH>
+			<DD_ATTR_LABL id="ddm_table_cols.arm_custmast026">VAT ID</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_table_cols.arm_custmast026">VAT ID</DD_ATTR_LABS>
+			<DD_ATTR_MLAN id="ddm_table_cols.arm_custmast026">N</DD_ATTR_MLAN>
+			<DD_ATTR_MAXL id="ddm_table_cols.arm_custmast026">20</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.arm_custmast026">36</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.arm_custmast027">
+			<DD_TABLE_ALIAS id="ddm_table_cols.arm_custmast027">ARM_CUSTMAST    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.arm_custmast027">027</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.arm_custmast027">CNTRY_ID        </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.arm_custmast027">CNTRY_ID        </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.arm_custmast027">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.arm_custmast027">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.arm_custmast027">N</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.arm_custmast027">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.arm_custmast027">20110119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.arm_custmast027">20110119</DD_LSTREV_DATE>
+			<DD_ATTR_COLW id="ddm_table_cols.arm_custmast027">0</DD_ATTR_COLW>
+			<DD_ATTR_CTLX id="ddm_table_cols.arm_custmast027">-10</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_cols.arm_custmast027">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_cols.arm_custmast027">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.arm_custmast027">0</DD_ATTR_CTLH>
+			<DD_ATTR_MLAN id="ddm_table_cols.arm_custmast027">N</DD_ATTR_MLAN>
+			<DD_ATTR_MAXL id="ddm_table_cols.arm_custmast027">2</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.arm_custmast027">11</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_disp">
@@ -1118,7 +1160,7 @@
 			<DD_ATTR_LABL id="ddm_table_disp.arm_custmast001">Gross Profit</DD_ATTR_LABL>
 			<DD_ATTR_CALC id="ddm_table_disp.arm_custmast001">[ARM_CUSTPMTS.MTD_SALES]-[ARM_CUSTPMTS.MTD_COST]</DD_ATTR_CALC>
 			<DD_ATTR_CTLW id="ddm_table_disp.arm_custmast001">64</DD_ATTR_CTLW>
-			<DD_ATTR_TIND id="ddm_table_disp.arm_custmast001">55</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_disp.arm_custmast001">57</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_disp.arm_custmast002">
 			<DD_TABLE_ALIAS id="ddm_table_disp.arm_custmast002">ARM_CUSTMAST    </DD_TABLE_ALIAS>
@@ -1128,7 +1170,7 @@
 			<DD_ATTR_LABL id="ddm_table_disp.arm_custmast002">Gross Profit %</DD_ATTR_LABL>
 			<DD_ATTR_CALC id="ddm_table_disp.arm_custmast002">(([ARM_CUSTPMTS.MTD_SALES]-[ARM_CUSTPMTS.MTD_COST])/[ARM_CUSTPMTS.MTD_SALES])*100</DD_ATTR_CALC>
 			<DD_ATTR_CTLW id="ddm_table_disp.arm_custmast002">64</DD_ATTR_CTLW>
-			<DD_ATTR_TIND id="ddm_table_disp.arm_custmast002">56</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_disp.arm_custmast002">58</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_disp.arm_custmast003">
 			<DD_TABLE_ALIAS id="ddm_table_disp.arm_custmast003">ARM_CUSTMAST    </DD_TABLE_ALIAS>
@@ -1137,7 +1179,7 @@
 			<DD_CTRL_NAME id="ddm_table_disp.arm_custmast003">DSP_YTD_PROFIT  </DD_CTRL_NAME>
 			<DD_ATTR_CALC id="ddm_table_disp.arm_custmast003">[ARM_CUSTPMTS.YTD_SALES]-[ARM_CUSTPMTS.YTD_COST]</DD_ATTR_CALC>
 			<DD_ATTR_CTLW id="ddm_table_disp.arm_custmast003">64</DD_ATTR_CTLW>
-			<DD_ATTR_TIND id="ddm_table_disp.arm_custmast003">62</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_disp.arm_custmast003">64</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_disp.arm_custmast004">
 			<DD_TABLE_ALIAS id="ddm_table_disp.arm_custmast004">ARM_CUSTMAST    </DD_TABLE_ALIAS>
@@ -1146,7 +1188,7 @@
 			<DD_CTRL_NAME id="ddm_table_disp.arm_custmast004">DSP_YTD_PROF_PCT</DD_CTRL_NAME>
 			<DD_ATTR_CALC id="ddm_table_disp.arm_custmast004">(([ARM_CUSTPMTS.YTD_SALES]-[ARM_CUSTPMTS.YTD_COST])/[ARM_CUSTPMTS.YTD_SALES])*100</DD_ATTR_CALC>
 			<DD_ATTR_CTLW id="ddm_table_disp.arm_custmast004">64</DD_ATTR_CTLW>
-			<DD_ATTR_TIND id="ddm_table_disp.arm_custmast004">63</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_disp.arm_custmast004">65</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_disp.arm_custmast005">
 			<DD_TABLE_ALIAS id="ddm_table_disp.arm_custmast005">ARM_CUSTMAST    </DD_TABLE_ALIAS>
@@ -1155,7 +1197,7 @@
 			<DD_CTRL_NAME id="ddm_table_disp.arm_custmast005">DSP_PRI_PROFIT  </DD_CTRL_NAME>
 			<DD_ATTR_CALC id="ddm_table_disp.arm_custmast005">[ARM_CUSTPMTS.PYR_SALES]-[ARM_CUSTPMTS.PRI_YTD_COST]</DD_ATTR_CALC>
 			<DD_ATTR_CTLW id="ddm_table_disp.arm_custmast005">64</DD_ATTR_CTLW>
-			<DD_ATTR_TIND id="ddm_table_disp.arm_custmast005">69</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_disp.arm_custmast005">71</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_disp.arm_custmast006">
 			<DD_TABLE_ALIAS id="ddm_table_disp.arm_custmast006">ARM_CUSTMAST    </DD_TABLE_ALIAS>
@@ -1164,7 +1206,7 @@
 			<DD_CTRL_NAME id="ddm_table_disp.arm_custmast006">DSP_PRI_PROF_PCT</DD_CTRL_NAME>
 			<DD_ATTR_CALC id="ddm_table_disp.arm_custmast006">(([ARM_CUSTPMTS.PYR_SALES]-[ARM_CUSTPMTS.PRI_YTD_COST])/[ARM_CUSTPMTS.PYR_SALES])*100          </DD_ATTR_CALC>
 			<DD_ATTR_CTLW id="ddm_table_disp.arm_custmast006">64</DD_ATTR_CTLW>
-			<DD_ATTR_TIND id="ddm_table_disp.arm_custmast006">70</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_disp.arm_custmast006">72</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_disp.arm_custmast007">
 			<DD_TABLE_ALIAS id="ddm_table_disp.arm_custmast007">ARM_CUSTMAST    </DD_TABLE_ALIAS>
@@ -1173,7 +1215,7 @@
 			<DD_CTRL_NAME id="ddm_table_disp.arm_custmast007">DSP_NXT_PROFIT  </DD_CTRL_NAME>
 			<DD_ATTR_CALC id="ddm_table_disp.arm_custmast007">[ARM_CUSTPMTS.NMTD_SALES]-[ARM_CUSTPMTS.NXT_MTD_COST]</DD_ATTR_CALC>
 			<DD_ATTR_CTLW id="ddm_table_disp.arm_custmast007">64</DD_ATTR_CTLW>
-			<DD_ATTR_TIND id="ddm_table_disp.arm_custmast007">76</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_disp.arm_custmast007">78</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_disp.arm_custmast008">
 			<DD_TABLE_ALIAS id="ddm_table_disp.arm_custmast008">ARM_CUSTMAST    </DD_TABLE_ALIAS>
@@ -1182,7 +1224,7 @@
 			<DD_CTRL_NAME id="ddm_table_disp.arm_custmast008">DSP_NXT_PROF_PCT</DD_CTRL_NAME>
 			<DD_ATTR_CALC id="ddm_table_disp.arm_custmast008">(([ARM_CUSTPMTS.NMTD_SALES]-[ARM_CUSTPMTS.NXT_MTD_COST])/[ARM_CUSTPMTS.NMTD_SALES])*100     </DD_ATTR_CALC>
 			<DD_ATTR_CTLW id="ddm_table_disp.arm_custmast008">64</DD_ATTR_CTLW>
-			<DD_ATTR_TIND id="ddm_table_disp.arm_custmast008">77</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_disp.arm_custmast008">79</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_disp.arm_custmast009">
 			<DD_TABLE_ALIAS id="ddm_table_disp.arm_custmast009">ARM_CUSTMAST    </DD_TABLE_ALIAS>
@@ -1193,7 +1235,7 @@
 			<DD_ATTR_CALC id="ddm_table_disp.arm_custmast009">[ARM_CUSTDET.AGING_FUTURE]+[ARM_CUSTDET.AGING_CUR]+[ARM_CUSTDET.AGING_30]+[ARM_CUSTDET.AGING_60]+[ARM_CUSTDET.AGING_90]+[ARM_CUSTDET.AGING_120]</DD_ATTR_CALC>
 			<DD_ATTR_CTLW id="ddm_table_disp.arm_custmast009">64</DD_ATTR_CTLW>
 			<DD_ATTR_DRLE id="ddm_table_disp.arm_custmast009">AR_INV_SALES</DD_ATTR_DRLE>
-			<DD_ATTR_TIND id="ddm_table_disp.arm_custmast009">48</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_disp.arm_custmast009">50</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_cpro">
@@ -1711,6 +1753,52 @@
 			<DD_ATTR_LABL id="ddm_elements.opened_date">Date Opened</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.opened_date">Dt Open</DD_ATTR_LABS>
 			<DD_ATTR_STYP id="ddm_elements.opened_date">1</DD_ATTR_STYP>
+		</RECORD>
+		<RECORD id="ddm_elements.tax_id">
+			<DD_DATA_NAME id="ddm_elements.tax_id">TAX_ID          </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.tax_id">Tax Identification</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.tax_id">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.tax_id">20</DD_DATA_LENGTH>
+			<ASC_COMP_ID id="ddm_elements.tax_id">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.tax_id">AD </ASC_PROD_ID>
+			<LOCALIZATION_EX id="ddm_elements.tax_id">N</LOCALIZATION_EX>
+			<DD_CREATE_DATE id="ddm_elements.tax_id">20110118</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.tax_id">20110118</DD_LSTREV_DATE>
+			<DD_ATTR_BLNK id="ddm_elements.tax_id">N</DD_ATTR_BLNK>
+			<DD_ATTR_CTLW id="ddm_elements.tax_id">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.tax_id">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.tax_id">E</DD_ATTR_CTYP>
+			<DD_ATTR_LABL id="ddm_elements.tax_id">Tax Identification</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.tax_id">Tax Identification</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.tax_id">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.tax_id">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.tax_id">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.tax_id">0</DD_ATTR_PREC>
+		</RECORD>
+		<RECORD id="ddm_elements.cntry_id">
+			<DD_DATA_NAME id="ddm_elements.cntry_id">CNTRY_ID        </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.cntry_id">Country ID</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.cntry_id">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.cntry_id">2</DD_DATA_LENGTH>
+			<ASC_COMP_ID id="ddm_elements.cntry_id">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.cntry_id">ADB</ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.cntry_id">20080222</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.cntry_id">20080222</DD_LSTREV_DATE>
+			<DD_AUTO_COMP id="ddm_elements.cntry_id">N</DD_AUTO_COMP>
+			<DD_ATTR_CTLW id="ddm_elements.cntry_id">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.cntry_id">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.cntry_id">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOL id="ddm_elements.cntry_id">DESC</DD_ATTR_DCOL>
+			<DD_ATTR_DTAB id="ddm_elements.cntry_id">ADC_COUNTRY     </DD_ATTR_DTAB>
+			<DD_ATTR_LABL id="ddm_elements.cntry_id">Country ID</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.cntry_id">Country ID</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.cntry_id">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.cntry_id">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.cntry_id">0</DD_ATTR_MINL>
+			<DD_ATTR_MSKI id="ddm_elements.cntry_id">AA</DD_ATTR_MSKI>
+			<DD_ATTR_PADC id="ddm_elements.cntry_id">20</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.cntry_id">L</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.cntry_id">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.ytd_sales">
 			<DD_DATA_NAME id="ddm_elements.ytd_sales">YTD_SALES       </DD_DATA_NAME>

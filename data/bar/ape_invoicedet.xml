@@ -18,10 +18,10 @@
 			<ASC_LICENSE_ID id="ddm_tables.ape_invoicedet">7B1042CAD8B88161CE7392BBB19E1998</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ape_invoicedet">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ape_invoicedet">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ape_invoicedet">20100611</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ape_invoicedet">20100601</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ape_invoicedet">171628</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.ape_invoicedet">/dev_aon_test/apps/aon/;</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.ape_invoicedet">20110128</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ape_invoicedet">20101201</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ape_invoicedet">140530</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.ape_invoicedet">/dev_addon/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ape_invoicedet">G</DD_ATTR_FTYP>
 			<DD_ATTR_HELP id="ddm_tables.ape_invoicedet">Invoice_Entry</DD_ATTR_HELP>
 			<DD_ATTR_PTAB id="ddm_tables.ape_invoicedet">APE_INVOICEHDR  </DD_ATTR_PTAB>
@@ -38,6 +38,10 @@
 		<RECORD id="ddm_table_cpro.ape_invoicedetagcl">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.ape_invoicedetagcl">APE_INVOICEDET  </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.ape_invoicedetagcl">AGCL</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_table_cpro.ape_invoicedetagrn">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.ape_invoicedetagrn">APE_INVOICEDET  </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.ape_invoicedetagrn">AGRN</DD_ATTR_CPRO>
 		</RECORD>
 		<RECORD id="ddm_table_cpro.ape_invoicedetaude">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.ape_invoicedetaude">APE_INVOICEDET  </DD_TABLE_ALIAS>
@@ -264,7 +268,6 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ape_invoicedet006">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ape_invoicedet006">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ape_invoicedet006">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.ape_invoicedet006">/dev_aon_test/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ape_invoicedet006">80</DD_ATTR_CTLW>
 			<DD_ATTR_MINL id="ddm_table_cols.ape_invoicedet006">1</DD_ATTR_MINL>
 			<DD_ATTR_MAXL id="ddm_table_cols.ape_invoicedet006">10</DD_ATTR_MAXL>
@@ -314,7 +317,7 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.ape_invoicedet009">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.ape_invoicedet009">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ape_invoicedet009">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.ape_invoicedet009">/dev_aon_test/apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.ape_invoicedet009">/dev_addon/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ape_invoicedet009">105</DD_ATTR_CTLW>
 			<DD_ATTR_LABS id="ddm_table_cols.ape_invoicedet009">Amount</DD_ATTR_LABS>
 			<DD_ATTR_MAXL id="ddm_table_cols.ape_invoicedet009">7</DD_ATTR_MAXL>
@@ -360,20 +363,10 @@
 	</ALIAS>
 	<ALIAS id="ddm_column_cpro">
 		<ID id="ddm_column_cpro">DDM_COLUMN_CPRO</ID>
-		<RECORD id="ddm_column_cpro.ape_invoicedetgl_accountbinp">
-			<DD_TABLE_ALIAS id="ddm_column_cpro.ape_invoicedetgl_accountbinp">APE_INVOICEDET  </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_cpro.ape_invoicedetgl_accountbinp">GL_ACCOUNT      </DD_DVAR_NAME>
-			<DD_ATTR_CPRO id="ddm_column_cpro.ape_invoicedetgl_accountbinp">BINP</DD_ATTR_CPRO>
-		</RECORD>
 		<RECORD id="ddm_column_cpro.ape_invoicedetgl_post_amtavec">
 			<DD_TABLE_ALIAS id="ddm_column_cpro.ape_invoicedetgl_post_amtavec">APE_INVOICEDET  </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_cpro.ape_invoicedetgl_post_amtavec">GL_POST_AMT     </DD_DVAR_NAME>
 			<DD_ATTR_CPRO id="ddm_column_cpro.ape_invoicedetgl_post_amtavec">AVEC</DD_ATTR_CPRO>
-		</RECORD>
-		<RECORD id="ddm_column_cpro.ape_invoicedetgl_post_amtbinp">
-			<DD_TABLE_ALIAS id="ddm_column_cpro.ape_invoicedetgl_post_amtbinp">APE_INVOICEDET  </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_cpro.ape_invoicedetgl_post_amtbinp">GL_POST_AMT     </DD_DVAR_NAME>
-			<DD_ATTR_CPRO id="ddm_column_cpro.ape_invoicedetgl_post_amtbinp">BINP</DD_ATTR_CPRO>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">
