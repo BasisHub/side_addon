@@ -20,13 +20,36 @@
 			<ASC_LICENSE_ID id="ddm_tables.gle_allocdet">52EADF025BB0A31959BF74B51E429D3A</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.gle_allocdet">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.gle_allocdet">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.gle_allocdet">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.gle_allocdet">20090630</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.gle_allocdet">141544</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.gle_allocdet">20091024</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.gle_allocdet">20091024</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.gle_allocdet">164712</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.gle_allocdet">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.gle_allocdet">T</DD_ATTR_FTYP>
 			<DD_ATTR_PTAB id="ddm_tables.gle_allocdet">GLE_ALLOCHDR    </DD_ATTR_PTAB>
 			<DD_ATTR_SLEV id="ddm_tables.gle_allocdet">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.gle_allocdet">Account Allocation Entry</DD_ATTR_WINT>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_cpro">
+		<ID id="ddm_table_cpro">DDM_TABLE_CPRO</ID>
+		<RECORD id="ddm_table_cpro.gle_allocdetbwri">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.gle_allocdetbwri">GLE_ALLOCDET    </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.gle_allocdetbwri">BWRI</DD_ATTR_CPRO>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_opts">
+		<ID id="ddm_table_opts">DDM_TABLE_OPTS</ID>
+		<RECORD id="ddm_table_opts.gle_allocdetg">
+			<DD_TABLE_ALIAS id="ddm_table_opts.gle_allocdetg">GLE_ALLOCDET    </DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.gle_allocdetg">G</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_table_opts.gle_allocdetj">
+			<DD_TABLE_ALIAS id="ddm_table_opts.gle_allocdetj">GLE_ALLOCDET    </DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.gle_allocdetj">J</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_table_opts.gle_allocdets">
+			<DD_TABLE_ALIAS id="ddm_table_opts.gle_allocdets">GLE_ALLOCDET    </DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.gle_allocdets">S</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_tpls">
@@ -34,7 +57,7 @@
 		<RECORD id="ddm_table_tpls.gle_allocdet">
 			<DD_TABLE_ALIAS id="ddm_table_tpls.gle_allocdet">GLE_ALLOCDET    </DD_TABLE_ALIAS>
 			<DD_FILE_NAME id="ddm_table_tpls.gle_allocdet">gle-13</DD_FILE_NAME>
-			<DD_TABLE_TPL id="ddm_table_tpls.gle_allocdet">firm_id:c(2),gl_account:c(10),line_no:c(3*),gl_dest_acct:c(10),dealer_str:c(1*),percentage:n(7*),gl_post_amt:n(7*),units:n(7*),dealer_num_01:n(1*),dealer_num_02:n(1*)</DD_TABLE_TPL>
+			<DD_TABLE_TPL id="ddm_table_tpls.gle_allocdet">firm_id:c(2),gl_account:c(10),line_no:c(3*),gl_dest_acct:c(10),dealer_str:c(1*),percentage:n(7*),gl_post_amt:n(7*),units:n(7*),dealer_num_01:n(1*),dealer_num_02:n(1*),batch_no:c(7*)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_keys">
@@ -196,7 +219,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.gle_allocdet005">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.gle_allocdet005">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.gle_allocdet005">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.gle_allocdet005">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.gle_allocdet005">Reserved For Dealer Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.gle_allocdet005">8</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.gle_allocdet006">
 			<DD_TABLE_ALIAS id="ddm_table_cols.gle_allocdet006">GLE_ALLOCDET    </DD_TABLE_ALIAS>
@@ -256,7 +281,29 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.gle_allocdet009">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.gle_allocdet009">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.gle_allocdet009">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_MAXL id="ddm_table_cols.gle_allocdet009">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.gle_allocdet009">Reserved For Dealer Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.gle_allocdet009">9</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_cols.gle_allocdet010">
+			<DD_TABLE_ALIAS id="ddm_table_cols.gle_allocdet010">GLE_ALLOCDET    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.gle_allocdet010">010</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.gle_allocdet010">BATCH_NO        </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.gle_allocdet010">BATCH_NO        </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.gle_allocdet010">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.gle_allocdet010">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.gle_allocdet010">Y</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.gle_allocdet010">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.gle_allocdet010">20090730</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.gle_allocdet010">20090730</DD_LSTREV_DATE>
+			<DD_ATTR_COLW id="ddm_table_cols.gle_allocdet010">0</DD_ATTR_COLW>
+			<DD_ATTR_CTLX id="ddm_table_cols.gle_allocdet010">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_cols.gle_allocdet010">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_cols.gle_allocdet010">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.gle_allocdet010">0</DD_ATTR_CTLH>
+			<DD_ATTR_MLAN id="ddm_table_cols.gle_allocdet010">N</DD_ATTR_MLAN>
+			<DD_ATTR_MAXL id="ddm_table_cols.gle_allocdet010">7</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.gle_allocdet010">10</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">
@@ -290,6 +337,11 @@
 			<DD_TABLE_ALIAS id="ddm_column_opts.gle_allocdetunitso">GLE_ALLOCDET    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.gle_allocdetunitso">UNITS           </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.gle_allocdetunitso">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.gle_allocdetbatch_noo">
+			<DD_TABLE_ALIAS id="ddm_column_opts.gle_allocdetbatch_noo">GLE_ALLOCDET    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.gle_allocdetbatch_noo">BATCH_NO        </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.gle_allocdetbatch_noo">O</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">
@@ -470,6 +522,33 @@
 			<DD_ATTR_DEXP id="ddm_elements.dealer_num">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.dealer_num">Reserved For Dealer Use</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.dealer_num">Res For Dealer Use</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.batch_no">
+			<DD_DATA_NAME id="ddm_elements.batch_no">BATCH_NO        </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.batch_no">Batch Entry Control Number</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.batch_no">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.batch_no">7</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.batch_no"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.batch_no">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.batch_no">AD </ASC_PROD_ID>
+			<LOCALIZATION_EX id="ddm_elements.batch_no">N</LOCALIZATION_EX>
+			<DD_CREATE_DATE id="ddm_elements.batch_no">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.batch_no">20090714</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.batch_no">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.batch_no">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.batch_no">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.batch_no">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.batch_no">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.batch_no">Batch Entry Control Number</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.batch_no">Batch Entry No</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.batch_no">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.batch_no">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.batch_no">0</DD_ATTR_MINL>
+			<DD_ATTR_MSKI id="ddm_elements.batch_no">0000000</DD_ATTR_MSKI>
+			<DD_ATTR_MSKO id="ddm_elements.batch_no">0000000</DD_ATTR_MSKO>
+			<DD_ATTR_PADC id="ddm_elements.batch_no">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.batch_no">R</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.batch_no">0</DD_ATTR_PREC>
 		</RECORD>
 	</ALIAS>
 </GLE_ALLOCDET>
