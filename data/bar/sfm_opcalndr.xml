@@ -14,13 +14,13 @@
 			<DD_SYSTEM_REC id="ddm_tables.sfm_opcalndr">N</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_tables.sfm_opcalndr">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.sfm_opcalndr">SF </ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.sfm_opcalndr">11.0      </ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.sfm_opcalndr">12.0      </ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.sfm_opcalndr">CBE0FE3ECADE0195D3431E7D29AD0928</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.sfm_opcalndr">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.sfm_opcalndr">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.sfm_opcalndr">20100611</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.sfm_opcalndr">20110425</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.sfm_opcalndr">120258</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.sfm_opcalndr">20120301</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.sfm_opcalndr">20120327</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.sfm_opcalndr">140930</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.sfm_opcalndr">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.sfm_opcalndr">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.sfm_opcalndr">Operations Calendar</DD_ATTR_WINT>
@@ -31,7 +31,7 @@
 		<RECORD id="ddm_table_tpls.sfm_opcalndr">
 			<DD_TABLE_ALIAS id="ddm_table_tpls.sfm_opcalndr">SFM_OPCALNDR    </DD_TABLE_ALIAS>
 			<DD_FILE_NAME id="ddm_table_tpls.sfm_opcalndr">sfm-04</DD_FILE_NAME>
-			<DD_TABLE_TPL id="ddm_table_tpls.sfm_opcalndr">firm_id:c(2),op_code:c(3),year:c(4),month:c(2*),reserved_str:c(10*),dealer_str:c(10*),days_in_mth:n(2*),hrs_per_day_01:n(4*),hrs_per_day_02:n(4*),hrs_per_day_03:n(4*),hrs_per_day_04:n(4*),hrs_per_day_05:n(4*),hrs_per_day_06:n(4*),hrs_per_day_07:n(4*),hrs_per_day_08:n(4*),hrs_per_day_09:n(4*),hrs_per_day_10:n(4*),hrs_per_day_11:n(4*),hrs_per_day_12:n(4*),hrs_per_day_13:n(4*),hrs_per_day_14:n(4*),hrs_per_day_15:n(4*),hrs_per_day_16:n(4*),hrs_per_day_17:n(4*),hrs_per_day_18:n(4*),hrs_per_day_19:n(4*),hrs_per_day_20:n(4*),hrs_per_day_21:n(4*),hrs_per_day_22:n(4*),hrs_per_day_23:n(4*),hrs_per_day_24:n(4*),hrs_per_day_25:n(4*),hrs_per_day_26:n(4*),hrs_per_day_27:n(4*),hrs_per_day_28:n(4*),hrs_per_day_29:n(4*),hrs_per_day_30:n(4*),hrs_per_day_31:n(4*)</DD_TABLE_TPL>
+			<DD_TABLE_TPL id="ddm_table_tpls.sfm_opcalndr">firm_id:c(2),op_code:c(3),year:c(4),month:c(2*),reserved_str:c(10*),dealer_str:c(10*),days_in_mth:n(2*),hrs_per_day_01:n(6*),hrs_per_day_02:n(6*),hrs_per_day_03:n(6*),hrs_per_day_04:n(6*),hrs_per_day_05:n(6*),hrs_per_day_06:n(6*),hrs_per_day_07:n(6*),hrs_per_day_08:n(6*),hrs_per_day_09:n(6*),hrs_per_day_10:n(6*),hrs_per_day_11:n(6*),hrs_per_day_12:n(6*),hrs_per_day_13:n(6*),hrs_per_day_14:n(6*),hrs_per_day_15:n(6*),hrs_per_day_16:n(6*),hrs_per_day_17:n(6*),hrs_per_day_18:n(6*),hrs_per_day_19:n(6*),hrs_per_day_20:n(6*),hrs_per_day_21:n(6*),hrs_per_day_22:n(6*),hrs_per_day_23:n(6*),hrs_per_day_24:n(6*),hrs_per_day_25:n(6*),hrs_per_day_26:n(6*),hrs_per_day_27:n(6*),hrs_per_day_28:n(6*),hrs_per_day_29:n(6*),hrs_per_day_30:n(6*),hrs_per_day_31:n(6*)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_keys">
@@ -94,7 +94,6 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.sfm_opcalndr001">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.sfm_opcalndr001">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfm_opcalndr001">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.sfm_opcalndr001">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.sfm_opcalndr001">Firm ID</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.sfm_opcalndr001">1</DD_ATTR_TIND>
 		</RECORD>
@@ -110,7 +109,6 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.sfm_opcalndr002">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.sfm_opcalndr002">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.sfm_opcalndr002">0</DD_ATTR_CTLH>
-			<DD_ATTR_MAXL id="ddm_table_cols.sfm_opcalndr002">3</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.sfm_opcalndr002">Operation Code</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.sfm_opcalndr002">2</DD_ATTR_TIND>
 		</RECORD>
@@ -124,7 +122,6 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.sfm_opcalndr003">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.sfm_opcalndr003">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfm_opcalndr003">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.sfm_opcalndr003">4</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.sfm_opcalndr003">Year</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.sfm_opcalndr003">3</DD_ATTR_TIND>
 		</RECORD>
@@ -139,7 +136,6 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.sfm_opcalndr004">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.sfm_opcalndr004">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfm_opcalndr004">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.sfm_opcalndr004">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.sfm_opcalndr004">Month</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.sfm_opcalndr004">4</DD_ATTR_TIND>
 		</RECORD>
@@ -154,7 +150,6 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.sfm_opcalndr005">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.sfm_opcalndr005">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfm_opcalndr005">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.sfm_opcalndr005">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.sfm_opcalndr005">Reserved For Addon Use</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.sfm_opcalndr005">5</DD_ATTR_TIND>
 		</RECORD>
@@ -169,7 +164,6 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.sfm_opcalndr006">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.sfm_opcalndr006">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfm_opcalndr006">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.sfm_opcalndr006">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.sfm_opcalndr006">Reserved For Dealer Use</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.sfm_opcalndr006">6</DD_ATTR_TIND>
 		</RECORD>
@@ -184,7 +178,6 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.sfm_opcalndr007">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.sfm_opcalndr007">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfm_opcalndr007">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.sfm_opcalndr007">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.sfm_opcalndr007">Number Of Days In The Month</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.sfm_opcalndr007">7</DD_ATTR_TIND>
 		</RECORD>
@@ -199,7 +192,6 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.sfm_opcalndr008">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.sfm_opcalndr008">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfm_opcalndr008">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.sfm_opcalndr008">4</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.sfm_opcalndr008">Number Of Hours Worked Per Day</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.sfm_opcalndr008">8</DD_ATTR_TIND>
 		</RECORD>
@@ -233,21 +225,23 @@
 			<DD_DESCRIPTION id="ddm_elements.firm_id">Firm ID</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.firm_id">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.firm_id">2</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.firm_id"> </DD_MASK_TYPE>
 			<DD_SYSTEM_REC id="ddm_elements.firm_id">Y</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_elements.firm_id">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.firm_id">AD </ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.firm_id">ADB</ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.firm_id">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.firm_id">20060425</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.firm_id">20120326</DD_LSTREV_DATE>
+			<DD_ATTR_BLNK id="ddm_elements.firm_id">N</DD_ATTR_BLNK>
+			<DD_ATTR_CTLW id="ddm_elements.firm_id">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.firm_id">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.firm_id">H</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.firm_id">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.firm_id">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABS>
-			<DD_ATTR_MSKI id="ddm_elements.firm_id">00</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO id="ddm_elements.firm_id">00</DD_ATTR_MSKO>
-			<DD_ATTR_PADC id="ddm_elements.firm_id">30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ id="ddm_elements.firm_id">R</DD_ATTR_PADJ>
+			<DD_ATTR_MAXL id="ddm_elements.firm_id">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.firm_id">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.firm_id">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.firm_id">0</DD_ATTR_PREC>
 			<DD_ATTR_PVAL id="ddm_elements.firm_id">stbl("+FIRM_ID")</DD_ATTR_PVAL>
 		</RECORD>
 		<RECORD id="ddm_elements.op_code">
@@ -314,20 +308,26 @@
 		</RECORD>
 		<RECORD id="ddm_elements.reserved_str">
 			<DD_DATA_NAME id="ddm_elements.reserved_str">RESERVED_STR    </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.reserved_str">Reserved For Addon Use        </DD_DESCRIPTION>
+			<DD_DESCRIPTION id="ddm_elements.reserved_str">Reserved For Addon Use</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.reserved_str">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.reserved_str">1</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.reserved_str"> </DD_MASK_TYPE>
 			<DD_SYSTEM_REC id="ddm_elements.reserved_str">Y</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_elements.reserved_str">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.reserved_str">AD </ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.reserved_str">ADB</ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.reserved_str">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.reserved_str">20060119</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.reserved_str">20120326</DD_LSTREV_DATE>
+			<DD_ATTR_BLNK id="ddm_elements.reserved_str">N</DD_ATTR_BLNK>
+			<DD_ATTR_CTLW id="ddm_elements.reserved_str">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.reserved_str">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.reserved_str">X</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.reserved_str">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.reserved_str">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.reserved_str">Reserved For Addon Use</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.reserved_str">Res For Addon Use</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.reserved_str">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.reserved_str">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.reserved_str">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.reserved_str">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.dealer_str">
 			<DD_DATA_NAME id="ddm_elements.dealer_str">DEALER_STR      </DD_DATA_NAME>
@@ -364,17 +364,22 @@
 			<DD_DATA_NAME id="ddm_elements.hrs_per_day">HRS_PER_DAY     </DD_DATA_NAME>
 			<DD_DESCRIPTION id="ddm_elements.hrs_per_day">Number Of Hours Worked Per Day</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.hrs_per_day">N</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.hrs_per_day">4</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.hrs_per_day"> </DD_MASK_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.hrs_per_day">6</DD_DATA_LENGTH>
 			<ASC_COMP_ID id="ddm_elements.hrs_per_day">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_elements.hrs_per_day">SF </ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.hrs_per_day">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.hrs_per_day">20060119</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.hrs_per_day">20120301</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.hrs_per_day">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.hrs_per_day">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.hrs_per_day">N</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.hrs_per_day">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.hrs_per_day">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.hrs_per_day">Number Of Hours Worked Per Day</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.hrs_per_day">Hrs Worked/Day</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.hrs_per_day">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.hrs_per_day">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.hrs_per_day">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.hrs_per_day">2</DD_ATTR_PREC>
 		</RECORD>
 	</ALIAS>
 </SFM_OPCALNDR>

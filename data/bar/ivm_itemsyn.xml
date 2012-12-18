@@ -14,13 +14,13 @@
 			<DD_SYSTEM_REC id="ddm_tables.ivm_itemsyn">N</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_tables.ivm_itemsyn">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.ivm_itemsyn">IV </ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.ivm_itemsyn">11.0      </ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.ivm_itemsyn">12.0      </ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.ivm_itemsyn">8C1596E4848223CA443E44C78AF6DD8B</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ivm_itemsyn">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ivm_itemsyn">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_tables.ivm_itemsyn">20100402</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivm_itemsyn">20110310</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivm_itemsyn">204348</DD_LSTSYNC_TIME>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivm_itemsyn">20120327</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivm_itemsyn">140924</DD_LSTSYNC_TIME>
 			<DD_ATTR_DKNM id="ddm_tables.ivm_itemsyn">AO_ITEM_SYN</DD_ATTR_DKNM>
 			<DD_ATTR_FTYP id="ddm_tables.ivm_itemsyn">G</DD_ATTR_FTYP>
 			<DD_ATTR_PTAB id="ddm_tables.ivm_itemsyn">IVM_ITEMMAST    </DD_ATTR_PTAB>
@@ -111,7 +111,6 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ivm_itemsyn001">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ivm_itemsyn001">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivm_itemsyn001">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemsyn001">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemsyn001">Firm ID</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemsyn001">1</DD_ATTR_TIND>
 		</RECORD>
@@ -126,7 +125,6 @@
 			<DD_CREATE_DATE id="ddm_table_cols.ivm_itemsyn002">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivm_itemsyn002">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_itemsyn002">200</DD_ATTR_CTLW>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemsyn002">20</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemsyn002">Inventory Item Synonym</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemsyn002">3</DD_ATTR_TIND>
 		</RECORD>
@@ -143,7 +141,6 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.ivm_itemsyn003">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_itemsyn003">200</DD_ATTR_CTLW>
 			<DD_ATTR_LABS id="ddm_table_cols.ivm_itemsyn003">Inventory</DD_ATTR_LABS>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemsyn003">20</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemsyn003">Inventory Item Number</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemsyn003">2</DD_ATTR_TIND>
 		</RECORD>
@@ -163,21 +160,23 @@
 			<DD_DESCRIPTION id="ddm_elements.firm_id">Firm ID</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.firm_id">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.firm_id">2</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.firm_id"> </DD_MASK_TYPE>
 			<DD_SYSTEM_REC id="ddm_elements.firm_id">Y</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_elements.firm_id">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.firm_id">AD </ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.firm_id">ADB</ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.firm_id">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.firm_id">20060425</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.firm_id">20120326</DD_LSTREV_DATE>
+			<DD_ATTR_BLNK id="ddm_elements.firm_id">N</DD_ATTR_BLNK>
+			<DD_ATTR_CTLW id="ddm_elements.firm_id">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.firm_id">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.firm_id">H</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.firm_id">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.firm_id">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABS>
-			<DD_ATTR_MSKI id="ddm_elements.firm_id">00</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO id="ddm_elements.firm_id">00</DD_ATTR_MSKO>
-			<DD_ATTR_PADC id="ddm_elements.firm_id">30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ id="ddm_elements.firm_id">R</DD_ATTR_PADJ>
+			<DD_ATTR_MAXL id="ddm_elements.firm_id">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.firm_id">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.firm_id">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.firm_id">0</DD_ATTR_PREC>
 			<DD_ATTR_PVAL id="ddm_elements.firm_id">stbl("+FIRM_ID")</DD_ATTR_PVAL>
 		</RECORD>
 		<RECORD id="ddm_elements.item_synonym">

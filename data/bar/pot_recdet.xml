@@ -14,13 +14,13 @@
 			<DD_SYSTEM_REC id="ddm_tables.pot_recdet">N</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_tables.pot_recdet">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.pot_recdet">PO </ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.pot_recdet">11.0      </ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.pot_recdet">12.0      </ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.pot_recdet">89EC4BA76870997A7FE0145E4F14CCF3</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.pot_recdet">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.pot_recdet">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.pot_recdet">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.pot_recdet">20110310</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.pot_recdet">204340</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.pot_recdet">20120321</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.pot_recdet">20120327</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.pot_recdet">140928</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.pot_recdet">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.pot_recdet">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.pot_recdet">PO Receipt History Detail</DD_ATTR_WINT>
@@ -31,7 +31,7 @@
 		<RECORD id="ddm_table_tpls.pot_recdet">
 			<DD_TABLE_ALIAS id="ddm_table_tpls.pot_recdet">POT_RECDET      </DD_TABLE_ALIAS>
 			<DD_FILE_NAME id="ddm_table_tpls.pot_recdet">pot-14</DD_FILE_NAME>
-			<DD_TABLE_TPL id="ddm_table_tpls.pot_recdet">firm_id:c(2),po_no:c(7),receiver_no:c(7),po_int_seq_ref:c(12*),po_line_no:c(3),po_line_code:c(2),reserved_str:c(18),lead_tim_flg:c(1),unit_measure:c(2),location:c(10),source_code:c(1),forecast:c(3),po_msg_code:c(3),update_flag:c(1),reserved_str_02:c(7),reqd_date:c(8),promise_date:c(8),not_b4_date:c(8*),wo_no:c(7),wo_seq_ref:c(3),customer_id:c(6),order_no:c(7),so_int_seq_ref:c(12),shipto_no:c(6*),warehouse_id:c(2),item_id:c(20*),order_memo:c(40*),reserved_str_03:c(1*),dealer_str:c(1*),conv_factor:n(7*),unit_cost:n(7*),req_qty:n(7*),qty_ordered:n(7*),qty_prev_rec:n(7*),reserved_num:n(1*),reserved_num_02:n(1*),qty_received:n(7*),qty_invoiced:n(7*),reserved_num_03:n(1*),reserved_num_04:n(1*),dealer_num_01:n(1*),dealer_num_02:n(1*),ns_item_id:c(20*)</DD_TABLE_TPL>
+			<DD_TABLE_TPL id="ddm_table_tpls.pot_recdet">firm_id:c(2),po_no:c(7),receiver_no:c(7),po_int_seq_ref:c(12*),po_line_no:c(3),po_line_code:c(2),reserved_str:c(18),lead_tim_flg:c(1),unit_measure:c(2),location:c(10),source_code:c(1),forecast:c(3),po_msg_code:c(3),update_flag:c(1),reserved_str_02:c(7),reqd_date:c(8),promise_date:c(8),not_b4_date:c(8*),wo_no:c(7),wk_ord_seq_ref:c(12),customer_id:c(6),order_no:c(7),so_int_seq_ref:c(12),shipto_no:c(6*),warehouse_id:c(2),item_id:c(20*),order_memo:c(40*),reserved_str_03:c(1*),dealer_str:c(1*),conv_factor:n(7*),unit_cost:n(7*),req_qty:n(7*),qty_ordered:n(7*),qty_prev_rec:n(7*),reserved_num:n(1*),reserved_num_02:n(1*),qty_received:n(7*),qty_invoiced:n(7*),reserved_num_03:n(1*),reserved_num_04:n(1*),dealer_num_01:n(1*),dealer_num_02:n(1*),ns_item_id:c(20*)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_keys">
@@ -136,9 +136,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.pot_recdet001">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.pot_recdet001">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.pot_recdet001">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.pot_recdet001">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.pot_recdet001">Firm ID</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.pot_recdet001">1</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.pot_recdet001">FIRM_ID</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.pot_recdet002">
 			<DD_TABLE_ALIAS id="ddm_table_cols.pot_recdet002">POT_RECDET      </DD_TABLE_ALIAS>
@@ -150,9 +150,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.pot_recdet002">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.pot_recdet002">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.pot_recdet002">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.pot_recdet002">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.pot_recdet002">Purchase Order Number</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.pot_recdet002">3</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.pot_recdet002">PO_NO</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.pot_recdet003">
 			<DD_TABLE_ALIAS id="ddm_table_cols.pot_recdet003">POT_RECDET      </DD_TABLE_ALIAS>
@@ -164,9 +164,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.pot_recdet003">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.pot_recdet003">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.pot_recdet003">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.pot_recdet003">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.pot_recdet003">Receiver Number</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.pot_recdet003">4</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.pot_recdet003">RECEIVER_NO</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.pot_recdet004">
 			<DD_TABLE_ALIAS id="ddm_table_cols.pot_recdet004">POT_RECDET      </DD_TABLE_ALIAS>
@@ -185,8 +185,9 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.pot_recdet004">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.pot_recdet004">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.pot_recdet004">N</DD_ATTR_MLAN>
-			<DD_ATTR_MINL id="ddm_table_cols.pot_recdet004">0</DD_ATTR_MINL>
 			<DD_ATTR_MAXL id="ddm_table_cols.pot_recdet004">0</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.pot_recdet004">33</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.pot_recdet004">SEQ_REF</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.pot_recdet005">
 			<DD_TABLE_ALIAS id="ddm_table_cols.pot_recdet005">POT_RECDET      </DD_TABLE_ALIAS>
@@ -200,9 +201,11 @@
 			<DD_CREATE_DATE id="ddm_table_cols.pot_recdet005">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.pot_recdet005">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLX id="ddm_table_cols.pot_recdet005">+2</DD_ATTR_CTLX>
-			<DD_ATTR_MAXL id="ddm_table_cols.pot_recdet005">3</DD_ATTR_MAXL>
+			<DD_ATTR_CTLW id="ddm_table_cols.pot_recdet005">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.pot_recdet005">0</DD_ATTR_CTLH>
 			<DD_ATTR_PROM id="ddm_table_cols.pot_recdet005">Purchase Order Line Number</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.pot_recdet005">5</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.pot_recdet005">PO_LINE_NO</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.pot_recdet006">
 			<DD_TABLE_ALIAS id="ddm_table_cols.pot_recdet006">POT_RECDET      </DD_TABLE_ALIAS>
@@ -214,9 +217,11 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.pot_recdet006">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.pot_recdet006">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.pot_recdet006">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.pot_recdet006">2</DD_ATTR_MAXL>
+			<DD_ATTR_CTLW id="ddm_table_cols.pot_recdet006">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.pot_recdet006">0</DD_ATTR_CTLH>
 			<DD_ATTR_PROM id="ddm_table_cols.pot_recdet006">Purchase Order Line Code</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.pot_recdet006">6</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.pot_recdet006">PO_LINE_CODE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.pot_recdet007">
 			<DD_TABLE_ALIAS id="ddm_table_cols.pot_recdet007">POT_RECDET      </DD_TABLE_ALIAS>
@@ -229,6 +234,8 @@
 			<DD_CREATE_DATE id="ddm_table_cols.pot_recdet007">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.pot_recdet007">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_PROM id="ddm_table_cols.pot_recdet007">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.pot_recdet007">34</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.pot_recdet007">RESERVED_STR</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.pot_recdet008">
 			<DD_TABLE_ALIAS id="ddm_table_cols.pot_recdet008">POT_RECDET      </DD_TABLE_ALIAS>
@@ -240,9 +247,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.pot_recdet008">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.pot_recdet008">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.pot_recdet008">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.pot_recdet008">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.pot_recdet008">Use Line for Lead Time Calc?</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.pot_recdet008">7</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.pot_recdet008">LEAD_TIM_FLG</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.pot_recdet009">
 			<DD_TABLE_ALIAS id="ddm_table_cols.pot_recdet009">POT_RECDET      </DD_TABLE_ALIAS>
@@ -254,9 +261,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.pot_recdet009">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.pot_recdet009">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.pot_recdet009">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.pot_recdet009">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.pot_recdet009">Unit of Measure</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.pot_recdet009">8</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.pot_recdet009">UNIT_MEASURE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.pot_recdet010">
 			<DD_TABLE_ALIAS id="ddm_table_cols.pot_recdet010">POT_RECDET      </DD_TABLE_ALIAS>
@@ -268,9 +275,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.pot_recdet010">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.pot_recdet010">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.pot_recdet010">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.pot_recdet010">10</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.pot_recdet010">Warehouse Location</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.pot_recdet010">9</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.pot_recdet010">LOCATION</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.pot_recdet011">
 			<DD_TABLE_ALIAS id="ddm_table_cols.pot_recdet011">POT_RECDET      </DD_TABLE_ALIAS>
@@ -282,9 +289,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.pot_recdet011">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.pot_recdet011">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.pot_recdet011">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.pot_recdet011">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.pot_recdet011">Source</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.pot_recdet011">10</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.pot_recdet011">SOURCE_CODE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.pot_recdet012">
 			<DD_TABLE_ALIAS id="ddm_table_cols.pot_recdet012">POT_RECDET      </DD_TABLE_ALIAS>
@@ -296,9 +303,11 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.pot_recdet012">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.pot_recdet012">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.pot_recdet012">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.pot_recdet012">3</DD_ATTR_MAXL>
+			<DD_ATTR_CTLW id="ddm_table_cols.pot_recdet012">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.pot_recdet012">0</DD_ATTR_CTLH>
 			<DD_ATTR_PROM id="ddm_table_cols.pot_recdet012">MRP Forecast Type</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.pot_recdet012">11</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.pot_recdet012">FORECAST</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.pot_recdet013">
 			<DD_TABLE_ALIAS id="ddm_table_cols.pot_recdet013">POT_RECDET      </DD_TABLE_ALIAS>
@@ -310,9 +319,11 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.pot_recdet013">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.pot_recdet013">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.pot_recdet013">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.pot_recdet013">3</DD_ATTR_MAXL>
+			<DD_ATTR_CTLW id="ddm_table_cols.pot_recdet013">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.pot_recdet013">0</DD_ATTR_CTLH>
 			<DD_ATTR_PROM id="ddm_table_cols.pot_recdet013">PO Standard Message Code</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.pot_recdet013">12</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.pot_recdet013">PO_MSG_CODE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.pot_recdet014">
 			<DD_TABLE_ALIAS id="ddm_table_cols.pot_recdet014">POT_RECDET      </DD_TABLE_ALIAS>
@@ -324,9 +335,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.pot_recdet014">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.pot_recdet014">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.pot_recdet014">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.pot_recdet014">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.pot_recdet014">Update Flag</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.pot_recdet014">13</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.pot_recdet014">UPDATE_FLAG</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.pot_recdet015">
 			<DD_TABLE_ALIAS id="ddm_table_cols.pot_recdet015">POT_RECDET      </DD_TABLE_ALIAS>
@@ -339,6 +350,8 @@
 			<DD_CREATE_DATE id="ddm_table_cols.pot_recdet015">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.pot_recdet015">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_PROM id="ddm_table_cols.pot_recdet015">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.pot_recdet015">35</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.pot_recdet015">RESERVED_STR</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.pot_recdet016">
 			<DD_TABLE_ALIAS id="ddm_table_cols.pot_recdet016">POT_RECDET      </DD_TABLE_ALIAS>
@@ -350,9 +363,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.pot_recdet016">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.pot_recdet016">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.pot_recdet016">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.pot_recdet016">8</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.pot_recdet016">Date Required</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.pot_recdet016">14</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.pot_recdet016">REQD_DATE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.pot_recdet017">
 			<DD_TABLE_ALIAS id="ddm_table_cols.pot_recdet017">POT_RECDET      </DD_TABLE_ALIAS>
@@ -364,9 +377,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.pot_recdet017">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.pot_recdet017">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.pot_recdet017">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.pot_recdet017">8</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.pot_recdet017">Delivery Promised By Date</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.pot_recdet017">15</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.pot_recdet017">PROMISE_DATE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.pot_recdet018">
 			<DD_TABLE_ALIAS id="ddm_table_cols.pot_recdet018">POT_RECDET      </DD_TABLE_ALIAS>
@@ -379,9 +392,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.pot_recdet018">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.pot_recdet018">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.pot_recdet018">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.pot_recdet018">8</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.pot_recdet018">Don't Deliver Before Date</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.pot_recdet018">16</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.pot_recdet018">NOT_B4_DATE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.pot_recdet019">
 			<DD_TABLE_ALIAS id="ddm_table_cols.pot_recdet019">POT_RECDET      </DD_TABLE_ALIAS>
@@ -393,23 +406,27 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.pot_recdet019">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.pot_recdet019">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.pot_recdet019">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.pot_recdet019">7</DD_ATTR_MAXL>
+			<DD_ATTR_CTLW id="ddm_table_cols.pot_recdet019">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.pot_recdet019">0</DD_ATTR_CTLH>
 			<DD_ATTR_PROM id="ddm_table_cols.pot_recdet019">Work Order Number</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.pot_recdet019">17</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.pot_recdet019">WO_NO</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.pot_recdet020">
 			<DD_TABLE_ALIAS id="ddm_table_cols.pot_recdet020">POT_RECDET      </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_cols.pot_recdet020">020</DD_SEQUENCE>
-			<DD_DATA_NAME id="ddm_table_cols.pot_recdet020">SEQUENCE_REF    </DD_DATA_NAME>
-			<DD_DVAR_NAME id="ddm_table_cols.pot_recdet020">WO_SEQ_REF      </DD_DVAR_NAME>
+			<DD_DATA_NAME id="ddm_table_cols.pot_recdet020">SEQ_REF         </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.pot_recdet020">WK_ORD_SEQ_REF  </DD_DVAR_NAME>
 			<DD_COL_REPEATS id="ddm_table_cols.pot_recdet020">0</DD_COL_REPEATS>
 			<DD_COL_OCCURS id="ddm_table_cols.pot_recdet020">0</DD_COL_OCCURS>
 			<DD_FIELD_DELIM id="ddm_table_cols.pot_recdet020">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.pot_recdet020">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.pot_recdet020">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.pot_recdet020">3</DD_ATTR_MAXL>
+			<DD_ATTR_CTLW id="ddm_table_cols.pot_recdet020">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.pot_recdet020">0</DD_ATTR_CTLH>
 			<DD_ATTR_PROM id="ddm_table_cols.pot_recdet020">Sequence Number</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.pot_recdet020">18</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.pot_recdet020">SEQ_REF</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.pot_recdet021">
 			<DD_TABLE_ALIAS id="ddm_table_cols.pot_recdet021">POT_RECDET      </DD_TABLE_ALIAS>
@@ -422,9 +439,9 @@
 			<DD_CREATE_DATE id="ddm_table_cols.pot_recdet021">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.pot_recdet021">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_LABS id="ddm_table_cols.pot_recdet021">Customer N</DD_ATTR_LABS>
-			<DD_ATTR_MAXL id="ddm_table_cols.pot_recdet021">6</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.pot_recdet021">Customer Number</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.pot_recdet021">19</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.pot_recdet021">CUSTOMER_ID</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.pot_recdet022">
 			<DD_TABLE_ALIAS id="ddm_table_cols.pot_recdet022">POT_RECDET      </DD_TABLE_ALIAS>
@@ -436,9 +453,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.pot_recdet022">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.pot_recdet022">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.pot_recdet022">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.pot_recdet022">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.pot_recdet022">Sales Order Number</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.pot_recdet022">20</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.pot_recdet022">ORDER_NO</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.pot_recdet023">
 			<DD_TABLE_ALIAS id="ddm_table_cols.pot_recdet023">POT_RECDET      </DD_TABLE_ALIAS>
@@ -450,9 +467,12 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.pot_recdet023">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.pot_recdet023">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.pot_recdet023">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.pot_recdet023">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.pot_recdet023">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.pot_recdet023">3</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.pot_recdet023">Detail Line Item Number</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.pot_recdet023">21</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.pot_recdet023">SEQ_REF</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.pot_recdet024">
 			<DD_TABLE_ALIAS id="ddm_table_cols.pot_recdet024">POT_RECDET      </DD_TABLE_ALIAS>
@@ -465,9 +485,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.pot_recdet024">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.pot_recdet024">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.pot_recdet024">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.pot_recdet024">6</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.pot_recdet024">Customer Ship-To Number</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.pot_recdet024">22</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.pot_recdet024">SHIPTO_NO</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.pot_recdet025">
 			<DD_TABLE_ALIAS id="ddm_table_cols.pot_recdet025">POT_RECDET      </DD_TABLE_ALIAS>
@@ -479,9 +499,12 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.pot_recdet025">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.pot_recdet025">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.pot_recdet025">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.pot_recdet025">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.pot_recdet025">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.pot_recdet025">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.pot_recdet025">Warehouse ID</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.pot_recdet025">23</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.pot_recdet025">WAREHOUSE_ID</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.pot_recdet026">
 			<DD_TABLE_ALIAS id="ddm_table_cols.pot_recdet026">POT_RECDET      </DD_TABLE_ALIAS>
@@ -495,9 +518,9 @@
 			<DD_CREATE_DATE id="ddm_table_cols.pot_recdet026">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.pot_recdet026">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_LABS id="ddm_table_cols.pot_recdet026">Inventory</DD_ATTR_LABS>
-			<DD_ATTR_MAXL id="ddm_table_cols.pot_recdet026">20</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.pot_recdet026">Inventory Item Number</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.pot_recdet026">24</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.pot_recdet026">ITEM_ID</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.pot_recdet027">
 			<DD_TABLE_ALIAS id="ddm_table_cols.pot_recdet027">POT_RECDET      </DD_TABLE_ALIAS>
@@ -511,9 +534,9 @@
 			<DD_CREATE_DATE id="ddm_table_cols.pot_recdet027">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.pot_recdet027">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLX id="ddm_table_cols.pot_recdet027">+1</DD_ATTR_CTLX>
-			<DD_ATTR_MAXL id="ddm_table_cols.pot_recdet027">40</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.pot_recdet027">Memo / Non-Stock Description</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.pot_recdet027">25</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.pot_recdet027">ORDER_MEMO</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.pot_recdet028">
 			<DD_TABLE_ALIAS id="ddm_table_cols.pot_recdet028">POT_RECDET      </DD_TABLE_ALIAS>
@@ -527,6 +550,8 @@
 			<DD_CREATE_DATE id="ddm_table_cols.pot_recdet028">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.pot_recdet028">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_PROM id="ddm_table_cols.pot_recdet028">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.pot_recdet028">36</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.pot_recdet028">RESERVED_STR</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.pot_recdet029">
 			<DD_TABLE_ALIAS id="ddm_table_cols.pot_recdet029">POT_RECDET      </DD_TABLE_ALIAS>
@@ -540,6 +565,8 @@
 			<DD_CREATE_DATE id="ddm_table_cols.pot_recdet029">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.pot_recdet029">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_PROM id="ddm_table_cols.pot_recdet029">Reserved For Dealer Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.pot_recdet029">37</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.pot_recdet029">DEALER_STR</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.pot_recdet030">
 			<DD_TABLE_ALIAS id="ddm_table_cols.pot_recdet030">POT_RECDET      </DD_TABLE_ALIAS>
@@ -552,9 +579,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.pot_recdet030">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.pot_recdet030">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.pot_recdet030">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.pot_recdet030">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.pot_recdet030">Conversion Factor</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.pot_recdet030">26</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.pot_recdet030">CONV_FACTOR</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.pot_recdet031">
 			<DD_TABLE_ALIAS id="ddm_table_cols.pot_recdet031">POT_RECDET      </DD_TABLE_ALIAS>
@@ -568,9 +595,9 @@
 			<DD_CREATE_DATE id="ddm_table_cols.pot_recdet031">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.pot_recdet031">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.pot_recdet031">0</DD_ATTR_CTLW>
-			<DD_ATTR_MAXL id="ddm_table_cols.pot_recdet031">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.pot_recdet031">Unit Cost</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.pot_recdet031">27</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.pot_recdet031">UNIT_COST</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.pot_recdet032">
 			<DD_TABLE_ALIAS id="ddm_table_cols.pot_recdet032">POT_RECDET      </DD_TABLE_ALIAS>
@@ -583,9 +610,11 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.pot_recdet032">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.pot_recdet032">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.pot_recdet032">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.pot_recdet032">7</DD_ATTR_MAXL>
+			<DD_ATTR_CTLW id="ddm_table_cols.pot_recdet032">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.pot_recdet032">0</DD_ATTR_CTLH>
 			<DD_ATTR_PROM id="ddm_table_cols.pot_recdet032">Requisition Quantity</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.pot_recdet032">28</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.pot_recdet032">REQ_QTY</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.pot_recdet033">
 			<DD_TABLE_ALIAS id="ddm_table_cols.pot_recdet033">POT_RECDET      </DD_TABLE_ALIAS>
@@ -598,9 +627,11 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.pot_recdet033">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.pot_recdet033">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.pot_recdet033">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.pot_recdet033">7</DD_ATTR_MAXL>
+			<DD_ATTR_CTLW id="ddm_table_cols.pot_recdet033">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.pot_recdet033">0</DD_ATTR_CTLH>
 			<DD_ATTR_PROM id="ddm_table_cols.pot_recdet033">Quantity Ordered</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.pot_recdet033">29</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.pot_recdet033">QTY_ORDERED</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.pot_recdet034">
 			<DD_TABLE_ALIAS id="ddm_table_cols.pot_recdet034">POT_RECDET      </DD_TABLE_ALIAS>
@@ -613,9 +644,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.pot_recdet034">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.pot_recdet034">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.pot_recdet034">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.pot_recdet034">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.pot_recdet034">Quantity Previously Received</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.pot_recdet034">30</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.pot_recdet034">QTY_PREV_REC</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.pot_recdet035">
 			<DD_TABLE_ALIAS id="ddm_table_cols.pot_recdet035">POT_RECDET      </DD_TABLE_ALIAS>
@@ -629,6 +660,8 @@
 			<DD_CREATE_DATE id="ddm_table_cols.pot_recdet035">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.pot_recdet035">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_PROM id="ddm_table_cols.pot_recdet035">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.pot_recdet035">38</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.pot_recdet035">RESERVED_NUM</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.pot_recdet036">
 			<DD_TABLE_ALIAS id="ddm_table_cols.pot_recdet036">POT_RECDET      </DD_TABLE_ALIAS>
@@ -642,6 +675,8 @@
 			<DD_CREATE_DATE id="ddm_table_cols.pot_recdet036">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.pot_recdet036">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_PROM id="ddm_table_cols.pot_recdet036">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.pot_recdet036">39</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.pot_recdet036">RESERVED_NUM</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.pot_recdet037">
 			<DD_TABLE_ALIAS id="ddm_table_cols.pot_recdet037">POT_RECDET      </DD_TABLE_ALIAS>
@@ -654,9 +689,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.pot_recdet037">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.pot_recdet037">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.pot_recdet037">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.pot_recdet037">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.pot_recdet037">Quantity Received</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.pot_recdet037">31</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.pot_recdet037">QTY_RECEIVED</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.pot_recdet038">
 			<DD_TABLE_ALIAS id="ddm_table_cols.pot_recdet038">POT_RECDET      </DD_TABLE_ALIAS>
@@ -669,9 +704,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.pot_recdet038">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.pot_recdet038">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.pot_recdet038">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.pot_recdet038">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.pot_recdet038">Quantity Invoiced</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.pot_recdet038">32</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.pot_recdet038">QTY_INVOICED</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.pot_recdet039">
 			<DD_TABLE_ALIAS id="ddm_table_cols.pot_recdet039">POT_RECDET      </DD_TABLE_ALIAS>
@@ -685,6 +720,8 @@
 			<DD_CREATE_DATE id="ddm_table_cols.pot_recdet039">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.pot_recdet039">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_PROM id="ddm_table_cols.pot_recdet039">Reserved For Addon Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.pot_recdet039">40</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.pot_recdet039">RESERVED_NUM</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.pot_recdet040">
 			<DD_TABLE_ALIAS id="ddm_table_cols.pot_recdet040">POT_RECDET      </DD_TABLE_ALIAS>
@@ -698,6 +735,8 @@
 			<DD_CREATE_DATE id="ddm_table_cols.pot_recdet040">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.pot_recdet040">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_PROM id="ddm_table_cols.pot_recdet040">Reserved For Dealer Use</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.pot_recdet040">41</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.pot_recdet040">DEALER_NUM</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.pot_recdet041">
 			<DD_TABLE_ALIAS id="ddm_table_cols.pot_recdet041">POT_RECDET      </DD_TABLE_ALIAS>
@@ -716,8 +755,9 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.pot_recdet041">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.pot_recdet041">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.pot_recdet041">N</DD_ATTR_MLAN>
-			<DD_ATTR_MINL id="ddm_table_cols.pot_recdet041">0</DD_ATTR_MINL>
 			<DD_ATTR_MAXL id="ddm_table_cols.pot_recdet041">0</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.pot_recdet041">42</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.pot_recdet041">NS_ITEM_ID</SQL_COLUMN_NAME>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">
@@ -727,6 +767,16 @@
 			<DD_DVAR_NAME id="ddm_column_opts.pot_recdetfirm_ido">FIRM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.pot_recdetfirm_ido">O</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.pot_recdetwo_noc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.pot_recdetwo_noc">POT_RECDET      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.pot_recdetwo_noc">WO_NO           </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.pot_recdetwo_noc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.pot_recdetwk_ord_seq_refc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.pot_recdetwk_ord_seq_refc">POT_RECDET      </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.pot_recdetwk_ord_seq_refc">WK_ORD_SEQ_REF  </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.pot_recdetwk_ord_seq_refc">C</DD_ATTR_OPTS>
+		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">
 		<ID id="ddm_elements">DDM_ELEMENTS</ID>
@@ -735,21 +785,23 @@
 			<DD_DESCRIPTION id="ddm_elements.firm_id">Firm ID</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.firm_id">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.firm_id">2</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.firm_id"> </DD_MASK_TYPE>
 			<DD_SYSTEM_REC id="ddm_elements.firm_id">Y</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_elements.firm_id">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.firm_id">AD </ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.firm_id">ADB</ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.firm_id">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.firm_id">20060425</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.firm_id">20120326</DD_LSTREV_DATE>
+			<DD_ATTR_BLNK id="ddm_elements.firm_id">N</DD_ATTR_BLNK>
+			<DD_ATTR_CTLW id="ddm_elements.firm_id">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.firm_id">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.firm_id">H</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.firm_id">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.firm_id">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABS>
-			<DD_ATTR_MSKI id="ddm_elements.firm_id">00</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO id="ddm_elements.firm_id">00</DD_ATTR_MSKO>
-			<DD_ATTR_PADC id="ddm_elements.firm_id">30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ id="ddm_elements.firm_id">R</DD_ATTR_PADJ>
+			<DD_ATTR_MAXL id="ddm_elements.firm_id">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.firm_id">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.firm_id">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.firm_id">0</DD_ATTR_PREC>
 			<DD_ATTR_PVAL id="ddm_elements.firm_id">stbl("+FIRM_ID")</DD_ATTR_PVAL>
 		</RECORD>
 		<RECORD id="ddm_elements.po_no">
@@ -874,20 +926,26 @@
 		</RECORD>
 		<RECORD id="ddm_elements.reserved_str">
 			<DD_DATA_NAME id="ddm_elements.reserved_str">RESERVED_STR    </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.reserved_str">Reserved For Addon Use        </DD_DESCRIPTION>
+			<DD_DESCRIPTION id="ddm_elements.reserved_str">Reserved For Addon Use</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.reserved_str">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.reserved_str">1</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.reserved_str"> </DD_MASK_TYPE>
 			<DD_SYSTEM_REC id="ddm_elements.reserved_str">Y</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_elements.reserved_str">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.reserved_str">AD </ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.reserved_str">ADB</ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.reserved_str">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.reserved_str">20060119</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.reserved_str">20120326</DD_LSTREV_DATE>
+			<DD_ATTR_BLNK id="ddm_elements.reserved_str">N</DD_ATTR_BLNK>
+			<DD_ATTR_CTLW id="ddm_elements.reserved_str">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.reserved_str">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.reserved_str">X</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.reserved_str">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.reserved_str">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.reserved_str">Reserved For Addon Use</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.reserved_str">Res For Addon Use</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.reserved_str">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.reserved_str">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.reserved_str">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.reserved_str">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.lead_tim_flg">
 			<DD_DATA_NAME id="ddm_elements.lead_tim_flg">LEAD_TIM_FLG    </DD_DATA_NAME>
@@ -1081,44 +1139,31 @@
 		</RECORD>
 		<RECORD id="ddm_elements.wo_no">
 			<DD_DATA_NAME id="ddm_elements.wo_no">WO_NO           </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.wo_no">Work Order Number             </DD_DESCRIPTION>
+			<DD_DESCRIPTION id="ddm_elements.wo_no">Work Order Number</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.wo_no">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.wo_no">7</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.wo_no"> </DD_MASK_TYPE>
 			<ASC_COMP_ID id="ddm_elements.wo_no">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_elements.wo_no">AD </ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.wo_no">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.wo_no">20060119</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.wo_no">20111214</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.wo_no">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.wo_no">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.wo_no">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOL id="ddm_elements.wo_no">ITEM_ID</DD_ATTR_DCOL>
 			<DD_ATTR_DCOM id="ddm_elements.wo_no">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.wo_no">            </DD_ATTR_DEXP>
+			<DD_ATTR_DKEY id="ddm_elements.wo_no">[+FIRM_ID]+"  "+@</DD_ATTR_DKEY>
+			<DD_ATTR_DTAB id="ddm_elements.wo_no">SFE_WOMASTR     </DD_ATTR_DTAB>
 			<DD_ATTR_LABL id="ddm_elements.wo_no">Work Order Number</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.wo_no">WO No</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.wo_no">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.wo_no">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.wo_no">0</DD_ATTR_MINL>
 			<DD_ATTR_MSKI id="ddm_elements.wo_no">0000000</DD_ATTR_MSKI>
 			<DD_ATTR_MSKO id="ddm_elements.wo_no">0000000</DD_ATTR_MSKO>
 			<DD_ATTR_PADC id="ddm_elements.wo_no">30</DD_ATTR_PADC>
 			<DD_ATTR_PADJ id="ddm_elements.wo_no">R</DD_ATTR_PADJ>
-		</RECORD>
-		<RECORD id="ddm_elements.sequence_ref">
-			<DD_DATA_NAME id="ddm_elements.sequence_ref">SEQUENCE_REF    </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.sequence_ref">Sequence number reference</DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.sequence_ref">C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.sequence_ref">3</DD_DATA_LENGTH>
-			<ASC_COMP_ID id="ddm_elements.sequence_ref">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.sequence_ref">AD </ASC_PROD_ID>
-			<LOCALIZATION_EX id="ddm_elements.sequence_ref">N</LOCALIZATION_EX>
-			<DD_CREATE_DATE id="ddm_elements.sequence_ref">20090305</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.sequence_ref">20090305</DD_LSTREV_DATE>
-			<DD_ATTR_BLNK id="ddm_elements.sequence_ref">N</DD_ATTR_BLNK>
-			<DD_ATTR_CTLW id="ddm_elements.sequence_ref">0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH id="ddm_elements.sequence_ref">0</DD_ATTR_CTLH>
-			<DD_ATTR_CTYP id="ddm_elements.sequence_ref">E</DD_ATTR_CTYP>
-			<DD_ATTR_LABL id="ddm_elements.sequence_ref">Sequence number reference</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.sequence_ref">Seq no ref</DD_ATTR_LABS>
-			<DD_ATTR_MAXL id="ddm_elements.sequence_ref">0</DD_ATTR_MAXL>
-			<DD_ATTR_MAXR id="ddm_elements.sequence_ref">0</DD_ATTR_MAXR>
-			<DD_ATTR_MINL id="ddm_elements.sequence_ref">0</DD_ATTR_MINL>
-			<DD_ATTR_PREC id="ddm_elements.sequence_ref">0</DD_ATTR_PREC>
+			<DD_ATTR_PREC id="ddm_elements.wo_no">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.customer_id">
 			<DD_DATA_NAME id="ddm_elements.customer_id">CUSTOMER_ID     </DD_DATA_NAME>

@@ -14,13 +14,13 @@
 			<DD_SYSTEM_REC id="ddm_tables.ivm_itemmast">N</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_tables.ivm_itemmast">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.ivm_itemmast">IV </ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.ivm_itemmast">11.0      </ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.ivm_itemmast">12.0      </ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.ivm_itemmast">6C5023A67CECD2E068F479C37AF5FA89</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ivm_itemmast">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ivm_itemmast">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_tables.ivm_itemmast">20120202</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivm_itemmast">20120202</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivm_itemmast">135924</DD_LSTSYNC_TIME>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivm_itemmast">20120327</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivm_itemmast">140924</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ivm_itemmast">C:/aon_dev/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ivm_itemmast">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.ivm_itemmast">zzzz</DD_ATTR_SLEV>
@@ -113,9 +113,9 @@
 			<DD_TABLE_ALIAS id="ddm_table_cpro.ivm_itemmastadis">IVM_ITEMMAST    </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.ivm_itemmastadis">ADIS</DD_ATTR_CPRO>
 		</RECORD>
-		<RECORD id="ddm_table_cpro.ivm_itemmastaopt">
-			<DD_TABLE_ALIAS id="ddm_table_cpro.ivm_itemmastaopt">IVM_ITEMMAST    </DD_TABLE_ALIAS>
-			<DD_ATTR_CPRO id="ddm_table_cpro.ivm_itemmastaopt">AOPT-STOK</DD_ATTR_CPRO>
+		<RECORD id="ddm_table_cpro.ivm_itemmastaopt-stok">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.ivm_itemmastaopt-stok">IVM_ITEMMAST    </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.ivm_itemmastaopt-stok">AOPT-STOK</DD_ATTR_CPRO>
 		</RECORD>
 		<RECORD id="ddm_table_cpro.ivm_itemmastarec">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.ivm_itemmastarec">IVM_ITEMMAST    </DD_TABLE_ALIAS>
@@ -467,7 +467,6 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ivm_itemmast001">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ivm_itemmast001">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivm_itemmast001">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast001">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast001">Firm ID</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast001">1</DD_ATTR_TIND>
 		</RECORD>
@@ -484,7 +483,6 @@
 			<DD_ATTR_CPGM id="ddm_table_cols.ivm_itemmast002">C:/aon_dev/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_itemmast002">200</DD_ATTR_CTLW>
 			<DD_ATTR_LABS id="ddm_table_cols.ivm_itemmast002">Inventory</DD_ATTR_LABS>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast002">20</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast002">Inventory Item Number</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast002">2</DD_ATTR_TIND>
 		</RECORD>
@@ -496,7 +494,6 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ivm_itemmast003">Y</DD_FIELD_DELIM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_itemmast003">400</DD_ATTR_CTLW>
 			<DD_ATTR_LABL id="ddm_table_cols.ivm_itemmast003">Description</DD_ATTR_LABL>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast003">60</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast003">4</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivm_itemmast004">
@@ -510,7 +507,6 @@
 			<DD_CREATE_DATE id="ddm_table_cols.ivm_itemmast004">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivm_itemmast004">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_itemmast004">35</DD_ATTR_CTLW>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast004">3</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast004">Product Type</DD_ATTR_PROM>
 			<DD_ATTR_TABG id="ddm_table_cols.ivm_itemmast004">1</DD_ATTR_TABG>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast004">5</DD_ATTR_TIND>
@@ -530,7 +526,6 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_itemmast005">35</DD_ATTR_CTLW>
 			<DD_ATTR_DFLT id="ddm_table_cols.ivm_itemmast005">EA</DD_ATTR_DFLT>
 			<DD_ATTR_LABL id="ddm_table_cols.ivm_itemmast005">Sale UM</DD_ATTR_LABL>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast005">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast005">Unit Of Sale</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast005">12</DD_ATTR_TIND>
 		</RECORD>
@@ -547,7 +542,6 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_itemmast006">35</DD_ATTR_CTLW>
 			<DD_ATTR_DFLT id="ddm_table_cols.ivm_itemmast006">EA</DD_ATTR_DFLT>
 			<DD_ATTR_LABL id="ddm_table_cols.ivm_itemmast006">Purch UM</DD_ATTR_LABL>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast006">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast006">Unit Of Purchase</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast006">13</DD_ATTR_TIND>
 		</RECORD>
@@ -565,7 +559,6 @@
 			<DD_ATTR_CTLY id="ddm_table_cols.ivm_itemmast007">-6</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_itemmast007">30</DD_ATTR_CTLW>
 			<DD_ATTR_DFLT id="ddm_table_cols.ivm_itemmast007">Y</DD_ATTR_DFLT>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast007">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast007">Taxable [Y/N]?</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast007">18</DD_ATTR_TIND>
 		</RECORD>
@@ -583,7 +576,6 @@
 			<DD_ATTR_ABLV id="ddm_table_cols.ivm_itemmast008">I</DD_ATTR_ABLV>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_itemmast008">35</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ivm_itemmast008">0</DD_ATTR_CTLH>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast008">3</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast008">Buyer Code</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast008">39</DD_ATTR_TIND>
 		</RECORD>
@@ -602,7 +594,6 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_itemmast009">48</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ivm_itemmast009">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABS id="ddm_table_cols.ivm_itemmast009">Vendor Num</DD_ATTR_LABS>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast009">6</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast009">Vendor Number</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast009">40</DD_ATTR_TIND>
 		</RECORD>
@@ -618,7 +609,6 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.ivm_itemmast010">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_itemmast010">125</DD_ATTR_CTLW>
 			<DD_ATTR_LABS id="ddm_table_cols.ivm_itemmast010">Sales Anal</DD_ATTR_LABS>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast010">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast010">Sales Analysis Level [N/P/I]</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast010">17</DD_ATTR_TIND>
 		</RECORD>
@@ -635,7 +625,6 @@
 			<DD_ATTR_CPGM id="ddm_table_cols.ivm_itemmast011">C:/aon_dev/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_itemmast011">30</DD_ATTR_CTLW>
 			<DD_ATTR_DFLT id="ddm_table_cols.ivm_itemmast011">N</DD_ATTR_DFLT>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast011">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast011">Lotted or Serialized Item?</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast011">19</DD_ATTR_TIND>
 		</RECORD>
@@ -654,7 +643,6 @@
 			<DD_ATTR_CPGM id="ddm_table_cols.ivm_itemmast012">C:/aon_dev/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_itemmast012">30</DD_ATTR_CTLW>
 			<DD_ATTR_DFLT id="ddm_table_cols.ivm_itemmast012">N</DD_ATTR_DFLT>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast012">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast012">Inventoried?</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast012">20</DD_ATTR_TIND>
 		</RECORD>
@@ -669,7 +657,6 @@
 			<DD_CREATE_DATE id="ddm_table_cols.ivm_itemmast013">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivm_itemmast013">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_itemmast013">35</DD_ATTR_CTLW>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast013">3</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast013">Item Class</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast013">6</DD_ATTR_TIND>
 		</RECORD>
@@ -686,7 +673,6 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_itemmast014">85</DD_ATTR_CTLW>
 			<DD_ATTR_DFLT id="ddm_table_cols.ivm_itemmast014">I</DD_ATTR_DFLT>
 			<DD_ATTR_LABS id="ddm_table_cols.ivm_itemmast014">Item Stock</DD_ATTR_LABS>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast014">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast014">Item Stocking Level [I/W]</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast014">11</DD_ATTR_TIND>
 		</RECORD>
@@ -706,7 +692,6 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_itemmast015">35</DD_ATTR_CTLW>
 			<DD_ATTR_DFLT id="ddm_table_cols.ivm_itemmast015">A</DD_ATTR_DFLT>
 			<DD_ATTR_LABS id="ddm_table_cols.ivm_itemmast015">ABC Analys</DD_ATTR_LABS>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast015">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast015">ABC Analysis Code</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast015">38</DD_ATTR_TIND>
 		</RECORD>
@@ -727,7 +712,6 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_itemmast016">109</DD_ATTR_CTLW>
 			<DD_ATTR_DFLT id="ddm_table_cols.ivm_itemmast016">D</DD_ATTR_DFLT>
 			<DD_ATTR_LABS id="ddm_table_cols.ivm_itemmast016">EOQ Code [</DD_ATTR_LABS>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast016">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast016">EOQ Code [D/N/E]</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast016">46</DD_ATTR_TIND>
 		</RECORD>
@@ -748,7 +732,6 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_itemmast017">109</DD_ATTR_CTLW>
 			<DD_ATTR_DFLT id="ddm_table_cols.ivm_itemmast017">D</DD_ATTR_DFLT>
 			<DD_ATTR_LABS id="ddm_table_cols.ivm_itemmast017">Order Poin</DD_ATTR_LABS>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast017">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast017">Order Point Code [D/N/E]</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast017">44</DD_ATTR_TIND>
 		</RECORD>
@@ -769,7 +752,6 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_itemmast018">109</DD_ATTR_CTLW>
 			<DD_ATTR_DFLT id="ddm_table_cols.ivm_itemmast018">D</DD_ATTR_DFLT>
 			<DD_ATTR_LABS id="ddm_table_cols.ivm_itemmast018">Safety Sto</DD_ATTR_LABS>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast018">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast018">Safety Stock Code [D/N/E]</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast018">48</DD_ATTR_TIND>
 		</RECORD>
@@ -783,7 +765,6 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ivm_itemmast019">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ivm_itemmast019">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivm_itemmast019">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast019">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast019">Reserved For Addon Use</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast019">52</DD_ATTR_TIND>
 		</RECORD>
@@ -799,7 +780,6 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.ivm_itemmast020">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_itemmast020">35</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ivm_itemmast020">0</DD_ATTR_CTLH>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast020">3</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast020">Item Type</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast020">7</DD_ATTR_TIND>
 		</RECORD>
@@ -813,7 +793,6 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ivm_itemmast021">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ivm_itemmast021">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivm_itemmast021">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast021">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast021">Reserved For Addon Use</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast021">53</DD_ATTR_TIND>
 		</RECORD>
@@ -831,7 +810,6 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_itemmast022">70</DD_ATTR_CTLW>
 			<DD_ATTR_GHDR id="ddm_table_cols.ivm_itemmast022">Last Transaction Dates</DD_ATTR_GHDR>
 			<DD_ATTR_LABL id="ddm_table_cols.ivm_itemmast022">Receipt</DD_ATTR_LABL>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast022">8</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast022">Last Receipt Date</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast022">23</DD_ATTR_TIND>
 		</RECORD>
@@ -847,7 +825,6 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.ivm_itemmast023">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_itemmast023">70</DD_ATTR_CTLW>
 			<DD_ATTR_LABL id="ddm_table_cols.ivm_itemmast023">Built</DD_ATTR_LABL>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast023">8</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast023">Last Built Date</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast023">24</DD_ATTR_TIND>
 		</RECORD>
@@ -865,7 +842,6 @@
 			<DD_ATTR_CTLY id="ddm_table_cols.ivm_itemmast024">-2</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_itemmast024">70</DD_ATTR_CTLW>
 			<DD_ATTR_LABL id="ddm_table_cols.ivm_itemmast024">Sold</DD_ATTR_LABL>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast024">8</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast024">Last Sale Date</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast024">25</DD_ATTR_TIND>
 		</RECORD>
@@ -881,7 +857,6 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.ivm_itemmast025">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_itemmast025">70</DD_ATTR_CTLW>
 			<DD_ATTR_LABL id="ddm_table_cols.ivm_itemmast025">Issued</DD_ATTR_LABL>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast025">8</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast025">Last Issue Date</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast025">26</DD_ATTR_TIND>
 		</RECORD>
@@ -899,7 +874,6 @@
 			<DD_ATTR_CTLY id="ddm_table_cols.ivm_itemmast026">-2</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_itemmast026">70</DD_ATTR_CTLW>
 			<DD_ATTR_LABL id="ddm_table_cols.ivm_itemmast026">Adjustment</DD_ATTR_LABL>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast026">8</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast026">Last Adjustment Date</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast026">27</DD_ATTR_TIND>
 		</RECORD>
@@ -917,7 +891,6 @@
 			<DD_ATTR_CTLY id="ddm_table_cols.ivm_itemmast027">-2</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_itemmast027">70</DD_ATTR_CTLW>
 			<DD_ATTR_LABL id="ddm_table_cols.ivm_itemmast027">Transfer In</DD_ATTR_LABL>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast027">8</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast027">Last Transfer In Date</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast027">29</DD_ATTR_TIND>
 		</RECORD>
@@ -933,7 +906,6 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.ivm_itemmast028">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_itemmast028">70</DD_ATTR_CTLW>
 			<DD_ATTR_LABL id="ddm_table_cols.ivm_itemmast028">Transfer Out</DD_ATTR_LABL>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast028">8</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast028">Last Transfer Out Date</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast028">30</DD_ATTR_TIND>
 		</RECORD>
@@ -949,7 +921,6 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.ivm_itemmast029">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_itemmast029">70</DD_ATTR_CTLW>
 			<DD_ATTR_LABL id="ddm_table_cols.ivm_itemmast029">Last Return</DD_ATTR_LABL>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast029">8</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast029">Last Return Date</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast029">28</DD_ATTR_TIND>
 		</RECORD>
@@ -965,7 +936,6 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.ivm_itemmast030">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_itemmast030">160</DD_ATTR_CTLW>
 			<DD_ATTR_LABL id="ddm_table_cols.ivm_itemmast030">UPC Code</DD_ATTR_LABL>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast030">20</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast030">Inventory Item UPC Code</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast030">10</DD_ATTR_TIND>
 		</RECORD>
@@ -981,7 +951,6 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.ivm_itemmast031">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_itemmast031">160</DD_ATTR_CTLW>
 			<DD_ATTR_LABL id="ddm_table_cols.ivm_itemmast031">Bar Code</DD_ATTR_LABL>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast031">20</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast031">Inventory Item Bar Code</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast031">16</DD_ATTR_TIND>
 		</RECORD>
@@ -1002,7 +971,6 @@
 			<DD_ATTR_DFLT id="ddm_table_cols.ivm_itemmast032">N</DD_ATTR_DFLT>
 			<DD_ATTR_GHDR id="ddm_table_cols.ivm_itemmast032">Alternate/Superseded/Not Used</DD_ATTR_GHDR>
 			<DD_ATTR_LABL id="ddm_table_cols.ivm_itemmast032">Code</DD_ATTR_LABL>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast032">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast032">Alternate Or Superceded Flag</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast032">21</DD_ATTR_TIND>
 		</RECORD>
@@ -1023,7 +991,6 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_itemmast033">160</DD_ATTR_CTLW>
 			<DD_ATTR_LABL id="ddm_table_cols.ivm_itemmast033">Item</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_table_cols.ivm_itemmast033">Inventory</DD_ATTR_LABS>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast033">20</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast033">Alternate/Superceded Item Nbr</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast033">22</DD_ATTR_TIND>
 		</RECORD>
@@ -1037,7 +1004,6 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ivm_itemmast034">Y</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ivm_itemmast034">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivm_itemmast034">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast034">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast034">Reserved For Dealer Use</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast034">54</DD_ATTR_TIND>
 		</RECORD>
@@ -1056,7 +1022,6 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_itemmast035">80</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ivm_itemmast035">0</DD_ATTR_CTLH>
 			<DD_ATTR_MINL id="ddm_table_cols.ivm_itemmast035">1</DD_ATTR_MINL>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast035">10</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast035">GL Inventory Account</DD_ATTR_PROM>
 			<DD_ATTR_TABG id="ddm_table_cols.ivm_itemmast035">2</DD_ATTR_TABG>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast035">31</DD_ATTR_TIND>
@@ -1073,7 +1038,6 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.ivm_itemmast036">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_itemmast036">80</DD_ATTR_CTLW>
 			<DD_ATTR_MINL id="ddm_table_cols.ivm_itemmast036">1</DD_ATTR_MINL>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast036">10</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast036">GL Cost Of Goods Account</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast036">32</DD_ATTR_TIND>
 		</RECORD>
@@ -1090,7 +1054,6 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_itemmast037">80</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ivm_itemmast037">0</DD_ATTR_CTLH>
 			<DD_ATTR_MINL id="ddm_table_cols.ivm_itemmast037">1</DD_ATTR_MINL>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast037">10</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast037">GL Purchase To Account</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast037">33</DD_ATTR_TIND>
 		</RECORD>
@@ -1107,7 +1070,6 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_itemmast038">80</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ivm_itemmast038">0</DD_ATTR_CTLH>
 			<DD_ATTR_MINL id="ddm_table_cols.ivm_itemmast038">1</DD_ATTR_MINL>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast038">10</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast038">GL Purchase Price Variance</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast038">34</DD_ATTR_TIND>
 		</RECORD>
@@ -1124,7 +1086,6 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_itemmast039">80</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ivm_itemmast039">0</DD_ATTR_CTLH>
 			<DD_ATTR_MINL id="ddm_table_cols.ivm_itemmast039">1</DD_ATTR_MINL>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast039">10</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast039">GL Inventory Adjustment Acct</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast039">35</DD_ATTR_TIND>
 		</RECORD>
@@ -1140,7 +1101,6 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.ivm_itemmast040">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_itemmast040">80</DD_ATTR_CTLW>
 			<DD_ATTR_MINL id="ddm_table_cols.ivm_itemmast040">1</DD_ATTR_MINL>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast040">10</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast040">GL COGS Adjustment Account</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast040">36</DD_ATTR_TIND>
 		</RECORD>
@@ -1152,7 +1112,6 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ivm_itemmast041">Y</DD_FIELD_DELIM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_itemmast041">180</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ivm_itemmast041">180</DD_ATTR_CTLH>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast041">250</DD_ATTR_MAXL>
 			<DD_ATTR_TABG id="ddm_table_cols.ivm_itemmast041">3</DD_ATTR_TABG>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast041">37</DD_ATTR_TIND>
 		</RECORD>
@@ -1173,7 +1132,6 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_itemmast042">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ivm_itemmast042">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.ivm_itemmast042">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast042">60</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast042">Reserved For Addon Use</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast042">3</DD_ATTR_TIND>
 		</RECORD>
@@ -1189,7 +1147,6 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.ivm_itemmast043">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CPGM id="ddm_table_cols.ivm_itemmast043">C:/aon_dev/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_itemmast043">56</DD_ATTR_CTLW>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast043">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast043">Conversion Factor</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast043">15</DD_ATTR_TIND>
 		</RECORD>
@@ -1206,7 +1163,6 @@
 			<DD_ATTR_CPGM id="ddm_table_cols.ivm_itemmast044">C:/aon_dev/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_itemmast044">56</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ivm_itemmast044">0</DD_ATTR_CTLH>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast044">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast044">Weight</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast044">14</DD_ATTR_TIND>
 		</RECORD>
@@ -1223,7 +1179,6 @@
 			<DD_ATTR_CPGM id="ddm_table_cols.ivm_itemmast045">C:/aon_dev/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_itemmast045">56</DD_ATTR_CTLW>
 			<DD_ATTR_LABL id="ddm_table_cols.ivm_itemmast045">MSRP</DD_ATTR_LABL>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast045">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast045">Manuf Suggested Retail Price</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast045">9</DD_ATTR_TIND>
 		</RECORD>
@@ -1241,7 +1196,6 @@
 			<DD_ATTR_ABLV id="ddm_table_cols.ivm_itemmast046">I</DD_ATTR_ABLV>
 			<DD_ATTR_CPGM id="ddm_table_cols.ivm_itemmast046">C:/aon_dev/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_itemmast046">56</DD_ATTR_CTLW>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast046">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast046">Maximum Quantity</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast046">42</DD_ATTR_TIND>
 		</RECORD>
@@ -1259,7 +1213,6 @@
 			<DD_ATTR_ABLV id="ddm_table_cols.ivm_itemmast047">I</DD_ATTR_ABLV>
 			<DD_ATTR_CPGM id="ddm_table_cols.ivm_itemmast047">C:/aon_dev/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_itemmast047">56</DD_ATTR_CTLW>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast047">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast047">Order Point</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast047">43</DD_ATTR_TIND>
 		</RECORD>
@@ -1278,7 +1231,6 @@
 			<DD_ATTR_CPGM id="ddm_table_cols.ivm_itemmast048">C:/aon_dev/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLX id="ddm_table_cols.ivm_itemmast048">-16</DD_ATTR_CTLX>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_itemmast048">56</DD_ATTR_CTLW>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast048">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast048">Safety Stock</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast048">47</DD_ATTR_TIND>
 		</RECORD>
@@ -1297,7 +1249,6 @@
 			<DD_ATTR_CPGM id="ddm_table_cols.ivm_itemmast049">C:/aon_dev/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLX id="ddm_table_cols.ivm_itemmast049">-16</DD_ATTR_CTLX>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_itemmast049">56</DD_ATTR_CTLW>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast049">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast049">Economic Order Quantity [EOQ]</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast049">45</DD_ATTR_TIND>
 		</RECORD>
@@ -1315,7 +1266,6 @@
 			<DD_ATTR_ABLV id="ddm_table_cols.ivm_itemmast050">I</DD_ATTR_ABLV>
 			<DD_ATTR_CPGM id="ddm_table_cols.ivm_itemmast050">C:/aon_dev/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivm_itemmast050">56</DD_ATTR_CTLW>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast050">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast050">Lead Time</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast050">41</DD_ATTR_TIND>
 		</RECORD>
@@ -1329,7 +1279,6 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ivm_itemmast051">Y</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ivm_itemmast051">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivm_itemmast051">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast051">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast051">Reserved For Addon Use</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast051">55</DD_ATTR_TIND>
 		</RECORD>
@@ -1343,7 +1292,6 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ivm_itemmast052">Y</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.ivm_itemmast052">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivm_itemmast052">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivm_itemmast052">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivm_itemmast052">Reserved For Dealer Use</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivm_itemmast052">56</DD_ATTR_TIND>
 		</RECORD>
@@ -1725,21 +1673,23 @@
 			<DD_DESCRIPTION id="ddm_elements.firm_id">Firm ID</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.firm_id">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.firm_id">2</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.firm_id"> </DD_MASK_TYPE>
 			<DD_SYSTEM_REC id="ddm_elements.firm_id">Y</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_elements.firm_id">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.firm_id">AD </ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.firm_id">ADB</ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.firm_id">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.firm_id">20060425</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.firm_id">20120326</DD_LSTREV_DATE>
+			<DD_ATTR_BLNK id="ddm_elements.firm_id">N</DD_ATTR_BLNK>
+			<DD_ATTR_CTLW id="ddm_elements.firm_id">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.firm_id">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.firm_id">H</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.firm_id">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.firm_id">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABS>
-			<DD_ATTR_MSKI id="ddm_elements.firm_id">00</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO id="ddm_elements.firm_id">00</DD_ATTR_MSKO>
-			<DD_ATTR_PADC id="ddm_elements.firm_id">30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ id="ddm_elements.firm_id">R</DD_ATTR_PADJ>
+			<DD_ATTR_MAXL id="ddm_elements.firm_id">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.firm_id">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.firm_id">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.firm_id">0</DD_ATTR_PREC>
 			<DD_ATTR_PVAL id="ddm_elements.firm_id">stbl("+FIRM_ID")</DD_ATTR_PVAL>
 		</RECORD>
 		<RECORD id="ddm_elements.item_id">
@@ -2075,20 +2025,26 @@
 		</RECORD>
 		<RECORD id="ddm_elements.reserved_str">
 			<DD_DATA_NAME id="ddm_elements.reserved_str">RESERVED_STR    </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.reserved_str">Reserved For Addon Use        </DD_DESCRIPTION>
+			<DD_DESCRIPTION id="ddm_elements.reserved_str">Reserved For Addon Use</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.reserved_str">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.reserved_str">1</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.reserved_str"> </DD_MASK_TYPE>
 			<DD_SYSTEM_REC id="ddm_elements.reserved_str">Y</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_elements.reserved_str">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.reserved_str">AD </ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.reserved_str">ADB</ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.reserved_str">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.reserved_str">20060119</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.reserved_str">20120326</DD_LSTREV_DATE>
+			<DD_ATTR_BLNK id="ddm_elements.reserved_str">N</DD_ATTR_BLNK>
+			<DD_ATTR_CTLW id="ddm_elements.reserved_str">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.reserved_str">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.reserved_str">X</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.reserved_str">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.reserved_str">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.reserved_str">Reserved For Addon Use</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.reserved_str">Res For Addon Use</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.reserved_str">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.reserved_str">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.reserved_str">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.reserved_str">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.item_type">
 			<DD_DATA_NAME id="ddm_elements.item_type">ITEM_TYPE       </DD_DATA_NAME>

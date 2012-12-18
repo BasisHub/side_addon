@@ -14,13 +14,13 @@
 			<DD_SYSTEM_REC id="ddm_tables.bmm_billmat">N</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_tables.bmm_billmat">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.bmm_billmat">BM </ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.bmm_billmat">11.0</ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.bmm_billmat">12.0      </ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.bmm_billmat">46B14A353DD5EC77FA2FA141B846A6D1</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.bmm_billmat">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.bmm_billmat">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_tables.bmm_billmat">20111129</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.bmm_billmat">20111128</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.bmm_billmat">101004</DD_LSTSYNC_TIME>
+			<DD_LSTSYNC_DATE id="ddm_tables.bmm_billmat">20120327</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.bmm_billmat">140920</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.bmm_billmat">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.bmm_billmat">G</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.bmm_billmat">[+DIR_PGM]adx_dummy.aon</DD_ATTR_PRUN>
@@ -179,7 +179,6 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.bmm_billmat001">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.bmm_billmat001">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.bmm_billmat001">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.bmm_billmat001">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.bmm_billmat001">Firm ID</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.bmm_billmat001">1</DD_ATTR_TIND>
 		</RECORD>
@@ -195,7 +194,6 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.bmm_billmat002">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.bmm_billmat002">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.bmm_billmat002">0</DD_ATTR_CTLH>
-			<DD_ATTR_MAXL id="ddm_table_cols.bmm_billmat002">20</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.bmm_billmat002">Bill of Materials Number</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.bmm_billmat002">2</DD_ATTR_TIND>
 		</RECORD>
@@ -214,7 +212,6 @@
 			<DD_ATTR_CTLH id="ddm_table_cols.bmm_billmat003">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABS id="ddm_table_cols.bmm_billmat003">Matl Seq No</DD_ATTR_LABS>
 			<DD_ATTR_MINL id="ddm_table_cols.bmm_billmat003">1</DD_ATTR_MINL>
-			<DD_ATTR_MAXL id="ddm_table_cols.bmm_billmat003">3</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.bmm_billmat003">Materials Sequence Number</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.bmm_billmat003">3</DD_ATTR_TIND>
 		</RECORD>
@@ -258,7 +255,6 @@
 			<DD_ATTR_CTLH id="ddm_table_cols.bmm_billmat005">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABS id="ddm_table_cols.bmm_billmat005">Op Code</DD_ATTR_LABS>
 			<DD_ATTR_MLAN id="ddm_table_cols.bmm_billmat005">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.bmm_billmat005">12</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.bmm_billmat005">8</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.bmm_billmat006">
@@ -274,7 +270,6 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.bmm_billmat006">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.bmm_billmat006">0</DD_ATTR_CTLH>
 			<DD_ATTR_DFLT id="ddm_table_cols.bmm_billmat006">S</DD_ATTR_DFLT>
-			<DD_ATTR_MAXL id="ddm_table_cols.bmm_billmat006">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.bmm_billmat006">Line Type</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.bmm_billmat006">4</DD_ATTR_TIND>
 		</RECORD>
@@ -290,7 +285,6 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.bmm_billmat007">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_ABLC id="ddm_table_cols.bmm_billmat007">BMM_BILLMAT.LINE_TYPE</DD_ATTR_ABLC>
 			<DD_ATTR_ABLV id="ddm_table_cols.bmm_billmat007">S</DD_ATTR_ABLV>
-			<DD_ATTR_MAXL id="ddm_table_cols.bmm_billmat007">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.bmm_billmat007">Unit of Measure</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.bmm_billmat007">13</DD_ATTR_TIND>
 		</RECORD>
@@ -306,7 +300,6 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.bmm_billmat008">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_ABLC id="ddm_table_cols.bmm_billmat008">BMM_BILLMAT.LINE_TYPE</DD_ATTR_ABLC>
 			<DD_ATTR_ABLV id="ddm_table_cols.bmm_billmat008">M</DD_ATTR_ABLV>
-			<DD_ATTR_MAXL id="ddm_table_cols.bmm_billmat008">60</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.bmm_billmat008">Comments or Message Line</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.bmm_billmat008">7</DD_ATTR_TIND>
 		</RECORD>
@@ -321,7 +314,6 @@
 			<DD_CREATE_DATE id="ddm_table_cols.bmm_billmat009">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.bmm_billmat009">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CPGM id="ddm_table_cols.bmm_billmat009">/apps/aon/;</DD_ATTR_CPGM>
-			<DD_ATTR_MAXL id="ddm_table_cols.bmm_billmat009">8</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.bmm_billmat009">Date Effective - Ctrl-P for Calendar</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.bmm_billmat009">17</DD_ATTR_TIND>
 		</RECORD>
@@ -337,7 +329,6 @@
 			<DD_CREATE_DATE id="ddm_table_cols.bmm_billmat010">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.bmm_billmat010">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CPGM id="ddm_table_cols.bmm_billmat010">/apps/aon/;</DD_ATTR_CPGM>
-			<DD_ATTR_MAXL id="ddm_table_cols.bmm_billmat010">8</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.bmm_billmat010">Obsolete Date - Ctrl-P for Calendar</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.bmm_billmat010">18</DD_ATTR_TIND>
 		</RECORD>
@@ -358,7 +349,6 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.bmm_billmat011">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.bmm_billmat011">0</DD_ATTR_CTLH>
 			<DD_ATTR_DFLT id="ddm_table_cols.bmm_billmat011">1</DD_ATTR_DFLT>
-			<DD_ATTR_MAXL id="ddm_table_cols.bmm_billmat011">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.bmm_billmat011">Quantity Required</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.bmm_billmat011">10</DD_ATTR_TIND>
 		</RECORD>
@@ -376,7 +366,6 @@
 			<DD_ATTR_ABLC id="ddm_table_cols.bmm_billmat012">BMM_BILLMAT.LINE_TYPE</DD_ATTR_ABLC>
 			<DD_ATTR_ABLV id="ddm_table_cols.bmm_billmat012">S</DD_ATTR_ABLV>
 			<DD_ATTR_CPGM id="ddm_table_cols.bmm_billmat012">/apps/aon/;</DD_ATTR_CPGM>
-			<DD_ATTR_MAXL id="ddm_table_cols.bmm_billmat012">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.bmm_billmat012">Alternate Factor</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.bmm_billmat012">11</DD_ATTR_TIND>
 		</RECORD>
@@ -396,7 +385,6 @@
 			<DD_ATTR_CPGM id="ddm_table_cols.bmm_billmat013">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.bmm_billmat013">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.bmm_billmat013">0</DD_ATTR_CTLH>
-			<DD_ATTR_MAXL id="ddm_table_cols.bmm_billmat013">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.bmm_billmat013">Divisor</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.bmm_billmat013">9</DD_ATTR_TIND>
 		</RECORD>
@@ -414,7 +402,6 @@
 			<DD_ATTR_ABLC id="ddm_table_cols.bmm_billmat014">BMM_BILLMAT.LINE_TYPE</DD_ATTR_ABLC>
 			<DD_ATTR_ABLV id="ddm_table_cols.bmm_billmat014">S</DD_ATTR_ABLV>
 			<DD_ATTR_CPGM id="ddm_table_cols.bmm_billmat014">/apps/aon/;</DD_ATTR_CPGM>
-			<DD_ATTR_MAXL id="ddm_table_cols.bmm_billmat014">5</DD_ATTR_MAXL>
 			<DD_ATTR_MINV id="ddm_table_cols.bmm_billmat014">0</DD_ATTR_MINV>
 			<DD_ATTR_MAXV id="ddm_table_cols.bmm_billmat014">100</DD_ATTR_MAXV>
 			<DD_ATTR_PROM id="ddm_table_cols.bmm_billmat014">Scrap Factor Percent</DD_ATTR_PROM>
@@ -611,21 +598,23 @@
 			<DD_DESCRIPTION id="ddm_elements.firm_id">Firm ID</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.firm_id">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.firm_id">2</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.firm_id"> </DD_MASK_TYPE>
 			<DD_SYSTEM_REC id="ddm_elements.firm_id">Y</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_elements.firm_id">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.firm_id">AD </ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.firm_id">ADB</ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.firm_id">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.firm_id">20060425</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.firm_id">20120326</DD_LSTREV_DATE>
+			<DD_ATTR_BLNK id="ddm_elements.firm_id">N</DD_ATTR_BLNK>
+			<DD_ATTR_CTLW id="ddm_elements.firm_id">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.firm_id">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.firm_id">H</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.firm_id">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.firm_id">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABS>
-			<DD_ATTR_MSKI id="ddm_elements.firm_id">00</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO id="ddm_elements.firm_id">00</DD_ATTR_MSKO>
-			<DD_ATTR_PADC id="ddm_elements.firm_id">30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ id="ddm_elements.firm_id">R</DD_ATTR_PADJ>
+			<DD_ATTR_MAXL id="ddm_elements.firm_id">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.firm_id">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.firm_id">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.firm_id">0</DD_ATTR_PREC>
 			<DD_ATTR_PVAL id="ddm_elements.firm_id">stbl("+FIRM_ID")</DD_ATTR_PVAL>
 		</RECORD>
 		<RECORD id="ddm_elements.bill_no">
@@ -785,20 +774,25 @@
 		</RECORD>
 		<RECORD id="ddm_elements.effect_date">
 			<DD_DATA_NAME id="ddm_elements.effect_date">EFFECT_DATE     </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.effect_date">Date Effective                </DD_DESCRIPTION>
+			<DD_DESCRIPTION id="ddm_elements.effect_date">Date Effective</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.effect_date">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.effect_date">8</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.effect_date"> </DD_MASK_TYPE>
 			<DD_SYSTEM_REC id="ddm_elements.effect_date">Y</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_elements.effect_date">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.effect_date">AD </ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.effect_date">ADB</ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.effect_date">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.effect_date">20060119</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.effect_date">20120326</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.effect_date">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.effect_date">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.effect_date">D</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.effect_date">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.effect_date">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.effect_date">Date Effective</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.effect_date">Date Eff</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.effect_date">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.effect_date">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.effect_date">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.effect_date">0</DD_ATTR_PREC>
 			<DD_ATTR_STYP id="ddm_elements.effect_date">1</DD_ATTR_STYP>
 		</RECORD>
 		<RECORD id="ddm_elements.obsolt_date">

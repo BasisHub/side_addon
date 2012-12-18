@@ -14,14 +14,15 @@
 			<DD_SYSTEM_REC id="ddm_tables.bme_order">N</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_tables.bme_order">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.bme_order">BM </ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.bme_order">11.0      </ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.bme_order">12.0      </ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.bme_order">1A347E66EF3C8DE50EF031D0F5EFE7EF</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.bme_order">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.bme_order">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.bme_order">20111128</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.bme_order">20111128</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.bme_order">224450</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.bme_order">/apps/aon/;</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.bme_order">20120130</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.bme_order">20120327</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.bme_order">140920</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.bme_order">C:/Apps/aon/;/apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_DKNM id="ddm_tables.bme_order">BATCH_KEY</DD_ATTR_DKNM>
 			<DD_ATTR_FTYP id="ddm_tables.bme_order">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.bme_order">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.bme_order">Order Production Entry</DD_ATTR_WINT>
@@ -37,9 +38,17 @@
 			<DD_TABLE_ALIAS id="ddm_table_cpro.bme_orderarec">BME_ORDER       </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.bme_orderarec">AREC</DD_ATTR_CPRO>
 		</RECORD>
+		<RECORD id="ddm_table_cpro.bme_orderbend">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.bme_orderbend">BME_ORDER       </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.bme_orderbend">BEND</DD_ATTR_CPRO>
+		</RECORD>
 		<RECORD id="ddm_table_cpro.bme_orderbsho">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.bme_orderbsho">BME_ORDER       </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.bme_orderbsho">BSHO</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_table_cpro.bme_orderbtbl">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.bme_orderbtbl">BME_ORDER       </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.bme_orderbtbl">BTBL</DD_ATTR_CPRO>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_tpls">
@@ -47,7 +56,7 @@
 		<RECORD id="ddm_table_tpls.bme_order">
 			<DD_TABLE_ALIAS id="ddm_table_tpls.bme_order">BME_ORDER       </DD_TABLE_ALIAS>
 			<DD_FILE_NAME id="ddm_table_tpls.bme_order">bme-02</DD_FILE_NAME>
-			<DD_TABLE_TPL id="ddm_table_tpls.bme_order">firm_id:c(2),prod_date:c(8),customer_id:c(6),order_no:c(7),bm_reference:c(7),update_flag:c(1*)</DD_TABLE_TPL>
+			<DD_TABLE_TPL id="ddm_table_tpls.bme_order">firm_id:c(2),prod_date:c(8),customer_id:c(6),order_no:c(7),bm_reference:c(7),update_flag:c(1*),batch_no:c(7)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_keys">
@@ -57,6 +66,12 @@
 			<DD_KEY_NUMBER id="ddm_keys.bme_order00">00</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.bme_order00">Primary</DD_KEY_DESC>
 			<DD_KEY_ID id="ddm_keys.bme_order00">PRIMARY         </DD_KEY_ID>
+		</RECORD>
+		<RECORD id="ddm_keys.bme_order01">
+			<DD_TABLE_ALIAS id="ddm_keys.bme_order01">BME_ORDER       </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_keys.bme_order01">01</DD_KEY_NUMBER>
+			<DD_KEY_DESC id="ddm_keys.bme_order01">Batch Number</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.bme_order01">BATCH_KEY       </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_key_segs">
@@ -97,6 +112,66 @@
 			<DD_SEGMENT_OFF id="ddm_key_segs.bme_order0004">0</DD_SEGMENT_OFF>
 			<DD_SEGMENT_LEN id="ddm_key_segs.bme_order0004">0</DD_SEGMENT_LEN>
 		</RECORD>
+		<RECORD id="ddm_key_segs.bme_order0101">
+			<DD_TABLE_ALIAS id="ddm_key_segs.bme_order0101">BME_ORDER       </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.bme_order0101">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.bme_order0101">01</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.bme_order0101">FIRM_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.bme_order0101">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.bme_order0101">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.bme_order0101">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.bme_order0101">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.bme_order0101">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.bme_order0101">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.bme_order0102">
+			<DD_TABLE_ALIAS id="ddm_key_segs.bme_order0102">BME_ORDER       </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.bme_order0102">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.bme_order0102">02</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.bme_order0102">BATCH_NO</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.bme_order0102">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.bme_order0102">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.bme_order0102">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.bme_order0102">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.bme_order0102">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.bme_order0102">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.bme_order0103">
+			<DD_TABLE_ALIAS id="ddm_key_segs.bme_order0103">BME_ORDER       </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.bme_order0103">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.bme_order0103">03</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.bme_order0103">PROD_DATE</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.bme_order0103">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.bme_order0103">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.bme_order0103">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.bme_order0103">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.bme_order0103">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.bme_order0103">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.bme_order0104">
+			<DD_TABLE_ALIAS id="ddm_key_segs.bme_order0104">BME_ORDER       </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.bme_order0104">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.bme_order0104">04</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.bme_order0104">CUSTOMER_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.bme_order0104">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.bme_order0104">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.bme_order0104">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.bme_order0104">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.bme_order0104">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.bme_order0104">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.bme_order0105">
+			<DD_TABLE_ALIAS id="ddm_key_segs.bme_order0105">BME_ORDER       </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.bme_order0105">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.bme_order0105">05</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.bme_order0105">ORDER_NO</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.bme_order0105">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.bme_order0105">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.bme_order0105">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.bme_order0105">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.bme_order0105">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.bme_order0105">N</DD_SEGMENT_MATH>
+		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_cols">
 		<ID id="ddm_table_cols">DDM_TABLE_COLS</ID>
@@ -110,9 +185,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.bme_order001">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.bme_order001">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.bme_order001">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.bme_order001">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.bme_order001">Firm ID</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.bme_order001">1</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.bme_order001">FIRM_ID</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.bme_order002">
 			<DD_TABLE_ALIAS id="ddm_table_cols.bme_order002">BME_ORDER       </DD_TABLE_ALIAS>
@@ -124,11 +199,11 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.bme_order002">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.bme_order002">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.bme_order002">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.bme_order002">/apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.bme_order002">C:/Apps/aon/;/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_DFLT id="ddm_table_cols.bme_order002">[+SYSTEM_DATE]</DD_ATTR_DFLT>
-			<DD_ATTR_MAXL id="ddm_table_cols.bme_order002">8</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.bme_order002">Production Date</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.bme_order002">2</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.bme_order002">3</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.bme_order002">PROD_DATE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.bme_order003">
 			<DD_TABLE_ALIAS id="ddm_table_cols.bme_order003">BME_ORDER       </DD_TABLE_ALIAS>
@@ -142,9 +217,9 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.bme_order003">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_LABS id="ddm_table_cols.bme_order003">Customer N</DD_ATTR_LABS>
 			<DD_ATTR_MINL id="ddm_table_cols.bme_order003">1</DD_ATTR_MINL>
-			<DD_ATTR_MAXL id="ddm_table_cols.bme_order003">6</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.bme_order003">Customer Number</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.bme_order003">3</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.bme_order003">4</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.bme_order003">CUSTOMER_ID</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.bme_order004">
 			<DD_TABLE_ALIAS id="ddm_table_cols.bme_order004">BME_ORDER       </DD_TABLE_ALIAS>
@@ -156,13 +231,13 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.bme_order004">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.bme_order004">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.bme_order004">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.bme_order004">/apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.bme_order004">C:/Apps/aon/;/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.bme_order004">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.bme_order004">0</DD_ATTR_CTLH>
 			<DD_ATTR_MINL id="ddm_table_cols.bme_order004">1</DD_ATTR_MINL>
-			<DD_ATTR_MAXL id="ddm_table_cols.bme_order004">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.bme_order004">Sales Order Number</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.bme_order004">4</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.bme_order004">5</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.bme_order004">ORDER_NO_LK</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.bme_order005">
 			<DD_TABLE_ALIAS id="ddm_table_cols.bme_order005">BME_ORDER       </DD_TABLE_ALIAS>
@@ -176,9 +251,9 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.bme_order005">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.bme_order005">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.bme_order005">0</DD_ATTR_CTLH>
-			<DD_ATTR_MAXL id="ddm_table_cols.bme_order005">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.bme_order005">Reference</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.bme_order005">6</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.bme_order005">7</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.bme_order005">BM_REFERENCE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.bme_order006">
 			<DD_TABLE_ALIAS id="ddm_table_cols.bme_order006">BME_ORDER       </DD_TABLE_ALIAS>
@@ -192,9 +267,29 @@
 			<DD_CREATE_DATE id="ddm_table_cols.bme_order006">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.bme_order006">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_DFLT id="ddm_table_cols.bme_order006">Y</DD_ATTR_DFLT>
-			<DD_ATTR_MAXL id="ddm_table_cols.bme_order006">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.bme_order006">Y=Add Finished Item To Inventory,  N=Relieve Components Only</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.bme_order006">7</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.bme_order006">8</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.bme_order006">UPDATE_FLAG</SQL_COLUMN_NAME>
+		</RECORD>
+		<RECORD id="ddm_table_cols.bme_order007">
+			<DD_TABLE_ALIAS id="ddm_table_cols.bme_order007">BME_ORDER       </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.bme_order007">007</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.bme_order007">BATCH_NO        </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.bme_order007">BATCH_NO        </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.bme_order007">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.bme_order007">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.bme_order007">N</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.bme_order007">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.bme_order007">20111222</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.bme_order007">20111222</DD_LSTREV_DATE>
+			<DD_ATTR_COLW id="ddm_table_cols.bme_order007">0</DD_ATTR_COLW>
+			<DD_ATTR_CTLX id="ddm_table_cols.bme_order007">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_cols.bme_order007">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_cols.bme_order007">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.bme_order007">0</DD_ATTR_CTLH>
+			<DD_ATTR_MLAN id="ddm_table_cols.bme_order007">N</DD_ATTR_MLAN>
+			<DD_ATTR_MAXL id="ddm_table_cols.bme_order007">0</DD_ATTR_MAXL>
+			<DD_ATTR_TIND id="ddm_table_cols.bme_order007">2</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_disp">
@@ -208,9 +303,8 @@
 			<DD_ATTR_LABS id="ddm_table_disp.bme_order001">Order Date</DD_ATTR_LABS>
 			<DD_ATTR_CTLX id="ddm_table_disp.bme_order001">0</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_disp.bme_order001">0</DD_ATTR_CTLY>
-			<DD_ATTR_CTLW id="ddm_table_disp.bme_order001">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_disp.bme_order001">0</DD_ATTR_CTLH>
-			<DD_ATTR_TIND id="ddm_table_disp.bme_order001">5</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_disp.bme_order001">6</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_cpro">
@@ -256,21 +350,23 @@
 			<DD_DESCRIPTION id="ddm_elements.firm_id">Firm ID</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.firm_id">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.firm_id">2</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.firm_id"> </DD_MASK_TYPE>
 			<DD_SYSTEM_REC id="ddm_elements.firm_id">Y</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_elements.firm_id">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.firm_id">AD </ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.firm_id">ADB</ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.firm_id">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.firm_id">20060425</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.firm_id">20120326</DD_LSTREV_DATE>
+			<DD_ATTR_BLNK id="ddm_elements.firm_id">N</DD_ATTR_BLNK>
+			<DD_ATTR_CTLW id="ddm_elements.firm_id">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.firm_id">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.firm_id">H</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.firm_id">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.firm_id">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABS>
-			<DD_ATTR_MSKI id="ddm_elements.firm_id">00</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO id="ddm_elements.firm_id">00</DD_ATTR_MSKO>
-			<DD_ATTR_PADC id="ddm_elements.firm_id">30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ id="ddm_elements.firm_id">R</DD_ATTR_PADJ>
+			<DD_ATTR_MAXL id="ddm_elements.firm_id">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.firm_id">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.firm_id">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.firm_id">0</DD_ATTR_PREC>
 			<DD_ATTR_PVAL id="ddm_elements.firm_id">stbl("+FIRM_ID")</DD_ATTR_PVAL>
 		</RECORD>
 		<RECORD id="ddm_elements.prod_date">
@@ -378,6 +474,33 @@
 			<DD_ATTR_DEXP id="ddm_elements.update_flag">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.update_flag">Update Flag</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.update_flag">Update Flag</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.batch_no">
+			<DD_DATA_NAME id="ddm_elements.batch_no">BATCH_NO        </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.batch_no">Batch Entry Control Number</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.batch_no">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.batch_no">7</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.batch_no"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.batch_no">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.batch_no">AD </ASC_PROD_ID>
+			<LOCALIZATION_EX id="ddm_elements.batch_no">N</LOCALIZATION_EX>
+			<DD_CREATE_DATE id="ddm_elements.batch_no">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.batch_no">20090714</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.batch_no">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.batch_no">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.batch_no">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.batch_no">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.batch_no">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.batch_no">Batch Entry Control Number</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.batch_no">Batch Entry No</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.batch_no">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.batch_no">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.batch_no">0</DD_ATTR_MINL>
+			<DD_ATTR_MSKI id="ddm_elements.batch_no">0000000</DD_ATTR_MSKI>
+			<DD_ATTR_MSKO id="ddm_elements.batch_no">0000000</DD_ATTR_MSKO>
+			<DD_ATTR_PADC id="ddm_elements.batch_no">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.batch_no">R</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.batch_no">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.code_desc">
 			<DD_DATA_NAME id="ddm_elements.code_desc">CODE_DESC       </DD_DATA_NAME>

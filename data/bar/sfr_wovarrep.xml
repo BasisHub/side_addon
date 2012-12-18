@@ -15,13 +15,13 @@
 			<RESTRICT_AUTOADD id="ddm_tables.sfr_wovarrep">Y</RESTRICT_AUTOADD>
 			<ASC_COMP_ID id="ddm_tables.sfr_wovarrep">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.sfr_wovarrep">SF </ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.sfr_wovarrep">11.0      </ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.sfr_wovarrep">12.0      </ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.sfr_wovarrep">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.sfr_wovarrep">20080326</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.sfr_wovarrep">20100610</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.sfr_wovarrep">20110425</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.sfr_wovarrep">120250</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.sfr_wovarrep">/apps/aon/;</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.sfr_wovarrep">20120305</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.sfr_wovarrep">20120327</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.sfr_wovarrep">140930</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.sfr_wovarrep">C:/Dev_aon/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.sfr_wovarrep">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.sfr_wovarrep">[+DIR_PGM]sfr_wovarrep.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.sfr_wovarrep">Work Order Variance Report</DD_ATTR_WINT>
@@ -29,6 +29,14 @@
 	</ALIAS>
 	<ALIAS id="ddm_table_cpro">
 		<ID id="ddm_table_cpro">DDM_TABLE_CPRO</ID>
+		<RECORD id="ddm_table_cpro.sfr_wovarreparec">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.sfr_wovarreparec">SFR_WOVARREP    </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.sfr_wovarreparec">AREC</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_table_cpro.sfr_wovarrepasva">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.sfr_wovarrepasva">SFR_WOVARREP    </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.sfr_wovarrepasva">ASVA</DD_ATTR_CPRO>
+		</RECORD>
 		<RECORD id="ddm_table_cpro.sfr_wovarrepbsho">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.sfr_wovarrepbsho">SFR_WOVARREP    </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.sfr_wovarrepbsho">BSHO</DD_ATTR_CPRO>
@@ -54,13 +62,12 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.sfr_wovarrep001">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.sfr_wovarrep001">20080326</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfr_wovarrep001">20080326</DD_LSTREV_DATE>
-			<DD_ATTR_CTLX id="ddm_table_cols.sfr_wovarrep001">0</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY id="ddm_table_cols.sfr_wovarrep001">0</DD_ATTR_CTLY>
+			<DD_ATTR_CPGM id="ddm_table_cols.sfr_wovarrep001">C:/Dev_aon/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CTLX id="ddm_table_cols.sfr_wovarrep001">+4</DD_ATTR_CTLX>
 			<DD_ATTR_CTLW id="ddm_table_cols.sfr_wovarrep001">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.sfr_wovarrep001">0</DD_ATTR_CTLH>
 			<DD_ATTR_DFLT id="ddm_table_cols.sfr_wovarrep001">W</DD_ATTR_DFLT>
 			<DD_ATTR_MLAN id="ddm_table_cols.sfr_wovarrep001">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.sfr_wovarrep001">1</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.sfr_wovarrep001">1</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.sfr_wovarrep002">
@@ -76,13 +83,11 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.sfr_wovarrep002">20080326</DD_LSTREV_DATE>
 			<DD_ATTR_ABLC id="ddm_table_cols.sfr_wovarrep002">SFR_WOVARREP.REPORT_SEQ</DD_ATTR_ABLC>
 			<DD_ATTR_ABLV id="ddm_table_cols.sfr_wovarrep002">B</DD_ATTR_ABLV>
-			<DD_ATTR_CTLX id="ddm_table_cols.sfr_wovarrep002">0</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY id="ddm_table_cols.sfr_wovarrep002">0</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.sfr_wovarrep002">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.sfr_wovarrep002">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.sfr_wovarrep002">N</DD_ATTR_MLAN>
 			<DD_ATTR_MAXL id="ddm_table_cols.sfr_wovarrep002">2</DD_ATTR_MAXL>
-			<DD_ATTR_TIND id="ddm_table_cols.sfr_wovarrep002">2</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.sfr_wovarrep002">4</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.sfr_wovarrep003">
 			<DD_TABLE_ALIAS id="ddm_table_cols.sfr_wovarrep003">SFR_WOVARREP    </DD_TABLE_ALIAS>
@@ -97,13 +102,10 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.sfr_wovarrep003">20080326</DD_LSTREV_DATE>
 			<DD_ATTR_ABLC id="ddm_table_cols.sfr_wovarrep003">SFR_WOVARREP.REPORT_SEQ</DD_ATTR_ABLC>
 			<DD_ATTR_ABLV id="ddm_table_cols.sfr_wovarrep003">W</DD_ATTR_ABLV>
-			<DD_ATTR_CTLX id="ddm_table_cols.sfr_wovarrep003">0</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY id="ddm_table_cols.sfr_wovarrep003">0</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.sfr_wovarrep003">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.sfr_wovarrep003">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.sfr_wovarrep003">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.sfr_wovarrep003">7</DD_ATTR_MAXL>
-			<DD_ATTR_TIND id="ddm_table_cols.sfr_wovarrep003">3</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.sfr_wovarrep003">2</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.sfr_wovarrep004">
 			<DD_TABLE_ALIAS id="ddm_table_cols.sfr_wovarrep004">SFR_WOVARREP    </DD_TABLE_ALIAS>
@@ -118,13 +120,10 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.sfr_wovarrep004">20080326</DD_LSTREV_DATE>
 			<DD_ATTR_ABLC id="ddm_table_cols.sfr_wovarrep004">SFR_WOVARREP.REPORT_SEQ</DD_ATTR_ABLC>
 			<DD_ATTR_ABLV id="ddm_table_cols.sfr_wovarrep004">T</DD_ATTR_ABLV>
-			<DD_ATTR_CTLX id="ddm_table_cols.sfr_wovarrep004">0</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY id="ddm_table_cols.sfr_wovarrep004">0</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.sfr_wovarrep004">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.sfr_wovarrep004">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.sfr_wovarrep004">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.sfr_wovarrep004">2</DD_ATTR_MAXL>
-			<DD_ATTR_TIND id="ddm_table_cols.sfr_wovarrep004">4</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.sfr_wovarrep004">3</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.sfr_wovarrep005">
 			<DD_TABLE_ALIAS id="ddm_table_cols.sfr_wovarrep005">SFR_WOVARREP    </DD_TABLE_ALIAS>
@@ -139,12 +138,10 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.sfr_wovarrep005">20080326</DD_LSTREV_DATE>
 			<DD_ATTR_ABLC id="ddm_table_cols.sfr_wovarrep005">SFR_WOVARREP.REPORT_SEQ</DD_ATTR_ABLC>
 			<DD_ATTR_ABLV id="ddm_table_cols.sfr_wovarrep005">B</DD_ATTR_ABLV>
-			<DD_ATTR_CTLX id="ddm_table_cols.sfr_wovarrep005">0</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY id="ddm_table_cols.sfr_wovarrep005">0</DD_ATTR_CTLY>
-			<DD_ATTR_CTLW id="ddm_table_cols.sfr_wovarrep005">0</DD_ATTR_CTLW>
+			<DD_ATTR_CPGM id="ddm_table_cols.sfr_wovarrep005">C:/Dev_aon/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CTLW id="ddm_table_cols.sfr_wovarrep005">160</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.sfr_wovarrep005">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.sfr_wovarrep005">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.sfr_wovarrep005">20</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.sfr_wovarrep005">5</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.sfr_wovarrep006">
@@ -160,12 +157,9 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.sfr_wovarrep006">20080326</DD_LSTREV_DATE>
 			<DD_ATTR_ABLC id="ddm_table_cols.sfr_wovarrep006">SFR_WOVARREP.REPORT_SEQ</DD_ATTR_ABLC>
 			<DD_ATTR_ABLV id="ddm_table_cols.sfr_wovarrep006">C</DD_ATTR_ABLV>
-			<DD_ATTR_CTLX id="ddm_table_cols.sfr_wovarrep006">0</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY id="ddm_table_cols.sfr_wovarrep006">0</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.sfr_wovarrep006">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.sfr_wovarrep006">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.sfr_wovarrep006">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.sfr_wovarrep006">6</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.sfr_wovarrep006">6</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.sfr_wovarrep007">
@@ -179,13 +173,11 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.sfr_wovarrep007">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.sfr_wovarrep007">20080326</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfr_wovarrep007">20080326</DD_LSTREV_DATE>
-			<DD_ATTR_CTLX id="ddm_table_cols.sfr_wovarrep007">0</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY id="ddm_table_cols.sfr_wovarrep007">0</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.sfr_wovarrep007">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.sfr_wovarrep007">0</DD_ATTR_CTLH>
+			<DD_ATTR_DFLT id="ddm_table_cols.sfr_wovarrep007">[%PDATE]</DD_ATTR_DFLT>
 			<DD_ATTR_LABL id="ddm_table_cols.sfr_wovarrep007">As of Date</DD_ATTR_LABL>
 			<DD_ATTR_MLAN id="ddm_table_cols.sfr_wovarrep007">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.sfr_wovarrep007">8</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.sfr_wovarrep007">7</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.sfr_wovarrep008">
@@ -199,13 +191,10 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.sfr_wovarrep008">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.sfr_wovarrep008">20080326</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfr_wovarrep008">20080326</DD_LSTREV_DATE>
-			<DD_ATTR_CTLX id="ddm_table_cols.sfr_wovarrep008">0</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY id="ddm_table_cols.sfr_wovarrep008">0</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.sfr_wovarrep008">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.sfr_wovarrep008">0</DD_ATTR_CTLH>
 			<DD_ATTR_DFLT id="ddm_table_cols.sfr_wovarrep008">Y</DD_ATTR_DFLT>
 			<DD_ATTR_MLAN id="ddm_table_cols.sfr_wovarrep008">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.sfr_wovarrep008">1</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.sfr_wovarrep008">8</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.sfr_wovarrep009">
@@ -219,13 +208,10 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.sfr_wovarrep009">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.sfr_wovarrep009">20080326</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfr_wovarrep009">20080326</DD_LSTREV_DATE>
-			<DD_ATTR_CTLX id="ddm_table_cols.sfr_wovarrep009">0</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY id="ddm_table_cols.sfr_wovarrep009">0</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.sfr_wovarrep009">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.sfr_wovarrep009">0</DD_ATTR_CTLH>
 			<DD_ATTR_DFLT id="ddm_table_cols.sfr_wovarrep009">Y</DD_ATTR_DFLT>
 			<DD_ATTR_MLAN id="ddm_table_cols.sfr_wovarrep009">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.sfr_wovarrep009">1</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.sfr_wovarrep009">9</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.sfr_wovarrep010">
@@ -239,13 +225,10 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.sfr_wovarrep010">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.sfr_wovarrep010">20080326</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfr_wovarrep010">20080326</DD_LSTREV_DATE>
-			<DD_ATTR_CTLX id="ddm_table_cols.sfr_wovarrep010">0</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY id="ddm_table_cols.sfr_wovarrep010">0</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.sfr_wovarrep010">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.sfr_wovarrep010">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABL id="ddm_table_cols.sfr_wovarrep010">Minimum Variance %</DD_ATTR_LABL>
 			<DD_ATTR_MLAN id="ddm_table_cols.sfr_wovarrep010">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.sfr_wovarrep010">7</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.sfr_wovarrep010">10</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.sfr_wovarrep011">
@@ -259,14 +242,47 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.sfr_wovarrep011">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.sfr_wovarrep011">20080326</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfr_wovarrep011">20080326</DD_LSTREV_DATE>
-			<DD_ATTR_CTLX id="ddm_table_cols.sfr_wovarrep011">0</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY id="ddm_table_cols.sfr_wovarrep011">0</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.sfr_wovarrep011">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.sfr_wovarrep011">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABL id="ddm_table_cols.sfr_wovarrep011">Include Cost Overrun Only</DD_ATTR_LABL>
 			<DD_ATTR_MLAN id="ddm_table_cols.sfr_wovarrep011">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.sfr_wovarrep011">1</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.sfr_wovarrep011">11</DD_ATTR_TIND>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_disp">
+		<ID id="ddm_table_disp">DDM_TABLE_DISP</ID>
+		<RECORD id="ddm_table_disp.sfr_wovarrep001">
+			<DD_TABLE_ALIAS id="ddm_table_disp.sfr_wovarrep001">SFR_WOVARREP    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.sfr_wovarrep001">001</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.sfr_wovarrep001">ITEM_DESC       </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.sfr_wovarrep001">BEG_DESC        </DD_CTRL_NAME>
+			<DD_ATTR_CTLX id="ddm_table_disp.sfr_wovarrep001">+16</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_disp.sfr_wovarrep001">-9</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_disp.sfr_wovarrep001">200</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.sfr_wovarrep001">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.sfr_wovarrep001">12</DD_ATTR_TIND>
+		</RECORD>
+		<RECORD id="ddm_table_disp.sfr_wovarrep002">
+			<DD_TABLE_ALIAS id="ddm_table_disp.sfr_wovarrep002">SFR_WOVARREP    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_disp.sfr_wovarrep002">002</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_disp.sfr_wovarrep002">ITEM_DESC       </DD_DATA_NAME>
+			<DD_CTRL_NAME id="ddm_table_disp.sfr_wovarrep002">END_DESC        </DD_CTRL_NAME>
+			<DD_ATTR_CTLW id="ddm_table_disp.sfr_wovarrep002">200</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_disp.sfr_wovarrep002">0</DD_ATTR_CTLH>
+			<DD_ATTR_TIND id="ddm_table_disp.sfr_wovarrep002">13</DD_ATTR_TIND>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_column_cpro">
+		<ID id="ddm_column_cpro">DDM_COLUMN_CPRO</ID>
+		<RECORD id="ddm_column_cpro.sfr_wovarrepreport_seqaval">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.sfr_wovarrepreport_seqaval">SFR_WOVARREP    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.sfr_wovarrepreport_seqaval">REPORT_SEQ      </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.sfr_wovarrepreport_seqaval">AVAL</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_column_cpro.sfr_wovarrepbill_noaval">
+			<DD_TABLE_ALIAS id="ddm_column_cpro.sfr_wovarrepbill_noaval">SFR_WOVARREP    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_cpro.sfr_wovarrepbill_noaval">BILL_NO         </DD_DVAR_NAME>
+			<DD_ATTR_CPRO id="ddm_column_cpro.sfr_wovarrepbill_noaval">AVAL</DD_ATTR_CPRO>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_ldat">
@@ -353,6 +369,16 @@
 			<DD_DVAR_NAME id="ddm_column_opts.sfr_wovarrepcustomer_idu">CUSTOMER_ID     </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.sfr_wovarrepcustomer_idu">u</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.sfr_wovarrepbeg_descc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_wovarrepbeg_descc">SFR_WOVARREP    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfr_wovarrepbeg_descc">BEG_DESC        </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfr_wovarrepbeg_descc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sfr_wovarrepend_descc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfr_wovarrepend_descc">SFR_WOVARREP    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfr_wovarrepend_descc">END_DESC        </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfr_wovarrepend_descc">C</DD_ATTR_OPTS>
+		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">
 		<ID id="ddm_elements">DDM_ELEMENTS</ID>
@@ -401,39 +427,58 @@
 		</RECORD>
 		<RECORD id="ddm_elements.wo_no">
 			<DD_DATA_NAME id="ddm_elements.wo_no">WO_NO           </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.wo_no">Work Order Number             </DD_DESCRIPTION>
+			<DD_DESCRIPTION id="ddm_elements.wo_no">Work Order Number</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.wo_no">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.wo_no">7</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.wo_no"> </DD_MASK_TYPE>
 			<ASC_COMP_ID id="ddm_elements.wo_no">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_elements.wo_no">AD </ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.wo_no">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.wo_no">20060119</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.wo_no">20111214</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.wo_no">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.wo_no">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.wo_no">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOL id="ddm_elements.wo_no">ITEM_ID</DD_ATTR_DCOL>
 			<DD_ATTR_DCOM id="ddm_elements.wo_no">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.wo_no">            </DD_ATTR_DEXP>
+			<DD_ATTR_DKEY id="ddm_elements.wo_no">[+FIRM_ID]+"  "+@</DD_ATTR_DKEY>
+			<DD_ATTR_DTAB id="ddm_elements.wo_no">SFE_WOMASTR     </DD_ATTR_DTAB>
 			<DD_ATTR_LABL id="ddm_elements.wo_no">Work Order Number</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.wo_no">WO No</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.wo_no">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.wo_no">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.wo_no">0</DD_ATTR_MINL>
 			<DD_ATTR_MSKI id="ddm_elements.wo_no">0000000</DD_ATTR_MSKI>
 			<DD_ATTR_MSKO id="ddm_elements.wo_no">0000000</DD_ATTR_MSKO>
 			<DD_ATTR_PADC id="ddm_elements.wo_no">30</DD_ATTR_PADC>
 			<DD_ATTR_PADJ id="ddm_elements.wo_no">R</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.wo_no">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.wo_type">
 			<DD_DATA_NAME id="ddm_elements.wo_type">WO_TYPE         </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.wo_type">Work Order Type               </DD_DESCRIPTION>
+			<DD_DESCRIPTION id="ddm_elements.wo_type">Work Order Type</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.wo_type">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.wo_type">2</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.wo_type"> </DD_MASK_TYPE>
 			<ASC_COMP_ID id="ddm_elements.wo_type">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_elements.wo_type">AD </ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.wo_type">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.wo_type">20060119</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.wo_type">20120221</DD_LSTREV_DATE>
+			<DD_AUTO_COMP id="ddm_elements.wo_type">N</DD_AUTO_COMP>
+			<DD_ATTR_CTLW id="ddm_elements.wo_type">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.wo_type">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.wo_type">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOL id="ddm_elements.wo_type">CODE_DESC</DD_ATTR_DCOL>
 			<DD_ATTR_DCOM id="ddm_elements.wo_type">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.wo_type">            </DD_ATTR_DEXP>
+			<DD_ATTR_DKNM id="ddm_elements.wo_type">PRIMARY         </DD_ATTR_DKNM>
+			<DD_ATTR_DKEY id="ddm_elements.wo_type">[+FIRM_ID]+"A"+@</DD_ATTR_DKEY>
+			<DD_ATTR_DTAB id="ddm_elements.wo_type">SFC_WOTYPECD    </DD_ATTR_DTAB>
 			<DD_ATTR_LABL id="ddm_elements.wo_type">Work Order Type</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.wo_type">WO Type</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.wo_type">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.wo_type">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.wo_type">0</DD_ATTR_MINL>
+			<DD_ATTR_MSKI id="ddm_elements.wo_type">UU</DD_ATTR_MSKI>
+			<DD_ATTR_PREC id="ddm_elements.wo_type">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.rpt_bill_no">
 			<DD_DATA_NAME id="ddm_elements.rpt_bill_no">RPT_BILL_NO     </DD_DATA_NAME>
@@ -572,6 +617,28 @@
 			<DD_ATTR_CTYP id="ddm_elements.reprint">C</DD_ATTR_CTYP>
 			<DD_ATTR_LABL id="ddm_elements.reprint">Reprint?</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.reprint">Reprint?</DD_ATTR_LABS>
+		</RECORD>
+		<RECORD id="ddm_elements.item_desc">
+			<DD_DATA_NAME id="ddm_elements.item_desc">ITEM_DESC       </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.item_desc">Inventory Item Description</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.item_desc">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.item_desc">60</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.item_desc"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.item_desc">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.item_desc">IV </ASC_PROD_ID>
+			<DD_CREATE_DATE id="ddm_elements.item_desc">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.item_desc">20061030</DD_LSTREV_DATE>
+			<DD_ATTR_CTYP id="ddm_elements.item_desc">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.item_desc">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.item_desc">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.item_desc">Inventory Item Description</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.item_desc">IV Item Desc</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.item_desc">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.item_desc">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.item_desc">0</DD_ATTR_MINL>
+			<DD_ATTR_PADC id="ddm_elements.item_desc">20</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.item_desc">L</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.item_desc">0</DD_ATTR_PREC>
 		</RECORD>
 	</ALIAS>
 </SFR_WOVARREP>

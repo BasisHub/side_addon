@@ -17,13 +17,13 @@
 			<RESTRICT_AUTOADD id="ddm_tables.adm_auditcontrol">Y</RESTRICT_AUTOADD>
 			<ASC_COMP_ID id="ddm_tables.adm_auditcontrol">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.adm_auditcontrol">GL </ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.adm_auditcontrol">11.0      </ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.adm_auditcontrol">12.0      </ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.adm_auditcontrol">66FED3E782AF15A92D54EE5AD69BD3ED</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.adm_auditcontrol">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.adm_auditcontrol">20070306</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.adm_auditcontrol">20120124</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.adm_auditcontrol">20111128</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.adm_auditcontrol">101004</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.adm_auditcontrol">20120326</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.adm_auditcontrol">20120327</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.adm_auditcontrol">140918</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.adm_auditcontrol">C:/Apps/aon/;/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.adm_auditcontrol">T</DD_ATTR_FTYP>
 			<DD_ATTR_IKEY id="ddm_tables.adm_auditcontrol">N</DD_ATTR_IKEY>
@@ -163,20 +163,20 @@
 			<DD_DATA_NAME id="ddm_table_cols.adm_auditcontrol001">FIRM_ID         </DD_DATA_NAME>
 			<DD_DVAR_NAME id="ddm_table_cols.adm_auditcontrol001">FIRM_ID         </DD_DVAR_NAME>
 			<DD_FIELD_DELIM id="ddm_table_cols.adm_auditcontrol001">N</DD_FIELD_DELIM>
-			<DD_ATTR_MAXL id="ddm_table_cols.adm_auditcontrol001">2</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.adm_auditcontrol001">1</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.adm_auditcontrol001">FIRM_ID</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.adm_auditcontrol002">
 			<DD_TABLE_ALIAS id="ddm_table_cols.adm_auditcontrol002">ADM_AUDITCONTROL</DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_cols.adm_auditcontrol002">002</DD_SEQUENCE>
-			<DD_DATA_NAME id="ddm_table_cols.adm_auditcontrol002">PROCESS_ID      </DD_DATA_NAME>
+			<DD_DATA_NAME id="ddm_table_cols.adm_auditcontrol002">PROC_ID         </DD_DATA_NAME>
 			<DD_DVAR_NAME id="ddm_table_cols.adm_auditcontrol002">PROCESS_ID      </DD_DVAR_NAME>
 			<DD_FIELD_DELIM id="ddm_table_cols.adm_auditcontrol002">N</DD_FIELD_DELIM>
 			<DD_ATTR_CTLX id="ddm_table_cols.adm_auditcontrol002">+1</DD_ATTR_CTLX>
 			<DD_ATTR_CTLW id="ddm_table_cols.adm_auditcontrol002">160</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.adm_auditcontrol002">0</DD_ATTR_CTLH>
-			<DD_ATTR_MAXL id="ddm_table_cols.adm_auditcontrol002">16</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.adm_auditcontrol002">2</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.adm_auditcontrol002">PROC_ID</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.adm_auditcontrol003">
 			<DD_TABLE_ALIAS id="ddm_table_cols.adm_auditcontrol003">ADM_AUDITCONTROL</DD_TABLE_ALIAS>
@@ -187,8 +187,8 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.adm_auditcontrol003">0A</DD_DELIM_CHAR>
 			<DD_ATTR_CTLW id="ddm_table_cols.adm_auditcontrol003">35</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.adm_auditcontrol003">0</DD_ATTR_CTLH>
-			<DD_ATTR_MAXL id="ddm_table_cols.adm_auditcontrol003">3</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.adm_auditcontrol003">3</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.adm_auditcontrol003">SEQ_NUM</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.adm_auditcontrol004">
 			<DD_TABLE_ALIAS id="ddm_table_cols.adm_auditcontrol004">ADM_AUDITCONTROL</DD_TABLE_ALIAS>
@@ -199,8 +199,8 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.adm_auditcontrol004">N</DD_FIELD_DELIM>
 			<DD_ATTR_CTLW id="ddm_table_cols.adm_auditcontrol004">160</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.adm_auditcontrol004">0</DD_ATTR_CTLH>
-			<DD_ATTR_MAXL id="ddm_table_cols.adm_auditcontrol004">16</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.adm_auditcontrol004">4</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.adm_auditcontrol004">PROCESS_ALIAS</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.adm_auditcontrol005">
 			<DD_TABLE_ALIAS id="ddm_table_cols.adm_auditcontrol005">ADM_AUDITCONTROL</DD_TABLE_ALIAS>
@@ -210,8 +210,8 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.adm_auditcontrol005">N</DD_FIELD_DELIM>
 			<DD_ATTR_CTLW id="ddm_table_cols.adm_auditcontrol005">192</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.adm_auditcontrol005">0</DD_ATTR_CTLH>
-			<DD_ATTR_MAXL id="ddm_table_cols.adm_auditcontrol005">24</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.adm_auditcontrol005">5</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.adm_auditcontrol005">PROCESS_PROGRAM</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.adm_auditcontrol006">
 			<DD_TABLE_ALIAS id="ddm_table_cols.adm_auditcontrol006">ADM_AUDITCONTROL</DD_TABLE_ALIAS>
@@ -223,8 +223,8 @@
 			<DD_ATTR_CTLH id="ddm_table_cols.adm_auditcontrol006">0</DD_ATTR_CTLH>
 			<DD_ATTR_GHDR id="ddm_table_cols.adm_auditcontrol006">Details</DD_ATTR_GHDR>
 			<DD_ATTR_LABL id="ddm_table_cols.adm_auditcontrol006">Journal ID</DD_ATTR_LABL>
-			<DD_ATTR_MAXL id="ddm_table_cols.adm_auditcontrol006">2</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.adm_auditcontrol006">6</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.adm_auditcontrol006">JOURNAL_ID</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.adm_auditcontrol007">
 			<DD_TABLE_ALIAS id="ddm_table_cols.adm_auditcontrol007">ADM_AUDITCONTROL</DD_TABLE_ALIAS>
@@ -235,8 +235,8 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.adm_auditcontrol007">70</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.adm_auditcontrol007">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABL id="ddm_table_cols.adm_auditcontrol007">Last Used</DD_ATTR_LABL>
-			<DD_ATTR_MAXL id="ddm_table_cols.adm_auditcontrol007">8</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.adm_auditcontrol007">14</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.adm_auditcontrol007">LSTUSE_DATE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.adm_auditcontrol008">
 			<DD_TABLE_ALIAS id="ddm_table_cols.adm_auditcontrol008">ADM_AUDITCONTROL</DD_TABLE_ALIAS>
@@ -248,8 +248,8 @@
 			<DD_ATTR_CTLY id="ddm_table_cols.adm_auditcontrol008">-1</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.adm_auditcontrol008">40</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.adm_auditcontrol008">0</DD_ATTR_CTLH>
-			<DD_ATTR_MAXL id="ddm_table_cols.adm_auditcontrol008">4</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.adm_auditcontrol008">15</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.adm_auditcontrol008">LSTUSE_TIME</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.adm_auditcontrol009">
 			<DD_TABLE_ALIAS id="ddm_table_cols.adm_auditcontrol009">ADM_AUDITCONTROL</DD_TABLE_ALIAS>
@@ -260,8 +260,8 @@
 			<DD_ATTR_CTLX id="ddm_table_cols.adm_auditcontrol009">-8</DD_ATTR_CTLX>
 			<DD_ATTR_CTLW id="ddm_table_cols.adm_auditcontrol009">70</DD_ATTR_CTLW>
 			<DD_ATTR_LABL id="ddm_table_cols.adm_auditcontrol009">Last Updated</DD_ATTR_LABL>
-			<DD_ATTR_MAXL id="ddm_table_cols.adm_auditcontrol009">8</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.adm_auditcontrol009">16</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.adm_auditcontrol009">LSTUPD_DATE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.adm_auditcontrol010">
 			<DD_TABLE_ALIAS id="ddm_table_cols.adm_auditcontrol010">ADM_AUDITCONTROL</DD_TABLE_ALIAS>
@@ -272,8 +272,8 @@
 			<DD_ATTR_CTLX id="ddm_table_cols.adm_auditcontrol010">+8</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_cols.adm_auditcontrol010">-1</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.adm_auditcontrol010">40</DD_ATTR_CTLW>
-			<DD_ATTR_MAXL id="ddm_table_cols.adm_auditcontrol010">4</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.adm_auditcontrol010">17</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.adm_auditcontrol010">LSTUPD_TIME</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.adm_auditcontrol011">
 			<DD_TABLE_ALIAS id="ddm_table_cols.adm_auditcontrol011">ADM_AUDITCONTROL</DD_TABLE_ALIAS>
@@ -285,8 +285,8 @@
 			<DD_ATTR_ABLV id="ddm_table_cols.adm_auditcontrol011">Y</DD_ATTR_ABLV>
 			<DD_ATTR_CTLW id="ddm_table_cols.adm_auditcontrol011">48</DD_ATTR_CTLW>
 			<DD_ATTR_LABL id="ddm_table_cols.adm_auditcontrol011">Summary File Name</DD_ATTR_LABL>
-			<DD_ATTR_MAXL id="ddm_table_cols.adm_auditcontrol011">6</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.adm_auditcontrol011">10</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.adm_auditcontrol011">FILE_NAME</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.adm_auditcontrol012">
 			<DD_TABLE_ALIAS id="ddm_table_cols.adm_auditcontrol012">ADM_AUDITCONTROL</DD_TABLE_ALIAS>
@@ -296,8 +296,8 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.adm_auditcontrol012">N</DD_FIELD_DELIM>
 			<DD_ATTR_CTLW id="ddm_table_cols.adm_auditcontrol012">30</DD_ATTR_CTLW>
 			<DD_ATTR_LABL id="ddm_table_cols.adm_auditcontrol012">Use Audit Numbers?</DD_ATTR_LABL>
-			<DD_ATTR_MAXL id="ddm_table_cols.adm_auditcontrol012">1</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.adm_auditcontrol012">7</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.adm_auditcontrol012">GL_AUDIT</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.adm_auditcontrol013">
 			<DD_TABLE_ALIAS id="ddm_table_cols.adm_auditcontrol013">ADM_AUDITCONTROL</DD_TABLE_ALIAS>
@@ -306,8 +306,8 @@
 			<DD_DVAR_NAME id="ddm_table_cols.adm_auditcontrol013">GL_WORK_FILE    </DD_DVAR_NAME>
 			<DD_FIELD_DELIM id="ddm_table_cols.adm_auditcontrol013">N</DD_FIELD_DELIM>
 			<DD_ATTR_CTLW id="ddm_table_cols.adm_auditcontrol013">30</DD_ATTR_CTLW>
-			<DD_ATTR_MAXL id="ddm_table_cols.adm_auditcontrol013">1</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.adm_auditcontrol013">9</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.adm_auditcontrol013">GL_WORK_FILE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.adm_auditcontrol014">
 			<DD_TABLE_ALIAS id="ddm_table_cols.adm_auditcontrol014">ADM_AUDITCONTROL</DD_TABLE_ALIAS>
@@ -318,8 +318,8 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.adm_auditcontrol014">159</DD_ATTR_CTLW>
 			<DD_ATTR_DFLT id="ddm_table_cols.adm_auditcontrol014">A</DD_ATTR_DFLT>
 			<DD_ATTR_LABL id="ddm_table_cols.adm_auditcontrol014">Detail Level</DD_ATTR_LABL>
-			<DD_ATTR_MAXL id="ddm_table_cols.adm_auditcontrol014">1</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.adm_auditcontrol014">13</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.adm_auditcontrol014">DETAIL_LEVEL</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.adm_auditcontrol015">
 			<DD_TABLE_ALIAS id="ddm_table_cols.adm_auditcontrol015">ADM_AUDITCONTROL</DD_TABLE_ALIAS>
@@ -332,8 +332,8 @@
 			<DD_ATTR_ABLV id="ddm_table_cols.adm_auditcontrol015">Y</DD_ATTR_ABLV>
 			<DD_ATTR_CTLW id="ddm_table_cols.adm_auditcontrol015">30</DD_ATTR_CTLW>
 			<DD_ATTR_LABL id="ddm_table_cols.adm_auditcontrol015">Print GL Summary?</DD_ATTR_LABL>
-			<DD_ATTR_MAXL id="ddm_table_cols.adm_auditcontrol015">1</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.adm_auditcontrol015">11</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.adm_auditcontrol015">PRT_GL_SUM</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.adm_auditcontrol016">
 			<DD_TABLE_ALIAS id="ddm_table_cols.adm_auditcontrol016">ADM_AUDITCONTROL</DD_TABLE_ALIAS>
@@ -345,8 +345,8 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.adm_auditcontrol016">240</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.adm_auditcontrol016">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABL id="ddm_table_cols.adm_auditcontrol016">Summarized Posting Memo</DD_ATTR_LABL>
-			<DD_ATTR_MAXL id="ddm_table_cols.adm_auditcontrol016">30</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.adm_auditcontrol016">12</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.adm_auditcontrol016">GL_POST_MEMO</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.adm_auditcontrol017">
 			<DD_TABLE_ALIAS id="ddm_table_cols.adm_auditcontrol017">ADM_AUDITCONTROL</DD_TABLE_ALIAS>
@@ -360,8 +360,8 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.adm_auditcontrol017">55</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.adm_auditcontrol017">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABL id="ddm_table_cols.adm_auditcontrol017">Last Audit Number</DD_ATTR_LABL>
-			<DD_ATTR_MAXL id="ddm_table_cols.adm_auditcontrol017">7</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.adm_auditcontrol017">8</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.adm_auditcontrol017">AUDIT_NUMBER</SQL_COLUMN_NAME>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_ldat">
@@ -468,50 +468,50 @@
 			<DD_DESCRIPTION id="ddm_elements.firm_id">Firm ID</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.firm_id">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.firm_id">2</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.firm_id"> </DD_MASK_TYPE>
 			<DD_SYSTEM_REC id="ddm_elements.firm_id">Y</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_elements.firm_id">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.firm_id">AD </ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.firm_id">ADB</ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.firm_id">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.firm_id">20060425</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.firm_id">20120326</DD_LSTREV_DATE>
+			<DD_ATTR_BLNK id="ddm_elements.firm_id">N</DD_ATTR_BLNK>
+			<DD_ATTR_CTLW id="ddm_elements.firm_id">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.firm_id">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.firm_id">H</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.firm_id">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.firm_id">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABS>
-			<DD_ATTR_MSKI id="ddm_elements.firm_id">00</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO id="ddm_elements.firm_id">00</DD_ATTR_MSKO>
-			<DD_ATTR_PADC id="ddm_elements.firm_id">30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ id="ddm_elements.firm_id">R</DD_ATTR_PADJ>
+			<DD_ATTR_MAXL id="ddm_elements.firm_id">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.firm_id">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.firm_id">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.firm_id">0</DD_ATTR_PREC>
 			<DD_ATTR_PVAL id="ddm_elements.firm_id">stbl("+FIRM_ID")</DD_ATTR_PVAL>
 		</RECORD>
-		<RECORD id="ddm_elements.process_id">
-			<DD_DATA_NAME id="ddm_elements.process_id">PROCESS_ID      </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.process_id">Process Identification</DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.process_id">C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.process_id">16</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.process_id"> </DD_MASK_TYPE>
-			<ASC_COMP_ID id="ddm_elements.process_id">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.process_id">AD </ASC_PROD_ID>
-			<LOCALIZATION_EX id="ddm_elements.process_id">N</LOCALIZATION_EX>
-			<DD_CREATE_DATE id="ddm_elements.process_id">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.process_id">20090724</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW id="ddm_elements.process_id">0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH id="ddm_elements.process_id">0</DD_ATTR_CTLH>
-			<DD_ATTR_CTYP id="ddm_elements.process_id">E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOL id="ddm_elements.process_id">DESCRIPTION</DD_ATTR_DCOL>
-			<DD_ATTR_DCOM id="ddm_elements.process_id">            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP id="ddm_elements.process_id">            </DD_ATTR_DEXP>
-			<DD_ATTR_DKEY id="ddm_elements.process_id">[+FIRM_ID]+@</DD_ATTR_DKEY>
-			<DD_ATTR_DTAB id="ddm_elements.process_id">ADM_PROCMASTER  </DD_ATTR_DTAB>
-			<DD_ATTR_LABL id="ddm_elements.process_id">Process Identification</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.process_id">Process ID</DD_ATTR_LABS>
-			<DD_ATTR_MAXL id="ddm_elements.process_id">0</DD_ATTR_MAXL>
-			<DD_ATTR_MAXR id="ddm_elements.process_id">0</DD_ATTR_MAXR>
-			<DD_ATTR_MINL id="ddm_elements.process_id">0</DD_ATTR_MINL>
-			<DD_ATTR_PADC id="ddm_elements.process_id">20</DD_ATTR_PADC>
-			<DD_ATTR_PADJ id="ddm_elements.process_id">L</DD_ATTR_PADJ>
-			<DD_ATTR_PREC id="ddm_elements.process_id">0</DD_ATTR_PREC>
+		<RECORD id="ddm_elements.proc_id">
+			<DD_DATA_NAME id="ddm_elements.proc_id">PROC_ID         </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.proc_id">Process Identification (Addon)</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.proc_id">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.proc_id">16</DD_DATA_LENGTH>
+			<ASC_COMP_ID id="ddm_elements.proc_id">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.proc_id">AD </ASC_PROD_ID>
+			<LOCALIZATION_EX id="ddm_elements.proc_id">N</LOCALIZATION_EX>
+			<DD_CREATE_DATE id="ddm_elements.proc_id">20120326</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.proc_id">20120326</DD_LSTREV_DATE>
+			<DD_ATTR_BLNK id="ddm_elements.proc_id">N</DD_ATTR_BLNK>
+			<DD_ATTR_CTLW id="ddm_elements.proc_id">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.proc_id">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.proc_id">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOL id="ddm_elements.proc_id">DESCRIPTION</DD_ATTR_DCOL>
+			<DD_ATTR_DKEY id="ddm_elements.proc_id">[+FIRM_ID]+@</DD_ATTR_DKEY>
+			<DD_ATTR_DTAB id="ddm_elements.proc_id">ADM_PROCMASTER  </DD_ATTR_DTAB>
+			<DD_ATTR_LABL id="ddm_elements.proc_id">Process Identification</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.proc_id">Process ID</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.proc_id">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.proc_id">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.proc_id">0</DD_ATTR_MINL>
+			<DD_ATTR_PADC id="ddm_elements.proc_id">20</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.proc_id">L</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.proc_id">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.seq_num">
 			<DD_DATA_NAME id="ddm_elements.seq_num">SEQ_NUM         </DD_DATA_NAME>

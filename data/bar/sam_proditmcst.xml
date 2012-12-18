@@ -10,13 +10,13 @@
 			<DD_SYSTEM_REC id="ddm_tables.sam_proditmcst">N</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_tables.sam_proditmcst">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.sam_proditmcst">SA </ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.sam_proditmcst">11.0      </ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.sam_proditmcst">12.0      </ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.sam_proditmcst">7DF05470D6AF158F362FFDF004EAEB24</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.sam_proditmcst">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.sam_proditmcst">20070711</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_tables.sam_proditmcst">20110414</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.sam_proditmcst">20110418</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.sam_proditmcst">115342</DD_LSTSYNC_TIME>
+			<DD_LSTSYNC_DATE id="ddm_tables.sam_proditmcst">20120327</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.sam_proditmcst">140928</DD_LSTSYNC_TIME>
 			<DD_ATTR_ATAB id="ddm_tables.sam_proditmcst">SAM_CUSTOMER</DD_ATTR_ATAB>
 			<DD_ATTR_CPGM id="ddm_tables.sam_proditmcst">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_DKNM id="ddm_tables.sam_proditmcst">AO_YR_PRD_ITM_CS</DD_ATTR_DKNM>
@@ -37,9 +37,9 @@
 	</ALIAS>
 	<ALIAS id="ddm_table_cpro">
 		<ID id="ddm_table_cpro">DDM_TABLE_CPRO</ID>
-		<RECORD id="ddm_table_cpro.sam_proditmcstaopt">
-			<DD_TABLE_ALIAS id="ddm_table_cpro.sam_proditmcstaopt">SAM_PRODITMCST  </DD_TABLE_ALIAS>
-			<DD_ATTR_CPRO id="ddm_table_cpro.sam_proditmcstaopt">AOPT-SUMM</DD_ATTR_CPRO>
+		<RECORD id="ddm_table_cpro.sam_proditmcstaopt-summ">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.sam_proditmcstaopt-summ">SAM_PRODITMCST  </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.sam_proditmcstaopt-summ">AOPT-SUMM</DD_ATTR_CPRO>
 		</RECORD>
 		<RECORD id="ddm_table_cpro.sam_proditmcstarar">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.sam_proditmcstarar">SAM_PRODITMCST  </DD_TABLE_ALIAS>
@@ -236,7 +236,6 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.sam_proditmcst001">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.sam_proditmcst001">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sam_proditmcst001">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.sam_proditmcst001">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.sam_proditmcst001">Firm ID</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.sam_proditmcst001">1</DD_ATTR_TIND>
 		</RECORD>
@@ -251,7 +250,6 @@
 			<DD_CREATE_DATE id="ddm_table_cols.sam_proditmcst002">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sam_proditmcst002">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.sam_proditmcst002">40</DD_ATTR_CTLW>
-			<DD_ATTR_MAXL id="ddm_table_cols.sam_proditmcst002">4</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.sam_proditmcst002">Year</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.sam_proditmcst002">2</DD_ATTR_TIND>
 		</RECORD>
@@ -268,7 +266,6 @@
 			<DD_ATTR_CPGM id="ddm_table_cols.sam_proditmcst003">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.sam_proditmcst003">60</DD_ATTR_CTLW>
 			<DD_ATTR_LABS id="ddm_table_cols.sam_proditmcst003">Customer N</DD_ATTR_LABS>
-			<DD_ATTR_MAXL id="ddm_table_cols.sam_proditmcst003">6</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.sam_proditmcst003">Customer Number</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.sam_proditmcst003">5</DD_ATTR_TIND>
 		</RECORD>
@@ -284,7 +281,6 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.sam_proditmcst004">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CPGM id="ddm_table_cols.sam_proditmcst004">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.sam_proditmcst004">35</DD_ATTR_CTLW>
-			<DD_ATTR_MAXL id="ddm_table_cols.sam_proditmcst004">3</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.sam_proditmcst004">Product Type</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.sam_proditmcst004">3</DD_ATTR_TIND>
 		</RECORD>
@@ -302,7 +298,6 @@
 			<DD_ATTR_CPGM id="ddm_table_cols.sam_proditmcst005">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.sam_proditmcst005">200</DD_ATTR_CTLW>
 			<DD_ATTR_LABS id="ddm_table_cols.sam_proditmcst005">Inventory</DD_ATTR_LABS>
-			<DD_ATTR_MAXL id="ddm_table_cols.sam_proditmcst005">20</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.sam_proditmcst005">Inventory Item Number</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.sam_proditmcst005">4</DD_ATTR_TIND>
 		</RECORD>
@@ -319,7 +314,6 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.sam_proditmcst006">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.sam_proditmcst006">80</DD_ATTR_CTLW>
 			<DD_ATTR_LABL id="ddm_table_cols.sam_proditmcst006">Period #P</DD_ATTR_LABL>
-			<DD_ATTR_MAXL id="ddm_table_cols.sam_proditmcst006">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.sam_proditmcst006">Quantity Shipped</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.sam_proditmcst006">7</DD_ATTR_TIND>
 		</RECORD>
@@ -335,7 +329,6 @@
 			<DD_CREATE_DATE id="ddm_table_cols.sam_proditmcst007">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sam_proditmcst007">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.sam_proditmcst007">80</DD_ATTR_CTLW>
-			<DD_ATTR_MAXL id="ddm_table_cols.sam_proditmcst007">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.sam_proditmcst007">Total Cost Amount</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.sam_proditmcst007">9</DD_ATTR_TIND>
 		</RECORD>
@@ -351,7 +344,6 @@
 			<DD_CREATE_DATE id="ddm_table_cols.sam_proditmcst008">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sam_proditmcst008">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.sam_proditmcst008">80</DD_ATTR_CTLW>
-			<DD_ATTR_MAXL id="ddm_table_cols.sam_proditmcst008">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.sam_proditmcst008">Total Sales Amount</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.sam_proditmcst008">11</DD_ATTR_TIND>
 		</RECORD>
@@ -1170,21 +1162,23 @@
 			<DD_DESCRIPTION id="ddm_elements.firm_id">Firm ID</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.firm_id">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.firm_id">2</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.firm_id"> </DD_MASK_TYPE>
 			<DD_SYSTEM_REC id="ddm_elements.firm_id">Y</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_elements.firm_id">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.firm_id">AD </ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.firm_id">ADB</ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.firm_id">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.firm_id">20060425</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.firm_id">20120326</DD_LSTREV_DATE>
+			<DD_ATTR_BLNK id="ddm_elements.firm_id">N</DD_ATTR_BLNK>
+			<DD_ATTR_CTLW id="ddm_elements.firm_id">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.firm_id">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.firm_id">H</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.firm_id">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.firm_id">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABS>
-			<DD_ATTR_MSKI id="ddm_elements.firm_id">00</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO id="ddm_elements.firm_id">00</DD_ATTR_MSKO>
-			<DD_ATTR_PADC id="ddm_elements.firm_id">30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ id="ddm_elements.firm_id">R</DD_ATTR_PADJ>
+			<DD_ATTR_MAXL id="ddm_elements.firm_id">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.firm_id">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.firm_id">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.firm_id">0</DD_ATTR_PREC>
 			<DD_ATTR_PVAL id="ddm_elements.firm_id">stbl("+FIRM_ID")</DD_ATTR_PVAL>
 		</RECORD>
 		<RECORD id="ddm_elements.year">

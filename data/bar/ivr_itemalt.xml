@@ -12,13 +12,13 @@
 			<DD_RECORD_LEN id="ddm_tables.ivr_itemalt">0</DD_RECORD_LEN>
 			<ASC_COMP_ID id="ddm_tables.ivr_itemalt">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.ivr_itemalt">IV </ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.ivr_itemalt">11.0      </ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.ivr_itemalt">12.0      </ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.ivr_itemalt">EB02CF604410D2A481F621BA1657FF13</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ivr_itemalt">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ivr_itemalt">20071103</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_tables.ivr_itemalt">20100517</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivr_itemalt">20110310</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivr_itemalt">204338</DD_LSTSYNC_TIME>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivr_itemalt">20120327</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivr_itemalt">140924</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.ivr_itemalt">S</DD_ATTR_FTYP>
 			<DD_ATTR_IKEY id="ddm_tables.ivr_itemalt">N</DD_ATTR_IKEY>
 			<DD_ATTR_PRUN id="ddm_tables.ivr_itemalt">[+DIR_PGM]ivr_itemalt.aon</DD_ATTR_PRUN>
@@ -53,7 +53,6 @@
 			<DD_ATTR_CTLH id="ddm_table_cols.ivr_itemalt001">0</DD_ATTR_CTLH>
 			<DD_ATTR_DFLT id="ddm_table_cols.ivr_itemalt001">S</DD_ATTR_DFLT>
 			<DD_ATTR_LABL id="ddm_table_cols.ivr_itemalt001">Alternate Or Superseded</DD_ATTR_LABL>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivr_itemalt001">1</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ivr_itemalt001">1</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivr_itemalt002">
@@ -66,7 +65,6 @@
 			<DD_CREATE_DATE id="ddm_table_cols.ivr_itemalt002">20070727</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ivr_itemalt002">20070727</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivr_itemalt002">35</DD_ATTR_CTLW>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivr_itemalt002">3</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ivr_itemalt002">3</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivr_itemalt003">
@@ -81,7 +79,6 @@
 			<DD_ATTR_CPGM id="ddm_table_cols.ivr_itemalt003">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivr_itemalt003">160</DD_ATTR_CTLW>
 			<DD_ATTR_LABL id="ddm_table_cols.ivr_itemalt003">Item ID</DD_ATTR_LABL>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivr_itemalt003">20</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ivr_itemalt003">4</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivr_itemalt004">
@@ -94,7 +91,6 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.ivr_itemalt004">20070727</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivr_itemalt004">35</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ivr_itemalt004">0</DD_ATTR_CTLH>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivr_itemalt004">3</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ivr_itemalt004">5</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
@@ -125,11 +121,6 @@
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">
 		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
-		<RECORD id="ddm_column_opts.ivr_itemaltalt_sup_flagk">
-			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_itemaltalt_sup_flagk">IVR_ITEMALT     </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.ivr_itemaltalt_sup_flagk">ALT_SUP_FLAG    </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.ivr_itemaltalt_sup_flagk">k</DD_ATTR_OPTS>
-		</RECORD>
 		<RECORD id="ddm_column_opts.ivr_itemaltproduct_type1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_itemaltproduct_type1">IVR_ITEMALT     </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ivr_itemaltproduct_type1">PRODUCT_TYPE    </DD_DVAR_NAME>

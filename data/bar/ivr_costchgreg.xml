@@ -15,12 +15,12 @@
 			<RESTRICT_AUTOADD id="ddm_tables.ivr_costchgreg">Y</RESTRICT_AUTOADD>
 			<ASC_COMP_ID id="ddm_tables.ivr_costchgreg">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.ivr_costchgreg">IV </ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.ivr_costchgreg">11.0      </ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.ivr_costchgreg">12.0      </ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ivr_costchgreg">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ivr_costchgreg">20090120</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_tables.ivr_costchgreg">20090731</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivr_costchgreg">20110310</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivr_costchgreg">204348</DD_LSTSYNC_TIME>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivr_costchgreg">20120327</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivr_costchgreg">140924</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ivr_costchgreg">/dev_aon_test/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ivr_costchgreg">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.ivr_costchgreg">[+DIR_PGM]ivr_costchgreg.aon</DD_ATTR_PRUN>
@@ -79,7 +79,6 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ivr_costchgreg001">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ivr_costchgreg001">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.ivr_costchgreg001">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivr_costchgreg001">8</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ivr_costchgreg001">1</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
@@ -87,20 +86,25 @@
 		<ID id="ddm_elements">DDM_ELEMENTS</ID>
 		<RECORD id="ddm_elements.effect_date">
 			<DD_DATA_NAME id="ddm_elements.effect_date">EFFECT_DATE     </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.effect_date">Date Effective                </DD_DESCRIPTION>
+			<DD_DESCRIPTION id="ddm_elements.effect_date">Date Effective</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.effect_date">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.effect_date">8</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.effect_date"> </DD_MASK_TYPE>
 			<DD_SYSTEM_REC id="ddm_elements.effect_date">Y</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_elements.effect_date">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.effect_date">AD </ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.effect_date">ADB</ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.effect_date">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.effect_date">20060119</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.effect_date">20120326</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.effect_date">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.effect_date">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.effect_date">D</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.effect_date">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.effect_date">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.effect_date">Date Effective</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.effect_date">Date Eff</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.effect_date">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.effect_date">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.effect_date">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.effect_date">0</DD_ATTR_PREC>
 			<DD_ATTR_STYP id="ddm_elements.effect_date">1</DD_ATTR_STYP>
 		</RECORD>
 	</ALIAS>

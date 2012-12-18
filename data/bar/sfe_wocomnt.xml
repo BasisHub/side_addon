@@ -10,18 +10,19 @@
 			<DD_ALIAS_TYPE id="ddm_tables.sfe_wocomnt">V</DD_ALIAS_TYPE>
 			<DD_KEY_LENGTH id="ddm_tables.sfe_wocomnt">0</DD_KEY_LENGTH>
 			<DD_NBR_RECORD id="ddm_tables.sfe_wocomnt">0</DD_NBR_RECORD>
-			<DD_RECORD_LEN id="ddm_tables.sfe_wocomnt">96</DD_RECORD_LEN>
+			<DD_RECORD_LEN id="ddm_tables.sfe_wocomnt">0</DD_RECORD_LEN>
 			<DD_SYSTEM_REC id="ddm_tables.sfe_wocomnt">N</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_tables.sfe_wocomnt">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.sfe_wocomnt">SF </ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.sfe_wocomnt">11.0      </ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.sfe_wocomnt">12.0      </ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.sfe_wocomnt">B08FB71B3B69BCA0D95961AD3DC831BB</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.sfe_wocomnt">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.sfe_wocomnt">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.sfe_wocomnt">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.sfe_wocomnt">20110310</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.sfe_wocomnt">204344</DD_LSTSYNC_TIME>
-			<DD_ATTR_FTYP id="ddm_tables.sfe_wocomnt">T</DD_ATTR_FTYP>
+			<DD_LSTREV_DATE id="ddm_tables.sfe_wocomnt">20111114</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.sfe_wocomnt">20120327</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.sfe_wocomnt">140928</DD_LSTSYNC_TIME>
+			<DD_ATTR_FTYP id="ddm_tables.sfe_wocomnt">G</DD_ATTR_FTYP>
+			<DD_ATTR_PTAB id="ddm_tables.sfe_wocomnt">SFE_WOMASTR     </DD_ATTR_PTAB>
 			<DD_ATTR_SLEV id="ddm_tables.sfe_wocomnt">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.sfe_wocomnt">Work Order Comments</DD_ATTR_WINT>
 		</RECORD>
@@ -95,6 +96,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.sfe_wocomnt001">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfe_wocomnt001">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_PROM id="ddm_table_cols.sfe_wocomnt001">Firm ID</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.sfe_wocomnt001">1</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.sfe_wocomnt002">
 			<DD_TABLE_ALIAS id="ddm_table_cols.sfe_wocomnt002">SFE_WOCOMNT     </DD_TABLE_ALIAS>
@@ -107,6 +109,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.sfe_wocomnt002">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfe_wocomnt002">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_PROM id="ddm_table_cols.sfe_wocomnt002">Work Order Location [Not Used]</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.sfe_wocomnt002">2</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.sfe_wocomnt003">
 			<DD_TABLE_ALIAS id="ddm_table_cols.sfe_wocomnt003">SFE_WOCOMNT     </DD_TABLE_ALIAS>
@@ -119,6 +122,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.sfe_wocomnt003">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfe_wocomnt003">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_PROM id="ddm_table_cols.sfe_wocomnt003">Work Order Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.sfe_wocomnt003">3</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.sfe_wocomnt004">
 			<DD_TABLE_ALIAS id="ddm_table_cols.sfe_wocomnt004">SFE_WOCOMNT     </DD_TABLE_ALIAS>
@@ -132,6 +136,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.sfe_wocomnt004">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfe_wocomnt004">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_PROM id="ddm_table_cols.sfe_wocomnt004">Sequence Number</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.sfe_wocomnt004">4</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.sfe_wocomnt005">
 			<DD_TABLE_ALIAS id="ddm_table_cols.sfe_wocomnt005">SFE_WOCOMNT     </DD_TABLE_ALIAS>
@@ -145,6 +150,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.sfe_wocomnt005">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfe_wocomnt005">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_PROM id="ddm_table_cols.sfe_wocomnt005">Comments or Message Line</DD_ATTR_PROM>
+			<DD_ATTR_TIND id="ddm_table_cols.sfe_wocomnt005">5</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">
@@ -154,6 +160,21 @@
 			<DD_DVAR_NAME id="ddm_column_opts.sfe_wocomntfirm_ido">FIRM_ID         </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.sfe_wocomntfirm_ido">O</DD_ATTR_OPTS>
 		</RECORD>
+		<RECORD id="ddm_column_opts.sfe_wocomntwo_locationo">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfe_wocomntwo_locationo">SFE_WOCOMNT     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfe_wocomntwo_locationo">WO_LOCATION     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfe_wocomntwo_locationo">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sfe_wocomntwo_noo">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfe_wocomntwo_noo">SFE_WOCOMNT     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfe_wocomntwo_noo">WO_NO           </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfe_wocomntwo_noo">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sfe_wocomntsequence_noo">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfe_wocomntsequence_noo">SFE_WOCOMNT     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfe_wocomntsequence_noo">SEQUENCE_NO     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfe_wocomntsequence_noo">O</DD_ATTR_OPTS>
+		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">
 		<ID id="ddm_elements">DDM_ELEMENTS</ID>
@@ -162,21 +183,23 @@
 			<DD_DESCRIPTION id="ddm_elements.firm_id">Firm ID</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.firm_id">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.firm_id">2</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.firm_id"> </DD_MASK_TYPE>
 			<DD_SYSTEM_REC id="ddm_elements.firm_id">Y</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_elements.firm_id">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.firm_id">AD </ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.firm_id">ADB</ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.firm_id">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.firm_id">20060425</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.firm_id">20120326</DD_LSTREV_DATE>
+			<DD_ATTR_BLNK id="ddm_elements.firm_id">N</DD_ATTR_BLNK>
+			<DD_ATTR_CTLW id="ddm_elements.firm_id">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.firm_id">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.firm_id">H</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.firm_id">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.firm_id">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABS>
-			<DD_ATTR_MSKI id="ddm_elements.firm_id">00</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO id="ddm_elements.firm_id">00</DD_ATTR_MSKO>
-			<DD_ATTR_PADC id="ddm_elements.firm_id">30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ id="ddm_elements.firm_id">R</DD_ATTR_PADJ>
+			<DD_ATTR_MAXL id="ddm_elements.firm_id">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.firm_id">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.firm_id">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.firm_id">0</DD_ATTR_PREC>
 			<DD_ATTR_PVAL id="ddm_elements.firm_id">stbl("+FIRM_ID")</DD_ATTR_PVAL>
 		</RECORD>
 		<RECORD id="ddm_elements.wo_location">
@@ -184,57 +207,77 @@
 			<DD_DESCRIPTION id="ddm_elements.wo_location">Work Order Location [Not Used]</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.wo_location">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.wo_location">2</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.wo_location"> </DD_MASK_TYPE>
 			<ASC_COMP_ID id="ddm_elements.wo_location">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_elements.wo_location">SF </ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.wo_location">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.wo_location">20060119</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.wo_location">20111114</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.wo_location">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.wo_location">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.wo_location">E</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.wo_location">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.wo_location">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.wo_location">Work Order Location</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.wo_location">WO Loc </DD_ATTR_LABS>
+			<DD_ATTR_LABS id="ddm_elements.wo_location">WO Loc</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.wo_location">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.wo_location">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.wo_location">0</DD_ATTR_MINL>
+			<DD_ATTR_PADC id="ddm_elements.wo_location">20</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.wo_location">L</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.wo_location">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.wo_no">
 			<DD_DATA_NAME id="ddm_elements.wo_no">WO_NO           </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.wo_no">Work Order Number             </DD_DESCRIPTION>
+			<DD_DESCRIPTION id="ddm_elements.wo_no">Work Order Number</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.wo_no">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.wo_no">7</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.wo_no"> </DD_MASK_TYPE>
 			<ASC_COMP_ID id="ddm_elements.wo_no">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_elements.wo_no">AD </ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.wo_no">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.wo_no">20060119</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.wo_no">20111214</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.wo_no">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.wo_no">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.wo_no">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOL id="ddm_elements.wo_no">ITEM_ID</DD_ATTR_DCOL>
 			<DD_ATTR_DCOM id="ddm_elements.wo_no">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.wo_no">            </DD_ATTR_DEXP>
+			<DD_ATTR_DKEY id="ddm_elements.wo_no">[+FIRM_ID]+"  "+@</DD_ATTR_DKEY>
+			<DD_ATTR_DTAB id="ddm_elements.wo_no">SFE_WOMASTR     </DD_ATTR_DTAB>
 			<DD_ATTR_LABL id="ddm_elements.wo_no">Work Order Number</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.wo_no">WO No</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.wo_no">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.wo_no">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.wo_no">0</DD_ATTR_MINL>
 			<DD_ATTR_MSKI id="ddm_elements.wo_no">0000000</DD_ATTR_MSKI>
 			<DD_ATTR_MSKO id="ddm_elements.wo_no">0000000</DD_ATTR_MSKO>
 			<DD_ATTR_PADC id="ddm_elements.wo_no">30</DD_ATTR_PADC>
 			<DD_ATTR_PADJ id="ddm_elements.wo_no">R</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.wo_no">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.sequence_no">
 			<DD_DATA_NAME id="ddm_elements.sequence_no">SEQUENCE_NO     </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.sequence_no">Sequence Number               </DD_DESCRIPTION>
+			<DD_DESCRIPTION id="ddm_elements.sequence_no">Sequence Number</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.sequence_no">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.sequence_no">3</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.sequence_no"> </DD_MASK_TYPE>
 			<DD_SYSTEM_REC id="ddm_elements.sequence_no">Y</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_elements.sequence_no">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.sequence_no">AD </ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.sequence_no">ADB</ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.sequence_no">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.sequence_no">20060504</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.sequence_no">20120326</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.sequence_no">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.sequence_no">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.sequence_no">E</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.sequence_no">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.sequence_no">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.sequence_no">Sequence Number</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.sequence_no">Seq No</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.sequence_no">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.sequence_no">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.sequence_no">0</DD_ATTR_MINL>
 			<DD_ATTR_MSKI id="ddm_elements.sequence_no">000</DD_ATTR_MSKI>
 			<DD_ATTR_MSKO id="ddm_elements.sequence_no">000</DD_ATTR_MSKO>
 			<DD_ATTR_PADC id="ddm_elements.sequence_no">30</DD_ATTR_PADC>
 			<DD_ATTR_PADJ id="ddm_elements.sequence_no">R</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.sequence_no">0</DD_ATTR_PREC>
 			<DD_ATTR_STYP id="ddm_elements.sequence_no">S</DD_ATTR_STYP>
 		</RECORD>
 		<RECORD id="ddm_elements.ext_comments">

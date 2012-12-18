@@ -14,13 +14,13 @@
 			<DD_SYSTEM_REC id="ddm_tables.prs_magmed2s">N</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_tables.prs_magmed2s">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.prs_magmed2s">PR </ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.prs_magmed2s">11.0      </ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.prs_magmed2s">12.0      </ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.prs_magmed2s">1C8078E6E0BB5A45C309DAE2CACB6F50</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.prs_magmed2s">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.prs_magmed2s">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_tables.prs_magmed2s">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.prs_magmed2s">20110310</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.prs_magmed2s">204344</DD_LSTSYNC_TIME>
+			<DD_LSTSYNC_DATE id="ddm_tables.prs_magmed2s">20120404</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.prs_magmed2s">151646</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.prs_magmed2s">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.prs_magmed2s">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.prs_magmed2s">Supplement State Rec 2S</DD_ATTR_WINT>
@@ -440,20 +440,26 @@
 		</RECORD>
 		<RECORD id="ddm_elements.reserved_str">
 			<DD_DATA_NAME id="ddm_elements.reserved_str">RESERVED_STR    </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.reserved_str">Reserved For Addon Use        </DD_DESCRIPTION>
+			<DD_DESCRIPTION id="ddm_elements.reserved_str">Reserved For Addon Use</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.reserved_str">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.reserved_str">1</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.reserved_str"> </DD_MASK_TYPE>
 			<DD_SYSTEM_REC id="ddm_elements.reserved_str">Y</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_elements.reserved_str">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.reserved_str">AD </ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.reserved_str">ADB</ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.reserved_str">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.reserved_str">20060119</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.reserved_str">20120326</DD_LSTREV_DATE>
+			<DD_ATTR_BLNK id="ddm_elements.reserved_str">N</DD_ATTR_BLNK>
+			<DD_ATTR_CTLW id="ddm_elements.reserved_str">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.reserved_str">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.reserved_str">X</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.reserved_str">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.reserved_str">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.reserved_str">Reserved For Addon Use</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.reserved_str">Res For Addon Use</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.reserved_str">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.reserved_str">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.reserved_str">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.reserved_str">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.w2_state_id">
 			<DD_DATA_NAME id="ddm_elements.w2_state_id">W2_STATE_ID     </DD_DATA_NAME>

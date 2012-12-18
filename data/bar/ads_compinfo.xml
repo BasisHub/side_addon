@@ -16,12 +16,12 @@
 			<RESTRICT_AUTOADD id="ddm_tables.ads_compinfo">Y</RESTRICT_AUTOADD>
 			<ASC_COMP_ID id="ddm_tables.ads_compinfo">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.ads_compinfo">AD </ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.ads_compinfo">11.0      </ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.ads_compinfo">12.0      </ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ads_compinfo">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ads_compinfo">20110118</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ads_compinfo">20110419</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ads_compinfo">20110419</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ads_compinfo">150704</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ads_compinfo">20120326</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ads_compinfo">20120327</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ads_compinfo">135458</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ads_compinfo">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ads_compinfo">T</DD_ATTR_FTYP>
 			<DD_ATTR_WINT id="ddm_tables.ads_compinfo">Company Information</DD_ATTR_WINT>
@@ -85,8 +85,8 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ads_compinfo001">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ads_compinfo001">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.ads_compinfo001">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.ads_compinfo001">2</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ads_compinfo001">1</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ads_compinfo001">FIRM_ID</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ads_compinfo002">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ads_compinfo002">ADS_COMPINFO    </DD_TABLE_ALIAS>
@@ -105,8 +105,8 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ads_compinfo002">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ads_compinfo002">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.ads_compinfo002">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.ads_compinfo002">40</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ads_compinfo002">2</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ads_compinfo002">FIRM_NAME</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ads_compinfo003">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ads_compinfo003">ADS_COMPINFO    </DD_TABLE_ALIAS>
@@ -125,8 +125,8 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ads_compinfo003">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ads_compinfo003">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.ads_compinfo003">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.ads_compinfo003">24</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ads_compinfo003">3</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ads_compinfo003">ADDR_LINE_1</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ads_compinfo004">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ads_compinfo004">ADS_COMPINFO    </DD_TABLE_ALIAS>
@@ -145,8 +145,8 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ads_compinfo004">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ads_compinfo004">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.ads_compinfo004">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.ads_compinfo004">24</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ads_compinfo004">4</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ads_compinfo004">ADDR_LINE_2</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ads_compinfo005">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ads_compinfo005">ADS_COMPINFO    </DD_TABLE_ALIAS>
@@ -165,8 +165,8 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ads_compinfo005">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ads_compinfo005">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.ads_compinfo005">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.ads_compinfo005">24</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ads_compinfo005">5</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ads_compinfo005">ADDR_LINE_3</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ads_compinfo006">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ads_compinfo006">ADS_COMPINFO    </DD_TABLE_ALIAS>
@@ -185,8 +185,8 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ads_compinfo006">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ads_compinfo006">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.ads_compinfo006">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.ads_compinfo006">22</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ads_compinfo006">6</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ads_compinfo006">CITY</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ads_compinfo007">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ads_compinfo007">ADS_COMPINFO    </DD_TABLE_ALIAS>
@@ -205,8 +205,8 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ads_compinfo007">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ads_compinfo007">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.ads_compinfo007">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.ads_compinfo007">2</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ads_compinfo007">7</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ads_compinfo007">STATE_CODE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ads_compinfo008">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ads_compinfo008">ADS_COMPINFO    </DD_TABLE_ALIAS>
@@ -225,8 +225,8 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ads_compinfo008">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ads_compinfo008">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.ads_compinfo008">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.ads_compinfo008">2</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ads_compinfo008">8</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ads_compinfo008">CNTRY_ID</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ads_compinfo009">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ads_compinfo009">ADS_COMPINFO    </DD_TABLE_ALIAS>
@@ -245,13 +245,13 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ads_compinfo009">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ads_compinfo009">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.ads_compinfo009">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.ads_compinfo009">9</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ads_compinfo009">9</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ads_compinfo009">ZIP_CODE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ads_compinfo010">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ads_compinfo010">ADS_COMPINFO    </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_cols.ads_compinfo010">010</DD_SEQUENCE>
-			<DD_DATA_NAME id="ddm_table_cols.ads_compinfo010">PHONE_NO        </DD_DATA_NAME>
+			<DD_DATA_NAME id="ddm_table_cols.ads_compinfo010">PHONE_NUM       </DD_DATA_NAME>
 			<DD_DVAR_NAME id="ddm_table_cols.ads_compinfo010">PHONE_NO        </DD_DVAR_NAME>
 			<DD_COL_REPEATS id="ddm_table_cols.ads_compinfo010">0</DD_COL_REPEATS>
 			<DD_COL_OCCURS id="ddm_table_cols.ads_compinfo010">0</DD_COL_OCCURS>
@@ -267,13 +267,13 @@
 			<DD_ATTR_LABL id="ddm_table_cols.ads_compinfo010">Phone Number</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_table_cols.ads_compinfo010">Phone No</DD_ATTR_LABS>
 			<DD_ATTR_MLAN id="ddm_table_cols.ads_compinfo010">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.ads_compinfo010">20</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ads_compinfo010">10</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ads_compinfo010">PHONE_NUM</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ads_compinfo011">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ads_compinfo011">ADS_COMPINFO    </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_cols.ads_compinfo011">011</DD_SEQUENCE>
-			<DD_DATA_NAME id="ddm_table_cols.ads_compinfo011">PHONE_NO        </DD_DATA_NAME>
+			<DD_DATA_NAME id="ddm_table_cols.ads_compinfo011">PHONE_NUM       </DD_DATA_NAME>
 			<DD_DVAR_NAME id="ddm_table_cols.ads_compinfo011">FAX_NO          </DD_DVAR_NAME>
 			<DD_COL_REPEATS id="ddm_table_cols.ads_compinfo011">0</DD_COL_REPEATS>
 			<DD_COL_OCCURS id="ddm_table_cols.ads_compinfo011">0</DD_COL_OCCURS>
@@ -289,8 +289,8 @@
 			<DD_ATTR_LABL id="ddm_table_cols.ads_compinfo011">Fax Number</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_table_cols.ads_compinfo011">Fax No</DD_ATTR_LABS>
 			<DD_ATTR_MLAN id="ddm_table_cols.ads_compinfo011">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.ads_compinfo011">20</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ads_compinfo011">11</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ads_compinfo011">PHONE_NUM</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ads_compinfo012">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ads_compinfo012">ADS_COMPINFO    </DD_TABLE_ALIAS>
@@ -311,8 +311,8 @@
 			<DD_ATTR_LABL id="ddm_table_cols.ads_compinfo012">Tax ID</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_table_cols.ads_compinfo012">Tax ID</DD_ATTR_LABS>
 			<DD_ATTR_MLAN id="ddm_table_cols.ads_compinfo012">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.ads_compinfo012">20</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ads_compinfo012">13</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ads_compinfo012">TAX_ID</SQL_COLUMN_NAME>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">
@@ -340,39 +340,46 @@
 			<DD_DESCRIPTION id="ddm_elements.firm_id">Firm ID</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.firm_id">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.firm_id">2</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.firm_id"> </DD_MASK_TYPE>
 			<DD_SYSTEM_REC id="ddm_elements.firm_id">Y</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_elements.firm_id">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.firm_id">AD </ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.firm_id">ADB</ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.firm_id">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.firm_id">20060425</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.firm_id">20120326</DD_LSTREV_DATE>
+			<DD_ATTR_BLNK id="ddm_elements.firm_id">N</DD_ATTR_BLNK>
+			<DD_ATTR_CTLW id="ddm_elements.firm_id">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.firm_id">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.firm_id">H</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.firm_id">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.firm_id">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABS>
-			<DD_ATTR_MSKI id="ddm_elements.firm_id">00</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO id="ddm_elements.firm_id">00</DD_ATTR_MSKO>
-			<DD_ATTR_PADC id="ddm_elements.firm_id">30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ id="ddm_elements.firm_id">R</DD_ATTR_PADJ>
+			<DD_ATTR_MAXL id="ddm_elements.firm_id">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.firm_id">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.firm_id">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.firm_id">0</DD_ATTR_PREC>
 			<DD_ATTR_PVAL id="ddm_elements.firm_id">stbl("+FIRM_ID")</DD_ATTR_PVAL>
 		</RECORD>
 		<RECORD id="ddm_elements.firm_name">
 			<DD_DATA_NAME id="ddm_elements.firm_name">FIRM_NAME       </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.firm_name">Firm Name                     </DD_DESCRIPTION>
+			<DD_DESCRIPTION id="ddm_elements.firm_name">Firm Name</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.firm_name">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.firm_name">40</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.firm_name"> </DD_MASK_TYPE>
 			<DD_SYSTEM_REC id="ddm_elements.firm_name">Y</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_elements.firm_name">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.firm_name">AD </ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.firm_name">ADB</ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.firm_name">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.firm_name">20060119</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.firm_name">20120326</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.firm_name">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.firm_name">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.firm_name">E</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.firm_name">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.firm_name">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.firm_name">Firm Name</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.firm_name">Firm Name</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.firm_name">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.firm_name">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.firm_name">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.firm_name">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.addr_line_1">
 			<DD_DATA_NAME id="ddm_elements.addr_line_1">ADDR_LINE_1     </DD_DATA_NAME>
@@ -502,30 +509,28 @@
 			<DD_ATTR_PREC id="ddm_elements.zip_code">0</DD_ATTR_PREC>
 			<DD_ATTR_STYP id="ddm_elements.zip_code">P</DD_ATTR_STYP>
 		</RECORD>
-		<RECORD id="ddm_elements.phone_no">
-			<DD_DATA_NAME id="ddm_elements.phone_no">PHONE_NO        </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.phone_no">Telephone Number</DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.phone_no">C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.phone_no">20</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.phone_no"> </DD_MASK_TYPE>
-			<DD_SYSTEM_REC id="ddm_elements.phone_no">Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID id="ddm_elements.phone_no">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.phone_no">AD </ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.phone_no">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.phone_no">20080529</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW id="ddm_elements.phone_no">0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH id="ddm_elements.phone_no">0</DD_ATTR_CTLH>
-			<DD_ATTR_CTYP id="ddm_elements.phone_no">E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM id="ddm_elements.phone_no">            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP id="ddm_elements.phone_no">            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL id="ddm_elements.phone_no">Telephone Number</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.phone_no">Tel No</DD_ATTR_LABS>
-			<DD_ATTR_MAXL id="ddm_elements.phone_no">0</DD_ATTR_MAXL>
-			<DD_ATTR_MAXR id="ddm_elements.phone_no">0</DD_ATTR_MAXR>
-			<DD_ATTR_MINL id="ddm_elements.phone_no">0</DD_ATTR_MINL>
-			<DD_ATTR_MSKI id="ddm_elements.phone_no">00000000000000000000</DD_ATTR_MSKI>
-			<DD_ATTR_PREC id="ddm_elements.phone_no">0</DD_ATTR_PREC>
-			<DD_ATTR_STYP id="ddm_elements.phone_no">T</DD_ATTR_STYP>
+		<RECORD id="ddm_elements.phone_num">
+			<DD_DATA_NAME id="ddm_elements.phone_num">PHONE_NUM       </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.phone_num">Telephone Number (Addon)</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.phone_num">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.phone_num">20</DD_DATA_LENGTH>
+			<ASC_COMP_ID id="ddm_elements.phone_num">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.phone_num">AD </ASC_PROD_ID>
+			<LOCALIZATION_EX id="ddm_elements.phone_num">N</LOCALIZATION_EX>
+			<DD_CREATE_DATE id="ddm_elements.phone_num">20120326</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.phone_num">20120326</DD_LSTREV_DATE>
+			<DD_ATTR_BLNK id="ddm_elements.phone_num">N</DD_ATTR_BLNK>
+			<DD_ATTR_CTLW id="ddm_elements.phone_num">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.phone_num">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.phone_num">E</DD_ATTR_CTYP>
+			<DD_ATTR_LABL id="ddm_elements.phone_num">Telephone Number</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.phone_num">Tel No</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.phone_num">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.phone_num">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.phone_num">0</DD_ATTR_MINL>
+			<DD_ATTR_MSKI id="ddm_elements.phone_num">00000000000000000000</DD_ATTR_MSKI>
+			<DD_ATTR_PREC id="ddm_elements.phone_num">0</DD_ATTR_PREC>
+			<DD_ATTR_STYP id="ddm_elements.phone_num">T</DD_ATTR_STYP>
 		</RECORD>
 		<RECORD id="ddm_elements.tax_id">
 			<DD_DATA_NAME id="ddm_elements.tax_id">TAX_ID          </DD_DATA_NAME>

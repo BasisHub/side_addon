@@ -15,12 +15,12 @@
 			<RESTRICT_AUTOADD id="ddm_tables.counter_printers">Y</RESTRICT_AUTOADD>
 			<ASC_COMP_ID id="ddm_tables.counter_printers">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.counter_printers">OP </ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.counter_printers">11.0      </ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.counter_printers">12.0      </ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.counter_printers">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.counter_printers">20090716</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_tables.counter_printers">20100224</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.counter_printers">20110310</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.counter_printers">204346</DD_LSTSYNC_TIME>
+			<DD_LSTSYNC_DATE id="ddm_tables.counter_printers">20120327</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.counter_printers">140920</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.counter_printers">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.counter_printers">S</DD_ATTR_FTYP>
 			<DD_ATTR_WINT id="ddm_tables.counter_printers">Select Valid Counter Printers</DD_ATTR_WINT>
@@ -89,7 +89,6 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.counter_printers001">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.counter_printers001">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.counter_printers001">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.counter_printers001">60</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.counter_printers001">1</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.counter_printers002">
@@ -109,7 +108,6 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.counter_printers002">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.counter_printers002">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.counter_printers002">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.counter_printers002">30</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.counter_printers002">3</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.counter_printers003">
@@ -129,21 +127,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.counter_printers003">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.counter_printers003">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.counter_printers003">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.counter_printers003">30</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.counter_printers003">4</DD_ATTR_TIND>
-		</RECORD>
-	</ALIAS>
-	<ALIAS id="ddm_column_opts">
-		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
-		<RECORD id="ddm_column_opts.counter_printersclient_printersk">
-			<DD_TABLE_ALIAS id="ddm_column_opts.counter_printersclient_printersk">COUNTER_PRINTERS</DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.counter_printersclient_printersk">CLIENT_PRINTERS </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.counter_printersclient_printersk">k</DD_ATTR_OPTS>
-		</RECORD>
-		<RECORD id="ddm_column_opts.counter_printersserver_printersk">
-			<DD_TABLE_ALIAS id="ddm_column_opts.counter_printersserver_printersk">COUNTER_PRINTERS</DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.counter_printersserver_printersk">SERVER_PRINTERS </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.counter_printersserver_printersk">k</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

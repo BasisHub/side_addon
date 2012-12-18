@@ -15,12 +15,12 @@
 			<RESTRICT_AUTOADD id="ddm_tables.ope_credmaint">Y</RESTRICT_AUTOADD>
 			<ASC_COMP_ID id="ddm_tables.ope_credmaint">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.ope_credmaint">OP </ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.ope_credmaint">11.0      </ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.ope_credmaint">12.0      </ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ope_credmaint">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ope_credmaint">20090107</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ope_credmaint">20100817</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ope_credmaint">20110310</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ope_credmaint">204344</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ope_credmaint">20120326</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ope_credmaint">20120327</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ope_credmaint">140926</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ope_credmaint">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ope_credmaint">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.ope_credmaint">[+DIR_PGM]adx_dummy.aon</DD_ATTR_PRUN>
@@ -74,9 +74,9 @@
 	</ALIAS>
 	<ALIAS id="ddm_table_cpro">
 		<ID id="ddm_table_cpro">DDM_TABLE_CPRO</ID>
-		<RECORD id="ddm_table_cpro.ope_credmaintaopt">
-			<DD_TABLE_ALIAS id="ddm_table_cpro.ope_credmaintaopt">OPE_CREDMAINT   </DD_TABLE_ALIAS>
-			<DD_ATTR_CPRO id="ddm_table_cpro.ope_credmaintaopt">AOPT-RELO</DD_ATTR_CPRO>
+		<RECORD id="ddm_table_cpro.ope_credmaintaopt-relo">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.ope_credmaintaopt-relo">OPE_CREDMAINT   </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.ope_credmaintaopt-relo">AOPT-RELO</DD_ATTR_CPRO>
 		</RECORD>
 		<RECORD id="ddm_table_cpro.ope_credmaintarer">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.ope_credmaintarer">OPE_CREDMAINT   </DD_TABLE_ALIAS>
@@ -136,8 +136,8 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_credmaint001">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ope_credmaint001">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.ope_credmaint001">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.ope_credmaint001">6</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ope_credmaint001">1</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ope_credmaint001">CUSTOMER_ID</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_credmaint002">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_credmaint002">OPE_CREDMAINT   </DD_TABLE_ALIAS>
@@ -156,8 +156,8 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_credmaint002">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ope_credmaint002">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.ope_credmaint002">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.ope_credmaint002">24</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ope_credmaint002">2</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ope_credmaint002">ADDR_LINE_1</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_credmaint003">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_credmaint003">OPE_CREDMAINT   </DD_TABLE_ALIAS>
@@ -176,8 +176,8 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_credmaint003">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ope_credmaint003">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.ope_credmaint003">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.ope_credmaint003">24</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ope_credmaint003">3</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ope_credmaint003">ADDR_LINE_2</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_credmaint004">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_credmaint004">OPE_CREDMAINT   </DD_TABLE_ALIAS>
@@ -196,8 +196,8 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_credmaint004">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ope_credmaint004">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.ope_credmaint004">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.ope_credmaint004">24</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ope_credmaint004">4</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ope_credmaint004">ADDR_LINE_3</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_credmaint005">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_credmaint005">OPE_CREDMAINT   </DD_TABLE_ALIAS>
@@ -216,8 +216,8 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_credmaint005">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ope_credmaint005">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.ope_credmaint005">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.ope_credmaint005">24</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ope_credmaint005">5</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ope_credmaint005">ADDR_LINE_4</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_credmaint006">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_credmaint006">OPE_CREDMAINT   </DD_TABLE_ALIAS>
@@ -236,8 +236,8 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_credmaint006">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ope_credmaint006">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.ope_credmaint006">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.ope_credmaint006">22</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ope_credmaint006">6</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ope_credmaint006">CITY</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_credmaint007">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_credmaint007">OPE_CREDMAINT   </DD_TABLE_ALIAS>
@@ -257,8 +257,8 @@
 			<DD_ATTR_CTLH id="ddm_table_cols.ope_credmaint007">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABL id="ddm_table_cols.ope_credmaint007">State</DD_ATTR_LABL>
 			<DD_ATTR_MLAN id="ddm_table_cols.ope_credmaint007">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.ope_credmaint007">2</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ope_credmaint007">7</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ope_credmaint007">STATE_CODE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_credmaint008">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_credmaint008">OPE_CREDMAINT   </DD_TABLE_ALIAS>
@@ -278,8 +278,8 @@
 			<DD_ATTR_CTLH id="ddm_table_cols.ope_credmaint008">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABL id="ddm_table_cols.ope_credmaint008">Zip Code</DD_ATTR_LABL>
 			<DD_ATTR_MLAN id="ddm_table_cols.ope_credmaint008">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.ope_credmaint008">9</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ope_credmaint008">8</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ope_credmaint008">ZIP_CODE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_credmaint009">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_credmaint009">OPE_CREDMAINT   </DD_TABLE_ALIAS>
@@ -298,8 +298,8 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_credmaint009">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ope_credmaint009">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.ope_credmaint009">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.ope_credmaint009">24</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ope_credmaint009">9</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ope_credmaint009">COUNTRY</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_credmaint010">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_credmaint010">OPE_CREDMAINT   </DD_TABLE_ALIAS>
@@ -317,13 +317,13 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_credmaint010">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ope_credmaint010">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.ope_credmaint010">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.ope_credmaint010">20</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ope_credmaint010">10</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ope_credmaint010">CONTACT_NAME</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_credmaint011">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_credmaint011">OPE_CREDMAINT   </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_cols.ope_credmaint011">011</DD_SEQUENCE>
-			<DD_DATA_NAME id="ddm_table_cols.ope_credmaint011">PHONE_NO        </DD_DATA_NAME>
+			<DD_DATA_NAME id="ddm_table_cols.ope_credmaint011">PHONE_NUM       </DD_DATA_NAME>
 			<DD_DVAR_NAME id="ddm_table_cols.ope_credmaint011">PHONE_NO        </DD_DVAR_NAME>
 			<DD_COL_REPEATS id="ddm_table_cols.ope_credmaint011">0</DD_COL_REPEATS>
 			<DD_COL_OCCURS id="ddm_table_cols.ope_credmaint011">0</DD_COL_OCCURS>
@@ -337,8 +337,8 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_credmaint011">120</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ope_credmaint011">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.ope_credmaint011">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.ope_credmaint011">20</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ope_credmaint011">11</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ope_credmaint011">PHONE_NUM</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_credmaint012">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_credmaint012">OPE_CREDMAINT   </DD_TABLE_ALIAS>
@@ -357,8 +357,8 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_credmaint012">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ope_credmaint012">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.ope_credmaint012">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.ope_credmaint012">4</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ope_credmaint012">12</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ope_credmaint012">PHONE_EXTEN</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_credmaint013">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_credmaint013">OPE_CREDMAINT   </DD_TABLE_ALIAS>
@@ -376,8 +376,8 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_credmaint013">120</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ope_credmaint013">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.ope_credmaint013">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.ope_credmaint013">20</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ope_credmaint013">13</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ope_credmaint013">FAX_NO</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_credmaint014">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_credmaint014">OPE_CREDMAINT   </DD_TABLE_ALIAS>
@@ -396,8 +396,8 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_credmaint014">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ope_credmaint014">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.ope_credmaint014">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.ope_credmaint014">3</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ope_credmaint014">14</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ope_credmaint014">SLSPSN_CODE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_credmaint015">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_credmaint015">OPE_CREDMAINT   </DD_TABLE_ALIAS>
@@ -416,8 +416,8 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_credmaint015">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ope_credmaint015">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.ope_credmaint015">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.ope_credmaint015">2</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ope_credmaint015">15</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ope_credmaint015">AR_TERMS_CODE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_credmaint016">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_credmaint016">OPE_CREDMAINT   </DD_TABLE_ALIAS>
@@ -436,8 +436,8 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_credmaint016">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ope_credmaint016">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.ope_credmaint016">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.ope_credmaint016">1</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ope_credmaint016">16</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ope_credmaint016">CRED_HOLD</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_credmaint017">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_credmaint017">OPE_CREDMAINT   </DD_TABLE_ALIAS>
@@ -456,8 +456,8 @@
 			<DD_ATTR_CTLH id="ddm_table_cols.ope_credmaint017">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABL id="ddm_table_cols.ope_credmaint017">Future</DD_ATTR_LABL>
 			<DD_ATTR_MLAN id="ddm_table_cols.ope_credmaint017">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.ope_credmaint017">7</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ope_credmaint017">17</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ope_credmaint017">AGING_FUTURE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_credmaint018">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_credmaint018">OPE_CREDMAINT   </DD_TABLE_ALIAS>
@@ -477,8 +477,8 @@
 			<DD_ATTR_CTLH id="ddm_table_cols.ope_credmaint018">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABL id="ddm_table_cols.ope_credmaint018">Current</DD_ATTR_LABL>
 			<DD_ATTR_MLAN id="ddm_table_cols.ope_credmaint018">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.ope_credmaint018">7</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ope_credmaint018">18</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ope_credmaint018">AGING_CUR</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_credmaint019">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_credmaint019">OPE_CREDMAINT   </DD_TABLE_ALIAS>
@@ -498,8 +498,8 @@
 			<DD_ATTR_CTLH id="ddm_table_cols.ope_credmaint019">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABL id="ddm_table_cols.ope_credmaint019">30 Days</DD_ATTR_LABL>
 			<DD_ATTR_MLAN id="ddm_table_cols.ope_credmaint019">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.ope_credmaint019">7</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ope_credmaint019">19</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ope_credmaint019">AGING_30</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_credmaint020">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_credmaint020">OPE_CREDMAINT   </DD_TABLE_ALIAS>
@@ -519,8 +519,8 @@
 			<DD_ATTR_CTLH id="ddm_table_cols.ope_credmaint020">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABL id="ddm_table_cols.ope_credmaint020">60 Days</DD_ATTR_LABL>
 			<DD_ATTR_MLAN id="ddm_table_cols.ope_credmaint020">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.ope_credmaint020">7</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ope_credmaint020">20</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ope_credmaint020">AGING_60</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_credmaint021">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_credmaint021">OPE_CREDMAINT   </DD_TABLE_ALIAS>
@@ -540,8 +540,8 @@
 			<DD_ATTR_CTLH id="ddm_table_cols.ope_credmaint021">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABL id="ddm_table_cols.ope_credmaint021">90 Days</DD_ATTR_LABL>
 			<DD_ATTR_MLAN id="ddm_table_cols.ope_credmaint021">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.ope_credmaint021">7</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ope_credmaint021">21</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ope_credmaint021">AGING_90</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_credmaint022">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_credmaint022">OPE_CREDMAINT   </DD_TABLE_ALIAS>
@@ -561,8 +561,8 @@
 			<DD_ATTR_CTLH id="ddm_table_cols.ope_credmaint022">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABL id="ddm_table_cols.ope_credmaint022">120 Days</DD_ATTR_LABL>
 			<DD_ATTR_MLAN id="ddm_table_cols.ope_credmaint022">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.ope_credmaint022">7</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ope_credmaint022">22</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ope_credmaint022">AGING_120</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_credmaint023">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_credmaint023">OPE_CREDMAINT   </DD_TABLE_ALIAS>
@@ -581,8 +581,8 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_credmaint023">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ope_credmaint023">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.ope_credmaint023">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.ope_credmaint023">7</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ope_credmaint023">24</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ope_credmaint023">CREDIT_LIMIT</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_credmaint024">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_credmaint024">OPE_CREDMAINT   </DD_TABLE_ALIAS>
@@ -601,8 +601,8 @@
 			<DD_ATTR_CTLH id="ddm_table_cols.ope_credmaint024">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABL id="ddm_table_cols.ope_credmaint024">Tickler Date</DD_ATTR_LABL>
 			<DD_ATTR_MLAN id="ddm_table_cols.ope_credmaint024">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.ope_credmaint024">8</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ope_credmaint024">26</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ope_credmaint024">REV_DATE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_credmaint025">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_credmaint025">OPE_CREDMAINT   </DD_TABLE_ALIAS>
@@ -622,8 +622,8 @@
 			<DD_ATTR_CTLH id="ddm_table_cols.ope_credmaint025">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABL id="ddm_table_cols.ope_credmaint025">Order Number</DD_ATTR_LABL>
 			<DD_ATTR_MLAN id="ddm_table_cols.ope_credmaint025">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.ope_credmaint025">7</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ope_credmaint025">27</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ope_credmaint025">ORDER_NO</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_credmaint026">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_credmaint026">OPE_CREDMAINT   </DD_TABLE_ALIAS>
@@ -642,8 +642,8 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_credmaint026">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ope_credmaint026">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.ope_credmaint026">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.ope_credmaint026">8</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ope_credmaint026">28</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ope_credmaint026">ORDER_DATE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ope_credmaint027">
 			<DD_TABLE_ALIAS id="ddm_table_cols.ope_credmaint027">OPE_CREDMAINT   </DD_TABLE_ALIAS>
@@ -662,8 +662,8 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ope_credmaint027">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ope_credmaint027">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.ope_credmaint027">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.ope_credmaint027">8</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ope_credmaint027">29</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.ope_credmaint027">SHIPMNT_DATE</SQL_COLUMN_NAME>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_disp">
@@ -1042,47 +1042,50 @@
 			<DD_ATTR_LABL id="ddm_elements.contact_name">Contact Name</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.contact_name">Cont Name</DD_ATTR_LABS>
 		</RECORD>
-		<RECORD id="ddm_elements.phone_no">
-			<DD_DATA_NAME id="ddm_elements.phone_no">PHONE_NO        </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.phone_no">Telephone Number</DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.phone_no">C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.phone_no">20</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.phone_no"> </DD_MASK_TYPE>
-			<DD_SYSTEM_REC id="ddm_elements.phone_no">Y</DD_SYSTEM_REC>
-			<ASC_COMP_ID id="ddm_elements.phone_no">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.phone_no">AD </ASC_PROD_ID>
-			<DD_CREATE_DATE id="ddm_elements.phone_no">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.phone_no">20080529</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW id="ddm_elements.phone_no">0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH id="ddm_elements.phone_no">0</DD_ATTR_CTLH>
-			<DD_ATTR_CTYP id="ddm_elements.phone_no">E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOM id="ddm_elements.phone_no">            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP id="ddm_elements.phone_no">            </DD_ATTR_DEXP>
-			<DD_ATTR_LABL id="ddm_elements.phone_no">Telephone Number</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.phone_no">Tel No</DD_ATTR_LABS>
-			<DD_ATTR_MAXL id="ddm_elements.phone_no">0</DD_ATTR_MAXL>
-			<DD_ATTR_MAXR id="ddm_elements.phone_no">0</DD_ATTR_MAXR>
-			<DD_ATTR_MINL id="ddm_elements.phone_no">0</DD_ATTR_MINL>
-			<DD_ATTR_MSKI id="ddm_elements.phone_no">00000000000000000000</DD_ATTR_MSKI>
-			<DD_ATTR_PREC id="ddm_elements.phone_no">0</DD_ATTR_PREC>
-			<DD_ATTR_STYP id="ddm_elements.phone_no">T</DD_ATTR_STYP>
+		<RECORD id="ddm_elements.phone_num">
+			<DD_DATA_NAME id="ddm_elements.phone_num">PHONE_NUM       </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.phone_num">Telephone Number (Addon)</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.phone_num">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.phone_num">20</DD_DATA_LENGTH>
+			<ASC_COMP_ID id="ddm_elements.phone_num">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.phone_num">AD </ASC_PROD_ID>
+			<LOCALIZATION_EX id="ddm_elements.phone_num">N</LOCALIZATION_EX>
+			<DD_CREATE_DATE id="ddm_elements.phone_num">20120326</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.phone_num">20120326</DD_LSTREV_DATE>
+			<DD_ATTR_BLNK id="ddm_elements.phone_num">N</DD_ATTR_BLNK>
+			<DD_ATTR_CTLW id="ddm_elements.phone_num">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.phone_num">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.phone_num">E</DD_ATTR_CTYP>
+			<DD_ATTR_LABL id="ddm_elements.phone_num">Telephone Number</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.phone_num">Tel No</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.phone_num">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.phone_num">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.phone_num">0</DD_ATTR_MINL>
+			<DD_ATTR_MSKI id="ddm_elements.phone_num">00000000000000000000</DD_ATTR_MSKI>
+			<DD_ATTR_PREC id="ddm_elements.phone_num">0</DD_ATTR_PREC>
+			<DD_ATTR_STYP id="ddm_elements.phone_num">T</DD_ATTR_STYP>
 		</RECORD>
 		<RECORD id="ddm_elements.phone_exten">
 			<DD_DATA_NAME id="ddm_elements.phone_exten">PHONE_EXTEN     </DD_DATA_NAME>
 			<DD_DESCRIPTION id="ddm_elements.phone_exten">Phone Extension</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.phone_exten">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.phone_exten">4</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.phone_exten"> </DD_MASK_TYPE>
 			<DD_SYSTEM_REC id="ddm_elements.phone_exten">Y</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_elements.phone_exten">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.phone_exten">AD </ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.phone_exten">ADB</ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.phone_exten">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.phone_exten">20060315</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.phone_exten">20120326</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.phone_exten">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.phone_exten">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.phone_exten">E</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.phone_exten">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.phone_exten">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.phone_exten">Extension</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.phone_exten">Ext</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.phone_exten">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.phone_exten">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.phone_exten">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.phone_exten">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.fax_no">
 			<DD_DATA_NAME id="ddm_elements.fax_no">FAX_NO          </DD_DATA_NAME>

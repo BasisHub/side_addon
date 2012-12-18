@@ -14,13 +14,13 @@
 			<RESTRICT_CREATE id="ddm_tables.ivr_itemturns">Y</RESTRICT_CREATE>
 			<ASC_COMP_ID id="ddm_tables.ivr_itemturns">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.ivr_itemturns">IV </ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.ivr_itemturns">11.0      </ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.ivr_itemturns">12.0      </ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.ivr_itemturns">26AB790B0BB3A4BD4D075C134D576F99</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ivr_itemturns">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ivr_itemturns">20070912</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_tables.ivr_itemturns">20100517</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivr_itemturns">20110310</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivr_itemturns">204340</DD_LSTSYNC_TIME>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivr_itemturns">20120327</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivr_itemturns">140924</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ivr_itemturns">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ivr_itemturns">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.ivr_itemturns">[+DIR_PGM]ivr_itemturns.aon                      </DD_ATTR_PRUN>
@@ -62,7 +62,6 @@
 			<DD_ATTR_CTLH id="ddm_table_cols.ivr_itemturns001">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABL id="ddm_table_cols.ivr_itemturns001">Period</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_table_cols.ivr_itemturns001">Period</DD_ATTR_LABS>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivr_itemturns001">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivr_itemturns001">Enter Fiscal Period To Run Report Run</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivr_itemturns001">1</DD_ATTR_TIND>
 		</RECORD>
@@ -77,7 +76,6 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ivr_itemturns002">35</DD_ATTR_CTLW>
 			<DD_ATTR_LABL id="ddm_table_cols.ivr_itemturns002">Year</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_table_cols.ivr_itemturns002">Year</DD_ATTR_LABS>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivr_itemturns002">4</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.ivr_itemturns002">Enter Fiscal Year To Run Report Run</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ivr_itemturns002">2</DD_ATTR_TIND>
 		</RECORD>
@@ -102,7 +100,6 @@
 			<DD_COL_OCCURS id="ddm_table_cols.ivr_itemturns004">2</DD_COL_OCCURS>
 			<DD_FIELD_DELIM id="ddm_table_cols.ivr_itemturns004">N</DD_FIELD_DELIM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivr_itemturns004">35</DD_ATTR_CTLW>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivr_itemturns004">3</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ivr_itemturns004">8</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivr_itemturns005">
@@ -115,7 +112,6 @@
 			<DD_ATTR_CPGM id="ddm_table_cols.ivr_itemturns005">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivr_itemturns005">160</DD_ATTR_CTLW>
 			<DD_ATTR_LABL id="ddm_table_cols.ivr_itemturns005">Item ID</DD_ATTR_LABL>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivr_itemturns005">20</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ivr_itemturns005">9</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivr_itemturns006">
@@ -126,7 +122,6 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.ivr_itemturns006">N</DD_FIELD_DELIM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivr_itemturns006">35</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.ivr_itemturns006">0</DD_ATTR_CTLH>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivr_itemturns006">3</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ivr_itemturns006">10</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivr_itemturns007">
@@ -140,7 +135,6 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.ivr_itemturns007">61</DD_ATTR_CTLW>
 			<DD_ATTR_LABL id="ddm_table_cols.ivr_itemturns007">Above or Below</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_table_cols.ivr_itemturns007">A/B</DD_ATTR_LABS>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivr_itemturns007">1</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ivr_itemturns007">4</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivr_itemturns008">
@@ -155,7 +149,6 @@
 			<DD_ATTR_DFLT id="ddm_table_cols.ivr_itemturns008">D</DD_ATTR_DFLT>
 			<DD_ATTR_LABL id="ddm_table_cols.ivr_itemturns008">Sequence</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_table_cols.ivr_itemturns008">Seq</DD_ATTR_LABS>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivr_itemturns008">1</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.ivr_itemturns008">3</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.ivr_itemturns009">
@@ -169,7 +162,6 @@
 			<DD_ATTR_ABLC id="ddm_table_cols.ivr_itemturns009">IVR_ITEMTURNS.REPORT_SEQUENCE</DD_ATTR_ABLC>
 			<DD_ATTR_ABLV id="ddm_table_cols.ivr_itemturns009">A;B</DD_ATTR_ABLV>
 			<DD_ATTR_CTLW id="ddm_table_cols.ivr_itemturns009">56</DD_ATTR_CTLW>
-			<DD_ATTR_MAXL id="ddm_table_cols.ivr_itemturns009">7</DD_ATTR_MAXL>
 			<DD_ATTR_MINV id="ddm_table_cols.ivr_itemturns009">0</DD_ATTR_MINV>
 			<DD_ATTR_MAXV id="ddm_table_cols.ivr_itemturns009">99.99</DD_ATTR_MAXV>
 			<DD_ATTR_TIND id="ddm_table_cols.ivr_itemturns009">5</DD_ATTR_TIND>

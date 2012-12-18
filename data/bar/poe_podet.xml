@@ -14,13 +14,13 @@
 			<DD_SYSTEM_REC id="ddm_tables.poe_podet">N</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_tables.poe_podet">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.poe_podet">PO </ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.poe_podet">11.0      </ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.poe_podet">12.0      </ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.poe_podet">CAECFA361FDD3C6AC5A607CD13BA554F</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.poe_podet">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.poe_podet">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.poe_podet">20111026</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.poe_podet">20111026</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.poe_podet">122416</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.poe_podet">20120321</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.poe_podet">20120327</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.poe_podet">140928</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.poe_podet">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_DKNM id="ddm_tables.poe_podet">DISPLAY_KEY</DD_ATTR_DKNM>
 			<DD_ATTR_FTYP id="ddm_tables.poe_podet">G</DD_ATTR_FTYP>
@@ -92,7 +92,7 @@
 		<RECORD id="ddm_table_tpls.poe_podet">
 			<DD_TABLE_ALIAS id="ddm_table_tpls.poe_podet">POE_PODET       </DD_TABLE_ALIAS>
 			<DD_FILE_NAME id="ddm_table_tpls.poe_podet">poe-12</DD_FILE_NAME>
-			<DD_TABLE_TPL id="ddm_table_tpls.poe_podet">firm_id:c(2),po_no:c(7),internal_seq_no:c(12*),po_line_no:c(3),po_line_code:c(2),reserved_str:c(18),lead_tim_flg:c(1),unit_measure:c(2),location:c(10),source_code:c(1),forecast:c(3),po_msg_code:c(3),reserved_str_02:c(8),reqd_date:c(8),promise_date:c(8),not_b4_date:c(8*),req_no:c(7),wo_no:c(7),wo_seq_ref:c(3),so_int_seq_ref:c(12),warehouse_id:c(2),item_id:c(20*),order_memo:c(40*),reserved_str_03:c(1*),dealer_str:c(1*),conv_factor:n(7*),unit_cost:n(7*),req_qty:n(7*),qty_ordered:n(7*),qa_wip_qty:n(7*),qa_rec_qty:n(7*),qa_rej_qty:n(7*),qty_received:n(7*),qty_invoiced:n(7*),reserved_num_01:n(1*),reserved_num_02:n(1*),dealer_num_01:n(1*),dealer_num_02:n(1*),ns_item_id:c(20*)</DD_TABLE_TPL>
+			<DD_TABLE_TPL id="ddm_table_tpls.poe_podet">firm_id:c(2),po_no:c(7),internal_seq_no:c(12*),po_line_no:c(3),po_line_code:c(2),reserved_str:c(18),lead_tim_flg:c(1),unit_measure:c(2),location:c(10),source_code:c(1),forecast:c(3),po_msg_code:c(3),reserved_str_02:c(8),reqd_date:c(8),promise_date:c(8),not_b4_date:c(8*),req_no:c(7),wo_no:c(7),wk_ord_seq_ref:c(12),so_int_seq_ref:c(12),warehouse_id:c(2),item_id:c(20*),order_memo:c(40*),reserved_str_03:c(1*),dealer_str:c(1*),conv_factor:n(7*),unit_cost:n(7*),req_qty:n(7*),qty_ordered:n(7*),qa_wip_qty:n(7*),qa_rec_qty:n(7*),qa_rej_qty:n(7*),qty_received:n(7*),qty_invoiced:n(7*),reserved_num_01:n(1*),reserved_num_02:n(1*),dealer_num_01:n(1*),dealer_num_02:n(1*),ns_item_id:c(20*)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_keys">
@@ -332,9 +332,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_podet001">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_podet001">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_podet001">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.poe_podet001">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_podet001">Firm ID</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.poe_podet001">1</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.poe_podet001">FIRM_ID</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_podet002">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_podet002">POE_PODET       </DD_TABLE_ALIAS>
@@ -346,9 +346,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_podet002">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_podet002">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_podet002">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.poe_podet002">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_podet002">Purchase Order Number</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.poe_podet002">2</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.poe_podet002">PO_NO</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_podet003">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_podet003">POE_PODET       </DD_TABLE_ALIAS>
@@ -367,8 +367,8 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.poe_podet003">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.poe_podet003">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.poe_podet003">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.poe_podet003">12</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.poe_podet003">3</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.poe_podet003">INTERNAL_SEQ_NO</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_podet004">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_podet004">POE_PODET       </DD_TABLE_ALIAS>
@@ -384,9 +384,9 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.poe_podet004">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.poe_podet004">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABL id="ddm_table_cols.poe_podet004">PO Line Number</DD_ATTR_LABL>
-			<DD_ATTR_MAXL id="ddm_table_cols.poe_podet004">3</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_podet004">Purchase Order Line Number</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.poe_podet004">4</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.poe_podet004">PO_LINE_NO</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_podet005">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_podet005">POE_PODET       </DD_TABLE_ALIAS>
@@ -404,9 +404,9 @@
 			<DD_ATTR_LABL id="ddm_table_cols.poe_podet005">PO Line Code</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_table_cols.poe_podet005">Line Cd</DD_ATTR_LABS>
 			<DD_ATTR_MINL id="ddm_table_cols.poe_podet005">1</DD_ATTR_MINL>
-			<DD_ATTR_MAXL id="ddm_table_cols.poe_podet005">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_podet005">Purchase Order Line Code</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.poe_podet005">5</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.poe_podet005">PO_LINE_CD_LIST</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_podet006">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_podet006">POE_PODET       </DD_TABLE_ALIAS>
@@ -418,9 +418,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_podet006">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_podet006">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_podet006">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.poe_podet006">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_podet006">Reserved For Addon Use</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.poe_podet006">33</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.poe_podet006">RESERVED_STR</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_podet007">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_podet007">POE_PODET       </DD_TABLE_ALIAS>
@@ -432,9 +432,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_podet007">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_podet007">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_podet007">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.poe_podet007">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_podet007">Use Line for Lead Time Calc?</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.poe_podet007">6</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.poe_podet007">LEAD_TIM_FLG</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_podet008">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_podet008">POE_PODET       </DD_TABLE_ALIAS>
@@ -447,9 +447,9 @@
 			<DD_CREATE_DATE id="ddm_table_cols.poe_podet008">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_podet008">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_LABS id="ddm_table_cols.poe_podet008">UM</DD_ATTR_LABS>
-			<DD_ATTR_MAXL id="ddm_table_cols.poe_podet008">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_podet008">Unit of Measure</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.poe_podet008">11</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.poe_podet008">UNIT_MEASURE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_podet009">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_podet009">POE_PODET       </DD_TABLE_ALIAS>
@@ -461,9 +461,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_podet009">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_podet009">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_podet009">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.poe_podet009">10</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_podet009">Warehouse Location</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.poe_podet009">17</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.poe_podet009">LOCATION</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_podet010">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_podet010">POE_PODET       </DD_TABLE_ALIAS>
@@ -475,9 +475,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_podet010">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_podet010">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_podet010">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.poe_podet010">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_podet010">Source</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.poe_podet010">18</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.poe_podet010">SOURCE_CODE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_podet011">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_podet011">POE_PODET       </DD_TABLE_ALIAS>
@@ -491,9 +491,9 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_podet011">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.poe_podet011">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.poe_podet011">0</DD_ATTR_CTLH>
-			<DD_ATTR_MAXL id="ddm_table_cols.poe_podet011">3</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_podet011">MRP Forecast Type</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.poe_podet011">19</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.poe_podet011">FORECAST</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_podet012">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_podet012">POE_PODET       </DD_TABLE_ALIAS>
@@ -508,9 +508,9 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.poe_podet012">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.poe_podet012">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABS id="ddm_table_cols.poe_podet012">Std Msg Cd</DD_ATTR_LABS>
-			<DD_ATTR_MAXL id="ddm_table_cols.poe_podet012">3</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_podet012">PO Standard Message Code</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.poe_podet012">24</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.poe_podet012">PO_MSG_CODE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_podet013">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_podet013">POE_PODET       </DD_TABLE_ALIAS>
@@ -522,9 +522,9 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_podet013">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_podet013">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_podet013">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.poe_podet013">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_podet013">Reserved For Addon Use</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.poe_podet013">34</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.poe_podet013">RESERVED_STR</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_podet014">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_podet014">POE_PODET       </DD_TABLE_ALIAS>
@@ -537,9 +537,9 @@
 			<DD_CREATE_DATE id="ddm_table_cols.poe_podet014">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_podet014">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CPGM id="ddm_table_cols.poe_podet014">/apps/aon/;</DD_ATTR_CPGM>
-			<DD_ATTR_MAXL id="ddm_table_cols.poe_podet014">8</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_podet014">Date Required</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.poe_podet014">20</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.poe_podet014">REQD_DATE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_podet015">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_podet015">POE_PODET       </DD_TABLE_ALIAS>
@@ -552,9 +552,9 @@
 			<DD_CREATE_DATE id="ddm_table_cols.poe_podet015">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_podet015">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CPGM id="ddm_table_cols.poe_podet015">/apps/aon/;</DD_ATTR_CPGM>
-			<DD_ATTR_MAXL id="ddm_table_cols.poe_podet015">8</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_podet015">Delivery Promised By Date</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.poe_podet015">22</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.poe_podet015">PROMISE_DATE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_podet016">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_podet016">POE_PODET       </DD_TABLE_ALIAS>
@@ -568,9 +568,9 @@
 			<DD_CREATE_DATE id="ddm_table_cols.poe_podet016">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_podet016">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CPGM id="ddm_table_cols.poe_podet016">/apps/aon/;</DD_ATTR_CPGM>
-			<DD_ATTR_MAXL id="ddm_table_cols.poe_podet016">8</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_podet016">Don't Deliver Before Date</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.poe_podet016">23</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.poe_podet016">NOT_B4_DATE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_podet017">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_podet017">POE_PODET       </DD_TABLE_ALIAS>
@@ -584,8 +584,8 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.poe_podet017">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.poe_podet017">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.poe_podet017">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.poe_podet017">7</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.poe_podet017">29</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.poe_podet017">REQ_NO</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_podet018">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_podet018">POE_PODET       </DD_TABLE_ALIAS>
@@ -597,15 +597,17 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_podet018">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_podet018">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_podet018">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.poe_podet018">7</DD_ATTR_MAXL>
+			<DD_ATTR_CTLW id="ddm_table_cols.poe_podet018">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.poe_podet018">0</DD_ATTR_CTLH>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_podet018">Work Order Number</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.poe_podet018">25</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.poe_podet018">WO_NO</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_podet019">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_podet019">POE_PODET       </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_cols.poe_podet019">019</DD_SEQUENCE>
-			<DD_DATA_NAME id="ddm_table_cols.poe_podet019">SEQUENCE_REF    </DD_DATA_NAME>
-			<DD_DVAR_NAME id="ddm_table_cols.poe_podet019">WO_SEQ_REF      </DD_DVAR_NAME>
+			<DD_DATA_NAME id="ddm_table_cols.poe_podet019">SEQ_REF         </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.poe_podet019">WK_ORD_SEQ_REF  </DD_DVAR_NAME>
 			<DD_COL_REPEATS id="ddm_table_cols.poe_podet019">0</DD_COL_REPEATS>
 			<DD_COL_OCCURS id="ddm_table_cols.poe_podet019">0</DD_COL_OCCURS>
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_podet019">N</DD_FIELD_DELIM>
@@ -614,9 +616,9 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.poe_podet019">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.poe_podet019">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABS id="ddm_table_cols.poe_podet019">WO Seq No</DD_ATTR_LABS>
-			<DD_ATTR_MAXL id="ddm_table_cols.poe_podet019">3</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_podet019">Sequence Number</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.poe_podet019">26</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.poe_podet019">SEQ_REF</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_podet020">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_podet020">POE_PODET       </DD_TABLE_ALIAS>
@@ -636,8 +638,8 @@
 			<DD_ATTR_CTLH id="ddm_table_cols.poe_podet020">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABS id="ddm_table_cols.poe_podet020">SO Seq No</DD_ATTR_LABS>
 			<DD_ATTR_MLAN id="ddm_table_cols.poe_podet020">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.poe_podet020">12</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.poe_podet020">21</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.poe_podet020">SEQ_REF_LIST</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_podet021">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_podet021">POE_PODET       </DD_TABLE_ALIAS>
@@ -656,6 +658,7 @@
 			<DD_ATTR_MAXL id="ddm_table_cols.poe_podet021">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_podet021">Warehouse ID</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.poe_podet021">7</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.poe_podet021">WAREHOUSE_ID</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_podet022">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_podet022">POE_PODET       </DD_TABLE_ALIAS>
@@ -672,9 +675,9 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.poe_podet022">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.poe_podet022">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABS id="ddm_table_cols.poe_podet022">Item ID</DD_ATTR_LABS>
-			<DD_ATTR_MAXL id="ddm_table_cols.poe_podet022">20</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_podet022">Inventory Item Number</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.poe_podet022">9</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.poe_podet022">ITEM_ID_INPUT</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_podet023">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_podet023">POE_PODET       </DD_TABLE_ALIAS>
@@ -687,9 +690,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_podet023">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_podet023">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_podet023">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.poe_podet023">40</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_podet023">Memo / Non-Stock Description</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.poe_podet023">10</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.poe_podet023">ORDER_MEMO</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_podet024">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_podet024">POE_PODET       </DD_TABLE_ALIAS>
@@ -708,8 +711,8 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.poe_podet024">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.poe_podet024">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.poe_podet024">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.poe_podet024">1</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.poe_podet024">38</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.poe_podet024">RESERVED_STR</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_podet025">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_podet025">POE_PODET       </DD_TABLE_ALIAS>
@@ -722,9 +725,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_podet025">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_podet025">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_podet025">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.poe_podet025">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_podet025">Reserved For Dealer Use</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.poe_podet025">35</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.poe_podet025">DEALER_STR</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_podet026">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_podet026">POE_PODET       </DD_TABLE_ALIAS>
@@ -737,9 +740,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_podet026">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_podet026">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_podet026">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.poe_podet026">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_podet026">Conversion Factor</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.poe_podet026">12</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.poe_podet026">CONV_FACTOR</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_podet027">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_podet027">POE_PODET       </DD_TABLE_ALIAS>
@@ -754,9 +757,9 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_podet027">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CPGM id="ddm_table_cols.poe_podet027">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.poe_podet027">0</DD_ATTR_CTLW>
-			<DD_ATTR_MAXL id="ddm_table_cols.poe_podet027">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_podet027">Unit Cost</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.poe_podet027">15</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.poe_podet027">UNIT_COST</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_podet028">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_podet028">POE_PODET       </DD_TABLE_ALIAS>
@@ -771,9 +774,9 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_podet028">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.poe_podet028">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.poe_podet028">0</DD_ATTR_CTLH>
-			<DD_ATTR_MAXL id="ddm_table_cols.poe_podet028">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_podet028">Requisition Quantity</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.poe_podet028">28</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.poe_podet028">REQ_QTY</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_podet029">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_podet029">POE_PODET       </DD_TABLE_ALIAS>
@@ -789,9 +792,9 @@
 			<DD_ATTR_CPGM id="ddm_table_cols.poe_podet029">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.poe_podet029">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.poe_podet029">0</DD_ATTR_CTLH>
-			<DD_ATTR_MAXL id="ddm_table_cols.poe_podet029">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_podet029">Quantity Ordered</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.poe_podet029">13</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.poe_podet029">QTY_ORDERED</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_podet030">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_podet030">POE_PODET       </DD_TABLE_ALIAS>
@@ -804,9 +807,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_podet030">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_podet030">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_podet030">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.poe_podet030">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_podet030">QA Work in Process Quantity</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.poe_podet030">27</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.poe_podet030">QA_WIP_QTY</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_podet031">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_podet031">POE_PODET       </DD_TABLE_ALIAS>
@@ -819,9 +822,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_podet031">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_podet031">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_podet031">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.poe_podet031">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_podet031">QA Quantity Received</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.poe_podet031">30</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.poe_podet031">QA_REC_QTY</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_podet032">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_podet032">POE_PODET       </DD_TABLE_ALIAS>
@@ -834,9 +837,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_podet032">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_podet032">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_podet032">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.poe_podet032">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_podet032">QA Quantity Rejected</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.poe_podet032">31</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.poe_podet032">QA_REJ_QTY</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_podet033">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_podet033">POE_PODET       </DD_TABLE_ALIAS>
@@ -849,9 +852,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_podet033">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_podet033">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_podet033">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.poe_podet033">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_podet033">Quantity Received</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.poe_podet033">14</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.poe_podet033">QTY_RECEIVED</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_podet034">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_podet034">POE_PODET       </DD_TABLE_ALIAS>
@@ -864,9 +867,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_podet034">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_podet034">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_podet034">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.poe_podet034">7</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_podet034">Quantity Invoiced</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.poe_podet034">32</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.poe_podet034">QTY_INVOICED</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_podet035">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_podet035">POE_PODET       </DD_TABLE_ALIAS>
@@ -879,9 +882,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_podet035">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_podet035">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_podet035">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.poe_podet035">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_podet035">Reserved For Addon Use</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.poe_podet035">36</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.poe_podet035">RESERVED_NUM</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_podet036">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_podet036">POE_PODET       </DD_TABLE_ALIAS>
@@ -894,9 +897,9 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.poe_podet036">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_podet036">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_podet036">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_MAXL id="ddm_table_cols.poe_podet036">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.poe_podet036">Reserved For Dealer Use</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.poe_podet036">37</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.poe_podet036">DEALER_NUM</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.poe_podet037">
 			<DD_TABLE_ALIAS id="ddm_table_cols.poe_podet037">POE_PODET       </DD_TABLE_ALIAS>
@@ -915,8 +918,8 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.poe_podet037">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.poe_podet037">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.poe_podet037">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.poe_podet037">20</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.poe_podet037">8</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.poe_podet037">NS_ITEM_ID</SQL_COLUMN_NAME>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_disp">
@@ -1076,10 +1079,10 @@
 			<DD_DVAR_NAME id="ddm_column_opts.poe_podetwo_noc">WO_NO           </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.poe_podetwo_noc">C</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD id="ddm_column_opts.poe_podetwo_seq_refc">
-			<DD_TABLE_ALIAS id="ddm_column_opts.poe_podetwo_seq_refc">POE_PODET       </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.poe_podetwo_seq_refc">WO_SEQ_REF      </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.poe_podetwo_seq_refc">C</DD_ATTR_OPTS>
+		<RECORD id="ddm_column_opts.poe_podetwk_ord_seq_refc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.poe_podetwk_ord_seq_refc">POE_PODET       </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.poe_podetwk_ord_seq_refc">WK_ORD_SEQ_REF  </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.poe_podetwk_ord_seq_refc">C</DD_ATTR_OPTS>
 		</RECORD>
 		<RECORD id="ddm_column_opts.poe_podetwarehouse_idc">
 			<DD_TABLE_ALIAS id="ddm_column_opts.poe_podetwarehouse_idc">POE_PODET       </DD_TABLE_ALIAS>
@@ -1149,21 +1152,23 @@
 			<DD_DESCRIPTION id="ddm_elements.firm_id">Firm ID</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.firm_id">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.firm_id">2</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.firm_id"> </DD_MASK_TYPE>
 			<DD_SYSTEM_REC id="ddm_elements.firm_id">Y</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_elements.firm_id">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.firm_id">AD </ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.firm_id">ADB</ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.firm_id">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.firm_id">20060425</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.firm_id">20120326</DD_LSTREV_DATE>
+			<DD_ATTR_BLNK id="ddm_elements.firm_id">N</DD_ATTR_BLNK>
+			<DD_ATTR_CTLW id="ddm_elements.firm_id">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.firm_id">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.firm_id">H</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.firm_id">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.firm_id">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABS>
-			<DD_ATTR_MSKI id="ddm_elements.firm_id">00</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO id="ddm_elements.firm_id">00</DD_ATTR_MSKO>
-			<DD_ATTR_PADC id="ddm_elements.firm_id">30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ id="ddm_elements.firm_id">R</DD_ATTR_PADJ>
+			<DD_ATTR_MAXL id="ddm_elements.firm_id">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.firm_id">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.firm_id">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.firm_id">0</DD_ATTR_PREC>
 			<DD_ATTR_PVAL id="ddm_elements.firm_id">stbl("+FIRM_ID")</DD_ATTR_PVAL>
 		</RECORD>
 		<RECORD id="ddm_elements.po_no">
@@ -1268,20 +1273,26 @@
 		</RECORD>
 		<RECORD id="ddm_elements.reserved_str">
 			<DD_DATA_NAME id="ddm_elements.reserved_str">RESERVED_STR    </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.reserved_str">Reserved For Addon Use        </DD_DESCRIPTION>
+			<DD_DESCRIPTION id="ddm_elements.reserved_str">Reserved For Addon Use</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.reserved_str">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.reserved_str">1</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.reserved_str"> </DD_MASK_TYPE>
 			<DD_SYSTEM_REC id="ddm_elements.reserved_str">Y</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_elements.reserved_str">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.reserved_str">AD </ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.reserved_str">ADB</ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.reserved_str">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.reserved_str">20060119</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.reserved_str">20120326</DD_LSTREV_DATE>
+			<DD_ATTR_BLNK id="ddm_elements.reserved_str">N</DD_ATTR_BLNK>
+			<DD_ATTR_CTLW id="ddm_elements.reserved_str">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.reserved_str">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.reserved_str">X</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.reserved_str">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.reserved_str">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.reserved_str">Reserved For Addon Use</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.reserved_str">Res For Addon Use</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.reserved_str">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.reserved_str">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.reserved_str">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.reserved_str">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.lead_tim_flg">
 			<DD_DATA_NAME id="ddm_elements.lead_tim_flg">LEAD_TIM_FLG    </DD_DATA_NAME>
@@ -1478,44 +1489,54 @@
 		</RECORD>
 		<RECORD id="ddm_elements.wo_no">
 			<DD_DATA_NAME id="ddm_elements.wo_no">WO_NO           </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.wo_no">Work Order Number             </DD_DESCRIPTION>
+			<DD_DESCRIPTION id="ddm_elements.wo_no">Work Order Number</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.wo_no">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.wo_no">7</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.wo_no"> </DD_MASK_TYPE>
 			<ASC_COMP_ID id="ddm_elements.wo_no">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_elements.wo_no">AD </ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.wo_no">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.wo_no">20060119</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.wo_no">20111214</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.wo_no">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.wo_no">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.wo_no">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOL id="ddm_elements.wo_no">ITEM_ID</DD_ATTR_DCOL>
 			<DD_ATTR_DCOM id="ddm_elements.wo_no">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.wo_no">            </DD_ATTR_DEXP>
+			<DD_ATTR_DKEY id="ddm_elements.wo_no">[+FIRM_ID]+"  "+@</DD_ATTR_DKEY>
+			<DD_ATTR_DTAB id="ddm_elements.wo_no">SFE_WOMASTR     </DD_ATTR_DTAB>
 			<DD_ATTR_LABL id="ddm_elements.wo_no">Work Order Number</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.wo_no">WO No</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.wo_no">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.wo_no">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.wo_no">0</DD_ATTR_MINL>
 			<DD_ATTR_MSKI id="ddm_elements.wo_no">0000000</DD_ATTR_MSKI>
 			<DD_ATTR_MSKO id="ddm_elements.wo_no">0000000</DD_ATTR_MSKO>
 			<DD_ATTR_PADC id="ddm_elements.wo_no">30</DD_ATTR_PADC>
 			<DD_ATTR_PADJ id="ddm_elements.wo_no">R</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.wo_no">0</DD_ATTR_PREC>
 		</RECORD>
-		<RECORD id="ddm_elements.sequence_ref">
-			<DD_DATA_NAME id="ddm_elements.sequence_ref">SEQUENCE_REF    </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.sequence_ref">Sequence number reference</DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.sequence_ref">C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.sequence_ref">3</DD_DATA_LENGTH>
-			<ASC_COMP_ID id="ddm_elements.sequence_ref">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.sequence_ref">AD </ASC_PROD_ID>
-			<LOCALIZATION_EX id="ddm_elements.sequence_ref">N</LOCALIZATION_EX>
-			<DD_CREATE_DATE id="ddm_elements.sequence_ref">20090305</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.sequence_ref">20090305</DD_LSTREV_DATE>
-			<DD_ATTR_BLNK id="ddm_elements.sequence_ref">N</DD_ATTR_BLNK>
-			<DD_ATTR_CTLW id="ddm_elements.sequence_ref">0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH id="ddm_elements.sequence_ref">0</DD_ATTR_CTLH>
-			<DD_ATTR_CTYP id="ddm_elements.sequence_ref">E</DD_ATTR_CTYP>
-			<DD_ATTR_LABL id="ddm_elements.sequence_ref">Sequence number reference</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.sequence_ref">Seq no ref</DD_ATTR_LABS>
-			<DD_ATTR_MAXL id="ddm_elements.sequence_ref">0</DD_ATTR_MAXL>
-			<DD_ATTR_MAXR id="ddm_elements.sequence_ref">0</DD_ATTR_MAXR>
-			<DD_ATTR_MINL id="ddm_elements.sequence_ref">0</DD_ATTR_MINL>
-			<DD_ATTR_PREC id="ddm_elements.sequence_ref">0</DD_ATTR_PREC>
+		<RECORD id="ddm_elements.seq_ref">
+			<DD_DATA_NAME id="ddm_elements.seq_ref">SEQ_REF         </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.seq_ref">Sequence Reference Number</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.seq_ref">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.seq_ref">12</DD_DATA_LENGTH>
+			<ASC_COMP_ID id="ddm_elements.seq_ref">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.seq_ref">AD </ASC_PROD_ID>
+			<LOCALIZATION_EX id="ddm_elements.seq_ref">N</LOCALIZATION_EX>
+			<DD_CREATE_DATE id="ddm_elements.seq_ref">20081124</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.seq_ref">20081124</DD_LSTREV_DATE>
+			<DD_ATTR_BLNK id="ddm_elements.seq_ref">N</DD_ATTR_BLNK>
+			<DD_ATTR_CTLW id="ddm_elements.seq_ref">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.seq_ref">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.seq_ref">E</DD_ATTR_CTYP>
+			<DD_ATTR_LABL id="ddm_elements.seq_ref">Sequence Ref Number</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.seq_ref">Sequence Ref Number</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.seq_ref">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.seq_ref">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.seq_ref">0</DD_ATTR_MINL>
+			<DD_ATTR_PADC id="ddm_elements.seq_ref">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.seq_ref">R</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.seq_ref">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.seq_ref_list">
 			<DD_DATA_NAME id="ddm_elements.seq_ref_list">SEQ_REF_LIST    </DD_DATA_NAME>

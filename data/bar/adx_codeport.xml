@@ -15,12 +15,12 @@
 			<RESTRICT_AUTOADD id="ddm_tables.adx_codeport">Y</RESTRICT_AUTOADD>
 			<ASC_COMP_ID id="ddm_tables.adx_codeport">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.adx_codeport">AD </ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.adx_codeport">11.0      </ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.adx_codeport">12.0      </ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.adx_codeport">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.adx_codeport">20101228</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_tables.adx_codeport">20110103</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.adx_codeport">20110310</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.adx_codeport">204338</DD_LSTSYNC_TIME>
+			<DD_LSTSYNC_DATE id="ddm_tables.adx_codeport">20120327</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.adx_codeport">135458</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.adx_codeport">/dev_addon/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.adx_codeport">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.adx_codeport">[+DIR_PGM]adx_codeport.bbj</DD_ATTR_PRUN>
@@ -43,9 +43,9 @@
 			<DD_TABLE_ALIAS id="ddm_table_cpro.adx_codeportacus">ADX_CODEPORT    </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.adx_codeportacus">ACUS</DD_ATTR_CPRO>
 		</RECORD>
-		<RECORD id="ddm_table_cpro.adx_codeportaopt">
-			<DD_TABLE_ALIAS id="ddm_table_cpro.adx_codeportaopt">ADX_CODEPORT    </DD_TABLE_ALIAS>
-			<DD_ATTR_CPRO id="ddm_table_cpro.adx_codeportaopt">AOPT-SCAN</DD_ATTR_CPRO>
+		<RECORD id="ddm_table_cpro.adx_codeportaopt-scan">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.adx_codeportaopt-scan">ADX_CODEPORT    </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.adx_codeportaopt-scan">AOPT-SCAN</DD_ATTR_CPRO>
 		</RECORD>
 		<RECORD id="ddm_table_cpro.adx_codeportasiz">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.adx_codeportasiz">ADX_CODEPORT    </DD_TABLE_ALIAS>
@@ -86,7 +86,6 @@
 			<DD_ATTR_DFLT id="ddm_table_cols.adx_codeport001">6</DD_ATTR_DFLT>
 			<DD_ATTR_MLAN id="ddm_table_cols.adx_codeport001">N</DD_ATTR_MLAN>
 			<DD_ATTR_MINL id="ddm_table_cols.adx_codeport001">1</DD_ATTR_MINL>
-			<DD_ATTR_MAXL id="ddm_table_cols.adx_codeport001">1</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.adx_codeport001">1</DD_ATTR_TIND>
 		</RECORD>
 		<RECORD id="ddm_table_cols.adx_codeport002">
@@ -108,7 +107,6 @@
 			<DD_ATTR_LABS id="ddm_table_cols.adx_codeport002">Legacy Pgms</DD_ATTR_LABS>
 			<DD_ATTR_MLAN id="ddm_table_cols.adx_codeport002">N</DD_ATTR_MLAN>
 			<DD_ATTR_MINL id="ddm_table_cols.adx_codeport002">1</DD_ATTR_MINL>
-			<DD_ATTR_MAXL id="ddm_table_cols.adx_codeport002">256</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.adx_codeport002">Location of Version 6/7 tokenized files</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.adx_codeport002">2</DD_ATTR_TIND>
 		</RECORD>
@@ -130,7 +128,6 @@
 			<DD_ATTR_LABS id="ddm_table_cols.adx_codeport003">Dest Dir</DD_ATTR_LABS>
 			<DD_ATTR_MLAN id="ddm_table_cols.adx_codeport003">N</DD_ATTR_MLAN>
 			<DD_ATTR_MINL id="ddm_table_cols.adx_codeport003">1</DD_ATTR_MINL>
-			<DD_ATTR_MAXL id="ddm_table_cols.adx_codeport003">256</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.adx_codeport003">Directory in which to save new source files</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.adx_codeport003">3</DD_ATTR_TIND>
 		</RECORD>
@@ -152,7 +149,6 @@
 			<DD_ATTR_LABL id="ddm_table_cols.adx_codeport004">Overwrite without Prompting</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_table_cols.adx_codeport004">Overwrite Prompt</DD_ATTR_LABS>
 			<DD_ATTR_MLAN id="ddm_table_cols.adx_codeport004">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.adx_codeport004">1</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.adx_codeport004">Yes to overwrite any existing file, No to be prompted</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.adx_codeport004">9</DD_ATTR_TIND>
 		</RECORD>
@@ -174,7 +170,6 @@
 			<DD_ATTR_LABL id="ddm_table_cols.adx_codeport005">Number of Input Args</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_table_cols.adx_codeport005">Input Args</DD_ATTR_LABS>
 			<DD_ATTR_MLAN id="ddm_table_cols.adx_codeport005">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.adx_codeport005">30</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.adx_codeport005">Three character extension for new source file</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.adx_codeport005">6</DD_ATTR_TIND>
 		</RECORD>
@@ -196,7 +191,6 @@
 			<DD_ATTR_LABL id="ddm_table_cols.adx_codeport006">New Src File Extension</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_table_cols.adx_codeport006">Src Ext</DD_ATTR_LABS>
 			<DD_ATTR_MLAN id="ddm_table_cols.adx_codeport006">N</DD_ATTR_MLAN>
-			<DD_ATTR_MAXL id="ddm_table_cols.adx_codeport006">30</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.adx_codeport006">Number of desired option! placeholders for new file</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.adx_codeport006">5</DD_ATTR_TIND>
 		</RECORD>
@@ -207,14 +201,6 @@
 			<DD_TABLE_ALIAS id="ddm_column_cpro.adx_codeportsource_diraval">ADX_CODEPORT    </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_cpro.adx_codeportsource_diraval">SOURCE_DIR      </DD_DVAR_NAME>
 			<DD_ATTR_CPRO id="ddm_column_cpro.adx_codeportsource_diraval">AVAL</DD_ATTR_CPRO>
-		</RECORD>
-	</ALIAS>
-	<ALIAS id="ddm_column_opts">
-		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
-		<RECORD id="ddm_column_opts.adx_codeportaddon_versionk">
-			<DD_TABLE_ALIAS id="ddm_column_opts.adx_codeportaddon_versionk">ADX_CODEPORT    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.adx_codeportaddon_versionk">ADDON_VERSION   </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.adx_codeportaddon_versionk">k</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">
@@ -289,9 +275,9 @@
 			<DD_DATA_TYPE id="ddm_elements.text_30">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.text_30">30</DD_DATA_LENGTH>
 			<ASC_COMP_ID id="ddm_elements.text_30">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.text_30">AD </ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.text_30">ADB</ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.text_30">20080326</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.text_30">20080326</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.text_30">20120326</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_elements.text_30">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_elements.text_30">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.text_30">E</DD_ATTR_CTYP>

@@ -5,21 +5,22 @@
 		<RECORD id="ddm_tables.+glcontrol">
 			<DD_TABLE_ALIAS id="ddm_tables.+glcontrol">+GLCONTROL      </DD_TABLE_ALIAS>
 			<DD_ALIAS_DESC id="ddm_tables.+glcontrol">GL Posting Control Global</DD_ALIAS_DESC>
-			<DD_TABLE_PATH id="ddm_tables.+glcontrol">[+ADDATA]</DD_TABLE_PATH>
+			<DD_TABLE_PATH id="ddm_tables.+glcontrol">[+DEFAULT]</DD_TABLE_PATH>
 			<DD_ALIAS_TYPE id="ddm_tables.+glcontrol">R</DD_ALIAS_TYPE>
 			<DD_KEY_LENGTH id="ddm_tables.+glcontrol">0</DD_KEY_LENGTH>
 			<DD_NBR_RECORD id="ddm_tables.+glcontrol">0</DD_NBR_RECORD>
 			<DD_RECORD_LEN id="ddm_tables.+glcontrol">0</DD_RECORD_LEN>
 			<RESTRICT_CREATE id="ddm_tables.+glcontrol">Y</RESTRICT_CREATE>
+			<RESTRICT_AUTOADD id="ddm_tables.+glcontrol">Y</RESTRICT_AUTOADD>
 			<ASC_COMP_ID id="ddm_tables.+glcontrol">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.+glcontrol">AD </ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.+glcontrol">11.0      </ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.+glcontrol">12.0      </ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.+glcontrol">231F211DB6339ED08228F8C3A115EACC</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.+glcontrol">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.+glcontrol">20060425</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.+glcontrol">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.+glcontrol">20110310</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.+glcontrol">204338</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.+glcontrol">20120326</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.+glcontrol">20120327</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.+glcontrol">140918</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.+glcontrol">X</DD_ATTR_FTYP>
 			<DD_ATTR_WINT id="ddm_tables.+glcontrol">GL Posting Control Global</DD_ATTR_WINT>
 		</RECORD>
@@ -43,6 +44,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol001">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol001">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol001">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol001">FIRM_ID</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.+glcontrol002">
 			<DD_TABLE_ALIAS id="ddm_table_cols.+glcontrol002">+GLCONTROL      </DD_TABLE_ALIAS>
@@ -54,6 +56,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol002">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol002">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol002">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol002">SYSTEM_ID</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.+glcontrol003">
 			<DD_TABLE_ALIAS id="ddm_table_cols.+glcontrol003">+GLCONTROL      </DD_TABLE_ALIAS>
@@ -65,6 +68,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol003">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol003">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol003">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol003">POST_GL</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.+glcontrol004">
 			<DD_TABLE_ALIAS id="ddm_table_cols.+glcontrol004">+GLCONTROL      </DD_TABLE_ALIAS>
@@ -74,6 +78,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol004">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol004">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol004">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol004">CURRENT_PER</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.+glcontrol005">
 			<DD_TABLE_ALIAS id="ddm_table_cols.+glcontrol005">+GLCONTROL      </DD_TABLE_ALIAS>
@@ -83,6 +88,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol005">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol005">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol005">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol005">CURRENT_YEAR</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.+glcontrol006">
 			<DD_TABLE_ALIAS id="ddm_table_cols.+glcontrol006">+GLCONTROL      </DD_TABLE_ALIAS>
@@ -92,6 +98,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol006">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol006">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol006">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol006">JOURNAL_ID</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.+glcontrol007">
 			<DD_TABLE_ALIAS id="ddm_table_cols.+glcontrol007">+GLCONTROL      </DD_TABLE_ALIAS>
@@ -103,6 +110,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol007">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol007">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol007">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol007">GL_ADT_NO</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.+glcontrol008">
 			<DD_TABLE_ALIAS id="ddm_table_cols.+glcontrol008">+GLCONTROL      </DD_TABLE_ALIAS>
@@ -114,6 +122,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol008">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol008">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol008">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol008">UPDATE_FLAG</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.+glcontrol009">
 			<DD_TABLE_ALIAS id="ddm_table_cols.+glcontrol009">+GLCONTROL      </DD_TABLE_ALIAS>
@@ -125,6 +134,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol009">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol009">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol009">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol009">TOTAL_PERS</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.+glcontrol010">
 			<DD_TABLE_ALIAS id="ddm_table_cols.+glcontrol010">+GLCONTROL      </DD_TABLE_ALIAS>
@@ -136,6 +146,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol010">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol010">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol010">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol010">GL_PERIOD</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.+glcontrol011">
 			<DD_TABLE_ALIAS id="ddm_table_cols.+glcontrol011">+GLCONTROL      </DD_TABLE_ALIAS>
@@ -147,6 +158,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol011">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol011">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol011">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol011">GL_YEAR</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.+glcontrol012">
 			<DD_TABLE_ALIAS id="ddm_table_cols.+glcontrol012">+GLCONTROL      </DD_TABLE_ALIAS>
@@ -158,6 +170,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol012">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol012">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol012">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol012">ACCT_LENGTH</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.+glcontrol013">
 			<DD_TABLE_ALIAS id="ddm_table_cols.+glcontrol013">+GLCONTROL      </DD_TABLE_ALIAS>
@@ -169,6 +182,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol013">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol013">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol013">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol013">MAX_ACCT_LEN</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.+glcontrol014">
 			<DD_TABLE_ALIAS id="ddm_table_cols.+glcontrol014">+GLCONTROL      </DD_TABLE_ALIAS>
@@ -180,6 +194,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol014">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol014">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol014">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol014">DETAIL_FLAG</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.+glcontrol015">
 			<DD_TABLE_ALIAS id="ddm_table_cols.+glcontrol015">+GLCONTROL      </DD_TABLE_ALIAS>
@@ -191,6 +206,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol015">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol015">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol015">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol015">BUDGET_FLAG</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.+glcontrol016">
 			<DD_TABLE_ALIAS id="ddm_table_cols.+glcontrol016">+GLCONTROL      </DD_TABLE_ALIAS>
@@ -202,6 +218,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol016">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol016">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol016">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol016">UNITS_FLAG</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.+glcontrol017">
 			<DD_TABLE_ALIAS id="ddm_table_cols.+glcontrol017">+GLCONTROL      </DD_TABLE_ALIAS>
@@ -213,6 +230,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol017">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol017">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol017">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol017">RETAIN_DET</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.+glcontrol018">
 			<DD_TABLE_ALIAS id="ddm_table_cols.+glcontrol018">+GLCONTROL      </DD_TABLE_ALIAS>
@@ -224,6 +242,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol018">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol018">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol018">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol018">GL_YR_CLOSED</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.+glcontrol019">
 			<DD_TABLE_ALIAS id="ddm_table_cols.+glcontrol019">+GLCONTROL      </DD_TABLE_ALIAS>
@@ -235,6 +254,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol019">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol019">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol019">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol019">GL_POST_CODE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.+glcontrol020">
 			<DD_TABLE_ALIAS id="ddm_table_cols.+glcontrol020">+GLCONTROL      </DD_TABLE_ALIAS>
@@ -246,6 +266,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol020">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol020">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol020">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol020">PERMIT_JE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.+glcontrol021">
 			<DD_TABLE_ALIAS id="ddm_table_cols.+glcontrol021">+GLCONTROL      </DD_TABLE_ALIAS>
@@ -257,6 +278,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol021">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol021">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol021">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol021">POST_YR_END</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.+glcontrol022">
 			<DD_TABLE_ALIAS id="ddm_table_cols.+glcontrol022">+GLCONTROL      </DD_TABLE_ALIAS>
@@ -268,6 +290,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol022">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol022">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol022">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol022">POST_LOCKED</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.+glcontrol023">
 			<DD_TABLE_ALIAS id="ddm_table_cols.+glcontrol023">+GLCONTROL      </DD_TABLE_ALIAS>
@@ -279,6 +302,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol023">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol023">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol023">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol023">GL_AUDIT</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.+glcontrol024">
 			<DD_TABLE_ALIAS id="ddm_table_cols.+glcontrol024">+GLCONTROL      </DD_TABLE_ALIAS>
@@ -290,6 +314,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol024">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol024">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol024">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol024">GL_WORK_FILE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.+glcontrol025">
 			<DD_TABLE_ALIAS id="ddm_table_cols.+glcontrol025">+GLCONTROL      </DD_TABLE_ALIAS>
@@ -301,6 +326,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol025">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol025">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol025">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol025">PRT_GL_SUM</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.+glcontrol026">
 			<DD_TABLE_ALIAS id="ddm_table_cols.+glcontrol026">+GLCONTROL      </DD_TABLE_ALIAS>
@@ -312,6 +338,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol026">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol026">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol026">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol026">DESCRIPTION</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.+glcontrol027">
 			<DD_TABLE_ALIAS id="ddm_table_cols.+glcontrol027">+GLCONTROL      </DD_TABLE_ALIAS>
@@ -323,6 +350,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol027">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol027">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol027">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol027">TRNS_DATE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.+glcontrol028">
 			<DD_TABLE_ALIAS id="ddm_table_cols.+glcontrol028">+GLCONTROL      </DD_TABLE_ALIAS>
@@ -334,6 +362,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol028">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol028">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol028">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol028">PERIOD</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.+glcontrol029">
 			<DD_TABLE_ALIAS id="ddm_table_cols.+glcontrol029">+GLCONTROL      </DD_TABLE_ALIAS>
@@ -345,6 +374,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol029">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol029">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol029">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol029">YEAR</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.+glcontrol030">
 			<DD_TABLE_ALIAS id="ddm_table_cols.+glcontrol030">+GLCONTROL      </DD_TABLE_ALIAS>
@@ -356,6 +386,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol030">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol030">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol030">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol030">PRI_PER_BEG</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.+glcontrol031">
 			<DD_TABLE_ALIAS id="ddm_table_cols.+glcontrol031">+GLCONTROL      </DD_TABLE_ALIAS>
@@ -367,6 +398,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol031">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol031">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol031">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol031">CUR_PER_BEG</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.+glcontrol032">
 			<DD_TABLE_ALIAS id="ddm_table_cols.+glcontrol032">+GLCONTROL      </DD_TABLE_ALIAS>
@@ -378,6 +410,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol032">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol032">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol032">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol032">NXT_PER_BEG</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.+glcontrol033">
 			<DD_TABLE_ALIAS id="ddm_table_cols.+glcontrol033">+GLCONTROL      </DD_TABLE_ALIAS>
@@ -389,6 +422,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol033">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol033">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol033">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol033">PRI_PER_END</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.+glcontrol034">
 			<DD_TABLE_ALIAS id="ddm_table_cols.+glcontrol034">+GLCONTROL      </DD_TABLE_ALIAS>
@@ -400,6 +434,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol034">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol034">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol034">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol034">CUR_PER_END</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.+glcontrol035">
 			<DD_TABLE_ALIAS id="ddm_table_cols.+glcontrol035">+GLCONTROL      </DD_TABLE_ALIAS>
@@ -411,6 +446,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol035">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol035">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol035">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol035">NXT_PER_END</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.+glcontrol036">
 			<DD_TABLE_ALIAS id="ddm_table_cols.+glcontrol036">+GLCONTROL      </DD_TABLE_ALIAS>
@@ -422,6 +458,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol036">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol036">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol036">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol036">LOCKED_FLAG</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.+glcontrol037">
 			<DD_TABLE_ALIAS id="ddm_table_cols.+glcontrol037">+GLCONTROL      </DD_TABLE_ALIAS>
@@ -433,6 +470,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol037">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol037">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol037">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol037">APP_PER_BEG</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.+glcontrol038">
 			<DD_TABLE_ALIAS id="ddm_table_cols.+glcontrol038">+GLCONTROL      </DD_TABLE_ALIAS>
@@ -444,6 +482,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol038">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol038">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol038">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol038">APP_PER_END</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.+glcontrol039">
 			<DD_TABLE_ALIAS id="ddm_table_cols.+glcontrol039">+GLCONTROL      </DD_TABLE_ALIAS>
@@ -455,6 +494,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol039">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol039">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol039">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol039">GL_PER_BEG</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.+glcontrol040">
 			<DD_TABLE_ALIAS id="ddm_table_cols.+glcontrol040">+GLCONTROL      </DD_TABLE_ALIAS>
@@ -466,17 +506,19 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol040">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol040">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol040">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol040">GL_PER_END</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.+glcontrol041">
 			<DD_TABLE_ALIAS id="ddm_table_cols.+glcontrol041">+GLCONTROL      </DD_TABLE_ALIAS>
 			<DD_SEQUENCE id="ddm_table_cols.+glcontrol041">041</DD_SEQUENCE>
-			<DD_DATA_NAME id="ddm_table_cols.+glcontrol041">PROCESS_ID      </DD_DATA_NAME>
+			<DD_DATA_NAME id="ddm_table_cols.+glcontrol041">PROC_ID         </DD_DATA_NAME>
 			<DD_DVAR_NAME id="ddm_table_cols.+glcontrol041">PROCESS_ID      </DD_DVAR_NAME>
 			<DD_COL_REPEATS id="ddm_table_cols.+glcontrol041">0</DD_COL_REPEATS>
 			<DD_COL_OCCURS id="ddm_table_cols.+glcontrol041">0</DD_COL_OCCURS>
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol041">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol041">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol041">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol041">PROC_ID</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.+glcontrol042">
 			<DD_TABLE_ALIAS id="ddm_table_cols.+glcontrol042">+GLCONTROL      </DD_TABLE_ALIAS>
@@ -488,6 +530,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol042">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol042">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol042">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol042">PROGRAM_NAME</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.+glcontrol043">
 			<DD_TABLE_ALIAS id="ddm_table_cols.+glcontrol043">+GLCONTROL      </DD_TABLE_ALIAS>
@@ -499,6 +542,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol043">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol043">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol043">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol043">USE_SUSPENSE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.+glcontrol044">
 			<DD_TABLE_ALIAS id="ddm_table_cols.+glcontrol044">+GLCONTROL      </DD_TABLE_ALIAS>
@@ -510,6 +554,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol044">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol044">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol044">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol044">GL_ACCOUNT</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.+glcontrol045">
 			<DD_TABLE_ALIAS id="ddm_table_cols.+glcontrol045">+GLCONTROL      </DD_TABLE_ALIAS>
@@ -521,6 +566,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol045">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol045">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol045">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol045">MAX_LIM_STR</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.+glcontrol046">
 			<DD_TABLE_ALIAS id="ddm_table_cols.+glcontrol046">+GLCONTROL      </DD_TABLE_ALIAS>
@@ -532,6 +578,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol046">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol046">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol046">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol046">MAX_BAL_STR</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.+glcontrol047">
 			<DD_TABLE_ALIAS id="ddm_table_cols.+glcontrol047">+GLCONTROL      </DD_TABLE_ALIAS>
@@ -543,6 +590,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol047">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol047">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol047">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol047">ACCT_OUTPUT</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.+glcontrol048">
 			<DD_TABLE_ALIAS id="ddm_table_cols.+glcontrol048">+GLCONTROL      </DD_TABLE_ALIAS>
@@ -554,6 +602,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol048">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol048">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol048">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol048">AMOUNT_MASK</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.+glcontrol049">
 			<DD_TABLE_ALIAS id="ddm_table_cols.+glcontrol049">+GLCONTROL      </DD_TABLE_ALIAS>
@@ -565,6 +614,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol049">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol049">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol049">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol049">UNIT_MASK</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.+glcontrol050">
 			<DD_TABLE_ALIAS id="ddm_table_cols.+glcontrol050">+GLCONTROL      </DD_TABLE_ALIAS>
@@ -576,6 +626,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.+glcontrol050">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.+glcontrol050">20060425</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.+glcontrol050">20060425</DD_LSTREV_DATE>
+			<SQL_COLUMN_NAME id="ddm_table_cols.+glcontrol050">PERCENT_MASK</SQL_COLUMN_NAME>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">
@@ -585,21 +636,23 @@
 			<DD_DESCRIPTION id="ddm_elements.firm_id">Firm ID</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.firm_id">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.firm_id">2</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.firm_id"> </DD_MASK_TYPE>
 			<DD_SYSTEM_REC id="ddm_elements.firm_id">Y</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_elements.firm_id">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.firm_id">AD </ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.firm_id">ADB</ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.firm_id">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.firm_id">20060425</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.firm_id">20120326</DD_LSTREV_DATE>
+			<DD_ATTR_BLNK id="ddm_elements.firm_id">N</DD_ATTR_BLNK>
+			<DD_ATTR_CTLW id="ddm_elements.firm_id">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.firm_id">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.firm_id">H</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.firm_id">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.firm_id">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.firm_id">Firm ID</DD_ATTR_LABS>
-			<DD_ATTR_MSKI id="ddm_elements.firm_id">00</DD_ATTR_MSKI>
-			<DD_ATTR_MSKO id="ddm_elements.firm_id">00</DD_ATTR_MSKO>
-			<DD_ATTR_PADC id="ddm_elements.firm_id">30</DD_ATTR_PADC>
-			<DD_ATTR_PADJ id="ddm_elements.firm_id">R</DD_ATTR_PADJ>
+			<DD_ATTR_MAXL id="ddm_elements.firm_id">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.firm_id">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.firm_id">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.firm_id">0</DD_ATTR_PREC>
 			<DD_ATTR_PVAL id="ddm_elements.firm_id">stbl("+FIRM_ID")</DD_ATTR_PVAL>
 		</RECORD>
 		<RECORD id="ddm_elements.system_id">
@@ -633,18 +686,24 @@
 			<DD_DESCRIPTION id="ddm_elements.post_gl">Post to GL?</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.post_gl">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.post_gl">1</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.post_gl"> </DD_MASK_TYPE>
 			<DD_SYSTEM_REC id="ddm_elements.post_gl">Y</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_elements.post_gl">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.post_gl">AD </ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.post_gl">ADB</ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.post_gl">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.post_gl">20060629</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.post_gl">20120326</DD_LSTREV_DATE>
+			<DD_ATTR_BLNK id="ddm_elements.post_gl">N</DD_ATTR_BLNK>
 			<DD_ATTR_CDAT id="ddm_elements.post_gl">Y;N</DD_ATTR_CDAT>
+			<DD_ATTR_CTLW id="ddm_elements.post_gl">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.post_gl">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.post_gl">C</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.post_gl">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.post_gl">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.post_gl">Post to GL?</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.post_gl">Post to GL?</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.post_gl">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.post_gl">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.post_gl">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.post_gl">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.current_per">
 			<DD_DATA_NAME id="ddm_elements.current_per">CURRENT_PER     </DD_DATA_NAME>
@@ -1061,20 +1120,25 @@
 		</RECORD>
 		<RECORD id="ddm_elements.description">
 			<DD_DATA_NAME id="ddm_elements.description">DESCRIPTION     </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.description">Description                   </DD_DESCRIPTION>
+			<DD_DESCRIPTION id="ddm_elements.description">Description</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.description">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.description">30</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.description"> </DD_MASK_TYPE>
 			<DD_SYSTEM_REC id="ddm_elements.description">Y</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_elements.description">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.description">AD </ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.description">ADB</ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.description">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.description">20060119</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.description">20120326</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.description">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.description">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.description">E</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.description">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.description">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.description">Description</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.description">Desc</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.description">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.description">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.description">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.description">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.trns_date">
 			<DD_DATA_NAME id="ddm_elements.trns_date">TRNS_DATE       </DD_DATA_NAME>
@@ -1316,33 +1380,31 @@
 			<DD_ATTR_LABS id="ddm_elements.gl_per_end">Prd Beg Date</DD_ATTR_LABS>
 			<DD_ATTR_STYP id="ddm_elements.gl_per_end">1</DD_ATTR_STYP>
 		</RECORD>
-		<RECORD id="ddm_elements.process_id">
-			<DD_DATA_NAME id="ddm_elements.process_id">PROCESS_ID      </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.process_id">Process Identification</DD_DESCRIPTION>
-			<DD_DATA_TYPE id="ddm_elements.process_id">C</DD_DATA_TYPE>
-			<DD_DATA_LENGTH id="ddm_elements.process_id">16</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.process_id"> </DD_MASK_TYPE>
-			<ASC_COMP_ID id="ddm_elements.process_id">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.process_id">AD </ASC_PROD_ID>
-			<LOCALIZATION_EX id="ddm_elements.process_id">N</LOCALIZATION_EX>
-			<DD_CREATE_DATE id="ddm_elements.process_id">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.process_id">20090724</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW id="ddm_elements.process_id">0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH id="ddm_elements.process_id">0</DD_ATTR_CTLH>
-			<DD_ATTR_CTYP id="ddm_elements.process_id">E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOL id="ddm_elements.process_id">DESCRIPTION</DD_ATTR_DCOL>
-			<DD_ATTR_DCOM id="ddm_elements.process_id">            </DD_ATTR_DCOM>
-			<DD_ATTR_DEXP id="ddm_elements.process_id">            </DD_ATTR_DEXP>
-			<DD_ATTR_DKEY id="ddm_elements.process_id">[+FIRM_ID]+@</DD_ATTR_DKEY>
-			<DD_ATTR_DTAB id="ddm_elements.process_id">ADM_PROCMASTER  </DD_ATTR_DTAB>
-			<DD_ATTR_LABL id="ddm_elements.process_id">Process Identification</DD_ATTR_LABL>
-			<DD_ATTR_LABS id="ddm_elements.process_id">Process ID</DD_ATTR_LABS>
-			<DD_ATTR_MAXL id="ddm_elements.process_id">0</DD_ATTR_MAXL>
-			<DD_ATTR_MAXR id="ddm_elements.process_id">0</DD_ATTR_MAXR>
-			<DD_ATTR_MINL id="ddm_elements.process_id">0</DD_ATTR_MINL>
-			<DD_ATTR_PADC id="ddm_elements.process_id">20</DD_ATTR_PADC>
-			<DD_ATTR_PADJ id="ddm_elements.process_id">L</DD_ATTR_PADJ>
-			<DD_ATTR_PREC id="ddm_elements.process_id">0</DD_ATTR_PREC>
+		<RECORD id="ddm_elements.proc_id">
+			<DD_DATA_NAME id="ddm_elements.proc_id">PROC_ID         </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.proc_id">Process Identification (Addon)</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.proc_id">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.proc_id">16</DD_DATA_LENGTH>
+			<ASC_COMP_ID id="ddm_elements.proc_id">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.proc_id">AD </ASC_PROD_ID>
+			<LOCALIZATION_EX id="ddm_elements.proc_id">N</LOCALIZATION_EX>
+			<DD_CREATE_DATE id="ddm_elements.proc_id">20120326</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.proc_id">20120326</DD_LSTREV_DATE>
+			<DD_ATTR_BLNK id="ddm_elements.proc_id">N</DD_ATTR_BLNK>
+			<DD_ATTR_CTLW id="ddm_elements.proc_id">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.proc_id">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.proc_id">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOL id="ddm_elements.proc_id">DESCRIPTION</DD_ATTR_DCOL>
+			<DD_ATTR_DKEY id="ddm_elements.proc_id">[+FIRM_ID]+@</DD_ATTR_DKEY>
+			<DD_ATTR_DTAB id="ddm_elements.proc_id">ADM_PROCMASTER  </DD_ATTR_DTAB>
+			<DD_ATTR_LABL id="ddm_elements.proc_id">Process Identification</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.proc_id">Process ID</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.proc_id">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.proc_id">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.proc_id">0</DD_ATTR_MINL>
+			<DD_ATTR_PADC id="ddm_elements.proc_id">20</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.proc_id">L</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.proc_id">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.program_name">
 			<DD_DATA_NAME id="ddm_elements.program_name">PROGRAM_NAME    </DD_DATA_NAME>
