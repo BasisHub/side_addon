@@ -1,764 +1,1195 @@
-QA Memo #:3100
-Fixed Date:11/23/2009 12:00
-Description:OP - Order entry detail line delete does not update the committed quantity
-
-QA Memo #:3575
-Fixed Date:11/23/2009 12:32
-Description:OP - Customer credit maintenance - Release button
-
-QA Memo #:3923
-Fixed Date:11/23/2009 17:05
-Description:GL - Account Allocation register selecting a closed GL period
-
-QA Memo #:3572
-Fixed Date:11/24/2009 11:46
-Description:OP - Order entry header total and other line code type
-
-QA Memo #:3970
-Fixed Date:11/24/2009 12:40
-Description:OP - Cash sale transaction window ABA required
-
-QA Memo #:3992
-Fixed Date:11/24/2009 14:27
-Description:"OP - O/E L/S default order amt s/b min(avail, left to order)"
-
-QA Memo #:3991
-Fixed Date:11/24/2009 14:31
-Description:OP - O/E L/S qtys needs to take legal amounts
-
-QA Memo #:3228
-Fixed Date:11/24/2009 15:02
-Description:OP - Invoice/Order Entry: don't checl item/whse combo on deleted line
-
-QA Memo #:3987
-Fixed Date:11/24/2009 15:19
-Description:OP - O/E: Lot/serial#'s need to know if they were commt'd in this session
-
-QA Memo #:3945
-Fixed Date:11/24/2009 15:57
-Description:OP - Order/invoice serial number entry with negative quantity
-
-QA Memo #:3942
-Fixed Date:11/24/2009 17:00
-Description:OP - Invoice entry process flow for pick slip not printed
-
-QA Memo #:3955
-Fixed Date:11/24/2009 21:21
-Description:AR - Historical Invoice print
-
-QA Memo #:3932
-Fixed Date:11/24/2009 21:56
-Description:AD - Changes needed to reports that have no output
-
-QA Memo #:3988
-Fixed Date:11/25/2009 9:29
-Description:AR - Credit Manager Release - date display
-
-QA Memo #:3619
-Fixed Date:11/25/2009 11:13
-Description:OP - Item Alternate/Superseded not working
-
-QA Memo #:3627
-Fixed Date:11/25/2009 11:44
-Description:OP - Pick List not printed never gets reset
-
-QA Memo #:3816
-Fixed Date:11/25/2009 13:09
-Description:OP - Batch Invoice Printing doesn't print 1 line comment.
-
-QA Memo #:3928
-Fixed Date:11/25/2009 14:22
-Description:OP - Cannot change WH detail line without lookup
-
-QA Memo #:3990
-Fixed Date:11/25/2009 14:23
-Description:OP - Order entry is ignoring the skip line code flag setting and not allowing access
-
-QA Memo #:3573
-Fixed Date:11/25/2009 14:32
-Description:OP - Credit review and release terms code entry size
-
-QA Memo #:3509
-Fixed Date:11/25/2009 14:49
-Description:OP - Order entry new detail line
-
-QA Memo #:3226
-Fixed Date:11/30/2009 13:45
-Description:OP - Invoice Entry not recognizing that Packing Slip printed
-
-QA Memo #:3485
-Fixed Date:11/30/2009 15:54
-Description:OP - Order entry line code access
-
-QA Memo #:3491
-Fixed Date:11/30/2009 16:46
-Description:OP - Invoice history report - masks
-
-QA Memo #:3392
-Fixed Date:11/30/2009 16:53
-Description:OP - Invoice entry - picking list warning
-
-QA Memo #:3996
-Fixed Date:11/30/2009 21:17
-Description:AR - Historical Invoice Form
-
-QA Memo #:3958
-Fixed Date:11/30/2009 21:50
-Description:GL - Audit Numbers do not print on the Daily Detail Register
-
-QA Memo #:3916
-Fixed Date:12/1/2009 21:31
-Description:AR - Aging report is ignoring the custom column settings
-
-QA Memo #:4014
-Fixed Date:12/2/2009 21:23
-Description:AR - Aging report heading/detail for salesperson does not match
-
-QA Memo #:3914
-Fixed Date:12/2/2009 22:06
-Description:AR - Cash receipts register MTD and Next MTD totals
-
-QA Memo #:3696
-Fixed Date:12/3/2009 21:40
-Description:PO - Phone/Address Display - 2 minor things
-
-QA Memo #:3775
-Fixed Date:12/4/2009 15:21
-Description:OP - Batch picking list prints an order that is on hold
-
-QA Memo #:3768
-Fixed Date:12/4/2009 15:27
-Description:OP - Invoice Entry allows you to exit without prompting for Freight
-
-QA Memo #:3907
-Fixed Date:12/7/2009 12:05
-Description:AR - Customer maintenance sales tax code entry
-
-QA Memo #:3909
-Fixed Date:12/7/2009 12:07
-Description:OP - invoice entry sales tax code
-
-QA Memo #:3908
-Fixed Date:12/7/2009 15:57
-Description:OP - Order entry sales tax code
-
-QA Memo #:3896
-Fixed Date:12/7/2009 21:20
-Description:IV - Zero Balance Report shows non_zero balance item
-
-QA Memo #:3579
-Fixed Date:12/8/2009 16:18
-Description:OP - Sales register update for a void invoice
-
-QA Memo #:4008
-Fixed Date:12/9/2009 13:39
-Description:OP - Taxable sales amount when item is not taxable
-
-QA Memo #:4009
-Fixed Date:12/9/2009 13:45
-Description:OP - Totals button is recalculating the discount that was previously removed
-
-QA Memo #:4034
-Fixed Date:12/9/2009 21:17
-Description:IV - Item Image path doesn't allow for long paths
-
-QA Memo #:3878
-Fixed Date:12/9/2009 22:18
-Description:AP - Aging Report export option
-
-QA Memo #:3829
-Fixed Date:12/10/2009 11:20
-Description:PO - Calendar Print doesn't print anything
-
-QA Memo #:3902
-Fixed Date:12/10/2009 12:00
-Description:GL - Account maintenance - summary or detail posting
-
-QA Memo #:4041
-Fixed Date:12/16/2009 21:38
-Description:Inventory Transaction Register
-
-QA Memo #:3927
-Fixed Date:12/17/2009 16:45
-Description:OP - Totals window vs. totals tab
-
-QA Memo #:4045
-Fixed Date:12/18/2009 12:13
-Description:"AP - Payment selection: ""Y"" next to checked box"
-
-QA Memo #:4042
-Fixed Date:12/18/2009 13:00
-Description:GL - typo in columns$[ ] array of glr_beginbalance is causing account numbers to be omitted
-
-QA Memo #:3503
-Fixed Date:12/22/2009 22:05
-Description:PO - Calendar Maintenance requires left click before context menu will work
-
-QA Memo #:3827
-Fixed Date:12/22/2009 22:07
-Description:PO - Calendar Maintenance - can't move to/from undefined month without creating one
-
-QA Memo #:3763
-Fixed Date:12/23/2009 22:01
-Description:GL - Daily Detail Register is missing subheadings for Journal ID
-
-QA Memo #:4048
-Fixed Date:12/28/2009 21:41
-Description:OP - order pick list
-
-QA Memo #:4046
-Fixed Date:12/28/2009 21:47
-Description:AP - Check Register: clear progress meter when no data
-
-QA Memo #:3770
-Fixed Date:12/29/2009 21:22
-Description:AR - New customer ID minimum length
-
-QA Memo #:3802
-Fixed Date:12/29/2009 21:56
-Description:OP - Posted historical invoice has incorrect Lock Status
-
-QA Memo #:4054
-Fixed Date:12/30/2009 21:26
-Description:op - Order/Invoice Entry Serial button not activated properly
-
-QA Memo #:4055
-Fixed Date:1/4/2010 16:39
-Description:GL - bugs in update beginning balances and year-end close
-
-QA Memo #:3466
-Fixed Date:1/5/2010 10:06
-Description:OP - Order entry credit manager notices when navigating
-
-QA Memo #:4053
-Fixed Date:1/5/2010 16:07
-Description:OP - Invoice Entry Error 11/opc_creditmgmnt.aon/00087
-
-QA Memo #:3786
-Fixed Date:1/6/2010 11:44
-Description:GL Posting Control Mx - Error 47
-
-QA Memo #:3402
-Fixed Date:1/6/2010 12:35
-Description:OP - Invoice Entry Totals Are Incorrect / Detail Extension wrong / no tax calculated
-
-QA Memo #:3413
-Fixed Date:1/6/2010 16:04
-Description:OP - Serial number commitment
-
-QA Memo #:3913
-Fixed Date:1/6/2010 21:39
-Description:OP - Dataport for MTD cash receipt and sales totals
-
-QA Memo #:4058
-Fixed Date:1/7/2010 11:08
-Description:AP - Error 26 in Invoice Register update
-
-QA Memo #:4060
-Fixed Date:1/7/2010 13:45
-Description:"GL - Budget Maintenance, form resizing"
-
-QA Memo #:3570
-Fixed Date:1/8/2010 13:11
-Description:OP - Invoice entry - multiple related issues
-
-QA Memo #:3590
-Fixed Date:1/8/2010 13:14
-Description:OP - Invoice entry error 17 in bam_mnt_std.bbj
-
-QA Memo #:4063
-Fixed Date:1/8/2010 14:25
-Description:OP - Item description missing from on-demand invoices
-
-QA Memo #:3930
-Fixed Date:1/8/2010 14:40
-Description:"OP - after shipto address, tab goes to customer, not header info"
-
-QA Memo #:4061
-Fixed Date:1/9/2010 18:56
-Description:AP - Check Printing has infinite loop.
-
-QA Memo #:4004
-Fixed Date:1/12/2010 13:53
-Description:AP Type problems when running as without Multiple AP TYpes
-
-QA Memo #:3832
-Fixed Date:1/14/2010 9:29
-Description:IV - Transaction Entry Rounding different from Register
-
-QA Memo #:4075
-Fixed Date:1/14/2010 21:45
-Description:PO - Postd PO Invoices aren't capturing Terms Code
-
-QA Memo #:4059
-Fixed Date:1/15/2010 8:17
-Description:AP - Manual Check Entry: Open Invoice button
-
-QA Memo #:4077
-Fixed Date:1/15/2010 9:40
-Description:PO - Exiting custom Item Lookup form w/o selecting anything gives err 26
-
-QA Memo #:4072
-Fixed Date:1/15/2010 12:17
-Description:OP - Order entry error in line 2126
-
-QA Memo #:4071
-Fixed Date:1/15/2010 12:56
-Description:OP - order entry error 11
-
-QA Memo #:4070
-Fixed Date:1/15/2010 14:51
-Description:OP - Order entry error 262 - callpoint not found notice - and then more errors
-
-QA Memo #:3591
-Fixed Date:1/15/2010 14:54
-Description:OP - invoice entry error 11 in ope_ordtotals_cpt.bbj
-
-QA Memo #:3448
-Fixed Date:1/15/2010 15:17
-Description:PO - Requisition print
-
-QA Memo #:3449
-Fixed Date:1/15/2010 15:49
-Description:PO - Purchase order print
-
-QA Memo #:3871
-Fixed Date:1/15/2010 16:53
-Description:PO - Message record not found - PO Invoice Entry
-
-QA Memo #:3599
-Fixed Date:1/18/2010 15:43
-Description:IV - PO receipt register update to the Item transaction history
-
-QA Memo #:4067
-Fixed Date:1/18/2010 16:09
-Description:AP - Open Invoice Inq not including proper records
-
-QA Memo #:3584
-Fixed Date:1/18/2010 17:03
-Description:PO - Invoice entry - invoice detail button selection
-
-QA Memo #:4082
-Fixed Date:1/18/2010 17:50
-Description:AP - Receipt History Inquiry erroneously showing 'doc contains no data'
-
-QA Memo #:4083
-Fixed Date:1/19/2010 11:50
-Description:"GL - Daily Detail Error 47, line 487"
-
-QA Memo #:4084
-Fixed Date:1/19/2010 11:51
-Description:AR - AR Invoice Conversion Entry - missing 'F'=Finance Charge option
-
-QA Memo #:3540
-Fixed Date:1/19/2010 13:26
-Description:OP - Item Reprice (Additional Options) not working
-
-QA Memo #:4032
-Fixed Date:1/19/2010 14:29
-Description:AR - Check Number should not be  a required field.
-
-QA Memo #:4047
-Fixed Date:1/19/2010 15:38
-Description:Addon - Invoice (BBjForm) printing will throw error is printer offline
-
-QA Memo #:4087
-Fixed Date:1/19/2010 16:20
-Description:IV - Unit Price element can't have a non-zero minimum
-
-QA Memo #:3839
-Fixed Date:1/19/2010 16:59
-Description:AD - Batch number missing notice
-
-QA Memo #:3435
-Fixed Date:1/20/2010 12:00
-Description:PO - New requisition entry flow - callpoint issue ?
-
-QA Memo #:4093
-Fixed Date:1/20/2010 16:43
-Description:PO - PO print w/ >1 detail line generates bogus Barista doc id's for email/fax queue
-
-QA Memo #:4085
-Fixed Date:1/21/2010 10:15
-Description:OP - Order Entry (invoice?) needs to remove lot/serial recs when qty=0
-
-QA Memo #:3567
-Fixed Date:1/21/2010 10:22
-Description:OP - Credit Review & Release - run process option
-
-QA Memo #:3585
-Fixed Date:1/21/2010 10:43
-Description:PO - Invoice entry - receiver fully invoiced
-
-QA Memo #:4106
-Fixed Date:1/22/2010 20:19
-Description:test
-
-QA Memo #:4035
-Fixed Date:1/22/2010 22:34
-Description:AD - DataPort can throw an error when trying to launch form
-
-QA Memo #:4101
-Fixed Date:1/25/2010 20:05
-Description:IV - Physical Inventory Update not updating the Last Phys Date
-
-QA Memo #:4102
-Fixed Date:1/25/2010 20:07
-Description:IV - Physical Inventory Update not adding to the Transaction History file
-
-QA Memo #:4107
-Fixed Date:1/25/2010 22:59
-Description:Open PO Report
-
-QA Memo #:4108
-Fixed Date:1/26/2010 16:46
-Description:OP - Invoice Entry - required Manual Ship To meesage allows navigation
-
-QA Memo #:4109
-Fixed Date:1/26/2010 20:25
-Description:OP - Invoice Entry - Serial Number entry invalid message
-
-QA Memo #:4110
-Fixed Date:1/26/2010 21:27
-Description:OP - Invoice Entry strange navigation behavior
-
-QA Memo #:4025
-Fixed Date:1/27/2010 15:00
-Description:OP - Invoice entry Recalc Price button removes access to other buttons
-
-QA Memo #:3759
-Fixed Date:1/27/2010 15:05
-Description:OP - Credit Check pops up twice after Reprint order question
-
-QA Memo #:3949
-Fixed Date:1/27/2010 16:17
-Description:OP - Edit report item description placement
-
-QA Memo #:3972
-Fixed Date:1/27/2010 17:43
-Description:OP - Invoice without a customer detail profile entry (cash sale)
-
-QA Memo #:4113
-Fixed Date:1/27/2010 18:48
-Description:PO - Purchase Order Print - error 257/523/por_poprint.aon
-
-QA Memo #:3083
-Fixed Date:1/27/2010 23:55
-Description:IV - Simulate 'wizard' when adding new item to ensure all records are created
-
-QA Memo #:3088
-Fixed Date:1/28/2010 16:17
-Description:OP - Order and Invoice Entry: Navigate with no valid record
-
-QA Memo #:4117
-Fixed Date:1/28/2010 21:40
-Description:PO - Programs not following standards involving destroy window on run.
-
-QA Memo #:4118
-Fixed Date:1/28/2010 21:41
-Description:IV - Programs not following standards involving destroy window on run.
-
-QA Memo #:4124
-Fixed Date:1/29/2010 19:19
-Description:PO - bugs in backorder fill report unearthed a bug in the receipt update
-
-QA Memo #:4125
-Fixed Date:2/1/2010 15:23
-Description:"GL - Daily Transaction Update, if run by date, does not remove transactions, so they get updated again and again"
-
-QA Memo #:4122
-Fixed Date:2/1/2010 21:13
-Description:GL - Post to closed period journal code
-
-QA Memo #:4127
-Fixed Date:2/2/2010 4:39
-Description:OP - Pick List Print - Error 20/38/opr_oderpicklst.aon
-
-QA Memo #:4128
-Fixed Date:2/5/2010 20:24
-Description:OP - On Demand Pick List not printing
-
-QA Memo #:999
-Fixed Date:2/9/2010 4:40
-Description:Need a simple way to export any report to excel.
-
-QA Memo #:1000
-Fixed Date:2/9/2010 4:41
-Description:"Drill down inquiries for customers, vendors, and inventory."
-
-QA Memo #:1009
-Fixed Date:2/9/2010 4:45
-Description:Separate City and State fields in Vendor Master and Purchase Addresses
-
-QA Memo #:1010
-Fixed Date:2/9/2010 4:46
-Description:Vendor Maintenance: Add FOB and Ship Via to vendor/purchase addresses
-
-QA Memo #:1016
-Fixed Date:2/9/2010 4:48
-Description:Separate City and State fields in Customer Master and Ship-To
-
-QA Memo #:1019
-Fixed Date:2/9/2010 4:50
-Description:"Customer Maintenance: Add Country, Freight Terms and FOB"
-
-QA Memo #:4135
-Fixed Date:2/9/2010 14:14
-Description:AR - Salesperson maintenance error 17
-
-QA Memo #:4148
-Fixed Date:2/9/2010 15:50
-Description:AP - Aging report - Table access error and then an error 252
-
-QA Memo #:3954
-Fixed Date:2/9/2010 17:36
-Description:OP - Invoice detail lines and an incorrect sales register posting
-
-QA Memo #:4136
-Fixed Date:2/9/2010 19:39
-Description:PO - PO Entry; WO number magically appears in detail grid
-
-QA Memo #:3611
-Fixed Date:2/9/2010 19:43
-Description:PO - Receipt entry displays a missing data notice
-
-QA Memo #:4159
-Fixed Date:2/10/2010 14:18
-Description:error 47 in invoice update
-
-QA Memo #:4162
-Fixed Date:2/10/2010 22:14
-Description:OP - Invoice entry accepts a zero order quantity
-
-QA Memo #:4171
-Fixed Date:2/10/2010 23:10
-Description:OP - Print Now doesn't print.
-
-QA Memo #:4170
-Fixed Date:2/11/2010 21:46
-Description:OP - Serial Number Entry
-
-QA Memo #:4164
-Fixed Date:2/11/2010 22:53
-Description:OP - Invoice edit report shows re-sequenced invoice detail lines
-
-QA Memo #:4163
-Fixed Date:2/12/2010 15:46
-Description:OP - Invoice print quantity does not display a negative mask
-
-QA Memo #:4172
-Fixed Date:2/12/2010 19:58
-Description:OP - Invoice entry error 252
-
-QA Memo #:4173
-Fixed Date:2/12/2010 21:17
-Description:IV - Item Master needs custom lookup
-
-QA Memo #:4174
-Fixed Date:2/12/2010 21:45
-Description:"IV - Custom Item Lookup always displays 0's for on-hand, committed, etc."
-
-QA Memo #:4154
-Fixed Date:2/13/2010 0:06
-Description:AP - Computer check printing restart
-
-QA Memo #:4158
-Fixed Date:2/13/2010 16:52
-Description:AP - Aging report summary totals alignment
-
-QA Memo #:4169
-Fixed Date:2/16/2010 18:05
-Description:OP - Serial number assignment - serialized but non-inventoried item
-
-QA Memo #:4167
-Fixed Date:2/16/2010 18:07
-Description:GL - Summary Activity Report column width adjustments
-
-QA Memo #:4175
-Fixed Date:2/16/2010 18:51
-Description:IV - Item Detail Listing Vendor Cost Breaks
-
-QA Memo #:4149
-Fixed Date:2/16/2010 20:47
-Description:IV - Physical inventory cycle code descriptions
-
-QA Memo #:4157
-Fixed Date:2/16/2010 22:37
-Description:AP - Cash Requirements report is missing the column totals
-
-QA Memo #:4180
-Fixed Date:2/16/2010 23:37
-Description:OP - Totals tab & button - taxable amount is not correct
-
-QA Memo #:4178
-Fixed Date:2/17/2010 0:26
-Description:OP - Sales register out of balance but still offers an update option
-
-QA Memo #:4188
-Fixed Date:2/17/2010 16:59
-Description:OP - Invoice edit report distribution code is not correct
-
-QA Memo #:4185
-Fixed Date:2/17/2010 19:56
-Description:OP - Sales register cash receipts summary is missing data
-
-QA Memo #:4187
-Fixed Date:2/17/2010 21:06
-Description:OP - Invoice edit report SN detail shows zero
-
-QA Memo #:4195
-Fixed Date:2/17/2010 21:45
-Description:OP - Cash Sale: Name should default to Customer name
-
-QA Memo #:4197
-Fixed Date:2/19/2010 18:59
-Description:GL - Summary Activity and Budget Maint grids
-
-QA Memo #:4196
-Fixed Date:2/19/2010 19:16
-Description:Error 47 in customer name listing
-
-QA Memo #:4144
-Fixed Date:2/23/2010 17:31
-Description:GL - J/E DR & CR totals boxes don't handle big numbers
-
-QA Memo #:4207
-Fixed Date:2/23/2010 18:48
-Description:OP - Invoice detail line spacing
-
-QA Memo #:4206
-Fixed Date:2/24/2010 20:23
-Description:OP - Sales tax is not being calculated for credit (negative) sales
-
-QA Memo #:4165
-Fixed Date:2/24/2010 20:42
-Description:OP - Sales register out of balance
-
-QA Memo #:4201
-Fixed Date:2/24/2010 22:03
-Description:OP - Picking slip does not print for orders released from credit hold
-
-QA Memo #:4202
-Fixed Date:2/24/2010 23:23
-Description:OP - Order not released from credit hold
-
-QA Memo #:4204
-Fixed Date:2/25/2010 16:24
-Description:OP - Picking list is not printing all detail lines
-
-QA Memo #:4183
-Fixed Date:2/25/2010 16:27
-Description:OP - Cash payment invoice
-
-QA Memo #:4182
-Fixed Date:2/25/2010 17:46
-Description:OP - Cash sale transaction does not offer a receipt or invoice print option
-
-QA Memo #:4216
-Fixed Date:2/26/2010 23:50
-Description:OP - Order entry sales tax calculation
-
-QA Memo #:4190
-Fixed Date:2/27/2010 0:16
-Description:OP - Picking List document format
-
-QA Memo #:4139
-Fixed Date:3/1/2010 14:54
-Description:ALL: Need to check all updates for proper usage of KNUM and make sure all REMOVES do not have an inappropriate DOM=*NEXT
-
-QA Memo #:4225
-Fixed Date:3/1/2010 20:12
-Description:OP - Credit Status information display isn't always for current customer
-
-QA Memo #:4205
-Fixed Date:3/2/2010 16:52
-Description:OP - Credit hold - credit memo
-
-QA Memo #:4234
-Fixed Date:3/2/2010 18:54
-Description:AP - Payment Selection form should have a way to select/de-select all via the mouse
-
-QA Memo #:4227
-Fixed Date:3/2/2010 19:00
-Description:PO - Error 252 when printing a purchase order
-
-QA Memo #:4228
-Fixed Date:3/2/2010 19:01
-Description:PO - Error 252 in requisition print
-
-QA Memo #:4097
-Fixed Date:3/3/2010 14:25
-Description:IV - Physical Inventory Count Entry - unusable for users
-
-QA Memo #:4214
-Fixed Date:3/4/2010 4:59
-Description:SA - Report By Customer
-
-QA Memo #:4271
-Fixed Date:3/4/2010 15:54
-Description:"GL - Journal Entry Update skipped Two out of Four entries when updating to GLT-04, transactions removed at end of update"
-
-QA Memo #:4220
-Fixed Date:3/4/2010 22:57
-Description:PO - Purchase order entry
-
-QA Memo #:4212
-Fixed Date:3/5/2010 4:59
-Description:AP - Customer Aging & Sales column header abbreviations
-
-QA Memo #:4286
-Fixed Date:3/5/2010 14:31
-Description:OP - Order entry error 252
-
-QA Memo #:4298
-Fixed Date:3/9/2010 4:35
-Description:IV-L/S Transaction History Report Sub-total Issue
-
-QA Memo #:4288
-Fixed Date:3/9/2010 22:59
-Description:OP - Order entry error 42
-
-QA Memo #:4281
-Fixed Date:3/9/2010 23:42
-Description:IV - Count sheet print - error 47
-
-QA Memo #:4284
-Fixed Date:3/10/2010 4:08
-Description:IV - All the physical inventory cycle codes are missing their descriptions
-
-QA Memo #:4219
-Fixed Date:3/10/2010 4:47
-Description:GL - Ref 3 on the Daily Detail prints the internal sequence number
-
-QA Memo #:4137
-Fixed Date:3/10/2010 14:23
-Description:"OP - ""Entry is Required"" message after Print Now"
-
-QA Memo #:4186
-Fixed Date:3/10/2010 16:36
-Description:OP - Invoice entry premature SN quantity warning
-
-QA Memo #:4275
-Fixed Date:3/12/2010 4:53
-Description:IV - Physical inventory count sheets file locking
-
-QA Memo #:4296
-Fixed Date:3/12/2010 11:52
-Description:OP - Order entry - SQL errors in order look-up.
-
-QA Memo #:4313
-Fixed Date:3/15/2010 23:16
-Description:OP - OP - Customer ID entry required message shouldn't appear.
-
-QA Memo #:4329
-Fixed Date:3/16/2010 03:16
-Description:IV - Cannot change the Current or Prior price in warehouse maintenance
-
-QA Memo #:4327
-Fixed Date:3/16/2010 03:26
-Description:IV - Empty IV transaction history report exits item maintenance
-
-QA Memo #:4357
-Fixed Date:3/22/2010 18:12
-Description:SA - Error 47 in sar_ac.aon
-
+QA Memo #:3242
+Fixed Date:7/1/2009 13:31
+Description:Purchase Calendar Maint throws err 252
+
+QA Memo #:2719
+Fixed Date:7/1/2009 15:56
+Description:IV - copy items
+
+QA Memo #:2876
+Fixed Date:7/1/2009 16:06
+Description:IV - Maintenance code accepts blanks
+
+QA Memo #:2979
+Fixed Date:7/1/2009 16:34
+Description:IV - Description should be mandatory when creating a new item
+
+QA Memo #:3001
+Fixed Date:7/1/2009 17:02
+Description:IV - Setup & Carrying Costs - ABC Codes
+
+QA Memo #:3039
+Fixed Date:7/1/2009 17:12
+Description:IV - Item Detail Listing - warehouse list prices
+
+QA Memo #:3040
+Fixed Date:7/1/2009 17:26
+Description:IV - Item detail listing - distribution code
+
+QA Memo #:3041
+Fixed Date:7/1/2009 17:31
+Description:IV - Item detail listing - decimal alignments
+
+QA Memo #:3042
+Fixed Date:7/1/2009 18:12
+Description:IV - Lot/Serial access & creation
+
+QA Memo #:3201
+Fixed Date:7/1/2009 18:25
+Description:"IV - Spelling Error - superseded, Inventory Control Reports"
+
+QA Memo #:3262
+Fixed Date:7/8/2009 16:01
+Description:"Check Print Option Entry form warns, but doesn't prohibit, bad check date"
+
+QA Memo #:3270
+Fixed Date:7/10/2009 20:53
+Description:PO Processing - selecting Restart in PO Print task does not activate Vendor ID search field
+
+QA Memo #:3266
+Fixed Date:7/13/2009 10:49
+Description:PO - selecting Purchase Requisition Entry results in error
+
+QA Memo #:3269
+Fixed Date:7/13/2009 10:49
+Description:PO Processing - selecting Purchase Order Entry creates Error
+
+QA Memo #:3271
+Fixed Date:7/13/2009 10:50
+Description:PO Processing - selecting Purchase Order Receipt Entry creates Error
+
+QA Memo #:3285
+Fixed Date:7/13/2009 13:59
+Description:PO - Open Requisition Rpt; item description not showing
+
+QA Memo #:3224
+Fixed Date:7/13/2009 23:17
+Description:IV - Lot/serial transation history tempate not found
+
+QA Memo #:3225
+Fixed Date:7/13/2009 23:18
+Description:IV - Lot/serial status report missing ivm-08 table
+
+QA Memo #:3292
+Fixed Date:7/15/2009 15:02
+Description:AR - Aging report call point error
+
+QA Memo #:3284
+Fixed Date:7/15/2009 15:03
+Description:PO Processing - running PO Requisition Register creates Barista Option Error
+
+QA Memo #:3295
+Fixed Date:7/21/2009 22:48
+Description:AP - Manual check register
+
+QA Memo #:3300
+Fixed Date:7/21/2009 23:05
+Description:"PO Processing - Open Purchase Orders window text for Alternate Sequence fields should include ""Beginning"" and ""Ending"""
+
+QA Memo #:3302
+Fixed Date:7/24/2009 10:26
+Description:PO Processing - running the PO Billed Unbilled Report creates Barista Admin error
+
+QA Memo #:3307
+Fixed Date:7/29/2009 22:29
+Description:SA - Summary processing
+
+QA Memo #:3351
+Fixed Date:7/30/2009 20:13
+Description:PO - Requisition Register
+
+QA Memo #:3371
+Fixed Date:8/3/2009 13:56
+Description:AR - Generate finance charges - error
+
+QA Memo #:3372
+Fixed Date:8/3/2009 14:12
+Description:OP - Customer Job Report
+
+QA Memo #:3319
+Fixed Date:8/3/2009 14:14
+Description:SA - Lookup
+
+QA Memo #:3358
+Fixed Date:8/3/2009 23:19
+Description:SA -  Error 47's in bam_inquiry.bbj
+
+QA Memo #:3353
+Fixed Date:8/4/2009 6:53
+Description:PO - Billed/Unbilled report - error 77
+
+QA Memo #:3312
+Fixed Date:8/5/2009 0:04
+Description:"Sales Order Processing - Correct the spelling of the word ""dropship"""
+
+QA Memo #:3313
+Fixed Date:8/5/2009 0:05
+Description:"PO Processing - Correct the spelling of the word ""dropship"""
+
+QA Memo #:3243
+Fixed Date:8/5/2009 23:56
+Description:"error 12, line 862 in DataPort_main.bbj"
+
+QA Memo #:3203
+Fixed Date:8/6/2009 10:21
+Description:OP - Invoice Printing does not print serial/lots
+
+QA Memo #:3075
+Fixed Date:8/6/2009 10:26
+Description:OP - Serial / Lot processing is not finished in Order Entry
+
+QA Memo #:3343
+Fixed Date:8/6/2009 11:26
+Description:IV - IV Item Requirements Report error 252 in line 278
+
+QA Memo #:3077
+Fixed Date:8/7/2009 12:52
+Description:OP - Credit Action at end of Order Entry missing
+
+QA Memo #:3344
+Fixed Date:8/7/2009 13:32
+Description:IV - Inventory Activity Report - error 252
+
+QA Memo #:3322
+Fixed Date:8/7/2009 14:02
+Description:IV - Stock movement report
+
+QA Memo #:3320
+Fixed Date:8/7/2009 14:03
+Description:IV - Empty report - [HEADER]
+
+QA Memo #:3323
+Fixed Date:8/7/2009 14:04
+Description:IV - Transaction register
+
+QA Memo #:3324
+Fixed Date:8/7/2009 14:05
+Description:IV - Inventory transfer register
+
+QA Memo #:3325
+Fixed Date:8/7/2009 14:06
+Description:IV - Inventory reorder and shortage report
+
+QA Memo #:3326
+Fixed Date:8/7/2009 14:07
+Description:IV - Inventory turns report
+
+QA Memo #:3251
+Fixed Date:8/10/2009 10:23
+Description:OP - Deleting order leaves lot/serial records
+
+QA Memo #:3346
+Fixed Date:8/13/2009 15:10
+Description:Seqence numbers for Finance Charge assignment should come from Barista
+
+QA Memo #:967
+Fixed Date:8/14/2009 14:13
+Description:"Invoice entry need ""footer"" tab with totals and computes tax and allows for freight entry."
+
+QA Memo #:3127
+Fixed Date:8/15/2009 0:02
+Description:OP - Totals page content
+
+QA Memo #:3296
+Fixed Date:8/18/2009 15:02
+Description:"PO Processing - selecting drilldown button, opens Invoice Header window, selection of invoice should populate Invoice field"
+
+QA Memo #:3297
+Fixed Date:8/18/2009 15:04
+Description:PO Processing - running Open PO Requisitions creates Barista Option Error
+
+QA Memo #:3298
+Fixed Date:8/18/2009 15:06
+Description:PO Processing - running Requisitions By Item creates Barista Option Error
+
+QA Memo #:3329
+Fixed Date:8/18/2009 16:19
+Description:PO - Requisition entry eternal loop
+
+QA Memo #:3330
+Fixed Date:8/18/2009 16:24
+Description:PO - New records
+
+QA Memo #:3350
+Fixed Date:8/18/2009 17:48
+Description:SQL Error when looking up GL Account In Journal Entry
+
+QA Memo #:3352
+Fixed Date:8/18/2009 19:03
+Description:GL Account Summary 'Replicate' should be invalid if no budgets
+
+QA Memo #:3354
+Fixed Date:8/18/2009 19:31
+Description:Journal Entry lacking info caused data loss
+
+QA Memo #:3363
+Fixed Date:8/18/2009 19:33
+Description:Journal Entry screen is missing memo copying
+
+QA Memo #:3366
+Fixed Date:8/18/2009 19:38
+Description:GL - Custom financial reports REPRINT option
+
+QA Memo #:3380
+Fixed Date:8/18/2009 19:40
+Description:GL - Journal entry account ID
+
+QA Memo #:3355
+Fixed Date:8/18/2009 19:41
+Description:PO  - Purge PO Receipt History
+
+QA Memo #:3356
+Fixed Date:8/18/2009 19:42
+Description:PO - Purge Rejection History
+
+QA Memo #:2223
+Fixed Date:8/18/2009 19:45
+Description:GL Posting Control Last Updated date and time
+
+QA Memo #:3381
+Fixed Date:8/18/2009 19:52
+Description:AP - Invoice entry
+
+QA Memo #:3318
+Fixed Date:8/20/2009 22:54
+Description:SA - Option to change record
+
+QA Memo #:3321
+Fixed Date:8/20/2009 22:56
+Description:IV - Inventory Price Listing - warehouse not on file
+
+QA Memo #:3098
+Fixed Date:8/20/2009 23:34
+Description:OP - Order entry - grid extension notice
+
+QA Memo #:3105
+Fixed Date:8/20/2009 23:50
+Description:OP - Order entry detail line expanded grid
+
+QA Memo #:3087
+Fixed Date:8/21/2009 11:40
+Description:Ship-to/from addresses should be moved on requisitions/PO's
+
+QA Memo #:3221
+Fixed Date:8/21/2009 11:46
+Description:OP - Monthly Sales Register E47
+
+QA Memo #:3222
+Fixed Date:8/21/2009 11:53
+Description:OP - invoice history rpt no data when item selected
+
+QA Memo #:3223
+Fixed Date:8/21/2009 11:55
+Description:OP - invc hist report multiple issues
+
+QA Memo #:3331
+Fixed Date:8/21/2009 11:59
+Description:PO - grid entry
+
+QA Memo #:3389
+Fixed Date:8/21/2009 14:23
+Description:OP - Open order report
+
+QA Memo #:3399
+Fixed Date:8/21/2009 14:26
+Description:OP - Sales register error 13 in glr_recap.aon
+
+QA Memo #:2731
+Fixed Date:8/21/2009 15:34
+Description:Cannot gracefully close an error window
+
+QA Memo #:3416
+Fixed Date:8/21/2009 15:48
+Description:IV - Inventory transfer register
+
+QA Memo #:3428
+Fixed Date:8/21/2009 16:15
+Description:GL - Financial Report Master
+
+QA Memo #:3437
+Fixed Date:8/21/2009 17:10
+Description:Can't Enter Locked Date on Fiscal Calendar
+
+QA Memo #:3440
+Fixed Date:8/21/2009 17:18
+Description:IV - Stocking information - error 13
+
+QA Memo #:2963
+Fixed Date:8/21/2009 17:20
+Description:New part number entry G/L tab
+
+QA Memo #:3369
+Fixed Date:8/21/2009 17:55
+Description:AP - Invoice processing
+
+QA Memo #:3433
+Fixed Date:8/21/2009 18:32
+Description:PO - Requisition print sequence numbers
+
+QA Memo #:3409
+Fixed Date:8/21/2009 22:30
+Description:OP - Order entry invalid WH/Item warning
+
+QA Memo #:3364
+Fixed Date:8/21/2009 22:34
+Description:SA - Display vs. Maintenance
+
+QA Memo #:3391
+Fixed Date:8/21/2009 23:11
+Description:OP - Invoice entry - Dupe Invoice
+
+QA Memo #:3401
+Fixed Date:8/21/2009 23:17
+Description:OP - Invoice Detail Line message problem
+
+QA Memo #:3434
+Fixed Date:8/24/2009 15:12
+Description:PO - Req & PO entry - other line types
+
+QA Memo #:3447
+Fixed Date:8/25/2009 12:39
+Description:PO - Required date
+
+QA Memo #:3450
+Fixed Date:8/25/2009 13:18
+Description:PO - Printed page
+
+QA Memo #:809
+Fixed Date:8/25/2009 15:48
+Description:Executive Summary months off-by-one.
+
+QA Memo #:532
+Fixed Date:8/25/2009 15:52
+Description:"GL Param - Enter Curr Year, hit OK on msg, hit Ctl_Z - Err"
+
+QA Memo #:3345
+Fixed Date:8/25/2009 23:30
+Description:IV - ABC Analysis Report
+
+QA Memo #:3362
+Fixed Date:8/25/2009 23:54
+Description:SA - Reports - error 13 in line 212 of sar_ac.aon
+
+QA Memo #:3453
+Fixed Date:8/26/2009 23:53
+Description:AP Vendor Maintenance - disallow 000000 vendor number
+
+QA Memo #:3479
+Fixed Date:8/27/2009 13:22
+Description:OP - Invoice history report
+
+QA Memo #:3480
+Fixed Date:8/27/2009 14:22
+Description:OP - Error 47 in Order Entry: OLD_SHIP_TO
+
+QA Memo #:3481
+Fixed Date:8/27/2009 14:29
+Description:"OP - Invoice Entry, Invalid Column, TAXABLE_AMT"
+
+QA Memo #:3484
+Fixed Date:8/27/2009 14:57
+Description:"OP - Invoice Entry, ope_ordtotals, error 17 (template error)"
+
+QA Memo #:3365
+Fixed Date:8/27/2009 15:00
+Description:Error 17 in ado_util.src
+
+QA Memo #:3492
+Fixed Date:8/27/2009 18:53
+Description:OP - Error 11 when trying to delete an order
+
+QA Memo #:3478
+Fixed Date:8/27/2009 23:25
+Description:OP - Sales tax report
+
+QA Memo #:3475
+Fixed Date:8/28/2009 0:14
+Description:IV Lot/Serial Transaction Report doesn't regard date range
+
+QA Memo #:3097
+Fixed Date:8/28/2009 15:11
+Description:OP - Incorrect warning for a new order
+
+QA Memo #:3104
+Fixed Date:8/28/2009 15:13
+Description:OP - order entry serial number entry error 17
+
+QA Memo #:3126
+Fixed Date:8/28/2009 15:51
+Description:OP - Standardization for the total pages
+
+QA Memo #:3158
+Fixed Date:8/28/2009 15:51
+Description:OP - Invoice entry - new order
+
+QA Memo #:3185
+Fixed Date:8/28/2009 15:58
+Description:OP - Invoice entry eternal loop
+
+QA Memo #:3206
+Fixed Date:8/28/2009 15:59
+Description:OP - Invoice Printing does not handle Paid information
+
+QA Memo #:3229
+Fixed Date:8/28/2009 16:08
+Description:"OP - ""New sequence number?"" message shows twice"
+
+QA Memo #:3214
+Fixed Date:8/28/2009 16:14
+Description:OP - Invoice print error 252
+
+QA Memo #:3261
+Fixed Date:8/28/2009 16:16
+Description:OP - Invoice printed document overwrite
+
+QA Memo #:3432
+Fixed Date:8/28/2009 16:17
+Description:PO - Requisition entry - multiples
+
+QA Memo #:3338
+Fixed Date:8/28/2009 16:27
+Description:OP - Order entry with new item
+
+QA Memo #:3500
+Fixed Date:8/28/2009 23:34
+Description:IV - inventory reqts report syntax error
+
+QA Memo #:3497
+Fixed Date:8/28/2009 23:43
+Description:AR - Customer maintenance data not found messages
+
+QA Memo #:3388
+Fixed Date:8/31/2009 23:43
+Description:OP - Monthly sales register
+
+QA Memo #:3091
+Fixed Date:9/1/2009 23:26
+Description:OP - Order entry Totals Page - amount column alignment & size
+
+QA Memo #:3093
+Fixed Date:9/1/2009 23:28
+Description:OP - Order entry totals page - tax amount
+
+QA Memo #:3256
+Fixed Date:9/2/2009 6:49
+Description:OP - Invoice entry - detail line extension
+
+QA Memo #:3336
+Fixed Date:9/2/2009 12:53
+Description:OP - Invoice total
+
+QA Memo #:3089
+Fixed Date:9/2/2009 14:07
+Description:OP - Order entry does not retain the manual ship-to
+
+QA Memo #:3386
+Fixed Date:9/2/2009 14:42
+Description:SY - Executive Summary
+
+QA Memo #:3517
+Fixed Date:9/2/2009 23:39
+Description:OP - Price Quotation Error 47
+
+QA Memo #:3515
+Fixed Date:9/3/2009 0:10
+Description:OP - Sales Register MTD Totals disregards previous totals
+
+QA Memo #:2939
+Fixed Date:9/3/2009 19:00
+Description:Speedsearch Analysis for Version 8
+
+QA Memo #:3516
+Fixed Date:9/3/2009 22:59
+Description:OP - Contract Pricing Mx allows blank cust & blank item
+
+QA Memo #:3253
+Fixed Date:9/3/2009 23:57
+Description:OP (Sales) - Customer ID field should become active with Restart checkbox selection
+
+QA Memo #:3412
+Fixed Date:9/4/2009 18:38
+Description:OP - Lot/Serial lookup unit cost
+
+QA Memo #:3216
+Fixed Date:9/4/2009 23:51
+Description:OP - Invoice edit report format
+
+QA Memo #:3254
+Fixed Date:9/5/2009 0:11
+Description:OP - Invoice Printing: not enough room for Salesperson Code
+
+QA Memo #:3468
+Fixed Date:9/8/2009 10:02
+Description:OP - Order entry serial numbers
+
+QA Memo #:3411
+Fixed Date:9/8/2009 10:14
+Description:"OP - Invoice entry, not calculating sales tax"
+
+QA Memo #:3394
+Fixed Date:9/8/2009 10:49
+Description:OP - Error 12 (opc_pc.aon) in ope_invhdr_cpt.bbj
+
+QA Memo #:3518
+Fixed Date:9/8/2009 13:38
+Description:OP - Pricing Table is not being used - Order Entry & Price Quotation
+
+QA Memo #:3532
+Fixed Date:9/9/2009 8:54
+Description:AP - Invoice register no updating the Posting Control dates
+
+QA Memo #:3204
+Fixed Date:9/9/2009 23:07
+Description:OP - Invoice Printing can't handle message with more than five lines
+
+QA Memo #:3530
+Fixed Date:9/9/2009 23:22
+Description:Age Credits not working on AR Aging
+
+QA Memo #:3531
+Fixed Date:9/10/2009 16:27
+Description:AP - Invoice register GL page
+
+QA Memo #:3488
+Fixed Date:9/10/2009 18:42
+Description:OP - Commit and Release Future orders - error 36
+
+QA Memo #:3537
+Fixed Date:9/10/2009 23:01
+Description:IV - ABC Analysis report - error 47
+
+QA Memo #:3523
+Fixed Date:9/10/2009 23:08
+Description:AR - Customer ship-to maintenance blank code
+
+QA Memo #:3493
+Fixed Date:9/10/2009 23:37
+Description:OP - 'other' type line does not fill in memo/description
+
+QA Memo #:3536
+Fixed Date:9/11/2009 12:07
+Description:OP - Error 259 in ope_orddet_cpt.bbj line 873
+
+QA Memo #:3469
+Fixed Date:9/11/2009 12:13
+Description:OP - Order entry on demand print
+
+QA Memo #:3529
+Fixed Date:9/11/2009 14:55
+Description:OP - order & invoice enty lead-in prompts
+
+QA Memo #:3548
+Fixed Date:9/13/2009 23:35
+Description:GL - Chart of Accounts Break Entry (parameters)
+
+QA Memo #:3547
+Fixed Date:9/14/2009 13:42
+Description:AR - Credit Manager Parameters - password entry
+
+QA Memo #:3456
+Fixed Date:9/14/2009 16:52
+Description:"AP Manual Check Entry - incorrect totals, lost data"
+
+QA Memo #:3524
+Fixed Date:9/14/2009 18:03
+Description:ES - Espresso error 17 - Requisition drill-down
+
+QA Memo #:3521
+Fixed Date:9/14/2009 18:05
+Description:ES - Espresson re-sequencing open order detail lines
+
+QA Memo #:3550
+Fixed Date:9/14/2009 20:29
+Description:GL - Daily Detail Register/Update - missing information
+
+QA Memo #:3551
+Fixed Date:9/14/2009 20:30
+Description:GL - Daily Detail posted to non-existent file
+
+QA Memo #:3542
+Fixed Date:9/14/2009 22:52
+Description:OP - Credit Manager - Can't enter new customer for credit hold
+
+QA Memo #:3259
+Fixed Date:9/15/2009 19:24
+Description:OP - Sales register display for missing lot/serial numbers
+
+QA Memo #:3393
+Fixed Date:9/15/2009 19:31
+Description:OP - Invoice entry - dupe/credit
+
+QA Memo #:3558
+Fixed Date:9/15/2009 19:53
+Description:OP - Invoice Entry debug escape
+
+QA Memo #:3068
+Fixed Date:9/16/2009 10:07
+Description:PO - Requisition Entry - drop ship customer ID entry
+
+QA Memo #:3396
+Fixed Date:9/16/2009 13:37
+Description:OP Order entry - duplicate and credit
+
+QA Memo #:3373
+Fixed Date:9/16/2009 16:08
+Description:OP - Sales Register - error 46
+
+QA Memo #:3561
+Fixed Date:9/17/2009 13:18
+Description:OP - Invoice entry sales tax calculation
+
+QA Memo #:3398
+Fixed Date:9/17/2009 15:31
+Description:"OP - Order entry accessing printed invoices, Register off"
+
+QA Memo #:3568
+Fixed Date:9/17/2009 23:12
+Description:OP Order Entry allows negative price to be entered
+
+QA Memo #:3462
+Fixed Date:9/17/2009 23:25
+Description:OP - Order entry negative quantities
+
+QA Memo #:3334
+Fixed Date:9/18/2009 12:25
+Description:OP - Order entry warehouse entry
+
+QA Memo #:3490
+Fixed Date:9/18/2009 13:46
+Description:"OP - Open order detail report, physical report formatting"
+
+QA Memo #:3418
+Fixed Date:9/18/2009 14:51
+Description:IV - Transaction entry SN lookup
+
+QA Memo #:3419
+Fixed Date:9/18/2009 14:51
+Description:IV - Inventory transactory register  committed update
+
+QA Memo #:3414
+Fixed Date:9/18/2009 14:52
+Description:IV - Serialized item commitments
+
+QA Memo #:3415
+Fixed Date:9/18/2009 14:52
+Description:IV - Serial number available calculation & display
+
+QA Memo #:3566
+Fixed Date:9/18/2009 16:27
+Description:OP - Order Picking list totals alignment
+
+QA Memo #:3328
+Fixed Date:9/18/2009 18:39
+Description:All Modules - empty reports
+
+QA Memo #:3571
+Fixed Date:9/18/2009 19:19
+Description:IV - No update selection after ABC Analysis Report
+
+QA Memo #:3463
+Fixed Date:9/18/2009 23:32
+Description:OP - order entry inventory availability display
+
+QA Memo #:3482
+Fixed Date:9/18/2009 23:57
+Description:OP - Order entry committments
+
+QA Memo #:3465
+Fixed Date:9/21/2009 18:14
+Description:OP - Order entry credit limit
+
+QA Memo #:3587
+Fixed Date:9/22/2009 0:13
+Description:PO - Receipt entry serial number entry
+
+QA Memo #:3600
+Fixed Date:9/22/2009 13:44
+Description:IV - L/S Master display is not updated
+
+QA Memo #:3601
+Fixed Date:9/22/2009 13:47
+Description:IV - Warehouse Adjustment date
+
+QA Memo #:3581
+Fixed Date:9/22/2009 17:49
+Description:OP - Modifying a printed invoice
+
+QA Memo #:3559
+Fixed Date:9/23/2009 0:15
+Description:OP - PDF Invoice format
+
+QA Memo #:3613
+Fixed Date:9/23/2009 23:22
+Description:PO - PO Status Report By Vendor spelling correction
+
+QA Memo #:3612
+Fixed Date:9/23/2009 23:56
+Description:PO - PO Receipt by vendor numeric cost mask
+
+QA Memo #:3553
+Fixed Date:9/24/2009 0:05
+Description:OP - Commit & Release Future Orders - Credit Status Window
+
+QA Memo #:3609
+Fixed Date:9/24/2009 22:26
+Description:OP - Invoice Subtotal and Total allow entry after TAB from detail line
+
+QA Memo #:3602
+Fixed Date:9/24/2009 22:45
+Description:IV - Transaction register detail line
+
+QA Memo #:3603
+Fixed Date:9/24/2009 23:11
+Description:IV - Item lot lookup Comment line wrap & cost mask
+
+QA Memo #:3606
+Fixed Date:9/24/2009 23:29
+Description:IV - Transfer entry extended cost
+
+QA Memo #:3108
+Fixed Date:9/25/2009 13:45
+Description:OP - Order entry inventory availability (status)display
+
+QA Memo #:3598
+Fixed Date:9/26/2009 0:25
+Description:PO - PO Receipt entry serial number assignment
+
+QA Memo #:3632
+Fixed Date:10/5/2009 11:17
+Description:Logic checking for explicit Y/N in Fiscal Period closed flag fails if/when dataported
+
+QA Memo #:3633
+Fixed Date:10/5/2009 11:22
+Description:acctlen variable being set/used from obsolete GL param acct len field rather than via the Barista GL/ID field.
+
+QA Memo #:3658
+Fixed Date:10/6/2009 10:58
+Description:GL - Copy Chart of Accounts no indication of completion
+
+QA Memo #:3655
+Fixed Date:10/6/2009 11:52
+Description:AP - Error 36/15/getbatch.aon in Recurring Invoice Entry
+
+QA Memo #:3665
+Fixed Date:10/6/2009 12:50
+Description:AP - Recurring Invoices don't forward into AP Invoice header/detail file with batch info
+
+QA Memo #:3668
+Fixed Date:10/6/2009 13:05
+Description:AD - Process Batch Maintenance not setting batch_no$ and process_id$
+
+QA Memo #:3597
+Fixed Date:10/6/2009 16:20
+Description:PO - Invoice entry - error 26 after entering invoice number
+
+QA Memo #:3671
+Fixed Date:10/7/2009 16:09
+Description:AP - Vendor maintenance GL account rejected
+
+QA Memo #:3670
+Fixed Date:10/7/2009 16:09
+Description:AP - Vendor distribution code entry rejected due to lenght
+
+QA Memo #:3672
+Fixed Date:10/7/2009 16:37
+Description:AP - Invoice entry requires an AP type
+
+QA Memo #:3634
+Fixed Date:10/7/2009 17:22
+Description:GL - Need to fix acctlen in these GL programs
+
+QA Memo #:3657
+Fixed Date:10/7/2009 18:07
+Description:AR - Simple Invoice Printing error 252/314/arr_invoices.aon
+
+QA Memo #:3654
+Fixed Date:10/7/2009 18:09
+Description:AP - Close form on run for export 1099 data
+
+QA Memo #:3656
+Fixed Date:10/7/2009 18:22
+Description:AR - Simple Invoice Printing masking
+
+QA Memo #:3460
+Fixed Date:10/8/2009 18:25
+Description:PO - Invoice entry - GL write off
+
+QA Memo #:3684
+Fixed Date:10/8/2009 19:30
+Description:IV - Transaction Entry allows more than qty 1 for Serial Item
+
+QA Memo #:3451
+Fixed Date:10/9/2009 11:04
+Description:PO - Requisition register
+
+QA Memo #:3452
+Fixed Date:10/9/2009 11:21
+Description:PO - Create a PO with no number assigned
+
+QA Memo #:3687
+Fixed Date:10/9/2009 16:59
+Description:"OP- ""Reprint this Order?"" logic is flawed"
+
+QA Memo #:3472
+Fixed Date:10/9/2009 17:10
+Description:OP - Picking slip reprint
+
+QA Memo #:3555
+Fixed Date:10/9/2009 18:36
+Description:OP - Sales register GL distribution
+
+QA Memo #:3629
+Fixed Date:10/9/2009 18:47
+Description:OP - Error 47/132/opr_oderpicklst_o1.aon
+
+QA Memo #:3689
+Fixed Date:10/12/2009 12:09
+Description:OP - Invoice Entry allows a serialized item to be updated w/qty 2
+
+QA Memo #:3692
+Fixed Date:10/12/2009 19:44
+Description:OP - Invoice Entry Entering Lot Numbers should default Ship Qty
+
+QA Memo #:3693
+Fixed Date:10/13/2009 12:36
+Description:OP - Invoice History Report quantities and dollars not being reported.
+
+QA Memo #:3727
+Fixed Date:10/13/2009 16:13
+Description:AR - Cash receipts entry - trapped in the GL distribution entry
+
+QA Memo #:3691
+Fixed Date:10/13/2009 17:20
+Description:AP - Manual check register system with batching - system message error
+
+QA Memo #:3729
+Fixed Date:10/13/2009 17:32
+Description:AR - Cash receipt entry - record lookup
+
+QA Memo #:3732
+Fixed Date:10/13/2009 18:19
+Description:AR Aging report is empty
+
+QA Memo #:3728
+Fixed Date:10/13/2009 18:37
+Description:AR - Cash receipts entry - on account posting
+
+QA Memo #:3686
+Fixed Date:10/13/2009 18:50
+Description:AP - Vendor maintenance - vendor codes and history
+
+QA Memo #:3589
+Fixed Date:10/13/2009 20:02
+Description:PO - PO print restart - error 252
+
+QA Memo #:3653
+Fixed Date:10/13/2009 21:36
+Description:AP - Aging Report by Days calculates wrong dates
+
+QA Memo #:3751
+Fixed Date:10/14/2009 12:06
+Description:PO - Using ISN in Sales Order reference for dropships is worthless
+
+QA Memo #:3697
+Fixed Date:10/14/2009 12:07
+Description:PO - Entry Detail - Item lookup mostly not working
+
+QA Memo #:3582
+Fixed Date:10/14/2009 12:12
+Description:PO - Invoice entry dimmed buttons
+
+QA Memo #:3747
+Fixed Date:10/14/2009 13:21
+Description:OP - Error 47/481/opr_salesregister.aon
+
+QA Memo #:3701
+Fixed Date:10/14/2009 14:06
+Description:AR - Cash Receipt screen display after completing entry
+
+QA Memo #:3700
+Fixed Date:10/14/2009 14:22
+Description:AR - Cash Receipts Entry/Register Incorrect Amounts
+
+QA Memo #:3741
+Fixed Date:10/14/2009 15:25
+Description:OP - Need to print Pick List even if Order is on hold if flag is up
+
+QA Memo #:3698
+Fixed Date:10/14/2009 16:52
+Description:AR - Payment Information missing on Cust Ledger Report & Invoice Detail Inquiry
+
+QA Memo #:3753
+Fixed Date:10/14/2009 18:10
+Description:AP - Open Invoice Inquiry from Vendor Master always says 'document contains no data'
+
+QA Memo #:3675
+Fixed Date:10/14/2009 18:22
+Description:AP - Disbursements Journal [HEADER]
+
+QA Memo #:3679
+Fixed Date:10/14/2009 18:29
+Description:AP - Monthly check report [HEADER]
+
+QA Memo #:3703
+Fixed Date:10/15/2009 11:40
+Description:AR - Customer Comments Listing by Slspn is wrong slspn
+
+QA Memo #:3723
+Fixed Date:10/15/2009 12:04
+Description:AR - Simple invoice entry - invoice is not retained
+
+QA Memo #:3486
+Fixed Date:10/15/2009 12:08
+Description:OP - order entry no item passed to the committment progam
+
+QA Memo #:3666
+Fixed Date:10/15/2009 15:59
+Description:AP - Payment selection report format
+
+QA Memo #:3748
+Fixed Date:10/15/2009 16:45
+Description:OP - Sales Register Update didn't create record in sam-01
+
+QA Memo #:3470
+Fixed Date:10/15/2009 17:26
+Description:OP - Serial number selection approval
+
+QA Memo #:3758
+Fixed Date:10/15/2009 17:29
+Description:Lots not being handled correctly in Sales Register Update
+
+QA Memo #:3752
+Fixed Date:10/15/2009 17:56
+Description:OP - Sales Analys by Territory incorrect after Sales Register Update
+
+QA Memo #:3750
+Fixed Date:10/15/2009 17:57
+Description:OP - Non-Stock line entered without a Product Type
+
+QA Memo #:3605
+Fixed Date:10/15/2009 18:42
+Description:IV - Inventory Transfer - L/S lookup eternal loop
+
+QA Memo #:3604
+Fixed Date:10/15/2009 18:46
+Description:IV- Inventory transfer entry - L/S lookup
+
+QA Memo #:3621
+Fixed Date:10/15/2009 18:58
+Description:IV - Physical Inventory Cycle Code not found
+
+QA Memo#:3764
+Fixed Date:10/16/2009 13:26
+Description:GL - Trial Balance has no data
+
+QA Memo#:3702
+Fixed Date:10/16/2009 15:57
+Description:AR - Average Days to Pay not calculating
+
+QA Memo#:3595
+Fixed Date:10/16/2009 16:55
+Description:PO - Receipt entry - other line codes
+
+QA Memo#:3740
+Fixed Date:10/16/2009 17:36
+Description:SQL Errors
+
+QA Memo#:3733
+Fixed Date:10/16/2009 17:37
+Description:AR - Freight Terms lookup SQL error
+
+QA Memo#:3736
+Fixed Date:10/16/2009 17:38
+Description:OP - SQL error
+
+QA Memo#:3734
+Fixed Date:10/16/2009 17:38
+Description:AR - Record added by another user
+
+QA Memo#:3756
+Fixed Date:10/16/2009 20:11
+Description:OP - Commission record not added during Sales Register Update
+
+QA Memo#:3765
+Fixed Date:10/19/2009 17:14
+Description:OP - Sales Register Update posts incorrect data to the G/L
+
+QA Memo#:3780
+Fixed Date:10/19/2009 17:28
+Description:OP - error 47 Line 481 Sales Register
+
+QA Memo#:3784
+Fixed Date:10/19/2009 19:04
+Description:GL - P&L and/or Balance Sheet reporting glw-02 locked
+
+QA Memo#:3785
+Fixed Date:10/19/2009 19:06
+Description:GL - custom financials still calling adc_printer
+
+QA Memo#:3754
+Fixed Date:10/20/2009 16:09
+Description:Barista - Error 77 on Barista login
+
+QA Memo#:3793
+Fixed Date:10/20/2009 17:26
+Description:OP - Order entry lookup and subsequent processing
+
+QA Memo#:3798
+Fixed Date:10/20/2009 18:46
+Description:AP - Vendor label print - alternate sequence
+
+QA Memo#:3574
+Fixed Date:10/20/2009 18:50
+Description:OP - Credit Review & Release - error 47 in arr_ordinvhist.aon
+
+QA Memo#:3586
+Fixed Date:10/20/2009 19:24
+Description:IV - Item Maintenance error 47 on save
+
+QA Memo#:3801
+Fixed Date:10/20/2009 20:24
+Description:GL Report date formats different for FROM & TO
+
+QA Memo#:3805
+Fixed Date:10/21/2009 12:23
+Description:AR - remove reduntant 'MTD' in prompts on Aging/Sales Summary tab
+
+QA Memo#:3808
+Fixed Date:10/22/2009 17:59
+Description:OP - Can't enter a Ship To Code in Order Entry
+
+QA Memo#:3821
+Fixed Date:10/24/2009 16:19
+Description:GL - Account Allocations can't be saved when modifying
+
+QA Memo#:3617
+Fixed Date:10/26/2009 12:51
+Description:IV - item maint open orders option err 252 item 1001
+
+QA Memo#:3773
+Fixed Date:10/26/2009 13:57
+Description:OP - Debug code in order entry
+
+QA Memo#:3822
+Fixed Date:10/26/2009 22:34
+Description:GL - Account Allocation tab order
+
+QA Memo#:3820
+Fixed Date:10/27/2009 8:29
+Description:GL - Inconsistency with closing form on run in Daily Detail
+
+QA Memo#:3824
+Fixed Date:10/27/2009 8:29
+Description:GL - Inconsistency with closing form on run in GL Summary Activity Report
+
+QA Memo#:3828
+Fixed Date:10/28/2009 0:36
+Description:PO - Calendar Maintenance - gaps are confusing
+
+QA Memo#:3791
+Fixed Date:10/28/2009 0:42
+Description:OP - Commit & release future orders has an escape
+
+QA Memo#:3833
+Fixed Date:10/30/2009 0:40
+Description:IV - Last Adj and Transfer dates posting incorrectly from IV Transaction & Transfer Entry
+
+QA Memo#:3511
+Fixed Date:10/30/2009 17:36
+Description:OP - Order entry F1 additional options
+
+QA Memo#:3836
+Fixed Date:10/30/2009 22:39
+Description:GL - Journal entry UNITS do not total
+
+QA Memo#:3850
+Fixed Date:10/30/2009 23:52
+Description:Error 47 in Executive Summary Create
+
+QA Memo#:3851
+Fixed Date:10/31/2009 0:02
+Description:IV - Cost Change Register - Error 21/Line 282/ivr_costchgreg.aon
+
+QA Memo#:3852
+Fixed Date:10/31/2009 0:54
+Description:IV - IV Cost Change Register Needs warning of future date
+
+QA Memo#:3846
+Fixed Date:11/1/2009 17:31
+Description:GL - Cycle code allows lower case
+
+QA Memo#:3856
+Fixed Date:11/3/2009 12:44
+Description:IV - Error 47 Zero Balance Report - AND - Wrong or no data when it ran
+
+QA Memo#:3842
+Fixed Date:11/3/2009 14:59
+Description:GL - Error 17 in the journal register
+
+QA Memo#:3844
+Fixed Date:11/3/2009 15:12
+Description:GL - Error 17 in the account allocation register
+
+QA Memo#:3866
+Fixed Date:11/3/2009 15:21
+Description:GL - Demo data parms
+
+QA Memo#:3861
+Fixed Date:11/3/2009 15:41
+Description:AR - Generate Finance Charge - Error 11
+
+QA Memo#:3872
+Fixed Date:11/4/2009 0:14
+Description:AR - Single statement printed for the wrong customer
+
+QA Memo#:3881
+Fixed Date:11/4/2009 15:57
+Description:AP - Payment selection report - error 252
+
+QA Memo#:3880
+Fixed Date:11/4/2009 23:27
+Description:AP - Monthly Check report - orphaned zero
+
+QA Memo#:3867
+Fixed Date:11/5/2009 0:00
+Description:AR - Monthly Cash Receipts Journal - does not report the transactions
+
+QA Memo#:3882
+Fixed Date:11/5/2009 11:20
+Description:AP - Payment Selection with Retention active
+
+QA Memo#:3885
+Fixed Date:11/5/2009 14:12
+Description:AP - Payment selection dropping the discounts
+
+QA Memo#:3868
+Fixed Date:11/5/2009 23:12
+Description:AR - Monthly Cash Receipts Journal - cash receipts code filter
+
+QA Memo#:3622
+Fixed Date:11/5/2009 23:49
+Description:IV - Warehouse screen - Price Fields can be changed
+
+QA Memo#:3883
+Fixed Date:11/6/2009 7:38
+Description:AP - Monthly check report - with retentions
+
+QA Memo#:3743
+Fixed Date:11/6/2009 11:19
+Description:OP - Asks to print Picking List
+
+QA Memo#:3522
+Fixed Date:11/6/2009 18:10
+Description:OP - Order line item discount percentage
+
+QA Memo#:3841
+Fixed Date:11/6/2009 23:09
+Description:GL - Account allocation register - HEADER when empty
+
+QA Memo#:3630
+Fixed Date:11/7/2009 0:06
+Description:OP - Print button in Order Entry does nothing
+
+QA Memo#:3781
+Fixed Date:11/9/2009 14:49
+Description:OP - Flag not reset when Invoice locked by SR is recalled and editted

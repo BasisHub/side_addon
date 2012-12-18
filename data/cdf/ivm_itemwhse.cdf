@@ -1,3 +1,15 @@
+[[IVM_ITEMWHSE.AWRI]]
+rem --- disable price fields
+callpoint!.setColumnEnabled("IVM_ITEMWHSE.CUR_PRICE",0)
+callpoint!.setColumnEnabled("IVM_ITEMWHSE.PRI_PRICE",0)
+[[IVM_ITEMWHSE.ARAR]]
+rem --- disable price fields
+callpoint!.setColumnEnabled("IVM_ITEMWHSE.CUR_PRICE",0)
+callpoint!.setColumnEnabled("IVM_ITEMWHSE.PRI_PRICE",0)
+[[IVM_ITEMWHSE.AREC]]
+rem --- Enable price fields
+callpoint!.setColumnEnabled("IVM_ITEMWHSE.CUR_PRICE",1)
+callpoint!.setColumnEnabled("IVM_ITEMWHSE.PRI_PRICE",1)
 [[IVM_ITEMWHSE.BDEL]]
 rem --- Allow this warehouse to be deleted?
 
@@ -37,12 +49,7 @@ callpoint!.setStatus("REFRESH")
 rem --- If select in Physical Intentory, location and cycle can't change
 
 if callpoint!.getColumnData("IVM_ITEMWHSE.SELECT_PHYS") = "Y" then
-	callpoint!.setColumnEnabled("IVM_ITEMWHSE.LOCATION",0)
-	callpoint!.setColumnEnabled("IVM_ITEMWHSE.PI_CYCLECODE",0)
 	call stbl("+DIR_SYP")+"bac_message.bbj","IV_PHY_INV_SELECT",msg_tokens$[all],msg_opt$,table_chans$[all]
-else
-	callpoint!.setColumnEnabled("IVM_ITEMWHSE.LOCATION",1)
-	callpoint!.setColumnEnabled("IVM_ITEMWHSE.PI_CYCLECODE",1)
 endif
 [[IVM_ITEMWHSE.SAFETY_STOCK.AVAL]]
 if num(callpoint!.getUserInput())<0 then callpoint!.setStatus("ABORT")
@@ -101,6 +108,10 @@ if str(callpoint!.getDevObject("lot_serial_item"))<>"Y"
 else
 	callpoint!.setOptionEnabled("IVM_LSMASTER",1)
 endif
+
+rem --- disable price fields
+callpoint!.setColumnEnabled("IVM_ITEMWHSE.CUR_PRICE",0)
+callpoint!.setColumnEnabled("IVM_ITEMWHSE.PRI_PRICE",0)
 [[IVM_ITEMWHSE.AOPT-HIST]]
 iv_item_id$=callpoint!.getColumnData("IVM_ITEMWHSE.ITEM_ID")
 iv_whse_id$=callpoint!.getColumnData("IVM_ITEMWHSE.WAREHOUSE_ID")

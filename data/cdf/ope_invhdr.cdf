@@ -1,8 +1,3 @@
-[[OPE_INVHDR.TAX_CODE.AVAL]]
-rem --- Set code in the Order Helper object
-
-	ordHelp! = cast(OrderHelper, callpoint!.getDevObject("order_helper_object"))
-	ordHelp!.setTaxCode(callpoint!.getColumnData("OPE_ORDHDR.TAX_CODE"))
 [[OPE_INVHDR.ARAR]]
 print "Hdr:ARAR"; rem debug
 
@@ -72,15 +67,6 @@ rem --- Customer wants to pay cash; Launch invoice totals first
 rem --- Now launch Cash Transaction
 
 	gosub get_cash
-
-rem --- Do we need to print an invoice first?
-
-	if callpoint!.getDevObject( "print_invoice" ) = "Y" then
-		gosub do_invoice
-	endif
-
-rem --- Now start a new record
-
 	user_tpl.do_end_of_form = 0
 	callpoint!.setStatus("NEWREC")
 [[OPE_INVHDR.AOPT-RPRT]]
@@ -246,50 +232,8 @@ rem --- Calculate taxes and write it back
 
 rem --- Credit action
 
-	if ordHelp!.calcOverCreditLimit() and callpoint!.getDevObject("credit_action_done") <> "Y" then
+	if ordHelp!.setOverCreditLimit() and callpoint!.getDevObject("credit_action_done") <> "Y" then
 		gosub do_credit_action
-	endif
-
-rem --- Does the total of lot/serial# match the qty ordered for each detail line?
-
-	ordHelp! = cast(OrderHelper, callpoint!.getDevObject("order_helper_object"))
-	ordHelp!.setLotSerialFlag( user_tpl.lotser_flag$ )
-
-	if user_tpl.lotser_flag$ <> "N" then
-
-		declare BBjVector recs!
-		recs! = BBjAPI().makeVector()
-
-		recs! = cast( BBjVector, gridVect!.getItem(0) )
-		dim gridrec$:dtlg_param$[1,3]
-
-	rem --- Detail loop
-
-		if recs!.size() then
-			for row=0 to recs!.size()-1
-				gridrec$ = recs!.getItem(row)
-
-				if ordHelp!.isLottedSerial(gridrec.item_id$) then
-					lot_ser_total = ordHelp!.totalLotSerialAmount( gridrec.internal_seq_no$ )
-
-					if lot_ser_total <> gridrec.qty_ordered then
-						if user_tpl.lotser_flag$ = "L" then
-							lot_ser$ = "lots"
-						else
-							lot_ser$ = "serial numbers"
-						endif
-					
-						msg_id$ = "OP_ITEM_LS_TOTAL"
-						dim msg_tokens$[3]
-						msg_tokens$[0] = str(gridrec.qty_ordered)
-						msg_tokens$[1] = cvs(gridrec.item_id$, 2)
-						msg_tokens$[2] = lot_ser$
-						msg_tokens$[3] = str(lot_ser_total)
-						gosub disp_message
-					endif
-				endif
-			next row
-		endif
 	endif
 
 rem --- Cash Transaction
@@ -837,14 +781,15 @@ rem --- Check locked status
 	endif
 
 rem --- Check Print flag
+rem --- rem'ing entire routine per VAR discussion; only check print flag when making an invoice (make invoice button)
 
-	gosub check_print_flag
+rem	gosub check_print_flag
 
-	if locked then
-		user_tpl.do_end_of_form = 0
-		callpoint!.setStatus("ABORT")
-		break; rem --- exit callpoint
-	endif
+rem	if locked then
+rem		user_tpl.do_end_of_form = 0
+rem		callpoint!.setStatus("ABORT")
+rem		break; rem --- exit callpoint
+rem	endif
 
 rem --- Show customer data
 	
@@ -1815,42 +1760,26 @@ rem ==========================================================================
 	cust_id$  = callpoint!.getColumnData("OPE_INVHDR.CUSTOMER_ID")
 	order_no$ = callpoint!.getColumnData("OPE_INVHDR.ORDER_NO")
 
-rem --- Should we call Credit Action?
-
 	if user_tpl.credit_installed$ = "Y" and inv_type$ <> "P" and cvs(cust_id$, 2) <> "" and cvs(order_no$, 2) <> "" then
 		callpoint!.setDevObject("run_by", "invoice")
 		call user_tpl.pgmdir$+"opc_creditaction.aon", cust_id$, order_no$, table_chans$[all], callpoint!, action$, status
 		if status = 999 then goto std_exit
 
-	rem --- Delete the order
-
-		if action$ = "D" then 
-			callpoint!.setStatus("DELETE")
-			return
-		endif
-
 		if pos(action$="HC")<>0 then
-
-		rem --- Order on hold
-
 			callpoint!.setColumnData("OPE_INVHDR.CREDIT_FLAG","C")
 		else
 			if action$="R" then
-
-			rem --- Order released
-
 				callpoint!.setColumnData("OPE_INVHDR.CREDIT_FLAG","R")
 				terms$ = str(callpoint!.getDevObject("new_terms_code"))
-
-				if terms$ <> "" then
-					callpoint!.setColumnData("OPE_INVHDR.TERMS_CODE", terms$)
-				endif
+				callpoint!.setColumnData("OPE_INVHDR.TERMS_CODE", terms$)
 			else
 				callpoint!.setColumnData("OPE_INVHDR.CREDIT_FLAG","")			
 			endif
 		endif
 
-	rem --- Order was printed within the credit action program
+		if action$ = "D" then 
+			callpoint!.setStatus("DELETE")
+		endif
 
 		if str(callpoint!.getDevObject("document_printed")) = "Y" then 
 			callpoint!.setColumnData("OPE_INVHDR.PRINT_STATUS", "Y")
@@ -1870,22 +1799,14 @@ rem ==========================================================================
 
 	print "in do_invoice..."; rem debug
 
-rem --- Make sure everything's written back to disk
+	cust_id$  = callpoint!.getColumnData("OPE_INVHDR.CUSTOMER_ID")
+	order_no$ = callpoint!.getColumnData("OPE_INVHDR.ORDER_NO")
 
-	gosub get_disk_rec
-	ordhdr_rec$ = field(ordhdr_rec$)
-	write record (ordhdr_dev) ordhdr_rec$
-
-rem --- Call printing program
-
-	call user_tpl.pgmdir$+"opc_invoice.aon::on_demand", cust_id$, order_no$, callpoint!, table_chans$[all], status
+	call user_tpl.pgmdir$+"opc_invoice.aon", cust_id$, order_no$, callpoint!, table_chans$[all], status
 	if status = 999 then goto std_exit
-
 	callpoint!.setColumnData("OPE_INVHDR.PRINT_STATUS", "Y")
-
 	msg_id$ = "OP_INVOICE_DONE"
 	gosub disp_message
-
 	print "---Print Status: Y"; rem debug
 	print "out"; rem debug
 
@@ -1973,8 +1894,6 @@ rem ==========================================================================
 get_cash: rem --- Launch the Cash Transaction form
 rem ==========================================================================
 
-	print "Hdr: in get_cash..."; rem debug
-
 	custmast_dev = fnget_dev("ARM_CUSTMAST")
 	dim custmast_tpl$:fnget_tpl$("ARM_CUSTMAST")
 	find record (custmast_dev, key=firm_id$+cust_id$) custmast_tpl$
@@ -1995,8 +1914,6 @@ rem ==========================================================================
 	order_no$ = callpoint!.getColumnData("OPE_INVHDR.ORDER_NO")
 	key_pfx$  = firm_id$+"  "+cust_id$+order_no$
 
-	print "---Calling cash form..."; rem debug
-
 	call stbl("+DIR_SYP") + "bam_run_prog.bbj", 
 :		"OPE_INVCASH", 
 :		stbl("+USER_ID"), 
@@ -2005,17 +1922,6 @@ rem ==========================================================================
 :		table_chans$[all], 
 :		"",
 :		dflt_data$[all]
-
-	print "---Setting cash sale flag"; rem debug
-	callpoint!.setColumnData("OPE_INVHDR.CASH_SALE", "Y")
-
-rem --- Write flag to disk
-
-	gosub get_disk_rec
-	if ordhdr_rec.cash_sale$ <> "Y" then escape; rem debug
-	ordhdr_rec$ = field(ordhdr_rec$)
-	write record (ordhdr_dev) ordhdr_rec$
-	print "out"; rem debug
 
 	return
 
@@ -2078,10 +1984,7 @@ rem --- Set fields from the Order Totals form and write back
 rem ==========================================================================
 get_disk_rec: rem --- Get disk record, update with current form data
               rem     OUT: ordhdr_rec$, updated
-              rem          ordhdr_tpl$
               rem          ordhdr_dev
-              rem          cust_id$
-              rem          order_no$
 rem ==========================================================================
 
 	file_name$  = "OPE_ORDHDR"
