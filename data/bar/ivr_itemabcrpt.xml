@@ -17,9 +17,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.ivr_itemabcrpt">6F7B1246D1A6C63659FB916C976FFE21</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ivr_itemabcrpt">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ivr_itemabcrpt">20080117</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ivr_itemabcrpt">20100517</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ivr_itemabcrpt">20110310</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ivr_itemabcrpt">204344</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ivr_itemabcrpt">20110815</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ivr_itemabcrpt">20110425</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ivr_itemabcrpt">120254</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ivr_itemabcrpt">[+DIR_CPP]ivr_itemabcrpt_cpt.bbj</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ivr_itemabcrpt">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.ivr_itemabcrpt">[+DIR_PGM]ivr_itemabcrpt.aon                      </DD_ATTR_PRUN>
@@ -186,6 +186,11 @@
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">
 		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
+		<RECORD id="ddm_column_opts.ivr_itemabcrptrpt_levelo">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_itemabcrptrpt_levelo">IVR_ITEMABCRPT  </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ivr_itemabcrptrpt_levelo">RPT_LEVEL       </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ivr_itemabcrptrpt_levelo">O</DD_ATTR_OPTS>
+		</RECORD>
 		<RECORD id="ddm_column_opts.ivr_itemabcrptwarehouse_id1">
 			<DD_TABLE_ALIAS id="ddm_column_opts.ivr_itemabcrptwarehouse_id1">IVR_ITEMABCRPT  </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_opts.ivr_itemabcrptwarehouse_id1">WAREHOUSE_ID    </DD_DVAR_NAME>

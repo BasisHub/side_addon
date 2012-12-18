@@ -16,12 +16,19 @@
 			<ASC_VERSION_ID id="ddm_tables.bmr_oplist">11.0      </ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.bmr_oplist">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.bmr_oplist">20080215</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.bmr_oplist">20100607</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.bmr_oplist">20110310</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.bmr_oplist">204340</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.bmr_oplist">20110623</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.bmr_oplist">20110425</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.bmr_oplist">120246</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.bmr_oplist">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.bmr_oplist">[+DIR_PGM]bmr_oplist.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.bmr_oplist">Operations Where Used Listing</DD_ATTR_WINT>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_opts">
+		<ID id="ddm_table_opts">DDM_TABLE_OPTS</ID>
+		<RECORD id="ddm_table_opts.bmr_oplistx">
+			<DD_TABLE_ALIAS id="ddm_table_opts.bmr_oplistx">BMR_OPLIST      </DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.bmr_oplistx">X</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_tpls">

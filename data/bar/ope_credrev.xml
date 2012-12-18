@@ -18,9 +18,9 @@
 			<ASC_VERSION_ID id="ddm_tables.ope_credrev">11.0      </ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ope_credrev">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ope_credrev">20081222</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ope_credrev">20100225</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ope_credrev">20110310</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ope_credrev">204340</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ope_credrev">20110811</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ope_credrev">20110811</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ope_credrev">145342</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ope_credrev">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ope_credrev">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.ope_credrev">[+DIR_PGM]adx_dummy.aon</DD_ATTR_PRUN>
@@ -126,6 +126,14 @@
 			<DD_ATTR_SEQ id="ddm_column_ldat.ope_credrevcust_ord02">02</DD_ATTR_SEQ>
 			<DD_ATTR_LDAT id="ddm_column_ldat.ope_credrevcust_ord02">O</DD_ATTR_LDAT>
 			<DD_ATTR_LDAT_DS id="ddm_column_ldat.ope_credrevcust_ord02">Held Orders</DD_ATTR_LDAT_DS>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_column_opts">
+		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
+		<RECORD id="ddm_column_opts.ope_credrevcust_ordk">
+			<DD_TABLE_ALIAS id="ddm_column_opts.ope_credrevcust_ordk">OPE_CREDREV     </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.ope_credrevcust_ordk">CUST_ORD        </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.ope_credrevcust_ordk">k</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

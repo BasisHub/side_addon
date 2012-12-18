@@ -16,12 +16,30 @@
 			<ASC_LICENSE_ID id="ddm_tables.glm_finmaster">25B6F2ABA41CECD94CF0CE04303B350B</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.glm_finmaster">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.glm_finmaster">20060616</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.glm_finmaster">20090821</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.glm_finmaster">20110310</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.glm_finmaster">204348</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.glm_finmaster">20110802</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.glm_finmaster">20110802</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.glm_finmaster">142206</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.glm_finmaster">C:/aon_dev/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.glm_finmaster">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.glm_finmaster">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.glm_finmaster">Financial Report Master</DD_ATTR_WINT>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_aopt">
+		<ID id="ddm_table_aopt">DDM_TABLE_AOPT</ID>
+		<RECORD id="ddm_table_aopt.glm_finmaster01">
+			<DD_TABLE_ALIAS id="ddm_table_aopt.glm_finmaster01">GLM_FINMASTER   </DD_TABLE_ALIAS>
+			<DD_ATTR_SEQ id="ddm_table_aopt.glm_finmaster01">01</DD_ATTR_SEQ>
+			<DD_ATTR_AOPT id="ddm_table_aopt.glm_finmaster01">Report Format Listing</DD_ATTR_AOPT>
+			<DD_ATTR_AOPT_CD id="ddm_table_aopt.glm_finmaster01">RFL</DD_ATTR_AOPT_CD>
+			<DD_ATTR_AOPT_FM id="ddm_table_aopt.glm_finmaster01">M</DD_ATTR_AOPT_FM>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_cpro">
+		<ID id="ddm_table_cpro">DDM_TABLE_CPRO</ID>
+		<RECORD id="ddm_table_cpro.glm_finmasteraopt">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.glm_finmasteraopt">GLM_FINMASTER   </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.glm_finmasteraopt">AOPT-RFL</DD_ATTR_CPRO>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_dtld">

@@ -89,27 +89,27 @@ Accounts Receivable^ARMENU^M^^^im_menua_accts_receivable.png^N^01007514^AR^Accou
 		Invoice Date Modification Entry^ARE_DATECHANGE^T^ARE_DATECHANGE^^im_menui_table.png^N^01007514^AR^Invoice_Date_Modification_Entry7^11.0^^
 		Invoice Date Modification Register^ARR_DATEREGISTER^A^ARR_DATEREGISTER^[+DIR_PGM]arr_dateregister.aon^im_menui_report.png^N^01007514^AR^Invoice_Date_Modification_Register7^11.0^^
 Bill Of Materials^BMMENU^M^^^im_menua_bill_of_materials.png^N^01007514^BM^^11.0^^
-	Inventory Production Entry^BME_AA^T^^bme_aa.aon^im_menui_table.png^N^01007514^BM^^11.0^^
+	Production Entry^BME_PRODUCT^T^BME_PRODUCT^bme_aa.aon^im_menui_table.png^^01007514^BM^^11.0^^
 	Inventory Production Register^BMR_HA^T^^bmr_ha.aon^im_menui_report.png^N^01007514^BM^^11.0^^
-	Order Production Entry^BME_BA^T^^bme_ba.aon^im_menui_table.png^N^01007514^BM^^11.0^^
+	Order Production Entry^BME_ORDER^T^BME_ORDER^bme_ba.aon^im_menui_table.png^^01007514^BM^^11.0^^
 	Order Production Register^BMR_JA^T^^bmr_ja.aon^im_menui_report.png^N^01007514^BM^^11.0^^
-	Reports^BMMENU_REPORTS^G^^^im_menua_miscellaneous.png^N^01007514^BM^^11.0^^
-		Bill Of Materials Packing Listing^BMR_EA^T^^bmr_ea.aon^im_menui_report.png^N^01007514^BM^^11.0^^
-		Materials Where Used Listing^BMR_BA^T^^bmr_ba.aon^im_menui_report.png^N^01007514^BM^^11.0^^
-		Operations Where Used Listing^BMR_DA^T^^bmr_da.aon^im_menui_report.png^N^01007514^BM^^11.0^^
-		Indented Bill Of Materials Report^BMR_ZA^T^^bmr_za.aon^im_menui_report.png^N^01007514^BM^^11.0^^
-		Bill Of Materials Detail Listing^BMR_AA^T^^bmr_aa.aon^im_menui_report.png^N^01007514^BM^^11.0^^
-		Inventory Costing^TEMP_BMR_INVCOST^T^BMR_INVCOST^bmr_fa.aon^im_menui_report.png^N^01007514^BM^^11.0^^
-	Maintenance^BMMENU_MAINT^G^^^im_menua_miscellaneous.png^N^01007514^BM^^11.0^^
+	Reports^BMMENU_REPORTS^G^^^im_node_col.png^Y^01007514^BM^^11.0^^
+		Packing List^BMR_PACKINGLIST^T^BMR_PACKINGLIST^bmr_packinglist.aon^im_menui_report.png^^01007514^BM^BMR_PACKINGLIST^11.0^^
+		Material Where Used Listing^BMR_MATERIALUSED^T^BMR_MATERIALUSED^bmr_ba.aon^im_menui_report.png^^01007514^BM^^11.0^^
+		Operations Where Used Listing^BMR_OPLIST^T^BMR_OPLIST^bmr_da.aon^im_menui_report.png^^01007514^BM^^11.0^^
+		Bill of Materials Indented Bills^BMR_INDENTEDBILL^T^BMR_INDENTEDBILL^bmr_za.aon^im_menui_report.png^^01007514^BM^^11.0^^
+		Bill of Materials Detail Listing^BMR_DETAILLIST^T^BMR_DETAILLIST^bmr_aa.aon^im_menui_report.png^^01007514^BM^^11.0^^
+		Inventory Costing^BMR_INVCOST^T^BMR_INVCOST^bmr_fa.aon^im_menui_report.png^^01007514^BM^^11.0^^
+	Maintenance^BMMENU_MAINT^G^^^im_node_col.png^Y^01007514^BM^^11.0^^
 		Bill Of Materials Masters^BMM_BILLMAST^T^BMM_BILLMAST^^im_menui_table.png^N^01007514^BM^^11.0^^
 		Operation Codes^BMC_OPCODES^T^BMC_OPCODES^^im_menui_table.png^N^01007514^BM^^11.0^^
-		Purge Obsolete Detail Lines^BMU_BA^T^^bmu_ba.aon^im_menui_update.png^N^01007514^BM^^11.0^^
+		Purge Obsolete Lines^BMU_PRGOBSDET^T^BMU_PRGOBSDET^bmu_ba.aon^im_menui_update.png^^01007514^BM^^11.0^^
 		Component Item Replacement^BMU_DA^T^^bmu_da.aon^im_menui_table.png^N^01007514^BM^^11.0^^
-		Application Parameters^BMP_AA^T^^bmp_aa.aon^im_menui_parameter.png^N^01007514^BM^^11.0^^
+		BM  System Parameters^BMS_PARAMS^T^BMS_PARAMS^bmp_aa.aon^im_menui_parameter.png^^01007514^AD^^11.0^^
 	Utilities^BMMENU_UTILITIES^G^^^im_menua_miscellaneous.png^N^01007514^BM^^11.0^^
 		Rebuild Cross References^BMX_CROSSREF^A^BMX_CROSSREF^^im_menui_utility.png^N^01007514^BM^^11.0^^
 		Resequence Detail Lines^BMX_RESEQDTL^T^BMX_RESEQDTL^^im_menui_utility.png^N^01007514^BM^^11.0^^
-		Bill Detail Exception Report^BMR_DETEXCEP^T^BMR_DETEXCEP^^im_menui_report.png^N^01007514^BM^^11.0^^
+		Detail Exception Report^BMR_DTLEXCEPT^T^BMR_DTLEXCEPT^^im_menui_report.png^^01007514^BM^^11.0^^
 General Ledger^GLMENU^M^^^im_menua_gen_ledger.png^N^01007514^GL^General_Ledger_Main_Menu^11.0^^
 	Journal Entry^GLE_JRNLHDR^T^GLE_JRNLHDR^^im_menui_table.png^N^01007514^GL^Journal_Entry7^11.0^^
 	Journal Entry Register^GLR_JOURNAL^A^^[+DIR_PGM]glr_journal.aon^im_menui_report.png^N^01007514^GL^Journal_Entry_Register7^11.0^^

@@ -1,306 +1,221 @@
 =====================================================
- Report Date:   2011-05-23
- Report Branch: AddonSoftware 11.01
- Last Release:  AddonSoftware 11.00
+ Report Date:   2011-07-12
+ Report Branch: AddonSoftware 11.10
+ Last Release:  AddonSoftware 11.01
 =====================================================
 
-QA Memo  :	4923	
-Fixed Date:	2/21/2011 21:07	
-Summary:  	PO - Invoice entry GL distribution account display
-
-QA Memo :	5037	
-Fixed Date:	2/22/2011 19:41	
-Summary: 	OP - Order entry line code display changes after selection
-
-QA Memo :	5044	
-Fixed Date:	2/23/2011 13:00	
-Summary: 	Element type USER_ID has wrong default value STBL format
-
-QA Memo :	5054	
-Fixed Date:	3/10/2011 4:51	
-Summary: 	GL - No defaults provided when setting up fiscal calendar
-
-QA Memo :	5053	
-Fixed Date:	3/10/2011 22:26	
-Summary: 	OP - Order entry total calculation not correct
-
-QA Memo :	5077	
-Fixed Date:	3/10/2011 23:55	
-Summary: 	OP Order Entry: Error 47 Line 4884 bam_mnt_std.bbj when double-click line code to gain focus
-
-QA Memo :	5079	
-Fixed Date:	3/11/2011 14:57	
-Summary: 	OP Order Entry: Error 47 Line 4884 bam_mnt_std.bbj when Run Process out of Cr Action window
-
-QA Memo :	5078	
-Fixed Date:	3/11/2011 15:30	
-Summary: 	OP Order Entry: Error 47 Line 1735 ope_ordhdr_cpt.bbj when using Next button from Ord No
-
-QA Memo :	5084	
-Fixed Date:	3/11/2011 17:16	
-Summary: 	GL - Chart of Accounts Listing needs more info
-
-QA Memo :	5076	
-Fixed Date:	3/11/2011 22:25	
-Summary: 	OP - Order Entry discount and tax are not saved
-
-QA Memo :	5094	
-Fixed Date:	3/15/2011 18:43	
-Summary: 	OP - Error 47 in ope_ordhdr_cpt.bbj
-
-QA Memo :	4987	
-Fixed Date:	3/15/2011 18:57	
-Summary: 	"AD - remaining DocOut ""cheats"" need to be revised"
-
-QA Memo :	5092	
-Fixed Date:	3/15/2011 19:48	
-Summary: 	OP - Sales tax report column heading alignment
-
-QA Memo :	5069	
-Fixed Date:	3/16/2011 22:09	
-Summary: 	AP - Payment selection partial payment
-
-QA Memo :	5068	
-Fixed Date:	3/16/2011 22:10	
-Summary: 	AP - Payment selection discount calculation
-
-QA Memo :	5098	
-Fixed Date:	3/17/2011 19:57	
-Summary: 	OP dates are 2013 instead of 2011
-
-QA Memo :	5089	
-Fixed Date:	3/17/2011 20:26	
-Summary: 	OP - Demo data dates
-
-QA Memo :	5110	
-Fixed Date:	3/18/2011 15:12	
-Summary: 	IV - IV Mask Type R missing for Inventory Factors
-
-QA Memo :	5087	
-Fixed Date:	3/18/2011 16:57	
-Summary: 	OP - Barista Call Point error
-
-QA Memo :	5113	
-Fixed Date:	3/18/2011 18:43	
-Summary: 	OP - Error 17 when printing prices on an on-demand pick list
-
-QA Memo :	5042	
-Fixed Date:	3/18/2011 23:09	
-Summary: 	OP - Quotes do not offer to print prices
-
-QA Memo :	5096	
-Fixed Date:	3/22/2011 3:28	
-Summary: 	OP - Order entry job number number validation
-
-QA Memo :	5102	
-Fixed Date:	3/22/2011 4:08	
-Summary: 	Replenishment Selection Options: Inconsistent treatment of “Ending Review Date” field.
-
-QA Memo :	5120	
-Fixed Date:	3/22/2011 20:20	
-Summary: 	"AD - SEQUENCE_000 is not being written to file as ""000"""
-
-QA Memo :	5116	
-Fixed Date:	3/23/2011 3:43	
-Summary: 	Inventory Transaction Entry: User ID in grid does not default
-
-QA Memo :	5121	
-Fixed Date:	3/23/2011 3:48	
-Summary: 	AP Aging Report: Period or Days list box shows only part of the description
-
-QA Memo :	5122	
-Fixed Date:	3/23/2011 3:59	
-Summary: 	IV Transfer Entry: Transfer date does not default
-
-QA Memo :	5115	
-Fixed Date:	3/23/2011 17:17	
-Summary: 	Inventory Transaction Entry: Transaction Date does not default
-
-QA Memo :	5109	
-Fixed Date:	3/23/2011 17:21	
-Summary: 	Inventory Transaction Entry: Error 26 Line 784 Prog: ive_transdet_cpt.bbj
-
-QA Memo :	5126	
-Fixed Date:	3/23/2011 17:28	
-Summary: 	AP - Invoice selection discount processing
-
-QA Memo :	5103	
-Fixed Date:	3/23/2011 17:42	
-Summary: 	Replenishment Register: Incorrect line spacing for Comment line
-
-QA Memo :	5125	
-Fixed Date:	3/23/2011 18:07	
-Summary: 	AP - Invoice partial payments processing - remaining invoice balance
-
-QA Memo :	5127	
-Fixed Date:	3/23/2011 21:38	
-Summary: 	AP - Payment selection - resetting the payment amount to zero does not recalculate the amount due
-
-QA Memo :	5128	
-Fixed Date:	3/23/2011 21:57	
-Summary: 	AP - Payment selection - un-checking the selection box does not remove the invoice from being paid
-
-QA Memo :	5118	
-Fixed Date:	3/24/2011 17:22	
-Summary: 	IV Trans Entry: Can't delete an empty row without keying in a warehouse
-
-QA Memo :	5095	
-Fixed Date:	3/24/2011 22:33	
-Summary: 	OP - Changing the ship  to address moves to the miscellaneous tab
-
-QA Memo :	5131	
-Fixed Date:	3/25/2011 3:45	
-Summary: 	AP - Check reversals do not appear to function
-
-QA Memo :	5137	
-Fixed Date:	3/25/2011 14:22	
-Summary: 	AD - Upgrade sync XML Files utility has problem parsing path with multiple aon directories
-
-QA Memo :	5085	
-Fixed Date:	3/28/2011 18:06	
-Summary: 	OP - Non-stock back-order/shipped quantity handled differently when a unit price is not entered
-
-QA Memo :	5056	
-Fixed Date:	3/29/2011 20:38	
-Summary: 	AD - two tables defined w/o Export to BASIS DD set
-
-QA Memo :	5030	
-Fixed Date:	3/29/2011 21:32	
-Summary: 	AD -  Element type SALESPERSON should have padding/justification set
-
-QA Memo :	5130	
-Fixed Date:	3/30/2011 3:41	
-Summary: 	AP - Manual check register does not offer an update with only void checks
-
-QA Memo :	5150	
-Fixed Date:	3/30/2011 15:09	
-Summary: 	AP - Payment selection entry - display error in ape_payselect.arc then an error 63
-
-QA Memo :	5129	
-Fixed Date:	3/30/2011 17:54	
-Summary: 	AP - After printing checks the user is locked out of further processing
-
-QA Memo :	5151	
-Fixed Date:	3/31/2011 3:41	
-Summary: 	"AP - Parameters, 'Purge Zero Invoices' option"
-
-QA Memo :	5152	
-Fixed Date:	3/31/2011 17:31	
-Summary: 	GL-transhist report wildcard
-
-QA Memo :	5141	
-Fixed Date:	4/1/2011 18:58	
-Summary: 	PO: Purchase Requisition Entry--Date Required Does not default
-
-QA Memo :	5143	
-Fixed Date:	4/1/2011 18:58	
-Summary: 	PO: Purchase Order Entry--Date Required Does not default
-
-QA Memo :	5159	
-Fixed Date:	4/2/2011 3:10	
-Summary: 	OP - Error 47/1095/opc_picklist.aon
-
-QA Memo :	5160	
-Fixed Date:	4/2/2011 3:20	
-Summary: 	OP - Error 47/934/opc_invoice.aon
-
-QA Memo :	5161	
-Fixed Date:	4/2/2011 3:28	
-Summary: 	OP - Statement hard copy cuts off left hand vertical line
-
-QA Memo :	5162	
-Fixed Date:	4/4/2011 17:48	
-Summary: 	PO - Requisition Print error 20/740/por_reqprint.aon
-
-QA Memo :	5158	
-Fixed Date:	4/4/2011 17:58	
-Summary: 	AD - Print Preview Hard Copy loses left hand lines generated by Addon
-
-QA Memo :	5155	
-Fixed Date:	4/4/2011 19:50	
-Summary: 	AP - Vendor Codes/History Distribution code incorrectly re-initialized
-
-QA Memo :	5117	
-Fixed Date:	4/5/2011 17:32	
-Summary: 	IV Transaction Entry: Item ID/Trans Qty: Improper cell validation can lead to error 47 in Register
-
-QA Memo :	5172	
-Fixed Date:	4/6/2011 3:12	
-Summary: 	IV Phys IV--Select Cycles for Freeze: Physical Date does not default
-
-QA Memo :	5173	
-Fixed Date:	4/8/2011 3:48	
-Summary: 	OP - Recalc button isn't being enabled at the proper times for OE and IE.
-
-QA Memo :	5038	
-Fixed Date:	4/12/2011 3:51	
-Summary: 	OP - Recalc Price button access and processing flow
-
-QA Memo :	4717	
-Fixed Date:	4/14/2011 17:35	
-Summary: 	OP - Force focus on Totals tab on OE and IE before moving off record
-
-QA Memo :	5192	
-Fixed Date:	4/20/2011 23:59	
-Summary: 	OP - Order discount amount entry does not accept values like the other numeric fields and the entry is not retained
-
-QA Memo :	5204	
-Fixed Date:	4/26/2011 15:35	
-Summary: 	AD - Copy Custom Modifications utility not updating mods syn file correctly
-
-QA Memo :	5210	
-Fixed Date:	4/26/2011 20:44	
-Summary: 	AR - Summary Aging report has the last aging bucket incorrect
-
-QA Memo:	5175
-Fixed Date:	5/5/2011 3:28
-Summary:	OP Price Quote Inquiry:	Quantity labels do not fit even when window is resized
-
-QA Memo:	4717
-Fixed Date:	5/5/2011 3:48
-Summary:	OP - Force focus on Totals tab on OE and IE before moving off record
-
-QA Memo:	5199
-Fixed Date:	5/6/2011 13:46
-Summary:	AR - Error 252 in bax_docout.bbj
-
-QA Memo:	5189
-Fixed Date:	5/9/2011 20:01
-Summary:	OP - Order entry totals tab does not recalculate the sales tax when the discount is changed
-
-QA Memo:	5043
-Fixed Date:	5/10/2011 15:11
-Summary:	OP - Picking list shows as a REPRINT after changing a quote to an order
-
-QA Memo:	5232
-Fixed Date:	5/11/2011 19:35
-Summary:	OP - Invoice entry total page Barista Callpoint error
-
-QA Memo:	5228
-Fixed Date:	5/11/2011 20:03
-Summary:	OP - Order entry print now escapes from program
-
-QA Memo:	5236
-Fixed Date:	5/13/2011 17:12
-Summary:	OP - Order entry not calculating the sales tax correctly
-
-QA Memo:	5241
-Fixed Date:	5/16/2011 21:51
-Summary:	OP - Manually entered sales discount amount is not being retained
-
-QA Memo:	5190
-Fixed Date:	5/17/2011 14:23
-Summary:	OP - Changing the discount in order entry does not recalculate the subtotal
-
-QA Memo:	5263
-Fixed Date:	5/19/2011 22:16
-Summary:	AD - AIUW Copy Application utility shouldn't copy directories back over themselves
-
-QA Memo:	5244
-Fixed Date:	5/20/2011 11:24
-Summary:	AD - Need utility to reset ddm_table_cols if attribute matches the element type
-
 QA Memo:	5268
-Fixed Date:	5/20/2011 22:41
+Fixed Date:	2011-05-20 22:41:14
 Summary:	AD - AIUW Copy Application utility dropped trailing slashes from paths in adm_modules*.xml files
 
+QA Memo:	5231
+Fixed Date:	2011-05-23 17:47:42
+Summary:	OP - Shipping Schedule report hangs
+
+QA Memo:	5269
+Fixed Date:	2011-05-23 20:12:32
+Summary:	AD - AIUW Update addon.syn File utility dropped +DIR_DOC_* STBLs
+
+QA Memo:	5291
+Fixed Date:	2011-05-26 13:57:39
+Summary:	AD - The system will not accept numeric entries for selected fields
+
+QA Memo:	5299
+Fixed Date:	2011-05-26 17:00:09
+Summary:	AR - Customer Detail Listing throws err 304
+
+QA Memo:	5270
+Fixed Date:	2011-05-26 23:11:51
+Summary:	AD - AIUW Update sync XML Files utility needs to update <VERSION_ID>
+
+QA Memo:	5267
+Fixed Date:	2011-05-27 19:22:22
+Summary:	AD - AIUW Copy Application utility mangled APROD line of syn file using Ctrl-M terminators
+
+QA Memo:	5314
+Fixed Date:	2011-05-27 22:10:02
+Summary:	AD - AIUW Copy addon.syn File Utility doesn't handle multiple copies of the same CFG line
+
+QA Memo:	5276
+Fixed Date:	2011-05-30 17:00:33
+Summary:	OP - Shipping schedule report printing Drop for most detail lines
+
+QA Memo:	5234
+Fixed Date:	2011-05-31 19:18:32
+Summary:	OP - Changes to OPE_ORDHDR  are lost when a quote is converted to a sale
+
+QA Memo:	4843
+Fixed Date:	2011-05-31 21:02:01
+Summary:	PO - Receiver delete message could use clarification
+
+QA Memo:	4913
+Fixed Date:	2011-05-31 21:58:11
+Summary:	PO - Receipt entry required by date is mandatory
+
+QA Memo:	5312
+Fixed Date:	2011-06-01 16:02:38
+Summary:	IV - Parameters need to disable Lot/Ser Length
+
+QA Memo:	5296
+Fixed Date:	2011-06-01 19:45:53
+Summary:	OP - Picking list does not print the ship-to country
+
+QA Memo:	5297
+Fixed Date:	2011-06-01 21:01:21
+Summary:	OP - The invoice does not print the manual ship-to country
+
+QA Memo:	5318
+Fixed Date:	2011-06-03 16:43:13
+Summary:	OP - Invoice undo does not retain changes
+
+QA Memo:	5238
+Fixed Date:	2011-06-03 17:13:21
+Summary:	OP - Invoice entry sales totals and more are not correct.
+
+QA Memo:	5331
+Fixed Date:	2011-06-03 17:30:45
+Summary:	PO - Error 47 during the Replenishment Register update
+
+QA Memo:	5281
+Fixed Date:	2011-06-03 18:04:53
+Summary:	OP - Previous ship-to profile is not cleared
+
+QA Memo:	5332
+Fixed Date:	2011-06-03 19:07:11
+Summary:	PO - Purchase order immediate print does not update the print flags
+
+QA Memo:	5333
+Fixed Date:	2011-06-03 19:21:43
+Summary:	PO - Purchase requisition print
+
+QA Memo:	5344
+Fixed Date:	2011-06-09 14:13:18
+Summary:	AD - Update addon.syn File utility needs to handle PREFIX without /aon/ in path
+
+QA Memo:	5340
+Fixed Date:	2011-06-10 15:14:15
+Summary:	AP - Dist Code should default if not using multi-dist
+
+QA Memo:	5309
+Fixed Date:	2011-06-10 16:21:34
+Summary:	OP - L/S entry is not offered in order entry.
+
+QA Memo:	5346
+Fixed Date:	2011-06-14 18:41:26
+Summary:	OP - Order entry L/S processing for non-inventoried is requiring an existing L/S ID
+
+QA Memo:	5323
+Fixed Date:	2011-06-14 22:32:48
+Summary:	OP - Other line types should not have access to the pricing entries
+
+QA Memo:	5354
+Fixed Date:	2011-06-15 21:37:01
+Summary:	OP - Error 252 on line 113 in ope_ordtotals_cpt.bbj
+
+QA Memo:	5355
+Fixed Date:	2011-06-16 18:38:10
+Summary:	OP - Invoice entry allows an invoice to be changed after it was printed without requiring a reprint.
+
+QA Memo:	5337
+Fixed Date:	2011-06-16 21:56:28
+Summary:	PO: Create Purchase Calendar - Tab order of Sat and Sun is reversed
+
+QA Memo:	5359
+Fixed Date:	2011-06-17 19:25:07
+Summary:	OP - Order Entry Totals tab not updated when row's Extended Price is updated
+
+QA Memo:	5347
+Fixed Date:	2011-06-20 17:53:40
+Summary:	OP - Order processing discount calculation is not correct
+
+QA Memo:	5369
+Fixed Date:	2011-06-20 20:28:30
+Summary:	AD - Error 42 in sys/prog/bam_inquiry_filt.bbj
+
+QA Memo:	5362
+Fixed Date:	2011-06-20 21:53:44
+Summary:	OP - Sales register offers an update option when the GL distribution contains missing account distributions
+
+QA Memo:	5375
+Fixed Date:	2011-06-21 17:29:55
+Summary:	OP - Print Sales Register GL Summary BEFORE warning register errors were encountered
+
+QA Memo:	5376
+Fixed Date:	2011-06-21 19:19:17
+Summary:	GL - ERROR message wrongly repeated after first occurring in GL Summary
+
+QA Memo:	5363
+Fixed Date:	2011-06-21 22:09:47
+Summary:	OP - Invoice cash sale does not generate the correct GL postings
+
+QA Memo:	5377
+Fixed Date:	2011-06-22 20:01:13
+Summary:	OP - Invoice entry needs to always force full payment for the cash customer
+
+QA Memo:	5230
+Fixed Date:	2011-06-22 21:47:44
+Summary:	OP - Changing a quote to an order and accessing the backorder field
+
+QA Memo:	5237
+Fixed Date:	2011-06-23 18:40:51
+Summary:	OP - Manual discount entry is not reflected in the Subtotal
+
+QA Memo:	5360
+Fixed Date:	2011-06-26 11:47:33
+Summary:	PO - open PO and PO status reports line size too small
+
+QA Memo:	5366
+Fixed Date:	2011-06-26 11:48:33
+Summary:	PO - amount mask missing Billed/Unbilled report
+
+QA Memo:	5367
+Fixed Date:	2011-06-26 11:49:11
+Summary:	GL - New Detail line FinReport not defaulting col pos
+
+QA Memo:	5275
+Fixed Date:	2011-06-27 17:52:02
+Summary:	OP - Invoice entry not processing uncommitted orders correctly
+
+QA Memo:	5233
+Fixed Date:	2011-06-27 20:40:17
+Summary:	OP - Extended price of priced messages is lost when a quote is converted to a sale
+
+QA Memo:	5386
+Fixed Date:	2011-06-28 14:30:08
+Summary:	GL - Recur Jnl Entry Reg Update
+
+QA Memo:	5385
+Fixed Date:	2011-06-28 22:09:38
+Summary:	OP - Order/invoice entry should not commit new priced message lines unless shipped after commit date
+
+QA Memo:	5384
+Fixed Date:	2011-06-28 22:09:44
+Summary:	OP - Order/invoice entry Totals tab amounts are wrong when detail line manually committed/uncomitted
+
+QA Memo:	5229
+Fixed Date:	2011-06-30 19:10:07
+Summary:	OP - Changing a quote to a sale with uncommitted detail lines
+
+QA Memo:	5391
+Fixed Date:	2011-07-05 17:16:16
+Summary:	OP Invoice Entry: error 261 ope_invcash_cpt.bbj and then infinite loop when closing cash sale
+
+QA Memo:	5341
+Fixed Date:	2011-07-05 18:53:33
+Summary:	AP Parameter Maint: Tab order skips Single AP Type even when Multi-AP Types is unchecked
+
+QA Memo:	5379
+Fixed Date:	2011-07-06 14:05:59
+Summary:	OP - OPE_INVCASH amounts out of sync with Invoice Totals tab
+
+QA Memo:	5380
+Fixed Date:	2011-07-06 22:41:20
+Summary:	IV - Error 252 when canceling the item detail listing
+
+QA Memo:	5404
+Fixed Date:	2011-07-07 16:58:17
+Summary:	AD - Fix callpoints with blank line in cdf after [[token]]
+
+QA Memo:	5403
+Fixed Date:	2011-07-08 16:03:20
+Summary:	AD - Triggers are using backslash instead of forward slash for directories

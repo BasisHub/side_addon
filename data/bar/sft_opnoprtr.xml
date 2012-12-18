@@ -19,8 +19,8 @@
 			<DD_EXPORT_DATA id="ddm_tables.sft_opnoprtr">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.sft_opnoprtr">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_tables.sft_opnoprtr">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.sft_opnoprtr">20110310</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.sft_opnoprtr">204340</DD_LSTSYNC_TIME>
+			<DD_LSTSYNC_DATE id="ddm_tables.sft_opnoprtr">20110425</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.sft_opnoprtr">120248</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.sft_opnoprtr">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.sft_opnoprtr">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.sft_opnoprtr">Open WO Operation Transactions</DD_ATTR_WINT>
@@ -672,19 +672,25 @@
 		</RECORD>
 		<RECORD id="ddm_elements.setup_time">
 			<DD_DATA_NAME id="ddm_elements.setup_time">SETUP_TIME      </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.setup_time">Setup Time                    </DD_DESCRIPTION>
+			<DD_DESCRIPTION id="ddm_elements.setup_time">Setup Time</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.setup_time">N</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.setup_time">5</DD_DATA_LENGTH>
 			<DD_MASK_TYPE id="ddm_elements.setup_time">U</DD_MASK_TYPE>
 			<ASC_COMP_ID id="ddm_elements.setup_time">01007514</ASC_COMP_ID>
-			<ASC_PROD_ID id="ddm_elements.setup_time">AD </ASC_PROD_ID>
+			<ASC_PROD_ID id="ddm_elements.setup_time">BM </ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.setup_time">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.setup_time">20060119</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.setup_time">20110531</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.setup_time">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.setup_time">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.setup_time">N</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.setup_time">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.setup_time">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.setup_time">Setup Time</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.setup_time">Setup Time</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.setup_time">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.setup_time">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.setup_time">0</DD_ATTR_MINL>
+			<DD_ATTR_PREC id="ddm_elements.setup_time">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.reserved_num">
 			<DD_DATA_NAME id="ddm_elements.reserved_num">RESERVED_NUM    </DD_DATA_NAME>

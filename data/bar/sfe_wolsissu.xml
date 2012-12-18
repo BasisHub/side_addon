@@ -19,8 +19,8 @@
 			<DD_EXPORT_DATA id="ddm_tables.sfe_wolsissu">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.sfe_wolsissu">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_tables.sfe_wolsissu">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.sfe_wolsissu">20110310</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.sfe_wolsissu">204348</DD_LSTSYNC_TIME>
+			<DD_LSTSYNC_DATE id="ddm_tables.sfe_wolsissu">20110425</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.sfe_wolsissu">104910</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.sfe_wolsissu">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.sfe_wolsissu">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.sfe_wolsissu">Lotted/Serialized Issues</DD_ATTR_WINT>
@@ -277,23 +277,29 @@
 		</RECORD>
 		<RECORD id="ddm_elements.material_seq">
 			<DD_DATA_NAME id="ddm_elements.material_seq">MATERIAL_SEQ    </DD_DATA_NAME>
-			<DD_DESCRIPTION id="ddm_elements.material_seq">Materials Sequence Number     </DD_DESCRIPTION>
+			<DD_DESCRIPTION id="ddm_elements.material_seq">Materials Sequence Number</DD_DESCRIPTION>
 			<DD_DATA_TYPE id="ddm_elements.material_seq">C</DD_DATA_TYPE>
 			<DD_DATA_LENGTH id="ddm_elements.material_seq">3</DD_DATA_LENGTH>
-			<DD_MASK_TYPE id="ddm_elements.material_seq"> </DD_MASK_TYPE>
 			<ASC_COMP_ID id="ddm_elements.material_seq">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_elements.material_seq">AD </ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.material_seq">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.material_seq">20060119</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.material_seq">20110714</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.material_seq">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.material_seq">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.material_seq">E</DD_ATTR_CTYP>
 			<DD_ATTR_DCOM id="ddm_elements.material_seq">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.material_seq">            </DD_ATTR_DEXP>
 			<DD_ATTR_LABL id="ddm_elements.material_seq">Materials Sequence Number</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.material_seq">Mats Seq No</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.material_seq">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.material_seq">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.material_seq">0</DD_ATTR_MINL>
 			<DD_ATTR_MSKI id="ddm_elements.material_seq">000</DD_ATTR_MSKI>
 			<DD_ATTR_MSKO id="ddm_elements.material_seq">000</DD_ATTR_MSKO>
 			<DD_ATTR_PADC id="ddm_elements.material_seq">30</DD_ATTR_PADC>
 			<DD_ATTR_PADJ id="ddm_elements.material_seq">R</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.material_seq">0</DD_ATTR_PREC>
+			<DD_ATTR_STYP id="ddm_elements.material_seq">S</DD_ATTR_STYP>
 		</RECORD>
 		<RECORD id="ddm_elements.sequence_no">
 			<DD_DATA_NAME id="ddm_elements.sequence_no">SEQUENCE_NO     </DD_DATA_NAME>

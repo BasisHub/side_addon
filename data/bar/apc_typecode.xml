@@ -17,10 +17,10 @@
 			<ASC_LICENSE_ID id="ddm_tables.apc_typecode">44F184B82D7466071C7729391E50A547</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.apc_typecode">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.apc_typecode">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.apc_typecode">20110121</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.apc_typecode">20110310</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.apc_typecode">204340</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.apc_typecode">/dev/apps/aon/;</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.apc_typecode">20110610</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.apc_typecode">20110607</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.apc_typecode">152906</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.apc_typecode">C:/aon_dev/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.apc_typecode">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.apc_typecode">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.apc_typecode">Accounts Payable Types</DD_ATTR_WINT>
@@ -28,6 +28,10 @@
 	</ALIAS>
 	<ALIAS id="ddm_table_cpro">
 		<ID id="ddm_table_cpro">DDM_TABLE_CPRO</ID>
+		<RECORD id="ddm_table_cpro.apc_typecodearec">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.apc_typecodearec">APC_TYPECODE    </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.apc_typecodearec">AREC</DD_ATTR_CPRO>
+		</RECORD>
 		<RECORD id="ddm_table_cpro.apc_typecodebsho">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.apc_typecodebsho">APC_TYPECODE    </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.apc_typecodebsho">BSHO</DD_ATTR_CPRO>

@@ -18,9 +18,9 @@
 			<ASC_VERSION_ID id="ddm_tables.adx_updatesyn">11.0      </ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.adx_updatesyn">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.adx_updatesyn">20101105</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.adx_updatesyn">20110413</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.adx_updatesyn">20110418</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.adx_updatesyn">115342</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.adx_updatesyn">20110928</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.adx_updatesyn">20110928</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.adx_updatesyn">132942</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.adx_updatesyn">C:/aon_dev/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.adx_updatesyn">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.adx_updatesyn">[+DIR_PGM]adx_updatesynfile.aon</DD_ATTR_PRUN>
@@ -49,8 +49,7 @@
 			<DD_SEQUENCE id="ddm_table_labl.adx_updatesyn001">001</DD_SEQUENCE>
 			<DD_CTRL_NAME id="ddm_table_labl.adx_updatesyn001">NEW_DATA_STBL   </DD_CTRL_NAME>
 			<DD_ATTR_LABL id="ddm_table_labl.adx_updatesyn001">Enter new paths for data STBLs</DD_ATTR_LABL>
-			<DD_ATTR_CTLX id="ddm_table_labl.adx_updatesyn001">0</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY id="ddm_table_labl.adx_updatesyn001">+1</DD_ATTR_CTLY>
+			<DD_ATTR_CTLY id="ddm_table_labl.adx_updatesyn001">+4</DD_ATTR_CTLY>
 			<DD_ATTR_TIND id="ddm_table_labl.adx_updatesyn001">2</DD_ATTR_TIND>
 		</RECORD>
 	</ALIAS>
@@ -437,8 +436,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.adx_updatesyn015">20101105</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.adx_updatesyn015">20101105</DD_LSTREV_DATE>
 			<DD_ATTR_COLW id="ddm_table_cols.adx_updatesyn015">0</DD_ATTR_COLW>
-			<DD_ATTR_CTLX id="ddm_table_cols.adx_updatesyn015">0</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY id="ddm_table_cols.adx_updatesyn015">+1</DD_ATTR_CTLY>
+			<DD_ATTR_CTLY id="ddm_table_cols.adx_updatesyn015">-5</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.adx_updatesyn015">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.adx_updatesyn015">0</DD_ATTR_CTLH>
 			<DD_ATTR_DFLT id="ddm_table_cols.adx_updatesyn015">0</DD_ATTR_DFLT>
@@ -460,6 +458,69 @@
 			<DD_TABLE_ALIAS id="ddm_column_cpro.adx_updatesynold_syn_fileaval">ADX_UPDATESYN   </DD_TABLE_ALIAS>
 			<DD_DVAR_NAME id="ddm_column_cpro.adx_updatesynold_syn_fileaval">OLD_SYN_FILE    </DD_DVAR_NAME>
 			<DD_ATTR_CPRO id="ddm_column_cpro.adx_updatesynold_syn_fileaval">AVAL</DD_ATTR_CPRO>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_column_opts">
+		<ID id="ddm_column_opts">DDM_COLUMN_OPTS</ID>
+		<RECORD id="ddm_column_opts.adx_updatesynaddatao">
+			<DD_TABLE_ALIAS id="ddm_column_opts.adx_updatesynaddatao">ADX_UPDATESYN   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.adx_updatesynaddatao">ADDATA          </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.adx_updatesynaddatao">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.adx_updatesynapdatao">
+			<DD_TABLE_ALIAS id="ddm_column_opts.adx_updatesynapdatao">ADX_UPDATESYN   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.adx_updatesynapdatao">APDATA          </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.adx_updatesynapdatao">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.adx_updatesynardatao">
+			<DD_TABLE_ALIAS id="ddm_column_opts.adx_updatesynardatao">ADX_UPDATESYN   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.adx_updatesynardatao">ARDATA          </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.adx_updatesynardatao">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.adx_updatesynbmdatao">
+			<DD_TABLE_ALIAS id="ddm_column_opts.adx_updatesynbmdatao">ADX_UPDATESYN   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.adx_updatesynbmdatao">BMDATA          </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.adx_updatesynbmdatao">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.adx_updatesyngldatao">
+			<DD_TABLE_ALIAS id="ddm_column_opts.adx_updatesyngldatao">ADX_UPDATESYN   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.adx_updatesyngldatao">GLDATA          </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.adx_updatesyngldatao">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.adx_updatesynivdatao">
+			<DD_TABLE_ALIAS id="ddm_column_opts.adx_updatesynivdatao">ADX_UPDATESYN   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.adx_updatesynivdatao">IVDATA          </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.adx_updatesynivdatao">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.adx_updatesynmpdatao">
+			<DD_TABLE_ALIAS id="ddm_column_opts.adx_updatesynmpdatao">ADX_UPDATESYN   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.adx_updatesynmpdatao">MPDATA          </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.adx_updatesynmpdatao">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.adx_updatesynopdatao">
+			<DD_TABLE_ALIAS id="ddm_column_opts.adx_updatesynopdatao">ADX_UPDATESYN   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.adx_updatesynopdatao">OPDATA          </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.adx_updatesynopdatao">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.adx_updatesynpodatao">
+			<DD_TABLE_ALIAS id="ddm_column_opts.adx_updatesynpodatao">ADX_UPDATESYN   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.adx_updatesynpodatao">PODATA          </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.adx_updatesynpodatao">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.adx_updatesynprdatao">
+			<DD_TABLE_ALIAS id="ddm_column_opts.adx_updatesynprdatao">ADX_UPDATESYN   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.adx_updatesynprdatao">PRDATA          </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.adx_updatesynprdatao">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.adx_updatesynsadatao">
+			<DD_TABLE_ALIAS id="ddm_column_opts.adx_updatesynsadatao">ADX_UPDATESYN   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.adx_updatesynsadatao">SADATA          </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.adx_updatesynsadatao">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.adx_updatesynsfdatao">
+			<DD_TABLE_ALIAS id="ddm_column_opts.adx_updatesynsfdatao">ADX_UPDATESYN   </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.adx_updatesynsfdatao">SFDATA          </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.adx_updatesynsfdatao">O</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">
