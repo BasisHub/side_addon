@@ -1,0 +1,87 @@
+Accounts Receivable^ARMENU^M^^^im_menua_accts_receivable.png^N^BAS^AR
+	Invoice Entry^ARE_INVHDR^T^ARE_INVHDR^^im_menui_table.png^N^BAS^AR
+	Invoice Printing^ARR_INVOICES^T^ARR_INVOICES^^im_menui_report.png^N^BAS^AR
+	Invoice Register^ARR_INVOICEENTRY^A^^[+DIR_PGM]arr_invoiceentry.aon^im_menui_report.png^N^BAS^AR
+	Cash Receipts Entry^ARE_CASHHDR^T^ARE_CASHHDR^^im_menui_table.png^N^BAS^AR
+	Cash Receipts Register^ARR_CASHRECEIPTS^T^ARR_CASHRECEIPTS^^im_menui_report.png^N^BAS^AR
+	Aging Report^ARR_AGINGREPORT^T^ARR_AGINGREPORT^^im_menui_report.png^N^BAS^AR
+	Aging Analysis Report^ARR_ANALYSIS^T^ARR_ANALYSIS^^im_menui_report.png^N^BAS^AR
+	Age Transactions^ARU_AGINGUPDATE^T^ARU_AGINGUPDATE^^im_menui_update.png^N^BAS^AR
+	Reports^ARMENU_REPORTS^G^^^im_menua_miscellaneous.png^N^BAS^AR
+		Customer Label Printing^ARR_LABELS^T^ARR_LABELS^^im_menui_report.png^N^BAS^AR
+		Customer Name Listing^ARR_NAMELIST^T^ARR_NAMELIST^^im_menui_report.png^N^BAS^AR
+		Customer Detail Listing^ARR_DETAIL^T^ARR_DETAIL^^im_menui_report.png^N^BAS^AR
+		Customer Comments Listing^ARR_COMMENTS^T^ARR_COMMENTS^^im_menui_report.png^N^BAS^AR
+		Customer Name & Address Listing^ARR_NAMEADDRESS^T^ARR_NAMEADDRESS^^im_menui_report.png^N^BAS^AR
+		Customer Ledger Cards^ARR_LEDGERS^T^ARR_LEDGERS^^im_menui_report.png^N^BAS^AR
+	Period End Processing^ARMENU_PEND^G^^^im_menua_miscellaneous.png^N^BAS^AR
+		Aging Report^ARR_AGINGREPORTPE^T^ARR_AGINGREPORT^^im_menui_report.png^N^BAS^AR
+		Generate Finance Charges^ARU_FINANCECHARG^T^ARU_FINANCECHARG^^im_menui_update.png^N^BAS^AR
+		Finance Charge Entry^ARE_FINCHG^T^ARE_FINCHG^^im_menui_table.png^N^BAS^AR
+		Purge Finance Charge Entries^ARU_FINANCEPURGE^A^^[+DIR_PGM]aru_financepurge.aon^im_menui_update.png^N^BAS^AR
+		Finance Charge Register^ARR_OTHERENTRY^A^^[+DIR_PGM]arr_otherentry.aon^im_menui_report.png^N^BAS^AR
+		Customer Statements^ARR_STATEMENTS^T^ARR_STATEMENTS^^im_menui_report.png^N^BAS^AR
+		Monthly Cash Receipts Journal^ARR_CASHJOURNAL^T^ARR_CASHJOURNAL^^im_menui_report.png^N^BAS^AR
+		Monthly Cash Receipts Journal Purge^ARU_CASHJOURNAL^T^ARU_CASHJOURNAL^^im_menui_update.png^N^BAS^AR
+		Customer Ranking Report^ARR_RANKING^T^ARR_RANKING^^im_menui_table.png^N^BAS^AR
+		Zero Balance Invoice Report & Purge^ARR_ZEROBALANCE^T^ARR_ZEROBALANCE^^im_menui_report.png^N^BAS^AR
+		Period End Update^ARU_PERIODEND^A^ARU_PERIODEND^[+DIR_PGM]aru_periodend.aon^im_menui_update.png^N^BAS^AR
+	Maintenance^ARMENU_MAINT^G^^^im_menua_miscellaneous.png^N^BAS^AR
+		Customers^ARM_CUSTMAST^T^ARM_CUSTMAST^^im_menui_table.png^N^BAS^AR
+		Customer Types^ARC_CUSTTYPE^T^ARC_CUSTTYPE^^im_menui_table.png^N^BAS^AR
+		Salespersons^ARC_SALECODE^T^ARC_SALECODE^^im_menui_table.png^N^BAS^AR
+		Terms Codes^ARC_TERMCODE^T^ARC_TERMCODE^^im_menui_table.png^N^BAS^AR
+		Territory Codes^ARC_TERRCODE^T^ARC_TERRCODE^^im_menui_table.png^N^BAS^AR
+		Cash Receipt Codes^ARC_CASHCODE^T^ARC_CASHCODE^^im_menui_table.png^N^BAS^AR
+		Distribution Codes^ARC_DISTCODE^T^ARC_DISTCODE^^im_menui_table.png^N^BAS^AR
+		Cycle Codes^ARM_CYCLECOD^T^ARM_CYCLECOD^^im_menui_table.png^N^BAS^AR
+		Parameters^ARMENU_PARAMS^G^ARS_PARAMS^^im_node_col.png^N^BAS^AR
+			Application Parameters^ARS_PARAMS^T^ARS_PARAMS^^im_menui_parameter.png^N^BAS^AR
+			Report Parameters^ARS_REPORT^T^ARS_REPORT^^im_menui_parameter.png^N^BAS^AR
+			New Customer Defaults^ARS_CUSTDFLT^T^ARS_CUSTDFLT^^im_menui_parameter.png^N^BAS^AR
+			Credit Management Parameters^ARS_CREDIT^T^ARS_CREDIT^^im_menui_parameter.png^N^BAS^AR
+	Utilities^ARMENU_UTILITIES^G^^^im_menua_miscellaneous.png^N^BAS^AR
+		Conversion Invoice Entry^ARE_CNVINV^T^ARE_CNVINV^^im_menui_table.png^N^BAS^AR
+		Conversion Invoice Register^ARR_CONVREGISTER^A^ARR_CONVREGISTER^[+DIR_PGM]arr_otherentry.aon^im_menui_report.png^N^BAS^AR
+		Invoice Date Modification Entry^ARE_DATECHANGE^T^ARE_DATECHANGE^^im_menui_table.png^N^BAS^AR
+		Invoice Date Modification Register^ARR_DATEREGISTER^A^ARR_DATEREGISTER^[+DIR_PGM]arr_dateregister.aon^im_menui_report.png^N^BAS^AR
+General Ledger^GLMENU^M^^^im_menua_gen_ledger.png^N^BAS^GL
+	Journal Entry^GLE_JRNLHDR^T^GLE_JRNLHDR^^im_menui_table.png^N^BAS^GL
+	Journal Entry Register^GLR_JOURNAL^A^^[+DIR_PGM]glr_journal.aon^im_menui_report.png^N^BAS^GL
+	Daily Detail Register^GLR_DAILYDETAIL^T^GLR_DAILYDETAIL^^im_menui_report.png^N^BAS^GL
+	Account Allocation Entry^GLE_ALLOCHDR^T^GLE_ALLOCHDR^^im_menui_table.png^N^BAS^GL
+	Account Allocation Register^GLR_ALLOCATE^T^GLR_ALLOCATE^^im_menui_report.png^N^BAS^GL
+	Reports^GLMENU_REPORTS^G^^^im_menua_miscellaneous.png^N^BAS^GL
+		Chart Of Accounts Listing^GLR_ACCTLIST^T^GLR_ACCTLIST^^im_menui_report.png^N^BAS^GL
+		Daily Detail Register^GLR_DAILYDETAIL_RP^T^GLR_DAILYDETAIL^^im_menui_report.png^N^BAS^GL
+		Transaction History Report^GLR_TRANSHISTORY^T^GLR_TRANSHISTORY^^im_menui_report.png^N^BAS^GL
+		Summary Activity Report^GLR_SUMMARY^T^GLR_SUMMARY^^im_menui_report.png^N^BAS^GL
+		General Ledger Trial Balance^GLR_TRIALBALANCE^T^GLR_TRIALBALANCE^^im_menui_report.png^N^BAS^GL
+		Profit and Loss Statement^GLR_PROFITLOSS^T^GLR_PROFITLOSS^^im_menui_report.png^N^BAS^GL
+		Balance Sheet^GLR_BALANCE^T^GLR_BALANCE^^im_menui_report.png^N^BAS^GL
+		Financial Report Printing^GLR_FINANCIALSRP^T^GLR_FINANCIALS^^im_menui_report.png^N^BAS^GL
+	Custom Financials^GLMENU_CUSTOM^G^^^im_menua_miscellaneous.png^N^BAS^GL
+		Financial Report Master^GLM_FINMASTER^T^GLM_FINMASTER^^im_menui_table.png^N^BAS^GL
+		Account/Report Maintenance^GLM_FINASSIGN^T^GLM_FINASSIGN^^im_menui_table.png^N^BAS^GL		
+		Acct/Report Cross Reference Report^GLR_ACCTXREF^A^^[+DIR_PGM]glr_acctxref.aon^im_menui_report.png^N^BAS^GL
+		Total/Report Cross Reference Report^GLR_TOTALSREPORT^A^^[+DIR_PGM]glr_totalsreport.aon^im_menui_report.png^N^BAS^GL
+		Consolidated Acct/Rpt Maintenance^GLM_COFINASSIGN^T^GLM_COFINASSIGN^^im_menui_table.png^N^BAS^GL		
+		Consolidated Acct/Rpt Xref Report^GLR_CONSACCTXREF^A^^[+DIR_PGM]glr_consacctxref.aon^im_menui_report.png^N^BAS^GL
+		Copy Financial Reports^GLM_COPYFIN^T^GLM_COPYFIN^^im_menui_utility.png^N^BAS^GL
+	Period End Processing^GLMENU_PEND^G^^^im_menua_miscellaneous.png^N^BAS^GL
+		Period End Update^GLU_PERIODEND^T^GLU_PERIODEND^^im_menui_update.png^N^BAS^GL
+		Update Beginning Balances^GLR_BEGBAL^A^^[+DIR_PGM]gle_beginbalance.aon^im_menui_update.png^N^BAS^GL
+		Year End Update^GLE_YEAREND^A^^[+DIR_PGM]gle_yearend.aon^im_menui_update.png^N^BAS^GL
+	Maintenance^GLMENU_MAINT^G^^^im_menua_miscellaneous.png^N^BAS^GL
+		Account Master^GLM_ACCT^T^GLM_ACCT^^im_menui_table.png^N^BAS^GL
+		Journal ID Codes^GLC_JOURNALCODE^T^GLC_JOURNALCODE^^im_menui_table.png^N^BAS^GL
+		Posting Control^GLM_AUDITCONTROL^T^GLM_AUDITCONTROL^^im_menui_table.png^N^BAS^GL		
+		Cycle Codes^GLC_CYCLECODE^T^GLC_CYCLECODE^^im_menui_table.png^N^BAS^GL
+		Parameters^GLMENU_PARAMS^G^ARS_PARAMS^^im_node_col.png^N^BAS^GL
+			Application Parameters^GLS_PARAMS^T^GLS_PARAMS^^im_menui_parameter.png^N^BAS^GL
+			Fiscal Calendar^GLS_CALENDAR^T^GLS_CALENDAR^^im_menui_parameter.png^N^BAS^GL
+			Suspense Account^GLS_SUSPENSE^T^GLS_SUSPENSE^^im_menui_parameter.png^N^BAS^GL
+			Retained Earnings^GLS_EARNINGS^T^GLS_EARNINGS^^im_menui_parameter.png^N^BAS^GL
+			Chart of Account Breaks^GLM_ACCTBREAKS^T^GLM_ACCTBREAKS^^im_menui_parameter.png^N^BAS^GL
+	Utilities^GLMENU_UTILITIES^G^^^im_node_col.png^N^BAS^GL
+		Copy Chart of Accounts^GLX_COPYCHART^T^GLX_COPYCHART^^im_menui_utility.png^N^BAS^GL
