@@ -18,15 +18,25 @@
 			<ASC_LICENSE_ID id="ddm_tables.poe_invsel">5DCBE3FE0D3D10E43DCAC2A3B3F1515E</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.poe_invsel">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.poe_invsel">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.poe_invsel">20100225</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.poe_invsel">20091008</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.poe_invsel">213506</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.poe_invsel">/apps/aon/;</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.poe_invsel">20101217</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.poe_invsel">20101217</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.poe_invsel">165550</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.poe_invsel">/aon_dev/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_DKNM id="ddm_tables.poe_invsel">PRIMARY</DD_ATTR_DKNM>
 			<DD_ATTR_FTYP id="ddm_tables.poe_invsel">G</DD_ATTR_FTYP>
 			<DD_ATTR_PTAB id="ddm_tables.poe_invsel">POE_INVHDR      </DD_ATTR_PTAB>
 			<DD_ATTR_SLEV id="ddm_tables.poe_invsel">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.poe_invsel">Selected Purchase Orders</DD_ATTR_WINT>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_aopt">
+		<ID id="ddm_table_aopt">DDM_TABLE_AOPT</ID>
+		<RECORD id="ddm_table_aopt.poe_invsel01">
+			<DD_TABLE_ALIAS id="ddm_table_aopt.poe_invsel01">POE_INVSEL      </DD_TABLE_ALIAS>
+			<DD_ATTR_SEQ id="ddm_table_aopt.poe_invsel01">01</DD_ATTR_SEQ>
+			<DD_ATTR_AOPT id="ddm_table_aopt.poe_invsel01">Invoice Detail</DD_ATTR_AOPT>
+			<DD_ATTR_AOPT_CD id="ddm_table_aopt.poe_invsel01">INVB</DD_ATTR_AOPT_CD>
+			<DD_ATTR_AOPT_FM id="ddm_table_aopt.poe_invsel01">F</DD_ATTR_AOPT_FM>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_cpro">
@@ -47,6 +57,18 @@
 			<DD_TABLE_ALIAS id="ddm_table_cpro.poe_invselagre">POE_INVSEL      </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.poe_invselagre">AGRE</DD_ATTR_CPRO>
 		</RECORD>
+		<RECORD id="ddm_table_cpro.poe_invselagrn">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.poe_invselagrn">POE_INVSEL      </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.poe_invselagrn">AGRN</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_table_cpro.poe_invselaopt">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.poe_invselaopt">POE_INVSEL      </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.poe_invselaopt">AOPT-INVB</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_table_cpro.poe_invselarec">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.poe_invselarec">POE_INVSEL      </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.poe_invselarec">AREC</DD_ATTR_CPRO>
+		</RECORD>
 		<RECORD id="ddm_table_cpro.poe_invselaude">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.poe_invselaude">POE_INVSEL      </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.poe_invselaude">AUDE</DD_ATTR_CPRO>
@@ -54,6 +76,10 @@
 		<RECORD id="ddm_table_cpro.poe_invselawri">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.poe_invselawri">POE_INVSEL      </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.poe_invselawri">AWRI</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_table_cpro.poe_invselbdgx">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.poe_invselbdgx">POE_INVSEL      </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.poe_invselbdgx">BDGX</DD_ATTR_CPRO>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_tpls">
@@ -211,7 +237,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_invsel006">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_invsel006">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_invsel006">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.poe_invsel006">/apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.poe_invsel006">/aon_dev/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.poe_invsel006">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.poe_invsel006">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.poe_invsel006">7</DD_ATTR_MAXL>
@@ -228,7 +254,7 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.poe_invsel007">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.poe_invsel007">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.poe_invsel007">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.poe_invsel007">/apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.poe_invsel007">/aon_dev/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.poe_invsel007">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.poe_invsel007">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.poe_invsel007">7</DD_ATTR_MAXL>
