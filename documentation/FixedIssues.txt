@@ -1,600 +1,430 @@
 =======================================================================================================================================
- Report Date:   2012-07-11
- Report Branch: AddonSoftware 12.01
- Last Release:  AddonSoftware 12.00
+ Report Date:   2012-09-13
+ Report Branch: AddonSoftware 12.02
+ Last Release:  AddonSoftware 12.01
 =======================================================================================================================================
 
-Date: Wed Jul 11 10:00:19 2012
-
-Log:
-Fix for Bug 24827 - !ERROR=43 when creating BaristaTaskVal.
-The error appeared in a DialogWizard generated form that ran inside
-Barista, but pointed to a general restriction in Barista of the info(3,0)
-having to be <= 9999.  The process id is no longer limited.
-
+Revision: 9665
+Date: 5:30:07 PM, Tuesday, August 07, 2012
+Message:
+Prop to branch -> Revision: 9663
+Date: Tuesday, August 07, 2012 5:26:07 PM
+Message:
+Bug 6296: Deleted file_alias references to are_cnvinv, glm_auditdetail, glm_auditcontrol, glu_createbudget and glx_finxref.
 ----
-Modified : /branches/BBJ1201GA/ad/src/adc_getmask.aon
+Modified : /trunk/util/dataport/files/file_alias
+----
+Modified : /branches/BBJ1201GA/util/dataport/files/file_alias
 =======================================================================================================================================
+Revision: 9662
 
-Date: Thursday, May 31, 2012 10:24:10 PM
+Date: 2:16:35 PM, Tuesday, August 07, 2012
 Message:
-Test for GL being installed before every enable of the GDIS button to fix bug 6145.
-----
-----------------------------------------------------
+Prop to branch -> Revision: 9658
 
-Date: Thursday, May 31, 2012 10:46:43 PM
+Date: Tuesday, August 07, 2012 2:02:41 PM
 Message:
-Test for PO Parameter Post to GL before every enable of the GDIS button to fix bug 6146.
+Bug 5891: Modified to loop over the number of fields looking for RECORD_ID_ instead of testing a fixed number of fields.
 ----
+Modified : /trunk/util/dataport/DataPort_main.bbj
+Modified : /trunk/util/dataport/files/file_alias
 ----
-Modified : /branches/BBJ1201GA/data/bar/poe_invhdr.xml
-Modified : /branches/BBJ1201GA/data/cdf/poe_invhdr.cdf
+Modified : /branches/BBJ1201GA/util/dataport/DataPort_main.bbj
+Modified : /branches/BBJ1201GA/util/dataport/files/file_alias
 =======================================================================================================================================
+Revision: 9660
 
-Date: Thursday, May 31, 2012 10:10:43 PM
+Date: 2:14:02 PM, Tuesday, August 07, 2012
 Message:
-Disallowed auto record add for the customer field to fix bug 6156.
+Prop to branch -> Revision: 9655
+
+Date: Tuesday, August 07, 2012 12:39:27 PM
+Message:
+Bug 6295: Modified DataPort_main.bbj to skip obsolete v6 sort files, and log skipped files.
 ----
+Modified : /trunk/util/dataport/DataPort_main.bbj
+Modified : /trunk/util/dataport/files/file_alias
+Modified : /trunk/util/dataport/files/file_xref
 ----
-Modified : /branches/BBJ1201GA/data/bar/opt_invhdr.xml
+Modified : /branches/BBJ1201GA/util/dataport/DataPort_main.bbj
+Modified : /branches/BBJ1201GA/util/dataport/files/file_alias
+Modified : /branches/BBJ1201GA/util/dataport/files/file_xref
 =======================================================================================================================================
+Revision: 9649
 
-Date: Tuesday, May 29, 2012 10:12:15 AM
+Date: 2:58:41 PM, Monday, August 06, 2012
 Message:
-Remove duplicated line of code.
+Prop to branch -> Revision: 9615
+
+Date: Thursday, August 02, 2012 1:24:22 PM
+Message:
+Bug 6278: Prevented selecting batched files, and displays a warning message.
 ----
+Modified : /trunk/data/bar/adx_dataport.xml
+Modified : /trunk/data/cdf/adx_dataport.cdf
+Added : /trunk/data/sync/ads_messages~cannot_port_batched.xml
+Modified : /trunk/prop/addon.properties
+Modified : /trunk/prop/addon_de.properties
+Modified : /trunk/prop/addon_en.properties
+Modified : /trunk/prop/addon_es.properties
+Modified : /trunk/prop/addon_fr.properties
+Modified : /trunk/prop/addon_it.properties
 ----
-Modified : /branches/BBJ1201GA/po/src/por_recptreg_o25.aon
+Modified : /branches/BBJ1201GA/data/bar/adx_dataport.xml
+Modified : /branches/BBJ1201GA/data/cdf/adx_dataport.cdf
+Added : /branches/BBJ1201GA/data/sync/ads_messages~cannot_port_batched.xml
 =======================================================================================================================================
+Revision: 9647
 
-Date: Friday, July 06, 2012 10:44:54 PM
+Date: 2:53:11 PM, Monday, August 06, 2012
 Message:
-Added more specific messages to Header and Detail PO Entry forms when dates are invalid to fix bug 6234.
+Prop to branch -> Revision: 9612
+
+Date: Wednesday, August 01, 2012 11:32:11 AM
+Message:
+Bug 6280: Modified backend programs to use a Translate! object instead of Barista's Translator! object.
 ----
+Modified : /trunk/ad/src/adc_copyaon.aon
+Modified : /trunk/ad/src/adc_copydir.aon
+Modified : /trunk/ad/src/adc_copymods.aon
+Modified : /trunk/ad/src/adc_firmsetup.aon
+Modified : /trunk/ad/src/adc_mvupgrdfiles.aon
+Modified : /trunk/ad/src/adc_updatesynfile.aon
+Modified : /trunk/ad/src/adc_updatexmlfiles.aon
+Modified : /trunk/ad/src/adx_demoyear.aon
+Modified : /trunk/ad/src/adx_upgradewiz.aon
+Modified : /trunk/gl/src/glx_fixglm32.aon
+Modified : /trunk/iv/src/ivr_physregister.aon
 ----
-Modified : /branches/BBJ1201GA/data/bar/poe_podet.xml
-Modified : /branches/BBJ1201GA/data/bar/poe_pohdr.xml
-Modified : /branches/BBJ1201GA/data/cdf/poe_podet.cdf
-Modified : /branches/BBJ1201GA/data/cdf/poe_pohdr.cdf
-Added : /branches/BBJ1201GA/data/sync/ads_messages~invalid_po_date.xml
-Modified : /branches/BBJ1201GA/prop/addon.properties
-Modified : /branches/BBJ1201GA/prop/addon_en.properties
+Modified : /branches/BBJ1201GA/ad/src/adc_copydir.aon
+Modified : /branches/BBJ1201GA/ad/src/adc_copymods.aon
+Modified : /branches/BBJ1201GA/ad/src/adc_firmsetup.aon
+Modified : /branches/BBJ1201GA/ad/src/adc_mvupgrdfiles.aon
+Modified : /branches/BBJ1201GA/ad/src/adc_updatesynfile.aon
+Modified : /branches/BBJ1201GA/ad/src/adc_updatexmlfiles.aon
+Modified : /branches/BBJ1201GA/ad/src/adx_demoyear.aon
+Modified : /branches/BBJ1201GA/ad/src/adx_upgradewiz.aon
+Modified : /branches/BBJ1201GA/gl/src/glx_fixglm32.aon
+Modified : /branches/BBJ1201GA/iv/src/ivr_physregister.aon
 =======================================================================================================================================
+Revision: 9645
 
-Date: Thursday, July 05, 2012 10:08:45 PM
+Date: 2:45:17 PM, Monday, August 06, 2012
 Message:
-Add setTabActionSkipsNonEditableCells(1) command to not tab stop at non-editable fields to fix bug 6229.
-----
-----
-Modified : /branches/BBJ1201GA/data/bar/ape_payselect.xml
-Modified : /branches/BBJ1201GA/data/bar/are_cashhdr.xml
-Modified : /branches/BBJ1201GA/data/cdf/ape_payselect.cdf
-Modified : /branches/BBJ1201GA/data/cdf/are_cashhdr.cdf
-=======================================================================================================================================
+Prop to branch -> Revision: 9610
 
-Date: Tuesday, July 03, 2012 12:45:24 PM
+Date: Wednesday, August 01, 2012 9:25:51 AM
 Message:
-Bug 6224: Changed module from GL to AP for APE_MANCHECKDIST table and Manual Check Entry GL Detail menu item.
-----
-----
-Modified : /branches/BBJ1201GA/config/deu/addon.men
-Modified : /branches/BBJ1201GA/config/enc/addon.men
-Modified : /branches/BBJ1201GA/config/enu/addon.men
-Modified : /branches/BBJ1201GA/config/esm/addon.men
-Modified : /branches/BBJ1201GA/config/esp/addon.men
-Modified : /branches/BBJ1201GA/config/fra/addon.men
-Modified : /branches/BBJ1201GA/config/frc/addon.men
-Modified : /branches/BBJ1201GA/config/ita/addon.men
-Modified : /branches/BBJ1201GA/data/bar/ape_mancheckdist.xml
-=======================================================================================================================================
+Split old WOE-11/21/31 files into separate header/detail files for each.
 
-Date: Friday, June 01, 2012 1:24:08 PM
-Message:
-Bug 6159: Made structure of ivc_itemavail child table match parent table ivm_itemwhse.
 ----
+Modified : /trunk/util/dataport/DataPort_main.bbj
+Modified : /trunk/util/dataport/files/field_file_xref
+Modified : /trunk/util/dataport/files/file_alias
+Modified : /trunk/util/dataport/files/file_xref
+Modified : /trunk/util/dataport/files/new_field_defaults
 ----
-Modified : /branches/BBJ1201GA/data/bar/ivc_itemavail.xml
-=======================================================================================================================================
-
-Date: Monday, July 02, 2012 10:46:02 PM
-Message:
-Only enable Discount Account when Discount Flag in on. Force minimum length of Account Numbers to 1. Don't allow creation of G/L Accounts on the fly to fix bug 6218.
-----
-----
-Modified : /branches/BBJ1201GA/data/bar/arc_cashcode.xml
-=======================================================================================================================================
-
-Date: Thursday, June 28, 2012 10:24:02 PM
-Message:
-Changed references of key name AO_VEND_ORD to INVBYPO to fix bug 6211.
-----
-----
-Modified : /branches/BBJ1201GA/po/src/por_billunbill_o1.aon
-=======================================================================================================================================
-
-Date: Thursday, June 28, 2012 10:15:07 PM
-Message:
-Added logic to conditionally set the number of columns on the report based on multiple AP Types and Retention to fix bug 6210.
-----
-----
-Modified : /branches/BBJ1201GA/ap/src/apr_vendinv.aon
-=======================================================================================================================================
-
-Date: Thursday, June 28, 2012 12:49:40 PM
-Message:
-Don't allow Credit Maintenance form to be run without selecting a line from the grid to fix bug 6168.
-----
-----
-Modified : /branches/BBJ1201GA/data/bar/ope_credmaint.xml
-Modified : /branches/BBJ1201GA/data/bar/ope_credrev.xml
-Modified : /branches/BBJ1201GA/data/cdf/ope_credmaint.cdf
-Modified : /branches/BBJ1201GA/data/cdf/ope_credrev.cdf
-Added : /branches/BBJ1201GA/data/sync/ads_messages~op_cred_no_cust.xml
-Modified : /branches/BBJ1201GA/prop/addon.properties
-Modified : /branches/BBJ1201GA/prop/addon_en.properties
-=======================================================================================================================================
-
-Date: Wednesday, June 27, 2012 10:59:30 PM
-Message:
-Remove the blank record from ope-03. Change code to require Tickler Date.
-----
-----
-Modified : /branches/BBJ1201GA/data/bar/ope_credmaint.xml
-Modified : /branches/BBJ1201GA/data/bar/ope_credtick.xml
-Modified : /branches/BBJ1201GA/data/cdf/ope_credmaint.cdf
-Modified : /branches/BBJ1201GA/data/cdf/ope_credtick.cdf
-Modified : /branches/BBJ1201GA/data/ope-03
-=======================================================================================================================================
-
-Date: Wednesday, May 30, 2012 10:16:31 PM
-Message:
-Corrected adc_progress logic in update and implemented milestone logic to speed up the process to fix bug 6137.
-----
-----
-Modified : /branches/BBJ1201GA/iv/src/ivx_begbals.aon
-=======================================================================================================================================
-
-Date: Wednesday, May 30, 2012 12:56:35 PM
-Message:
-Corrected adc_progress logic in update and implemented milestone logic to speed up the process to fix bug 6136.
-----
-----
-Modified : /branches/BBJ1201GA/iv/src/ivx_onorder.aon
-=======================================================================================================================================
-
-Date: Wednesday, May 30, 2012 12:41:38 PM
-Message:
-Corrected adc_progress logic in update and implemented milestone logic to speed up the process to fix bug 6135.
-----
-----
-Modified : /branches/BBJ1201GA/iv/src/ivx_committed.aon
-=======================================================================================================================================
-
-Date: Tuesday, June 26, 2012 12:44:24 PM
-Message:
-Set the stbl at the ASVA callpoint instead of the AVAL for the Default Station to fix bug 6201.
-----
-----
-Modified : /branches/BBJ1201GA/data/bar/ope_orddates.xml
-Modified : /branches/BBJ1201GA/data/cdf/ope_orddates.cdf
-=======================================================================================================================================
-
-Date: Wednesday, June 27, 2012 10:36:16 PM
-Message:
-Reset k$ variable before getting the next key to fix bug 6176.
-----
-----
-Modified : /branches/BBJ1201GA/ar/src/arr_cashreceipts.aon
-=======================================================================================================================================
-
-Date: Wednesday, June 27, 2012 10:22:57 PM
-Message:
-Add new message and use when deleting an Invoice to fix bug 6184.
-----
-----
-Modified : /branches/BBJ1201GA/data/bar/ope_invhdr.xml
-Modified : /branches/BBJ1201GA/data/cdf/ope_invhdr.cdf
-Added : /branches/BBJ1201GA/data/sync/ads_messages~op_confirm_del_inv.xml
-Modified : /branches/BBJ1201GA/prop/addon.properties
-Modified : /branches/BBJ1201GA/prop/addon_en.properties
-=======================================================================================================================================
-
-Date: Tuesday, June 26, 2012 10:13:41 PM
-Message:
-Correct the usage of fnitem$ to fix bug 6207.
-----
-----
-Modified : /branches/BBJ1201GA/iv/src/ivr_transhist.aon
-=======================================================================================================================================
-
-Date: Wednesday, May 30, 2012 1:51:04 PM
-Message:
-Added missing str() in bmc_explodephantoms.aon to fix Bug 6122 - BM - Inventory Production Register: error 26 @ 381 bax_doc_pdf.bbj
-----
-------------------------------------------------
-
-Date: Wednesday, May 30, 2012 3:55:14 PM
-Message:
-Modified to correct data placement in cols to fix Bug 6150 - BM - Inventory Production Register: Columns for Phantoms' data may be misaligned (bmc_explodephantoms.aon)
-----
-----
-Modified : /branches/BBJ1201GA/bm/src/bmc_explodephantoms.aon
-=======================================================================================================================================
-
-Date: Monday, May 28, 2012 10:58:55 PM
-Message:
-Force POS Station to have a minimum length of 1.
-----
-----
-Modified : /branches/BBJ1201GA/data/bar/adm_userdefaults.xml
-Modified : /branches/BBJ1201GA/data/bar/ope_orddates.xml
-Modified : /branches/BBJ1201GA/data/bar/ope_ordhdr.xml
-Modified : /branches/BBJ1201GA/data/cdf/ope_ordhdr.cdf
-=======================================================================================================================================
-
-Date: Tuesday, June 26, 2012 12:33:43 PM
-Message:
-Repositioned fields to display better on the lead-in form to fix bug 6205.
-----
-----
-Modified : /branches/BBJ1201GA/ar/src/arr_runDrillDownReport.aon
-=======================================================================================================================================
-
-Date: Wednesday, May 30, 2012 12:18:08 PM
-Message:
-Set proper template in the update, and then used the proper element from that template to fix bug 6115.
-----
-----
-Modified : /branches/BBJ1201GA/bm/src/bmu_invproduction.aon
-=======================================================================================================================================
-
-Date: Monday, June 18, 2012 2:59:17 PM
-Message:
-Bug 6183: Provide cross reference for ARE-23.LINE_NUMBER to OPE_ORDLSDET.ORDDET_SEQ_REF.
-----
-----
+Modified : /branches/BBJ1201GA/util/dataport/DataPort_main.bbj
 Modified : /branches/BBJ1201GA/util/dataport/files/field_file_xref
+Modified : /branches/BBJ1201GA/util/dataport/files/file_alias
+Modified : /branches/BBJ1201GA/util/dataport/files/file_xref
+Modified : /branches/BBJ1201GA/util/dataport/files/new_field_defaults
 =======================================================================================================================================
+Revision: 9643
 
-Date: Monday, May 21, 2012 11:05:03 PM
+Date: 2:39:39 PM, Monday, August 06, 2012
 Message:
-Change validation of Item Number on last SF program to use custom query into BOMs and change references to RPT_BILL_NO in all back end code to finish bug 5559.
+Prop to branch -> Revision: 9607
+
+Date: Tuesday, July 31, 2012 12:07:36 PM
+Message:
+Bug 6286: Corrected typo in variable name.
 ----
+Modified : /trunk/iv/src/ivr_itemalt_o1.aon
 ----
-Modified : /branches/BBJ1201GA/bm/src/bmu_compreplace.aon
+Modified : /branches/BBJ1201GA/iv/src/ivr_itemalt_o1.aon
 =======================================================================================================================================
+Revision: 9641
 
-Date: Monday, May 28, 2012 10:13:13 PM
+Date: 2:37:30 PM, Monday, August 06, 2012
 Message:
-Added following line to util/dataport/files/field_translations:
+Prop to branch -> Revision: 9605
 
-AR_DIST_CODE    |               |ZZ
-
-to fix 6128.
+Date: Friday, July 27, 2012 1:36:59 PM
+Message:
+Ran Create Locale Props utility to sweep Addon and pick up any missing keys (lots of missing keys for Elements, plus catching Shop Floor)
 ----
+Modified : /trunk/prop/addon.properties
+Modified : /trunk/prop/addon_de.properties
+Modified : /trunk/prop/addon_en.properties
+Modified : /trunk/prop/addon_en_CA.properties
+Modified : /trunk/prop/addon_es.properties
+Modified : /trunk/prop/addon_es_ES.properties
+Modified : /trunk/prop/addon_fr.properties
+Modified : /trunk/prop/addon_fr_CA.properties
+Modified : /trunk/prop/addon_it.properties
 ----
-Modified : /branches/BBJ1201GA/util/dataport/files/field_translations
+Modified : /branches/BBJ1201GA/prop/addon_de.properties
+Modified : /branches/BBJ1201GA/prop/addon_en_CA.properties
+Modified : /branches/BBJ1201GA/prop/addon_es_ES.properties
+Modified : /branches/BBJ1201GA/prop/addon_fr_CA.properties
+Modified : /branches/BBJ1201GA/prop/addon_it.properties
 =======================================================================================================================================
+Revision: 9639
 
-Date: Tuesday, June 12, 2012 3:02:34 PM
+Date: 2:33:57 PM, Monday, August 06, 2012
 Message:
-Per bug 6171; fixed connect string so these reports will work when SSL is true.
+Prop to branch -> Revision: 9594
+
+Date: Thursday, July 26, 2012 12:16:48 PM
+Message:
+Bug 6237: Copied firm 01 records in ADM_PROCMASTER (adm-09), ADM_PROCDETAIL (adm-19) and ADM_PROCTABLES (adm-39) to firm 02 and 99 records.
 ----
+Modified : /trunk/data/adm-09
+Modified : /trunk/data/adm-19
+Modified : /trunk/data/adm-39
 ----
-Modified : /branches/BBJ1201GA/ap/src/apr_detail.aon
-Modified : /branches/BBJ1201GA/ar/src/arr_detail.aon
-Modified : /branches/BBJ1201GA/ar/src/arr_graphicSalesReport.aon
-Modified : /branches/BBJ1201GA/ar/src/arr_runDrillDownReport.aon
-Modified : /branches/BBJ1201GA/bm/src/bmr_costing.aon
-Modified : /branches/BBJ1201GA/bm/src/bmr_detail.aon
-Modified : /branches/BBJ1201GA/iv/src/ivr_itemdetail.aon
-Modified : /branches/BBJ1201GA/op/src/opc_invoice_jasper.aon
-Modified : /branches/BBJ1201GA/po/src/por_calendar.aon
+Modified : /branches/BBJ1201GA/data/adm-09
+Modified : /branches/BBJ1201GA/data/adm-19
+Modified : /branches/BBJ1201GA/data/adm-39
 =======================================================================================================================================
+Revision: 9637
 
-Date: Thursday, May 17, 2012 10:27:32 PM
+Date: 2:31:24 PM, Monday, August 06, 2012
 Message:
-Add custom query and allow for using it based on whether BOMs are installed to fix bug 6083.
-----
--------------------------------------------------
+Prop to branch -> Revision: 9593
 
-Date: Friday, May 18, 2012 9:34:31 AM
+Date: Thursday, July 26, 2012 3:32:29 AM
 Message:
-Get the actual data columns for the new custom query into the repository.
+Fix for Bug 6270 - Newline char in LABL, LABS or PROM attributes from resource bundle breaks building of resource files.
 ----
+Modified : /trunk/prop/addon_es.properties
+Modified : /trunk/prop/addon_fr.properties
 ----
-Added : /branches/BBJ1201GA/data/sync/adm_query_cols~bom_lookup001.xml
-Added : /branches/BBJ1201GA/data/sync/adm_query_cols~bom_lookup002.xml
-Added : /branches/BBJ1201GA/data/sync/adm_query_cols~bom_lookup003.xml
-Added : /branches/BBJ1201GA/data/sync/adm_query_cols~bom_lookup004.xml
-Added : /branches/BBJ1201GA/data/sync/adm_query_cols~bom_lookup005.xml
-Added : /branches/BBJ1201GA/data/sync/adm_query_cols~bom_lookup006.xml
-Added : /branches/BBJ1201GA/data/sync/adm_query_cols~bom_lookup007.xml
-Added : /branches/BBJ1201GA/data/sync/adm_query_cols~bom_lookup008.xml
-Added : /branches/BBJ1201GA/data/sync/adm_query_cols~bom_lookup009.xml
-Added : /branches/BBJ1201GA/data/sync/adm_query_cols~bom_lookup010.xml
-Added : /branches/BBJ1201GA/data/sync/adm_query_cols~bom_lookup011.xml
-Added : /branches/BBJ1201GA/data/sync/adm_query_cols~bom_lookup012.xml
-Added : /branches/BBJ1201GA/data/sync/adm_query~bom_lookup.xml
+Modified : /branches/BBJ1201GA/prop/addon_es.properties
+Modified : /branches/BBJ1201GA/prop/addon_fr.properties
 =======================================================================================================================================
+Revision: 9635
 
-Date: Thursday, May 17, 2012 11:07:08 PM
+Date: 2:28:17 PM, Monday, August 06, 2012
 Message:
-Change validation of Item Number on reports to use custom query into BOMs to work on bug 5559.
-----
---------------------------------------------------
+Prop to branch -> Revision: 9592
 
-Date: Friday, May 18, 2012 11:07:55 PM
+Date: Wednesday, July 25, 2012 5:48:51 PM
 Message:
-Change validation of Item Number on remaining BOM programs to use custom query into BOMs to work on bug 5559.
+Bug 6237: Added adm-39 (adm_proctables) to the requiredFiles! vector in adc_copyaon.aon.
 ----
+Modified : /trunk/ad/src/adc_copyaon.aon
 ----
-Modified : /branches/BBJ1201GA/data/bar/bmr_billmatavail.xml
-Modified : /branches/BBJ1201GA/data/bar/bmr_costing.xml
-Modified : /branches/BBJ1201GA/data/bar/bmr_detaillist.xml
-Modified : /branches/BBJ1201GA/data/bar/bmr_dtlexcept.xml
-Modified : /branches/BBJ1201GA/data/bar/bmr_indentedbill.xml
-Modified : /branches/BBJ1201GA/data/bar/bmr_packinglist.xml
-Modified : /branches/BBJ1201GA/data/bar/bmu_compreplace.xml
-Modified : /branches/BBJ1201GA/data/bar/bmu_ivcosting.xml
-Modified : /branches/BBJ1201GA/data/cdf/bmr_billmatavail.cdf
-Modified : /branches/BBJ1201GA/data/cdf/bmr_costing.cdf
-Modified : /branches/BBJ1201GA/data/cdf/bmr_detaillist.cdf
-Modified : /branches/BBJ1201GA/data/cdf/bmr_dtlexcept.cdf
-Modified : /branches/BBJ1201GA/data/cdf/bmr_indentedbill.cdf
-Modified : /branches/BBJ1201GA/data/cdf/bmr_packinglist.cdf
-Modified : /branches/BBJ1201GA/data/cdf/bmu_compreplace.cdf
-Modified : /branches/BBJ1201GA/data/cdf/bmu_ivcosting.cdf
+Modified : /branches/BBJ1201GA/ad/src/adc_copyaon.aon
 =======================================================================================================================================
+Revision: 9633
 
-Date: Wednesday, May 23, 2012 10:03:20 AM
+Date: 2:21:26 PM, Monday, August 06, 2012
 Message:
-Added missing City in demo data.
+Prop to branch -> Revision: 9589
+
+Date: Tuesday, July 24, 2012 12:22:08 PM
+Message:
+Per bug 6250; adding images to Addon's own file system so they don't get renamed out from under us again. Still need to alter corresponding programs/arcs to use these rather than the ones in barista/sys/images.
 ----
+Added : /trunk/cust_images/im_menui_view.png
+Added : /trunk/cust_images/im_node_doc.png
+Added : /trunk/cust_images/im_tb_fst_m.png
+Added : /trunk/cust_images/im_tb_lst_m.png
+Added : /trunk/cust_images/im_tb_nxt_m.png
+Added : /trunk/cust_images/im_tb_prv_m.png
 ----
-Modified : /branches/BBJ1201GA/data/arm-03
+Added : /branches/BBJ1201GA/cust_images/im_menui_view.png
+Added : /branches/BBJ1201GA/cust_images/im_node_doc.png
+Added : /branches/BBJ1201GA/cust_images/im_tb_fst_m.png
+Added : /branches/BBJ1201GA/cust_images/im_tb_lst_m.png
+Added : /branches/BBJ1201GA/cust_images/im_tb_nxt_m.png
+Added : /branches/BBJ1201GA/cust_images/im_tb_prv_m.png
 =======================================================================================================================================
+Revision: 9631
 
-Date: Monday, May 21, 2012 9:47:07 AM
+Date: 2:15:52 PM, Monday, August 06, 2012
 Message:
-Correct error 20
+Prop to branch -> Revision: 9584
+
+Date: Monday, July 23, 2012 4:40:48 PM
+Message:
+Per bug 6213; added startEdit so focus returns back to detail grid, and places user in edit mode. Also added ACTIVATE to setStatus so keyboard (ctl-S, F7, etc.) works.
 ----
+Modified : /trunk/data/bar/ape_mancheckdet.xml
+Modified : /trunk/data/bar/ive_transdet.xml
+Modified : /trunk/data/cdf/ape_mancheckdet.cdf
+Modified : /trunk/data/cdf/ive_transdet.cdf
 ----
-Modified : /branches/BBJ1201GA/iv/src/ivx_committed.aon
+Modified : /branches/BBJ1201GA/data/bar/ape_mancheckdet.xml
+Modified : /branches/BBJ1201GA/data/bar/ive_transdet.xml
+Modified : /branches/BBJ1201GA/data/cdf/ape_mancheckdet.cdf
+Modified : /branches/BBJ1201GA/data/cdf/ive_transdet.cdf
 =======================================================================================================================================
+Revision: 9629
 
-Date: Friday, May 18, 2012 1:55:52 PM
+Date: 2:07:26 PM, Monday, August 06, 2012
 Message:
-Per bug# 6112, removed extraneous code re: all_wareHouses, b[],w[]
-----
-----
-Modified : /branches/BBJ1201GA/op/src/opr_shippingr_o1.aon
-=======================================================================================================================================
+Prop to branch -> Revision: 9583
 
-Date: Wednesday, June 06, 2012 10:42:35 PM
+Date: Monday, July 23, 2012 12:09:59 PM
 Message:
-Add message display when running Credit Review if Credit Management Parameter is not set to fix bug 6142.
+Bug 6258: At the end of the AP Period End Update task added reminder to close 1099 year if it's not the same as the calendar year.
 ----
+Modified : /trunk/ap/src/apu_period_end.aon
+Added : /trunk/data/sync/ads_messages~ap_1099_reminder.xml
+Modified : /trunk/prop/addon.properties
+Modified : /trunk/prop/addon_en.properties
 ----
-Modified : /branches/BBJ1201GA/data/bar/ope_credrev.xml
-Modified : /branches/BBJ1201GA/data/cdf/ope_credrev.cdf
-Added : /branches/BBJ1201GA/data/sync/ads_messages~op_nocredit.xml
+Modified : /branches/BBJ1201GA/ap/src/apu_period_end.aon
+Added : /branches/BBJ1201GA/data/sync/ads_messages~ap_1099_reminder.xml
 Modified : /branches/BBJ1201GA/prop/addon.properties
 Modified : /branches/BBJ1201GA/prop/addon_en.properties
 =======================================================================================================================================
+Revision: 9627
 
-Date: Monday, May 14, 2012 10:51:24 PM
+Date: 12:52:34 PM, Monday, August 06, 2012
 Message:
-Stripped dashes out of the gridInvoices vector vendor number element before using it for reading records out of different tables to fix bug 6069.
+Prop to branch -> Revision: 9575
+
+Date: Wednesday, July 18, 2012 11:04:44 AM
+Message:
+Augmented w/ instructions to run customer dflts form if porting from v6 (that table didn't exist in v6, but is expected to be in Barista version).
 ----
+Modified : /trunk/util/dataport/files/DataPort Notes.txt
 ----
-Modified : /branches/BBJ1201GA/data/bar/ape_payselect.xml
-Modified : /branches/BBJ1201GA/data/cdf/ape_payselect.cdf
+Modified : /branches/BBJ1201GA/util/dataport/files/DataPort Notes.txt
 =======================================================================================================================================
+Revision: 9625
 
-Date: Tuesday, June 05, 2012 10:33:33 PM
+Date: 12:48:56 PM, Monday, August 06, 2012
 Message:
-Added logic to make use of the Skip Warehouse Entry field on the Point Of Sale Maintenance form to fix bug 5685. (Forgot to commit the xml)
+Prop to branch -> Revision: 9557
+
+Date: Friday, July 13, 2012 12:21:52 PM
+Message:
+Parameter was being set to 1 instead of Y. Cleaned up logic in iReport to be clearer to fix bug 6243.
 ----
+Modified : /trunk/ar/src/arr_detail.aon
+Modified : /trunk/reports/CustDetail.jasper
+Modified : /trunk/reports/CustDetail.jrxml
+Modified : /trunk/reports/CustDetail_comments.jasper
 ----
-Modified : /branches/BBJ1201GA/data/bar/ope_invdet.xml
+Modified : /branches/BBJ1201GA/ar/src/arr_detail.aon
+Modified : /branches/BBJ1201GA/reports/CustDetail.jasper
+Modified : /branches/BBJ1201GA/reports/CustDetail.jrxml
+Modified : /branches/BBJ1201GA/reports/CustDetail_comments.jasper
 =======================================================================================================================================
+Revision: 9599
 
-Date: Tuesday, June 05, 2012 10:32:49 PM
+Date: 3:43:11 PM, Thursday, July 26, 2012
 Message:
-Added logic to make use of the Skip Warehouse Entry field on the Point Of Sale Maintenance form to fix bug 5685.
+additional mods to eliminate the problem caused by the dependency on the bbj demos directory, change all font references to Tahoma, and two images references to the cust_images directory
 ----
-----
-Modified : /branches/BBJ1201GA/data/cdf/ope_invdet.cdf
+Modified : /branches/BBJ1201GA/ar/src/arr_graphicSalesReport.aon
 =======================================================================================================================================
+Revision: 9596
 
-Date: Friday, May 11, 2012 11:03:00 PM
+Date: 3:38:26 PM, Thursday, July 26, 2012
 Message:
-Add LDAT logic to fix bug 6094.
+additional images needed for the graphical sales report
 ----
---------------------------
-----
-Modified : /branches/BBJ1201GA/data/bar/poe_pohdr.xml
-Modified : /branches/BBJ1201GA/data/bar/poe_rechdr.xml
-Modified : /branches/BBJ1201GA/data/bar/poe_reqhdr.xml
-Modified : /branches/BBJ1201GA/data/cdf/poe_pohdr.cdf
-Modified : /branches/BBJ1201GA/data/cdf/poe_rechdr.cdf
-Modified : /branches/BBJ1201GA/data/cdf/poe_reqhdr.cdf
+Added : /branches/BBJ1201GA/cust_images/dialframe.png
+Added : /branches/BBJ1201GA/cust_images/gaugeframe.png
 =======================================================================================================================================
+Revision: 9588
 
-Date: Friday, May 11, 2012 1:07:54 PM
+Date: 5:08:47 PM, Monday, July 23, 2012
 Message:
-Correct problem with non-unique Op Codes for the LDAT build.
+extensive refactoring
 ----
-----
-Modified : /branches/BBJ1201GA/data/bar/bmm_billsub.xml
-Modified : /branches/BBJ1201GA/data/cdf/bmm_billsub.cdf
+Modified : /branches/BBJ1201GA/ar/src/arr_graphicSalesReport.aon
 =======================================================================================================================================
+Revision: 9587
 
-Date: Thursday, May 10, 2012 10:24:20 AM
+Date: 5:08:13 PM, Monday, July 23, 2012
 Message:
-Correct problem with non-unique Op Codes for the LDAT build.
+images to support the graphic sales report
 ----
-----------------------------------------
-
-Date: Thursday, May 10, 2012 10:55:56 PM
-Message:
-Clean up LDAT logic concerning multiples of the same Op Code with different references. Remove sequence from indented bills report and Op Where Used. Display correct Op Code reference in Packing list. 
-----
-----
-Modified : /branches/BBJ1201GA/bm/src/bmc_packinglist.aon
-Modified : /branches/BBJ1201GA/bm/src/bmr_indentedbill_o1.aon
-Modified : /branches/BBJ1201GA/bm/src/bmr_oplist_o1.aon
-Modified : /branches/BBJ1201GA/data/bar/bmm_billmat.xml
-Modified : /branches/BBJ1201GA/data/cdf/bmm_billmat.cdf
+Added : /branches/BBJ1201GA/cust_images/areachart0.png
+Added : /branches/BBJ1201GA/cust_images/areachart1.png
+Added : /branches/BBJ1201GA/cust_images/barchart0.png
+Added : /branches/BBJ1201GA/cust_images/barchart1.png
+Added : /branches/BBJ1201GA/cust_images/dialchart0.png
+Added : /branches/BBJ1201GA/cust_images/dialchart1.png
+Added : /branches/BBJ1201GA/cust_images/gaugechart0.png
+Added : /branches/BBJ1201GA/cust_images/gaugechart1.png
+Added : /branches/BBJ1201GA/cust_images/im_tb_cal_f.png
+Added : /branches/BBJ1201GA/cust_images/linechart0.png
+Added : /branches/BBJ1201GA/cust_images/linechart1.png
+Added : /branches/BBJ1201GA/cust_images/piechart0.png
+Added : /branches/BBJ1201GA/cust_images/piechart1.png
 =======================================================================================================================================
+Revision: 9576
 
-Date: Wednesday, May 09, 2012 11:07:51 PM
+Date: 11:13:25 AM, Wednesday, July 18, 2012
 Message:
-Change BOM Packing List to page when Op Int Seq Ref changes, update Memo lines with Op Int Seq Ref from previous S lines, and use SQL to drive the report.
+Prop to branch -> orig commit msgs:
+
+Revision: 9573
+
+Date: 5:45:50 PM, Tuesday, July 17, 2012
+Message:
+Adjust columns to be more forgiving with font differences in the Date columns. Forgot to actually widen the Date columns.
 ----
+Modified : /trunk/reports/VendorDetail_invhdr.jrxml
+---------------------------------------------------------
+Revision: 9570
+
+Date: 5:21:35 PM, Tuesday, July 17, 2012
+Message:
+Adjust columns to be more forgiving with font differences in the Date columns.
 ----
-Modified : /branches/BBJ1201GA/bm/src/bmc_packinglist.aon
+Modified : /trunk/reports/VendorDetail_invhdr.jasper
+Modified : /trunk/reports/VendorDetail_invhdr.jrxml
+---------------------------------------------------------
+Revision: 9574
+
+Date: 5:52:07 PM, Tuesday, July 17, 2012
+Message:
+Adjust columns to be more forgiving with font differences in the Date columns in the detail.
+----
+Modified : /trunk/reports/VendorDetail_invdet.jasper
+Modified : /trunk/reports/VendorDetail_invdet.jrxml
+
+----
+Modified : /branches/BBJ1201GA/reports/VendorDetail_invdet.jasper
+Modified : /branches/BBJ1201GA/reports/VendorDetail_invdet.jrxml
+Modified : /branches/BBJ1201GA/reports/VendorDetail_invhdr.jasper
+Modified : /branches/BBJ1201GA/reports/VendorDetail_invhdr.jrxml
 =======================================================================================================================================
+Revision: 9566
 
-Date: Wednesday, May 09, 2012 10:37:01 AM
+Date: 5:43:50 PM, Monday, July 16, 2012
 Message:
-Removed ESCAPE from beginning of std_missing_params sub.
-----
---------------------------------------
+Prop to branch -> Revision: 9565
 
-Date: Wednesday, May 09, 2012 11:07:51 PM
+Date: 5:39:04 PM, Monday, July 16, 2012
 Message:
-Change BOM Packing List to page when Op Int Seq Ref changes, update Memo lines with Op Int Seq Ref from previous S lines, and use SQL to drive the report.
+Per bug 6197; corrected image names on Exec Summary (note: also done in PO Calendar and SF Calendar)
 ----
-----------------------------------------
-
-Date: Thursday, June 07, 2012 10:58:27 PM
-Message:
-Replace the old def fnitem with a new one to compensate for the description field being a variable length field to fix bug 6164.
-
+Modified : /trunk/ad/arc/ads_execsummary.arc
 ----
-Modified : /branches/BBJ1201GA/bm/src/bmr_packinglist.aon
+Modified : /branches/BBJ1201GA/ad/arc/ads_execsummary.arc
 =======================================================================================================================================
+Revision: 9563
 
-Date: 12:12:18 PM, Tuesday, July 10, 2012
+Date: 4:46:34 PM, Monday, July 16, 2012
 Message:
-Wrong version previously checked in with revision 9462.
-----
-Modified : /branches/BBJ1201GA/bm/src/bmc_packinglist.aon
-=======================================================================================================================================
+Prop to branch -> Revision: 9562
 
-Date: Tuesday, May 08, 2012 11:01:16 PM
+Date: 4:44:04 PM, Monday, July 16, 2012
 Message:
-Modify BOM Hard Copy and Packing List reports to display Op Internal Seq number and Op Seq Ref. Also show ISN on the Op Code Maintenance as Display Only.
+Fixing button images - were renamed in Barista
 ----
-----
-Modified : /branches/BBJ1201GA/bm/src/bmc_packinglist.aon
-Modified : /branches/BBJ1201GA/data/bar/bmm_billoper.xml
-Modified : /branches/BBJ1201GA/reports/BOMMatlDet.jasper
-Modified : /branches/BBJ1201GA/reports/BOMMatlDet.jrxml
-Modified : /branches/BBJ1201GA/reports/BOMOpDet.jasper
-Modified : /branches/BBJ1201GA/reports/BOMOpDet.jrxml
-Modified : /branches/BBJ1201GA/reports/BOMSubDet.jasper
-Modified : /branches/BBJ1201GA/reports/BOMSubDet.jrxml
-=======================================================================================================================================
+Modified : /trunk/po/arc/pom_calendar.arc
 
-Date: Wednesday, May 09, 2012 10:31:52 AM
-Message:
-Remove Sequence Number from the report.
 ----
-----
-Modified : /branches/BBJ1201GA/bm/src/bmr_materialused_o1.aon
-=======================================================================================================================================
-
-Date: Wednesday, May 02, 2012 1:41:34 PM
-Message:
-Per bug# 6049 - added fields missing on non-customer transactions.
-----
-----
-Modified : /branches/BBJ1201GA/ar/src/arr_cashjournal.aon
-=======================================================================================================================================
-
-Date: Wednesday, May 02, 2012 1:38:00 PM
-Message:
-Per bug# 6050 - added fields missing on non-customer transactions.
-----
-----
-Modified : /branches/BBJ1201GA/ar/src/arr_cashreceipts.aon
-=======================================================================================================================================
-
-Date: Friday, June 01, 2012 4:31:39 PM
-Message:
-Bug 6152: Do not remove app's STBLs and PREFIXs when install is unchecked.
-----
-----
-Modified : /branches/BBJ1200GA/data/bar/adx_upgradewiz.xml
-Modified : /branches/BBJ1200GA/data/cdf/adx_upgradewiz.cdf
-=======================================================================================================================================
-
-Date: Tuesday, May 22, 2012 3:02:40 PM
-Message:
-Bugs 6040 & 6107: Fixed next and previous record issues in BNEK and BPRK.
-----
-----
-Modified : /branches/BBJ1200GA/data/bar/ope_invhdr.xml
-Modified : /branches/BBJ1200GA/data/bar/ope_ordhdr.xml
-Modified : /branches/BBJ1200GA/data/cdf/ope_invhdr.cdf
-Modified : /branches/BBJ1200GA/data/cdf/ope_ordhdr.cdf
-=======================================================================================================================================
-
-Date: Friday, May 18, 2012 2:10:51 PM
-Message:
-Bug 6109: Don't clear the source dir so copy works without install.
-----
-----
-Modified : /branches/BBJ1200GA/data/bar/adx_upgradewiz.xml
-Modified : /branches/BBJ1200GA/data/cdf/adx_upgradewiz.cdf
-=======================================================================================================================================
-
-Date: Tuesday, May 15, 2012 6:10:39 PM
-Message:
-Bug 6099: In AABO callpoint remove orphan are_cashdel records and update are_cashbal accordingly.
-----
-----
-Modified : /branches/BBJ1200GA/data/bar/are_cashhdr.xml
-Modified : /branches/BBJ1200GA/data/cdf/are_cashhdr.cdf
-=======================================================================================================================================
-
-Date: 10:16:27 AM, Thursday, May 17, 2012
-Message:
-Added new table keys to improve search performance.
-----
-Modified : /branches/BBJ1200GA/data/bar/ivm_itemwhse.xml
-Modified : /branches/BBJ1200GA/data/bar/poe_poprint.xml
-Modified : /branches/BBJ1200GA/data/ivm-02
-Modified : /branches/BBJ1200GA/data/poe-22
-=======================================================================================================================================
-
-Date: Monday, May 07, 2012 2:18:33 PM
-Message:
-Bug 6028: Now the custom grid only updates an existing header record, it does not create new header records (lets Barista create them) except when adding an on-account detail record.
-----
-----
-Modified : /branches/BBJ1200GA/data/bar/are_cashhdr.xml
-Modified : /branches/BBJ1200GA/data/cdf/are_cashhdr.cdf
-=======================================================================================================================================
-
-Date: Friday, May 04, 2012 1:35:55 PM
-Message:
-Bug 6073: Now executes LINE_CODE.AVAL initialization code when line_code entry is skipped because of the "Skip Line Code Entry" parameter.
-----
-----
-Modified : /branches/BBJ1200GA/data/bar/ope_invdet.xml
-Modified : /branches/BBJ1200GA/data/bar/ope_orddet.xml
-Modified : /branches/BBJ1200GA/data/cdf/ope_invdet.cdf
-Modified : /branches/BBJ1200GA/data/cdf/ope_orddet.cdf
-=======================================================================================================================================
-
-Date: Friday, May 04, 2012 11:49:10 AM
-Message:
-Bug 6081: Fixed line of code I previously mangled.
-----
-----
-Modified : /branches/BBJ1200GA/ad/src/adx_init_data.aon
+Modified : /branches/BBJ1201GA/po/arc/pom_calendar.arc
 
