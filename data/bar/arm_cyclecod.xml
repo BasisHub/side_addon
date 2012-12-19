@@ -10,17 +10,17 @@
 			<DD_ALIAS_TYPE id="ddm_tables.arm_cyclecod">V</DD_ALIAS_TYPE>
 			<DD_KEY_LENGTH id="ddm_tables.arm_cyclecod">0</DD_KEY_LENGTH>
 			<DD_NBR_RECORD id="ddm_tables.arm_cyclecod">0</DD_NBR_RECORD>
-			<DD_RECORD_LEN id="ddm_tables.arm_cyclecod">36</DD_RECORD_LEN>
+			<DD_RECORD_LEN id="ddm_tables.arm_cyclecod">0</DD_RECORD_LEN>
 			<DD_SYSTEM_REC id="ddm_tables.arm_cyclecod">N</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_tables.arm_cyclecod">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.arm_cyclecod">AR </ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.arm_cyclecod">12.0      </ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.arm_cyclecod">12.0</ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.arm_cyclecod">DB60DFA0E22C1922E5391519E139237C</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.arm_cyclecod">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.arm_cyclecod">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.arm_cyclecod">20090630</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.arm_cyclecod">20120327</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.arm_cyclecod">140920</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.arm_cyclecod">20120828</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.arm_cyclecod">20120828</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.arm_cyclecod">223130</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.arm_cyclecod">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.arm_cyclecod">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.arm_cyclecod">AR Cycle Code</DD_ATTR_WINT>
@@ -98,6 +98,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.arm_cyclecod001">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_PROM id="ddm_table_cols.arm_cyclecod001">Firm ID</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.arm_cyclecod001">1</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.arm_cyclecod001">FIRM_ID</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.arm_cyclecod002">
 			<DD_TABLE_ALIAS id="ddm_table_cols.arm_cyclecod002">ARM_CYCLECOD    </DD_TABLE_ALIAS>
@@ -111,6 +112,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.arm_cyclecod002">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_PROM id="ddm_table_cols.arm_cyclecod002">"A"</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.arm_cyclecod002">2</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.arm_cyclecod002">RECORD_ID_A</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.arm_cyclecod003">
 			<DD_TABLE_ALIAS id="ddm_table_cols.arm_cyclecod003">ARM_CYCLECOD    </DD_TABLE_ALIAS>
@@ -128,6 +130,7 @@
 			<DD_ATTR_MINL id="ddm_table_cols.arm_cyclecod003">1</DD_ATTR_MINL>
 			<DD_ATTR_PROM id="ddm_table_cols.arm_cyclecod003">Cycle Code</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.arm_cyclecod003">3</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.arm_cyclecod003">AR_CYCLECODE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.arm_cyclecod004">
 			<DD_TABLE_ALIAS id="ddm_table_cols.arm_cyclecod004">ARM_CYCLECOD    </DD_TABLE_ALIAS>
@@ -143,6 +146,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.arm_cyclecod004">160</DD_ATTR_CTLW>
 			<DD_ATTR_PROM id="ddm_table_cols.arm_cyclecod004">Code Description</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.arm_cyclecod004">4</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.arm_cyclecod004">CODE_DESC</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.arm_cyclecod005">
 			<DD_TABLE_ALIAS id="ddm_table_cols.arm_cyclecod005">ARM_CYCLECOD    </DD_TABLE_ALIAS>
@@ -157,6 +161,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.arm_cyclecod005">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_PROM id="ddm_table_cols.arm_cyclecod005">Reserved For Addon Use</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.arm_cyclecod005">5</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.arm_cyclecod005">RESERVED_STR</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.arm_cyclecod006">
 			<DD_TABLE_ALIAS id="ddm_table_cols.arm_cyclecod006">ARM_CYCLECOD    </DD_TABLE_ALIAS>
@@ -171,6 +176,7 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.arm_cyclecod006">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_PROM id="ddm_table_cols.arm_cyclecod006">Reserved For Dealer Use</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.arm_cyclecod006">6</DD_ATTR_TIND>
+			<SQL_COLUMN_NAME id="ddm_table_cols.arm_cyclecod006">DEALER_STR</SQL_COLUMN_NAME>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">
@@ -253,12 +259,12 @@
 			<ASC_COMP_ID id="ddm_elements.ar_cyclecode">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_elements.ar_cyclecode">AR </ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.ar_cyclecode">20060421</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.ar_cyclecode">20080806</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.ar_cyclecode">20120828</DD_LSTREV_DATE>
 			<DD_ATTR_BLNK id="ddm_elements.ar_cyclecode">N</DD_ATTR_BLNK>
 			<DD_ATTR_CTLW id="ddm_elements.ar_cyclecode">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_elements.ar_cyclecode">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.ar_cyclecode">E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOL id="ddm_elements.ar_cyclecode">CODE_DESC       </DD_ATTR_DCOL>
+			<DD_ATTR_DCOL id="ddm_elements.ar_cyclecode">CODE_DESC</DD_ATTR_DCOL>
 			<DD_ATTR_DKEY id="ddm_elements.ar_cyclecode">[+FIRM_ID]+"A"+@</DD_ATTR_DKEY>
 			<DD_ATTR_DTAB id="ddm_elements.ar_cyclecode">ARM_CYCLECOD    </DD_ATTR_DTAB>
 			<DD_ATTR_LABL id="ddm_elements.ar_cyclecode">Cycle Code</DD_ATTR_LABL>
@@ -267,6 +273,8 @@
 			<DD_ATTR_MAXR id="ddm_elements.ar_cyclecode">0</DD_ATTR_MAXR>
 			<DD_ATTR_MINL id="ddm_elements.ar_cyclecode">0</DD_ATTR_MINL>
 			<DD_ATTR_MSKI id="ddm_elements.ar_cyclecode">UU</DD_ATTR_MSKI>
+			<DD_ATTR_PADC id="ddm_elements.ar_cyclecode">20</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.ar_cyclecode">L</DD_ATTR_PADJ>
 			<DD_ATTR_PREC id="ddm_elements.ar_cyclecode">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.code_desc">

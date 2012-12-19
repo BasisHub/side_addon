@@ -18,10 +18,10 @@
 			<ASC_LICENSE_ID id="ddm_tables.glm_bankmaster">77F5B7263DE0B2D37BE2B56FB18269BC</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.glm_bankmaster">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.glm_bankmaster">20060609</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.glm_bankmaster">20100611</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.glm_bankmaster">20120327</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.glm_bankmaster">140920</DD_LSTSYNC_TIME>
-			<DD_ATTR_CPGM id="ddm_tables.glm_bankmaster">/apps/aon/;</DD_ATTR_CPGM>
+			<DD_LSTREV_DATE id="ddm_tables.glm_bankmaster">20120908</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.glm_bankmaster">20120908</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.glm_bankmaster">123936</DD_LSTSYNC_TIME>
+			<DD_ATTR_CPGM id="ddm_tables.glm_bankmaster">C:/aon_dev/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.glm_bankmaster">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.glm_bankmaster">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.glm_bankmaster">Bank Reconciliation</DD_ATTR_WINT>
@@ -53,6 +53,14 @@
 	</ALIAS>
 	<ALIAS id="ddm_table_cpro">
 		<ID id="ddm_table_cpro">DDM_TABLE_CPRO</ID>
+		<RECORD id="ddm_table_cpro.glm_bankmasteraopt-detl">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.glm_bankmasteraopt-detl">GLM_BANKMASTER  </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.glm_bankmasteraopt-detl">AOPT-DETL</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_table_cpro.glm_bankmasteraopt-post">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.glm_bankmasteraopt-post">GLM_BANKMASTER  </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.glm_bankmasteraopt-post">AOPT-POST</DD_ATTR_CPRO>
+		</RECORD>
 		<RECORD id="ddm_table_cpro.glm_bankmasteraopt-recl">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.glm_bankmasteraopt-recl">GLM_BANKMASTER  </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.glm_bankmasteraopt-recl">AOPT-RECL</DD_ATTR_CPRO>
@@ -309,7 +317,7 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.glm_bankmaster012">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.glm_bankmaster012">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.glm_bankmaster012">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.glm_bankmaster012">/apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.glm_bankmaster012">C:/aon_dev/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_PROM id="ddm_table_cols.glm_bankmaster012">Current Statement Date</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.glm_bankmaster012">10</DD_ATTR_TIND>
 		</RECORD>
@@ -341,7 +349,7 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.glm_bankmaster014">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.glm_bankmaster014">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.glm_bankmaster014">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CPGM id="ddm_table_cols.glm_bankmaster014">/apps/aon/;</DD_ATTR_CPGM>
+			<DD_ATTR_CPGM id="ddm_table_cols.glm_bankmaster014">C:/aon_dev/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.glm_bankmaster014">80</DD_ATTR_CTLW>
 			<DD_ATTR_PROM id="ddm_table_cols.glm_bankmaster014">Current Stmt Amount</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.glm_bankmaster014">12</DD_ATTR_TIND>

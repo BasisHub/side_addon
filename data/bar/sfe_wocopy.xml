@@ -5,7 +5,6 @@
 		<RECORD id="ddm_tables.sfe_wocopy">
 			<DD_TABLE_ALIAS id="ddm_tables.sfe_wocopy">SFE_WOCOPY      </DD_TABLE_ALIAS>
 			<DD_ALIAS_DESC id="ddm_tables.sfe_wocopy">Work Order Copy</DD_ALIAS_DESC>
-			<DD_FILE_NAME id="ddm_tables.sfe_wocopy">sfe_wocopy.dat</DD_FILE_NAME>
 			<DD_TABLE_PATH id="ddm_tables.sfe_wocopy">[+DEFAULT]</DD_TABLE_PATH>
 			<DD_ALIAS_TYPE id="ddm_tables.sfe_wocopy">P</DD_ALIAS_TYPE>
 			<DD_KEY_LENGTH id="ddm_tables.sfe_wocopy">0</DD_KEY_LENGTH>
@@ -19,9 +18,9 @@
 			<ASC_VERSION_ID id="ddm_tables.sfe_wocopy">12.0      </ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.sfe_wocopy">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.sfe_wocopy">20120120</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.sfe_wocopy">20120411</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.sfe_wocopy">20120405</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.sfe_wocopy">084742</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.sfe_wocopy">20120627</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.sfe_wocopy">20120627</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.sfe_wocopy">122204</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.sfe_wocopy">/dev_addon/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.sfe_wocopy">S</DD_ATTR_FTYP>
 			<DD_ATTR_PCAL id="ddm_tables.sfe_wocopy">[+DIR_PGM]adx_dummy.aon</DD_ATTR_PCAL>
@@ -62,7 +61,6 @@
 		<ID id="ddm_table_tpls">DDM_TABLE_TPLS</ID>
 		<RECORD id="ddm_table_tpls.sfe_wocopy">
 			<DD_TABLE_ALIAS id="ddm_table_tpls.sfe_wocopy">SFE_WOCOPY      </DD_TABLE_ALIAS>
-			<DD_FILE_NAME id="ddm_table_tpls.sfe_wocopy">sfe_wocopy.dat</DD_FILE_NAME>
 			<DD_TABLE_TPL id="ddm_table_tpls.sfe_wocopy">wo_no:c(7)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>

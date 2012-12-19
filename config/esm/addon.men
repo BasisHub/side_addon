@@ -483,7 +483,7 @@ Procesamiento de pedidos de ventas^OPMENU^M^^^im_menua_order_proc.png^N^01007514
 Control de piso de compras^SFMENU^M^^^im_menua_shop_floor_cont.png^N^01007514^SF^^12.0^^
 	Entrada de pedido de trabajo^SFE_AA^T^^sfe_aa.aon^im_menui_table.png^N^01007514^SF^^12.0^^
 	Impresión de viajero^SFR_AA^T^^sfr_aa.aon^im_menui_report.png^N^01007514^SF^^12.0^^
-	Entrada de compromiso de materiales^SFE_CA^T^^sfe_ca.aon^im_menui_table.png^N^01007514^SF^^12.0^^
+	Entrada de compromiso de materiales^SFE_WOMATHDR^T^SFE_WOMATHDR^^im_menui_table.png^^01007514^SF^Materials_Commitment_Entry^12.0^^
 	Impresión de la lista para pedidos^SFR_BA^T^^sfr_ba.aon^im_menui_report.png^N^01007514^SF^^12.0^^
 	Consulta de despacho^SFE_HA^T^^sfe_ha.aon^im_menui_table.png^N^01007514^SF^^12.0^^
 	Consulta de saldo de carga^SFM_HA^T^^sfm_ha.aon^im_menui_table.png^N^01007514^SF^^12.0^^
@@ -491,8 +491,8 @@ Control de piso de compras^SFMENU^M^^^im_menua_shop_floor_cont.png^N^01007514^SF
 		Crear solicitudes de compra^SFU_IA^T^^sfu_ia.aon^im_menui_table.png^N^01007514^SF^^12.0^^
 		Entrada de emisiones materiales^SFE_WOMATISH^T^SFE_WOMATISH^^im_menui_table.png^N^01007514^SF^^12.0^^
 		Registro de emisiones de materiales^SFR_DA^A^^[+DIR_PGM]sfr_womatissu.aon^im_menui_report.png^N^01007514^SF^^12.0^^
-		Entrada de la hoja de horas^SFE_BA^T^^sfe_ba.aon^im_menui_table.png^N^01007514^SF^^12.0^^
-		Registro de la hoja de horas^SFR_CA^T^^sfr_ca.aon^im_menui_report.png^N^01007514^SF^^12.0^^
+		Entrada de la hoja de horas^SFE_BA^A^^[+DIR_PGM]sfe_timesheet.aon^im_menui_table.png^N^01007514^SF^^12.0^^
+		Registro de la hoja de horas^SFR_CA^A^^[+DIR_PGM]sfr_timesheet.aon^im_menui_report.png^^01007514^SF^^12.0^^
 		Entrada de ajuste de costos^SFE_FA^T^^sfe_fa.aon^im_menui_table.png^N^01007514^SF^^12.0^^
 		Registro de ajuste de costos^SFR_LA^T^^sfr_la.aon^im_menui_report.png^N^01007514^SF^^12.0^^
 		Entrada de datos de cierre de pedidos de trabajo^SFE_EA^T^^sfe_ea.aon^im_menui_table.png^N^01007514^SF^^12.0^^

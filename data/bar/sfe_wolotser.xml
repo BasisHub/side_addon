@@ -18,21 +18,50 @@
 			<ASC_LICENSE_ID id="ddm_tables.sfe_wolotser">485BF1A39930491F3D7AA02BFB8E38CB</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.sfe_wolotser">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.sfe_wolotser">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.sfe_wolotser">20120316</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.sfe_wolotser">20120327</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.sfe_wolotser">140928</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.sfe_wolotser">20120613</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.sfe_wolotser">20120613</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.sfe_wolotser">181310</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.sfe_wolotser">/dev_addon/aon/;</DD_ATTR_CPGM>
-			<DD_ATTR_FTYP id="ddm_tables.sfe_wolotser">G</DD_ATTR_FTYP>
+			<DD_ATTR_FTYP id="ddm_tables.sfe_wolotser">T</DD_ATTR_FTYP>
 			<DD_ATTR_PTAB id="ddm_tables.sfe_wolotser">SFE_WOMASTR     </DD_ATTR_PTAB>
 			<DD_ATTR_SLEV id="ddm_tables.sfe_wolotser">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.sfe_wolotser">Work Order Lot/Serial Numbers</DD_ATTR_WINT>
 		</RECORD>
 	</ALIAS>
+	<ALIAS id="ddm_table_aopt">
+		<ID id="ddm_table_aopt">DDM_TABLE_AOPT</ID>
+		<RECORD id="ddm_table_aopt.sfe_wolotser01">
+			<DD_TABLE_ALIAS id="ddm_table_aopt.sfe_wolotser01">SFE_WOLOTSER    </DD_TABLE_ALIAS>
+			<DD_ATTR_SEQ id="ddm_table_aopt.sfe_wolotser01">01</DD_ATTR_SEQ>
+			<DD_ATTR_AOPT id="ddm_table_aopt.sfe_wolotser01">Auto-assign</DD_ATTR_AOPT>
+			<DD_ATTR_AOPT_CD id="ddm_table_aopt.sfe_wolotser01">AUTO</DD_ATTR_AOPT_CD>
+			<DD_ATTR_AOPT_FM id="ddm_table_aopt.sfe_wolotser01">B</DD_ATTR_AOPT_FM>
+		</RECORD>
+	</ALIAS>
 	<ALIAS id="ddm_table_cpro">
 		<ID id="ddm_table_cpro">DDM_TABLE_CPRO</ID>
+		<RECORD id="ddm_table_cpro.sfe_wolotseradis">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.sfe_wolotseradis">SFE_WOLOTSER    </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.sfe_wolotseradis">ADIS</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_table_cpro.sfe_wolotserarec">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.sfe_wolotserarec">SFE_WOLOTSER    </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.sfe_wolotserarec">AREC</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_table_cpro.sfe_wolotserbend">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.sfe_wolotserbend">SFE_WOLOTSER    </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.sfe_wolotserbend">BEND</DD_ATTR_CPRO>
+		</RECORD>
 		<RECORD id="ddm_table_cpro.sfe_wolotserbsho">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.sfe_wolotserbsho">SFE_WOLOTSER    </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.sfe_wolotserbsho">BSHO</DD_ATTR_CPRO>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_opts">
+		<ID id="ddm_table_opts">DDM_TABLE_OPTS</ID>
+		<RECORD id="ddm_table_opts.sfe_wolotserw">
+			<DD_TABLE_ALIAS id="ddm_table_opts.sfe_wolotserw">SFE_WOLOTSER    </DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.sfe_wolotserw">W</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_tpls">
@@ -103,6 +132,8 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.sfe_wolotser001">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.sfe_wolotser001">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfe_wolotser001">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.sfe_wolotser001">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.sfe_wolotser001">0</DD_ATTR_CTLH>
 			<DD_ATTR_PROM id="ddm_table_cols.sfe_wolotser001">Firm ID</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.sfe_wolotser001">1</DD_ATTR_TIND>
 			<SQL_COLUMN_NAME id="ddm_table_cols.sfe_wolotser001">FIRM_ID</SQL_COLUMN_NAME>
@@ -150,6 +181,8 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.sfe_wolotser004">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.sfe_wolotser004">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfe_wolotser004">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.sfe_wolotser004">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.sfe_wolotser004">0</DD_ATTR_CTLH>
 			<DD_ATTR_PROM id="ddm_table_cols.sfe_wolotser004">Sequence Number</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.sfe_wolotser004">4</DD_ATTR_TIND>
 			<SQL_COLUMN_NAME id="ddm_table_cols.sfe_wolotser004">SEQUENCE_NO</SQL_COLUMN_NAME>
@@ -165,7 +198,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.sfe_wolotser005">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfe_wolotser005">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_PROM id="ddm_table_cols.sfe_wolotser005">Closed Flag</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.sfe_wolotser005">5</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.sfe_wolotser005">9</DD_ATTR_TIND>
 			<SQL_COLUMN_NAME id="ddm_table_cols.sfe_wolotser005">CLOSED_FLAG</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.sfe_wolotser006">
@@ -178,6 +211,8 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.sfe_wolotser006">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.sfe_wolotser006">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfe_wolotser006">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_LABL id="ddm_table_cols.sfe_wolotser006">Comments</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_table_cols.sfe_wolotser006">Comments</DD_ATTR_LABS>
 			<DD_ATTR_PROM id="ddm_table_cols.sfe_wolotser006">WO Lot/Serial WIP Comment</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.sfe_wolotser006">6</DD_ATTR_TIND>
 			<SQL_COLUMN_NAME id="ddm_table_cols.sfe_wolotser006">WO_LS_CMT</SQL_COLUMN_NAME>
@@ -193,7 +228,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.sfe_wolotser007">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfe_wolotser007">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_PROM id="ddm_table_cols.sfe_wolotser007">Completion Flag</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.sfe_wolotser007">7</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.sfe_wolotser007">8</DD_ATTR_TIND>
 			<SQL_COLUMN_NAME id="ddm_table_cols.sfe_wolotser007">COMPLETE_FLG</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.sfe_wolotser008">
@@ -209,7 +244,7 @@
 			<DD_ATTR_CTLW id="ddm_table_cols.sfe_wolotser008">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.sfe_wolotser008">0</DD_ATTR_CTLH>
 			<DD_ATTR_PROM id="ddm_table_cols.sfe_wolotser008">Lot/Serial Number</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.sfe_wolotser008">8</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.sfe_wolotser008">5</DD_ATTR_TIND>
 			<SQL_COLUMN_NAME id="ddm_table_cols.sfe_wolotser008">LOTSER_NO</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.sfe_wolotser009">
@@ -224,7 +259,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.sfe_wolotser009">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfe_wolotser009">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_PROM id="ddm_table_cols.sfe_wolotser009">Date Closed</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.sfe_wolotser009">9</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.sfe_wolotser009">10</DD_ATTR_TIND>
 			<SQL_COLUMN_NAME id="ddm_table_cols.sfe_wolotser009">CLOSED_DATE</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.sfe_wolotser010">
@@ -239,7 +274,7 @@
 			<DD_CREATE_DATE id="ddm_table_cols.sfe_wolotser010">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfe_wolotser010">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_PROM id="ddm_table_cols.sfe_wolotser010">Scheduled Production Quantity</DD_ATTR_PROM>
-			<DD_ATTR_TIND id="ddm_table_cols.sfe_wolotser010">10</DD_ATTR_TIND>
+			<DD_ATTR_TIND id="ddm_table_cols.sfe_wolotser010">7</DD_ATTR_TIND>
 			<SQL_COLUMN_NAME id="ddm_table_cols.sfe_wolotser010">SCH_PROD_QTY</SQL_COLUMN_NAME>
 		</RECORD>
 		<RECORD id="ddm_table_cols.sfe_wolotser011">
@@ -320,10 +355,60 @@
 			<DD_DVAR_NAME id="ddm_column_opts.sfe_wolotserwo_noo">WO_NO           </DD_DVAR_NAME>
 			<DD_ATTR_OPTS id="ddm_column_opts.sfe_wolotserwo_noo">O</DD_ATTR_OPTS>
 		</RECORD>
-		<RECORD id="ddm_column_opts.sfe_wolotsersequence_noo">
-			<DD_TABLE_ALIAS id="ddm_column_opts.sfe_wolotsersequence_noo">SFE_WOLOTSER    </DD_TABLE_ALIAS>
-			<DD_DVAR_NAME id="ddm_column_opts.sfe_wolotsersequence_noo">SEQUENCE_NO     </DD_DVAR_NAME>
-			<DD_ATTR_OPTS id="ddm_column_opts.sfe_wolotsersequence_noo">O</DD_ATTR_OPTS>
+		<RECORD id="ddm_column_opts.sfe_wolotsersequence_noc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfe_wolotsersequence_noc">SFE_WOLOTSER    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfe_wolotsersequence_noc">SEQUENCE_NO     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfe_wolotsersequence_noc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sfe_wolotserclosed_flagc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfe_wolotserclosed_flagc">SFE_WOLOTSER    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfe_wolotserclosed_flagc">CLOSED_FLAG     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfe_wolotserclosed_flagc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sfe_wolotserclosed_flago">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfe_wolotserclosed_flago">SFE_WOLOTSER    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfe_wolotserclosed_flago">CLOSED_FLAG     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfe_wolotserclosed_flago">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sfe_wolotsercomplete_flgc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfe_wolotsercomplete_flgc">SFE_WOLOTSER    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfe_wolotsercomplete_flgc">COMPLETE_FLG    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfe_wolotsercomplete_flgc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sfe_wolotserclosed_datec">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfe_wolotserclosed_datec">SFE_WOLOTSER    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfe_wolotserclosed_datec">CLOSED_DATE     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfe_wolotserclosed_datec">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sfe_wolotserqty_cls_todtc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfe_wolotserqty_cls_todtc">SFE_WOLOTSER    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfe_wolotserqty_cls_todtc">QTY_CLS_TODT    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfe_wolotserqty_cls_todtc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sfe_wolotsercls_cst_todtc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfe_wolotsercls_cst_todtc">SFE_WOLOTSER    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfe_wolotsercls_cst_todtc">CLS_CST_TODT    </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfe_wolotsercls_cst_todtc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sfe_wolotsercls_inp_qtyc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfe_wolotsercls_inp_qtyc">SFE_WOLOTSER    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfe_wolotsercls_inp_qtyc">CLS_INP_QTY     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfe_wolotsercls_inp_qtyc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sfe_wolotsercls_inp_qtyo">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfe_wolotsercls_inp_qtyo">SFE_WOLOTSER    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfe_wolotsercls_inp_qtyo">CLS_INP_QTY     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfe_wolotsercls_inp_qtyo">O</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sfe_wolotserclosed_costc">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfe_wolotserclosed_costc">SFE_WOLOTSER    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfe_wolotserclosed_costc">CLOSED_COST     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfe_wolotserclosed_costc">C</DD_ATTR_OPTS>
+		</RECORD>
+		<RECORD id="ddm_column_opts.sfe_wolotserclosed_costo">
+			<DD_TABLE_ALIAS id="ddm_column_opts.sfe_wolotserclosed_costo">SFE_WOLOTSER    </DD_TABLE_ALIAS>
+			<DD_DVAR_NAME id="ddm_column_opts.sfe_wolotserclosed_costo">CLOSED_COST     </DD_DVAR_NAME>
+			<DD_ATTR_OPTS id="ddm_column_opts.sfe_wolotserclosed_costo">O</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_elements">

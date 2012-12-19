@@ -5,7 +5,6 @@
 		<RECORD id="ddm_tables.ope_addl_opts">
 			<DD_TABLE_ALIAS id="ddm_tables.ope_addl_opts">OPE_ADDL_OPTS   </DD_TABLE_ALIAS>
 			<DD_ALIAS_DESC id="ddm_tables.ope_addl_opts">Addition Options in Detail Line</DD_ALIAS_DESC>
-			<DD_FILE_NAME id="ddm_tables.ope_addl_opts">ope_addl_opts.dat</DD_FILE_NAME>
 			<DD_TABLE_PATH id="ddm_tables.ope_addl_opts">[+DEFAULT]</DD_TABLE_PATH>
 			<DD_ALIAS_TYPE id="ddm_tables.ope_addl_opts">P</DD_ALIAS_TYPE>
 			<DD_KEY_LENGTH id="ddm_tables.ope_addl_opts">0</DD_KEY_LENGTH>
@@ -19,9 +18,9 @@
 			<ASC_VERSION_ID id="ddm_tables.ope_addl_opts">12.0      </ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ope_addl_opts">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ope_addl_opts">20091026</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ope_addl_opts">20111028</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ope_addl_opts">20120327</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ope_addl_opts">140926</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ope_addl_opts">20120627</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ope_addl_opts">20120627</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ope_addl_opts">122026</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ope_addl_opts">C:/aon_dev/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ope_addl_opts">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.ope_addl_opts">[+DIR_PGM]adx_dummy.aon</DD_ATTR_PRUN>
@@ -70,7 +69,6 @@
 		<ID id="ddm_table_tpls">DDM_TABLE_TPLS</ID>
 		<RECORD id="ddm_table_tpls.ope_addl_opts">
 			<DD_TABLE_ALIAS id="ddm_table_tpls.ope_addl_opts">OPE_ADDL_OPTS   </DD_TABLE_ALIAS>
-			<DD_FILE_NAME id="ddm_table_tpls.ope_addl_opts">ope_addl_opts.dat</DD_FILE_NAME>
 			<DD_TABLE_TPL id="ddm_table_tpls.ope_addl_opts">std_list_prc:n(7*),disc_percent:n(7*),net_price:n(7*),est_shp_date:c(8*),commit_flag:c(1*),man_price:c(1*),printed:c(1*)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>

@@ -18,14 +18,14 @@
 			<ASC_LICENSE_ID id="ddm_tables.sfe_womatish">E0A09D272E974C7C4E80A365D2ACD7D4</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.sfe_womatish">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.sfe_womatish">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.sfe_womatish">20120412</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.sfe_womatish">20120412</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.sfe_womatish">140324</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.sfe_womatish">20120823</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.sfe_womatish">20120823</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.sfe_womatish">124002</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.sfe_womatish">C:/aon_dev/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_DKNM id="ddm_tables.sfe_womatish">BATCH_KEY</DD_ATTR_DKNM>
 			<DD_ATTR_FTYP id="ddm_tables.sfe_womatish">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.sfe_womatish">zzzz</DD_ATTR_SLEV>
-			<DD_ATTR_WINT id="ddm_tables.sfe_womatish">Material Issues Entry</DD_ATTR_WINT>
+			<DD_ATTR_WINT id="ddm_tables.sfe_womatish">Materials Issues Entry</DD_ATTR_WINT>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_cpro">
@@ -37,6 +37,10 @@
 		<RECORD id="ddm_table_cpro.sfe_womatishadis">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.sfe_womatishadis">SFE_WOMATISH    </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.sfe_womatishadis">ADIS</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_table_cpro.sfe_womatisharea">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.sfe_womatisharea">SFE_WOMATISH    </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.sfe_womatisharea">AREA</DD_ATTR_CPRO>
 		</RECORD>
 		<RECORD id="ddm_table_cpro.sfe_womatisharec">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.sfe_womatisharec">SFE_WOMATISH    </DD_TABLE_ALIAS>
@@ -206,8 +210,6 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.sfe_womatish001">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.sfe_womatish001">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfe_womatish001">20060119</DD_LSTREV_DATE>
-			<DD_ATTR_CTLW id="ddm_table_cols.sfe_womatish001">0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH id="ddm_table_cols.sfe_womatish001">0</DD_ATTR_CTLH>
 			<DD_ATTR_PROM id="ddm_table_cols.sfe_womatish001">Firm ID</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.sfe_womatish001">1</DD_ATTR_TIND>
 			<SQL_COLUMN_NAME id="ddm_table_cols.sfe_womatish001">FIRM_ID</SQL_COLUMN_NAME>
@@ -223,7 +225,6 @@
 			<DD_CREATE_DATE id="ddm_table_cols.sfe_womatish002">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfe_womatish002">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.sfe_womatish002">35</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH id="ddm_table_cols.sfe_womatish002">0</DD_ATTR_CTLH>
 			<DD_ATTR_PROM id="ddm_table_cols.sfe_womatish002">Work Order Location [Not Used]</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.sfe_womatish002">3</DD_ATTR_TIND>
 			<SQL_COLUMN_NAME id="ddm_table_cols.sfe_womatish002">WO_LOCATION</SQL_COLUMN_NAME>
@@ -239,8 +240,6 @@
 			<DD_CREATE_DATE id="ddm_table_cols.sfe_womatish003">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfe_womatish003">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CPGM id="ddm_table_cols.sfe_womatish003">C:/aon_dev/aon/;</DD_ATTR_CPGM>
-			<DD_ATTR_CTLW id="ddm_table_cols.sfe_womatish003">0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH id="ddm_table_cols.sfe_womatish003">0</DD_ATTR_CTLH>
 			<DD_ATTR_MINL id="ddm_table_cols.sfe_womatish003">1</DD_ATTR_MINL>
 			<DD_ATTR_PROM id="ddm_table_cols.sfe_womatish003">Work Order Number</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.sfe_womatish003">4</DD_ATTR_TIND>
@@ -259,7 +258,6 @@
 			<DD_ATTR_CTLX id="ddm_table_cols.sfe_womatish004">+23</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_cols.sfe_womatish004">-1</DD_ATTR_CTLY>
 			<DD_ATTR_CTLW id="ddm_table_cols.sfe_womatish004">35</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH id="ddm_table_cols.sfe_womatish004">0</DD_ATTR_CTLH>
 			<DD_ATTR_PROM id="ddm_table_cols.sfe_womatish004">Work Order Type</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.sfe_womatish004">5</DD_ATTR_TIND>
 			<SQL_COLUMN_NAME id="ddm_table_cols.sfe_womatish004">WO_TYPE</SQL_COLUMN_NAME>
@@ -306,7 +304,6 @@
 			<DD_CREATE_DATE id="ddm_table_cols.sfe_womatish007">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfe_womatish007">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_table_cols.sfe_womatish007">35</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH id="ddm_table_cols.sfe_womatish007">0</DD_ATTR_CTLH>
 			<DD_ATTR_MAXL id="ddm_table_cols.sfe_womatish007">2</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.sfe_womatish007">Warehouse ID</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.sfe_womatish007">12</DD_ATTR_TIND>
@@ -361,10 +358,6 @@
 			<DD_CREATE_DATE id="ddm_table_cols.sfe_womatish010">20120329</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfe_womatish010">20120329</DD_LSTREV_DATE>
 			<DD_ATTR_COLW id="ddm_table_cols.sfe_womatish010">0</DD_ATTR_COLW>
-			<DD_ATTR_CTLX id="ddm_table_cols.sfe_womatish010">0</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY id="ddm_table_cols.sfe_womatish010">0</DD_ATTR_CTLY>
-			<DD_ATTR_CTLW id="ddm_table_cols.sfe_womatish010">0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH id="ddm_table_cols.sfe_womatish010">0</DD_ATTR_CTLH>
 			<DD_ATTR_MLAN id="ddm_table_cols.sfe_womatish010">N</DD_ATTR_MLAN>
 			<DD_ATTR_MAXL id="ddm_table_cols.sfe_womatish010">0</DD_ATTR_MAXL>
 			<DD_ATTR_TIND id="ddm_table_cols.sfe_womatish010">2</DD_ATTR_TIND>
@@ -380,7 +373,6 @@
 			<DD_ATTR_LABL id="ddm_table_disp.sfe_womatish001">Status</DD_ATTR_LABL>
 			<DD_ATTR_CTLX id="ddm_table_disp.sfe_womatish001">+54</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_disp.sfe_womatish001">-6</DD_ATTR_CTLY>
-			<DD_ATTR_CTLW id="ddm_table_disp.sfe_womatish001">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_disp.sfe_womatish001">0</DD_ATTR_CTLH>
 			<DD_ATTR_TIND id="ddm_table_disp.sfe_womatish001">10</DD_ATTR_TIND>
 		</RECORD>
@@ -392,7 +384,6 @@
 			<DD_ATTR_LABL id="ddm_table_disp.sfe_womatish002">Description</DD_ATTR_LABL>
 			<DD_ATTR_CTLX id="ddm_table_disp.sfe_womatish002">0</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_disp.sfe_womatish002">0</DD_ATTR_CTLY>
-			<DD_ATTR_CTLW id="ddm_table_disp.sfe_womatish002">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_disp.sfe_womatish002">0</DD_ATTR_CTLH>
 			<DD_ATTR_TIND id="ddm_table_disp.sfe_womatish002">7</DD_ATTR_TIND>
 		</RECORD>
@@ -404,7 +395,6 @@
 			<DD_ATTR_LABL id="ddm_table_disp.sfe_womatish003">Description</DD_ATTR_LABL>
 			<DD_ATTR_CTLX id="ddm_table_disp.sfe_womatish003">0</DD_ATTR_CTLX>
 			<DD_ATTR_CTLY id="ddm_table_disp.sfe_womatish003">0</DD_ATTR_CTLY>
-			<DD_ATTR_CTLW id="ddm_table_disp.sfe_womatish003">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_disp.sfe_womatish003">0</DD_ATTR_CTLH>
 			<DD_ATTR_TIND id="ddm_table_disp.sfe_womatish003">8</DD_ATTR_TIND>
 		</RECORD>

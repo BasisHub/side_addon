@@ -18,8 +18,8 @@
 			<DD_EXPORT_DATA id="ddm_tables.art_invdet">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.art_invdet">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_tables.art_invdet">20100611</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.art_invdet">20120327</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.art_invdet">140920</DD_LSTSYNC_TIME>
+			<DD_LSTSYNC_DATE id="ddm_tables.art_invdet">20120830</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.art_invdet">114848</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.art_invdet">G</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.art_invdet">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.art_invdet">Invoice Detail</DD_ATTR_WINT>
@@ -40,6 +40,12 @@
 			<DD_KEY_NUMBER id="ddm_keys.art_invdet00">00</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.art_invdet00">Primary</DD_KEY_DESC>
 			<DD_KEY_ID id="ddm_keys.art_invdet00">PRIMARY         </DD_KEY_ID>
+		</RECORD>
+		<RECORD id="ddm_keys.art_invdet01">
+			<DD_TABLE_ALIAS id="ddm_keys.art_invdet01">ART_INVDET      </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_keys.art_invdet01">01</DD_KEY_NUMBER>
+			<DD_KEY_DESC id="ddm_keys.art_invdet01">Customer</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.art_invdet01">AO_CUST         </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_key_segs">
@@ -88,6 +94,18 @@
 			<DD_SEGMENT_POS id="ddm_key_segs.art_invdet0005">0</DD_SEGMENT_POS>
 			<DD_SEGMENT_OFF id="ddm_key_segs.art_invdet0005">0</DD_SEGMENT_OFF>
 			<DD_SEGMENT_LEN id="ddm_key_segs.art_invdet0005">0</DD_SEGMENT_LEN>
+		</RECORD>
+		<RECORD id="ddm_key_segs.art_invdet0101">
+			<DD_TABLE_ALIAS id="ddm_key_segs.art_invdet0101">ART_INVDET      </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.art_invdet0101">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.art_invdet0101">01</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.art_invdet0101">CUSTOMER_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.art_invdet0101">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.art_invdet0101">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.art_invdet0101">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.art_invdet0101">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.art_invdet0101">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.art_invdet0101">N</DD_SEGMENT_MATH>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_cols">

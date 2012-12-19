@@ -1,159 +1,826 @@
 =======================================================================================================================================
- Report Date:   2012-09-13
- Report Branch: AddonSoftware 12.02
- Last Release:  AddonSoftware 12.01
+ Report Date:   2012-09-21
+ Report Branch: AddonSoftware 12.10
+ Last Release:  AddonSoftware 12.02
 =======================================================================================================================================
 
-Revision: 9665
-Date: 5:30:07 PM, Tuesday, August 07, 2012
+Revision: 9778
+
+Date: Thursday, September 20, 2012 3:22:44 PM
 Message:
-Prop to branch -> Revision: 9663
-Date: Tuesday, August 07, 2012 5:26:07 PM
-Message:
-Bug 6296: Deleted file_alias references to are_cnvinv, glm_auditdetail, glm_auditcontrol, glu_createbudget and glx_finxref.
+Bug 6364: Added seterr and setesc to each label entry point.
 ----
-Modified : /trunk/util/dataport/files/file_alias
-----
-Modified : /branches/BBJ1201GA/util/dataport/files/file_alias
+Modified : /trunk/ad/src/adc_getmask.aon
+Modified : /trunk/op/src/opc_invoice.aon
+Modified : /trunk/op/src/opc_picklist.aon
 =======================================================================================================================================
-Revision: 9662
+Revision: 9786
 
-Date: 2:16:35 PM, Tuesday, August 07, 2012
+Date: Friday, September 21, 2012 12:29:26 PM
 Message:
-Prop to branch -> Revision: 9658
-
-Date: Tuesday, August 07, 2012 2:02:41 PM
-Message:
-Bug 5891: Modified to loop over the number of fields looking for RECORD_ID_ instead of testing a fixed number of fields.
+Do not restrict table creation for ive_physical (ive-03).
 ----
-Modified : /trunk/util/dataport/DataPort_main.bbj
-Modified : /trunk/util/dataport/files/file_alias
-----
-Modified : /branches/BBJ1201GA/util/dataport/DataPort_main.bbj
-Modified : /branches/BBJ1201GA/util/dataport/files/file_alias
+Modified : /trunk/data/bar/ive_physical.xml
 =======================================================================================================================================
-Revision: 9660
+Revision: 9768
 
-Date: 2:14:02 PM, Tuesday, August 07, 2012
+Date: 10:35:43 PM, Tuesday, September 18, 2012
 Message:
-Prop to branch -> Revision: 9655
-
-Date: Tuesday, August 07, 2012 12:39:27 PM
-Message:
-Bug 6295: Modified DataPort_main.bbj to skip obsolete v6 sort files, and log skipped files.
+Changed Element Type for UNITS to TOTAL_UNITS to match the proper mask of the field to fix bug 6359.
 ----
-Modified : /trunk/util/dataport/DataPort_main.bbj
-Modified : /trunk/util/dataport/files/file_alias
-Modified : /trunk/util/dataport/files/file_xref
-----
-Modified : /branches/BBJ1201GA/util/dataport/DataPort_main.bbj
-Modified : /branches/BBJ1201GA/util/dataport/files/file_alias
-Modified : /branches/BBJ1201GA/util/dataport/files/file_xref
+Modified : /trunk/data/bar/sfe_womatl.xml
 =======================================================================================================================================
-Revision: 9649
+Revision: 9767
 
-Date: 2:58:41 PM, Monday, August 06, 2012
+Date: 10:17:16 PM, Tuesday, September 18, 2012
 Message:
-Prop to branch -> Revision: 9615
+Corrected references to the 3 elements of msg_tokens$ to fix bug 6360.
+----
+Modified : /trunk/sf/src/sfu_closerecwo.aon
+=======================================================================================================================================
+Revision: 9766
 
-Date: Thursday, August 02, 2012 1:24:22 PM
+Date: 5:19:03 PM, Tuesday, September 18, 2012
 Message:
-Bug 6278: Prevented selecting batched files, and displays a warning message.
+Add a message for deleting issues if deleting issues for a Recurring Work Order to fix bug 6357.
+----
+Modified : /trunk/data/bar/sfe_womatish.xml
+Modified : /trunk/data/cdf/sfe_womatish.cdf
+Added : /trunk/data/sync/ads_messages~sf_delete_issue_rec.xml
+Modified : /trunk/prop/addon.properties
+Modified : /trunk/prop/addon_en.properties
+=======================================================================================================================================
+Revision: 9765
+
+Date: 4:47:57 PM, Tuesday, September 18, 2012
+Message:
+Clear total variable after each Work Order. Correct variable names for the summary page to fix bug 6358.
+----
+Modified : /trunk/sf/src/sfr_womatissu.aon
+=======================================================================================================================================
+Revision: 9763
+
+Date: 5:28:22 PM, Monday, September 17, 2012
+Message:
+Cleared the correct Work files to prevent doubling up numbers on the summary report to fix bug 6347.
+----
+Modified : /trunk/sf/src/sfr_costadjust.aon
+=======================================================================================================================================
+Revision: 9762
+
+Date: 5:15:33 PM, Monday, September 17, 2012
+Message:
+Allow for Shop Floor Cost Adjustments to run based on Batching with new program names.
+----
+Modified : /trunk/data/glm-06
+=======================================================================================================================================
+Revision: 9761
+
+Date: 4:43:02 PM, Monday, September 17, 2012
+Message:
+Rearranged columns and added Setup Time to total time for Operations to fix bug 6355.
+----
+Modified : /trunk/sf/src/sfe_transhist.aon
+=======================================================================================================================================
+Revision: 9760
+
+Date: 3:55:18 PM, Monday, September 17, 2012
+Message:
+If the Last Activity Date or Last Close Date is blank, return null values in the fields rather than today's date to fix bug 6344.
+----
+Modified : /trunk/sprocs/SFHARDCOPY.prc
+=======================================================================================================================================
+Revision: 9759
+
+Date: 1:33:22 PM, Monday, September 17, 2012
+Message:
+Only print Customer subheading if there are details to print to finish up bug 6342.
+----
+Modified : /trunk/sf/src/sfr_wovarrep_o1.aon
+=======================================================================================================================================
+Revision: 9758
+
+Date: 1:21:46 PM, Monday, September 17, 2012
+Message:
+Only print sub heading if a detail line will be printed to fix bug 6342. Also destroy O/E form on run to meet Addon standards.
+----
+Modified : /trunk/data/bar/sfr_woheader.xml
+Modified : /trunk/sf/src/sfr_woheader.aon
+Modified : /trunk/sf/src/sfr_woheader_o1.aon
+=======================================================================================================================================
+Revision: 9757
+
+Date: 12:44:53 PM, Monday, September 17, 2012
+Message:
+Only display message in WO_NO.AVAL if the Work Order Number was not automatically generated by the bas_sequences program to fix bug 6350.
+----
+Modified : /trunk/data/bar/sfe_womastr.xml
+Modified : /trunk/data/cdf/sfe_womastr.cdf
+=======================================================================================================================================
+Revision: 9756
+
+Date: 12:00:21 PM, Monday, September 17, 2012
+Message:
+Remarked the line that assumes that if more time has been entered against an Op Code than it required, then it was at the next Op Code to fix bug 6341.
+----
+Modified : /trunk/sf/src/sfr_shpflrdsptch_o1.aon
+=======================================================================================================================================
+Revision: 9755
+
+Date: 10:31:24 AM, Monday, September 17, 2012
+Message:
+Set value of key_tpl$ before entering read loop in case an exact match was found on the first read to fix bug 6345.
+----
+Modified : /trunk/sf/src/sfr_wordjobstat_o1.aon
+=======================================================================================================================================
+Revision: 9754
+
+Date: 10:46:41 PM, Friday, September 14, 2012
+Message:
+Allows for tracking of Req/PO/Recpt number in WO Entry to fix bug 6329.
+----
+Modified : /trunk/data/bar/poe_pohdr.xml
+Modified : /trunk/data/cdf/poe_pohdr.cdf
+Modified : /trunk/po/src/poc_deletepo.aon
+Added : /trunk/po/src/poc_requpdate.aon
+Modified : /trunk/po/src/pou_recptreg.aon
+Modified : /trunk/po/src/pou_reqsnreg.aon
+=======================================================================================================================================
+Revision: 9753
+
+Date: 5:46:02 PM, Friday, September 14, 2012
+Message:
+Advisory Locking
+----
+Modified : /trunk/data/bar/ape_payselect.xml
+Modified : /trunk/data/cdf/ape_payselect.cdf
+=======================================================================================================================================
+Revision: 9744
+
+Date: 4:40:43 PM, Wednesday, September 12, 2012
+Message:
+Advisory Locking for Sales Analysis (SA).
+----
+Modified : /trunk/sa/src/sar_ab.aon
+Modified : /trunk/sa/src/sar_ac.aon
+Modified : /trunk/sa/src/sar_ad.aon
+Modified : /trunk/sa/src/sar_customer.aon
+Modified : /trunk/sa/src/sar_custship.aon
+Modified : /trunk/sa/src/sar_custsic.aon
+Modified : /trunk/sa/src/sar_custterr.aon
+Modified : /trunk/sa/src/sar_custtype.aon
+Modified : /trunk/sa/src/sar_distcode.aon
+Modified : /trunk/sa/src/sar_item.aon
+Modified : /trunk/sa/src/sar_nonstock.aon
+Modified : /trunk/sa/src/sar_proditmcst.aon
+Modified : /trunk/sa/src/sar_salespsn.aon
+Modified : /trunk/sa/src/sar_territory.aon
+Modified : /trunk/sa/src/sar_vendor.aon
+Modified : /trunk/sa/src/sar_warehse.aon
+Modified : /trunk/sa/src/sax_histrebuild.aon
+=======================================================================================================================================
+Revision: 9743
+
+Date: 12:10:57 PM, Wednesday, September 12, 2012
+Message:
+Added new global to addon.syn (will be sync'd into barista.cfg); Added code to demo nag program to bypass the nag if the global is set.  This to facilitate being able to package a normal vs promo build.
+----
+Modified : /trunk/ad/src/adx_demo_nag.aon
+Modified : /trunk/config/addon.syn
+Modified : /trunk/config/addon_dev.syn
+=======================================================================================================================================
+Revision: 9742
+
+Date: 10:58:54 AM, Wednesday, September 12, 2012
+Message:
+Advisory Locking for AR callpoint code.
+----
+Modified : /trunk/data/bar/are_cashhdr.xml
+Modified : /trunk/data/cdf/are_cashhdr.cdf
+=======================================================================================================================================
+Revision: 9741
+
+Date: 10:17:49 AM, Wednesday, September 12, 2012
+Message:
+Advisory Locking for AR backend programs.
+----
+Modified : /trunk/ar/src/aru_cashjournal.aon
+Modified : /trunk/ar/src/aru_cashreceipts.aon
+Modified : /trunk/ar/src/aru_invoiceentry.aon
+Modified : /trunk/ar/src/aru_periodend.aon
+Modified : /trunk/ar/src/aru_zerobalance.aon
+=======================================================================================================================================
+Revision: 9740
+
+Date: 6:05:23 PM, Tuesday, September 11, 2012
+Message:
+Advisory Locking for AR backend programs.
+----
+Modified : /trunk/ar/src/arr_agingreport.aon
+Modified : /trunk/ar/src/arr_cashjournal.aon
+Modified : /trunk/ar/src/arr_invoices.aon
+Modified : /trunk/ar/src/aru_agingupdate.aon
+Modified : /trunk/ar/src/aru_cashreceipts.aon
+Modified : /trunk/ar/src/aru_dateregister.aon
+Modified : /trunk/ar/src/aru_invoiceentry.aon
+Modified : /trunk/ar/src/aru_otherentry.aon
+Modified : /trunk/ar/src/aru_periodend.aon
+Modified : /trunk/ar/src/arx_changesaflag.aon
+=======================================================================================================================================
+Revision: 9739
+
+Date: 4:50:57 PM, Tuesday, September 11, 2012
+Message:
+Advisory Locking WIP
+----
+Modified : /trunk/ap/src/apu_chkregister.aon
+Modified : /trunk/ap/src/apu_close1099.aon
+Modified : /trunk/ap/src/apu_invoiceentry.aon
+Modified : /trunk/ap/src/apu_manualchecks.aon
+Modified : /trunk/ap/src/apu_period_end.aon
+Modified : /trunk/ap/src/apu_recurring.aon
+=======================================================================================================================================
+Revision: 9738
+
+Date: 5:57:30 PM, Monday, September 10, 2012
+Message:
+Lock GLE_ALLOCHDR (gle-03) and GLE_ALLOCDET (glm-13) for update.
+----
+Modified : /trunk/gl/src/glr_allocate.aon
+=======================================================================================================================================
+Revision: 9737
+
+Date: 4:31:26 PM, Monday, September 10, 2012
+Message:
+Bug 6338: Modified Material Commitment Entry to check if the WO has been released before writing sfe_womatdtl records.
+----
+Modified : /trunk/data/bar/sfe_womathdr.xml
+Modified : /trunk/data/cdf/sfe_womathdr.cdf
+=======================================================================================================================================
+Revision: 9736
+
+Date: 12:31:41 PM, Monday, September 10, 2012
+Message:
+Advisory Locking for AD backend programs.
+----
+Modified : /trunk/ad/src/ado_order.src
+Modified : /trunk/ad/src/adx_build_sproc.aon
+Modified : /trunk/ad/src/adx_demo_nag.aon
+Modified : /trunk/ad/src/adx_init_data.aon
+Modified : /trunk/ad/src/adx_mask_cardno.aon
+Modified : /trunk/ad/src/adx_set_printer.aon
+=======================================================================================================================================
+Revision: 9734
+
+Date: 9:49:54 AM, Monday, September 10, 2012
+Message:
+Advisory Locking for AD callpoint code.
+----
+Modified : /trunk/data/bar/adm_procmaster.xml
+Modified : /trunk/data/cdf/adm_procmaster.cdf
+=======================================================================================================================================
+Revision: 9733
+
+Date: 12:44:14 PM, Saturday, September 08, 2012
+Message:
+Advisory Locking for GL callpoint code.
+----
+Modified : /trunk/data/bar/glm_bankmaster.xml
+Modified : /trunk/data/bar/glm_budgetmaint.xml
+Modified : /trunk/data/bar/glm_budgetmaster.xml
+Modified : /trunk/data/bar/glm_summactivity.xml
+Modified : /trunk/data/cdf/glm_bankmaster.cdf
+Modified : /trunk/data/cdf/glm_budgetmaint.cdf
+Modified : /trunk/data/cdf/glm_budgetmaster.cdf
+Modified : /trunk/data/cdf/glm_summactivity.cdf
+=======================================================================================================================================
+Revision: 9732
+
+Date: 8:51:29 AM, Saturday, September 08, 2012
+Message:
+Advisory Locking for GL backend programs.
+----
+Modified : /trunk/gl/src/glc_ctlcreate.aon
+Modified : /trunk/gl/src/glc_ctldelete.aon
+Modified : /trunk/gl/src/gle_13period.aon
+Modified : /trunk/gl/src/gle_financials.aon
+Modified : /trunk/gl/src/glm_copyfin.aon
+Modified : /trunk/gl/src/glr_13period.aon
+Modified : /trunk/gl/src/glr_allocate.aon
+Modified : /trunk/gl/src/glr_beginbalance.aon
+Modified : /trunk/gl/src/glr_financials.aon
+Modified : /trunk/gl/src/glr_headings.aon
+Modified : /trunk/gl/src/glr_simple.aon
+Modified : /trunk/gl/src/glr_totalsreport.aon
+Modified : /trunk/gl/src/glu_13period.aon
+Modified : /trunk/gl/src/glu_beginbalance.aon
+Modified : /trunk/gl/src/glu_budgetupdate.aon
+Modified : /trunk/gl/src/glu_createbudget.aon
+Modified : /trunk/gl/src/glu_dailydetail.aon
+Modified : /trunk/gl/src/glu_financials.aon
+Modified : /trunk/gl/src/glu_periodend.aon
+Modified : /trunk/gl/src/glu_recurring.aon
+Modified : /trunk/gl/src/glu_yearend.aon
+Modified : /trunk/gl/src/glx_copychart.aon
+Modified : /trunk/gl/src/glx_fixglm32.aon
+=======================================================================================================================================
+Revision: 9731
+
+Date: 10:32:20 PM, Friday, September 07, 2012
+Message:
+Only hide Work Order Number in Maintenance Form and Maintenance Grid to fix bug 6337.
+----
+Modified : /trunk/data/bar/sfe_womatdtl.xml
+=======================================================================================================================================
+Revision: 9730
+
+Date: 10:23:31 PM, Friday, September 07, 2012
+Message:
+Changed prompt from Closed to Planned to fix bug 6330.
+----
+Modified : /trunk/data/bar/sfu_createporeq.xml
+Modified : /trunk/data/cdf/sfu_createporeq.cdf
+Modified : /trunk/sf/src/sfu_createporeq.aon
+=======================================================================================================================================
+Revision: 9729
+
+Date: 5:29:19 PM, Friday, September 07, 2012
+Message:
+Advisory Locking WIP
+----
+Modified : /trunk/ap/src/apr_agingreport.aon
+Modified : /trunk/ap/src/apr_cashrequire.aon
+Modified : /trunk/ap/src/apr_disbursemnts.aon
+Modified : /trunk/ap/src/apr_purchases.aon
+=======================================================================================================================================
+Revision: 9728
+
+Date: 3:37:58 PM, Friday, September 07, 2012
+Message:
+Advisory Locking; added rem, and removed key= on writes to apw-01.
+----
+Modified : /trunk/ap/src/apr_apchecks.aon
+=======================================================================================================================================
+Revision: 9727
+
+Date: 12:04:54 PM, Friday, September 07, 2012
+Message:
+Finish up the Pick List Printing question about the update.
+----
+Modified : /trunk/sf/src/sfr_picklist_o1.aon
+=======================================================================================================================================
+Revision: 9726
+
+Date: 10:57:53 PM, Thursday, September 06, 2012
+Message:
+Only go through the actual operations transactions once for each Internal Sequence Number to fix bug 6335.
+----
+Modified : /trunk/sprocs/SFHARDCOPYCOSTSUM.prc
+=======================================================================================================================================
+Revision: 9725
+
+Date: 10:12:14 PM, Thursday, September 06, 2012
+Message:
+Added missing line of code to fix bug 6331.
+----
+Modified : /trunk/sf/src/sfe_transhist.aon
+=======================================================================================================================================
+Revision: 9724
+
+Date: 6:56:27 PM, Thursday, September 06, 2012
+Message:
+Initial work in AP module for Advisory Locking (changing reads to extracts)
+----
+Modified : /trunk/ap/src/apr_apchecks.aon
+=======================================================================================================================================
+Revision: 9723
+
+Date: 12:38:40 PM, Thursday, September 06, 2012
+Message:
+Adjusted margins and column placement in several places to fix bug 6327.
+----
+Modified : /trunk/reports/SFHardCopy.jasper
+Modified : /trunk/reports/SFHardCopy.jrxml
+Modified : /trunk/reports/SFHardCopyCmnts.jasper
+Modified : /trunk/reports/SFHardCopyCmnts.jrxml
+Modified : /trunk/reports/SFHardCopyMatStd.jasper
+Modified : /trunk/reports/SFHardCopyMatStd.jrxml
+=======================================================================================================================================
+Revision: 9722
+
+Date: 12:30:47 PM, Thursday, September 06, 2012
+Message:
+Removed miss-named ads_masks~*.xml files, and added correctly named ads_masks~*.xml files for the AP "U" mask.
+----
+Added : /trunk/data/sync/ads_masks~0101007514ap_u.xml
+Deleted : /trunk/data/sync/ads_masks~0101007514apa.xml
+Deleted : /trunk/data/sync/ads_masks~0101007514api.xml
+Deleted : /trunk/data/sync/ads_masks~0101007514apu.xml
+Added : /trunk/data/sync/ads_masks~0201007514ap_u.xml
+Deleted : /trunk/data/sync/ads_masks~0201007514apa.xml
+Deleted : /trunk/data/sync/ads_masks~0201007514api.xml
+Added : /trunk/data/sync/ads_masks~9901007514ap_u.xml
+Deleted : /trunk/data/sync/ads_masks~9901007514apa.xml
+Deleted : /trunk/data/sync/ads_masks~9901007514api.xml
+=======================================================================================================================================
+Revision: 9721
+
+Date: 12:21:09 PM, Thursday, September 06, 2012
+Message:
+Bug 6333: Move enable/disable button logic to AGRN callpoint.
+----
+Modified : /trunk/data/bar/sfe_womatisd.xml
+Modified : /trunk/data/cdf/sfe_womatisd.cdf
+=======================================================================================================================================
+Revision: 9720
+
+Date: 9:53:32 AM, Thursday, September 06, 2012
+Message:
+Bug 6273: Eliminated the Convert Masks checkbox. Masks and sequence numbers are now processed, or not, basis on files selected.
 ----
 Modified : /trunk/data/bar/adx_dataport.xml
 Modified : /trunk/data/cdf/adx_dataport.cdf
-Added : /trunk/data/sync/ads_messages~cannot_port_batched.xml
-Modified : /trunk/prop/addon.properties
-Modified : /trunk/prop/addon_de.properties
-Modified : /trunk/prop/addon_en.properties
-Modified : /trunk/prop/addon_es.properties
-Modified : /trunk/prop/addon_fr.properties
-Modified : /trunk/prop/addon_it.properties
-----
-Modified : /branches/BBJ1201GA/data/bar/adx_dataport.xml
-Modified : /branches/BBJ1201GA/data/cdf/adx_dataport.cdf
-Added : /branches/BBJ1201GA/data/sync/ads_messages~cannot_port_batched.xml
+Modified : /trunk/util/dataport/DataPort_main.bbj
 =======================================================================================================================================
-Revision: 9647
+Revision: 9719
 
-Date: 2:53:11 PM, Monday, August 06, 2012
+Date: 7:40:07 PM, Wednesday, September 05, 2012
 Message:
-Prop to branch -> Revision: 9612
-
-Date: Wednesday, August 01, 2012 11:32:11 AM
-Message:
-Bug 6280: Modified backend programs to use a Translate! object instead of Barista's Translator! object.
+Variable  'period' was being used in two different places for two different (but similar) functions.
+Changed the invoice amount accumulation use of 'period' to  'invagepd'.
+Tested on 11.11 and current build (9/5/2012)
 ----
-Modified : /trunk/ad/src/adc_copyaon.aon
-Modified : /trunk/ad/src/adc_copydir.aon
-Modified : /trunk/ad/src/adc_copymods.aon
-Modified : /trunk/ad/src/adc_firmsetup.aon
-Modified : /trunk/ad/src/adc_mvupgrdfiles.aon
-Modified : /trunk/ad/src/adc_updatesynfile.aon
-Modified : /trunk/ad/src/adc_updatexmlfiles.aon
-Modified : /trunk/ad/src/adx_demoyear.aon
-Modified : /trunk/ad/src/adx_upgradewiz.aon
-Modified : /trunk/gl/src/glx_fixglm32.aon
-Modified : /trunk/iv/src/ivr_physregister.aon
-----
-Modified : /branches/BBJ1201GA/ad/src/adc_copydir.aon
-Modified : /branches/BBJ1201GA/ad/src/adc_copymods.aon
-Modified : /branches/BBJ1201GA/ad/src/adc_firmsetup.aon
-Modified : /branches/BBJ1201GA/ad/src/adc_mvupgrdfiles.aon
-Modified : /branches/BBJ1201GA/ad/src/adc_updatesynfile.aon
-Modified : /branches/BBJ1201GA/ad/src/adc_updatexmlfiles.aon
-Modified : /branches/BBJ1201GA/ad/src/adx_demoyear.aon
-Modified : /branches/BBJ1201GA/ad/src/adx_upgradewiz.aon
-Modified : /branches/BBJ1201GA/gl/src/glx_fixglm32.aon
-Modified : /branches/BBJ1201GA/iv/src/ivr_physregister.aon
+Modified : /trunk/ar/src/arr_statements.aon
 =======================================================================================================================================
-Revision: 9645
+Revision: 9717
 
-Date: 2:45:17 PM, Monday, August 06, 2012
+Date: 10:49:29 PM, Tuesday, September 04, 2012
 Message:
-Prop to branch -> Revision: 9610
+Default value of SA Flag to I in Attributes. If Product Type changes and new record flag is A, set the SA Flag to the Product Type SA Flag value to fix bug 6091.
+----
+Modified : /trunk/data/bar/ivm_itemmast.xml
+Modified : /trunk/data/cdf/ivm_itemmast.cdf
+=======================================================================================================================================
+Revision: 9716
 
-Date: Wednesday, August 01, 2012 9:25:51 AM
+Date: 10:28:31 PM, Tuesday, September 04, 2012
 Message:
-Split old WOE-11/21/31 files into separate header/detail files for each.
+Changed calculation of On Order and Committed quantities to fix bug 6326.
+----
+Modified : /trunk/data/bar/ivm_itemwhse.xml
+Modified : /trunk/data/cdf/ivm_itemwhse.cdf
+=======================================================================================================================================
+Revision: 9715
 
+Date: 5:39:42 PM, Tuesday, September 04, 2012
+Message:
+IVE_PHYSICAL form is not used, only the table is used. Deleted ive_physical.cdf and update ive_physical.xml to only include table info
+----
+Modified : /trunk/data/bar/ive_physical.xml
+Deleted : /trunk/data/cdf/ive_physical.cdf
+=======================================================================================================================================
+Revision: 9714
+
+Date: 4:51:27 PM, Tuesday, September 04, 2012
+Message:
+set the Image Manager cache size to 0 to fix the problem of the button images going blank also fix a divide by zero problem with there is no data display and it attempts to calculate the lay out of the gauges and dials
+----
+Modified : /trunk/ar/src/arr_graphicSalesReport.aon
+=======================================================================================================================================
+Revision: 9713
+
+Date: 2:55:45 PM, Tuesday, September 04, 2012
+Message:
+Bug 6273: Separated ARS_CUSTDFLT processing from the Convert Masks checkbox logic.
 ----
 Modified : /trunk/util/dataport/DataPort_main.bbj
-Modified : /trunk/util/dataport/files/field_file_xref
-Modified : /trunk/util/dataport/files/file_alias
+=======================================================================================================================================
+Revision: 9712
+
+Date: 2:31:51 PM, Tuesday, September 04, 2012
+Message:
+Bug 6273: Separated ARS_CUSTDFLT processing from the Convert Masks checkbox logic.
+----
+Modified : /trunk/util/dataport/DataPort_main.bbj
 Modified : /trunk/util/dataport/files/file_xref
+=======================================================================================================================================
+Revision: 9711
+
+Date: 1:16:23 PM, Tuesday, September 04, 2012
+Message:
+Added Addon masks to the AP Detail Report - Detail History portion - to fix bug 5060. svn users will need to run adx_build_sproc.aon to make this work.
+----
+Modified : /trunk/ad/src/adx_build_sproc.aon
+Modified : /trunk/ap/src/apr_detail.aon
+Added : /trunk/data/sync/ads_masks~0101007514apa.xml
+Added : /trunk/data/sync/ads_masks~0101007514api.xml
+Added : /trunk/data/sync/ads_masks~0101007514apu.xml
+Added : /trunk/data/sync/ads_masks~0201007514apa.xml
+Added : /trunk/data/sync/ads_masks~0201007514api.xml
+Added : /trunk/data/sync/ads_masks~9901007514apa.xml
+Added : /trunk/data/sync/ads_masks~9901007514api.xml
+Modified : /trunk/reports/VendorDetail.jasper
+Modified : /trunk/reports/VendorDetail.jrxml
+Modified : /trunk/reports/VendorDetail_hist.jasper
+Modified : /trunk/reports/VendorDetail_hist.jrxml
+Added : /trunk/sprocs/VENDORDETAIL_HIST.prc
+=======================================================================================================================================
+Revision: 9710
+
+Date: 11:49:09 AM, Tuesday, September 04, 2012
+Message:
+Bug 6325: The freeze_qty and act_phys_cnt fields in the ive_physical (ive-03) table are numeric, not character elements.
+----
+Modified : /trunk/data/bar/ive_count_entry.xml
+Modified : /trunk/data/cdf/ive_count_entry.cdf
+=======================================================================================================================================
+Revision: 9709
+
+Date: 3:45:33 PM, Friday, August 31, 2012
+Message:
+extensive changes to improve the query handling and the chart handling based on the large dataset provided by Dick Freilink. The previous version did not handle the layout of the charts when the number of salespeople was higher than about 6. Also improved the queries to run more quickly, added progress bars to show during the query processing.
+----
+Modified : /trunk/ar/src/arr_graphicSalesReport.aon
+=======================================================================================================================================
+Revision: 9708
+
+Date: 12:45:07 PM, Friday, August 31, 2012
+Message:
+Removed setting of the [HEADER] in the headings$ array if printing in customer sequence to fix bug 6259.
+----
+Modified : /trunk/ar/src/arr_ranking.aon
+=======================================================================================================================================
+Revision: 9707
+
+Date: 12:12:02 PM, Friday, August 31, 2012
+Message:
+Delete un-used ops_custdflt table. Table ars_custdflt is used instead.
+----
+Modified : /trunk/data/bar/arc_termcode.xml
+Deleted : /trunk/data/bar/ops_custdflt.xml
+=======================================================================================================================================
+Revision: 9706
+
+Date: 5:18:29 PM, Thursday, August 30, 2012
+Message:
+Bugs 6126 & 6273:Separated opc_msg_hdr (opm-04), opc_msg_det (opm-14), ars_mtdcash and ops_mtdsales processing from the Convert Masks checkbox logic.
+----
+Modified : /trunk/util/dataport/DataPort_main.bbj
+Modified : /trunk/util/dataport/files/file_xref
+=======================================================================================================================================
+Revision: 9705
+
+Date: 12:59:35 PM, Thursday, August 30, 2012
+Message:
+Correct totals to include retention amount and also correct headings to reflect retention as well to fix bug 5101.
+----
+Modified : /trunk/ap/src/apr_invoiceentry.aon
+=======================================================================================================================================
+Revision: 9704
+
+Date: 12:17:55 PM, Thursday, August 30, 2012
+Message:
+Resolve Bug 6124 - AR - Customer Detail Listing loops: 
+AO_CUST keys added to the five tables recommended by Query Analyzer. Addon Database Revisions spreadsheet updated.
+----
+Modified : /trunk/data/art-01
+Modified : /trunk/data/art-06
+Modified : /trunk/data/art-11
+Modified : /trunk/data/art-16
+Modified : /trunk/data/art-26
+Modified : /trunk/data/bar/art_cashdet.xml
+Modified : /trunk/data/bar/art_cashgl.xml
+Modified : /trunk/data/bar/art_cashhdr.xml
+Modified : /trunk/data/bar/art_invdet.xml
+Modified : /trunk/data/bar/art_invhdr.xml
+=======================================================================================================================================
+Revision: 9703
+
+Date: 10:22:57 PM, Wednesday, August 29, 2012
+Message:
+Create new drilldown for Work Order Commits in Item Warehouse form. Also force total Committed and total On Order to be the sum of the 2 fields above it.
+----
+Modified : /trunk/data/bar/ivm_itemwhse.xml
+Modified : /trunk/data/cdf/ivm_itemwhse.cdf
+Added : /trunk/data/sync/ddm_drill_defs~wo_qty_committed.xml
+=======================================================================================================================================
+Revision: 9702
+
+Date: 10:36:08 PM, Tuesday, August 28, 2012
+Message:
+Undid previous table change and changed the element to be left justified, right space filled to fix bug 6301.
+----
+Modified : /trunk/data/arm-08
+Modified : /trunk/data/bar/arm_custdet.xml
+Modified : /trunk/data/bar/arm_cyclecod.xml
+Modified : /trunk/data/bar/arr_statements.xml
+=======================================================================================================================================
+Revision: 9701
+
+Date: 10:20:22 PM, Tuesday, August 28, 2012
+Message:
+Change REQ_NO to be a lookup field into POE_REQHDR to fix bug 5751.
+----
+Modified : /trunk/data/bar/poe_podet.xml
+Modified : /trunk/data/bar/poe_pohdr.xml
+Modified : /trunk/data/bar/poe_qahdr.xml
+Modified : /trunk/data/bar/poe_rechdr.xml
+Modified : /trunk/data/bar/poe_reqdet.xml
+Modified : /trunk/data/bar/poe_reqhdr.xml
+Modified : /trunk/data/bar/poe_reqprint.xml
+Modified : /trunk/data/bar/por_openreqsn.xml
+Modified : /trunk/data/bar/por_reqbyitem.xml
+Modified : /trunk/data/bar/por_reqsnreg.xml
+Modified : /trunk/data/bar/pot_rechdr.xml
+Modified : /trunk/data/bar/pow_recbyshp.xml
+Modified : /trunk/data/bar/pow_reqbyitm.xml
+Modified : /trunk/data/bar/pow_reqbynam.xml
+Modified : /trunk/data/bar/pow_reqregalt.xml
+Modified : /trunk/data/bar/pow_reqregreq.xml
+Modified : /trunk/data/bar/pow_reqregven.xml
+=======================================================================================================================================
+Revision: 9699
+
+Date: 10:06:58 PM, Monday, August 27, 2012
+Message:
+Checkin of program to complete bug fix for 6283 and 6284.
+----
+Modified : /trunk/bm/src/bmr_invproduction.aon
+=======================================================================================================================================
+Revision: 9697
+
+Date: 4:53:10 PM, Monday, August 27, 2012
+Message:
+Bug 6148: Pad short character fields to length given in string template.
+----
+Modified : /trunk/util/dataport/DataPort_main.bbj
+=======================================================================================================================================
+Revision: 9696
+
+Date: 12:46:24 PM, Monday, August 27, 2012
+Message:
+Use Inventory parameter for Post to G/L to determine if the G/L Accounts should be entered and remove flag from BOM Parameter screen to fix bug 6313.
+----
+Modified : /trunk/data/bar/bms_params.xml
+Modified : /trunk/data/cdf/bms_params.cdf
+=======================================================================================================================================
+Revision: 9695
+
+Date: 10:42:45 PM, Friday, August 24, 2012
+Message:
+If report is empty, remove [HEADER] from headings$[3] and allow update to continue to fix bug 6314.
+----
+Modified : /trunk/gl/src/glr_recap.aon
+=======================================================================================================================================
+Revision: 9694
+
+Date: 10:29:43 PM, Friday, August 24, 2012
+Message:
+Remove field separators from cycle code table and form to fix bug 6301.
+----
+Modified : /trunk/data/arm-08
+Modified : /trunk/data/bar/arm_cyclecod.xml
+=======================================================================================================================================
+Revision: 9693
+
+Date: 2:08:03 PM, Thursday, August 23, 2012
+Message:
+Big refactor
+-form is now re-sizable
+-added a progress meter to show query progress
+-charts now support a variable number of salespersons or customer types
+-initial load is for the current period from GL financial calendar
+-slider labels are based on period ending dates
+-slider supports both 12 or 13 periods
+-queries are improved
+-removed legends from the thumbnails which became unusable when there was a large number of salespersons or customer types
+----
+Modified : /trunk/ar/digitalDashboard/arr_digitalDashboard.arc
+Modified : /trunk/ar/digitalDashboard/arr_digitalDashboard.gbf
+Modified : /trunk/ar/digitalDashboard/arr_digitalDashboard.src
+=======================================================================================================================================
+Revision: 9692
+
+Date: 1:33:42 PM, Thursday, August 23, 2012
+Message:
+Replaced READRECORDs with EXTRACTRECORDs where needed.
+----
+Modified : /trunk/sf/src/sfu_womatissu.aon
+=======================================================================================================================================
+Revision: 9691
+
+Date: 1:18:34 PM, Thursday, August 23, 2012
+Message:
+Replaced READRECORDs with EXTRACTRECORDs where needed.
+----
+Modified : /trunk/sf/src/sfr_timesheet.aon
+=======================================================================================================================================
+Revision: 9690
+
+Date: 12:49:56 PM, Thursday, August 23, 2012
+Message:
+Replaced READRECORDs with EXTRACTRECORDs where needed.
+----
+Modified : /trunk/data/bar/sfe_womatisd.xml
+Modified : /trunk/data/bar/sfe_womatish.xml
+Modified : /trunk/data/cdf/sfe_womatisd.cdf
+Modified : /trunk/data/cdf/sfe_womatish.cdf
+=======================================================================================================================================
+Revision: 9689
+
+Date: 11:34:46 AM, Thursday, August 23, 2012
+Message:
+Added more translations for possible blank codes in v6/v7.
+----
+Modified : /trunk/util/dataport/files/field_translations
+=======================================================================================================================================
+Revision: 9688
+
+Date: 11:31:53 AM, Thursday, August 23, 2012
+Message:
+A blank line is needed at the end of file in order to read last data line.
+----
 Modified : /trunk/util/dataport/files/new_field_defaults
-----
-Modified : /branches/BBJ1201GA/util/dataport/DataPort_main.bbj
-Modified : /branches/BBJ1201GA/util/dataport/files/field_file_xref
-Modified : /branches/BBJ1201GA/util/dataport/files/file_alias
-Modified : /branches/BBJ1201GA/util/dataport/files/file_xref
-Modified : /branches/BBJ1201GA/util/dataport/files/new_field_defaults
 =======================================================================================================================================
-Revision: 9643
+Revision: 9687
 
-Date: 2:39:39 PM, Monday, August 06, 2012
+Date: 11:29:31 AM, Thursday, August 23, 2012
 Message:
-Prop to branch -> Revision: 9607
-
-Date: Tuesday, July 31, 2012 12:07:36 PM
-Message:
-Bug 6286: Corrected typo in variable name.
+Added sym-04 and sym-49 to the list of v6/v7 files to skip.
 ----
-Modified : /trunk/iv/src/ivr_itemalt_o1.aon
-----
-Modified : /branches/BBJ1201GA/iv/src/ivr_itemalt_o1.aon
+Modified : /trunk/util/dataport/DataPort_main.bbj
 =======================================================================================================================================
-Revision: 9641
+Revision: 9686
 
-Date: 2:37:30 PM, Monday, August 06, 2012
+Date: 11:12:17 PM, Wednesday, August 22, 2012
 Message:
-Prop to branch -> Revision: 9605
-
-Date: Friday, July 27, 2012 1:36:59 PM
-Message:
-Ran Create Locale Props utility to sweep Addon and pick up any missing keys (lots of missing keys for Elements, plus catching Shop Floor)
+Removed the 4th column. It was sequence_00. Also removed Selected column. It has no use in the inquiry. Changed display for both the Vendor Codes and History and Drilldown to show the Balance of the invoices to fix bug 6263.
 ----
+Added : /trunk/ap/src/apd_openinvoices.aon
+Modified : /trunk/data/bar/apm_vendhist.xml
+Modified : /trunk/data/bar/apt_invoicehdr.xml
+Modified : /trunk/data/cdf/apm_vendhist.cdf
+Modified : /trunk/data/sync/ddm_drill_defs~ap_invoices.xml
+=======================================================================================================================================
+Revision: 9685
+
+Date: 10:28:16 PM, Wednesday, August 22, 2012
+Message:
+Corrected headings on the summary Sales Register report to fix bug 6305.
+----
+Modified : /trunk/op/src/opr_salesregister_o2.aon
+=======================================================================================================================================
+Revision: 9684
+
+Date: 10:47:57 PM, Tuesday, August 21, 2012
+Message:
+Added Warehouse selected to the header of the report to fix bug 6277.
+----
+Modified : /trunk/bm/src/bmr_indentedbill_o1.aon
+=======================================================================================================================================
+Revision: 9683
+
+Date: 10:37:50 PM, Tuesday, August 21, 2012
+Message:
+Process no longer errors out.
+----
+Modified : /trunk/data/bar/sfe_wo_cost_adj.xml
+Modified : /trunk/data/cdf/sfe_wo_cost_adj.cdf
+Modified : /trunk/sf/src/sfu_costadjust.aon
+=======================================================================================================================================
+Revision: 9682
+
+Date: 10:15:18 PM, Tuesday, August 21, 2012
+Message:
+Add proper records for batching Shop Floor Cost Adjustment.
+----
+Modified : /trunk/data/adm-09
+Modified : /trunk/data/adm-19
+Modified : /trunk/data/adm-39
+=======================================================================================================================================
+Revision: 9681
+
+Date: 10:56:41 PM, Monday, August 20, 2012
+Message:
+Get operation update to not error out. Work on subcontracts.
+----
+Modified : /trunk/data/bar/sfe_wo_opsadj.xml
+Modified : /trunk/data/bar/sfe_wo_subadj.xml
+Modified : /trunk/data/cdf/sfe_wo_opsadj.cdf
+Modified : /trunk/data/cdf/sfe_wo_subadj.cdf
+Modified : /trunk/sf/src/sfu_costadjust.aon
+=======================================================================================================================================
+Revision: 9680
+
+Date: 6:05:14 PM, Monday, August 20, 2012
+Message:
+Used BBjabber to localize Addon's jasper reports. Along the way, fixed some hard-wired report headings and used parameterized report name instead. Also changed the text formatted like "<---- Each ---->" in SF detail rpts to just be a shaded box containing the word.
+----
+Modified : /trunk/ap/src/apr_detail.aon
+Modified : /trunk/ar/src/arr_detail.aon
+Modified : /trunk/bm/src/bmr_costing.aon
+Modified : /trunk/bm/src/bmr_detail.aon
+Modified : /trunk/iv/src/ivr_itemdetail.aon
 Modified : /trunk/prop/addon.properties
 Modified : /trunk/prop/addon_de.properties
 Modified : /trunk/prop/addon_en.properties
@@ -163,268 +830,840 @@ Modified : /trunk/prop/addon_es_ES.properties
 Modified : /trunk/prop/addon_fr.properties
 Modified : /trunk/prop/addon_fr_CA.properties
 Modified : /trunk/prop/addon_it.properties
-----
-Modified : /branches/BBJ1201GA/prop/addon_de.properties
-Modified : /branches/BBJ1201GA/prop/addon_en_CA.properties
-Modified : /branches/BBJ1201GA/prop/addon_es_ES.properties
-Modified : /branches/BBJ1201GA/prop/addon_fr_CA.properties
-Modified : /branches/BBJ1201GA/prop/addon_it.properties
-=======================================================================================================================================
-Revision: 9639
-
-Date: 2:33:57 PM, Monday, August 06, 2012
-Message:
-Prop to branch -> Revision: 9594
-
-Date: Thursday, July 26, 2012 12:16:48 PM
-Message:
-Bug 6237: Copied firm 01 records in ADM_PROCMASTER (adm-09), ADM_PROCDETAIL (adm-19) and ADM_PROCTABLES (adm-39) to firm 02 and 99 records.
-----
-Modified : /trunk/data/adm-09
-Modified : /trunk/data/adm-19
-Modified : /trunk/data/adm-39
-----
-Modified : /branches/BBJ1201GA/data/adm-09
-Modified : /branches/BBJ1201GA/data/adm-19
-Modified : /branches/BBJ1201GA/data/adm-39
-=======================================================================================================================================
-Revision: 9637
-
-Date: 2:31:24 PM, Monday, August 06, 2012
-Message:
-Prop to branch -> Revision: 9593
-
-Date: Thursday, July 26, 2012 3:32:29 AM
-Message:
-Fix for Bug 6270 - Newline char in LABL, LABS or PROM attributes from resource bundle breaks building of resource files.
-----
-Modified : /trunk/prop/addon_es.properties
-Modified : /trunk/prop/addon_fr.properties
-----
-Modified : /branches/BBJ1201GA/prop/addon_es.properties
-Modified : /branches/BBJ1201GA/prop/addon_fr.properties
-=======================================================================================================================================
-Revision: 9635
-
-Date: 2:28:17 PM, Monday, August 06, 2012
-Message:
-Prop to branch -> Revision: 9592
-
-Date: Wednesday, July 25, 2012 5:48:51 PM
-Message:
-Bug 6237: Added adm-39 (adm_proctables) to the requiredFiles! vector in adc_copyaon.aon.
-----
-Modified : /trunk/ad/src/adc_copyaon.aon
-----
-Modified : /branches/BBJ1201GA/ad/src/adc_copyaon.aon
-=======================================================================================================================================
-Revision: 9633
-
-Date: 2:21:26 PM, Monday, August 06, 2012
-Message:
-Prop to branch -> Revision: 9589
-
-Date: Tuesday, July 24, 2012 12:22:08 PM
-Message:
-Per bug 6250; adding images to Addon's own file system so they don't get renamed out from under us again. Still need to alter corresponding programs/arcs to use these rather than the ones in barista/sys/images.
-----
-Added : /trunk/cust_images/im_menui_view.png
-Added : /trunk/cust_images/im_node_doc.png
-Added : /trunk/cust_images/im_tb_fst_m.png
-Added : /trunk/cust_images/im_tb_lst_m.png
-Added : /trunk/cust_images/im_tb_nxt_m.png
-Added : /trunk/cust_images/im_tb_prv_m.png
-----
-Added : /branches/BBJ1201GA/cust_images/im_menui_view.png
-Added : /branches/BBJ1201GA/cust_images/im_node_doc.png
-Added : /branches/BBJ1201GA/cust_images/im_tb_fst_m.png
-Added : /branches/BBJ1201GA/cust_images/im_tb_lst_m.png
-Added : /branches/BBJ1201GA/cust_images/im_tb_nxt_m.png
-Added : /branches/BBJ1201GA/cust_images/im_tb_prv_m.png
-=======================================================================================================================================
-Revision: 9631
-
-Date: 2:15:52 PM, Monday, August 06, 2012
-Message:
-Prop to branch -> Revision: 9584
-
-Date: Monday, July 23, 2012 4:40:48 PM
-Message:
-Per bug 6213; added startEdit so focus returns back to detail grid, and places user in edit mode. Also added ACTIVATE to setStatus so keyboard (ctl-S, F7, etc.) works.
-----
-Modified : /trunk/data/bar/ape_mancheckdet.xml
-Modified : /trunk/data/bar/ive_transdet.xml
-Modified : /trunk/data/cdf/ape_mancheckdet.cdf
-Modified : /trunk/data/cdf/ive_transdet.cdf
-----
-Modified : /branches/BBJ1201GA/data/bar/ape_mancheckdet.xml
-Modified : /branches/BBJ1201GA/data/bar/ive_transdet.xml
-Modified : /branches/BBJ1201GA/data/cdf/ape_mancheckdet.cdf
-Modified : /branches/BBJ1201GA/data/cdf/ive_transdet.cdf
-=======================================================================================================================================
-Revision: 9629
-
-Date: 2:07:26 PM, Monday, August 06, 2012
-Message:
-Prop to branch -> Revision: 9583
-
-Date: Monday, July 23, 2012 12:09:59 PM
-Message:
-Bug 6258: At the end of the AP Period End Update task added reminder to close 1099 year if it's not the same as the calendar year.
-----
-Modified : /trunk/ap/src/apu_period_end.aon
-Added : /trunk/data/sync/ads_messages~ap_1099_reminder.xml
-Modified : /trunk/prop/addon.properties
-Modified : /trunk/prop/addon_en.properties
-----
-Modified : /branches/BBJ1201GA/ap/src/apu_period_end.aon
-Added : /branches/BBJ1201GA/data/sync/ads_messages~ap_1099_reminder.xml
-Modified : /branches/BBJ1201GA/prop/addon.properties
-Modified : /branches/BBJ1201GA/prop/addon_en.properties
-=======================================================================================================================================
-Revision: 9627
-
-Date: 12:52:34 PM, Monday, August 06, 2012
-Message:
-Prop to branch -> Revision: 9575
-
-Date: Wednesday, July 18, 2012 11:04:44 AM
-Message:
-Augmented w/ instructions to run customer dflts form if porting from v6 (that table didn't exist in v6, but is expected to be in Barista version).
-----
-Modified : /trunk/util/dataport/files/DataPort Notes.txt
-----
-Modified : /branches/BBJ1201GA/util/dataport/files/DataPort Notes.txt
-=======================================================================================================================================
-Revision: 9625
-
-Date: 12:48:56 PM, Monday, August 06, 2012
-Message:
-Prop to branch -> Revision: 9557
-
-Date: Friday, July 13, 2012 12:21:52 PM
-Message:
-Parameter was being set to 1 instead of Y. Cleaned up logic in iReport to be clearer to fix bug 6243.
-----
-Modified : /trunk/ar/src/arr_detail.aon
+Modified : /trunk/reports/BOMComments.jasper
+Modified : /trunk/reports/BOMComments.jrxml
+Modified : /trunk/reports/BOMCosting.jasper
+Modified : /trunk/reports/BOMCosting.jrxml
+Modified : /trunk/reports/BOMDetail.jasper
+Modified : /trunk/reports/BOMDetail.jrxml
+Modified : /trunk/reports/BOMMatlDet.jasper
+Modified : /trunk/reports/BOMMatlDet.jrxml
+Modified : /trunk/reports/BOMOpDet.jasper
+Modified : /trunk/reports/BOMOpDet.jrxml
+Modified : /trunk/reports/BOMSubDet.jasper
+Modified : /trunk/reports/BOMSubDet.jrxml
+Modified : /trunk/reports/BOMTotal.jasper
+Modified : /trunk/reports/BOMTotal.jrxml
 Modified : /trunk/reports/CustDetail.jasper
 Modified : /trunk/reports/CustDetail.jrxml
 Modified : /trunk/reports/CustDetail_comments.jasper
-----
-Modified : /branches/BBJ1201GA/ar/src/arr_detail.aon
-Modified : /branches/BBJ1201GA/reports/CustDetail.jasper
-Modified : /branches/BBJ1201GA/reports/CustDetail.jrxml
-Modified : /branches/BBJ1201GA/reports/CustDetail_comments.jasper
-=======================================================================================================================================
-Revision: 9599
-
-Date: 3:43:11 PM, Thursday, July 26, 2012
-Message:
-additional mods to eliminate the problem caused by the dependency on the bbj demos directory, change all font references to Tahoma, and two images references to the cust_images directory
-----
-Modified : /branches/BBJ1201GA/ar/src/arr_graphicSalesReport.aon
-=======================================================================================================================================
-Revision: 9596
-
-Date: 3:38:26 PM, Thursday, July 26, 2012
-Message:
-additional images needed for the graphical sales report
-----
-Added : /branches/BBJ1201GA/cust_images/dialframe.png
-Added : /branches/BBJ1201GA/cust_images/gaugeframe.png
-=======================================================================================================================================
-Revision: 9588
-
-Date: 5:08:47 PM, Monday, July 23, 2012
-Message:
-extensive refactoring
-----
-Modified : /branches/BBJ1201GA/ar/src/arr_graphicSalesReport.aon
-=======================================================================================================================================
-Revision: 9587
-
-Date: 5:08:13 PM, Monday, July 23, 2012
-Message:
-images to support the graphic sales report
-----
-Added : /branches/BBJ1201GA/cust_images/areachart0.png
-Added : /branches/BBJ1201GA/cust_images/areachart1.png
-Added : /branches/BBJ1201GA/cust_images/barchart0.png
-Added : /branches/BBJ1201GA/cust_images/barchart1.png
-Added : /branches/BBJ1201GA/cust_images/dialchart0.png
-Added : /branches/BBJ1201GA/cust_images/dialchart1.png
-Added : /branches/BBJ1201GA/cust_images/gaugechart0.png
-Added : /branches/BBJ1201GA/cust_images/gaugechart1.png
-Added : /branches/BBJ1201GA/cust_images/im_tb_cal_f.png
-Added : /branches/BBJ1201GA/cust_images/linechart0.png
-Added : /branches/BBJ1201GA/cust_images/linechart1.png
-Added : /branches/BBJ1201GA/cust_images/piechart0.png
-Added : /branches/BBJ1201GA/cust_images/piechart1.png
-=======================================================================================================================================
-Revision: 9576
-
-Date: 11:13:25 AM, Wednesday, July 18, 2012
-Message:
-Prop to branch -> orig commit msgs:
-
-Revision: 9573
-
-Date: 5:45:50 PM, Tuesday, July 17, 2012
-Message:
-Adjust columns to be more forgiving with font differences in the Date columns. Forgot to actually widen the Date columns.
-----
-Modified : /trunk/reports/VendorDetail_invhdr.jrxml
----------------------------------------------------------
-Revision: 9570
-
-Date: 5:21:35 PM, Tuesday, July 17, 2012
-Message:
-Adjust columns to be more forgiving with font differences in the Date columns.
-----
-Modified : /trunk/reports/VendorDetail_invhdr.jasper
-Modified : /trunk/reports/VendorDetail_invhdr.jrxml
----------------------------------------------------------
-Revision: 9574
-
-Date: 5:52:07 PM, Tuesday, July 17, 2012
-Message:
-Adjust columns to be more forgiving with font differences in the Date columns in the detail.
-----
+Modified : /trunk/reports/CustDetail_comments.jrxml
+Modified : /trunk/reports/CustDetail_invdet.jasper
+Modified : /trunk/reports/CustDetail_invhdr.jasper
+Modified : /trunk/reports/CustDetail_invhdr.jrxml
+Modified : /trunk/reports/CustDetail_jobs.jasper
+Modified : /trunk/reports/CustDetail_jobs.jrxml
+Modified : /trunk/reports/CustDetail_shipto.jasper
+Modified : /trunk/reports/CustDetail_shipto.jrxml
+Modified : /trunk/reports/CustProfile.jasper
+Modified : /trunk/reports/CustProfile.jrxml
+Modified : /trunk/reports/ItemDetail.jasper
+Modified : /trunk/reports/ItemDetail.jrxml
+Modified : /trunk/reports/ItemDetail_comments.jasper
+Modified : /trunk/reports/ItemDetail_comments.jrxml
+Modified : /trunk/reports/ItemDetail_gl.jasper
+Modified : /trunk/reports/ItemDetail_gl.jrxml
+Modified : /trunk/reports/ItemDetail_syn.jasper
+Modified : /trunk/reports/ItemDetail_syn.jrxml
+Modified : /trunk/reports/ItemDetail_vend.jasper
+Modified : /trunk/reports/ItemDetail_vend.jrxml
+Modified : /trunk/reports/ItemDetail_whse.jasper
+Modified : /trunk/reports/ItemDetail_whse.jrxml
+Modified : /trunk/reports/POCalendar.jasper
+Modified : /trunk/reports/POCalendar.jrxml
+Modified : /trunk/reports/SFCalendar.jasper
+Modified : /trunk/reports/SFCalendar.jrxml
+Modified : /trunk/reports/SFHardCopy.jasper
+Modified : /trunk/reports/SFHardCopy.jrxml
+Modified : /trunk/reports/SFHardCopyClsdDet.jasper
+Modified : /trunk/reports/SFHardCopyClsdDet.jrxml
+Modified : /trunk/reports/SFHardCopyCmnts.jasper
+Modified : /trunk/reports/SFHardCopyCmnts.jrxml
+Modified : /trunk/reports/SFHardCopyCostSum.jasper
+Modified : /trunk/reports/SFHardCopyCostSum.jrxml
+Modified : /trunk/reports/SFHardCopyFGLS.jasper
+Modified : /trunk/reports/SFHardCopyFGLS.jrxml
+Modified : /trunk/reports/SFHardCopyMatStd.jasper
+Modified : /trunk/reports/SFHardCopyMatStd.jrxml
+Modified : /trunk/reports/SFHardCopyOpStd.jasper
+Modified : /trunk/reports/SFHardCopyOpStd.jrxml
+Modified : /trunk/reports/SFHardCopySubStd.jasper
+Modified : /trunk/reports/SFHardCopySubStd.jrxml
+Modified : /trunk/reports/SFHardCopyTrans.jasper
+Modified : /trunk/reports/SFHardCopyTrans.jrxml
+Modified : /trunk/reports/SalesByCustType.jasper
+Modified : /trunk/reports/SalesByCustType.jrxml
+Modified : /trunk/reports/SalesByCustomer.jasper
+Modified : /trunk/reports/SalesByCustomer.jrxml
+Modified : /trunk/reports/SalesCustTypeCust.jasper
+Modified : /trunk/reports/SalesCustTypeCust.jrxml
+Modified : /trunk/reports/SalesInvoiceDetails.jasper
+Modified : /trunk/reports/SalesInvoiceDetails.jrxml
+Modified : /trunk/reports/VendorDetail.jasper
+Modified : /trunk/reports/VendorDetail.jrxml
+Modified : /trunk/reports/VendorDetail_cmts.jasper
+Modified : /trunk/reports/VendorDetail_cmts.jrxml
+Modified : /trunk/reports/VendorDetail_hist.jasper
+Modified : /trunk/reports/VendorDetail_hist.jrxml
 Modified : /trunk/reports/VendorDetail_invdet.jasper
 Modified : /trunk/reports/VendorDetail_invdet.jrxml
-
-----
-Modified : /branches/BBJ1201GA/reports/VendorDetail_invdet.jasper
-Modified : /branches/BBJ1201GA/reports/VendorDetail_invdet.jrxml
-Modified : /branches/BBJ1201GA/reports/VendorDetail_invhdr.jasper
-Modified : /branches/BBJ1201GA/reports/VendorDetail_invhdr.jrxml
+Modified : /trunk/reports/VendorDetail_invhdr.jasper
+Modified : /trunk/reports/VendorDetail_invhdr.jrxml
+Modified : /trunk/reports/VendorDetail_mast_fax.jasper
+Modified : /trunk/reports/VendorDetail_mast_fax.jrxml
+Modified : /trunk/reports/VendorDetail_purch.jasper
+Modified : /trunk/reports/VendorDetail_purch.jrxml
+Modified : /trunk/reports/VendorDetail_replenish.jasper
+Modified : /trunk/reports/VendorDetail_replenish.jrxml
 =======================================================================================================================================
-Revision: 9566
+Revision: 9679
 
-Date: 5:43:50 PM, Monday, July 16, 2012
+Date: 11:46:47 AM, Monday, August 20, 2012
 Message:
-Prop to branch -> Revision: 9565
-
-Date: 5:39:04 PM, Monday, July 16, 2012
-Message:
-Per bug 6197; corrected image names on Exec Summary (note: also done in PO Calendar and SF Calendar)
+SF Materials Commitment Entry development complete. Ready for QA.
 ----
-Modified : /trunk/ad/arc/ads_execsummary.arc
-----
-Modified : /branches/BBJ1201GA/ad/arc/ads_execsummary.arc
+Modified : /trunk/data/bar/sfe_womatdtl.xml
+Modified : /trunk/data/bar/sfe_womathdr.xml
+Modified : /trunk/data/cdf/sfe_womatdtl.cdf
+Modified : /trunk/data/cdf/sfe_womathdr.cdf
+Added : /trunk/data/sync/ads_messages~sf_iss_exceeds_ord.xml
+Modified : /trunk/prop/addon.properties
+Modified : /trunk/prop/addon_de.properties
+Modified : /trunk/prop/addon_en.properties
+Modified : /trunk/prop/addon_en_CA.properties
+Modified : /trunk/prop/addon_es.properties
+Modified : /trunk/prop/addon_es_ES.properties
+Modified : /trunk/prop/addon_fr.properties
+Modified : /trunk/prop/addon_fr_CA.properties
+Modified : /trunk/prop/addon_it.properties
 =======================================================================================================================================
-Revision: 9563
+Revision: 9678
 
-Date: 4:46:34 PM, Monday, July 16, 2012
+Date: 10:54:22 PM, Friday, August 17, 2012
 Message:
-Prop to branch -> Revision: 9562
+Add the new Cost Adjust Update. More testing required.
+----
+Modified : /trunk/sf/src/sfr_costadjust_o1.aon
+Added : /trunk/sf/src/sfu_costadjust.aon
+=======================================================================================================================================
+Revision: 9677
 
-Date: 4:44:04 PM, Monday, July 16, 2012
+Date: 12:08:41 PM, Friday, August 17, 2012
 Message:
-Fixing button images - were renamed in Barista
+Add message for Cost Adjustments
 ----
-Modified : /trunk/po/arc/pom_calendar.arc
+Added : /trunk/data/sync/ads_messages~sf_adj_anotherbatch.xml
+Modified : /trunk/prop/addon.properties
+Modified : /trunk/prop/addon_en.properties
+=======================================================================================================================================
+Revision: 9676
 
+Date: 7:37:51 AM, Friday, August 17, 2012
+Message:
+SF Materials Commitment Entry development "in process" check in.
 ----
-Modified : /branches/BBJ1201GA/po/arc/pom_calendar.arc
+Modified : /trunk/data/bar/sfe_womatdtl.xml
+Modified : /trunk/data/bar/sfe_womathdr.xml
+Modified : /trunk/data/cdf/sfe_womatdtl.cdf
+Modified : /trunk/data/cdf/sfe_womathdr.cdf
+Added : /trunk/data/sync/ads_messages~sf_reprint_next_btch.xml
+Added : /trunk/data/sync/ads_messages~sf_reprint_pick_list.xml
+Added : /trunk/data/sync/ads_messages~wo_issues_in_process.xml
+Modified : /trunk/prop/addon.properties
+Modified : /trunk/prop/addon_de.properties
+Modified : /trunk/prop/addon_en.properties
+Modified : /trunk/prop/addon_en_CA.properties
+Modified : /trunk/prop/addon_es.properties
+Modified : /trunk/prop/addon_es_ES.properties
+Modified : /trunk/prop/addon_fr.properties
+Modified : /trunk/prop/addon_fr_CA.properties
+Modified : /trunk/prop/addon_it.properties
+=======================================================================================================================================
+Revision: 9675
+
+Date: 12:58:30 PM, Thursday, August 16, 2012
+Message:
+More work on the update.
+----
+Modified : /trunk/sf/src/sfr_costadjust.aon
+Modified : /trunk/sf/src/sfu_woadjustment.aon
+=======================================================================================================================================
+Revision: 9674
+
+Date: 10:52:33 PM, Wednesday, August 15, 2012
+Message:
+Get started on the Cost Adjust Update.
+----
+Modified : /trunk/sf/src/sfr_costadjust.aon
+Added : /trunk/sf/src/sfr_costadjust_o1.aon
+Modified : /trunk/sf/src/sfu_woadjustment.aon
+=======================================================================================================================================
+Revision: 9673
+
+Date: 9:27:10 AM, Wednesday, August 15, 2012
+Message:
+Use init_display_cols routine instead of duplicating code in BGDR callpoint.
+----
+Modified : /trunk/data/bar/sfe_womatisd.xml
+Modified : /trunk/data/cdf/sfe_womatisd.cdf
+=======================================================================================================================================
+Revision: 9672
+
+Date: 10:58:29 PM, Tuesday, August 14, 2012
+Message:
+Work on getting batching added to Cost Adjustment.
+----
+Modified : /trunk/data/bar/sfe_wo_cost_adj.xml
+Modified : /trunk/data/bar/sfe_wo_opsadj.xml
+Modified : /trunk/data/bar/sfe_wo_subadj.xml
+Modified : /trunk/data/bar/sfe_woopradj.xml
+Modified : /trunk/data/bar/sfe_wosubadj.xml
+Modified : /trunk/data/bar/sfw_adjxtype.xml
+Modified : /trunk/data/bar/sfw_costadjt.xml
+Modified : /trunk/data/cdf/sfe_wo_cost_adj.cdf
+Modified : /trunk/data/cdf/sfe_wo_opsadj.cdf
+Modified : /trunk/data/cdf/sfe_wo_subadj.cdf
+Modified : /trunk/data/sfe-12
+Modified : /trunk/data/sfe-42
+=======================================================================================================================================
+Revision: 9671
+
+Date: 11:59:13 AM, Monday, August 13, 2012
+Message:
+Using the original calculate standards routine for now. The new (SQL-based) calculation routine uses a public that's not yet checked in.
+----
+Modified : /trunk/sf/src/sfr_wovarrep_o1.aon
+=======================================================================================================================================
+Revision: 9670
+
+Date: 11:00:19 PM, Thursday, August 09, 2012
+Message:
+Get correct Employee Name and masked Number to show on the grid.
+----
+Modified : /trunk/data/bar/sfe_wo_cost_adj.xml
+Modified : /trunk/data/bar/sfe_wo_opsadj.xml
+Modified : /trunk/data/cdf/sfe_wo_cost_adj.cdf
+Modified : /trunk/data/cdf/sfe_wo_opsadj.cdf
+=======================================================================================================================================
+Revision: 9669
+
+Date: 1:37:51 PM, Thursday, August 09, 2012
+Message:
+Got the vectors working.
+----
+Modified : /trunk/data/bar/sfe_wo_opsadj.xml
+Modified : /trunk/data/bar/sfe_wo_subadj.xml
+Modified : /trunk/data/cdf/sfe_wo_opsadj.cdf
+Modified : /trunk/data/cdf/sfe_wo_subadj.cdf
+=======================================================================================================================================
+Revision: 9668
+
+Date: 12:54:55 PM, Thursday, August 09, 2012
+Message:
+Testing vectors.
+----
+Modified : /trunk/data/bar/sfe_wo_opsadj.xml
+Modified : /trunk/data/bar/sfe_wo_subadj.xml
+Modified : /trunk/data/cdf/sfe_wo_opsadj.cdf
+Modified : /trunk/data/cdf/sfe_wo_subadj.cdf
+=======================================================================================================================================
+Revision: 9667
+
+Date: 10:59:26 PM, Wednesday, August 08, 2012
+Message:
+Get dates and checkboxes working.
+----
+Modified : /trunk/data/bar/sfe_wo_opsadj.xml
+Modified : /trunk/data/bar/sfe_wo_subadj.xml
+Modified : /trunk/data/cdf/sfe_wo_opsadj.cdf
+Modified : /trunk/data/cdf/sfe_wo_subadj.cdf
+=======================================================================================================================================
+Revision: 9666
+
+Date: 8:12:24 AM, Wednesday, August 08, 2012
+Message:
+Work on checkboxes.
+----
+Modified : /trunk/data/bar/sfe_wo_opsadj.xml
+Modified : /trunk/data/bar/sfe_wo_subadj.xml
+Modified : /trunk/data/cdf/sfe_wo_opsadj.cdf
+Modified : /trunk/data/cdf/sfe_wo_subadj.cdf
+=======================================================================================================================================
+Revision: 9657
+
+Date: 1:52:06 PM, Tuesday, August 07, 2012
+Message:
+Add Shop Floor Cost Adjustment Entry.
+----
+Modified : /trunk/config/enu/addon.men
+=======================================================================================================================================
+Revision: 9656
+
+Date: 1:03:27 PM, Tuesday, August 07, 2012
+Message:
+Better on the colors and added Escape ability.
+----
+Modified : /trunk/data/bar/sfe_wo_opsadj.xml
+Modified : /trunk/data/bar/sfe_wo_subadj.xml
+Modified : /trunk/data/cdf/sfe_wo_opsadj.cdf
+Modified : /trunk/data/cdf/sfe_wo_subadj.cdf
+=======================================================================================================================================
+Revision: 9654
+
+Date: 12:11:44 PM, Tuesday, August 07, 2012
+Message:
+Add colors. Need more help.
+----
+Modified : /trunk/data/bar/sfe_wo_subadj.xml
+Modified : /trunk/data/cdf/sfe_wo_subadj.cdf
+=======================================================================================================================================
+Revision: 9653
+
+Date: 11:53:00 AM, Tuesday, August 07, 2012
+Message:
+Used BBJabber to localize the tasks--specifically looking for all-caps (WO, W.O., P.O., etc) missed in previous pass.
+----
+Modified : /trunk/prop/addon.properties
+Modified : /trunk/prop/addon_de.properties
+Modified : /trunk/prop/addon_en.properties
+Modified : /trunk/prop/addon_es.properties
+Modified : /trunk/prop/addon_fr.properties
+Modified : /trunk/prop/addon_it.properties
+Modified : /trunk/sf/src/sfr_clsdworeg.aon
+Modified : /trunk/sf/src/sfr_clsdwovar.aon
+Modified : /trunk/sf/src/sfr_clsdwovar_o1.aon
+Modified : /trunk/sf/src/sfr_clsrecworder.aon
+Modified : /trunk/sf/src/sfr_costadjust.aon
+Modified : /trunk/sf/src/sfr_labeffanarep_o1.aon
+Modified : /trunk/sf/src/sfr_prodexcep_o1.aon
+Modified : /trunk/sf/src/sfr_woadjustment.aon
+Modified : /trunk/sf/src/sfr_wordmat_o1.aon
+Modified : /trunk/sf/src/sfr_wotranshist.aon
+Modified : /trunk/sf/src/sfr_wotranshist_o1.aon
+Modified : /trunk/sf/src/sfr_wovarrep_o1.aon
+Modified : /trunk/sf/src/sfu_closeworeg.aon
+Modified : /trunk/sf/src/sfu_clsrecworder.aon
+Modified : /trunk/sf/src/sfu_woadjustment.aon
+Modified : /trunk/sf/src/sfx_woregister_o1.aon
+=======================================================================================================================================
+Revision: 9652
+
+Date: 11:27:34 AM, Tuesday, August 07, 2012
+Message:
+Add colors. Need more help.
+----
+Modified : /trunk/data/bar/sfe_wo_opsadj.xml
+Modified : /trunk/data/cdf/sfe_wo_opsadj.cdf
+=======================================================================================================================================
+Revision: 9651
+
+Date: 11:05:48 AM, Tuesday, August 07, 2012
+Message:
+Corrected mistake made when I used BBJabber to localize the tasks.
+----
+Modified : /trunk/sf/src/sfr_shpflrdsptch.aon
+=======================================================================================================================================
+Revision: 9650
+
+Date: 6:32:16 PM, Monday, August 06, 2012
+Message:
+Used BBJabber to localize the tasks.
+----
+Modified : /trunk/prop/addon.properties
+Modified : /trunk/prop/addon_de.properties
+Modified : /trunk/prop/addon_en.properties
+Modified : /trunk/prop/addon_es.properties
+Modified : /trunk/prop/addon_fr.properties
+Modified : /trunk/prop/addon_it.properties
+Modified : /trunk/sf/src/sfe_transhist.aon
+Modified : /trunk/sf/src/sfr_wohardcopy.aon
+Modified : /trunk/sf/src/sfr_wotranshist.aon
+Modified : /trunk/sf/src/sfr_wotranshist_o1.aon
+Modified : /trunk/sf/src/sfr_wotrav.aon
+Modified : /trunk/sf/src/sfr_wotrav_o1.aon
+Modified : /trunk/sf/src/sfr_wovarrep_o1.aon
+Modified : /trunk/sf/src/sfu_closeworeg.aon
+Modified : /trunk/sf/src/sfu_clsrecworder.aon
+Modified : /trunk/sf/src/sfu_woadjustment.aon
+Modified : /trunk/sf/src/sfx_upgrade800.aon
+Modified : /trunk/sf/src/sfx_woregister_o1.aon
+=======================================================================================================================================
+Revision: 9623
+
+Date: 12:02:05 PM, Monday, August 06, 2012
+Message:
+Used BBJabber to localize the tasks.
+----
+Modified : /trunk/prop/addon.properties
+Modified : /trunk/prop/addon_de.properties
+Modified : /trunk/prop/addon_en.properties
+Modified : /trunk/prop/addon_es.properties
+Modified : /trunk/prop/addon_fr.properties
+Modified : /trunk/prop/addon_it.properties
+Modified : /trunk/sf/src/sfr_clsdwovar.aon
+Modified : /trunk/sf/src/sfr_picklist_o1.aon
+Modified : /trunk/sf/src/sfr_prodexcep_o1.aon
+Modified : /trunk/sf/src/sfr_shpflrdsptch.aon
+Modified : /trunk/sf/src/sfr_shpflrdsptch_o1.aon
+Modified : /trunk/sf/src/sfr_timesheet_o1.aon
+Modified : /trunk/sf/src/sfr_woadjustment.aon
+Modified : /trunk/sf/src/sfr_wohardcopy.aon
+Modified : /trunk/sf/src/sfr_woheader_o1.aon
+Modified : /trunk/sf/src/sfr_womatissu.aon
+Modified : /trunk/sf/src/sfr_wordjobstat_o1.aon
+Modified : /trunk/sf/src/sfr_wordmat.aon
+Modified : /trunk/sf/src/sfr_wordmat_o1.aon
+=======================================================================================================================================
+Revision: 9622
+
+Date: 9:12:44 AM, Monday, August 06, 2012
+Message:
+Remove unused code.
+----
+Modified : /trunk/sf/src/sfr_wodetrpt.aon
+=======================================================================================================================================
+Revision: 9621
+
+Date: 11:00:43 PM, Friday, August 03, 2012
+Message:
+Make changes to make it easier to determine whether to write a record or not.
+----
+Modified : /trunk/data/bar/sfe_wo_opsadj.xml
+Modified : /trunk/data/cdf/sfe_wo_opsadj.cdf
+Modified : /trunk/sf/src/sfr_costadjust.aon
+=======================================================================================================================================
+Revision: 9620
+
+Date: 11:03:42 AM, Friday, August 03, 2012
+Message:
+Used BBJabber to localize the tasks.
+----
+Modified : /trunk/prop/addon.properties
+Modified : /trunk/prop/addon_de.properties
+Modified : /trunk/prop/addon_en.properties
+Modified : /trunk/prop/addon_es.properties
+Modified : /trunk/prop/addon_fr.properties
+Modified : /trunk/prop/addon_it.properties
+Modified : /trunk/sf/src/sfr_clsdworeg.aon
+Modified : /trunk/sf/src/sfr_clsdwovar.aon
+Modified : /trunk/sf/src/sfr_clsdwovar_o1.aon
+Modified : /trunk/sf/src/sfr_clsrecworder.aon
+Modified : /trunk/sf/src/sfr_costadjust.aon
+Modified : /trunk/sf/src/sfr_wovarrep_o1.aon
+=======================================================================================================================================
+Revision: 9619
+
+Date: 8:41:57 AM, Friday, August 03, 2012
+Message:
+SF Materials Commitment Entry development "in process" check in.
+----
+Modified : /trunk/data/bar/sfe_womatdtl.xml
+Modified : /trunk/data/bar/sfe_womathdr.xml
+=======================================================================================================================================
+Revision: 9618
+
+Date: 10:52:13 PM, Thursday, August 02, 2012
+Message:
+More tweaks to get closer to the end. Not there yet.
+----
+Modified : /trunk/data/bar/sfe_wo_opsadj.xml
+Modified : /trunk/data/bar/sfe_wo_subadj.xml
+Modified : /trunk/data/bar/sfe_woopradj.xml
+Modified : /trunk/data/cdf/sfe_wo_opsadj.cdf
+Modified : /trunk/data/cdf/sfe_wo_subadj.cdf
+Modified : /trunk/sf/src/sfr_costadjust.aon
+=======================================================================================================================================
+Revision: 9617
+
+Date: 4:55:09 PM, Thursday, August 02, 2012
+Message:
+Used BBJabber to localize the tasks.
+----
+Modified : /trunk/prop/addon.properties
+Modified : /trunk/prop/addon_de.properties
+Modified : /trunk/prop/addon_en.properties
+Modified : /trunk/prop/addon_es.properties
+Modified : /trunk/prop/addon_fr.properties
+Modified : /trunk/prop/addon_it.properties
+Modified : /trunk/sf/src/sfe_costsumm.aon
+Modified : /trunk/sf/src/sfe_transhist.aon
+Modified : /trunk/sf/src/sfm_calendar.aon
+Modified : /trunk/sf/src/sfr_botneckana_o1.aon
+Modified : /trunk/sf/src/sfr_breschwo.aon
+Modified : /trunk/sf/src/sfr_breschwo_o1.aon
+Modified : /trunk/sf/src/sfr_calendar.aon
+Modified : /trunk/sf/src/sfr_calendar_o1.aon
+Modified : /trunk/sf/src/sfr_clsdwodet.aon
+=======================================================================================================================================
+Revision: 9616
+
+Date: 4:09:00 PM, Thursday, August 02, 2012
+Message:
+Attached form to Shop Floor Control menu for Materials Commitment Entry task.
+----
+Modified : /trunk/config/deu/addon.men
+Modified : /trunk/config/enc/addon.men
+Modified : /trunk/config/enu/addon.men
+Modified : /trunk/config/esm/addon.men
+Modified : /trunk/config/esp/addon.men
+Modified : /trunk/config/fra/addon.men
+Modified : /trunk/config/frc/addon.men
+Modified : /trunk/config/ita/addon.men
+=======================================================================================================================================
+Revision: 9614
+
+Date: 10:58:53 AM, Thursday, August 02, 2012
+Message:
+Used BBJabber to localize the task.
+----
+Modified : /trunk/sf/src/sfe_jobstat.aon
+=======================================================================================================================================
+Revision: 9613
+
+Date: 1:13:53 PM, Wednesday, August 01, 2012
+Message:
+Working (kind of) version of the first of 2 reports.
+----
+Modified : /trunk/sf/src/sfr_costadjust.aon
+=======================================================================================================================================
+Revision: 9611
+
+Date: 10:43:42 AM, Wednesday, August 01, 2012
+Message:
+Bug 6287: Entered new_field_defaults for BATCH_NO everywhere it's used.
+----
+Modified : /trunk/util/dataport/files/new_field_defaults
+=======================================================================================================================================
+Revision: 9609
+
+Date: 12:58:24 PM, Tuesday, July 31, 2012
+Message:
+Add more Shop Floor menu items.
+----
+Modified : /trunk/config/enu/addon.men
+=======================================================================================================================================
+Revision: 9608
+
+Date: 12:56:38 PM, Tuesday, July 31, 2012
+Message:
+Initial commit of not completed adjustment register.
+----
+Added : /trunk/sf/src/sfr_costadjust.aon
+=======================================================================================================================================
+Revision: 9604
+
+Date: 11:04:14 AM, Friday, July 27, 2012
+Message:
+Tab character buried in a heading confused BBjabber.
+----
+Modified : /trunk/reports/SFHardCopyTrans.jasper
+Modified : /trunk/reports/SFHardCopyTrans.jrxml
+=======================================================================================================================================
+Revision: 9603
+
+Date: 10:59:35 AM, Friday, July 27, 2012
+Message:
+Changed name of addon.jar to addonprop.jar.
+----
+Modified : /trunk/build.xml
+=======================================================================================================================================
+Revision: 9602
+
+Date: 10:39:08 AM, Friday, July 27, 2012
+Message:
+Added apps/aon/prop/addon.jar which contains apps/aon/prop/*.properties.
+----
+Modified : /trunk/build.xml
+=======================================================================================================================================
+Revision: 9601
+
+Date: 10:05:48 AM, Friday, July 27, 2012
+Message:
+Closed WO Detail Report: WIP Commit   Values are still hard-coded in SPROC.
+----
+Modified : /trunk/ad/src/adx_build_sproc.aon
+Modified : /trunk/reports/SFHardCopy.jasper
+Modified : /trunk/reports/SFHardCopy.jrxml
+Modified : /trunk/reports/SFHardCopyClsdDet.jasper
+Modified : /trunk/reports/SFHardCopyClsdDet.jrxml
+Modified : /trunk/sprocs/SFHARDCOPY.prc
+Modified : /trunk/sprocs/SFHARDCOPYCLSDDET.prc
+=======================================================================================================================================
+Revision: 9600
+
+Date: 3:45:39 PM, Thursday, July 26, 2012
+Message:
+Removed programs that were replaced by sfr_clsdwodet.aon.
+----
+Deleted : /trunk/sf/src/sfr_clswodet.aon
+Deleted : /trunk/sf/src/sfr_clswodet_o1.aon
+=======================================================================================================================================
+Revision: 9595
+
+Date: 1:14:57 PM, Thursday, July 26, 2012
+Message:
+Closed WO Detail Report: WIP Commit    GL layout in place. Values are still hard-coded in SPROC.
+----
+Modified : /trunk/reports/SFHardCopy.jasper
+Modified : /trunk/reports/SFHardCopy.jrxml
+Modified : /trunk/reports/SFHardCopyClsdDet.jasper
+Modified : /trunk/reports/SFHardCopyClsdDet.jrxml
+=======================================================================================================================================
+Revision: 9591
+
+Date: 4:05:43 PM, Wednesday, July 25, 2012
+Message:
+SF Time Sheet Update development complete. Ready for QA.
+----
+Added : /trunk/data/sync/ads_messages~sf_gen_pr_entries.xml
+Added : /trunk/data/sync/ads_messages~sf_gen_pr_no.xml
+Added : /trunk/data/sync/ads_messages~sf_gen_pr_yes.xml
+Added : /trunk/data/sync/ads_messages~sf_max_empl_entry.xml
+Added : /trunk/data/sync/ads_messages~sf_pr_period_req.xml
+Modified : /trunk/prop/addon.properties
+Modified : /trunk/prop/addon_en.properties
+Modified : /trunk/sf/src/sfr_timesheet.aon
+Modified : /trunk/sf/src/sfr_timesheet_o1.aon
+Modified : /trunk/sf/src/sfu_timesheet.aon
+=======================================================================================================================================
+Revision: 9590
+
+Date: 8:27:06 AM, Wednesday, July 25, 2012
+Message:
+Turned batching off for WO Time Sheet Entry/Reg/Update.
+----
+Modified : /trunk/data/adm-09
+Modified : /trunk/data/adm-19
+Modified : /trunk/data/glm-06
+=======================================================================================================================================
+Revision: 9582
+
+Date: 10:45:55 AM, Saturday, July 21, 2012
+Message:
+Closed WO Detail Report: WIP Commit    Began work on GL.
+----
+Modified : /trunk/reports/SFHardCopyClsdDet.jasper
+Modified : /trunk/reports/SFHardCopyClsdDet.jrxml
+Modified : /trunk/sprocs/SFHARDCOPYCLSDDET.prc
+=======================================================================================================================================
+Revision: 9581
+
+Date: 9:38:17 AM, Saturday, July 21, 2012
+Message:
+Closed WO Detail Report: WIP Commit
+Removed passing of masked fields (other than GL, which is next up). The masking is now done in iReports.
+----
+Modified : /trunk/reports/SFHardCopyClsdDet.jasper
+Modified : /trunk/reports/SFHardCopyClsdDet.jrxml
+Modified : /trunk/sprocs/SFHARDCOPYCLSDDET.prc
+=======================================================================================================================================
+Revision: 9580
+
+Date: 1:19:22 PM, Friday, July 20, 2012
+Message:
+Getting ever closer...
+----
+Modified : /trunk/data/bar/sfe_wo_opsadj.xml
+Modified : /trunk/data/bar/sfe_wo_subadj.xml
+Modified : /trunk/data/cdf/sfe_wo_opsadj.cdf
+Modified : /trunk/data/cdf/sfe_wo_subadj.cdf
+=======================================================================================================================================
+Revision: 9579
+
+Date: 10:59:20 PM, Wednesday, July 18, 2012
+Message:
+Getting closer. Still some problems with the correct fields being updated in Ops Adjust Entry file.
+----
+Modified : /trunk/data/bar/sfe_wo_opsadj.xml
+Modified : /trunk/data/bar/sfe_wo_subadj.xml
+Modified : /trunk/data/cdf/sfe_wo_opsadj.cdf
+Modified : /trunk/data/cdf/sfe_wo_subadj.cdf
+=======================================================================================================================================
+Revision: 9578
+
+Date: 6:06:15 PM, Wednesday, July 18, 2012
+Message:
+Closed WO Detail Report: WIP Commit
+
+** Run adx_build_sproc.aon
+** SFHARDCOPYCLSDDET.prc uses HARD-CODED data this round
+----
+Modified : /trunk/ad/src/adx_build_sproc.aon
+Modified : /trunk/reports/SFHardCopy.jasper
+Modified : /trunk/reports/SFHardCopy.jrxml
+Modified : /trunk/reports/SFHardCopyClsdDet.jasper
+Modified : /trunk/reports/SFHardCopyClsdDet.jrxml
+Modified : /trunk/sf/src/sfr_clsdwodet.aon
+Modified : /trunk/sprocs/SFHARDCOPY.prc
+Modified : /trunk/sprocs/SFHARDCOPYCLSDDET.prc
+=======================================================================================================================================
+Revision: 9571
+
+Date: 5:41:08 PM, Tuesday, July 17, 2012
+Message:
+SF Time Sheet Register development complete. Ready for QA.
+----
+Modified : /trunk/prop/addon.properties
+Modified : /trunk/prop/addon_en.properties
+Modified : /trunk/sf/src/sfr_timesheet.aon
+Modified : /trunk/sf/src/sfr_timesheet_o1.aon
+=======================================================================================================================================
+Revision: 9569
+
+Date: 12:57:26 PM, Tuesday, July 17, 2012
+Message:
+Getting closer to getting proper focus after invalid entry.
+----
+Modified : /trunk/data/bar/sfe_wo_cost_adj.xml
+Modified : /trunk/data/bar/sfe_wo_opsadj.xml
+Modified : /trunk/data/cdf/sfe_wo_cost_adj.cdf
+Modified : /trunk/data/cdf/sfe_wo_opsadj.cdf
+=======================================================================================================================================
+Revision: 9568
+
+Date: 10:56:22 PM, Monday, July 16, 2012
+Message:
+Start working on the Operations Adjustments.
+----
+Modified : /trunk/data/bar/sfe_wo_cost_adj.xml
+Added : /trunk/data/bar/sfe_wo_opsadj.xml
+Modified : /trunk/data/bar/sfe_wo_subadj.xml
+Modified : /trunk/data/cdf/sfe_wo_cost_adj.cdf
+Added : /trunk/data/cdf/sfe_wo_opsadj.cdf
+Modified : /trunk/data/cdf/sfe_wo_subadj.cdf
+=======================================================================================================================================
+Revision: 9561
+
+Date: 1:22:00 PM, Monday, July 16, 2012
+Message:
+Correct various errors in the forward calculation section to fix bug 6236.
+----
+Modified : /trunk/sf/src/sfc_ophours.aon
+=======================================================================================================================================
+Revision: 9553
+
+Date: 1:29:57 PM, Wednesday, July 11, 2012
+Message:
+Correct closed WO issue.
+----
+Modified : /trunk/data/bar/sfe_wo_subadj.xml
+Modified : /trunk/data/cdf/sfe_wo_subadj.cdf
+=======================================================================================================================================
+Revision: 9551
+
+Date: 12:36:17 PM, Wednesday, July 11, 2012
+Message:
+Dates aren't working.
+----
+Modified : /trunk/data/bar/sfe_wo_subadj.xml
+Modified : /trunk/data/cdf/sfe_wo_subadj.cdf
+=======================================================================================================================================
+Revision: 9455
+
+Date: 10:59:18 PM, Monday, July 09, 2012
+Message:
+Get the next version of Cost Adjustment committed. Still not working, but closer.
+----
+Modified : /trunk/data/bar/sfe_wo_cost_adj.xml
+Added : /trunk/data/bar/sfe_wo_subadj.xml
+Modified : /trunk/data/cdf/sfe_wo_cost_adj.cdf
+Added : /trunk/data/cdf/sfe_wo_subadj.cdf
+=======================================================================================================================================
+Revision: 9450
+
+Date: 6:06:31 PM, Thursday, July 05, 2012
+Message:
+Prep for VAR demo; set min length 1 on item/bill#
+----
+Modified : /trunk/data/bar/sfe_womastr.xml
+=======================================================================================================================================
+Revision: 9449
+
+Date: 5:34:26 PM, Thursday, July 05, 2012
+Message:
+Prep for VAR Demo; changed component shortages grid to only highlight req'd/avail columns, not entire row. Fixed dispatch inquiry grid phantom checkbox.
+----
+Modified : /trunk/data/bar/sfe_dispatchinq.xml
+Modified : /trunk/data/bar/sfe_releasewo.xml
+Modified : /trunk/data/cdf/sfe_dispatchinq.cdf
+Modified : /trunk/data/cdf/sfe_releasewo.cdf
+=======================================================================================================================================
+Revision: 9448
+
+Date: 5:27:54 PM, Thursday, July 05, 2012
+Message:
+Added batched process files for WO Time Sheet Entry/Reg/Update.
+----
+Modified : /trunk/data/adm-39
+=======================================================================================================================================
+Revision: 9447
+
+Date: 5:26:38 PM, Thursday, July 05, 2012
+Message:
+Prep for VAR demo; hooking pick list up to menu
+----
+Modified : /trunk/config/enu/addon.men
+=======================================================================================================================================
+Revision: 9446
+
+Date: 5:19:06 PM, Thursday, July 05, 2012
+Message:
+Prep for VAR demo; fixed vcr buttons on SF Calendar (Barista image names have changed)
+----
+Modified : /trunk/sf/arc/sfm_calendar.arc
+=======================================================================================================================================
+Revision: 9445
+
+Date: 5:08:24 PM, Thursday, July 05, 2012
+Message:
+Fixed issues in here while prepping for VAR demo
+----
+Modified : /trunk/sf/src/sfr_womatissu.aon
+=======================================================================================================================================
+Revision: 9444
+
+Date: 2:20:33 PM, Thursday, July 05, 2012
+Message:
+SF - prepping for VAR demo; fixed issue where release WO form came up too small to see grid.
+----
+Modified : /trunk/data/bar/sfe_releasewo.xml
+Modified : /trunk/data/cdf/sfe_releasewo.cdf
+=======================================================================================================================================
+Revision: 9443
+
+Date: 2:07:50 PM, Thursday, July 05, 2012
+Message:
+SF - prepping for VAR demo; discovered separate stbl settings (x$=stbl("po",po$) in addition to setDevObject) were there for downstream O/E form/report where callpoint! object might be null.  Put the separate x$=stbl(..) code back. Also found missing end=*break in jobstat report.
+----
+Modified : /trunk/data/bar/sfe_womastr.xml
+Modified : /trunk/data/cdf/sfe_womastr.cdf
+Modified : /trunk/sf/src/sfe_jobstat.aon
+=======================================================================================================================================
+Revision: 9442
+
+Date: 1:49:26 PM, Thursday, July 05, 2012
+Message:
+SF WIP on lot/serial; setting up for auto-assign, but auto-assign not yet ready
+----
+Modified : /trunk/data/bar/sfe_wolotser.xml
+Modified : /trunk/data/cdf/sfe_wolotser.cdf
+Added : /trunk/data/sync/ads_messages~sf_too_many.xml
+=======================================================================================================================================
+Revision: 9441
+
+Date: 1:17:21 PM, Thursday, July 05, 2012
+Message:
+Bug 6227: Set "firm_loc_wo" devObject in AREA.
+----
+Modified : /trunk/data/bar/sfe_womatish.xml
+Modified : /trunk/data/cdf/sfe_womatish.cdf
+=======================================================================================================================================
+Revision: 9440
+
+Date: 11:50:48 AM, Thursday, July 05, 2012
+Message:
+Batch numbers for demo data need to be 0000000 instead of blank.
+----
+Modified : /trunk/data/sfe-15
+Modified : /trunk/data/sfe-25
 

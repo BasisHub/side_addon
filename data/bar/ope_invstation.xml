@@ -5,7 +5,6 @@
 		<RECORD id="ddm_tables.ope_invstation">
 			<DD_TABLE_ALIAS id="ddm_tables.ope_invstation">OPE_INVSTATION  </DD_TABLE_ALIAS>
 			<DD_ALIAS_DESC id="ddm_tables.ope_invstation">Invoice Entry POS Station</DD_ALIAS_DESC>
-			<DD_FILE_NAME id="ddm_tables.ope_invstation">ope_invstation.dat</DD_FILE_NAME>
 			<DD_TABLE_PATH id="ddm_tables.ope_invstation">[+OPDATA]</DD_TABLE_PATH>
 			<DD_ALIAS_TYPE id="ddm_tables.ope_invstation">P</DD_ALIAS_TYPE>
 			<DD_KEY_LENGTH id="ddm_tables.ope_invstation">0</DD_KEY_LENGTH>
@@ -20,9 +19,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.ope_invstation">1F90B9BE9348E14A70C41FC5C5A105FB</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ope_invstation">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ope_invstation">20090501</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ope_invstation">20091009</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ope_invstation">20120327</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ope_invstation">140926</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ope_invstation">20120627</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ope_invstation">20120627</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ope_invstation">122130</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ope_invstation">../apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.ope_invstation">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.ope_invstation">[+DIR_PGM]adx_dummy.aon</DD_ATTR_PRUN>
@@ -55,7 +54,6 @@
 		<ID id="ddm_table_tpls">DDM_TABLE_TPLS</ID>
 		<RECORD id="ddm_table_tpls.ope_invstation">
 			<DD_TABLE_ALIAS id="ddm_table_tpls.ope_invstation">OPE_INVSTATION  </DD_TABLE_ALIAS>
-			<DD_FILE_NAME id="ddm_table_tpls.ope_invstation">ope_invstation.dat</DD_FILE_NAME>
 			<DD_TABLE_TPL id="ddm_table_tpls.ope_invstation">def_station:c(16)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>

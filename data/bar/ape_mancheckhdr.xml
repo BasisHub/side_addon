@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.ape_mancheckhdr">A0B7B345EE56D927E09A408E6C1DFFC4</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.ape_mancheckhdr">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.ape_mancheckhdr">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.ape_mancheckhdr">20120130</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.ape_mancheckhdr">20120327</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.ape_mancheckhdr">140918</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.ape_mancheckhdr">20120920</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.ape_mancheckhdr">20120920</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.ape_mancheckhdr">164236</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.ape_mancheckhdr">/dev_addon/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_DKNM id="ddm_tables.ape_mancheckhdr">BATCH_KEY</DD_ATTR_DKNM>
 			<DD_ATTR_FTYP id="ddm_tables.ape_mancheckhdr">T</DD_ATTR_FTYP>
@@ -37,6 +37,14 @@
 		<RECORD id="ddm_table_cpro.ape_mancheckhdradis">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.ape_mancheckhdradis">APE_MANCHECKHDR </DD_TABLE_ALIAS>
 			<DD_ATTR_CPRO id="ddm_table_cpro.ape_mancheckhdradis">ADIS</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_table_cpro.ape_mancheckhdraopt-aven">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.ape_mancheckhdraopt-aven">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.ape_mancheckhdraopt-aven">AOPT-AVEN</DD_ATTR_CPRO>
+		</RECORD>
+		<RECORD id="ddm_table_cpro.ape_mancheckhdraopt-ochk">
+			<DD_TABLE_ALIAS id="ddm_table_cpro.ape_mancheckhdraopt-ochk">APE_MANCHECKHDR </DD_TABLE_ALIAS>
+			<DD_ATTR_CPRO id="ddm_table_cpro.ape_mancheckhdraopt-ochk">AOPT-OCHK</DD_ATTR_CPRO>
 		</RECORD>
 		<RECORD id="ddm_table_cpro.ape_mancheckhdraopt-vcmt">
 			<DD_TABLE_ALIAS id="ddm_table_cpro.ape_mancheckhdraopt-vcmt">APE_MANCHECKHDR </DD_TABLE_ALIAS>
@@ -256,7 +264,6 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.ape_mancheckhdr002">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CPGM id="ddm_table_cols.ape_mancheckhdr002">/dev_addon/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ape_mancheckhdr002">35</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH id="ddm_table_cols.ape_mancheckhdr002">0</DD_ATTR_CTLH>
 			<DD_ATTR_MINL id="ddm_table_cols.ape_mancheckhdr002">1</DD_ATTR_MINL>
 			<DD_ATTR_PROM id="ddm_table_cols.ape_mancheckhdr002">AP Type</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.ape_mancheckhdr002">3</DD_ATTR_TIND>
@@ -290,7 +297,6 @@
 			<DD_LSTREV_DATE id="ddm_table_cols.ape_mancheckhdr004">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CPGM id="ddm_table_cols.ape_mancheckhdr004">/dev_addon/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_CTLW id="ddm_table_cols.ape_mancheckhdr004">48</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH id="ddm_table_cols.ape_mancheckhdr004">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABL id="ddm_table_cols.ape_mancheckhdr004">Vendor</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_table_cols.ape_mancheckhdr004">Vendor Num</DD_ATTR_LABS>
 			<DD_ATTR_MINL id="ddm_table_cols.ape_mancheckhdr004">1</DD_ATTR_MINL>
@@ -373,10 +379,6 @@
 			<DD_CREATE_DATE id="ddm_table_cols.ape_mancheckhdr009">20090727</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.ape_mancheckhdr009">20090727</DD_LSTREV_DATE>
 			<DD_ATTR_COLW id="ddm_table_cols.ape_mancheckhdr009">0</DD_ATTR_COLW>
-			<DD_ATTR_CTLX id="ddm_table_cols.ape_mancheckhdr009">0</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY id="ddm_table_cols.ape_mancheckhdr009">0</DD_ATTR_CTLY>
-			<DD_ATTR_CTLW id="ddm_table_cols.ape_mancheckhdr009">0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH id="ddm_table_cols.ape_mancheckhdr009">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABL id="ddm_table_cols.ape_mancheckhdr009">Batch No</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_table_cols.ape_mancheckhdr009">Batch No</DD_ATTR_LABS>
 			<DD_ATTR_MLAN id="ddm_table_cols.ape_mancheckhdr009">N</DD_ATTR_MLAN>

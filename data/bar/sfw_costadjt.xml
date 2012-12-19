@@ -14,13 +14,13 @@
 			<DD_SYSTEM_REC id="ddm_tables.sfw_costadjt">N</DD_SYSTEM_REC>
 			<ASC_COMP_ID id="ddm_tables.sfw_costadjt">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_tables.sfw_costadjt">SF </ASC_PROD_ID>
-			<ASC_VERSION_ID id="ddm_tables.sfw_costadjt">12.0      </ASC_VERSION_ID>
+			<ASC_VERSION_ID id="ddm_tables.sfw_costadjt">12.0</ASC_VERSION_ID>
 			<ASC_LICENSE_ID id="ddm_tables.sfw_costadjt">8C2C5659EB59C3A5F6CFBA87421BEC65</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.sfw_costadjt">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.sfw_costadjt">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.sfw_costadjt">20120309</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.sfw_costadjt">20120327</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.sfw_costadjt">140930</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.sfw_costadjt">20120814</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.sfw_costadjt">20120814</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.sfw_costadjt">222320</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.sfw_costadjt">X</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.sfw_costadjt">zzzz</DD_ATTR_SLEV>
 			<DD_ATTR_WINT id="ddm_tables.sfw_costadjt">Work Order Cost Adj Register</DD_ATTR_WINT>
@@ -54,7 +54,7 @@
 		<RECORD id="ddm_table_tpls.sfw_costadjt">
 			<DD_TABLE_ALIAS id="ddm_table_tpls.sfw_costadjt">SFW_COSTADJT    </DD_TABLE_ALIAS>
 			<DD_FILE_NAME id="ddm_table_tpls.sfw_costadjt">sfw-08</DD_FILE_NAME>
-			<DD_TABLE_TPL id="ddm_table_tpls.sfw_costadjt">firm_id:c(2),wo_location:c(2),wo_no:c(7),trans_date:c(8),record_id:c(1),trans_seq:c(3*)</DD_TABLE_TPL>
+			<DD_TABLE_TPL id="ddm_table_tpls.sfw_costadjt">firm_id:c(2),wo_location:c(2),wo_no:c(7),trans_date:c(8),record_id:c(1),trans_seq:c(3*),batch_no:c(7)</DD_TABLE_TPL>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_keys">
@@ -64,6 +64,12 @@
 			<DD_KEY_NUMBER id="ddm_keys.sfw_costadjt00">00</DD_KEY_NUMBER>
 			<DD_KEY_DESC id="ddm_keys.sfw_costadjt00">Primary</DD_KEY_DESC>
 			<DD_KEY_ID id="ddm_keys.sfw_costadjt00">PRIMARY         </DD_KEY_ID>
+		</RECORD>
+		<RECORD id="ddm_keys.sfw_costadjt01">
+			<DD_TABLE_ALIAS id="ddm_keys.sfw_costadjt01">SFW_COSTADJT    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_keys.sfw_costadjt01">01</DD_KEY_NUMBER>
+			<DD_KEY_DESC id="ddm_keys.sfw_costadjt01">Batch Number</DD_KEY_DESC>
+			<DD_KEY_ID id="ddm_keys.sfw_costadjt01">BATCH_KEY       </DD_KEY_ID>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_key_segs">
@@ -121,6 +127,90 @@
 			<DD_SEGMENT_POS id="ddm_key_segs.sfw_costadjt0006">0</DD_SEGMENT_POS>
 			<DD_SEGMENT_OFF id="ddm_key_segs.sfw_costadjt0006">0</DD_SEGMENT_OFF>
 			<DD_SEGMENT_LEN id="ddm_key_segs.sfw_costadjt0006">0</DD_SEGMENT_LEN>
+		</RECORD>
+		<RECORD id="ddm_key_segs.sfw_costadjt0101">
+			<DD_TABLE_ALIAS id="ddm_key_segs.sfw_costadjt0101">SFW_COSTADJT    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.sfw_costadjt0101">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.sfw_costadjt0101">01</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.sfw_costadjt0101">FIRM_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.sfw_costadjt0101">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.sfw_costadjt0101">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.sfw_costadjt0101">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.sfw_costadjt0101">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.sfw_costadjt0101">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.sfw_costadjt0101">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.sfw_costadjt0102">
+			<DD_TABLE_ALIAS id="ddm_key_segs.sfw_costadjt0102">SFW_COSTADJT    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.sfw_costadjt0102">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.sfw_costadjt0102">02</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.sfw_costadjt0102">BATCH_NO</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.sfw_costadjt0102">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.sfw_costadjt0102">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.sfw_costadjt0102">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.sfw_costadjt0102">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.sfw_costadjt0102">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.sfw_costadjt0102">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.sfw_costadjt0103">
+			<DD_TABLE_ALIAS id="ddm_key_segs.sfw_costadjt0103">SFW_COSTADJT    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.sfw_costadjt0103">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.sfw_costadjt0103">03</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.sfw_costadjt0103">WO_LOCATION</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.sfw_costadjt0103">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.sfw_costadjt0103">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.sfw_costadjt0103">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.sfw_costadjt0103">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.sfw_costadjt0103">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.sfw_costadjt0103">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.sfw_costadjt0104">
+			<DD_TABLE_ALIAS id="ddm_key_segs.sfw_costadjt0104">SFW_COSTADJT    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.sfw_costadjt0104">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.sfw_costadjt0104">04</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.sfw_costadjt0104">WO_NO</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.sfw_costadjt0104">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.sfw_costadjt0104">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.sfw_costadjt0104">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.sfw_costadjt0104">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.sfw_costadjt0104">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.sfw_costadjt0104">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.sfw_costadjt0105">
+			<DD_TABLE_ALIAS id="ddm_key_segs.sfw_costadjt0105">SFW_COSTADJT    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.sfw_costadjt0105">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.sfw_costadjt0105">05</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.sfw_costadjt0105">TRANS_DATE</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.sfw_costadjt0105">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.sfw_costadjt0105">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.sfw_costadjt0105">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.sfw_costadjt0105">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.sfw_costadjt0105">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.sfw_costadjt0105">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.sfw_costadjt0106">
+			<DD_TABLE_ALIAS id="ddm_key_segs.sfw_costadjt0106">SFW_COSTADJT    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.sfw_costadjt0106">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.sfw_costadjt0106">06</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.sfw_costadjt0106">RECORD_ID</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.sfw_costadjt0106">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.sfw_costadjt0106">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.sfw_costadjt0106">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.sfw_costadjt0106">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.sfw_costadjt0106">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.sfw_costadjt0106">N</DD_SEGMENT_MATH>
+		</RECORD>
+		<RECORD id="ddm_key_segs.sfw_costadjt0107">
+			<DD_TABLE_ALIAS id="ddm_key_segs.sfw_costadjt0107">SFW_COSTADJT    </DD_TABLE_ALIAS>
+			<DD_KEY_NUMBER id="ddm_key_segs.sfw_costadjt0107">01</DD_KEY_NUMBER>
+			<DD_SEGMENT_SEQ id="ddm_key_segs.sfw_costadjt0107">07</DD_SEGMENT_SEQ>
+			<DD_SEGMENT_COL id="ddm_key_segs.sfw_costadjt0107">TRANS_SEQ</DD_SEGMENT_COL>
+			<DD_SEGMENT_POS id="ddm_key_segs.sfw_costadjt0107">0</DD_SEGMENT_POS>
+			<DD_SEGMENT_OFF id="ddm_key_segs.sfw_costadjt0107">0</DD_SEGMENT_OFF>
+			<DD_SEGMENT_LEN id="ddm_key_segs.sfw_costadjt0107">0</DD_SEGMENT_LEN>
+			<DD_SEGMENT_SORT id="ddm_key_segs.sfw_costadjt0107">N</DD_SEGMENT_SORT>
+			<DD_SEGMENT_UNIQ id="ddm_key_segs.sfw_costadjt0107">N</DD_SEGMENT_UNIQ>
+			<DD_SEGMENT_MATH id="ddm_key_segs.sfw_costadjt0107">N</DD_SEGMENT_MATH>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_cols">
@@ -209,7 +299,27 @@
 			<DD_ATTR_MINL id="ddm_table_cols.sfw_costadjt006">0</DD_ATTR_MINL>
 			<DD_ATTR_MAXL id="ddm_table_cols.sfw_costadjt006">0</DD_ATTR_MAXL>
 			<DD_ATTR_PROM id="ddm_table_cols.sfw_costadjt006">Transaction Sequence Number</DD_ATTR_PROM>
-			<SQL_COLUMN_NAME id="ddm_table_cols.sfw_costadjt006">SEQUENCE_REF</SQL_COLUMN_NAME>
+			<SQL_COLUMN_NAME id="ddm_table_cols.sfw_costadjt006">TRANS_SEQ</SQL_COLUMN_NAME>
+		</RECORD>
+		<RECORD id="ddm_table_cols.sfw_costadjt007">
+			<DD_TABLE_ALIAS id="ddm_table_cols.sfw_costadjt007">SFW_COSTADJT    </DD_TABLE_ALIAS>
+			<DD_SEQUENCE id="ddm_table_cols.sfw_costadjt007">007</DD_SEQUENCE>
+			<DD_DATA_NAME id="ddm_table_cols.sfw_costadjt007">BATCH_NO        </DD_DATA_NAME>
+			<DD_DVAR_NAME id="ddm_table_cols.sfw_costadjt007">BATCH_NO        </DD_DVAR_NAME>
+			<DD_COL_REPEATS id="ddm_table_cols.sfw_costadjt007">0</DD_COL_REPEATS>
+			<DD_COL_OCCURS id="ddm_table_cols.sfw_costadjt007">0</DD_COL_OCCURS>
+			<DD_FIELD_DELIM id="ddm_table_cols.sfw_costadjt007">N</DD_FIELD_DELIM>
+			<DD_DELIM_CHAR id="ddm_table_cols.sfw_costadjt007">0A</DD_DELIM_CHAR>
+			<DD_CREATE_DATE id="ddm_table_cols.sfw_costadjt007">20120814</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_table_cols.sfw_costadjt007">20120814</DD_LSTREV_DATE>
+			<DD_ATTR_COLW id="ddm_table_cols.sfw_costadjt007">0</DD_ATTR_COLW>
+			<DD_ATTR_CTLX id="ddm_table_cols.sfw_costadjt007">0</DD_ATTR_CTLX>
+			<DD_ATTR_CTLY id="ddm_table_cols.sfw_costadjt007">0</DD_ATTR_CTLY>
+			<DD_ATTR_CTLW id="ddm_table_cols.sfw_costadjt007">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.sfw_costadjt007">0</DD_ATTR_CTLH>
+			<DD_ATTR_MLAN id="ddm_table_cols.sfw_costadjt007">N</DD_ATTR_MLAN>
+			<DD_ATTR_MINL id="ddm_table_cols.sfw_costadjt007">0</DD_ATTR_MINL>
+			<DD_ATTR_MAXL id="ddm_table_cols.sfw_costadjt007">0</DD_ATTR_MAXL>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_column_opts">
@@ -356,6 +466,33 @@
 			<DD_ATTR_MAXR id="ddm_elements.sequence_ref">0</DD_ATTR_MAXR>
 			<DD_ATTR_MINL id="ddm_elements.sequence_ref">0</DD_ATTR_MINL>
 			<DD_ATTR_PREC id="ddm_elements.sequence_ref">0</DD_ATTR_PREC>
+		</RECORD>
+		<RECORD id="ddm_elements.batch_no">
+			<DD_DATA_NAME id="ddm_elements.batch_no">BATCH_NO        </DD_DATA_NAME>
+			<DD_DESCRIPTION id="ddm_elements.batch_no">Batch Entry Control Number</DD_DESCRIPTION>
+			<DD_DATA_TYPE id="ddm_elements.batch_no">C</DD_DATA_TYPE>
+			<DD_DATA_LENGTH id="ddm_elements.batch_no">7</DD_DATA_LENGTH>
+			<DD_MASK_TYPE id="ddm_elements.batch_no"> </DD_MASK_TYPE>
+			<ASC_COMP_ID id="ddm_elements.batch_no">01007514</ASC_COMP_ID>
+			<ASC_PROD_ID id="ddm_elements.batch_no">AD </ASC_PROD_ID>
+			<LOCALIZATION_EX id="ddm_elements.batch_no">N</LOCALIZATION_EX>
+			<DD_CREATE_DATE id="ddm_elements.batch_no">20060119</DD_CREATE_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.batch_no">20090714</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.batch_no">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.batch_no">0</DD_ATTR_CTLH>
+			<DD_ATTR_CTYP id="ddm_elements.batch_no">E</DD_ATTR_CTYP>
+			<DD_ATTR_DCOM id="ddm_elements.batch_no">            </DD_ATTR_DCOM>
+			<DD_ATTR_DEXP id="ddm_elements.batch_no">            </DD_ATTR_DEXP>
+			<DD_ATTR_LABL id="ddm_elements.batch_no">Batch Entry Control Number</DD_ATTR_LABL>
+			<DD_ATTR_LABS id="ddm_elements.batch_no">Batch Entry No</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.batch_no">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.batch_no">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.batch_no">0</DD_ATTR_MINL>
+			<DD_ATTR_MSKI id="ddm_elements.batch_no">0000000</DD_ATTR_MSKI>
+			<DD_ATTR_MSKO id="ddm_elements.batch_no">0000000</DD_ATTR_MSKO>
+			<DD_ATTR_PADC id="ddm_elements.batch_no">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.batch_no">R</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.batch_no">0</DD_ATTR_PREC>
 		</RECORD>
 	</ALIAS>
 </SFW_COSTADJT>

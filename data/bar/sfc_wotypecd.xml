@@ -18,9 +18,9 @@
 			<ASC_LICENSE_ID id="ddm_tables.sfc_wotypecd">1686552A101DB41E0552CCDE73CF1B9F</ASC_LICENSE_ID>
 			<DD_EXPORT_DATA id="ddm_tables.sfc_wotypecd">Y</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.sfc_wotypecd">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.sfc_wotypecd">20110919</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.sfc_wotypecd">20120327</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.sfc_wotypecd">140928</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.sfc_wotypecd">20120514</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.sfc_wotypecd">20120514</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.sfc_wotypecd">125104</DD_LSTSYNC_TIME>
 			<DD_ATTR_CPGM id="ddm_tables.sfc_wotypecd">/apps/aon/;</DD_ATTR_CPGM>
 			<DD_ATTR_FTYP id="ddm_tables.sfc_wotypecd">T</DD_ATTR_FTYP>
 			<DD_ATTR_SLEV id="ddm_tables.sfc_wotypecd">zzzz</DD_ATTR_SLEV>
@@ -97,6 +97,8 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.sfc_wotypecd001">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.sfc_wotypecd001">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfc_wotypecd001">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.sfc_wotypecd001">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.sfc_wotypecd001">0</DD_ATTR_CTLH>
 			<DD_ATTR_PROM id="ddm_table_cols.sfc_wotypecd001">Firm ID</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.sfc_wotypecd001">1</DD_ATTR_TIND>
 		</RECORD>
@@ -124,6 +126,8 @@
 			<DD_CREATE_DATE id="ddm_table_cols.sfc_wotypecd003">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfc_wotypecd003">20060119</DD_LSTREV_DATE>
 			<DD_ATTR_CTLX id="ddm_table_cols.sfc_wotypecd003">+6</DD_ATTR_CTLX>
+			<DD_ATTR_CTLW id="ddm_table_cols.sfc_wotypecd003">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.sfc_wotypecd003">0</DD_ATTR_CTLH>
 			<DD_ATTR_PROM id="ddm_table_cols.sfc_wotypecd003">Work Order Type</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.sfc_wotypecd003">3</DD_ATTR_TIND>
 		</RECORD>
@@ -182,6 +186,8 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.sfc_wotypecd007">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.sfc_wotypecd007">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfc_wotypecd007">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.sfc_wotypecd007">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.sfc_wotypecd007">0</DD_ATTR_CTLH>
 			<DD_ATTR_PROM id="ddm_table_cols.sfc_wotypecd007">Reserved For Addon Use</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.sfc_wotypecd007">16</DD_ATTR_TIND>
 		</RECORD>
@@ -211,6 +217,10 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.sfc_wotypecd009">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.sfc_wotypecd009">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfc_wotypecd009">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_ABLC id="ddm_table_cols.sfc_wotypecd009">SFC_WOTYPECD.WO_CATEGORY</DD_ATTR_ABLC>
+			<DD_ATTR_ABLV id="ddm_table_cols.sfc_wotypecd009">N;R</DD_ATTR_ABLV>
+			<DD_ATTR_CTLW id="ddm_table_cols.sfc_wotypecd009">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.sfc_wotypecd009">0</DD_ATTR_CTLH>
 			<DD_ATTR_PROM id="ddm_table_cols.sfc_wotypecd009">GL Close To Account</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.sfc_wotypecd009">8</DD_ATTR_TIND>
 		</RECORD>
@@ -269,6 +279,8 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.sfc_wotypecd013">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.sfc_wotypecd013">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfc_wotypecd013">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_ABLC id="ddm_table_cols.sfc_wotypecd013">SFC_WOTYPECD.WO_CATEGORY</DD_ATTR_ABLC>
+			<DD_ATTR_ABLV id="ddm_table_cols.sfc_wotypecd013">I;N</DD_ATTR_ABLV>
 			<DD_ATTR_CTLW id="ddm_table_cols.sfc_wotypecd013">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.sfc_wotypecd013">0</DD_ATTR_CTLH>
 			<DD_ATTR_PROM id="ddm_table_cols.sfc_wotypecd013">GL Dir Labor Variance Account</DD_ATTR_PROM>
@@ -284,6 +296,8 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.sfc_wotypecd014">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.sfc_wotypecd014">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfc_wotypecd014">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_ABLC id="ddm_table_cols.sfc_wotypecd014">SFC_WOTYPECD.WO_CATEGORY</DD_ATTR_ABLC>
+			<DD_ATTR_ABLV id="ddm_table_cols.sfc_wotypecd014">I;N</DD_ATTR_ABLV>
 			<DD_ATTR_CTLW id="ddm_table_cols.sfc_wotypecd014">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.sfc_wotypecd014">0</DD_ATTR_CTLH>
 			<DD_ATTR_PROM id="ddm_table_cols.sfc_wotypecd014">GL Ovhd Labor Variance Acct</DD_ATTR_PROM>
@@ -299,6 +313,8 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.sfc_wotypecd015">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.sfc_wotypecd015">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfc_wotypecd015">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_ABLC id="ddm_table_cols.sfc_wotypecd015">SFC_WOTYPECD.WO_CATEGORY</DD_ATTR_ABLC>
+			<DD_ATTR_ABLV id="ddm_table_cols.sfc_wotypecd015">I;N</DD_ATTR_ABLV>
 			<DD_ATTR_CTLW id="ddm_table_cols.sfc_wotypecd015">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_table_cols.sfc_wotypecd015">0</DD_ATTR_CTLH>
 			<DD_ATTR_PROM id="ddm_table_cols.sfc_wotypecd015">GL Material Variance Account</DD_ATTR_PROM>
@@ -314,6 +330,10 @@
 			<DD_FIELD_DELIM id="ddm_table_cols.sfc_wotypecd016">N</DD_FIELD_DELIM>
 			<DD_CREATE_DATE id="ddm_table_cols.sfc_wotypecd016">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfc_wotypecd016">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_ABLC id="ddm_table_cols.sfc_wotypecd016">SFC_WOTYPECD.WO_CATEGORY</DD_ATTR_ABLC>
+			<DD_ATTR_ABLV id="ddm_table_cols.sfc_wotypecd016">I;N</DD_ATTR_ABLV>
+			<DD_ATTR_CTLW id="ddm_table_cols.sfc_wotypecd016">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.sfc_wotypecd016">0</DD_ATTR_CTLH>
 			<DD_ATTR_PROM id="ddm_table_cols.sfc_wotypecd016">GL Subcontract Variance Acct</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.sfc_wotypecd016">15</DD_ATTR_TIND>
 		</RECORD>
@@ -328,6 +348,8 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.sfc_wotypecd017">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.sfc_wotypecd017">20060119</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfc_wotypecd017">20060119</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_table_cols.sfc_wotypecd017">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_table_cols.sfc_wotypecd017">0</DD_ATTR_CTLH>
 			<DD_ATTR_PROM id="ddm_table_cols.sfc_wotypecd017">Reserved For Addon Use</DD_ATTR_PROM>
 			<DD_ATTR_TIND id="ddm_table_cols.sfc_wotypecd017">17</DD_ATTR_TIND>
 		</RECORD>
@@ -589,16 +611,24 @@
 			<ASC_COMP_ID id="ddm_elements.gl_close_to">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_elements.gl_close_to">GL </ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.gl_close_to">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.gl_close_to">20061018</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.gl_close_to">20120514</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.gl_close_to">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.gl_close_to">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.gl_close_to">E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOL id="ddm_elements.gl_close_to">GL_ACCT_DESC    </DD_ATTR_DCOL>
+			<DD_ATTR_DCOL id="ddm_elements.gl_close_to">GL_ACCT_DESC</DD_ATTR_DCOL>
 			<DD_ATTR_DCOM id="ddm_elements.gl_close_to">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.gl_close_to">            </DD_ATTR_DEXP>
 			<DD_ATTR_DKEY id="ddm_elements.gl_close_to">[+FIRM_ID]+@</DD_ATTR_DKEY>
 			<DD_ATTR_DTAB id="ddm_elements.gl_close_to">GLM_ACCT        </DD_ATTR_DTAB>
 			<DD_ATTR_LABL id="ddm_elements.gl_close_to">Close To Account</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.gl_close_to">Close To Acct</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.gl_close_to">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.gl_close_to">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.gl_close_to">0</DD_ATTR_MINL>
 			<DD_ATTR_MSKI id="ddm_elements.gl_close_to">UUUUUUUUUU</DD_ATTR_MSKI>
+			<DD_ATTR_PADC id="ddm_elements.gl_close_to">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.gl_close_to">L</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.gl_close_to">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.gl_dir_lab">
 			<DD_DATA_NAME id="ddm_elements.gl_dir_lab">GL_DIR_LAB      </DD_DATA_NAME>
@@ -639,18 +669,25 @@
 			<ASC_COMP_ID id="ddm_elements.gl_ovh_lab">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_elements.gl_ovh_lab">GL </ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.gl_ovh_lab">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.gl_ovh_lab">20061018</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.gl_ovh_lab">20120514</DD_LSTREV_DATE>
+			<DD_ATTR_BLNK id="ddm_elements.gl_ovh_lab">N</DD_ATTR_BLNK>
 			<DD_ATTR_CTLW id="ddm_elements.gl_ovh_lab">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_elements.gl_ovh_lab">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.gl_ovh_lab">E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOL id="ddm_elements.gl_ovh_lab">GL_ACCT_DESC    </DD_ATTR_DCOL>
+			<DD_ATTR_DCOL id="ddm_elements.gl_ovh_lab">GL_ACCT_DESC</DD_ATTR_DCOL>
 			<DD_ATTR_DCOM id="ddm_elements.gl_ovh_lab">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.gl_ovh_lab">            </DD_ATTR_DEXP>
 			<DD_ATTR_DKEY id="ddm_elements.gl_ovh_lab">[+FIRM_ID]+@</DD_ATTR_DKEY>
 			<DD_ATTR_DTAB id="ddm_elements.gl_ovh_lab">GLM_ACCT        </DD_ATTR_DTAB>
 			<DD_ATTR_LABL id="ddm_elements.gl_ovh_lab">Overhead Labor Account</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.gl_ovh_lab">Ovrhd Lab Acct</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.gl_ovh_lab">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.gl_ovh_lab">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.gl_ovh_lab">0</DD_ATTR_MINL>
 			<DD_ATTR_MSKI id="ddm_elements.gl_ovh_lab">UUUUUUUUUU</DD_ATTR_MSKI>
+			<DD_ATTR_PADC id="ddm_elements.gl_ovh_lab">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.gl_ovh_lab">L</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.gl_ovh_lab">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.gl_pur_acct">
 			<DD_DATA_NAME id="ddm_elements.gl_pur_acct">GL_PUR_ACCT     </DD_DATA_NAME>
@@ -687,18 +724,24 @@
 			<ASC_COMP_ID id="ddm_elements.gl_lab_var">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_elements.gl_lab_var">GL </ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.gl_lab_var">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.gl_lab_var">20061018</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.gl_lab_var">20120514</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_elements.gl_lab_var">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_elements.gl_lab_var">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.gl_lab_var">E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOL id="ddm_elements.gl_lab_var">GL_ACCT_DESC    </DD_ATTR_DCOL>
+			<DD_ATTR_DCOL id="ddm_elements.gl_lab_var">GL_ACCT_DESC</DD_ATTR_DCOL>
 			<DD_ATTR_DCOM id="ddm_elements.gl_lab_var">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.gl_lab_var">            </DD_ATTR_DEXP>
 			<DD_ATTR_DKEY id="ddm_elements.gl_lab_var">[+FIRM_ID]+@</DD_ATTR_DKEY>
 			<DD_ATTR_DTAB id="ddm_elements.gl_lab_var">GLM_ACCT        </DD_ATTR_DTAB>
 			<DD_ATTR_LABL id="ddm_elements.gl_lab_var">Dir Labor Variance Account</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.gl_lab_var">Dir Lab Var Acct</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.gl_lab_var">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.gl_lab_var">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.gl_lab_var">0</DD_ATTR_MINL>
 			<DD_ATTR_MSKI id="ddm_elements.gl_lab_var">UUUUUUUUUU</DD_ATTR_MSKI>
+			<DD_ATTR_PADC id="ddm_elements.gl_lab_var">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.gl_lab_var">L</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.gl_lab_var">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.gl_ovh_var">
 			<DD_DATA_NAME id="ddm_elements.gl_ovh_var">GL_OVH_VAR      </DD_DATA_NAME>
@@ -739,18 +782,24 @@
 			<ASC_COMP_ID id="ddm_elements.gl_mat_var">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_elements.gl_mat_var">GL </ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.gl_mat_var">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.gl_mat_var">20061018</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.gl_mat_var">20120514</DD_LSTREV_DATE>
 			<DD_ATTR_CTLW id="ddm_elements.gl_mat_var">0</DD_ATTR_CTLW>
 			<DD_ATTR_CTLH id="ddm_elements.gl_mat_var">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.gl_mat_var">E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOL id="ddm_elements.gl_mat_var">GL_ACCT_DESC    </DD_ATTR_DCOL>
+			<DD_ATTR_DCOL id="ddm_elements.gl_mat_var">GL_ACCT_DESC</DD_ATTR_DCOL>
 			<DD_ATTR_DCOM id="ddm_elements.gl_mat_var">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.gl_mat_var">            </DD_ATTR_DEXP>
 			<DD_ATTR_DKEY id="ddm_elements.gl_mat_var">[+FIRM_ID]+@</DD_ATTR_DKEY>
 			<DD_ATTR_DTAB id="ddm_elements.gl_mat_var">GLM_ACCT        </DD_ATTR_DTAB>
 			<DD_ATTR_LABL id="ddm_elements.gl_mat_var">Material Variance Account</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.gl_mat_var">Mat Var Acct</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.gl_mat_var">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.gl_mat_var">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.gl_mat_var">0</DD_ATTR_MINL>
 			<DD_ATTR_MSKI id="ddm_elements.gl_mat_var">UUUUUUUUUU</DD_ATTR_MSKI>
+			<DD_ATTR_PADC id="ddm_elements.gl_mat_var">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.gl_mat_var">L</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.gl_mat_var">0</DD_ATTR_PREC>
 		</RECORD>
 		<RECORD id="ddm_elements.gl_sub_var">
 			<DD_DATA_NAME id="ddm_elements.gl_sub_var">GL_SUB_VAR      </DD_DATA_NAME>
@@ -762,16 +811,24 @@
 			<ASC_COMP_ID id="ddm_elements.gl_sub_var">01007514</ASC_COMP_ID>
 			<ASC_PROD_ID id="ddm_elements.gl_sub_var">GL </ASC_PROD_ID>
 			<DD_CREATE_DATE id="ddm_elements.gl_sub_var">20060119</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_elements.gl_sub_var">20061018</DD_LSTREV_DATE>
+			<DD_LSTREV_DATE id="ddm_elements.gl_sub_var">20120514</DD_LSTREV_DATE>
+			<DD_ATTR_CTLW id="ddm_elements.gl_sub_var">0</DD_ATTR_CTLW>
+			<DD_ATTR_CTLH id="ddm_elements.gl_sub_var">0</DD_ATTR_CTLH>
 			<DD_ATTR_CTYP id="ddm_elements.gl_sub_var">E</DD_ATTR_CTYP>
-			<DD_ATTR_DCOL id="ddm_elements.gl_sub_var">GL_ACCT_DESC    </DD_ATTR_DCOL>
+			<DD_ATTR_DCOL id="ddm_elements.gl_sub_var">GL_ACCT_DESC</DD_ATTR_DCOL>
 			<DD_ATTR_DCOM id="ddm_elements.gl_sub_var">            </DD_ATTR_DCOM>
 			<DD_ATTR_DEXP id="ddm_elements.gl_sub_var">            </DD_ATTR_DEXP>
 			<DD_ATTR_DKEY id="ddm_elements.gl_sub_var">[+FIRM_ID]+@</DD_ATTR_DKEY>
 			<DD_ATTR_DTAB id="ddm_elements.gl_sub_var">GLM_ACCT        </DD_ATTR_DTAB>
 			<DD_ATTR_LABL id="ddm_elements.gl_sub_var">Subcontract Variance Acct</DD_ATTR_LABL>
 			<DD_ATTR_LABS id="ddm_elements.gl_sub_var">Sub Var Acct</DD_ATTR_LABS>
+			<DD_ATTR_MAXL id="ddm_elements.gl_sub_var">0</DD_ATTR_MAXL>
+			<DD_ATTR_MAXR id="ddm_elements.gl_sub_var">0</DD_ATTR_MAXR>
+			<DD_ATTR_MINL id="ddm_elements.gl_sub_var">0</DD_ATTR_MINL>
 			<DD_ATTR_MSKI id="ddm_elements.gl_sub_var">UUUUUUUUUU</DD_ATTR_MSKI>
+			<DD_ATTR_PADC id="ddm_elements.gl_sub_var">30</DD_ATTR_PADC>
+			<DD_ATTR_PADJ id="ddm_elements.gl_sub_var">L</DD_ATTR_PADJ>
+			<DD_ATTR_PREC id="ddm_elements.gl_sub_var">0</DD_ATTR_PREC>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_element_ldat">
