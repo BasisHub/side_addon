@@ -1,9 +1,9 @@
 // Barista Application Framework - Application Synchronization File
 // Proprietary Information. BASIS International Ltd. All rights reserved.
 SYSID=ADDON
-SYSDESC=
+SYSDESC=AddonSoftware
 SYSCOMP=01007514;BASIS International Ltd.
-SYSCOPY=AddonSoftware by Barista^Copyright BASIS International Ltd.^All rights reserved.^Version 12.10 - [BUILD_DATE]^AddonSoftware is protected by copyright law and international treaties. Unauthorized reproduction or distribution may result in severe civil and criminal penalties.^
+SYSCOPY=AddonSoftware by Barista^Copyright BASIS International Ltd.^All rights reserved.^Version [VERSION_ID] - [BUILD_DATE]^AddonSoftware is protected by copyright law and international treaties. Unauthorized reproduction or distribution may result in severe civil and criminal penalties.^
 SYSPAR=
 SYSDIR=../apps/aon/
 SYSAPP=AD;AddonSoftware Administration;[+AON_IMAGES]addon_logo32.png;addonhelp.hs;addon;../apps/aon/prop/;DEU,ENC,ENU,ESM,ESP,FRA,FRC,ITA
@@ -93,7 +93,6 @@ SYSCFG=+PRDATA=../apps/aon/data/
 SYSCFG=+SADATA=../apps/aon/data/
 SYSCFG=+SFDATA=../apps/aon/data/
 SYSCFG=+SYDATA=../apps/aon/data/
-SYSCFG=+DIR_REPORTS=../apps/aon/reports/
 SYSLANG=DEU
 SYSLANG=ENC
 SYSLANG=ENU

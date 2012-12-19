@@ -18,12 +18,19 @@
 			<ASC_VERSION_ID id="ddm_tables.sfr_breschwo">12.0      </ASC_VERSION_ID>
 			<DD_EXPORT_DATA id="ddm_tables.sfr_breschwo">N</DD_EXPORT_DATA>
 			<DD_CREATE_DATE id="ddm_tables.sfr_breschwo">20080310</DD_CREATE_DATE>
-			<DD_LSTREV_DATE id="ddm_tables.sfr_breschwo">20100610</DD_LSTREV_DATE>
-			<DD_LSTSYNC_DATE id="ddm_tables.sfr_breschwo">20120327</DD_LSTSYNC_DATE>
-			<DD_LSTSYNC_TIME id="ddm_tables.sfr_breschwo">140930</DD_LSTSYNC_TIME>
+			<DD_LSTREV_DATE id="ddm_tables.sfr_breschwo">20121008</DD_LSTREV_DATE>
+			<DD_LSTSYNC_DATE id="ddm_tables.sfr_breschwo">20120404</DD_LSTSYNC_DATE>
+			<DD_LSTSYNC_TIME id="ddm_tables.sfr_breschwo">220528</DD_LSTSYNC_TIME>
 			<DD_ATTR_FTYP id="ddm_tables.sfr_breschwo">S</DD_ATTR_FTYP>
 			<DD_ATTR_PRUN id="ddm_tables.sfr_breschwo">[+DIR_PGM]sfr_breschwo.aon</DD_ATTR_PRUN>
 			<DD_ATTR_WINT id="ddm_tables.sfr_breschwo">Batch Reschedule Work Orders</DD_ATTR_WINT>
+		</RECORD>
+	</ALIAS>
+	<ALIAS id="ddm_table_opts">
+		<ID id="ddm_table_opts">DDM_TABLE_OPTS</ID>
+		<RECORD id="ddm_table_opts.sfr_breschwox">
+			<DD_TABLE_ALIAS id="ddm_table_opts.sfr_breschwox">SFR_BRESCHWO    </DD_TABLE_ALIAS>
+			<DD_ATTR_OPTS id="ddm_table_opts.sfr_breschwox">X</DD_ATTR_OPTS>
 		</RECORD>
 	</ALIAS>
 	<ALIAS id="ddm_table_tpls">
@@ -46,10 +53,6 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.sfr_breschwo001">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.sfr_breschwo001">20080310</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfr_breschwo001">20080310</DD_LSTREV_DATE>
-			<DD_ATTR_CTLX id="ddm_table_cols.sfr_breschwo001">0</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY id="ddm_table_cols.sfr_breschwo001">0</DD_ATTR_CTLY>
-			<DD_ATTR_CTLW id="ddm_table_cols.sfr_breschwo001">0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH id="ddm_table_cols.sfr_breschwo001">0</DD_ATTR_CTLH>
 			<DD_ATTR_LABL id="ddm_table_cols.sfr_breschwo001">Work Order No</DD_ATTR_LABL>
 			<DD_ATTR_MLAN id="ddm_table_cols.sfr_breschwo001">N</DD_ATTR_MLAN>
 			<DD_ATTR_TIND id="ddm_table_cols.sfr_breschwo001">1</DD_ATTR_TIND>
@@ -66,10 +69,6 @@
 			<DD_MASK_TYPE id="ddm_table_cols.sfr_breschwo002">0</DD_MASK_TYPE>
 			<DD_CREATE_DATE id="ddm_table_cols.sfr_breschwo002">20080310</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfr_breschwo002">20080310</DD_LSTREV_DATE>
-			<DD_ATTR_CTLX id="ddm_table_cols.sfr_breschwo002">0</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY id="ddm_table_cols.sfr_breschwo002">0</DD_ATTR_CTLY>
-			<DD_ATTR_CTLW id="ddm_table_cols.sfr_breschwo002">0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH id="ddm_table_cols.sfr_breschwo002">0</DD_ATTR_CTLH>
 			<DD_ATTR_DFLT id="ddm_table_cols.sfr_breschwo002">9</DD_ATTR_DFLT>
 			<DD_ATTR_MLAN id="ddm_table_cols.sfr_breschwo002">N</DD_ATTR_MLAN>
 			<DD_ATTR_PROM id="ddm_table_cols.sfr_breschwo002">Reschedule Priority 1 through 9</DD_ATTR_PROM>
@@ -86,10 +85,6 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.sfr_breschwo003">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.sfr_breschwo003">20080310</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfr_breschwo003">20080310</DD_LSTREV_DATE>
-			<DD_ATTR_CTLX id="ddm_table_cols.sfr_breschwo003">0</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY id="ddm_table_cols.sfr_breschwo003">0</DD_ATTR_CTLY>
-			<DD_ATTR_CTLW id="ddm_table_cols.sfr_breschwo003">0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH id="ddm_table_cols.sfr_breschwo003">0</DD_ATTR_CTLH>
 			<DD_ATTR_DFLT id="ddm_table_cols.sfr_breschwo003">Y</DD_ATTR_DFLT>
 			<DD_ATTR_MLAN id="ddm_table_cols.sfr_breschwo003">N</DD_ATTR_MLAN>
 			<DD_ATTR_TIND id="ddm_table_cols.sfr_breschwo003">3</DD_ATTR_TIND>
@@ -105,10 +100,6 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.sfr_breschwo004">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.sfr_breschwo004">20080310</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfr_breschwo004">20080310</DD_LSTREV_DATE>
-			<DD_ATTR_CTLX id="ddm_table_cols.sfr_breschwo004">0</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY id="ddm_table_cols.sfr_breschwo004">0</DD_ATTR_CTLY>
-			<DD_ATTR_CTLW id="ddm_table_cols.sfr_breschwo004">0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH id="ddm_table_cols.sfr_breschwo004">0</DD_ATTR_CTLH>
 			<DD_ATTR_DFLT id="ddm_table_cols.sfr_breschwo004">Y</DD_ATTR_DFLT>
 			<DD_ATTR_MLAN id="ddm_table_cols.sfr_breschwo004">N</DD_ATTR_MLAN>
 			<DD_ATTR_TIND id="ddm_table_cols.sfr_breschwo004">4</DD_ATTR_TIND>
@@ -124,10 +115,6 @@
 			<DD_DELIM_CHAR id="ddm_table_cols.sfr_breschwo005">0A</DD_DELIM_CHAR>
 			<DD_CREATE_DATE id="ddm_table_cols.sfr_breschwo005">20080310</DD_CREATE_DATE>
 			<DD_LSTREV_DATE id="ddm_table_cols.sfr_breschwo005">20080310</DD_LSTREV_DATE>
-			<DD_ATTR_CTLX id="ddm_table_cols.sfr_breschwo005">0</DD_ATTR_CTLX>
-			<DD_ATTR_CTLY id="ddm_table_cols.sfr_breschwo005">0</DD_ATTR_CTLY>
-			<DD_ATTR_CTLW id="ddm_table_cols.sfr_breschwo005">0</DD_ATTR_CTLW>
-			<DD_ATTR_CTLH id="ddm_table_cols.sfr_breschwo005">0</DD_ATTR_CTLH>
 			<DD_ATTR_DFLT id="ddm_table_cols.sfr_breschwo005">Y</DD_ATTR_DFLT>
 			<DD_ATTR_MLAN id="ddm_table_cols.sfr_breschwo005">N</DD_ATTR_MLAN>
 			<DD_ATTR_TIND id="ddm_table_cols.sfr_breschwo005">5</DD_ATTR_TIND>

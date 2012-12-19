@@ -1,4 +1,4 @@
-﻿Addon AD Additional (Hidden)^0000002990^M^^^im_menua_miscellaneous.png^^01007514^AD^^12.0^^Y
+﻿Addon AD Additional (Hidden)﻿^0000002990^M^^^im_menua_miscellaneous.png^^01007514^AD^^12.0^^Y
 	Process Batch Control^ADM_PROCBATCHES^T^ADM_PROCBATCHES^^im_menui_table.png^^01007514^AD^^12.0^^Y
 Addon AP Additional (Hidden)^0000002850^M^^^im_menua_miscellaneous.png^^01007514^AP^^12.0^^Y
 	Invoice Entry Default Date^APE_INVDATE^T^APE_INVDATE^^im_menui_table.png^^01007514^AP^^12.0^^Y
@@ -49,7 +49,7 @@ Addon SF Additional (Hidden)^0000002920^M^^^im_menua_miscellaneous.png^^01007514
 	Work Order Transaction History^SFE_TRANSHIST^T^SFE_TRANSHIST^^im_menui_table.png^^01007514^SF^^12.0^^Y
 	Work Order Copy^SFE_WOCOPY^T^SFE_WOCOPY^^im_menui_table.png^^01007514^SF^^12.0^^Y
 	Schedule Work Order^SFR_SCHEDWO^T^SFR_SCHEDWO^^im_menui_table.png^^01007514^SF^^12.0^^Y
-Comptes Créditeurs^APMENU^M^^^im_menua_accts_payable.png^N^01007514^AP^Accounts_Payable7^12.0^^
+Comptes Créditeurs^APMENU^M^^^im_menua_accts_payable.png^^01007514^AP^Accounts_Payable7^12.0^^
 	Saisie de Facture^APE_INVOICEHDR^T^APE_INVOICEHDR^^im_menui_table.png^N^01007514^AP^Invoice_Entry^12.0^^
 	Registre de Factures^APR_INVREG^A^^[+DIR_PGM]apr_invoiceentry.aon^im_menui_report.png^N^01007514^AP^Invoice_Register14^12.0^^
 	Saisie de Sélection de Paiement^APE_PAYSELECT^T^APE_PAYSELECT^^im_menui_table.png^^01007514^AP^Payment_Selection^12.0^^
@@ -72,7 +72,7 @@ Comptes Créditeurs^APMENU^M^^^im_menua_accts_payable.png^N^01007514^AP^Accounts
 		Rapport de Vérification Mensuelle^APR_CHECKREPORT^T^APR_CHECKREPORT^^im_menui_report.png^N^01007514^AP^Monthly_Check_Report^12.0^^
 		Mise à Jour Périodique^APU_PERIODEND^A^^[+DIR_PGM]apu_period_end.aon^im_menui_update.png^N^01007514^AP^AP_Period_End_Update^12.0^^
 		Export Données de 1099 Vers un Fichier Texte^APX_EXPORT1099^T^APX_EXPORT1099^^im_menui_utility.png^N^01007514^AP^Export_1099_Data_to_Text^12.0^^
-		Fermeture Formulaire 1099 de l'Année^APU_CLOSE1099^A^APU_CLOSE1099^[+DIR_PGM]apu_close1099.aon^im_menui_update.png^N^01007514^AP^Close_Form_1099_Year7^12.0^^
+		Fermeture Formulaire 1099 de l'Année^APU_CLOSE1099^A^^[+DIR_PGM]apu_close1099.aon^im_menui_update.png^^01007514^AP^Close_Form_1099_Year^12.0^^
 	Suivi^APMENU_MAINT^G^^^im_menua_miscellaneous.png^N^01007514^AP^AP_Maintenance_Main_Menu^12.0^^
 		Vendeurs^APM_VENDMAST^T^APM_VENDMAST^^im_menui_table.png^N^01007514^AP^Vendor_Maintenance^12.0^^
 		Types de Comptes Créditeurs^APC_TYPECODE^T^APC_TYPECODE^^im_menui_table.png^N^01007514^AP^Accounts_Payable_Type_Code_Maintenance^12.0^^
@@ -103,7 +103,7 @@ Comptes Débiteurs^ARMENU^M^^^im_menua_accts_receivable.png^N^01007514^AR^Accoun
 		Fiches de Comptes du Client^ARR_LEDGERS^T^ARR_LEDGERS^^im_menui_report.png^N^01007514^AR^Customer_Ledger_Cards^12.0^^
 		Rapport Graphique des Ventes par Commercial^ARR_GRPHSLSREP^A^^arr_graphicSalesReport.aon^im_menui_view.png^^01007514^AR^^12.0^^
 		Tableau de Bord Numérique des Ventes^ARR_DIGTLDSHBRD^A^^arr_digitalDashboard.src^im_menui_view.png^^01007514^AR^^12.0^^
-		Rapport de Ventes Précis par Type de Client^ARR_DRLLDWNSLSREP^A^^arr_runDrillDownReport.aon^im_menui_table.png^^01007514^AR^^12.0^^
+		Rapport de Ventes Précis par Type de Client^ARR_DRLLDOWN^T^ARR_DRLLDOWN^^im_menui_report.png^^01007514^AR^^12.0^^
 	Traitement Périodique^ARMENU_PEND^G^^^im_node_col.png^N^01007514^AR^aroperations_ar_period_end_processing_htm^12.0^^
 		Rapport de Ventilation Chronologique^ARR_AGINGREPORTPE^T^ARR_AGINGREPORT^^im_menui_report.png^N^01007514^AR^AR_Aging_Report^12.0^^
 		Génération des Frais Financiers^ARU_FINANCECHARG^T^ARU_FINANCECHARG^^im_menui_update.png^N^01007514^AR^Generate_Finance_Charges7^12.0^^
@@ -126,7 +126,7 @@ Comptes Débiteurs^ARMENU^M^^^im_menua_accts_receivable.png^N^01007514^AR^Accoun
 		Codes de Prix de Vente Client^OPC_PRICECDSAR^T^OPC_PRICECDS^^im_menui_table.png^^01007514^AR^Customer_Price_Code_Maintenance12^12.0^^
 		Codes de Réductions^OPC_DISCCODEAR^T^OPC_DISCCODE^^im_menui_table.png^N^01007514^AR^Sale_Discount_Code_Maintenance13^12.0^^
 		Codes de Recettes^ARC_CASHCODE^T^ARC_CASHCODE^^im_menui_table.png^N^01007514^AR^Cash_Receipts_Code_Maintenance7^12.0^^
-		Codes de Cycle^ARM_CYCLECOD^T^ARM_CYCLECOD^^im_menui_table.png^N^01007514^AR^Cycle_Codes_Maintenance^12.0^^
+		Codes de Cycle^ARM_CYCLECOD^T^ARM_CYCLECOD^^im_menui_table.png^^01007514^AR^Cycle_Codes_Maintenance1^12.0^^
 		Paramètres^ARMENU_PARAMS^G^^^im_node_col.png^N^01007514^AR^AR_Parameter_Maintenance_Main_Menu^12.0^^
 			Paramètres de l'Application^ARS_PARAMS^T^ARS_PARAMS^^im_menui_parameter.png^N^01007514^AR^Application_Parameters1^12.0^^
 			Paramètres du Rapport^ARS_REPORT^T^ARS_REPORT^^im_menui_parameter.png^N^01007514^AR^Report_Parameters15^12.0^^
@@ -137,27 +137,27 @@ Comptes Débiteurs^ARMENU^M^^^im_menua_accts_receivable.png^N^01007514^AR^Accoun
 		Conversion de Registre de Facture^ARR_CONVREGISTER^A^^[+DIR_PGM]arr_cnvinv.aon^im_menui_report.png^N^01007514^AR^Conversion_Invoice_Register7^12.0^^
 		Saisie de Modification de Date de Facture^ARE_DATECHANGE^T^ARE_DATECHANGE^^im_menui_table.png^N^01007514^AR^Invoice_Date_Modification_Entry7^12.0^^
 		Registre de Modification de Date de Facture^ARR_DATEREGISTER^A^ARR_DATEREGISTER^[+DIR_PGM]arr_dateregister.aon^im_menui_report.png^N^01007514^AR^Invoice_Date_Modification_Register7^12.0^^
-Nomenclature^BMMENU^M^^^im_menua_bill_of_materials.png^N^01007514^BM^^12.0^^
-	Saisie Inventaire de Production^BME_PRODUCT^T^BME_PRODUCT^bme_aa.aon^im_menui_table.png^^01007514^BM^^12.0^^
-	Registre Inventaire de Production^BMR_HA^A^^bmr_invproduction.aon^im_menui_report.png^^01007514^BM^^12.0^^
-	Saisie Commande de Production^BME_ORDER^T^BME_ORDER^bme_ba.aon^im_menui_table.png^^01007514^BM^^12.0^^
-	Registre de Commandes de Production^BMR_ORDPRODUCTION^A^^bmr_ordproduction.aon^im_menui_report.png^^01007514^BM^^12.0^^
+Nomenclature^BMMENU^M^^^im_menua_bill_of_materials.png^^01007514^BM^Bill_of_Materials_Main_Menu^12.0^^
+	Saisie Inventaire de Production^BME_PRODUCT^T^BME_PRODUCT^bme_aa.aon^im_menui_table.png^^01007514^BM^Inventory_Production_Entry^12.0^^
+	Registre Inventaire de Production^BMR_HA^A^^bmr_invproduction.aon^im_menui_report.png^^01007514^BM^Inventory_Production_Register^12.0^^
+	Saisie Commande de Production^BME_ORDER^T^BME_ORDER^bme_ba.aon^im_menui_table.png^^01007514^BM^Order_Production_Entry^12.0^^
+	Registre de Commandes de Production^BMR_ORDPRODUCTION^A^^bmr_ordproduction.aon^im_menui_report.png^^01007514^BM^Order_Production_Register^12.0^^
 	Rapports^BMMENU_REPORTS^G^^^im_node_col.png^Y^01007514^BM^^12.0^^
-		Liste des Emballages^BMR_PACKINGLIST^T^BMR_PACKINGLIST^bmr_packinglist.aon^im_menui_report.png^^01007514^BM^BMR_PACKINGLIST^12.0^^
-		Liste des Matériaux Utilisés^BMR_MATERIALUSED^T^BMR_MATERIALUSED^bmr_ba.aon^im_menui_report.png^^01007514^BM^^12.0^^
-		Liste Opérations Suivies^BMR_OPLIST^T^BMR_OPLIST^bmr_da.aon^im_menui_report.png^^01007514^BM^^12.0^^
-		Nomenclature Matériaux Indentés^BMR_INDENTEDBILL^T^BMR_INDENTEDBILL^bmr_za.aon^im_menui_report.png^^01007514^BM^^12.0^^
-		Liste des Données de Nomenclature^BMR_DETAILLIST^T^BMR_DETAILLIST^bmr_aa.aon^im_menui_report.png^^01007514^BM^^12.0^^
-		Rapport de l'Etablissement de Coût des Nomenclatures^BMR_COSTING^T^BMR_COSTING^bmr_fa.aon^im_menui_report.png^^01007514^BM^^12.0^^
+		Liste des Emballages^BMR_PACKINGLIST^T^BMR_PACKINGLIST^bmr_packinglist.aon^im_menui_report.png^^01007514^BM^Packing_List^12.0^^
+		Liste des Matériaux Utilisés^BMR_MATERIALUSED^T^BMR_MATERIALUSED^bmr_ba.aon^im_menui_report.png^^01007514^BM^Material_Where_Used_Listing^12.0^^
+		Liste Opérations Suivies^BMR_OPLIST^T^BMR_OPLIST^bmr_da.aon^im_menui_report.png^^01007514^BM^Operations_Where_Used_Listing^12.0^^
+		Nomenclature Matériaux Indentés^BMR_INDENTEDBILL^T^BMR_INDENTEDBILL^bmr_za.aon^im_menui_report.png^^01007514^BM^Bill_of_Materials_Indented_Bills_Report^12.0^^
+		Liste des Données de Nomenclature^BMR_DETAILLIST^T^BMR_DETAILLIST^bmr_aa.aon^im_menui_report.png^^01007514^BM^Bill_of_Materials_Detail_Listing^12.0^^
+		Rapport de l'Etablissement de Coût des Nomenclatures^BMR_COSTING^T^BMR_COSTING^bmr_fa.aon^im_menui_report.png^^01007514^BM^BOM_Costing_Report^12.0^^
 	Suivi^BMMENU_MAINT^G^^^im_node_col.png^Y^01007514^BM^^12.0^^
-		Fiches de Nomenclature^BMM_BILLMAST^T^BMM_BILLMAST^^im_menui_table.png^N^01007514^BM^^12.0^^
-		Mise à Jour de l'Etablissment de Coût de l'Inventaires de Nomenclature^BMU_IVCOSTING^T^BMU_IVCOSTING^^im_menui_update.png^^01007514^BM^^12.0^^
-		Codes d'Opération^BMC_OPCODES^T^BMC_OPCODES^^im_menui_table.png^N^01007514^BM^^12.0^^
-		Remplacement Composant d'Article^BMU_COMPREPLACE^T^BMU_COMPREPLACE^bmu_compreplace.aon^im_menui_update.png^^01007514^BM^^12.0^^
+		Fiches de Nomenclature^BMM_BILLMAST^T^BMM_BILLMAST^^im_menui_table.png^^01007514^BM^Bill_of_Materials_Masters_Maintenance^12.0^^
+		Mise à Jour de l'Etablissment de Coût de l'Inventaires de Nomenclature^BMU_IVCOSTING^T^BMU_IVCOSTING^^im_menui_update.png^^01007514^BM^Bill_of_Materials_Inventory_Costing_Update^12.0^^
+		Codes d'Opération^BMC_OPCODES^T^BMC_OPCODES^^im_menui_table.png^^01007514^BM^Operation_Code_Maintenance^12.0^^
+		Remplacement Composant d'Article^BMU_COMPREPLACE^T^BMU_COMPREPLACE^bmu_compreplace.aon^im_menui_update.png^^01007514^BM^Component_Item_Replacement^12.0^^
 		Paramètres^0000002840^G^^^im_node_col.png^^01007514^BM^^12.0^^
-			Paramètres de l'Application^BMS_PARAMS^T^BMS_PARAMS^^im_menui_parameter.png^^01007514^AD^^12.0^^
+			Paramètres de l'Application^BMS_PARAMS^T^BMS_PARAMS^^im_menui_parameter.png^^01007514^AD^Parameter_Maintenance2^12.0^^
 	Services^BMMENU_UTILITIES^G^^^im_menua_miscellaneous.png^N^01007514^BM^^12.0^^
-		Rapports d'Exception de Données^BMR_DTLEXCEPT^T^BMR_DTLEXCEPT^^im_menui_report.png^^01007514^BM^^12.0^^
+		Rapports d'Exception de Données^BMR_DTLEXCEPT^T^BMR_DTLEXCEPT^^im_menui_report.png^^01007514^BM^Detail_Exception_Report^12.0^^
 Livre Comptable^GLMENU^M^^^im_menua_gen_ledger.png^N^01007514^GL^General_Ledger_Main_Menu^12.0^^
 	Saisie Journal^GLE_JRNLHDR^T^GLE_JRNLHDR^^im_menui_table.png^N^01007514^GL^Journal_Entry7^12.0^^
 	Registre de Saisie Journal^GLR_JOURNAL^A^^[+DIR_PGM]glr_journal.aon^im_menui_report.png^N^01007514^GL^Journal_Entry_Register7^12.0^^
@@ -211,11 +211,11 @@ Livre Comptable^GLMENU^M^^^im_menua_gen_ledger.png^N^01007514^GL^General_Ledger_
 			Colonnes D'Affichage Par Défault^GLS_COLUMNS^T^GLS_COLUMNS^^im_menui_parameter.png^N^01007514^GL^Default_Display_Columns^12.0^^
 	Services^GLMENU_UTILITIES^G^^^im_node_col.png^N^01007514^GL^GL_Utilities_Main_Menu^12.0^^
 		Copie Tableau des Comptes^GLX_COPYCHART^T^GLX_COPYCHART^^im_menui_utility.png^N^01007514^GL^Copy_Chart_of_Accounts^12.0^^
-		Intitulé du Rapport^GLM_FINHEADING^T^GLM_FINHEADING^^im_menui_table.png^N^01007514^GL^Report_Heading7^12.0^^
+		Intitulé du Rapport^GLM_FINHEADING^T^GLM_FINHEADING^^im_menui_table.png^^01007514^GL^Report_Heading7^12.0^^
 Contrôle d'Inventaire^IVMENU^M^^^im_menua_inventory.png^N^01007514^IV^Inventory_Control_Main_Menu^12.0^^
 	Saisie de Transaction d'Inventaire^IVE_TRANSHDR^T^IVE_TRANSHDR^^im_menui_table.png^N^01007514^IV^Inventory_Transaction_Entry^12.0^^
 	Registre de Transaction d'Inventaire^IVR_TRANSREG^A^^[+DIR_PGM]ivr_transregister.aon^im_menui_report.png^N^01007514^IV^Inventory_Transaction_Register^12.0^^
-	Saisie de Transfert d'Inventaire^IVE_TRANSFER^T^IVE_TRANSFER^^im_menui_table.png^N^01007514^IV^Inventory_Transfer_Entry^12.0^^
+	Saisie de Transfert d'Inventaire^IVE_TRANSFER^T^IVE_TRANSFER^^im_menui_table.png^^01007514^IV^Inventory_Transfer_Entry^12.0^^
 	Registre de Transfert d'Inventaire^IVR_TRANSFER^A^^ivr_transferreg.aon^im_menui_report.png^N^01007514^IV^Inventory_Transfer_Register^12.0^^
 	Variations des Coûts^IVMENU_COSTS^G^^^im_menua_miscellaneous.png^N^01007514^IV^Cost_Changes_Menu^12.0^^
 		Saisie de Variation de Coût^IVE_COSTCHG^T^IVE_COSTCHG^ive_ga.aon^im_menui_table.png^N^01007514^IV^Cost_Change_by_Percentage^12.0^^
@@ -280,7 +280,6 @@ Contrôle d'Inventaire^IVMENU^M^^^im_menua_inventory.png^N^01007514^IV^Inventory
 		Reconstitution des Quantitées Allouées^IVX_COMMITTED^A^^[+DIR_PGM]ivx_committed.aon^im_menui_utility.png^N^01007514^IV^Rebuild_Item_Committed_Quantities^12.0^^
 		Reconstitution des Quantitées En Commande^IVX_ONORDER^A^^[+DIR_PGM]ivx_onorder.aon^im_menui_utility.png^N^01007514^IV^Rebuild_Item_On_Order_Quantities^12.0^^
 		Reconstitution des Soldes Initiaux^IVX_BEGBALS^T^IVX_BEGBALS^^im_menui_utility.png^N^01007514^IV^Rebuild_Trans_Beginning_Balances^12.0^^
-		Reconstitution du Solde Initial Mensuel Récapitulatif^IVX_REBUILD_SUMM_BAL^A^^[+DIR_PGM]ivx_rebuild_summ_bal.aon^im_menui_utility.png^^01007514^IV^^12.0^^
 		Services Niveau DEPS/PEPS^IVX_LFTIER_UTIL^T^IVX_LFTIER_UTIL^^im_menui_utility.png^^01007514^IV^LIFO_FIFO_Tier_Maintenance^12.0^^
 		Copier les Articles vers un Autre Entrepôt^IVX_COPYITEM^T^IVX_COPYITEM^^im_menui_utility.png^N^01007514^IV^Copy_Items_to_Another_Warehouse^12.0^^
 		Réévaluer les Coûts Unitaires^IVX_REBUILDCOSTS^A^^[+DIR_PGM]ivx_rebuildcosts.aon^im_menui_utility.png^N^01007514^IV^Rebuild_Unit_Costs^12.0^^
@@ -306,68 +305,66 @@ Planification des Besoins en Matériels^MPMENU^M^^^im_menua_material_plan.png^N^
 		Suivi du Calendrier de Prévisions^MPM_DA^T^^mpm_da.aon^im_menui_table.png^N^01007514^MP^^12.0^^
 Bulletins de Paie^PRMENU^M^^^im_menua_payroll.png^N^01007514^PR^^12.0^^
 	Traitement Quotidien^PRMENU_DAILYPROC^G^^^im_menua_miscellaneous.png^N^01007514^PR^^12.0^^
-		Définition de la Période de Paie^PRE_AA^T^^pre_aa.aon^im_menui_table.png^N^01007514^PR^^12.0^^
-		Saisie du Bulletin de Paie^PRE_BA^T^^pre_ba.aon^im_menui_table.png^N^01007514^PR^^12.0^^
-		Rapport de Saisie des Bénéfices^PRR_CA^T^^prr_ca.aon^im_menui_report.png^N^01007514^PR^^12.0^^
-		Registre des Bénéfices^PRR_AA^T^^prr_aa.aon^im_menui_report.png^N^01007514^PR^^12.0^^
-		Rapport de Distribution^PRR_EA^T^^prr_ea.aon^im_menui_report.png^N^01007514^PR^^12.0^^
-		Calcul de Paie^PRU_AA^T^^pru_aa.aon^im_menui_update.png^N^01007514^PR^^12.0^^
-		Rapport d'Ajustement^PRR_BA^T^^prr_ba.aon^im_menui_report.png^N^01007514^PR^^12.0^^
-		Rapport d'Exception^PRR_YA^T^^prr_ya.aon^im_menui_report.png^N^01007514^PR^^12.0^^
-		Rapport de Données^PRR_XA^T^^prr_xa.aon^im_menui_report.png^N^01007514^PR^^12.0^^
-		Rapport de Distribution du GL^PRR_TA^T^^prr_ta.aon^im_menui_report.png^N^01007514^PR^^12.0^^
-		Rapport de Pré-Vérification^PRR_FA^T^^prr_fa.aon^im_menui_report.png^N^01007514^PR^^12.0^^
-		Impression de Chèque^PRR_GA^T^^prr_ga.aon^im_menui_report.png^N^01007514^PR^^12.0^^
-		Registre de Chèques^PRR_HA^T^^prr_ha.aon^im_menui_report.png^N^01007514^PR^^12.0^^
+		Définition de la Période de Paie^PRE_AA^A^^adx_v6leadin.aon -- PRE.AA^im_menui_table.png^^01007514^PR^^12.0^^
+		Saisie du Bulletin de Paie^PRE_BA^A^^adx_v6leadin.aon -- PRE.BA^im_menui_table.png^^01007514^PR^^12.0^^
+		Rapport de Saisie des Bénéfices^PRR_CA^A^^adx_v6leadin.aon -- PRR.0A^im_menui_report.png^^01007514^PR^^12.0^^
+		Registre des Bénéfices^PRR_AA^A^^adx_v6leadin.aon -- PRR.AA^im_menui_report.png^^01007514^PR^^12.0^^
+		Rapport de Distribution^PRR_EA^A^^adx_v6leadin.aon -- PRR.3A^im_menui_report.png^^01007514^PR^^12.0^^
+		Calcul de Paie^PRU_AA^A^^adx_v6leadin.aon -- PRU.AA^im_menui_update.png^^01007514^PR^^12.0^^
+		Rapport d'Ajustement^PRR_BA^A^^adx_v6leadin.aon -- PRR.BA^im_menui_report.png^^01007514^PR^^12.0^^
+		Rapport d'Exception^PRR_YA^A^^adx_v6leadin.aon -- PRR.YA^im_menui_report.png^^01007514^PR^^12.0^^
+		Rapport de Données^PRR_XA^A^^adx_v6leadin.aon -- PRR.XA^im_menui_report.png^^01007514^PR^^12.0^^
+		Rapport de Distribution du GL^PRR_TA^A^^adx_v6leadin.aon -- PRR.TA^im_menui_report.png^^01007514^PR^^12.0^^
+		Rapport de Pré-Vérification^PRR_FA^A^^adx_v6leadin.aon -- PRR.FA^im_menui_report.png^^01007514^PR^^12.0^^
+		Impression de Chèque^PRR_GA^A^^adx_v6leadin.aon -- PRR.GA^im_menui_report.png^^01007514^PR^^12.0^^
+		Registre de Chèques^PRR_HA^A^^adx_v6leadin.aon -- PRR.HA^im_menui_report.png^^01007514^PR^^12.0^^
 	Saisie Quotidienne^PRMENU_DAILYENT^G^^^im_menua_miscellaneous.png^N^01007514^PR^^12.0^^
-		Saisie Quotidienne^PRE_CA^T^^pre_ca.aon^im_menui_table.png^N^01007514^PR^^12.0^^
-		Registre de Saisie Quotidienne^PRR_UA^T^^prr_ua.aon^im_menui_report.png^N^01007514^PR^^12.0^^
+		Saisie Quotidienne^PRE_CA^A^^adx_v6leadin.aon -- PRE.CA^im_menui_table.png^^01007514^PR^^12.0^^
+		Registre de Saisie Quotidienne^PRR_UA^A^^adx_v6leadin.aon -- PRR.UA^im_menui_report.png^^01007514^PR^^12.0^^
 	Traitement Périodique^PRMENU_PERPROC^G^^^im_menua_miscellaneous.png^N^01007514^PR^^12.0^^
-		Rapport de l'Historique de Distribution des Paies^PRR_IA^T^^prr_ia.aon^im_menui_report.png^N^01007514^PR^^12.0^^
-		Rapport de Vérification Mensuelle^PRR_JA^T^^prr_ja.aon^im_menui_report.png^N^01007514^PR^^12.0^^
-		Mise à Jour Mensuelle^PRU_DA^T^^pru_da.aon^im_menui_update.png^N^01007514^PR^^12.0^^
-		Rapport d'Etat des Bénéfices^PRR_RA^T^^prr_ra.aon^im_menui_report.png^N^01007514^PR^^12.0^^
-		Rapport d'Etat des Déductions^PRR_MA^T^^prr_ma.aon^im_menui_report.png^N^01007514^PR^^12.0^^
-		Rapport d'Etat Fiscal^PRR_KA^T^^prr_ka.aon^im_menui_report.png^N^01007514^PR^^12.0^^
-		Rapport d'Etat des Contributions^PRR_LA^T^^prr_la.aon^im_menui_report.png^N^01007514^PR^^12.0^^
-		Rapport d'Etat de Comptatbilité d'Exercice^PRR_NA^T^^prr_na.aon^im_menui_report.png^N^01007514^PR^^12.0^^
-		Rapport de l'Historique de Chèques de Paie^PRR_DA^T^^prr_da.aon^im_menui_report.png^N^01007514^PR^^12.0^^
-		Rapport de l'Historique des Bénéfices^PRR_WA^T^^prr_wa.aon^im_menui_report.png^N^01007514^PR^^12.0^^
-		Rapport de l'Historique d'Union^PRR_VA^T^^prr_va.aon^im_menui_report.png^N^01007514^PR^^12.0^^
-		Liste des Dates de Paies^PRR_SA^T^^prr_sa.aon^im_menui_report.png^N^01007514^PR^^12.0^^
+		Rapport de l'Historique de Distribution des Paies^PRR_IA^A^^adx_v6leadin.aon -- PRR.IA^im_menui_report.png^^01007514^PR^^12.0^^
+		Rapport de Vérification Mensuelle^PRR_JA^A^^adx_v6leadin.aon -- PRR.JA^im_menui_report.png^^01007514^PR^^12.0^^
+		Mise à Jour Mensuelle^PRU_DA^A^^adx_v6leadin.aon -- PRU.DA^im_menui_update.png^^01007514^PR^^12.0^^
+		Rapport d'Etat des Bénéfices^PRR_RA^A^^adx_v6leadin.aon -- PRR.RA^im_menui_report.png^^01007514^PR^^12.0^^
+		Rapport d'Etat des Déductions^PRR_MA^A^^adx_v6leadin.aon -- PRR.MA^im_menui_report.png^^01007514^PR^^12.0^^
+		Rapport d'Etat Fiscal^PRR_KA^A^^adx_v6leadin.aon -- PRR.KA^im_menui_report.png^^01007514^PR^^12.0^^
+		Rapport d'Etat des Contributions^PRR_LA^A^^adx_v6leadin.aon -- PRR.LA^im_menui_report.png^^01007514^PR^^12.0^^
+		Rapport d'Etat de Comptatbilité d'Exercice^PRR_NA^A^^adx_v6leadin.aon -- PRR.NA^im_menui_report.png^^01007514^PR^^12.0^^
+		Rapport de l'Historique de Chèques de Paie^PRR_DA^A^^adx_v6leadin.aon -- PRR.2A^im_menui_report.png^^01007514^PR^^12.0^^
+		Rapport de l'Historique des Bénéfices^PRR_WA^A^^adx_v6leadin.aon -- PRR.WA^im_menui_report.png^^01007514^PR^^12.0^^
+		Rapport de l'Historique d'Union^PRR_VA^A^^adx_v6leadin.aon -- PRR.VA^im_menui_report.png^^01007514^PR^^12.0^^
+		Liste des Dates de Paies^PRR_SA^A^^adx_v6leadin.aon -- PRR.SA^im_menui_report.png^^01007514^PR^^12.0^^
 		Traitement W-2^PRMENU_W2^G^^^im_menua_miscellaneous.png^N^01007514^PR^^12.0^^
-			Configuration W-2^PRW_AA^T^^prw_aa.aon^im_menui_table.png^N^01007514^PR^^12.0^^
-			Liste des Configurations W-2^PRW_KA^T^^prw_ka.aon^im_menui_report.png^N^01007514^PR^^12.0^^
-			Copier/Eliminer la Configuration W-2^PRW_BA^T^^prw_ba.aon^im_menui_utility.png^N^01007514^PR^^12.0^^
-			Totaux Annuels d'Archive^PRM_YA^T^^prm_ya.aon^im_menui_utility.png^N^01007514^PR^^12.0^^
-			Calcul W-2^PRW_CA^T^^prw_ca.aon^im_menui_update.png^N^01007514^PR^^12.0^^
-			Export de Données de W-2 Vers un Fichier Texte^PRX_YA^T^^prx_ya.aon^im_menui_update.png^N^01007514^PR^^12.0^^
-		Mise à Jour Annuelle^PRU_EA^T^^pru_ea.aon^im_menui_update.png^N^01007514^PR^^12.0^^
+			Configuration W-2^PRW_AA^A^^adx_v6leadin.aon -- PRW.AA^im_menui_table.png^^01007514^PR^^12.0^^
+			Liste des Configurations W-2^PRW_KA^A^^adx_v6leadin.aon -- PRW.KA^im_menui_report.png^^01007514^PR^^12.0^^
+			Copier/Eliminer la Configuration W-2^PRW_BA^A^^adx_v6leadin.aon -- PRW.BA^im_menui_utility.png^^01007514^PR^^12.0^^
+			Totaux Annuels d'Archive^PRM_YA^A^^adx_v6leadin.aon -- PRM.YA^im_menui_utility.png^^01007514^PR^^12.0^^
+			Calcul W-2^PRW_CA^A^^adx_v6leadin.aon -- PRW.CA^im_menui_update.png^^01007514^PR^^12.0^^
+			Export de Données de W-2 Vers un Fichier Texte^PRX_YA^A^^adx_v6leadin.aon -- PRX.YA^im_menui_update.png^^01007514^PR^^12.0^^
+		Mise à Jour Annuelle^PRU_EA^A^^adx_v6leadin.aon -- PRU.EA^im_menui_update.png^^01007514^PR^^12.0^^
 	Rapports^PRMENU_REPORTS^G^^^im_menua_miscellaneous.png^N^01007514^PR^^12.0^^
-		Liste des Données des Employés^PRM_EMPLDET^T^PRM_EMPLPAY^^im_menui_report.png^N^01007514^PR^^12.0^^
-		Liste des Fiches d'Employé^PRM_EMPLLIST^T^PRM_EMPLPAY^^im_menui_report.png^N^01007514^PR^^12.0^^
-		Rapport de Référence Croisée des Employés^PRM_EMPLXREF^T^PRM_EMPLPAY^^im_menui_report.png^N^01007514^PR^^12.0^^
-		Etiquettes Employé^PRM_EMPLLABEL^T^PRM_EMPLPAY^^im_menui_report.png^N^01007514^PR^^12.0^^
+		Liste des Données des Employés^PRM_EMPLDET^A^PRM_EMPLPAY^adx_v6leadin.aon -- PRR.ZA^im_menui_report.png^^01007514^PR^^12.0^^
+		Liste des Fiches d'Employé^PRM_EMPLLIST^A^PRM_EMPLPAY^adx_v6leadin.aon -- PRR.QA^im_menui_report.png^^01007514^PR^^12.0^^
+		Rapport de Référence Croisée des Employés^PRM_EMPLXREF^A^PRM_EMPLPAY^adx_v6leadin.aon -- PRR.OA^im_menui_report.png^^01007514^PR^^12.0^^
+		Etiquettes Employé^PRM_EMPLLABEL^A^PRM_EMPLPAY^adx_v6leadin.aon -- PRR.PA^im_menui_report.png^^01007514^PR^^12.0^^
 	Suivi^PRMENU_MAINT^G^^^im_menua_miscellaneous.png^N^01007514^PR^^12.0^^
-		Employés^PRM_EMPLMAST^T^PRM_EMPLMAST^^im_menui_table.png^N^01007514^PR^^12.0^^
-		Codes de Contribution^PRC_CONTCODE^T^PRC_CONTCODE^^im_menui_table.png^N^01007514^PR^^12.0^^
-		Codes de Department^PRC_DEPTCODE^T^PRC_DEPTCODE^^im_menui_table.png^N^01007514^PR^^12.0^^
-		Codes de Déduction^PRC_DDCTCODE^T^PRC_DDCTCODE^^im_menui_table.png^N^01007514^PR^^12.0^^
-		Distribution du Travail^PRC_DISTCODE^T^PRC_PAYCODE^^im_menui_table.png^N^01007514^PR^^12.0^^
-		Codes de Paie^PRC_PAYCODE^T^PRC_PAYCODE^^im_menui_table.png^N^01007514^PR^^12.0^^
-		Codes de Rapport^PRC_RPRTCODE^T^PRC_RPRTCODE^^im_menui_table.png^N^01007514^PR^^12.0^^
-		Codes Fiscaux^PRC_TAXCODE^T^PRC_TAXCODE^^im_menui_table.png^N^01007514^PR^^12.0^^
-		Tables d'Impôts^PRC_TAXTABLE^T^PRC_TAXTABLE^^im_menui_table.png^N^01007514^PR^^12.0^^
-		Codes de Titre^PRC_TITLCODE^T^PRC_TITLCODE^^im_menui_table.png^N^01007514^PR^^12.0^^
-		Codes de Totaux^PRC_TOTLCODE^T^PRC_TOTLCODE^^im_menui_table.png^N^01007514^PR^^12.0^^
-		Code Union^PRC_UNNCODE^T^PRC_UNNCODE^prm_ja.aon^im_menui_table.png^N^01007514^PR^^12.0^^
+		Employés^PRM_EMPLMAST^A^PRM_EMPLMAST^adx_v6leadin.aon -- PRM.MA^im_menui_table.png^^01007514^PR^^12.0^^
+		Codes de Contribution^PRC_CONTCODE^A^PRC_CONTCODE^adx_v6leadin.aon -- PRM.DA^im_menui_table.png^^01007514^PR^^12.0^^
+		Codes de Department^PRC_DEPTCODE^A^PRC_DEPTCODE^adx_v6leadin.aon -- PRM.EA^im_menui_table.png^^01007514^PR^^12.0^^
+		Codes de Déduction^PRC_DDCTCODE^A^PRC_DDCTCODE^adx_v6leadin.aon -- PRM.BA^im_menui_table.png^^01007514^PR^^12.0^^
+		Distribution du Travail^PRC_DISTCODE^A^PRC_PAYCODE^adx_v6leadin.aon -- PRM.LA^im_menui_table.png^^01007514^PR^^12.0^^
+		Codes de Paie^PRC_PAYCODE^A^PRC_PAYCODE^adx_v6leadin.aon -- PRM.AA^im_menui_table.png^^01007514^PR^^12.0^^
+		Codes de Rapport^PRC_RPRTCODE^A^PRC_RPRTCODE^adx_v6leadin.aon -- PRM.HA^im_menui_table.png^^01007514^PR^^12.0^^
+		Codes Fiscaux^PRC_TAXCODE^A^PRC_TAXCODE^adx_v6leadin.aon -- PRM.CA^im_menui_table.png^^01007514^PR^^12.0^^
+		Tables d'Impôts^PRC_TAXTABLE^A^PRC_TAXTABLE^adx_v6leadin.aon -- PRM.IA^im_menui_table.png^^01007514^PR^^12.0^^
+		Codes de Titre^PRC_TITLCODE^A^PRC_TITLCODE^adx_v6leadin.aon -- PRM.FA^im_menui_table.png^^01007514^PR^^12.0^^
+		Codes de Totaux^PRC_TOTLCODE^A^PRC_TOTLCODE^adx_v6leadin.aon -- PRM.GA^im_menui_table.png^^01007514^PR^^12.0^^
+		Code Union^PRC_UNNCODE^A^PRC_UNNCODE^adx_v6leadin.aon -- PRM.JA^im_menui_table.png^^01007514^PR^^12.0^^
 		Paramètres^PRMENU_MPARAMS^G^^^im_node_col.png^N^01007514^PR^^12.0^^
-			Paramètres de l'Application^PRS_PARAMS^T^PRS_PARAMS^^im_menui_parameter.png^N^01007514^PR^^12.0^^
-			Paramètres du Rapport^PRS_REPORT^T^PRS_REPORT^^im_menui_parameter.png^N^01007514^PR^^12.0^^
-		Saisie de Conversion d'Employé^PRX_EMPLCONV^T^PRX_EMPLCONV^^im_menui_table.png^N^01007514^PR^^12.0^^
+			Paramètres de l'Application^PRS_PARAMS^A^PRS_PARAMS^adx_v6leadin.aon -- PRP.AA^im_menui_parameter.png^^01007514^PR^^12.0^^
 	Services^PRMENU_UTILITIES^G^^^im_menua_miscellaneous.png^N^01007514^PR^^12.0^^
-		Reconstitution des Références Croisées^PR_BLDXREF^A^^^im_menui_utility.png^N^01007514^PR^^12.0^^
-		Mise à Jour des Tables d'Impôts pour la Nouvelle Année^PRX_TAXTABLE^T^^PRX_TAXTABLE^im_menui_update.png^N^01007514^PR^^12.0^^
+		Reconstitution des Références Croisées^PR_BLDXREF^A^^adx_v6leadin.aon -- PRX.BA^im_menui_utility.png^^01007514^PR^^12.0^^
+		Mise à Jour des Tables d'Impôts pour la Nouvelle Année^PRX_TAXTABLE^A^^adx_v6leadin.aon -- PRX.TA^im_menui_update.png^^01007514^PR^^12.0^^
 Traitement de Bon de Commande^POMENU^M^^^im_menua_purch_orders.png^N^01007514^PO^Purchase_Order_Processing^12.0^^
 	Options de Sélection de Réapprovisionnement^POE_REPLENSELECT^T^POE_REPLENSELECT^poe_fa.aon^im_menui_table.png^N^01007514^PO^Replenishment_Selection_Options^12.0^^
 	Registre de Réapprovisionnement^POR_REPLENREG^T^POR_REPLENREG^por_fa.aon^im_menui_report.png^N^01007514^PO^Replenishment_Register^12.0^^
@@ -391,7 +388,7 @@ Traitement de Bon de Commande^POMENU^M^^^im_menua_purch_orders.png^N^01007514^PO
 		Rapport de BdC Facturés/Non Facturés^POR_BILLUNBILL^T^POR_BILLUNBILL^por_ta.aon^im_menui_report.png^N^01007514^PO^Billed_Unbilled_PO_Receipts_Report^12.0^^
 		Variation de Reçu de BdC^POR_RECVARY^T^POR_RECVARY^por_na.aon^im_menui_report.png^N^01007514^PO^PO_Receipt_Variance_Report^12.0^^
 		Variation de Coût de Reçu de BdC^POR_RECVARYCOST^T^POR_RECVARYCOST^por_oa.aon^im_menui_report.png^N^01007514^PO^PO_Receipt_Cost_Variance_Report^12.0^^
-		Historique de Reçus de BdC Par Vendeur^POR_HISTBYVEND^T^POR_HISTBYVEND^por_pa.aon^im_menui_report.png^N^01007514^PO^PO_Receipt_History_By_Vendor_Report^12.0^^
+		Historique de Reçus de BdC Par Vendeur^POR_HISTBYVEND^T^POR_HISTBYVEND^por_pa.aon^im_menui_report.png^^01007514^PO^PO_Receipt_History_By_Vendor_Report^12.0^^
 		Historique de Reçus de BdC Par Article^POR_HISTBYITEM^T^POR_HISTBYITEM^por_qa.aon^im_menui_report.png^N^01007514^PO^PO_Receipt_History_By_Item_Report^12.0^^
 	Suivi^POMENU_MAINT^G^^^im_menua_miscellaneous.png^N^01007514^PO^Purchase_Order_Maintenance_Menu^12.0^^
 		Créer le Calendrier d'Achat^POM_MAKECAL^T^POM_MAKECAL^pom_aa.aon^im_menui_table.png^N^01007514^PO^Create_Purchase_Calendar^12.0^^
@@ -399,9 +396,8 @@ Traitement de Bon de Commande^POMENU^M^^^im_menua_purch_orders.png^N^01007514^PO
 		Impression Calendrier d'Achat^POR_CALENDAR^T^POR_CALENDAR^por_ua.aon^im_menui_report.png^N^01007514^PO^Print_Purchase_Calendar^12.0^^
 		Codes de Bon de Commande^POC_LINECODE^T^POC_LINECODE^ope_ca.aon^im_menui_table.png^N^01007514^PO^Purchase_Order_Line_Code_Maintenance^12.0^^
 		Codes de Message^POC_MSGCODE^T^POC_MSGCODE^^im_menui_table.png^N^01007514^PO^Message_Code_Maintenance^12.0^^
-		Codes de Rejet de Reçu d'AQ^POC_REJCTCOD^T^POC_REJCTCOD^pom_fa.aon^im_menui_table.png^N^01007514^PO^Rejection_Code_Maintenance^12.0^^
 		Paramètres^POMENU_PARAMS^G^^^im_node_col.png^N^01007514^PO^Parameter_Maintenance1^12.0^^
-			Paramètres de l'Application^PO_APP_PARAMS^T^POS_PARAMS^^im_menui_parameter.png^N^01007514^PO^^12.0^^
+			Paramètres de l'Application^PO_APP_PARAMS^T^POS_PARAMS^^im_menui_parameter.png^^01007514^PO^Parameter_Maintenance1^12.0^^
 	Services^POMENU_UTILITIES^G^^^im_menua_miscellaneous.png^N^01007514^PO^^12.0^^
 		Eliminer les Lignes de Données Dissociées^POX_UNLINKED^A^^[+DIR_PGM]pox_unlinked.aon^im_menui_utility.png^N^01007514^PO^^12.0^^
 Analyse des Ventes^SAMENU^M^^^im_menua_sales_analysis.png^N^01007514^SA^Sales_Analysis_Main_Menu^12.0^^
@@ -446,7 +442,7 @@ Traitement des Ventes^OPMENU^M^^^im_menua_order_proc.png^N^01007514^OP^Sales_Ord
 	Registre de Ventes^OPR_SALESREG^T^OPR_SALESREG^^im_menui_report.png^N^01007514^OP^Sales_Register^12.0^^
 	Demande de Devis^OPE_PRICEQUOTE^T^OPE_PRICEQUOTE^opm_pa.aon^im_menui_view.png^N^01007514^OP^Price_Quote_Inquiry^12.0^^
 	Revue de Crédit et Reprise^OPE_CREDREV^T^OPE_CREDREV^opm_qa.aon^im_menui_table.png^N^01007514^OP^Credit_Review_and_Release^12.0^^
-	Demande de l'Historique de Factures^OPT_INVHDR^T^OPT_INVHDR^opt_ta.aon^im_menui_view.png^N^01007514^OP^Invoice_History_Inquiry	^12.0^^
+	Demande de l'Historique de Factures^OPT_INVHDR^T^OPT_INVHDR^opt_ta.aon^im_menui_view.png^^01007514^OP^Invoice_History_Inquiry^12.0^^
 	Rapports^OPMENU_REPORTS^G^^^im_menua_miscellaneous.png^N^01007514^OP^^12.0^^
 		Ouvrir le Rapport de Données de Commande^OPR_OPNORDDETAIL^T^OPR_OPNORDDETAIL^^im_menui_report.png^N^01007514^OP^Open_Order_Detail_Report^12.0^^
 		Rapport d'Etat de Commande Par Client^OPR_CUSTSTATUS^T^OPR_CUSTSTATUS^^im_menui_report.png^N^01007514^OP^Order_Status_Report_By_Customer^12.0^^
@@ -464,10 +460,10 @@ Traitement des Ventes^OPMENU^M^^^im_menua_order_proc.png^N^01007514^OP^Sales_Ord
 		Commerciaux^ARC_SALECODEOP^T^ARC_SALECODE^^im_menui_table.png^N^01007514^OP^Salespersons_Maintenance^12.0^^
 		Codes Territoire^ARC_TERRCODEOP^T^ARC_TERRCODE^^im_menui_table.png^N^01007514^OP^Territory_Codes_Maintenance^12.0^^
 		Codes Fiscaux^OPC_TAXCODE^T^OPC_TAXCODE^^im_menui_table.png^N^01007514^OP^Tax_Codes_Maintenance^12.0^^
-		Code de Réduction sur Vente^OPC_DISCCODE^T^OPC_DISCCODE^opm_ia.aon^im_menui_table.png^N^01007514^OP^Sale_Discount_Code_Maintenance^12.0^^
-		Codes de Message Standard^OPC_MSG_HDR^T^OPC_MSG_HDR^^im_menui_table.png^N^01007514^OP^Standard_Message_Header_Maintenance^12.0^^
-		Facture/ Commande Point de Vente^OPM_POINTOFSALE^T^OPM_POINTOFSALE^^im_menui_table.png^N^01007514^OP^^12.0^^
-		Codes de Prix de Vente Client^OPC_PRICECDS^T^OPC_PRICECDS^^im_menui_table.png^N^01007514^OP^Customer_Price_Code_Maintenance^12.0^^
+		Code de Réduction sur Vente^OPC_DISCCODE^T^OPC_DISCCODE^opm_ia.aon^im_menui_table.png^^01007514^OP^Sale_Discount_Code_Maintenance1^12.0^^
+		Codes de Message Standard^OPC_MSG_HDR^T^OPC_MSG_HDR^^im_menui_table.png^^01007514^OP^Standard_Message_Header_Maintenance1^12.0^^
+		Facture/ Commande Point de Vente^OPM_POINTOFSALE^T^OPM_POINTOFSALE^^im_menui_table.png^^01007514^OP^Order_Invoice_Point_of_Sale^12.0^^
+		Codes de Prix de Vente Client^OPC_PRICECDS^T^OPC_PRICECDS^^im_menui_table.png^^01007514^OP^Customer_Price_Code_Maintenance1^12.0^^
 		Tableaux des Prix^IVC_PRICCODE^T^IVC_PRICCODE^opm_ca.aon^im_menui_table.png^N^01007514^OP^Pricing_Table_Maintenance^12.0^^
 		Etablissement de Prix Contractuel^IVM_ITEMPRIC^T^IVM_ITEMPRIC^^im_menui_table.png^N^01007514^OP^ContractPricing_Maintenance^12.0^^
 		Codes de Termes de Marchandises^OPM_FRTTERMS^T^OPM_FRTTERMS^^im_menui_table.png^N^01007514^OP^Freight_Terms_Code_Maintenance^12.0^^
@@ -479,60 +475,56 @@ Traitement des Ventes^OPMENU^M^^^im_menua_order_proc.png^N^01007514^OP^Sales_Ord
 		Elimination des Lignes de Données Dissociées^OPX_UNLINKED^A^^[+DIR_PGM]opx_unlinked.aon^im_menui_utility.png^N^01007514^OP^^12.0^^
 		Reconstitution du Fichier d'Edition de Commande/Facture^OPX_PRNTFILE^A^^[+DIR_PGM]opx_prntfile.aon^im_menui_utility.png^N^01007514^OP^^12.0^^
 		Totaux des Ventes Mensuelles à ce Jour^OPS_MTDSLSMNT^T^OPS_MTDSLSMNT^^im_menui_utility.png^N^01007514^OP^^12.0^^
-Contôle Niveau Atelier^SFMENU^M^^^im_menua_shop_floor_cont.png^N^01007514^SF^^12.0^^
-	Saisie de Commande de Travail^SFE_AA^T^^sfe_aa.aon^im_menui_table.png^N^01007514^SF^^12.0^^
-	Impression Voyageur^SFR_AA^T^^sfr_aa.aon^im_menui_report.png^N^01007514^SF^^12.0^^
+Contôle Niveau Atelier^SFMENU^M^^^im_menua_shop_floor_cont.png^^01007514^SF^About_the_Shop_Floor_Control_Tasks^12.0^^
+	Saisie de Commande de Travail^SFE_WOMASTR^T^SFE_WOMASTR^sfe_aa.aon^im_menui_table.png^^01007514^SF^Work_Order_Entry^12.0^^
+	Impression Voyageur^SFR_WOTRAV^T^SFR_WOTRAV^^im_menui_report.png^^01007514^SF^Traveler_Printing^12.0^^
 	Saisie d'Engagement de Matériels^SFE_WOMATHDR^T^SFE_WOMATHDR^^im_menui_table.png^^01007514^SF^Materials_Commitment_Entry^12.0^^
-	Impression de Liste de Préparation^SFR_BA^T^^sfr_ba.aon^im_menui_report.png^N^01007514^SF^^12.0^^
-	Demande de Répartition^SFE_HA^T^^sfe_ha.aon^im_menui_table.png^N^01007514^SF^^12.0^^
-	Demande de Charge (de Travail)^SFM_HA^T^^sfm_ha.aon^im_menui_table.png^N^01007514^SF^^12.0^^
-	Traitement de Transaction^SFMENU_TRANS^G^^^im_menua_miscellaneous.png^N^01007514^SF^^12.0^^
-		Créer des Demandes D'Achat^SFU_IA^T^^sfu_ia.aon^im_menui_table.png^N^01007514^SF^^12.0^^
-		Saisie de Problèmes de Matériels^SFE_WOMATISH^T^SFE_WOMATISH^^im_menui_table.png^N^01007514^SF^^12.0^^
-		Registre des Problèmes de Matériels^SFR_DA^A^^[+DIR_PGM]sfr_womatissu.aon^im_menui_report.png^N^01007514^SF^^12.0^^
-		Saisie de Relevé de Temps^SFE_BA^A^^[+DIR_PGM]sfe_timesheet.aon^im_menui_table.png^N^01007514^SF^^12.0^^
-		Registre de Relevé de Temps^SFR_CA^A^^[+DIR_PGM]sfr_timesheet.aon^im_menui_report.png^^01007514^SF^^12.0^^
-		Saisie d'Ajustement du Coût^SFE_FA^T^^sfe_fa.aon^im_menui_table.png^N^01007514^SF^^12.0^^
-		Registre d'Ajustement du Coût^SFR_LA^T^^sfr_la.aon^im_menui_report.png^N^01007514^SF^^12.0^^
-		Sasie de Données de Fermeture de Commande de Travail^SFE_EA^T^^sfe_ea.aon^im_menui_table.png^N^01007514^SF^^12.0^^
-		Rapport De Données de Fermeture de Commande de Travail^SFR_CLOSEDWO^T^^sfr_ea.aon^im_menui_report.png^N^01007514^SF^^12.0^^
-		Registre de Récapitulatif de Fermeture de Commande de Travail^SFR_KA^T^^sfr_ka.aon^im_menui_report.png^N^01007514^SF^^12.0^^
-	Rapports^SFMENU_REPORTS^G^^^im_menua_miscellaneous.png^N^01007514^SF^^12.0^^
-		Rapport Principal de Commande de Travail^SFR_GA^T^^sfr_ga.aon^im_menui_report.png^N^01007514^SF^^12.0^^
-		Rapport de Répartition Niveau Atelier^SFR_PA^T^^sfr_pa.aon^im_menui_report.png^N^01007514^SF^^12.0^^
-		Rapport d'Exception de Production^SFR_SA^T^^sfr_sa.aon^im_menui_report.png^N^01007514^SF^^12.0^^
-		Rapport d'Analyse des Facteurs de Blocage^SFR_TA^T^^sfr_ta.aon^im_menui_report.png^N^01007514^SF^^12.0^^
-		Rapport d'Analyse d'Efficacité du Travail^SFR_FA^T^^sfr_fa.aon^im_menui_report.png^N^01007514^SF^^12.0^^
-		Rapport d'Analyse De Variation de Coût^SFR_HA^T^^sfr_ha.aon^im_menui_report.png^N^01007514^SF^^12.0^^
-		Rapport d'Analyse de Date^SFR_NA^T^^sfr_na.aon^im_menui_report.png^N^01007514^SF^^12.0^^
-		Rapport de Données de Commande de Travail^SFR_IA^T^^sfr_ia.aon^im_menui_report.png^N^01007514^SF^^12.0^^
-		Rapport de l'Historique de Transaction de Commande de Travail^SFR_JA^T^^sfr_ja.aon^im_menui_report.png^N^01007514^SF^^12.0^^
-		Rapport de Matériels Alloués aux Commandes de Travaux^SFR_MA^T^^sfr_ma.aon^im_menui_report.png^N^01007514^SF^^12.0^^
-		Récapitulatif d'Etat de Tâche de Commande de Travail^SFR_VA^T^^sfr_va.aon^im_menui_report.png^N^01007514^SF^^12.0^^
-	Traitement Périodique^SFMENU_PEND^G^^^im_menua_miscellaneous.png^N^01007514^SF^^12.0^^
-		Fermer les Commandes de Travail (CT) Récurrentes^SFU_DA^T^^sfu_da.aon^im_menui_table.png^N^01007514^SF^^12.0^^
-		Rapport de Données de CT Récurrentes Fermées^SFR_EA^T^^sfr_ea.aon^im_menui_report.png^N^01007514^SF^^12.0^^
-		Rapport récapitulatif de CT Récurrentes Fermées^SFR_RA^T^^sfr_ra.aon^im_menui_report.png^N^01007514^SF^^12.0^^
-		Rapport De Variation de Commandes de Travaux Fermée^SFR_OA^T^^sfr_oa.aon^im_menui_report.png^N^01007514^SF^^12.0^^
-		Mise à Jour Périodique^SFU_EA^T^^sfu_ea.aon^im_menui_update.png^N^01007514^SF^^12.0^^
-	Suivi^SFMENU_MAINT^G^^^im_node_col.png^N^01007514^SF^^12.0^^
-		Codes de Type^SFC_WOTYPECD^T^SFC_WOTYPECD^^im_menui_table.png^N^01007514^SF^^12.0^^
-		Codes d'Opération^SFC_OPRTNCOD^T^SFC_OPRTNCOD^^im_menui_table.png^N^01007514^SF^^12.0^^
-		Employés^SFM_EMPLMAST^T^SFM_EMPLMAST^^im_menui_table.png^N^01007514^SF^^12.0^^
-		Créer le Calendrier Niveau Atelier^SFM_CAL_CREATE^T^SFM_CAL_CREATE^sfm_da.aon^im_menui_table.png^^01007514^SF^^12.0^^
-		Suivi du Calendrier Niveau Atelier^SFM_OPCALNDR^A^SFM_OPCALNDR^sfm_calendar.aon^im_menui_table.png^^01007514^SF^^12.0^^
-		Copier le Calendrier Niveau Atelier^SFM_CAL_COPY^T^SFM_CAL_COPY^sfm_ea.aon^im_menui_update.png^^01007514^SF^^12.0^^
-		Imprimer le Calendrier Niveau Atelier^SFR_QA^T^^sfr_qa.aon^im_menui_report.png^N^01007514^SF^^12.0^^
-		Rééchelonnement par Lots des Commandes de Travail^SFR_UA^T^^sfr_ua.aon^im_menui_update.png^N^01007514^SF^^12.0^^
-		Paramètres^SFMENU_PARAMS^G^^^im_node_col.png^^01007514^SF^^12.0^^
-			Paramètres de l'Application^SFS_PARAMS^T^SFS_PARAMS^^im_menui_parameter.png^^01007514^AD^^12.0^^
-			Numéro de Commande de Travail^SFS_NUMBERS^T^SFS_NUMBERS^^im_menui_parameter.png^^01007514^AD^^12.0^^
-	Services^SFMENU_UTILITIES^G^^^im_menua_miscellaneous.png^N^01007514^SF^^12.0^^
-		Reconstitution des Références Croisées^SF_BLDXREF^A^^^im_menui_utility.png^N^01007514^SF^^12.0^^
-		Reconstitution des Références Croisées de BdC^SF_BLDXREFPO^T^^^im_menui_utility.png^N^01007514^SF^^12.0^^
-		Reconstitution des Références Croisées de l'Employé^SF_BLDXREFEMP^T^^^im_menui_utility.png^N^01007514^SF^^12.0^^
-		Saisie Commande de Travail de Conversion^SF_WOENTRY^T^^^im_menui_table.png^N^01007514^SF^^12.0^^
-		Registre de Commande de Travail de Conversion^SF_WOREGISTER^T^^^im_menui_report.png^N^01007514^SF^^12.0^^
+	Impression de Liste de Préparation^SFR_PICKLIST^T^SFR_PICKLIST^^im_menui_report.png^^01007514^SF^Pick_List_Printing^1.0^^
+	Demande de Répartition^SFE_DISPATCHINQ^T^SFE_DISPATCHINQ^sfe_ha.aon^im_menui_table.png^^01007514^SF^Dispatch_Inquiry^12.0^^
+	Demande de Charge (de Travail)^SFE_LOADBAL^T^SFE_LOADBAL^sfm_ha.aon^im_menui_table.png^^01007514^SF^Load_Balance_Inquiry^1.0^^
+	Traitement de Transaction^SFMENU_TRANS^G^^^im_node_col.png^^01007514^SF^Shop_Floor_Transaction_Processing^12.0^^
+		Créer des Demandes D'Achat^SFU_CREATEPOREQ^T^SFU_CREATEPOREQ^^im_menui_update.png^^01007514^SF^Create_Purchase_Requisitions^12.0^^
+		Saisie de Problèmes de Matériels^SFE_WOMATISH^T^SFE_WOMATISH^^im_menui_table.png^^01007514^SF^Materials_Issues_Entry^12.0^^
+		Registre des Problèmes de Matériels^SFR_DA^A^^[+DIR_PGM]sfr_womatissu.aon^im_menui_report.png^^01007514^SF^Materials_Issues_Register^12.0^^
+		Saisie de Relevé de Temps^SFE_BA^A^^[+DIR_PGM]sfe_timesheet.aon^im_menui_table.png^^01007514^SF^Time_Sheet_Entry^12.0^^
+		Registre de Relevé de Temps^SFR_CA^A^^[+DIR_PGM]sfr_timesheet.aon^im_menui_report.png^^01007514^SF^Time_Sheet_Register^12.0^^
+		Saisie d'Ajustement du Coût^SFE_WO_COST_ADJ^T^SFE_WO_COST_ADJ^sfe_fa.aon^im_menui_table.png^^01007514^SF^Cost_Adjustment_Entry^1.0^^
+		Registre d'Ajustement du Coût^SFR_LA^A^^[+DIR_PGM]sfr_costadjust.aon^im_menui_report.png^^01007514^SF^Cost_Adjustment_Register^12.0^^
+		Sasie de Données de Fermeture de Commande de Travail^SFE_WOCLOSE^T^SFE_WOCLOSE^^im_menui_table.png^^01007514^SF^Work_Order_Close_Data_Entry^12.0^^
+		Rapport De Données de Fermeture de Commande de Travail^SFR_CLSDWODET^T^SFR_CLSDWODET^^im_menui_report.png^^01007514^SF^Closed_Work_Order_Detail_Report^12.0^^
+		Registre de Récapitulatif de Fermeture de Commande de Travail^SFR_CLSDWOREG^A^^[+DIR_PGM]sfr_clsdworeg.aon^im_menui_report.png^^01007514^SF^Closed_Work_Order_Summary_Register^12.0^^
+	Rapports^SFMENU_REPORTS^G^^^im_node_col.png^^01007514^SF^Shop_Floor_Reports_Menu_Overview^12.0^^
+		Rapport Principal de Commande de Travail^SFR_WOHEADER^T^SFR_WOHEADER^^im_menui_report.png^^01007514^SF^Work_Order_Header_Report^12.0^^
+		Rapport de Répartition Niveau Atelier^SFR_SHPFLRDSPTCH^T^SFR_SHPFLRDSPTCH^sfr_pa.aon^im_menui_report.png^^01007514^SF^Shop_Floor_Dispatch_Report^12.0^^
+		Rapport d'Exception de Production^SFR_PRODEXCEP^T^SFR_PRODEXCEP^sfr_sa.aon^im_menui_report.png^^01007514^SF^Production_Exception_Report^12.0^^
+		Rapport d'Analyse des Facteurs de Blocage^SFR_BOTNECKANA^T^SFR_BOTNECKANA^sfr_ta.aon^im_menui_report.png^^01007514^SF^Bottleneck_Analysis_Report^12.0^^
+		Rapport d'Analyse d'Efficacité du Travail^SFR_LABEFFANAREP^T^SFR_LABEFFANAREP^sfr_fa.aon^im_menui_report.png^^01007514^SF^Labor_Efficiency_Analysis_Report^12.0^^
+		Rapport d'Analyse De Variation de Coût^SFR_WOVARREP^T^SFR_WOVARREP^^im_menui_report.png^^01007514^SF^Cost_Variance_Analysis_Report^12.0^^
+		Rapport d'Analyse de Date^SFR_WORDDATE^T^SFR_WORDDATE^sfr_na.aon^im_menui_report.png^^01007514^SF^Date_Analysis_Report^12.0^^
+		Rapport de Données de Commande de Travail^SFR_WODETRPT^T^SFR_WODETRPT^^im_menui_report.png^^01007514^SF^Work_Order_Detail_Report^12.0^^
+		Rapport de l'Historique de Transaction de Commande de Travail^SFR_WOTRANSHIST^T^SFR_WOTRANSHIST^^im_menui_report.png^^01007514^SF^Work_Order_Transaction_History_Report^12.0^^
+		Rapport de Matériels Alloués aux Commandes de Travaux^SFR_WORDMAT^T^SFR_WORDMAT^sfr_ma.aon^im_menui_report.png^^01007514^SF^Work_Order_Committed_Materials_Report^12.0^^
+		Récapitulatif d'Etat de Tâche de Commande de Travail^SFR_WORDJOBSTAT^T^SFR_WORDJOBSTAT^sfr_va.aon^im_menui_report.png^^01007514^SF^Job_Status_Summary^12.0^^
+	Traitement Périodique^SFMENU_PEND^G^^^im_node_col.png^^01007514^SF^Period_End_Processing^12.0^^
+		Fermer les Commandes de Travail (CT) Récurrentes^SFU_CLOSERECWO^A^^[+DIR_PGM]sfu_closerecwo.aon^im_menui_update.png^^01007514^SF^Close_Recurring_Work_Orders^12.0^^
+		Rapport de Données de CT Récurrentes Fermées^SFR_CLSDRECWODET^T^SFR_CLSDRECWODET^^im_menui_report.png^^01007514^SF^Closed_Recurring_WO_Detail_Report^12.0^^
+		Rapport récapitulatif de CT Récurrentes Fermées^SFR_CLSDRECWOREG^A^^[+DIR_PGM]sfr_clsdrecworeg.aon^im_menui_report.png^^01007514^SF^Closed_Recurring_WO_Summary_Report^12.0^^
+		Rapport De Variation de Commandes de Travaux Fermée^SFR_CLSDWOVAR^T^SFR_CLSDWOVAR^^im_menui_report.png^^01007514^SF^Closed_WO_Variance_Report_by_Period^12.0^^
+		Mise à Jour Périodique^SFU_PERIODEND^A^^[+DIR_PGM]sfu_periodend.aon^im_menui_update.png^^01007514^SF^Period_End_Update2^12.0^^
+	Suivi^SFMENU_MAINT^G^^^im_node_col.png^^01007514^SF^Shop_Floor_Maintenance^12.0^^
+		Codes de Type^SFC_WOTYPECD^T^SFC_WOTYPECD^^im_menui_table.png^^01007514^SF^Type_Codes^12.0^^
+		Codes d'Opération^SFC_OPRTNCOD^T^SFC_OPRTNCOD^^im_menui_table.png^^01007514^SF^Operation_Codes^12.0^^
+		Employés^SFM_EMPLMAST^T^SFM_EMPLMAST^^im_menui_table.png^^01007514^SF^Employees^12.0^^
+		Créer le Calendrier Niveau Atelier^SFM_CAL_CREATE^T^SFM_CAL_CREATE^sfm_da.aon^im_menui_table.png^^01007514^SF^Create_Shop_Floor_Calendar^12.0^^
+		Suivi du Calendrier Niveau Atelier^SFM_OPCALNDR^A^SFM_OPCALNDR^sfm_calendar.aon^im_menui_table.png^^01007514^SF^Shop_Floor_Calendar_Maintenance^12.0^^
+		Copier le Calendrier Niveau Atelier^SFM_CAL_COPY^T^SFM_CAL_COPY^sfm_ea.aon^im_menui_update.png^^01007514^SF^Copy_Shop_Floor_Calendar^12.0^^
+		Imprimer le Calendrier Niveau Atelier^SFR_CALENDAR^T^SFR_CALENDAR^sfr_qa.aon^im_menui_report.png^^01007514^SF^Calendar_Print^12.0^^
+		Rééchelonnement par Lots des Commandes de Travail^SFR_BRESCHWO^T^SFR_BRESCHWO^sfr_ua.aon^im_menui_update.png^^01007514^SF^Batch_Rescheduling_Of_Work_Orders^12.0^^
+		Paramètres^SFMENU_PARAMS^G^^^im_node_col.png^^01007514^SF^Application_Parameters4^12.0^^
+			Paramètres de l'Application^SFS_PARAMS^T^SFS_PARAMS^^im_menui_parameter.png^^01007514^AD^Application_Parameters4^12.0^^
+	Services^SFMENU_UTILITIES^G^^^im_node_col.png^^01007514^SF^Shop_Floor_Control_Utilities^12.0^^
+		Saisie Commande de Travail de Conversion^SFE_WOCONVRN^T^SFE_WOCONVRN^^im_menui_table.png^^01007514^SF^Conversion_Work_Order_Entry^12.0^^
+		Registre de Commande de Travail de Conversion^SFX_WOCONVREG^A^^[+DIR_PGM]sfx_woconvreg.aon^im_menui_report.png^^01007514^SF^Conversion_Work_Order_Register^12.0^^
 Administration AddonSoftware^AONADMIN^M^^^im_menua_system_admin.png^N^01007514^AD^^12.0^^
 	Synthèse^ADS_EXECSUMMARY^A^^ads_execsummary.aon^im_menui_view.png^N^01007514^AD^^12.0^^
 	Mise à Jour de la Synthèse^ADX_EXECSUMMARY^A^^adx_execsummary.aon^im_menui_update.png^N^01007514^AD^^12.0^^
